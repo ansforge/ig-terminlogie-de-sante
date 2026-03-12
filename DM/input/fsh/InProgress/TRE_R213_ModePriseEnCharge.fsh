@@ -3,7 +3,8 @@ Id: TRE-R213-ModePriseEnCharge
 Description: "Mode de la prise en charge"
 * ^meta.versionId = "11"
 * ^meta.lastUpdated = "2025-12-22T10:46:42.186+01:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2015-04-08T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R213-ModePriseEnCharge/FHIR/TRE-R213-ModePriseEnCharge"
@@ -17,7 +18,6 @@ Description: "Mode de la prise en charge"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 59
 * ^property[0].code = #dateValid
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"

@@ -1,8 +1,9 @@
 CodeSystem: TRE_R210_ActeSpecifique
 Id: TRE-R210-ActeSpecifique
 * ^meta.versionId = "29"
-* ^meta.lastUpdated = "2025-12-22T10:46:38.800+01:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
+* ^meta.lastUpdated = "2026-03-30T10:46:38.800+01:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.11"
@@ -534,7 +535,7 @@ Id: TRE-R210-ActeSpecifique
 * #0040 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #0040 ^property[+].code = #status
 * #0040 ^property[=].valueCode = #active
-* #0041 "Biothérapie rhumatismes inflammatoires chroniques"
+* #0041 "Biothérapie des rhumatismes inflammatoires chroniques (polyarthrite rhumatoïde, spondylarthropathies)"
 * #0041 ^designation[0].language = #fr-FR
 * #0041 ^designation[=].use.system = "http://snomed.info/sct"
 * #0041 ^designation[=].use = $sct#900000000000013009
@@ -542,7 +543,7 @@ Id: TRE-R210-ActeSpecifique
 * #0041 ^designation[+].language = #fr-FR
 * #0041 ^designation[=].use.system = "http://snomed.info/sct"
 * #0041 ^designation[=].use = $sct#900000000000013009
-* #0041 ^designation[=].value = "Biothérapie des rhumatismes inflammatoires chroniques (polyarthrite rhumatoïde, spondylarthropathies)"
+* #0041 ^designation[=].value = "Biothérapie rhumatismes inflammatoires chroniques"
 * #0041 ^property[0].code = #dateValid
 * #0041 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #0041 ^property[+].code = #dateMaj
@@ -657,7 +658,7 @@ Id: TRE-R210-ActeSpecifique
 * #0049 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #0049 ^property[+].code = #status
 * #0049 ^property[=].valueCode = #deprecated
-* #0050 "Chirurgie bariatrique majeure : by pass gastrique, sleeve gastrectomie"
+* #0050 "Chirurgie bariatrique (de l'obésité) majeure : by pass gastrique, sleeve gastrectomie"
 * #0050 ^designation[0].language = #fr-FR
 * #0050 ^designation[=].use.system = "http://snomed.info/sct"
 * #0050 ^designation[=].use = $sct#900000000000013009
@@ -665,7 +666,7 @@ Id: TRE-R210-ActeSpecifique
 * #0050 ^designation[+].language = #fr-FR
 * #0050 ^designation[=].use.system = "http://snomed.info/sct"
 * #0050 ^designation[=].use = $sct#900000000000013009
-* #0050 ^designation[=].value = "Chirurgie bariatrique (de l'obésité) majeure : by pass gastrique, sleeve gastrectomie"
+* #0050 ^designation[=].value = "Chirurgie bariatrique majeure : by pass gastrique, sleeve gastrectomie"
 * #0050 ^property[0].code = #dateValid
 * #0050 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #0050 ^property[+].code = #dateFin
@@ -891,7 +892,7 @@ Id: TRE-R210-ActeSpecifique
 * #0067 ^property[=].valueDateTime = "2022-06-24T12:00:00+01:00"
 * #0067 ^property[+].code = #status
 * #0067 ^property[=].valueCode = #deprecated
-* #0068 "Chirurgie SOS main (Agrément FESUM)"
+* #0068 "Chirurgie SOS main (Agrément FESUM Fédération européenne des services d'urgence de la main)"
 * #0068 ^designation[0].language = #fr-FR
 * #0068 ^designation[=].use.system = "http://snomed.info/sct"
 * #0068 ^designation[=].use = $sct#900000000000013009
@@ -899,14 +900,14 @@ Id: TRE-R210-ActeSpecifique
 * #0068 ^designation[+].language = #fr-FR
 * #0068 ^designation[=].use.system = "http://snomed.info/sct"
 * #0068 ^designation[=].use = $sct#900000000000013009
-* #0068 ^designation[=].value = "Chirurgie SOS main (Agrément FESUM Fédération européenne des services d'urgence de la main)"
+* #0068 ^designation[=].value = "Chirurgie SOS main (Agrément FESUM)"
 * #0068 ^property[0].code = #dateValid
 * #0068 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #0068 ^property[+].code = #dateMaj
 * #0068 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #0068 ^property[+].code = #status
 * #0068 ^property[=].valueCode = #active
-* #0069 "Chirurgie embolie pulmonaire et HTAP post-embolique"
+* #0069 "Chirurgie de la maladie thrombo-embolique pulmonaire aiguë (EP) et chronique (HTAP post-embolique)"
 * #0069 ^designation[0].language = #fr-FR
 * #0069 ^designation[=].use.system = "http://snomed.info/sct"
 * #0069 ^designation[=].use = $sct#900000000000013009
@@ -914,7 +915,7 @@ Id: TRE-R210-ActeSpecifique
 * #0069 ^designation[+].language = #fr-FR
 * #0069 ^designation[=].use.system = "http://snomed.info/sct"
 * #0069 ^designation[=].use = $sct#900000000000013009
-* #0069 ^designation[=].value = "Chirurgie de la maladie thrombo-embolique pulmonaire aiguë (EP) et chronique (HTAP post-embolique)"
+* #0069 ^designation[=].value = "Chirurgie embolie pulmonaire et HTAP post-embolique"
 * #0069 ^property[0].code = #dateValid
 * #0069 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #0069 ^property[+].code = #dateMaj
@@ -1091,7 +1092,7 @@ Id: TRE-R210-ActeSpecifique
 * #0083 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
 * #0083 ^property[+].code = #status
 * #0083 ^property[=].valueCode = #active
-* #0084 "Chirurgie malformations congénitales cardiaques et vaisseaux supra cardiaques"
+* #0084 "Chirurgie des malformations congénitales cardiaques et des vaisseaux supra cardiaques"
 * #0084 ^designation[0].language = #fr-FR
 * #0084 ^designation[=].use.system = "http://snomed.info/sct"
 * #0084 ^designation[=].use = $sct#900000000000013009
@@ -1099,7 +1100,7 @@ Id: TRE-R210-ActeSpecifique
 * #0084 ^designation[+].language = #fr-FR
 * #0084 ^designation[=].use.system = "http://snomed.info/sct"
 * #0084 ^designation[=].use = $sct#900000000000013009
-* #0084 ^designation[=].value = "Chirurgie des malformations congénitales cardiaques et des vaisseaux supra cardiaques"
+* #0084 ^designation[=].value = "Chirurgie malformations congénitales cardiaques et vaisseaux supra cardiaques"
 * #0084 ^property[0].code = #dateValid
 * #0084 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #0084 ^property[+].code = #dateMaj
@@ -1150,7 +1151,7 @@ Id: TRE-R210-ActeSpecifique
 * #0088 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #0088 ^property[+].code = #status
 * #0088 ^property[=].valueCode = #active
-* #0089 "Chir tumeurs base du crâne, mâchoires et cou (dont angiome, dysplasie cutanée)"
+* #0089 "Chirurgie des tumeurs de la base du crâne, des mâchoires et du cou (dont angiome, dysplasie cutanée)"
 * #0089 ^designation[0].language = #fr-FR
 * #0089 ^designation[=].use.system = "http://snomed.info/sct"
 * #0089 ^designation[=].use = $sct#900000000000013009
@@ -1158,7 +1159,7 @@ Id: TRE-R210-ActeSpecifique
 * #0089 ^designation[+].language = #fr-FR
 * #0089 ^designation[=].use.system = "http://snomed.info/sct"
 * #0089 ^designation[=].use = $sct#900000000000013009
-* #0089 ^designation[=].value = "Chirurgie des tumeurs de la base du crâne, des mâchoires et du cou (dont angiome, dysplasie cutanée)"
+* #0089 ^designation[=].value = "Chir tumeurs base du crâne, mâchoires et cou (dont angiome, dysplasie cutanée)"
 * #0089 ^property[0].code = #dateValid
 * #0089 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #0089 ^property[+].code = #dateMaj
@@ -1704,7 +1705,7 @@ Id: TRE-R210-ActeSpecifique
 * #0130 ^property[=].valueDateTime = "2024-09-27T12:00:00+01:00"
 * #0130 ^property[+].code = #status
 * #0130 ^property[=].valueCode = #active
-* #0131 "Circulation extracorporelle pour assistance circulatoire-respiratoire (ECMO)"
+* #0131 "Circulation extracorporelle (CEC) pour assistance circulatoire-respiratoire (ECMO)"
 * #0131 ^designation[0].language = #fr-FR
 * #0131 ^designation[=].use.system = "http://snomed.info/sct"
 * #0131 ^designation[=].use = $sct#900000000000013009
@@ -1712,7 +1713,7 @@ Id: TRE-R210-ActeSpecifique
 * #0131 ^designation[+].language = #fr-FR
 * #0131 ^designation[=].use.system = "http://snomed.info/sct"
 * #0131 ^designation[=].use = $sct#900000000000013009
-* #0131 ^designation[=].value = "Circulation extracorporelle (CEC) pour assistance circulatoire-respiratoire (ECMO)"
+* #0131 ^designation[=].value = "Circulation extracorporelle pour assistance circulatoire-respiratoire (ECMO)"
 * #0131 ^property[0].code = #dateValid
 * #0131 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #0131 ^property[+].code = #dateFin
@@ -1723,7 +1724,7 @@ Id: TRE-R210-ActeSpecifique
 * #0131 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
 * #0131 ^property[+].code = #status
 * #0131 ^property[=].valueCode = #deprecated
-* #0132 "Circulation extracorporelle pour assistance circulatoire-respiratoire (ECMO) péd"
+* #0132 "Circulation extracorporelle (CEC) pour assistance circulatoire-respiratoire (ECMO) pédiatrique"
 * #0132 ^designation[0].language = #fr-FR
 * #0132 ^designation[=].use.system = "http://snomed.info/sct"
 * #0132 ^designation[=].use = $sct#900000000000013009
@@ -1731,7 +1732,7 @@ Id: TRE-R210-ActeSpecifique
 * #0132 ^designation[+].language = #fr-FR
 * #0132 ^designation[=].use.system = "http://snomed.info/sct"
 * #0132 ^designation[=].use = $sct#900000000000013009
-* #0132 ^designation[=].value = "Circulation extracorporelle (CEC) pour assistance circulatoire-respiratoire (ECMO) pédiatrique"
+* #0132 ^designation[=].value = "Circulation extracorporelle pour assistance circulatoire-respiratoire (ECMO) péd"
 * #0132 ^property[0].code = #dateValid
 * #0132 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #0132 ^property[+].code = #dateFin
@@ -2484,7 +2485,7 @@ Id: TRE-R210-ActeSpecifique
 * #0190 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #0190 ^property[+].code = #status
 * #0190 ^property[=].valueCode = #active
-* #0191 "Endo des voies biliaires et du pancréas : cathétérisme rétrograde et ponction"
+* #0191 "Endoscopie voies biliaires et pancréas : cathétérisme rétrograde (extraction calcul, pose endoprothèse biliaire, sphinctérotomie, biopsie) et ponction"
 * #0191 ^designation[0].language = #fr-FR
 * #0191 ^designation[=].use.system = "http://snomed.info/sct"
 * #0191 ^designation[=].use = $sct#900000000000013009
@@ -2492,7 +2493,7 @@ Id: TRE-R210-ActeSpecifique
 * #0191 ^designation[+].language = #fr-FR
 * #0191 ^designation[=].use.system = "http://snomed.info/sct"
 * #0191 ^designation[=].use = $sct#900000000000013009
-* #0191 ^designation[=].value = "Endoscopie voies biliaires et pancréas : cathétérisme rétrograde (extraction calcul, pose endoprothèse biliaire, sphinctérotomie, biopsie) et ponction"
+* #0191 ^designation[=].value = "Endo des voies biliaires et du pancréas : cathétérisme rétrograde et ponction"
 * #0191 ^property[0].code = #dateValid
 * #0191 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #0191 ^property[+].code = #dateMaj
@@ -2521,7 +2522,7 @@ Id: TRE-R210-ActeSpecifique
 * #0193 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #0193 ^property[+].code = #status
 * #0193 ^property[=].valueCode = #active
-* #0194 "Endoscopie digestive diagnostique et interventionnelle : pose d'endoprothèse"
+* #0194 "Endoscopie digestive diagnostique et interventionnelle : pose d'endoprothèse du tube digestif"
 * #0194 ^designation[0].language = #fr-FR
 * #0194 ^designation[=].use.system = "http://snomed.info/sct"
 * #0194 ^designation[=].use = $sct#900000000000013009
@@ -2529,7 +2530,7 @@ Id: TRE-R210-ActeSpecifique
 * #0194 ^designation[+].language = #fr-FR
 * #0194 ^designation[=].use.system = "http://snomed.info/sct"
 * #0194 ^designation[=].use = $sct#900000000000013009
-* #0194 ^designation[=].value = "Endoscopie digestive diagnostique et interventionnelle : pose d'endoprothèse du tube digestif"
+* #0194 ^designation[=].value = "Endoscopie digestive diagnostique et interventionnelle : pose d'endoprothèse"
 * #0194 ^property[0].code = #dateValid
 * #0194 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #0194 ^property[+].code = #dateMaj
@@ -2778,7 +2779,7 @@ Id: TRE-R210-ActeSpecifique
 * #0212 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #0212 ^property[+].code = #status
 * #0212 ^property[=].valueCode = #deprecated
-* #0213 "FIV avec Injection Intra Cytoplasmique de Spermatozoïdes (ICSI) (AMP)"
+* #0213 "FIV avec Injection Intra Cytoplasmique de Spermatozoïdes (ICSI) (Aide Médicale à la Procréation, AMP)"
 * #0213 ^designation[0].language = #fr-FR
 * #0213 ^designation[=].use.system = "http://snomed.info/sct"
 * #0213 ^designation[=].use = $sct#900000000000013009
@@ -2786,7 +2787,7 @@ Id: TRE-R210-ActeSpecifique
 * #0213 ^designation[+].language = #fr-FR
 * #0213 ^designation[=].use.system = "http://snomed.info/sct"
 * #0213 ^designation[=].use = $sct#900000000000013009
-* #0213 ^designation[=].value = "FIV avec Injection Intra Cytoplasmique de Spermatozoïdes (ICSI) (Aide Médicale à la Procréation, AMP)"
+* #0213 ^designation[=].value = "FIV avec Injection Intra Cytoplasmique de Spermatozoïdes (ICSI) (AMP)"
 * #0213 ^property[0].code = #dateValid
 * #0213 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #0213 ^property[+].code = #dateMaj
@@ -2823,7 +2824,7 @@ Id: TRE-R210-ActeSpecifique
 * #0215 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #0215 ^property[+].code = #status
 * #0215 ^property[=].valueCode = #deprecated
-* #0216 "Gamma-angiographie cardiaque, tomographie cavitaire"
+* #0216 "Gamma-angiographie cardiaque, tomographie cavitaire (fonctions ventriculaires, bilan de rythmologie)"
 * #0216 ^designation[0].language = #fr-FR
 * #0216 ^designation[=].use.system = "http://snomed.info/sct"
 * #0216 ^designation[=].use = $sct#900000000000013009
@@ -2831,7 +2832,7 @@ Id: TRE-R210-ActeSpecifique
 * #0216 ^designation[+].language = #fr-FR
 * #0216 ^designation[=].use.system = "http://snomed.info/sct"
 * #0216 ^designation[=].use = $sct#900000000000013009
-* #0216 ^designation[=].value = "Gamma-angiographie cardiaque, tomographie cavitaire (fonctions ventriculaires, bilan de rythmologie)"
+* #0216 ^designation[=].value = "Gamma-angiographie cardiaque, tomographie cavitaire"
 * #0216 ^property[0].code = #dateValid
 * #0216 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #0216 ^property[+].code = #dateMaj
@@ -4102,7 +4103,7 @@ Id: TRE-R210-ActeSpecifique
 * #0316 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #0316 ^property[+].code = #status
 * #0316 ^property[=].valueCode = #active
-* #0317 "Neurochir vasculaire (avec compétences neurochirurgicales et endovasculaires)"
+* #0317 "Neurochirurgie vasculaire (avec compétences neurochirurgicales et endovasculaires)"
 * #0317 ^designation[0].language = #fr-FR
 * #0317 ^designation[=].use.system = "http://snomed.info/sct"
 * #0317 ^designation[=].use = $sct#900000000000013009
@@ -4110,7 +4111,7 @@ Id: TRE-R210-ActeSpecifique
 * #0317 ^designation[+].language = #fr-FR
 * #0317 ^designation[=].use.system = "http://snomed.info/sct"
 * #0317 ^designation[=].use = $sct#900000000000013009
-* #0317 ^designation[=].value = "Neurochirurgie vasculaire (avec compétences neurochirurgicales et endovasculaires)"
+* #0317 ^designation[=].value = "Neurochir vasculaire (avec compétences neurochirurgicales et endovasculaires)"
 * #0317 ^property[0].code = #dateValid
 * #0317 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #0317 ^property[+].code = #dateFin
@@ -5547,7 +5548,7 @@ Id: TRE-R210-ActeSpecifique
 * #0423 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #0423 ^property[+].code = #status
 * #0423 ^property[=].valueCode = #deprecated
-* #0424 "Revascul troncs supra-aortiques, artère sous-clavière, artère vertébrale"
+* #0424 "Revascularisation des troncs supra-aortiques, artère sous-clavière, artère vertébrale"
 * #0424 ^designation[0].language = #fr-FR
 * #0424 ^designation[=].use.system = "http://snomed.info/sct"
 * #0424 ^designation[=].use = $sct#900000000000013009
@@ -5555,7 +5556,7 @@ Id: TRE-R210-ActeSpecifique
 * #0424 ^designation[+].language = #fr-FR
 * #0424 ^designation[=].use.system = "http://snomed.info/sct"
 * #0424 ^designation[=].use = $sct#900000000000013009
-* #0424 ^designation[=].value = "Revascularisation des troncs supra-aortiques, artère sous-clavière, artère vertébrale"
+* #0424 ^designation[=].value = "Revascul troncs supra-aortiques, artère sous-clavière, artère vertébrale"
 * #0424 ^property[0].code = #dateValid
 * #0424 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #0424 ^property[+].code = #dateFin
@@ -5665,7 +5666,7 @@ Id: TRE-R210-ActeSpecifique
 * #0433 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #0433 ^property[+].code = #status
 * #0433 ^property[=].valueCode = #active
-* #0434 "Scintigraphie de perfusion avec test au Captopril et au Lasilix"
+* #0434 "Scintigraphie de perfusion avec test au Captopril (bilan HTA rénovasculaire) et au Lasilix (bilan des obstacles des voies excrétrices urinaires)"
 * #0434 ^designation[0].language = #fr-FR
 * #0434 ^designation[=].use.system = "http://snomed.info/sct"
 * #0434 ^designation[=].use = $sct#900000000000013009
@@ -5673,7 +5674,7 @@ Id: TRE-R210-ActeSpecifique
 * #0434 ^designation[+].language = #fr-FR
 * #0434 ^designation[=].use.system = "http://snomed.info/sct"
 * #0434 ^designation[=].use = $sct#900000000000013009
-* #0434 ^designation[=].value = "Scintigraphie de perfusion avec test au Captopril (bilan HTA rénovasculaire) et au Lasilix (bilan des obstacles des voies excrétrices urinaires)"
+* #0434 ^designation[=].value = "Scintigraphie de perfusion avec test au Captopril et au Lasilix"
 * #0434 ^property[0].code = #dateValid
 * #0434 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #0434 ^property[+].code = #dateMaj
@@ -6077,7 +6078,7 @@ Id: TRE-R210-ActeSpecifique
 * #0465 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #0465 ^property[+].code = #status
 * #0465 ^property[=].valueCode = #active
-* #0466 "Eval, ttt et suivi des Maladies Inflammatoires Chroniques de l'Intestin (MICI)"
+* #0466 "Evaluation, traitement et suivi des Maladies Inflammatoires Chroniques de l'Intestin (MICI)"
 * #0466 ^designation[0].language = #fr-FR
 * #0466 ^designation[=].use.system = "http://snomed.info/sct"
 * #0466 ^designation[=].use = $sct#900000000000013009
@@ -6085,7 +6086,7 @@ Id: TRE-R210-ActeSpecifique
 * #0466 ^designation[+].language = #fr-FR
 * #0466 ^designation[=].use.system = "http://snomed.info/sct"
 * #0466 ^designation[=].use = $sct#900000000000013009
-* #0466 ^designation[=].value = "Evaluation, traitement et suivi des Maladies Inflammatoires Chroniques de l'Intestin (MICI)"
+* #0466 ^designation[=].value = "Eval, ttt et suivi des Maladies Inflammatoires Chroniques de l'Intestin (MICI)"
 * #0466 ^property[0].code = #dateValid
 * #0466 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #0466 ^property[+].code = #dateMaj
@@ -7001,7 +7002,7 @@ Id: TRE-R210-ActeSpecifique
 * #0537 ^property[=].valueDateTime = "2016-11-02T00:00:00+01:00"
 * #0537 ^property[+].code = #status
 * #0537 ^property[=].valueCode = #active
-* #0538 "Thérapie de groupe ou atelier à médiation orale et-ou écrite"
+* #0538 "Thérapie de groupe ou atelier à médiation orale et-ou écrite (groupe de parole, d'écriture)"
 * #0538 ^designation[0].language = #fr-FR
 * #0538 ^designation[=].use.system = "http://snomed.info/sct"
 * #0538 ^designation[=].use = $sct#900000000000013009
@@ -7009,7 +7010,7 @@ Id: TRE-R210-ActeSpecifique
 * #0538 ^designation[+].language = #fr-FR
 * #0538 ^designation[=].use.system = "http://snomed.info/sct"
 * #0538 ^designation[=].use = $sct#900000000000013009
-* #0538 ^designation[=].value = "Thérapie de groupe ou atelier à médiation orale et-ou écrite (groupe de parole, d'écriture)"
+* #0538 ^designation[=].value = "Thérapie de groupe ou atelier à médiation orale et-ou écrite"
 * #0538 ^property[0].code = #dateValid
 * #0538 ^property[=].valueDateTime = "2016-11-02T00:00:00+01:00"
 * #0538 ^property[+].code = #dateMaj
@@ -7093,7 +7094,7 @@ Id: TRE-R210-ActeSpecifique
 * #0545 ^property[=].valueDateTime = "2016-11-02T00:00:00+01:00"
 * #0545 ^property[+].code = #status
 * #0545 ^property[=].valueCode = #active
-* #0546 "Prise en charge des troubles conduites alimentaires (TCA) (anorexie, boulimie)"
+* #0546 "Prise en charge des troubles des conduites alimentaires (TCA) (anorexie, boulimie)"
 * #0546 ^designation[0].language = #fr-FR
 * #0546 ^designation[=].use.system = "http://snomed.info/sct"
 * #0546 ^designation[=].use = $sct#900000000000013009
@@ -7101,7 +7102,7 @@ Id: TRE-R210-ActeSpecifique
 * #0546 ^designation[+].language = #fr-FR
 * #0546 ^designation[=].use.system = "http://snomed.info/sct"
 * #0546 ^designation[=].use = $sct#900000000000013009
-* #0546 ^designation[=].value = "Prise en charge des troubles des conduites alimentaires (TCA) (anorexie, boulimie)"
+* #0546 ^designation[=].value = "Prise en charge des troubles conduites alimentaires (TCA) (anorexie, boulimie)"
 * #0546 ^property[0].code = #dateValid
 * #0546 ^property[=].valueDateTime = "2016-11-02T00:00:00+01:00"
 * #0546 ^property[+].code = #dateFin
@@ -7200,7 +7201,7 @@ Id: TRE-R210-ActeSpecifique
 * #0554 ^property[=].valueDateTime = "2017-03-22T12:00:00+01:00"
 * #0554 ^property[+].code = #status
 * #0554 ^property[=].valueCode = #active
-* #0555 "Evaluation et traitement des brûlures associées à d'autes pathologies vvvermcato"
+* #0555 "Evaluation et traitement des brûlures associées à d'autres pathologies dermatologiques"
 * #0555 ^designation[0].language = #fr-FR
 * #0555 ^designation[=].use.system = "http://snomed.info/sct"
 * #0555 ^designation[=].use = $sct#900000000000013009
@@ -7208,7 +7209,7 @@ Id: TRE-R210-ActeSpecifique
 * #0555 ^designation[+].language = #fr-FR
 * #0555 ^designation[=].use.system = "http://snomed.info/sct"
 * #0555 ^designation[=].use = $sct#900000000000013009
-* #0555 ^designation[=].value = "Evaluation et traitement des brûlures associées à d'autres pathologies dermatologiques"
+* #0555 ^designation[=].value = "Evaluation et traitement des brûlures associées à d'autes pathologies vvvermcato"
 * #0555 ^property[0].code = #dateValid
 * #0555 ^property[=].valueDateTime = "2017-03-22T12:00:00+01:00"
 * #0555 ^property[+].code = #dateMaj
@@ -7282,7 +7283,7 @@ Id: TRE-R210-ActeSpecifique
 * #0560 ^property[=].valueDateTime = "2017-03-22T12:00:00+01:00"
 * #0560 ^property[+].code = #status
 * #0560 ^property[=].valueCode = #active
-* #0561 "Confection, ajustement d'orthèses, prothèses, vêtements cifs sur mesure"
+* #0561 "Confection et ajustement d'orthèses, de prothèses, de vêtements compressifs sur mesure"
 * #0561 ^designation[0].language = #fr-FR
 * #0561 ^designation[=].use.system = "http://snomed.info/sct"
 * #0561 ^designation[=].use = $sct#900000000000013009
@@ -7290,7 +7291,7 @@ Id: TRE-R210-ActeSpecifique
 * #0561 ^designation[+].language = #fr-FR
 * #0561 ^designation[=].use.system = "http://snomed.info/sct"
 * #0561 ^designation[=].use = $sct#900000000000013009
-* #0561 ^designation[=].value = "Confection et ajustement d'orthèses, de prothèses, de vêtements compressifs sur mesure"
+* #0561 ^designation[=].value = "Confection, ajustement d'orthèses, prothèses, vêtements cifs sur mesure"
 * #0561 ^property[0].code = #dateValid
 * #0561 ^property[=].valueDateTime = "2017-03-22T12:00:00+01:00"
 * #0561 ^property[+].code = #dateFin
@@ -7301,7 +7302,7 @@ Id: TRE-R210-ActeSpecifique
 * #0561 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #0561 ^property[+].code = #status
 * #0561 ^property[=].valueCode = #deprecated
-* #0562 "Soin des plaies chroniques et pansements complexes sous anesthésie générale"
+* #0562 "Soins des plaies chroniques et pansements complexes sous anesthésie générale"
 * #0562 ^designation[0].language = #fr-FR
 * #0562 ^designation[=].use.system = "http://snomed.info/sct"
 * #0562 ^designation[=].use = $sct#900000000000013009
@@ -7309,7 +7310,7 @@ Id: TRE-R210-ActeSpecifique
 * #0562 ^designation[+].language = #fr-FR
 * #0562 ^designation[=].use.system = "http://snomed.info/sct"
 * #0562 ^designation[=].use = $sct#900000000000013009
-* #0562 ^designation[=].value = "Soins des plaies chroniques et pansements complexes sous anesthésie générale"
+* #0562 ^designation[=].value = "Soin des plaies chroniques et pansements complexes sous anesthésie générale"
 * #0562 ^property[0].code = #dateValid
 * #0562 ^property[=].valueDateTime = "2017-03-22T12:00:00+01:00"
 * #0562 ^property[+].code = #dateMaj
@@ -7353,7 +7354,7 @@ Id: TRE-R210-ActeSpecifique
 * #0565 ^property[=].valueDateTime = "2018-12-14T12:00:00+01:00"
 * #0565 ^property[+].code = #status
 * #0565 ^property[=].valueCode = #active
-* #0566 "RCP Appareil Digestif"
+* #0566 "Réunion de concertation pluridisciplinaire Appareil Digestif"
 * #0566 ^designation[0].language = #fr-FR
 * #0566 ^designation[=].use.system = "http://snomed.info/sct"
 * #0566 ^designation[=].use = $sct#900000000000013009
@@ -7361,7 +7362,7 @@ Id: TRE-R210-ActeSpecifique
 * #0566 ^designation[+].language = #fr-FR
 * #0566 ^designation[=].use.system = "http://snomed.info/sct"
 * #0566 ^designation[=].use = $sct#900000000000013009
-* #0566 ^designation[=].value = "Réunion de concertation pluridisciplinaire Appareil Digestif"
+* #0566 ^designation[=].value = "RCP Appareil Digestif"
 * #0566 ^property[0].code = #dateValid
 * #0566 ^property[=].valueDateTime = "2017-03-22T12:00:00+01:00"
 * #0566 ^property[+].code = #dateFin
@@ -7372,7 +7373,7 @@ Id: TRE-R210-ActeSpecifique
 * #0566 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #0566 ^property[+].code = #status
 * #0566 ^property[=].valueCode = #deprecated
-* #0567 "RCP App. Respi. Autres Thorax"
+* #0567 "Réunion de concertation pluridisciplinaire Appareil Respiratoire et Autres Thorax"
 * #0567 ^designation[0].language = #fr-FR
 * #0567 ^designation[=].use.system = "http://snomed.info/sct"
 * #0567 ^designation[=].use = $sct#900000000000013009
@@ -7380,7 +7381,7 @@ Id: TRE-R210-ActeSpecifique
 * #0567 ^designation[+].language = #fr-FR
 * #0567 ^designation[=].use.system = "http://snomed.info/sct"
 * #0567 ^designation[=].use = $sct#900000000000013009
-* #0567 ^designation[=].value = "Réunion de concertation pluridisciplinaire Appareil Respiratoire et Autres Thorax"
+* #0567 ^designation[=].value = "RCP App. Respi. Autres Thorax"
 * #0567 ^property[0].code = #dateValid
 * #0567 ^property[=].valueDateTime = "2017-03-22T12:00:00+01:00"
 * #0567 ^property[+].code = #dateFin
@@ -7391,7 +7392,7 @@ Id: TRE-R210-ActeSpecifique
 * #0567 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #0567 ^property[+].code = #status
 * #0567 ^property[=].valueCode = #deprecated
-* #0568 "RCP Glandes Endocrines"
+* #0568 "Réunion de concertation pluridisciplinaire Glandes Endocrines"
 * #0568 ^designation[0].language = #fr-FR
 * #0568 ^designation[=].use.system = "http://snomed.info/sct"
 * #0568 ^designation[=].use = $sct#900000000000013009
@@ -7399,7 +7400,7 @@ Id: TRE-R210-ActeSpecifique
 * #0568 ^designation[+].language = #fr-FR
 * #0568 ^designation[=].use.system = "http://snomed.info/sct"
 * #0568 ^designation[=].use = $sct#900000000000013009
-* #0568 ^designation[=].value = "Réunion de concertation pluridisciplinaire Glandes Endocrines"
+* #0568 ^designation[=].value = "RCP Glandes Endocrines"
 * #0568 ^property[0].code = #dateValid
 * #0568 ^property[=].valueDateTime = "2017-03-22T12:00:00+01:00"
 * #0568 ^property[+].code = #dateFin
@@ -7410,7 +7411,7 @@ Id: TRE-R210-ActeSpecifique
 * #0568 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #0568 ^property[+].code = #status
 * #0568 ^property[=].valueCode = #deprecated
-* #0569 "RCP Hématologie"
+* #0569 "Réunion de concertation pluridisciplinaire Hématologie"
 * #0569 ^designation[0].language = #fr-FR
 * #0569 ^designation[=].use.system = "http://snomed.info/sct"
 * #0569 ^designation[=].use = $sct#900000000000013009
@@ -7418,7 +7419,7 @@ Id: TRE-R210-ActeSpecifique
 * #0569 ^designation[+].language = #fr-FR
 * #0569 ^designation[=].use.system = "http://snomed.info/sct"
 * #0569 ^designation[=].use = $sct#900000000000013009
-* #0569 ^designation[=].value = "Réunion de concertation pluridisciplinaire Hématologie"
+* #0569 ^designation[=].value = "RCP Hématologie"
 * #0569 ^property[0].code = #dateValid
 * #0569 ^property[=].valueDateTime = "2017-03-22T12:00:00+01:00"
 * #0569 ^property[+].code = #dateFin
@@ -7429,7 +7430,7 @@ Id: TRE-R210-ActeSpecifique
 * #0569 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #0569 ^property[+].code = #status
 * #0569 ^property[=].valueCode = #deprecated
-* #0570 "RCP Oeil"
+* #0570 "Réunion de concertation pluridisciplinaire Oeil"
 * #0570 ^designation[0].language = #fr-FR
 * #0570 ^designation[=].use.system = "http://snomed.info/sct"
 * #0570 ^designation[=].use = $sct#900000000000013009
@@ -7437,7 +7438,7 @@ Id: TRE-R210-ActeSpecifique
 * #0570 ^designation[+].language = #fr-FR
 * #0570 ^designation[=].use.system = "http://snomed.info/sct"
 * #0570 ^designation[=].use = $sct#900000000000013009
-* #0570 ^designation[=].value = "Réunion de concertation pluridisciplinaire Oeil"
+* #0570 ^designation[=].value = "RCP Oeil"
 * #0570 ^property[0].code = #dateValid
 * #0570 ^property[=].valueDateTime = "2017-03-22T12:00:00+01:00"
 * #0570 ^property[+].code = #dateFin
@@ -7448,7 +7449,7 @@ Id: TRE-R210-ActeSpecifique
 * #0570 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #0570 ^property[+].code = #status
 * #0570 ^property[=].valueCode = #deprecated
-* #0571 "RCP Org. génitaux féminins"
+* #0571 "Réunion de concertation pluridisciplinaire Organes génitaux féminins"
 * #0571 ^designation[0].language = #fr-FR
 * #0571 ^designation[=].use.system = "http://snomed.info/sct"
 * #0571 ^designation[=].use = $sct#900000000000013009
@@ -7456,7 +7457,7 @@ Id: TRE-R210-ActeSpecifique
 * #0571 ^designation[+].language = #fr-FR
 * #0571 ^designation[=].use.system = "http://snomed.info/sct"
 * #0571 ^designation[=].use = $sct#900000000000013009
-* #0571 ^designation[=].value = "Réunion de concertation pluridisciplinaire Organes génitaux féminins"
+* #0571 ^designation[=].value = "RCP Org. génitaux féminins"
 * #0571 ^property[0].code = #dateValid
 * #0571 ^property[=].valueDateTime = "2017-03-22T12:00:00+01:00"
 * #0571 ^property[+].code = #dateFin
@@ -7467,7 +7468,7 @@ Id: TRE-R210-ActeSpecifique
 * #0571 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #0571 ^property[+].code = #status
 * #0571 ^property[=].valueCode = #deprecated
-* #0572 "RCP Org. génitaux masculins"
+* #0572 "Réunion de concertation pluridisciplinaire Organes génitaux masculins"
 * #0572 ^designation[0].language = #fr-FR
 * #0572 ^designation[=].use.system = "http://snomed.info/sct"
 * #0572 ^designation[=].use = $sct#900000000000013009
@@ -7475,7 +7476,7 @@ Id: TRE-R210-ActeSpecifique
 * #0572 ^designation[+].language = #fr-FR
 * #0572 ^designation[=].use.system = "http://snomed.info/sct"
 * #0572 ^designation[=].use = $sct#900000000000013009
-* #0572 ^designation[=].value = "Réunion de concertation pluridisciplinaire Organes génitaux masculins"
+* #0572 ^designation[=].value = "RCP Org. génitaux masculins"
 * #0572 ^property[0].code = #dateValid
 * #0572 ^property[=].valueDateTime = "2017-03-22T12:00:00+01:00"
 * #0572 ^property[+].code = #dateFin
@@ -7486,7 +7487,7 @@ Id: TRE-R210-ActeSpecifique
 * #0572 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #0572 ^property[+].code = #status
 * #0572 ^property[=].valueCode = #deprecated
-* #0573 "RCP Os"
+* #0573 "Réunion de concertation pluridisciplinaire Os"
 * #0573 ^designation[0].language = #fr-FR
 * #0573 ^designation[=].use.system = "http://snomed.info/sct"
 * #0573 ^designation[=].use = $sct#900000000000013009
@@ -7494,7 +7495,7 @@ Id: TRE-R210-ActeSpecifique
 * #0573 ^designation[+].language = #fr-FR
 * #0573 ^designation[=].use.system = "http://snomed.info/sct"
 * #0573 ^designation[=].use = $sct#900000000000013009
-* #0573 ^designation[=].value = "Réunion de concertation pluridisciplinaire Os"
+* #0573 ^designation[=].value = "RCP Os"
 * #0573 ^property[0].code = #dateValid
 * #0573 ^property[=].valueDateTime = "2017-03-22T12:00:00+01:00"
 * #0573 ^property[+].code = #dateFin
@@ -7505,7 +7506,7 @@ Id: TRE-R210-ActeSpecifique
 * #0573 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #0573 ^property[+].code = #status
 * #0573 ^property[=].valueCode = #deprecated
-* #0574 "RCP Peau"
+* #0574 "Réunion de concertation pluridisciplinaire Peau"
 * #0574 ^designation[0].language = #fr-FR
 * #0574 ^designation[=].use.system = "http://snomed.info/sct"
 * #0574 ^designation[=].use = $sct#900000000000013009
@@ -7513,7 +7514,7 @@ Id: TRE-R210-ActeSpecifique
 * #0574 ^designation[+].language = #fr-FR
 * #0574 ^designation[=].use.system = "http://snomed.info/sct"
 * #0574 ^designation[=].use = $sct#900000000000013009
-* #0574 ^designation[=].value = "Réunion de concertation pluridisciplinaire Peau"
+* #0574 ^designation[=].value = "RCP Peau"
 * #0574 ^property[0].code = #dateValid
 * #0574 ^property[=].valueDateTime = "2017-03-22T12:00:00+01:00"
 * #0574 ^property[+].code = #dateFin
@@ -7524,7 +7525,7 @@ Id: TRE-R210-ActeSpecifique
 * #0574 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #0574 ^property[+].code = #status
 * #0574 ^property[=].valueCode = #deprecated
-* #0575 "RCP Sein"
+* #0575 "Réunion de concertation pluridisciplinaire Sein"
 * #0575 ^designation[0].language = #fr-FR
 * #0575 ^designation[=].use.system = "http://snomed.info/sct"
 * #0575 ^designation[=].use = $sct#900000000000013009
@@ -7532,7 +7533,7 @@ Id: TRE-R210-ActeSpecifique
 * #0575 ^designation[+].language = #fr-FR
 * #0575 ^designation[=].use.system = "http://snomed.info/sct"
 * #0575 ^designation[=].use = $sct#900000000000013009
-* #0575 ^designation[=].value = "Réunion de concertation pluridisciplinaire Sein"
+* #0575 ^designation[=].value = "RCP Sein"
 * #0575 ^property[0].code = #dateValid
 * #0575 ^property[=].valueDateTime = "2017-03-22T12:00:00+01:00"
 * #0575 ^property[+].code = #dateFin
@@ -7543,7 +7544,7 @@ Id: TRE-R210-ActeSpecifique
 * #0575 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #0575 ^property[+].code = #status
 * #0575 ^property[=].valueCode = #deprecated
-* #0576 "RCP Système Nerveux"
+* #0576 "Réunion de concertation pluridisciplinaire Système Nerveux"
 * #0576 ^designation[0].language = #fr-FR
 * #0576 ^designation[=].use.system = "http://snomed.info/sct"
 * #0576 ^designation[=].use = $sct#900000000000013009
@@ -7551,7 +7552,7 @@ Id: TRE-R210-ActeSpecifique
 * #0576 ^designation[+].language = #fr-FR
 * #0576 ^designation[=].use.system = "http://snomed.info/sct"
 * #0576 ^designation[=].use = $sct#900000000000013009
-* #0576 ^designation[=].value = "Réunion de concertation pluridisciplinaire Système Nerveux"
+* #0576 ^designation[=].value = "RCP Système Nerveux"
 * #0576 ^property[0].code = #dateValid
 * #0576 ^property[=].valueDateTime = "2017-03-22T12:00:00+01:00"
 * #0576 ^property[+].code = #dateFin
@@ -7562,7 +7563,7 @@ Id: TRE-R210-ActeSpecifique
 * #0576 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #0576 ^property[+].code = #status
 * #0576 ^property[=].valueCode = #deprecated
-* #0577 "RCP Tissus mous NCA"
+* #0577 "Réunion de concertation pluridisciplinaire Tissus mous, Non Classés Ailleurs (NCA)"
 * #0577 ^designation[0].language = #fr-FR
 * #0577 ^designation[=].use.system = "http://snomed.info/sct"
 * #0577 ^designation[=].use = $sct#900000000000013009
@@ -7570,7 +7571,7 @@ Id: TRE-R210-ActeSpecifique
 * #0577 ^designation[+].language = #fr-FR
 * #0577 ^designation[=].use.system = "http://snomed.info/sct"
 * #0577 ^designation[=].use = $sct#900000000000013009
-* #0577 ^designation[=].value = "Réunion de concertation pluridisciplinaire Tissus mous, Non Classés Ailleurs (NCA)"
+* #0577 ^designation[=].value = "RCP Tissus mous NCA"
 * #0577 ^property[0].code = #dateValid
 * #0577 ^property[=].valueDateTime = "2017-03-22T12:00:00+01:00"
 * #0577 ^property[+].code = #dateFin
@@ -7581,7 +7582,7 @@ Id: TRE-R210-ActeSpecifique
 * #0577 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #0577 ^property[+].code = #status
 * #0577 ^property[=].valueCode = #deprecated
-* #0578 "RCP VADS"
+* #0578 "Réunion de concertation pluridisciplinaire Voies Aéro-Digestives Supérieures (VADS)"
 * #0578 ^designation[0].language = #fr-FR
 * #0578 ^designation[=].use.system = "http://snomed.info/sct"
 * #0578 ^designation[=].use = $sct#900000000000013009
@@ -7589,7 +7590,7 @@ Id: TRE-R210-ActeSpecifique
 * #0578 ^designation[+].language = #fr-FR
 * #0578 ^designation[=].use.system = "http://snomed.info/sct"
 * #0578 ^designation[=].use = $sct#900000000000013009
-* #0578 ^designation[=].value = "Réunion de concertation pluridisciplinaire Voies Aéro-Digestives Supérieures (VADS)"
+* #0578 ^designation[=].value = "RCP VADS"
 * #0578 ^property[0].code = #dateValid
 * #0578 ^property[=].valueDateTime = "2017-03-22T12:00:00+01:00"
 * #0578 ^property[+].code = #dateFin
@@ -7600,7 +7601,7 @@ Id: TRE-R210-ActeSpecifique
 * #0578 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #0578 ^property[+].code = #status
 * #0578 ^property[=].valueCode = #deprecated
-* #0579 "RCP Voies urinaires"
+* #0579 "Réunion de concertation pluridisciplinaire Voies urinaires"
 * #0579 ^designation[0].language = #fr-FR
 * #0579 ^designation[=].use.system = "http://snomed.info/sct"
 * #0579 ^designation[=].use = $sct#900000000000013009
@@ -7608,7 +7609,7 @@ Id: TRE-R210-ActeSpecifique
 * #0579 ^designation[+].language = #fr-FR
 * #0579 ^designation[=].use.system = "http://snomed.info/sct"
 * #0579 ^designation[=].use = $sct#900000000000013009
-* #0579 ^designation[=].value = "Réunion de concertation pluridisciplinaire Voies urinaires"
+* #0579 ^designation[=].value = "RCP Voies urinaires"
 * #0579 ^property[0].code = #dateValid
 * #0579 ^property[=].valueDateTime = "2017-03-22T12:00:00+01:00"
 * #0579 ^property[+].code = #dateFin
@@ -7619,7 +7620,7 @@ Id: TRE-R210-ActeSpecifique
 * #0579 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #0579 ^property[+].code = #status
 * #0579 ^property[=].valueCode = #deprecated
-* #0580 "RCP Cancers rares"
+* #0580 "Réunion de concertation pluridisciplinaire Cancers rares"
 * #0580 ^designation[0].language = #fr-FR
 * #0580 ^designation[=].use.system = "http://snomed.info/sct"
 * #0580 ^designation[=].use = $sct#900000000000013009
@@ -7627,7 +7628,7 @@ Id: TRE-R210-ActeSpecifique
 * #0580 ^designation[+].language = #fr-FR
 * #0580 ^designation[=].use.system = "http://snomed.info/sct"
 * #0580 ^designation[=].use = $sct#900000000000013009
-* #0580 ^designation[=].value = "Réunion de concertation pluridisciplinaire Cancers rares"
+* #0580 ^designation[=].value = "RCP Cancers rares"
 * #0580 ^property[0].code = #dateValid
 * #0580 ^property[=].valueDateTime = "2017-03-22T12:00:00+01:00"
 * #0580 ^property[+].code = #dateFin
@@ -7638,7 +7639,7 @@ Id: TRE-R210-ActeSpecifique
 * #0580 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #0580 ^property[+].code = #status
 * #0580 ^property[=].valueCode = #deprecated
-* #0581 "RCP Douleur"
+* #0581 "Réunion de concertation pluridisciplinaire Douleur"
 * #0581 ^designation[0].language = #fr-FR
 * #0581 ^designation[=].use.system = "http://snomed.info/sct"
 * #0581 ^designation[=].use = $sct#900000000000013009
@@ -7646,7 +7647,7 @@ Id: TRE-R210-ActeSpecifique
 * #0581 ^designation[+].language = #fr-FR
 * #0581 ^designation[=].use.system = "http://snomed.info/sct"
 * #0581 ^designation[=].use = $sct#900000000000013009
-* #0581 ^designation[=].value = "Réunion de concertation pluridisciplinaire Douleur"
+* #0581 ^designation[=].value = "RCP Douleur"
 * #0581 ^property[0].code = #dateValid
 * #0581 ^property[=].valueDateTime = "2017-03-22T12:00:00+01:00"
 * #0581 ^property[+].code = #dateFin
@@ -7657,7 +7658,7 @@ Id: TRE-R210-ActeSpecifique
 * #0581 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #0581 ^property[+].code = #status
 * #0581 ^property[=].valueCode = #deprecated
-* #0582 "RCP Métastase osseuse"
+* #0582 "Réunion de concertation pluridisciplinaire Métastase osseuse"
 * #0582 ^designation[0].language = #fr-FR
 * #0582 ^designation[=].use.system = "http://snomed.info/sct"
 * #0582 ^designation[=].use = $sct#900000000000013009
@@ -7665,7 +7666,7 @@ Id: TRE-R210-ActeSpecifique
 * #0582 ^designation[+].language = #fr-FR
 * #0582 ^designation[=].use.system = "http://snomed.info/sct"
 * #0582 ^designation[=].use = $sct#900000000000013009
-* #0582 ^designation[=].value = "Réunion de concertation pluridisciplinaire Métastase osseuse"
+* #0582 ^designation[=].value = "RCP Métastase osseuse"
 * #0582 ^property[0].code = #dateValid
 * #0582 ^property[=].valueDateTime = "2017-03-22T12:00:00+01:00"
 * #0582 ^property[+].code = #dateFin
@@ -7676,7 +7677,7 @@ Id: TRE-R210-ActeSpecifique
 * #0582 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #0582 ^property[+].code = #status
 * #0582 ^property[=].valueCode = #deprecated
-* #0583 "RCP Oncogénétique"
+* #0583 "Réunion de concertation pluridisciplinaire Oncogénétique"
 * #0583 ^designation[0].language = #fr-FR
 * #0583 ^designation[=].use.system = "http://snomed.info/sct"
 * #0583 ^designation[=].use = $sct#900000000000013009
@@ -7684,7 +7685,7 @@ Id: TRE-R210-ActeSpecifique
 * #0583 ^designation[+].language = #fr-FR
 * #0583 ^designation[=].use.system = "http://snomed.info/sct"
 * #0583 ^designation[=].use = $sct#900000000000013009
-* #0583 ^designation[=].value = "Réunion de concertation pluridisciplinaire Oncogénétique"
+* #0583 ^designation[=].value = "RCP Oncogénétique"
 * #0583 ^property[0].code = #dateValid
 * #0583 ^property[=].valueDateTime = "2017-03-22T12:00:00+01:00"
 * #0583 ^property[+].code = #dateFin
@@ -7695,7 +7696,7 @@ Id: TRE-R210-ActeSpecifique
 * #0583 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #0583 ^property[+].code = #status
 * #0583 ^property[=].valueCode = #deprecated
-* #0584 "RCP Oncogériatrie"
+* #0584 "Réunion de concertation pluridisciplinaire Oncogériatrie"
 * #0584 ^designation[0].language = #fr-FR
 * #0584 ^designation[=].use.system = "http://snomed.info/sct"
 * #0584 ^designation[=].use = $sct#900000000000013009
@@ -7703,7 +7704,7 @@ Id: TRE-R210-ActeSpecifique
 * #0584 ^designation[+].language = #fr-FR
 * #0584 ^designation[=].use.system = "http://snomed.info/sct"
 * #0584 ^designation[=].use = $sct#900000000000013009
-* #0584 ^designation[=].value = "Réunion de concertation pluridisciplinaire Oncogériatrie"
+* #0584 ^designation[=].value = "RCP Oncogériatrie"
 * #0584 ^property[0].code = #dateValid
 * #0584 ^property[=].valueDateTime = "2017-03-22T12:00:00+01:00"
 * #0584 ^property[+].code = #dateFin
@@ -7714,7 +7715,7 @@ Id: TRE-R210-ActeSpecifique
 * #0584 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #0584 ^property[+].code = #status
 * #0584 ^property[=].valueCode = #deprecated
-* #0585 "RCP Oncologie médicale"
+* #0585 "Réunion de concertation pluridisciplinaire Oncologie médicale"
 * #0585 ^designation[0].language = #fr-FR
 * #0585 ^designation[=].use.system = "http://snomed.info/sct"
 * #0585 ^designation[=].use = $sct#900000000000013009
@@ -7722,7 +7723,7 @@ Id: TRE-R210-ActeSpecifique
 * #0585 ^designation[+].language = #fr-FR
 * #0585 ^designation[=].use.system = "http://snomed.info/sct"
 * #0585 ^designation[=].use = $sct#900000000000013009
-* #0585 ^designation[=].value = "Réunion de concertation pluridisciplinaire Oncologie médicale"
+* #0585 ^designation[=].value = "RCP Oncologie médicale"
 * #0585 ^property[0].code = #dateValid
 * #0585 ^property[=].valueDateTime = "2017-03-22T12:00:00+01:00"
 * #0585 ^property[+].code = #dateFin
@@ -7733,7 +7734,7 @@ Id: TRE-R210-ActeSpecifique
 * #0585 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #0585 ^property[+].code = #status
 * #0585 ^property[=].valueCode = #deprecated
-* #0586 "RCP Préservation fertilité"
+* #0586 "Réunion de concertation pluridisciplinaire Préservation de la fertilité"
 * #0586 ^designation[0].language = #fr-FR
 * #0586 ^designation[=].use.system = "http://snomed.info/sct"
 * #0586 ^designation[=].use = $sct#900000000000013009
@@ -7741,7 +7742,7 @@ Id: TRE-R210-ActeSpecifique
 * #0586 ^designation[+].language = #fr-FR
 * #0586 ^designation[=].use.system = "http://snomed.info/sct"
 * #0586 ^designation[=].use = $sct#900000000000013009
-* #0586 ^designation[=].value = "Réunion de concertation pluridisciplinaire Préservation de la fertilité"
+* #0586 ^designation[=].value = "RCP Préservation fertilité"
 * #0586 ^property[0].code = #dateValid
 * #0586 ^property[=].valueDateTime = "2017-03-22T12:00:00+01:00"
 * #0586 ^property[+].code = #dateFin
@@ -7752,7 +7753,7 @@ Id: TRE-R210-ActeSpecifique
 * #0586 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #0586 ^property[+].code = #status
 * #0586 ^property[=].valueCode = #deprecated
-* #0587 "RCP Radio interventionnelle"
+* #0587 "Réunion de concertation pluridisciplinaire Radiologie interventionnelle"
 * #0587 ^designation[0].language = #fr-FR
 * #0587 ^designation[=].use.system = "http://snomed.info/sct"
 * #0587 ^designation[=].use = $sct#900000000000013009
@@ -7760,7 +7761,7 @@ Id: TRE-R210-ActeSpecifique
 * #0587 ^designation[+].language = #fr-FR
 * #0587 ^designation[=].use.system = "http://snomed.info/sct"
 * #0587 ^designation[=].use = $sct#900000000000013009
-* #0587 ^designation[=].value = "Réunion de concertation pluridisciplinaire Radiologie interventionnelle"
+* #0587 ^designation[=].value = "RCP Radio interventionnelle"
 * #0587 ^property[0].code = #dateValid
 * #0587 ^property[=].valueDateTime = "2017-03-22T12:00:00+01:00"
 * #0587 ^property[+].code = #dateFin
@@ -7771,7 +7772,7 @@ Id: TRE-R210-ActeSpecifique
 * #0587 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #0587 ^property[+].code = #status
 * #0587 ^property[=].valueCode = #deprecated
-* #0588 "RCP Soins de support général"
+* #0588 "Réunion de concertation pluridisciplinaire Soins de support général"
 * #0588 ^designation[0].language = #fr-FR
 * #0588 ^designation[=].use.system = "http://snomed.info/sct"
 * #0588 ^designation[=].use = $sct#900000000000013009
@@ -7779,7 +7780,7 @@ Id: TRE-R210-ActeSpecifique
 * #0588 ^designation[+].language = #fr-FR
 * #0588 ^designation[=].use.system = "http://snomed.info/sct"
 * #0588 ^designation[=].use = $sct#900000000000013009
-* #0588 ^designation[=].value = "Réunion de concertation pluridisciplinaire Soins de support général"
+* #0588 ^designation[=].value = "RCP Soins de support général"
 * #0588 ^property[0].code = #dateValid
 * #0588 ^property[=].valueDateTime = "2017-03-22T12:00:00+01:00"
 * #0588 ^property[+].code = #dateFin
@@ -7790,7 +7791,7 @@ Id: TRE-R210-ActeSpecifique
 * #0588 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #0588 ^property[+].code = #status
 * #0588 ^property[=].valueCode = #deprecated
-* #0589 "RCP Soins palliatifs"
+* #0589 "Réunion de concertation pluridisciplinaire Soins palliatifs"
 * #0589 ^designation[0].language = #fr-FR
 * #0589 ^designation[=].use.system = "http://snomed.info/sct"
 * #0589 ^designation[=].use = $sct#900000000000013009
@@ -7798,7 +7799,7 @@ Id: TRE-R210-ActeSpecifique
 * #0589 ^designation[+].language = #fr-FR
 * #0589 ^designation[=].use.system = "http://snomed.info/sct"
 * #0589 ^designation[=].use = $sct#900000000000013009
-* #0589 ^designation[=].value = "Réunion de concertation pluridisciplinaire Soins palliatifs"
+* #0589 ^designation[=].value = "RCP Soins palliatifs"
 * #0589 ^property[0].code = #dateValid
 * #0589 ^property[=].valueDateTime = "2017-03-22T12:00:00+01:00"
 * #0589 ^property[+].code = #dateFin
@@ -8302,7 +8303,7 @@ Id: TRE-R210-ActeSpecifique
 * #0632 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #0632 ^property[+].code = #status
 * #0632 ^property[=].valueCode = #active
-* #0633 "Remplacement valvulaire aortique percutané (TAVI)"
+* #0633 "Remplacement valvulaire aortique percutané (TAVI) (pose de bioprothèses valvulaires aortiques percutanée ou transapicale)"
 * #0633 ^designation[0].language = #fr-FR
 * #0633 ^designation[=].use.system = "http://snomed.info/sct"
 * #0633 ^designation[=].use = $sct#900000000000013009
@@ -8310,7 +8311,7 @@ Id: TRE-R210-ActeSpecifique
 * #0633 ^designation[+].language = #fr-FR
 * #0633 ^designation[=].use.system = "http://snomed.info/sct"
 * #0633 ^designation[=].use = $sct#900000000000013009
-* #0633 ^designation[=].value = "Remplacement valvulaire aortique percutané (TAVI) (pose de bioprothèses valvulaires aortiques percutanée ou transapicale)"
+* #0633 ^designation[=].value = "Remplacement valvulaire aortique percutané (TAVI)"
 * #0633 ^property[0].code = #dateValid
 * #0633 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #0633 ^property[+].code = #dateMaj
@@ -8369,7 +8370,7 @@ Id: TRE-R210-ActeSpecifique
 * #0637 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #0637 ^property[+].code = #status
 * #0637 ^property[=].valueCode = #active
-* #0638 "Echo-endoscopie des voies biliaires et du pancréas"
+* #0638 "Echo-endoscopie des voies biliaires et du pancréas : écho-endoscopie biliaire (spy glass)"
 * #0638 ^designation[0].language = #fr-FR
 * #0638 ^designation[=].use.system = "http://snomed.info/sct"
 * #0638 ^designation[=].use = $sct#900000000000013009
@@ -8377,7 +8378,7 @@ Id: TRE-R210-ActeSpecifique
 * #0638 ^designation[+].language = #fr-FR
 * #0638 ^designation[=].use.system = "http://snomed.info/sct"
 * #0638 ^designation[=].use = $sct#900000000000013009
-* #0638 ^designation[=].value = "Echo-endoscopie des voies biliaires et du pancréas : écho-endoscopie biliaire (spy glass)"
+* #0638 ^designation[=].value = "Echo-endoscopie des voies biliaires et du pancréas"
 * #0638 ^property[0].code = #dateValid
 * #0638 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #0638 ^property[+].code = #dateMaj
@@ -9002,7 +9003,7 @@ Id: TRE-R210-ActeSpecifique
 * #0692 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #0692 ^property[+].code = #status
 * #0692 ^property[=].valueCode = #active
-* #0693 "Artériographie interv. dans les territoires neuro-encéphalique et rachidien"
+* #0693 "Artériographie interventionnelle dans les territoires neuro-encéphalique et rachidien"
 * #0693 ^designation[0].language = #fr-FR
 * #0693 ^designation[=].use.system = "http://snomed.info/sct"
 * #0693 ^designation[=].use = $sct#900000000000013009
@@ -9010,7 +9011,7 @@ Id: TRE-R210-ActeSpecifique
 * #0693 ^designation[+].language = #fr-FR
 * #0693 ^designation[=].use.system = "http://snomed.info/sct"
 * #0693 ^designation[=].use = $sct#900000000000013009
-* #0693 ^designation[=].value = "Artériographie interventionnelle dans les territoires neuro-encéphalique et rachidien"
+* #0693 ^designation[=].value = "Artériographie interv. dans les territoires neuro-encéphalique et rachidien"
 * #0693 ^property[0].code = #dateValid
 * #0693 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #0693 ^property[+].code = #dateMaj
@@ -9380,7 +9381,7 @@ Id: TRE-R210-ActeSpecifique
 * #0726 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #0726 ^property[+].code = #status
 * #0726 ^property[=].valueCode = #active
-* #0727 "Apprentissage d'un mode de comm. augmentatif pour personne déf. aud."
+* #0727 "Apprentissage d'un mode de communication augmentatif pour personne déficiente auditive"
 * #0727 ^designation[0].language = #fr-FR
 * #0727 ^designation[=].use.system = "http://snomed.info/sct"
 * #0727 ^designation[=].use = $sct#900000000000013009
@@ -9388,7 +9389,7 @@ Id: TRE-R210-ActeSpecifique
 * #0727 ^designation[+].language = #fr-FR
 * #0727 ^designation[=].use.system = "http://snomed.info/sct"
 * #0727 ^designation[=].use = $sct#900000000000013009
-* #0727 ^designation[=].value = "Apprentissage d'un mode de communication augmentatif pour personne déficiente auditive"
+* #0727 ^designation[=].value = "Apprentissage d'un mode de comm. augmentatif pour personne déf. aud."
 * #0727 ^property[0].code = #dateValid
 * #0727 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #0727 ^property[+].code = #dateFin
@@ -9561,7 +9562,7 @@ Id: TRE-R210-ActeSpecifique
 * #0741 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
 * #0741 ^property[+].code = #status
 * #0741 ^property[=].valueCode = #active
-* #0742 "Actions de prévention primaire"
+* #0742 "Actions de prévention primaire (pour éviter la survenue d'un problème de santé)"
 * #0742 ^designation[0].language = #fr-FR
 * #0742 ^designation[=].use.system = "http://snomed.info/sct"
 * #0742 ^designation[=].use = $sct#900000000000013009
@@ -9569,14 +9570,14 @@ Id: TRE-R210-ActeSpecifique
 * #0742 ^designation[+].language = #fr-FR
 * #0742 ^designation[=].use.system = "http://snomed.info/sct"
 * #0742 ^designation[=].use = $sct#900000000000013009
-* #0742 ^designation[=].value = "Actions de prévention primaire (pour éviter la survenue d'un problème de santé)"
+* #0742 ^designation[=].value = "Actions de prévention primaire"
 * #0742 ^property[0].code = #dateValid
 * #0742 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
 * #0742 ^property[+].code = #dateMaj
 * #0742 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
 * #0742 ^property[+].code = #status
 * #0742 ^property[=].valueCode = #active
-* #0743 "Actions de prévention secondaire"
+* #0743 "Actions de prévention secondaire (pour atténuer ou supprimer un problème de santé)"
 * #0743 ^designation[0].language = #fr-FR
 * #0743 ^designation[=].use.system = "http://snomed.info/sct"
 * #0743 ^designation[=].use = $sct#900000000000013009
@@ -9584,14 +9585,14 @@ Id: TRE-R210-ActeSpecifique
 * #0743 ^designation[+].language = #fr-FR
 * #0743 ^designation[=].use.system = "http://snomed.info/sct"
 * #0743 ^designation[=].use = $sct#900000000000013009
-* #0743 ^designation[=].value = "Actions de prévention secondaire (pour atténuer ou supprimer un problème de santé)"
+* #0743 ^designation[=].value = "Actions de prévention secondaire"
 * #0743 ^property[0].code = #dateValid
 * #0743 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
 * #0743 ^property[+].code = #dateMaj
 * #0743 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
 * #0743 ^property[+].code = #status
 * #0743 ^property[=].valueCode = #active
-* #0744 "Actions de prévention tertiaire"
+* #0744 "Actions de prévention tertiaire (pour éviter l'aggravation ou la chronicisation d'un problème de santé)"
 * #0744 ^designation[0].language = #fr-FR
 * #0744 ^designation[=].use.system = "http://snomed.info/sct"
 * #0744 ^designation[=].use = $sct#900000000000013009
@@ -9599,7 +9600,7 @@ Id: TRE-R210-ActeSpecifique
 * #0744 ^designation[+].language = #fr-FR
 * #0744 ^designation[=].use.system = "http://snomed.info/sct"
 * #0744 ^designation[=].use = $sct#900000000000013009
-* #0744 ^designation[=].value = "Actions de prévention tertiaire (pour éviter l'aggravation ou la chronicisation d'un problème de santé)"
+* #0744 ^designation[=].value = "Actions de prévention tertiaire"
 * #0744 ^property[0].code = #dateValid
 * #0744 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
 * #0744 ^property[+].code = #dateMaj
@@ -9915,7 +9916,7 @@ Id: TRE-R210-ActeSpecifique
 * #0771 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #0771 ^property[+].code = #status
 * #0771 ^property[=].valueCode = #active
-* #0772 "Pratique de comm augmentative-alternative pour personne déficiente auditive"
+* #0772 "Pratique de communication augmentative-alternative pour personne déficiente auditive"
 * #0772 ^designation[0].language = #fr-FR
 * #0772 ^designation[=].use.system = "http://snomed.info/sct"
 * #0772 ^designation[=].use = $sct#900000000000013009
@@ -9923,7 +9924,7 @@ Id: TRE-R210-ActeSpecifique
 * #0772 ^designation[+].language = #fr-FR
 * #0772 ^designation[=].use.system = "http://snomed.info/sct"
 * #0772 ^designation[=].use = $sct#900000000000013009
-* #0772 ^designation[=].value = "Pratique de communication augmentative-alternative pour personne déficiente auditive"
+* #0772 ^designation[=].value = "Pratique de comm augmentative-alternative pour personne déficiente auditive"
 * #0772 ^property[0].code = #dateValid
 * #0772 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
 * #0772 ^property[+].code = #dateFin
@@ -9978,7 +9979,7 @@ Id: TRE-R210-ActeSpecifique
 * #0776 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #0776 ^property[+].code = #status
 * #0776 ^property[=].valueCode = #active
-* #0777 "Accompagnement à l'utilisation de tech numériques au service de la compensation"
+* #0777 "Accompagnement à l'utilisation de technologies numériques au service de la compensation"
 * #0777 ^designation[0].language = #fr-FR
 * #0777 ^designation[=].use.system = "http://snomed.info/sct"
 * #0777 ^designation[=].use = $sct#900000000000013009
@@ -9986,7 +9987,7 @@ Id: TRE-R210-ActeSpecifique
 * #0777 ^designation[+].language = #fr-FR
 * #0777 ^designation[=].use.system = "http://snomed.info/sct"
 * #0777 ^designation[=].use = $sct#900000000000013009
-* #0777 ^designation[=].value = "Accompagnement à l'utilisation de technologies numériques au service de la compensation"
+* #0777 ^designation[=].value = "Accompagnement à l'utilisation de tech numériques au service de la compensation"
 * #0777 ^property[0].code = #dateValid
 * #0777 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
 * #0777 ^property[+].code = #dateMaj
@@ -10166,7 +10167,7 @@ Id: TRE-R210-ActeSpecifique
 * #0792 ^property[=].valueDateTime = "2018-05-31T12:00:00+01:00"
 * #0792 ^property[+].code = #status
 * #0792 ^property[=].valueCode = #active
-* #0793 "Activité professionnelle - Activités de services"
+* #0793 "Activité professionnelle - Activités de services (blanchisserie, nettoyage, restauration, etc.)"
 * #0793 ^designation[0].language = #fr-FR
 * #0793 ^designation[=].use.system = "http://snomed.info/sct"
 * #0793 ^designation[=].use = $sct#900000000000013009
@@ -10174,14 +10175,14 @@ Id: TRE-R210-ActeSpecifique
 * #0793 ^designation[+].language = #fr-FR
 * #0793 ^designation[=].use.system = "http://snomed.info/sct"
 * #0793 ^designation[=].use = $sct#900000000000013009
-* #0793 ^designation[=].value = "Activité professionnelle - Activités de services (blanchisserie, nettoyage, restauration, etc.)"
+* #0793 ^designation[=].value = "Activité professionnelle - Activités de services"
 * #0793 ^property[0].code = #dateValid
 * #0793 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
 * #0793 ^property[+].code = #dateMaj
 * #0793 ^property[=].valueDateTime = "2018-05-31T12:00:00+01:00"
 * #0793 ^property[+].code = #status
 * #0793 ^property[=].valueCode = #active
-* #0794 "Activité professionnelle - Activités « vertes »"
+* #0794 "Activité professionnelle - Activités « vertes » (espaces verts, agriculture, activités bois)"
 * #0794 ^designation[0].language = #fr-FR
 * #0794 ^designation[=].use.system = "http://snomed.info/sct"
 * #0794 ^designation[=].use = $sct#900000000000013009
@@ -10189,7 +10190,7 @@ Id: TRE-R210-ActeSpecifique
 * #0794 ^designation[+].language = #fr-FR
 * #0794 ^designation[=].use.system = "http://snomed.info/sct"
 * #0794 ^designation[=].use = $sct#900000000000013009
-* #0794 ^designation[=].value = "Activité professionnelle - Activités « vertes » (espaces verts, agriculture, activités bois)"
+* #0794 ^designation[=].value = "Activité professionnelle - Activités « vertes »"
 * #0794 ^property[0].code = #dateValid
 * #0794 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
 * #0794 ^property[+].code = #dateMaj
@@ -10262,7 +10263,7 @@ Id: TRE-R210-ActeSpecifique
 * #0800 ^property[=].valueDateTime = "2018-05-31T12:00:00+01:00"
 * #0800 ^property[+].code = #status
 * #0800 ^property[=].valueCode = #active
-* #0801 "Enseignement, Formation - Hôtellerie, Restauration et Tourisme"
+* #0801 "Enseignement, Formation - Hôtellerie, Restauration et Tourisme (dont Charcuterie traiteur, Cuisine, Pâtisserie)"
 * #0801 ^designation[0].language = #fr-FR
 * #0801 ^designation[=].use.system = "http://snomed.info/sct"
 * #0801 ^designation[=].use = $sct#900000000000013009
@@ -10270,7 +10271,7 @@ Id: TRE-R210-ActeSpecifique
 * #0801 ^designation[+].language = #fr-FR
 * #0801 ^designation[=].use.system = "http://snomed.info/sct"
 * #0801 ^designation[=].use = $sct#900000000000013009
-* #0801 ^designation[=].value = "Enseignement, Formation - Hôtellerie, Restauration et Tourisme (dont Charcuterie traiteur, Cuisine, Pâtisserie)"
+* #0801 ^designation[=].value = "Enseignement, Formation - Hôtellerie, Restauration et Tourisme"
 * #0801 ^property[0].code = #dateValid
 * #0801 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
 * #0801 ^property[+].code = #dateMaj
@@ -10875,7 +10876,7 @@ Id: TRE-R210-ActeSpecifique
 * #0855 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #0855 ^property[+].code = #status
 * #0855 ^property[=].valueCode = #active
-* #0856 "FIV avc Inj Intra Cytopla de Sperm morph sélec (IMSI)(Aide Méd à la Procré, AMP)"
+* #0856 "FIV avec Injection Intra Cytoplasmique de Spermatozoïdes morphologiquement sélectionnés (IMSI) (Aide Médicale à la Procréation, AMP)"
 * #0856 ^designation[0].language = #fr-FR
 * #0856 ^designation[=].use.system = "http://snomed.info/sct"
 * #0856 ^designation[=].use = $sct#900000000000013009
@@ -10883,7 +10884,7 @@ Id: TRE-R210-ActeSpecifique
 * #0856 ^designation[+].language = #fr-FR
 * #0856 ^designation[=].use.system = "http://snomed.info/sct"
 * #0856 ^designation[=].use = $sct#900000000000013009
-* #0856 ^designation[=].value = "FIV avec Injection Intra Cytoplasmique de Spermatozoïdes morphologiquement sélectionnés (IMSI) (Aide Médicale à la Procréation, AMP)"
+* #0856 ^designation[=].value = "FIV avc Inj Intra Cytopla de Sperm morph sélec (IMSI)(Aide Méd à la Procré, AMP)"
 * #0856 ^property[0].code = #dateValid
 * #0856 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #0856 ^property[+].code = #dateMaj
@@ -11111,7 +11112,7 @@ Id: TRE-R210-ActeSpecifique
 * #0875 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #0875 ^property[+].code = #status
 * #0875 ^property[=].valueCode = #active
-* #0876 "Accueil de stagiaire en stage pro ou de mise en situation pro"
+* #0876 "Accueil de stagiaire en stage professionnel ou de mise en situation professionnelle"
 * #0876 ^designation[0].language = #fr-FR
 * #0876 ^designation[=].use.system = "http://snomed.info/sct"
 * #0876 ^designation[=].use = $sct#900000000000013009
@@ -11119,7 +11120,7 @@ Id: TRE-R210-ActeSpecifique
 * #0876 ^designation[+].language = #fr-FR
 * #0876 ^designation[=].use.system = "http://snomed.info/sct"
 * #0876 ^designation[=].use = $sct#900000000000013009
-* #0876 ^designation[=].value = "Accueil de stagiaire en stage professionnel ou de mise en situation professionnelle"
+* #0876 ^designation[=].value = "Accueil de stagiaire en stage pro ou de mise en situation pro"
 * #0876 ^property[0].code = #dateValid
 * #0876 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #0876 ^property[+].code = #dateMaj
@@ -11809,7 +11810,7 @@ Id: TRE-R210-ActeSpecifique
 * #0933 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
 * #0933 ^property[+].code = #status
 * #0933 ^property[=].valueCode = #deprecated
-* #0934 "MAPA sur 24h (Holter tensionnel)"
+* #0934 "Mesure ambulatoire de la pression artérielle sur 24 heures (MAPA) (Holter tensionnel)"
 * #0934 ^designation[0].language = #fr-FR
 * #0934 ^designation[=].use.system = "http://snomed.info/sct"
 * #0934 ^designation[=].use = $sct#900000000000013009
@@ -11817,7 +11818,7 @@ Id: TRE-R210-ActeSpecifique
 * #0934 ^designation[+].language = #fr-FR
 * #0934 ^designation[=].use.system = "http://snomed.info/sct"
 * #0934 ^designation[=].use = $sct#900000000000013009
-* #0934 ^designation[=].value = "Mesure ambulatoire de la pression artérielle sur 24 heures (MAPA) (Holter tensionnel)"
+* #0934 ^designation[=].value = "MAPA sur 24h (Holter tensionnel)"
 * #0934 ^property[0].code = #dateValid
 * #0934 ^property[=].valueDateTime = "2019-07-05T12:00:00+01:00"
 * #0934 ^property[+].code = #dateFin
@@ -11918,7 +11919,7 @@ Id: TRE-R210-ActeSpecifique
 * #0940 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
 * #0940 ^property[+].code = #status
 * #0940 ^property[=].valueCode = #deprecated
-* #0941 "Suivi conventionnel stimulateurs/défibrillateurs cardiaques (ne plus utiliser)"
+* #0941 "Suivi conventionnel de stimulateurs/défibrillateurs cardiaques (ne plus utiliser)"
 * #0941 ^designation[0].language = #fr-FR
 * #0941 ^designation[=].use.system = "http://snomed.info/sct"
 * #0941 ^designation[=].use = $sct#900000000000013009
@@ -11926,7 +11927,7 @@ Id: TRE-R210-ActeSpecifique
 * #0941 ^designation[+].language = #fr-FR
 * #0941 ^designation[=].use.system = "http://snomed.info/sct"
 * #0941 ^designation[=].use = $sct#900000000000013009
-* #0941 ^designation[=].value = "Suivi conventionnel de stimulateurs/défibrillateurs cardiaques (ne plus utiliser)"
+* #0941 ^designation[=].value = "Suivi conventionnel stimulateurs/défibrillateurs cardiaques (ne plus utiliser)"
 * #0941 ^property[0].code = #dateValid
 * #0941 ^property[=].valueDateTime = "2019-07-05T12:00:00+01:00"
 * #0941 ^property[+].code = #dateFin
@@ -13220,11 +13221,11 @@ Id: TRE-R210-ActeSpecifique
 * #1081 ^property[=].valueDateTime = "2022-04-29T12:00:00+01:00"
 * #1081 ^property[+].code = #status
 * #1081 ^property[=].valueCode = #active
-* #1082 "Fourniture de matériel d'hygiène, de prévention et de RdRD par voie postale"
+* #1082 "Fourniture de matériel d'hygiène, de prévention et de Réduction des Risques et des Dommages (RdRD) par voie postale"
 * #1082 ^designation[0].language = #fr-FR
 * #1082 ^designation[=].use.system = "http://snomed.info/sct"
 * #1082 ^designation[=].use = $sct#900000000000013009
-* #1082 ^designation[=].value = "Fourniture de matériel d'hygiène, de prévention et de Réduction des Risques et des Dommages (RdRD) par voie postale"
+* #1082 ^designation[=].value = "Fourniture de matériel d'hygiène, de prévention et de RdRD par voie postale"
 * #1082 ^property[0].code = #dateValid
 * #1082 ^property[=].valueDateTime = "2022-04-29T12:00:00+01:00"
 * #1082 ^property[+].code = #dateMaj
@@ -13646,11 +13647,11 @@ Id: TRE-R210-ActeSpecifique
 * #1139 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
 * #1139 ^property[+].code = #status
 * #1139 ^property[=].valueCode = #active
-* #1140 "Bilan radiologique avec prise en charge adaptée"
+* #1140 "Bilan radiologique avec prise en charge adaptée (handicaps physiques, psychiques, claustrophobie, …)"
 * #1140 ^designation[0].language = #fr-FR
 * #1140 ^designation[=].use.system = "http://snomed.info/sct"
 * #1140 ^designation[=].use = $sct#900000000000013009
-* #1140 ^designation[=].value = "Bilan radiologique avec prise en charge adaptée (handicaps physiques, psychiques, claustrophobie, …)"
+* #1140 ^designation[=].value = "Bilan radiologique avec prise en charge adaptée"
 * #1140 ^property[0].code = #dateValid
 * #1140 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
 * #1140 ^property[+].code = #dateMaj
@@ -13699,11 +13700,11 @@ Id: TRE-R210-ActeSpecifique
 * #1146 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
 * #1146 ^property[+].code = #status
 * #1146 ^property[=].valueCode = #active
-* #1147 "Block test anesthésique d'un nerf périphérique guidé par l'imagerie"
+* #1147 "Block test anesthésique d'un nerf périphérique guidé par l'imagerie (pudendal, clunéal, …)"
 * #1147 ^designation[0].language = #fr-FR
 * #1147 ^designation[=].use.system = "http://snomed.info/sct"
 * #1147 ^designation[=].use = $sct#900000000000013009
-* #1147 ^designation[=].value = "Block test anesthésique d'un nerf périphérique guidé par l'imagerie (pudendal, clunéal, …)"
+* #1147 ^designation[=].value = "Block test anesthésique d'un nerf périphérique guidé par l'imagerie"
 * #1147 ^property[0].code = #dateValid
 * #1147 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
 * #1147 ^property[+].code = #dateMaj
@@ -13942,11 +13943,11 @@ Id: TRE-R210-ActeSpecifique
 * #1179 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
 * #1179 ^property[+].code = #status
 * #1179 ^property[=].valueCode = #active
-* #1180 "Destruction tumorale percutanée mammaire guidée par imagerie"
+* #1180 "Destruction tumorale percutanée mammaire guidée par imagerie (cryo-ablation, radiofréquence, laser)"
 * #1180 ^designation[0].language = #fr-FR
 * #1180 ^designation[=].use.system = "http://snomed.info/sct"
 * #1180 ^designation[=].use = $sct#900000000000013009
-* #1180 ^designation[=].value = "Destruction tumorale percutanée mammaire guidée par imagerie (cryo-ablation, radiofréquence, laser)"
+* #1180 ^designation[=].value = "Destruction tumorale percutanée mammaire guidée par imagerie"
 * #1180 ^property[0].code = #dateValid
 * #1180 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
 * #1180 ^property[+].code = #dateMaj
@@ -14206,11 +14207,11 @@ Id: TRE-R210-ActeSpecifique
 * #1215 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
 * #1215 ^property[+].code = #status
 * #1215 ^property[=].valueCode = #active
-* #1216 "Info du patient sur le risque infectieux associé à sa PEC ou son terrain"
+* #1216 "Information du patient sur le risque infectieux associé à sa prise en charge ou son terrain"
 * #1216 ^designation[0].language = #fr-FR
 * #1216 ^designation[=].use.system = "http://snomed.info/sct"
 * #1216 ^designation[=].use = $sct#900000000000013009
-* #1216 ^designation[=].value = "Information du patient sur le risque infectieux associé à sa prise en charge ou son terrain"
+* #1216 ^designation[=].value = "Info du patient sur le risque infectieux associé à sa PEC ou son terrain"
 * #1216 ^property[0].code = #dateValid
 * #1216 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
 * #1216 ^property[+].code = #dateMaj
@@ -14452,11 +14453,11 @@ Id: TRE-R210-ActeSpecifique
 * #1249 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
 * #1249 ^property[+].code = #status
 * #1249 ^property[=].valueCode = #active
-* #1250 "Prise en charge des vertiges et troubles de l'équilibre"
+* #1250 "Prise en charge diagnostique et thérapeutique des vertiges et troubles de l'équilibre"
 * #1250 ^designation[0].language = #fr-FR
 * #1250 ^designation[=].use.system = "http://snomed.info/sct"
 * #1250 ^designation[=].use = $sct#900000000000013009
-* #1250 ^designation[=].value = "Prise en charge diagnostique et thérapeutique des vertiges et troubles de l'équilibre"
+* #1250 ^designation[=].value = "Prise en charge des vertiges et troubles de l'équilibre"
 * #1250 ^property[0].code = #dateValid
 * #1250 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
 * #1250 ^property[+].code = #dateMaj
@@ -14484,11 +14485,11 @@ Id: TRE-R210-ActeSpecifique
 * #1253 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
 * #1253 ^property[+].code = #status
 * #1253 ^property[=].valueCode = #active
-* #1254 "Radio vasculaire diag. et interventionnelle des artères rénales et prostatiques"
+* #1254 "Radio vasculaire diagnostique et interventionnelle des artères rénales et prostatiques"
 * #1254 ^designation[0].language = #fr-FR
 * #1254 ^designation[=].use.system = "http://snomed.info/sct"
 * #1254 ^designation[=].use = $sct#900000000000013009
-* #1254 ^designation[=].value = "Radio vasculaire diagnostique et interventionnelle des artères rénales et prostatiques"
+* #1254 ^designation[=].value = "Radio vasculaire diag. et interventionnelle des artères rénales et prostatiques"
 * #1254 ^property[0].code = #dateValid
 * #1254 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
 * #1254 ^property[+].code = #dateMaj
@@ -14502,11 +14503,11 @@ Id: TRE-R210-ActeSpecifique
 * #1255 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
 * #1255 ^property[+].code = #status
 * #1255 ^property[=].valueCode = #active
-* #1256 "Radiologie inter. Vasculaire (Tous territoires artériels et veineux hors NRI)"
+* #1256 "Radiologie interventionnelle Vasculaire : Tous territoires artériels et veineux hors NRI"
 * #1256 ^designation[0].language = #fr-FR
 * #1256 ^designation[=].use.system = "http://snomed.info/sct"
 * #1256 ^designation[=].use = $sct#900000000000013009
-* #1256 ^designation[=].value = "Radiologie interventionnelle Vasculaire : Tous territoires artériels et veineux hors NRI"
+* #1256 ^designation[=].value = "Radiologie inter. Vasculaire (Tous territoires artériels et veineux hors NRI)"
 * #1256 ^property[0].code = #dateValid
 * #1256 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
 * #1256 ^property[+].code = #dateMaj
@@ -14646,11 +14647,11 @@ Id: TRE-R210-ActeSpecifique
 * #1275 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
 * #1275 ^property[+].code = #status
 * #1275 ^property[=].valueCode = #active
-* #1276 "Enregistrement polygraphique dans le cadre du SAOS"
+* #1276 "Enregistrement polygraphique dans le cadre du syndrome d'apnées obstructives du sommeil (SAOS)"
 * #1276 ^designation[0].language = #fr-FR
 * #1276 ^designation[=].use.system = "http://snomed.info/sct"
 * #1276 ^designation[=].use = $sct#900000000000013009
-* #1276 ^designation[=].value = "Enregistrement polygraphique dans le cadre du syndrome d'apnées obstructives du sommeil (SAOS)"
+* #1276 ^designation[=].value = "Enregistrement polygraphique dans le cadre du SAOS"
 * #1276 ^property[0].code = #dateValid
 * #1276 ^property[=].valueDateTime = "2022-12-16T12:00:00+01:00"
 * #1276 ^property[+].code = #dateMaj
@@ -14870,11 +14871,11 @@ Id: TRE-R210-ActeSpecifique
 * #1304 ^property[=].valueDateTime = "2023-01-27T12:00:00+01:00"
 * #1304 ^property[+].code = #status
 * #1304 ^property[=].valueCode = #active
-* #1305 "SMR Lab réadaptation des personnes en état de conscience altérée (ex EVC/EPR)"
+* #1305 "SMR Labellisé réadaptation des personnes en état de conscience altérée (ex EVC/EPR)"
 * #1305 ^designation[0].language = #fr-FR
 * #1305 ^designation[=].use.system = "http://snomed.info/sct"
 * #1305 ^designation[=].use = $sct#900000000000013009
-* #1305 ^designation[=].value = "SMR Labellisé réadaptation des personnes en état de conscience altérée (ex EVC/EPR)"
+* #1305 ^designation[=].value = "SMR Lab réadaptation des personnes en état de conscience altérée (ex EVC/EPR)"
 * #1305 ^property[0].code = #dateValid
 * #1305 ^property[=].valueDateTime = "2023-01-27T12:00:00+01:00"
 * #1305 ^property[+].code = #dateMaj
@@ -14927,11 +14928,11 @@ Id: TRE-R210-ActeSpecifique
 * #1311 ^property[=].valueDateTime = "2023-06-30T12:00:00+01:00"
 * #1311 ^property[+].code = #status
 * #1311 ^property[=].valueCode = #active
-* #1312 "SMR Lab réadap troubles cognitifs et comportementaux des patients cérébro-lésés"
+* #1312 "SMR Labellisé réadaptation des troubles cognitifs et comportementaux des patients cérébro-lésés"
 * #1312 ^designation[0].language = #fr-FR
 * #1312 ^designation[=].use.system = "http://snomed.info/sct"
 * #1312 ^designation[=].use = $sct#900000000000013009
-* #1312 ^designation[=].value = "SMR Labellisé réadaptation des troubles cognitifs et comportementaux des patients cérébro-lésés"
+* #1312 ^designation[=].value = "SMR Lab réadap troubles cognitifs et comportementaux des patients cérébro-lésés"
 * #1312 ^property[0].code = #dateValid
 * #1312 ^property[=].valueDateTime = "2023-01-27T12:00:00+01:00"
 * #1312 ^property[+].code = #dateMaj
@@ -14952,11 +14953,11 @@ Id: TRE-R210-ActeSpecifique
 * #1314 ^property[=].valueDateTime = "2023-06-30T12:00:00+01:00"
 * #1314 ^property[+].code = #status
 * #1314 ^property[=].valueCode = #active
-* #1315 "SMR Lab réadap troubles cognitifs sévères liés à une conduite addictive"
+* #1315 "SMR Labellisé réadaptation des troubles cognitifs sévères liés à une conduite addictive"
 * #1315 ^designation[0].language = #fr-FR
 * #1315 ^designation[=].use.system = "http://snomed.info/sct"
 * #1315 ^designation[=].use = $sct#900000000000013009
-* #1315 ^designation[=].value = "SMR Labellisé réadaptation des troubles cognitifs sévères liés à une conduite addictive"
+* #1315 ^designation[=].value = "SMR Lab réadap troubles cognitifs sévères liés à une conduite addictive"
 * #1315 ^property[0].code = #dateValid
 * #1315 ^property[=].valueDateTime = "2023-01-27T12:00:00+01:00"
 * #1315 ^property[+].code = #dateMaj
@@ -15048,11 +15049,11 @@ Id: TRE-R210-ActeSpecifique
 * #1326 ^property[=].valueDateTime = "2023-05-26T12:00:00+01:00"
 * #1326 ^property[+].code = #status
 * #1326 ^property[=].valueCode = #active
-* #1327 "Endo. digestive diagnostique et interventionnelle : dissection sous-muqueuse"
+* #1327 "Endoscopie digestive diagnostique et interventionnelle : dissection sous-muqueuse"
 * #1327 ^designation[0].language = #fr-FR
 * #1327 ^designation[=].use.system = "http://snomed.info/sct"
 * #1327 ^designation[=].use = $sct#900000000000013009
-* #1327 ^designation[=].value = "Endoscopie digestive diagnostique et interventionnelle : dissection sous-muqueuse"
+* #1327 ^designation[=].value = "Endo. digestive diagnostique et interventionnelle : dissection sous-muqueuse"
 * #1327 ^property[0].code = #dateValid
 * #1327 ^property[=].valueDateTime = "2023-05-26T12:00:00+01:00"
 * #1327 ^property[+].code = #dateMaj
@@ -15232,11 +15233,11 @@ Id: TRE-R210-ActeSpecifique
 * #1350 ^property[=].valueDateTime = "2023-05-26T12:00:00+01:00"
 * #1350 ^property[+].code = #status
 * #1350 ^property[=].valueCode = #active
-* #1351 "PEC des troubles de l'hémostase et de la coagulation constitutionnels et acquis"
+* #1351 "Prise en charge des troubles de l'hémostase et de la coagulation constitutionnels et acquis"
 * #1351 ^designation[0].language = #fr-FR
 * #1351 ^designation[=].use.system = "http://snomed.info/sct"
 * #1351 ^designation[=].use = $sct#900000000000013009
-* #1351 ^designation[=].value = "Prise en charge des troubles de l'hémostase et de la coagulation constitutionnels et acquis"
+* #1351 ^designation[=].value = "PEC des troubles de l'hémostase et de la coagulation constitutionnels et acquis"
 * #1351 ^property[0].code = #dateValid
 * #1351 ^property[=].valueDateTime = "2023-05-26T12:00:00+01:00"
 * #1351 ^property[+].code = #dateMaj
@@ -15292,11 +15293,11 @@ Id: TRE-R210-ActeSpecifique
 * #1358 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #1358 ^property[+].code = #status
 * #1358 ^property[=].valueCode = #active
-* #1359 "Bilan échographique pré FAV et suivi des abords vasculaires"
+* #1359 "Bilan échographique pré fistule artérioveineuse (FAV) et suivi des abords vasculaires"
 * #1359 ^designation[0].language = #fr-FR
 * #1359 ^designation[=].use.system = "http://snomed.info/sct"
 * #1359 ^designation[=].use = $sct#900000000000013009
-* #1359 ^designation[=].value = "Bilan échographique pré fistule artérioveineuse (FAV) et suivi des abords vasculaires"
+* #1359 ^designation[=].value = "Bilan échographique pré FAV et suivi des abords vasculaires"
 * #1359 ^property[0].code = #dateValid
 * #1359 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #1359 ^property[+].code = #dateMaj
@@ -15310,11 +15311,11 @@ Id: TRE-R210-ActeSpecifique
 * #1360 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #1360 ^property[+].code = #status
 * #1360 ^property[=].valueCode = #active
-* #1361 "Diagnostic et pec de l'insuffisance veineuse des membres inf (dont varices)"
+* #1361 "Diagnostic et prise en charge de l'insuffisance veineuse des membres inférieurs (dont varices)"
 * #1361 ^designation[0].language = #fr-FR
 * #1361 ^designation[=].use.system = "http://snomed.info/sct"
 * #1361 ^designation[=].use = $sct#900000000000013009
-* #1361 ^designation[=].value = "Diagnostic et prise en charge de l'insuffisance veineuse des membres inférieurs (dont varices)"
+* #1361 ^designation[=].value = "Diagnostic et pec de l'insuffisance veineuse des membres inf (dont varices)"
 * #1361 ^property[0].code = #dateValid
 * #1361 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #1361 ^property[+].code = #dateMaj
@@ -15644,22 +15645,22 @@ Id: TRE-R210-ActeSpecifique
 * #1406 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
 * #1406 ^property[+].code = #status
 * #1406 ^property[=].valueCode = #active
-* #1407 "Bilan des troubles psychotraumatiques répétés (dont TSPT)"
+* #1407 "Bilan des troubles psychotraumatiques répétés (dont Troubles Stress Post-Traumatique)"
 * #1407 ^designation[0].language = #fr-FR
 * #1407 ^designation[=].use.system = "http://snomed.info/sct"
 * #1407 ^designation[=].use = $sct#900000000000013009
-* #1407 ^designation[=].value = "Bilan des troubles psychotraumatiques répétés (dont Troubles Stress Post-Traumatique)"
+* #1407 ^designation[=].value = "Bilan des troubles psychotraumatiques répétés (dont TSPT)"
 * #1407 ^property[0].code = #dateValid
 * #1407 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
 * #1407 ^property[+].code = #dateMaj
 * #1407 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
 * #1407 ^property[+].code = #status
 * #1407 ^property[=].valueCode = #active
-* #1408 "Bilan des troubles psychotraumatiques uniques (dont TSPT)"
+* #1408 "Bilan des troubles psychotraumatiques uniques (dont Troubles Stress Post-Traumatique)"
 * #1408 ^designation[0].language = #fr-FR
 * #1408 ^designation[=].use.system = "http://snomed.info/sct"
 * #1408 ^designation[=].use = $sct#900000000000013009
-* #1408 ^designation[=].value = "Bilan des troubles psychotraumatiques uniques (dont Troubles Stress Post-Traumatique)"
+* #1408 ^designation[=].value = "Bilan des troubles psychotraumatiques uniques (dont TSPT)"
 * #1408 ^property[0].code = #dateValid
 * #1408 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
 * #1408 ^property[+].code = #dateMaj
@@ -15989,11 +15990,11 @@ Id: TRE-R210-ActeSpecifique
 * #1450 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #1450 ^property[+].code = #status
 * #1450 ^property[=].valueCode = #active
-* #1451 "Accompagnement infirmier au changement"
+* #1451 "Accompagnement infirmier au changement (état de santé, étapes de vie, environnement, deuil)"
 * #1451 ^designation[0].language = #fr-FR
 * #1451 ^designation[=].use.system = "http://snomed.info/sct"
 * #1451 ^designation[=].use = $sct#900000000000013009
-* #1451 ^designation[=].value = "Accompagnement infirmier au changement (état de santé, étapes de vie, environnement, deuil)"
+* #1451 ^designation[=].value = "Accompagnement infirmier au changement"
 * #1451 ^property[0].code = #dateValid
 * #1451 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #1451 ^property[+].code = #dateMaj
@@ -16152,11 +16153,11 @@ Id: TRE-R210-ActeSpecifique
 * #1471 ^property[=].valueDateTime = "2024-09-27T12:00:00+01:00"
 * #1471 ^property[+].code = #status
 * #1471 ^property[=].valueCode = #active
-* #1472 "Soins et surveillance des cathéters centraux (picc-line)"
+* #1472 "Soins et surveillance des cathéters centraux par insertion périphérique (picc-line)"
 * #1472 ^designation[0].language = #fr-FR
 * #1472 ^designation[=].use.system = "http://snomed.info/sct"
 * #1472 ^designation[=].use = $sct#900000000000013009
-* #1472 ^designation[=].value = "Soins et surveillance des cathéters centraux par insertion périphérique (picc-line)"
+* #1472 ^designation[=].value = "Soins et surveillance des cathéters centraux (picc-line)"
 * #1472 ^property[0].code = #dateValid
 * #1472 ^property[=].valueDateTime = "2024-09-27T12:00:00+01:00"
 * #1472 ^property[+].code = #dateMaj
@@ -16184,11 +16185,11 @@ Id: TRE-R210-ActeSpecifique
 * #1475 ^property[=].valueDateTime = "2024-09-27T12:00:00+01:00"
 * #1475 ^property[+].code = #status
 * #1475 ^property[=].valueCode = #active
-* #1476 "Accès direct IPA, kinésithérapeute, orthophoniste"
+* #1476 "Accès direct Infirmier en Pratique Avancée (IPA), kinésithérapeute, orthophoniste"
 * #1476 ^designation[0].language = #fr-FR
 * #1476 ^designation[=].use.system = "http://snomed.info/sct"
 * #1476 ^designation[=].use = $sct#900000000000013009
-* #1476 ^designation[=].value = "Accès direct Infirmier en Pratique Avancée (IPA), kinésithérapeute, orthophoniste"
+* #1476 ^designation[=].value = "Accès direct IPA, kinésithérapeute, orthophoniste"
 * #1476 ^property[0].code = #dateValid
 * #1476 ^property[=].valueDateTime = "2024-09-27T12:00:00+01:00"
 * #1476 ^property[+].code = #dateFin

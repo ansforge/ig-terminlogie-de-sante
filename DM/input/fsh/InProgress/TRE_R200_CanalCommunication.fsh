@@ -4,6 +4,7 @@ Description: "Canal de communication"
 * ^meta.versionId = "5"
 * ^meta.lastUpdated = "2025-07-02T18:13:42.108+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2016-02-04T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R200-CanalCommunication/FHIR/TRE-R200-CanalCommunication"
@@ -18,12 +19,15 @@ Description: "Canal de communication"
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateMaj
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj"
 * ^property[=].description = "Date de mise à jour d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateFin
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin"
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #deprecationDate

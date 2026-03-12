@@ -4,6 +4,7 @@ Description: "Catégorie d'organisation"
 * ^meta.versionId = "27"
 * ^meta.lastUpdated = "2026-02-23T17:57:22.131+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2017-10-13T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation"
@@ -17,7 +18,6 @@ Description: "Catégorie d'organisation"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 302
 * ^property[0].code = #dateValid
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"

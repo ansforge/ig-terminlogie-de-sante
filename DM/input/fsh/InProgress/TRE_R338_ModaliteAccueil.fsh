@@ -3,7 +3,8 @@ Id: TRE-R338-ModaliteAccueil
 Description: "Modalités d'accueil"
 * ^meta.versionId = "18"
 * ^meta.lastUpdated = "2025-12-22T10:46:44.090+01:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2022-09-30T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R338-ModaliteAccueil/FHIR/TRE-R338-ModaliteAccueil"

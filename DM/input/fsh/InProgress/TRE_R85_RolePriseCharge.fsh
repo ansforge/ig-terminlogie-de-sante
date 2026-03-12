@@ -3,7 +3,8 @@ Id: TRE-R85-RolePriseCharge
 Description: "Rôle dans la prise en charge des patients ou des usagers"
 * ^meta.versionId = "23"
 * ^meta.lastUpdated = "2026-02-03T15:41:56.470+01:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2015-01-01T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge"
