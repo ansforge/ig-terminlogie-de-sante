@@ -3,21 +3,19 @@ Id: concept-properties
 Title: "Concept Properties"
 Description: "CodeSystem permettant définir les propriétés NOS utilisées dans les CodeSystem NOS"
 * ^meta.versionId = "1"
-* ^meta.lastUpdated = "2026-02-23T12:00:00.000+00:00"
+* ^meta.lastUpdated = "2026-03-30T12:00:00.000+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
-* ^extension.valuePeriod.start = "2026-02-23T12:00:00+01:00"
+* ^extension.valuePeriod.start = "2026-03-30T12:00:00+01:00"
 * ^url = "https://smt.esante.gouv.fr/fhir/concept-properties"
-* ^version = "20260223120000"
+* ^version = "20260330120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-02-23T12:00:00.000+00:00"
+* ^date = "2026-03-30T12:00:00.000+00:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
-* ^valueSet = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee?vs"
-* ^content = #complete
 * ^property[0].code = #status
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
 * ^property[=].description = "A property that indicates the status of the concept."
