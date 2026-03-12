@@ -66,7 +66,7 @@
          fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"^^xsd:anyURI ;
          fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis>
        ] ;
-       fhir:version [ fhir:v "202602240000" ] ;
+       fhir:version [ fhir:v "202603110000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "GEN-092.01.04" ] ;
          fhir:display [ fhir:v "Autre addiction" ]

@@ -88,7 +88,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-      "version" : "202602240000",
+      "version" : "202603110000",
       "concept" : [{
         "code" : "MED-536",
         "display" : "Variants dont l’impact clinique est connu."

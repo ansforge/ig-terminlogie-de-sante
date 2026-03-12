@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-examen-complementaire-cisis | *Version*:20260220142103 | |
-| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvAxamenComplementaireCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-examen-complementaire-cisis | *Version*:20260311144902 | |
+| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvAxamenComplementaireCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.647 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-examen-complementaire-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2026-02-23T14:57:46.701+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-03-11T15:27:58.646+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -71,12 +71,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.647"
   }],
-  "version" : "20260220142103",
+  "version" : "20260311144902",
   "name" : "JdvAxamenComplementaireCisis",
   "title" : "JDV Examen Complementaire CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-20T14:21:03+01:00",
+  "date" : "2026-03-11T14:49:02+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Examen Complementaire CISIS",
   "jurisdiction" : [{
@@ -88,7 +88,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-      "version" : "202602240000",
+      "version" : "202603110000",
       "concept" : [{
         "code" : "MED-034",
         "display" : "Agrandissement"

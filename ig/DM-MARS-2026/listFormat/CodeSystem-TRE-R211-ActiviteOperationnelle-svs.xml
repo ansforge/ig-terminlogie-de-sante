@@ -5527,6 +5527,42 @@
                   longDesignation="Echographie obstétricale de diagnostic"
                   shortDesignation="Echographie obstétricale de diagnostic"
                   descriptionMetier="En cas d’aspect inhabituel (morphologique et/ou biométrique), de doute ou de difficulté persistante à fournir les éléments demandés pour l’examen de dépistage. Cet examen de deuxième rang est réalisé par des praticiens ayant une expérience et une expertise spécifiques et exerçant en relation avec un (ou plusieurs) Centre(s) Pluridisciplinaire(s) de Diagnostic Prénatal."/>
+         <Concept code="614"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  dateFin=""
+                  dateMaj="20260330120000"
+                  dateValid="20260330120000"
+                  displayName="Soins infirmiers en pratique avancée en pathologies chroniques stabilisées"
+                  longDesignation="Soins infirmiers en pratique avancée en pathologies chroniques stabilisées"
+                  shortDesignation="Soins infirmiers en pratique avancée en pathologies chroniques stabilisées"
+                  descriptionMetier=""/>
+         <Concept code="615"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  dateFin=""
+                  dateMaj="20260330120000"
+                  dateValid="20260330120000"
+                  displayName="Soins infirmiers en pratique avancée en oncologie et hémato-oncologie"
+                  longDesignation="Soins infirmiers en pratique avancée en oncologie et hémato-oncologie"
+                  shortDesignation="Soins infirmiers en pratique avancée en oncologie et hémato-oncologie"
+                  descriptionMetier=""/>
+         <Concept code="616"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  dateFin=""
+                  dateMaj="20260330120000"
+                  dateValid="20260330120000"
+                  displayName="Soins infirmiers en pratique avancée en maladie rénale chronique"
+                  longDesignation="Soins infirmiers en pratique avancée en maladie rénale chronique"
+                  shortDesignation="Soins infirmiers en pratique avancée en maladie rénale chronique"
+                  descriptionMetier=""/>
+         <Concept code="617"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  dateFin=""
+                  dateMaj="20260330120000"
+                  dateValid="20260330120000"
+                  displayName="Soins infirmiers en pratique avancée en santé mentale"
+                  longDesignation="Soins infirmiers en pratique avancée en santé mentale"
+                  shortDesignation="Soins infirmiers en pratique avancée en santé mentale"
+                  descriptionMetier=""/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

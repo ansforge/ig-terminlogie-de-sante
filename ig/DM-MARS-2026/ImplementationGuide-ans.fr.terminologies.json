@@ -10,7 +10,7 @@
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-03-11T10:08:51+00:00",
+  "date" : "2026-03-12T10:11:51+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -25399,6 +25399,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/concept-properties"
+      },
+      "name" : "Concept Properties",
+      "description" : "CodeSystem permettant définir les propriétés NOS utilisées dans les CodeSystem NOS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -27909,6 +27921,30 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-j389-sexe-provenance-rnipp"
+      },
+      "name" : "Jdv J389 Sexe Provenance Rnipp",
+      "description" : "Liste de valeurs du code Sexe issues de l'INSEE pour le RPPS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j390-origine-interruption-exercice-rpps"
+      },
+      "name" : "Jdv J390 Origine Interruption Exercice Rpps",
+      "description" : "Liste de valeurs pour le RPPS permettant de définir l'origine d'une interruption d'exercice",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/JDV-J69-ActiviteOperationnelle-Santefr"
       },
       "name" : "JDV J69 ActiviteOperationnelle Santefr",
@@ -28329,10 +28365,34 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-modalite-entree-esms-cisis"
+      },
+      "name" : "JDV Modalite Entree ESMS CISIS",
+      "description" : "JDV Modalite Entree ESMS CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-modalite-sortie-cisis"
       },
       "name" : "JDV Modalite Sortie CISIS",
       "description" : "JDV Modalite Sortie CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-modalite-sortie-esms-cisis"
+      },
+      "name" : "JDV Modalite Sortie ESMS CISIS",
+      "description" : "JDV Modalite Sortie ESMS CISIS",
       "exampleBoolean" : false
     },
     {
@@ -28609,6 +28669,18 @@
       },
       "name" : "JDV Motif Non Realisation Evenement CISIS",
       "description" : "JDV Motif Non Realisation Evenement CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-mso-resultat-qualitatif-cisis"
+      },
+      "name" : "Jdv MSO Resultat Qualitatif CISIS",
+      "description" : "Jdv MSO Resultat Qualitatif CISIS",
       "exampleBoolean" : false
     },
     {
@@ -29601,6 +29673,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-resultat-qualitatif-cisis"
+      },
+      "name" : "Jdv Resultat Qualitatif CISIS",
+      "description" : "Jdv Resultat Qualitatif CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-resultat-question-evaluation-cisis"
       },
       "name" : "JDV Resultat Question Evaluation CISIS",
@@ -29869,6 +29953,18 @@
       },
       "name" : "JDV Secteur Activite Employeur CISIS",
       "description" : "JDV Secteur Activite Employeur CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-section-document-cisis"
+      },
+      "name" : "JDV Section Document CISIS",
+      "description" : "JDV Section Document CISIS",
       "exampleBoolean" : false
     },
     {
@@ -35055,6 +35151,18 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/tre-r396-autorite"
+      },
+      "name" : "Tre R396 Autorite",
+      "description" : "liste des autorités structurée en plusieurs types d'autorités : Ordres, ARS, ...",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/tre-r397-categorie-entite-geographique-exercice"
       },
       "name" : "Tre R397 Categorie Entite Geographique Exercice",
@@ -35191,6 +35299,18 @@
       },
       "name" : "Tre R410 Perimetre Interruption Exercice",
       "description" : "Le périmètre décrit l’étendue réelle de l’interruption d’exercer. Une interruption totale signifie que le professionnel ne peut accomplir aucune des activités relevant de la profession concernée. Dans ce cas, la profession doit être considérée comme non autorisée à exercer, ce qui entraîne notamment sa dépublication des données publiques de l’annuaire. Une interruption partielle correspond à une interdiction limitée à certains segments de l’exercice professionnel (une partie des activités du professionnel de santé). Le professionnel conserve alors le droit d'exercer les autres activités de sa profession... Le périmètre joue un rôle central dans les règles de publication et des accès aux services numériques en santé.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r411-sexe-insee"
+      },
+      "name" : "Tre R411 Sexe Insee",
+      "description" : "Liste de valeurs du code Sexe pour l'INSEE - En attente de faire directement référence aux Terminologies INSEE",
       "exampleBoolean" : false
     },
     {

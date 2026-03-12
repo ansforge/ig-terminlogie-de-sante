@@ -38,7 +38,7 @@
   <compose>
     <include>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"/>
-      <version value="202602240000"/>
+      <version value="202603110000"/>
       <concept>
         <code value="GEN-092.01.04"/>
         <display value="Autre addiction"/>

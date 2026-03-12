@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-acide-ascorbique-cisis | *Version*:20260220142104 | |
-| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvResultatDepistageAcideAscorbiqueCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-acide-ascorbique-cisis | *Version*:20260311144903 | |
+| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvResultatDepistageAcideAscorbiqueCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.783 | | |
 
  
@@ -57,8 +57,8 @@ No Expansion for this valueset (Unsupported Code System Version)
   "resourceType" : "ValueSet",
   "id" : "jdv-resultat-depistage-acide-ascorbique-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2026-02-23T14:59:31.962+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-03-11T15:28:58.378+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -73,12 +73,12 @@ No Expansion for this valueset (Unsupported Code System Version)
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.783"
   }],
-  "version" : "20260220142104",
+  "version" : "20260311144903",
   "name" : "JdvResultatDepistageAcideAscorbiqueCisis",
   "title" : "JDV Resultat Depistage Acide Ascorbique CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-20T14:21:04+01:00",
+  "date" : "2026-03-11T14:49:03+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Resultat Depistage Acide Ascorbique CISIS",
   "jurisdiction" : [{

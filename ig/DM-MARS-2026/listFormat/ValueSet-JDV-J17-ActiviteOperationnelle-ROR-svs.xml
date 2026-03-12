@@ -1609,6 +1609,18 @@
          <Concept code="613"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Echographie obstétricale de diagnostic"/>
+         <Concept code="614"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Soins infirmiers en pratique avancée en pathologies chroniques stabilisées"/>
+         <Concept code="615"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Soins infirmiers en pratique avancée en oncologie et hémato-oncologie"/>
+         <Concept code="616"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Soins infirmiers en pratique avancée en maladie rénale chronique"/>
+         <Concept code="617"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Soins infirmiers en pratique avancée en santé mentale"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -886,6 +886,18 @@
          <Concept code="302"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Centre d’Accueil et de Crise (CAC)"/>
+         <Concept code="303"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Cabinet de ville infirmier en pratique avancée en pathologies chroniques stabilisées"/>
+         <Concept code="304"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Cabinet de ville infirmier en pratique avancée en oncologie et hémato-oncologie"/>
+         <Concept code="305"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Cabinet de ville infirmier en pratique avancée en maladie rénale chronique"/>
+         <Concept code="306"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Cabinet de ville infirmier en pratique avancée en santé mentale"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

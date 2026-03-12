@@ -2219,6 +2219,22 @@ Requête sur le SMT
       {
         "code" : "613",
         "display" : "Echographie obstétricale de diagnostic"
+      },
+      {
+        "code" : "614",
+        "display" : "Soins infirmiers en pratique avancée en pathologies chroniques stabilisées"
+      },
+      {
+        "code" : "615",
+        "display" : "Soins infirmiers en pratique avancée en oncologie et hémato-oncologie"
+      },
+      {
+        "code" : "616",
+        "display" : "Soins infirmiers en pratique avancée en maladie rénale chronique"
+      },
+      {
+        "code" : "617",
+        "display" : "Soins infirmiers en pratique avancée en santé mentale"
       }]
     }]
   }

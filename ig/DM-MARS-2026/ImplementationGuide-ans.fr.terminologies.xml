@@ -11,7 +11,7 @@
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2026-03-11T10:08:51+00:00"/>
+  <date value="2026-03-12T10:11:51+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -18619,6 +18619,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/concept-properties"/>
+      </reference>
+      <name value="Concept Properties"/>
+      <description value="CodeSystem permettant définir les propriétés NOS utilisées dans les CodeSystem NOS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -20920,6 +20931,28 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-j389-sexe-provenance-rnipp"/>
+      </reference>
+      <name value="Jdv J389 Sexe Provenance Rnipp"/>
+      <description value="Liste de valeurs du code Sexe issues de l'INSEE pour le RPPS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j390-origine-interruption-exercice-rpps"/>
+      </reference>
+      <name value="Jdv J390 Origine Interruption Exercice Rpps"/>
+      <description value="Liste de valeurs pour le RPPS permettant de définir l'origine d'une interruption d'exercice"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/JDV-J69-ActiviteOperationnelle-Santefr"/>
       </reference>
       <name value="JDV J69 ActiviteOperationnelle Santefr"/>
@@ -21305,10 +21338,32 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-modalite-entree-esms-cisis"/>
+      </reference>
+      <name value="JDV Modalite Entree ESMS CISIS"/>
+      <description value="JDV Modalite Entree ESMS CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-modalite-sortie-cisis"/>
       </reference>
       <name value="JDV Modalite Sortie CISIS"/>
       <description value="JDV Modalite Sortie CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-modalite-sortie-esms-cisis"/>
+      </reference>
+      <name value="JDV Modalite Sortie ESMS CISIS"/>
+      <description value="JDV Modalite Sortie ESMS CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -21562,6 +21617,17 @@
       </reference>
       <name value="JDV Motif Non Realisation Evenement CISIS"/>
       <description value="JDV Motif Non Realisation Evenement CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-mso-resultat-qualitatif-cisis"/>
+      </reference>
+      <name value="Jdv MSO Resultat Qualitatif CISIS"/>
+      <description value="Jdv MSO Resultat Qualitatif CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -22471,6 +22537,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-resultat-qualitatif-cisis"/>
+      </reference>
+      <name value="Jdv Resultat Qualitatif CISIS"/>
+      <description value="Jdv Resultat Qualitatif CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-resultat-question-evaluation-cisis"/>
       </reference>
       <name value="JDV Resultat Question Evaluation CISIS"/>
@@ -22717,6 +22794,17 @@
       </reference>
       <name value="JDV Secteur Activite Employeur CISIS"/>
       <description value="JDV Secteur Activite Employeur CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-section-document-cisis"/>
+      </reference>
+      <name value="JDV Section Document CISIS"/>
+      <description value="JDV Section Document CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -27470,6 +27558,17 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/tre-r396-autorite"/>
+      </reference>
+      <name value="Tre R396 Autorite"/>
+      <description value="liste des autorités structurée en plusieurs types d'autorités : Ordres, ARS, ..."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/tre-r397-categorie-entite-geographique-exercice"/>
       </reference>
       <name value="Tre R397 Categorie Entite Geographique Exercice"/>
@@ -27595,6 +27694,17 @@
       </reference>
       <name value="Tre R410 Perimetre Interruption Exercice"/>
       <description value="Le périmètre décrit l’étendue réelle de l’interruption d’exercer. Une interruption totale signifie que le professionnel ne peut accomplir aucune des activités relevant de la profession concernée. Dans ce cas, la profession doit être considérée comme non autorisée à exercer, ce qui entraîne notamment sa dépublication des données publiques de l’annuaire. Une interruption partielle correspond à une interdiction limitée à certains segments de l’exercice professionnel (une partie des activités du professionnel de santé). Le professionnel conserve alors le droit d'exercer les autres activités de sa profession... Le périmètre joue un rôle central dans les règles de publication et des accès aux services numériques en santé."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r411-sexe-insee"/>
+      </reference>
+      <name value="Tre R411 Sexe Insee"/>
+      <description value="Liste de valeurs du code Sexe pour l'INSEE - En attente de faire directement référence aux Terminologies INSEE"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

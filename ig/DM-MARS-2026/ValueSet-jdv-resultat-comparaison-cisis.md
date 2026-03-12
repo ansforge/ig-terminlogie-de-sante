@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-comparaison-cisis | *Version*:20260220142103 | |
-| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvResultatComparaisonCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-comparaison-cisis | *Version*:20260311144902 | |
+| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvResultatComparaisonCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.649 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-resultat-comparaison-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2026-02-23T14:59:31.620+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-03-11T15:28:58.184+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -71,12 +71,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.649"
   }],
-  "version" : "20260220142103",
+  "version" : "20260311144902",
   "name" : "JdvResultatComparaisonCisis",
   "title" : "JDV Resultat Comparaison CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-20T14:21:03+01:00",
+  "date" : "2026-03-11T14:49:02+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Resultat Comparaison CISIS",
   "jurisdiction" : [{
@@ -88,7 +88,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-      "version" : "202602240000",
+      "version" : "202603110000",
       "concept" : [{
         "code" : "GEN-001",
         "display" : "Apparue"

@@ -30,6 +30,7 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | CIM_10_FR_PMSI | https://smt.esante.gouv.fr/terminologie-cim-10 | 2.16.840.1.113883.6.3 |
 | CISP_2 | https://smt.esante.gouv.fr/terminologie-cisp | 2.16.840.1.113883.6.139 |
 | ClaDiMed | https://smt.esante.gouv.fr/terminologie-cladimed | 1.2.250.1.213.2.65 |
+| ConceptProperties | https://smt.esante.gouv.fr/fhir/concept-properties |  |
 | ConditionClinicalStatusCodes | http://terminology.hl7.org/CodeSystem/condition-clinical | 2.16.840.1.113883.4.642.1.1074 |
 | ConditionClinicalSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/condition-clinical-supplement-fr |  |
 | ConditionVerStatusSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/condition-ver-status-supplement-fr |  |
@@ -336,6 +337,7 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | TreR390TypeProjetPersonnalise | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise | 1.2.250.1.213.3.3.258 |
 | TreR393TypeContratSejour | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour | 1.2.250.1.213.3.3.260 |
 | TreR394CompetenceMetier | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r394-competence-metier | 1.2.250.1.213.1.6.1.375 |
+| TreR396Autorite | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite | 1.2.250.1.213.1.6.1.377 |
 | TreR397CategorieEntiteGeographiqueExercice | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice | 1.2.250.1.213.1.6.1.378 |
 | TreR400FinessStatutJuridique | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique | 1.2.250.1.213.1.6.1.379 |
 | TreR401ActiviteSocialeRegulee | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee | 1.2.250.1.213.1.6.1.380 |
@@ -348,6 +350,7 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | TreR408TypeEnseignementSpecialise | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise | 1.2.250.1.213.3.3.262 |
 | TreR409TypeDureeInterruptionExercice | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee | 1.2.250.1.213.1.6.1.396 |
 | TreR410PerimetreInterruptionExercice | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee | 1.2.250.1.213.1.6.1.397 |
+| TreR411SexeInsee | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r411-sexe-insee | 1.2.250.1.213.2.82 |
 | UCUM | http://unitsofmeasure.org | 2.16.840.1.113883.6.8 |
 | V3SpecimenTypeSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/v3-SpecimenType-supplement-fr |  |
 

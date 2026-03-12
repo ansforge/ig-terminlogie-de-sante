@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-PersonalRelationshipRoleType-cisis | *Version*:20260220142103 | |
-| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:PersonalRelationshipRoleType |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-PersonalRelationshipRoleType-cisis | *Version*:20260311144902 | |
+| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:PersonalRelationshipRoleType |
 | *Other Identifiers:*OID:2.16.840.1.113883.1.11.19563 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-hl7-v3-PersonalRelationshipRoleType-cisis",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-02-23T15:00:52.086+01:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-03-11T15:29:39.565+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -71,12 +71,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.840.1.113883.1.11.19563"
   }],
-  "version" : "20260220142103",
+  "version" : "20260311144902",
   "name" : "PersonalRelationshipRoleType",
   "title" : "PersonalRelationshipRoleType",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-20T14:21:03+01:00",
+  "date" : "2026-03-11T14:49:02+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "PersonalRelationshipRoleType",
   "jurisdiction" : [{
@@ -415,7 +415,7 @@ Requête sur le SMT
       },
       {
         "code" : "RESPRSN",
-        "display" : "Responsable légal non membre de la famille"
+        "display" : "Responsable légal"
       },
       {
         "code" : "ROOM",

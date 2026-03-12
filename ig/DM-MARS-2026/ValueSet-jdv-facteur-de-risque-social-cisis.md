@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-facteur-de-risque-social-cisis | *Version*:20260220142105 | |
-| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvFacteurDeRisqueSocialCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-facteur-de-risque-social-cisis | *Version*:20260311144904 | |
+| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvFacteurDeRisqueSocialCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.488 | | |
 
  
@@ -57,8 +57,8 @@ No Expansion for this valueset (Unsupported Code System Version)
   "resourceType" : "ValueSet",
   "id" : "jdv-facteur-de-risque-social-cisis",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-02-23T14:58:22.326+01:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-03-11T15:28:19.138+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -73,12 +73,12 @@ No Expansion for this valueset (Unsupported Code System Version)
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.488"
   }],
-  "version" : "20260220142105",
+  "version" : "20260311144904",
   "name" : "JdvFacteurDeRisqueSocialCisis",
   "title" : "JDV Facteur De Risque Social CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-20T14:21:05+01:00",
+  "date" : "2026-03-11T14:49:04+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Facteur De Risque Social CISIS",
   "jurisdiction" : [{

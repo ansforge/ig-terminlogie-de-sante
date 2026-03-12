@@ -110,7 +110,7 @@ Requête sur le SMT
     },
     {
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-      "version" : "202602240000",
+      "version" : "202603110000",
       "concept" : [{
         "code" : "MED-1278",
         "display" : "Lors d'un malaise"

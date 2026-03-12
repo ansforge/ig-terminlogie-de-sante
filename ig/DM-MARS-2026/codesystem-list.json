@@ -586,8 +586,8 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R10-SexeAdministratif/FHIR/TRE-R10-SexeAdministratif",
-    "version" : "20231215120000",
-    "status" : "active",
+    "version" : "20260330120000",
+    "status" : "retired",
     "name" : "TRE_R10_SexeAdministratif",
     "title" : null,
     "description" : "Sexe administratif",
@@ -2662,7 +2662,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-    "version" : "202602240000",
+    "version" : "202603110000",
     "status" : "active",
     "name" : "TerminologieCISIS",
     "title" : "TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies",
@@ -2712,6 +2712,15 @@
     "title" : "Tre R394 Competence Metier",
     "description" : "Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue.",
     "oids" : ["1.2.250.1.213.1.6.1.375"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "TreR396Autorite",
+    "title" : "Tre R396 Autorite",
+    "description" : "liste des autorités structurée en plusieurs types d'autorités : Ordres, ARS, ...",
+    "oids" : ["1.2.250.1.213.1.6.1.377"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
@@ -2822,6 +2831,15 @@
     "oids" : ["1.2.250.1.213.3.3.262"]
   },
   {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r411-sexe-insee",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "TreR411SexeInsee",
+    "title" : "Tre R411 Sexe Insee",
+    "description" : "Liste de valeurs du code Sexe pour l'INSEE - En attente de faire directement référence aux Terminologies INSEE",
+    "oids" : ["1.2.250.1.213.2.82"]
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/v2-0487-supplement-fr",
     "version" : "1.0",
     "status" : "draft",
@@ -2836,6 +2854,14 @@
     "name" : "V3SpecimenTypeSupplementFr",
     "title" : "V3SpecimenTypeSupplementFr",
     "description" : "Traduction Française"
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/concept-properties",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "ConceptProperties",
+    "title" : "Concept Properties",
+    "description" : "CodeSystem permettant définir les propriétés NOS utilisées dans les CodeSystem NOS"
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-SERAFINPH",

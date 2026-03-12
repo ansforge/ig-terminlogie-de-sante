@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-   <ValueSet dateFin=""
-             dateMaj="20231215120000"
+   <ValueSet dateFin="20260330000000"
+             dateMaj="20260330120000"
              dateValid="20130628000000"
              description="Sexe administratif"
              displayName="TRE_R10_SexeAdministratif"
@@ -12,8 +12,8 @@
       <ConceptList>
          <Concept code="F"
                   codeSystem="1.2.250.1.213.2.27"
-                  dateFin=""
-                  dateMaj="20130628000000"
+                  dateFin="20260330000000"
+                  dateMaj="20260330000000"
                   dateValid="20130628000000"
                   displayName="Féminin"
                   longDesignation="Féminin"
@@ -21,8 +21,8 @@
                   descriptionMetier=""/>
          <Concept code="M"
                   codeSystem="1.2.250.1.213.2.27"
-                  dateFin=""
-                  dateMaj="20130628000000"
+                  dateFin="20260330000000"
+                  dateMaj="20260330000000"
                   dateValid="20130628000000"
                   displayName="Masculin"
                   longDesignation="Masculin"

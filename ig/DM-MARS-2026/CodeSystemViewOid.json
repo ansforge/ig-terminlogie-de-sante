@@ -95,6 +95,14 @@
   "status" : "draft"
 },
 {
+  "id" : "TRE-R10-SexeAdministratif",
+  "name" : "TRE_R10_SexeAdministratif",
+  "title" : null,
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R10-SexeAdministratif/FHIR/TRE-R10-SexeAdministratif",
+  "identifier" : "urn:oid:1.2.250.1.213.2.27",
+  "status" : "retired"
+},
+{
   "id" : "TRE-R200-CanalCommunication",
   "name" : "TRE_R200_CanalCommunication",
   "title" : null,
@@ -223,6 +231,14 @@
   "status" : "draft"
 },
 {
+  "id" : "concept-properties",
+  "name" : "ConceptProperties",
+  "title" : "Concept Properties",
+  "url" : "https://smt.esante.gouv.fr/fhir/concept-properties",
+  "identifier" : null,
+  "status" : "active"
+},
+{
   "id" : "condition-clinical-supplement-fr",
   "name" : "ConditionClinicalSupplementFr",
   "title" : "ConditionClinicalSupplementFr",
@@ -279,6 +295,14 @@
   "status" : "draft"
 },
 {
+  "id" : "tre-r396-autorite",
+  "name" : "TreR396Autorite",
+  "title" : "Tre R396 Autorite",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.377",
+  "status" : "active"
+},
+{
   "id" : "tre-r397-categorie-entite-geographique-exercice",
   "name" : "TreR397CategorieEntiteGeographiqueExercice",
   "title" : "Tre R397 Categorie Entite Geographique Exercice",
@@ -316,6 +340,14 @@
   "title" : "Tre R410 Perimetre Interruption Exercice",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
   "identifier" : "urn:oid:1.2.250.1.213.1.6.1.397",
+  "status" : "active"
+},
+{
+  "id" : "tre-r411-sexe-insee",
+  "name" : "TreR411SexeInsee",
+  "title" : "Tre R411 Sexe Insee",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r411-sexe-insee",
+  "identifier" : "urn:oid:1.2.250.1.213.2.82",
   "status" : "active"
 },
 {
@@ -940,14 +972,6 @@
   "title" : null,
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R09-CategorieProfessionnelle/FHIR/TRE-R09-CategorieProfessionnelle",
   "identifier" : "urn:oid:1.2.250.1.213.1.6.1.10",
-  "status" : "active"
-},
-{
-  "id" : "TRE-R10-SexeAdministratif",
-  "name" : "TRE_R10_SexeAdministratif",
-  "title" : null,
-  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R10-SexeAdministratif/FHIR/TRE-R10-SexeAdministratif",
-  "identifier" : "urn:oid:1.2.250.1.213.2.27",
   "status" : "active"
 },
 {

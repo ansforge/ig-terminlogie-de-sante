@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mesure-lentille-delivree-cisis | *Version*:20260220142103 | |
-| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvMesureLentilleDelivreeCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mesure-lentille-delivree-cisis | *Version*:20260311144902 | |
+| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvMesureLentilleDelivreeCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.656 | | |
 
  
@@ -57,8 +57,8 @@ No Expansion for this valueset (Unsupported Code System Version)
   "resourceType" : "ValueSet",
   "id" : "jdv-mesure-lentille-delivree-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2026-02-23T14:58:48.211+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-03-11T15:28:33.944+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -73,12 +73,12 @@ No Expansion for this valueset (Unsupported Code System Version)
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.656"
   }],
-  "version" : "20260220142103",
+  "version" : "20260311144902",
   "name" : "JdvMesureLentilleDelivreeCisis",
   "title" : "JDV Mesure Lentille Delivree CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-20T14:21:03+01:00",
+  "date" : "2026-03-11T14:49:02+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Mesure Lentille Delivree CISIS",
   "jurisdiction" : [{
@@ -90,7 +90,7 @@ No Expansion for this valueset (Unsupported Code System Version)
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-      "version" : "202602240000",
+      "version" : "202603110000",
       "concept" : [{
         "code" : "MED-1181",
         "display" : "Date de délivrance"

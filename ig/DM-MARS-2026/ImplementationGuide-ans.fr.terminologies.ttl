@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "Terminologies"] ; # 
   fhir:title [ fhir:v "Terminologies  de Santé"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2026-03-11T10:08:51+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-03-12T10:11:51+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -55075,6 +55075,27 @@
          ] ;
          fhir:value [
            a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/concept-properties> ;
+         fhir:reference [ fhir:v "CodeSystem/concept-properties" ]
+       ] ;
+       fhir:name [ fhir:v "Concept Properties" ] ;
+       fhir:description [ fhir:v "CodeSystem permettant définir les propriétés NOS utilisées dans les CodeSystem NOS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
            fhir:v "ValueSet"
          ]
        ] ) ;
@@ -59467,6 +59488,48 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j389-sexe-provenance-rnipp> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j389-sexe-provenance-rnipp" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J389 Sexe Provenance Rnipp" ] ;
+       fhir:description [ fhir:v "Liste de valeurs du code Sexe issues de l'INSEE pour le RPPS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j390-origine-interruption-exercice-rpps> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j390-origine-interruption-exercice-rpps" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J390 Origine Interruption Exercice Rpps" ] ;
+       fhir:description [ fhir:v "Liste de valeurs pour le RPPS permettant de définir l'origine d'une interruption d'exercice" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/JDV-J69-ActiviteOperationnelle-Santefr> ;
          fhir:reference [ fhir:v "ValueSet/JDV-J69-ActiviteOperationnelle-Santefr" ]
        ] ;
@@ -60202,11 +60265,53 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-modalite-entree-esms-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-modalite-entree-esms-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "JDV Modalite Entree ESMS CISIS" ] ;
+       fhir:description [ fhir:v "JDV Modalite Entree ESMS CISIS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-modalite-sortie-cisis> ;
          fhir:reference [ fhir:v "ValueSet/jdv-modalite-sortie-cisis" ]
        ] ;
        fhir:name [ fhir:v "JDV Modalite Sortie CISIS" ] ;
        fhir:description [ fhir:v "JDV Modalite Sortie CISIS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-modalite-sortie-esms-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-modalite-sortie-esms-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "JDV Modalite Sortie ESMS CISIS" ] ;
+       fhir:description [ fhir:v "JDV Modalite Sortie ESMS CISIS" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -60690,6 +60795,27 @@
        ] ;
        fhir:name [ fhir:v "JDV Motif Non Realisation Evenement CISIS" ] ;
        fhir:description [ fhir:v "JDV Motif Non Realisation Evenement CISIS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-mso-resultat-qualitatif-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-mso-resultat-qualitatif-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv MSO Resultat Qualitatif CISIS" ] ;
+       fhir:description [ fhir:v "Jdv MSO Resultat Qualitatif CISIS" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -62428,6 +62554,27 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-resultat-qualitatif-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-resultat-qualitatif-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv Resultat Qualitatif CISIS" ] ;
+       fhir:description [ fhir:v "Jdv Resultat Qualitatif CISIS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-resultat-question-evaluation-cisis> ;
          fhir:reference [ fhir:v "ValueSet/jdv-resultat-question-evaluation-cisis" ]
        ] ;
@@ -62895,6 +63042,27 @@
        ] ;
        fhir:name [ fhir:v "JDV Secteur Activite Employeur CISIS" ] ;
        fhir:description [ fhir:v "JDV Secteur Activite Employeur CISIS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-section-document-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-section-document-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "JDV Section Document CISIS" ] ;
+       fhir:description [ fhir:v "JDV Section Document CISIS" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -71977,6 +72145,27 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r396-autorite> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r396-autorite" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R396 Autorite" ] ;
+       fhir:description [ fhir:v "liste des autorités structurée en plusieurs types d'autorités : Ordres, ARS, ..." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r397-categorie-entite-geographique-exercice> ;
          fhir:reference [ fhir:v "CodeSystem/tre-r397-categorie-entite-geographique-exercice" ]
        ] ;
@@ -72213,6 +72402,27 @@
        ] ;
        fhir:name [ fhir:v "Tre R410 Perimetre Interruption Exercice" ] ;
        fhir:description [ fhir:v "Le périmètre décrit l’étendue réelle de l’interruption d’exercer. Une interruption totale signifie que le professionnel ne peut accomplir aucune des activités relevant de la profession concernée. Dans ce cas, la profession doit être considérée comme non autorisée à exercer, ce qui entraîne notamment sa dépublication des données publiques de l’annuaire. Une interruption partielle correspond à une interdiction limitée à certains segments de l’exercice professionnel (une partie des activités du professionnel de santé). Le professionnel conserve alors le droit d'exercer les autres activités de sa profession... Le périmètre joue un rôle central dans les règles de publication et des accès aux services numériques en santé." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r411-sexe-insee> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r411-sexe-insee" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R411 Sexe Insee" ] ;
+       fhir:description [ fhir:v "Liste de valeurs du code Sexe pour l'INSEE - En attente de faire directement référence aux Terminologies INSEE" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false

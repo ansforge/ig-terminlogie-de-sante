@@ -2728,6 +2728,42 @@
                   longDesignation="Centre d’Accueil et de Crise (CAC)"
                   shortDesignation="CAC"
                   descriptionMetier="Le centre d'accueil et de crise (CAC) est un dispositif d'accueil en continu répondant au besoin non programmé d'évaluation et d'orientation du patient relevant d'une situation clinique de crise. Le centre peut disposer de lits d'hospitalisation de très courte durée permettant d'initier la prise en charge thérapeutique du patient dans une perspective de relai vers un autre mode de prise en charge."/>
+         <Concept code="303"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  dateFin=""
+                  dateMaj="20260330120000"
+                  dateValid="20260330120000"
+                  displayName="Cabinet de ville infirmier en pratique avancée en pathologies chroniques stabilisées"
+                  longDesignation="Cabinet de ville infirmier en pratique avancée en pathologies chroniques stabilisées"
+                  shortDesignation="Cabinet de ville infirmier en pratique avancée en pathologies chroniques stabilisées"
+                  descriptionMetier=""/>
+         <Concept code="304"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  dateFin=""
+                  dateMaj="20260330120000"
+                  dateValid="20260330120000"
+                  displayName="Cabinet de ville infirmier en pratique avancée en oncologie et hémato-oncologie"
+                  longDesignation="Cabinet de ville infirmier en pratique avancée en oncologie et hémato-oncologie"
+                  shortDesignation="Cabinet de ville infirmier en pratique avancée en oncologie et hémato-oncologie"
+                  descriptionMetier=""/>
+         <Concept code="305"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  dateFin=""
+                  dateMaj="20260330120000"
+                  dateValid="20260330120000"
+                  displayName="Cabinet de ville infirmier en pratique avancée en maladie rénale chronique"
+                  longDesignation="Cabinet de ville infirmier en pratique avancée en maladie rénale chronique"
+                  shortDesignation="Cabinet de ville infirmier en pratique avancée en maladie rénale chronique"
+                  descriptionMetier=""/>
+         <Concept code="306"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  dateFin=""
+                  dateMaj="20260330120000"
+                  dateValid="20260330120000"
+                  displayName="Cabinet de ville infirmier en pratique avancée en santé mentale"
+                  longDesignation="Cabinet de ville infirmier en pratique avancée en santé mentale"
+                  shortDesignation="Cabinet de ville infirmier en pratique avancée en santé mentale"
+                  descriptionMetier=""/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

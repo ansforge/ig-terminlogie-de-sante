@@ -90,7 +90,7 @@ Expansions are not generated for retired value sets
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-      "version" : "202602240000",
+      "version" : "202603110000",
       "concept" : [{
         "code" : "GEN-092.01.04",
         "display" : "Autre addiction"

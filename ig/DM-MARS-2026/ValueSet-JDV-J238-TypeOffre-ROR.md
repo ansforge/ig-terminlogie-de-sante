@@ -1255,6 +1255,22 @@ Requête sur le SMT
       {
         "code" : "302",
         "display" : "Centre d’Accueil et de Crise (CAC)"
+      },
+      {
+        "code" : "303",
+        "display" : "Cabinet de ville infirmier en pratique avancée en pathologies chroniques stabilisées"
+      },
+      {
+        "code" : "304",
+        "display" : "Cabinet de ville infirmier en pratique avancée en oncologie et hémato-oncologie"
+      },
+      {
+        "code" : "305",
+        "display" : "Cabinet de ville infirmier en pratique avancée en maladie rénale chronique"
+      },
+      {
+        "code" : "306",
+        "display" : "Cabinet de ville infirmier en pratique avancée en santé mentale"
       }]
     }]
   }
