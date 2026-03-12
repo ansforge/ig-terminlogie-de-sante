@@ -33,6 +33,7 @@ Catégorie d’organisation
     "lastUpdated" : "2026-02-23T17:57:22.131+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
+  "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
@@ -59,7 +60,7 @@ Catégorie d’organisation
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 302,
+  "count" : 306,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",

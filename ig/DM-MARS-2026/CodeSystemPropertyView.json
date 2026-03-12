@@ -78,7 +78,7 @@
   "identifier" : "urn:oid:1.2.250.1.213.3.3.1",
   "status" : "active",
   "codeProperty" : "dateValid",
-  "uriProperty" : null,
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
   "typeProperty" : "dateTime",
   "descriptionProperty" : "date de validité d'un code concept"
 },
@@ -90,7 +90,7 @@
   "identifier" : "urn:oid:1.2.250.1.213.3.3.1",
   "status" : "active",
   "codeProperty" : "dateMaj",
-  "uriProperty" : null,
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
   "typeProperty" : "dateTime",
   "descriptionProperty" : "Date de mise à jour d'un code concept"
 },
@@ -102,7 +102,7 @@
   "identifier" : "urn:oid:1.2.250.1.213.3.3.1",
   "status" : "active",
   "codeProperty" : "dateFin",
-  "uriProperty" : null,
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
   "typeProperty" : "dateTime",
   "descriptionProperty" : "Date de fin d'exploitation d'un code concept"
 },
@@ -366,7 +366,7 @@
   "identifier" : "urn:oid:1.2.250.1.213.3.3.17",
   "status" : "active",
   "codeProperty" : "dateValid",
-  "uriProperty" : null,
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
   "typeProperty" : "dateTime",
   "descriptionProperty" : "date de validité d'un code concept"
 },
@@ -378,7 +378,7 @@
   "identifier" : "urn:oid:1.2.250.1.213.3.3.17",
   "status" : "active",
   "codeProperty" : "dateMaj",
-  "uriProperty" : null,
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
   "typeProperty" : "dateTime",
   "descriptionProperty" : "Date de mise à jour d'un code concept"
 },
@@ -390,7 +390,7 @@
   "identifier" : "urn:oid:1.2.250.1.213.3.3.17",
   "status" : "active",
   "codeProperty" : "dateFin",
-  "uriProperty" : null,
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
   "typeProperty" : "dateTime",
   "descriptionProperty" : "Date de fin d'exploitation d'un code concept"
 },
@@ -438,7 +438,7 @@
   "identifier" : "urn:oid:1.2.250.1.213.3.3.29",
   "status" : "active",
   "codeProperty" : "dateValid",
-  "uriProperty" : null,
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
   "typeProperty" : "dateTime",
   "descriptionProperty" : "date de validité d'un code concept"
 },
@@ -450,7 +450,7 @@
   "identifier" : "urn:oid:1.2.250.1.213.3.3.29",
   "status" : "active",
   "codeProperty" : "dateMaj",
-  "uriProperty" : null,
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
   "typeProperty" : "dateTime",
   "descriptionProperty" : "Date de mise à jour d'un code concept"
 },
@@ -462,7 +462,7 @@
   "identifier" : "urn:oid:1.2.250.1.213.3.3.29",
   "status" : "active",
   "codeProperty" : "dateFin",
-  "uriProperty" : null,
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
   "typeProperty" : "dateTime",
   "descriptionProperty" : "Date de fin d'exploitation d'un code concept"
 },
@@ -510,7 +510,7 @@
   "identifier" : "urn:oid:1.2.250.1.213.3.3.37",
   "status" : "active",
   "codeProperty" : "dateValid",
-  "uriProperty" : null,
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
   "typeProperty" : "dateTime",
   "descriptionProperty" : "date de validité d'un code concept"
 },
@@ -522,7 +522,7 @@
   "identifier" : "urn:oid:1.2.250.1.213.3.3.37",
   "status" : "active",
   "codeProperty" : "dateMaj",
-  "uriProperty" : null,
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
   "typeProperty" : "dateTime",
   "descriptionProperty" : "Date de mise à jour d'un code concept"
 },
@@ -534,7 +534,7 @@
   "identifier" : "urn:oid:1.2.250.1.213.3.3.37",
   "status" : "active",
   "codeProperty" : "dateFin",
-  "uriProperty" : null,
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
   "typeProperty" : "dateTime",
   "descriptionProperty" : "Date de fin d'exploitation d'un code concept"
 },
@@ -654,7 +654,7 @@
   "identifier" : "urn:oid:1.2.250.1.213.1.6.1.133",
   "status" : "active",
   "codeProperty" : "dateValid",
-  "uriProperty" : null,
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
   "typeProperty" : "dateTime",
   "descriptionProperty" : "date de validité d'un code concept"
 },
@@ -666,7 +666,7 @@
   "identifier" : "urn:oid:1.2.250.1.213.1.6.1.133",
   "status" : "active",
   "codeProperty" : "dateMaj",
-  "uriProperty" : null,
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
   "typeProperty" : "dateTime",
   "descriptionProperty" : "Date de mise à jour d'un code concept"
 },
@@ -678,7 +678,7 @@
   "identifier" : "urn:oid:1.2.250.1.213.1.6.1.133",
   "status" : "active",
   "codeProperty" : "dateFin",
-  "uriProperty" : null,
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
   "typeProperty" : "dateTime",
   "descriptionProperty" : "Date de fin d'exploitation d'un code concept"
 },

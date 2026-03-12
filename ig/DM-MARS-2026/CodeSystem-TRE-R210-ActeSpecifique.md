@@ -30,6 +30,7 @@
     "lastUpdated" : "2025-12-22T10:46:38.800+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
+  "language" : "fr-FR",
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique",
   "identifier" : [{
     "system" : "urn:ietf:rfc:3986",
@@ -1164,7 +1165,7 @@
   },
   {
     "code" : "0041",
-    "display" : "Biothérapie rhumatismes inflammatoires chroniques",
+    "display" : "Biothérapie des rhumatismes inflammatoires chroniques (polyarthrite rhumatoïde, spondylarthropathies)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1179,7 +1180,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Biothérapie des rhumatismes inflammatoires chroniques (polyarthrite rhumatoïde, spondylarthropathies)"
+      "value" : "Biothérapie rhumatismes inflammatoires chroniques"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -1429,7 +1430,7 @@
   },
   {
     "code" : "0050",
-    "display" : "Chirurgie bariatrique majeure : by pass gastrique, sleeve gastrectomie",
+    "display" : "Chirurgie bariatrique (de l'obésité) majeure : by pass gastrique, sleeve gastrectomie",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1444,7 +1445,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Chirurgie bariatrique (de l'obésité) majeure : by pass gastrique, sleeve gastrectomie"
+      "value" : "Chirurgie bariatrique majeure : by pass gastrique, sleeve gastrectomie"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -1935,7 +1936,7 @@
   },
   {
     "code" : "0068",
-    "display" : "Chirurgie SOS main (Agrément FESUM)",
+    "display" : "Chirurgie SOS main (Agrément FESUM Fédération européenne des services d'urgence de la main)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1950,7 +1951,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Chirurgie SOS main (Agrément FESUM Fédération européenne des services d'urgence de la main)"
+      "value" : "Chirurgie SOS main (Agrément FESUM)"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -1967,7 +1968,7 @@
   },
   {
     "code" : "0069",
-    "display" : "Chirurgie embolie pulmonaire et HTAP post-embolique",
+    "display" : "Chirurgie de la maladie thrombo-embolique pulmonaire aiguë (EP) et chronique (HTAP post-embolique)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1982,7 +1983,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Chirurgie de la maladie thrombo-embolique pulmonaire aiguë (EP) et chronique (HTAP post-embolique)"
+      "value" : "Chirurgie embolie pulmonaire et HTAP post-embolique"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -2370,7 +2371,7 @@
   },
   {
     "code" : "0084",
-    "display" : "Chirurgie malformations congénitales cardiaques et vaisseaux supra cardiaques",
+    "display" : "Chirurgie des malformations congénitales cardiaques et des vaisseaux supra cardiaques",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2385,7 +2386,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Chirurgie des malformations congénitales cardiaques et des vaisseaux supra cardiaques"
+      "value" : "Chirurgie malformations congénitales cardiaques et vaisseaux supra cardiaques"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -2498,7 +2499,7 @@
   },
   {
     "code" : "0089",
-    "display" : "Chir tumeurs base du crâne, mâchoires et cou (dont angiome, dysplasie cutanée)",
+    "display" : "Chirurgie des tumeurs de la base du crâne, des mâchoires et du cou (dont angiome, dysplasie cutanée)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2513,7 +2514,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Chirurgie des tumeurs de la base du crâne, des mâchoires et du cou (dont angiome, dysplasie cutanée)"
+      "value" : "Chir tumeurs base du crâne, mâchoires et cou (dont angiome, dysplasie cutanée)"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -3692,7 +3693,7 @@
   },
   {
     "code" : "0131",
-    "display" : "Circulation extracorporelle pour assistance circulatoire-respiratoire (ECMO)",
+    "display" : "Circulation extracorporelle (CEC) pour assistance circulatoire-respiratoire (ECMO)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -3707,7 +3708,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Circulation extracorporelle (CEC) pour assistance circulatoire-respiratoire (ECMO)"
+      "value" : "Circulation extracorporelle pour assistance circulatoire-respiratoire (ECMO)"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -3732,7 +3733,7 @@
   },
   {
     "code" : "0132",
-    "display" : "Circulation extracorporelle pour assistance circulatoire-respiratoire (ECMO) péd",
+    "display" : "Circulation extracorporelle (CEC) pour assistance circulatoire-respiratoire (ECMO) pédiatrique",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -3747,7 +3748,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Circulation extracorporelle (CEC) pour assistance circulatoire-respiratoire (ECMO) pédiatrique"
+      "value" : "Circulation extracorporelle pour assistance circulatoire-respiratoire (ECMO) péd"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -5381,7 +5382,7 @@
   },
   {
     "code" : "0191",
-    "display" : "Endo des voies biliaires et du pancréas : cathétérisme rétrograde et ponction",
+    "display" : "Endoscopie voies biliaires et pancréas : cathétérisme rétrograde (extraction calcul, pose endoprothèse biliaire, sphinctérotomie, biopsie) et ponction",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -5396,7 +5397,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Endoscopie voies biliaires et pancréas : cathétérisme rétrograde (extraction calcul, pose endoprothèse biliaire, sphinctérotomie, biopsie) et ponction"
+      "value" : "Endo des voies biliaires et du pancréas : cathétérisme rétrograde et ponction"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -5461,7 +5462,7 @@
   },
   {
     "code" : "0194",
-    "display" : "Endoscopie digestive diagnostique et interventionnelle : pose d'endoprothèse",
+    "display" : "Endoscopie digestive diagnostique et interventionnelle : pose d'endoprothèse du tube digestif",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -5476,7 +5477,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Endoscopie digestive diagnostique et interventionnelle : pose d'endoprothèse du tube digestif"
+      "value" : "Endoscopie digestive diagnostique et interventionnelle : pose d'endoprothèse"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -5920,7 +5921,7 @@
   },
   {
     "code" : "0210",
-    "display" : "Exploration fonctionnelle respiratoire d'exercice avec mesure échanges gazeux",
+    "display" : "Exploration fonctionnelle respiratoire d'exercice (EFX) avec mesure des échanges gazeux",
     "definition" : "Enregistrement de la respiration, de l'activité des muscles squelettiques et du coeur, de la consommation d'oxygène, de la production de gaz carbonique et de l'acidité du sang lors d'un exercice musculaire progressivement croissant et maximal",
     "designation" : [{
       "language" : "fr-FR",
@@ -5936,7 +5937,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Exploration fonctionnelle respiratoire d'exercice (EFX) avec mesure des échanges gazeux"
+      "value" : "Exploration fonctionnelle respiratoire d'exercice avec mesure échanges gazeux"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -6017,7 +6018,7 @@
   },
   {
     "code" : "0213",
-    "display" : "FIV avec Injection Intra Cytoplasmique de Spermatozoïdes (ICSI) (AMP)",
+    "display" : "FIV avec Injection Intra Cytoplasmique de Spermatozoïdes (ICSI) (Aide Médicale à la Procréation, AMP)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -6032,7 +6033,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "FIV avec Injection Intra Cytoplasmique de Spermatozoïdes (ICSI) (Aide Médicale à la Procréation, AMP)"
+      "value" : "FIV avec Injection Intra Cytoplasmique de Spermatozoïdes (ICSI) (AMP)"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -6113,7 +6114,7 @@
   },
   {
     "code" : "0216",
-    "display" : "Gamma-angiographie cardiaque, tomographie cavitaire",
+    "display" : "Gamma-angiographie cardiaque, tomographie cavitaire (fonctions ventriculaires, bilan de rythmologie)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -6128,7 +6129,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Gamma-angiographie cardiaque, tomographie cavitaire (fonctions ventriculaires, bilan de rythmologie)"
+      "value" : "Gamma-angiographie cardiaque, tomographie cavitaire"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -8880,7 +8881,7 @@
   },
   {
     "code" : "0317",
-    "display" : "Neurochir vasculaire (avec compétences neurochirurgicales et endovasculaires)",
+    "display" : "Neurochirurgie vasculaire (avec compétences neurochirurgicales et endovasculaires)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -8895,7 +8896,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Neurochirurgie vasculaire (avec compétences neurochirurgicales et endovasculaires)"
+      "value" : "Neurochir vasculaire (avec compétences neurochirurgicales et endovasculaires)"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -11986,7 +11987,7 @@
   },
   {
     "code" : "0424",
-    "display" : "Revascul troncs supra-aortiques, artère sous-clavière, artère vertébrale",
+    "display" : "Revascularisation des troncs supra-aortiques, artère sous-clavière, artère vertébrale",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -12001,7 +12002,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Revascularisation des troncs supra-aortiques, artère sous-clavière, artère vertébrale"
+      "value" : "Revascul troncs supra-aortiques, artère sous-clavière, artère vertébrale"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -12242,7 +12243,7 @@
   },
   {
     "code" : "0434",
-    "display" : "Scintigraphie de perfusion avec test au Captopril et au Lasilix",
+    "display" : "Scintigraphie de perfusion avec test au Captopril (bilan HTA rénovasculaire) et au Lasilix (bilan des obstacles des voies excrétrices urinaires)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -12257,7 +12258,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Scintigraphie de perfusion avec test au Captopril (bilan HTA rénovasculaire) et au Lasilix (bilan des obstacles des voies excrétrices urinaires)"
+      "value" : "Scintigraphie de perfusion avec test au Captopril et au Lasilix"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -13133,7 +13134,7 @@
   },
   {
     "code" : "0466",
-    "display" : "Eval, ttt et suivi des Maladies Inflammatoires Chroniques de l'Intestin (MICI)",
+    "display" : "Evaluation, traitement et suivi des Maladies Inflammatoires Chroniques de l'Intestin (MICI)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -13148,7 +13149,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Evaluation, traitement et suivi des Maladies Inflammatoires Chroniques de l'Intestin (MICI)"
+      "value" : "Eval, ttt et suivi des Maladies Inflammatoires Chroniques de l'Intestin (MICI)"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -15131,7 +15132,7 @@
   },
   {
     "code" : "0538",
-    "display" : "Thérapie de groupe ou atelier à médiation orale et-ou écrite",
+    "display" : "Thérapie de groupe ou atelier à médiation orale et-ou écrite (groupe de parole, d'écriture)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -15146,7 +15147,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Thérapie de groupe ou atelier à médiation orale et-ou écrite (groupe de parole, d'écriture)"
+      "value" : "Thérapie de groupe ou atelier à médiation orale et-ou écrite"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -15332,7 +15333,7 @@
   },
   {
     "code" : "0546",
-    "display" : "Prise en charge des troubles conduites alimentaires (TCA) (anorexie, boulimie)",
+    "display" : "Prise en charge des troubles des conduites alimentaires (TCA) (anorexie, boulimie)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -15347,7 +15348,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Prise en charge des troubles des conduites alimentaires (TCA) (anorexie, boulimie)"
+      "value" : "Prise en charge des troubles conduites alimentaires (TCA) (anorexie, boulimie)"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -15564,7 +15565,7 @@
   },
   {
     "code" : "0555",
-    "display" : "Evaluation et traitement des brûlures associées à d'autes pathologies vvvermcato",
+    "display" : "Evaluation et traitement des brûlures associées à d'autres pathologies dermatologiques",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -15579,7 +15580,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Evaluation et traitement des brûlures associées à d'autres pathologies dermatologiques"
+      "value" : "Evaluation et traitement des brûlures associées à d'autes pathologies vvvermcato"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -15741,7 +15742,7 @@
   },
   {
     "code" : "0561",
-    "display" : "Confection, ajustement d'orthèses, prothèses, vêtements cifs sur mesure",
+    "display" : "Confection et ajustement d'orthèses, de prothèses, de vêtements compressifs sur mesure",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -15756,7 +15757,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Confection et ajustement d'orthèses, de prothèses, de vêtements compressifs sur mesure"
+      "value" : "Confection, ajustement d'orthèses, prothèses, vêtements cifs sur mesure"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -15781,7 +15782,7 @@
   },
   {
     "code" : "0562",
-    "display" : "Soin des plaies chroniques et pansements complexes sous anesthésie générale",
+    "display" : "Soins des plaies chroniques et pansements complexes sous anesthésie générale",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -15796,7 +15797,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Soins des plaies chroniques et pansements complexes sous anesthésie générale"
+      "value" : "Soin des plaies chroniques et pansements complexes sous anesthésie générale"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -15893,7 +15894,7 @@
   },
   {
     "code" : "0566",
-    "display" : "RCP Appareil Digestif",
+    "display" : "Réunion de concertation pluridisciplinaire Appareil Digestif",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -15908,7 +15909,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de concertation pluridisciplinaire Appareil Digestif"
+      "value" : "RCP Appareil Digestif"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -15933,7 +15934,7 @@
   },
   {
     "code" : "0567",
-    "display" : "RCP App. Respi. Autres Thorax",
+    "display" : "Réunion de concertation pluridisciplinaire Appareil Respiratoire et Autres Thorax",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -15948,7 +15949,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de concertation pluridisciplinaire Appareil Respiratoire et Autres Thorax"
+      "value" : "RCP App. Respi. Autres Thorax"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -15973,7 +15974,7 @@
   },
   {
     "code" : "0568",
-    "display" : "RCP Glandes Endocrines",
+    "display" : "Réunion de concertation pluridisciplinaire Glandes Endocrines",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -15988,7 +15989,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de concertation pluridisciplinaire Glandes Endocrines"
+      "value" : "RCP Glandes Endocrines"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -16013,7 +16014,7 @@
   },
   {
     "code" : "0569",
-    "display" : "RCP Hématologie",
+    "display" : "Réunion de concertation pluridisciplinaire Hématologie",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -16028,7 +16029,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de concertation pluridisciplinaire Hématologie"
+      "value" : "RCP Hématologie"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -16053,7 +16054,7 @@
   },
   {
     "code" : "0570",
-    "display" : "RCP Oeil",
+    "display" : "Réunion de concertation pluridisciplinaire Oeil",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -16068,7 +16069,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de concertation pluridisciplinaire Oeil"
+      "value" : "RCP Oeil"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -16093,7 +16094,7 @@
   },
   {
     "code" : "0571",
-    "display" : "RCP Org. génitaux féminins",
+    "display" : "Réunion de concertation pluridisciplinaire Organes génitaux féminins",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -16108,7 +16109,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de concertation pluridisciplinaire Organes génitaux féminins"
+      "value" : "RCP Org. génitaux féminins"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -16133,7 +16134,7 @@
   },
   {
     "code" : "0572",
-    "display" : "RCP Org. génitaux masculins",
+    "display" : "Réunion de concertation pluridisciplinaire Organes génitaux masculins",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -16148,7 +16149,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de concertation pluridisciplinaire Organes génitaux masculins"
+      "value" : "RCP Org. génitaux masculins"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -16173,7 +16174,7 @@
   },
   {
     "code" : "0573",
-    "display" : "RCP Os",
+    "display" : "Réunion de concertation pluridisciplinaire Os",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -16188,7 +16189,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de concertation pluridisciplinaire Os"
+      "value" : "RCP Os"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -16213,7 +16214,7 @@
   },
   {
     "code" : "0574",
-    "display" : "RCP Peau",
+    "display" : "Réunion de concertation pluridisciplinaire Peau",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -16228,7 +16229,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de concertation pluridisciplinaire Peau"
+      "value" : "RCP Peau"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -16253,7 +16254,7 @@
   },
   {
     "code" : "0575",
-    "display" : "RCP Sein",
+    "display" : "Réunion de concertation pluridisciplinaire Sein",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -16268,7 +16269,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de concertation pluridisciplinaire Sein"
+      "value" : "RCP Sein"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -16293,7 +16294,7 @@
   },
   {
     "code" : "0576",
-    "display" : "RCP Système Nerveux",
+    "display" : "Réunion de concertation pluridisciplinaire Système Nerveux",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -16308,7 +16309,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de concertation pluridisciplinaire Système Nerveux"
+      "value" : "RCP Système Nerveux"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -16333,7 +16334,7 @@
   },
   {
     "code" : "0577",
-    "display" : "RCP Tissus mous NCA",
+    "display" : "Réunion de concertation pluridisciplinaire Tissus mous, Non Classés Ailleurs (NCA)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -16348,7 +16349,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de concertation pluridisciplinaire Tissus mous, Non Classés Ailleurs (NCA)"
+      "value" : "RCP Tissus mous NCA"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -16373,7 +16374,7 @@
   },
   {
     "code" : "0578",
-    "display" : "RCP VADS",
+    "display" : "Réunion de concertation pluridisciplinaire Voies Aéro-Digestives Supérieures (VADS)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -16388,7 +16389,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de concertation pluridisciplinaire Voies Aéro-Digestives Supérieures (VADS)"
+      "value" : "RCP VADS"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -16413,7 +16414,7 @@
   },
   {
     "code" : "0579",
-    "display" : "RCP Voies urinaires",
+    "display" : "Réunion de concertation pluridisciplinaire Voies urinaires",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -16428,7 +16429,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de concertation pluridisciplinaire Voies urinaires"
+      "value" : "RCP Voies urinaires"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -16453,7 +16454,7 @@
   },
   {
     "code" : "0580",
-    "display" : "RCP Cancers rares",
+    "display" : "Réunion de concertation pluridisciplinaire Cancers rares",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -16468,7 +16469,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de concertation pluridisciplinaire Cancers rares"
+      "value" : "RCP Cancers rares"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -16493,7 +16494,7 @@
   },
   {
     "code" : "0581",
-    "display" : "RCP Douleur",
+    "display" : "Réunion de concertation pluridisciplinaire Douleur",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -16508,7 +16509,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de concertation pluridisciplinaire Douleur"
+      "value" : "RCP Douleur"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -16533,7 +16534,7 @@
   },
   {
     "code" : "0582",
-    "display" : "RCP Métastase osseuse",
+    "display" : "Réunion de concertation pluridisciplinaire Métastase osseuse",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -16548,7 +16549,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de concertation pluridisciplinaire Métastase osseuse"
+      "value" : "RCP Métastase osseuse"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -16573,7 +16574,7 @@
   },
   {
     "code" : "0583",
-    "display" : "RCP Oncogénétique",
+    "display" : "Réunion de concertation pluridisciplinaire Oncogénétique",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -16588,7 +16589,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de concertation pluridisciplinaire Oncogénétique"
+      "value" : "RCP Oncogénétique"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -16613,7 +16614,7 @@
   },
   {
     "code" : "0584",
-    "display" : "RCP Oncogériatrie",
+    "display" : "Réunion de concertation pluridisciplinaire Oncogériatrie",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -16628,7 +16629,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de concertation pluridisciplinaire Oncogériatrie"
+      "value" : "RCP Oncogériatrie"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -16653,7 +16654,7 @@
   },
   {
     "code" : "0585",
-    "display" : "RCP Oncologie médicale",
+    "display" : "Réunion de concertation pluridisciplinaire Oncologie médicale",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -16668,7 +16669,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de concertation pluridisciplinaire Oncologie médicale"
+      "value" : "RCP Oncologie médicale"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -16693,7 +16694,7 @@
   },
   {
     "code" : "0586",
-    "display" : "RCP Préservation fertilité",
+    "display" : "Réunion de concertation pluridisciplinaire Préservation de la fertilité",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -16708,7 +16709,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de concertation pluridisciplinaire Préservation de la fertilité"
+      "value" : "RCP Préservation fertilité"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -16733,7 +16734,7 @@
   },
   {
     "code" : "0587",
-    "display" : "RCP Radio interventionnelle",
+    "display" : "Réunion de concertation pluridisciplinaire Radiologie interventionnelle",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -16748,7 +16749,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de concertation pluridisciplinaire Radiologie interventionnelle"
+      "value" : "RCP Radio interventionnelle"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -16773,7 +16774,7 @@
   },
   {
     "code" : "0588",
-    "display" : "RCP Soins de support général",
+    "display" : "Réunion de concertation pluridisciplinaire Soins de support général",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -16788,7 +16789,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de concertation pluridisciplinaire Soins de support général"
+      "value" : "RCP Soins de support général"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -16813,7 +16814,7 @@
   },
   {
     "code" : "0589",
-    "display" : "RCP Soins palliatifs",
+    "display" : "Réunion de concertation pluridisciplinaire Soins palliatifs",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -16828,7 +16829,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de concertation pluridisciplinaire Soins palliatifs"
+      "value" : "RCP Soins palliatifs"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -17929,7 +17930,7 @@
   },
   {
     "code" : "0633",
-    "display" : "Remplacement valvulaire aortique percutané (TAVI)",
+    "display" : "Remplacement valvulaire aortique percutané (TAVI) (pose de bioprothèses valvulaires aortiques percutanée ou transapicale)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -17944,7 +17945,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Remplacement valvulaire aortique percutané (TAVI) (pose de bioprothèses valvulaires aortiques percutanée ou transapicale)"
+      "value" : "Remplacement valvulaire aortique percutané (TAVI)"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -18073,7 +18074,7 @@
   },
   {
     "code" : "0638",
-    "display" : "Echo-endoscopie des voies biliaires et du pancréas",
+    "display" : "Echo-endoscopie des voies biliaires et du pancréas : écho-endoscopie biliaire (spy glass)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -18088,7 +18089,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Echo-endoscopie des voies biliaires et du pancréas : écho-endoscopie biliaire (spy glass)"
+      "value" : "Echo-endoscopie des voies biliaires et du pancréas"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -19451,7 +19452,7 @@
   },
   {
     "code" : "0693",
-    "display" : "Artériographie interv. dans les territoires neuro-encéphalique et rachidien",
+    "display" : "Artériographie interventionnelle dans les territoires neuro-encéphalique et rachidien",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -19466,7 +19467,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Artériographie interventionnelle dans les territoires neuro-encéphalique et rachidien"
+      "value" : "Artériographie interv. dans les territoires neuro-encéphalique et rachidien"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -20279,7 +20280,7 @@
   },
   {
     "code" : "0727",
-    "display" : "Apprentissage d'un mode de comm. augmentatif pour personne déf. aud.",
+    "display" : "Apprentissage d'un mode de communication augmentatif pour personne déficiente auditive",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -20294,7 +20295,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Apprentissage d'un mode de communication augmentatif pour personne déficiente auditive"
+      "value" : "Apprentissage d'un mode de comm. augmentatif pour personne déf. aud."
     }],
     "property" : [{
       "code" : "dateValid",
@@ -20319,7 +20320,7 @@
   },
   {
     "code" : "0728",
-    "display" : "Apprentissage des techniques d'aide à la mobilité pour personne déf. visuelle",
+    "display" : "Apprentissage des techniques d'aide à la mobilité pour personne déficiente visuelle (canne longue, canne de signalement, chiens-guide, GPS,...)",
     "definition" : "Consiste à enseigner l'utilisation d'outils et de méthodes pour améliorer l'autonomie et la sécurité des déplacements. Cela inclut l'utilisation de la canne longue, de la canne de signalement, des chiens-guides, et des dispositifs GPS adaptés. Cet apprentissage est encadré et vise à compenser les limitations visuelles pour favoriser l'intégration sociale et la mobilité indépendante. Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle",
     "designation" : [{
       "language" : "fr-FR",
@@ -20335,7 +20336,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Apprentissage des techniques d'aide à la mobilité pour personne déficiente visuelle (canne longue, canne de signalement, chiens-guide, GPS,...)"
+      "value" : "Apprentissage des techniques d'aide à la mobilité pour personne déf. visuelle"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -20673,7 +20674,7 @@
   },
   {
     "code" : "0742",
-    "display" : "Actions de prévention primaire",
+    "display" : "Actions de prévention primaire (pour éviter la survenue d'un problème de santé)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -20688,7 +20689,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Actions de prévention primaire (pour éviter la survenue d'un problème de santé)"
+      "value" : "Actions de prévention primaire"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -20705,7 +20706,7 @@
   },
   {
     "code" : "0743",
-    "display" : "Actions de prévention secondaire",
+    "display" : "Actions de prévention secondaire (pour atténuer ou supprimer un problème de santé)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -20720,7 +20721,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Actions de prévention secondaire (pour atténuer ou supprimer un problème de santé)"
+      "value" : "Actions de prévention secondaire"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -20737,7 +20738,7 @@
   },
   {
     "code" : "0744",
-    "display" : "Actions de prévention tertiaire",
+    "display" : "Actions de prévention tertiaire (pour éviter l'aggravation ou la chronicisation d'un problème de santé)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -20752,7 +20753,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Actions de prévention tertiaire (pour éviter l'aggravation ou la chronicisation d'un problème de santé)"
+      "value" : "Actions de prévention tertiaire"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -21445,7 +21446,7 @@
   },
   {
     "code" : "0772",
-    "display" : "Pratique de comm augmentative-alternative pour personne déficiente auditive",
+    "display" : "Pratique de communication augmentative-alternative pour personne déficiente auditive",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -21460,7 +21461,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Pratique de communication augmentative-alternative pour personne déficiente auditive"
+      "value" : "Pratique de comm augmentative-alternative pour personne déficiente auditive"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -21582,7 +21583,7 @@
   },
   {
     "code" : "0777",
-    "display" : "Accompagnement à l'utilisation de tech numériques au service de la compensation",
+    "display" : "Accompagnement à l'utilisation de technologies numériques au service de la compensation",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -21597,7 +21598,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Accompagnement à l'utilisation de technologies numériques au service de la compensation"
+      "value" : "Accompagnement à l'utilisation de tech numériques au service de la compensation"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -21993,7 +21994,7 @@
   },
   {
     "code" : "0793",
-    "display" : "Activité professionnelle - Activités de services",
+    "display" : "Activité professionnelle - Activités de services (blanchisserie, nettoyage, restauration, etc.)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -22008,7 +22009,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Activité professionnelle - Activités de services (blanchisserie, nettoyage, restauration, etc.)"
+      "value" : "Activité professionnelle - Activités de services"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -22025,7 +22026,7 @@
   },
   {
     "code" : "0794",
-    "display" : "Activité professionnelle - Activités « vertes »",
+    "display" : "Activité professionnelle - Activités « vertes » (espaces verts, agriculture, activités bois)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -22040,7 +22041,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Activité professionnelle - Activités « vertes » (espaces verts, agriculture, activités bois)"
+      "value" : "Activité professionnelle - Activités « vertes »"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -22201,7 +22202,7 @@
   },
   {
     "code" : "0801",
-    "display" : "Enseignement, Formation - Hôtellerie, Restauration et Tourisme",
+    "display" : "Enseignement, Formation - Hôtellerie, Restauration et Tourisme (dont Charcuterie traiteur, Cuisine, Pâtisserie)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -22216,7 +22217,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Enseignement, Formation - Hôtellerie, Restauration et Tourisme (dont Charcuterie traiteur, Cuisine, Pâtisserie)"
+      "value" : "Enseignement, Formation - Hôtellerie, Restauration et Tourisme"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -23541,7 +23542,7 @@
   },
   {
     "code" : "0856",
-    "display" : "FIV avc Inj Intra Cytopla de Sperm morph sélec (IMSI)(Aide Méd à la Procré, AMP)",
+    "display" : "FIV avec Injection Intra Cytoplasmique de Spermatozoïdes morphologiquement sélectionnés (IMSI) (Aide Médicale à la Procréation, AMP)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -23556,7 +23557,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "FIV avec Injection Intra Cytoplasmique de Spermatozoïdes morphologiquement sélectionnés (IMSI) (Aide Médicale à la Procréation, AMP)"
+      "value" : "FIV avc Inj Intra Cytopla de Sperm morph sélec (IMSI)(Aide Méd à la Procré, AMP)"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -24053,7 +24054,7 @@
   },
   {
     "code" : "0876",
-    "display" : "Accueil de stagiaire en stage pro ou de mise en situation pro",
+    "display" : "Accueil de stagiaire en stage professionnel ou de mise en situation professionnelle",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -24068,7 +24069,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Accueil de stagiaire en stage professionnel ou de mise en situation professionnelle"
+      "value" : "Accueil de stagiaire en stage pro ou de mise en situation pro"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -24581,7 +24582,7 @@
   },
   {
     "code" : "0897",
-    "display" : "Vaccination épidémie Grippe",
+    "display" : "Vaccination épidémie saisonnière",
     "definition" : "Acte vaccinal qui consiste à administrer chaque année un vaccin antigrippal adapté aux souches circulantes afin de protéger les personnes vulnérables et réduire les formes graves ou les hospitalisations pendant l’épidémie grippale",
     "designation" : [{
       "language" : "fr-FR",
@@ -24597,7 +24598,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Vaccination épidémie saisonnière"
+      "value" : "Vaccination épidémie Grippe"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -25571,7 +25572,7 @@
   },
   {
     "code" : "0934",
-    "display" : "MAPA sur 24h (Holter tensionnel)",
+    "display" : "Mesure ambulatoire de la pression artérielle sur 24 heures (MAPA) (Holter tensionnel)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -25586,7 +25587,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Mesure ambulatoire de la pression artérielle sur 24 heures (MAPA) (Holter tensionnel)"
+      "value" : "MAPA sur 24h (Holter tensionnel)"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -25803,7 +25804,7 @@
   },
   {
     "code" : "0941",
-    "display" : "Suivi conventionnel stimulateurs/défibrillateurs cardiaques (ne plus utiliser)",
+    "display" : "Suivi conventionnel de stimulateurs/défibrillateurs cardiaques (ne plus utiliser)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -25818,7 +25819,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Suivi conventionnel de stimulateurs/défibrillateurs cardiaques (ne plus utiliser)"
+      "value" : "Suivi conventionnel stimulateurs/défibrillateurs cardiaques (ne plus utiliser)"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -27326,7 +27327,7 @@
   },
   {
     "code" : "0998",
-    "display" : "Test de provocation orale à certains médicaments ou aliments sans gravité",
+    "display" : "Tests de provocation orale à certains médicaments ou aliments, en l'absence de signe de gravité",
     "definition" : "Permet d'identifier un centre de référence en maladies rares, labellisé par le ministère de la santé",
     "designation" : [{
       "language" : "fr-FR",
@@ -27342,7 +27343,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Tests de provocation orale à certains médicaments ou aliments, en l'absence de signe de gravité"
+      "value" : "Test de provocation orale à certains médicaments ou aliments sans gravité"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -28748,14 +28749,14 @@
   },
   {
     "code" : "1082",
-    "display" : "Fourniture de matériel d'hygiène, de prévention et de RdRD par voie postale",
+    "display" : "Fourniture de matériel d'hygiène, de prévention et de Réduction des Risques et des Dommages (RdRD) par voie postale",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Fourniture de matériel d'hygiène, de prévention et de Réduction des Risques et des Dommages (RdRD) par voie postale"
+      "value" : "Fourniture de matériel d'hygiène, de prévention et de RdRD par voie postale"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -29106,7 +29107,7 @@
   },
   {
     "code" : "1103",
-    "display" : "Infiltration articulaire, péri-tendineuse et péri-nerveuse sans guidage imagerie",
+    "display" : "Infiltration articulaire, péri-tendineuse et péri-nerveuse sans guidage par imagerie",
     "definition" : "Injection d'une substance médicamenteuse dans une articulation sans repérage radiologique ou échographique",
     "designation" : [{
       "language" : "fr-FR",
@@ -29114,7 +29115,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Infiltration articulaire, péri-tendineuse et péri-nerveuse sans guidage par imagerie"
+      "value" : "Infiltration articulaire, péri-tendineuse et péri-nerveuse sans guidage imagerie"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -29750,14 +29751,14 @@
   },
   {
     "code" : "1140",
-    "display" : "Bilan radiologique avec prise en charge adaptée",
+    "display" : "Bilan radiologique avec prise en charge adaptée (handicaps physiques, psychiques, claustrophobie, …)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Bilan radiologique avec prise en charge adaptée (handicaps physiques, psychiques, claustrophobie, …)"
+      "value" : "Bilan radiologique avec prise en charge adaptée"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -29870,14 +29871,14 @@
   },
   {
     "code" : "1147",
-    "display" : "Block test anesthésique d'un nerf périphérique guidé par l'imagerie",
+    "display" : "Block test anesthésique d'un nerf périphérique guidé par l'imagerie (pudendal, clunéal, …)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Block test anesthésique d'un nerf périphérique guidé par l'imagerie (pudendal, clunéal, …)"
+      "value" : "Block test anesthésique d'un nerf périphérique guidé par l'imagerie"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -30429,14 +30430,14 @@
   },
   {
     "code" : "1180",
-    "display" : "Destruction tumorale percutanée mammaire guidée par imagerie",
+    "display" : "Destruction tumorale percutanée mammaire guidée par imagerie (cryo-ablation, radiofréquence, laser)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Destruction tumorale percutanée mammaire guidée par imagerie (cryo-ablation, radiofréquence, laser)"
+      "value" : "Destruction tumorale percutanée mammaire guidée par imagerie"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -30559,7 +30560,7 @@
   },
   {
     "code" : "1187",
-    "display" : "Échographie pelvienne pour PMA (compte folliculaire)",
+    "display" : "Échographie pelvienne pour procréation médicalement assistée (PMA) (compte folliculaire)",
     "definition" : "Examen échographique qui explore successivement l'utérus et les ovaires, l'examen consistera à compter le nombre de follicules antraux sur chacun des deux ovaires, il est réalisé entre le 2ème et le 5ème jour des règles.",
     "designation" : [{
       "language" : "fr-FR",
@@ -30567,7 +30568,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Échographie pelvienne pour procréation médicalement assistée (PMA) (compte folliculaire)"
+      "value" : "Échographie pelvienne pour PMA (compte folliculaire)"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -31038,14 +31039,14 @@
   },
   {
     "code" : "1216",
-    "display" : "Info du patient sur le risque infectieux associé à sa PEC ou son terrain",
+    "display" : "Information du patient sur le risque infectieux associé à sa prise en charge ou son terrain",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Information du patient sur le risque infectieux associé à sa prise en charge ou son terrain"
+      "value" : "Info du patient sur le risque infectieux associé à sa PEC ou son terrain"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -31603,14 +31604,14 @@
   },
   {
     "code" : "1250",
-    "display" : "Prise en charge des vertiges et troubles de l'équilibre",
+    "display" : "Prise en charge diagnostique et thérapeutique des vertiges et troubles de l'équilibre",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Prise en charge diagnostique et thérapeutique des vertiges et troubles de l'équilibre"
+      "value" : "Prise en charge des vertiges et troubles de l'équilibre"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -31675,14 +31676,14 @@
   },
   {
     "code" : "1254",
-    "display" : "Radio vasculaire diag. et interventionnelle des artères rénales et prostatiques",
+    "display" : "Radio vasculaire diagnostique et interventionnelle des artères rénales et prostatiques",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Radio vasculaire diagnostique et interventionnelle des artères rénales et prostatiques"
+      "value" : "Radio vasculaire diag. et interventionnelle des artères rénales et prostatiques"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -31715,14 +31716,14 @@
   },
   {
     "code" : "1256",
-    "display" : "Radiologie inter. Vasculaire (Tous territoires artériels et veineux hors NRI)",
+    "display" : "Radiologie interventionnelle Vasculaire : Tous territoires artériels et veineux hors NRI",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Radiologie interventionnelle Vasculaire : Tous territoires artériels et veineux hors NRI"
+      "value" : "Radiologie inter. Vasculaire (Tous territoires artériels et veineux hors NRI)"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -32049,14 +32050,14 @@
   },
   {
     "code" : "1276",
-    "display" : "Enregistrement polygraphique dans le cadre du SAOS",
+    "display" : "Enregistrement polygraphique dans le cadre du syndrome d'apnées obstructives du sommeil (SAOS)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Enregistrement polygraphique dans le cadre du syndrome d'apnées obstructives du sommeil (SAOS)"
+      "value" : "Enregistrement polygraphique dans le cadre du SAOS"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -32206,7 +32207,7 @@
   },
   {
     "code" : "1285",
-    "display" : "Programme d'ETP labellisée - Maladies cardio-vasc et de l'app circulatoire",
+    "display" : "Programme d'ETP labellisée - Maladies cardio-vasculaires et de l'appareil circulatoire",
     "definition" : "Ensemble coordonné d'activités éducatives destinées aux patients et à leur entourage et animées par une équipe de professionnels de santé avec l'aide d'autres acteurs (éducateur en activité physique adaptée, psychologue, etc.) pour un patient présentant une maladie cardio-vasculaire",
     "designation" : [{
       "language" : "fr-FR",
@@ -32214,7 +32215,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Programme d'ETP labellisée - Maladies cardio-vasculaires et de l'appareil circulatoire"
+      "value" : "Programme d'ETP labellisée - Maladies cardio-vasc et de l'app circulatoire"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -32576,14 +32577,14 @@
   },
   {
     "code" : "1305",
-    "display" : "SMR Lab réadaptation des personnes en état de conscience altérée (ex EVC/EPR)",
+    "display" : "SMR Labellisé réadaptation des personnes en état de conscience altérée (ex EVC/EPR)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "SMR Labellisé réadaptation des personnes en état de conscience altérée (ex EVC/EPR)"
+      "value" : "SMR Lab réadaptation des personnes en état de conscience altérée (ex EVC/EPR)"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -32664,7 +32665,7 @@
   },
   {
     "code" : "1310",
-    "display" : "SMR Labellisé réadaptation SRPR",
+    "display" : "SMR Labellisé réadaptation post-réanimation (SRPR)",
     "definition" : "Unités de réadaptation labellisée prenant en charge des patients en sortie directe d'un service de réanimation, présentant des troubles de la conscience et/ou des troubles respiratoires et/ou une autre déficience viscérale sévère, susceptibles d'engager le pronostic vital, en sortie de soins critiques et nécessitant un conditionnement particulier.",
     "designation" : [{
       "language" : "fr-FR",
@@ -32672,7 +32673,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "SMR Labellisé réadaptation post-réanimation (SRPR)"
+      "value" : "SMR Labellisé réadaptation SRPR"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -32705,14 +32706,14 @@
   },
   {
     "code" : "1312",
-    "display" : "SMR Lab réadap troubles cognitifs et comportementaux des patients cérébro-lésés",
+    "display" : "SMR Labellisé réadaptation des troubles cognitifs et comportementaux des patients cérébro-lésés",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "SMR Labellisé réadaptation des troubles cognitifs et comportementaux des patients cérébro-lésés"
+      "value" : "SMR Lab réadap troubles cognitifs et comportementaux des patients cérébro-lésés"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -32761,14 +32762,14 @@
   },
   {
     "code" : "1315",
-    "display" : "SMR Lab réadap troubles cognitifs sévères liés à une conduite addictive",
+    "display" : "SMR Labellisé réadaptation des troubles cognitifs sévères liés à une conduite addictive",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "SMR Labellisé réadaptation des troubles cognitifs sévères liés à une conduite addictive"
+      "value" : "SMR Lab réadap troubles cognitifs sévères liés à une conduite addictive"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -32801,7 +32802,7 @@
   },
   {
     "code" : "1317",
-    "display" : "SMR Lab réadaptation troubles du langage et des apprentissages",
+    "display" : "SMR Labellisé réadaptation des troubles du langage et des apprentissages",
     "definition" : "Unités de réadaptation labellisée prenant en charge des patients souffrant de troubles spécifiques du langage et des apprentissages (TSLA) appelés communément « troubles dys » sont la conséquence d'anomalies dans le développement cognitif de l'enfant.",
     "designation" : [{
       "language" : "fr-FR",
@@ -32809,7 +32810,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "SMR Labellisé réadaptation des troubles du langage et des apprentissages"
+      "value" : "SMR Lab réadaptation troubles du langage et des apprentissages"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -32978,14 +32979,14 @@
   },
   {
     "code" : "1327",
-    "display" : "Endo. digestive diagnostique et interventionnelle : dissection sous-muqueuse",
+    "display" : "Endoscopie digestive diagnostique et interventionnelle : dissection sous-muqueuse",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Endoscopie digestive diagnostique et interventionnelle : dissection sous-muqueuse"
+      "value" : "Endo. digestive diagnostique et interventionnelle : dissection sous-muqueuse"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -33395,14 +33396,14 @@
   },
   {
     "code" : "1351",
-    "display" : "PEC des troubles de l'hémostase et de la coagulation constitutionnels et acquis",
+    "display" : "Prise en charge des troubles de l'hémostase et de la coagulation constitutionnels et acquis",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Prise en charge des troubles de l'hémostase et de la coagulation constitutionnels et acquis"
+      "value" : "PEC des troubles de l'hémostase et de la coagulation constitutionnels et acquis"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -33536,14 +33537,14 @@
   },
   {
     "code" : "1359",
-    "display" : "Bilan échographique pré FAV et suivi des abords vasculaires",
+    "display" : "Bilan échographique pré fistule artérioveineuse (FAV) et suivi des abords vasculaires",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Bilan échographique pré fistule artérioveineuse (FAV) et suivi des abords vasculaires"
+      "value" : "Bilan échographique pré FAV et suivi des abords vasculaires"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -33576,14 +33577,14 @@
   },
   {
     "code" : "1361",
-    "display" : "Diagnostic et pec de l'insuffisance veineuse des membres inf (dont varices)",
+    "display" : "Diagnostic et prise en charge de l'insuffisance veineuse des membres inférieurs (dont varices)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Diagnostic et prise en charge de l'insuffisance veineuse des membres inférieurs (dont varices)"
+      "value" : "Diagnostic et pec de l'insuffisance veineuse des membres inf (dont varices)"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -34132,7 +34133,7 @@
   },
   {
     "code" : "1394",
-    "display" : "PEC diag et thérapeutique infections post-opé, sur prothèses, disp implantables",
+    "display" : "Prise en charge diagnostique et thérapeutique des infections post-opératoires ou sur prothèses et/ou dispositifs implantables",
     "definition" : "Ensemble des actions diagnostiques, thérapeutiques et préventives mises en oeuvre pour traiter les infections survenant après une intervention chirurgicale ou associées à des implants médicaux.",
     "designation" : [{
       "language" : "fr-FR",
@@ -34140,7 +34141,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Prise en charge diagnostique et thérapeutique des infections post-opératoires ou sur prothèses et/ou dispositifs implantables"
+      "value" : "PEC diag et thérapeutique infections post-opé, sur prothèses, disp implantables"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -34206,7 +34207,7 @@
   },
   {
     "code" : "1398",
-    "display" : "Admission directe non programmée - PA",
+    "display" : "Admission directe non programmée - personnes âgées (PA)",
     "definition" : "Organisation d'une unité qui permet une hospitalisation directe de personnes âgées dans un service sans passage préalable par les urgences.",
     "designation" : [{
       "language" : "fr-FR",
@@ -34214,7 +34215,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Admission directe non programmée - personnes âgées (PA)"
+      "value" : "Admission directe non programmée - PA"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -34365,14 +34366,14 @@
   },
   {
     "code" : "1407",
-    "display" : "Bilan des troubles psychotraumatiques répétés (dont TSPT)",
+    "display" : "Bilan des troubles psychotraumatiques répétés (dont Troubles Stress Post-Traumatique)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Bilan des troubles psychotraumatiques répétés (dont Troubles Stress Post-Traumatique)"
+      "value" : "Bilan des troubles psychotraumatiques répétés (dont TSPT)"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -34389,14 +34390,14 @@
   },
   {
     "code" : "1408",
-    "display" : "Bilan des troubles psychotraumatiques uniques (dont TSPT)",
+    "display" : "Bilan des troubles psychotraumatiques uniques (dont Troubles Stress Post-Traumatique)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Bilan des troubles psychotraumatiques uniques (dont Troubles Stress Post-Traumatique)"
+      "value" : "Bilan des troubles psychotraumatiques uniques (dont TSPT)"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -35151,14 +35152,14 @@
   },
   {
     "code" : "1451",
-    "display" : "Accompagnement infirmier au changement",
+    "display" : "Accompagnement infirmier au changement (état de santé, étapes de vie, environnement, deuil)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Accompagnement infirmier au changement (état de santé, étapes de vie, environnement, deuil)"
+      "value" : "Accompagnement infirmier au changement"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -35521,14 +35522,14 @@
   },
   {
     "code" : "1472",
-    "display" : "Soins et surveillance des cathéters centraux (picc-line)",
+    "display" : "Soins et surveillance des cathéters centraux par insertion périphérique (picc-line)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Soins et surveillance des cathéters centraux par insertion périphérique (picc-line)"
+      "value" : "Soins et surveillance des cathéters centraux (picc-line)"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -35594,14 +35595,14 @@
   },
   {
     "code" : "1476",
-    "display" : "Accès direct IPA, kinésithérapeute, orthophoniste",
+    "display" : "Accès direct Infirmier en Pratique Avancée (IPA), kinésithérapeute, orthophoniste",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Accès direct Infirmier en Pratique Avancée (IPA), kinésithérapeute, orthophoniste"
+      "value" : "Accès direct IPA, kinésithérapeute, orthophoniste"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -35965,7 +35966,7 @@
   },
   {
     "code" : "1498",
-    "display" : "Accompagnement ergothérapique auprès des proches aidants (proches et professionnels) : apprentissage de techniques d'accompagnement",
+    "display" : "Accompagnement ergothérapique auprès des proches aidants (proches et professionnels) : apprentissage de techniques d’accompagnement en Accompagnement ergothérapique auprès des proches aidants",
     "definition" : "Apprentissage de techniques d’accompagnement ergothérapique qui vise à améliorer la compréhension de l’impact de la pathologie dans le quotidien et à mettre en place des stratégies d’adaptation visant l’amélioration de la qualité de vie et la participation.  Cet accompagnement inclut l’évaluation des compétences, l’orientation professionnelle, la formation, l’adaptation des postes de travail et la coordination avec les acteurs médico-sociaux, afin de favoriser une intégration professionnelle durable et adaptée aux capacités de la personne.Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle",
     "designation" : [{
       "language" : "fr-FR",
@@ -35973,7 +35974,7 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Accompagnement ergothérapique auprès des proches aidants (proches et professionnels) : apprentissage de techniques d’accompagnement en Accompagnement ergothérapique auprès des proches aidants"
+      "value" : "Accompagnement ergothérapique auprès des proches aidants (proches et professionnels) : apprentissage de techniques d'accompagnement"
     }],
     "property" : [{
       "code" : "dateValid",

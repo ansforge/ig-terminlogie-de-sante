@@ -295,8 +295,8 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J112-SexeAdministratif-ENREG/FHIR/JDV-J112-SexeAdministratif-ENREG",
-    "version" : "20200529120000",
-    "status" : "active",
+    "version" : "20260330120000",
+    "status" : "retired",
     "name" : "JDV_J112_SexeAdministratif_ENREG",
     "title" : null,
     "description" : "Sexe administratif pour ENREG",

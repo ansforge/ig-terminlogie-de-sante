@@ -139,7 +139,6 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J108_EnsembleFonction_RASS](ValueSet-JDV-J108-EnsembleFonction-RASS.md) | Ensemble des fonctions et rôles du RASS | 30/03/2026 |
 | [JDV_J110_StatutVisibiliteDocument_CISIS](ValueSet-JDV-J110-StatutVisibiliteDocument-CISIS.md) | Restriction d'audience applicable aux objets référencés liste - CISIS | 24/04/2020 |
 | [JDV_J111_StatutEtatCivil_ENREG](ValueSet-JDV-J111-StatutEtatCivil-ENREG.md) | Statut de l'état civil pour ENREG | 31/01/2025 |
-| [JDV_J112_SexeAdministratif_ENREG](ValueSet-JDV-J112-SexeAdministratif-ENREG.md) | Sexe administratif pour ENREG | 29/05/2020 |
 | [JDV_J113_Civilite_ENREG](ValueSet-JDV-J113-Civilite-ENREG.md) | Civilité pour ENREG | 29/05/2020 |
 | [JDV_J115_Langue_ENREG](ValueSet-JDV-J115-Langue-ENREG.md) | Langue pour ENREG | 27/09/2024 |
 | [JDV_J116_GenreActivite_ENREG](ValueSet-JDV-J116-GenreActivite-ENREG.md) | Genre d'activité pour ENREG | 24/11/2023 |
