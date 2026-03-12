@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ParticipationType-cisis | *Version*:20260220142105 | |
-| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ParticipationType |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ParticipationType-cisis | *Version*:20260311144905 | |
+| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ParticipationType |
 | *Other Identifiers:*OID:2.16.840.1.113883.1.11.10901 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-hl7-v3-ParticipationType-cisis",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-02-23T15:00:51.527+01:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-03-11T15:29:39.260+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -71,12 +71,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.840.1.113883.1.11.10901"
   }],
-  "version" : "20260220142105",
+  "version" : "20260311144905",
   "name" : "ParticipationType",
   "title" : "ParticipationType",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-20T14:21:05+01:00",
+  "date" : "2026-03-11T14:49:05+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "ParticipationType",
   "jurisdiction" : [{

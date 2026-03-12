@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-AdministrableDrugForm-cisis | *Version*:20260220142104 | |
-| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:AdministrableDrugForm |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-AdministrableDrugForm-cisis | *Version*:20260311144904 | |
+| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:AdministrableDrugForm |
 | *Other Identifiers:*OID:2.16.840.1.113883.1.11.14570 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-hl7-v3-AdministrableDrugForm-cisis",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-02-23T14:57:27.545+01:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-03-11T15:27:47.704+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -71,12 +71,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.840.1.113883.1.11.14570"
   }],
-  "version" : "20260220142104",
+  "version" : "20260311144904",
   "name" : "AdministrableDrugForm",
   "title" : "AdministrableDrugForm",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-20T14:21:04+01:00",
+  "date" : "2026-03-11T14:49:04+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "AdministrableDrugForm",
   "jurisdiction" : [{

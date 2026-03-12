@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-tnm-ptnm-pt-3-cisis | *Version*:20260220142103 | |
-| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTnmPtnmPt3Cisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-tnm-ptnm-pt-3-cisis | *Version*:20260311144902 | |
+| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTnmPtnmPt3Cisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.523 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-tnm-ptnm-pt-3-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2026-02-23T15:00:04.601+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-03-11T15:29:16.959+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -71,12 +71,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.523"
   }],
-  "version" : "20260220142103",
+  "version" : "20260311144902",
   "name" : "JdvTnmPtnmPt3Cisis",
   "title" : "JDV Tnm Ptnm Pt 3 CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-20T14:21:03+01:00",
+  "date" : "2026-03-11T14:49:02+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Tnm Ptnm Pt 3 CISIS",
   "jurisdiction" : [{

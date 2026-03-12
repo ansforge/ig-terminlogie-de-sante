@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-profession-exposee-cisis | *Version*:20260220142104 | |
-| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvProfessionExposeeCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-profession-exposee-cisis | *Version*:20260311144904 | |
+| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvProfessionExposeeCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.91 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-profession-exposee-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2026-02-23T14:59:21.959+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-03-11T15:28:52.955+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -71,12 +71,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.91"
   }],
-  "version" : "20260220142104",
+  "version" : "20260311144904",
   "name" : "JdvProfessionExposeeCisis",
   "title" : "JDV Profession Exposee CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-20T14:21:04+01:00",
+  "date" : "2026-03-11T14:49:04+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Profession Exposee CISIS",
   "jurisdiction" : [{

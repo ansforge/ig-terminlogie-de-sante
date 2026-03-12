@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-ufcv-voie-abord-cisis | *Version*:20260220142105 | |
-| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvUfcvVoieAbordCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-ufcv-voie-abord-cisis | *Version*:20260311144904 | |
+| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvUfcvVoieAbordCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.4.2.8 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-ufcv-voie-abord-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2026-02-23T15:00:46.509+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-03-11T15:29:36.765+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -71,12 +71,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.4.2.8"
   }],
-  "version" : "20260220142105",
+  "version" : "20260311144904",
   "name" : "JdvUfcvVoieAbordCisis",
   "title" : "JDV UFCV Voie Abord CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-20T14:21:05+01:00",
+  "date" : "2026-03-11T14:49:04+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV UFCV Voie Abord CISIS",
   "jurisdiction" : [{

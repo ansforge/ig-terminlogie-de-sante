@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-trousse-ccu-cisis | *Version*:20260220142104 | |
-| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTrousseCcuCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-trousse-ccu-cisis | *Version*:20260311144903 | |
+| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTrousseCcuCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.729 | | |
 
  
@@ -57,8 +57,8 @@ No Expansion for this valueset (Unknown Code System)
   "resourceType" : "ValueSet",
   "id" : "jdv-trousse-ccu-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2026-02-23T15:00:08.469+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-03-11T15:29:19.080+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -73,12 +73,12 @@ No Expansion for this valueset (Unknown Code System)
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.729"
   }],
-  "version" : "20260220142104",
+  "version" : "20260311144903",
   "name" : "JdvTrousseCcuCisis",
   "title" : "JDV Trousse Ccu CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-20T14:21:04+01:00",
+  "date" : "2026-03-11T14:49:03+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Trousse Ccu CISIS",
   "jurisdiction" : [{

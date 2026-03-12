@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-encompassing-encounter-code-cisis | *Version*:20260220142105 | |
-| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvEncompassingEncounterCodeCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-encompassing-encounter-code-cisis | *Version*:20260311144904 | |
+| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvEncompassingEncounterCodeCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.18 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-encompassing-encounter-code-cisis",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-02-23T14:58:10.957+01:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-03-11T15:28:12.831+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -71,12 +71,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.18"
   }],
-  "version" : "20260220142105",
+  "version" : "20260311144904",
   "name" : "JdvEncompassingEncounterCodeCisis",
   "title" : "JDV Encompassing Encounter Code CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-20T14:21:05+01:00",
+  "date" : "2026-03-11T14:49:04+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Encompassing Encounter Code CISIS",
   "jurisdiction" : [{
