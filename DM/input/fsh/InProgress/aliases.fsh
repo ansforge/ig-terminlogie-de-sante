@@ -1,4 +1,5 @@
 Alias: $sct = http://snomed.info/sct
+Alias: $tre-r396-autorite = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite
 Alias: $tre-r403-public-activite-smsse-regulee = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee
 Alias: $tre-r402-activite-enseignement-regulee = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee
 Alias: $tre-r401-activite-sociale-regulee = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee
