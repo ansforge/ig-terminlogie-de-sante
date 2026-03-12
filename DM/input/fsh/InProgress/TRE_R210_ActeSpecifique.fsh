@@ -1,7 +1,7 @@
 CodeSystem: TRE_R210_ActeSpecifique
 Id: TRE-R210-ActeSpecifique
 * ^meta.versionId = "29"
-* ^meta.lastUpdated = "2026-03-30T10:46:38.800+01:00"
+* ^meta.lastUpdated = "2025-12-22T10:46:38.800+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique"
@@ -2734,7 +2734,7 @@ Id: TRE-R210-ActeSpecifique
 * #0209 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #0209 ^property[+].code = #status
 * #0209 ^property[=].valueCode = #active
-* #0210 "Exploration fonctionnelle respiratoire d'exercice avec mesure échanges gazeux" "Enregistrement de la respiration, de l'activité des muscles squelettiques et du coeur, de la consommation d'oxygène, de la production de gaz carbonique et de l'acidité du sang lors d'un exercice musculaire progressivement croissant et maximal"
+* #0210 "Exploration fonctionnelle respiratoire d'exercice (EFX) avec mesure des échanges gazeux" "Enregistrement de la respiration, de l'activité des muscles squelettiques et du coeur, de la consommation d'oxygène, de la production de gaz carbonique et de l'acidité du sang lors d'un exercice musculaire progressivement croissant et maximal"
 * #0210 ^designation[0].language = #fr-FR
 * #0210 ^designation[=].use.system = "http://snomed.info/sct"
 * #0210 ^designation[=].use = $sct#900000000000013009
@@ -2742,7 +2742,7 @@ Id: TRE-R210-ActeSpecifique
 * #0210 ^designation[+].language = #fr-FR
 * #0210 ^designation[=].use.system = "http://snomed.info/sct"
 * #0210 ^designation[=].use = $sct#900000000000013009
-* #0210 ^designation[=].value = "Exploration fonctionnelle respiratoire d'exercice (EFX) avec mesure des échanges gazeux"
+* #0210 ^designation[=].value = "Exploration fonctionnelle respiratoire d'exercice avec mesure échanges gazeux"
 * #0210 ^property[0].code = #dateValid
 * #0210 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #0210 ^property[+].code = #dateMaj
@@ -9400,7 +9400,7 @@ Id: TRE-R210-ActeSpecifique
 * #0727 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #0727 ^property[+].code = #status
 * #0727 ^property[=].valueCode = #deprecated
-* #0728 "Apprentissage des techniques d'aide à la mobilité pour personne déf. visuelle" "Consiste à enseigner l'utilisation d'outils et de méthodes pour améliorer l'autonomie et la sécurité des déplacements. Cela inclut l'utilisation de la canne longue, de la canne de signalement, des chiens-guides, et des dispositifs GPS adaptés. Cet apprentissage est encadré et vise à compenser les limitations visuelles pour favoriser l'intégration sociale et la mobilité indépendante. Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle"
+* #0728 "Apprentissage des techniques d'aide à la mobilité pour personne déficiente visuelle (canne longue, canne de signalement, chiens-guide, GPS,...)" "Consiste à enseigner l'utilisation d'outils et de méthodes pour améliorer l'autonomie et la sécurité des déplacements. Cela inclut l'utilisation de la canne longue, de la canne de signalement, des chiens-guides, et des dispositifs GPS adaptés. Cet apprentissage est encadré et vise à compenser les limitations visuelles pour favoriser l'intégration sociale et la mobilité indépendante. Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle"
 * #0728 ^designation[0].language = #fr-FR
 * #0728 ^designation[=].use.system = "http://snomed.info/sct"
 * #0728 ^designation[=].use = $sct#900000000000013009
@@ -9408,7 +9408,7 @@ Id: TRE-R210-ActeSpecifique
 * #0728 ^designation[+].language = #fr-FR
 * #0728 ^designation[=].use.system = "http://snomed.info/sct"
 * #0728 ^designation[=].use = $sct#900000000000013009
-* #0728 ^designation[=].value = "Apprentissage des techniques d'aide à la mobilité pour personne déficiente visuelle (canne longue, canne de signalement, chiens-guide, GPS,...)"
+* #0728 ^designation[=].value = "Apprentissage des techniques d'aide à la mobilité pour personne déf. visuelle"
 * #0728 ^property[0].code = #dateValid
 * #0728 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #0728 ^property[+].code = #dateMaj
@@ -11355,7 +11355,7 @@ Id: TRE-R210-ActeSpecifique
 * #0896 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #0896 ^property[+].code = #status
 * #0896 ^property[=].valueCode = #active
-* #0897 "Vaccination épidémie Grippe" "Acte vaccinal qui consiste à administrer chaque année un vaccin antigrippal adapté aux souches circulantes afin de protéger les personnes vulnérables et réduire les formes graves ou les hospitalisations pendant l’épidémie grippale"
+* #0897 "Vaccination épidémie saisonnière" "Acte vaccinal qui consiste à administrer chaque année un vaccin antigrippal adapté aux souches circulantes afin de protéger les personnes vulnérables et réduire les formes graves ou les hospitalisations pendant l’épidémie grippale"
 * #0897 ^designation[0].language = #fr-FR
 * #0897 ^designation[=].use.system = "http://snomed.info/sct"
 * #0897 ^designation[=].use = $sct#900000000000013009
@@ -11363,7 +11363,7 @@ Id: TRE-R210-ActeSpecifique
 * #0897 ^designation[+].language = #fr-FR
 * #0897 ^designation[=].use.system = "http://snomed.info/sct"
 * #0897 ^designation[=].use = $sct#900000000000013009
-* #0897 ^designation[=].value = "Vaccination épidémie saisonnière"
+* #0897 ^designation[=].value = "Vaccination épidémie Grippe"
 * #0897 ^property[0].code = #dateValid
 * #0897 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #0897 ^property[+].code = #dateMaj
@@ -12622,14 +12622,14 @@ Id: TRE-R210-ActeSpecifique
 * #0997 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
 * #0997 ^property[+].code = #status
 * #0997 ^property[=].valueCode = #active
-* #0998 "Test de provocation orale à certains médicaments ou aliments sans gravité" "Permet d'identifier un centre de référence en maladies rares, labellisé par le ministère de la santé"
+* #0998 "Tests de provocation orale à certains médicaments ou aliments, en l'absence de signe de gravité" "Permet d'identifier un centre de référence en maladies rares, labellisé par le ministère de la santé"
 * #0998 ^designation[0].language = #fr-FR
 * #0998 ^designation[=].use.system = "http://snomed.info/sct"
 * #0998 ^designation[=].use = $sct#900000000000013009
 * #0998 ^designation[=].value = "998"
 * #0998 ^designation[+].language = #fr-FR
 * #0998 ^designation[=].use = $sct#900000000000013009
-* #0998 ^designation[=].value = "Tests de provocation orale à certains médicaments ou aliments, en l'absence de signe de gravité"
+* #0998 ^designation[=].value = "Test de provocation orale à certains médicaments ou aliments sans gravité"
 * #0998 ^property[0].code = #dateValid
 * #0998 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
 * #0998 ^property[+].code = #dateMaj
@@ -13372,11 +13372,11 @@ Id: TRE-R210-ActeSpecifique
 * #1102 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
 * #1102 ^property[+].code = #status
 * #1102 ^property[=].valueCode = #active
-* #1103 "Infiltration articulaire, péri-tendineuse et péri-nerveuse sans guidage imagerie" "Injection d'une substance médicamenteuse dans une articulation sans repérage radiologique ou échographique"
+* #1103 "Infiltration articulaire, péri-tendineuse et péri-nerveuse sans guidage par imagerie" "Injection d'une substance médicamenteuse dans une articulation sans repérage radiologique ou échographique"
 * #1103 ^designation[0].language = #fr-FR
 * #1103 ^designation[=].use.system = "http://snomed.info/sct"
 * #1103 ^designation[=].use = $sct#900000000000013009
-* #1103 ^designation[=].value = "Infiltration articulaire, péri-tendineuse et péri-nerveuse sans guidage par imagerie"
+* #1103 ^designation[=].value = "Infiltration articulaire, péri-tendineuse et péri-nerveuse sans guidage imagerie"
 * #1103 ^property[0].code = #dateValid
 * #1103 ^property[=].valueDateTime = "2022-06-24T12:00:00+01:00"
 * #1103 ^property[+].code = #dateMaj
@@ -14000,11 +14000,11 @@ Id: TRE-R210-ActeSpecifique
 * #1186 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
 * #1186 ^property[+].code = #status
 * #1186 ^property[=].valueCode = #active
-* #1187 "Échographie pelvienne pour PMA (compte folliculaire)" "Examen échographique qui explore successivement l'utérus et les ovaires, l'examen consistera à compter le nombre de follicules antraux sur chacun des deux ovaires, il est réalisé entre le 2ème et le 5ème jour des règles."
+* #1187 "Échographie pelvienne pour procréation médicalement assistée (PMA) (compte folliculaire)" "Examen échographique qui explore successivement l'utérus et les ovaires, l'examen consistera à compter le nombre de follicules antraux sur chacun des deux ovaires, il est réalisé entre le 2ème et le 5ème jour des règles."
 * #1187 ^designation[0].language = #fr-FR
 * #1187 ^designation[=].use.system = "http://snomed.info/sct"
 * #1187 ^designation[=].use = $sct#900000000000013009
-* #1187 ^designation[=].value = "Échographie pelvienne pour procréation médicalement assistée (PMA) (compte folliculaire)"
+* #1187 ^designation[=].value = "Échographie pelvienne pour PMA (compte folliculaire)"
 * #1187 ^property[0].code = #dateValid
 * #1187 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
 * #1187 ^property[+].code = #dateMaj
@@ -14714,11 +14714,11 @@ Id: TRE-R210-ActeSpecifique
 * #1284 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
 * #1284 ^property[+].code = #status
 * #1284 ^property[=].valueCode = #active
-* #1285 "Programme d'ETP labellisée - Maladies cardio-vasc et de l'app circulatoire" "Ensemble coordonné d'activités éducatives destinées aux patients et à leur entourage et animées par une équipe de professionnels de santé avec l'aide d'autres acteurs (éducateur en activité physique adaptée, psychologue, etc.) pour un patient présentant une maladie cardio-vasculaire"
+* #1285 "Programme d'ETP labellisée - Maladies cardio-vasculaires et de l'appareil circulatoire" "Ensemble coordonné d'activités éducatives destinées aux patients et à leur entourage et animées par une équipe de professionnels de santé avec l'aide d'autres acteurs (éducateur en activité physique adaptée, psychologue, etc.) pour un patient présentant une maladie cardio-vasculaire"
 * #1285 ^designation[0].language = #fr-FR
 * #1285 ^designation[=].use.system = "http://snomed.info/sct"
 * #1285 ^designation[=].use = $sct#900000000000013009
-* #1285 ^designation[=].value = "Programme d'ETP labellisée - Maladies cardio-vasculaires et de l'appareil circulatoire"
+* #1285 ^designation[=].value = "Programme d'ETP labellisée - Maladies cardio-vasc et de l'app circulatoire"
 * #1285 ^property[0].code = #dateValid
 * #1285 ^property[=].valueDateTime = "2023-01-27T12:00:00+01:00"
 * #1285 ^property[+].code = #dateMaj
@@ -14910,11 +14910,11 @@ Id: TRE-R210-ActeSpecifique
 * #1309 ^property[=].valueDateTime = "2023-06-30T12:00:00+01:00"
 * #1309 ^property[+].code = #status
 * #1309 ^property[=].valueCode = #active
-* #1310 "SMR Labellisé réadaptation SRPR" "Unités de réadaptation labellisée prenant en charge des patients en sortie directe d'un service de réanimation, présentant des troubles de la conscience et/ou des troubles respiratoires et/ou une autre déficience viscérale sévère, susceptibles d'engager le pronostic vital, en sortie de soins critiques et nécessitant un conditionnement particulier."
+* #1310 "SMR Labellisé réadaptation post-réanimation (SRPR)" "Unités de réadaptation labellisée prenant en charge des patients en sortie directe d'un service de réanimation, présentant des troubles de la conscience et/ou des troubles respiratoires et/ou une autre déficience viscérale sévère, susceptibles d'engager le pronostic vital, en sortie de soins critiques et nécessitant un conditionnement particulier."
 * #1310 ^designation[0].language = #fr-FR
 * #1310 ^designation[=].use.system = "http://snomed.info/sct"
 * #1310 ^designation[=].use = $sct#900000000000013009
-* #1310 ^designation[=].value = "SMR Labellisé réadaptation post-réanimation (SRPR)"
+* #1310 ^designation[=].value = "SMR Labellisé réadaptation SRPR"
 * #1310 ^property[0].code = #dateValid
 * #1310 ^property[=].valueDateTime = "2023-01-27T12:00:00+01:00"
 * #1310 ^property[+].code = #dateMaj
@@ -14971,11 +14971,11 @@ Id: TRE-R210-ActeSpecifique
 * #1316 ^property[=].valueDateTime = "2023-06-30T12:00:00+01:00"
 * #1316 ^property[+].code = #status
 * #1316 ^property[=].valueCode = #active
-* #1317 "SMR Lab réadaptation troubles du langage et des apprentissages" "Unités de réadaptation labellisée prenant en charge des patients souffrant de troubles spécifiques du langage et des apprentissages (TSLA) appelés communément « troubles dys » sont la conséquence d'anomalies dans le développement cognitif de l'enfant."
+* #1317 "SMR Labellisé réadaptation des troubles du langage et des apprentissages" "Unités de réadaptation labellisée prenant en charge des patients souffrant de troubles spécifiques du langage et des apprentissages (TSLA) appelés communément « troubles dys » sont la conséquence d'anomalies dans le développement cognitif de l'enfant."
 * #1317 ^designation[0].language = #fr-FR
 * #1317 ^designation[=].use.system = "http://snomed.info/sct"
 * #1317 ^designation[=].use = $sct#900000000000013009
-* #1317 ^designation[=].value = "SMR Labellisé réadaptation des troubles du langage et des apprentissages"
+* #1317 ^designation[=].value = "SMR Lab réadaptation troubles du langage et des apprentissages"
 * #1317 ^property[0].code = #dateValid
 * #1317 ^property[=].valueDateTime = "2023-01-27T12:00:00+01:00"
 * #1317 ^property[+].code = #dateMaj
@@ -15546,11 +15546,11 @@ Id: TRE-R210-ActeSpecifique
 * #1393 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #1393 ^property[+].code = #status
 * #1393 ^property[=].valueCode = #active
-* #1394 "PEC diag et thérapeutique infections post-opé, sur prothèses, disp implantables" "Ensemble des actions diagnostiques, thérapeutiques et préventives mises en oeuvre pour traiter les infections survenant après une intervention chirurgicale ou associées à des implants médicaux."
+* #1394 "Prise en charge diagnostique et thérapeutique des infections post-opératoires ou sur prothèses et/ou dispositifs implantables" "Ensemble des actions diagnostiques, thérapeutiques et préventives mises en oeuvre pour traiter les infections survenant après une intervention chirurgicale ou associées à des implants médicaux."
 * #1394 ^designation[0].language = #fr-FR
 * #1394 ^designation[=].use.system = "http://snomed.info/sct"
 * #1394 ^designation[=].use = $sct#900000000000013009
-* #1394 ^designation[=].value = "Prise en charge diagnostique et thérapeutique des infections post-opératoires ou sur prothèses et/ou dispositifs implantables"
+* #1394 ^designation[=].value = "PEC diag et thérapeutique infections post-opé, sur prothèses, disp implantables"
 * #1394 ^property[0].code = #dateValid
 * #1394 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #1394 ^property[+].code = #dateMaj
@@ -15578,11 +15578,11 @@ Id: TRE-R210-ActeSpecifique
 * #1397 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #1397 ^property[+].code = #status
 * #1397 ^property[=].valueCode = #active
-* #1398 "Admission directe non programmée - PA" "Organisation d'une unité qui permet une hospitalisation directe de personnes âgées dans un service sans passage préalable par les urgences."
+* #1398 "Admission directe non programmée - personnes âgées (PA)" "Organisation d'une unité qui permet une hospitalisation directe de personnes âgées dans un service sans passage préalable par les urgences."
 * #1398 ^designation[0].language = #fr-FR
 * #1398 ^designation[=].use.system = "http://snomed.info/sct"
 * #1398 ^designation[=].use = $sct#900000000000013009
-* #1398 ^designation[=].value = "Admission directe non programmée - personnes âgées (PA)"
+* #1398 ^designation[=].value = "Admission directe non programmée - PA"
 * #1398 ^property[0].code = #dateValid
 * #1398 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #1398 ^property[+].code = #dateMaj
@@ -16347,11 +16347,11 @@ Id: TRE-R210-ActeSpecifique
 * #1497 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #1497 ^property[+].code = #status
 * #1497 ^property[=].valueCode = #active
-* #1498 "Accompagnement ergothérapique auprès des proches aidants (proches et professionnels) : apprentissage de techniques d'accompagnement" "Apprentissage de techniques d’accompagnement ergothérapique qui vise à améliorer la compréhension de l’impact de la pathologie dans le quotidien et à mettre en place des stratégies d’adaptation visant l’amélioration de la qualité de vie et la participation.  Cet accompagnement inclut l’évaluation des compétences, l’orientation professionnelle, la formation, l’adaptation des postes de travail et la coordination avec les acteurs médico-sociaux, afin de favoriser une intégration professionnelle durable et adaptée aux capacités de la personne.Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle"
+* #1498 "Accompagnement ergothérapique auprès des proches aidants (proches et professionnels) : apprentissage de techniques d’accompagnement en Accompagnement ergothérapique auprès des proches aidants" "Apprentissage de techniques d’accompagnement ergothérapique qui vise à améliorer la compréhension de l’impact de la pathologie dans le quotidien et à mettre en place des stratégies d’adaptation visant l’amélioration de la qualité de vie et la participation.  Cet accompagnement inclut l’évaluation des compétences, l’orientation professionnelle, la formation, l’adaptation des postes de travail et la coordination avec les acteurs médico-sociaux, afin de favoriser une intégration professionnelle durable et adaptée aux capacités de la personne.Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle"
 * #1498 ^designation[0].language = #fr-FR
 * #1498 ^designation[=].use.system = "http://snomed.info/sct"
 * #1498 ^designation[=].use = $sct#900000000000013009
-* #1498 ^designation[=].value = "Accompagnement ergothérapique auprès des proches aidants (proches et professionnels) : apprentissage de techniques d’accompagnement en Accompagnement ergothérapique auprès des proches aidants"
+* #1498 ^designation[=].value = "Accompagnement ergothérapique auprès des proches aidants (proches et professionnels) : apprentissage de techniques d'accompagnement"
 * #1498 ^property[0].code = #dateValid
 * #1498 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
 * #1498 ^property[+].code = #dateMaj

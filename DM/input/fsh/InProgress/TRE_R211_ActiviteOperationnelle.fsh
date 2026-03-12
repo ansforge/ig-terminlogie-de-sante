@@ -3,7 +3,8 @@ Id: TRE-R211-ActiviteOperationnelle
 Description: "Activite Operationnelle"
 * ^meta.versionId = "25"
 * ^meta.lastUpdated = "2025-12-22T10:46:40.548+01:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2015-04-08T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle"
@@ -1366,11 +1367,11 @@ Description: "Activite Operationnelle"
 * #163 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #163 ^property[+].code = #status
 * #163 ^property[=].valueCode = #active
-* #164 "Traitements médicamenteux systémiques du cancer" "Regroupent la chimiothérapie, les thérapies ciblées, l'immunothérapie et les médicaments de thérapie innovante, quelles que soient les voies d'administration."
+* #164 "Traitements médicamenteux systémiques du cancer (chimiothérapie)" "Regroupent la chimiothérapie, les thérapies ciblées, l'immunothérapie et les médicaments de thérapie innovante, quelles que soient les voies d'administration."
 * #164 ^designation.language = #fr-FR
 * #164 ^designation.use.system = "http://snomed.info/sct"
 * #164 ^designation.use = $sct#900000000000013009
-* #164 ^designation.value = "Traitements médicamenteux systémiques du cancer (chimiothérapie)"
+* #164 ^designation.value = "Traitements médicamenteux systémiques du cancer"
 * #164 ^property[0].code = #dateValid
 * #164 ^property[=].valueDateTime = "2015-05-18T00:00:00+01:00"
 * #164 ^property[+].code = #dateMaj
@@ -1598,11 +1599,11 @@ Description: "Activite Operationnelle"
 * #191 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #191 ^property[+].code = #status
 * #191 ^property[=].valueCode = #active
-* #192 "Oncologie médicale ORL et cervico-faciale (cancérologie)" "Branche de l'oncologie médicale qui s'intéresse aux tumeurs cancéreuses de l'oreille, du nez et de la gorge."
+* #192 "Oncologie médicale oto-rhino-laryngologique (ORL) et cervico-faciale (cancérologie)" "Branche de l'oncologie médicale qui s'intéresse aux tumeurs cancéreuses de l'oreille, du nez et de la gorge."
 * #192 ^designation.language = #fr-FR
 * #192 ^designation.use.system = "http://snomed.info/sct"
 * #192 ^designation.use = $sct#900000000000013009
-* #192 ^designation.value = "Oncologie médicale oto-rhino-laryngologique (ORL) et cervico-faciale (cancérologie)"
+* #192 ^designation.value = "Oncologie médicale ORL et cervico-faciale (cancérologie)"
 * #192 ^property[0].code = #dateValid
 * #192 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #192 ^property[+].code = #dateMaj
@@ -1676,77 +1677,77 @@ Description: "Activite Operationnelle"
 * #201 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #201 ^property[+].code = #status
 * #201 ^property[=].valueCode = #active
-* #202 "RCP Appareil Digestif"
+* #202 "Réunion de Concertation Pluridisciplinaire (RCP) Appareil Digestif"
 * #202 ^designation.language = #fr-FR
 * #202 ^designation.use.system = "http://snomed.info/sct"
 * #202 ^designation.use = $sct#900000000000013009
-* #202 ^designation.value = "Réunion de Concertation Pluridisciplinaire (RCP) Appareil Digestif"
+* #202 ^designation.value = "RCP Appareil Digestif"
 * #202 ^property[0].code = #dateValid
 * #202 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #202 ^property[+].code = #dateMaj
 * #202 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #202 ^property[+].code = #status
 * #202 ^property[=].valueCode = #active
-* #203 "RCP App. Respi. Autres Thorax"
+* #203 "Réunion de Concertation Pluridisciplinaire (RCP) Appareil Respiratoire et Autres Thorax"
 * #203 ^designation.language = #fr-FR
 * #203 ^designation.use.system = "http://snomed.info/sct"
 * #203 ^designation.use = $sct#900000000000013009
-* #203 ^designation.value = "Réunion de Concertation Pluridisciplinaire (RCP) Appareil Respiratoire et Autres Thorax"
+* #203 ^designation.value = "RCP App. Respi. Autres Thorax"
 * #203 ^property[0].code = #dateValid
 * #203 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #203 ^property[+].code = #dateMaj
 * #203 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #203 ^property[+].code = #status
 * #203 ^property[=].valueCode = #active
-* #204 "RCP Glandes Endocrines"
+* #204 "Réunion de Concertation Pluridisciplinaire (RCP) Glandes Endocrines"
 * #204 ^designation.language = #fr-FR
 * #204 ^designation.use.system = "http://snomed.info/sct"
 * #204 ^designation.use = $sct#900000000000013009
-* #204 ^designation.value = "Réunion de Concertation Pluridisciplinaire (RCP) Glandes Endocrines"
+* #204 ^designation.value = "RCP Glandes Endocrines"
 * #204 ^property[0].code = #dateValid
 * #204 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #204 ^property[+].code = #dateMaj
 * #204 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #204 ^property[+].code = #status
 * #204 ^property[=].valueCode = #active
-* #205 "RCP Hématologie"
+* #205 "Réunion de Concertation Pluridisciplinaire (RCP) Hématologie"
 * #205 ^designation.language = #fr-FR
 * #205 ^designation.use.system = "http://snomed.info/sct"
 * #205 ^designation.use = $sct#900000000000013009
-* #205 ^designation.value = "Réunion de Concertation Pluridisciplinaire (RCP) Hématologie"
+* #205 ^designation.value = "RCP Hématologie"
 * #205 ^property[0].code = #dateValid
 * #205 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #205 ^property[+].code = #dateMaj
 * #205 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #205 ^property[+].code = #status
 * #205 ^property[=].valueCode = #active
-* #206 "RCP Oeil"
+* #206 "Réunion de Concertation Pluridisciplinaire (RCP) Oeil"
 * #206 ^designation.language = #fr-FR
 * #206 ^designation.use.system = "http://snomed.info/sct"
 * #206 ^designation.use = $sct#900000000000013009
-* #206 ^designation.value = "Réunion de Concertation Pluridisciplinaire (RCP) Oeil"
+* #206 ^designation.value = "RCP Oeil"
 * #206 ^property[0].code = #dateValid
 * #206 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #206 ^property[+].code = #dateMaj
 * #206 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #206 ^property[+].code = #status
 * #206 ^property[=].valueCode = #active
-* #207 "RCP Org. génitaux féminins"
+* #207 "Réunion de Concertation Pluridisciplinaire (RCP) Organes génitaux féminins"
 * #207 ^designation.language = #fr-FR
 * #207 ^designation.use.system = "http://snomed.info/sct"
 * #207 ^designation.use = $sct#900000000000013009
-* #207 ^designation.value = "Réunion de Concertation Pluridisciplinaire (RCP) Organes génitaux féminins"
+* #207 ^designation.value = "RCP Org. génitaux féminins"
 * #207 ^property[0].code = #dateValid
 * #207 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #207 ^property[+].code = #dateMaj
 * #207 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #207 ^property[+].code = #status
 * #207 ^property[=].valueCode = #active
-* #208 "RCP Org. génitaux masculins"
+* #208 "Réunion de Concertation Pluridisciplinaire (RCP) Organes génitaux masculins"
 * #208 ^designation.language = #fr-FR
 * #208 ^designation.use.system = "http://snomed.info/sct"
 * #208 ^designation.use = $sct#900000000000013009
-* #208 ^designation.value = "Réunion de Concertation Pluridisciplinaire (RCP) Organes génitaux masculins"
+* #208 ^designation.value = "RCP Org. génitaux masculins"
 * #208 ^property[0].code = #dateValid
 * #208 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #208 ^property[+].code = #dateMaj
@@ -1760,44 +1761,44 @@ Description: "Activite Operationnelle"
 * #209 ^property[=].valueDateTime = "2022-06-24T12:00:00+01:00"
 * #209 ^property[+].code = #status
 * #209 ^property[=].valueCode = #active
-* #210 "RCP Peau"
+* #210 "Réunion de Concertation Pluridisciplinaire (RCP) Peau"
 * #210 ^designation.language = #fr-FR
 * #210 ^designation.use.system = "http://snomed.info/sct"
 * #210 ^designation.use = $sct#900000000000013009
-* #210 ^designation.value = "Réunion de Concertation Pluridisciplinaire (RCP) Peau"
+* #210 ^designation.value = "RCP Peau"
 * #210 ^property[0].code = #dateValid
 * #210 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #210 ^property[+].code = #dateMaj
 * #210 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #210 ^property[+].code = #status
 * #210 ^property[=].valueCode = #active
-* #211 "RCP Sein"
+* #211 "Réunion de Concertation Pluridisciplinaire (RCP) Sein"
 * #211 ^designation.language = #fr-FR
 * #211 ^designation.use.system = "http://snomed.info/sct"
 * #211 ^designation.use = $sct#900000000000013009
-* #211 ^designation.value = "Réunion de Concertation Pluridisciplinaire (RCP) Sein"
+* #211 ^designation.value = "RCP Sein"
 * #211 ^property[0].code = #dateValid
 * #211 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #211 ^property[+].code = #dateMaj
 * #211 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #211 ^property[+].code = #status
 * #211 ^property[=].valueCode = #active
-* #212 "RCP Système Nerveux"
+* #212 "Réunion de Concertation Pluridisciplinaire (RCP) Système Nerveux"
 * #212 ^designation.language = #fr-FR
 * #212 ^designation.use.system = "http://snomed.info/sct"
 * #212 ^designation.use = $sct#900000000000013009
-* #212 ^designation.value = "Réunion de Concertation Pluridisciplinaire (RCP) Système Nerveux"
+* #212 ^designation.value = "RCP Système Nerveux"
 * #212 ^property[0].code = #dateValid
 * #212 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #212 ^property[+].code = #dateMaj
 * #212 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #212 ^property[+].code = #status
 * #212 ^property[=].valueCode = #active
-* #213 "RCP Tissus mous NCA"
+* #213 "Réunion de Concertation Pluridisciplinaire (RCP) Tissus mous, Non Classés Ailleurs (NCA)"
 * #213 ^designation.language = #fr-FR
 * #213 ^designation.use.system = "http://snomed.info/sct"
 * #213 ^designation.use = $sct#900000000000013009
-* #213 ^designation.value = "Réunion de Concertation Pluridisciplinaire (RCP) Tissus mous, Non Classés Ailleurs (NCA)"
+* #213 ^designation.value = "RCP Tissus mous NCA"
 * #213 ^property[0].code = #dateValid
 * #213 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #213 ^property[+].code = #dateFin
@@ -1808,132 +1809,132 @@ Description: "Activite Operationnelle"
 * #213 ^property[=].valueDateTime = "2020-11-27T12:00:00+01:00"
 * #213 ^property[+].code = #status
 * #213 ^property[=].valueCode = #deprecated
-* #214 "RCP VADS"
+* #214 "Réunion de Concertation Pluridisciplinaire (RCP) Voies Aéro-Digestives Supérieures (VADS)"
 * #214 ^designation.language = #fr-FR
 * #214 ^designation.use.system = "http://snomed.info/sct"
 * #214 ^designation.use = $sct#900000000000013009
-* #214 ^designation.value = "Réunion de Concertation Pluridisciplinaire (RCP) Voies Aéro-Digestives Supérieures (VADS)"
+* #214 ^designation.value = "RCP VADS"
 * #214 ^property[0].code = #dateValid
 * #214 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #214 ^property[+].code = #dateMaj
 * #214 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #214 ^property[+].code = #status
 * #214 ^property[=].valueCode = #active
-* #215 "RCP Voies urinaires"
+* #215 "Réunion de Concertation Pluridisciplinaire (RCP) Voies urinaires"
 * #215 ^designation.language = #fr-FR
 * #215 ^designation.use.system = "http://snomed.info/sct"
 * #215 ^designation.use = $sct#900000000000013009
-* #215 ^designation.value = "Réunion de Concertation Pluridisciplinaire (RCP) Voies urinaires"
+* #215 ^designation.value = "RCP Voies urinaires"
 * #215 ^property[0].code = #dateValid
 * #215 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #215 ^property[+].code = #dateMaj
 * #215 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #215 ^property[+].code = #status
 * #215 ^property[=].valueCode = #active
-* #216 "RCP Cancers rares"
+* #216 "Réunion de Concertation Pluridisciplinaire (RCP) Cancers rares"
 * #216 ^designation.language = #fr-FR
 * #216 ^designation.use.system = "http://snomed.info/sct"
 * #216 ^designation.use = $sct#900000000000013009
-* #216 ^designation.value = "Réunion de Concertation Pluridisciplinaire (RCP) Cancers rares"
+* #216 ^designation.value = "RCP Cancers rares"
 * #216 ^property[0].code = #dateValid
 * #216 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #216 ^property[+].code = #dateMaj
 * #216 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #216 ^property[+].code = #status
 * #216 ^property[=].valueCode = #active
-* #217 "RCP Douleur"
+* #217 "Réunion de Concertation Pluridisciplinaire (RCP) Douleur"
 * #217 ^designation.language = #fr-FR
 * #217 ^designation.use.system = "http://snomed.info/sct"
 * #217 ^designation.use = $sct#900000000000013009
-* #217 ^designation.value = "Réunion de Concertation Pluridisciplinaire (RCP) Douleur"
+* #217 ^designation.value = "RCP Douleur"
 * #217 ^property[0].code = #dateValid
 * #217 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #217 ^property[+].code = #dateMaj
 * #217 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #217 ^property[+].code = #status
 * #217 ^property[=].valueCode = #active
-* #218 "RCP Métastase osseuse"
+* #218 "Réunion de Concertation Pluridisciplinaire (RCP) Métastase osseuse"
 * #218 ^designation.language = #fr-FR
 * #218 ^designation.use.system = "http://snomed.info/sct"
 * #218 ^designation.use = $sct#900000000000013009
-* #218 ^designation.value = "Réunion de Concertation Pluridisciplinaire (RCP) Métastase osseuse"
+* #218 ^designation.value = "RCP Métastase osseuse"
 * #218 ^property[0].code = #dateValid
 * #218 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #218 ^property[+].code = #dateMaj
 * #218 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #218 ^property[+].code = #status
 * #218 ^property[=].valueCode = #active
-* #219 "RCP Oncogénétique"
+* #219 "Réunion de Concertation Pluridisciplinaire (RCP) Oncogénétique"
 * #219 ^designation.language = #fr-FR
 * #219 ^designation.use.system = "http://snomed.info/sct"
 * #219 ^designation.use = $sct#900000000000013009
-* #219 ^designation.value = "Réunion de Concertation Pluridisciplinaire (RCP) Oncogénétique"
+* #219 ^designation.value = "RCP Oncogénétique"
 * #219 ^property[0].code = #dateValid
 * #219 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #219 ^property[+].code = #dateMaj
 * #219 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #219 ^property[+].code = #status
 * #219 ^property[=].valueCode = #active
-* #220 "RCP Oncogériatrie"
+* #220 "Réunion de Concertation Pluridisciplinaire (RCP) Oncogériatrie"
 * #220 ^designation.language = #fr-FR
 * #220 ^designation.use.system = "http://snomed.info/sct"
 * #220 ^designation.use = $sct#900000000000013009
-* #220 ^designation.value = "Réunion de Concertation Pluridisciplinaire (RCP) Oncogériatrie"
+* #220 ^designation.value = "RCP Oncogériatrie"
 * #220 ^property[0].code = #dateValid
 * #220 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #220 ^property[+].code = #dateMaj
 * #220 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #220 ^property[+].code = #status
 * #220 ^property[=].valueCode = #active
-* #221 "RCP Oncologie médicale"
+* #221 "Réunion de Concertation Pluridisciplinaire (RCP) Oncologie médicale"
 * #221 ^designation.language = #fr-FR
 * #221 ^designation.use.system = "http://snomed.info/sct"
 * #221 ^designation.use = $sct#900000000000013009
-* #221 ^designation.value = "Réunion de Concertation Pluridisciplinaire (RCP) Oncologie médicale"
+* #221 ^designation.value = "RCP Oncologie médicale"
 * #221 ^property[0].code = #dateValid
 * #221 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #221 ^property[+].code = #dateMaj
 * #221 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #221 ^property[+].code = #status
 * #221 ^property[=].valueCode = #active
-* #222 "RCP Préservation fertilité"
+* #222 "Réunion de Concertation Pluridisciplinaire (RCP) Préservation de la fertilité"
 * #222 ^designation.language = #fr-FR
 * #222 ^designation.use.system = "http://snomed.info/sct"
 * #222 ^designation.use = $sct#900000000000013009
-* #222 ^designation.value = "Réunion de Concertation Pluridisciplinaire (RCP) Préservation de la fertilité"
+* #222 ^designation.value = "RCP Préservation fertilité"
 * #222 ^property[0].code = #dateValid
 * #222 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #222 ^property[+].code = #dateMaj
 * #222 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #222 ^property[+].code = #status
 * #222 ^property[=].valueCode = #active
-* #223 "RCP Radio interventionnelle"
+* #223 "Réunion de Concertation Pluridisciplinaire (RCP) Radiologie interventionnelle"
 * #223 ^designation.language = #fr-FR
 * #223 ^designation.use.system = "http://snomed.info/sct"
 * #223 ^designation.use = $sct#900000000000013009
-* #223 ^designation.value = "Réunion de Concertation Pluridisciplinaire (RCP) Radiologie interventionnelle"
+* #223 ^designation.value = "RCP Radio interventionnelle"
 * #223 ^property[0].code = #dateValid
 * #223 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #223 ^property[+].code = #dateMaj
 * #223 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #223 ^property[+].code = #status
 * #223 ^property[=].valueCode = #active
-* #224 "RCP Soins de support général"
+* #224 "Réunion de Concertation Pluridisciplinaire (RCP) Soins de support général"
 * #224 ^designation.language = #fr-FR
 * #224 ^designation.use.system = "http://snomed.info/sct"
 * #224 ^designation.use = $sct#900000000000013009
-* #224 ^designation.value = "Réunion de Concertation Pluridisciplinaire (RCP) Soins de support général"
+* #224 ^designation.value = "RCP Soins de support général"
 * #224 ^property[0].code = #dateValid
 * #224 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #224 ^property[+].code = #dateMaj
 * #224 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #224 ^property[+].code = #status
 * #224 ^property[=].valueCode = #active
-* #225 "RCP Soins palliatifs"
+* #225 "Réunion de Concertation Pluridisciplinaire (RCP) Soins palliatifs"
 * #225 ^designation.language = #fr-FR
 * #225 ^designation.use.system = "http://snomed.info/sct"
 * #225 ^designation.use = $sct#900000000000013009
-* #225 ^designation.value = "Réunion de Concertation Pluridisciplinaire (RCP) Soins palliatifs"
+* #225 ^designation.value = "RCP Soins palliatifs"
 * #225 ^property[0].code = #dateValid
 * #225 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #225 ^property[+].code = #dateMaj
@@ -2017,11 +2018,11 @@ Description: "Activite Operationnelle"
 * #236 ^property[=].valueDateTime = "2023-01-27T12:00:00+01:00"
 * #236 ^property[+].code = #status
 * #236 ^property[=].valueCode = #active
-* #237 "Réadaptation des affections du syst. digestif, endoc-métabo et nutrition" "Ensemble d'interventions conçues pour optimiser le fonctionnement et réduire le handicap des personnes souffrant de problèmes de santé lorsqu'elles interagissent avec leur environnement."
+* #237 "Réadaptation des affections du système digestif, endocrino-métaboliques et nutrition" "Ensemble d'interventions conçues pour optimiser le fonctionnement et réduire le handicap des personnes souffrant de problèmes de santé lorsqu'elles interagissent avec leur environnement."
 * #237 ^designation.language = #fr-FR
 * #237 ^designation.use.system = "http://snomed.info/sct"
 * #237 ^designation.use = $sct#900000000000013009
-* #237 ^designation.value = "Réadaptation des affections du système digestif, endocrino-métaboliques et nutrition"
+* #237 ^designation.value = "Réadaptation des affections du syst. digestif, endoc-métabo et nutrition"
 * #237 ^property[0].code = #dateValid
 * #237 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #237 ^property[+].code = #dateMaj
@@ -2056,11 +2057,11 @@ Description: "Activite Operationnelle"
 * #241 ^property[=].valueDateTime = "2023-06-30T12:00:00+01:00"
 * #241 ^property[+].code = #status
 * #241 ^property[=].valueCode = #active
-* #242 "SSR polyvalent, reconnaissance affections onco-hématologiques"
+* #242 "Soins de Suite et de Réadaptation (SSR) polyvalent, reconnaissance affections onco-hématologiques"
 * #242 ^designation.language = #fr-FR
 * #242 ^designation.use.system = "http://snomed.info/sct"
 * #242 ^designation.use = $sct#900000000000013009
-* #242 ^designation.value = "Soins de Suite et de Réadaptation (SSR) polyvalent, reconnaissance affections onco-hématologiques"
+* #242 ^designation.value = "SSR polyvalent, reconnaissance affections onco-hématologiques"
 * #242 ^property[0].code = #dateValid
 * #242 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #242 ^property[+].code = #dateMaj
@@ -2540,11 +2541,11 @@ Description: "Activite Operationnelle"
 * #309 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #309 ^property[+].code = #status
 * #309 ^property[=].valueCode = #active
-* #310 "Accomp pour exercice des mandats électoraux, représentation des pairs"
+* #310 "Accompagnements pour l'exercice des mandats électoraux, la représentation des pairs"
 * #310 ^designation.language = #fr-FR
 * #310 ^designation.use.system = "http://snomed.info/sct"
 * #310 ^designation.use = $sct#900000000000013009
-* #310 ^designation.value = "Accompagnements pour l'exercice des mandats électoraux, la représentation des pairs"
+* #310 ^designation.value = "Accomp pour exercice des mandats électoraux, représentation des pairs"
 * #310 ^property[0].code = #dateValid
 * #310 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #310 ^property[+].code = #dateMaj
@@ -2593,11 +2594,11 @@ Description: "Activite Operationnelle"
 * #316 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #316 ^property[+].code = #status
 * #316 ^property[=].valueCode = #active
-* #317 "Inform, éval, accomp et orient ouverture droits et accès presta aidé et aidant"
+* #317 "Informer, évaluer, accompagner et orienter pour l'ouverture des droits et l'accès aux prestations pour l'aidé et l'aidant"
 * #317 ^designation.language = #fr-FR
 * #317 ^designation.use.system = "http://snomed.info/sct"
 * #317 ^designation.use = $sct#900000000000013009
-* #317 ^designation.value = "Informer, évaluer, accompagner et orienter pour l'ouverture des droits et l'accès aux prestations pour l'aidé et l'aidant"
+* #317 ^designation.value = "Inform, éval, accomp et orient ouverture droits et accès presta aidé et aidant"
 * #317 ^property[0].code = #dateValid
 * #317 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #317 ^property[+].code = #dateMaj
@@ -2611,11 +2612,11 @@ Description: "Activite Operationnelle"
 * #318 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #318 ^property[+].code = #status
 * #318 ^property[=].valueCode = #active
-* #319 "Conseils et accomp dans démarches afin de mobiliser mesures protection adaptées"
+* #319 "Conseils et accompagnements dans les démarches afin de mobiliser les mesures de protection adaptées"
 * #319 ^designation.language = #fr-FR
 * #319 ^designation.use.system = "http://snomed.info/sct"
 * #319 ^designation.use = $sct#900000000000013009
-* #319 ^designation.value = "Conseils et accompagnements dans les démarches afin de mobiliser les mesures de protection adaptées"
+* #319 ^designation.value = "Conseils et accomp dans démarches afin de mobiliser mesures protection adaptées"
 * #319 ^property[0].code = #dateValid
 * #319 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #319 ^property[+].code = #dateMaj
@@ -2715,11 +2716,11 @@ Description: "Activite Operationnelle"
 * #330 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #330 ^property[+].code = #status
 * #330 ^property[=].valueCode = #active
-* #331 "SSR polyvalent, Lits identifiés de soins palliatifs (LISP)"
+* #331 "Soins de Suite et de Réadaptation (SSR) polyvalent, Lits identifiés de soins palliatifs (LISP)"
 * #331 ^designation.language = #fr-FR
 * #331 ^designation.use.system = "http://snomed.info/sct"
 * #331 ^designation.use = $sct#900000000000013009
-* #331 ^designation.value = "Soins de Suite et de Réadaptation (SSR) polyvalent, Lits identifiés de soins palliatifs (LISP)"
+* #331 ^designation.value = "SSR polyvalent, Lits identifiés de soins palliatifs (LISP)"
 * #331 ^property[0].code = #dateValid
 * #331 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #331 ^property[+].code = #dateFin
@@ -2730,11 +2731,11 @@ Description: "Activite Operationnelle"
 * #331 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #331 ^property[+].code = #status
 * #331 ^property[=].valueCode = #deprecated
-* #332 "Préparation et reconstitution centralisée des médicaments cytotoxiques"
+* #332 "Préparation et reconstitution centralisée des médicaments cytotoxiques (UPC, URC)"
 * #332 ^designation.language = #fr-FR
 * #332 ^designation.use.system = "http://snomed.info/sct"
 * #332 ^designation.use = $sct#900000000000013009
-* #332 ^designation.value = "Préparation et reconstitution centralisée des médicaments cytotoxiques (UPC, URC)"
+* #332 ^designation.value = "Préparation et reconstitution centralisée des médicaments cytotoxiques"
 * #332 ^property[0].code = #dateValid
 * #332 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
 * #332 ^property[+].code = #dateMaj
@@ -3409,11 +3410,11 @@ Description: "Activite Operationnelle"
 * #424 ^property[=].valueDateTime = "2024-09-27T12:00:00+01:00"
 * #424 ^property[+].code = #status
 * #424 ^property[=].valueCode = #active
-* #425 "Kinésithérapie orientation Système musculo-squelettique"
+* #425 "Kinésithérapie orientation Système musculo-squelettique (traumatologie, orthopédie)"
 * #425 ^designation.language = #fr-FR
 * #425 ^designation.use.system = "http://snomed.info/sct"
 * #425 ^designation.use = $sct#900000000000013009
-* #425 ^designation.value = "Kinésithérapie orientation Système musculo-squelettique (traumatologie, orthopédie)"
+* #425 ^designation.value = "Kinésithérapie orientation Système musculo-squelettique"
 * #425 ^property[0].code = #dateValid
 * #425 ^property[=].valueDateTime = "2020-02-28T12:00:00+01:00"
 * #425 ^property[+].code = #dateMaj
@@ -3645,11 +3646,11 @@ Description: "Activite Operationnelle"
 * #456 ^property[=].valueDateTime = "2023-01-27T12:00:00+01:00"
 * #456 ^property[+].code = #status
 * #456 ^property[=].valueCode = #deprecated
-* #457 "RCP, RIC, maladies auto-immunes et biothérapies en rhumatologie"
+* #457 "Réunion de Concertation Pluridisciplinaire (RCP) Rhumatismes Inflammatoires Chroniques (RIC), maladies auto-immunes et biothérapies en rhumatologie"
 * #457 ^designation.language = #fr-FR
 * #457 ^designation.use.system = "http://snomed.info/sct"
 * #457 ^designation.use = $sct#900000000000013009
-* #457 ^designation.value = "Réunion de Concertation Pluridisciplinaire (RCP) Rhumatismes Inflammatoires Chroniques (RIC), maladies auto-immunes et biothérapies en rhumatologie"
+* #457 ^designation.value = "RCP, RIC, maladies auto-immunes et biothérapies en rhumatologie"
 * #457 ^property[0].code = #dateValid
 * #457 ^property[=].valueDateTime = "2022-06-24T12:00:00+01:00"
 * #457 ^property[+].code = #dateMaj
@@ -3765,11 +3766,11 @@ Description: "Activite Operationnelle"
 * #468 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
 * #468 ^property[+].code = #status
 * #468 ^property[=].valueCode = #active
-* #469 "Chirurgie orthopédique et traumatologique spéc. membres supérieurs (sauf main)" "Partie de la chirurgie qui traite les déformations des os, des articulations, des muscles et des tendons et répare ceux qui sont abîmés au cours d'un accident (traumatisme) qui prends en charge les lésions du membre supérieur en excluant la main."
+* #469 "Chirurgie orthopédique et traumatologique spécialisée membres supérieurs (sauf la main)" "Partie de la chirurgie qui traite les déformations des os, des articulations, des muscles et des tendons et répare ceux qui sont abîmés au cours d'un accident (traumatisme) qui prends en charge les lésions du membre supérieur en excluant la main."
 * #469 ^designation.language = #fr-FR
 * #469 ^designation.use.system = "http://snomed.info/sct"
 * #469 ^designation.use = $sct#900000000000013009
-* #469 ^designation.value = "Chirurgie orthopédique et traumatologique spécialisée membres supérieurs (sauf la main)"
+* #469 ^designation.value = "Chirurgie orthopédique et traumatologique spéc. membres supérieurs (sauf main)"
 * #469 ^property[0].code = #dateValid
 * #469 ^property[=].valueDateTime = "2022-06-24T12:00:00+01:00"
 * #469 ^property[+].code = #dateMaj
@@ -3801,11 +3802,11 @@ Description: "Activite Operationnelle"
 * #472 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
 * #472 ^property[+].code = #status
 * #472 ^property[=].valueCode = #active
-* #473 "Chirurgie onco de la sphère ORL, cervico-faciale et maxillo-faciale" "Branche de la chirurgie qui s'intéresse aux tumeurs cancéreuses de la sphère oto-rhino-laryngée, cervico-faciale et maxillo-faciale."
+* #473 "Chirurgie oncologique de la sphère oto-rhino-laryngée, cervico-faciale et maxillo-faciale" "Branche de la chirurgie qui s'intéresse aux tumeurs cancéreuses de la sphère oto-rhino-laryngée, cervico-faciale et maxillo-faciale."
 * #473 ^designation.language = #fr-FR
 * #473 ^designation.use.system = "http://snomed.info/sct"
 * #473 ^designation.use = $sct#900000000000013009
-* #473 ^designation.value = "Chirurgie oncologique de la sphère oto-rhino-laryngée, cervico-faciale et maxillo-faciale"
+* #473 ^designation.value = "Chirurgie onco de la sphère ORL, cervico-faciale et maxillo-faciale"
 * #473 ^property[0].code = #dateValid
 * #473 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
 * #473 ^property[+].code = #dateMaj
@@ -3847,11 +3848,11 @@ Description: "Activite Operationnelle"
 * #478 ^property[=].valueDateTime = "2023-01-27T12:00:00+01:00"
 * #478 ^property[+].code = #status
 * #478 ^property[=].valueCode = #active
-* #479 "Explorations fonc. endocrinologie, diabétologie, métabolisme et nutrition" "Examen(s) destiné(s) à apprécier la manière dont un organe assure sa fonction."
+* #479 "Explorations fonctionnelles endocrinologie, diabétologie, métabolisme et nutrition" "Examen(s) destiné(s) à apprécier la manière dont un organe assure sa fonction."
 * #479 ^designation.language = #fr-FR
 * #479 ^designation.use.system = "http://snomed.info/sct"
 * #479 ^designation.use = $sct#900000000000013009
-* #479 ^designation.value = "Explorations fonctionnelles endocrinologie, diabétologie, métabolisme et nutrition"
+* #479 ^designation.value = "Explorations fonc. endocrinologie, diabétologie, métabolisme et nutrition"
 * #479 ^property[0].code = #dateValid
 * #479 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
 * #479 ^property[+].code = #dateMaj
@@ -3900,11 +3901,11 @@ Description: "Activite Operationnelle"
 * #485 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
 * #485 ^property[+].code = #status
 * #485 ^property[=].valueCode = #active
-* #486 "Médecine générale orientation Maladies infectieuses, parasitaires et tropicales" "Activité d'un médecin généraliste ayant acquis un diplôme ou une mention autorisée en Maladies infectieuses, parasitaires et tropicales."
+* #486 "Médecine générale à orientation Maladies infectieuses, parasitaires et tropicales" "Activité d'un médecin généraliste ayant acquis un diplôme ou une mention autorisée en Maladies infectieuses, parasitaires et tropicales."
 * #486 ^designation.language = #fr-FR
 * #486 ^designation.use.system = "http://snomed.info/sct"
 * #486 ^designation.use = $sct#900000000000013009
-* #486 ^designation.value = "Médecine générale à orientation Maladies infectieuses, parasitaires et tropicales"
+* #486 ^designation.value = "Médecine générale orientation Maladies infectieuses, parasitaires et tropicales"
 * #486 ^property[0].code = #dateValid
 * #486 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
 * #486 ^property[+].code = #dateMaj
@@ -4128,11 +4129,11 @@ Description: "Activite Operationnelle"
 * #517 ^property[=].valueDateTime = "2023-01-27T12:00:00+01:00"
 * #517 ^property[+].code = #status
 * #517 ^property[=].valueCode = #active
-* #518 "Réadaptation des troubles cognitifs et comportementaux des pat. cérébro-lésés"
+* #518 "Réadaptation des troubles cognitifs et comportementaux des patients cérébro-lésés"
 * #518 ^designation.language = #fr-FR
 * #518 ^designation.use.system = "http://snomed.info/sct"
 * #518 ^designation.use = $sct#900000000000013009
-* #518 ^designation.value = "Réadaptation des troubles cognitifs et comportementaux des patients cérébro-lésés"
+* #518 ^designation.value = "Réadaptation des troubles cognitifs et comportementaux des pat. cérébro-lésés"
 * #518 ^property[0].code = #dateValid
 * #518 ^property[=].valueDateTime = "2023-01-27T12:00:00+01:00"
 * #518 ^property[+].code = #dateMaj
@@ -4188,11 +4189,11 @@ Description: "Activite Operationnelle"
 * #525 ^property[=].valueDateTime = "2023-05-26T12:00:00+01:00"
 * #525 ^property[+].code = #status
 * #525 ^property[=].valueCode = #active
-* #526 "Inform, éval, accomp et orient pour orientation professionnelle"
+* #526 "Informer, évaluer, accompagner et orienter dans le cadre d'une orientation professionnelle"
 * #526 ^designation.language = #fr-FR
 * #526 ^designation.use.system = "http://snomed.info/sct"
 * #526 ^designation.use = $sct#900000000000013009
-* #526 ^designation.value = "Informer, évaluer, accompagner et orienter dans le cadre d'une orientation professionnelle"
+* #526 ^designation.value = "Inform, éval, accomp et orient pour orientation professionnelle"
 * #526 ^property[0].code = #dateValid
 * #526 ^property[=].valueDateTime = "2023-05-26T12:00:00+01:00"
 * #526 ^property[+].code = #dateMaj
@@ -4815,31 +4816,3 @@ Description: "Activite Operationnelle"
 * #613 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #613 ^property[+].code = #status
 * #613 ^property[=].valueCode = #active
-* #614 "Soins infirmiers en pratique avancée en pathologies chroniques stabilisées"
-* #614 ^property[0].code = #dateValid
-* #614 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
-* #614 ^property[+].code = #dateMaj
-* #614 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
-* #614 ^property[+].code = #status
-* #614 ^property[=].valueCode = #active
-* #615 "Soins infirmiers en pratique avancée en oncologie et hémato-oncologie"
-* #615 ^property[0].code = #dateValid
-* #615 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
-* #615 ^property[+].code = #dateMaj
-* #615 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
-* #615 ^property[+].code = #status
-* #615 ^property[=].valueCode = #active
-* #616 "Soins infirmiers en pratique avancée en maladie rénale chronique"
-* #616 ^property[0].code = #dateValid
-* #616 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
-* #616 ^property[+].code = #dateMaj
-* #616 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
-* #616 ^property[+].code = #status
-* #616 ^property[=].valueCode = #active
-* #617 "Soins infirmiers en pratique avancée en santé mentale"
-* #617 ^property[0].code = #dateValid
-* #617 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
-* #617 ^property[+].code = #dateMaj
-* #617 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
-* #617 ^property[+].code = #status
-* #617 ^property[=].valueCode = #active
