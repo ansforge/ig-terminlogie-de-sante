@@ -4815,3 +4815,31 @@ Description: "Activite Operationnelle"
 * #613 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #613 ^property[+].code = #status
 * #613 ^property[=].valueCode = #active
+* #614 "Soins infirmiers en pratique avancée en pathologies chroniques stabilisées"
+* #614 ^property[0].code = #dateValid
+* #614 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #614 ^property[+].code = #dateMaj
+* #614 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #614 ^property[+].code = #status
+* #614 ^property[=].valueCode = #active
+* #615 "Soins infirmiers en pratique avancée en oncologie et hémato-oncologie"
+* #615 ^property[0].code = #dateValid
+* #615 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #615 ^property[+].code = #dateMaj
+* #615 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #615 ^property[+].code = #status
+* #615 ^property[=].valueCode = #active
+* #616 "Soins infirmiers en pratique avancée en maladie rénale chronique"
+* #616 ^property[0].code = #dateValid
+* #616 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #616 ^property[+].code = #dateMaj
+* #616 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #616 ^property[+].code = #status
+* #616 ^property[=].valueCode = #active
+* #617 "Soins infirmiers en pratique avancée en santé mentale"
+* #617 ^property[0].code = #dateValid
+* #617 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #617 ^property[+].code = #dateMaj
+* #617 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #617 ^property[+].code = #status
+* #617 ^property[=].valueCode = #active

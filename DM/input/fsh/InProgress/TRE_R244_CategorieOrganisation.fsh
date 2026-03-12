@@ -3308,3 +3308,31 @@ Description: "Catégorie d'organisation"
 * #302 ^property[=].valueDateTime = "2026-02-23T12:00:00+01:00"
 * #302 ^property[+].code = #status
 * #302 ^property[=].valueCode = #active
+* #303 "Cabinet de ville infirmier en pratique avancée en pathologies chroniques stabilisées"
+* #303 ^property[0].code = #dateValid
+* #303 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #303 ^property[+].code = #dateMaj
+* #303 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #303 ^property[+].code = #status
+* #303 ^property[=].valueCode = #active
+* #304 "Cabinet de ville infirmier en pratique avancée en oncologie et hémato-oncologie"
+* #304 ^property[0].code = #dateValid
+* #304 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #304 ^property[+].code = #dateMaj
+* #304 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #304 ^property[+].code = #status
+* #304 ^property[=].valueCode = #active
+* #305 "Cabinet de ville infirmier en pratique avancée en maladie rénale chronique"
+* #305 ^property[0].code = #dateValid
+* #305 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #305 ^property[+].code = #dateMaj
+* #305 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #305 ^property[+].code = #status
+* #305 ^property[=].valueCode = #active
+* #306 "Cabinet de ville infirmier en pratique avancée en santé mentale"
+* #306 ^property[0].code = #dateValid
+* #306 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #306 ^property[+].code = #dateMaj
+* #306 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #306 ^property[+].code = #status
+* #306 ^property[=].valueCode = #active
