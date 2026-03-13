@@ -90,14 +90,6 @@
   "concept" : [{
     "code" : "0001",
     "display" : "Ablation par radiofréquence de trouble du rythme et de conduction",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "1"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -114,14 +106,6 @@
   {
     "code" : "0002",
     "display" : "Accident vasculaire cérébral aigu (AVC)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "2"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -146,14 +130,6 @@
   {
     "code" : "0003",
     "display" : "Accueil brûlé en attente de transfert",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "3"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -178,14 +154,6 @@
   {
     "code" : "0004",
     "display" : "Accueil grand brûlé en attente de transfert",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "4"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -211,14 +179,6 @@
     "code" : "0005",
     "display" : "Accueil mort inattendue du nourrisson (MIN)",
     "definition" : "Accueil des parents confronté au décès brutal de leur bébé, jusque-là considéré comme bien portant, dans son sommeil",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "5"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -235,14 +195,6 @@
   {
     "code" : "0006",
     "display" : "Décontamination bactériologique (NRBC)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "6"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -259,14 +211,6 @@
   {
     "code" : "0007",
     "display" : "Décontamination chimique (NRBC)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "7"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -283,14 +227,6 @@
   {
     "code" : "0008",
     "display" : "Décontamination patient irradié ou radio contaminé (NRBC)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "8"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -307,14 +243,6 @@
   {
     "code" : "0009",
     "display" : "Accueil petit brûlé en urgence",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "9"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -339,14 +267,6 @@
   {
     "code" : "0010",
     "display" : "Accueil traumatisé grave - polytraumatisé",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "10"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -371,14 +291,6 @@
   {
     "code" : "0011",
     "display" : "Radiothérapie métabolique (iode 131, hyperthyroïdies)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "11"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -395,14 +307,6 @@
   {
     "code" : "0012",
     "display" : "Addictologie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "12"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -427,14 +331,6 @@
   {
     "code" : "0013",
     "display" : "Examen victime d'agression sexuelle",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "13"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -451,14 +347,6 @@
   {
     "code" : "0014",
     "display" : "Aide médicale à la procréation (AMP)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "14"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -483,14 +371,6 @@
   {
     "code" : "0015",
     "display" : "Diagnostic Pré Implantatoire (DPI) (Aide Médicale à la Procréation, AMP)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "15"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -507,14 +387,6 @@
   {
     "code" : "0016",
     "display" : "Insémination Intra Utérine avec sperme de Conjoint (IIU)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "16"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -531,14 +403,6 @@
   {
     "code" : "0017",
     "display" : "Maturation In Vitro (MIV) (Aide Médicale à la Procréation, AMP)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "17"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -555,14 +419,6 @@
   {
     "code" : "0018",
     "display" : "Andrologie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "18"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -587,14 +443,6 @@
   {
     "code" : "0019",
     "display" : "Echo-repérage",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "19"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -619,14 +467,6 @@
   {
     "code" : "0020",
     "display" : "Angiographie oculaire (artériographie oculaire)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "20"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -643,14 +483,6 @@
   {
     "code" : "0021",
     "display" : "Angioplastie des artères des membres",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "21"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -667,14 +499,6 @@
   {
     "code" : "0022",
     "display" : "Angioplastie des artères thoraco-abdomino-pelviennes",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "22"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -691,14 +515,6 @@
   {
     "code" : "0023",
     "display" : "Annuloplastie et valvuloplastie cardiaque",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "23"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -723,14 +539,6 @@
   {
     "code" : "0024",
     "display" : "Aponévrotomie percutanée palmaire et digitale (maladie de Dupuytren)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "24"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -747,14 +555,6 @@
   {
     "code" : "0025",
     "display" : "Arthroplastie hémophilique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "25"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -771,14 +571,6 @@
   {
     "code" : "0026",
     "display" : "Arthroscopie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "26"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -795,14 +587,6 @@
   {
     "code" : "0027",
     "display" : "Autogreffe de germe de dent",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "27"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -819,14 +603,6 @@
   {
     "code" : "0028",
     "display" : "Autogreffe de trachée",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "28"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -843,14 +619,6 @@
   {
     "code" : "0029",
     "display" : "Autopsie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "29"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -867,14 +635,6 @@
   {
     "code" : "0030",
     "display" : "Autopsie médico légale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "30"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -899,14 +659,6 @@
   {
     "code" : "0031",
     "display" : "Autotransfusion peropératoire (Cell Saver)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "31"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -924,14 +676,6 @@
     "code" : "0032",
     "display" : "Bilan de chute",
     "definition" : "Evaluation médicale et étiologie, principalement clinique, à la recherche de signes de gravité mettant en jeu le pronostic vital et/ou fonctionnel chez des patients faisant des chutes [fait de se retrouver involontairement sur le sol ou dans une position de niveau inférieur par rapport à sa position de départ] répétées [≥ 2 chutes au cours d'une période de 12 mois]",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "32"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -949,14 +693,6 @@
     "code" : "0033",
     "display" : "Evaluation de la mémoire (bilan mémoire)",
     "definition" : "Evaluation par des outils métriques validés des capacités à acquérir, conserver et restituer des informations. Selon le temps qui sépare la présentation des informations (encodage) et leur évocation (en rappel libre et indicé), on distingue l'évaluation de la mémoire à court terme qui inclut la mémoire de travail, et l'évaluation de la mémoire à long terme.   Selon la nature de l'information à restituer, on distingue l'évaluation de la mémoire procédurale (savoir comment) et celle de la mémoire déclarative (savoir quoi) qui inclut les mémoires épisodique (évènements vécus avec leur contexte) et sémantique (mémoire des faits et des concepts).",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "33"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -974,14 +710,6 @@
     "code" : "0034",
     "display" : "Exploration urodynamique",
     "definition" : "Le bilan urodynamique est une exploration fonctionnelle qui étudie le fonctionnement du bas appareil urinaire, constitué de la vessie, de l'urètre et de l'appareil sphinctérien (sphincters lisse et strié). L'examen peut comprendre trois parties : cystomanométrie (CMM) ou urétrocystomanometrie, profilométrie urétrale et débimétrie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "34"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -998,14 +726,6 @@
   {
     "code" : "0035",
     "display" : "Biochimie générale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "35"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -1030,14 +750,6 @@
   {
     "code" : "0036",
     "display" : "Biochimie spécialisée",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "36"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -1062,14 +774,6 @@
   {
     "code" : "0037",
     "display" : "Biologie moléculaire",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "37"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -1094,14 +798,6 @@
   {
     "code" : "0038",
     "display" : "Biopsie artère temporale (BAT)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "38"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -1118,14 +814,6 @@
   {
     "code" : "0039",
     "display" : "Biopsie des glandes salivaires",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "39"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -1142,14 +830,6 @@
   {
     "code" : "0040",
     "display" : "Biothérapie des connectivites",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "40"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -1167,14 +847,6 @@
     "code" : "0041",
     "display" : "Biothérapie des rhumatismes inflammatoires chroniques (polyarthrite rhumatoïde, spondylarthropathies)",
     "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "41"
-    },
-    {
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
@@ -1198,14 +870,6 @@
   {
     "code" : "0042",
     "display" : "Soins brûlure oculaire caustique ou thermique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "42"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -1230,14 +894,6 @@
   {
     "code" : "0043",
     "display" : "Caustique (ingestion)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "43"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -1262,14 +918,6 @@
   {
     "code" : "0044",
     "display" : "Délivrance de traitement de substitution aux opiacés",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "44"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -1286,14 +934,6 @@
   {
     "code" : "0045",
     "display" : "Chimio-embolisation",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "45"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -1311,14 +951,6 @@
     "code" : "0046",
     "display" : "Chimiothérapies des hémopathies malignes",
     "definition" : "Prescription et suivi d'une chimiothérapie, qui est un traitement général visant à détruire les cellules cancéreuses ou à les empêcher de se multiplier dans l'ensemble du corps, des patients atteint d'un cancer des cellules sanguines et de leurs précurseurs. Parmi ces cancers on distingue les leucémies, les syndromes myélodysplasiques et les lymphomes.",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "46"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -1343,14 +975,6 @@
   {
     "code" : "0047",
     "display" : "Chirurgie aiguë des brûlures",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "47"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -1367,14 +991,6 @@
   {
     "code" : "0048",
     "display" : "Chirurgie arthroscopique membre inférieur",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "48"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -1399,14 +1015,6 @@
   {
     "code" : "0049",
     "display" : "Chirurgie arthroscopique membre supérieur",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "49"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -1432,14 +1040,6 @@
     "code" : "0050",
     "display" : "Chirurgie bariatrique (de l'obésité) majeure : by pass gastrique, sleeve gastrectomie",
     "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "50"
-    },
-    {
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
@@ -1471,14 +1071,6 @@
   {
     "code" : "0051",
     "display" : "Chirurgie bariatrique (de l'obésité) mineure : anneau gastrique ajustable",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "51"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -1503,14 +1095,6 @@
   {
     "code" : "0052",
     "display" : "Chirurgie bariatrique (obésité)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "52"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -1535,14 +1119,6 @@
   {
     "code" : "0053",
     "display" : "Chirurgie carcinologique dermatologique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "53"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -1559,14 +1135,6 @@
   {
     "code" : "0054",
     "display" : "Chirurgie carcinologique gynécologique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "54"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -1583,14 +1151,6 @@
   {
     "code" : "0055",
     "display" : "Chirurgie carcinologique maxillo-faciale et stomatologique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "55"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -1615,14 +1175,6 @@
   {
     "code" : "0056",
     "display" : "Chirurgie carcinologique ophtalmologique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "56"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -1639,14 +1191,6 @@
   {
     "code" : "0057",
     "display" : "Chirurgie carcinologique orthopédique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "57"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -1671,14 +1215,6 @@
   {
     "code" : "0058",
     "display" : "Chirurgie carcinologique oto-rhino-laryngologique (ORL) et cervico-faciale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "58"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -1695,14 +1231,6 @@
   {
     "code" : "0059",
     "display" : "Chirurgie carcinologique thoracique et pulmonaire",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "59"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -1719,14 +1247,6 @@
   {
     "code" : "0060",
     "display" : "Chirurgie carcinologique urologique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "60"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -1744,14 +1264,6 @@
     "code" : "0061",
     "display" : "Chirurgie des tumeurs vasculaires",
     "definition" : "Branche de la chirurgie vasculaire qui traite les malformations qui proviennent des cellules qui forment les parois des vaisseaux sanguins (exérèse des tumeurs)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "61"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -1768,14 +1280,6 @@
   {
     "code" : "0062",
     "display" : "Chirurgie carcinologique viscérale et digestive",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "62"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -1800,14 +1304,6 @@
   {
     "code" : "0063",
     "display" : "Chirurgie coronarienne robotique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "63"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -1832,14 +1328,6 @@
   {
     "code" : "0064",
     "display" : "Chirurgie costale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "64"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -1857,14 +1345,6 @@
     "code" : "0065",
     "display" : "Chirurgie oncologique des cancers digestifs avec atteinte péritonéale",
     "definition" : "Chirurgie qui s'intéresse aux tumeurs cancéreuses digestives avec atteinte péritonéale.",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "65"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -1881,14 +1361,6 @@
   {
     "code" : "0066",
     "display" : "Chirurgie de la cataracte - implants mono focaux et toriques",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "66"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -1905,14 +1377,6 @@
   {
     "code" : "0067",
     "display" : "Chirurgie de la main",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "67"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -1943,14 +1407,6 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "68"
-    },
-    {
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
       "value" : "Chirurgie SOS main (Agrément FESUM)"
     }],
     "property" : [{
@@ -1975,14 +1431,6 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "69"
-    },
-    {
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
       "value" : "Chirurgie embolie pulmonaire et HTAP post-embolique"
     }],
     "property" : [{
@@ -2001,14 +1449,6 @@
   {
     "code" : "0070",
     "display" : "Chirurgie de la parathyroide",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "70"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -2025,14 +1465,6 @@
   {
     "code" : "0071",
     "display" : "Chirurgie de la prostate",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "71"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -2058,14 +1490,6 @@
     "code" : "0072",
     "display" : "Chirurgie oncologique du pancréas",
     "definition" : "Chirurgie qui s'intéresse aux tumeurs cancéreuses du pancréas.",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "72"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -2082,14 +1506,6 @@
   {
     "code" : "0073",
     "display" : "Chirurgie de la thyroïde",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "73"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -2107,14 +1523,6 @@
     "code" : "0074",
     "display" : "Chirurgie de la trachée (oncologique, sténose et fistule trachéo-oesophagienne)",
     "definition" : "Chirurgie thoracique qui s'intéresse à la chirurgie de la trachée : oncologique, sténose et fistule trachéo-oesophagienne.",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "74"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -2131,14 +1539,6 @@
   {
     "code" : "0075",
     "display" : "Chirurgie de la vessie et des voies urinaires",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "75"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -2163,14 +1563,6 @@
   {
     "code" : "0076",
     "display" : "Chirurgie de l'aorte sous ombilicale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "76"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -2187,14 +1579,6 @@
   {
     "code" : "0077",
     "display" : "Chirurgie de l'aorte thoracique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "77"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -2211,14 +1595,6 @@
   {
     "code" : "0078",
     "display" : "Chirurgie de l'articulation temporo-mandibulaire",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "78"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -2235,14 +1611,6 @@
   {
     "code" : "0079",
     "display" : "Chirurgie de l'endométriose",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "79"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -2267,14 +1635,6 @@
   {
     "code" : "0080",
     "display" : "Chirurgie de l'infertilité féminine",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "80"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -2291,14 +1651,6 @@
   {
     "code" : "0081",
     "display" : "Chirurgie de tumeurs neuroendocrines",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "81"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -2315,14 +1667,6 @@
   {
     "code" : "0082",
     "display" : "Chirurgie dermatologique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "82"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -2348,14 +1692,6 @@
     "code" : "0083",
     "display" : "Chirurgie endoscopique des cordes vocales",
     "definition" : "Chirurgie réalisée sur les cordes vocales par endoscopie laryngée à l'aide d'un endoscope tubulaire (laryngoscope) souple ou rigide et d'une caméra qui transmet l'image à un moniteur (vidéo-endoscope).",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "83"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -2373,14 +1709,6 @@
     "code" : "0084",
     "display" : "Chirurgie des malformations congénitales cardiaques et des vaisseaux supra cardiaques",
     "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "84"
-    },
-    {
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
@@ -2404,14 +1732,6 @@
   {
     "code" : "0085",
     "display" : "Chirurgie des muscles oculomoteurs (diplopie, strabisme)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "85"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -2428,14 +1748,6 @@
   {
     "code" : "0086",
     "display" : "Chirurgie des nerfs périphériques",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "86"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -2452,14 +1764,6 @@
   {
     "code" : "0087",
     "display" : "Chirurgie réparatrice des séquelles de brûlures",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "87"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -2476,14 +1780,6 @@
   {
     "code" : "0088",
     "display" : "Chirurgie des syndromes d'apnée du sommeil (SAS)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "88"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -2501,14 +1797,6 @@
     "code" : "0089",
     "display" : "Chirurgie des tumeurs de la base du crâne, des mâchoires et du cou (dont angiome, dysplasie cutanée)",
     "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "89"
-    },
-    {
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
@@ -2532,14 +1820,6 @@
   {
     "code" : "0090",
     "display" : "Chirurgie des varices",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "90"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -2564,14 +1844,6 @@
   {
     "code" : "0091",
     "display" : "Chirurgie des vertiges",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "91"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -2588,14 +1860,6 @@
   {
     "code" : "0092",
     "display" : "Chirurgie du cristallin",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "92"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -2612,14 +1876,6 @@
   {
     "code" : "0093",
     "display" : "Chirurgie du glaucome",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "93"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -2636,14 +1892,6 @@
   {
     "code" : "0094",
     "display" : "Chirurgie du pied",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "94"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -2660,14 +1908,6 @@
   {
     "code" : "0095",
     "display" : "Chirurgie du pied diabétique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "95"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -2684,14 +1924,6 @@
   {
     "code" : "0096",
     "display" : "Chirurgie du pneumothorax",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "96"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -2716,14 +1948,6 @@
   {
     "code" : "0097",
     "display" : "Chirurgie du rachis",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "97"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -2748,14 +1972,6 @@
   {
     "code" : "0098",
     "display" : "Chirurgie du rachis en urgence",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "98"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -2780,14 +1996,6 @@
   {
     "code" : "0099",
     "display" : "Chirurgie du rachis instrumentée",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "99"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -2812,14 +2020,6 @@
   {
     "code" : "0100",
     "display" : "Chirurgie du rachis instrumentée et par technique mini-invasive",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "100"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -2836,14 +2036,6 @@
   {
     "code" : "0101",
     "display" : "Chirurgie du rachis par technique mini-invasive",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "101"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -2868,14 +2060,6 @@
   {
     "code" : "0102",
     "display" : "Chirurgie du rein par radiofréquence",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "102"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -2893,14 +2077,6 @@
     "code" : "0103",
     "display" : "Chirurgie du thymus et des tumeurs du mediastin",
     "definition" : "Branche de la chirurgie dont le périmètre d'intervention est le thymus et les tumeurs médiastinales",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "103"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -2917,14 +2093,6 @@
   {
     "code" : "0104",
     "display" : "Chirurgie endocrinienne",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "104"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -2941,14 +2109,6 @@
   {
     "code" : "0105",
     "display" : "Chirurgie et plastie de muscle oculomoteur",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "105"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -2973,14 +2133,6 @@
   {
     "code" : "0106",
     "display" : "Chirurgie et réparation des voies lacrymales",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "106"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -2997,14 +2149,6 @@
   {
     "code" : "0107",
     "display" : "Chirurgie maxillo-faciale et stomatologie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "107"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -3029,14 +2173,6 @@
   {
     "code" : "0108",
     "display" : "Chirurgie orbitaire",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "108"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -3053,14 +2189,6 @@
   {
     "code" : "0109",
     "display" : "Chirurgie orthopédique des maladies osseuses constitutionnelles",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "109"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -3077,14 +2205,6 @@
   {
     "code" : "0110",
     "display" : "Chirurgie orthopédique du handicap",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "110"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -3101,14 +2221,6 @@
   {
     "code" : "0111",
     "display" : "Chirurgie orthopédique et traumatologie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "111"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -3133,14 +2245,6 @@
   {
     "code" : "0112",
     "display" : "Chirurgie orthopédique septique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "112"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -3157,14 +2261,6 @@
   {
     "code" : "0113",
     "display" : "Chirurgie pelvienne robotique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "113"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -3189,14 +2285,6 @@
   {
     "code" : "0114",
     "display" : "Chirurgie plastique du pied diabétique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "114"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -3221,14 +2309,6 @@
   {
     "code" : "0115",
     "display" : "Chirurgie plastique et réparatrice de la paroi thoracique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "115"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -3253,14 +2333,6 @@
   {
     "code" : "0116",
     "display" : "Chirurgie plastique et réparatrice de la trachée et des bronches",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "116"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -3285,14 +2357,6 @@
   {
     "code" : "0117",
     "display" : "Chirurgie plastique et réparatrice du sein",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "117"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -3317,14 +2381,6 @@
   {
     "code" : "0118",
     "display" : "Chirurgie prostatique par laser",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "118"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -3341,14 +2397,6 @@
   {
     "code" : "0119",
     "display" : "Chirurgie prothétique du membre inférieur",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "119"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -3373,14 +2421,6 @@
   {
     "code" : "0120",
     "display" : "Chirurgie prothétique du membre supérieur",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "120"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -3405,14 +2445,6 @@
   {
     "code" : "0121",
     "display" : "Chirurgie reconstructrice maxillo-faciale et stomatologique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "121"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -3437,14 +2469,6 @@
   {
     "code" : "0122",
     "display" : "Chirurgie réfractive",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "122"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -3461,14 +2485,6 @@
   {
     "code" : "0123",
     "display" : "Chirurgie septique de la main",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "123"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -3493,14 +2509,6 @@
   {
     "code" : "0124",
     "display" : "Chirurgie thoracique et pulmonaire",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "124"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -3525,14 +2533,6 @@
   {
     "code" : "0125",
     "display" : "Chirurgie urologique (urologie)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "125"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -3557,14 +2557,6 @@
   {
     "code" : "0126",
     "display" : "Chirurgie valvulaire robotique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "126"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -3589,14 +2581,6 @@
   {
     "code" : "0127",
     "display" : "Chirurgie viscérale et digestive",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "127"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -3621,14 +2605,6 @@
   {
     "code" : "0128",
     "display" : "Chirurgie vitréo-rétinienne",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "128"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -3645,14 +2621,6 @@
   {
     "code" : "0129",
     "display" : "Cimentoplastie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "129"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -3670,14 +2638,6 @@
     "code" : "0130",
     "display" : "Cinétique biologique au cours et décours de l'effort",
     "definition" : "Mesures répétées de la lactatémie à partir de micro-prélèvements de sang réalisés au lobe de l'oreille ou au bout du doigt, au cours et au décours d'une épreuve d'effort ou d'un entraînement sportif afin d'apprécier l'intensité de la glycolyse anaérobie en fonction de l'intensité de l'effort.",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "130"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -3695,14 +2655,6 @@
     "code" : "0131",
     "display" : "Circulation extracorporelle (CEC) pour assistance circulatoire-respiratoire (ECMO)",
     "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "131"
-    },
-    {
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
@@ -3740,14 +2692,6 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "132"
-    },
-    {
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
       "value" : "Circulation extracorporelle pour assistance circulatoire-respiratoire (ECMO) péd"
     }],
     "property" : [{
@@ -3774,14 +2718,6 @@
   {
     "code" : "0133",
     "display" : "Coeur artificiel (assistance cardiaque)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "133"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -3798,14 +2734,6 @@
   {
     "code" : "0134",
     "display" : "Complications immuno hématologiques chez le malade immunodéprimé",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "134"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -3830,14 +2758,6 @@
   {
     "code" : "0135",
     "display" : "Complications infectieuses chez le malade immunodéprimé",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "135"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -3862,14 +2782,6 @@
   {
     "code" : "0136",
     "display" : "Complications pulmonaires chez le malade immunodéprimé (pneumo-hématologie)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "136"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -3894,14 +2806,6 @@
   {
     "code" : "0137",
     "display" : "Compression médullaire non traumatique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "137"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -3926,14 +2830,6 @@
   {
     "code" : "0138",
     "display" : "Compression médullaire traumatique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "138"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -3959,14 +2855,6 @@
     "code" : "0139",
     "display" : "Confection d'orthèse du membre inférieur",
     "definition" : "Moulage, fabrication, essayage et suivi du dispositif médical adapté, destiné à compenser une fonction absente ou déficitaire au niveau du membre inférieur : pied, cheville, genou, hanche",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "139"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -3984,14 +2872,6 @@
     "code" : "0140",
     "display" : "Confection d'orthèse du rachis",
     "definition" : "Moulage, fabrication, essayage et suivi d'un dispositif médical adapté à visée corrective et/ou fonctionnelle du rachis lombaire, dorso-lombaire et dorsal",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "140"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -4008,14 +2888,6 @@
   {
     "code" : "0141",
     "display" : "Conseil conjugal",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "141"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -4032,14 +2904,6 @@
   {
     "code" : "0142",
     "display" : "Consultation sommeil et travail",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "142"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -4064,14 +2928,6 @@
   {
     "code" : "0143",
     "display" : "Contactologie - lentille souple",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "143"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -4088,14 +2944,6 @@
   {
     "code" : "0144",
     "display" : "Contrepulsion par ballon intraaortique (CPBIA)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "144"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -4112,14 +2960,6 @@
   {
     "code" : "0145",
     "display" : "Coronarographie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "145"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -4144,14 +2984,6 @@
   {
     "code" : "0146",
     "display" : "Correction des ambiguïtés sexuelles",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "146"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -4168,14 +3000,6 @@
   {
     "code" : "0147",
     "display" : "Cosmétologie dentaire (blanchiement, facettes)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "147"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -4201,14 +3025,6 @@
     "code" : "0148",
     "display" : "Test de marche 6 minutes",
     "definition" : "Courbe débit volume (CDV)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "148"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -4225,14 +3041,6 @@
   {
     "code" : "0149",
     "display" : "Cystographie pédiatrique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "149"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -4257,14 +3065,6 @@
   {
     "code" : "0150",
     "display" : "Dacryoscanner",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "150"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -4281,14 +3081,6 @@
   {
     "code" : "0151",
     "display" : "Déficits immunitaires primitifs et secondaires",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "151"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -4313,14 +3105,6 @@
   {
     "code" : "0152",
     "display" : "Dégénerescence maculaire liée à l'âge (DMLA)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "152"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -4345,14 +3129,6 @@
   {
     "code" : "0153",
     "display" : "Evaluation et traitement du délabrement cutanéo-musculaire",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "153"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -4377,14 +3153,6 @@
   {
     "code" : "0154",
     "display" : "Dépistage de la rétinopathie diabétique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "154"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -4409,14 +3177,6 @@
   {
     "code" : "0155",
     "display" : "Dérivation urinaire en urgence sans urétéroscopie (sonde double J en urgence)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "155"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -4441,14 +3201,6 @@
   {
     "code" : "0156",
     "display" : "Dermato-allergologie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "156"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -4473,14 +3225,6 @@
   {
     "code" : "0157",
     "display" : "Dermatologie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "157"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -4506,14 +3250,6 @@
     "code" : "0158",
     "display" : "Dermatologie buccale",
     "definition" : "Prise en charge des pathologies de la muqueuse buccale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "158"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -4538,14 +3274,6 @@
   {
     "code" : "0159",
     "display" : "Dermatologie infectieuse, parasitaires et tropicale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "159"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -4570,14 +3298,6 @@
   {
     "code" : "0160",
     "display" : "Dermatoses bulleuses",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "160"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -4602,14 +3322,6 @@
   {
     "code" : "0161",
     "display" : "Dermatoses inflammatoires (psoriasis, eczéma)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "161"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -4634,14 +3346,6 @@
   {
     "code" : "0162",
     "display" : "Dermolipectomie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "162"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -4658,14 +3362,6 @@
   {
     "code" : "0163",
     "display" : "Resurfaçage cutané (laserbration, peeling…)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "163"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -4682,14 +3378,6 @@
   {
     "code" : "0164",
     "display" : "Destruction tumorale sous échographie-TDM-IRM",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "164"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -4706,14 +3394,6 @@
   {
     "code" : "0165",
     "display" : "Diabète gestationnel",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "165"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -4738,14 +3418,6 @@
   {
     "code" : "0166",
     "display" : "Diagnostic prénatal",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "166"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -4763,14 +3435,6 @@
     "code" : "0167",
     "display" : "Nutrition du sportif",
     "definition" : "Analyse des habitudes alimentaires du sportif et conseils adaptés aux exigences spécifiques liées à la pratique d'une activité sportive (alimentation, régime spécifique, supplémentation, hydratation…)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "167"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -4787,14 +3451,6 @@
   {
     "code" : "0168",
     "display" : "Dispensation des médicaments aux patients ambulatoires",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "168"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -4819,14 +3475,6 @@
   {
     "code" : "0169",
     "display" : "Dépistage et prise en charge du dopage",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "169"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -4843,14 +3491,6 @@
   {
     "code" : "0170",
     "display" : "Drépanocytose",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "170"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -4875,14 +3515,6 @@
   {
     "code" : "0171",
     "display" : "Dysmorphie maxillo-faciale et stomatologique (hypertrophie, atrophie...)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "171"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -4908,14 +3540,6 @@
     "code" : "0172",
     "display" : "ECG (électrocardiographie)",
     "definition" : "Représentation graphique de l'activité électrique du coeur, liée aux variations de potentiels électriques des cellules spécialisées dans la contraction (myocytes) et des cellules spécialisées dans l'automatisme et la conduction des influx. Elle est recueillie par des électrodes à la surface de la peau.",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "172"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -4932,14 +3556,6 @@
   {
     "code" : "0173",
     "display" : "Echange plasmatique - Plasma filtration",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "173"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -4956,14 +3572,6 @@
   {
     "code" : "0174",
     "display" : "Echo-doppler ostéoarticulaire",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "174"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -4980,14 +3588,6 @@
   {
     "code" : "0175",
     "display" : "Echo-endoscopie broncho-pulmonaire (bronchique)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "175"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -5005,14 +3605,6 @@
     "code" : "0176",
     "display" : "Echographie cardiaque de stress : échographie Dobutamine",
     "definition" : "Examen échographique qui explore la contraction du ventricule gauche, sous perfusion d'un médicament visant à reproduire les conditions de l'effort.",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "176"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -5030,14 +3622,6 @@
     "code" : "0177",
     "display" : "Echographie cardiaque d'effort",
     "definition" : "Examen échographique qui explore le coeur (valves et fonction cardiaque) réalisé pendant l'effort, sur une table équipée d'un pédalier.",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "177"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -5054,14 +3638,6 @@
   {
     "code" : "0178",
     "display" : "Echographie cardiaque transoesophagienne (ETO)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "178"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -5078,14 +3654,6 @@
   {
     "code" : "0179",
     "display" : "Echographie endo-coronaire",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "179"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -5102,14 +3670,6 @@
   {
     "code" : "0180",
     "display" : "Echographie obstétricale 1er trimestre",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "180"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -5126,14 +3686,6 @@
   {
     "code" : "0181",
     "display" : "Echographie obstétricale 2nd et 3ème trimestres",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "181"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -5151,14 +3703,6 @@
     "code" : "0182",
     "display" : "Education thérapeutique labellisée du patient asthmatique (école de l'asthme)",
     "definition" : "Service soumis à autorisation de l'ARS proposants des séances d'éducation thérapeutique pour les enfants, les adolescents et les adultes afin d'améliorer la compréhension de la maladie, rendre le patient autonome et permettre l'adaptation de la maladie aux évènements de la vie (sport, vacances, sorties scolaires…)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "182"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -5175,14 +3719,6 @@
   {
     "code" : "0183",
     "display" : "Electro-convulsivothérapie (ECT, sismothérapie)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "183"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -5199,14 +3735,6 @@
   {
     "code" : "0184",
     "display" : "Embolisation dans le territoire abdomino-pelvien",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "184"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -5223,14 +3751,6 @@
   {
     "code" : "0185",
     "display" : "Embolisation dans le territoire thoracique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "185"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -5247,14 +3767,6 @@
   {
     "code" : "0186",
     "display" : "Embolisation dans les territoires neuro-encéphalique et rachidien",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "186"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -5271,14 +3783,6 @@
   {
     "code" : "0187",
     "display" : "Embolisation de fibrome",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "187"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -5303,14 +3807,6 @@
   {
     "code" : "0188",
     "display" : "Embolisation hépatique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "188"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -5335,14 +3831,6 @@
   {
     "code" : "0189",
     "display" : "Endoscopie de l'appareil génital féminin (hystéroscopie)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "189"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -5359,14 +3847,6 @@
   {
     "code" : "0190",
     "display" : "Endoscopie de l'utérus gravide",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "190"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -5384,14 +3864,6 @@
     "code" : "0191",
     "display" : "Endoscopie voies biliaires et pancréas : cathétérisme rétrograde (extraction calcul, pose endoprothèse biliaire, sphinctérotomie, biopsie) et ponction",
     "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "191"
-    },
-    {
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
@@ -5415,14 +3887,6 @@
   {
     "code" : "0192",
     "display" : "Endoscopie digestive basse (coloscopie, rectosigmoïdoscopie)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "192"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -5439,14 +3903,6 @@
   {
     "code" : "0193",
     "display" : "Endoscopie digestive diagnostique et interventionnelle : mucosectomie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "193"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -5464,14 +3920,6 @@
     "code" : "0194",
     "display" : "Endoscopie digestive diagnostique et interventionnelle : pose d'endoprothèse du tube digestif",
     "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "194"
-    },
-    {
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
@@ -5495,14 +3943,6 @@
   {
     "code" : "0195",
     "display" : "Endoscopie digestive par vidéo capsule",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "195"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -5519,14 +3959,6 @@
   {
     "code" : "0196",
     "display" : "Entrainement électro-systolique externe (EES)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "196"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -5543,14 +3975,6 @@
   {
     "code" : "0197",
     "display" : "Entrainement électro-systolique provisoire",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "197"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -5575,14 +3999,6 @@
   {
     "code" : "0198",
     "display" : "Epidémiologie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "198"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -5608,14 +4024,6 @@
     "code" : "0199",
     "display" : "Epreuve d'effort",
     "definition" : "Évaluation des fonctions physiologiques, particulièrement cardiovasculaire et pulmonaire, mais également la capacité respiratoire, d'une activité physique contrôlée, plus intense qu'au repos",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "199"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -5633,14 +4041,6 @@
     "code" : "0200",
     "display" : "Epreuve d'effort cardio-pneumo-métabolique (VO2max)",
     "definition" : "Évaluation des capacités à l'effort en mesurant la consommation maximale d'oxygène que la personne peut fournir (en millilitres par minute, la VO2 MAX) lors d'une activité physique contrôlée",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "200"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -5657,14 +4057,6 @@
   {
     "code" : "0201",
     "display" : "Ergonomie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "201"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -5689,14 +4081,6 @@
   {
     "code" : "0202",
     "display" : "Ethique clinique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "202"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -5721,14 +4105,6 @@
   {
     "code" : "0203",
     "display" : "Evaluation des syndromes démentiels et troubles du comportement",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "203"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -5754,14 +4130,6 @@
     "code" : "0204",
     "display" : "Evaluation gériatrique standardisée",
     "definition" : "Processus diagnostique interdisciplinaire du sujet âgé fragile, orienté vers l'identification systématique des problèmes médicaux et des capacités psychosociales et fonctionnelles dans le but d'implanter un projet de traitement et de suivi à longue durée tenant compte des réalités personnelles et des besoins des patients",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "204"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -5778,14 +4146,6 @@
   {
     "code" : "0205",
     "display" : "Elastographie hépatique (fibroscan)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "205"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -5802,14 +4162,6 @@
   {
     "code" : "0206",
     "display" : "Evaluation suivi post accident avec exposition au sang (AES)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "206"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -5834,14 +4186,6 @@
   {
     "code" : "0207",
     "display" : "Eviscération, énucléation du globe oculaire",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "207"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -5866,14 +4210,6 @@
   {
     "code" : "0208",
     "display" : "Expertise médicale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "208"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -5898,14 +4234,6 @@
   {
     "code" : "0209",
     "display" : "Exploration électrophysiologique endocavitaire",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "209"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -5929,14 +4257,6 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "210"
-    },
-    {
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
       "value" : "Exploration fonctionnelle respiratoire d'exercice avec mesure échanges gazeux"
     }],
     "property" : [{
@@ -5955,14 +4275,6 @@
   {
     "code" : "0211",
     "display" : "Femme enceinte drépanocytaire",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "211"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -5987,14 +4299,6 @@
   {
     "code" : "0212",
     "display" : "FIV (Féconcation In Vitro)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "212"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -6025,14 +4329,6 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "213"
-    },
-    {
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
       "value" : "FIV avec Injection Intra Cytoplasmique de Spermatozoïdes (ICSI) (AMP)"
     }],
     "property" : [{
@@ -6051,14 +4347,6 @@
   {
     "code" : "0214",
     "display" : "Formation dialyse",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "214"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -6083,14 +4371,6 @@
   {
     "code" : "0215",
     "display" : "Formation sauveteurs - secouristes du travail",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "215"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -6121,14 +4401,6 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "216"
-    },
-    {
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
       "value" : "Gamma-angiographie cardiaque, tomographie cavitaire"
     }],
     "property" : [{
@@ -6147,14 +4419,6 @@
   {
     "code" : "0217",
     "display" : "Génétique chromosomique et moléculaire ante natale (constitutionnelle)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "217"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -6171,14 +4435,6 @@
   {
     "code" : "0218",
     "display" : "Génétique chromosomique et moléculaire post natale (constitutionnelle)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "218"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -6195,14 +4451,6 @@
   {
     "code" : "0219",
     "display" : "Génétique constitutionnelle",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "219"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -6227,14 +4475,6 @@
   {
     "code" : "0220",
     "display" : "Gestion des antidotes",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "220"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -6259,14 +4499,6 @@
   {
     "code" : "0221",
     "display" : "Greffe cartilagineuse",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "221"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -6283,14 +4515,6 @@
   {
     "code" : "0222",
     "display" : "Greffe cutanée en sandwich",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "222"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -6307,14 +4531,6 @@
   {
     "code" : "0223",
     "display" : "Greffe de cellules souches hématopoïétiques allogreffe",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "223"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -6331,14 +4547,6 @@
   {
     "code" : "0224",
     "display" : "Greffe de cellules souches hématopoïétiques autogreffe",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "224"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -6355,14 +4563,6 @@
   {
     "code" : "0225",
     "display" : "Greffe de cornée",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "225"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -6379,14 +4579,6 @@
   {
     "code" : "0226",
     "display" : "Greffe de culture de kératinocytes pour brûlure",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "226"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -6403,14 +4595,6 @@
   {
     "code" : "0227",
     "display" : "Greffe de membrane amniotique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "227"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -6427,14 +4611,6 @@
   {
     "code" : "0228",
     "display" : "Greffe du visage",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "228"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -6451,14 +4627,6 @@
   {
     "code" : "0229",
     "display" : "Greffe méniscale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "229"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -6475,14 +4643,6 @@
   {
     "code" : "0230",
     "display" : "Prise en charge de la maladie du Greffon contre l'hôte (GVH)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "230"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -6499,14 +4659,6 @@
   {
     "code" : "0231",
     "display" : "Grossesse et VIH",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "231"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -6531,14 +4683,6 @@
   {
     "code" : "0232",
     "display" : "Grossesses à risques (pathologiques)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "232"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -6563,14 +4707,6 @@
   {
     "code" : "0233",
     "display" : "Groupe de parole",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "233"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -6595,14 +4731,6 @@
   {
     "code" : "0234",
     "display" : "Hémobiologie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "234"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -6627,14 +4755,6 @@
   {
     "code" : "0235",
     "display" : "Hemodialyse intermittente",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "235"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -6659,14 +4779,6 @@
   {
     "code" : "0236",
     "display" : "Hemofiltration - hémodiafiltration continue",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "236"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -6683,14 +4795,6 @@
   {
     "code" : "0237",
     "display" : "Hémoglobinopathies",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "237"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -6715,14 +4819,6 @@
   {
     "code" : "0238",
     "display" : "Hémopathies rares",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "238"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -6747,14 +4843,6 @@
   {
     "code" : "0239",
     "display" : "Hémophilie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "239"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -6779,14 +4867,6 @@
   {
     "code" : "0240",
     "display" : "Hépatectomie avec radiofréquence per-opératoire",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "240"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -6803,14 +4883,6 @@
   {
     "code" : "0241",
     "display" : "Hépatectomie hyperélargie (ex vivo, in vivo CEC, refroidissement)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "241"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -6827,14 +4899,6 @@
   {
     "code" : "0242",
     "display" : "Homéopathie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "242"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -6859,14 +4923,6 @@
   {
     "code" : "0243",
     "display" : "Hypothermie induite",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "243"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -6883,14 +4939,6 @@
   {
     "code" : "0244",
     "display" : "Hystérographie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "244"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -6907,14 +4955,6 @@
   {
     "code" : "0245",
     "display" : "Imagerie pédiatrique avec sédation",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "245"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -6931,14 +4971,6 @@
   {
     "code" : "0246",
     "display" : "Imagerie pédiatrique sans sédation",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "246"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -6963,14 +4995,6 @@
   {
     "code" : "0247",
     "display" : "Imagerie vasculaire diagnostique et interventionnelle : artériographie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "247"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -6995,14 +5019,6 @@
   {
     "code" : "0248",
     "display" : "Implantation de pompes à baclofène",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "248"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -7019,14 +5035,6 @@
   {
     "code" : "0249",
     "display" : "Implantation d'un défibrillateur cardiaque",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "249"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -7043,14 +5051,6 @@
   {
     "code" : "0250",
     "display" : "Implantation d'un stimulateur cardiaque : pace maker",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "250"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -7068,14 +5068,6 @@
     "code" : "0251",
     "display" : "Pose d'implants dentaires (implantologie)",
     "definition" : "Technique de remplacement d'une ou plusieurs dents absentes et assurant la reconstruction prothétique utilisant un matériel implanté dans les structures osseuses",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "251"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -7092,14 +5084,6 @@
   {
     "code" : "0252",
     "display" : "Pose d'implants cochléaires",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "252"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -7116,14 +5100,6 @@
   {
     "code" : "0253",
     "display" : "Traitement des leucémies aiguës par induction",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "253"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -7140,14 +5116,6 @@
   {
     "code" : "0254",
     "display" : "Infection par le VIH",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "254"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -7172,14 +5140,6 @@
   {
     "code" : "0255",
     "display" : "Infection VIH",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "255"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -7204,14 +5164,6 @@
   {
     "code" : "0256",
     "display" : "Infections sexuellement transmissibles (IST)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "256"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -7237,14 +5189,6 @@
     "code" : "0257",
     "display" : "Infiltration articulaire, péri-tendineuse et péri-nerveuse guidée par imagerie",
     "definition" : "Injection d'une substance médicamenteuse dans une articulation sous repérage radiologique ou échographique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "257"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -7261,14 +5205,6 @@
   {
     "code" : "0258",
     "display" : "Infiltration articulaire radio-guidée",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "258"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -7294,14 +5230,6 @@
     "code" : "0259",
     "display" : "Infiltration du rachis cervical",
     "definition" : "Injection d'une substance médicamenteuse dans la région du rachis cervical, sous repérage radiologique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "259"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -7319,14 +5247,6 @@
     "code" : "0260",
     "display" : "Infiltration du rachis thoraco-lombaire-sacré guidée par imagerie",
     "definition" : "Injection d'une substance médicamenteuse dans la région thoraco-lombaire, sous repérage radiologique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "260"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -7343,14 +5263,6 @@
   {
     "code" : "0261",
     "display" : "Injection de toxine botulique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "261"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -7375,14 +5287,6 @@
   {
     "code" : "0262",
     "display" : "Injection de toxine botulique dans les muscles oculomoteurs",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "262"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -7407,14 +5311,6 @@
   {
     "code" : "0263",
     "display" : "Injection intra-articulaire de produit de contraste",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "263"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -7431,14 +5327,6 @@
   {
     "code" : "0264",
     "display" : "Injection intravitréenne (IVT)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "264"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -7455,14 +5343,6 @@
   {
     "code" : "0265",
     "display" : "Injection péridurale de sang autologue (blood patch)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "265"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -7480,14 +5360,6 @@
     "code" : "0266",
     "display" : "Interruption de grossesse pour motif médical (IMG/ITG)",
     "definition" : "L'Interruption Médicalisée de Grossesse ou Interruption Médicale de Grossesse (IMG) ou avortement thérapeutique est l'interruption thérapeutique d'une grossesse (ITG) pratiquée lorsque la santé de la mère ou de l'enfant à naître est en danger. Elle peut être réalisée, quelle que soit la date d'accouchement prévue : si la grossesse met gravement en danger la santé de la femme enceinte ; s'il y a une forte probabilité que l'enfant à naître soit atteint d'une affection d'une particulière gravité reconnue comme incurable au moment du diagnostic. Les affections graves et incurables pour l'enfant incluent, par exemple, des maladies mortelles en période périnatale ou dans la première année de vie, et des maladies entrainant un handicap grave, parfois mortel, chez l'enfant.",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "266"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -7504,14 +5376,6 @@
   {
     "code" : "0267",
     "display" : "Interruption volontaire de grossesse (IVG) chirurgicale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "267"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -7528,14 +5392,6 @@
   {
     "code" : "0268",
     "display" : "Interruption volontaire de grossesse (IVG) médicamenteuse",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "268"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -7552,14 +5408,6 @@
   {
     "code" : "0269",
     "display" : "IRM foetale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "269"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -7577,14 +5425,6 @@
     "code" : "0270",
     "display" : "Isocinétisme",
     "definition" : "Méthode qui permet d'évaluer la force, la puissance et l'endurance musculaire lors d'un mouvement effectué contre une résistance constante contrôlée par dynamomètre, les données obtenues pouvant être soumises à analyse informatique en temps réel.",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "270"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -7601,14 +5441,6 @@
   {
     "code" : "0271",
     "display" : "Isolement de secteur (cohorting)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "271"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -7634,14 +5466,6 @@
     "code" : "0272",
     "display" : "Physiothérapie (Kinésithérapie-thermothérapie)",
     "definition" : "Technique de rééducation des muscles et articulations associant l'application locale du froid ou plus rarement de chaleur à visée antalgique.",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "272"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -7658,14 +5482,6 @@
   {
     "code" : "0273",
     "display" : "Désinvagination par lavement en imagerie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "273"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -7682,14 +5498,6 @@
   {
     "code" : "0274",
     "display" : "Lissage cutané (Lifting)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "274"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -7706,14 +5514,6 @@
   {
     "code" : "0275",
     "display" : "Lithotritie biliaire",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "275"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -7730,14 +5530,6 @@
   {
     "code" : "0276",
     "display" : "Lithotritie extracorporelle rénale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "276"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -7762,14 +5554,6 @@
   {
     "code" : "0277",
     "display" : "Lithotritie extracorporelle rénale (LEC)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "277"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -7786,14 +5570,6 @@
   {
     "code" : "0278",
     "display" : "Lymphoscintigraphie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "278"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -7810,14 +5586,6 @@
   {
     "code" : "0279",
     "display" : "Maladie autoimmune",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "279"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -7842,14 +5610,6 @@
   {
     "code" : "0280",
     "display" : "Maladie de la thyroïde",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "280"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -7874,14 +5634,6 @@
   {
     "code" : "0281",
     "display" : "Maladie de l'hypophyse",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "281"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -7906,14 +5658,6 @@
   {
     "code" : "0282",
     "display" : "Maladie des surrénales",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "282"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -7938,14 +5682,6 @@
   {
     "code" : "0283",
     "display" : "Maladie du métabolisme (syndrome métabolique)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "283"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -7970,14 +5706,6 @@
   {
     "code" : "0284",
     "display" : "Maladie rare",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "284"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -7994,14 +5722,6 @@
   {
     "code" : "0285",
     "display" : "Maladie systémique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "285"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -8018,14 +5738,6 @@
   {
     "code" : "0286",
     "display" : "Maladies rares : maladies héréditaires du métabolisme",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "286"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -8042,14 +5754,6 @@
   {
     "code" : "0287",
     "display" : "Maladies rares : maladies neuromusculaires",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "287"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -8066,14 +5770,6 @@
   {
     "code" : "0288",
     "display" : "Maladies virales chroniques (VHC, HPV)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "288"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -8098,14 +5794,6 @@
   {
     "code" : "0289",
     "display" : "Maladies virales chroniques (VHC, HPV, autres)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "289"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -8130,14 +5818,6 @@
   {
     "code" : "0290",
     "display" : "Prise en charge de la maltraitance et violence",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "290"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -8154,14 +5834,6 @@
   {
     "code" : "0291",
     "display" : "Manométrie grêlique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "291"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -8178,14 +5850,6 @@
   {
     "code" : "0292",
     "display" : "Manométrie anorectale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "292"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -8202,14 +5866,6 @@
   {
     "code" : "0293",
     "display" : "Médecine aéronautique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "293"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -8234,14 +5890,6 @@
   {
     "code" : "0294",
     "display" : "Médecine aérospatiale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "294"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -8266,14 +5914,6 @@
   {
     "code" : "0295",
     "display" : "Médecine alternative et traitement de la douleur",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "295"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -8298,14 +5938,6 @@
   {
     "code" : "0296",
     "display" : "Médecine d'altitude (médecine de montagne)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "296"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -8322,14 +5954,6 @@
   {
     "code" : "0297",
     "display" : "Médecine des expatriés",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "297"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -8354,14 +5978,6 @@
   {
     "code" : "0298",
     "display" : "Médecine des gens de mer",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "298"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -8378,14 +5994,6 @@
   {
     "code" : "0299",
     "display" : "Médecine interne gériatrique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "299"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -8410,14 +6018,6 @@
   {
     "code" : "0300",
     "display" : "Traitement par mésothérapie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "300"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -8434,14 +6034,6 @@
   {
     "code" : "0301",
     "display" : "Mesure de force musculaire locale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "301"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -8458,14 +6050,6 @@
   {
     "code" : "0302",
     "display" : "Mesure de pression des loges musculaires (syndrome des loges)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "302"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -8482,14 +6066,6 @@
   {
     "code" : "0303",
     "display" : "Mesure des plis cutanés",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "303"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -8514,14 +6090,6 @@
   {
     "code" : "0304",
     "display" : "Microbiologie : bactériologie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "304"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -8538,14 +6106,6 @@
   {
     "code" : "0305",
     "display" : "Microbiologie : mycologie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "305"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -8562,14 +6122,6 @@
   {
     "code" : "0306",
     "display" : "Microbiologie : virologie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "306"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -8586,14 +6138,6 @@
   {
     "code" : "0307",
     "display" : "Microbiologie laboratoire P3",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "307"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -8618,14 +6162,6 @@
   {
     "code" : "0308",
     "display" : "Microbiologie laboratoire P4",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "308"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -8650,14 +6186,6 @@
   {
     "code" : "0309",
     "display" : "Mort inattendue du nourisson (MIN)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "309"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -8682,14 +6210,6 @@
   {
     "code" : "0310",
     "display" : "Mucoviscidose",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "310"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -8714,14 +6234,6 @@
   {
     "code" : "0311",
     "display" : "Chirurgie réparatrice de mutilations sexuelles (excision)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "311"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -8738,14 +6250,6 @@
   {
     "code" : "0312",
     "display" : "Greffe de tympan (myringoplastie ou tympanoplastie)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "312"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -8762,14 +6266,6 @@
   {
     "code" : "0313",
     "display" : "Nécrolyse épidermique (syndromes de Lyell et Stevens-Johnson)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "313"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -8794,14 +6290,6 @@
   {
     "code" : "0314",
     "display" : "Nécrose secondaire au purpura fulminans",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "314"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -8826,14 +6314,6 @@
   {
     "code" : "0315",
     "display" : "Neurochirurgie de la douleur",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "315"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -8858,14 +6338,6 @@
   {
     "code" : "0316",
     "display" : "Neurochirurgie éveillée avec mapping cortical",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "316"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -8883,14 +6355,6 @@
     "code" : "0317",
     "display" : "Neurochirurgie vasculaire (avec compétences neurochirurgicales et endovasculaires)",
     "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "317"
-    },
-    {
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
@@ -8922,14 +6386,6 @@
   {
     "code" : "0318",
     "display" : "Neurogériatrie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "318"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -8954,14 +6410,6 @@
   {
     "code" : "0319",
     "display" : "Neuro-imagerie fonctionnelle, spectroscopie, tractographie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "319"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -8986,14 +6434,6 @@
   {
     "code" : "0320",
     "display" : "Neuromodulation sacrée",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "320"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -9010,14 +6450,6 @@
   {
     "code" : "0321",
     "display" : "Neuro-oncologie (avec accès à RCP et traitement multimodal)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "321"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -9042,14 +6474,6 @@
   {
     "code" : "0322",
     "display" : "Neuro-ophtalmologie (affection oculaire d'origine neurologique)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "322"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -9074,14 +6498,6 @@
   {
     "code" : "0323",
     "display" : "Neuro-orthopédie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "323"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -9106,14 +6522,6 @@
   {
     "code" : "0324",
     "display" : "Neuro-urologie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "324"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -9138,14 +6546,6 @@
   {
     "code" : "0325",
     "display" : "Nucléotomie transcutanée",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "325"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -9162,14 +6562,6 @@
   {
     "code" : "0326",
     "display" : "Nutrition parentérale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "326"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -9194,14 +6586,6 @@
   {
     "code" : "0327",
     "display" : "Obésité",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "327"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -9226,14 +6610,6 @@
   {
     "code" : "0328",
     "display" : "Occlusodontie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "328"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -9250,14 +6626,6 @@
   {
     "code" : "0329",
     "display" : "Odontologie chez le patient avec trouble de la coagulation, hémophilie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "329"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -9282,14 +6650,6 @@
   {
     "code" : "0330",
     "display" : "Odontologie médico-légale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "330"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -9314,14 +6674,6 @@
   {
     "code" : "0331",
     "display" : "Onco-génétique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "331"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -9346,14 +6698,6 @@
   {
     "code" : "0332",
     "display" : "Oncogériatrie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "332"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -9378,14 +6722,6 @@
   {
     "code" : "0333",
     "display" : "Oncologie (cancérologie) dermatologique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "333"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -9410,14 +6746,6 @@
   {
     "code" : "0334",
     "display" : "Oncologie (cancérologie) digestive et viscérale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "334"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -9442,14 +6770,6 @@
   {
     "code" : "0335",
     "display" : "Oncologie (cancérologie) gynécologique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "335"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -9474,14 +6794,6 @@
   {
     "code" : "0336",
     "display" : "Oncologie (cancérologie) hématologique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "336"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -9506,14 +6818,6 @@
   {
     "code" : "0337",
     "display" : "Oncologie (cancérologie) oto-rhino-laryngologique (ORL) et cervico-faciale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "337"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -9538,14 +6842,6 @@
   {
     "code" : "0338",
     "display" : "Oncologie (cancérologie) pneumologique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "338"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -9570,14 +6866,6 @@
   {
     "code" : "0339",
     "display" : "Oncologie (cancérologie) rhumatologique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "339"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -9602,14 +6890,6 @@
   {
     "code" : "0340",
     "display" : "Oncologie (cancérologie) sénologique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "340"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -9634,14 +6914,6 @@
   {
     "code" : "0341",
     "display" : "Oncologie (cancérologie) urologique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "341"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -9666,14 +6938,6 @@
   {
     "code" : "0342",
     "display" : "Chirurgie du transsexualisme",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "342"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -9690,14 +6954,6 @@
   {
     "code" : "0343",
     "display" : "Ophtalmologie en urgence (hors unité d'accueil des urgences ophtalmologiques)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "343"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -9722,14 +6978,6 @@
   {
     "code" : "0344",
     "display" : "Orthogénie - Planification et contrôle des naissances",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "344"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -9754,14 +7002,6 @@
   {
     "code" : "0345",
     "display" : "Ostéodensitométrie (densitométrie osseuse)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "345"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -9778,14 +7018,6 @@
   {
     "code" : "0346",
     "display" : "Ostéopathie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "346"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -9810,14 +7042,6 @@
   {
     "code" : "0347",
     "display" : "Oto-rhino-laryngologie (ORL)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "347"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -9842,14 +7066,6 @@
   {
     "code" : "0348",
     "display" : "Oto-rhino-laryngologie en urgence (hors unité d'accueil des urgences ORL)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "348"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -9874,14 +7090,6 @@
   {
     "code" : "0349",
     "display" : "Chirurgie à visée implantaire (dont greffe et comblement de sinus)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "349"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -9898,14 +7106,6 @@
   {
     "code" : "0350",
     "display" : "Pathologie des glandes salivaires",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "350"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -9930,14 +7130,6 @@
   {
     "code" : "0351",
     "display" : "Pathologie des ongles (onycologie)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "351"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -9962,14 +7154,6 @@
   {
     "code" : "0352",
     "display" : "Pathologie du cuir chevelu",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "352"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -9994,14 +7178,6 @@
   {
     "code" : "0353",
     "display" : "Pathologie infectieuse maxillo-faciale et bucco-dentaire",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "353"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -10026,14 +7202,6 @@
   {
     "code" : "0354",
     "display" : "Pathologie liée à l'obésité",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "354"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -10058,14 +7226,6 @@
   {
     "code" : "0355",
     "display" : "Pathologie vulvaire",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "355"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -10090,14 +7250,6 @@
   {
     "code" : "0356",
     "display" : "Pelvipérinéologie : incontinence urinaire",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "356"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -10122,14 +7274,6 @@
   {
     "code" : "0357",
     "display" : "Pelvipérinéologie : prolapsus génital, rectal, vésical",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "357"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -10154,14 +7298,6 @@
   {
     "code" : "0358",
     "display" : "Pharmacologie et toxicologie médico-légale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "358"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -10178,14 +7314,6 @@
   {
     "code" : "0359",
     "display" : "Pharmacologie-épidémiologie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "359"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -10210,14 +7338,6 @@
   {
     "code" : "0360",
     "display" : "Phoniatrie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "360"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -10242,14 +7362,6 @@
   {
     "code" : "0361",
     "display" : "Pied diabétique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "361"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -10274,14 +7386,6 @@
   {
     "code" : "0362",
     "display" : "Soins des plaies chroniques et pansements complexes",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "362"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -10298,14 +7402,6 @@
   {
     "code" : "0363",
     "display" : "Plastie de la vulve et du périnée",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "363"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -10322,14 +7418,6 @@
   {
     "code" : "0364",
     "display" : "Plastie pénienne",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "364"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -10346,14 +7434,6 @@
   {
     "code" : "0365",
     "display" : "Plateforme hospitalière de génétique moléculaire des cancers INCA",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "365"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -10378,14 +7458,6 @@
   {
     "code" : "0366",
     "display" : "Pneumopathies interstitielles (infiltrantes)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "366"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -10410,14 +7482,6 @@
   {
     "code" : "0367",
     "display" : "Podologie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "367"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -10442,14 +7506,6 @@
   {
     "code" : "0368",
     "display" : "Ponction biopsie sous repérage guidé",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "368"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -10466,14 +7522,6 @@
   {
     "code" : "0369",
     "display" : "Ponction biopsie hépatique (PBH) transjugulaire",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "369"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -10498,14 +7546,6 @@
   {
     "code" : "0370",
     "display" : "Ponction biopsie mammaire (sein) : macrobiopsie - microbiopsie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "370"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -10530,14 +7570,6 @@
   {
     "code" : "0371",
     "display" : "Ponction biopsie rénale (PBR) transcutanée",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "371"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -10562,14 +7594,6 @@
   {
     "code" : "0372",
     "display" : "Ponction biopsie rénale (PBR) transjugulaire",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "372"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -10594,14 +7618,6 @@
   {
     "code" : "0373",
     "display" : "Ponction de ganglion lymphatique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "373"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -10618,14 +7634,6 @@
   {
     "code" : "0374",
     "display" : "Aspiration et / ou Biopsie de moelle osseuse",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "374"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -10642,14 +7650,6 @@
   {
     "code" : "0375",
     "display" : "Ponction, biopsie et prélèvement sur le foetus et l'utérus gravide",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "375"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -10666,14 +7666,6 @@
   {
     "code" : "0376",
     "display" : "Pontage des artères des membres",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "376"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -10690,14 +7682,6 @@
   {
     "code" : "0377",
     "display" : "Pose de chambre implantable (CIP) percutanée",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "377"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -10714,14 +7698,6 @@
   {
     "code" : "0378",
     "display" : "Pose radiologique de filtre cave",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "378"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -10738,14 +7714,6 @@
   {
     "code" : "0379",
     "display" : "Pose de système diffuseur implantable pour insulinothérapie intrapéritonéale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "379"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -10762,14 +7730,6 @@
   {
     "code" : "0380",
     "display" : "Pose d'implant de l'oreille moyenne",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "380"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -10786,14 +7746,6 @@
   {
     "code" : "0381",
     "display" : "Dérivation porto-cave par voie transjugulaire (TIPS)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "381"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -10810,14 +7762,6 @@
   {
     "code" : "0382",
     "display" : "Prélèvement d'organes : coeur",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "382"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -10834,14 +7778,6 @@
   {
     "code" : "0383",
     "display" : "Prélèvement d'organes à coeur arrêté",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "383"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -10859,14 +7795,6 @@
     "code" : "0384",
     "display" : "Prélèvement d'organes à coeur battant (mort cérébrale)",
     "definition" : "Prélèvement d’organes effectué sur une personne en état de mort encéphalique, dont les fonctions cardiaques et respiratoires sont temporairement maintenues artificiellement pour préserver les organes en vue d’une transplantation.",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "384"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -10883,14 +7811,6 @@
   {
     "code" : "0385",
     "display" : "Prélèvement d'organes sur personne vivante : foie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "385"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -10907,14 +7827,6 @@
   {
     "code" : "0386",
     "display" : "Prélèvement d'organes sur personne vivante : poumon",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "386"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -10931,14 +7843,6 @@
   {
     "code" : "0387",
     "display" : "Prélèvement d'organes sur personne vivante : rein",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "387"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -10955,14 +7859,6 @@
   {
     "code" : "0388",
     "display" : "Prélèvement multi organes (PMO)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "388"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -10979,14 +7875,6 @@
   {
     "code" : "0389",
     "display" : "Préparation des médicaments radiopharmaceutiques",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "389"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -11011,14 +7899,6 @@
   {
     "code" : "0390",
     "display" : "Prise en charge de la dysfonction érectile",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "390"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -11035,14 +7915,6 @@
   {
     "code" : "0391",
     "display" : "Prise en charge de l'hémorragie digestive",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "391"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -11067,14 +7939,6 @@
   {
     "code" : "0392",
     "display" : "Pose de ballon intra-gastrique (traitement de l'obésité - bariatrique)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "392"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -11099,14 +7963,6 @@
   {
     "code" : "0393",
     "display" : "Prise en charge des toxicomanes",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "393"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -11131,14 +7987,6 @@
   {
     "code" : "0394",
     "display" : "Prise en charge des ventilés chroniques",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "394"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -11163,14 +8011,6 @@
   {
     "code" : "0395",
     "display" : "Prise en charge traumatisé grave - polytraumatisé",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "395"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -11195,14 +8035,6 @@
   {
     "code" : "0396",
     "display" : "Proctologie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "396"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -11227,14 +8059,6 @@
   {
     "code" : "0397",
     "display" : "Proctologie : traitement chirurgical",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "397"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -11259,14 +8083,6 @@
   {
     "code" : "0398",
     "display" : "Proctologie : traitement instrumental",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "398"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -11291,14 +8107,6 @@
   {
     "code" : "0399",
     "display" : "Implantation prothèse pénienne",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "399"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -11315,14 +8123,6 @@
   {
     "code" : "0400",
     "display" : "Implantation prothèse urètre",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "400"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -11339,14 +8139,6 @@
   {
     "code" : "0401",
     "display" : "Psychodynamique du travail",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "401"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -11371,14 +8163,6 @@
   {
     "code" : "0402",
     "display" : "Psychogériatrie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "402"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -11404,14 +8188,6 @@
     "code" : "0403",
     "display" : "Psychopathologie du sportif",
     "definition" : "Entretien dirigé visant a évaluer la thymie, l'état émotionnel en lien avec la pratique sportive",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "403"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -11428,14 +8204,6 @@
   {
     "code" : "0404",
     "display" : "PUVAthérapie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "404"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -11452,14 +8220,6 @@
   {
     "code" : "0405",
     "display" : "Radiochirurgie stéréotaxique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "405"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -11476,14 +8236,6 @@
   {
     "code" : "0406",
     "display" : "Radioprotection",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "406"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -11508,14 +8260,6 @@
   {
     "code" : "0407",
     "display" : "Dérivation porto-cave par voie chirurgicale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "407"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -11540,14 +8284,6 @@
   {
     "code" : "0408",
     "display" : "Réalisation des préparations pour essais cliniques",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "408"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -11572,14 +8308,6 @@
   {
     "code" : "0409",
     "display" : "Réalisation, désobstruction et ablation de fistules artério-veineuses",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "409"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -11604,14 +8332,6 @@
   {
     "code" : "0410",
     "display" : "Reconstruction artérielle des membres",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "410"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -11628,14 +8348,6 @@
   {
     "code" : "0411",
     "display" : "Recueil, traitement de gamètes issus de dons",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "411"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -11660,14 +8372,6 @@
   {
     "code" : "0412",
     "display" : "Rééducation basse vision",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "412"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -11684,14 +8388,6 @@
   {
     "code" : "0413",
     "display" : "Rééducation orthoptique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "413"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -11716,14 +8412,6 @@
   {
     "code" : "0414",
     "display" : "Réhabilitation respiratoire",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "414"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -11748,14 +8436,6 @@
   {
     "code" : "0415",
     "display" : "Ré-implantation de doigts",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "415"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -11772,14 +8452,6 @@
   {
     "code" : "0416",
     "display" : "Ré-implantation de main",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "416"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -11796,14 +8468,6 @@
   {
     "code" : "0417",
     "display" : "Ré-implantation du membre inférieur",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "417"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -11820,14 +8484,6 @@
   {
     "code" : "0418",
     "display" : "Ré-implantation du membre supérieur",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "418"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -11844,14 +8500,6 @@
   {
     "code" : "0419",
     "display" : "Ré-implantation uretère",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "419"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -11868,14 +8516,6 @@
   {
     "code" : "0420",
     "display" : "Remplacement valvulaire par voie percutanée",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "420"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -11900,14 +8540,6 @@
   {
     "code" : "0421",
     "display" : "Chirurgie des fentes et des malformations crânio-faciales et de leurs séquelles",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "421"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -11924,14 +8556,6 @@
   {
     "code" : "0422",
     "display" : "Réparation de perte de substance par lambeau libre, avec anastomoses vasculaires",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "422"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -11956,14 +8580,6 @@
   {
     "code" : "0423",
     "display" : "Revascularisation des artères rénales et-ou viscérales (chirurgie ou stent)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "423"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -11989,14 +8605,6 @@
     "code" : "0424",
     "display" : "Revascularisation des troncs supra-aortiques, artère sous-clavière, artère vertébrale",
     "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "424"
-    },
-    {
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
@@ -12028,14 +8636,6 @@
   {
     "code" : "0425",
     "display" : "Radiculographie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "425"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -12052,14 +8652,6 @@
   {
     "code" : "0426",
     "display" : "Scintigraphie au 18F-choline (suivi cancer de prostate)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "426"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -12076,14 +8668,6 @@
   {
     "code" : "0427",
     "display" : "Scintigraphie au 18F-DOPA (explorations tumeur endocrine)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "427"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -12100,14 +8684,6 @@
   {
     "code" : "0428",
     "display" : "Scintigraphie au 18F-FDG",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "428"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -12124,14 +8700,6 @@
   {
     "code" : "0429",
     "display" : "Scintigraphie rénale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "429"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -12148,14 +8716,6 @@
   {
     "code" : "0430",
     "display" : "Scintigraphie au MIBG",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "430"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -12172,14 +8732,6 @@
   {
     "code" : "0431",
     "display" : "Scintigraphie aux hématies marquées (recherche de saignement)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "431"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -12196,14 +8748,6 @@
   {
     "code" : "0432",
     "display" : "Scintigraphie de la neurotransmission dopaminergique (Dat-scan)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "432"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -12220,14 +8764,6 @@
   {
     "code" : "0433",
     "display" : "Scintigraphie de perfusion à l'ECD (bilan de démence)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "433"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -12245,14 +8781,6 @@
     "code" : "0434",
     "display" : "Scintigraphie de perfusion avec test au Captopril (bilan HTA rénovasculaire) et au Lasilix (bilan des obstacles des voies excrétrices urinaires)",
     "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "434"
-    },
-    {
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
@@ -12276,14 +8804,6 @@
   {
     "code" : "0435",
     "display" : "Scintigraphie des récepteurs à la somatostatine (Octreoscan)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "435"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -12300,14 +8820,6 @@
   {
     "code" : "0436",
     "display" : "Scintigraphie myocardique à l'effort ou pharmacologique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "436"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -12324,14 +8836,6 @@
   {
     "code" : "0437",
     "display" : "Scintigraphie SPECT-CT",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "437"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -12348,14 +8852,6 @@
   {
     "code" : "0438",
     "display" : "Scolarisation sur site",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "438"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -12380,14 +8876,6 @@
   {
     "code" : "0439",
     "display" : "Sevrage",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "439"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -12412,14 +8900,6 @@
   {
     "code" : "0440",
     "display" : "Soins odontologiques sous anesthésie générale (AG)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "440"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -12445,14 +8925,6 @@
     "code" : "0441",
     "display" : "Soins avec administration de MEOPA",
     "definition" : "Soins réalisés avec administration d'un mélange gazeux analgésique de MEOPA (Mélange Equimolaire Oxygène Protoxyde d'Azote)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "441"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -12469,14 +8941,6 @@
   {
     "code" : "0442",
     "display" : "Méthode de relaxation",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "442"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -12493,14 +8957,6 @@
   {
     "code" : "0443",
     "display" : "Spectroscopie par résonance magnétique (SRM) cérébrale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "443"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -12517,14 +8973,6 @@
   {
     "code" : "0444",
     "display" : "Sport et handicap",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "444"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -12549,14 +8997,6 @@
   {
     "code" : "0445",
     "display" : "Sportif de haut niveau",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "445"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -12581,14 +9021,6 @@
   {
     "code" : "0446",
     "display" : "Stimulation cérébrale profonde (neurostimulation invasive)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "446"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -12606,14 +9038,6 @@
     "code" : "0447",
     "display" : "Neuro Stimulation Electrique Transcutanée (TENS)",
     "definition" : "Technique non invasive de gestion de la douleur qui utilise des courants électriques de faible intensité, via des électrodes placées sur la zone douloureuse ou à proximité des nerfs associés, en stimulant les nerfs sensoriels, ce qui peut aider à bloquer ou à diminuer la perception de la douleur.",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "447"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -12630,14 +9054,6 @@
   {
     "code" : "0448",
     "display" : "Synoviorthèse isotopique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "448"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -12654,14 +9070,6 @@
   {
     "code" : "0449",
     "display" : "Tabacologie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "449"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -12686,14 +9094,6 @@
   {
     "code" : "0450",
     "display" : "Technique d'épuration extra-rénale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "450"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -12719,14 +9119,6 @@
     "code" : "0451",
     "display" : "Télécrâne",
     "definition" : "Examen radiographique (rayons X) permettant de donner une image du crâne dans sa totalité, de profil ou de face, reproductible et sans agrandissement.",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "451"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -12743,14 +9135,6 @@
   {
     "code" : "0452",
     "display" : "Test de fatigabilité local",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "452"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -12767,14 +9151,6 @@
   {
     "code" : "0453",
     "display" : "Test d'effort",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "453"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -12799,14 +9175,6 @@
   {
     "code" : "0454",
     "display" : "Test d'hyperventilation isocapnique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "454"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -12823,14 +9191,6 @@
   {
     "code" : "0455",
     "display" : "Test d'inclinaison (tilt test)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "455"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -12847,14 +9207,6 @@
   {
     "code" : "0456",
     "display" : "Test en hypoxie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "456"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -12871,14 +9223,6 @@
   {
     "code" : "0457",
     "display" : "Tests allergologiques cutanés",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "457"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -12903,14 +9247,6 @@
   {
     "code" : "0458",
     "display" : "Tests allergologiques de provocation",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "458"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -12935,14 +9271,6 @@
   {
     "code" : "0459",
     "display" : "Thrombectomie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "459"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -12959,14 +9287,6 @@
   {
     "code" : "0460",
     "display" : "Thrombolyse par voie veineuse",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "460"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -12983,14 +9303,6 @@
   {
     "code" : "0461",
     "display" : "Toxicologie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "461"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -13015,14 +9327,6 @@
   {
     "code" : "0462",
     "display" : "Toxicologie clinique des métaux lourds",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "462"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -13047,14 +9351,6 @@
   {
     "code" : "0463",
     "display" : "Traitement de la rage post exposition",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "463"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -13079,14 +9375,6 @@
   {
     "code" : "0464",
     "display" : "Traitement des infections ostéo-articulaires complexes (CRIOA, CRIOAC)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "464"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -13111,14 +9399,6 @@
   {
     "code" : "0465",
     "display" : "Lithotritie intracorporelle rénale par laser",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "465"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -13136,14 +9416,6 @@
     "code" : "0466",
     "display" : "Evaluation, traitement et suivi des Maladies Inflammatoires Chroniques de l'Intestin (MICI)",
     "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "466"
-    },
-    {
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
@@ -13168,14 +9440,6 @@
     "code" : "0467",
     "display" : "Traitement non invasif des tendinopathies par ondes de choc radiales",
     "definition" : "Administration d'ondes acoustiques transmises à travers la surface de la peau et diffusées dans les tissus humains",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "467"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -13192,14 +9456,6 @@
   {
     "code" : "0468",
     "display" : "Traitement interventionnel des syndromes caves supérieurs",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "468"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -13225,14 +9481,6 @@
     "code" : "0469",
     "display" : "Orthèse pour traitement de l'apnée du sommeil",
     "definition" : "Traitement d'apnée du sommeil grâce à un appareil dentaire ou une orthèse d'avancée mandibulaire",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "469"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -13249,14 +9497,6 @@
   {
     "code" : "0470",
     "display" : "Transit oeso-gastro-duodénal (TOGD) pédiatrique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "470"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -13273,14 +9513,6 @@
   {
     "code" : "0471",
     "display" : "Transplantation cardiaque (greffe)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "471"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -13297,14 +9529,6 @@
   {
     "code" : "0472",
     "display" : "Transplantation cardio-pulmonaire (greffe)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "472"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -13321,14 +9545,6 @@
   {
     "code" : "0473",
     "display" : "Transplantation hépatique (greffe)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "473"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -13345,14 +9561,6 @@
   {
     "code" : "0474",
     "display" : "Transplantation intestin grêle (greffe)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "474"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -13369,14 +9577,6 @@
   {
     "code" : "0475",
     "display" : "Transplantation pancréatique (greffe)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "475"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -13393,14 +9593,6 @@
   {
     "code" : "0476",
     "display" : "Transplantation pulmonaire (greffe)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "476"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -13417,14 +9609,6 @@
   {
     "code" : "0477",
     "display" : "Transplantation rénale et pancréatique (greffe)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "477"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -13441,14 +9625,6 @@
   {
     "code" : "0478",
     "display" : "Transplantation rénale (greffe)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "478"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -13465,14 +9641,6 @@
   {
     "code" : "0479",
     "display" : "Traumatologie maxillo-faciale et bucco-dentaire",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "479"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -13497,14 +9665,6 @@
   {
     "code" : "0480",
     "display" : "Troubles de l'hémostase et de la coagulation constitutionnels et acquis",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "480"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -13529,14 +9689,6 @@
   {
     "code" : "0481",
     "display" : "Bilan des troubles des apprentissages (troubles dys)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "481"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -13553,14 +9705,6 @@
   {
     "code" : "0482",
     "display" : "Prise en charge des troubles du comportement alimentaire (TCA)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "482"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -13577,14 +9721,6 @@
   {
     "code" : "0483",
     "display" : "Evaluation des troubles du sommeil (polysomnographie)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "483"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -13601,14 +9737,6 @@
   {
     "code" : "0484",
     "display" : "Tumeur base du crâne (techniques classiques et endoscopie)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "484"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -13633,14 +9761,6 @@
   {
     "code" : "0485",
     "display" : "Unité centralisée de préparation des médicaments cytotoxiques",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "485"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -13665,14 +9785,6 @@
   {
     "code" : "0486",
     "display" : "Unité d'Accueil de Jeunes Victimes (UAJV)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "486"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -13697,14 +9809,6 @@
   {
     "code" : "0487",
     "display" : "Urgences céphalées",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "487"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -13729,14 +9833,6 @@
   {
     "code" : "0488",
     "display" : "Urgences dermatologiques",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "488"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -13761,14 +9857,6 @@
   {
     "code" : "0489",
     "display" : "Urgences endocrinologiques",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "489"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -13793,14 +9881,6 @@
   {
     "code" : "0490",
     "display" : "Urgences gériatriques",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "490"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -13825,14 +9905,6 @@
   {
     "code" : "0491",
     "display" : "Urgences hématologiques",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "491"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -13857,14 +9929,6 @@
   {
     "code" : "0492",
     "display" : "Urgences main",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "492"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -13889,14 +9953,6 @@
   {
     "code" : "0493",
     "display" : "Urgences maxillo-faciales et stomatologiques",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "493"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -13921,14 +9977,6 @@
   {
     "code" : "0494",
     "display" : "Urgences odontologiques (dentaires)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "494"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -13953,14 +10001,6 @@
   {
     "code" : "0495",
     "display" : "Urgences ophtalmologiques",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "495"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -13985,14 +10025,6 @@
   {
     "code" : "0496",
     "display" : "Urgences Oto-rhino-laryngologie en urgence (ORL)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "496"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -14017,14 +10049,6 @@
   {
     "code" : "0497",
     "display" : "Urgences psychiatriques",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "497"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -14049,14 +10073,6 @@
   {
     "code" : "0498",
     "display" : "Vaccination : encéphalite japonaise",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "498"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -14081,14 +10097,6 @@
   {
     "code" : "0499",
     "display" : "Vaccination : fièvre jaune",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "499"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -14114,14 +10122,6 @@
     "code" : "0500",
     "display" : "Vaccination antirabique (rage) post-exposition",
     "definition" : "Vaccination réalisée sur prescription médicale après une morsure ou griffure par un animal à risque ; elle associe un protocole vaccinal (intradermique ou intramusculaire selon les recommandations de la HAS) et, en cas d’exposition grave, l’administration d’immunoglobulines antirabiques pour prévenir l’apparition de la maladie.",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "500"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -14139,14 +10139,6 @@
     "code" : "0501",
     "display" : "Vaccinations des voyageurs",
     "definition" : "Proposition d'une information médicale aux voyageurs sur les mesures individuelles de protection contre les maladies infectieuses et les maladies non-transmissibles, et/ou la vaccination sur site et la prescription d'antipaludéens, de répulsifs ou d'autres médicaments.",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "501"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -14163,14 +10155,6 @@
   {
     "code" : "0502",
     "display" : "Ventilation en poumons séparés",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "502"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -14195,14 +10179,6 @@
   {
     "code" : "0503",
     "display" : "Ventilation par oscillations à haute fréquence (HFO)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "503"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -14219,14 +10195,6 @@
   {
     "code" : "0504",
     "display" : "Ventilation percussive à haute fréquence (HFPV)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "504"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -14243,14 +10211,6 @@
   {
     "code" : "0505",
     "display" : "Vertébroplastie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "505"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -14267,14 +10227,6 @@
   {
     "code" : "0506",
     "display" : "Vertébroplastie - cimentoplastie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "506"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
@@ -14299,14 +10251,6 @@
   {
     "code" : "0507",
     "display" : "Acupuncture",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "507"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-05-18T00:00:00+01:00"
@@ -14323,14 +10267,6 @@
   {
     "code" : "0508",
     "display" : "Chirurgie esthétique maxillo-faciale et stomatologique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "508"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-05-18T00:00:00+01:00"
@@ -14355,14 +10291,6 @@
   {
     "code" : "0509",
     "display" : "Chirurgie plastique, reconstructrice et esthétique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "509"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-05-18T00:00:00+01:00"
@@ -14387,14 +10315,6 @@
   {
     "code" : "0510",
     "display" : "Dialyse péritonéale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "510"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-05-18T00:00:00+01:00"
@@ -14419,14 +10339,6 @@
   {
     "code" : "0511",
     "display" : "Hypnose",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "511"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-05-18T00:00:00+01:00"
@@ -14451,14 +10363,6 @@
   {
     "code" : "0512",
     "display" : "Lipoaspiration",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "512"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-05-18T00:00:00+01:00"
@@ -14475,14 +10379,6 @@
   {
     "code" : "0513",
     "display" : "Manométrie oesophagienne",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "513"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-05-18T00:00:00+01:00"
@@ -14499,14 +10395,6 @@
   {
     "code" : "0514",
     "display" : "Phlébectomie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "514"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-05-18T00:00:00+01:00"
@@ -14531,14 +10419,6 @@
   {
     "code" : "0515",
     "display" : "Ponction et biopsie d'un os et d'une articulation de membre",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "515"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-05-18T00:00:00+01:00"
@@ -14555,14 +10435,6 @@
   {
     "code" : "0516",
     "display" : "Pontage coronarien",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "516"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-05-18T00:00:00+01:00"
@@ -14579,14 +10451,6 @@
   {
     "code" : "0517",
     "display" : "Scintigraphie parathyroïdienne",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "517"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-05-18T00:00:00+01:00"
@@ -14603,14 +10467,6 @@
   {
     "code" : "0518",
     "display" : "Sialographie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "518"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-05-18T00:00:00+01:00"
@@ -14627,14 +10483,6 @@
   {
     "code" : "0519",
     "display" : "Thoracoscopie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "519"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-05-18T00:00:00+01:00"
@@ -14651,14 +10499,6 @@
   {
     "code" : "0520",
     "display" : "Hypertension artérielle (HTA)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "520"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-06-03T00:00:00+01:00"
@@ -14683,14 +10523,6 @@
   {
     "code" : "0521",
     "display" : "Infections sexuellement transmissibles (IST)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "521"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-06-03T00:00:00+01:00"
@@ -14715,14 +10547,6 @@
   {
     "code" : "0522",
     "display" : "Prise en charge de la tuberculose",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "522"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-06-03T00:00:00+01:00"
@@ -14748,14 +10572,6 @@
     "code" : "0523",
     "display" : "Sevrage à faible risque de complication médicale (sevrage simple)",
     "definition" : "Prise en charge de troubles somatiques simples dont souffrent les patients en état de dépendance physique lors de l'arrêt de leur substance habituelle",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "523"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
@@ -14772,14 +10588,6 @@
   {
     "code" : "0524",
     "display" : "Sevrage à fort risque de complication médicale (sevrage complexe)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "524"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-09-01T00:00:00+01:00"
@@ -14796,14 +10604,6 @@
   {
     "code" : "0525",
     "display" : "Saignée thérapeutique (phlébotomie)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "525"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-11-02T00:00:00+01:00"
@@ -14820,14 +10620,6 @@
   {
     "code" : "0526",
     "display" : "Suivi et soins d'un état végétatif chronique ou d'un état pauci relationnel",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "526"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-11-02T00:00:00+01:00"
@@ -14844,14 +10636,6 @@
   {
     "code" : "0527",
     "display" : "Soins et traitement à domicile (hors HAD)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "527"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-11-02T00:00:00+01:00"
@@ -14868,14 +10652,6 @@
   {
     "code" : "0528",
     "display" : "Education thérapeutique du patient (ETP) labellisée",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "528"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-11-02T00:00:00+01:00"
@@ -14892,14 +10668,6 @@
   {
     "code" : "0529",
     "display" : "Pose d'anneau gastrique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "529"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-11-02T00:00:00+01:00"
@@ -14916,14 +10684,6 @@
   {
     "code" : "0530",
     "display" : "Gastroplastie verticale calibrée (sleeve gastrectomie)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "530"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-11-02T00:00:00+01:00"
@@ -14941,14 +10701,6 @@
     "code" : "0531",
     "display" : "Dérivation biliopancréatique pour prise en charge de l'obésité",
     "definition" : "Intervention réservée aux patients présentant des obésités très sévères (IMC > 60) faite généralement en deux temps qui consiste à associer une sleeve gastrectomy et une dérivation digestive (=\"Duodenal Switch\")",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "531"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-11-02T00:00:00+01:00"
@@ -14965,14 +10717,6 @@
   {
     "code" : "0532",
     "display" : "Sleeve gastrectomie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "532"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-11-02T00:00:00+01:00"
@@ -14997,14 +10741,6 @@
   {
     "code" : "0533",
     "display" : "Bypass gastrique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "533"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-11-02T00:00:00+01:00"
@@ -15021,14 +10757,6 @@
   {
     "code" : "0534",
     "display" : "Chirurgie plastique, esthétique de reconstruction (abdominoplastie)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "534"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-11-02T00:00:00+01:00"
@@ -15053,14 +10781,6 @@
   {
     "code" : "0535",
     "display" : "Prise en charge de l'obésité modérée",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "535"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-11-02T00:00:00+01:00"
@@ -15085,14 +10805,6 @@
   {
     "code" : "0536",
     "display" : "Prise en charge de l'obésité sévère",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "536"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-11-02T00:00:00+01:00"
@@ -15109,14 +10821,6 @@
   {
     "code" : "0537",
     "display" : "Prise en charge de l'obésité morbide",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "537"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-11-02T00:00:00+01:00"
@@ -15134,14 +10838,6 @@
     "code" : "0538",
     "display" : "Thérapie de groupe ou atelier à médiation orale et-ou écrite (groupe de parole, d'écriture)",
     "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "538"
-    },
-    {
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
@@ -15165,14 +10861,6 @@
   {
     "code" : "0539",
     "display" : "Thérapie de groupe ou atelier à médiation artistique plastique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "539"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-11-02T00:00:00+01:00"
@@ -15189,14 +10877,6 @@
   {
     "code" : "0540",
     "display" : "Thérapie de groupe ou atelier à médiation sensorielle",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "540"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-11-02T00:00:00+01:00"
@@ -15213,14 +10893,6 @@
   {
     "code" : "0541",
     "display" : "Thérapie de groupe ou atelier à médiation corporelle",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "541"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-11-02T00:00:00+01:00"
@@ -15237,14 +10909,6 @@
   {
     "code" : "0542",
     "display" : "Thérapie de groupe ou atelier à médiation technique (jardinage, etc)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "542"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-11-02T00:00:00+01:00"
@@ -15262,14 +10926,6 @@
     "code" : "0543",
     "display" : "Thérapie de groupe ou atelier à médiation animale",
     "definition" : "Consiste à utiliser la présence d'animaux dans un cadre thérapeutique pour favoriser le bien-être et la santé des participants. Cette pratique, encadrée par des professionnels formés, vise à améliorer les interactions sociales, réduire le stress, et stimuler les capacités cognitives et émotionnelles des personnes",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "543"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-11-02T00:00:00+01:00"
@@ -15286,14 +10942,6 @@
   {
     "code" : "0544",
     "display" : "Thérapie de groupe ou atelier à médiation artistique musicale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "544"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-11-02T00:00:00+01:00"
@@ -15310,14 +10958,6 @@
   {
     "code" : "0545",
     "display" : "Bilan d'évaluation du comportement alimentaire",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "545"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-11-02T00:00:00+01:00"
@@ -15335,14 +10975,6 @@
     "code" : "0546",
     "display" : "Prise en charge des troubles des conduites alimentaires (TCA) (anorexie, boulimie)",
     "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "546"
-    },
-    {
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
@@ -15374,14 +11006,6 @@
   {
     "code" : "0547",
     "display" : "Protonthérapie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "547"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-12-22T12:00:00+01:00"
@@ -15398,14 +11022,6 @@
   {
     "code" : "0548",
     "display" : "Tomographie d'émission monophonique (TEMP)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "548"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-12-22T12:00:00+01:00"
@@ -15422,14 +11038,6 @@
   {
     "code" : "0549",
     "display" : "Tomographie par émission de positons",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "549"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-12-22T12:00:00+01:00"
@@ -15446,14 +11054,6 @@
   {
     "code" : "0550",
     "display" : "Chirurgie excision-greffe cutanée",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "550"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-03-22T12:00:00+01:00"
@@ -15470,14 +11070,6 @@
   {
     "code" : "0551",
     "display" : "Evaluation et traitement des brûlures thermiques et électriques",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "551"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-03-22T12:00:00+01:00"
@@ -15494,14 +11086,6 @@
   {
     "code" : "0552",
     "display" : "Evaluation et traitement des brûlures chimiques",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "552"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-03-22T12:00:00+01:00"
@@ -15518,14 +11102,6 @@
   {
     "code" : "0553",
     "display" : "Evaluation et traitement des brûlures radiques (irradiation)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "553"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-03-22T12:00:00+01:00"
@@ -15542,14 +11118,6 @@
   {
     "code" : "0554",
     "display" : "Evaluation et traitement des brûlures associées à des toxidermies sévères",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "554"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-03-22T12:00:00+01:00"
@@ -15567,14 +11135,6 @@
     "code" : "0555",
     "display" : "Evaluation et traitement des brûlures associées à d'autres pathologies dermatologiques",
     "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "555"
-    },
-    {
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
@@ -15598,14 +11158,6 @@
   {
     "code" : "0556",
     "display" : "Prise en charge des séquelles fonctionnelles de brûlures",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "556"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-03-22T12:00:00+01:00"
@@ -15630,14 +11182,6 @@
   {
     "code" : "0557",
     "display" : "Prise en charge des séquelles esthétiques de brûlures",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "557"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-03-22T12:00:00+01:00"
@@ -15662,14 +11206,6 @@
   {
     "code" : "0558",
     "display" : "Suivi et rééducation des séquelles de brûlures chimiques",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "558"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-03-22T12:00:00+01:00"
@@ -15695,14 +11231,6 @@
     "code" : "0559",
     "display" : "Fibroscopie broncho-pulmonaire",
     "definition" : "Examen d'exploration des bronches et des poumons par un appareil flexible",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "559"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-03-22T12:00:00+01:00"
@@ -15719,14 +11247,6 @@
   {
     "code" : "0560",
     "display" : "Traitement des plaies par pression négative (VAC)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "560"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-03-22T12:00:00+01:00"
@@ -15744,14 +11264,6 @@
     "code" : "0561",
     "display" : "Confection et ajustement d'orthèses, de prothèses, de vêtements compressifs sur mesure",
     "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "561"
-    },
-    {
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
@@ -15789,14 +11301,6 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "562"
-    },
-    {
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
       "value" : "Soin des plaies chroniques et pansements complexes sous anesthésie générale"
     }],
     "property" : [{
@@ -15815,14 +11319,6 @@
   {
     "code" : "0563",
     "display" : "Evaluation expert brûlés",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "563"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-03-22T12:00:00+01:00"
@@ -15839,14 +11335,6 @@
   {
     "code" : "0564",
     "display" : "Prise en charge du prurit séquellaire des brûlures",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "564"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-03-22T12:00:00+01:00"
@@ -15871,14 +11359,6 @@
   {
     "code" : "0565",
     "display" : "Aide à l'appropriation/réappropriation de l'image corporelle (image de soi)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "565"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-03-22T12:00:00+01:00"
@@ -15896,14 +11376,6 @@
     "code" : "0566",
     "display" : "Réunion de concertation pluridisciplinaire Appareil Digestif",
     "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "566"
-    },
-    {
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
@@ -15941,14 +11413,6 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "567"
-    },
-    {
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
       "value" : "RCP App. Respi. Autres Thorax"
     }],
     "property" : [{
@@ -15976,14 +11440,6 @@
     "code" : "0568",
     "display" : "Réunion de concertation pluridisciplinaire Glandes Endocrines",
     "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "568"
-    },
-    {
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
@@ -16021,14 +11477,6 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "569"
-    },
-    {
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
       "value" : "RCP Hématologie"
     }],
     "property" : [{
@@ -16056,14 +11504,6 @@
     "code" : "0570",
     "display" : "Réunion de concertation pluridisciplinaire Oeil",
     "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "570"
-    },
-    {
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
@@ -16101,14 +11541,6 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "571"
-    },
-    {
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
       "value" : "RCP Org. génitaux féminins"
     }],
     "property" : [{
@@ -16136,14 +11568,6 @@
     "code" : "0572",
     "display" : "Réunion de concertation pluridisciplinaire Organes génitaux masculins",
     "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "572"
-    },
-    {
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
@@ -16181,14 +11605,6 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "573"
-    },
-    {
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
       "value" : "RCP Os"
     }],
     "property" : [{
@@ -16216,14 +11632,6 @@
     "code" : "0574",
     "display" : "Réunion de concertation pluridisciplinaire Peau",
     "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "574"
-    },
-    {
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
@@ -16261,14 +11669,6 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "575"
-    },
-    {
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
       "value" : "RCP Sein"
     }],
     "property" : [{
@@ -16296,14 +11696,6 @@
     "code" : "0576",
     "display" : "Réunion de concertation pluridisciplinaire Système Nerveux",
     "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "576"
-    },
-    {
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
@@ -16341,14 +11733,6 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "577"
-    },
-    {
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
       "value" : "RCP Tissus mous NCA"
     }],
     "property" : [{
@@ -16376,14 +11760,6 @@
     "code" : "0578",
     "display" : "Réunion de concertation pluridisciplinaire Voies Aéro-Digestives Supérieures (VADS)",
     "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "578"
-    },
-    {
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
@@ -16421,14 +11797,6 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "579"
-    },
-    {
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
       "value" : "RCP Voies urinaires"
     }],
     "property" : [{
@@ -16456,14 +11824,6 @@
     "code" : "0580",
     "display" : "Réunion de concertation pluridisciplinaire Cancers rares",
     "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "580"
-    },
-    {
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
@@ -16501,14 +11861,6 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "581"
-    },
-    {
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
       "value" : "RCP Douleur"
     }],
     "property" : [{
@@ -16536,14 +11888,6 @@
     "code" : "0582",
     "display" : "Réunion de concertation pluridisciplinaire Métastase osseuse",
     "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "582"
-    },
-    {
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
@@ -16581,14 +11925,6 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "583"
-    },
-    {
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
       "value" : "RCP Oncogénétique"
     }],
     "property" : [{
@@ -16616,14 +11952,6 @@
     "code" : "0584",
     "display" : "Réunion de concertation pluridisciplinaire Oncogériatrie",
     "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "584"
-    },
-    {
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
@@ -16661,14 +11989,6 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "585"
-    },
-    {
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
       "value" : "RCP Oncologie médicale"
     }],
     "property" : [{
@@ -16696,14 +12016,6 @@
     "code" : "0586",
     "display" : "Réunion de concertation pluridisciplinaire Préservation de la fertilité",
     "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "586"
-    },
-    {
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
@@ -16741,14 +12053,6 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "587"
-    },
-    {
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
       "value" : "RCP Radio interventionnelle"
     }],
     "property" : [{
@@ -16776,14 +12080,6 @@
     "code" : "0588",
     "display" : "Réunion de concertation pluridisciplinaire Soins de support général",
     "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "588"
-    },
-    {
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
@@ -16821,14 +12117,6 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "589"
-    },
-    {
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
       "value" : "RCP Soins palliatifs"
     }],
     "property" : [{
@@ -16855,14 +12143,6 @@
   {
     "code" : "0590",
     "display" : "Examen d'aptitude médicale des pilotes",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "590"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -16879,14 +12159,6 @@
   {
     "code" : "0591",
     "display" : "Spectroscopie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "591"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -16911,14 +12183,6 @@
   {
     "code" : "0592",
     "display" : "Tractographie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "592"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -16935,14 +12199,6 @@
   {
     "code" : "0593",
     "display" : "Réalisation de fistules artério-veineuses",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "593"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -16959,14 +12215,6 @@
   {
     "code" : "0594",
     "display" : "Désobstruction de fistules artério-veineuses",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "594"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -16983,14 +12231,6 @@
   {
     "code" : "0595",
     "display" : "Ablation de fistules artério-veineuses",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "595"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -17007,14 +12247,6 @@
   {
     "code" : "0596",
     "display" : "Suivi des troubles des apprentissages (troubles dys)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "596"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -17031,14 +12263,6 @@
   {
     "code" : "0597",
     "display" : "Angioplastie des artères coronaires",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "597"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -17056,14 +12280,6 @@
     "code" : "0598",
     "display" : "Angioplastie des troncs artériels supra-aortiques (TSAo) et Carotides",
     "definition" : "Acte médico-chirurgical qui a pour but de rétablir la circulation artérielle en dilatant la sténose artérielle à l'aide d'un ballonnet gonflable, avec ou sans pose d'une prothèse endo-artérielle (stent ou endoprothèse).",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "598"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -17080,14 +12296,6 @@
   {
     "code" : "0599",
     "display" : "Pontage des artères thoraco-abdomino-pelviennes",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "599"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -17104,14 +12312,6 @@
   {
     "code" : "0600",
     "display" : "Pontage des troncs supra aortiques",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "600"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -17128,14 +12328,6 @@
   {
     "code" : "0601",
     "display" : "Analgésie par hypnose",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "601"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -17152,14 +12344,6 @@
   {
     "code" : "0602",
     "display" : "Sédation par hypnose",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "602"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -17176,14 +12360,6 @@
   {
     "code" : "0603",
     "display" : "Chirurgie orthopédique du sportif professionnel",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "603"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -17200,14 +12376,6 @@
   {
     "code" : "0604",
     "display" : "Suivi antirabique (rage)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "604"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -17224,14 +12392,6 @@
   {
     "code" : "0605",
     "display" : "Thérapie individuelle analytique (psychanalyse) et psychodynamique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "605"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -17248,14 +12408,6 @@
   {
     "code" : "0606",
     "display" : "Thérapie individuelle psychosomatique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "606"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -17280,14 +12432,6 @@
   {
     "code" : "0607",
     "display" : "Thérapie individuelle par relaxation",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "607"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -17304,14 +12448,6 @@
   {
     "code" : "0608",
     "display" : "Thérapie individuelle par hypnose",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "608"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -17328,14 +12464,6 @@
   {
     "code" : "0609",
     "display" : "Thérapie par EMDR (Eyes Movement Desensitization and Reprocessing)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "609"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -17352,14 +12480,6 @@
   {
     "code" : "0610",
     "display" : "Thérapie individuelle cognitivo-comportementale (TCC)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "610"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -17376,14 +12496,6 @@
   {
     "code" : "0611",
     "display" : "Thérapie de groupe analytique (psychanalyse) et psychodynamique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "611"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -17400,14 +12512,6 @@
   {
     "code" : "0612",
     "display" : "Thérapie de groupe systémique (familiale, couple)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "612"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -17424,14 +12528,6 @@
   {
     "code" : "0613",
     "display" : "Thérapie de groupe psychosomatique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "613"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -17456,14 +12552,6 @@
   {
     "code" : "0614",
     "display" : "Thérapie de groupe par relaxation",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "614"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -17480,14 +12568,6 @@
   {
     "code" : "0615",
     "display" : "Thérapie de groupe par hypnose",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "615"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -17504,14 +12584,6 @@
   {
     "code" : "0616",
     "display" : "Thérapie de groupe cognitivo-comportementale (TCC)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "616"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -17529,14 +12601,6 @@
     "code" : "0617",
     "display" : "Thérapie de groupe ou atelier à médiation sportive",
     "definition" : "Psychothérapie collective durant laquelle un ou plusieurs thérapeutes via le sport, traitent plusieurs patients ensemble, réunis en groupe.",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "617"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -17553,14 +12617,6 @@
   {
     "code" : "0618",
     "display" : "Thérapie de groupe ou atelier médié",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "618"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -17585,14 +12641,6 @@
   {
     "code" : "0619",
     "display" : "Psychothérapie institutionnelle",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "619"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -17609,14 +12657,6 @@
   {
     "code" : "0620",
     "display" : "Art thérapie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "620"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -17633,14 +12673,6 @@
   {
     "code" : "0621",
     "display" : "Remédiation cognitive",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "621"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -17657,14 +12689,6 @@
   {
     "code" : "0622",
     "display" : "Stimulation Magnétique Transcranienne Répétitive (RTMS)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "622"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -17681,14 +12705,6 @@
   {
     "code" : "0623",
     "display" : "Balnéothérapie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "623"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -17713,14 +12729,6 @@
   {
     "code" : "0624",
     "display" : "Bilan psychologique clinique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "624"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -17737,14 +12745,6 @@
   {
     "code" : "0625",
     "display" : "Bilan ergothérapeutique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "625"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -17762,14 +12762,6 @@
     "code" : "0626",
     "display" : "Bilan neuro-psychologique",
     "definition" : "Bilan composé de tests, échelles et questionnaires normalisés qui permettent de déterminer le retentissement cognitivo-comportemental d'une pathologie connue, de contribuer au diagnostic, de documenter une plainte, d'établir un projet de soin individualisé, d'établir une ligne de base, de contribuer à une expertise médico-légale ou à un projet de recherche.",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "626"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -17786,14 +12778,6 @@
   {
     "code" : "0627",
     "display" : "Aide aux aidants (atelier pro-famille)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "627"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -17811,14 +12795,6 @@
     "code" : "0628",
     "display" : "Education thérapeutique du patient non labellisée ou psychoéducation",
     "definition" : "Processus d'apprentissage par lequel une personne acquiert des compétences pour gérer la maladie. Cet AS ne comprend pas les ETP n'ayant pas été labellisés par une ARS.",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "628"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -17835,14 +12811,6 @@
   {
     "code" : "0629",
     "display" : "Détection et intervention précoce pour la psychose",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "629"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -17859,14 +12827,6 @@
   {
     "code" : "0630",
     "display" : "Echographie transthoracique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "630"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -17883,14 +12843,6 @@
   {
     "code" : "0631",
     "display" : "FAST échographie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "631"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -17907,14 +12859,6 @@
   {
     "code" : "0632",
     "display" : "Annuloplastie percutanée",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "632"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -17932,14 +12876,6 @@
     "code" : "0633",
     "display" : "Remplacement valvulaire aortique percutané (TAVI) (pose de bioprothèses valvulaires aortiques percutanée ou transapicale)",
     "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "633"
-    },
-    {
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
@@ -17963,14 +12899,6 @@
   {
     "code" : "0634",
     "display" : "Remplacement valvulaire mitral percutané",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "634"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -17995,14 +12923,6 @@
   {
     "code" : "0635",
     "display" : "Remplacement valvulaire pulmonaire percutané",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "635"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -18027,14 +12947,6 @@
   {
     "code" : "0636",
     "display" : "Réparation valvulaire percutanée par clip",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "636"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -18051,14 +12963,6 @@
   {
     "code" : "0637",
     "display" : "Décompression médullaire",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "637"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -18076,14 +12980,6 @@
     "code" : "0638",
     "display" : "Echo-endoscopie des voies biliaires et du pancréas : écho-endoscopie biliaire (spy glass)",
     "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "638"
-    },
-    {
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
@@ -18107,14 +13003,6 @@
   {
     "code" : "0639",
     "display" : "Endoscopie digestive haute (Fibroscopie oeso-gastro-duodénale (FOGD))",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "639"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -18131,14 +13019,6 @@
   {
     "code" : "0640",
     "display" : "Endoscopie digestive haute en urgence (fibroscopie oeso-gastro-duodénale (FOGD))",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "640"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -18155,14 +13035,6 @@
   {
     "code" : "0641",
     "display" : "Evaluation initiale après Accident avec Exposition au sang (AES)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "641"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -18179,14 +13051,6 @@
   {
     "code" : "0642",
     "display" : "Suivi post Accident avec Exposition au Sang (AES)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "642"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -18203,14 +13067,6 @@
   {
     "code" : "0643",
     "display" : "Insémination intra Utérine avec sperme de Donneur (IIU-D)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "643"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -18227,14 +13083,6 @@
   {
     "code" : "0644",
     "display" : "Scolarisation sur site, maternelle",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "644"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -18251,14 +13099,6 @@
   {
     "code" : "0645",
     "display" : "Scolarisation sur site, élémentaire",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "645"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -18275,14 +13115,6 @@
   {
     "code" : "0646",
     "display" : "Scolarisation sur site, collège",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "646"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -18299,14 +13131,6 @@
   {
     "code" : "0647",
     "display" : "Scolarisation sur site, lycée",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "647"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -18323,14 +13147,6 @@
   {
     "code" : "0648",
     "display" : "Scolarisation sur site, formation supérieure",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "648"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -18347,14 +13163,6 @@
   {
     "code" : "0649",
     "display" : "Injection de toxine botulique (botulinique)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "649"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -18371,14 +13179,6 @@
   {
     "code" : "0650",
     "display" : "Transfusion de produits sanguins labiles (PSL)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "650"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -18395,14 +13195,6 @@
   {
     "code" : "0651",
     "display" : "Remplissage de pompe à Baclofène",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "651"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -18419,14 +13211,6 @@
   {
     "code" : "0652",
     "display" : "Administration de chimiothérapie par voie injectable",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "652"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -18443,14 +13227,6 @@
   {
     "code" : "0653",
     "display" : "Prise de mesure, ajustement et livraison d'orthèses du membre inférieur",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "653"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -18467,14 +13243,6 @@
   {
     "code" : "0654",
     "display" : "Prise de mesure, ajustement et livraison de prothèses du membre inférieur",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "654"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -18491,14 +13259,6 @@
   {
     "code" : "0655",
     "display" : "Prise de mesure, ajustement et livraison de vêtements compressifs",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "655"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -18515,14 +13275,6 @@
   {
     "code" : "0656",
     "display" : "Prise de mesure, ajustement et livraison de conformateurs",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "656"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -18539,14 +13291,6 @@
   {
     "code" : "0657",
     "display" : "Hémodialyse sur site",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "657"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -18563,14 +13307,6 @@
   {
     "code" : "0658",
     "display" : "Ventilation invasive",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "658"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -18587,14 +13323,6 @@
   {
     "code" : "0659",
     "display" : "Ventilation non invasive",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "659"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -18620,14 +13348,6 @@
     "code" : "0660",
     "display" : "Réadaptation phoniatrique",
     "definition" : "Prise en charge des troubles de la voix, de la parole et de la déglutition permettant de prévenir ou de réduire au minimum les conséquences des traumatismes ou ces affections sur l'état physique, fonctionnel, mental et social du patient.",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "660"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -18644,14 +13364,6 @@
   {
     "code" : "0661",
     "display" : "Accompagnement au choix et à l'ajustement d'appareillages auditifs",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "661"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -18668,14 +13380,6 @@
   {
     "code" : "0662",
     "display" : "Apprentissage d'un mode de communication augmentatif alternatif",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "662"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -18700,14 +13404,6 @@
   {
     "code" : "0663",
     "display" : "Choix et adaptation d'un système de synthèse vocale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "663"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -18724,14 +13420,6 @@
   {
     "code" : "0664",
     "display" : "Fabrication de poches à façon pour la nutrition entérale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "664"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -18748,14 +13436,6 @@
   {
     "code" : "0665",
     "display" : "Nutrition entérale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "665"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -18772,14 +13452,6 @@
   {
     "code" : "0666",
     "display" : "Fabrication de poches à façon pour la nutrition parentérale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "666"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -18796,14 +13468,6 @@
   {
     "code" : "0667",
     "display" : "Apprentissage ou réapprentissage de la conduite automobile",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "667"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -18820,14 +13484,6 @@
   {
     "code" : "0668",
     "display" : "Exploration clinique complexe de la déglutition",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "668"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -18844,14 +13500,6 @@
   {
     "code" : "0669",
     "display" : "Accompagnement à la scolarisation hors site, maternelle",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "669"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -18868,14 +13516,6 @@
   {
     "code" : "0670",
     "display" : "Accompagnement à la scolarisation hors site, élémentaire",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "670"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -18892,14 +13532,6 @@
   {
     "code" : "0671",
     "display" : "Accompagnement à la scolarisation hors site, collège",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "671"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -18916,14 +13548,6 @@
   {
     "code" : "0672",
     "display" : "Accompagnement à la scolarisation hors site, lycée",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "672"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -18940,14 +13564,6 @@
   {
     "code" : "0673",
     "display" : "Accompagnement à la scolarisation hors site, formation supérieure",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "673"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -18964,14 +13580,6 @@
   {
     "code" : "0674",
     "display" : "Sédation consciente",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "674"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -18988,14 +13596,6 @@
   {
     "code" : "0675",
     "display" : "Réapprentissage de la cuisine",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "675"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -19020,14 +13620,6 @@
   {
     "code" : "0676",
     "display" : "Réadaptation équithérapique (sur site ou dans un centre partenaire)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "676"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -19044,14 +13636,6 @@
   {
     "code" : "0677",
     "display" : "Exploration vésico-sphinctérienne (bilan urodynamique)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "677"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -19076,14 +13660,6 @@
   {
     "code" : "0678",
     "display" : "Exploration ano-rectale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "678"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -19100,14 +13676,6 @@
   {
     "code" : "0679",
     "display" : "Exploration génito-sexuelle",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "679"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -19124,14 +13692,6 @@
   {
     "code" : "0680",
     "display" : "Education thérapeutique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "680"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -19156,14 +13716,6 @@
   {
     "code" : "0681",
     "display" : "Electroencéphalogramme (EEG)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "681"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -19180,14 +13732,6 @@
   {
     "code" : "0682",
     "display" : "Electromyogramme (EMG)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "682"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -19205,14 +13749,6 @@
     "code" : "0683",
     "display" : "Analyse de l'équilibre et de la posture",
     "definition" : "Etude de la position dans l'espace (équilibre, stature, aplomb, symétrie du corps, perception visuelle de l'horizontalité, stabilité,...) qui peut se pratiquer à l'aide d'appareils de mesure spécialisés.",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "683"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -19229,14 +13765,6 @@
   {
     "code" : "0684",
     "display" : "Analyse du mouvement",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "684"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
@@ -19261,14 +13789,6 @@
   {
     "code" : "0685",
     "display" : "Monitoring foetal",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "685"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -19285,14 +13805,6 @@
   {
     "code" : "0686",
     "display" : "Oxygénothérapie hyperbare",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "686"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -19309,14 +13821,6 @@
   {
     "code" : "0687",
     "display" : "Mise en place d'assistance circulatoire par l'UMAC",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "687"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -19333,14 +13837,6 @@
   {
     "code" : "0688",
     "display" : "Imagerie fonctionnelle sans précision",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "688"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -19357,14 +13853,6 @@
   {
     "code" : "0689",
     "display" : "Echo-repérage par mise en place d'un repère métallique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "689"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -19381,14 +13869,6 @@
   {
     "code" : "0690",
     "display" : "Artériographie diagnostique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "690"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -19405,14 +13885,6 @@
   {
     "code" : "0691",
     "display" : "Artériographie interventionnelle dans le territoire abdomino-pelvien",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "691"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -19429,14 +13901,6 @@
   {
     "code" : "0692",
     "display" : "Artériographie interventionnelle dans le territoire thoracique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "692"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -19454,14 +13918,6 @@
     "code" : "0693",
     "display" : "Artériographie interventionnelle dans les territoires neuro-encéphalique et rachidien",
     "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "693"
-    },
-    {
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
@@ -19485,14 +13941,6 @@
   {
     "code" : "0694",
     "display" : "Echo-doppler transfontanellaire",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "694"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -19509,14 +13957,6 @@
   {
     "code" : "0695",
     "display" : "Entéro-scanner",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "695"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -19533,14 +13973,6 @@
   {
     "code" : "0696",
     "display" : "Transit du grêle",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "696"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -19557,14 +13989,6 @@
   {
     "code" : "0697",
     "display" : "Pantomographie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "697"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -19581,14 +14005,6 @@
   {
     "code" : "0698",
     "display" : "Mammotome",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "698"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -19606,14 +14022,6 @@
     "code" : "0699",
     "display" : "Tomosynthèse mammaire",
     "definition" : "Technique d'imagerie qui, appliquée à la mammographie, permet d'obtenir une image reconstituée en trois dimensions grâce à un algorithme mathématique.",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "699"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -19630,14 +14038,6 @@
   {
     "code" : "0700",
     "display" : "Thrombolyse artérielle",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "700"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -19654,14 +14054,6 @@
   {
     "code" : "0701",
     "display" : "Coloscanner et entéroscanner",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "701"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -19678,14 +14070,6 @@
   {
     "code" : "0702",
     "display" : "Déféco-IRM",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "702"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -19702,14 +14086,6 @@
   {
     "code" : "0703",
     "display" : "Echo-doppler artériel des membres",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "703"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -19726,14 +14102,6 @@
   {
     "code" : "0704",
     "display" : "Echo-doppler des troncs supra-aortiques (vaisseaux de la tête et du cou)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "704"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -19750,14 +14118,6 @@
   {
     "code" : "0705",
     "display" : "Echo-doppler transcrânien",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "705"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -19774,14 +14134,6 @@
   {
     "code" : "0706",
     "display" : "Echo-doppler vasculaire d'effort",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "706"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -19798,14 +14150,6 @@
   {
     "code" : "0707",
     "display" : "Echo-doppler veineux des membres",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "707"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -19823,14 +14167,6 @@
     "code" : "0708",
     "display" : "Echographie de contraste vasculaire (dont endoprothèse, …)",
     "definition" : "Examen échographique standard complété par une technique de contraste (produits de contraste ultrasonographiques) endoluminal qui permet une meilleure détection de matériel thrombotique et des fuites sur les endoprothèses mises en place pour le traitement d'un anévrisme aortique. Elle permet d'éviter, chez des patients souvent âgés et dont la fonction rénale est « limite », des expositions à un agent de contraste iodé toxique pour les reins.",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "708"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -19847,14 +14183,6 @@
   {
     "code" : "0709",
     "display" : "Colo-IRM et entéro-IRM",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "709"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -19871,14 +14199,6 @@
   {
     "code" : "0710",
     "display" : "Scanner dentaire",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "710"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -19895,14 +14215,6 @@
   {
     "code" : "0711",
     "display" : "IRM cardiaque (dont stress)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "711"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -19919,14 +14231,6 @@
   {
     "code" : "0712",
     "display" : "Chirurgie du genou",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "712"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -19943,14 +14247,6 @@
   {
     "code" : "0713",
     "display" : "Chirurgie du bassin",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "713"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -19967,14 +14263,6 @@
   {
     "code" : "0714",
     "display" : "Chirurgie de l'épaule",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "714"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -19991,14 +14279,6 @@
   {
     "code" : "0715",
     "display" : "Chirurgie du coude",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "715"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -20015,14 +14295,6 @@
   {
     "code" : "0716",
     "display" : "Chirurgie prothétique par ostéointégration",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "716"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -20039,14 +14311,6 @@
   {
     "code" : "0717",
     "display" : "Suivi post-accouchement - retour précoce à domicile",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "717"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -20063,14 +14327,6 @@
   {
     "code" : "0718",
     "display" : "Examen bébé-vision",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "718"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -20088,14 +14344,6 @@
     "code" : "0719",
     "display" : "Addictologie et périnatalité",
     "definition" : "Prévention, dépistage et prise en charge par les médecins, sage-femmes, psychologues des comportements addictifs (consommation d'alcool, tabac, drogues, médicaments détournés, etc.) chez les femmes enceintes, les jeunes mères et leur entourage, afin de protéger la santé de la mère et du foetus ou du nourrisson.",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "719"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -20112,14 +14360,6 @@
   {
     "code" : "0720",
     "display" : "Scintigraphie osseuse",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "720"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -20136,14 +14376,6 @@
   {
     "code" : "0721",
     "display" : "Lavage Broncho-Alvéolaire (LBA)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "721"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -20160,14 +14392,6 @@
   {
     "code" : "0722",
     "display" : "Analyse observationnelle et tests cliniques de la marche",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "722"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -20185,14 +14409,6 @@
     "code" : "0723",
     "display" : "Accompagnement à l'insertion ou la réinsertion professionnelle",
     "definition" : "Ensemble des actions visant à soutenir les personnes en situation de handicap, de maladie ou de vulnérabilité sociale dans leur accès, maintien ou retour à l’emploi. Cet accompagnement inclut l’évaluation des compétences, l’orientation professionnelle, la formation, l’adaptation des postes de travail et la coordination avec les acteurs médico-sociaux, afin de favoriser une intégration professionnelle durable et adaptée aux capacités de la personne",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "723"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -20209,14 +14425,6 @@
   {
     "code" : "0724",
     "display" : "Soins des plaies et pansements complexes ou longs (durée supérieure à 1h)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "724"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -20233,14 +14441,6 @@
   {
     "code" : "0725",
     "display" : "Accompagnement au choix et à l'ajustement des aides techniques basse vision",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "725"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -20257,14 +14457,6 @@
   {
     "code" : "0726",
     "display" : "Apprentissage d'un mode de communication augmentatif alternatif",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "726"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -20282,14 +14474,6 @@
     "code" : "0727",
     "display" : "Apprentissage d'un mode de communication augmentatif pour personne déficiente auditive",
     "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "727"
-    },
-    {
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
@@ -20328,14 +14512,6 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "728"
-    },
-    {
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
       "value" : "Apprentissage des techniques d'aide à la mobilité pour personne déf. visuelle"
     }],
     "property" : [{
@@ -20354,14 +14530,6 @@
   {
     "code" : "0729",
     "display" : "Mesure du volume vésical par échographe portable (Bladder-scan)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "729"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -20378,14 +14546,6 @@
   {
     "code" : "0730",
     "display" : "Suivi de grossesse à risque",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "730"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -20402,14 +14562,6 @@
   {
     "code" : "0731",
     "display" : "Surveillance du nouveau-né à risque",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "731"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -20427,14 +14579,6 @@
     "code" : "0732",
     "display" : "Confection d'orthèse du membre supérieur",
     "definition" : "Moulage, fabrication, essayage et suivi du dispositif médical adapté, destiné à compenser une fonction absente ou déficitaire au niveau du membre supérieur : épaule, coude, poignet, main.",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "732"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -20451,14 +14595,6 @@
   {
     "code" : "0733",
     "display" : "Prise de mesure, ajustement et livraison d'orthèses du membre supérieur",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "733"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -20475,14 +14611,6 @@
   {
     "code" : "0734",
     "display" : "Prise de mesure, ajustement et livraison d'orthèses du rachis",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "734"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -20499,14 +14627,6 @@
   {
     "code" : "0735",
     "display" : "Prise de mesure, ajustement et livraison de prothèses du membre supérieur",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "735"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -20523,14 +14643,6 @@
   {
     "code" : "0736",
     "display" : "Nutrition parentérale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "736"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -20547,14 +14659,6 @@
   {
     "code" : "0737",
     "display" : "Vaporisation laser du col de l'utérus",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "737"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -20571,14 +14675,6 @@
   {
     "code" : "0738",
     "display" : "Bladder Scan (scanner vésical à ultrasons)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "738"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -20603,14 +14699,6 @@
   {
     "code" : "0739",
     "display" : "Audiogramme",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "739"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
@@ -20627,14 +14715,6 @@
   {
     "code" : "0740",
     "display" : "Réadaptation par réalité virtuelle",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "740"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -20651,14 +14731,6 @@
   {
     "code" : "0741",
     "display" : "Entéroscopie du grêle",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "741"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -20676,14 +14748,6 @@
     "code" : "0742",
     "display" : "Actions de prévention primaire (pour éviter la survenue d'un problème de santé)",
     "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "742"
-    },
-    {
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
@@ -20713,14 +14777,6 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "743"
-    },
-    {
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
       "value" : "Actions de prévention secondaire"
     }],
     "property" : [{
@@ -20745,14 +14801,6 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "744"
-    },
-    {
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
       "value" : "Actions de prévention tertiaire"
     }],
     "property" : [{
@@ -20771,14 +14819,6 @@
   {
     "code" : "0745",
     "display" : "Réadaptation des séquelles de brûlures",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "745"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -20803,14 +14843,6 @@
   {
     "code" : "0746",
     "display" : "Evaluation et prise en charge des séquelles de brûlures",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "746"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -20827,14 +14859,6 @@
   {
     "code" : "0747",
     "display" : "Bilan de la mastication et/ou de la déglutition",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "747"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -20859,14 +14883,6 @@
   {
     "code" : "0748",
     "display" : "Suivi diététique individualisé",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "748"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -20883,14 +14899,6 @@
   {
     "code" : "0749",
     "display" : "Education nutritionnelle",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "749"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -20907,14 +14915,6 @@
   {
     "code" : "0750",
     "display" : "Techniques d'aide à la mastication/déglutition",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "750"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -20932,14 +14932,6 @@
     "code" : "0751",
     "display" : "Evaluation et prise en charge de la douleur par une technique non invasive",
     "definition" : "Evaluation et prise en charge de la douleur ne nécessitant aucune effraction de la peau",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "751"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -20956,14 +14948,6 @@
   {
     "code" : "0752",
     "display" : "Prise en charge de la douleur réfractaire",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "752"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -20980,14 +14964,6 @@
   {
     "code" : "0753",
     "display" : "Evaluation / bilan cognitivo-comportemental",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "753"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -21004,14 +14980,6 @@
   {
     "code" : "0754",
     "display" : "Suivi bucco-dentaire avec organisation de la prise en charge",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "754"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -21028,14 +14996,6 @@
   {
     "code" : "0755",
     "display" : "Organisation de la prise en charge de la déficience visuelle associée",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "755"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -21052,14 +15012,6 @@
   {
     "code" : "0756",
     "display" : "Organisation de la prise en charge de la déficience auditive associée",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "756"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -21076,14 +15028,6 @@
   {
     "code" : "0757",
     "display" : "Soins de trachéotomie (jusqu'à 3 aspirations/24h)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "757"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -21101,14 +15045,6 @@
     "code" : "0758",
     "display" : "Oxygénothérapie",
     "definition" : "Apport d'oxygène en ventilation spontanée dans un but thérapeutique.",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "758"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -21125,14 +15061,6 @@
   {
     "code" : "0759",
     "display" : "Assistance respiratoire, trachéotomie avec dépendance ventilatoire permanente",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "759"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -21149,14 +15077,6 @@
   {
     "code" : "0760",
     "display" : "Soins permanents continus / Présence IDE de nuit",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "760"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -21173,14 +15093,6 @@
   {
     "code" : "0761",
     "display" : "Suivi et organisation de la prise en charge d'une dialyse péritonéale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "761"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -21197,14 +15109,6 @@
   {
     "code" : "0762",
     "display" : "Suivi et organisation de la prise en charge d'une hémodialyse",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "762"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -21221,14 +15125,6 @@
   {
     "code" : "0763",
     "display" : "Sondage vésical intermittent",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "763"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -21245,14 +15141,6 @@
   {
     "code" : "0764",
     "display" : "Soins de stomie d'élimination digestive",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "764"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -21269,14 +15157,6 @@
   {
     "code" : "0765",
     "display" : "Soins de stomie d'élimination urinaire",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "765"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -21293,14 +15173,6 @@
   {
     "code" : "0766",
     "display" : "Bilan psychologique clinique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "766"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -21325,14 +15197,6 @@
   {
     "code" : "0767",
     "display" : "Activités intergénérationnelles",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "767"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -21349,14 +15213,6 @@
   {
     "code" : "0768",
     "display" : "Psychothérapie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "768"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -21374,14 +15230,6 @@
     "code" : "0769",
     "display" : "Activité physique adaptée",
     "definition" : "Permettre à une personne d'adopter un mode de vie physiquement actif de manière régulière, afin de réduire les facteurs de risque et les limitations fonctionnelles liés à une affection de longue durée, une maladie chronique ou une situation de perte d'autonomie. Elle s'adresse aux patients n'ayant pas un niveau régulier d'activité physique conforme aux recommandations de l'Organisation mondiale de la santé et qui ne peuvent augmenter leur niveau d'activité physique de manière autonome, adaptée et sécurisée. Les techniques utilisées relèvent des activités physiques et sportives et se distinguent des actes de rééducation réservés aux professionnels de santé, dans le respect de leurs compétences.",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "769"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -21399,14 +15247,6 @@
     "code" : "0770",
     "display" : "Parasport en compétition",
     "definition" : "Adaptation d'une pratique permettant aux personnes en situation de handicap de réaliser un sport en compétition.",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "770"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -21423,14 +15263,6 @@
   {
     "code" : "0771",
     "display" : "Pratique de communication augmentative-alternative",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "771"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -21448,14 +15280,6 @@
     "code" : "0772",
     "display" : "Pratique de communication augmentative-alternative pour personne déficiente auditive",
     "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "772"
-    },
-    {
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
@@ -21488,14 +15312,6 @@
     "code" : "0773",
     "display" : "Accompagnement logico-mathématique",
     "definition" : "Soutien apporté aux personnes, notamment aux enfants, présentant des troubles du raisonnement logico-mathématique, tels que la dyscalculie. Cet accompagnement vise à développer les compétences nécessaires à l'apprentissage des mathématiques et à améliorer la logique générale. Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle.",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "773"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -21512,14 +15328,6 @@
   {
     "code" : "0774",
     "display" : "Atelier de stimulation cognitive dont atelier mémoire",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "774"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -21536,14 +15344,6 @@
   {
     "code" : "0775",
     "display" : "Atelier habileté sociale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "775"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -21560,14 +15360,6 @@
   {
     "code" : "0776",
     "display" : "Accompagnement aux pratiques numériques et assistance informatique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "776"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -21585,14 +15377,6 @@
     "code" : "0777",
     "display" : "Accompagnement à l'utilisation de technologies numériques au service de la compensation",
     "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "777"
-    },
-    {
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
@@ -21617,14 +15401,6 @@
     "code" : "0778",
     "display" : "Evaluation du logement",
     "definition" : "Consiste à examiner les conditions de vie d'une personne en situation de handicap ou de vulnérabilité afin de déterminer les aménagements nécessaires pour garantir sa sécurité, son autonomie et son confort. Cette évaluation est réalisée par des professionnels, et prend en compte les besoins spécifiques de la personne.",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "778"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -21642,14 +15418,6 @@
     "code" : "0779",
     "display" : "Suivi de l'adaptation du logement",
     "definition" : "Consiste à vérifier régulièrement les aménagements réalisés dans le logement d'une personne en situation de handicap ou de perte d'autonomie, afin de s'assurer qu'ils répondent toujours à ses besoins.",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "779"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -21666,14 +15434,6 @@
   {
     "code" : "0780",
     "display" : "Accompagnement à l'utilisation des équipements (dont domotique)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "780"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -21690,14 +15450,6 @@
   {
     "code" : "0781",
     "display" : "Garde itinérante de nuit",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "781"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -21714,14 +15466,6 @@
   {
     "code" : "0782",
     "display" : "Garde à domicile de nuit",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "782"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -21738,14 +15482,6 @@
   {
     "code" : "0783",
     "display" : "Accompagnement administratif",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "783"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -21762,14 +15498,6 @@
   {
     "code" : "0784",
     "display" : "Entretien du logement (ménage, petit bricolage)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "784"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -21794,14 +15522,6 @@
   {
     "code" : "0785",
     "display" : "Entretien du linge",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "785"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -21818,14 +15538,6 @@
   {
     "code" : "0786",
     "display" : "Accompagnement pour faire des achats (courses)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "786"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -21842,14 +15554,6 @@
   {
     "code" : "0787",
     "display" : "Accompagnement ou apprentissage à la préparation du repas",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "787"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -21866,14 +15570,6 @@
   {
     "code" : "0788",
     "display" : "Transport accompagné véhiculé",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "788"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -21890,14 +15586,6 @@
   {
     "code" : "0789",
     "display" : "Soins et promenade d'animaux domestiques",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "789"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -21914,14 +15602,6 @@
   {
     "code" : "0790",
     "display" : "Stage professionnel",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "790"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -21947,14 +15627,6 @@
     "code" : "0791",
     "display" : "Adaptation du poste de travail en milieu ordinaire",
     "definition" : "Aménagement et ajustement des conditions de travail d'un salarié en situation de handicap pour maintenir son emploi dans de bonnes conditions. Cela peut inclure des ajustements de la charge de travail, des horaires, des outils ou de l'environnement de travail. Cette adaptation est encadrée par le Code du travail et les recommandations du médecin du travail",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "791"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -21971,14 +15643,6 @@
   {
     "code" : "0792",
     "display" : "Activité professionnelle - Conditionnement, emballage, montage",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "792"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -21996,14 +15660,6 @@
     "code" : "0793",
     "display" : "Activité professionnelle - Activités de services (blanchisserie, nettoyage, restauration, etc.)",
     "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "793"
-    },
-    {
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
@@ -22033,14 +15689,6 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "794"
-    },
-    {
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
       "value" : "Activité professionnelle - Activités « vertes »"
     }],
     "property" : [{
@@ -22059,14 +15707,6 @@
   {
     "code" : "0795",
     "display" : "Activité professionnelle - Entretien, second oeuvre",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "795"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -22083,14 +15723,6 @@
   {
     "code" : "0796",
     "display" : "Enseignement, Formation - Horticulture et Paysage",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "796"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -22107,14 +15739,6 @@
   {
     "code" : "0797",
     "display" : "Enseignement, Formation - Bâtiment, travaux publics et Electricité",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "797"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -22131,14 +15755,6 @@
   {
     "code" : "0798",
     "display" : "Enseignement, Formation - Distribution et vente",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "798"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -22155,14 +15771,6 @@
   {
     "code" : "0799",
     "display" : "Enseignement, Formation - Services administratifs et commerciaux",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "799"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -22179,14 +15787,6 @@
   {
     "code" : "0800",
     "display" : "Enseignement, Formation - Informatique et télécommunication",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "800"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -22204,14 +15804,6 @@
     "code" : "0801",
     "display" : "Enseignement, Formation - Hôtellerie, Restauration et Tourisme (dont Charcuterie traiteur, Cuisine, Pâtisserie)",
     "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "801"
-    },
-    {
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
@@ -22235,14 +15827,6 @@
   {
     "code" : "0802",
     "display" : "Enseignement, Formation - Arts graphiques",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "802"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -22259,14 +15843,6 @@
   {
     "code" : "0803",
     "display" : "Enseignement, Formation - Mécanique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "803"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -22283,14 +15859,6 @@
   {
     "code" : "0804",
     "display" : "Enseignement, Formation - Autres industries et Artisanat",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "804"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -22307,14 +15875,6 @@
   {
     "code" : "0805",
     "display" : "Enseignement, Formation - Transport et logistique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "805"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -22331,14 +15891,6 @@
   {
     "code" : "0806",
     "display" : "Enseignement, Formation - Electronique et Automatisme",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "806"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -22355,14 +15907,6 @@
   {
     "code" : "0807",
     "display" : "Enseignement, Formation - Services aux personnes et aux collectivités",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "807"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -22379,14 +15923,6 @@
   {
     "code" : "0808",
     "display" : "Enseignement, Formation - Professions de la Santé et du Médico-social",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "808"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -22403,14 +15939,6 @@
   {
     "code" : "0809",
     "display" : "Enseignement, Formation - Chimie, biologie et biochimie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "809"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -22428,14 +15956,6 @@
     "code" : "0810",
     "display" : "Séance de préparation à la naissance et à la parentalité en groupe",
     "definition" : "Accompagnement global de la femme et du couple en favorisant leur participation active dans le projet de naissance, par une approche éducative et préventive, en développant les connaissances et les aptitudes nécessaires sur les modalités d'accouchement, les possibilités de suivi pendant la période postnatale, y compris les conditions d'un retour précoce à domicile, le recours en cas de difficultés, les soins essentiels ainsi que les pratiques parentales à l'égard de l'enfant à élever. La préparation à la naissance et à la parentalité complète le suivi médical.",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "810"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -22452,14 +15972,6 @@
   {
     "code" : "0811",
     "display" : "Accompagnement de la parentalité",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "811"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -22484,14 +15996,6 @@
   {
     "code" : "0812",
     "display" : "Médiation familiale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "812"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
@@ -22508,14 +16012,6 @@
   {
     "code" : "0813",
     "display" : "Visite de convivialité",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "813"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-05-31T12:00:00+01:00"
@@ -22532,14 +16028,6 @@
   {
     "code" : "0814",
     "display" : "Soutien et écoute à distance (par téléphone et/ou par messagerie) ",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "814"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-05-31T12:00:00+01:00"
@@ -22556,14 +16044,6 @@
   {
     "code" : "0815",
     "display" : "Acceptation d'animaux aidants ou de compagnie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "815"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-05-31T12:00:00+01:00"
@@ -22580,14 +16060,6 @@
   {
     "code" : "0816",
     "display" : "Suivi des enfants vulnérables (réseau de santé en périnatalité)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "816"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-05-31T12:00:00+01:00"
@@ -22604,14 +16076,6 @@
   {
     "code" : "0817",
     "display" : "Enseignement Langage Parlé Complété (LPC)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "817"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-05-31T12:00:00+01:00"
@@ -22628,14 +16092,6 @@
   {
     "code" : "0818",
     "display" : "Enseignement Langue des Signes Française (LSF)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "818"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-05-31T12:00:00+01:00"
@@ -22652,14 +16108,6 @@
   {
     "code" : "0819",
     "display" : "Enseignement du Braille",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "819"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-05-31T12:00:00+01:00"
@@ -22676,14 +16124,6 @@
   {
     "code" : "0820",
     "display" : "Enseignement dans un contexte de communication augmentative-alternative",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "820"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-05-31T12:00:00+01:00"
@@ -22700,14 +16140,6 @@
   {
     "code" : "0821",
     "display" : "Enseignement Langue des Signes Française (LSF) tactile",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "821"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-05-31T12:00:00+01:00"
@@ -22724,14 +16156,6 @@
   {
     "code" : "0822",
     "display" : "Groupes de soutien et d'échange",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "822"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-05-31T12:00:00+01:00"
@@ -22749,14 +16173,6 @@
     "code" : "0823",
     "display" : "Méthode de détente activo-passive",
     "definition" : "Décrit les méthodes de détente activo-passives basées sur le mouvement lent et alternant temps actif/temps repos. Les différentes techniques de détente activo-passive sont le Yoga, le Tai-Chi et le QI-Gong",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "823"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-05-31T12:00:00+01:00"
@@ -22773,14 +16189,6 @@
   {
     "code" : "0824",
     "display" : "Téléassistance",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "824"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-05-31T12:00:00+01:00"
@@ -22797,14 +16205,6 @@
   {
     "code" : "0825",
     "display" : "Prophylaxie pré-exposition par voie orale (PrEP)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "825"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-06-29T12:00:00+01:00"
@@ -22822,14 +16222,6 @@
     "code" : "0826",
     "display" : "Evaluation pluri-professionnelle post-Accident Vasculaire Cérébral (AVC)",
     "definition" : "Consiste à réaliser une évaluation globale des besoins médicaux, fonctionnels et sociaux des personnes ayant subi un AVC. Cette évaluation est effectuée par une équipe de professionnels de santé et vise à adapter la prise en charge et le suivi des patients pour prévenir les complications et favoriser la réinsertion. Elle doit être réalisée dans les six mois suivant l'accident, et au plus tard dans l'année",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "826"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-06-29T12:00:00+01:00"
@@ -22847,14 +16239,6 @@
     "code" : "0827",
     "display" : "Analyse instrumentale de la marche",
     "definition" : "Analyse simultanée des paramètres temporo-spatiaux, électromyographiques, cinématiques et cinétiques du pas, de la marche ou de la course.",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "827"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-06-29T12:00:00+01:00"
@@ -22871,14 +16255,6 @@
   {
     "code" : "0828",
     "display" : "Analyse quantifiée du mouvement",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "828"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-06-29T12:00:00+01:00"
@@ -22895,14 +16271,6 @@
   {
     "code" : "0829",
     "display" : "Prise en charge de l'apnée du sommeil",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "829"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-06-29T12:00:00+01:00"
@@ -22919,14 +16287,6 @@
   {
     "code" : "0830",
     "display" : "Exploration instrumentale de la déglutition",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "830"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-06-29T12:00:00+01:00"
@@ -22943,14 +16303,6 @@
   {
     "code" : "0831",
     "display" : "Réentraînement à l'effort avec surveillance instrumentale télémétrique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "831"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-10-26T12:00:00+01:00"
@@ -22967,14 +16319,6 @@
   {
     "code" : "0832",
     "display" : "Réentraînement à l'effort avec monitoring complet portatif",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "832"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-10-26T12:00:00+01:00"
@@ -22991,14 +16335,6 @@
   {
     "code" : "0833",
     "display" : "Réalisation et lecture d'un holter ECG",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "833"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-10-26T12:00:00+01:00"
@@ -23015,14 +16351,6 @@
   {
     "code" : "0834",
     "display" : "Accompagnement à l'utilisation des transports en commun",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "834"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-12-14T12:00:00+01:00"
@@ -23039,14 +16367,6 @@
   {
     "code" : "0835",
     "display" : "Accompagnement à la mobilité malvoyant",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "835"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-12-14T12:00:00+01:00"
@@ -23063,14 +16383,6 @@
   {
     "code" : "0836",
     "display" : "Accompagnement au choix, ajustement des aides techniques",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "836"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-12-14T12:00:00+01:00"
@@ -23087,14 +16399,6 @@
   {
     "code" : "0837",
     "display" : "Accompagnement de la fratrie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "837"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-12-14T12:00:00+01:00"
@@ -23111,14 +16415,6 @@
   {
     "code" : "0838",
     "display" : "Anatomie pathologie médico-légale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "838"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-12-14T12:00:00+01:00"
@@ -23135,14 +16431,6 @@
   {
     "code" : "0839",
     "display" : "Apprentissage ou rappel des règles de la sécurité routière",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "839"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-12-14T12:00:00+01:00"
@@ -23159,14 +16447,6 @@
   {
     "code" : "0840",
     "display" : "Auto-immunité",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "840"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-12-14T12:00:00+01:00"
@@ -23183,14 +16463,6 @@
   {
     "code" : "0841",
     "display" : "Biochimie des maladies métaboliques",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "841"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-12-14T12:00:00+01:00"
@@ -23207,14 +16479,6 @@
   {
     "code" : "0842",
     "display" : "Biologie moléculaire infectieuse",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "842"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-12-14T12:00:00+01:00"
@@ -23231,14 +16495,6 @@
   {
     "code" : "0843",
     "display" : "Dépistage de la trisomie 21 par les marqueurs sériques maternels",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "843"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-12-14T12:00:00+01:00"
@@ -23255,14 +16511,6 @@
   {
     "code" : "0844",
     "display" : "Diagnostic prénatal non invasif (DPNI)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "844"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-12-14T12:00:00+01:00"
@@ -23279,14 +16527,6 @@
   {
     "code" : "0845",
     "display" : "Exploration des aplasies médullaires",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "845"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-12-14T12:00:00+01:00"
@@ -23303,14 +16543,6 @@
   {
     "code" : "0846",
     "display" : "Foeto-pathologie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "846"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-12-14T12:00:00+01:00"
@@ -23327,14 +16559,6 @@
   {
     "code" : "0847",
     "display" : "Diagnostic intégré des leucémies et lymphomes",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "847"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-12-14T12:00:00+01:00"
@@ -23351,14 +16575,6 @@
   {
     "code" : "0848",
     "display" : "Microbiologie : parasitologie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "848"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-12-14T12:00:00+01:00"
@@ -23375,14 +16591,6 @@
   {
     "code" : "0849",
     "display" : "Coordination pour assurer le suivi cardiologique avec organisation de la prise en charge",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "849"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-12-14T12:00:00+01:00"
@@ -23399,14 +16607,6 @@
   {
     "code" : "0850",
     "display" : "Coordination pour assurer le suivi gynécologique avec organisation de la prise en charge",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "850"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-12-14T12:00:00+01:00"
@@ -23423,14 +16623,6 @@
   {
     "code" : "0851",
     "display" : "Ténotomie percutanée",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "851"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-12-14T12:00:00+01:00"
@@ -23447,14 +16639,6 @@
   {
     "code" : "0852",
     "display" : "Traitement des troubles de la mémoire",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "852"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-12-14T12:00:00+01:00"
@@ -23471,14 +16655,6 @@
   {
     "code" : "0853",
     "display" : "Typage HLA",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "853"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-12-14T12:00:00+01:00"
@@ -23495,14 +16671,6 @@
   {
     "code" : "0854",
     "display" : "Visite à domicile d'évaluation des besoins de la personne et/ou des aidants",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "854"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-12-14T12:00:00+01:00"
@@ -23519,14 +16687,6 @@
   {
     "code" : "0855",
     "display" : "Microbiologie : mycobactéries",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "855"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
@@ -23544,14 +16704,6 @@
     "code" : "0856",
     "display" : "FIV avec Injection Intra Cytoplasmique de Spermatozoïdes morphologiquement sélectionnés (IMSI) (Aide Médicale à la Procréation, AMP)",
     "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "856"
-    },
-    {
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
@@ -23575,14 +16727,6 @@
   {
     "code" : "0857",
     "display" : "Recherche de fragmentation de l'ADN des spermatozoïdes",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "857"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
@@ -23599,14 +16743,6 @@
   {
     "code" : "0858",
     "display" : "Don de spermatozoïdes",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "858"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
@@ -23623,14 +16759,6 @@
   {
     "code" : "0859",
     "display" : "Don d'ovocytes",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "859"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
@@ -23647,14 +16775,6 @@
   {
     "code" : "0860",
     "display" : "Préservation de la fertilité féminine/masculine",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "860"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
@@ -23671,14 +16791,6 @@
   {
     "code" : "0861",
     "display" : "Dépistage et suivi biologique des pathologies endocriniennes",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "861"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
@@ -23695,14 +16807,6 @@
   {
     "code" : "0862",
     "display" : "Diagnostic des pathologies plaquettaires",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "862"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
@@ -23719,14 +16823,6 @@
   {
     "code" : "0863",
     "display" : "Diagnostic des pathologies érythrocytaires",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "863"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
@@ -23743,14 +16839,6 @@
   {
     "code" : "0864",
     "display" : "Diagnostic des pathologies hémorragiques",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "864"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
@@ -23767,14 +16855,6 @@
   {
     "code" : "0865",
     "display" : "Diagnostic des pathologies thrombotiques",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "865"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
@@ -23791,14 +16871,6 @@
   {
     "code" : "0866",
     "display" : "Diagnostic de Thrombopénie à l'héparine",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "866"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
@@ -23815,14 +16887,6 @@
   {
     "code" : "0867",
     "display" : "Potentiels évoqués visuels (PEV)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "867"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
@@ -23839,14 +16903,6 @@
   {
     "code" : "0868",
     "display" : "Lithotritie des glandes salivaires",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "868"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
@@ -23863,14 +16919,6 @@
   {
     "code" : "0869",
     "display" : "Lithotritie biliaire",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "869"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
@@ -23895,14 +16943,6 @@
   {
     "code" : "0870",
     "display" : "Lithotritie extracorporelle rénale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "870"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
@@ -23927,14 +16967,6 @@
   {
     "code" : "0871",
     "display" : "Mesure de la pression des loges musculaires (syndrome des loges)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "871"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
@@ -23959,14 +16991,6 @@
   {
     "code" : "0872",
     "display" : "Pachymétrie cornéenne",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "872"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
@@ -23983,14 +17007,6 @@
   {
     "code" : "0873",
     "display" : "Potentiels évoqués auditifs (PEA) et vestibulaires",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "873"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
@@ -24007,14 +17023,6 @@
   {
     "code" : "0874",
     "display" : "Potentiels évoqués somesthésiques cérébraux (PESc)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "874"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
@@ -24031,14 +17039,6 @@
   {
     "code" : "0875",
     "display" : "Accompagnement de la personne en stage",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "875"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
@@ -24056,14 +17056,6 @@
     "code" : "0876",
     "display" : "Accueil de stagiaire en stage professionnel ou de mise en situation professionnelle",
     "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "876"
-    },
-    {
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
@@ -24087,14 +17079,6 @@
   {
     "code" : "0877",
     "display" : "Accueil de stagiaire en stage pré-professionnel",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "877"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
@@ -24111,14 +17095,6 @@
   {
     "code" : "0878",
     "display" : "Contrôle physico-chimique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "878"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
@@ -24135,14 +17111,6 @@
   {
     "code" : "0879",
     "display" : "Electro-oculographie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "879"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
@@ -24159,14 +17127,6 @@
   {
     "code" : "0880",
     "display" : "Rétinographie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "880"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
@@ -24183,14 +17143,6 @@
   {
     "code" : "0881",
     "display" : "Electro-rétinographie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "881"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
@@ -24207,14 +17159,6 @@
   {
     "code" : "0882",
     "display" : "Tomographie en cohérence optique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "882"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
@@ -24231,14 +17175,6 @@
   {
     "code" : "0883",
     "display" : "Topographie cornéenne",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "883"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
@@ -24255,14 +17191,6 @@
   {
     "code" : "0884",
     "display" : "Animation socio-culturelle",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "884"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
@@ -24279,14 +17207,6 @@
   {
     "code" : "0885",
     "display" : "Aspiration trachéale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "885"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
@@ -24303,14 +17223,6 @@
   {
     "code" : "0886",
     "display" : "Soins permanents continus par délégation / Présence aide-soignant de nuit",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "886"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
@@ -24327,14 +17239,6 @@
   {
     "code" : "0887",
     "display" : "Chirurgie sénologique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "887"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
@@ -24359,14 +17263,6 @@
   {
     "code" : "0888",
     "display" : "Fermeture percutanée de CIA/FOP (communication inter-auriculaire)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "888"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
@@ -24383,14 +17279,6 @@
   {
     "code" : "0889",
     "display" : "Fermeture percutanée d'une CIV",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "889"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
@@ -24407,14 +17295,6 @@
   {
     "code" : "0890",
     "display" : "Endoscopie urologique (fibroscopie urétro-vésicale)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "890"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
@@ -24431,14 +17311,6 @@
   {
     "code" : "0891",
     "display" : "Mesure de l'indice bispectral (BIS)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "891"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
@@ -24455,14 +17327,6 @@
   {
     "code" : "0892",
     "display" : "Réadaptation vésico-sphinctérienne",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "892"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
@@ -24479,14 +17343,6 @@
   {
     "code" : "0893",
     "display" : "Réadaptation des fonctions sexuelles et de la reproduction",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "893"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
@@ -24511,14 +17367,6 @@
   {
     "code" : "0894",
     "display" : "Réadaptation anorectale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "894"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
@@ -24535,14 +17383,6 @@
   {
     "code" : "0895",
     "display" : "Aspiration gastrique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "895"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
@@ -24559,14 +17399,6 @@
   {
     "code" : "0896",
     "display" : "Drainage bronchique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "896"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
@@ -24590,14 +17422,6 @@
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "897"
-    },
-    {
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
       "value" : "Vaccination épidémie Grippe"
     }],
     "property" : [{
@@ -24616,14 +17440,6 @@
   {
     "code" : "0898",
     "display" : "Dépistage du diabète",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "898"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
@@ -24640,14 +17456,6 @@
   {
     "code" : "0899",
     "display" : "Chirurgie de la cheville",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "899"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -24672,14 +17480,6 @@
   {
     "code" : "0900",
     "display" : "Chirurgie des tumeurs de l'appareil locomoteur",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "900"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -24704,14 +17504,6 @@
   {
     "code" : "0901",
     "display" : "Chirurgie de la hanche",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "901"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -24736,14 +17528,6 @@
   {
     "code" : "0902",
     "display" : "Echo-endoscopie digestive",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "902"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -24768,14 +17552,6 @@
   {
     "code" : "0903",
     "display" : "Echographie digestive",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "903"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -24800,14 +17576,6 @@
   {
     "code" : "0904",
     "display" : "Coloscopie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "904"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -24832,14 +17600,6 @@
   {
     "code" : "0905",
     "display" : "Ph-métrie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "905"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -24864,14 +17624,6 @@
   {
     "code" : "0906",
     "display" : "Prise en charge alimentaire des pathologies digestives",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "906"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -24896,14 +17648,6 @@
   {
     "code" : "0907",
     "display" : "Proctologie médicale et instrumentale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "907"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -24928,14 +17672,6 @@
   {
     "code" : "0908",
     "display" : "Proctologie médico-chirurgicale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "908"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -24960,14 +17696,6 @@
   {
     "code" : "0909",
     "display" : "Prévention et gestion des maladies infectieuses transmissibles",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "909"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -24984,14 +17712,6 @@
   {
     "code" : "0910",
     "display" : "Veille sanitaire et vigilance (signalement Infections Associées aux Soins IAS)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "910"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -25008,14 +17728,6 @@
   {
     "code" : "0911",
     "display" : "Prévention et intervention des Infections Associées aux Soins (IAS)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "911"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -25033,14 +17745,6 @@
     "code" : "0912",
     "display" : "Chimiothérapie intrathécale",
     "definition" : "Instillation de médicaments antimitotiques dans le liquide céplalorachidien par ponction lombaire dans un but thérapeutique d'une atteinte néoplasique du système nerveux central ou dans un but prophylactique des atteintes cérébroméningées des leucémies aigües.",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "912"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -25057,14 +17761,6 @@
   {
     "code" : "0913",
     "display" : "Soins de trachéotomie (plus de 3 aspirations/24h)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "913"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -25082,14 +17778,6 @@
     "code" : "0914",
     "display" : "Exploration fonctionnelle cardio-respiratoire au repos et à l'effort",
     "definition" : "Test d'effort quantitatif et aérobie réalisé en laboratoire sous surveillance médicale permettant d'analyser les paramètres cardio respiratoires à l'effort et de déterminer la quantité d'oxygène consommée par un sujet, lors d'un effort maximal.",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "914"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -25106,14 +17794,6 @@
   {
     "code" : "0915",
     "display" : "Choc électrique externe (cardioversion électrique)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "915"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -25130,14 +17810,6 @@
   {
     "code" : "0916",
     "display" : "Conciliation médicamenteuse",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "916"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -25154,14 +17826,6 @@
   {
     "code" : "0917",
     "display" : "Préparation centralisée des cytostatiques",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "917"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -25178,14 +17842,6 @@
   {
     "code" : "0918",
     "display" : "Fabrication de poche à façon pour la nutrition parentérale en néonatalogie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "918"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -25202,14 +17858,6 @@
   {
     "code" : "0919",
     "display" : "Séquençage du génome viral",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "919"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -25226,14 +17874,6 @@
   {
     "code" : "0920",
     "display" : "Analyse automatique du sperme (CASA)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "920"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -25250,14 +17890,6 @@
   {
     "code" : "0921",
     "display" : "Repérage des conduites addictives, soins et orientation",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "921"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -25274,14 +17906,6 @@
   {
     "code" : "0922",
     "display" : "Evaluation et suivi des addictions liées à l'alcool",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "922"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -25299,14 +17923,6 @@
     "code" : "0923",
     "display" : "Evaluation et suivi des addictions liées aux drogues",
     "definition" : "Evaluation et suivi des addictions aux drogues listées par l'Observatoire Français des Drogues et des Toxicomanies (cannabis, cocaïne, crack, ecstasy, amphétamine, hallucinogènes, héroïne, opiacés, nouveaux produits de synthèse, poppers, colles, solvants) et notamment les addictions liées à la consommation de substances psychoactives dans un contexte sexuel.",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "923"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -25323,14 +17939,6 @@
   {
     "code" : "0924",
     "display" : "Evaluation et suivi des addictions liées au tabac",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "924"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -25347,14 +17955,6 @@
   {
     "code" : "0925",
     "display" : "Evaluation et suivi des addictions liées aux jeux d'argent et/ou au hasard",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "925"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -25371,14 +17971,6 @@
   {
     "code" : "0926",
     "display" : "Evaluation et suivi des addictions liées aux écrans",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "926"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -25395,14 +17987,6 @@
   {
     "code" : "0927",
     "display" : "Evaluation et suivi des addictions liées au sexe et/ou à la pornographie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "927"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -25419,14 +18003,6 @@
   {
     "code" : "0928",
     "display" : "Evaluation et suivi des addictions liées au travail pathologique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "928"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -25444,14 +18020,6 @@
     "code" : "0929",
     "display" : "Evaluation et suivi des addictions liées au sport",
     "definition" : "Entretien dirigé visant à évaluer et suivre les addictions en lien avec la pratique sportive.",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "929"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -25468,14 +18036,6 @@
   {
     "code" : "0930",
     "display" : "Evaluation et suivi des addictions liées aux achats compulsifs",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "930"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -25492,14 +18052,6 @@
   {
     "code" : "0931",
     "display" : "Initiation de traitement de substitution aux opiacés",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "931"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -25517,14 +18069,6 @@
     "code" : "0932",
     "display" : "Test Rapide d’Orientation Diagnostique (TROD) VIH / Hépatite B / Hépatite C",
     "definition" : "Le TROD est un dispositif médical in vitro pouvant permettre le dépistage rapide en ambulatoire du VIH, de l'hépatite B et C, du diabète (évaluation de la glycémie), du COVID, de la grippe ou de l'angine. Il est destiné à être utilisé par un professionnel de santé ou par une personne formée, selon les dispositions des arrêtés fixant les conditions de réalisation des TROD et définissant les structures éligibles.",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "932"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -25541,14 +18085,6 @@
   {
     "code" : "0933",
     "display" : "Echo-doppler artériel de l'aorte",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "933"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -25574,14 +18110,6 @@
     "code" : "0934",
     "display" : "Mesure ambulatoire de la pression artérielle sur 24 heures (MAPA) (Holter tensionnel)",
     "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "934"
-    },
-    {
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
@@ -25613,14 +18141,6 @@
   {
     "code" : "0935",
     "display" : "Enregistrement polygraphique dans le cadre du SAOS (ne plus utiliser)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "935"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -25645,14 +18165,6 @@
   {
     "code" : "0936",
     "display" : "IRM de stress",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "936"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -25677,14 +18189,6 @@
   {
     "code" : "0937",
     "display" : "Scanner coronaire (ne plus utiliser)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "937"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -25709,14 +18213,6 @@
   {
     "code" : "0938",
     "display" : "Scintigraphie myocardique à l'effort ou pharmacologique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "938"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -25741,14 +18237,6 @@
   {
     "code" : "0939",
     "display" : "Choc électrique externe",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "939"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -25773,14 +18261,6 @@
   {
     "code" : "0940",
     "display" : "Artériographie des membres inférieurs",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "940"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -25806,14 +18286,6 @@
     "code" : "0941",
     "display" : "Suivi conventionnel de stimulateurs/défibrillateurs cardiaques (ne plus utiliser)",
     "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "941"
-    },
-    {
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
@@ -25845,14 +18317,6 @@
   {
     "code" : "0942",
     "display" : "Télésurveillance des prothèses rythmiques (ne plus utiliser)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "942"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -25877,14 +18341,6 @@
   {
     "code" : "0943",
     "display" : "Chirurgie carcinologique pleurale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "943"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -25909,14 +18365,6 @@
   {
     "code" : "0944",
     "display" : "Chirurgie carcinologique médiastinale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "944"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -25941,14 +18389,6 @@
   {
     "code" : "0945",
     "display" : "Chirurgie carcinologique pariétale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "945"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -25973,14 +18413,6 @@
   {
     "code" : "0946",
     "display" : "Chirurgie oesophagienne",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "946"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -26005,14 +18437,6 @@
   {
     "code" : "0947",
     "display" : "Chimiothérapie intra cavitaire hyperthermique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "947"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -26037,14 +18461,6 @@
   {
     "code" : "0948",
     "display" : "Chirurgie de la cataracte - implants toriques, multifocaux et EDOF",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "948"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -26069,14 +18485,6 @@
   {
     "code" : "0949",
     "display" : "Chirurgie réparatrices du segment antérieur",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "949"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -26101,14 +18509,6 @@
   {
     "code" : "0950",
     "display" : "Chirurgie du kératocône",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "950"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -26133,14 +18533,6 @@
   {
     "code" : "0951",
     "display" : "Chirurgie cornéennes (laser et additives)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "951"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -26165,14 +18557,6 @@
   {
     "code" : "0952",
     "display" : "Chirurgie intraoculaires (phaques et pseudophaques : presbytie)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "952"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -26197,14 +18581,6 @@
   {
     "code" : "0953",
     "display" : "Chirurgie des paupières",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "953"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -26229,14 +18605,6 @@
   {
     "code" : "0954",
     "display" : "Tomographie en cohérence optique (OCT)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "954"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -26261,14 +18629,6 @@
   {
     "code" : "0955",
     "display" : "Strabologie médicale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "955"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -26293,14 +18653,6 @@
   {
     "code" : "0956",
     "display" : "Echographie ophtalmologique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "956"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -26325,14 +18677,6 @@
   {
     "code" : "0957",
     "display" : "Réfractométrie de l'enfant",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "957"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-07-05T12:00:00+01:00"
@@ -26357,14 +18701,6 @@
   {
     "code" : "0958",
     "display" : "CAR-T Cells",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "958"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -26381,14 +18717,6 @@
   {
     "code" : "0959",
     "display" : "Radiothérapie stéréotaxique",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "959"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -26405,14 +18733,6 @@
   {
     "code" : "0960",
     "display" : "Protonthérapie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "960"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -26437,14 +18757,6 @@
   {
     "code" : "0961",
     "display" : "Neutronthérapie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "961"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -26461,14 +18773,6 @@
   {
     "code" : "0962",
     "display" : "Pose de pompe intrathécale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "962"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -26485,14 +18789,6 @@
   {
     "code" : "0963",
     "display" : "Evaluation multidimensionnelle standardisée",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "963"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -26509,14 +18805,6 @@
   {
     "code" : "0964",
     "display" : "Soins des chambres implantables",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "964"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -26533,14 +18821,6 @@
   {
     "code" : "0965",
     "display" : "Rééducation du cancer du sein",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "965"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -26557,14 +18837,6 @@
   {
     "code" : "0966",
     "display" : "Rééducation des cicatrices",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "966"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -26581,14 +18853,6 @@
   {
     "code" : "0967",
     "display" : "Réadaptation des troubles de la déglutition",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "967"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -26605,14 +18869,6 @@
   {
     "code" : "0968",
     "display" : "Rééducation de la main",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "968"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -26629,14 +18885,6 @@
   {
     "code" : "0969",
     "display" : "Réadaptation précoce suite d'AVC",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "969"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -26653,14 +18901,6 @@
   {
     "code" : "0970",
     "display" : "Prise en charge des affections respiratoires chroniques",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "970"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -26677,14 +18917,6 @@
   {
     "code" : "0971",
     "display" : "Réadaptation de l'amputé",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "971"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -26701,14 +18933,6 @@
   {
     "code" : "0972",
     "display" : "Rééducation maxillo-faciale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "972"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -26725,14 +18949,6 @@
   {
     "code" : "0973",
     "display" : "Réadaptation vestibulaire (trouble de l'équilibre)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "973"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -26749,14 +18965,6 @@
   {
     "code" : "0974",
     "display" : "Rééducation de la Mucoviscidose",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "974"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -26773,14 +18981,6 @@
   {
     "code" : "0975",
     "display" : "Traitement des lymphoedèmes",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "975"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-01-31T12:00:00+01:00"
@@ -26798,14 +18998,6 @@
     "code" : "0976",
     "display" : "Evaluation des besoins d'adaptation du véhicule",
     "definition" : "Consiste à identifier et à recommander les modifications nécessaires pour permettre à une personne en situation de handicap de conduire ou d'utiliser un véhicule en toute sécurité. Cette évaluation est réalisée par des professionnels, et prend en compte les capacités et les limitations de la personne",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "976"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-06-26T12:00:00+01:00"
@@ -26822,14 +19014,6 @@
   {
     "code" : "0977",
     "display" : "Prise en charge de la lombalgie (protocole de coopération)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "977"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-06-26T12:00:00+01:00"
@@ -26846,14 +19030,6 @@
   {
     "code" : "0978",
     "display" : "Prise en charge de l'entorse de la cheville (protocole de coopération)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "978"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-06-26T12:00:00+01:00"
@@ -26870,14 +19046,6 @@
   {
     "code" : "0979",
     "display" : "Rééducation du rachis avec éducation thérapeutique associée",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "979"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-06-26T12:00:00+01:00"
@@ -26894,14 +19062,6 @@
   {
     "code" : "0980",
     "display" : "Réadaptation du rachis",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "980"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-06-26T12:00:00+01:00"
@@ -26918,14 +19078,6 @@
   {
     "code" : "0981",
     "display" : "Sialendoscopie",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "981"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-11-27T12:00:00+01:00"
@@ -26942,14 +19094,6 @@
   {
     "code" : "0982",
     "display" : "Diversion duodénale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "982"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-11-27T12:00:00+01:00"
@@ -26966,14 +19110,6 @@
   {
     "code" : "0983",
     "display" : "Exploration de la perméabilité des voies lacrymales",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "983"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2020-11-27T12:00:00+01:00"
@@ -26990,14 +19126,6 @@
   {
     "code" : "0984",
     "display" : "Prise en charge directe SMUR",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "984"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2021-03-26T12:00:00+01:00"
@@ -27014,14 +19142,6 @@
   {
     "code" : "0985",
     "display" : "Centre de référence labellisé",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "985"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2021-03-26T12:00:00+01:00"
@@ -27038,14 +19158,6 @@
   {
     "code" : "0986",
     "display" : "Centre de compétence labellisé",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "986"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2021-03-26T12:00:00+01:00"
@@ -27062,14 +19174,6 @@
   {
     "code" : "0987",
     "display" : "Structure spécialisée labellisée",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "987"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2021-03-26T12:00:00+01:00"
@@ -27086,14 +19190,6 @@
   {
     "code" : "0988",
     "display" : "Téléconsultation",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "988"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2021-03-26T12:00:00+01:00"
@@ -27111,14 +19207,6 @@
     "code" : "0989",
     "display" : "Visite à domicile",
     "definition" : "Intervention d'un professionnel de santé au domicile d'un patient ou d'un usager pour assurer une continuité des soins et/ou de la prise en charge, de l'accompagnement",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "989"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2021-03-26T12:00:00+01:00"
@@ -27135,14 +19223,6 @@
   {
     "code" : "0990",
     "display" : "Tests allergologiques par patchs tests",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "990"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2021-03-26T12:00:00+01:00"
@@ -27159,14 +19239,6 @@
   {
     "code" : "0991",
     "display" : "Tests cutanés allergologiques aux venins avec IDR",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "991"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2021-03-26T12:00:00+01:00"
@@ -27183,14 +19255,6 @@
   {
     "code" : "0992",
     "display" : "Test de provocation par injection d'un anesthésique local à concentration fixe",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "992"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2021-03-26T12:00:00+01:00"
@@ -27207,14 +19271,6 @@
   {
     "code" : "0993",
     "display" : "Test de provocation par voie nasale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "993"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2021-03-26T12:00:00+01:00"
@@ -27231,14 +19287,6 @@
   {
     "code" : "0994",
     "display" : "Test de provocation par voie conjonctivale",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "994"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2021-03-26T12:00:00+01:00"
@@ -27255,14 +19303,6 @@
   {
     "code" : "0995",
     "display" : "Test de provocation par contact labial",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "995"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2021-03-26T12:00:00+01:00"
@@ -27279,14 +19319,6 @@
   {
     "code" : "0996",
     "display" : "Biopsie cutanée",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "996"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2021-03-26T12:00:00+01:00"
@@ -27304,14 +19336,6 @@
     "code" : "0997",
     "display" : "Tests cutanés allergologiques aux médicaments avec IDR",
     "definition" : "Permet d'identifier si une unité accepte la prise en charge directe d'un patient tranporté par le SMUR, sans passage préalable par l'accueil des urgences",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "997"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2021-03-26T12:00:00+01:00"
@@ -27330,14 +19354,6 @@
     "display" : "Tests de provocation orale à certains médicaments ou aliments, en l'absence de signe de gravité",
     "definition" : "Permet d'identifier un centre de référence en maladies rares, labellisé par le ministère de la santé",
     "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "998"
-    },
-    {
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
@@ -27362,14 +19378,6 @@
     "code" : "0999",
     "display" : "Tests de provocation orale",
     "definition" : "Permet d'identifier un centre de compétences en maladies rares, labellisé par le ministère de la santé",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "999"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2021-03-26T12:00:00+01:00"
@@ -34082,7 +26090,7 @@
   },
   {
     "code" : "1391",
-    "display" : "Prise en charge de maladies vectorielles à tique (Lyme…)",
+    "display" : "Prise en charge de ùaladies vectorielles à tique (Lyme…)",
     "definition" : "Prise en charge des maladies infectieuses transmises par tiques (vecteur) qui assurent une transmission active d'un agent infectieux (par exemple la borréliose, responsable de la maladie de Lyme).",
     "property" : [{
       "code" : "dateValid",

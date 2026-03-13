@@ -38,7 +38,7 @@
   fhir:title [ fhir:v "Jdv Tre R221 Modele Document Cda Non Structure All"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-03-13T11:22:36+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-03-13T13:52:14+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
