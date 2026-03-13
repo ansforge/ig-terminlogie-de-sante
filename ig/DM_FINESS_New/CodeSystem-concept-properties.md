@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/concept-properties | *Version*:20260223120000 | |
-| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ConceptProperties |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/concept-properties | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ConceptProperties |
 
  
 CodeSystem permettant définir les propriétés NOS utilisées dans les CodeSystem NOS 
@@ -28,23 +28,23 @@ CodeSystem permettant définir les propriétés NOS utilisées dans les CodeSyst
   "id" : "concept-properties",
   "meta" : {
     "versionId" : "1",
-    "lastUpdated" : "2026-02-23T12:00:00.000+00:00",
+    "lastUpdated" : "2026-03-30T12:00:00.000+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
-      "start" : "2026-02-23T12:00:00+01:00"
+      "start" : "2026-03-30T12:00:00+01:00"
     }
   }],
   "url" : "https://smt.esante.gouv.fr/fhir/concept-properties",
-  "version" : "20260223120000",
+  "version" : "20260330120000",
   "name" : "ConceptProperties",
   "title" : "Concept Properties",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-23T12:00:00.000+00:00",
+  "date" : "2026-03-30T12:00:00.000+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "CodeSystem permettant définir les propriétés NOS utilisées dans les CodeSystem NOS",
   "jurisdiction" : [{
@@ -54,7 +54,6 @@ CodeSystem permettant définir les propriétés NOS utilisées dans les CodeSyst
     }]
   }],
   "caseSensitive" : false,
-  "valueSet" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee?vs",
   "content" : "complete",
   "count" : 36,
   "property" : [{

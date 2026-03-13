@@ -16,7 +16,6 @@ Vous touverez ici la liste des terminologies à l'etat "retired".
 | [TRE_R281_DisciplineEnseignement](CodeSystem-TRE-R281-DisciplineEnseignement.md) | Disciplines pour l'enseignement |
 | [TRE_R301_SourceInformationInstallation](CodeSystem-TRE-R301-SourceInformationInstallation.md) | Sources d'information possible concernant l'installation de l'activité sociale |
 | [TRE_R66_CategorieEtablissement](CodeSystem-TRE-R66-CategorieEtablissement.md) | Catégorie d'établissements |
-| [TRE_R75_InseeNAFrev2Niveau5](CodeSystem-TRE-R75-InseeNAFrev2Niveau5.md) | Sous-classes de la Nomenclature d'Activités Française - INSEE |
 | [TRE_R214_SpecialiteUnite](CodeSystem-TRE-R214-SpecialiteUnite.md) | Spécialité d'unité |
 | [TRE_R215_UniteTemps](CodeSystem-TRE-R215-UniteTemps.md) | Unité de temps |
 | [TRE_R221_ModeleDocumentCDANonStructure](CodeSystem-TRE-R221-ModeleDocumentCDANonStructure.md) | Identifiant des modèles de CDA non structurés |
@@ -25,4 +24,5 @@ Vous touverez ici la liste des terminologies à l'etat "retired".
 | [TRE_R233_TypeFermetureEG](CodeSystem-TRE-R233-TypeFermetureEG.md) | Type de fermeture de l'entité géographique FINESS |
 | [TRE_R35_TypeVoie](CodeSystem-TRE-R35-TypeVoie.md) | Type de voie |
 | [TRE_R46_SpecialiteConcoursHospitalier](CodeSystem-TRE-R46-SpecialiteConcoursHospitalier.md) | Spécialité de concours hospitalier |
+| [TRE_R75_InseeNAFrev2Niveau5](CodeSystem-TRE-R75-InseeNAFrev2Niveau5.md) | Sous-classes de la Nomenclature d'Activités Française - INSEE |
 

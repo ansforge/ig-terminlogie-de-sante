@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-procedure-cisis | *Version*:20260220142104 | |
-| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvAbsentOrUnknownProcedureCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-procedure-cisis | *Version*:20260311144903 | |
+| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvAbsentOrUnknownProcedureCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.665 | | |
 
  
@@ -57,8 +57,8 @@ No Expansion for this valueset (Unknown Code System)
   "resourceType" : "ValueSet",
   "id" : "jdv-absent-or-unknown-procedure-cisis",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-02-23T14:57:35.007+01:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-03-11T15:27:51.909+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "extension" : [{
@@ -72,12 +72,12 @@ No Expansion for this valueset (Unknown Code System)
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.665"
   }],
-  "version" : "20260220142104",
+  "version" : "20260311144903",
   "name" : "JdvAbsentOrUnknownProcedureCisis",
   "title" : "JDV Absent Or Unknown Procedure CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-20T14:21:04+01:00",
+  "date" : "2026-03-11T14:49:03+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Absent Or Unknown Procedure CISIS",
   "compose" : {

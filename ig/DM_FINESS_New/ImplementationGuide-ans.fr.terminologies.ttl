@@ -78419,11 +78419,53 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-modalite-entree-esms-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-modalite-entree-esms-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "JDV Modalite Entree ESMS CISIS" ] ;
+       fhir:description [ fhir:v "JDV Modalite Entree ESMS CISIS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-modalite-sortie-cisis> ;
          fhir:reference [ fhir:v "ValueSet/jdv-modalite-sortie-cisis" ]
        ] ;
        fhir:name [ fhir:v "JDV Modalite Sortie CISIS" ] ;
        fhir:description [ fhir:v "JDV Modalite Sortie CISIS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-modalite-sortie-esms-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-modalite-sortie-esms-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "JDV Modalite Sortie ESMS CISIS" ] ;
+       fhir:description [ fhir:v "JDV Modalite Sortie ESMS CISIS" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -78886,6 +78928,27 @@
        ] ;
        fhir:name [ fhir:v "JDV Motif Non Realisation Evenement CISIS" ] ;
        fhir:description [ fhir:v "JDV Motif Non Realisation Evenement CISIS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-mso-resultat-qualitatif-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-mso-resultat-qualitatif-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv MSO Resultat Qualitatif CISIS" ] ;
+       fhir:description [ fhir:v "Jdv MSO Resultat Qualitatif CISIS" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -80624,6 +80687,27 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-resultat-qualitatif-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-resultat-qualitatif-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv Resultat Qualitatif CISIS" ] ;
+       fhir:description [ fhir:v "Jdv Resultat Qualitatif CISIS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-resultat-question-evaluation-cisis> ;
          fhir:reference [ fhir:v "ValueSet/jdv-resultat-question-evaluation-cisis" ]
        ] ;
@@ -81091,6 +81175,27 @@
        ] ;
        fhir:name [ fhir:v "JDV Secteur Activite Employeur CISIS" ] ;
        fhir:description [ fhir:v "JDV Secteur Activite Employeur CISIS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-section-document-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-section-document-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "JDV Section Document CISIS" ] ;
+       fhir:description [ fhir:v "JDV Section Document CISIS" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false

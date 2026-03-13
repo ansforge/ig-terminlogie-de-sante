@@ -10,8 +10,8 @@
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "jdv-examen-hemostase-eunv-cisis"] ; # 
   fhir:meta [
-     fhir:versionId [ fhir:v "7" ] ;
-     fhir:lastUpdated [ fhir:v "2026-02-23T14:58:20.806+01:00"^^xsd:dateTime ] ;
+     fhir:versionId [ fhir:v "8" ] ;
+     fhir:lastUpdated [ fhir:v "2026-03-11T15:28:18.261+01:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
        fhir:l <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
@@ -19,7 +19,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-examen-hemostase-eunv-cisis</b></p><a name=\"jdv-examen-hemostase-eunv-cisis\"> </a><a name=\"hcjdv-examen-hemostase-eunv-cisis\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 7; Dernière mise à jour : 2026-02-23 14:58:20+0100</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include ce(s) code(s) tel qu'il(s) est (sont) défini(s) dans <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"La version n'est pas explicitement indiquée. Aucun Système de codes (Code System) correspondant trouvé\"> version Non Précisé(e) (utilise la dernière version provenant du serveur de terminologie)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td></tr><tr><td><a href=\"https://loinc.org/14979-9/\">14979-9</a></td><td>Temps de céphaline activée [Temps] Plasma pauvre en plaquettes ; Numérique ; Coagulation</td></tr><tr><td><a href=\"https://loinc.org/6301-6/\">6301-6</a></td><td>Temps de quick INR [Temps relatif] Plasma pauvre en plaquettes ; Numérique ; Coagulation</td></tr><tr><td><a href=\"https://loinc.org/3255-7/\">3255-7</a></td><td>Fibrinogène [Masse/Volume] Plasma pauvre en plaquettes ; Numérique ; Coagulation</td></tr><tr><td><a href=\"https://loinc.org/718-7/\">718-7</a></td><td>Hémoglobine [Masse/Volume] Sang ; Numérique</td></tr></table></li></ul></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-examen-hemostase-eunv-cisis</b></p><a name=\"jdv-examen-hemostase-eunv-cisis\"> </a><a name=\"hcjdv-examen-hemostase-eunv-cisis\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 8; Dernière mise à jour : 2026-03-11 15:28:18+0100</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include ce(s) code(s) tel qu'il(s) est (sont) défini(s) dans <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"La version n'est pas explicitement indiquée. Aucun Système de codes (Code System) correspondant trouvé\"> version Non Précisé(e) (utilise la dernière version provenant du serveur de terminologie)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td></tr><tr><td><a href=\"https://loinc.org/14979-9/\">14979-9</a></td><td>Temps de céphaline activée [Temps] Plasma pauvre en plaquettes ; Numérique ; Coagulation</td></tr><tr><td><a href=\"https://loinc.org/6301-6/\">6301-6</a></td><td>Temps de quick INR [Temps relatif] Plasma pauvre en plaquettes ; Numérique ; Coagulation</td></tr><tr><td><a href=\"https://loinc.org/3255-7/\">3255-7</a></td><td>Fibrinogène [Masse/Volume] Plasma pauvre en plaquettes ; Numérique ; Coagulation</td></tr><tr><td><a href=\"https://loinc.org/718-7/\">718-7</a></td><td>Hémoglobine [Masse/Volume] Sang ; Numérique</td></tr></table></li></ul></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
      fhir:url [
@@ -42,12 +42,12 @@
      ] ;
      fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.5.226" ]
   ] ) ; # 
-  fhir:version [ fhir:v "20260220142105"] ; # 
+  fhir:version [ fhir:v "20260311144904"] ; # 
   fhir:name [ fhir:v "JdvExamenHemostaseEunvCisis"] ; # 
   fhir:title [ fhir:v "JDV Examen Hemostase Eunv CISIS"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-20T14:21:05+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-03-11T14:49:04+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:description [ fhir:v "JDV Examen Hemostase Eunv CISIS"] ; # 
   fhir:compose [

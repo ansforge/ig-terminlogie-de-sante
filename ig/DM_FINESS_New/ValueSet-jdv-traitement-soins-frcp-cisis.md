@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-traitement-soins-frcp-cisis | *Version*:20260220142105 | |
-| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTraitementSoinsFrcpCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-traitement-soins-frcp-cisis | *Version*:20260311144904 | |
+| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTraitementSoinsFrcpCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.596 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-traitement-soins-frcp-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2026-02-23T15:00:05.823+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-03-11T15:29:17.602+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "extension" : [{
@@ -70,42 +70,32 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.596"
   }],
-  "version" : "20260220142105",
+  "version" : "20260311144904",
   "name" : "JdvTraitementSoinsFrcpCisis",
   "title" : "JDV Traitement Soins Frcp CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-20T14:21:05+01:00",
+  "date" : "2026-03-11T14:49:04+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Traitement Soins Frcp CISIS",
   "compose" : {
     "include" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10",
-      "concept" : [{
-        "code" : "C79.5",
-        "display" : "Tumeur maligne secondaire des os et de la moelle osseuse"
-      }]
-    },
-    {
-      "system" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
-      "concept" : [{
-        "code" : "C16832",
-        "display" : "oncologie médicale"
-      },
-      {
-        "code" : "C7201",
-        "display" : "tumeur rare"
-      }]
-    },
-    {
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
       "concept" : [{
+        "code" : "ORG-225",
+        "display" : "RCP Métastase osseuse"
+      },
+      {
         "code" : "ORG-129",
         "display" : "Oncogénétique"
       },
       {
         "code" : "ORG-130",
         "display" : "Oncogériatrie"
+      },
+      {
+        "code" : "ORG-226",
+        "display" : "RCP Cancers rares"
       }]
     },
     {
@@ -125,6 +115,10 @@ Requête sur le SMT
       {
         "code" : "243114000",
         "display" : "soin de support"
+      },
+      {
+        "code" : "394593009",
+        "display" : "oncologie médicale"
       },
       {
         "code" : "702596005",

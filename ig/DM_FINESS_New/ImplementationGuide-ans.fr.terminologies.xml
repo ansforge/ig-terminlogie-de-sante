@@ -27522,10 +27522,32 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-modalite-entree-esms-cisis"/>
+      </reference>
+      <name value="JDV Modalite Entree ESMS CISIS"/>
+      <description value="JDV Modalite Entree ESMS CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-modalite-sortie-cisis"/>
       </reference>
       <name value="JDV Modalite Sortie CISIS"/>
       <description value="JDV Modalite Sortie CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-modalite-sortie-esms-cisis"/>
+      </reference>
+      <name value="JDV Modalite Sortie ESMS CISIS"/>
+      <description value="JDV Modalite Sortie ESMS CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -27768,6 +27790,17 @@
       </reference>
       <name value="JDV Motif Non Realisation Evenement CISIS"/>
       <description value="JDV Motif Non Realisation Evenement CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-mso-resultat-qualitatif-cisis"/>
+      </reference>
+      <name value="Jdv MSO Resultat Qualitatif CISIS"/>
+      <description value="Jdv MSO Resultat Qualitatif CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -28677,6 +28710,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-resultat-qualitatif-cisis"/>
+      </reference>
+      <name value="Jdv Resultat Qualitatif CISIS"/>
+      <description value="Jdv Resultat Qualitatif CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-resultat-question-evaluation-cisis"/>
       </reference>
       <name value="JDV Resultat Question Evaluation CISIS"/>
@@ -28923,6 +28967,17 @@
       </reference>
       <name value="JDV Secteur Activite Employeur CISIS"/>
       <description value="JDV Secteur Activite Employeur CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-section-document-cisis"/>
+      </reference>
+      <name value="JDV Section Document CISIS"/>
+      <description value="JDV Section Document CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

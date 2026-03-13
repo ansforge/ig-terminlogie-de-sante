@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis | *Version*:202602240000 | |
-| Active as of 2026-02-24 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TerminologieCISIS |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis | *Version*:202603110000 | |
+| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TerminologieCISIS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.4.322 | | |
 
  
@@ -128,7 +128,9 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
 * [JdvMilieuCytologieCcuCisis](ValueSet-jdv-milieu-cytologie-ccu-cisis.md)
 * [JdvModaliteDemandeActeImagerieCisis](ValueSet-jdv-modalite-demande-acte-imagerie-cisis.md)
 * [JdvModaliteEntreeCisis](ValueSet-jdv-modalite-entree-cisis.md)
+* [JdvModaliteEntreeEsmsCisis](ValueSet-jdv-modalite-entree-esms-cisis.md)
 * [JdvModaliteSortieCisis](ValueSet-jdv-modalite-sortie-cisis.md)
+* [JdvModaliteSortieEsmsCisis](ValueSet-jdv-modalite-sortie-esms-cisis.md)
 * [JdvModeAccouchementCisis](ValueSet-jdv-mode-accouchement-cisis.md)
 * [JdvModeDeTransportCisis](ValueSet-jdv-mode-de-transport-cisis.md)
 * [JdvModeNaissanceCisis](ValueSet-jdv-mode-naissance-cisis.md)
@@ -183,6 +185,7 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
 * [JdvScoreDukeCisis](ValueSet-jdv-score-duke-cisis.md)
 * [JdvScoreFisherCisis](ValueSet-jdv-score-fisher-cisis.md)
 * [JdvScoreGlasgowCisis](ValueSet-jdv-score-glasgow-cisis.md)
+* [JdvSectionDocumentCisis](ValueSet-jdv-section-document-cisis.md)
 * [JdvSituationMatrimonialeCisis](ValueSet-jdv-situation-matrimoniale-cisis.md)
 * [JdvSituationMedicaleCisis](ValueSet-jdv-situation-medicale-cisis.md)
 * [JdvSoinOncoDeSupportCisis](ValueSet-jdv-soin-onco-de-support-cisis.md)
@@ -262,8 +265,8 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
   "resourceType" : "CodeSystem",
   "id" : "terminologie-cisis",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-02-24T15:55:18.104+01:00",
+    "versionId" : "9",
+    "lastUpdated" : "2026-03-11T15:10:50.705+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
@@ -277,12 +280,12 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.4.322"
   }],
-  "version" : "202602240000",
+  "version" : "202603110000",
   "name" : "TerminologieCISIS",
   "title" : "TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-24T15:40:47-00:00",
+  "date" : "2026-03-11T14:52:01-00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Terminologie multi-domaines créée et maintenue par l'ANS contenant les termes non trouvés dans les autres terminologies internationales ou nationales.",
   "caseSensitive" : false,
@@ -6895,6 +6898,150 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "dateValid",
       "valueDateTime" : "2026-01-14T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-422",
+    "display" : "Le patient a signé un consentement à la transmission de ses données au(x) registre(s) de l'ERN GloBE-Reg",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-03-02T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-02T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-423",
+    "display" : "Présence de sujet à risque de rougeole grave dans l’entourage du cas (femme enceinte, immunodéprimé, nourrisson)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-03-03T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-03T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-424",
+    "display" : "Administration d’immunoglobulines aux contacts à risque de rougeole grave",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-03-03T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-03T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-425",
+    "display" : "Nombre d'admministration d'immunoglobines aux contacts àrisque de rougeole grave",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-03-03T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-03T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-426",
+    "display" : "Administration dans les 72 heures suivant le 1er contact du vaccin ROR aux personnes contact",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-03-03T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-03T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-427",
+    "display" : "Nombre d'administration dans les 72 heures suivant le 1er contact du vaccin ROR aux personnes contact",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-03-03T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-03T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-428",
+    "display" : "Souhaitez-vous recevoir des kits pour prélèvements et envois d’échantillons de salive au CNR (recherche d’IgM/PCR) ?",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-03-03T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-03T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-429",
+    "display" : "Nombre de kits",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-03-03T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-03T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-430",
+    "display" : "Séjour à l’étranger pour les autres cas de rougeole dans l'entourage",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-03-03T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-03T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -22638,6 +22785,166 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "MED-1340",
+    "display" : "Vaccination autre flavivirus",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-03-03T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-03T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-1341",
+    "display" : "Autre(s) exposition(s)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-03-03T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-03T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-1342",
+    "display" : "Questionnaire ICOPE 60-65 ans",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-1343",
+    "display" : "Questionnaire ICOPE 66-69 ans",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-1344",
+    "display" : "Questionnaire ICOPE 70-75 ans",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-1345",
+    "display" : "Questionnaire ICOPE 76 ans et plus",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-1346",
+    "display" : "Questionnaire Mon Bilan Prévention 18-25 ans",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-1347",
+    "display" : "Questionnaire Mon Bilan Prévention 45-50 ans",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-1348",
+    "display" : "Questionnaire Mon Bilan Prévention 60-65 ans",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-1349",
+    "display" : "Questionnaire Mon Bilan Prévention 70-75 ans",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
     "code" : "ORG-001",
     "display" : "Prise en charge spécifique en oncogériatrie",
     "property" : [{
@@ -24967,6 +25274,86 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "dateValid",
       "valueDateTime" : "2025-07-23T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "ORG-225",
+    "display" : "RCP Métastase osseuse",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-03-02T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-02T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "ORG-226",
+    "display" : "RCP Cancers rares",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-03-02T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-02T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "ORG-227",
+    "display" : "Domicile ou milieu ordinaire",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-03-02T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-02T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "ORG-228",
+    "display" : "Etablissement médico-social",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-03-02T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-02T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "ORG-229",
+    "display" : "Provenance inconnue",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-03-02T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-02T00:00:00+01:00"
     },
     {
       "code" : "status",

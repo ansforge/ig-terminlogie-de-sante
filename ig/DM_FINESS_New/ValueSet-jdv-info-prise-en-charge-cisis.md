@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-info-prise-en-charge-cisis | *Version*:20260220142103 | |
-| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvInfoPriseEnChargeCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-info-prise-en-charge-cisis | *Version*:20260311144903 | |
+| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvInfoPriseEnChargeCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.685 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-info-prise-en-charge-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2026-02-23T14:58:32.741+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-03-11T15:28:24.779+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "extension" : [{
@@ -70,12 +70,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.685"
   }],
-  "version" : "20260220142103",
+  "version" : "20260311144903",
   "name" : "JdvInfoPriseEnChargeCisis",
   "title" : "JDV Info Prise En Charge CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-20T14:21:03+01:00",
+  "date" : "2026-03-11T14:49:03+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Info Prise En Charge CISIS",
   "compose" : {

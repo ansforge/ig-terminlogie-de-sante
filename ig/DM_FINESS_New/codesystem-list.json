@@ -2476,7 +2476,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-    "version" : "202602240000",
+    "version" : "202603110000",
     "status" : "active",
     "name" : "TerminologieCISIS",
     "title" : "TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies",
@@ -2872,7 +2872,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/concept-properties",
-    "version" : "20260223120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "ConceptProperties",
     "title" : "Concept Properties",

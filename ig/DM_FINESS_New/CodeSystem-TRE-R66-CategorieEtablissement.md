@@ -21,6 +21,7 @@ Catégorie d’établissements
 * [JDV_J55_CategorieEG_ROR](ValueSet-JDV-J55-CategorieEG-ROR.md)
 * [JdvDestinationTransfertCisis](ValueSet-jdv-destination-transfert-cisis.md)
 * [JdvLieuDeVieCisis](ValueSet-jdv-lieu-de-vie-cisis.md)
+* [JdvModaliteEntreeEsmsCisis](ValueSet-jdv-modalite-entree-esms-cisis.md)
 * [JdvModaliteSortieCisis](ValueSet-jdv-modalite-sortie-cisis.md)
 * [JdvModeSortieCisis](ValueSet-jdv-mode-sortie-cisis.md)
 * [JdvPatientAdresseParCisis](ValueSet-jdv-patient-adresse-par-cisis.md)

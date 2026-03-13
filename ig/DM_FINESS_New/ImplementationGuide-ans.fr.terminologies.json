@@ -36762,10 +36762,34 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-modalite-entree-esms-cisis"
+      },
+      "name" : "JDV Modalite Entree ESMS CISIS",
+      "description" : "JDV Modalite Entree ESMS CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-modalite-sortie-cisis"
       },
       "name" : "JDV Modalite Sortie CISIS",
       "description" : "JDV Modalite Sortie CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-modalite-sortie-esms-cisis"
+      },
+      "name" : "JDV Modalite Sortie ESMS CISIS",
+      "description" : "JDV Modalite Sortie ESMS CISIS",
       "exampleBoolean" : false
     },
     {
@@ -37030,6 +37054,18 @@
       },
       "name" : "JDV Motif Non Realisation Evenement CISIS",
       "description" : "JDV Motif Non Realisation Evenement CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-mso-resultat-qualitatif-cisis"
+      },
+      "name" : "Jdv MSO Resultat Qualitatif CISIS",
+      "description" : "Jdv MSO Resultat Qualitatif CISIS",
       "exampleBoolean" : false
     },
     {
@@ -38022,6 +38058,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-resultat-qualitatif-cisis"
+      },
+      "name" : "Jdv Resultat Qualitatif CISIS",
+      "description" : "Jdv Resultat Qualitatif CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-resultat-question-evaluation-cisis"
       },
       "name" : "JDV Resultat Question Evaluation CISIS",
@@ -38290,6 +38338,18 @@
       },
       "name" : "JDV Secteur Activite Employeur CISIS",
       "description" : "JDV Secteur Activite Employeur CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-section-document-cisis"
+      },
+      "name" : "JDV Section Document CISIS",
+      "description" : "JDV Section Document CISIS",
       "exampleBoolean" : false
     },
     {

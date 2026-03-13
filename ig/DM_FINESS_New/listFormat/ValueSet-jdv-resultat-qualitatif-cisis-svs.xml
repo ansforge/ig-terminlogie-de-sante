@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20260311144903"
+             dateValid="20260301000000"
+             description="Jdv Resultat Qualitatif CISIS"
+             displayName="JdvResultatQualitatifCisis"
+             id="1.2.250.1.213.1.1.5.832"
+             typeFichier="JDV"
+             urlFichier="">
+      <ConceptList>
+         <concept code="10828004"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="positif(-ive)"/>
+         <concept code="en attente"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="positif – séroconversion"/>
+         <concept code="en attente"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="positif-multiplication par 4"/>
+         <concept code="260385009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="négatif(-ive)"/>
+         <concept code="en attente"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="douteux"/>
+         <concept code="373068000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="non déterminé(e)"/>
+         <concept code="125154007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="échantillon insatisfaisant pour l'évaluation"/>
+         <concept code="17621005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="normal"/>
+         <concept code="260405006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="trace"/>
+         <concept code="371879000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="anormalement haut(e)"/>
+         <concept code="1345200000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="présence + sur ++"/>
+         <concept code="1345201001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="présence ++ sur ++"/>
+         <concept code="441614007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="présence + sur +++"/>
+         <concept code="441517005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="présence ++ sur +++"/>
+         <concept code="441521003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="présence +++ sur +++"/>
+         <concept code="373121007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="test non effectué"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

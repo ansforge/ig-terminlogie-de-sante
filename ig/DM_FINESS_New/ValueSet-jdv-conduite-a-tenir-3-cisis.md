@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-conduite-a-tenir-3-cisis | *Version*:20260220142104 | |
-| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvConduiteATenir3Cisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-conduite-a-tenir-3-cisis | *Version*:20260311144904 | |
+| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvConduiteATenir3Cisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.87 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-conduite-a-tenir-3-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2026-02-23T14:58:01.131+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-03-11T15:28:07.493+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "extension" : [{
@@ -70,12 +70,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.87"
   }],
-  "version" : "20260220142104",
+  "version" : "20260311144904",
   "name" : "JdvConduiteATenir3Cisis",
   "title" : "JDV Conduite A Tenir 3 CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-20T14:21:04+01:00",
+  "date" : "2026-03-11T14:49:04+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Conduite A Tenir 3 CISIS",
   "compose" : {
