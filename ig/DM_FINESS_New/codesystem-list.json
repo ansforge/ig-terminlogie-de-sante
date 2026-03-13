@@ -2520,15 +2520,6 @@
     "oids" : ["1.2.250.1.213.1.6.1.256"]
   },
   {
-    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r363-type-engagement",
-    "version" : "20241230120000",
-    "status" : "active",
-    "name" : "TreR363TypeEngagement",
-    "title" : "Tre R363 Type Engagement",
-    "description" : "Nomenclature des grands types d'engagement pouvant être associés dans FINESS+ à des structures ou des activités",
-    "oids" : ["1.2.250.1.213.1.6.1.257"]
-  },
-  {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r364-type-document-administratif",
     "version" : "20241230120000",
     "status" : "active",

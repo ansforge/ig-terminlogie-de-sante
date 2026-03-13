@@ -43514,18 +43514,6 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/tre-r363-type-engagement"
-      },
-      "name" : "Tre R363 Type Engagement",
-      "description" : "Nomenclature des grands types d'engagement pouvant être associés dans FINESS+ à des structures ou des activités",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
         "reference" : "CodeSystem/tre-r364-type-document-administratif"
       },
       "name" : "Tre R364 Type Document Administratif",
@@ -47270,18 +47258,6 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       },
       "name" : "Vs Tre R392 Type Act Smsse Regulee All",
       "description" : "Jeu de valeurs ALL contenant l'ensemble des codes pour les types d'activitées SMSSE régulées",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/vs-tre-r395-engagement-all"
-      },
-      "name" : "Vs Tre R395 Engagement All",
-      "description" : "Jeu de valeurs ALL contenant les engagements FINESS",
       "exampleBoolean" : false
     },
     {

@@ -33585,17 +33585,6 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/tre-r363-type-engagement"/>
-      </reference>
-      <name value="Tre R363 Type Engagement"/>
-      <description value="Nomenclature des grands types d'engagement pouvant être associés dans FINESS+ à des structures ou des activités"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
         <reference value="CodeSystem/tre-r364-type-document-administratif"/>
       </reference>
       <name value="Tre R364 Type Document Administratif"/>
@@ -37028,17 +37017,6 @@
       </reference>
       <name value="Vs Tre R392 Type Act Smsse Regulee All"/>
       <description value="Jeu de valeurs ALL contenant l'ensemble des codes pour les types d'activitées SMSSE régulées"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/vs-tre-r395-engagement-all"/>
-      </reference>
-      <name value="Vs Tre R395 Engagement All"/>
-      <description value="Jeu de valeurs ALL contenant les engagements FINESS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

@@ -3227,15 +3227,6 @@
     "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee"]
   },
   {
-    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement?vs",
-    "version" : "20250716120000",
-    "status" : "active",
-    "name" : "VsTreR395EngagementAll",
-    "title" : "Vs Tre R395 Engagement All",
-    "description" : "Jeu de valeurs ALL contenant les engagements FINESS",
-    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement"]
-  },
-  {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee?vs",
     "version" : "20260223120000",
     "status" : "active",

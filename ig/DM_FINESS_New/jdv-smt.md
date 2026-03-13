@@ -69,7 +69,6 @@ Vous touverez ici la liste des JDV du smt .
 | [VsTreR385DeclarationActDeSoinAmmAll](ValueSet-vs-tre-r385-declaration-act-de-soin-amm-all.md) | Jeu de valeurs ALL contenant les déclarations pour les activités de soin AMM | 22/02/2025 |
 | [VsTreR388TypeLogementAll](ValueSet-vs-tre-r388-type-logement-all.md) | Jeu de valeurs ALL contenant les types de logement associés aux capacités des structures FINESS | 22/02/2025 |
 | [VsTreR392TypeActSmsseReguleeAll](ValueSet-vs-tre-r392-type-act-smsse-regulee-all.md) | Jeu de valeurs ALL contenant l'ensemble des codes pour les types d'activitées SMSSE régulées | 13/05/2025 |
-| [VsTreR395EngagementAll](ValueSet-vs-tre-r395-engagement-all.md) | Jeu de valeurs ALL contenant les engagements FINESS | 16/07/2025 |
 | [VsTreR404ModeFonctionnementActiviteSmsseReguleeAll](ValueSet-vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all.md) | Jeu de valeurs ALL contenant les modes de fonctinonemment des activités ssmsse régulées | 23/02/2026 |
 | [VsTreR405ModaliteActiviteSmsseReguleeAll](ValueSet-vs-tre-r405-modalite-activite-smsse-regulee-all.md) | Jeu de valeurs ALL contenant les modalités des activités SSMSE régulées | 23/02/2026 |
 | [VsTreR406FormeActiviteSmsseReguleeAll](ValueSet-vs-tre-r406-forme-activite-smsse-regulee-all.md) | Jeu de valeurs ALL contenant les formes des activites smsse régulées | 23/02/2026 |

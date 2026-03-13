@@ -90002,27 +90002,6 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r363-type-engagement> ;
-         fhir:reference [ fhir:v "CodeSystem/tre-r363-type-engagement" ]
-       ] ;
-       fhir:name [ fhir:v "Tre R363 Type Engagement" ] ;
-       fhir:description [ fhir:v "Nomenclature des grands types d'engagement pouvant être associés dans FINESS+ à des structures ou des activités" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "CodeSystem"
-         ]
-       ] ) ;
-       fhir:reference [
          fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r364-type-document-administratif> ;
          fhir:reference [ fhir:v "CodeSystem/tre-r364-type-document-administratif" ]
        ] ;
@@ -96576,27 +96555,6 @@
        ] ;
        fhir:name [ fhir:v "Vs Tre R392 Type Act Smsse Regulee All" ] ;
        fhir:description [ fhir:v "Jeu de valeurs ALL contenant l'ensemble des codes pour les types d'activitées SMSSE régulées" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r395-engagement-all> ;
-         fhir:reference [ fhir:v "ValueSet/vs-tre-r395-engagement-all" ]
-       ] ;
-       fhir:name [ fhir:v "Vs Tre R395 Engagement All" ] ;
-       fhir:description [ fhir:v "Jeu de valeurs ALL contenant les engagements FINESS" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
