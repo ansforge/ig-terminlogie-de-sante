@@ -97,8 +97,8 @@ Description: "Champ d'activité"
 * #05 ^property[=].valueCode = #active
 * #06 "Social"
 * #06 ^property[0].code = #dateValid
-* #06 ^property[=].valueDateTime = "2018-12-14T12:00:00+01:00"
+* #06 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #06 ^property[+].code = #dateMaj
-* #06 ^property[=].valueDateTime = "2023-06-30T12:00:00+01:00"
+* #06 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #06 ^property[+].code = #status
 * #06 ^property[=].valueCode = #active
