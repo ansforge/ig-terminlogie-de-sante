@@ -169,7 +169,7 @@
                   displayName="Conseiller conjugal et familial"/>
          <Concept code="62"
                   codeSystem="1.2.250.1.213.3.3.37"
-                  displayName="Maîtrise du FALC"/>
+                  displayName="Maîtrise du Facile à Lire et à Comprendre (FALC)"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

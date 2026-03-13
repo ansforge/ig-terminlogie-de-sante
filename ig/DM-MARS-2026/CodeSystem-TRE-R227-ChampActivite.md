@@ -221,11 +221,11 @@ Champ d’activité
     "display" : "Social",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2018-12-14T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2023-06-30T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",

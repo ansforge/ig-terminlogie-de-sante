@@ -310,7 +310,7 @@ Requête sur le SMT
       },
       {
         "code" : "62",
-        "display" : "Maîtrise du FALC"
+        "display" : "Maîtrise du Facile à Lire et à Comprendre (FALC)"
       }]
     }]
   }

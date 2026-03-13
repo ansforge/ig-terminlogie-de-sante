@@ -11,6 +11,7 @@ Vous touverez ici la liste des JDV du NOS.
 | | | |
 | :--- | :--- | :--- |
 | Name | Description | date_maj |
+| [JdvJ380CategorieEntiteGeographiqueExerciceRass](ValueSet-jdv-j380-categorie-entite-geographique-exercice-rass.md) | Ce JDV remplace le JDV-J129-CategorieEtablissement-RASS | 23/02/2026 |
 | [JdvJ389SexeProvenanceRnipp](ValueSet-jdv-j389-sexe-provenance-rnipp.md) | Liste de valeurs du code Sexe issues de l'INSEE pour le RPPS | 30/03/2026 |
 | [JdvJ390OrigineInterruptionExerciceRpps](ValueSet-jdv-j390-origine-interruption-exercice-rpps.md) | Liste de valeurs pour le RPPS permettant de définir l'origine d'une interruption d'exercice | 30/03/2026 |
 | [JdvJ301FinessStatutJuridiqueNiv1Finess](ValueSet-jdv-j301-finess-statut-juridique-niv1-finess.md) | Ce JDV contient les agrégats Niv1 des statust juridiques (JDV créé à l'image de l'ancienne TRE_R70-FinessAgregatStatutJuridique) | 23/02/2026 |
@@ -39,7 +40,6 @@ Vous touverez ici la liste des JDV du NOS.
 | [JdvJ376PublicActiviteSmsseReguleeRass](ValueSet-jdv-j376-public-activite-smsse-regulee-rass.md) | Ce JDV remplace le JDV_J137_Clientele_RASS | 23/02/2026 |
 | [JdvJ377CategorieEntiteGeographiqueExerciceRor](ValueSet-jdv-j377-categorie-entite-geographique-exercice-ror.md) | Ce JDV remplace le JDV_J55_CategorieEG_ROR | 23/02/2026 |
 | [JdvJ379ActiviteSocialeReguleeRass](ValueSet-jdv-j379-activite-sociale-regulee-rass.md) | Ce JDV remplace le JDV_J136_DisciplineEquipementSocial_RASS | 23/02/2026 |
-| [JdvJ380CategorieEntiteGeographiqueExerciceRass](ValueSet-jdv-j380-categorie-entite-geographique-exercice-rass.md) | Ce JDV remplace le JDV-J129-CategorieEtablissement-RASS | 23/02/2026 |
 | [JdvJ383MotifClotureExerciceProfessionnelEpars](ValueSet-jdv-j383-motif-cloture-exercice-professionnel-epars.md) | Ce jeu de valeur liste les différents motifs qui peuvent justifier la clôture d'un exercice professionnel. | 22/12/2025 |
 | [JdvJ384RoleMembreFamilleMs](ValueSet-jdv-j384-role-membre-famille-ms.md) | Rôle d'un membre de la famille ou d'un proche de l'usager. | 02/02/2026 |
 | [JdvJ385CompositionFoyerMs](ValueSet-jdv-j385-composition-foyer-ms.md) | Désigne avec qui vit l’usager dans son logement. | 02/02/2026 |
