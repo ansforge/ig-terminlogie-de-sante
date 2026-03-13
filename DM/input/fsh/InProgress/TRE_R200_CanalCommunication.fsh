@@ -75,7 +75,7 @@ Description: "Canal de communication"
 * #3 ^property[=].valueDateTime = "2015-03-25T00:00:00+01:00"
 * #3 ^property[+].code = #status
 * #3 ^property[=].valueCode = #active
-* #4 "Site internet"
+* #4 "Site web"
 * #4 ^designation[0].language = #fr-FR
 * #4 ^designation[=].use.system = "http://snomed.info/sct"
 * #4 ^designation[=].use = $sct#900000000000013009

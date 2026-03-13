@@ -1275,7 +1275,7 @@ Description: "Activite Operationnelle"
 * #151 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #151 ^property[+].code = #status
 * #151 ^property[=].valueCode = #deprecated
-* #152 "Evaluation Médico-Judiciaires (UMJ)"
+* #152 "Evaluation Médico-Judiciaire (UMJ)"
 * #152 ^property[0].code = #dateValid
 * #152 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #152 ^property[+].code = #dateMaj
