@@ -1374,9 +1374,9 @@
                   dateFin=""
                   dateMaj="20260330120000"
                   dateValid="20150408000000"
-                  displayName="Evaluation Médico-Judiciaires (UMJ)"
-                  longDesignation="Evaluation Médico-Judiciaires (UMJ)"
-                  shortDesignation="Evaluation Médico-Judiciaires (UMJ)"
+                  displayName="Evaluation Médico-Judiciaire (UMJ)"
+                  longDesignation="Evaluation Médico-Judiciaire (UMJ)"
+                  shortDesignation="Evaluation Médico-Judiciaire (UMJ)"
                   descriptionMetier=""/>
          <Concept code="153"
                   codeSystem="1.2.250.1.213.3.3.12"

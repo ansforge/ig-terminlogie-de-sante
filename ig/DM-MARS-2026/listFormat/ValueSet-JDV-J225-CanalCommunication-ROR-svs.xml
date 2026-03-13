@@ -19,9 +19,7 @@
          <Concept code="3"
                   codeSystem="1.2.250.1.213.3.3.1"
                   displayName="Courrier électronique"/>
-         <Concept code="4"
-                  codeSystem="1.2.250.1.213.3.3.1"
-                  displayName="Site internet"/>
+         <Concept code="4" codeSystem="1.2.250.1.213.3.3.1" displayName="Site web"/>
          <Concept code="5"
                   codeSystem="1.2.250.1.213.3.3.1"
                   displayName="Transfert de fichiers"/>

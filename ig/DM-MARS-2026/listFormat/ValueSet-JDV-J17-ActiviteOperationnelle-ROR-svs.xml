@@ -333,7 +333,7 @@
                   displayName="Urgences spécialisées cardiologiques"/>
          <Concept code="152"
                   codeSystem="1.2.250.1.213.3.3.12"
-                  displayName="Evaluation Médico-Judiciaires (UMJ)"/>
+                  displayName="Evaluation Médico-Judiciaire (UMJ)"/>
          <Concept code="154"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Urgences spécialisées ophtalmologiques"/>

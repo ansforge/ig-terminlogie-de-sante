@@ -518,7 +518,7 @@ Requête sur le SMT
       },
       {
         "code" : "152",
-        "display" : "Evaluation Médico-Judiciaires (UMJ)"
+        "display" : "Evaluation Médico-Judiciaire (UMJ)"
       },
       {
         "code" : "154",

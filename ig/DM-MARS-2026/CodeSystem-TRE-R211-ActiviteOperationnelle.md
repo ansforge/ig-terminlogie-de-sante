@@ -2889,7 +2889,7 @@ Activite Operationnelle
   },
   {
     "code" : "152",
-    "display" : "Evaluation Médico-Judiciaires (UMJ)",
+    "display" : "Evaluation Médico-Judiciaire (UMJ)",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"

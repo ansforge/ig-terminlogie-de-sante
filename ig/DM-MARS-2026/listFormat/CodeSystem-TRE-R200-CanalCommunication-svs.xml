@@ -42,8 +42,8 @@
                   dateFin=""
                   dateMaj="20260330000000"
                   dateValid="20150325000000"
-                  displayName="Site internet"
-                  longDesignation="Site internet"
+                  displayName="Site web"
+                  longDesignation="Site web"
                   shortDesignation="URL"
                   descriptionMetier=""/>
          <Concept code="5"

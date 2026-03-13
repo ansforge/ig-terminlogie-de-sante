@@ -102,7 +102,7 @@ Requête sur le SMT
       },
       {
         "code" : "4",
-        "display" : "Site internet"
+        "display" : "Site web"
       },
       {
         "code" : "5",

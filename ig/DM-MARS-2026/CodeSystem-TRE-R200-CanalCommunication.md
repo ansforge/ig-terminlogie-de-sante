@@ -170,7 +170,7 @@ Canal de communication
   },
   {
     "code" : "4",
-    "display" : "Site internet",
+    "display" : "Site web",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
