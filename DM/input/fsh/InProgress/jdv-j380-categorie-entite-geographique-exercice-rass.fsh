@@ -17,4 +17,4 @@ Description: "Ce JDV remplace le JDV-J129-CategorieEtablissement-RASS"
 * ^date = "2026-02-23T18:02:28.249+00:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
-* include codes from system $tre-r397-categorie-entite-geographique-exercice where rass = "true"
+* include codes from system $tre-r397-categorie-entite-geographique-exercice where rass = true and niveau = 4
