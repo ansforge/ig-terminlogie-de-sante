@@ -9274,14 +9274,6 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
       "valueCode" : "deprecated"
     },
     {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "ror",
-      "valueBoolean" : true
-    },
-    {
       "code" : "cisis",
       "valueBoolean" : true
     }]
@@ -9382,14 +9374,6 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "status",
       "valueCode" : "deprecated"
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "ror",
-      "valueBoolean" : true
     },
     {
       "code" : "cisis",
@@ -13412,14 +13396,6 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
       "valueCode" : "deprecated"
     },
     {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "ror",
-      "valueBoolean" : true
-    },
-    {
       "code" : "cisis",
       "valueBoolean" : true
     }]
@@ -14013,14 +13989,6 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
       "valueCode" : "deprecated"
     },
     {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "ror",
-      "valueBoolean" : true
-    },
-    {
       "code" : "cisis",
       "valueBoolean" : true
     }]
@@ -14553,14 +14521,6 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "status",
       "valueCode" : "deprecated"
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "ror",
-      "valueBoolean" : true
     },
     {
       "code" : "cisis",
@@ -16169,14 +16129,6 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
       "valueCode" : "deprecated"
     },
     {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "ror",
-      "valueBoolean" : true
-    },
-    {
       "code" : "cisis",
       "valueBoolean" : true
     }]
@@ -16330,14 +16282,6 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
       "valueCode" : "deprecated"
     },
     {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "ror",
-      "valueBoolean" : true
-    },
-    {
       "code" : "cisis",
       "valueBoolean" : true
     }]
@@ -16446,14 +16390,6 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "status",
       "valueCode" : "deprecated"
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "ror",
-      "valueBoolean" : true
     },
     {
       "code" : "cisis",

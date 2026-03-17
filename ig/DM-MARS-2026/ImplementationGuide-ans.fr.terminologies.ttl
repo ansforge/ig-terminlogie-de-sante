@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "Terminologies"] ; # 
   fhir:title [ fhir:v "Terminologies  de Santé"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2026-03-13T13:52:14+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-03-17T16:51:37+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -54979,6 +54979,27 @@
        ] ;
        fhir:name [ fhir:v "Classification anatomique, thérapeutique et chimique" ] ;
        fhir:description [ fhir:v "La classification ATC (anatomique, thérapeutique et chimique) classe les substances actives dans différents groupes selon l’organe ou le système sur lequel ils agissent et selon leurs propriétés thérapeutiques, pharmacologiques et chimiques." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-ccam> ;
+         fhir:reference [ fhir:v "CodeSystem/terminologie-ccam" ]
+       ] ;
+       fhir:name [ fhir:v "Classification Commune des Actes Médicaux" ] ;
+       fhir:description [ fhir:v "La Classification Commune des Actes Médicaux est la terminologie de facturation créée et maintenue par la CNAM." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
