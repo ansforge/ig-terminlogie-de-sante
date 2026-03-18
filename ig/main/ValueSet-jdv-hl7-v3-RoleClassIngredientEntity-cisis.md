@@ -88,6 +88,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+      "version" : "5.0.0",
       "concept" : [{
         "code" : "INGR",
         "display" : "Ingrédient"

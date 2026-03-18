@@ -90,6 +90,7 @@ Expansions are not generated for retired value sets
   "compose" : {
     "include" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+      "version" : "4.0.0",
       "concept" : [{
         "code" : "N",
         "display" : "Normal"

@@ -88,6 +88,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v3-SpecimenType",
+      "version" : "4.0.0",
       "concept" : [{
         "code" : "BLDC",
         "display" : "Sang capillaire"
@@ -187,6 +188,7 @@ Requête sur le SMT
     },
     {
       "system" : "http://terminology.hl7.org/CodeSystem/v2-0487",
+      "version" : "3.0.0",
       "concept" : [{
         "code" : "ABS",
         "display" : "Abcès"

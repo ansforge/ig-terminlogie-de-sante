@@ -88,6 +88,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "version" : "10.0.0",
       "concept" : [{
         "code" : "BOOSTER",
         "display" : "Rappel de vaccin"

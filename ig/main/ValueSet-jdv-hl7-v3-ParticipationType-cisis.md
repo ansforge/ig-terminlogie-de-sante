@@ -88,6 +88,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "version" : "6.0.0",
       "concept" : [{
         "code" : "ADM",
         "display" : "Responsable de l'admission"

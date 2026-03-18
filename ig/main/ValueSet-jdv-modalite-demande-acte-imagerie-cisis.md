@@ -107,6 +107,7 @@ Requête sur le SMT
     },
     {
       "system" : "http://dicom.nema.org/resources/ontology/DCM",
+      "version" : "2022.4.20221006",
       "concept" : [{
         "code" : "MG",
         "display" : "Mammographie"
