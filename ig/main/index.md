@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies | *Version*:1.7.0 |
-| Active as of 2026-03-18 | *Computable Name*:Terminologies |
+| Active as of 2026-03-19 | *Computable Name*:Terminologies |
 
 Dans ce guide, nous retrouvons l’ensemble des terminologies de santé et jeux de valeurs plubliés par l’ANS :
 
@@ -135,11 +135,6 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
 * [Unified Code for Units of Measure (UCUM)](http://terminology.hl7.org/5.0.0/CodeSystem-v3-ucum.html): [JDV_J163_GlucoseUnits_ENS](ValueSet-JDV-J163-GlucoseUnits-ENS.md), [JDV_J278_UcumUniteMesure_UPNOS](ValueSet-JDV-J278-UcumUniteMesure-UPNOS.md), [JDV_J37_UcumUniteTemps](ValueSet-JDV-J37-UcumUniteTemps.md) and [JDV_J49_UcumUniteLongueur](ValueSet-JDV-J49-UcumUniteLongueur.md)
 
 
-* The WHO grants a license for "commercial and non-commercial use" of ICD-11CC BY-ND 3.0 IGODetailed information can be found here: [[https://icd.who.int/en/docs/icd11-license.pdf](https://icd.who.int/en/docs/icd11-license.pdf)](https://icd.who.int/en/docs/icd11-license.pdf) Contact licensing@who.int to obtain further information.
-
-* [International Classification of Diseases, 11th Revision Mortality and Morbidity Statistics (MMS)](https://tx-nordics.fhir.org/fhir/r4/ValueSet/398b8f74-822b-4822-8a7a-1b3c40dd0f7b): [JdvCauseAccidentDomestiqueCisis](ValueSet-jdv-cause-accident-domestique-cisis.md)
-
-
 * These codes are excerpted from Digital Imaging and Communications in Medicine (DICOM) Standard, Part 16: Content Mapping Resource, Copyright Â© 2011 by the National Electrical Manufacturers Association.
 
 * DICOM Controlled Terminology Definitions: [JdvAxamenComplementaireCisis](ValueSet-jdv-examen-complementaire-cisis.md), [JdvBilanTechniqueCisis](ValueSet-jdv-bilan-technique-cisis.md)... Show 8 more, [JdvConduiteATenir1Cisis](ValueSet-jdv-conduite-a-tenir-1-cisis.md), [JdvConduiteATenir3Cisis](ValueSet-jdv-conduite-a-tenir-3-cisis.md), [JdvImagerieObjectifReferenceCisis](ValueSet-jdv-imagerie-objectif-reference-cisis.md), [JdvModaliteAcquisitionCisis](ValueSet-jdv-modalite-acquisition-cisis.md), [JdvModaliteDemandeActeImagerieCisis](ValueSet-jdv-modalite-demande-acte-imagerie-cisis.md), [JdvQuantiteExpositionRayonnementsCisis](ValueSet-jdv-quantite-exposition-rayonnements-cisis.md), [JdvSectionDocumentCisis](ValueSet-jdv-section-document-cisis.md) and [JdvTechniqueImagerieD2lmCisis](ValueSet-jdv-technique-imagerie-d2lm-cisis.md)
@@ -216,7 +211,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-03-18T05:28:35+00:00",
+  "date" : "2026-03-19T05:24:08+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
