@@ -71,7 +71,7 @@
                   dateValid="20181026120000"
                   displayName="Prévention spécialisée"
                   longDesignation="Prévention spécialisée"
-                  shortDesignation="Prévention spécialisée"
+                  shortDesignation="Prev.spécialisée."
                   descriptionMetier=""/>
          <Concept code="262"
                   codeSystem="1.2.250.1.213.1.6.1.133"

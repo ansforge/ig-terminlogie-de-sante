@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J106-EnsembleProfession-RASS/FHIR/JDV-J106-EnsembleProfession-RASS | *Version*:20250328120000 | |
-| Active as of 2025-03-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J106_EnsembleProfession_RASS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J106-EnsembleProfession-RASS/FHIR/JDV-J106-EnsembleProfession-RASS | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J106_EnsembleProfession_RASS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.174 | | |
 
  
@@ -56,7 +56,7 @@ Requête sur le SMT
   "id" : "JDV-J106-EnsembleProfession-RASS",
   "meta" : {
     "versionId" : "5",
-    "lastUpdated" : "2025-07-02T17:04:43.453+00:00",
+    "lastUpdated" : "2026-03-30T17:04:43.453+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -71,11 +71,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.174"
   }],
-  "version" : "20250328120000",
+  "version" : "20260330120000",
   "name" : "JDV_J106_EnsembleProfession_RASS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-03-28T12:00:00+01:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ensemble des professions du RASS",
   "jurisdiction" : [{
@@ -123,10 +123,6 @@ Requête sur le SMT
       {
         "code" : "60",
         "display" : "Infirmier"
-      },
-      {
-        "code" : "69",
-        "display" : "Infirmier psychiatrique"
       },
       {
         "code" : "70",

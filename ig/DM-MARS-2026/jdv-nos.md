@@ -134,7 +134,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J103_TypeVoie_RASS](ValueSet-JDV-J103-TypeVoie-RASS.md) | Type de voie du professionnel du RASS | 24/04/2020 |
 | [JDV_J104_TypeIdentifiantStructure_RASS](ValueSet-JDV-J104-TypeIdentifiantStructure-RASS.md) | Type d'identifiant national de structure dans le RASS | 24/04/2020 |
 | [JDV_J105_EnsembleDiplome_RASS](ValueSet-JDV-J105-EnsembleDiplome-RASS.md) | Ensemble des diplômes et qualifications du RASS | 23/02/2026 |
-| [JDV_J106_EnsembleProfession_RASS](ValueSet-JDV-J106-EnsembleProfession-RASS.md) | Ensemble des professions du RASS | 28/03/2025 |
+| [JDV_J106_EnsembleProfession_RASS](ValueSet-JDV-J106-EnsembleProfession-RASS.md) | Ensemble des professions du RASS | 30/03/2026 |
 | [JDV_J107_EnsembleSavoirFaire_RASS](ValueSet-JDV-J107-EnsembleSavoirFaire-RASS.md) | Ensemble des savoir-faire et compétences du RASS | 22/12/2025 |
 | [JDV_J108_EnsembleFonction_RASS](ValueSet-JDV-J108-EnsembleFonction-RASS.md) | Ensemble des fonctions et rôles du RASS | 30/03/2026 |
 | [JDV_J110_StatutVisibiliteDocument_CISIS](ValueSet-JDV-J110-StatutVisibiliteDocument-CISIS.md) | Restriction d'audience applicable aux objets référencés liste - CISIS | 24/04/2020 |
@@ -222,7 +222,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J207_Civilite_ROR](ValueSet-JDV-J207-Civilite-ROR.md) | Civilité | 26/08/2022 |
 | [JDV_J208_CiviliteExercice_ROR](ValueSet-JDV-J208-CiviliteExercice-ROR.md) | Civilité d'exercice | 26/08/2022 |
 | [JDV_J209_TypeSavoirFaire_ROR](ValueSet-JDV-J209-TypeSavoirFaire-ROR.md) | Type de savoir-faire | 16/10/2025 |
-| [JDV_J210_SpecialiteOrdinale_ROR](ValueSet-JDV-J210-SpecialiteOrdinale-ROR.md) | Spécialité ordinale | 30/10/2023 |
+| [JDV_J210_SpecialiteOrdinale_ROR](ValueSet-JDV-J210-SpecialiteOrdinale-ROR.md) | Spécialité ordinale | 30/03/2026 |
 | [JDV_J211_CompetenceExclusive_ROR](ValueSet-JDV-J211-CompetenceExclusive-ROR.md) | Compétence exclusive | 26/08/2022 |
 | [JDV_J212_OrientationParticuliere_ROR](ValueSet-JDV-J212-OrientationParticuliere-ROR.md) | Orientation particulière | 26/08/2022 |
 | [JDV_J213_CapaciteSavoirFaire_ROR](ValueSet-JDV-J213-CapaciteSavoirFaire-ROR.md) | Capacité (savoir-faire) | 26/08/2022 |
@@ -241,7 +241,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J226_ModaliteAccueil_ROR](ValueSet-JDV-J226-ModaliteAccueil-ROR.md) | Modalité d'accueil | 30/03/2026 |
 | [JDV_J227_NiveauExpertise_ROR](ValueSet-JDV-J227-NiveauExpertise-ROR.md) | Niveau de ressources humaines et matérielles utiles pour la réalisation de l'offre | 22/12/2025 |
 | [JDV_J228_TypeCaracteristiqueEquipement_ROR](ValueSet-JDV-J228-TypeCaracteristiqueEquipement-ROR.md) | Type de caractéristique équipement | 26/08/2022 |
-| [JDV_J229_ProfessionSante_ROR](ValueSet-JDV-J229-ProfessionSante-ROR.md) | Type de caractéristique équipement | 26/08/2022 |
+| [JDV_J229_ProfessionSante_ROR](ValueSet-JDV-J229-ProfessionSante-ROR.md) | Type de caractéristique équipement | 30/03/2026 |
 | [JDV_J231_XdsTypesIdentifiantsReferenceId_DMP](ValueSet-JDV-J231-XdsTypesIdentifiantsReferenceId-DMP.md) | Types d'identifiants utilisés dans la métadonnée XDS referenceIdList de la fiche du document dans le cadre du DMP | 16/12/2022 |
 | [JDV_J232_Competence_ROR](ValueSet-JDV-J232-Competence-ROR.md) | Compétence | 28/06/2024 |
 | [JDV_J233_TypeDiplome_EPARS](ValueSet-JDV-J233-TypeDiplome-EPARS.md) | Jeu de valeur intégrant les types de diplômes pour EPARS | 25/04/2025 |

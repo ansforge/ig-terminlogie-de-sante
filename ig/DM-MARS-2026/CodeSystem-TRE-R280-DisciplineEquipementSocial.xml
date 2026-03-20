@@ -228,6 +228,14 @@
   <concept>
     <code value="259"/>
     <display value="Prévention spécialisée"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://snomed.info/sct"/>
+        <code value="900000000000013009"/>
+      </use>
+      <value value="Prev.spécialisée."/>
+    </designation>
     <property>
       <code value="dateValid"/>
       <valueDateTime value="2018-10-26T12:00:00+01:00"/>

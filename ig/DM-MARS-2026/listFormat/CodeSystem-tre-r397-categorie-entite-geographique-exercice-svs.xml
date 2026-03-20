@@ -2218,11 +2218,11 @@
          <Concept code="286"
                   codeSystem="1.2.250.1.213.1.6.1.378"
                   dateFin=""
-                  dateMaj="20260223000000"
+                  dateMaj="20260330000000"
                   dateValid="19790101000000"
                   displayName="Service de prévention spécialisée"
                   longDesignation="Service de prévention spécialisée"
-                  shortDesignation="Club Equipe de Prév."
+                  shortDesignation="S.P.S."
                   descriptionMetier=""/>
          <Concept code="289"
                   codeSystem="1.2.250.1.213.1.6.1.378"

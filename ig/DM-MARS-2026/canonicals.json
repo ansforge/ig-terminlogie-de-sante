@@ -580,7 +580,7 @@
   "id" : "JDV-J106-EnsembleProfession-RASS",
   "type" : "ValueSet",
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J106-EnsembleProfession-RASS/FHIR/JDV-J106-EnsembleProfession-RASS",
-  "version" : "20250328120000",
+  "version" : "20260330120000",
   "name" : "JDV_J106_EnsembleProfession_RASS",
   "oids" : ["1.2.250.1.213.1.6.1.174"]
 },
@@ -1460,7 +1460,7 @@
   "id" : "JDV-J210-SpecialiteOrdinale-ROR",
   "type" : "ValueSet",
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J210-SpecialiteOrdinale-ROR/FHIR/JDV-J210-SpecialiteOrdinale-ROR",
-  "version" : "20231030120000",
+  "version" : "20260330120000",
   "name" : "JDV_J210_SpecialiteOrdinale_ROR",
   "oids" : ["1.2.250.1.213.3.4.42"]
 },
@@ -1620,7 +1620,7 @@
   "id" : "JDV-J229-ProfessionSante-ROR",
   "type" : "ValueSet",
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J229-ProfessionSante-ROR/FHIR/JDV-J229-ProfessionSante-ROR",
-  "version" : "20220826120000",
+  "version" : "20260330120000",
   "name" : "JDV_J229_ProfessionSante_ROR",
   "oids" : ["1.2.250.1.213.3.4.61"]
 },

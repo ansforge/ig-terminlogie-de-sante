@@ -4176,13 +4176,21 @@ Catégorie d’établissements
   {
     "code" : "286",
     "display" : "Service de prévention spécialisée",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "S.P.S."
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-02-23T00:00:00+01:00"
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
     },
     {
       "code" : "status",

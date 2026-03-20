@@ -11976,15 +11976,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Club Equipe de Prév."
-    },
-    {
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Club, Equipe de prévention"
+      "value" : "S.P.S."
     }],
     "property" : [{
       "code" : "niveau",
@@ -12007,7 +11999,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-02-23T00:00:00+01:00"
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
     },
     {
       "code" : "status",

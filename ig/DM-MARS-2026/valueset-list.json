@@ -213,7 +213,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J106-EnsembleProfession-RASS/FHIR/JDV-J106-EnsembleProfession-RASS",
-    "version" : "20250328120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "JDV_J106_EnsembleProfession_RASS",
     "title" : null,
@@ -1469,7 +1469,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J210-SpecialiteOrdinale-ROR/FHIR/JDV-J210-SpecialiteOrdinale-ROR",
-    "version" : "20231030120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "JDV_J210_SpecialiteOrdinale_ROR",
     "title" : null,
@@ -1690,12 +1690,13 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J229-ProfessionSante-ROR/FHIR/JDV-J229-ProfessionSante-ROR",
-    "version" : "20220826120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "JDV_J229_ProfessionSante_ROR",
     "title" : null,
     "description" : "Type de caractéristique équipement",
-    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante"],
+    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante",
+    "https://mos.esante.gouv.fr/NOS/TRE_R356-ProfessionRessource/FHIR/TRE-R356-ProfessionRessource"],
     "oids" : ["1.2.250.1.213.3.4.61"],
     "sources" : ["1.2.250.1.213.3.4.61"]
   },

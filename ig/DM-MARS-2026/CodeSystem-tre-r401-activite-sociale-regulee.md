@@ -1395,6 +1395,14 @@ Cette TRE hiérarchique remplace les TRE_R280-DisciplineEquipementSocial, TRE_R2
   {
     "code" : "259",
     "display" : "Prévention spécialisée",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Prev.spécialisée."
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-10-26T12:00:00+01:00"

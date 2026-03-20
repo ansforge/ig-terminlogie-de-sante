@@ -119,7 +119,7 @@ CodeSystem permettant définir les propriétés NOS utilisées dans les CodeSyst
   {
     "code" : "specialisationRpps",
     "display" : "Specialisation RPPS",
-    "definition" : "Permet de définir les codes concepts définis par le RPPS",
+    "definition" : "Propriété permettant de spécifier les codes exclusifs appartenant au RPPS",
     "property" : [{
       "code" : "status",
       "valueCode" : "active"
@@ -200,7 +200,7 @@ CodeSystem permettant définir les propriétés NOS utilisées dans les CodeSyst
   {
     "code" : "macroEtatAdministratif",
     "display" : "Macro-etat administratif",
-    "definition" : "Macro-état administratif (actif ou inactif) du code concept",
+    "definition" : "Propriété permettant de préciser le macro état de chaque objet. Cette propriété est de type Coding et les valeurs possible proviennent de la Tre R386 Macro Etat Objet Administratif",
     "property" : [{
       "code" : "status",
       "valueCode" : "active"

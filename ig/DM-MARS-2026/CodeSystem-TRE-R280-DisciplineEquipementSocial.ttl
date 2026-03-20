@@ -331,6 +331,18 @@
   ] [
      fhir:code [ fhir:v "259" ] ;
      fhir:display [ fhir:v "Prévention spécialisée" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "Prev.spécialisée." ]
+     ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
