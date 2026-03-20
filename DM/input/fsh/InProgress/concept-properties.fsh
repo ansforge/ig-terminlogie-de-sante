@@ -38,7 +38,7 @@ Description: "CodeSystem permettant définir les propriétés NOS utilisées dan
 * #specialisationRor "Specialisation ROR" "Propriété permettant de spécifier les codes exclusifs appartenant au ROR"
 * #specialisationRor ^property.code = #status
 * #specialisationRor ^property.valueCode = #active
-* #specialisationRpps "Specialisation RPPS" "Permet de définir les codes concepts définis par le RPPS"
+* #specialisationRpps "Specialisation RPPS" "Propriété permettant de spécifier les codes exclusifs appartenant au RPPS"
 * #specialisationRpps ^property.code = #status
 * #specialisationRpps ^property.valueCode = #active
 * #ror "ROR" "Permet de définir les codes concepts uilisés par le ROR"
@@ -65,7 +65,7 @@ Description: "CodeSystem permettant définir les propriétés NOS utilisées dan
 * #documentJustificatifFiness "Document Justificatif Finess" "Permet de définir les codes à inclure dans le JdvJ294DocumentJustificatifFiness"
 * #documentJustificatifFiness ^property.code = #status
 * #documentJustificatifFiness ^property.valueCode = #active
-* #macroEtatAdministratif "Macro-etat administratif" "Macro-état administratif (actif ou inactif) du code concept"
+* #macroEtatAdministratif "Macro-etat administratif" "Propriété permettant de préciser le macro état de chaque objet. Cette propriété est de type Coding et les valeurs possible proviennent de la Tre R386 Macro Etat Objet Administratif"
 * #macroEtatAdministratif ^property.code = #status
 * #macroEtatAdministratif ^property.valueCode = #active
 * #hasTypeRoleMember "Has Type Role Member" "Type de rôle des membres des concepts type de groupement"
