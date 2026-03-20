@@ -653,6 +653,10 @@ Description: "Cette TRE hiérarchique remplace les TRE_R280-DisciplineEquipement
 * #258 ^property[+].code = #finess
 * #258 ^property[=].valueBoolean = true
 * #259 "Prévention spécialisée"
+* #259 ^designation[0].language = #fr-FR
+* #259 ^designation[=].use.system = "http://snomed.info/sct"
+* #259 ^designation[=].use = $sct#900000000000013009
+* #259 ^designation[=].value = "Prev.spécialisée."
 * #259 ^property[0].code = #dateValid
 * #259 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #259 ^property[+].code = #dateMaj
