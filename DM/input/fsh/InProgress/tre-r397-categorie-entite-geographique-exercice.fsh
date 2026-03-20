@@ -5673,15 +5673,11 @@ Description: "Cette TRE hierarchique remplace les TRE actuelles TRE_R66_Categori
 * #286 ^designation[0].language = #fr-FR
 * #286 ^designation[=].use.system = "http://snomed.info/sct"
 * #286 ^designation[=].use = $sct#900000000000013009
-* #286 ^designation[=].value = "Club Equipe de Prév."
-* #286 ^designation[+].language = #fr-FR
-* #286 ^designation[=].use.system = "http://snomed.info/sct"
-* #286 ^designation[=].use = $sct#900000000000013009
-* #286 ^designation[=].value = "Club, Equipe de prévention"
+* #286 ^designation[=].value = "S.P.S."
 * #286 ^property[+].code = #dateValid
 * #286 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #286 ^property[+].code = #dateMaj
-* #286 ^property[=].valueDateTime = "2026-02-23T00:00:00+01:00"
+* #286 ^property[=].valueDateTime = "2026-03-30T00:00:00+01:00"
 * #286 ^property[+].code = #status
 * #286 ^property[=].valueCode = #active
 * #286 ^property[+].code = #rass
