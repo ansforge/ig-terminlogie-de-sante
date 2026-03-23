@@ -67,5 +67,6 @@ body:
     attributes:
       value: |
         > [!NOTE]
-        > **Vous pouvez créer une demande de mise à jour de votre JDV en créant une [issue spécifique](./new/choose).**
-        > **Le jeu de valeurs reprenant l'intégralité des codes de la TRE sera automatiquement mis à jour.** 
+        > **Vous pouvez créer une demande de mise à jour de votre JDV en sélectionnant le template *DM - Jeu de valeurs* depuis l'onglet de [création des issues](./issues).**
+        > **Les modifications de libellés sont toujours reportées automatiquement dans les jeux de valeurs, ceci afin d'éviter un déphasage avec la TRE source et donc des remontées d'erreurs.**
+        > **Les ajouts/mises en obsolescence de codes seront automatiquement reportés dans les jeux de valeurs ayant une règle de mise à jour le spécifiant.** 

@@ -99,5 +99,4 @@ body:
     attributes:
       value: |
         > [!NOTE]
-        > **Si vous souhaitez créer un JDV métier basé sur cette nouvelle TRE alors vous devez créer une [issue spécifique](./new/choose).** 
-        > **Un jeu de valeurs reprenant l'intégralité des codes de la TRE proposée sera automatiquement créé.**
+        > **Si vous souhaitez créer un JDV métier basé sur cette nouvelle TRE, alors vous devez créer une issue spécifique en sélectionnant le template *DM - Création - Jeu de valeurs* depuis l'onglet de [création des issues](./issues).** 
