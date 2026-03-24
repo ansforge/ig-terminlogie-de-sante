@@ -60,13 +60,12 @@ body:
   - type: textarea
     id: JDVimpact
     attributes:
-      label: Si les modifications demandées impactent un JDV métier ou une table d'association, veuillez indiquer leurs noms.
+      label: Les impacts sont à renseigner par l'équipe NOS et sont sous leur responsabilité, tout en restant ouverts à l'auteur de la DM.
     validations:
       required: false 
   - type: markdown
     attributes:
       value: |
         > [!NOTE]
-        > **Vous pouvez créer une demande de mise à jour de votre JDV en sélectionnant le template *DM - Jeu de valeurs* depuis l'onglet de [création des issues](./issues).**
         > **Les modifications de libellés sont toujours reportées automatiquement dans les jeux de valeurs, ceci afin d'éviter un déphasage avec la TRE source et donc des remontées d'erreurs.**
         > **Les ajouts/mises en obsolescence de codes seront automatiquement reportés dans les jeux de valeurs ayant une règle de mise à jour le spécifiant.** 

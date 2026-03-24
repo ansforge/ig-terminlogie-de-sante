@@ -95,8 +95,3 @@ body:
         - PRO ; Créneau accessible par l'ensemble des professionnels de santé ; Les créneaux ouverts aux professionnels, dans le cadre de la prise de RDV par un tiers - Créneau de soins défini par un professionnel de santé ou son délégataire dans son logiciel de prise de RDV accessible à l'ensemble des professionnels de santé
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: |
-        > [!NOTE]
-        > **Si vous souhaitez créer un JDV métier basé sur cette nouvelle TRE, alors vous devez créer une issue spécifique en sélectionnant le template *DM - Création - Jeu de valeurs* depuis l'onglet de [création des issues](./issues).** 
