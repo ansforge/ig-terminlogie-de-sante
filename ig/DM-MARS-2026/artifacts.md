@@ -722,10 +722,14 @@ These define sets of codes used by systems conforming to this implementation gui
 | [JDV_J99_InseeNAFrav2Niveau5_RASS](ValueSet-JDV-J99-InseeNAFrav2Niveau5-RASS.md) | Sous-classes de la Nomenclature Activités Française (INSEE) des prof du RASS |
 | [Jdv Depistage Neonatal CISIS](ValueSet-jdv-depistage-neonatal-cisis.md) | Jdv Depistage Neonatal CISIS |
 | [Jdv Etat De Conscience CISIS](ValueSet-jdv-etat-de-conscience-cisis.md) | Jdv Etat De Conscience CISIS |
+| [Jdv J289 Type Groupe Gco Finess](ValueSet-jdv-j289-type-groupe-gco-finess.md) | Jeu de valeurs Finess contenant les types de Groupement de Coopération Organique (GCO). |
+| [Jdv J296 Type Role Entite Groupe Finess](ValueSet-jdv-j296-type-role-entite-groupe-finess.md) | Jeu de valeurs FINESS contenant les types de rôles que peuvent exercer des entités participants à des groupements |
 | [Jdv J301 Finess Statut Juridique Niv1 Finess](ValueSet-jdv-j301-finess-statut-juridique-niv1-finess.md) | Ce JDV contient les agrégats Niv1 des statust juridiques (JDV créé à l’image de l’ancienne TRE_R70-FinessAgregatStatutJuridique) |
 | [Jdv J302 Finess Statut Juridique Niv2 Finess](ValueSet-jdv-j302-finess-statut-juridique-niv2-finess.md) | Ce JDV contient les agrégats Niv2 des statuts juridiques (JDV créé à l’image de l’ancienne TRE_R68-FinessAgregatStatutJuridiqueNiv1) |
 | [Jdv J303 Finess Statut Juridique Niv3 Finess](ValueSet-jdv-j303-finess-statut-juridique-niv3-finess.md) | Ce JDV contient les agrégats Niv3 des statuts juridiques (JDV créé à l’image de l’ancienne TRE_R69-FinessAgregatStatutJuridiqueNiv2) |
 | [Jdv J304 Finess Statut Juridique Finess](ValueSet-jdv-j304-finess-statut-juridique-finess.md) | Ce JDV comporte tous les status juridiques hors agrégat (JDV créé à l’image de l’ancienne TRE_R72-FinessStatutJuridique) |
+| [Jdv J305 Type Groupement Finess](ValueSet-jdv-j305-type-groupement-finess.md) | Jeu de valeurs FINESS contenant les types de groupement utilisables dans FINESS. Groupement de coopération conventionnelle ou Groupement de coopération organique |
+| [Jdv J306 Type Groupe Gcc Finess](ValueSet-jdv-j306-type-groupe-gcc-finess.md) | Jeu de valeurs FINESS contenant les types de Groupement de Coopération conventionnelle (GCC). |
 | [Jdv J307 Categorie Entite Geographique Exercice Niv1 Finess](ValueSet-jdv-j307-categorie-entite-geographique-exercice-niv1-finess.md) | Ce JDV contient tous les agrégats Niv1 d’EGE (JDV créé à l’image de l’ancienne TRE_R65-AgregatCategorieEtablissement) |
 | [Jdv J308 Categorie Entite Geographique Exercice Niv2 Finess](ValueSet-jdv-j308-categorie-entite-geographique-exercice-niv2-finess.md) | Ce JDV contient tous les agrégats Niv 2 d’EGE (JDV crée à l’image de l’ancienneTRE_R63-AgregatCategorieEtablissementNiv1) |
 | [Jdv J309 Categorie Entite Geographique Exercice Niv3 Finess](ValueSet-jdv-j309-categorie-entite-geographique-exercice-niv3-finess.md) | Ce JDV contient tous les agrégats Niv3 d’EGE (JDV créé à l’image de l’ancienneTRE_R64-AgregatCategorieEtablissementNiv2) |
@@ -745,6 +749,9 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Jdv J367 Type Projet Personnalise Ms](ValueSet-jdv-j367-type-projet-personnalise-ms.md) | Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l’usager, son entourage familial et professionnel du médico-social. |
 | [Jdv J368 Categorie Etablissement Cisis](ValueSet-jdv-j368-categorie-etablissement-cisis.md) | JDV à l’image de l’ensemble des valeurs actives de la terminologie TRE_R66-CategorieEtablissement |
 | [Jdv J370 Type Contrat Sejour Ms](ValueSet-jdv-j370-type-contrat-sejour-ms.md) | Type de contrat conclu entre l’établissement/service et la personne/son représentant légal. |
+| [Jdv J373 Type Autorite](ValueSet-jdv-j373-type-autorite.md) | Jeu de valeurs contenant les différents types d’autorité (actifs ou inactifs) |
+| [Jdv J374 Autorite](ValueSet-jdv-j374-autorite.md) | Jeu de valeurs contenant la liste des autorités quelque soit la catégorie d’autorité et quelque soir l’état de l’autorité active ou inactive) |
+| [Jdv J375 Autorite Ordre](ValueSet-jdv-j375-autorite-ordre.md) | Jeu de valeurs comportant uniquement les autorités de type Ordre. |
 | [Jdv J376 Public Activite Smsse Regulee Rass](ValueSet-jdv-j376-public-activite-smsse-regulee-rass.md) | Ce JDV remplace le JDV_J137_Clientele_RASS |
 | [Jdv J377 Categorie Entite Geographique Exercice Ror](ValueSet-jdv-j377-categorie-entite-geographique-exercice-ror.md) | Ce JDV remplace le JDV_J55_CategorieEG_ROR |
 | [Jdv J379 Activite Sociale Regulee Rass](ValueSet-jdv-j379-activite-sociale-regulee-rass.md) | Ce JDV remplace le JDV_J136_DisciplineEquipementSocial_RASS |
@@ -786,7 +793,23 @@ These define sets of codes used by systems conforming to this implementation gui
 | [ValueSet_EDQM_All](ValueSet-vs-edqm-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie EDQM |
 | [ValueSet_NUVA_All](ValueSet-vs-nuva-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA |
 | [ValueSet_SMS_All](ValueSet-vs-sms-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie SMS, Dictionnaire des substances médicamenteuses |
+| [Vs Tre R272 Equipement Materiel Lourd All](ValueSet-vs-tre-r272-equipement-materiel-lourd-all.md) | Jeu de valeurs ALL contenant les équipements matériels lourds |
+| [Vs Tre R274 Activite Sanitaire Regulee All](ValueSet-vs-tre-r274-activite-sanitaire-regulee-all.md) | Jeu de valeurs FINESS contenant les activités sanitaires soumises à une régulation de la part de l’ARS. |
+| [Vs Tre R361 Fonction Publique All](ValueSet-vs-tre-r361-fonction-publique-all.md) | Jeu de valeurs ALL contenant les versants de la fonction publique. |
+| [Vs Tre R362 Type Budget All](ValueSet-vs-tre-r362-type-budget-all.md) | Jeu de valeurs ALL contenant les types de budget associés aux Entités Géographiques d’Exercice (EGE) dans FINESS+. |
+| [Vs Tre R375 Mode Financement All](ValueSet-vs-tre-r375-mode-financement-all.md) | Jeu de valeurs ALL contenant les modes de financement associés aux capacités de certaines activitées SMSSE. |
+| [Vs Tre R381 Activite Amm All](ValueSet-vs-tre-r381-activite-amm-all.md) | Jeu de valeurs ALL contenant les activités de soin AMM |
+| [Vs Tre R382 Modalite Act De Soin Amm All](ValueSet-vs-tre-r382-modalite-act-de-soin-amm-all.md) | Jeu de valeurs ALL contenant les modalités pour les activités de soin AMM |
+| [Vs Tre R383 Mention Act De Soin Amm All](ValueSet-vs-tre-r383-mention-act-de-soin-amm-all.md) | Jeu de valeurs ALL contenant les mentions pour les activités de soin AMM |
+| [Vs Tre R384 Pratique Therapeutique Specifique Act De Soin Amm All](ValueSet-vs-tre-r384-pratique-therapeutique-specifique-act-soin-amm-all.md) | Jeu de valeurs ALL contenant les pratiques thérapeutiques spécifiques pour les activités de soin AMM |
+| [Vs Tre R385 Declaration Act De Soin Amm All](ValueSet-vs-tre-r385-declaration-act-de-soin-amm-all.md) | Jeu de valeurs ALL contenant les déclarations pour les activités de soin AMM |
+| [Vs Tre R388 Type Logement All](ValueSet-vs-tre-r388-type-logement-all.md) | Jeu de valeurs ALL contenant les types de logement associés aux capacités des structures FINESS |
+| [Vs Tre R404 Mode Fonctionnement Activite Smsse Regulee All](ValueSet-vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all.md) | Jeu de valeurs ALL contenant les modes de fonctinonemment des activités ssmsse régulées |
+| [Vs Tre R405 Modalite Activite Smsse Regulee All](ValueSet-vs-tre-r405-modalite-activite-smsse-regulee-all.md) | Jeu de valeurs ALL contenant les modalités des activités SSMSE régulées |
+| [Vs Tre R406 Forme Activite Smsse Regulee All](ValueSet-vs-tre-r406-forme-activite-smsse-regulee-all.md) | Jeu de valeurs ALL contenant les formes des activites smsse régulées |
+| [Vs Tre R62 Domaine All](ValueSet-vs-tre-r62-domaine-all.md) | Jeu de valeurs ALL contenant les domaines |
 | [Vs Tre R73 Espic All](ValueSet-vs-tre-r73-espic-all.md) | Jeu de valeurs ALL contenant tous les établissements de santé privés d’intérêt collectif |
+| [Vs Tre R74 Mode Fixation Tarifaire All](ValueSet-vs-tre-r74-mode-fixation-tarifaire-all.md) | Jeu de valeurs ALL contenant les modes de fixation tarifaire |
 | [WorkScheduleODH](ValueSet-jdv-hl7-v3-WorkScheduleODH-cisis.md) | WorkScheduleODH |
 | [hl7VS-employmentStatus](ValueSet-jdv-hl7-v2-0066-cisis.md) | hl7VS-employmentStatus |
 | [hl7VS-specimenCollectionMethod](ValueSet-jdv-hl7-v2-0488-cisis.md) | hl7VS-specimenCollectionMethod |
@@ -1114,6 +1137,19 @@ These define new code systems used by systems conforming to this implementation 
 | [TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies](CodeSystem-terminologie-cisis.md) | Terminologie multi-domaines créée et maintenue par l’ANS contenant les termes non trouvés dans les autres terminologies internationales ou nationales. |
 | [TimingEvent](CodeSystem-v3-TimingEvent.md) | **** MISSING DESCRIPTION **** |
 | [TimingEventSupplementFr](CodeSystem-TimingEvent-supplement-fr.md) | Traduction Française |
+| [Tre R360 Type Role Entite Groupe](CodeSystem-tre-r360-type-role-entite-groupe.md) | Nomenclature des types de rôles que peuvent exercer des entités participants à des groupements |
+| [Tre R361 Fonction Publique](CodeSystem-tre-r361-fonction-publique.md) | Nomenclature des versants de la fonction publique |
+| [Tre R362 Type Budget](CodeSystem-tre-r362-type-budget.md) | Nomenclature des types de budget associés aux Entités Géographiques d’Exercice (EGE) dans FINESS+ |
+| [Tre R371 Type Groupe Gcc](CodeSystem-tre-r371-type-groupe-gcc.md) | Nomenclature des types de groupement Concernant les groupement de structure on a 2 catégories de regroupement : les Groupement de Coopération Conventionnelle, les Groupement de Coopération Organique |
+| [Tre R372 Type Groupe Gco](CodeSystem-tre-r372-type-groupe-gco.md) | Nomenclature des types de Groupement de Coopération Organique (GCO) |
+| [Tre R375 Mode Financement](CodeSystem-tre-r375-mode-financement.md) | Nomenclature des modes de financement associés aux capacités de certaines activitées SMSSE |
+| [Tre R381 Activite Amm](CodeSystem-tre-r381-activite-amm.md) | Nomenclature des activités de soin AMM |
+| [Tre R382 Modalite Act De Soin Amm](CodeSystem-tre-r382-modalite-act-de-soin-amm.md) | Nomenclature des modalités pour les activités de soin AMM |
+| [Tre R383 Mention Act De Soin Amm](CodeSystem-tre-r383-mention-act-de-soin-amm.md) | Nomenclature des mentions pour les activités de soin AMM |
+| [Tre R384 Pratique Therapeutique Specifique Act De Soin Amm](CodeSystem-tre-r384-pratique-therapeutique-specifique-act-de-soin-amm.md) | Nomenclature des pratiques thérapeutiques spécifiques pour les activités de soin AMM |
+| [Tre R385 Declaration Act De Soin Amm](CodeSystem-tre-r385-declaration-act-de-soin-amm.md) | Nomenclature des déclarations pour les activités de soin AMM |
+| [Tre R387 Type Groupement](CodeSystem-tre-r387-type-groupement.md) | Nomenclature des types de groupement utilisables dans FINESS. Groupement de coopération conventionnelle ou Groupement de coopération organique |
+| [Tre R388 Type Logement](CodeSystem-tre-r388-type-logement.md) | Nomenclature des types de logement associées aux capacités Remarque : cette nomenclature est initialisée avec les besoins FINESS+ |
 | [Tre R389 Statut Bilan Projet Personnalise](CodeSystem-tre-r389-statut-bilan-projet-personnalise.md) | Statut du bilan du projet personnalisé. |
 | [Tre R390 Type Projet Personnalise](CodeSystem-tre-r390-type-projet-personnalise.md) | Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l’usager, son entourage familial et professionnel du médico-social. |
 | [Tre R393 Type Contrat Sejour](CodeSystem-tre-r393-type-contrat-sejour.md) | Type de contrat conclu entre l’établissement/service et la personne/son représentant légal lors de son entrée en établissement |

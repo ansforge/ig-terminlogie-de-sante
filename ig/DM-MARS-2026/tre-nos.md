@@ -11,6 +11,19 @@ Vous touverez ici la liste des terminologies du NOS.
 | | | |
 | :--- | :--- | :--- |
 | Name | Description | date_maj |
+| [TreR360TypeRoleEntiteGroupe](CodeSystem-tre-r360-type-role-entite-groupe.md) | Nomenclature des types de rôles que peuvent exercer des entités participants à des groupements | 30/03/2026 |
+| [TreR361FonctionPublique](CodeSystem-tre-r361-fonction-publique.md) | Nomenclature des versants de la fonction publique | 30/03/2026 |
+| [TreR362TypeBudget](CodeSystem-tre-r362-type-budget.md) | Nomenclature des types de budget associés aux Entités Géographiques d'Exercice (EGE) dans FINESS+ | 30/03/2026 |
+| [TreR371TypeGroupeGcc](CodeSystem-tre-r371-type-groupe-gcc.md) | Nomenclature des types de groupement Concernant les groupement de structure on a 2 catégories de regroupement : les Groupement de Coopération Conventionnelle, les Groupement de Coopération Organique | 30/03/2026 |
+| [TreR372TypeGroupeGco](CodeSystem-tre-r372-type-groupe-gco.md) | Nomenclature des types de Groupement de Coopération Organique (GCO) | 30/03/2026 |
+| [TreR375ModeFinancement](CodeSystem-tre-r375-mode-financement.md) | Nomenclature des modes de financement associés aux capacités de certaines activitées SMSSE | 30/03/2026 |
+| [TreR381ActiviteAmm](CodeSystem-tre-r381-activite-amm.md) | Nomenclature des activités de soin AMM | 30/03/2026 |
+| [TreR382ModaliteActDeSoinAmm](CodeSystem-tre-r382-modalite-act-de-soin-amm.md) | Nomenclature des modalités pour les activités de soin AMM | 30/03/2026 |
+| [TreR383MentionActDeSoinAmm](CodeSystem-tre-r383-mention-act-de-soin-amm.md) | Nomenclature des mentions pour les activités de soin AMM | 30/03/2026 |
+| [TreR384PratiqueTherapeutiqueSpecifiqueActDeSoinAmm](CodeSystem-tre-r384-pratique-therapeutique-specifique-act-de-soin-amm.md) | Nomenclature des pratiques thérapeutiques spécifiques pour les activités de soin AMM | 30/03/2026 |
+| [TreR385DeclarationActDeSoinAmm](CodeSystem-tre-r385-declaration-act-de-soin-amm.md) | Nomenclature des déclarations pour les activités de soin AMM | 30/03/2026 |
+| [TreR387TypeGroupement](CodeSystem-tre-r387-type-groupement.md) | Nomenclature des types de groupement utilisables dans FINESS. Groupement de coopération conventionnelle ou Groupement de coopération organique | 30/03/2026 |
+| [TreR388TypeLogement](CodeSystem-tre-r388-type-logement.md) | Nomenclature des types de logement associées aux capacités Remarque : cette nomenclature est initialisée avec les besoins FINESS+ | 30/03/2026 |
 | [TreR396Autorite](CodeSystem-tre-r396-autorite.md) | liste des autorités structurée en plusieurs types d'autorités : Ordres, ARS, ... | 30/03/2026 |
 | [TreR397CategorieEntiteGeographiqueExercice](CodeSystem-tre-r397-categorie-entite-geographique-exercice.md) | Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement, TRE-R63-AgregatCategorieEtablissementNiv1, TRE-R64-AgregatCategorieEtablissementNiv2, TRE-R65-AgregatCategorieEtablissement et ASS-X10-AgregatCategorieEtablissement. Cette TRE possède des propriétésspécifiques : le niveau d'agrégat des EGE de 1 à 4 (du plus large au plus fin), le parent d'un agrégat d'EGE ou d'un EGE, la relation entre un code et le domaine ( TRE R62), un indicateur pour les EGE spécifiques au ROR ( non finess) et les relations nécessaires à la construction des JDV dynamiques associés | 30/03/2026 |
 | [TreR389StatutBilanProjetPersonnalise](CodeSystem-tre-r389-statut-bilan-projet-personnalise.md) | Statut du bilan du projet personnalisé. | 18/04/2025 |

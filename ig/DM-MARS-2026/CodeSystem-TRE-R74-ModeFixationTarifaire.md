@@ -18,6 +18,7 @@ Mode de fixation tarifaire
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J259_ModeFixationTarifaire_RASS](ValueSet-JDV-J259-ModeFixationTarifaire-RASS.md)
+* [VsTreR74ModeFixationTarifaireAll](ValueSet-vs-tre-r74-mode-fixation-tarifaire-all.md)
 
 
 
@@ -57,6 +58,7 @@ Mode de fixation tarifaire
     }]
   }],
   "caseSensitive" : false,
+  "valueSet" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire?vs",
   "content" : "complete",
   "count" : 52,
   "property" : [{

@@ -11,6 +11,13 @@ Vous touverez ici la liste des JDV du NOS.
 | | | |
 | :--- | :--- | :--- |
 | Name | Description | date_maj |
+| [JdvJ289TypeGroupeGcoFiness](ValueSet-jdv-j289-type-groupe-gco-finess.md) | Jeu de valeurs Finess contenant les types de Groupement de Coopération Organique (GCO). | 30/03/2026 |
+| [JdvJ296TypeRoleEntiteGroupeFiness](ValueSet-jdv-j296-type-role-entite-groupe-finess.md) | Jeu de valeurs FINESS contenant les types de rôles que peuvent exercer des entités participants à des groupements | 30/03/2026 |
+| [JdvJ305TypeGroupementFiness](ValueSet-jdv-j305-type-groupement-finess.md) | Jeu de valeurs FINESS contenant les types de groupement utilisables dans FINESS. Groupement de coopération conventionnelle ou Groupement de coopération organique | 30/03/2026 |
+| [JdvJ306TypeGroupeGccFiness](ValueSet-jdv-j306-type-groupe-gcc-finess.md) | Jeu de valeurs FINESS contenant les types de Groupement de Coopération conventionnelle (GCC). | 30/03/2026 |
+| [JdvJ373TypeAutorite](ValueSet-jdv-j373-type-autorite.md) | Jeu de valeurs contenant les différents types d'autorité (actifs ou inactifs) | 30/03/2026 |
+| [JdvJ374Autorite](ValueSet-jdv-j374-autorite.md) | Jeu de valeurs contenant la liste des autorités quelque soit la catégorie d'autorité et quelque soir l'état de l'autorité active ou inactive) | 30/03/2026 |
+| [JdvJ375AutoriteOrdre](ValueSet-jdv-j375-autorite-ordre.md) | Jeu de valeurs comportant uniquement les autorités de type Ordre. | 30/03/2026 |
 | [JdvJ380CategorieEntiteGeographiqueExerciceRass](ValueSet-jdv-j380-categorie-entite-geographique-exercice-rass.md) | Ce JDV remplace le JDV-J129-CategorieEtablissement-RASS | 23/02/2026 |
 | [JdvJ389SexeProvenanceRnipp](ValueSet-jdv-j389-sexe-provenance-rnipp.md) | Liste de valeurs du code Sexe issues de l'INSEE pour le RPPS | 30/03/2026 |
 | [JdvJ390OrigineInterruptionExerciceRpps](ValueSet-jdv-j390-origine-interruption-exercice-rpps.md) | Liste de valeurs pour le RPPS permettant de définir l'origine d'une interruption d'exercice | 30/03/2026 |

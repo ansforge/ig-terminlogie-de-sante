@@ -334,6 +334,19 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | TerminologieCISIS | https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis | 1.2.250.1.213.1.1.4.322 |
 | TimingEvent | http://terminology.hl7.org/CodeSystem/v3-TimingEvent | 2.16.840.1.113883.5.139 |
 | TimingEventSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/timingEvent-supplement-fr |  |
+| TreR360TypeRoleEntiteGroupe | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe | 1.2.250.1.213.1.6.1.254 |
+| TreR361FonctionPublique | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r361-fonction-publique | 1.2.250.1.213.1.6.1.255 |
+| TreR362TypeBudget | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r362-type-budget | 1.2.250.1.213.1.6.1.256 |
+| TreR371TypeGroupeGcc | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r371-type-groupe-gcc | 1.2.250.1.213.1.6.1.287 |
+| TreR372TypeGroupeGco | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r372-type-groupe-gco | 1.2.250.1.213.1.6.1.288 |
+| TreR375ModeFinancement | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r375-mode-financement | 1.2.250.1.213.1.6.1.290 |
+| TreR381ActiviteAmm | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm | 1.2.250.1.213.1.6.1.296 |
+| TreR382ModaliteActDeSoinAmm | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r382-modalite-act-de-soin-amm | 1.2.250.1.213.1.6.1.297 |
+| TreR383MentionActDeSoinAmm | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r383-mention-act-de-soin-amm | 1.2.250.1.213.1.6.1.298 |
+| TreR384PratiqueTherapeutiqueSpecifiqueActDeSoinAmm | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r384-pratique-therapeutique-specifique-act-de-soin-amm | 1.2.250.1.213.1.6.1.299 |
+| TreR385DeclarationActDeSoinAmm | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r385-declaration-act-de-soin-amm | 1.2.250.1.213.1.6.1.300 |
+| TreR387TypeGroupement | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement | 1.2.250.1.213.1.6.1.302 |
+| TreR388TypeLogement | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement | 1.2.250.1.213.1.6.1.303 |
 | TreR389StatutBilanProjetPersonnalise | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise | 1.2.250.1.213.3.3.257 |
 | TreR390TypeProjetPersonnalise | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise | 1.2.250.1.213.3.3.258 |
 | TreR393TypeContratSejour | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour | 1.2.250.1.213.3.3.260 |
