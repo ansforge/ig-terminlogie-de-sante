@@ -606,9 +606,6 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #30 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
 * #30 ^property[+].code = #dateMaj
 * #30 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
-* #30 ^property[+].code = #autoriteEpars
-* #30 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #30 ^property[=].valueCoding = $tre-r396-autorite#ARS-57
 * #30 ^property[+].code = #region
 * #30 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #30 ^property[=].valueCoding = $TRE-R30-RegionOM#76
@@ -1942,7 +1939,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #975 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #975 ^property[+].code = #region
 * #975 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #975 ^property[=].valueCoding = $tre-r396-autorite#975
+* #975 ^property[=].valueCoding = $TRE-R30-RegionOM#975
 * #975 ^property[+].code = #status
 * #975 ^property[=].valueCode = #active
 * #976 "Mayotte"
@@ -1954,9 +1951,6 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #976 ^property[=].valueDateTime = "2008-01-01T00:00:00+01:00"
 * #976 ^property[+].code = #dateMaj
 * #976 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
-* #976 ^property[+].code = #autoriteEpars
-* #976 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #976 ^property[=].valueCoding = $tre-r396-autorite#ARS-86
 * #976 ^property[+].code = #region
 * #976 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #976 ^property[=].valueCoding = $TRE-R30-RegionOM#06
@@ -2019,7 +2013,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #984 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #984 ^property[+].code = #region
 * #984 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #984 ^property[=].valueCoding = $tre-r396-autorite#984
+* #984 ^property[=].valueCoding = $TRE-R30-RegionOM#984
 * #984 ^property[+].code = #status
 * #984 ^property[=].valueCode = #active
 * #985 "Mayotte (Ancien Code)"
@@ -2055,7 +2049,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #986 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #986 ^property[+].code = #region
 * #986 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #986 ^property[=].valueCoding = $tre-r396-autorite#986
+* #986 ^property[=].valueCoding = $TRE-R30-RegionOM#986
 * #986 ^property[+].code = #status
 * #986 ^property[=].valueCode = #active
 * #987 "Polynésie française"
@@ -2073,7 +2067,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #987 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #987 ^property[+].code = #region
 * #987 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #987 ^property[=].valueCoding = $tre-r396-autorite#987
+* #987 ^property[=].valueCoding = $TRE-R30-RegionOM#987
 * #987 ^property[+].code = #status
 * #987 ^property[=].valueCode = #active
 * #988 "Nouvelle-Calédonie"
@@ -2091,7 +2085,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #988 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #988 ^property[+].code = #region
 * #988 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #988 ^property[=].valueCoding = $tre-r396-autorite#988
+* #988 ^property[=].valueCoding = $TRE-R30-RegionOM#988
 * #988 ^property[+].code = #status
 * #988 ^property[=].valueCode = #active
 * #989 "La Passion-Clipperton"
@@ -2109,7 +2103,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #989 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #989 ^property[+].code = #region
 * #989 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #989 ^property[=].valueCoding = $tre-r396-autorite#989
+* #989 ^property[=].valueCoding = $TRE-R30-RegionOM#989
 * #989 ^property[+].code = #status
 * #989 ^property[=].valueCode = #active
 * #91352 "Département D'Alger et Orleansville (91352)"
@@ -2205,7 +2199,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #99138 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #99138 ^property[+].code = #region
 * #99138 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #99138 ^property[=].valueCoding = $tre-r396-autorite#99138
+* #99138 ^property[=].valueCoding = $TRE-R30-RegionOM#99138
 * #99138 ^property[+].code = #status
 * #99138 ^property[=].valueCode = #active
 * #2A "Corse-du-Sud"
