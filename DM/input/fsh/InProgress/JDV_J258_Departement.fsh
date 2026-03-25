@@ -2,7 +2,7 @@ ValueSet: JDV_J258_Departement
 Id: JDV-J258-Departement
 Description: "Tous les codes actifs des départements et collectivités d'outre-mer actives + Monaco du COG INSEE"
 * ^meta.versionId = "5"
-* ^meta.lastUpdated = "2025-07-02T17:06:15.261+00:00"
+* ^meta.lastUpdated = "2026-03-30T17:06:15.261+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,10 +10,10 @@ Description: "Tous les codes actifs des départements et collectivités d'outre-
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J258-Departement/FHIR/JDV-J258-Departement"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.1.5.764"
-* ^version = "20240628120000"
+* ^version = "20260330120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-06-28T12:00:00+01:00"
+* ^date = "2026-03-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-G09-DepartementOM#01 "Ain (01)"
