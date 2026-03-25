@@ -759,6 +759,14 @@
   "status" : "active"
 },
 {
+  "id" : "terminologie-esesali",
+  "name" : "SESALI",
+  "title" : "SESALI",
+  "url" : "https://smt.esante.gouv.fr/terminologie-esesali",
+  "identifier" : null,
+  "status" : "active"
+},
+{
   "id" : "11000315107-20250621",
   "name" : "SNOMED_CT",
   "title" : "French module",

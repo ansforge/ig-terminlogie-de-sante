@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20240628120000"
+             dateMaj="20260330120000"
              dateValid="20240126120000"
              description="Tous les codes actifs des départements et collectivités d'outre-mer actives + Monaco du COG INSEE"
              displayName="JDV_J258_Departement"

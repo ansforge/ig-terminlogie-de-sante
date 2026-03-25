@@ -63,7 +63,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_G05_SousSectionTableauCNOP](CodeSystem-TRE-G05-SousSectionTableauCNOP.md) | Sous-Section du tableau de l'Ordre des Pharmaciens | 15/12/2023 |
 | [TRE_G07_TypeIdentifiantStructure](CodeSystem-TRE-G07-TypeIdentifiantStructure.md) | Type d'identifiant de structure | 29/03/2024 |
 | [TRE_G08_TypeIdentifiantPersonne](CodeSystem-TRE-G08-TypeIdentifiantPersonne.md) | Type d'identifiant de personne | 29/03/2024 |
-| [TRE_G09_DepartementOM](CodeSystem-TRE-G09-DepartementOM.md) | Référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco. Cette TRE possède des propriétés spécifiques : Autorite Epars, pour indiquer le/ les ARS du département (tre-r396-autorite) et region pour indiquer le code de la région du département (TRE-R30-RegionOM) | 28/06/2024 |
+| [TRE_G09_DepartementOM](CodeSystem-TRE-G09-DepartementOM.md) | Référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco. Cette TRE possède des propriétés spécifiques : Autorite Epars, pour indiquer le/ les ARS du département (tre-r396-autorite) et region pour indiquer le code de la région du département (TRE-R30-RegionOM) | 30/03/2026 |
 | [TRE_G11_NatureQualificationADELI](CodeSystem-TRE-G11-NatureQualificationADELI.md) | Nature de qualification ADELI | 16/10/2025 |
 | [TRE_G12_SpecialiteADELI](CodeSystem-TRE-G12-SpecialiteADELI.md) | Spécialité ADELI | 31/05/2024 |
 | [TRE_G13_OrientationParticuliere](CodeSystem-TRE-G13-OrientationParticuliere.md) | Orientation particulière | 15/12/2023 |

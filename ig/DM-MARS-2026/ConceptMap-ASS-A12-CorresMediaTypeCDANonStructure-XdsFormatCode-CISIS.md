@@ -29,7 +29,7 @@ Association qui permet de deduire l’attribut XDS ‘formatCode’ à partir de
   "title" : "ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-25T11:37:26+00:00",
+  "date" : "2026-03-25T15:18:47+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",

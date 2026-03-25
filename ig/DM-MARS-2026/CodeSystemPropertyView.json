@@ -6191,6 +6191,78 @@
   "descriptionProperty" : "Indicates if this concept is a root concept (i.e. Thing is equivalent or a direct parent)."
 },
 {
+  "id" : "terminologie-esesali",
+  "name" : "SESALI",
+  "title" : "SESALI",
+  "url" : "https://smt.esante.gouv.fr/terminologie-esesali",
+  "identifier" : null,
+  "status" : "active",
+  "codeProperty" : "packageType",
+  "uriProperty" : "http://data.esante.gouv.fr/ansm/medicament/packageType",
+  "typeProperty" : "string",
+  "descriptionProperty" : null
+},
+{
+  "id" : "terminologie-esesali",
+  "name" : "SESALI",
+  "title" : "SESALI",
+  "url" : "https://smt.esante.gouv.fr/terminologie-esesali",
+  "identifier" : null,
+  "status" : "active",
+  "codeProperty" : "packageSize",
+  "uriProperty" : "http://data.esante.gouv.fr/ansm/medicament/packageSize",
+  "typeProperty" : "string",
+  "descriptionProperty" : null
+},
+{
+  "id" : "terminologie-esesali",
+  "name" : "SESALI",
+  "title" : "SESALI",
+  "url" : "https://smt.esante.gouv.fr/terminologie-esesali",
+  "identifier" : null,
+  "status" : "active",
+  "codeProperty" : "doseForm",
+  "uriProperty" : "http://data.esante.gouv.fr/ansm/medicament/doseForm",
+  "typeProperty" : "string",
+  "descriptionProperty" : null
+},
+{
+  "id" : "terminologie-esesali",
+  "name" : "SESALI",
+  "title" : "SESALI",
+  "url" : "https://smt.esante.gouv.fr/terminologie-esesali",
+  "identifier" : null,
+  "status" : "active",
+  "codeProperty" : "brandName",
+  "uriProperty" : "http://data.esante.gouv.fr/ansm/medicament/brandName",
+  "typeProperty" : "string",
+  "descriptionProperty" : null
+},
+{
+  "id" : "terminologie-esesali",
+  "name" : "SESALI",
+  "title" : "SESALI",
+  "url" : "https://smt.esante.gouv.fr/terminologie-esesali",
+  "identifier" : null,
+  "status" : "active",
+  "codeProperty" : "activeStrength",
+  "uriProperty" : "http://data.esante.gouv.fr/ansm/medicament/activeStrength",
+  "typeProperty" : "string",
+  "descriptionProperty" : null
+},
+{
+  "id" : "terminologie-esesali",
+  "name" : "SESALI",
+  "title" : "SESALI",
+  "url" : "https://smt.esante.gouv.fr/terminologie-esesali",
+  "identifier" : null,
+  "status" : "active",
+  "codeProperty" : "activeIngredient",
+  "uriProperty" : "http://data.esante.gouv.fr/ansm/medicament/activeIngredient",
+  "typeProperty" : "string",
+  "descriptionProperty" : null
+},
+{
   "id" : "11000315107-20250621",
   "name" : "SNOMED_CT",
   "title" : "French module",

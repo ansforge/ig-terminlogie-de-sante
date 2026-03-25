@@ -10,7 +10,7 @@
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-03-25T11:37:26+00:00",
+  "date" : "2026-03-25T15:18:47+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -35000,6 +35000,18 @@
       },
       "name" : "Service type",
       "description" : "This value set defines an example set of codes of service-types.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/terminologie-esesali"
+      },
+      "name" : "SESALI",
+      "description" : "Composite CodeSystem grouping Brand Name + Package Size (+ optional properties).NB: dans cette version bêta, le Brand Name est remplacé par le libellé de la spécialité.",
       "exampleBoolean" : false
     },
     {

@@ -433,7 +433,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM",
-    "version" : "20240628120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "TRE_G09_DepartementOM",
     "title" : null,
@@ -3058,6 +3058,14 @@
     "title" : "European Medical device nomenclature",
     "description" : "La nomenclature européenne des dispositifs médicaux (EMDN) est la nomenclature que doivent utiliser les fabricants pour enregistrer leurs dispositifs médicaux dans EUDAMED, base de données européenne sur les dispositifs médicaux. Il s'agit d'alimenter le système européen d’identification des dispositifs fondé sur un identifiant unique du dispositif (IUD) pour en faciliter la traçabilité.",
     "oids" : ["1.2.250.1.213.2.68"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/terminologie-esesali",
+    "version" : "2026-01",
+    "status" : "active",
+    "name" : "SESALI",
+    "title" : "SESALI",
+    "description" : "Composite CodeSystem grouping Brand Name + Package Size (+ optional properties).NB: dans cette version bêta, le Brand Name est remplacé par le libellé de la spécialité."
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-lahn",

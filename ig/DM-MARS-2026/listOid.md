@@ -71,6 +71,7 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | RoleCodeSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/roleCode-supplement-fr |  |
 | SERAFIN | https://smt.esante.gouv.fr/terminologie-SERAFINPH |  |
 | SERAFIN_PH | https://smt.esante.gouv.fr/terminologie-SERAFINPH |  |
+| SESALI | https://smt.esante.gouv.fr/terminologie-esesali |  |
 | SNOMED_CT | http://snomed.info/sct | 2.16.840.1.113883.6.96 |
 | ServiceType | http://terminology.hl7.org/CodeSystem/service-type | 2.16.840.1.113883.4.642.1.1145 |
 | Snomed_CT_core_900000000000207008 | http://snomed.info/sct | 2.16.840.1.113883.6.96 |

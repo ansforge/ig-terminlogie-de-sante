@@ -11,7 +11,7 @@
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2026-03-25T11:37:26+00:00"/>
+  <date value="2026-03-25T15:18:47+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -27420,6 +27420,17 @@
       </reference>
       <name value="Service type"/>
       <description value="This value set defines an example set of codes of service-types."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/terminologie-esesali"/>
+      </reference>
+      <name value="SESALI"/>
+      <description value="Composite CodeSystem grouping Brand Name + Package Size (+ optional properties).NB: dans cette version bêta, le Brand Name est remplacé par le libellé de la spécialité."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

@@ -271,7 +271,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J255_SurspecialiteTransversale_RPPS](ValueSet-JDV-J255-SurspecialiteTransversale-RPPS.md) | Surspécialité (compétence) acquise par l'interne à l'issue d'une Formation Spécialisée Transversale (FST) | 22/12/2025 |
 | [JDV_J256_Pays](ValueSet-JDV-J256-Pays.md) | Tous les codes actifs de la nomenclature du COG INSEE pays auquel on ajoute le code applicatif "non renseigné" | 28/03/2025 |
 | [JDV_J257_Region](ValueSet-JDV-J257-Region.md) | Tous les codes actifs des régions et collectivités d'outre-mer actives + Monaco du COG INSEE | 28/06/2024 |
-| [JDV_J258_Departement](ValueSet-JDV-J258-Departement.md) | Tous les codes actifs des départements et collectivités d'outre-mer actives + Monaco du COG INSEE | 28/06/2024 |
+| [JDV_J258_Departement](ValueSet-JDV-J258-Departement.md) | Tous les codes actifs des départements et collectivités d'outre-mer actives + Monaco du COG INSEE | 30/03/2026 |
 | [JDV_J259_ModeFixationTarifaire_RASS](ValueSet-JDV-J259-ModeFixationTarifaire-RASS.md) | Mode de fixation tarifaire du RASS | 22/12/2025 |
 | [JDV_J260_TypeFermeture_RASS](ValueSet-JDV-J260-TypeFermeture-RASS.md) | Type de fermeture, codes provenant du FINESS pour les EJ et EG pour le RASS | 27/09/2024 |
 | [JDV_J262_Sexe](ValueSet-JDV-J262-Sexe.md) | Tous les codes actifs de la notion sexe | 29/03/2024 |

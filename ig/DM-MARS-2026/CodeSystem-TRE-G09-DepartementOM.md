@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM | *Version*:20240628120000 | |
-| Active as of 2024-06-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_G09_DepartementOM |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_G09_DepartementOM |
 | *Other Identifiers:*OID:1.2.250.1.71.1.2.16 | | |
 
  
@@ -32,7 +32,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
   "id" : "TRE-G09-DepartementOM",
   "meta" : {
     "versionId" : "10",
-    "lastUpdated" : "2026-02-25T15:27:34.491+01:00",
+    "lastUpdated" : "2026-03-30T15:27:34.491+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
   "language" : "fr-FR",
@@ -47,11 +47,11 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.71.1.2.16"
   }],
-  "version" : "20240628120000",
+  "version" : "20260330120000",
   "name" : "TRE_G09_DepartementOM",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-06-28T12:00:00+01:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco. Cette TRE possède des propriétés spécifiques : Autorite Epars, pour indiquer le/ les ARS du département (tre-r396-autorite) et region pour indiquer le code de la région du département (TRE-R30-RegionOM)",
   "jurisdiction" : [{
