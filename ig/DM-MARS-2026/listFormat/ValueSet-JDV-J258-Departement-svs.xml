@@ -288,6 +288,18 @@
          <Concept code="989"
                   codeSystem="1.2.250.1.71.1.2.16"
                   displayName="La Passion-Clipperton (989)"/>
+         <Concept code="91352"
+                  codeSystem="1.2.250.1.71.1.2.16"
+                  displayName="Département D'Alger et Orleansville (91352)"/>
+         <Concept code="92352"
+                  codeSystem="1.2.250.1.71.1.2.16"
+                  displayName="Département D'Oran et Bou Sfer (92352)"/>
+         <Concept code="93352"
+                  codeSystem="1.2.250.1.71.1.2.16"
+                  displayName="Département de Constantine (93352)"/>
+         <Concept code="94352"
+                  codeSystem="1.2.250.1.71.1.2.16"
+                  displayName="Sud de l'Algérie (94352)"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

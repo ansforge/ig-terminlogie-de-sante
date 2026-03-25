@@ -95,6 +95,14 @@
   "status" : "draft"
 },
 {
+  "id" : "TRE-G09-DepartementOM",
+  "name" : "TRE_G09_DepartementOM",
+  "title" : null,
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM",
+  "identifier" : "urn:oid:1.2.250.1.71.1.2.16",
+  "status" : "active"
+},
+{
   "id" : "TRE-R10-SexeAdministratif",
   "name" : "TRE_R10_SexeAdministratif",
   "title" : null,
@@ -980,14 +988,6 @@
   "title" : null,
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_G08-TypeIdentifiantPersonne/FHIR/TRE-G08-TypeIdentifiantPersonne",
   "identifier" : "urn:oid:1.2.250.1.71.1.2.15",
-  "status" : "active"
-},
-{
-  "id" : "TRE-G09-DepartementOM",
-  "name" : "TRE_G09_DepartementOM",
-  "title" : null,
-  "url" : "https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM",
-  "identifier" : "urn:oid:1.2.250.1.71.1.2.16",
   "status" : "active"
 },
 {

@@ -38,7 +38,7 @@
   fhir:title [ fhir:v "Jdv Modele Document Cda"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-03-24T09:38:58+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-03-25T11:37:26+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;

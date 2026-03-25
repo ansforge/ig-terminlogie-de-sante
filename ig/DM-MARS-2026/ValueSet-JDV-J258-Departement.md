@@ -527,6 +527,22 @@ Requête sur le SMT
       {
         "code" : "989",
         "display" : "La Passion-Clipperton (989)"
+      },
+      {
+        "code" : "91352",
+        "display" : "Département D'Alger et Orleansville (91352)"
+      },
+      {
+        "code" : "92352",
+        "display" : "Département D'Oran et Bou Sfer (92352)"
+      },
+      {
+        "code" : "93352",
+        "display" : "Département de Constantine (93352)"
+      },
+      {
+        "code" : "94352",
+        "display" : "Sud de l'Algérie (94352)"
       }]
     }]
   }
