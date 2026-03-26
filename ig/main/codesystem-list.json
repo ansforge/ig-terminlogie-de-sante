@@ -2899,6 +2899,14 @@
     "oids" : ["1.2.250.1.213.2.68"]
   },
   {
+    "url" : "https://smt.esante.gouv.fr/terminologie-esesali",
+    "version" : "2026-01",
+    "status" : "active",
+    "name" : "SESALI",
+    "title" : "SESALI",
+    "description" : "Composite CodeSystem grouping Brand Name + Package Size (+ optional properties).NB: dans cette version bêta, le Brand Name est remplacé par le libellé de la spécialité."
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/terminologie-lahn",
     "version" : "2026 v1.0",
     "status" : "active",

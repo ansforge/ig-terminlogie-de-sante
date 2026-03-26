@@ -9016,6 +9016,13 @@
   "oids" : ["1.2.250.1.213.2.68"]
 },
 {
+  "id" : "terminologie-esesali",
+  "type" : "CodeSystem",
+  "url" : "https://smt.esante.gouv.fr/terminologie-esesali",
+  "version" : "2026-01",
+  "name" : "SESALI"
+},
+{
   "id" : "terminologie-lahn",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/terminologie-lahn",
