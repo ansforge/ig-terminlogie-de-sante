@@ -12019,7 +12019,7 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1453 ^designation[0].language = #fr-FR
 * #1453 ^designation[=].use.system = "http://snomed.info/sct"
 * #1453 ^designation[=].use = $sct#900000000000013009
-* #1453 ^designation[=].value = "Suivi, repérage précoce et accompagnement du développement psychomoteur, des troubles de comportement et des Troubles Neuro Développementaux"
+* #1453 ^designation[=].value = "Repérage, accompagnement des troubles (neuro)développementaux et comportementaux"
 * #1453 ^property[0].code = #dateValid
 * #1453 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #1453 ^property[+].code = #dateMaj
