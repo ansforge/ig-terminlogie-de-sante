@@ -3,8 +3,8 @@
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
              dateMaj="20260330120000"
-             dateValid=""
-             description=""
+             dateValid="20150408000000"
+             description="Action menée par un ou plusieurs acteur(s) de santé dans le cadre d'une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé."
              displayName="TRE_R210_ActeSpecifique"
              id="1.2.250.1.213.3.3.11"
              typeFichier="TRE"
@@ -13075,7 +13075,7 @@
                   dateMaj="20260330120000"
                   dateValid="20240628120000"
                   displayName="Suivi, repérage précoce et accompagnement du développement psychomoteur, des troubles de comportement et des Troubles Neuro Développementaux"
-                  longDesignation="Suivi, repérage précoce et accompagnement du développement psychomoteur, des troubles de comportement et des Troubles Neuro Développementaux"
+                  longDesignation="Repérage, accompagnement des troubles (neuro)développementaux et comportementaux"
                   shortDesignation="Suivi, repérage précoce et accompagnement du développement psychomoteur, des troubles de comportem"
                   descriptionMetier="Prévention, évaluation et accompagnement visant à repérer précocement les troubles du développement psychomoteur, du comportement et les Troubles du Neuro-Développement (TND), afin de favoriser le développement harmonieux de l’enfant et son autonomie."/>
          <Concept code="1454"
