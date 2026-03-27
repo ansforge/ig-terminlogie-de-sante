@@ -83,7 +83,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
-      "version" : "20260330120000"
+      "version" : "20260223120000"
     }]
   }
 }

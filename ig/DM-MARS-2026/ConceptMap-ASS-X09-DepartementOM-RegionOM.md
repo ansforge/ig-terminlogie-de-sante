@@ -52,7 +52,7 @@ Association départements - régions (outre-mer et Monaco inclus)
   }],
   "group" : [{
     "source" : "https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM",
-    "sourceVersion" : "20260330120000",
+    "sourceVersion" : "20240628120000",
     "target" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
     "targetVersion" : "20240628120000",
     "element" : [{

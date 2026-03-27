@@ -161,8 +161,8 @@
     "sources" : ["1.2.250.1.213.1.1.5.465"],
     "uses" : {
     },
-    "ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.html" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS",
-    "ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.html" : "ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS"
+    "ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.html" : "ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS",
+    "ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.html" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS"
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J100-FinessStatutJuridique-RASS/FHIR/JDV-J100-FinessStatutJuridique-RASS",
@@ -2043,7 +2043,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J258-Departement/FHIR/JDV-J258-Departement",
-    "version" : "20260330120000",
+    "version" : "20240628120000",
     "status" : "active",
     "name" : "JDV_J258_Departement",
     "title" : null,
@@ -5833,28 +5833,6 @@
     "https://mos.esante.gouv.fr/NOS/TRE_A01-CadreExercice/FHIR/TRE-A01-CadreExercice"],
     "oids" : ["1.2.250.1.213.3.4.230"],
     "sources" : ["1.2.250.1.213.3.4.230"]
-  },
-  {
-    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j389-sexe-provenance-rnipp",
-    "version" : "20260330120000",
-    "status" : "active",
-    "name" : "JdvJ389SexeProvenanceRnipp",
-    "title" : "Jdv J389 Sexe Provenance Rnipp",
-    "description" : "Liste de valeurs du code Sexe issues de l'INSEE pour le RPPS",
-    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r411-sexe-insee"],
-    "oids" : ["1.2.250.1.213.1.6.1.398"],
-    "sources" : ["1.2.250.1.213.1.6.1.398"]
-  },
-  {
-    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j390-origine-interruption-exercice-rpps",
-    "version" : "20260330120000",
-    "status" : "active",
-    "name" : "JdvJ390OrigineInterruptionExerciceRpps",
-    "title" : "Jdv J390 Origine Interruption Exercice Rpps",
-    "description" : "Liste de valeurs pour le RPPS permettant de définir l'origine d'une interruption d'exercice",
-    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"],
-    "oids" : ["1.2.250.1.213.1.6.1.399"],
-    "sources" : ["1.2.250.1.213.1.6.1.399"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-jour-semaine-cisis",

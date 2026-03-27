@@ -10,7 +10,7 @@
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-03-26T16:05:11+00:00",
+  "date" : "2026-03-27T09:46:53+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -28017,30 +28017,6 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/jdv-j389-sexe-provenance-rnipp"
-      },
-      "name" : "Jdv J389 Sexe Provenance Rnipp",
-      "description" : "Liste de valeurs du code Sexe issues de l'INSEE pour le RPPS",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/jdv-j390-origine-interruption-exercice-rpps"
-      },
-      "name" : "Jdv J390 Origine Interruption Exercice Rpps",
-      "description" : "Liste de valeurs pour le RPPS permettant de définir l'origine d'une interruption d'exercice",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
         "reference" : "ValueSet/JDV-J69-ActiviteOperationnelle-Santefr"
       },
       "name" : "JDV J69 ActiviteOperationnelle Santefr",
@@ -35539,42 +35515,6 @@
       },
       "name" : "Tre R408 Type Enseignement Specialise",
       "description" : "Type d'enseignement spécialisé.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/tre-r409-type-duree-interruption-exercice"
-      },
-      "name" : "Tre R409 Type Duree Interruption Exercice",
-      "description" : "Le type de l’interruption indique la nature temporelle de la mesure d’interruption d’exercer assignée au professionnel de santé. Il permet de distinguer une interruption appliquée pour une période limitée d’une interruption définitive. Lorsqu’il s’agit d’une interruption temporaire, la suspension ou l’interdiction s’applique sur une période bornée, avec une date de début et une date de fin définies par l’autorité compétente, qu’il s’agisse d’un ordre, d’une ARS, d’une chambre disciplinaire ou d’un tribunal. Le type permanent correspond à une interruption d’exercice sans limite de durée. Il s’agit d’une mesure qui prive définitivement le professionnel de la possibilité d’exercer la profession concernée... Le type de l’interruption est l’un des critères structurant pour déterminer les impacts sur la publication des données, l’opposition des moyens d’identification électroniques, et les règles de traitement dans les systèmes d’information.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/tre-r410-perimetre-interruption-exercice"
-      },
-      "name" : "Tre R410 Perimetre Interruption Exercice",
-      "description" : "Le périmètre décrit l’étendue réelle de l’interruption d’exercer. Une interruption totale signifie que le professionnel ne peut accomplir aucune des activités relevant de la profession concernée. Dans ce cas, la profession doit être considérée comme non autorisée à exercer, ce qui entraîne notamment sa dépublication des données publiques de l’annuaire. Une interruption partielle correspond à une interdiction limitée à certains segments de l’exercice professionnel (une partie des activités du professionnel de santé). Le professionnel conserve alors le droit d'exercer les autres activités de sa profession... Le périmètre joue un rôle central dans les règles de publication et des accès aux services numériques en santé.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/tre-r411-sexe-insee"
-      },
-      "name" : "Tre R411 Sexe Insee",
-      "description" : "Liste de valeurs du code Sexe pour l'INSEE - En attente de faire directement référence aux Terminologies INSEE",
       "exampleBoolean" : false
     },
     {

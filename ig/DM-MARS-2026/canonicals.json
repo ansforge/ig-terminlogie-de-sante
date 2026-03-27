@@ -1844,7 +1844,7 @@
   "id" : "JDV-J258-Departement",
   "type" : "ValueSet",
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J258-Departement/FHIR/JDV-J258-Departement",
-  "version" : "20260330120000",
+  "version" : "20240628120000",
   "name" : "JDV_J258_Departement",
   "oids" : ["1.2.250.1.213.1.1.5.764"]
 },
@@ -2716,7 +2716,7 @@
   "id" : "TRE-G09-DepartementOM",
   "type" : "CodeSystem",
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM",
-  "version" : "20260330120000",
+  "version" : "20240628120000",
   "name" : "TRE_G09_DepartementOM",
   "oids" : ["1.2.250.1.71.1.2.16"]
 },
@@ -2852,7 +2852,7 @@
   "id" : "TRE-R10-SexeAdministratif",
   "type" : "CodeSystem",
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R10-SexeAdministratif/FHIR/TRE-R10-SexeAdministratif",
-  "version" : "20260330120000",
+  "version" : "20231215120000",
   "name" : "TRE_R10_SexeAdministratif",
   "oids" : ["1.2.250.1.213.2.27"]
 },
@@ -5035,22 +5035,6 @@
   "oids" : ["1.2.250.1.213.1.6.1.385"]
 },
 {
-  "id" : "tre-r409-type-duree-interruption-exercice",
-  "type" : "CodeSystem",
-  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
-  "version" : "20260330120000",
-  "name" : "TreR409TypeDureeInterruptionExercice",
-  "oids" : ["1.2.250.1.213.1.6.1.396"]
-},
-{
-  "id" : "tre-r410-perimetre-interruption-exercice",
-  "type" : "CodeSystem",
-  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
-  "version" : "20260330120000",
-  "name" : "TreR410PerimetreInterruptionExercice",
-  "oids" : ["1.2.250.1.213.1.6.1.397"]
-},
-{
   "id" : "vs-tre-r406-forme-activite-smsse-regulee-all",
   "type" : "ValueSet",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee?vs",
@@ -5072,14 +5056,6 @@
   "version" : "20260202120000",
   "name" : "TreR408TypeEnseignementSpecialise",
   "oids" : ["1.2.250.1.213.3.3.262"]
-},
-{
-  "id" : "tre-r411-sexe-insee",
-  "type" : "CodeSystem",
-  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r411-sexe-insee",
-  "version" : "20260330120000",
-  "name" : "TreR411SexeInsee",
-  "oids" : ["1.2.250.1.213.2.82"]
 },
 {
   "id" : "specimenType-supplement-fr",
@@ -6955,22 +6931,6 @@
   "version" : "20260202120000",
   "name" : "JdvJ387RoleParticipantMs",
   "oids" : ["1.2.250.1.213.3.4.230"]
-},
-{
-  "id" : "jdv-j389-sexe-provenance-rnipp",
-  "type" : "ValueSet",
-  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j389-sexe-provenance-rnipp",
-  "version" : "20260330120000",
-  "name" : "JdvJ389SexeProvenanceRnipp",
-  "oids" : ["1.2.250.1.213.1.6.1.398"]
-},
-{
-  "id" : "jdv-j390-origine-interruption-exercice-rpps",
-  "type" : "ValueSet",
-  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j390-origine-interruption-exercice-rpps",
-  "version" : "20260330120000",
-  "name" : "JdvJ390OrigineInterruptionExerciceRpps",
-  "oids" : ["1.2.250.1.213.1.6.1.399"]
 },
 {
   "id" : "jdv-jour-semaine-cisis",

@@ -89,7 +89,7 @@ Expansions are not generated for retired value sets
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R10-SexeAdministratif/FHIR/TRE-R10-SexeAdministratif",
-      "version" : "20260330120000",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "F",
         "display" : "Féminin"

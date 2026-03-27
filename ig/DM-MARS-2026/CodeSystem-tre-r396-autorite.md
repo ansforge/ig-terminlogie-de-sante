@@ -20,7 +20,6 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
 * [JdvJ373TypeAutorite](ValueSet-jdv-j373-type-autorite.md)
 * [JdvJ374Autorite](ValueSet-jdv-j374-autorite.md)
 * [JdvJ375AutoriteOrdre](ValueSet-jdv-j375-autorite-ordre.md)
-* [JdvJ390OrigineInterruptionExerciceRpps](ValueSet-jdv-j390-origine-interruption-exercice-rpps.md)
 
 
 

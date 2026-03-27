@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R10-SexeAdministratif/FHIR/TRE-R10-SexeAdministratif | *Version*:20260330120000 | |
-| Retired as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R10_SexeAdministratif |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R10-SexeAdministratif/FHIR/TRE-R10-SexeAdministratif | *Version*:20231215120000 | |
+| Active as of 2023-12-15 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R10_SexeAdministratif |
 | *Other Identifiers:*OID:1.2.250.1.213.2.27 | | |
 
  
@@ -29,15 +29,13 @@ Sexe administratif
   "id" : "TRE-R10-SexeAdministratif",
   "meta" : {
     "versionId" : "5",
-    "lastUpdated" : "2026-03-30T18:12:06.425+00:00",
+    "lastUpdated" : "2025-07-02T18:12:06.425+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
-  "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
-      "start" : "2013-06-28T00:00:00+01:00",
-      "end" : "2026-03-30T00:00:00+01:00"
+      "start" : "2013-06-28T00:00:00+01:00"
     }
   }],
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R10-SexeAdministratif/FHIR/TRE-R10-SexeAdministratif",
@@ -45,11 +43,11 @@ Sexe administratif
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.2.27"
   }],
-  "version" : "20260330120000",
+  "version" : "20231215120000",
   "name" : "TRE_R10_SexeAdministratif",
-  "status" : "retired",
+  "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-30T12:00:00+01:00",
+  "date" : "2023-12-15T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Sexe administratif",
   "jurisdiction" : [{
@@ -60,22 +58,18 @@ Sexe administratif
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 2,
   "property" : [{
     "code" : "dateValid",
-    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
-    "description" : "Date de validité d'un code concept",
+    "description" : "date de validité d'un code concept",
     "type" : "dateTime"
   },
   {
     "code" : "dateMaj",
-    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
     "description" : "Date de mise à jour d'un code concept",
     "type" : "dateTime"
   },
   {
     "code" : "dateFin",
-    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
     "description" : "Date de fin d'exploitation d'un code concept",
     "type" : "dateTime"
   },
@@ -106,19 +100,11 @@ Sexe administratif
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T00:00:00+01:00"
-    },
-    {
-      "code" : "dateFin",
-      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+      "valueDateTime" : "2013-06-28T00:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "deprecated"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+      "valueCode" : "active"
     }]
   },
   {
@@ -130,19 +116,11 @@ Sexe administratif
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T00:00:00+01:00"
-    },
-    {
-      "code" : "dateFin",
-      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+      "valueDateTime" : "2013-06-28T00:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "deprecated"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+      "valueCode" : "active"
     }]
   }]
 }
