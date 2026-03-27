@@ -1,4 +1,4 @@
-# TRE_R62_Domaine - Terminologies de Santé v1.7.0
+# TRE_R62_Domaine - Terminologies de Santé v1.8.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -17,7 +17,7 @@ Domaine
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* Cette terminologie de référence (CodeSystem) n'est pas utilisée ici; elle peut être utilisée ailleurs (par exemple spécifications et/ou implémentations qui utilisent ce contenu)
+* [VsTreR62DomaineAll](ValueSet-vs-tre-r62-domaine-all.md)
 
 
 
@@ -28,8 +28,8 @@ Domaine
   "resourceType" : "CodeSystem",
   "id" : "TRE-R62-Domaine",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:18:27.928+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-03-27T11:13:17.409+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
@@ -57,19 +57,24 @@ Domaine
     }]
   }],
   "caseSensitive" : false,
+  "valueSet" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine?vs",
   "content" : "complete",
+  "count" : 5,
   "property" : [{
     "code" : "dateValid",
-    "description" : "date de validité d'un code concept",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
+    "description" : "Date de validité d'un code concept",
     "type" : "dateTime"
   },
   {
     "code" : "dateMaj",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
     "description" : "Date de mise à jour d'un code concept",
     "type" : "dateTime"
   },
   {
     "code" : "dateFin",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
     "description" : "Date de fin d'exploitation d'un code concept",
     "type" : "dateTime"
   },

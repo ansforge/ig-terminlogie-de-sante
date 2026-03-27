@@ -1,4 +1,4 @@
-# JDV_J229_ProfessionSante_ROR - Terminologies de Santé v1.7.0
+# JDV_J229_ProfessionSante_ROR - Terminologies de Santé v1.8.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J229-ProfessionSante-ROR/FHIR/JDV-J229-ProfessionSante-ROR | *Version*:20220826120000 | |
-| Active as of 2022-08-26 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J229_ProfessionSante_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J229-ProfessionSante-ROR/FHIR/JDV-J229-ProfessionSante-ROR | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J229_ProfessionSante_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.61 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J229-ProfessionSante-ROR",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-07-02T17:05:59.513+00:00",
+    "versionId" : "5",
+    "lastUpdated" : "2026-03-27T11:18:07.559+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -71,11 +71,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.61"
   }],
-  "version" : "20220826120000",
+  "version" : "20260330120000",
   "name" : "JDV_J229_ProfessionSante_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2022-08-26T12:00:00+01:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Type de caractéristique équipement",
   "jurisdiction" : [{
@@ -202,6 +202,13 @@ Requête sur le SMT
       {
         "code" : "98",
         "display" : "Manipulateur ERM"
+      }]
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R356-ProfessionRessource/FHIR/TRE-R356-ProfessionRessource",
+      "concept" : [{
+        "code" : "86",
+        "display" : "Infirmier en pratique avancée (IPA)"
       }]
     }]
   }

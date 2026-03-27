@@ -287,6 +287,14 @@
   "status" : "active"
 },
 {
+  "id" : "concept-properties",
+  "name" : "ConceptProperties",
+  "title" : "Concept Properties",
+  "url" : "https://smt.esante.gouv.fr/fhir/concept-properties",
+  "identifier" : null,
+  "status" : "active"
+},
+{
   "id" : "condition-clinical",
   "name" : "ConditionClinicalStatusCodes",
   "title" : "Condition Clinical Status Codes",
@@ -431,6 +439,14 @@
   "status" : "active"
 },
 {
+  "id" : "terminologie-ruim-eeprescription",
+  "name" : "RUIM eeprescription",
+  "title" : "RUIM - european eprescription",
+  "url" : "https://smt.esante.gouv.fr/terminologie-ruim-eeprescription",
+  "identifier" : null,
+  "status" : "active"
+},
+{
   "id" : "v3-RoleCode",
   "name" : "RoleCode",
   "title" : "RoleCode",
@@ -443,14 +459,6 @@
   "name" : "SERAFIN_PH",
   "title" : "Nomenclature des besoins et des prestations",
   "url" : "https://smt.esante.gouv.fr/terminologie-SERAFINPH",
-  "identifier" : null,
-  "status" : "active"
-},
-{
-  "id" : "terminologie-esesali",
-  "name" : "SESALI",
-  "title" : "SESALI",
-  "url" : "https://smt.esante.gouv.fr/terminologie-esesali",
   "identifier" : null,
   "status" : "active"
 },
@@ -2535,6 +2543,110 @@
   "status" : "active"
 },
 {
+  "id" : "tre-r360-type-role-entite-groupe",
+  "name" : "TreR360TypeRoleEntiteGroupe",
+  "title" : "Tre R360 Type Role Entite Groupe",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.254",
+  "status" : "active"
+},
+{
+  "id" : "tre-r361-fonction-publique",
+  "name" : "TreR361FonctionPublique",
+  "title" : "Tre R361 Fonction Publique",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r361-fonction-publique",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.255",
+  "status" : "active"
+},
+{
+  "id" : "tre-r362-type-budget",
+  "name" : "TreR362TypeBudget",
+  "title" : "Tre R362 Type Budget",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r362-type-budget",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.256",
+  "status" : "active"
+},
+{
+  "id" : "tre-r371-type-groupe-gcc",
+  "name" : "TreR371TypeGroupeGcc",
+  "title" : "Tre R371 Type Groupe Gcc",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r371-type-groupe-gcc",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.287",
+  "status" : "active"
+},
+{
+  "id" : "tre-r372-type-groupe-gco",
+  "name" : "TreR372TypeGroupeGco",
+  "title" : "Tre R372 Type Groupe Gco",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r372-type-groupe-gco",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.288",
+  "status" : "active"
+},
+{
+  "id" : "tre-r375-mode-financement",
+  "name" : "TreR375ModeFinancement",
+  "title" : "Tre R375 Mode Financement",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r375-mode-financement",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.290",
+  "status" : "active"
+},
+{
+  "id" : "tre-r381-activite-amm",
+  "name" : "TreR381ActiviteAmm",
+  "title" : "Tre R381 Activite Amm",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.296",
+  "status" : "active"
+},
+{
+  "id" : "tre-r382-modalite-act-de-soin-amm",
+  "name" : "TreR382ModaliteActDeSoinAmm",
+  "title" : "Tre R382 Modalite Act De Soin Amm",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r382-modalite-act-de-soin-amm",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.297",
+  "status" : "active"
+},
+{
+  "id" : "tre-r383-mention-act-de-soin-amm",
+  "name" : "TreR383MentionActDeSoinAmm",
+  "title" : "Tre R383 Mention Act De Soin Amm",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r383-mention-act-de-soin-amm",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.298",
+  "status" : "active"
+},
+{
+  "id" : "tre-r384-pratique-therapeutique-specifique-act-de-soin-amm",
+  "name" : "TreR384PratiqueTherapeutiqueSpecifiqueActDeSoinAmm",
+  "title" : "Tre R384 Pratique Therapeutique Specifique Act De Soin Amm",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r384-pratique-therapeutique-specifique-act-de-soin-amm",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.299",
+  "status" : "active"
+},
+{
+  "id" : "tre-r385-declaration-act-de-soin-amm",
+  "name" : "TreR385DeclarationActDeSoinAmm",
+  "title" : "Tre R385 Declaration Act De Soin Amm",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r385-declaration-act-de-soin-amm",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.300",
+  "status" : "active"
+},
+{
+  "id" : "tre-r387-type-groupement",
+  "name" : "TreR387TypeGroupement",
+  "title" : "Tre R387 Type Groupement",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.302",
+  "status" : "active"
+},
+{
+  "id" : "tre-r388-type-logement",
+  "name" : "TreR388TypeLogement",
+  "title" : "Tre R388 Type Logement",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.303",
+  "status" : "active"
+},
+{
   "id" : "tre-r389-statut-bilan-projet-personnalise",
   "name" : "TreR389StatutBilanProjetPersonnalise",
   "title" : "Tre R389 Statut Bilan Projet Personnalise",
@@ -2564,6 +2676,14 @@
   "title" : "Tre R394 Competence Metier",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r394-competence-metier",
   "identifier" : "urn:oid:1.2.250.1.213.1.6.1.375",
+  "status" : "active"
+},
+{
+  "id" : "tre-r396-autorite",
+  "name" : "TreR396Autorite",
+  "title" : "Tre R396 Autorite",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.377",
   "status" : "active"
 },
 {

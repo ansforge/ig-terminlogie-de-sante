@@ -1,4 +1,4 @@
-# Tre R405 Modalite Activite Smsse Regulee - Terminologies de Santé v1.7.0
+# Tre R405 Modalite Activite Smsse Regulee - Terminologies de Santé v1.8.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -17,7 +17,7 @@ Modalités des activités SSMSE régulées, remplace la TRE_R275-ModaliteActivit
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* Cette terminologie de référence (CodeSystem) n'est pas utilisée ici; elle peut être utilisée ailleurs (par exemple spécifications et/ou implémentations qui utilisent ce contenu)
+* [VsTreR405ModaliteActiviteSmsseReguleeAll](ValueSet-vs-tre-r405-modalite-activite-smsse-regulee-all.md)
 
 
 

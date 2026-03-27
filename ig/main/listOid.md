@@ -1,4 +1,4 @@
-# Listes des OID - Terminologies de Santé v1.7.0
+# Listes des OID - Terminologies de Santé v1.8.0
 
 * [**Table of Contents**](toc.md)
 * [**Identifiants**](identifiants.md)
@@ -31,6 +31,7 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | CIM_10_FR_PMSI | https://smt.esante.gouv.fr/terminologie-cim-10 | 2.16.840.1.113883.6.3 |
 | CISP_2 | https://smt.esante.gouv.fr/terminologie-cisp | 2.16.840.1.113883.6.139 |
 | ClaDiMed | https://smt.esante.gouv.fr/terminologie-cladimed | 1.2.250.1.213.2.65 |
+| ConceptProperties | https://smt.esante.gouv.fr/fhir/concept-properties |  |
 | ConditionClinicalStatusCodes | http://terminology.hl7.org/CodeSystem/condition-clinical | 2.16.840.1.113883.4.642.1.1074 |
 | ConditionClinicalSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/condition-clinical-supplement-fr |  |
 | ConditionVerStatusSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/condition-ver-status-supplement-fr |  |
@@ -65,12 +66,12 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | ParticipationFunctionSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/participationFunction-supplement-fr |  |
 | ParticipationType | http://terminology.hl7.org/CodeSystem/v3-ParticipationType | 2.16.840.1.113883.5.90 |
 | ParticipationTypeSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/participationType-supplement-fr |  |
+| RUIM eeprescription | https://smt.esante.gouv.fr/terminologie-ruim-eeprescription |  |
 | RoleClassSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/roleClass-supplement-fr |  |
 | RoleCode | http://terminology.hl7.org/CodeSystem/v3-RoleCode | 2.16.840.1.113883.5.111 |
 | RoleCodeSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/roleCode-supplement-fr |  |
 | SERAFIN | https://smt.esante.gouv.fr/terminologie-SERAFINPH |  |
 | SERAFIN_PH | https://smt.esante.gouv.fr/terminologie-SERAFINPH |  |
-| SESALI | https://smt.esante.gouv.fr/terminologie-esesali |  |
 | SNOMED_CT | http://snomed.info/sct | 2.16.840.1.113883.6.96 |
 | ServiceType | http://terminology.hl7.org/CodeSystem/service-type | 2.16.840.1.113883.4.642.1.1145 |
 | Snomed_CT_core_900000000000207008 | http://snomed.info/sct | 2.16.840.1.113883.6.96 |
@@ -334,10 +335,24 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | TerminologieCISIS | https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis | 1.2.250.1.213.1.1.4.322 |
 | TimingEvent | http://terminology.hl7.org/CodeSystem/v3-TimingEvent | 2.16.840.1.113883.5.139 |
 | TimingEventSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/timingEvent-supplement-fr |  |
+| TreR360TypeRoleEntiteGroupe | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe | 1.2.250.1.213.1.6.1.254 |
+| TreR361FonctionPublique | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r361-fonction-publique | 1.2.250.1.213.1.6.1.255 |
+| TreR362TypeBudget | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r362-type-budget | 1.2.250.1.213.1.6.1.256 |
+| TreR371TypeGroupeGcc | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r371-type-groupe-gcc | 1.2.250.1.213.1.6.1.287 |
+| TreR372TypeGroupeGco | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r372-type-groupe-gco | 1.2.250.1.213.1.6.1.288 |
+| TreR375ModeFinancement | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r375-mode-financement | 1.2.250.1.213.1.6.1.290 |
+| TreR381ActiviteAmm | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm | 1.2.250.1.213.1.6.1.296 |
+| TreR382ModaliteActDeSoinAmm | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r382-modalite-act-de-soin-amm | 1.2.250.1.213.1.6.1.297 |
+| TreR383MentionActDeSoinAmm | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r383-mention-act-de-soin-amm | 1.2.250.1.213.1.6.1.298 |
+| TreR384PratiqueTherapeutiqueSpecifiqueActDeSoinAmm | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r384-pratique-therapeutique-specifique-act-de-soin-amm | 1.2.250.1.213.1.6.1.299 |
+| TreR385DeclarationActDeSoinAmm | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r385-declaration-act-de-soin-amm | 1.2.250.1.213.1.6.1.300 |
+| TreR387TypeGroupement | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement | 1.2.250.1.213.1.6.1.302 |
+| TreR388TypeLogement | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement | 1.2.250.1.213.1.6.1.303 |
 | TreR389StatutBilanProjetPersonnalise | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise | 1.2.250.1.213.3.3.257 |
 | TreR390TypeProjetPersonnalise | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise | 1.2.250.1.213.3.3.258 |
 | TreR393TypeContratSejour | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour | 1.2.250.1.213.3.3.260 |
 | TreR394CompetenceMetier | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r394-competence-metier | 1.2.250.1.213.1.6.1.375 |
+| TreR396Autorite | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite | 1.2.250.1.213.1.6.1.377 |
 | TreR397CategorieEntiteGeographiqueExercice | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice | 1.2.250.1.213.1.6.1.378 |
 | TreR400FinessStatutJuridique | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique | 1.2.250.1.213.1.6.1.379 |
 | TreR401ActiviteSocialeRegulee | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee | 1.2.250.1.213.1.6.1.380 |

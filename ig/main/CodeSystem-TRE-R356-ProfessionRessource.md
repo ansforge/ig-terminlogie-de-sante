@@ -1,4 +1,4 @@
-# TRE_R356_ProfessionRessource - Terminologies de Santé v1.7.0
+# TRE_R356_ProfessionRessource - Terminologies de Santé v1.8.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -18,6 +18,7 @@ Profession Ressource
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J186_ProfessionRessource_ROR](ValueSet-JDV-J186-ProfessionRessource-ROR.md)
+* [JDV_J229_ProfessionSante_ROR](ValueSet-JDV-J229-ProfessionSante-ROR.md)
 
 
 

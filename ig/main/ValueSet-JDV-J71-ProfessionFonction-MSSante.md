@@ -1,4 +1,4 @@
-# JDV_J71_ProfessionFonction_MSSante - Terminologies de Santé v1.7.0
+# JDV_J71_ProfessionFonction_MSSante - Terminologies de Santé v1.8.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

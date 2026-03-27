@@ -1,4 +1,4 @@
-# JDV_J155_MethodGlucoseSanguin_ENS - Terminologies de Santé v1.7.0
+# JDV_J155_MethodGlucoseSanguin_ENS - Terminologies de Santé v1.8.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

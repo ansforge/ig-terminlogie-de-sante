@@ -1,4 +1,4 @@
-# TRE_R211_ActiviteOperationnelle - Terminologies de Santé v1.7.0
+# TRE_R211_ActiviteOperationnelle - Terminologies de Santé v1.8.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle | *Version*:20251222120000 | |
-| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R211_ActiviteOperationnelle |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R211_ActiviteOperationnelle |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.12 | | |
 
  
@@ -18,7 +18,6 @@ Activite Operationnelle
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J17_ActiviteOperationnelle_ROR](ValueSet-JDV-J17-ActiviteOperationnelle-ROR.md)
-* [JDV_J35_SpecialisationDePriseEnCharge_ROR](ValueSet-JDV-J35-SpecialisationDePriseEnCharge-ROR.md)
 * [JDV_J69_ActiviteOperationnelle_Santefr](ValueSet-JDV-J69-ActiviteOperationnelle-Santefr.md)
 
 
@@ -30,10 +29,11 @@ Activite Operationnelle
   "resourceType" : "CodeSystem",
   "id" : "TRE-R211-ActiviteOperationnelle",
   "meta" : {
-    "versionId" : "25",
-    "lastUpdated" : "2025-12-22T10:46:40.548+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
+    "versionId" : "26",
+    "lastUpdated" : "2026-03-27T11:13:06.524+01:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
+  "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
@@ -45,11 +45,11 @@ Activite Operationnelle
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.12"
   }],
-  "version" : "20251222120000",
+  "version" : "20260330120000",
   "name" : "TRE_R211_ActiviteOperationnelle",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-22T12:00:00+01:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Activite Operationnelle",
   "jurisdiction" : [{
@@ -60,7 +60,7 @@ Activite Operationnelle
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 602,
+  "count" : 617,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -189,14 +189,14 @@ Activite Operationnelle
   },
   {
     "code" : "006",
-    "display" : "Andrologie",
+    "display" : "Andrologie (urologie médicale)",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2015-04-08T00:00:00+01:00"
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -2889,14 +2889,14 @@ Activite Operationnelle
   },
   {
     "code" : "152",
-    "display" : "Urgences spécialisées Médico-Judiciaires (UMJ)",
+    "display" : "Evaluation Médico-Judiciaire (UMJ)",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2018-01-26T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -3001,14 +3001,14 @@ Activite Operationnelle
   },
   {
     "code" : "158",
-    "display" : "Urgences spécialisées psychiatriques",
+    "display" : "Urgences psychiatriques",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2018-01-26T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -3097,7 +3097,7 @@ Activite Operationnelle
   },
   {
     "code" : "164",
-    "display" : "Traitements médicamenteux systémiques du cancer",
+    "display" : "Traitements médicamenteux systémiques du cancer (chimiothérapie)",
     "definition" : "Regroupent la chimiothérapie, les thérapies ciblées, l'immunothérapie et les médicaments de thérapie innovante, quelles que soient les voies d'administration.",
     "designation" : [{
       "language" : "fr-FR",
@@ -3105,7 +3105,7 @@ Activite Operationnelle
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Traitements médicamenteux systémiques du cancer (chimiothérapie)"
+      "value" : "Traitements médicamenteux systémiques du cancer"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -3629,7 +3629,7 @@ Activite Operationnelle
   },
   {
     "code" : "192",
-    "display" : "Oncologie médicale ORL et cervico-faciale (cancérologie)",
+    "display" : "Oncologie médicale oto-rhino-laryngologique (ORL) et cervico-faciale (cancérologie)",
     "definition" : "Branche de l'oncologie médicale qui s'intéresse aux tumeurs cancéreuses de l'oreille, du nez et de la gorge.",
     "designation" : [{
       "language" : "fr-FR",
@@ -3637,7 +3637,7 @@ Activite Operationnelle
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Oncologie médicale oto-rhino-laryngologique (ORL) et cervico-faciale (cancérologie)"
+      "value" : "Oncologie médicale ORL et cervico-faciale (cancérologie)"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -3813,14 +3813,14 @@ Activite Operationnelle
   },
   {
     "code" : "202",
-    "display" : "RCP Appareil Digestif",
+    "display" : "Réunion de Concertation Pluridisciplinaire (RCP) Appareil Digestif",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de Concertation Pluridisciplinaire (RCP) Appareil Digestif"
+      "value" : "RCP Appareil Digestif"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -3837,14 +3837,14 @@ Activite Operationnelle
   },
   {
     "code" : "203",
-    "display" : "RCP App. Respi. Autres Thorax",
+    "display" : "Réunion de Concertation Pluridisciplinaire (RCP) Appareil Respiratoire et Autres Thorax",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de Concertation Pluridisciplinaire (RCP) Appareil Respiratoire et Autres Thorax"
+      "value" : "RCP App. Respi. Autres Thorax"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -3861,14 +3861,14 @@ Activite Operationnelle
   },
   {
     "code" : "204",
-    "display" : "RCP Glandes Endocrines",
+    "display" : "Réunion de Concertation Pluridisciplinaire (RCP) Glandes Endocrines",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de Concertation Pluridisciplinaire (RCP) Glandes Endocrines"
+      "value" : "RCP Glandes Endocrines"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -3885,14 +3885,14 @@ Activite Operationnelle
   },
   {
     "code" : "205",
-    "display" : "RCP Hématologie",
+    "display" : "Réunion de Concertation Pluridisciplinaire (RCP) Hématologie",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de Concertation Pluridisciplinaire (RCP) Hématologie"
+      "value" : "RCP Hématologie"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -3909,14 +3909,14 @@ Activite Operationnelle
   },
   {
     "code" : "206",
-    "display" : "RCP Oeil",
+    "display" : "Réunion de Concertation Pluridisciplinaire (RCP) Oeil",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de Concertation Pluridisciplinaire (RCP) Oeil"
+      "value" : "RCP Oeil"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -3933,14 +3933,14 @@ Activite Operationnelle
   },
   {
     "code" : "207",
-    "display" : "RCP Org. génitaux féminins",
+    "display" : "Réunion de Concertation Pluridisciplinaire (RCP) Organes génitaux féminins",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de Concertation Pluridisciplinaire (RCP) Organes génitaux féminins"
+      "value" : "RCP Org. génitaux féminins"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -3957,14 +3957,14 @@ Activite Operationnelle
   },
   {
     "code" : "208",
-    "display" : "RCP Org. génitaux masculins",
+    "display" : "Réunion de Concertation Pluridisciplinaire (RCP) Organes génitaux masculins",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de Concertation Pluridisciplinaire (RCP) Organes génitaux masculins"
+      "value" : "RCP Org. génitaux masculins"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -3997,14 +3997,14 @@ Activite Operationnelle
   },
   {
     "code" : "210",
-    "display" : "RCP Peau",
+    "display" : "Réunion de Concertation Pluridisciplinaire (RCP) Peau",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de Concertation Pluridisciplinaire (RCP) Peau"
+      "value" : "RCP Peau"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -4021,14 +4021,14 @@ Activite Operationnelle
   },
   {
     "code" : "211",
-    "display" : "RCP Sein",
+    "display" : "Réunion de Concertation Pluridisciplinaire (RCP) Sein",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de Concertation Pluridisciplinaire (RCP) Sein"
+      "value" : "RCP Sein"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -4045,14 +4045,14 @@ Activite Operationnelle
   },
   {
     "code" : "212",
-    "display" : "RCP Système Nerveux",
+    "display" : "Réunion de Concertation Pluridisciplinaire (RCP) Système Nerveux",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de Concertation Pluridisciplinaire (RCP) Système Nerveux"
+      "value" : "RCP Système Nerveux"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -4069,14 +4069,14 @@ Activite Operationnelle
   },
   {
     "code" : "213",
-    "display" : "RCP Tissus mous NCA",
+    "display" : "Réunion de Concertation Pluridisciplinaire (RCP) Tissus mous, Non Classés Ailleurs (NCA)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de Concertation Pluridisciplinaire (RCP) Tissus mous, Non Classés Ailleurs (NCA)"
+      "value" : "RCP Tissus mous NCA"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -4101,14 +4101,14 @@ Activite Operationnelle
   },
   {
     "code" : "214",
-    "display" : "RCP VADS",
+    "display" : "Réunion de Concertation Pluridisciplinaire (RCP) Voies Aéro-Digestives Supérieures (VADS)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de Concertation Pluridisciplinaire (RCP) Voies Aéro-Digestives Supérieures (VADS)"
+      "value" : "RCP VADS"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -4125,14 +4125,14 @@ Activite Operationnelle
   },
   {
     "code" : "215",
-    "display" : "RCP Voies urinaires",
+    "display" : "Réunion de Concertation Pluridisciplinaire (RCP) Voies urinaires",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de Concertation Pluridisciplinaire (RCP) Voies urinaires"
+      "value" : "RCP Voies urinaires"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -4149,14 +4149,14 @@ Activite Operationnelle
   },
   {
     "code" : "216",
-    "display" : "RCP Cancers rares",
+    "display" : "Réunion de Concertation Pluridisciplinaire (RCP) Cancers rares",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de Concertation Pluridisciplinaire (RCP) Cancers rares"
+      "value" : "RCP Cancers rares"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -4173,14 +4173,14 @@ Activite Operationnelle
   },
   {
     "code" : "217",
-    "display" : "RCP Douleur",
+    "display" : "Réunion de Concertation Pluridisciplinaire (RCP) Douleur",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de Concertation Pluridisciplinaire (RCP) Douleur"
+      "value" : "RCP Douleur"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -4197,14 +4197,14 @@ Activite Operationnelle
   },
   {
     "code" : "218",
-    "display" : "RCP Métastase osseuse",
+    "display" : "Réunion de Concertation Pluridisciplinaire (RCP) Métastase osseuse",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de Concertation Pluridisciplinaire (RCP) Métastase osseuse"
+      "value" : "RCP Métastase osseuse"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -4221,14 +4221,14 @@ Activite Operationnelle
   },
   {
     "code" : "219",
-    "display" : "RCP Oncogénétique",
+    "display" : "Réunion de Concertation Pluridisciplinaire (RCP) Oncogénétique",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de Concertation Pluridisciplinaire (RCP) Oncogénétique"
+      "value" : "RCP Oncogénétique"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -4245,14 +4245,14 @@ Activite Operationnelle
   },
   {
     "code" : "220",
-    "display" : "RCP Oncogériatrie",
+    "display" : "Réunion de Concertation Pluridisciplinaire (RCP) Oncogériatrie",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de Concertation Pluridisciplinaire (RCP) Oncogériatrie"
+      "value" : "RCP Oncogériatrie"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -4269,14 +4269,14 @@ Activite Operationnelle
   },
   {
     "code" : "221",
-    "display" : "RCP Oncologie médicale",
+    "display" : "Réunion de Concertation Pluridisciplinaire (RCP) Oncologie médicale",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de Concertation Pluridisciplinaire (RCP) Oncologie médicale"
+      "value" : "RCP Oncologie médicale"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -4293,14 +4293,14 @@ Activite Operationnelle
   },
   {
     "code" : "222",
-    "display" : "RCP Préservation fertilité",
+    "display" : "Réunion de Concertation Pluridisciplinaire (RCP) Préservation de la fertilité",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de Concertation Pluridisciplinaire (RCP) Préservation de la fertilité"
+      "value" : "RCP Préservation fertilité"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -4317,14 +4317,14 @@ Activite Operationnelle
   },
   {
     "code" : "223",
-    "display" : "RCP Radio interventionnelle",
+    "display" : "Réunion de Concertation Pluridisciplinaire (RCP) Radiologie interventionnelle",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de Concertation Pluridisciplinaire (RCP) Radiologie interventionnelle"
+      "value" : "RCP Radio interventionnelle"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -4341,14 +4341,14 @@ Activite Operationnelle
   },
   {
     "code" : "224",
-    "display" : "RCP Soins de support général",
+    "display" : "Réunion de Concertation Pluridisciplinaire (RCP) Soins de support général",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de Concertation Pluridisciplinaire (RCP) Soins de support général"
+      "value" : "RCP Soins de support général"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -4365,14 +4365,14 @@ Activite Operationnelle
   },
   {
     "code" : "225",
-    "display" : "RCP Soins palliatifs",
+    "display" : "Réunion de Concertation Pluridisciplinaire (RCP) Soins palliatifs",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de Concertation Pluridisciplinaire (RCP) Soins palliatifs"
+      "value" : "RCP Soins palliatifs"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -4457,13 +4457,14 @@ Activite Operationnelle
   {
     "code" : "230",
     "display" : "Psychiatrie périnatale",
+    "definition" : "Activité de soins psychiatriques spécialisée qui assure l’évaluation, le suivi et le traitement des troubles psychiques survenant pendant la grossesse, le post-partum et la première année de vie de l’enfant, en tenant compte du lien parent-enfant  permettant une prise en charge conjointe des parents et de leur enfant afin de soutenir la relation précoce et prévenir les conséquences développementales.",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2017-07-07T10:00:00+01:00"
+      "valueDateTime" : "2026-03-30T10:00:00+01:00"
     },
     {
       "code" : "status",
@@ -4573,7 +4574,7 @@ Activite Operationnelle
   },
   {
     "code" : "237",
-    "display" : "Réadaptation des affections du syst. digestif, endoc-métabo et nutrition",
+    "display" : "Réadaptation des affections du système digestif, endocrino-métaboliques et nutrition",
     "definition" : "Ensemble d'interventions conçues pour optimiser le fonctionnement et réduire le handicap des personnes souffrant de problèmes de santé lorsqu'elles interagissent avec leur environnement.",
     "designation" : [{
       "language" : "fr-FR",
@@ -4581,7 +4582,7 @@ Activite Operationnelle
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réadaptation des affections du système digestif, endocrino-métaboliques et nutrition"
+      "value" : "Réadaptation des affections du syst. digestif, endoc-métabo et nutrition"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -4664,14 +4665,14 @@ Activite Operationnelle
   },
   {
     "code" : "242",
-    "display" : "SSR polyvalent, reconnaissance affections onco-hématologiques",
+    "display" : "Soins de Suite et de Réadaptation (SSR) polyvalent, reconnaissance affections onco-hématologiques",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Soins de Suite et de Réadaptation (SSR) polyvalent, reconnaissance affections onco-hématologiques"
+      "value" : "SSR polyvalent, reconnaissance affections onco-hématologiques"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -5767,7 +5768,7 @@ Activite Operationnelle
   },
   {
     "code" : "309",
-    "display" : "Accompagnements à la vie affective et sexuelle",
+    "display" : "Accompagnements à la vie intime, affective et sexuelle",
     "definition" : "Information et accompagnements à la vie affective et sexuelle (inclut l'entretien contraception / pré-IVG etc.)",
     "property" : [{
       "code" : "dateValid",
@@ -5775,7 +5776,7 @@ Activite Operationnelle
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-10-25T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -5784,14 +5785,14 @@ Activite Operationnelle
   },
   {
     "code" : "310",
-    "display" : "Accomp pour exercice des mandats électoraux, représentation des pairs",
+    "display" : "Accompagnements pour l'exercice des mandats électoraux, la représentation des pairs",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Accompagnements pour l'exercice des mandats électoraux, la représentation des pairs"
+      "value" : "Accomp pour exercice des mandats électoraux, représentation des pairs"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -5906,14 +5907,14 @@ Activite Operationnelle
   },
   {
     "code" : "317",
-    "display" : "Inform, éval, accomp et orient ouverture droits et accès presta aidé et aidant",
+    "display" : "Informer, évaluer, accompagner et orienter pour l'ouverture des droits et l'accès aux prestations pour l'aidé et l'aidant",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Informer, évaluer, accompagner et orienter pour l'ouverture des droits et l'accès aux prestations pour l'aidé et l'aidant"
+      "value" : "Inform, éval, accomp et orient ouverture droits et accès presta aidé et aidant"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -5946,14 +5947,14 @@ Activite Operationnelle
   },
   {
     "code" : "319",
-    "display" : "Conseils et accomp dans démarches afin de mobiliser mesures protection adaptées",
+    "display" : "Conseils et accompagnements dans les démarches afin de mobiliser les mesures de protection adaptées",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Conseils et accompagnements dans les démarches afin de mobiliser les mesures de protection adaptées"
+      "value" : "Conseils et accomp dans démarches afin de mobiliser mesures protection adaptées"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -6180,14 +6181,14 @@ Activite Operationnelle
   },
   {
     "code" : "331",
-    "display" : "SSR polyvalent, Lits identifiés de soins palliatifs (LISP)",
+    "display" : "Soins de Suite et de Réadaptation (SSR) polyvalent, Lits identifiés de soins palliatifs (LISP)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Soins de Suite et de Réadaptation (SSR) polyvalent, Lits identifiés de soins palliatifs (LISP)"
+      "value" : "SSR polyvalent, Lits identifiés de soins palliatifs (LISP)"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -6212,14 +6213,14 @@ Activite Operationnelle
   },
   {
     "code" : "332",
-    "display" : "Préparation et reconstitution centralisée des médicaments cytotoxiques",
+    "display" : "Préparation et reconstitution centralisée des médicaments cytotoxiques (UPC, URC)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Préparation et reconstitution centralisée des médicaments cytotoxiques (UPC, URC)"
+      "value" : "Préparation et reconstitution centralisée des médicaments cytotoxiques"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -7777,14 +7778,14 @@ Activite Operationnelle
   },
   {
     "code" : "425",
-    "display" : "Kinésithérapie orientation Système musculo-squelettique",
+    "display" : "Kinésithérapie orientation Système musculo-squelettique (traumatologie, orthopédie)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Kinésithérapie orientation Système musculo-squelettique (traumatologie, orthopédie)"
+      "value" : "Kinésithérapie orientation Système musculo-squelettique"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -8173,7 +8174,7 @@ Activite Operationnelle
   },
   {
     "code" : "448",
-    "display" : "Diagnostic lié à un retard ou trouble du développement",
+    "display" : "Diagnostic lié à un retard ou Trouble du Neuro-Développement (TND)",
     "definition" : "Diagnostic pour répondre à des besoins relatifs au confort physique, la santé, le bien-être physique et mental.",
     "property" : [{
       "code" : "dateValid",
@@ -8181,7 +8182,7 @@ Activite Operationnelle
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2023-10-30T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8333,14 +8334,14 @@ Activite Operationnelle
   },
   {
     "code" : "457",
-    "display" : "RCP, RIC, maladies auto-immunes et biothérapies en rhumatologie",
+    "display" : "Réunion de Concertation Pluridisciplinaire (RCP) Rhumatismes Inflammatoires Chroniques (RIC), maladies auto-immunes et biothérapies en rhumatologie",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réunion de Concertation Pluridisciplinaire (RCP) Rhumatismes Inflammatoires Chroniques (RIC), maladies auto-immunes et biothérapies en rhumatologie"
+      "value" : "RCP, RIC, maladies auto-immunes et biothérapies en rhumatologie"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -8608,7 +8609,7 @@ Activite Operationnelle
   },
   {
     "code" : "469",
-    "display" : "Chirurgie orthopédique et traumatologique spéc. membres supérieurs (sauf main)",
+    "display" : "Chirurgie orthopédique et traumatologique spécialisée membres supérieurs (sauf la main)",
     "definition" : "Partie de la chirurgie qui traite les déformations des os, des articulations, des muscles et des tendons et répare ceux qui sont abîmés au cours d'un accident (traumatisme) qui prends en charge les lésions du membre supérieur en excluant la main.",
     "designation" : [{
       "language" : "fr-FR",
@@ -8616,7 +8617,7 @@ Activite Operationnelle
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Chirurgie orthopédique et traumatologique spécialisée membres supérieurs (sauf la main)"
+      "value" : "Chirurgie orthopédique et traumatologique spéc. membres supérieurs (sauf main)"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -8692,7 +8693,7 @@ Activite Operationnelle
   },
   {
     "code" : "473",
-    "display" : "Chirurgie onco de la sphère ORL, cervico-faciale et maxillo-faciale",
+    "display" : "Chirurgie oncologique de la sphère oto-rhino-laryngée, cervico-faciale et maxillo-faciale",
     "definition" : "Branche de la chirurgie qui s'intéresse aux tumeurs cancéreuses de la sphère oto-rhino-laryngée, cervico-faciale et maxillo-faciale.",
     "designation" : [{
       "language" : "fr-FR",
@@ -8700,7 +8701,7 @@ Activite Operationnelle
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Chirurgie oncologique de la sphère oto-rhino-laryngée, cervico-faciale et maxillo-faciale"
+      "value" : "Chirurgie onco de la sphère ORL, cervico-faciale et maxillo-faciale"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -8802,7 +8803,7 @@ Activite Operationnelle
   },
   {
     "code" : "479",
-    "display" : "Explorations fonc. endocrinologie, diabétologie, métabolisme et nutrition",
+    "display" : "Explorations fonctionnelles endocrinologie, diabétologie, métabolisme et nutrition",
     "definition" : "Examen(s) destiné(s) à apprécier la manière dont un organe assure sa fonction.",
     "designation" : [{
       "language" : "fr-FR",
@@ -8810,7 +8811,7 @@ Activite Operationnelle
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Explorations fonctionnelles endocrinologie, diabétologie, métabolisme et nutrition"
+      "value" : "Explorations fonc. endocrinologie, diabétologie, métabolisme et nutrition"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -8929,7 +8930,7 @@ Activite Operationnelle
   },
   {
     "code" : "486",
-    "display" : "Médecine générale orientation Maladies infectieuses, parasitaires et tropicales",
+    "display" : "Médecine générale à orientation Maladies infectieuses, parasitaires et tropicales",
     "definition" : "Activité d'un médecin généraliste ayant acquis un diplôme ou une mention autorisée en Maladies infectieuses, parasitaires et tropicales.",
     "designation" : [{
       "language" : "fr-FR",
@@ -8937,7 +8938,7 @@ Activite Operationnelle
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Médecine générale à orientation Maladies infectieuses, parasitaires et tropicales"
+      "value" : "Médecine générale orientation Maladies infectieuses, parasitaires et tropicales"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -9343,15 +9344,15 @@ Activite Operationnelle
   },
   {
     "code" : "510",
-    "display" : "Échographie obstétricale",
-    "definition" : "Echographie qui s'applique aux organes pelviens de la femme, en particulier l'utérus, les ovaires, les trompes de Fallope, ainsi que la vessie, le cul-de-sac de Douglas. L'échographie de la grossesse permettent de suivre l'évolution et le bon développement du futur bébé tout au long de ces neuf mois.",
+    "display" : "Échographie obstétricale de dépistage (1er, 2ème, 3ème trimestre)",
+    "definition" : "Au premier trimestre : entre 11 semaines et 13 semaines d’aménorrhée et 6 jours (date du début de grossesse, identification et caractérisation des grossesses multiples, évaluation du risque d’anomalie chromosomique, dépistage de certaines pathologies). Au deuxième trimestre : entre 20 et 25 semaines d’aménorrhée (dépistage de certaines pathologies). Au troisième trimestre : entre 30 et 35 semaines d’aménorrhée (dépistage des retards de croissance intra-utérins et de certaines pathologies, localisation du placenta). Il est préférable de programmer ces examens au milieu de ces différentes périodes. Ces examens de dépistage échographique de première intention sont réalisés dans le cadre d’un suivi obstétrical de proximité, par des échographistes expérimentés dont le matériel répond aux normes définies par la nomenclature générale des actes professionnels. Les possibilités réelles et les limites de cet examen doivent être précisées à la femme enceinte ainsi que les informations disponibles dans le compte rendu d’échographie.",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2023-01-27T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -9368,7 +9369,7 @@ Activite Operationnelle
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2023-05-26T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -9474,14 +9475,14 @@ Activite Operationnelle
   },
   {
     "code" : "518",
-    "display" : "Réadaptation des troubles cognitifs et comportementaux des pat. cérébro-lésés",
+    "display" : "Réadaptation des troubles cognitifs et comportementaux des patients cérébro-lésés",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Réadaptation des troubles cognitifs et comportementaux des patients cérébro-lésés"
+      "value" : "Réadaptation des troubles cognitifs et comportementaux des pat. cérébro-lésés"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -9613,14 +9614,14 @@ Activite Operationnelle
   },
   {
     "code" : "526",
-    "display" : "Inform, éval, accomp et orient pour orientation professionnelle",
+    "display" : "Informer, évaluer, accompagner et orienter dans le cadre d'une orientation professionnelle",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Informer, évaluer, accompagner et orienter dans le cadre d'une orientation professionnelle"
+      "value" : "Inform, éval, accomp et orient pour orientation professionnelle"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -10698,13 +10699,14 @@ Activite Operationnelle
   {
     "code" : "590",
     "display" : "Échographie gynécologique",
+    "definition" : "L’échographie gynécologique est un examen d’imagerie médicale par ultrasons destiné à explorer les organes pelviens féminins (principalement l’utérus, l’endomètre, les ovaires, les trompes et les structures annexielles) en dehors du suivi obstétrical. Elle est réalisée par voie endovaginale et/ou par voie sus-pubienne afin de rechercher, caractériser ou suivre des anomalies anatomiques ou pathologiques gynécologiques (telles que kystes ovariens, fibromes, adénomyose, endométriose, etc.) et contribuer à la prise en charge clinique adaptée de la patiente.",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2025-06-20T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -10894,6 +10896,22 @@ Activite Operationnelle
     }]
   },
   {
+    "code" : "602",
+    "display" : "Pair aidance pour l'autodétermination",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
     "code" : "603",
     "display" : "Prise en charge coordonnée des patients atteints de maladies neurodégénératives",
     "property" : [{
@@ -10903,6 +10921,232 @@ Activite Operationnelle
     {
       "code" : "dateMaj",
       "valueDateTime" : "2025-12-22T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "604",
+    "display" : "Chirurgie pédiatrique spécialisée orthopédique",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "605",
+    "display" : "Chirurgie pédiatrique spécialisée digestif et viscérale",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "606",
+    "display" : "Accompagnement pour l’autodétermination de la personne",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "607",
+    "display" : "Fonction-ressource : expertise-conseils auprès des acteurs du secteur sanitaire",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "608",
+    "display" : "Fonction-ressource : expertise-conseils auprès des acteurs du milieu ordinaire",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "609",
+    "display" : "Fonction-ressource : expertise-conseils auprès de acteurs du secteur judiciaire",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "610",
+    "display" : "Pédiatrie spécialisée neurologie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "611",
+    "display" : "Pédiatrie spécialisée pneumologie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "612",
+    "display" : "Psychiatrie de crise",
+    "definition" : "Activité de soins psychiatriques qui assure une prise en charge immédiate des situations de crise psychique aiguë, caractérisées par une souffrance intense ou un risque pour la personne, afin de prévenir une aggravation ou une hospitalisation non adaptée. Elle s’appuie sur des interventions brèves, coordonnées et pluridisciplinaires, en lien avec les dispositifs d’urgence.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "613",
+    "display" : "Echographie obstétricale de diagnostic",
+    "definition" : "En cas d’aspect inhabituel (morphologique et/ou biométrique), de doute ou de difficulté persistante à fournir les éléments demandés pour l’examen de dépistage. Cet examen de deuxième rang est réalisé par des praticiens ayant une expérience et une expertise spécifiques et exerçant en relation avec un (ou plusieurs) Centre(s) Pluridisciplinaire(s) de Diagnostic Prénatal.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "614",
+    "display" : "Soins infirmiers en pratique avancée en pathologies chroniques stabilisées",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "615",
+    "display" : "Soins infirmiers en pratique avancée en oncologie et hémato-oncologie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "616",
+    "display" : "Soins infirmiers en pratique avancée en maladie rénale chronique",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "617",
+    "display" : "Soins infirmiers en pratique avancée en santé mentale",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",

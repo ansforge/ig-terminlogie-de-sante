@@ -1,4 +1,4 @@
-# JDV_J17_ActiviteOperationnelle_ROR - Terminologies de Santé v1.7.0
+# JDV_J17_ActiviteOperationnelle_ROR - Terminologies de Santé v1.8.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J17-ActiviteOperationnelle-ROR/FHIR/JDV-J17-ActiviteOperationnelle-ROR | *Version*:20251222120000 | |
-| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J17_ActiviteOperationnelle_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J17-ActiviteOperationnelle-ROR/FHIR/JDV-J17-ActiviteOperationnelle-ROR | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J17_ActiviteOperationnelle_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.5 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J17-ActiviteOperationnelle-ROR",
   "meta" : {
-    "versionId" : "25",
-    "lastUpdated" : "2025-12-18T16:47:43.720+01:00",
+    "versionId" : "26",
+    "lastUpdated" : "2026-03-27T11:18:05.487+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -71,11 +71,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.5"
   }],
-  "version" : "20251222120000",
+  "version" : "20260330120000",
   "name" : "JDV_J17_ActiviteOperationnelle_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-22T12:00:00+01:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Activité Operationnelle - ROR",
   "jurisdiction" : [{
@@ -105,7 +105,7 @@ Requête sur le SMT
       },
       {
         "code" : "006",
-        "display" : "Andrologie"
+        "display" : "Andrologie (urologie médicale)"
       },
       {
         "code" : "007",
@@ -517,7 +517,7 @@ Requête sur le SMT
       },
       {
         "code" : "152",
-        "display" : "Urgences spécialisées Médico-Judiciaires (UMJ)"
+        "display" : "Evaluation Médico-Judiciaire (UMJ)"
       },
       {
         "code" : "154",
@@ -533,7 +533,7 @@ Requête sur le SMT
       },
       {
         "code" : "158",
-        "display" : "Urgences spécialisées psychiatriques"
+        "display" : "Urgences psychiatriques"
       },
       {
         "code" : "159",
@@ -1093,7 +1093,7 @@ Requête sur le SMT
       },
       {
         "code" : "309",
-        "display" : "Accompagnements à la vie affective et sexuelle"
+        "display" : "Accompagnements à la vie intime, affective et sexuelle"
       },
       {
         "code" : "310",
@@ -1601,7 +1601,7 @@ Requête sur le SMT
       },
       {
         "code" : "448",
-        "display" : "Diagnostic lié à un retard ou trouble du développement"
+        "display" : "Diagnostic lié à un retard ou Trouble du Neuro-Développement (TND)"
       },
       {
         "code" : "449",
@@ -1809,7 +1809,7 @@ Requête sur le SMT
       },
       {
         "code" : "510",
-        "display" : "Échographie obstétricale"
+        "display" : "Échographie obstétricale de dépistage (1er, 2ème, 3ème trimestre)"
       },
       {
         "code" : "511",
@@ -2172,8 +2172,68 @@ Requête sur le SMT
         "display" : "Médiation pour le maintien en hospitalisation"
       },
       {
+        "code" : "602",
+        "display" : "Pair aidance pour l'autodétermination"
+      },
+      {
         "code" : "603",
         "display" : "Prise en charge coordonnée des patients atteints de maladies neurodégénératives"
+      },
+      {
+        "code" : "604",
+        "display" : "Chirurgie pédiatrique spécialisée orthopédique"
+      },
+      {
+        "code" : "605",
+        "display" : "Chirurgie pédiatrique spécialisée digestif et viscérale"
+      },
+      {
+        "code" : "606",
+        "display" : "Accompagnement pour l’autodétermination de la personne"
+      },
+      {
+        "code" : "607",
+        "display" : "Fonction-ressource : expertise-conseils auprès des acteurs du secteur sanitaire"
+      },
+      {
+        "code" : "608",
+        "display" : "Fonction-ressource : expertise-conseils auprès des acteurs du milieu ordinaire"
+      },
+      {
+        "code" : "609",
+        "display" : "Fonction-ressource : expertise-conseils auprès de acteurs du secteur judiciaire"
+      },
+      {
+        "code" : "610",
+        "display" : "Pédiatrie spécialisée neurologie"
+      },
+      {
+        "code" : "611",
+        "display" : "Pédiatrie spécialisée pneumologie"
+      },
+      {
+        "code" : "612",
+        "display" : "Psychiatrie de crise"
+      },
+      {
+        "code" : "613",
+        "display" : "Echographie obstétricale de diagnostic"
+      },
+      {
+        "code" : "614",
+        "display" : "Soins infirmiers en pratique avancée en pathologies chroniques stabilisées"
+      },
+      {
+        "code" : "615",
+        "display" : "Soins infirmiers en pratique avancée en oncologie et hémato-oncologie"
+      },
+      {
+        "code" : "616",
+        "display" : "Soins infirmiers en pratique avancée en maladie rénale chronique"
+      },
+      {
+        "code" : "617",
+        "display" : "Soins infirmiers en pratique avancée en santé mentale"
       }]
     }]
   }

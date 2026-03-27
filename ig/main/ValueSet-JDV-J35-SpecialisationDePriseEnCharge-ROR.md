@@ -1,4 +1,4 @@
-# JDV_J35_SpecialisationDePriseEnCharge_ROR - Terminologies de Santé v1.7.0
+# JDV_J35_SpecialisationDePriseEnCharge_ROR - Terminologies de Santé v1.8.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J35-SpecialisationDePriseEnCharge-ROR/FHIR/JDV-J35-SpecialisationDePriseEnCharge-ROR | *Version*:20250425120000 | |
-| Active as of 2025-04-25 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J35_SpecialisationDePriseEnCharge_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J35-SpecialisationDePriseEnCharge-ROR/FHIR/JDV-J35-SpecialisationDePriseEnCharge-ROR | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J35_SpecialisationDePriseEnCharge_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.42 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J35-SpecialisationDePriseEnCharge-ROR",
   "meta" : {
-    "versionId" : "10",
-    "lastUpdated" : "2025-07-02T17:06:28.929+00:00",
+    "versionId" : "11",
+    "lastUpdated" : "2026-03-27T11:18:10.202+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -71,11 +71,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.42"
   }],
-  "version" : "20250425120000",
+  "version" : "20260330120000",
   "name" : "JDV_J35_SpecialisationDePriseEnCharge_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-04-25T12:00:00+01:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Spécialisation de prise en charge - ROR",
   "jurisdiction" : [{
@@ -346,12 +346,9 @@ Requête sur le SMT
       {
         "code" : "67",
         "display" : "Trouble psychotraumatique (dont Troubles Stress Post-Traumatique)"
-      }]
-    },
-    {
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
-      "concept" : [{
-        "code" : "068",
+      },
+      {
+        "code" : "68",
         "display" : "Troubles cognitifs ou du comportement et de la relation affective dus à une lésion cérébrale acquise"
       }]
     }]

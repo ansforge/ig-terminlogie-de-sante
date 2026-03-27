@@ -6,11 +6,11 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : ImplementationGuide ans.fr.terminologies</b></p><a name=\"ans.fr.terminologies\"> </a><a name=\"hcans.fr.terminologies\"> </a><h2>Terminologies</h2><p>L'URL officielle pour ce guide d'implémentation est : </p><pre>https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies</pre><div><p>Les nomenclatures des objets de Santé sont mises à disposition du secteur santé-social par l’agence du numérique en santé</p>\n</div></div>"
   },
   "url" : "https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies",
-  "version" : "1.7.0",
+  "version" : "1.8.0",
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-03-27T05:34:16+00:00",
+  "date" : "2026-03-27T14:23:50+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -26907,6 +26907,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/concept-properties"
+      },
+      "name" : "Concept Properties",
+      "description" : "CodeSystem permettant définir les propriétés NOS utilisées dans les CodeSystem NOS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -29033,6 +29045,30 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-j289-type-groupe-gco-finess"
+      },
+      "name" : "Jdv J289 Type Groupe Gco Finess",
+      "description" : "Jeu de valeurs Finess contenant les types de Groupement de Coopération Organique (GCO).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j296-type-role-entite-groupe-finess"
+      },
+      "name" : "Jdv J296 Type Role Entite Groupe Finess",
+      "description" : "Jeu de valeurs FINESS contenant les types de rôles que peuvent exercer des entités participants à des groupements",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-j301-finess-statut-juridique-niv1-finess"
       },
       "name" : "Jdv J301 Finess Statut Juridique Niv1 Finess",
@@ -29073,6 +29109,30 @@
       },
       "name" : "Jdv J304 Finess Statut Juridique Finess",
       "description" : "Ce JDV comporte tous les status juridiques hors agrégat (JDV créé à l'image de l'ancienne TRE_R72-FinessStatutJuridique)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j305-type-groupement-finess"
+      },
+      "name" : "Jdv J305 Type Groupement Finess",
+      "description" : "Jeu de valeurs FINESS contenant les types de groupement utilisables dans FINESS. Groupement de coopération conventionnelle ou Groupement de coopération organique",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j306-type-groupe-gcc-finess"
+      },
+      "name" : "Jdv J306 Type Groupe Gcc Finess",
+      "description" : "Jeu de valeurs FINESS contenant les types de Groupement de Coopération conventionnelle (GCC).",
       "exampleBoolean" : false
     },
     {
@@ -29301,6 +29361,42 @@
       },
       "name" : "Jdv J370 Type Contrat Sejour Ms",
       "description" : "Type de contrat conclu entre l’établissement/service et la personne/son représentant légal.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j373-type-autorite"
+      },
+      "name" : "Jdv J373 Type Autorite",
+      "description" : "Jeu de valeurs contenant les différents types d'autorité (actifs ou inactifs)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j374-autorite"
+      },
+      "name" : "Jdv J374 Autorite",
+      "description" : "Jeu de valeurs contenant la liste des autorités quelque soit la catégorie d'autorité et quelque soir l'état de l'autorité active ou inactive)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j375-autorite-ordre"
+      },
+      "name" : "Jdv J375 Autorite Ordre",
+      "description" : "Jeu de valeurs comportant uniquement les autorités de type Ordre.",
       "exampleBoolean" : false
     },
     {
@@ -36358,6 +36454,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/terminologie-ruim-eeprescription"
+      },
+      "name" : "RUIM - european eprescription",
+      "description" : "Composite CodeSystem grouping Brand Name + Package Size (+ optional properties).NB: dans cette version bêta, le Brand Name est remplacé par le libellé de la spécialité.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "NamingSystem"
       }],
       "reference" : {
@@ -36376,18 +36484,6 @@
       },
       "name" : "Service type",
       "description" : "This value set defines an example set of codes of service-types.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/terminologie-esesali"
-      },
-      "name" : "SESALI",
-      "description" : "Composite CodeSystem grouping Brand Name + Package Size (+ optional properties).NB: dans cette version bêta, le Brand Name est remplacé par le libellé de la spécialité.",
       "exampleBoolean" : false
     },
     {
@@ -36587,6 +36683,162 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/tre-r360-type-role-entite-groupe"
+      },
+      "name" : "Tre R360 Type Role Entite Groupe",
+      "description" : "Nomenclature des types de rôles que peuvent exercer des entités participants à des groupements",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r361-fonction-publique"
+      },
+      "name" : "Tre R361 Fonction Publique",
+      "description" : "Nomenclature des versants de la fonction publique",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r362-type-budget"
+      },
+      "name" : "Tre R362 Type Budget",
+      "description" : "Nomenclature des types de budget associés aux Entités Géographiques d'Exercice (EGE) dans FINESS+",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r371-type-groupe-gcc"
+      },
+      "name" : "Tre R371 Type Groupe Gcc",
+      "description" : "Nomenclature des types de groupement Concernant les groupement de structure on a 2 catégories de regroupement : les Groupement de Coopération Conventionnelle, les Groupement de Coopération Organique",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r372-type-groupe-gco"
+      },
+      "name" : "Tre R372 Type Groupe Gco",
+      "description" : "Nomenclature des types de Groupement de Coopération Organique (GCO)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r375-mode-financement"
+      },
+      "name" : "Tre R375 Mode Financement",
+      "description" : "Nomenclature des modes de financement associés aux capacités de certaines activitées SMSSE",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r381-activite-amm"
+      },
+      "name" : "Tre R381 Activite Amm",
+      "description" : "Nomenclature des activités de soin AMM",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r382-modalite-act-de-soin-amm"
+      },
+      "name" : "Tre R382 Modalite Act De Soin Amm",
+      "description" : "Nomenclature des modalités pour les activités de soin AMM",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r383-mention-act-de-soin-amm"
+      },
+      "name" : "Tre R383 Mention Act De Soin Amm",
+      "description" : "Nomenclature des mentions pour les activités de soin AMM",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r384-pratique-therapeutique-specifique-act-de-soin-amm"
+      },
+      "name" : "Tre R384 Pratique Therapeutique Specifique Act De Soin Amm",
+      "description" : "Nomenclature des pratiques thérapeutiques spécifiques pour les activités de soin AMM",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r385-declaration-act-de-soin-amm"
+      },
+      "name" : "Tre R385 Declaration Act De Soin Amm",
+      "description" : "Nomenclature des déclarations pour les activités de soin AMM",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r387-type-groupement"
+      },
+      "name" : "Tre R387 Type Groupement",
+      "description" : "Nomenclature des types de groupement utilisables dans FINESS. Groupement de coopération conventionnelle ou Groupement de coopération organique",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r388-type-logement"
+      },
+      "name" : "Tre R388 Type Logement",
+      "description" : "Nomenclature des types de logement associées aux capacités Remarque : cette nomenclature est initialisée avec les besoins FINESS+",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/tre-r389-statut-bilan-projet-personnalise"
       },
       "name" : "Tre R389 Statut Bilan Projet Personnalise",
@@ -36627,6 +36879,18 @@
       },
       "name" : "Tre R394 Competence Metier",
       "description" : "Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r396-autorite"
+      },
+      "name" : "Tre R396 Autorite",
+      "description" : "liste des autorités structurée en plusieurs types d'autorités : Ordres, ARS, ...",
       "exampleBoolean" : false
     },
     {
@@ -37429,7 +37693,7 @@
         "reference" : "CodeSystem/TRE-R210-ActeSpecifique"
       },
       "name" : "TRE_R210_ActeSpecifique",
-      "description" : "Un acte spécifique est une action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé. Les actes réalisés habituellement par ce type d’organisation ne sont pas des actes spécifiques. Les actes spécifiques décrits sont réalisés avec les ressources propres de l’organisation ou via des ressources mises à disposition dans le cadre d’une convention à la condition que ces ressources interviennent sur site dans la réalisation de la prestation.",
+      "description" : "Action menée par un ou plusieurs acteur(s) de santé dans le cadre d'une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé.",
       "exampleBoolean" : false
     },
     {
@@ -39849,10 +40113,202 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/vs-tre-r272-equipement-materiel-lourd-all"
+      },
+      "name" : "Vs Tre R272 Equipement Materiel Lourd All",
+      "description" : "Jeu de valeurs ALL contenant les équipements matériels lourds",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r274-activite-sanitaire-regulee-all"
+      },
+      "name" : "Vs Tre R274 Activite Sanitaire Regulee All",
+      "description" : "Jeu de valeurs FINESS contenant les activités sanitaires soumises à une régulation de la part de l'ARS.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r361-fonction-publique-all"
+      },
+      "name" : "Vs Tre R361 Fonction Publique All",
+      "description" : "Jeu de valeurs ALL contenant les versants de la fonction publique.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r362-type-budget-all"
+      },
+      "name" : "Vs Tre R362 Type Budget All",
+      "description" : "Jeu de valeurs ALL contenant les types de budget associés aux Entités Géographiques d'Exercice (EGE) dans FINESS+.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r375-mode-financement-all"
+      },
+      "name" : "Vs Tre R375 Mode Financement All",
+      "description" : "Jeu de valeurs ALL contenant les modes de financement associés aux capacités de certaines activitées SMSSE.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r381-activite-amm-all"
+      },
+      "name" : "Vs Tre R381 Activite Amm All",
+      "description" : "Jeu de valeurs ALL contenant les activités de soin AMM",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r382-modalite-act-de-soin-amm-all"
+      },
+      "name" : "Vs Tre R382 Modalite Act De Soin Amm All",
+      "description" : "Jeu de valeurs ALL contenant les modalités pour les activités de soin AMM",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r383-mention-act-de-soin-amm-all"
+      },
+      "name" : "Vs Tre R383 Mention Act De Soin Amm All",
+      "description" : "Jeu de valeurs ALL contenant les mentions pour les activités de soin AMM",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r384-pratique-therapeutique-specifique-act-soin-amm-all"
+      },
+      "name" : "Vs Tre R384 Pratique Therapeutique Specifique Act De Soin Amm All",
+      "description" : "Jeu de valeurs ALL contenant les pratiques thérapeutiques spécifiques pour les activités de soin AMM",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r385-declaration-act-de-soin-amm-all"
+      },
+      "name" : "Vs Tre R385 Declaration Act De Soin Amm All",
+      "description" : "Jeu de valeurs ALL contenant les déclarations pour les activités de soin AMM",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r388-type-logement-all"
+      },
+      "name" : "Vs Tre R388 Type Logement All",
+      "description" : "Jeu de valeurs ALL contenant les types de logement associés aux capacités des structures FINESS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all"
+      },
+      "name" : "Vs Tre R404 Mode Fonctionnement Activite Smsse Regulee All",
+      "description" : "Jeu de valeurs ALL contenant les modes de fonctinonemment des activités ssmsse régulées",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r405-modalite-activite-smsse-regulee-all"
+      },
+      "name" : "Vs Tre R405 Modalite Activite Smsse Regulee All",
+      "description" : "Jeu de valeurs ALL contenant les modalités des activités SSMSE régulées",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r406-forme-activite-smsse-regulee-all"
+      },
+      "name" : "Vs Tre R406 Forme Activite Smsse Regulee All",
+      "description" : "Jeu de valeurs ALL contenant les formes des activites smsse régulées",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r62-domaine-all"
+      },
+      "name" : "Vs Tre R62 Domaine All",
+      "description" : "Jeu de valeurs ALL contenant les domaines",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/vs-tre-r73-espic-all"
       },
       "name" : "Vs Tre R73 Espic All",
       "description" : "Jeu de valeurs ALL contenant tous les établissements de santé privés d'intérêt collectif",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r74-mode-fixation-tarifaire-all"
+      },
+      "name" : "Vs Tre R74 Mode Fixation Tarifaire All",
+      "description" : "Jeu de valeurs ALL contenant les modes de fixation tarifaire",
       "exampleBoolean" : false
     },
     {

@@ -1,4 +1,4 @@
-# Tre R406 Forme Activite Smsse Regulee - Terminologies de Santé v1.7.0
+# Tre R406 Forme Activite Smsse Regulee - Terminologies de Santé v1.8.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -17,7 +17,7 @@ Formes des activites smsse régulées, remplace la TRE_R276-FormeActivite
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* Cette terminologie de référence (CodeSystem) n'est pas utilisée ici; elle peut être utilisée ailleurs (par exemple spécifications et/ou implémentations qui utilisent ce contenu)
+* [VsTreR406FormeActiviteSmsseReguleeAll](ValueSet-vs-tre-r406-forme-activite-smsse-regulee-all.md)
 
 
 
@@ -28,8 +28,8 @@ Formes des activites smsse régulées, remplace la TRE_R276-FormeActivite
   "resourceType" : "CodeSystem",
   "id" : "tre-r406-forme-activite-smsse-regulee",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-02-23T17:57:32.001+01:00",
+    "versionId" : "3",
+    "lastUpdated" : "2026-03-27T12:13:06.196+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -80,18 +80,6 @@ Formes des activites smsse régulées, remplace la TRE_R276-FormeActivite
     "type" : "dateTime"
   },
   {
-    "code" : "cisis",
-    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#cisis",
-    "description" : "Permet de définir les codes concepts uilisés par le CISIS",
-    "type" : "boolean"
-  },
-  {
-    "code" : "rass",
-    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#rass",
-    "description" : "Permet de définir les codes concepts uilisés par le RASS",
-    "type" : "boolean"
-  },
-  {
     "code" : "deprecationDate",
     "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
     "description" : "Date Concept was deprecated",
@@ -108,6 +96,18 @@ Formes des activites smsse régulées, remplace la TRE_R276-FormeActivite
     "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
     "description" : "Date Concept was retired",
     "type" : "dateTime"
+  },
+  {
+    "code" : "rass",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#rass",
+    "description" : "Permet de définir les codes concepts uilisés par le RASS",
+    "type" : "boolean"
+  },
+  {
+    "code" : "cisis",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#cisis",
+    "description" : "Permet de définir les codes concepts uilisés par le CISIS",
+    "type" : "boolean"
   }],
   "concept" : [{
     "code" : "00",
@@ -123,10 +123,6 @@ Formes des activites smsse régulées, remplace la TRE_R276-FormeActivite
     {
       "code" : "status",
       "valueCode" : "active"
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
     }]
   },
   {

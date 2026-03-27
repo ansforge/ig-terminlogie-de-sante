@@ -604,7 +604,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM",
-    "version" : "20250328120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "TRE_R13_CommuneOM",
     "title" : null,
@@ -658,7 +658,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R200-CanalCommunication/FHIR/TRE-R200-CanalCommunication",
-    "version" : "20231215120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "TRE_R200_CanalCommunication",
     "title" : null,
@@ -757,16 +757,16 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique",
-    "version" : "20251222120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "TRE_R210_ActeSpecifique",
     "title" : null,
-    "description" : "Un acte spécifique est une action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé. Les actes réalisés habituellement par ce type d’organisation ne sont pas des actes spécifiques. Les actes spécifiques décrits sont réalisés avec les ressources propres de l’organisation ou via des ressources mises à disposition dans le cadre d’une convention à la condition que ces ressources interviennent sur site dans la réalisation de la prestation.",
+    "description" : "Action menée par un ou plusieurs acteur(s) de santé dans le cadre d'une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé.",
     "oids" : ["1.2.250.1.213.3.3.11"]
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
-    "version" : "20251222120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "TRE_R211_ActiviteOperationnelle",
     "title" : null,
@@ -784,7 +784,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R213-ModePriseEnCharge/FHIR/TRE-R213-ModePriseEnCharge",
-    "version" : "20251222120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "TRE_R213_ModePriseEnCharge",
     "title" : null,
@@ -919,7 +919,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R227-ChampActivite/FHIR/TRE-R227-ChampActivite",
-    "version" : "20231215120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "TRE_R227_ChampActivite",
     "title" : null,
@@ -1018,7 +1018,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R239-PublicPrisEnCharge/FHIR/TRE-R239-PublicPrisEnCharge",
-    "version" : "20250328120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "TRE_R239_PublicPrisEnCharge",
     "title" : null,
@@ -1063,7 +1063,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R243-CompetenceSpecifique/FHIR/TRE-R243-CompetenceSpecifique",
-    "version" : "20240426120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "TRE_R243_CompetenceSpecifique",
     "title" : null,
@@ -1072,7 +1072,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation",
-    "version" : "20260223120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "TRE_R244_CategorieOrganisation",
     "title" : null,
@@ -1378,7 +1378,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R280-DisciplineEquipementSocial/FHIR/TRE-R280-DisciplineEquipementSocial",
-    "version" : "20231215120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "TRE_R280_DisciplineEquipementSocial",
     "title" : null,
@@ -1855,7 +1855,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R338-ModaliteAccueil/FHIR/TRE-R338-ModaliteAccueil",
-    "version" : "20251222120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "TRE_R338_ModaliteAccueil",
     "title" : null,
@@ -2287,7 +2287,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement",
-    "version" : "20260223120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "TRE_R66_CategorieEtablissement",
     "title" : null,
@@ -2404,7 +2404,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
-    "version" : "20260202120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "TRE_R85_RolePriseCharge",
     "title" : null,
@@ -2678,6 +2678,123 @@
     "description" : "Traduction Française"
   },
   {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "TreR360TypeRoleEntiteGroupe",
+    "title" : "Tre R360 Type Role Entite Groupe",
+    "description" : "Nomenclature des types de rôles que peuvent exercer des entités participants à des groupements",
+    "oids" : ["1.2.250.1.213.1.6.1.254"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r361-fonction-publique",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "TreR361FonctionPublique",
+    "title" : "Tre R361 Fonction Publique",
+    "description" : "Nomenclature des versants de la fonction publique",
+    "oids" : ["1.2.250.1.213.1.6.1.255"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r362-type-budget",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "TreR362TypeBudget",
+    "title" : "Tre R362 Type Budget",
+    "description" : "Nomenclature des types de budget associés aux Entités Géographiques d'Exercice (EGE) dans FINESS+",
+    "oids" : ["1.2.250.1.213.1.6.1.256"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r371-type-groupe-gcc",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "TreR371TypeGroupeGcc",
+    "title" : "Tre R371 Type Groupe Gcc",
+    "description" : "Nomenclature des types de groupement Concernant les groupement de structure on a 2 catégories de regroupement : les Groupement de Coopération Conventionnelle, les Groupement de Coopération Organique",
+    "oids" : ["1.2.250.1.213.1.6.1.287"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r372-type-groupe-gco",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "TreR372TypeGroupeGco",
+    "title" : "Tre R372 Type Groupe Gco",
+    "description" : "Nomenclature des types de Groupement de Coopération Organique (GCO)",
+    "oids" : ["1.2.250.1.213.1.6.1.288"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r375-mode-financement",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "TreR375ModeFinancement",
+    "title" : "Tre R375 Mode Financement",
+    "description" : "Nomenclature des modes de financement associés aux capacités de certaines activitées SMSSE",
+    "oids" : ["1.2.250.1.213.1.6.1.290"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "TreR381ActiviteAmm",
+    "title" : "Tre R381 Activite Amm",
+    "description" : "Nomenclature des activités de soin AMM",
+    "oids" : ["1.2.250.1.213.1.6.1.296"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r382-modalite-act-de-soin-amm",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "TreR382ModaliteActDeSoinAmm",
+    "title" : "Tre R382 Modalite Act De Soin Amm",
+    "description" : "Nomenclature des modalités pour les activités de soin AMM",
+    "oids" : ["1.2.250.1.213.1.6.1.297"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r383-mention-act-de-soin-amm",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "TreR383MentionActDeSoinAmm",
+    "title" : "Tre R383 Mention Act De Soin Amm",
+    "description" : "Nomenclature des mentions pour les activités de soin AMM",
+    "oids" : ["1.2.250.1.213.1.6.1.298"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r384-pratique-therapeutique-specifique-act-de-soin-amm",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "TreR384PratiqueTherapeutiqueSpecifiqueActDeSoinAmm",
+    "title" : "Tre R384 Pratique Therapeutique Specifique Act De Soin Amm",
+    "description" : "Nomenclature des pratiques thérapeutiques spécifiques pour les activités de soin AMM",
+    "oids" : ["1.2.250.1.213.1.6.1.299"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r385-declaration-act-de-soin-amm",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "TreR385DeclarationActDeSoinAmm",
+    "title" : "Tre R385 Declaration Act De Soin Amm",
+    "description" : "Nomenclature des déclarations pour les activités de soin AMM",
+    "oids" : ["1.2.250.1.213.1.6.1.300"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "TreR387TypeGroupement",
+    "title" : "Tre R387 Type Groupement",
+    "description" : "Nomenclature des types de groupement utilisables dans FINESS. Groupement de coopération conventionnelle ou Groupement de coopération organique",
+    "oids" : ["1.2.250.1.213.1.6.1.302"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "TreR388TypeLogement",
+    "title" : "Tre R388 Type Logement",
+    "description" : "Nomenclature des types de logement associées aux capacités Remarque : cette nomenclature est initialisée avec les besoins FINESS+",
+    "oids" : ["1.2.250.1.213.1.6.1.303"]
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise",
     "version" : "20250418120000",
     "status" : "active",
@@ -2714,8 +2831,17 @@
     "oids" : ["1.2.250.1.213.1.6.1.375"]
   },
   {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "TreR396Autorite",
+    "title" : "Tre R396 Autorite",
+    "description" : "liste des autorités structurée en plusieurs types d'autorités : Ordres, ARS, ...",
+    "oids" : ["1.2.250.1.213.1.6.1.377"]
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
-    "version" : "20260223120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "TreR397CategorieEntiteGeographiqueExercice",
     "title" : "Tre R397 Categorie Entite Geographique Exercice",
@@ -2733,7 +2859,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-    "version" : "20260223120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "TreR401ActiviteSocialeRegulee",
     "title" : "Tre R401 Activite Sociale Regulee",
@@ -2820,6 +2946,14 @@
     "description" : "Traduction Française"
   },
   {
+    "url" : "https://smt.esante.gouv.fr/fhir/concept-properties",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "ConceptProperties",
+    "title" : "Concept Properties",
+    "description" : "CodeSystem permettant définir les propriétés NOS utilisées dans les CodeSystem NOS"
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/terminologie-SERAFINPH",
     "version" : "2023.1.0",
     "status" : "active",
@@ -2899,14 +3033,6 @@
     "oids" : ["1.2.250.1.213.2.68"]
   },
   {
-    "url" : "https://smt.esante.gouv.fr/terminologie-esesali",
-    "version" : "2026-01",
-    "status" : "active",
-    "name" : "SESALI",
-    "title" : "SESALI",
-    "description" : "Composite CodeSystem grouping Brand Name + Package Size (+ optional properties).NB: dans cette version bêta, le Brand Name est remplacé par le libellé de la spécialité."
-  },
-  {
     "url" : "https://smt.esante.gouv.fr/terminologie-lahn",
     "version" : "2026 v1.0",
     "status" : "active",
@@ -2932,6 +3058,14 @@
     "title" : "Nomenclature Unifiée des Vaccins",
     "description" : "La nomenclature unifiée des vaccins (NUVA) liste les spécialités vaccinales commercialisées ou ayant été commercialisées en France ou à l’étranger. Ces spécialités sont associées à une dénomination générique et à une description structurée notamment au niveau des valences et des pathologies cibles.Elle permet de constituer un historique vaccinal complet, aussi précis que le permettent les sources des données, interprétable par des systèmes d’information.",
     "oids" : ["1.3.6.1.4.1.48601.1"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/terminologie-ruim-eeprescription",
+    "version" : "2026-01",
+    "status" : "active",
+    "name" : "RUIM eeprescription",
+    "title" : "RUIM - european eprescription",
+    "description" : "Composite CodeSystem grouping Brand Name + Package Size (+ optional properties).NB: dans cette version bêta, le Brand Name est remplacé par le libellé de la spécialité."
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-sms",

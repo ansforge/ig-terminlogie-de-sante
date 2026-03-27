@@ -1,4 +1,4 @@
-# JDV_J20_ChampActivite_ROR - Terminologies de Santé v1.7.0
+# JDV_J20_ChampActivite_ROR - Terminologies de Santé v1.8.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J20-ChampActivite-ROR/FHIR/JDV-J20-ChampActivite-ROR | *Version*:20231030120000 | |
-| Active as of 2023-10-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J20_ChampActivite_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J20-ChampActivite-ROR/FHIR/JDV-J20-ChampActivite-ROR | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J20_ChampActivite_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.7 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J20-ChampActivite-ROR",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-07-02T17:05:48.712+00:00",
+    "versionId" : "5",
+    "lastUpdated" : "2026-03-27T11:18:05.976+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -71,11 +71,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.7"
   }],
-  "version" : "20231030120000",
+  "version" : "20260330120000",
   "name" : "JDV_J20_ChampActivite_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2023-10-30T12:00:00+01:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Champ d'activité - ROR",
   "jurisdiction" : [{
@@ -106,6 +106,10 @@ Requête sur le SMT
       {
         "code" : "05",
         "display" : "Ville"
+      },
+      {
+        "code" : "06",
+        "display" : "Social"
       }]
     }]
   }

@@ -20,7 +20,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS",
-    "version" : "20260202120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "JDV_J01_XdsAuthorSpecialty_CISIS",
     "title" : null,
@@ -73,7 +73,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J05-SubjectRole-CISIS/FHIR/JDV-J05-SubjectRole-CISIS",
-    "version" : "20260223120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "JDV_J05_SubjectRole_CISIS",
     "title" : null,
@@ -213,7 +213,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J106-EnsembleProfession-RASS/FHIR/JDV-J106-EnsembleProfession-RASS",
-    "version" : "20250328120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "JDV_J106_EnsembleProfession_RASS",
     "title" : null,
@@ -248,7 +248,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J108-EnsembleFonction-RASS/FHIR/JDV-J108-EnsembleFonction-RASS",
-    "version" : "20260202120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "JDV_J108_EnsembleFonction_RASS",
     "title" : null,
@@ -406,7 +406,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J121-RolePriseCharge-ENREG/FHIR/JDV-J121-RolePriseCharge-ENREG",
-    "version" : "20260202120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "JDV_J121_RolePriseCharge_ENREG",
     "title" : null,
@@ -879,7 +879,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J16-ActeSpecifique-ROR/FHIR/JDV-J16-ActeSpecifique-ROR",
-    "version" : "20251222120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "JDV_J16_ActeSpecifique_ROR",
     "title" : null,
@@ -991,7 +991,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J17-ActiviteOperationnelle-ROR/FHIR/JDV-J17-ActiviteOperationnelle-ROR",
-    "version" : "20251222120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "JDV_J17_ActiviteOperationnelle_ROR",
     "title" : null,
@@ -1215,7 +1215,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J19-ModePriseEnCharge-ROR/FHIR/JDV-J19-ModePriseEnCharge-ROR",
-    "version" : "20251222120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "JDV_J19_ModePriseEnCharge_ROR",
     "title" : null,
@@ -1336,7 +1336,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J20-ChampActivite-ROR/FHIR/JDV-J20-ChampActivite-ROR",
-    "version" : "20231030120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "JDV_J20_ChampActivite_ROR",
     "title" : null,
@@ -1469,7 +1469,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J210-SpecialiteOrdinale-ROR/FHIR/JDV-J210-SpecialiteOrdinale-ROR",
-    "version" : "20231030120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "JDV_J210_SpecialiteOrdinale_ROR",
     "title" : null,
@@ -1645,7 +1645,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J225-CanalCommunication-ROR/FHIR/JDV-J225-CanalCommunication-ROR",
-    "version" : "20220826120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "JDV_J225_CanalCommunication_ROR",
     "title" : null,
@@ -1656,7 +1656,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J226-ModaliteAccueil-ROR/FHIR/JDV-J226-ModaliteAccueil-ROR",
-    "version" : "20251222120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "JDV_J226_ModaliteAccueil_ROR",
     "title" : null,
@@ -1690,12 +1690,13 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J229-ProfessionSante-ROR/FHIR/JDV-J229-ProfessionSante-ROR",
-    "version" : "20220826120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "JDV_J229_ProfessionSante_ROR",
     "title" : null,
     "description" : "Type de caractéristique équipement",
-    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante"],
+    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante",
+    "https://mos.esante.gouv.fr/NOS/TRE_R356-ProfessionRessource/FHIR/TRE-R356-ProfessionRessource"],
     "oids" : ["1.2.250.1.213.3.4.61"],
     "sources" : ["1.2.250.1.213.3.4.61"]
   },
@@ -1793,7 +1794,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J238-TypeOffre-ROR/FHIR/JDV-J238-TypeOffre-ROR",
-    "version" : "20260223120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "JDV_J238_TypeOffre_ROR",
     "title" : null,
@@ -2239,7 +2240,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J29-PublicPrisEnCharge-ROR/FHIR/JDV-J29-PublicPrisEnCharge-ROR",
-    "version" : "20250328120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "JDV_J29_PublicPrisEnCharge_ROR",
     "title" : null,
@@ -2283,7 +2284,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J33-CompetenceSpecifique-ROR/FHIR/JDV-J33-CompetenceSpecifique-ROR",
-    "version" : "20240426120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "JDV_J33_CompetenceSpecifique_ROR",
     "title" : null,
@@ -2294,7 +2295,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J34-CategorieOrganisation-ROR/FHIR/JDV-J34-CategorieOrganisation-ROR",
-    "version" : "20260223120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "JDV_J34_CategorieOrganisation_ROR",
     "title" : null,
@@ -2305,13 +2306,12 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J35-SpecialisationDePriseEnCharge-ROR/FHIR/JDV-J35-SpecialisationDePriseEnCharge-ROR",
-    "version" : "20250425120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "JDV_J35_SpecialisationDePriseEnCharge_ROR",
     "title" : null,
     "description" : "Spécialisation de prise en charge - ROR",
-    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R245-SpecialisationDePriseEnCharge/FHIR/TRE-R245-SpecialisationDePriseEnCharge",
-    "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle"],
+    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R245-SpecialisationDePriseEnCharge/FHIR/TRE-R245-SpecialisationDePriseEnCharge"],
     "oids" : ["1.2.250.1.213.3.3.42"],
     "sources" : ["1.2.250.1.213.3.3.42"]
   },
@@ -2503,7 +2503,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J55-CategorieEG-ROR/FHIR/JDV-J55-CategorieEG-ROR",
-    "version" : "20260223120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "JDV_J55_CategorieEG_ROR",
     "title" : null,
@@ -3025,6 +3025,33 @@
     "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R221-ModeleDocumentCDANonStructure/FHIR/TRE-R221-ModeleDocumentCDANonStructure"]
   },
   {
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R272-EquipementMaterielLourd/FHIR/TRE-R272-EquipementMaterielLourd?vs",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "VsTreR272EquipementMaterielLourdAll",
+    "title" : "Vs Tre R272 Equipement Materiel Lourd All",
+    "description" : "Jeu de valeurs ALL contenant les équipements matériels lourds",
+    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R272-EquipementMaterielLourd/FHIR/TRE-R272-EquipementMaterielLourd"]
+  },
+  {
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee?vs",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "VsTreR274ActiviteSanitaireReguleeAll",
+    "title" : "Vs Tre R274 Activite Sanitaire Regulee All",
+    "description" : "Jeu de valeurs FINESS contenant les activités sanitaires soumises à une régulation de la part de l'ARS.",
+    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee"]
+  },
+  {
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine?vs",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "VsTreR62DomaineAll",
+    "title" : "Vs Tre R62 Domaine All",
+    "description" : "Jeu de valeurs ALL contenant les domaines",
+    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine"]
+  },
+  {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R73-ESPIC/FHIR/TRE-R73-ESPIC?vs",
     "version" : "20260223120000",
     "status" : "active",
@@ -3034,6 +3061,123 @@
     "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R73-ESPIC/FHIR/TRE-R73-ESPIC"],
     "oids" : ["1.2.250.1.213.1.6.1.280"],
     "sources" : ["1.2.250.1.213.1.6.1.280"]
+  },
+  {
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire?vs",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "VsTreR74ModeFixationTarifaireAll",
+    "title" : "Vs Tre R74 Mode Fixation Tarifaire All",
+    "description" : "Jeu de valeurs ALL contenant les modes de fixation tarifaire",
+    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r361-fonction-publique?vs",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "VsTreR361FonctionPubliqueAll",
+    "title" : "Vs Tre R361 Fonction Publique All",
+    "description" : "Jeu de valeurs ALL contenant les versants de la fonction publique.",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r361-fonction-publique"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r362-type-budget?vs",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "VsTreR362TypeBudgetAll",
+    "title" : "Vs Tre R362 Type Budget All",
+    "description" : "Jeu de valeurs ALL contenant les types de budget associés aux Entités Géographiques d'Exercice (EGE) dans FINESS+.",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r362-type-budget"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r375-mode-financement?vs",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "VsTreR375ModeFinancementAll",
+    "title" : "Vs Tre R375 Mode Financement All",
+    "description" : "Jeu de valeurs ALL contenant les modes de financement associés aux capacités de certaines activitées SMSSE.",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r375-mode-financement"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm?vs",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "VsTreR381ActiviteAmmAll",
+    "title" : "Vs Tre R381 Activite Amm All",
+    "description" : "Jeu de valeurs ALL contenant les activités de soin AMM",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r382-modalite-act-de-soin-amm?vs",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "VsTreR382ModaliteActDeSoinAmmAll",
+    "title" : "Vs Tre R382 Modalite Act De Soin Amm All",
+    "description" : "Jeu de valeurs ALL contenant les modalités pour les activités de soin AMM",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r382-modalite-act-de-soin-amm"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r383-mention-act-de-soin-amm?vs",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "VsTreR383MentionActDeSoinAmmAll",
+    "title" : "Vs Tre R383 Mention Act De Soin Amm All",
+    "description" : "Jeu de valeurs ALL contenant les mentions pour les activités de soin AMM",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r383-mention-act-de-soin-amm"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r384-pratique-therapeutique-specifique-act-de-soin-amm?vs",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "VsTreR384PratiqueTherapeutiqueSpecifiqueActDeSoinAmmAll",
+    "title" : "Vs Tre R384 Pratique Therapeutique Specifique Act De Soin Amm All",
+    "description" : "Jeu de valeurs ALL contenant les pratiques thérapeutiques spécifiques pour les activités de soin AMM",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r384-pratique-therapeutique-specifique-act-de-soin-amm"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r385-declaration-act-de-soin-amm?vs",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "VsTreR385DeclarationActDeSoinAmmAll",
+    "title" : "Vs Tre R385 Declaration Act De Soin Amm All",
+    "description" : "Jeu de valeurs ALL contenant les déclarations pour les activités de soin AMM",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r385-declaration-act-de-soin-amm"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement?vs",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "VsTreR388TypeLogementAll",
+    "title" : "Vs Tre R388 Type Logement All",
+    "description" : "Jeu de valeurs ALL contenant les types de logement associés aux capacités des structures FINESS",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee?vs",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "VsTreR404ModeFonctionnementActiviteSmsseReguleeAll",
+    "title" : "Vs Tre R404 Mode Fonctionnement Activite Smsse Regulee All",
+    "description" : "Jeu de valeurs ALL contenant les modes de fonctinonemment des activités ssmsse régulées",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee?vs",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "VsTreR405ModaliteActiviteSmsseReguleeAll",
+    "title" : "Vs Tre R405 Modalite Activite Smsse Regulee All",
+    "description" : "Jeu de valeurs ALL contenant les modalités des activités SSMSE régulées",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee?vs",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "VsTreR406FormeActiviteSmsseReguleeAll",
+    "title" : "Vs Tre R406 Forme Activite Smsse Regulee All",
+    "description" : "Jeu de valeurs ALL contenant les formes des activites smsse régulées",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/VS-test",
@@ -5206,6 +5350,28 @@
     "sources" : ["1.2.250.1.213.1.1.5.731"]
   },
   {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j289-type-groupe-gco-finess",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "JdvJ289TypeGroupeGcoFiness",
+    "title" : "Jdv J289 Type Groupe Gco Finess",
+    "description" : "Jeu de valeurs Finess contenant les types de Groupement de Coopération Organique (GCO).",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r372-type-groupe-gco"],
+    "oids" : ["1.2.250.1.213.1.6.1.262"],
+    "sources" : ["1.2.250.1.213.1.6.1.262"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j296-type-role-entite-groupe-finess",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "JdvJ296TypeRoleEntiteGroupeFiness",
+    "title" : "Jdv J296 Type Role Entite Groupe Finess",
+    "description" : "Jeu de valeurs FINESS contenant les types de rôles que peuvent exercer des entités participants à des groupements",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe"],
+    "oids" : ["1.2.250.1.213.1.6.1.263"],
+    "sources" : ["1.2.250.1.213.1.6.1.263"]
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j301-finess-statut-juridique-niv1-finess",
     "version" : "20260223120000",
     "status" : "active",
@@ -5248,6 +5414,28 @@
     "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique"],
     "oids" : ["1.2.250.1.213.1.6.1.312"],
     "sources" : ["1.2.250.1.213.1.6.1.312"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j305-type-groupement-finess",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "JdvJ305TypeGroupementFiness",
+    "title" : "Jdv J305 Type Groupement Finess",
+    "description" : "Jeu de valeurs FINESS contenant les types de groupement utilisables dans FINESS. Groupement de coopération conventionnelle ou Groupement de coopération organique",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement"],
+    "oids" : ["1.2.250.1.213.1.6.1.313"],
+    "sources" : ["1.2.250.1.213.1.6.1.313"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j306-type-groupe-gcc-finess",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "JdvJ306TypeGroupeGccFiness",
+    "title" : "Jdv J306 Type Groupe Gcc Finess",
+    "description" : "Jeu de valeurs FINESS contenant les types de Groupement de Coopération conventionnelle (GCC).",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r371-type-groupe-gcc"],
+    "oids" : ["1.2.250.1.213.1.6.1.314"],
+    "sources" : ["1.2.250.1.213.1.6.1.314"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j307-categorie-entite-geographique-exercice-niv1-finess",
@@ -5457,6 +5645,39 @@
     "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour"],
     "oids" : ["1.2.250.1.213.3.4.223"],
     "sources" : ["1.2.250.1.213.3.4.223"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j373-type-autorite",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "JdvJ373TypeAutorite",
+    "title" : "Jdv J373 Type Autorite",
+    "description" : "Jeu de valeurs contenant les différents types d'autorité (actifs ou inactifs)",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"],
+    "oids" : ["1.2.250.1.213.1.6.1.387"],
+    "sources" : ["1.2.250.1.213.1.6.1.387"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j374-autorite",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "JdvJ374Autorite",
+    "title" : "Jdv J374 Autorite",
+    "description" : "Jeu de valeurs contenant la liste des autorités quelque soit la catégorie d'autorité et quelque soir l'état de l'autorité active ou inactive)",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"],
+    "oids" : ["1.2.250.1.213.1.6.1.388"],
+    "sources" : ["1.2.250.1.213.1.6.1.388"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j375-ordre",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "JdvJ375AutoriteOrdre",
+    "title" : "Jdv J375 Autorite Ordre",
+    "description" : "Jeu de valeurs comportant uniquement les autorités de type Ordre.",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"],
+    "oids" : ["1.2.250.1.213.1.6.1.389"],
+    "sources" : ["1.2.250.1.213.1.6.1.389"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j376-public-activite-smsse-regulee-rass",

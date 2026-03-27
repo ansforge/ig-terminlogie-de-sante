@@ -1,4 +1,4 @@
-# Tre R397 Categorie Entite Geographique Exercice - Terminologies de Santé v1.7.0
+# Tre R397 Categorie Entite Geographique Exercice - Terminologies de Santé v1.8.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice | *Version*:20260223120000 | |
-| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR397CategorieEntiteGeographiqueExercice |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR397CategorieEntiteGeographiqueExercice |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.378 | | |
 
  
@@ -33,8 +33,8 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
   "resourceType" : "CodeSystem",
   "id" : "tre-r397-categorie-entite-geographique-exercice",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-02-23T17:57:25.587+01:00",
+    "versionId" : "3",
+    "lastUpdated" : "2026-03-27T11:13:16.284+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -49,12 +49,12 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.378"
   }],
-  "version" : "20260223120000",
+  "version" : "20260330120000",
   "name" : "TreR397CategorieEntiteGeographiqueExercice",
   "title" : "Tre R397 Categorie Entite Geographique Exercice",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-23T12:00:00.000+00:00",
+  "date" : "2026-03-30T12:00:00.000+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement, TRE-R63-AgregatCategorieEtablissementNiv1, TRE-R64-AgregatCategorieEtablissementNiv2, TRE-R65-AgregatCategorieEtablissement et ASS-X10-AgregatCategorieEtablissement. Cette TRE possède des propriétésspécifiques : le niveau d'agrégat des EGE de 1 à 4 (du plus large au plus fin), le parent d'un agrégat d'EGE ou d'un EGE, la relation entre un code et le domaine ( TRE R62), un indicateur pour les EGE spécifiques au ROR ( non finess) et les relations nécessaires à la construction des JDV dynamiques associés",
   "jurisdiction" : [{
@@ -66,7 +66,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
   "caseSensitive" : false,
   "hierarchyMeaning" : "is-a",
   "content" : "complete",
-  "count" : 428,
+  "count" : 429,
   "property" : [{
     "code" : "niveau",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#niveau",
@@ -9258,20 +9258,20 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
     },
     {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+    },
+    {
       "code" : "dateMaj",
-      "valueDateTime" : "2005-07-06T00:00:00+01:00"
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "ror",
-      "valueBoolean" : true
+      "valueCode" : "deprecated"
     },
     {
       "code" : "cisis",
@@ -9360,20 +9360,20 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
     },
     {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+    },
+    {
       "code" : "dateMaj",
-      "valueDateTime" : "1990-01-05T00:00:00+01:00"
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "ror",
-      "valueBoolean" : true
+      "valueCode" : "deprecated"
     },
     {
       "code" : "cisis",
@@ -11976,15 +11976,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Club Equipe de Prév."
-    },
-    {
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Club, Equipe de prévention"
+      "value" : "S.P.S."
     }],
     "property" : [{
       "code" : "niveau",
@@ -12007,7 +11999,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-02-23T00:00:00+01:00"
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -13380,20 +13372,20 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
     },
     {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+    },
+    {
       "code" : "dateMaj",
-      "valueDateTime" : "2005-07-06T00:00:00+01:00"
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "ror",
-      "valueBoolean" : true
+      "valueCode" : "deprecated"
     },
     {
       "code" : "cisis",
@@ -13973,20 +13965,20 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
     },
     {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+    },
+    {
       "code" : "dateMaj",
-      "valueDateTime" : "1979-01-23T00:00:00+01:00"
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "ror",
-      "valueBoolean" : true
+      "valueCode" : "deprecated"
     },
     {
       "code" : "cisis",
@@ -14507,20 +14499,20 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
     },
     {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+    },
+    {
       "code" : "dateMaj",
-      "valueDateTime" : "1979-01-23T00:00:00+01:00"
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "ror",
-      "valueBoolean" : true
+      "valueCode" : "deprecated"
     },
     {
       "code" : "cisis",
@@ -16113,20 +16105,20 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
     },
     {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+    },
+    {
       "code" : "dateMaj",
-      "valueDateTime" : "1982-11-19T00:00:00+01:00"
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "ror",
-      "valueBoolean" : true
+      "valueCode" : "deprecated"
     },
     {
       "code" : "cisis",
@@ -16266,20 +16258,20 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
     },
     {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+    },
+    {
       "code" : "dateMaj",
-      "valueDateTime" : "1994-07-05T00:00:00+01:00"
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "ror",
-      "valueBoolean" : true
+      "valueCode" : "deprecated"
     },
     {
       "code" : "cisis",
@@ -16376,20 +16368,20 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
     },
     {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+    },
+    {
       "code" : "dateMaj",
-      "valueDateTime" : "1982-12-08T00:00:00+01:00"
+      "valueDateTime" : "1926-03-30T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "ror",
-      "valueBoolean" : true
+      "valueCode" : "deprecated"
     },
     {
       "code" : "cisis",
@@ -21595,6 +21587,47 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "dateMaj",
       "valueDateTime" : "2025-12-22T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "specialisationRor",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "ror",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "705",
+    "display" : "Groupe d’Entraide Mutuelle (GEM)",
+    "definition" : "Catégorie créée à la demande du ROR. A date aucun enregistrement n'est prévu dans FINESS pour cette catégorie",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "GEM"
+    }],
+    "property" : [{
+      "code" : "niveau",
+      "valueInteger" : 4
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",

@@ -1,4 +1,4 @@
-# TRE_R74_ModeFixationTarifaire - Terminologies de Santé v1.7.0
+# TRE_R74_ModeFixationTarifaire - Terminologies de Santé v1.8.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -18,6 +18,7 @@ Mode de fixation tarifaire
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J259_ModeFixationTarifaire_RASS](ValueSet-JDV-J259-ModeFixationTarifaire-RASS.md)
+* [VsTreR74ModeFixationTarifaireAll](ValueSet-vs-tre-r74-mode-fixation-tarifaire-all.md)
 
 
 
@@ -28,9 +29,9 @@ Mode de fixation tarifaire
   "resourceType" : "CodeSystem",
   "id" : "TRE-R74-ModeFixationTarifaire",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2025-12-22T10:46:48.844+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
+    "versionId" : "10",
+    "lastUpdated" : "2026-03-27T12:13:06.598+01:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -57,6 +58,7 @@ Mode de fixation tarifaire
     }]
   }],
   "caseSensitive" : false,
+  "valueSet" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire?vs",
   "content" : "complete",
   "count" : 52,
   "property" : [{

@@ -1,4 +1,4 @@
-# Jdv J380 Categorie Entite Geographique Exercice Rass - Terminologies de Santé v1.7.0
+# Jdv J380 Categorie Entite Geographique Exercice Rass - Terminologies de Santé v1.8.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-j380-categorie-entite-geographique-exercice-rass",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2026-03-03T16:17:59.144+01:00",
+    "versionId" : "4",
+    "lastUpdated" : "2026-03-27T11:18:11.275+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -92,6 +92,11 @@ Requête sur le SMT
         "property" : "rass",
         "op" : "=",
         "value" : "true"
+      },
+      {
+        "property" : "niveau",
+        "op" : "=",
+        "value" : "4"
       }]
     }]
   }

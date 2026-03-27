@@ -1,4 +1,4 @@
-# JDV Lateralite Ncit CISIS - Terminologies de Santé v1.7.0
+# JDV Lateralite Ncit CISIS - Terminologies de Santé v1.8.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

@@ -1,4 +1,4 @@
-# ValueSet_BDPM_All - Terminologies de Santé v1.7.0
+# ValueSet_BDPM_All - Terminologies de Santé v1.8.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -64,7 +64,7 @@ Requête sur le SMT
   "name" : "ValueSet_BDPM_All",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-27T05:34:16+00:00",
+  "date" : "2026-03-27T14:23:50+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ce jeu de valeurs inclut tous les codes de la terminologie BDPM",
   "jurisdiction" : [{

@@ -1,4 +1,4 @@
-# JDV_J238_TypeOffre_ROR - Terminologies de Santé v1.7.0
+# JDV_J238_TypeOffre_ROR - Terminologies de Santé v1.8.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J238-TypeOffre-ROR/FHIR/JDV-J238-TypeOffre-ROR | *Version*:20260223120000 | |
-| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J238_TypeOffre_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J238-TypeOffre-ROR/FHIR/JDV-J238-TypeOffre-ROR | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J238_TypeOffre_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.65 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J238-TypeOffre-ROR",
   "meta" : {
-    "versionId" : "28",
-    "lastUpdated" : "2026-02-23T18:17:27.397+01:00",
+    "versionId" : "29",
+    "lastUpdated" : "2026-03-27T11:18:08.027+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -71,11 +71,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.65"
   }],
-  "version" : "20260223120000",
+  "version" : "20260330120000",
   "name" : "JDV_J238_TypeOffre_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-23T12:00:00+01:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Prestations que peut réaliser une structure et qui permettent de répondre au besoin de santé d'une personne",
   "jurisdiction" : [{
@@ -89,11 +89,11 @@ Requête sur le SMT
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation",
       "concept" : [{
         "code" : "01",
-        "display" : "Appartement thérapeutique"
+        "display" : "Appartement thérapeutique en psychiatrie"
       },
       {
         "code" : "02",
-        "display" : "Atelier thérapeutique"
+        "display" : "Atelier thérapeutique en psychiatrie"
       },
       {
         "code" : "03",
@@ -137,7 +137,7 @@ Requête sur le SMT
       },
       {
         "code" : "13",
-        "display" : "Service d'Accueil Familial Thérapeutique"
+        "display" : "Service d'Accueil Familial Thérapeutique en psychiatrie"
       },
       {
         "code" : "14",
@@ -165,7 +165,7 @@ Requête sur le SMT
       },
       {
         "code" : "20",
-        "display" : "Unité d'urgences"
+        "display" : "Unité d'urgences polyvalentes"
       },
       {
         "code" : "21",
@@ -345,7 +345,7 @@ Requête sur le SMT
       },
       {
         "code" : "66",
-        "display" : "Equipe Relai Handicap rare"
+        "display" : "Equipe Relais Handicaps Rares (ERHR)"
       },
       {
         "code" : "67",
@@ -654,10 +654,6 @@ Requête sur le SMT
       {
         "code" : "146",
         "display" : "Unité de prise en charge des brûlés"
-      },
-      {
-        "code" : "147",
-        "display" : "Unité de sevrage complexe"
       },
       {
         "code" : "148",
@@ -1100,10 +1096,6 @@ Requête sur le SMT
         "display" : "Point d'information local dédié aux personnes âgées"
       },
       {
-        "code" : "261",
-        "display" : "Accueil familial pour personne âgée"
-      },
-      {
         "code" : "262",
         "display" : "Unité de soins intensifs spécialisés cardiologie (USIC)"
       },
@@ -1256,16 +1248,28 @@ Requête sur le SMT
         "display" : "Equipe de Diagnostic de Proximité – Autisme (PDAP, EDAP)"
       },
       {
-        "code" : "300",
-        "display" : "Equipe Mobile de Psychiatrie Périnatale"
-      },
-      {
         "code" : "301",
         "display" : "Unité d'urgences psychiatriques"
       },
       {
         "code" : "302",
         "display" : "Centre d’Accueil et de Crise (CAC)"
+      },
+      {
+        "code" : "303",
+        "display" : "Cabinet de ville infirmier en pratique avancée en pathologies chroniques stabilisées"
+      },
+      {
+        "code" : "304",
+        "display" : "Cabinet de ville infirmier en pratique avancée en oncologie et hémato-oncologie"
+      },
+      {
+        "code" : "305",
+        "display" : "Cabinet de ville infirmier en pratique avancée en maladie rénale chronique"
+      },
+      {
+        "code" : "306",
+        "display" : "Cabinet de ville infirmier en pratique avancée en santé mentale"
       }]
     }]
   }
