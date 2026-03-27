@@ -260,7 +260,7 @@ Description: "Nomenclature des modalités pour les activités de soin AMM"
 * #MO033 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #MO033 ^property[+].code = #status
 * #MO033 ^property[=].valueCode = #active
-* #MO047 "AMP CLI -  Prélèvement d'ovocytes en vue d'une AMP"
+* #MO047 "AMP CLI - Prélèvement d'ovocytes en vue d'une AMP"
 * #MO047 ^property[0].code = #dateValid
 * #MO047 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #MO047 ^property[+].code = #dateMaj
@@ -274,7 +274,7 @@ Description: "Nomenclature des modalités pour les activités de soin AMM"
 * #MO048 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #MO048 ^property[+].code = #status
 * #MO048 ^property[=].valueCode = #active
-* #MO049 "AMP CLI -  Prélèvement de spermatozoïdes "
+* #MO049 "AMP CLI - Prélèvement de spermatozoïdes"
 * #MO049 ^property[0].code = #dateValid
 * #MO049 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #MO049 ^property[+].code = #dateMaj
@@ -309,7 +309,7 @@ Description: "Nomenclature des modalités pour les activités de soin AMM"
 * #MO054 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #MO054 ^property[+].code = #status
 * #MO054 ^property[=].valueCode = #active
-* #MO059 "AMP BIO -  Conservation des embryons en vue de leur accueil et mise en œuvre de celui-ci"
+* #MO059 "AMP BIO - Conservation des embryons en vue de leur accueil et mise en œuvre de celui-ci"
 * #MO059 ^property[0].code = #dateValid
 * #MO059 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #MO059 ^property[+].code = #dateMaj
@@ -330,14 +330,14 @@ Description: "Nomenclature des modalités pour les activités de soin AMM"
 * #MO062 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #MO062 ^property[+].code = #status
 * #MO062 ^property[=].valueCode = #active
-* #MO073 "AMP CLI - Mise en œuvre de l'Accueil des embryons "
+* #MO073 "AMP CLI - Mise en œuvre de l'Accueil des embryons"
 * #MO073 ^property[0].code = #dateValid
 * #MO073 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #MO073 ^property[+].code = #dateMaj
 * #MO073 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #MO073 ^property[+].code = #status
 * #MO073 ^property[=].valueCode = #active
-* #MO074 "AMP BIO - Conservation des embryons en vue d'un projet parental "
+* #MO074 "AMP BIO - Conservation des embryons en vue d'un projet parental"
 * #MO074 ^property[0].code = #dateValid
 * #MO074 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #MO074 ^property[+].code = #dateMaj

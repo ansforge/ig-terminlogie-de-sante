@@ -3,7 +3,7 @@ Id: TRE-R74-ModeFixationTarifaire
 Description: "Mode de fixation tarifaire"
 * ^meta.versionId = "9"
 * ^meta.lastUpdated = "2025-12-22T10:46:48.844+01:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "1999-11-02T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire"

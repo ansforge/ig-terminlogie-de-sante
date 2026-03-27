@@ -7165,7 +7165,7 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #0813 ^property[=].valueDateTime = "2018-05-31T12:00:00+01:00"
 * #0813 ^property[+].code = #status
 * #0813 ^property[=].valueCode = #active
-* #0814 "Soutien et écoute à distance (par téléphone et/ou par messagerie) "
+* #0814 "Soutien et écoute à distance (par téléphone et/ou par messagerie)"
 * #0814 ^property[0].code = #dateValid
 * #0814 ^property[=].valueDateTime = "2018-05-31T12:00:00+01:00"
 * #0814 ^property[+].code = #dateMaj
@@ -13020,7 +13020,7 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1590 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1590 ^property[+].code = #status
 * #1590 ^property[=].valueCode = #active
-* #1591 "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en dermatologie "
+* #1591 "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en dermatologie"
 * #1591 ^property[0].code = #dateValid
 * #1591 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1591 ^property[+].code = #dateMaj
@@ -13062,7 +13062,7 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1596 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1596 ^property[+].code = #status
 * #1596 ^property[=].valueCode = #active
-* #1597 "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en maladies infectieuses et tropicales "
+* #1597 "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en maladies infectieuses et tropicales"
 * #1597 ^property[0].code = #dateValid
 * #1597 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1597 ^property[+].code = #dateMaj

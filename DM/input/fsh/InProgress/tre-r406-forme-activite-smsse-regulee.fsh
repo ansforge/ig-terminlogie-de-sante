@@ -43,6 +43,14 @@ Description: "Formes des activites smsse régulées, remplace la TRE_R276-FormeA
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
 * ^property[=].description = "Date Concept was retired"
 * ^property[=].type = #dateTime
+* ^property[+].code = #rass
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#rass"
+* ^property[=].description = "Permet de définir les codes concepts uilisés par le RASS"
+* ^property[=].type = #boolean
+* ^property[+].code = #cisis
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#cisis"
+* ^property[=].description = "Permet de définir les codes concepts uilisés par le CISIS"
+* ^property[=].type = #boolean
 * #00 "Pas de forme"
 * #00 ^property[0].code = #dateValid
 * #00 ^property[=].valueDateTime = "2018-07-27T12:00:00+01:00"

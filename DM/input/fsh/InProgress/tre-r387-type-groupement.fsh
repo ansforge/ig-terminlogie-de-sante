@@ -70,7 +70,7 @@ Description: "Nomenclature des types de groupement utilisables dans FINESS. Grou
 * #01 ^property[=].valueCoding = $tre-r360-type-role-entite-groupe#M
 * #01 ^property[+].code = #hasTypeRoleMember
 * #01 ^property[=].valueCoding = $tre-r360-type-role-entite-groupe#S
-* #02 "Groupement de coopération organique" " La coopération organique entre personnes morales se traduit par la création d’une nouvelle structure juridique dotée d’une personnalité morale. Elle s’adosse à différents supports juridiques dont par exemple le GCS (Groupement de Coopération Sanitaire) ou le Groupement de Coopération sociale et médico-sociale (GCSMS). Un GCO est donc représenté par une Personne Morale particulière dite 'tête de groupe'."
+* #02 "Groupement de coopération organique" "La coopération organique entre personnes morales se traduit par la création d’une nouvelle structure juridique dotée d’une personnalité morale. Elle s’adosse à différents supports juridiques dont par exemple le GCS (Groupement de Coopération Sanitaire) ou le Groupement de Coopération sociale et médico-sociale (GCSMS). Un GCO est donc représenté par une Personne Morale particulière dite 'tête de groupe'."
 * #02 ^designation.language = #fr-FR
 * #02 ^designation.use.system = "http://snomed.info/sct"
 * #02 ^designation.use = $sct#900000000000013009
