@@ -76,7 +76,8 @@ def _tre_canonical_url(tre_id: str) -> str:
     """
     # Normalise tirets/underscores : TRE_R85_RolePriseCharge -> TRE-R85-RolePriseCharge
     normalized = re.sub(r'^TRE[_-]', 'TRE-', tre_id)
-    normalized = re.sub(r'(?<=TRE-[A-Za-z]\d{1,3})[_]', '-', normalized)
+    # Remplace les underscores après le préfixe TRE-Xxx par des tirets
+    normalized = re.sub(r'(TRE-[A-Za-z]\d{1,3})[_]', r'\1-', normalized)
     folder = normalized.replace('TRE-', 'TRE_', 1)  # TRE_R85-RolePriseCharge
     return f"https://mos.esante.gouv.fr/NOS/{folder}/FHIR/{normalized}"
 
@@ -167,24 +168,143 @@ def verify_loinc_codes(codes: list[str]) -> dict[str, dict]:
     return results
 
 
+# Systèmes de référence à chercher pour les concepts nouveaux
+_REFERENCE_SYSTEMS = {
+    "loinc":   "http://loinc.org",
+    "snomed":  "http://snomed.info/sct",
+    "cim10":   "http://hl7.org/fhir/sid/icd-10",
+    "cim11":   "http://id.who.int/icd/release/11/mms",
+}
+
+
+def search_concept_in_reference_systems(display_terms: list[str]) -> dict[str, list[dict]]:
+    """Recherche si un concept (décrit par des termes textuels) existe déjà dans
+    LOINC, SNOMED CT, CIM-10 ou CIM-11 via $expand avec filtre sur le display.
+    Retourne les correspondances trouvées par système.
+    """
+    results = {}
+    for system_name, system_url in _REFERENCE_SYSTEMS.items():
+        matches = []
+        for term in display_terms[:3]:  # max 3 termes par système
+            if len(term) < 3:
+                continue
+            body = {
+                "resourceType": "Parameters",
+                "parameter": [
+                    {
+                        "name": "valueSet",
+                        "resource": {
+                            "resourceType": "ValueSet",
+                            "compose": {"include": [{"system": system_url}]},
+                        },
+                    },
+                    {"name": "filter", "valueString": term},
+                    {"name": "count", "valueInteger": 5},
+                    {"name": "includeDesignations", "valueBoolean": True},
+                ],
+            }
+            r = fhir_client.post(
+                f"{FHIR_BASE}/ValueSet/$expand",
+                content=json.dumps(body),
+                headers={"Content-Type": "application/fhir+json", "Accept": "application/fhir+json"},
+                timeout=30,
+            )
+            if r.status_code not in (200,):
+                continue
+            concepts = r.json().get("expansion", {}).get("contains", [])
+            for c in concepts:
+                entry = {"code": c.get("code"), "display": c.get("display"), "system": system_name}
+                # Ajoute les désignations alternatives
+                designations = [
+                    d.get("value") for d in c.get("designation", []) if d.get("value")
+                ]
+                if designations:
+                    entry["designations"] = designations
+                if entry not in matches:
+                    matches.append(entry)
+        if matches:
+            results[system_name] = matches
+    return results
+
+
+def extract_new_concept_terms(text: str) -> list[str]:
+    """Extrait les libellés de nouveaux codes demandés depuis le texte de l'issue.
+    Cherche des patterns explicites : libellé :, entre guillemets, «», et format ANS TRE;code;libellé.
+    Exclut les termes contenant des mots techniques ANS (TRE, JDV, DM, FHIR...).
+    """
+    _TECH_WORDS = re.compile(r'\b(TRE|JDV|DM|FHIR|SMT|ANS|NOS|CodeSystem|ValueSet|issue|github)\b', re.IGNORECASE)
+
+    terms = []
+
+    # Format ANS : TRE_xxx ; code ; libellé  ou  TRE_xxx - code - libellé
+    for m in re.finditer(r'TRE[-_][A-Za-z0-9_\-]+\s*[;,\-]\s*[\w\d]+\s*[;,\-]\s*([^\n\r;]{3,80})', text):
+        term = m.group(1).strip().strip('.,;:')
+        if term:
+            terms.append(term)
+
+    # Patterns explicites
+    patterns = [
+        r'(?:libellé\s*[:\-]\s*)([^\n\r\.]{3,60})',
+        r'"([^"]{3,60})"',
+        r'«\s*([^»]{3,60})\s*»',
+        r"'([^']{3,60})'",
+    ]
+    for pattern in patterns:
+        for m in re.finditer(pattern, text, re.IGNORECASE):
+            term = m.group(1).strip().strip('.,;:')
+            if 3 <= len(term) <= 60 and not _TECH_WORDS.search(term):
+                terms.append(term)
+
+    return list(dict.fromkeys(terms))[:5]  # dédupliqué, max 5
+
+
+def extract_ans_code_requests(text: str) -> list[dict]:
+    """Extrait les demandes d'ajout de code au format ANS :
+    TRE_xxx ; code ; libellé  ou  TRE_xxx - code - libellé
+    Retourne une liste de dicts {tre, code, label}.
+    """
+    # Colle les espaces dans les noms de TRE (ex: "RolePrise Charge" -> "RolePriseCharge")
+    text = re.sub(r'(TRE[-_][A-Za-z]\d+[-_][A-Za-z0-9_\-]+)\s+([A-Z][a-z]+)', lambda m: m.group(1) + m.group(2), text)
+    results = []
+    pattern = r'(TRE[-_][A-Za-z0-9_\-]+)\s*[;,\|]\s*([\w\d]+)\s*[;,\|]\s*([^\n\r;,\|]{3,80})'
+    for m in re.finditer(pattern, text):
+        tre = re.sub(r'^TRE[_-]', 'TRE-', m.group(1))
+        tre = re.sub(r'_', '-', tre).rstrip('-. ')
+        results.append({
+            "tre": tre,
+            "code": m.group(2).strip(),
+            "label": m.group(3).strip().strip('.,;:'),
+        })
+    return results
+
+
 # ──────────────────────────────────────────────
 # Extraction depuis le texte de l'issue
 # ──────────────────────────────────────────────
 
 def extract_tre_ids(text: str) -> list[str]:
-    # Capture TRE-Rxx-Nom, TRE_Rxx_Nom, TRE_Rxx-Nom, etc.
-    raw = re.findall(r'TRE[-_][A-Za-z]\d+[-_][A-Za-z0-9_\-]+', text)
-    raw += re.findall(r'TRE[-_][A-Za-z]\d+(?=[^-_A-Za-z0-9]|$)', text)
+    # Capture TRE-Rxx-Nom, TRE_Rxx_Nom, TRE_Rxx-Nom (tiret ou underscore comme séparateur)
+    # Pré-traitement : colle les espaces dans les noms de TRE (ex: "RolePrise Charge" -> "RolePriseCharge")
+    # TRE_R85_RolePrise Charge -> TRE_R85_RolePriseCharge
+    text_clean = re.sub(r'(TRE[-_][A-Za-z]\d+[-_][A-Za-z0-9_\-]+)\s+([A-Z][a-z]+)', lambda m: m.group(1) + m.group(2), text)
+
+    raw = re.findall(r'TRE[-_][A-Za-z]\d+[-_][A-Za-z0-9_\-]+', text_clean)
+    # Capture formes courtes seules TRE-R85 / TRE_R85 (uniquement si pas déjà capturé avec nom)
+    raw += re.findall(r'TRE[-_][A-Za-z]\d+(?=[^-_A-Za-z0-9]|$)', text_clean)
     normalized = []
     seen = set()
     for t in raw:
-        # Normalise tout en tirets : TRE-R85-RolePriseCharge
         t = re.sub(r'^TRE[_-]', 'TRE-', t)
         t = re.sub(r'_', '-', t).rstrip('-. ')
         if t not in seen:
             seen.add(t)
             normalized.append(t)
-    return normalized
+    # Supprime les formes courtes (ex: TRE-R85) si une forme longue existe (ex: TRE-R85-RolePriseCharge)
+    result = []
+    for t in normalized:
+        if not any(other != t and other.startswith(t + '-') for other in normalized):
+            result.append(t)
+    return result
 
 
 def extract_jdv_ids(text: str) -> list[str]:
@@ -222,16 +342,21 @@ def collect_smt_data(title: str, body: str) -> dict:
     tre_ids = extract_tre_ids(text)
     jdv_ids = extract_jdv_ids(text)
     loinc_codes = extract_loinc_codes(text)
+    code_requests = extract_ans_code_requests(text)
 
     data: dict = {
         "tre_ids_detected": tre_ids,
         "jdv_ids_detected": jdv_ids,
         "loinc_codes_detected": loinc_codes,
+        "code_requests": code_requests,  # demandes d'ajout au format TRE;code;libellé
         "tre_checks": {},
         "jdv_impacts": {},
-        "jdv_contents": {},   # contenu (concepts) des JDVs impactés
+        "jdv_contents": {},
         "loinc_checks": {},
+        "reference_system_matches": {},
     }
+    if code_requests:
+        print(f"   Demandes de codes détectées : {code_requests}")
 
     # Vérification des TREs
     for tre_id in tre_ids[:8]:
@@ -291,6 +416,12 @@ def collect_smt_data(title: str, body: str) -> dict:
     if loinc_codes:
         data["loinc_checks"] = verify_loinc_codes(loinc_codes)
 
+    # Recherche de concepts équivalents dans les terminologies de référence
+    new_terms = extract_new_concept_terms(text)
+    if new_terms:
+        print(f"   Termes candidats détectés : {new_terms}")
+        data["reference_system_matches"] = search_concept_in_reference_systems(new_terms)
+
     # Collecte du contenu des JDVs impactés
     # 1. JDVs mentionnés directement dans l'issue (trouvés)
     jdv_urls_to_expand = set()
@@ -325,18 +456,44 @@ def collect_smt_data(title: str, body: str) -> dict:
 ALBERT_BASE = "https://albert.api.etalab.gouv.fr/v1"
 ALBERT_MODEL = "mistralai/Ministral-3-8B-Instruct-2512"  # modèle par défaut, liste via /v1/models
 
-SYSTEM_PROMPT = """Tu es un expert en terminologies de santé françaises (NOS ANS) et en fhir.
-Tu effectues une pré-analyse d'une issue GitHub de demande de modification (DM) .
-Tu dois :
-1. Identifier le type de demande (DM-TRE, DM-JDV, DM-ASS, bug, etc.)
-2. Vérifier l'existence des TREs/JDVs sur le SMT (données fournies)
-3. Identifier les impacts (JDVs impactés par une modification de TRE)
-4. Signaler les anomalies (version ancienne, statut retired, ressource manquante)
-5. Analyse la pertience de la demande
-6. Proposer une solution
+SYSTEM_PROMPT = """Tu es un expert en terminologies de santé françaises pour l'ANS (Agence du Numérique en Santé).
+Tu maîtrises le standard FHIR R4, les NOS (Nomenclatures des Objets de Santé), le SMT (Serveur Multi-Terminologies) et les processus de gestion terminologique ANS.
 
-Réponds en markdown, de façon concise et structurée.
-Utilise des emojis pour le statut : ✅ existe/à jour, ⚠️ version ancienne, 🔴 absent/retired.
+Contexte technique :
+- Les TREs (Tables de Référence) sont des CodeSystems FHIR publiés sur https://smt.esante.gouv.fr/fhir/
+- Les JDVs (Jeux De Valeurs) sont des ValueSets FHIR qui référencent des TREs
+- Les URLs canoniques suivent le format : https://mos.esante.gouv.fr/NOS/TRE_Rxx-Nom/FHIR/TRE-Rxx-Nom
+- Une TRE ou JDV avec statut "retired" ne doit plus recevoir de nouveaux codes
+- Tout nouveau concept ANS doit être justifié si un équivalent existe dans SNOMED CT, LOINC, CIM-10 ou CIM-11
+
+Tu effectues une pré-analyse d'une issue GitHub de demande de modification (DM) terminologique.
+Réponds en français, avec un registre professionnel adapté à une équipe de gestion terminologique.
+Réponds en markdown structuré avec exactement ces sections :
+
+## Type de demande
+Identifie le type : DM-TRE (ajout/modification/suppression de code dans une TRE), DM-JDV (modification de JDV), DM-ASS (association), bug, ou autre.
+
+## Vérification SMT
+Pour chaque TRE/JDV mentionné, indique son statut avec les emojis :
+✅ existe et actif | ⚠️ version ancienne ou problème | 🔴 absent ou retired
+
+## Impacts
+Liste les JDVs impactés par toute modification de TRE. Si aucun impact, l'indiquer explicitement.
+
+## Codes existants dans les terminologies de référence
+Utilise UNIQUEMENT les données fournies dans "reference_system_matches" des données SMT.
+Ne jamais inventer ni supposer un code — si "reference_system_matches" est vide, écrire "Aucun équivalent trouvé dans les terminologies de référence interrogées."
+Si des correspondances existent, les présenter sous forme de tableau :
+| Terminologie | Code | Libellé |
+
+## Anomalies
+Signaler : statut retired, ressource manquante, version ancienne, doublon potentiel.
+
+## Pertinence
+Évaluer la recevabilité : **Recevable** / **À étudier** / **Non recevable** avec justification courte.
+
+## Solution proposée
+Action concrète et actionnable pour l'équipe ANS.
 """
 
 
@@ -488,6 +645,26 @@ def save_analysis_to_repo(repo: str, issue: dict, content: str) -> None:
     r.raise_for_status()
     html_url = r.json().get("content", {}).get("html_url", path)
     print(f"💾 Analyse sauvegardée : {html_url}")
+
+    # Ajoute le lien dans le body de l'issue (PATCH — sans notification email)
+    _append_analysis_link_to_issue(repo, issue, html_url, headers)
+
+
+def _append_analysis_link_to_issue(repo: str, issue: dict, analysis_url: str, headers: dict) -> None:
+    """Ajoute un lien vers l'analyse en bas du body de l'issue via PATCH (sans notification)."""
+    link_block = f"\n\n---\n📋 [Pré-analyse interne]({analysis_url})"
+    current_body = issue.get("body") or ""
+    # Ne pas ajouter deux fois
+    if "Pré-analyse interne" in current_body:
+        return
+    r = httpx.patch(
+        f"{GITHUB_API}/repos/{repo}/issues/{issue['number']}",
+        headers=headers,
+        json={"body": current_body + link_block},
+        timeout=15,
+    )
+    r.raise_for_status()
+    print(f"🔗 Lien ajouté dans le body de l'issue #{issue['number']}")
 
 
 # ──────────────────────────────────────────────
