@@ -392,28 +392,102 @@ Effectue la pré-analyse complète de cette issue.
 
 
 # ──────────────────────────────────────────────
-# Post du commentaire GitHub
+# Labels GitHub
 # ──────────────────────────────────────────────
 
-def post_github_comment(repo: str, issue_number: int, body: str) -> str:
+def _ensure_label(repo: str, token: str, name: str, color: str) -> None:
+    headers = {"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json"}
+    r = httpx.get(f"{GITHUB_API}/repos/{repo}/labels/{name}", headers=headers, timeout=15)
+    if r.status_code == 404:
+        httpx.post(
+            f"{GITHUB_API}/repos/{repo}/labels",
+            headers=headers,
+            json={"name": name, "color": color},
+            timeout=15,
+        )
+
+
+def add_labels_to_issue(repo: str, issue_number: int, smt_data: dict) -> None:
     token = os.environ.get("GITHUB_TOKEN")
     if not token:
-        print("⚠️  GITHUB_TOKEN non défini — commentaire non posté.")
-        return ""
+        return
 
+    labels = ["pré-analysé"]
+    if smt_data.get("tre_checks"):
+        labels.append("DM-TRE")
+    if smt_data.get("jdv_impacts"):
+        labels.append("DM-JDV")
+    has_jdv_impact = any(
+        tre_info.get("jdv_using")
+        for tre_info in smt_data.get("tre_checks", {}).values()
+        if tre_info.get("exists")
+    )
+    if has_jdv_impact:
+        labels.append("impact-JDV")
+    has_anomaly = any(
+        not info.get("exists") or info.get("status") == "retired"
+        for info in list(smt_data.get("tre_checks", {}).values()) + list(smt_data.get("jdv_impacts", {}).values())
+    )
+    if has_anomaly:
+        labels.append("anomalie")
+
+    label_colors = {
+        "pré-analysé": "0075ca",
+        "DM-TRE":      "e4e669",
+        "DM-JDV":      "d93f0b",
+        "impact-JDV":  "f9d0c4",
+        "anomalie":    "b60205",
+    }
+    headers = {"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json"}
+    for label in labels:
+        _ensure_label(repo, token, label, label_colors.get(label, "ededed"))
     r = httpx.post(
-        f"{GITHUB_API}/repos/{repo}/issues/{issue_number}/comments",
-        headers={
-            "Authorization": f"Bearer {token}",
-            "Accept": "application/vnd.github+json",
-        },
-        json={"body": body},
+        f"{GITHUB_API}/repos/{repo}/issues/{issue_number}/labels",
+        headers=headers,
+        json={"labels": labels},
+        timeout=15,
+    )
+    r.raise_for_status()
+    print(f"🏷️  Labels ajoutés : {', '.join(labels)}")
+
+
+# ──────────────────────────────────────────────
+# Sauvegarde analyse dans le repo (sans notification)
+# ──────────────────────────────────────────────
+
+def save_analysis_to_repo(repo: str, issue: dict, content: str) -> None:
+    import base64
+    token = os.environ.get("GITHUB_TOKEN")
+    if not token:
+        print("⚠️  GITHUB_TOKEN non défini — fichier non sauvegardé.")
+        return
+
+    title_slug = re.sub(r'[^A-Za-z0-9\-]', '-', issue['title'])[:60].strip('-')
+    path = f"tools/issue/analyses/{issue['number']}-{title_slug}.md"
+    headers = {"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json"}
+
+    # Vérifie si le fichier existe déjà (pour récupérer le sha)
+    sha = None
+    r = httpx.get(f"{GITHUB_API}/repos/{repo}/contents/{path}", headers=headers, timeout=15)
+    if r.status_code == 200:
+        sha = r.json().get("sha")
+
+    payload = {
+        "message": f"analyse: pré-analyse issue #{issue['number']}",
+        "content": base64.b64encode(content.encode()).decode(),
+    }
+    if sha:
+        payload["sha"] = sha
+
+    r = httpx.put(
+        f"{GITHUB_API}/repos/{repo}/contents/{path}",
+        headers=headers,
+        json=payload,
         timeout=30,
     )
     r.raise_for_status()
-    url = r.json().get("html_url", "")
-    print(f"✅ Commentaire posté : {url}")
-    return url
+    html_url = r.json().get("content", {}).get("html_url", path)
+    print(f"💾 Analyse sauvegardée : {html_url}")
 
 
 # ──────────────────────────────────────────────
@@ -450,8 +524,8 @@ def main():
     parser.add_argument("--repo", help="owner/repo GitHub")
     parser.add_argument("--issue-number", type=int, help="Numéro de l'issue")
     parser.add_argument("--issue-json", help="Issue en JSON (alternative à --repo + --issue-number)")
-    parser.add_argument("--no-comment", action="store_true", help="Ne pas poster le commentaire GitHub")
-    parser.add_argument("--output", help="Fichier de sortie pour l'analyse (markdown)")
+    parser.add_argument("--no-save", action="store_true", help="Ne pas sauvegarder l'analyse dans le repo")
+    parser.add_argument("--output", help="Fichier de sortie local pour l'analyse (markdown)")
     parser.add_argument("--model", default=ALBERT_MODEL, help="Modèle Albert à utiliser")
     parser.add_argument("--list-models", action="store_true", help="Lister les modèles Albert disponibles")
     args = parser.parse_args()
@@ -488,31 +562,30 @@ def main():
     print(f"🤖 Génération de l'analyse avec Albert ({args.model})...")
     analysis = generate_analysis(issue, smt_data, model=args.model)
 
-    # Formatage du commentaire
-    comment = f"""## 🤖 Pré-analyse automatique
-
-> *Analyse générée automatiquement par le bot terminologie ANS.*
+    # Formatage de l'analyse
+    content = f"""# Pré-analyse — Issue #{issue['number']} : {issue['title']}
 
 {analysis}
 
 ---
-*Sources : [SMT FHIR](https://smt.esante.gouv.fr/fhir/) · Modèle : Albert API ({args.model})*
+*Sources : [SMT FHIR](https://smt.esante.gouv.fr/fhir/) · Modèle : {args.model}*
 """
 
     # Affichage
     print("\n" + "=" * 60)
-    print(comment)
+    print(content)
     print("=" * 60)
 
-    # Sauvegarde optionnelle
+    # Sauvegarde locale optionnelle
     if args.output:
         with open(args.output, "w", encoding="utf-8") as f:
-            f.write(comment)
-        print(f"💾 Analyse sauvegardée dans {args.output}")
+            f.write(content)
+        print(f"💾 Analyse sauvegardée localement dans {args.output}")
 
-    # Post du commentaire
-    if not args.no_comment and args.repo and args.issue_number:
-        post_github_comment(args.repo, args.issue_number, comment)
+    if args.repo and args.issue_number:
+        # Sauvegarde dans le repo (sans notification)
+        if not args.no_save:
+            save_analysis_to_repo(args.repo, issue, content)
 
 
 if __name__ == "__main__":
