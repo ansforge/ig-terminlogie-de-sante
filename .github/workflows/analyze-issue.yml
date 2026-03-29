@@ -16,7 +16,8 @@ jobs:
       contains(github.event.issue.title, 'NOS')
 
     permissions:
-      issues: write   # pour poster le commentaire
+      issues: write
+      contents: write  # pour sauvegarder l'analyse dans le repo
 
     steps:
       - name: Checkout
@@ -37,4 +38,5 @@ jobs:
         run: |
           python tools/issue/analyze_issue.py \
             --repo "${{ github.repository }}" \
-            --issue-number "${{ github.event.issue.number }}"
+            --issue-number "${{ github.event.issue.number }}" \
+            --model "mistralai/Ministral-3-8B-Instruct-2512"
