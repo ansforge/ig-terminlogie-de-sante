@@ -31,6 +31,9 @@ GITHUB_API = "https://api.github.com"
 ALBERT_BASE = "https://albert.api.etalab.gouv.fr/v1"
 ALBERT_MODEL = "mistralai/Mistral-Small-3.2-24B-Instruct-2506"
 
+# ID de la collection CI-SIS/IGs dans Albert (configurable via --collection-id)
+ALBERT_COLLECTION_ID: int | None = None
+
 fhir_client = httpx.Client(
     timeout=30,
     headers={"Accept": "application/fhir+json"},
@@ -438,6 +441,10 @@ JDVs impactés par la modification. Si aucun : l'indiquer.
 Utilise UNIQUEMENT les données fournies dans "reference_system_matches".
 Si vide : "Aucun équivalent trouvé dans les terminologies de référence interrogées."
 
+## Impacts dans les IGs / CI-SIS
+Si une section "Recherche dans les IGs / CI-SIS" est fournie, liste les documents impactés et explique pourquoi.
+Si absente ou vide : "Aucune recherche dans les IGs effectuée."
+
 ## Anomalies
 Statut retired, ressource manquante, version ancienne, doublon potentiel.
 
@@ -447,6 +454,84 @@ Statut retired, ressource manquante, version ancienne, doublon potentiel.
 ## Solution proposée
 Action concrète pour l'équipe ANS.
 """
+
+
+# ──────────────────────────────────────────────
+# Recherche dans la collection Albert (RAG)
+# ──────────────────────────────────────────────
+
+def _search_collection(query: str, collection_id: int, limit: int = 5) -> list[dict]:
+    """Recherche dans une collection Albert via POST /v1/search."""
+    token = os.environ.get("ALBERT_API_KEY", "")
+    if not token:
+        return []
+    r = httpx.post(
+        f"{ALBERT_BASE}/search",
+        headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"},
+        json={"query": query, "collection_ids": [collection_id], "limit": limit, "method": "hybrid"},
+        timeout=30,
+    )
+    if r.status_code != 200:
+        return []
+    return r.json().get("data", [])
+
+
+def search_impacts_in_collection(collection_id: int, smt_data: dict, issue: dict) -> str:
+    """
+    Recherche dans la collection (CI-SIS/IGs) les impacts potentiels liés aux TREs/JDVs/codes de l'issue.
+    Retourne une section markdown prête à injecter dans le prompt.
+    """
+    queries = []
+
+    # Requêtes basées sur les TREs détectés
+    for tre_id in smt_data.get("tre_ids_detected", []):
+        queries.append(tre_id)
+
+    # Requêtes basées sur les JDVs détectés
+    for jdv_id in smt_data.get("jdv_ids_detected", []):
+        queries.append(jdv_id)
+
+    # Requêtes basées sur les libellés des codes demandés
+    for req in smt_data.get("code_requests", []):
+        if req.get("label"):
+            queries.append(req["label"])
+
+    # Fallback : titre de l'issue
+    if not queries:
+        queries.append(issue["title"])
+
+    # Dédoublonner et limiter
+    seen = set()
+    unique_queries = []
+    for q in queries:
+        if q not in seen:
+            seen.add(q)
+            unique_queries.append(q)
+    unique_queries = unique_queries[:5]
+
+    print(f"   🔍 Recherche CI-SIS — {len(unique_queries)} requête(s) : {unique_queries}")
+
+    all_chunks = {}  # chunk_id → chunk pour dédoublonner
+    for query in unique_queries:
+        chunks = _search_collection(query, collection_id, limit=3)
+        for chunk in chunks:
+            chunk_id = chunk.get("id") or chunk.get("chunk_id") or chunk.get("content", "")[:80]
+            if chunk_id not in all_chunks:
+                all_chunks[chunk_id] = chunk
+
+    if not all_chunks:
+        return "### Recherche dans les IGs / CI-SIS\n\nAucun impact détecté dans la collection indexée."
+
+    lines = ["### Recherche dans les IGs / CI-SIS\n"]
+    for chunk in list(all_chunks.values())[:8]:
+        doc_name = chunk.get("document", {}).get("name") or chunk.get("metadata", {}).get("filename") or "?"
+        score = chunk.get("score")
+        content = chunk.get("content", "")[:400]
+        score_str = f" (score={score:.3f})" if score else ""
+        lines.append(f"**{doc_name}**{score_str}")
+        lines.append(f"```\n{content}\n```\n")
+
+    return "\n".join(lines)
 
 
 # ──────────────────────────────────────────────
@@ -480,7 +565,7 @@ def _albert_post(messages: list, tools: list | None = None, tool_choice: str | d
 # Pipeline principal
 # ──────────────────────────────────────────────
 
-def analyze_with_tool_calling(issue: dict, model: str = ALBERT_MODEL) -> tuple[str, dict]:
+def analyze_with_tool_calling(issue: dict, model: str = ALBERT_MODEL, collection_id: int | None = None) -> tuple[str, dict]:
     """
     Retourne (analyse_markdown, smt_data).
     Étape 1 : Albert extrait les identifiants via tool_calling
@@ -525,12 +610,21 @@ def analyze_with_tool_calling(issue: dict, model: str = ALBERT_MODEL) -> tuple[s
             "content": json.dumps(smt_data, ensure_ascii=False),
         })
 
+    # ── Étape 2b : recherche dans la collection CI-SIS (optionnel) ──
+    rag_section = ""
+    effective_collection_id = collection_id or ALBERT_COLLECTION_ID
+    if effective_collection_id:
+        print(f"📚 Étape 2b — Recherche dans la collection {effective_collection_id}...")
+        rag_section = search_impacts_in_collection(effective_collection_id, smt_data, issue)
+
     # ── Étape 3 : analyse par Albert (nouveau contexte propre) ──
     print("🤖 Étape 3 — Albert génère l'analyse...")
+    rag_block = f"\n\n{rag_section}" if rag_section else ""
     user_prompt = (
         f"## Issue #{issue['number']} — {issue['title']}\n\n"
         f"{issue.get('body', '')[:3000]}\n\n"
-        f"### Données SMT collectées\n{json.dumps(smt_data, ensure_ascii=False, indent=2)}\n\n"
+        f"### Données SMT collectées\n{json.dumps(smt_data, ensure_ascii=False, indent=2)}"
+        f"{rag_block}\n\n"
         "Effectue la pré-analyse complète de cette issue."
     )
     response2 = _albert_post([
@@ -615,6 +709,7 @@ def main():
     parser.add_argument("--no-save", action="store_true", help="Ne pas sauvegarder dans le repo")
     parser.add_argument("--output", help="Fichier de sortie local (markdown)")
     parser.add_argument("--model", default=ALBERT_MODEL, help="Modèle Albert")
+    parser.add_argument("--collection-id", type=int, help="ID collection Albert pour recherche CI-SIS/IGs")
     args = parser.parse_args()
 
     if args.issue_json:
@@ -628,7 +723,7 @@ def main():
 
     print(f"🔍 Analyse de l'issue #{issue['number']} : {issue['title']}")
 
-    analysis, smt_data = analyze_with_tool_calling(issue, model=args.model)
+    analysis, smt_data = analyze_with_tool_calling(issue, model=args.model, collection_id=args.collection_id)
 
     content = f"""# Pré-analyse v2 (tool_calling) — Issue #{issue['number']} : {issue['title']}
 
