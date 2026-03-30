@@ -39,5 +39,5 @@ jobs:
           python tools/issue/analyze_issue.py \
             --repo "${{ github.repository }}" \
             --issue-number "${{ github.event.issue.number }}" \
-            --model "mistralai/Ministral-3-8B-Instruct-2512"
+            --model "mistralai/Ministral-3-8B-Instruct-2512" \
             --collection-id 156723
