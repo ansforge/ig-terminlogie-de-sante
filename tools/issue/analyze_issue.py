@@ -137,8 +137,10 @@ def check_value_set(jdv_id: str) -> dict | None:
 _REFERENCE_SYSTEMS = {
     "loinc":  "http://loinc.org",
     "snomed": "http://snomed.info/sct",
-    "cim10":  "http://hl7.org/fhir/sid/icd-10",
-    "cim11":  "http://id.who.int/icd/release/11/mms",
+    "cim10":  "https://smt.esante.gouv.fr/terminologie-cim-10",
+    "cim11":  "https://smt.esante.gouv.fr/terminologie-cim11-mms",
+    "CCAM": "https://smt.esante.gouv.fr/terminologie-ccam",
+    "ATC": "https://smt.esante.gouv.fr/terminologie-atc"
 }
 
 
@@ -460,6 +462,27 @@ Action concrète pour l'équipe ANS.
 # Recherche dans la collection Albert (RAG)
 # ──────────────────────────────────────────────
 
+_doc_name_cache: dict[int, str] = {}
+
+def _get_document_name(document_id: int) -> str:
+    """Récupère le nom d'un document Albert par son ID (avec cache)."""
+    if document_id in _doc_name_cache:
+        return _doc_name_cache[document_id]
+    token = os.environ.get("ALBERT_API_KEY", "")
+    if not token:
+        return str(document_id)
+    r = httpx.get(
+        f"{ALBERT_BASE}/documents/{document_id}",
+        headers={"Authorization": f"Bearer {token}"},
+        timeout=15,
+    )
+    if r.status_code != 200:
+        return str(document_id)
+    name = r.json().get("name") or r.json().get("title") or str(document_id)
+    _doc_name_cache[document_id] = name
+    return name
+
+
 def _search_collection(query: str, collection_id: int, limit: int = 5) -> list[dict]:
     """Recherche dans une collection Albert via POST /v1/search."""
     token = os.environ.get("ALBERT_API_KEY", "")
@@ -537,14 +560,17 @@ def search_impacts_in_collection(collection_id: int, smt_data: dict, issue: dict
         chunk = item.get("chunk", {})
         content = chunk.get("content") or chunk.get("text") or ""
 
-        # Extraire l'IG source
+        # Extraire l'IG source depuis le contenu
         ig_match = re.search(r'IG(?:\s*source)?\s*:\s*(\S+)\s+\(([^)]+)\)', content)
         if ig_match:
             ig_name_found = ig_match.group(1)
             ig_url_found = ig_match.group(2)
             ig_key = f"{ig_name_found} ({ig_url_found})"
         else:
-            ig_key = "CI-SIS (PDF)"
+            # Récupérer le nom du document via l'API
+            doc_id = chunk.get("document_id")
+            doc_name = _get_document_name(doc_id) if doc_id else "?"
+            ig_key = f"CI-SIS — {doc_name}"
 
         # Extraire le nom de la ressource (première ligne commençant par #)
         resource_match = re.search(r'^#+ (?:ValueSet|CodeSystem|StructureDefinition|CapabilityStatement|ImplementationGuide)\s*:\s*(.+)$', content, re.MULTILINE)
