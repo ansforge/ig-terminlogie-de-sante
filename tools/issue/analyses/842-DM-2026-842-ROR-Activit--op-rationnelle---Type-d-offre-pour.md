@@ -21,30 +21,25 @@ DM-TRE
   - SNOMED: 385784004 (Advanced practice nursing care), 410152005 (Advanced practice nursing care assessment)
 - Soins infirmiers en pratique avancée en santé mentale:
   - SNOMED: 385784004 (Advanced practice nursing care), 410152005 (Advanced practice nursing care assessment), 224563006 (Mental health nurse), 390819005 (Perinatal mental health care), 410224008 (Mental health care education)
-- Cabinet de ville infirmier en pratique avancée en pathologies chroniques stabilisées: Aucun équivalent trouvé dans les terminologies de référence interrogées.
-- Cabinet de ville infirmier en pratique avancée en oncologie et hémato-oncologie: Aucun équivalent trouvé dans les terminologies de référence interrogées.
-- Cabinet de ville infirmier en pratique avancée en maladie rénale chronique: Aucun équivalent trouvé dans les terminologies de référence interrogées.
-- Cabinet de ville infirmier en pratique avancée en santé mentale:
-  - SNOMED: 410152005 (Advanced practice nursing care assessment)
+  - CIM10: Z76.2 (Surveillance médicale et soins médicaux d'autres nourrissons et enfants en bonne santé)
 
 ## Impacts dans les IGs / CI-SIS
-- CI-SIS (PDF)
-  - bindings: JDV-J17-ActiviteOperationnelle-ROR
+- CI-SIS — ror__StructureDefinition-ror-healthcareservice.txt
 - ror (https://interop.esante.gouv.fr/ig/fhir/ror)
-  - bindings: JDV-J17-ActiviteOperationnelle-ROR, JDV-J34-CategorieOrganisation-ROR
+- CI-SIS — ror__StructureDefinition-ror-task.txt
 
 ## Anomalies
 Aucune anomalie détectée.
 
 ## Pertinence
 **Recevable**
-La demande est recevable car elle respecte les critères de création de nouveaux codes dans les TREs actives et impacte des JDVs existantes. Les codes proposés sont cohérents avec les terminologies de référence et les besoins exprimés.
+La demande est recevable car elle propose des ajouts cohérents avec les terminologies existantes et les besoins identifiés pour la description des IPA en libéral.
 
 ## Solution proposée
-1. Ajouter les nouveaux codes dans les TREs TRE-R211-ActiviteOperationnelle et TRE-R244-CategorieOrganisation avec les libellés fournis.
-2. Mettre à jour les JDVs impactées (JDV-J17-ActiviteOperationnelle-ROR, JDV-J238-TypeOffre-ROR, JDV-J34-CategorieOrganisation-ROR) pour inclure les nouveaux codes.
-3. Valider les modifications avec les parties prenantes concernées.
-4. Publier les nouvelles versions des TREs et JDVs dans le cadre du processus de gestion terminologique ANS.
+1. Ajouter les nouveaux codes dans les TRE concernées (TRE-R211-ActiviteOperationnelle et TRE-R244-CategorieOrganisation) avec les descriptions fournies.
+2. Mettre à jour les JDV impactées (JDV-J17-ActiviteOperationnelle-ROR, JDV-J238-TypeOffre-ROR, JDV-J34-CategorieOrganisation-ROR) pour inclure les nouveaux codes.
+3. Vérifier et mettre à jour les bindings dans les IGs et CI-SIS concernés pour refléter les modifications apportées.
+4. Documenter les changements dans le système de gestion terminologique ANS.
 
 ---
 *Sources : [SMT FHIR](https://smt.esante.gouv.fr/fhir/) · Modèle : mistralai/Mistral-Small-3.2-24B-Instruct-2506 · Méthode : tool_calling*
