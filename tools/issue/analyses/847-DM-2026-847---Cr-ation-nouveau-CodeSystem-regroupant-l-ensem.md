@@ -1,0 +1,231 @@
+# Pré-analyse v2 (tool_calling) — Issue #847 : DM 2026-847 - Création nouveau CodeSystem regroupant l'ensemble des propriétés NOS
+
+## Type de demande
+DM-TRE
+
+## Vérification SMT
+⚠️ problème
+
+## Impacts
+Aucun impact sur les JDVs.
+
+## Codes existants dans les terminologies de référence
+- **#dateValid**
+  - SNOMED :
+    - 442864001 : Date of discharge
+    - 439771001 : Date of event
+    - 298059007 : Date of onset
+    - 397836004 : Time of delivery
+    - 398295005 : Validity range
+  - CIM-10 :
+    - G44.2 : Céphalée dite de tension
+    - A69.1 : Autres infections dites de Vincent
+    - A97.1 : Dengue avec signes d'alerte
+    - A97.0 : Dengue sans signe d'alerte
+    - N77.1 : Vaginite, vulvite et vulvovaginite au cours de maladies infectieuses et parasitaires classées ailleurs
+  - ATC :
+    - G04BE : médicaments utilisés dans les troubles de l'érection
+    - G04BE30 : associations (médicaments utilisés dans les troubles de l'érection)
+    - G04C : médicaments utilisés dans l'hypertrophie bénigne de la prostate
+    - G04CX : autres médicaments utilisés dans l'hypertrophie bénigne de la prostate
+    - N07BB : médicaments utilisés dans la dépendance alcoolique
+
+- **#dateMaj**
+  - SNOMED :
+    - 285204003 : Ability to remember today's date
+    - 247608009 : Unable to remember today's date
+    - 171258008 : Up-to-date with immunizations
+    - 365894005 : Finding related to ability to remember today's date
+    - 243704004 : Provision of appliances
+  - CIM-10 :
+    - A69.1 : Autres infections dites de Vincent
+    - A97.1 : Dengue avec signes d'alerte
+    - Z44 : Mise en place et ajustement d'appareils de prothèse externe
+    - Z04.1 : Examen et mise en observation après un accident de transport
+    - Z44.8 : Mise en place et ajustement d'autres appareils de prothèse externe
+  - CIM-11 :
+    - XE6VL : Problème de version ou de mise à jour du système
+    - QB30.A : Mise en place ou ajustement de neuropacemaker
+    - XE2CW : Version du programme d'application ou problème de mise à niveau
+    - QA04.2 : Examen ou mise en observation suite à un accident de transport
+    - QB31.4 : Mise en place ou ajustement de prothèse auditive
+  - CCAM :
+    - JEPA006 : Mise à plat de sténose de l'urètre antérieur
+    - JEPA001 : Mise à plat de sténose de l'urètre postérieur
+    - JEMA015 : Reconstruction de l'urètre antérieur après mise à plat
+    - JEMA022 : Reconstruction de l'urètre postérieur après mise à plat
+    - JEMA0224 : Reconstruction de l'urètre postérieur après mise à plat - anesthésie
+  - ATC :
+    - N07BA : médicaments utilisés dans la dépendance à la nicotine
+    - G04BE30 : associations (médicaments utilisés dans les troubles de l'érection)
+    - V08BA01 : sulfate de baryum avec agents de mise en suspension
+    - V08BA02 : sulfate de baryum sans agents de mise en suspension
+    - G04CX : autres médicaments utilisés dans l'hypertrophie bénigne de la prostate
+
+- **#dateFin**
+  - SNOMED :
+    - 366322004 : Estimated date of delivery - finding
+    - 413943001 : Date chemotherapy completed
+    - 289207001 : Estimated date of delivery from last normal period
+    - 423269002 : Antenatal ultrasound scan normal and possibly inconsistent with estimated date of delivery
+    - 717944002 : Branchiogenic deafness syndrome
+    - 410672004 : Date
+    - 410671006 : Date
+    - 227423000 : Date
+    - 118573002 : Date
+    - 118575009 : Date-time
+  - CIM-10 :
+    - G44.2 : Céphalée dite de tension
+    - A69.1 : Autres infections dites de Vincent
+    - Z02.6 : Examen à des fins d'assurance
+    - Z04 : Examen et mise en observation pour d'autres raisons
+    - A97.1 : Dengue avec signes d'alerte
+    - A30.3 : Lèpre de type intermédiaire atypique
+    - K76.1 : Congestion passive chronique du foie
+  - CIM-11 :
+    - XT9X : Fin de l'adolescence
+    - XE6ND : Indicateur de fin de vie prématuré
+    - QA01.6 : Examen à des fins d'assurance
+    - PK40 : Explosion de mine après la fin du conflit armé
+    - XE0Z5 : À propos de problèmes commerciaux ou financiers
+    - XE7GT : Relation persécuteur-victime, coup d'un soir
+    - KA20.0 : Petit pour l'âge gestationnel
+    - XE048 : Problème lié à la date ou à l’heure
+    - JA86.5 : Soins maternels pour suspicion de macrosomie
+  - CCAM :
+    - HEAE00111 : Dilatation rétrograde de l'oesophage, par endoscopie rigide - 1° activité chir/med - Phase 1 : pose du fil sans fin, par endoscopie rigide
+    - HBQK303 : Radiographies intrabuccales rétroalvéolaires sur un secteur de 1 à 3 dents contigües préinterventionnelle, perinterventionnelle et finale pour acte thérapeutique endodontique
+    - HBQK061 : Radiographie intrabuccale rétroalvéolaire et/ou rétrocoronaire d'un secteur de 1 à 3 dents contigües finale pour acte thérapeutique endodontique ou perinterventionnelle et/ou finale, en dehors d'un acte thérapeutique endodontique
+    - HBQK040 : Radiographies intrabuccales rétroalvéolaires sur un secteur de 1 à 3 dents contigües préinterventionnelle ou perinterventionnelle avec radiographie finale pour acte thérapeutique endodontique
+    - HBQK3031 : Radiographies intrabuccales rétroalvéolaires sur un secteur de 1 à 3 dents contigües préinterventionnelle, perinterventionnelle et finale pour acte thérapeutique endodontique - 1° activité chir/med
+  - ATC :
+    - G04BE : médicaments utilisés dans les troubles de l'érection
+    - G04BE30 : associations (médicaments utilisés dans les troubles de l'érection)
+    - G04C : médicaments utilisés dans l'hypertrophie bénigne de la prostate
+    - G04CX : autres médicaments utilisés dans l'hypertrophie bénigne de la prostate
+    - N07BB : médicaments utilisés dans la dépendance alcoolique
+    - B01AB04 : dalteparine
+    - B03AE : fer dans d'autres associations
+    - B06AC : médicaments utilisés dans l'angioedème héréditaire
+    - B03AE10 : associations diverses (fer dans d'autres associations)
+    - V03AF : médicaments détoxifiants dans un traitement cytostatique
+
+- **#niveau**
+  - SNOMED :
+    - 258395000 : Levels
+    - 247573007 : Intellectual ability
+    - 286747008 : Level of egocentricity
+    - 247752005 : Level of interest
+    - 258396004 : Planned level
+  - CIM-10 :
+    - Z55.0 : Analphabétisme et faible niveau éducatif
+    - M79.6 : Douleur au niveau d'un membre
+    - M79.68 : Douleur au niveau d'un membre - \" Autres \"
+    - M79.62 : Douleur au niveau d'un membre - \" Bras \"
+    - M79.66 : Douleur au niveau d'un membre - \" Jambe \"
+  - CIM-11 :
+    - XA7852 : Niveau C2
+    - XA86M5 : Niveau L5
+    - XA4L09 : Niveau S5
+    - XA17G6 : Niveau T1
+    - XA79E1 : Niveau T7
+  - CCAM :
+    - Modificateur_H : Radiotherapie niveau 1
+    - Modificateur_Q : Radiotherapie niveau 2
+    - V : Radiotherapie niveau 3
+    - W : Radiotherapie niveau 4
+    - YYYY003 : Forfait réanimation niveau 1
+
+- **#domaine**
+  - SNOMED :
+    - 419036000 : Domain Archaea
+    - 409822003 : Domain Bacteria
+    - 415671008 : Domain Eukarya
+    - 8469004 : Immune domain
+    - 778029000 : FASTKD2-related infantile mitochondrial encephalomyopathy
+  - CIM-11 :
+    - VW8Y : Autres domaines génériques de fonctionnement
+    - VW8Z : Domaines génériques de fonctionnement, sans précision
+    - VW5Y : Autres grands domaines de la vie précisés
+    - VW5Z : Grands domaines de la vie non précisés
+    - VW6Z : Domaines de la vie communautaire, sociale et civique non précisés
+  - CCAM :
+    - EQLF001 : Injection intraveineuse continue de dobutamine ou de dopamine à débit inférieur à 8 microgrammes par kilogramme par minute [µg/kg/min], ou de dopexamine en dehors de la période néonatale, par 24 heures
+    - EQLF003 : Injection intraveineuse continue de dobutamine ou de dopamine à débit supérieur à 8 microgrammes par kilogramme par minute [µg/kg/min], d'adrénaline ou de noradrénaline en dehors de la période néonatale, par 24 heures
+    - EQLF0011 : Injection intraveineuse continue de dobutamine ou de dopamine à débit inférieur à 8 microgrammes par kilogramme par minute [µg/kg/min], ou de dopexamine en dehors de la période néonatale, par 24 heures - 1° activité chir/med
+    - EQLF0031 : Injection intraveineuse continue de dobutamine ou de dopamine à débit supérieur à 8 microgrammes par kilogramme par minute [µg/kg/min], d'adrénaline ou de noradrénaline en dehors de la période néonatale, par 24 heures - 1° activité chir/med
+    - EQLF00110 : Injection intraveineuse continue de dobutamine ou de dopamine à débit inférieur à 8 microgrammes par kilogramme par minute [µg/kg/min], ou de dopexamine en dehors de la période néonatale, par 24 heures - 1° activité chir/med - Phase par defaut
+  - ATC :
+    - C01CA04 : dopamine
+    - N04BC : agonistes dopaminergiques
+    - N04B : dopaminergiques
+    - N04BX : autres dopaminergiques
+    - C01CA : adrénergiques et dopaminergiques
+
+- **#specialisationRor**
+  - SNOMED :
+    - 91396004 : Cell adhesion specialization
+    - 1258957008 : Hospital pharmacy specialization
+    - 1340249005 : Military pharmacy specialization
+    - 26375002 : Synaptic membrane specialization
+    - 5347008 : Synaptic specialization, cytoplasmic
+  - CIM-11 :
+    - 2C60 : Carcinome du sein, de type spécifique
+    - XE0VC : Profession - artisans ou ouvriers spécialisés
+    - XE1WL : Lieu de socialisation et de consommation de boissons alcoolisées
+    - XE7Y2 : Discothèque, restaurant ou autre lieu commercial de socialisation et divertissement
+  - CCAM :
+    - YYYY117 : Mise en condition médicale et surveillance d'un nouveau-né pour transfert médicalisé vers un centre spécialisé, avec établissement d'un compte rendu
+    - YYYY1171 : Mise en condition médicale et surveillance d'un nouveau-né pour transfert médicalisé vers un centre spécialisé, avec établissement d'un compte rendu - 1° activité chir/med
+    - YYYY11710 : Mise en condition médicale et surveillance d'un nouveau-né pour transfert médicalisé vers un centre spécialisé, avec établissement d'un compte rendu - 1° activité chir/med - Phase par defaut
+
+- **#specialisationRpps**
+  - SNOMED :
+    - 417123005 : Mucin tear deficiency
+    - 142271000119106 : Cognitive deficit in communication skills
+    - 703538003 : Mannose-binding lectin deficiency
+    - 1172595004 : C11ORF73-related autosomal recessive hypomyelinating leukodystrophy
+    - 773668008 : Childhood encephalopathy due to thiamine pyrophosphokinase deficiency
+    - 900000000000073002 : Defined
+    - 900000000000074008 : Primitive
+  - CCAM :
+    - HAMA002 : Réparation de perte de substance de lèvre par lambeau bilatéral de lèvre ou de joue
+    - HAMA029 : Réparation de perte de substance de lèvre par lambeau unilatéral de lèvre ou de joue
+    - HAMA0024 : Réparation de perte de substance de lèvre par lambeau bilatéral de lèvre ou de joue - anesthésie
+    - HAMA0294 : Réparation de perte de substance de lèvre par lambeau unilatéral de lèvre ou de joue - anesthésie
+    - HAMA0291 : Réparation de perte de substance de lèvre par lambeau unilatéral de lèvre ou de joue - 1° activité chir/med
+
+- **#ror**
+  - SNOMED :
+    - 67008004 : Roridin
+    - 364121000009104 : Baleen whale
+    - 396746001 : Eclectus roratus
+    - 48206003 : Myrothecium roridum
+    - 89724005 : Rorschach test
+  - CIM-10 :
+    - Z27.4 : Nécessité d'une vaccination contre rougeole-oreillons-rubéole [ROR]
+  - CIM-11 :
+    - QC03.4 : Nécessité d'une immunisation contre rougeole-oreillons-rubéole [ROR]
+
+- **#cisis**
+  - SNOMED :
+    - 702363009 : Cold-induced sweating syndrome
+    - 38221006 : Pseudomonas cissicola
+    - 32937002 : Crisis
+    - 761872001 : CISS (Christo Inventory for Substance-misuse Services) total score
+    - 763104007 : Assessment using Christo Inventory for Substance-misuse Services
+  - CIM-10 :
+    - L22 : Dermite fessière du nourrisson
+    - B33.1 : Maladie de la Ross River
+    - R21 : Rash et autres éruptions cutanées non spécifiques
+  - CIM-11 :
+    - XE0BK : Type de sport ou d’activité physique, rassemblement du bétail ou travail sur les bêtes (y compris dressage)
+  - CCAM :
+    - ModeAcces_L : Acte par agent ionisant
+    - YYYY033 : Guidage radiologique
+    - ABQL002 : Cisternographie radio-isotopique
+    - HBQK002 : Radiographie panoramique dentomaxillaire
+    - MCPA002 : Ostéotomie de
+
+---
+*Sources : [SMT FHIR](https://smt.esante.gouv.fr/fhir/) · Modèle : mistralai/Mistral-Small-3.2-24B-Instruct-2506 · Méthode : tool_calling*
