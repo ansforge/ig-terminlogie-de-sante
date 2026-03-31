@@ -259,8 +259,18 @@ def execute_verify_smt(tool_args: dict) -> dict:
         else:
             result["tre_checks"][tre_id] = {"exists": False}
 
-    # Vérification des codes demandés
+    # Dédoublonner les code_requests par (code, action) — Albert peut envoyer le même code 2x
+    seen_codes_reqs = set()
+    deduped_requests = []
     for req in code_requests:
+        key = (req.get("code", ""), req.get("action", ""), req.get("jdv", ""), req.get("tre", ""))
+        if key not in seen_codes_reqs:
+            seen_codes_reqs.add(key)
+            deduped_requests.append(req)
+    code_requests = deduped_requests
+
+    # Vérification des codes demandés (max 10 pour éviter les timeouts)
+    for req in code_requests[:10]:
         tre_id = req.get("tre")
         jdv_id = req.get("jdv")
         code = req.get("code")
@@ -352,9 +362,21 @@ def execute_verify_smt(tool_args: dict) -> dict:
             req["lookup_smt"] = lookup
 
         # Recherche dans les terminologies de référence uniquement pour les ajouts de nouveaux codes
+        # Exclure : codes techniques (#xxx), codes courts (<= 4 chars), noms de systèmes informatiques
+        _TECH_LABEL_PATTERN = re.compile(
+            r'^#|^[A-Z]{2,6}$|^(date|code|id|identifiant|niveau|domaine|type|statut|flag)$',
+            re.IGNORECASE
+        )
         if action == "ajout":
-            label_to_search = req.get("label")
-            if label_to_search and len(label_to_search) >= 3:
+            label_to_search = req.get("label", "")
+            code_val = req.get("code", "")
+            label_is_technical = (
+                not label_to_search
+                or len(label_to_search) < 5
+                or code_val.startswith("#")
+                or _TECH_LABEL_PATTERN.match(label_to_search)
+            )
+            if not label_is_technical:
                 req["reference_matches"] = _search_label_in_reference_systems(label_to_search)
 
     # Vérification JDVs
