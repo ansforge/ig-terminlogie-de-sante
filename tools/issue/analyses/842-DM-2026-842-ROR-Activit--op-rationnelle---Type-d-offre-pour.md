@@ -28,17 +28,20 @@ DM-TRE
 - ror (https://interop.esante.gouv.fr/ig/fhir/ror)
 - CI-SIS — ror__StructureDefinition-ror-task.txt
 
+## Historique
+Aucune demande similaire trouvée dans l'historique.
+
 ## Anomalies
-Aucune anomalie détectée.
+Aucune anomalie signalée dans les données SMT.
 
 ## Pertinence
 **Recevable**
-La demande est recevable car elle propose des ajouts cohérents avec les terminologies existantes et les besoins identifiés pour la description des IPA en libéral.
+La demande est recevable car elle propose des ajouts cohérents avec les terminologies de référence et les besoins exprimés pour la description des IPA en libéral. Les codes proposés sont alignés avec les équivalents SNOMED et CIM10, et les impacts sur les JDVs et IGs sont clairement identifiés.
 
 ## Solution proposée
-1. Ajouter les nouveaux codes dans les TRE concernées (TRE-R211-ActiviteOperationnelle et TRE-R244-CategorieOrganisation) avec les descriptions fournies.
-2. Mettre à jour les JDV impactées (JDV-J17-ActiviteOperationnelle-ROR, JDV-J238-TypeOffre-ROR, JDV-J34-CategorieOrganisation-ROR) pour inclure les nouveaux codes.
-3. Vérifier et mettre à jour les bindings dans les IGs et CI-SIS concernés pour refléter les modifications apportées.
+1. Ajouter les nouveaux codes dans les TRE concernées (TRE-R211-ActiviteOperationnelle et TRE-R244-CategorieOrganisation) avec la version 20260330120000.
+2. Mettre à jour les JDVs impactés (JDV-J17-ActiviteOperationnelle-ROR, JDV-J238-TypeOffre-ROR, JDV-J34-CategorieOrganisation-ROR) pour inclure les nouveaux codes.
+3. Vérifier et mettre à jour les bindings dans les IGs et CI-SIS concernés pour refléter les nouvelles valeurs.
 4. Documenter les changements dans le système de gestion terminologique ANS.
 
 ---
