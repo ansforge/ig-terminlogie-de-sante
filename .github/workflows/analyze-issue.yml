@@ -3,12 +3,19 @@ name: Pré-analyse terminologique
 on:
   issues:
     types: [opened]
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: "Numéro de l'issue à analyser"
+        required: true
+        type: string
 
 jobs:
   analyze:
     runs-on: ubuntu-latest
-    # Limiter aux issues qui semblent terminologiques (TRE, JDV, DM, FINESS)
+    # Limiter aux issues terminologiques (sauf déclenchement manuel)
     if: |
+      github.event_name == 'workflow_dispatch' ||
       contains(github.event.issue.title, 'TRE') ||
       contains(github.event.issue.title, 'JDV') ||
       contains(github.event.issue.title, 'DM') ||
@@ -38,6 +45,6 @@ jobs:
         run: |
           python tools/issue/analyze_issue.py \
             --repo "${{ github.repository }}" \
-            --issue-number "${{ github.event.issue.number }}" \
-            --model "mistralai/Ministral-3-8B-Instruct-2512" \
+            --issue-number "${{ github.event_name == 'workflow_dispatch' && github.event.inputs.issue_number || github.event.issue.number }}" \
+            --model "mistralai/Mistral-Small-3.2-24B-Instruct-2506" \
             --collection-id 156723
