@@ -144,43 +144,80 @@ _REFERENCE_SYSTEMS = {
 }
 
 
+_STOP_WORDS = {
+    "le", "la", "les", "de", "du", "des", "un", "une", "en", "et", "ou",
+    "au", "aux", "par", "pour", "sur", "dans", "avec", "sans", "que", "qui",
+    "est", "son", "sa", "ses", "ce", "cet", "cette", "autres", "autre",
+    "ainsi", "lors", "chez", "non",
+}
+
+
+def _extract_search_queries(label: str) -> list[str]:
+    """
+    Retourne plusieurs variantes de recherche pour un libellé :
+    - le libellé original
+    - une version courte avec mots-clés (sans stop words ni parenthèses)
+    Ex: "Exercice infirmier en pratique avancée oncologie (SI)"
+        → ["Exercice infirmier en pratique avancée oncologie (SI)", "infirmier pratique avancée oncologie"]
+    """
+    cleaned = re.sub(r'\([^)]*\)', '', label).strip()
+    words = re.findall(r'[A-Za-zÀ-ÿ]{3,}', cleaned)
+    keywords = [w for w in words if w.lower() not in _STOP_WORDS and len(w) >= 4]
+    queries = [label]
+    if keywords and len(keywords) < len(words):
+        short = " ".join(keywords[:5])
+        if short.lower() != label.lower():
+            queries.append(short)
+    return queries
+
+
 def _search_label_in_reference_systems(label: str) -> dict[str, list[dict]]:
-    """Cherche un libellé dans LOINC, SNOMED, CIM-10, CIM-11 via POST $expand avec filtre texte."""
-    results = {}
-    for system_name, system_url in _REFERENCE_SYSTEMS.items():
-        body = {
-            "resourceType": "Parameters",
-            "parameter": [
-                {"name": "valueSet", "resource": {
-                    "resourceType": "ValueSet",
-                    "compose": {"include": [{"system": system_url}]},
-                }},
-                {"name": "filter", "valueString": label},
-                {"name": "count", "valueInteger": 5},
-                {"name": "includeDesignations", "valueBoolean": True},
-            ],
-        }
-        r = fhir_client.post(
-            f"{FHIR_BASE}/ValueSet/$expand",
-            content=json.dumps(body),
-            headers={"Content-Type": "application/fhir+json", "Accept": "application/fhir+json"},
-            timeout=30,
-        )
-        if r.status_code != 200:
-            continue
-        concepts = r.json().get("expansion", {}).get("contains", [])
-        if concepts:
-            results[system_name] = [
-                {
-                    "code": c.get("code"),
-                    "display": c.get("display"),
-                    "designations_fr": [
-                        d.get("value") for d in c.get("designation", [])
-                        if d.get("language", "").startswith("fr") and d.get("value")
-                    ],
-                }
-                for c in concepts
-            ]
+    """Cherche un libellé dans les terminologies de référence via POST $expand.
+    Utilise le libellé original + une version courte par mots-clés pour améliorer le rappel."""
+    queries = _extract_search_queries(label)
+    results: dict[str, list[dict]] = {}
+    seen_codes: dict[str, set] = {}  # system_name → codes déjà vus
+
+    for query in queries:
+        for system_name, system_url in _REFERENCE_SYSTEMS.items():
+            body = {
+                "resourceType": "Parameters",
+                "parameter": [
+                    {"name": "valueSet", "resource": {
+                        "resourceType": "ValueSet",
+                        "compose": {"include": [{"system": system_url}]},
+                    }},
+                    {"name": "filter", "valueString": query},
+                    {"name": "count", "valueInteger": 5},
+                    {"name": "includeDesignations", "valueBoolean": True},
+                ],
+            }
+            r = fhir_client.post(
+                f"{FHIR_BASE}/ValueSet/$expand",
+                content=json.dumps(body),
+                headers={"Content-Type": "application/fhir+json", "Accept": "application/fhir+json"},
+                timeout=30,
+            )
+            if r.status_code != 200:
+                continue
+            concepts = r.json().get("expansion", {}).get("contains", [])
+            if not concepts:
+                continue
+            if system_name not in results:
+                results[system_name] = []
+                seen_codes[system_name] = set()
+            for c in concepts:
+                code = c.get("code")
+                if code and code not in seen_codes[system_name]:
+                    seen_codes[system_name].add(code)
+                    results[system_name].append({
+                        "code": code,
+                        "display": c.get("display"),
+                        "designations_fr": [
+                            d.get("value") for d in c.get("designation", [])
+                            if d.get("language", "").startswith("fr") and d.get("value")
+                        ],
+                    })
     return results
 
 
@@ -280,6 +317,15 @@ def execute_verify_smt(tool_args: dict) -> dict:
                     lookup_in_systems[sys_url] = {"found": False}
             req["lookup_in_source_systems"] = lookup_in_systems
 
+            # Anomalie : le code n'existe dans aucune TRE source → il faudra d'abord l'ajouter à la TRE
+            if system_urls and action == "ajout":
+                code_found_in_any_tre = any(v.get("found") for v in lookup_in_systems.values())
+                if not code_found_in_any_tre:
+                    req["anomalie"] = (
+                        f"ANOMALIE : le code '{code}' n'existe dans aucune TRE source du JDV {jdv_id}. "
+                        f"Il faut d'abord l'ajouter à la TRE (DM-TRE) avant de l'inclure dans ce JDV."
+                    )
+
         # ── Cas 2 : demande sur une TRE directement ──
         elif tre_id:
             cs_info = result["tre_checks"].get(tre_id) or {}
@@ -295,6 +341,12 @@ def execute_verify_smt(tool_args: dict) -> dict:
                 if r and r.get("resourceType") != "OperationOutcome":
                     display = next((p.get("valueString") for p in r.get("parameter", []) if p.get("name") == "display"), None)
                     lookup = {"found": True, "display_actuel": display}
+                    # Pour un ajout : le code existe déjà → doublon potentiel
+                    if action == "ajout":
+                        req["anomalie"] = (
+                            f"ANOMALIE : le code '{code}' existe déjà dans {tre_id} "
+                            f"avec le libellé '{display}'. Vérifier si c'est un doublon."
+                        )
                 else:
                     lookup = {"found": False}
             req["lookup_smt"] = lookup
@@ -447,8 +499,12 @@ Si vide : "Aucun équivalent trouvé dans les terminologies de référence inter
 Si une section "Recherche dans les IGs / CI-SIS" est fournie, liste les documents impactés et explique pourquoi.
 Si absente ou vide : "Aucune recherche dans les IGs effectuée."
 
+## Historique
+Si une section "Historique — analyses précédentes" est fournie, mentionner les demandes similaires déjà traitées et leur résultat (recevable/non recevable).
+Si absente : "Aucune demande similaire trouvée dans l'historique."
+
 ## Anomalies
-Statut retired, ressource manquante, version ancienne, doublon potentiel.
+Statut retired, ressource manquante, version ancienne, doublon potentiel. Inclure les anomalies signalées dans les données SMT (champ "anomalie").
 
 ## Pertinence
 **Recevable** / **À étudier** / **Non recevable** + justification courte.
@@ -683,14 +739,30 @@ def analyze_with_tool_calling(issue: dict, model: str = ALBERT_MODEL, collection
         print(f"📚 Étape 2b — Recherche dans la collection {effective_collection_id}...")
         rag_section = search_impacts_in_collection(effective_collection_id, smt_data, issue)
 
+    # ── Étape 2c : historique des analyses précédentes ──
+    history_section = ""
+    repo = issue.get("repo", "")
+    if repo:
+        print("📂 Étape 2c — Recherche dans l'historique des analyses...")
+        history_section = fetch_previous_analyses(
+            repo,
+            smt_data.get("tre_ids_detected", []),
+            smt_data.get("jdv_ids_detected", []),
+            issue["number"],
+        )
+        if history_section:
+            print(f"   Analyses précédentes trouvées")
+
     # ── Étape 3 : analyse par Albert (nouveau contexte propre) ──
     print("🤖 Étape 3 — Albert génère l'analyse...")
     rag_block = f"\n\n{rag_section}" if rag_section else ""
+    history_block = f"\n\n{history_section}" if history_section else ""
     user_prompt = (
         f"## Issue #{issue['number']} — {issue['title']}\n\n"
         f"{issue.get('body', '')[:3000]}\n\n"
         f"### Données SMT collectées\n{json.dumps(smt_data, ensure_ascii=False, indent=2)}"
-        f"{rag_block}\n\n"
+        f"{rag_block}"
+        f"{history_block}\n\n"
         "Effectue la pré-analyse complète de cette issue."
     )
     response2 = _albert_post([
@@ -699,6 +771,78 @@ def analyze_with_tool_calling(issue: dict, model: str = ALBERT_MODEL, collection
     ], model=model)
 
     return response2["choices"][0]["message"]["content"], smt_data
+
+
+# ──────────────────────────────────────────────
+# Historique des analyses précédentes
+# ──────────────────────────────────────────────
+
+def fetch_previous_analyses(repo: str, tre_ids: list[str], jdv_ids: list[str], current_issue: int, max_results: int = 3) -> str:
+    """
+    Cherche dans tools/issue/analyses/ les analyses précédentes qui mentionnent
+    les mêmes TREs ou JDVs. Retourne une section markdown résumée.
+    """
+    token = os.environ.get("GITHUB_TOKEN", "")
+    if not token:
+        return ""
+
+    headers = {"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json"}
+    # Lister les fichiers dans tools/issue/analyses/
+    r = httpx.get(
+        f"{GITHUB_API}/repos/{repo}/contents/tools/issue/analyses",
+        headers=headers,
+        timeout=15,
+    )
+    if r.status_code != 200:
+        return ""
+
+    files = r.json()
+    if not isinstance(files, list):
+        return ""
+
+    keywords = set(tre_ids + jdv_ids)
+    matches = []
+
+    # Trier par numéro d'issue décroissant (fichiers nommés {number}-{slug}.md)
+    def _issue_num(f: dict) -> int:
+        try:
+            return int(f["name"].split("-")[0])
+        except Exception:
+            return 0
+
+    for f in sorted(files, key=_issue_num, reverse=True):
+        if not f["name"].endswith(".md"):
+            continue
+        issue_num = _issue_num(f)
+        if issue_num == current_issue:
+            continue
+        if len(matches) >= max_results:
+            break
+
+        # Télécharger le fichier
+        r2 = httpx.get(f["download_url"], timeout=15)
+        if r2.status_code != 200:
+            continue
+        content = r2.text
+
+        # Vérifier si une des TREs/JDVs est mentionnée
+        if any(kw in content for kw in keywords):
+            # Extraire le titre et la section "Solution proposée"
+            title_match = re.search(r'^# .+$', content, re.MULTILINE)
+            solution_match = re.search(r'## Solution proposée\n(.+?)(?=\n##|\Z)', content, re.DOTALL)
+            pertinence_match = re.search(r'## Pertinence\n(.+?)(?=\n##|\Z)', content, re.DOTALL)
+
+            title = title_match.group(0).strip() if title_match else f["name"]
+            solution = solution_match.group(1).strip()[:300] if solution_match else ""
+            pertinence = pertinence_match.group(1).strip()[:150] if pertinence_match else ""
+            matches.append(f"**{title}**\n- Pertinence : {pertinence}\n- Solution : {solution}")
+
+    if not matches:
+        return ""
+
+    lines = ["### Historique — analyses précédentes sur les mêmes TREs/JDVs\n"]
+    lines.extend(matches)
+    return "\n\n".join(lines)
 
 
 # ──────────────────────────────────────────────
@@ -719,6 +863,7 @@ def fetch_github_issue(repo: str, issue_number: int) -> dict:
         "body": data.get("body", ""),
         "labels": [l["name"] for l in data.get("labels", [])],
         "state": data["state"],
+        "repo": repo,
     }
 
 
@@ -780,6 +925,8 @@ def main():
 
     if args.issue_json:
         issue = json.loads(args.issue_json)
+        if args.repo and "repo" not in issue:
+            issue["repo"] = args.repo
     elif args.repo and args.issue_number:
         print(f"📥 Récupération de l'issue #{args.issue_number}...")
         issue = fetch_github_issue(args.repo, args.issue_number)
