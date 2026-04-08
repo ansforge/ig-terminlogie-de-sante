@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies | *Version*:1.8.0 |
-| Active as of 2026-04-07 | *Computable Name*:Terminologies |
+| Active as of 2026-04-08 | *Computable Name*:Terminologies |
 
 Dans ce guide, nous retrouvons l’ensemble des terminologies de santé et jeux de valeurs plubliés par l’ANS :
 
@@ -216,7 +216,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-04-07T05:49:19+00:00",
+  "date" : "2026-04-08T05:48:07+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
