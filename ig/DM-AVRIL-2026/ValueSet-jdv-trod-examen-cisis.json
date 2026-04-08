@@ -1,0 +1,228 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "jdv-trod-examen-cisis",
+  "meta" : {
+    "versionId" : "3",
+    "lastUpdated" : "2026-03-11T15:29:18.513+01:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
+  "language" : "fr-FR",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-trod-examen-cisis</b></p><a name=\"jdv-trod-examen-cisis\"> </a><a name=\"hcjdv-trod-examen-cisis\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 3; Dernière mise à jour : 2026-03-11 15:29:18+0100; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include ce(s) code(s) tel qu'il(s) est (sont) défini(s) dans <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><span title=\"La version n'est pas explicitement indiquée. Aucun Système de codes (Code System) correspondant trouvé\"> version Non Précisé(e) (utilise la dernière version provenant du serveur de terminologie)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td></tr><tr><td><a href=\"https://loinc.org/100964-6/\">100964-6</a></td><td>Dengue virus Ac IgG [Présence/Seuil] Sérum/Plasma/Sang ; Qualitatif ; Immunoanalyse rapide</td></tr><tr><td><a href=\"https://loinc.org/12327-3/\">12327-3</a></td><td>Kétamine [Présence/Seuil] Urine ; Qualitatif</td></tr><tr><td><a href=\"https://loinc.org/14316-4/\">14316-4</a></td><td>Benzodiazépines [Présence/Seuil] Urine ; Qualitatif ; Dépistage</td></tr><tr><td><a href=\"https://loinc.org/18282-4/\">18282-4</a></td><td>Cannabinoïdes [Présence/Seuil] Urine ; Qualitatif ; Dépistage</td></tr><tr><td><a href=\"https://loinc.org/18725-2/\">18725-2</a></td><td>Virus respiratoire syncytial Ag [Présence/Seuil] Nasopharynx ; Qualitatif ; Immunoanalyse rapide</td></tr><tr><td><a href=\"https://loinc.org/1904-2/\">1904-2</a></td><td>Ascorbate [Présence/Seuil] Urine ; Qualitatif</td></tr><tr><td><a href=\"https://loinc.org/19295-5/\">19295-5</a></td><td>Opiacés [Présence/Seuil] Urine ; Qualitatif ; Dépistage</td></tr><tr><td><a href=\"https://loinc.org/19343-3/\">19343-3</a></td><td>Amphétamine [Présence/Seuil] Urine ; Qualitatif ; Dépistage</td></tr><tr><td><a href=\"https://loinc.org/19359-9/\">19359-9</a></td><td>Cocaïne [Présence/Seuil] Urine ; Qualitatif ; Dépistage</td></tr><tr><td><a href=\"https://loinc.org/19528-9/\">19528-9</a></td><td>Lysergate diéthylamide [Présence/Seuil] Urine ; Qualitatif ; Dépistage</td></tr><tr><td><a href=\"https://loinc.org/19550-3/\">19550-3</a></td><td>Méthadone [Présence/Seuil] Urine ; Qualitatif ; Dépistage</td></tr><tr><td><a href=\"https://loinc.org/19554-5/\">19554-5</a></td><td>Méthamphétamine [Présence/Seuil] Urine ; Qualitatif ; Dépistage</td></tr><tr><td><a href=\"https://loinc.org/19568-5/\">19568-5</a></td><td>Méthylènedioxymethamphétamine [Présence/Seuil] Urine ; Qualitatif ; Dépistage</td></tr><tr><td><a href=\"https://loinc.org/20405-7/\">20405-7</a></td><td>Urobilinogène [Masse/Volume] Urine ; Semi-Quantitatif ; Bandelette réactive</td></tr><tr><td><a href=\"https://loinc.org/24110-9/\">24110-9</a></td><td>Treponema pallidum Ac [Présence/Seuil] Sérum ; Qualitatif ; Immunoanalyse</td></tr><tr><td><a href=\"https://loinc.org/2514-8/\">2514-8</a></td><td>Corps cétoniques [Présence/Seuil] Urine ; Qualitatif ; Bandelette réactive</td></tr><tr><td><a href=\"https://loinc.org/26643-7/\">26643-7</a></td><td>Clostridium tetani toxoïde Ac [Présence/Seuil] Sérum ; Qualitatif</td></tr><tr><td><a href=\"https://loinc.org/29663-2/\">29663-2</a></td><td>Dengue virus Ac IgM [Présence/Seuil] Sérum/Plasma ; Qualitatif ; Immunoanalyse</td></tr><tr><td><a href=\"https://loinc.org/33437-5/\">33437-5</a></td><td>Oxygène[Pression partielle] Sang capillaire; Numérique ; Moniteur transcutané Oxygène</td></tr><tr><td><a href=\"https://loinc.org/40801-3/\">40801-3</a></td><td>Cannabinoïdes [Présence/Seuil] Salive ; Qualitatif ; Dépistage</td></tr><tr><td><a href=\"https://loinc.org/40802-1/\">40802-1</a></td><td>Cocaïne [Présence/Seuil] Salive ; Qualitatif ; Dépistage</td></tr><tr><td><a href=\"https://loinc.org/41653-7/\">41653-7</a></td><td>Glucose [Masse/Volume] Sang capillaire ; Numérique ; Glucomètre</td></tr><tr><td><a href=\"https://loinc.org/48421-2/\">48421-2</a></td><td>C Réactive protéine [Masse/Volume] Sang capillaire ; Numérique</td></tr><tr><td><a href=\"https://loinc.org/53061-8/\">53061-8</a></td><td>Corps cétoniques [Moles/Volume] Sang ; Numérique</td></tr><tr><td><a href=\"https://loinc.org/5770-3/\">5770-3</a></td><td>Bilirubine [Présence/Seuil] Urine ; Qualitatif ; Bandelette réactive</td></tr><tr><td><a href=\"https://loinc.org/5792-7/\">5792-7</a></td><td>Glucose [Masse/Volume] Urine ; Semi-Quantitatif ; Bandelette réactive</td></tr><tr><td><a href=\"https://loinc.org/5794-3/\">5794-3</a></td><td>Hémoglobine [Présence/Seuil] Urine ; Qualitatif ; Bandelette réactive</td></tr><tr><td><a href=\"https://loinc.org/5799-2/\">5799-2</a></td><td>Leucocyte estérase [Présence/Seuil] Urine ; Qualitatif ; Bandelette réactive</td></tr><tr><td><a href=\"https://loinc.org/5802-4/\">5802-4</a></td><td>Nitrites [Présence/Seuil] Urine ; Qualitatif ; Bandelette réactive</td></tr><tr><td><a href=\"https://loinc.org/5803-2/\">5803-2</a></td><td>pH [Log de concentration] Urine ; Numérique ; Bandelette réactive</td></tr><tr><td><a href=\"https://loinc.org/5804-0/\">5804-0</a></td><td>Protéines [Masse/Volume] Urine ; Semi-Quantitatif ; Bandelette réactive</td></tr><tr><td><a href=\"https://loinc.org/5811-5/\">5811-5</a></td><td>Densité [Densité relative] Urine ; Semi-Quantitatif ; Bandelette réactive</td></tr><tr><td><a href=\"https://loinc.org/58941-6/\">58941-6</a></td><td>Bilirubine [Masse/Volume] Peau ; Numérique ; Mesure transcutanée</td></tr><tr><td><a href=\"https://loinc.org/5932-9/\">5932-9</a></td><td>Cholestérol [Présence/Seuil] Sang ; Semi-Quantitatif ; Bandelette réactive</td></tr><tr><td><a href=\"https://loinc.org/69945-4/\">69945-4</a></td><td>Insulin-like growth factor binding protein 1 [Présence/Seuil] Prélèvement vaginal ; Qualitatif</td></tr><tr><td><a href=\"https://loinc.org/72269-4/\">72269-4</a></td><td>pH [Log de concentration] Prélèvement vaginal ; Semi-Quantitatif ; Bandelette réactive</td></tr><tr><td><a href=\"https://loinc.org/72376-7/\">72376-7</a></td><td>Hépatite C virus Ac [Présence/Seuil] Sérum/Plasma/Sang ; Qualitatif ; Immunoanalyse rapide</td></tr><tr><td><a href=\"https://loinc.org/72898-0/\">72898-0</a></td><td>Bilirubine [Moles/Volume] Peau ; Numérique ; Mesure transcutanée</td></tr><tr><td><a href=\"https://loinc.org/75377-2/\">75377-2</a></td><td>Dengue virus NS1 Ag [Présence/Seuil] Sérum/Plasma/Sang ; Qualitatif ; Immunoanalyse rapide</td></tr><tr><td><a href=\"https://loinc.org/75410-1/\">75410-1</a></td><td>Hépatite B virus surface Ag [Présence/Seuil] Sérum/Plasma/Sang ; Qualitatif ; Immunoanalyse rapide</td></tr><tr><td><a href=\"https://loinc.org/75666-8/\">75666-8</a></td><td>VIH-1+2 Ac et VIH-1 p24 Ag [Identification] Sérum/Plasma/Sang ; Résultat nominal ; Immunoanalyse rapide</td></tr><tr><td><a href=\"https://loinc.org/78012-2/\">78012-2</a></td><td>Streptococcus pyogenes Ag [Présence/Seuil] Gorge ; Qualitatif ; Immunoanalyse rapide</td></tr><tr><td><a href=\"https://loinc.org/80382-5/\">80382-5</a></td><td>Influenza virus A Ag [Présence/Seuil] Voies respiratoires supérieures ; Qualitatif ; Immunoanalyse rapide</td></tr><tr><td><a href=\"https://loinc.org/80383-3/\">80383-3</a></td><td>Influenza virus B Ag [Présence/Seuil] Voies respiratoires supérieures ; Qualitatif ; Immunoanalyse rapide</td></tr><tr><td><a href=\"https://loinc.org/80387-4/\">80387-4</a></td><td>VIH-1+2 Ac [Présence/Seuil] Sérum/Plasma/Sang ; Qualitatif ; Immunoanalyse rapide</td></tr><tr><td><a href=\"https://loinc.org/94558-4/\">94558-4</a></td><td>Coronavirus SARS-CoV-2 Ag [Présence/Seuil] Respiratoire ; Qualitatif ; Immunoanalyse rapide</td></tr></table></li></ul></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2025-12-09T00:00:00+01:00"
+    }
+  }],
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-trod-examen-cisis",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.830"
+  }],
+  "version" : "20260311144903",
+  "name" : "JdvTrodExamenCisis",
+  "title" : "Jdv Trod Examen CISIS",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-03-11T14:49:03+01:00",
+  "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "Jdv Trod Examen CISIS",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "100964-6",
+        "display" : "Dengue virus Ac IgG [Présence/Seuil] Sérum/Plasma/Sang ; Qualitatif ; Immunoanalyse rapide"
+      },
+      {
+        "code" : "12327-3",
+        "display" : "Kétamine [Présence/Seuil] Urine ; Qualitatif"
+      },
+      {
+        "code" : "14316-4",
+        "display" : "Benzodiazépines [Présence/Seuil] Urine ; Qualitatif ; Dépistage"
+      },
+      {
+        "code" : "18282-4",
+        "display" : "Cannabinoïdes [Présence/Seuil] Urine ; Qualitatif ; Dépistage"
+      },
+      {
+        "code" : "18725-2",
+        "display" : "Virus respiratoire syncytial Ag [Présence/Seuil] Nasopharynx ; Qualitatif ; Immunoanalyse rapide"
+      },
+      {
+        "code" : "1904-2",
+        "display" : "Ascorbate [Présence/Seuil] Urine ; Qualitatif"
+      },
+      {
+        "code" : "19295-5",
+        "display" : "Opiacés [Présence/Seuil] Urine ; Qualitatif ; Dépistage"
+      },
+      {
+        "code" : "19343-3",
+        "display" : "Amphétamine [Présence/Seuil] Urine ; Qualitatif ; Dépistage"
+      },
+      {
+        "code" : "19359-9",
+        "display" : "Cocaïne [Présence/Seuil] Urine ; Qualitatif ; Dépistage"
+      },
+      {
+        "code" : "19528-9",
+        "display" : "Lysergate diéthylamide [Présence/Seuil] Urine ; Qualitatif ; Dépistage"
+      },
+      {
+        "code" : "19550-3",
+        "display" : "Méthadone [Présence/Seuil] Urine ; Qualitatif ; Dépistage"
+      },
+      {
+        "code" : "19554-5",
+        "display" : "Méthamphétamine [Présence/Seuil] Urine ; Qualitatif ; Dépistage"
+      },
+      {
+        "code" : "19568-5",
+        "display" : "Méthylènedioxymethamphétamine [Présence/Seuil] Urine ; Qualitatif ; Dépistage"
+      },
+      {
+        "code" : "20405-7",
+        "display" : "Urobilinogène [Masse/Volume] Urine ; Semi-Quantitatif ; Bandelette réactive"
+      },
+      {
+        "code" : "24110-9",
+        "display" : "Treponema pallidum Ac [Présence/Seuil] Sérum ; Qualitatif ; Immunoanalyse"
+      },
+      {
+        "code" : "2514-8",
+        "display" : "Corps cétoniques [Présence/Seuil] Urine ; Qualitatif ; Bandelette réactive"
+      },
+      {
+        "code" : "26643-7",
+        "display" : "Clostridium tetani toxoïde Ac [Présence/Seuil] Sérum ; Qualitatif"
+      },
+      {
+        "code" : "29663-2",
+        "display" : "Dengue virus Ac IgM [Présence/Seuil] Sérum/Plasma ; Qualitatif ; Immunoanalyse"
+      },
+      {
+        "code" : "33437-5",
+        "display" : "Oxygène[Pression partielle] Sang capillaire; Numérique ; Moniteur transcutané Oxygène"
+      },
+      {
+        "code" : "40801-3",
+        "display" : "Cannabinoïdes [Présence/Seuil] Salive ; Qualitatif ; Dépistage"
+      },
+      {
+        "code" : "40802-1",
+        "display" : "Cocaïne [Présence/Seuil] Salive ; Qualitatif ; Dépistage"
+      },
+      {
+        "code" : "41653-7",
+        "display" : "Glucose [Masse/Volume] Sang capillaire ; Numérique ; Glucomètre"
+      },
+      {
+        "code" : "48421-2",
+        "display" : "C Réactive protéine [Masse/Volume] Sang capillaire ; Numérique"
+      },
+      {
+        "code" : "53061-8",
+        "display" : "Corps cétoniques [Moles/Volume] Sang ; Numérique"
+      },
+      {
+        "code" : "5770-3",
+        "display" : "Bilirubine [Présence/Seuil] Urine ; Qualitatif ; Bandelette réactive"
+      },
+      {
+        "code" : "5792-7",
+        "display" : "Glucose [Masse/Volume] Urine ; Semi-Quantitatif ; Bandelette réactive"
+      },
+      {
+        "code" : "5794-3",
+        "display" : "Hémoglobine [Présence/Seuil] Urine ; Qualitatif ; Bandelette réactive"
+      },
+      {
+        "code" : "5799-2",
+        "display" : "Leucocyte estérase [Présence/Seuil] Urine ; Qualitatif ; Bandelette réactive"
+      },
+      {
+        "code" : "5802-4",
+        "display" : "Nitrites [Présence/Seuil] Urine ; Qualitatif ; Bandelette réactive"
+      },
+      {
+        "code" : "5803-2",
+        "display" : "pH [Log de concentration] Urine ; Numérique ; Bandelette réactive"
+      },
+      {
+        "code" : "5804-0",
+        "display" : "Protéines [Masse/Volume] Urine ; Semi-Quantitatif ; Bandelette réactive"
+      },
+      {
+        "code" : "5811-5",
+        "display" : "Densité [Densité relative] Urine ; Semi-Quantitatif ; Bandelette réactive"
+      },
+      {
+        "code" : "58941-6",
+        "display" : "Bilirubine [Masse/Volume] Peau ; Numérique ; Mesure transcutanée"
+      },
+      {
+        "code" : "5932-9",
+        "display" : "Cholestérol [Présence/Seuil] Sang ; Semi-Quantitatif ; Bandelette réactive"
+      },
+      {
+        "code" : "69945-4",
+        "display" : "Insulin-like growth factor binding protein 1 [Présence/Seuil] Prélèvement vaginal ; Qualitatif"
+      },
+      {
+        "code" : "72269-4",
+        "display" : "pH [Log de concentration] Prélèvement vaginal ; Semi-Quantitatif ; Bandelette réactive"
+      },
+      {
+        "code" : "72376-7",
+        "display" : "Hépatite C virus Ac [Présence/Seuil] Sérum/Plasma/Sang ; Qualitatif ; Immunoanalyse rapide"
+      },
+      {
+        "code" : "72898-0",
+        "display" : "Bilirubine [Moles/Volume] Peau ; Numérique ; Mesure transcutanée"
+      },
+      {
+        "code" : "75377-2",
+        "display" : "Dengue virus NS1 Ag [Présence/Seuil] Sérum/Plasma/Sang ; Qualitatif ; Immunoanalyse rapide"
+      },
+      {
+        "code" : "75410-1",
+        "display" : "Hépatite B virus surface Ag [Présence/Seuil] Sérum/Plasma/Sang ; Qualitatif ; Immunoanalyse rapide"
+      },
+      {
+        "code" : "75666-8",
+        "display" : "VIH-1+2 Ac et VIH-1 p24 Ag [Identification] Sérum/Plasma/Sang ; Résultat nominal ; Immunoanalyse rapide"
+      },
+      {
+        "code" : "78012-2",
+        "display" : "Streptococcus pyogenes Ag [Présence/Seuil] Gorge ; Qualitatif ; Immunoanalyse rapide"
+      },
+      {
+        "code" : "80382-5",
+        "display" : "Influenza virus A Ag [Présence/Seuil] Voies respiratoires supérieures ; Qualitatif ; Immunoanalyse rapide"
+      },
+      {
+        "code" : "80383-3",
+        "display" : "Influenza virus B Ag [Présence/Seuil] Voies respiratoires supérieures ; Qualitatif ; Immunoanalyse rapide"
+      },
+      {
+        "code" : "80387-4",
+        "display" : "VIH-1+2 Ac [Présence/Seuil] Sérum/Plasma/Sang ; Qualitatif ; Immunoanalyse rapide"
+      },
+      {
+        "code" : "94558-4",
+        "display" : "Coronavirus SARS-CoV-2 Ag [Présence/Seuil] Respiratoire ; Qualitatif ; Immunoanalyse rapide"
+      }]
+    }]
+  }
+}
