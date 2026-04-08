@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j368-categorie-etablissement-cisis | *Version*:20250422120000 | |
-| Active as of 2025-04-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ368CategorieEtablissementCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j368-categorie-etablissement-cisis | *Version*:20260505120000 | |
+| Active as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ368CategorieEtablissementCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.823 | | |
 
  
@@ -56,7 +56,7 @@ Requête sur le SMT
   "id" : "jdv-j368-categorie-etablissement-cisis",
   "meta" : {
     "versionId" : "2",
-    "lastUpdated" : "2025-07-01T13:32:19.655+00:00",
+    "lastUpdated" : "2026-05-05T13:32:19.655+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -71,12 +71,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.823"
   }],
-  "version" : "20250422120000",
+  "version" : "20260505120000",
   "name" : "JdvJ368CategorieEtablissementCisis",
   "title" : "Jdv J368 Categorie Etablissement Cisis",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-04-22T18:02:28.249+00:00",
+  "date" : "2026-05-05T12:00:00.249+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV à l'image de l'ensemble des valeurs actives de la terminologie TRE_R66-CategorieEtablissement",
   "jurisdiction" : [{
@@ -87,11 +87,11 @@ Requête sur le SMT
   }],
   "compose" : {
     "include" : [{
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement",
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
       "filter" : [{
-        "property" : "status",
+        "property" : "niveau",
         "op" : "=",
-        "value" : "active"
+        "value" : "4"
       }]
     }]
   }

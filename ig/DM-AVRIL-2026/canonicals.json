@@ -6848,7 +6848,7 @@
   "id" : "jdv-j368-categorie-etablissement-cisis",
   "type" : "ValueSet",
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j368-categorie-etablissement-cisis",
-  "version" : "20250422120000",
+  "version" : "20260505120000",
   "name" : "JdvJ368CategorieEtablissementCisis",
   "oids" : ["1.2.250.1.213.1.1.5.823"]
 },

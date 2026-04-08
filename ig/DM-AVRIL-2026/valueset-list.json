@@ -5626,12 +5626,12 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j368-categorie-etablissement-cisis",
-    "version" : "20250422120000",
+    "version" : "20260505120000",
     "status" : "active",
     "name" : "JdvJ368CategorieEtablissementCisis",
     "title" : "Jdv J368 Categorie Etablissement Cisis",
     "description" : "JDV à l'image de l'ensemble des valeurs actives de la terminologie TRE_R66-CategorieEtablissement",
-    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement"],
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"],
     "oids" : ["1.2.250.1.213.1.1.5.823"],
     "sources" : ["1.2.250.1.213.1.1.5.823"]
   },
