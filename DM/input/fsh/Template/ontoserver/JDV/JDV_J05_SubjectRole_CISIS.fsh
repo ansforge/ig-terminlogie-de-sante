@@ -1,8 +1,8 @@
 ValueSet: JDV_J05_SubjectRole_CISIS
 Id: JDV-J05-SubjectRole-CISIS
 Description: "subjectRole CI-SIS"
-* ^meta.versionId = "26"
-* ^meta.lastUpdated = "2026-02-23T18:17:21.130+01:00"
+* ^meta.versionId = "27"
+* ^meta.lastUpdated = "2026-03-27T11:18:03.030+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,10 +10,10 @@ Description: "subjectRole CI-SIS"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J05-SubjectRole-CISIS/FHIR/JDV-J05-SubjectRole-CISIS"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.1.5.470"
-* ^version = "20260223120000"
+* ^version = "20260330120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-02-23T12:00:00+01:00"
+* ^date = "2026-03-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-A00-ProducteurDocNonPS#ALIM_AM "Alimentation automatique à partir du Système d'Information de l'Assurance Maladie"
@@ -462,3 +462,4 @@ Description: "subjectRole CI-SIS"
 * $TRE-R85-RolePriseCharge#372 "Aide à domicile"
 * $TRE-R85-RolePriseCharge#373 "Technicien d’études cliniques"
 * $TRE-R85-RolePriseCharge#374 "Agent d'autorité d'enregistrement"
+* $TRE-R85-RolePriseCharge#375 "Conseiller conjugal et familial"

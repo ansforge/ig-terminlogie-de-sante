@@ -1,8 +1,8 @@
 ValueSet: JDV_J108_EnsembleFonction_RASS
 Id: JDV-J108-EnsembleFonction-RASS
 Description: "Ensemble des fonctions et rôles du RASS"
-* ^meta.versionId = "21"
-* ^meta.lastUpdated = "2026-02-23T18:17:23.504+01:00"
+* ^meta.versionId = "22"
+* ^meta.lastUpdated = "2026-03-27T11:18:03.862+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,10 +10,10 @@ Description: "Ensemble des fonctions et rôles du RASS"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J108-EnsembleFonction-RASS/FHIR/JDV-J108-EnsembleFonction-RASS"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.176"
-* ^version = "20260202120000"
+* ^version = "20260330120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-02-02T12:00:00+01:00"
+* ^date = "2026-03-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R21-Fonction#FON-01 "Titulaire de cabinet"
@@ -133,3 +133,4 @@ Description: "Ensemble des fonctions et rôles du RASS"
 * $TRE-R85-RolePriseCharge#371 "Aide à domicile qualifié(e)"
 * $TRE-R85-RolePriseCharge#372 "Aide à domicile"
 * $TRE-R85-RolePriseCharge#374 "Agent d'autorité d'enregistrement"
+* $TRE-R85-RolePriseCharge#375 "Conseiller conjugal et familial"

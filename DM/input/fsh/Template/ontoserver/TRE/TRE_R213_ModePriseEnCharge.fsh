@@ -1,18 +1,19 @@
 CodeSystem: TRE_R213_ModePriseEnCharge
 Id: TRE-R213-ModePriseEnCharge
 Description: "Mode de la prise en charge"
-* ^meta.versionId = "11"
-* ^meta.lastUpdated = "2025-12-22T10:46:42.186+01:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
+* ^meta.versionId = "12"
+* ^meta.lastUpdated = "2026-03-27T11:13:07.001+01:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2015-04-08T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R213-ModePriseEnCharge/FHIR/TRE-R213-ModePriseEnCharge"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.13"
-* ^version = "20251222120000"
+* ^version = "20260330120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-12-22T12:00:00+01:00"
+* ^date = "2026-03-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
@@ -627,6 +628,7 @@ Description: "Mode de la prise en charge"
 * #53 ^property[=].valueCode = #active
 * #54 "Accueil individuel ou collectif"
 * #54 ^designation.language = #fr-FR
+* #54 ^designation.use.system = "http://snomed.info/sct"
 * #54 ^designation.use = $sct#900000000000013009
 * #54 ^designation.value = "Accueil individuel/collectif"
 * #54 ^property[0].code = #dateValid
@@ -656,11 +658,14 @@ Description: "Mode de la prise en charge"
 * #57 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #57 ^property[+].code = #status
 * #57 ^property[=].valueCode = #active
-* #58 "Coordination de parcours" "La coordination de parcours est un mode de prise en charge correspondant à l'appui à l'organisation des parcours complexes ou des parcours spécifiques à certaines pathologies.  Elle a pour objectif d'améliorer la fluidité des échanges entre les différents acteurs."
+* #58 "Suivi ou coordination de parcours" "La coordination de parcours est un mode de prise en charge correspondant à l'appui à l'organisation des parcours complexes ou des parcours spécifiques à certaines pathologies.  Elle a pour objectif d'améliorer la fluidité des échanges entre les différents acteurs."
+* #58 ^designation.language = #fr-FR
+* #58 ^designation.use = $sct#900000000000013009
+* #58 ^designation.value = "Suivi ou coord. de parcours"
 * #58 ^property[0].code = #dateValid
 * #58 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
 * #58 ^property[+].code = #dateMaj
-* #58 ^property[=].valueDateTime = "2021-06-25T12:00:00+01:00"
+* #58 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #58 ^property[+].code = #status
 * #58 ^property[=].valueCode = #active
 * #59 "Equipe d'intervention mobile"

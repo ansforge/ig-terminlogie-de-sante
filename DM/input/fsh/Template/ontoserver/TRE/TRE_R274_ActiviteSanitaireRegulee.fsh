@@ -1,8 +1,8 @@
 CodeSystem: TRE_R274_ActiviteSanitaireRegulee
 Id: TRE-R274-ActiviteSanitaireRegulee
 Description: "Activités sanitaires soumises à une régulation de la part de l'ARS"
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2025-07-02T18:16:57.760+00:00"
+* ^meta.versionId = "6"
+* ^meta.lastUpdated = "2026-03-27T11:13:09.842+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2018-07-27T12:00:00+01:00"
@@ -16,14 +16,19 @@ Description: "Activités sanitaires soumises à une régulation de la part de l'
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
+* ^valueSet = "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee?vs"
 * ^content = #complete
+* ^count = 66
 * ^property[0].code = #dateValid
-* ^property[=].description = "date de validité d'un code concept"
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
+* ^property[=].description = "Date de validité d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateMaj
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj"
 * ^property[=].description = "Date de mise à jour d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateFin
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin"
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #deprecationDate

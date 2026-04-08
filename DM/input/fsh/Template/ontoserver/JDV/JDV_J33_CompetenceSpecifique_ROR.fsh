@@ -1,8 +1,8 @@
 ValueSet: JDV_J33_CompetenceSpecifique_ROR
 Id: JDV-J33-CompetenceSpecifique-ROR
 Description: "Compétence spécifique - ROR"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2025-07-02T17:06:26.994+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2026-03-27T11:18:09.303+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,10 +10,10 @@ Description: "Compétence spécifique - ROR"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J33-CompetenceSpecifique-ROR/FHIR/JDV-J33-CompetenceSpecifique-ROR"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.38"
-* ^version = "20240426120000"
+* ^version = "20260330120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-04-26T12:00:00+01:00"
+* ^date = "2026-03-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R243-CompetenceSpecifique#01 "Maîtrise de la Langue des Signes Française (LSF)"
@@ -71,3 +71,4 @@ Description: "Compétence spécifique - ROR"
 * $TRE-R243-CompetenceSpecifique#59 "Tabacologue"
 * $TRE-R243-CompetenceSpecifique#60 "Addictologue"
 * $TRE-R243-CompetenceSpecifique#61 "Conseiller conjugal et familial"
+* $TRE-R243-CompetenceSpecifique#62 "Maîtrise du Facile à Lire et à Comprendre (FALC)"
