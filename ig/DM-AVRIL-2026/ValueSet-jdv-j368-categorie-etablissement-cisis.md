@@ -13,7 +13,7 @@
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.823 | | |
 
  
-JDV à l’image de l’ensemble des valeurs actives de la terminologie TRE_R66-CategorieEtablissement 
+JDV pour le CISIS reprenant l’ensemble des valeurs actives et obsolètes de niveau 4 dans la TreR397CategorieEntiteGeographiqueExercice 
 
  **References** 
 
@@ -78,7 +78,7 @@ Requête sur le SMT
   "experimental" : false,
   "date" : "2026-05-05T12:00:00.249+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "JDV à l'image de l'ensemble des valeurs actives de la terminologie TRE_R66-CategorieEtablissement",
+  "description" : "JDV pour le CISIS reprenant l'ensemble des valeurs actives et obsolètes de niveau 4 dans la TreR397CategorieEntiteGeographiqueExercice",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

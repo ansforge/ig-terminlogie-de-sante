@@ -5630,7 +5630,7 @@
     "status" : "active",
     "name" : "JdvJ368CategorieEtablissementCisis",
     "title" : "Jdv J368 Categorie Etablissement Cisis",
-    "description" : "JDV à l'image de l'ensemble des valeurs actives de la terminologie TRE_R66-CategorieEtablissement",
+    "description" : "JDV pour le CISIS reprenant l'ensemble des valeurs actives et obsolètes de niveau 4 dans la TreR397CategorieEntiteGeographiqueExercice",
     "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"],
     "oids" : ["1.2.250.1.213.1.1.5.823"],
     "sources" : ["1.2.250.1.213.1.1.5.823"]

@@ -28,7 +28,7 @@
   <experimental value="false"/>
   <date value="2026-05-05T12:00:00.249+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
-  <description value="JDV à l'image de l'ensemble des valeurs actives de la terminologie TRE_R66-CategorieEtablissement"/>
+  <description value="JDV pour le CISIS reprenant l'ensemble des valeurs actives et obsolètes de niveau 4 dans la TreR397CategorieEntiteGeographiqueExercice"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>

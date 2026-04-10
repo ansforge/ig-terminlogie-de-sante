@@ -10,7 +10,7 @@
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-04-08T15:08:35+00:00",
+  "date" : "2026-04-10T10:13:44+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -29348,7 +29348,7 @@
         "reference" : "ValueSet/jdv-j368-categorie-etablissement-cisis"
       },
       "name" : "Jdv J368 Categorie Etablissement Cisis",
-      "description" : "JDV à l'image de l'ensemble des valeurs actives de la terminologie TRE_R66-CategorieEtablissement",
+      "description" : "JDV pour le CISIS reprenant l'ensemble des valeurs actives et obsolètes de niveau 4 dans la TreR397CategorieEntiteGeographiqueExercice",
       "exampleBoolean" : false
     },
     {

@@ -13,7 +13,7 @@ Vous touverez ici la liste des JDV du NOS.
 | Name | Description | date_maj |
 | [JdvJ289TypeGroupeGcoFiness](ValueSet-jdv-j289-type-groupe-gco-finess.md) | Jeu de valeurs Finess contenant les types de Groupement de Coopération Organique (GCO). | 30/03/2026 |
 | [JdvJ296TypeRoleEntiteGroupeFiness](ValueSet-jdv-j296-type-role-entite-groupe-finess.md) | Jeu de valeurs FINESS contenant les types de rôles que peuvent exercer des entités participants à des groupements | 30/03/2026 |
-| [JdvJ368CategorieEtablissementCisis](ValueSet-jdv-j368-categorie-etablissement-cisis.md) | JDV à l'image de l'ensemble des valeurs actives de la terminologie TRE_R66-CategorieEtablissement | 05/05/2026 |
+| [JdvJ368CategorieEtablissementCisis](ValueSet-jdv-j368-categorie-etablissement-cisis.md) | JDV pour le CISIS reprenant l'ensemble des valeurs actives et obsolètes de niveau 4 dans la TreR397CategorieEntiteGeographiqueExercice | 05/05/2026 |
 | [JdvJ389SexeProvenanceRnipp](ValueSet-jdv-j389-sexe-provenance-rnipp.md) | Liste de valeurs du code Sexe issues de l'INSEE pour le RPPS | 30/03/2026 |
 | [JdvJ390OrigineInterruptionExerciceRpps](ValueSet-jdv-j390-origine-interruption-exercice-rpps.md) | Liste de valeurs pour le RPPS permettant de définir l'origine d'une interruption d'exercice | 30/03/2026 |
 | [JdvJ301FinessStatutJuridiqueNiv1Finess](ValueSet-jdv-j301-finess-statut-juridique-niv1-finess.md) | Ce JDV contient les agrégats Niv1 des statust juridiques (JDV créé à l'image de l'ancienne TRE_R70-FinessAgregatStatutJuridique) | 23/02/2026 |
