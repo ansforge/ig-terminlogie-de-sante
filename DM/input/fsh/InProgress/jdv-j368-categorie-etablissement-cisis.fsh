@@ -1,7 +1,7 @@
 ValueSet: JdvJ368CategorieEtablissementCisis
 Id: jdv-j368-categorie-etablissement-cisis
 Title: "Jdv J368 Categorie Etablissement Cisis"
-Description: "JDV à l'image de l'ensemble des valeurs actives de la terminologie TRE_R66-CategorieEtablissement"
+Description: "JDV pour le CISIS reprenant l'ensemble des valeurs actives et obsolètes de niveau 4 dans la TreR397CategorieEntiteGeographiqueExercice"
 * ^meta.versionId = "2"
 * ^meta.lastUpdated = "2026-05-05T13:32:19.655+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
