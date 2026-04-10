@@ -17,4 +17,4 @@ Description: "JDV pour le CISIS reprenant l'ensemble des valeurs actives et obso
 * ^date = "2026-05-05T12:00:00.249+00:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
-* include codes from system $tre-r397-categorie-entite-geographique-exercice where niveau = "4"
+* include codes from system $tre-r397-categorie-entite-geographique-exercice
