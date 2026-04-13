@@ -242,7 +242,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J219_TypeVoie_ROR](ValueSet-JDV-J219-TypeVoie-ROR.md) | Type de voie | 26/08/2022 |
 | [JDV_J220_FonctionContact_ROR](ValueSet-JDV-J220-FonctionContact-ROR.md) | Un titre, une position, une fonction de la personne contact dans l'organisation | 31/01/2025 |
 | [JDV_J221_NatureContact_ROR](ValueSet-JDV-J221-NatureContact-ROR.md) | Un service ou un guichet assurant le contact au sein de l'organisation | 13/12/2024 |
-| [JDV_J222_NiveauConfidentialite_ROR](ValueSet-JDV-J222-NiveauConfidentialite-ROR.md) | Niveau de restriction d'accès | 26/08/2022 |
+| [JDV_J222_NiveauConfidentialite_ROR](ValueSet-JDV-J222-NiveauConfidentialite-ROR.md) | Niveau de restriction d'accès | 05/05/2026 |
 | [JDV_J223_TypeDivisionTerritoriale_ROR](ValueSet-JDV-J223-TypeDivisionTerritoriale-ROR.md) | Type de division territoriale | 26/08/2022 |
 | [JDV_J224_StatutLieu_ROR](ValueSet-JDV-J224-StatutLieu-ROR.md) | Statut lieu | 26/08/2022 |
 | [JDV_J225_CanalCommunication_ROR](ValueSet-JDV-J225-CanalCommunication-ROR.md) | Canal de communication | 30/03/2026 |

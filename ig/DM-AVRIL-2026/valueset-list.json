@@ -1612,7 +1612,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J222-NiveauConfidentialite-ROR/FHIR/JDV-J222-NiveauConfidentialite-ROR",
-    "version" : "20220826120000",
+    "version" : "20260505120000",
     "status" : "active",
     "name" : "JDV_J222_NiveauConfidentialite_ROR",
     "title" : null,
