@@ -1,23 +1,24 @@
 CodeSystem: TRE_R85_RolePriseCharge
 Id: TRE-R85-RolePriseCharge
 Description: "Rôle dans la prise en charge des patients ou des usagers"
-* ^meta.versionId = "23"
-* ^meta.lastUpdated = "2026-02-03T15:41:56.470+01:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
+* ^meta.versionId = "24"
+* ^meta.lastUpdated = "2026-03-27T11:13:18.775+01:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2015-01-01T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.107"
-* ^version = "20260202120000"
+* ^version = "20260330120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-02-02T12:00:00+01:00"
+* ^date = "2026-03-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 75
+* ^count = 76
 * ^property[0].code = #dateValid
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
@@ -737,3 +738,10 @@ Description: "Rôle dans la prise en charge des patients ou des usagers"
 * #374 ^property[=].valueDateTime = "2026-02-02T12:00:00+01:00"
 * #374 ^property[+].code = #status
 * #374 ^property[=].valueCode = #active
+* #375 "Conseiller conjugal et familial" "Ref juridique : arrêté du 3 décembre 2010 relatif à la formation des personnels intervenant dans les centres de planification ou d’éducation familiale et dans les établissements d’information, de consultation ou de conseil familial.​ Le Conseiller conjugal et familial exerce – auprès des jeunes, des femmes, des couples et des familles – des activités d’information, d’orientation et d’accompagnement dans tous les domaines liés à la vie affective et sexuelle, aux conduites à risques, aux discriminations, aux violences (sexuelles, sexistes, de couple...), aux problèmes relationnels dans le couple et dans la famille. ​ Il s’inscrit dans le cadre de la promotion de la santé et de l’approche globale des personnes en matière d’éducation à la sexualité. Il s’appuie sur l’analyse de pratique, la formation continue, le travail en réseau et le cadre déontologique de l'écoute active pour répondre au plus juste aux besoins des personnes."
+* #375 ^property[0].code = #dateValid
+* #375 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #375 ^property[+].code = #dateMaj
+* #375 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #375 ^property[+].code = #status
+* #375 ^property[=].valueCode = #active

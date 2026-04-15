@@ -1,8 +1,8 @@
 ValueSet: JDV_J55_CategorieEG_ROR
 Id: JDV-J55-CategorieEG-ROR
 Description: "Catégories d'établissements FINESS ou hors FINESS et secteurs d'activité des cabinets"
-* ^meta.versionId = "18"
-* ^meta.lastUpdated = "2026-02-23T18:17:35.563+01:00"
+* ^meta.versionId = "19"
+* ^meta.lastUpdated = "2026-03-27T11:18:12.066+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,10 +10,10 @@ Description: "Catégories d'établissements FINESS ou hors FINESS et secteurs d'
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J55-CategorieEG-ROR/FHIR/JDV-J55-CategorieEG-ROR"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.65"
-* ^version = "20260223120000"
+* ^version = "20260330120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-02-23T12:00:00+01:00"
+* ^date = "2026-03-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R66-CategorieEtablissement#101 "Centre hospitalier régional (CHR)"
@@ -193,6 +193,7 @@ Description: "Catégories d'établissements FINESS ou hors FINESS et secteurs d'
 * $TRE-R66-CategorieEtablissement#702 "Point Accueil Ecoute Jeunes (PAEJ)"
 * $TRE-R66-CategorieEtablissement#703 "Espace Santé Jeunes (ESJ)"
 * $TRE-R66-CategorieEtablissement#704 "Autre service territorial"
+* $TRE-R66-CategorieEtablissement#705 "Groupe d’Entraide Mutuelle (GEM)"
 * $TRE-R02-SecteurActivite#SA05 "Centre de santé"
 * $TRE-R02-SecteurActivite#SA07 "Cabinet individuel"
 * $TRE-R02-SecteurActivite#SA08 "Cabinet de groupe"

@@ -1,16 +1,16 @@
 CodeSystem: TRE_R13_CommuneOM
 Id: TRE-R13-CommuneOM
-* ^meta.versionId = "3"
-* ^meta.lastUpdated = "2026-01-26T11:52:29.771+01:00"
+* ^meta.versionId = "4"
+* ^meta.lastUpdated = "2026-03-27T13:58:08.324+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^meta.tag = $v3-ObservationValue#SUBSETTED "Resource encoded in summary mode"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.2.23"
-* ^version = "20250328120000"
+* ^version = "20260330120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-03-28T12:00:00+01:00"
+* ^date = "2026-03-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
 * ^content = #not-present

@@ -1,8 +1,8 @@
 ValueSet: JDV_J225_CanalCommunication_ROR
 Id: JDV-J225-CanalCommunication-ROR
 Description: "Canal de communication"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2025-07-02T17:05:57.437+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2026-03-27T11:18:06.574+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,16 +10,16 @@ Description: "Canal de communication"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J225-CanalCommunication-ROR/FHIR/JDV-J225-CanalCommunication-ROR"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.4.57"
-* ^version = "20220826120000"
+* ^version = "20260330120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2022-08-26T12:00:00+01:00"
+* ^date = "2026-03-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R200-CanalCommunication#1 "Téléphone mobile"
 * $TRE-R200-CanalCommunication#2 "Téléphone fixe"
 * $TRE-R200-CanalCommunication#3 "Courrier électronique"
-* $TRE-R200-CanalCommunication#4 "Adresse web"
+* $TRE-R200-CanalCommunication#4 "Site web"
 * $TRE-R200-CanalCommunication#5 "Transfert de fichiers"
 * $TRE-R200-CanalCommunication#6 "Télécopie"
 * $TRE-R200-CanalCommunication#7 "Réseau radio numérique ANTARES"

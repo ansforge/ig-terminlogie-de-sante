@@ -1,8 +1,8 @@
 ValueSet: JDV_J226_ModaliteAccueil_ROR
 Id: JDV-J226-ModaliteAccueil-ROR
 Description: "Modalité d'accueil"
-* ^meta.versionId = "15"
-* ^meta.lastUpdated = "2025-12-18T16:47:46.551+01:00"
+* ^meta.versionId = "16"
+* ^meta.lastUpdated = "2026-03-27T11:18:07.107+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,10 +10,10 @@ Description: "Modalité d'accueil"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J226-ModaliteAccueil-ROR/FHIR/JDV-J226-ModaliteAccueil-ROR"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.4.58"
-* ^version = "20251222120000"
+* ^version = "20260330120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-12-22T12:00:00+01:00"
+* ^date = "2026-03-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R338-ModaliteAccueil#01 "Accueil séquentiel accepté"
@@ -33,7 +33,7 @@ Description: "Modalité d'accueil"
 * $TRE-R338-ModaliteAccueil#15 "Consultation dans des locaux dédiés - personnes en situation de handicap (PH)"
 * $TRE-R338-ModaliteAccueil#16 "Consultation sans locaux dédiés - personnes en situation de handicap (PH)"
 * $TRE-R338-ModaliteAccueil#17 "HandiBloc"
-* $TRE-R338-ModaliteAccueil#18 "Intra-hospitalier"
+* $TRE-R338-ModaliteAccueil#18 "Intra-hospitalier (dont équipe de liaison)"
 * $TRE-R338-ModaliteAccueil#19 "Extra-hospitalier"
 * $TRE-R338-ModaliteAccueil#20 "Accueil en unité protégée"
 * $TRE-R338-ModaliteAccueil#21 "Accueil saisonnier possible"

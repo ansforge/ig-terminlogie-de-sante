@@ -1,29 +1,34 @@
 CodeSystem: TRE_R200_CanalCommunication
 Id: TRE-R200-CanalCommunication
 Description: "Canal de communication"
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2025-07-02T18:13:42.108+00:00"
+* ^meta.versionId = "6"
+* ^meta.lastUpdated = "2026-03-27T11:13:04.547+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2016-02-04T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R200-CanalCommunication/FHIR/TRE-R200-CanalCommunication"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.1"
-* ^version = "20231215120000"
+* ^version = "20260330120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2023-12-15T12:00:00+01:00"
+* ^date = "2026-03-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
+* ^count = 9
 * ^property[0].code = #dateValid
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateMaj
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj"
 * ^property[=].description = "Date de mise à jour d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateFin
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin"
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #deprecationDate
@@ -71,7 +76,7 @@ Description: "Canal de communication"
 * #3 ^property[=].valueDateTime = "2015-03-25T00:00:00+01:00"
 * #3 ^property[+].code = #status
 * #3 ^property[=].valueCode = #active
-* #4 "Uniform Resource Location"
+* #4 "Site web"
 * #4 ^designation[0].language = #fr-FR
 * #4 ^designation[=].use.system = "http://snomed.info/sct"
 * #4 ^designation[=].use = $sct#900000000000013009
@@ -82,7 +87,7 @@ Description: "Canal de communication"
 * #4 ^property[0].code = #dateValid
 * #4 ^property[=].valueDateTime = "2015-03-25T00:00:00+01:00"
 * #4 ^property[+].code = #dateMaj
-* #4 ^property[=].valueDateTime = "2015-03-25T00:00:00+01:00"
+* #4 ^property[=].valueDateTime = "2026-03-30T00:00:00+01:00"
 * #4 ^property[+].code = #status
 * #4 ^property[=].valueCode = #active
 * #5 "Transfert de fichiers"

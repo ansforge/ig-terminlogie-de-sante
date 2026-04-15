@@ -1,8 +1,8 @@
 ValueSet: JDV_J35_SpecialisationDePriseEnCharge_ROR
 Id: JDV-J35-SpecialisationDePriseEnCharge-ROR
 Description: "Spécialisation de prise en charge - ROR"
-* ^meta.versionId = "10"
-* ^meta.lastUpdated = "2025-07-02T17:06:28.929+00:00"
+* ^meta.versionId = "11"
+* ^meta.lastUpdated = "2026-03-27T11:18:10.202+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,10 +10,10 @@ Description: "Spécialisation de prise en charge - ROR"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J35-SpecialisationDePriseEnCharge-ROR/FHIR/JDV-J35-SpecialisationDePriseEnCharge-ROR"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.42"
-* ^version = "20250425120000"
+* ^version = "20260330120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-04-25T12:00:00+01:00"
+* ^date = "2026-03-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R245-SpecialisationDePriseEnCharge#01 "Troubles des conduites alimentaires (TCA)"
@@ -81,4 +81,4 @@ Description: "Spécialisation de prise en charge - ROR"
 * $TRE-R245-SpecialisationDePriseEnCharge#65 "Troubles anxieux"
 * $TRE-R245-SpecialisationDePriseEnCharge#66 "Troubles du neurodéveloppement à prédominance motrice (dont Trouble Développemental de la Coordination TDC, dyspraxie, mouvements stéréotypés, tics)"
 * $TRE-R245-SpecialisationDePriseEnCharge#67 "Trouble psychotraumatique (dont Troubles Stress Post-Traumatique)"
-* $TRE-R211-ActiviteOperationnelle#068 "Troubles cognitifs ou du comportement et de la relation affective dus à une lésion cérébrale acquise"
+* $TRE-R245-SpecialisationDePriseEnCharge#68 "Troubles cognitifs ou du comportement et de la relation affective dus à une lésion cérébrale acquise"
