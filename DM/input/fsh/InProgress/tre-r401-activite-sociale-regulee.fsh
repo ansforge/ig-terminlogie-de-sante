@@ -1,7 +1,7 @@
 CodeSystem: TreR401ActiviteSocialeRegulee
 Id: tre-r401-activite-sociale-regulee
 Title: "Tre R401 Activite Sociale Regulee"
-* description = """
+Description = """
 Cette TRE hiérarchique remplace les éléments suivants :
 TRE_R280-DisciplineEquipementSocial, TRE_R298-AgregatDisciplineEquipSocNiv1, TRE_R299-AgregatDisciplineEquipSocNiv2, TRE_R300-AgregatDisciplineEquipSocNiv3 et ASS_X14_AgregatDisciplineEquipementSocial.
 
