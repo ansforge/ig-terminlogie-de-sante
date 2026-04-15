@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies | *Version*:1.8.0 |
-| Active as of 2026-04-13 | *Computable Name*:Terminologies |
+| Active as of 2026-04-15 | *Computable Name*:Terminologies |
 
 Dans ce guide, nous retrouvons l’ensemble des terminologies de santé et jeux de valeurs plubliés par l’ANS :
 
@@ -216,7 +216,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-04-13T09:21:18+00:00",
+  "date" : "2026-04-15T12:54:49+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -37156,7 +37156,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
         "reference" : "CodeSystem/tre-r401-activite-sociale-regulee"
       },
       "name" : "Tre R401 Activite Sociale Regulee",
-      "description" : "Cette TRE hiérarchique remplace les TRE_R280-DisciplineEquipementSocial, TRE_R298-AgregatDisciplineEquipSocNiv1, TRE_R299-AgregatDisciplineEquipSocNiv2, TRE_R300-AgregatDisciplineEquipSocNiv3 et l'ASS_X14_AgregatDisciplineEquipementSocial. Cette TRE possède des propriétés spécifiques : le niveau d'agrégat desASOCR de 1 à 4 (du plus large au plus fin), le parent d'un agrégat d'ASOCR ou d'une ASOCR ainsi que les relations nécessaires à la construction des JDV dynamiques associés",
+      "description" : "Cette TRE hiérarchique remplace les éléments suivants :\nTRE_R280-DisciplineEquipementSocial, TRE_R298-AgregatDisciplineEquipSocNiv1, TRE_R299-AgregatDisciplineEquipSocNiv2, TRE_R300-AgregatDisciplineEquipSocNiv3 et ASS_X14_AgregatDisciplineEquipementSocial.\n\nCette TRE possède des propriétés spécifiques :\n\n1. Le niveau d'agrégat des ASOCR de 1 à 4 (du plus large au plus fin)\n2. Le parent d'un agrégat d'ASOCR ou d'une ASOCR\n3. Les relations nécessaires à la construction des JDV dynamiques associés",
       "exampleBoolean" : false
     },
     {
