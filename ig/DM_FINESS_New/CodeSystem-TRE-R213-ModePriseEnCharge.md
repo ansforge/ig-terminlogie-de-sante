@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R213-ModePriseEnCharge/FHIR/TRE-R213-ModePriseEnCharge | *Version*:20251222120000 | |
-| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R213_ModePriseEnCharge |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R213-ModePriseEnCharge/FHIR/TRE-R213-ModePriseEnCharge | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R213_ModePriseEnCharge |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.13 | | |
 
  
@@ -32,10 +32,11 @@ Mode de la prise en charge
   "resourceType" : "CodeSystem",
   "id" : "TRE-R213-ModePriseEnCharge",
   "meta" : {
-    "versionId" : "11",
-    "lastUpdated" : "2025-12-22T10:46:42.186+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
+    "versionId" : "12",
+    "lastUpdated" : "2026-03-27T11:13:07.001+01:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
+  "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
@@ -47,11 +48,11 @@ Mode de la prise en charge
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.13"
   }],
-  "version" : "20251222120000",
+  "version" : "20260330120000",
   "name" : "TRE_R213_ModePriseEnCharge",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-22T12:00:00+01:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Mode de la prise en charge",
   "jurisdiction" : [{
@@ -1451,15 +1452,23 @@ Mode de la prise en charge
   },
   {
     "code" : "58",
-    "display" : "Coordination de parcours",
+    "display" : "Suivi ou coordination de parcours",
     "definition" : "La coordination de parcours est un mode de prise en charge correspondant à l'appui à l'organisation des parcours complexes ou des parcours spécifiques à certaines pathologies.  Elle a pour objectif d'améliorer la fluidité des échanges entre les différents acteurs.",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Suivi ou coord. de parcours"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2021-03-26T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2021-06-25T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",

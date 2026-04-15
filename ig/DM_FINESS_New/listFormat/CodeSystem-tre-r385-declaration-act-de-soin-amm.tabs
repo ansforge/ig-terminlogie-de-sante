@@ -1,5 +1,5 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MAJ>
-1.2.250.1.213.1.6.1.300;TRE;TreR385DeclarationActDeSoinAmm.tabs;Nomenclature des déclarations pour les activités de soin AMM;;19000101000000;;20241230120000
+1.2.250.1.213.1.6.1.300;TRE;TreR385DeclarationActDeSoinAmm.tabs;Nomenclature des déclarations pour les activités de soin AMM;;19000101000000;;20260330120000
 <OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MAJ> 
 1.2.250.1.213.1.6.1.300;DE000;Pas de déclaration;Pas de déclaration;Pas de déclaration;19000101000000;;19000101000000
 1.2.250.1.213.1.6.1.300;DE001;B1 : Actes diagnostiques ou thérapeutiques réalisés par l’administration de mrp préparé en système ouvert;B1 : Actes diagnostiques ou thérapeutiques réalisés par l’administration de mrp préparé en système ouvert;B1 : Actes diagnostiques ou thérapeutiques réalisés par l’administration de mrp préparé en système ouvert;19000101000000;;19000101000000

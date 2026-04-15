@@ -13,17 +13,15 @@ Vous touverez ici la liste des JDV du NOS.
 | Name | Description | date_maj |
 | [JdvJ240ActiviteSanitaireDiverseReguleeFiness](ValueSet-jdv-j240-activite-sanitaire-diverse-regulee-finess.md) | Jeu de valeurs FINESS contenant les activités sanitaires, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR) | 10/07/2025 |
 | [JdvJ287TypeAutoriteRegulationFiness](ValueSet-jdv-j287-type-autorite-regulation-finess.md) | Jeu de valeurs FINESS contenant les types d'autorité de régulation pour Finess | 26/08/2025 |
-| [JdvJ289TypeGroupeGcoFiness](ValueSet-jdv-j289-type-groupe-gco-finess.md) | Jeu de valeurs Finess contenant les types de Groupement de Coopération Organique (GCO). | 11/07/2025 |
 | [JdvJ293TypeEngagementFiness](ValueSet-jdv-j293-type-engagement-finess.md) | Jeu de valeurs FINESS contenant les grands types d'engagement pouvant être associés dans FINESS+ à des structures ou des activités. | 19/06/2025 |
 | [JdvJ294DocumentJustificatifFiness](ValueSet-jdv-j294-document-justificatif-finess.md) | Jeu de valeurs FINESS contenant les types de documents justificatifs pouvant être associés à une entité FINESS | 22/02/2025 |
 | [JdvJ295DocumentInformatifFiness](ValueSet-jdv-j295-document-informatif-finess.md) | Jeu de valeurs FINESS contenant les types de documents informatifs pouvant être associés à une entité FINESS | 22/02/2025 |
-| [JdvJ296TypeRoleEntiteGroupeFiness](ValueSet-jdv-j296-type-role-entite-groupe-finess.md) | Jeu de valeurs FINESS contenant les types de rôles que peuvent exercer des entités participants à des groupements | 11/06/2025 |
 | [JdvJ297TypeEvenementAdministratifFiness](ValueSet-jdv-j297-type-evenement-administratif-finess.md) | Jeu de valeurs FINESS contenant les événements affectant le cycle de vie des entités et activités enrgeistrées dans FINESS+ | 11/06/2025 |
 | [JdvJ298MacroEtatObjetAdministratifFiness](ValueSet-jdv-j298-macro-etat-objet-administratif-finess.md) | Jeu de valeurs FINESS contenant les macro-etat des structures FINESS qui dérivent de l'état de l'objet. Permet de distinguer les structures actives de celles inactives. | 22/02/2025 |
 | [JdvJ299SystemeInformationFiness](ValueSet-jdv-j299-systeme-information-finess.md) | Jeu de valeurs FINESS contenant les systemes d'information en relation avec FINESS | 11/06/2025 |
+| [JdvJ289TypeGroupeGcoFiness](ValueSet-jdv-j289-type-groupe-gco-finess.md) | Jeu de valeurs Finess contenant les types de Groupement de Coopération Organique (GCO). | 30/03/2026 |
+| [JdvJ296TypeRoleEntiteGroupeFiness](ValueSet-jdv-j296-type-role-entite-groupe-finess.md) | Jeu de valeurs FINESS contenant les types de rôles que peuvent exercer des entités participants à des groupements | 30/03/2026 |
 | [JdvJ300TypeObjetFiness](ValueSet-jdv-j300-type-objet-finess.md) | Jeu de valeurs FINESS contenant les types d'objet enregistrés et manipulés dans FINESS+. | 22/02/2025 |
-| [JdvJ305TypeGroupementFiness](ValueSet-jdv-j305-type-groupement-finess.md) | Jeu de valeurs FINESS contenant les types de groupement utilisables dans FINESS. Groupement de coopération conventionnelle ou Groupement de coopération organique | 11/06/2025 |
-| [JdvJ306TypeGroupeGccFiness](ValueSet-jdv-j306-type-groupe-gcc-finess.md) | Jeu de valeurs FINESS contenant les types de Groupement de Coopération conventionnelle (GCC). | 11/07/2025 |
 | [JdvJ313UsageAdresseFiness](ValueSet-jdv-j313-usage-adresse-finess.md) | Jeu de valeurs FINESS contenant les usages des adresses associées aux entités enregistrés dans FINESS+ | 11/06/2025 |
 | [JdvJ314EngagementFiness](ValueSet-jdv-j314-engagement-finess.md) | Jeu de valeurs FINESS contenant les engagements, de tous les types d'engagement confondus, pouvant être associés dans FINESS+ à des structures ou des activités. | 19/06/2025 |
 | [JdvJ322TypeActEnseignementReguleeFiness](ValueSet-jdv-j322-type-act-enseignement-regulee-finess.md) | Jeu de valeurs FINESS reprenant les types d'activité d'enseignement régulée | 03/06/2025 |
@@ -51,15 +49,14 @@ Vous touverez ici la liste des JDV du NOS.
 | [JdvJ368CategorieEtablissementCisis](ValueSet-jdv-j368-categorie-etablissement-cisis.md) | JDV CISIS à l'image de la terminologie TreR397CategorieEntiteGeographiqueExercice | 22/12/2025 |
 | [JdvJ371EtatObjetAdministratifFiness](ValueSet-jdv-j371-etat-objet-administratif-finess.md) | Jeu de valeurs FINESS contenant les états élémentaires que peuvent porter les entités et activités FINESS+ | 22/02/2025 |
 | [JdvJ372ConventionRass](ValueSet-jdv-j372-convention-rass.md) | Liste des engagements de type Convention pour le RASS | 22/08/2025 |
-| [JdvJ373TypeAutorite](ValueSet-jdv-j373-type-autorite.md) | Jeu de valeurs contenant les différents types d'autorité (actifs ou inactifs) | 26/08/2025 |
-| [JdvJ374Autorite](ValueSet-jdv-j374-autorite.md) | Jeu de valeurs contenant la liste des autorités quelque soit la catégorie d'autorité et quelque soir l'état de l'autorité active ou inactive) | 26/08/2025 |
-| [JdvJ375AutoriteOrdre](ValueSet-jdv-j375-autorite-ordre.md) | Jeu de valeurs comportant uniquement les autorités de type Ordre. | 26/08/2025 |
 | [JdvJ378RegionOmFiness](ValueSet-jdv-j378-region-om-finess.md) | Liste des régions administratives couvertes par le périmètre géographique de FINESS | 22/12/2025 |
 | [JdvJ388ModeFonctionnementActiviteSmsseReguleeRass](ValueSet-jdv-j388-mode-fonctionnement-activite-smsse-regulee-rass.md) | Ce JDV remplace le JDV_J138_TypeActivite_RASS | 23/02/2026 |
 | [JdvJ301FinessStatutJuridiqueNiv1Finess](ValueSet-jdv-j301-finess-statut-juridique-niv1-finess.md) | Ce JDV contient les agrégats Niv1 des statust juridiques (JDV créé à l'image de l'ancienne TRE_R70-FinessAgregatStatutJuridique) | 23/02/2026 |
 | [JdvJ302FinessStatutJuridiqueNiv2Finess](ValueSet-jdv-j302-finess-statut-juridique-niv2-finess.md) | Ce JDV contient les agrégats Niv2 des statuts juridiques (JDV créé à l'image de l'ancienne TRE_R68-FinessAgregatStatutJuridiqueNiv1) | 23/02/2026 |
 | [JdvJ303FinessStatutJuridiqueNiv3Finess](ValueSet-jdv-j303-finess-statut-juridique-niv3-finess.md) | Ce JDV contient les agrégats Niv3 des statuts juridiques (JDV créé à l'image de l'ancienne TRE_R69-FinessAgregatStatutJuridiqueNiv2) | 23/02/2026 |
 | [JdvJ304FinessStatutJuridiqueFiness](ValueSet-jdv-j304-finess-statut-juridique-finess.md) | Ce JDV comporte tous les status juridiques hors agrégat (JDV créé à l'image de l'ancienne TRE_R72-FinessStatutJuridique) | 23/02/2026 |
+| [JdvJ305TypeGroupementFiness](ValueSet-jdv-j305-type-groupement-finess.md) | Jeu de valeurs FINESS contenant les types de groupement utilisables dans FINESS. Groupement de coopération conventionnelle ou Groupement de coopération organique | 30/03/2026 |
+| [JdvJ306TypeGroupeGccFiness](ValueSet-jdv-j306-type-groupe-gcc-finess.md) | Jeu de valeurs FINESS contenant les types de Groupement de Coopération conventionnelle (GCC). | 30/03/2026 |
 | [JdvJ307CategorieEntiteGeographiqueExerciceNiv1Finess](ValueSet-jdv-j307-categorie-entite-geographique-exercice-niv1-finess.md) | Ce JDV contient tous les agrégats Niv1 d'EGE (JDV créé à l'image de l'ancienne TRE_R65-AgregatCategorieEtablissement) | 23/02/2026 |
 | [JdvJ308CategorieEntiteGeographiqueExerciceNiv2Finess](ValueSet-jdv-j308-categorie-entite-geographique-exercice-niv2-finess.md) | Ce JDV contient tous les agrégats Niv 2 d'EGE (JDV crée à l'image de l'ancienneTRE_R63-AgregatCategorieEtablissementNiv1) | 23/02/2026 |
 | [JdvJ309CategorieEntiteGeographiqueExerciceNiv3Finess](ValueSet-jdv-j309-categorie-entite-geographique-exercice-niv3-finess.md) | Ce JDV contient tous les agrégats Niv3 d'EGE (JDV créé à l'image de l'ancienneTRE_R64-AgregatCategorieEtablissementNiv2) | 23/02/2026 |
@@ -78,6 +75,9 @@ Vous touverez ici la liste des JDV du NOS.
 | [JdvJ366StatutBilanProjetPersonnaliseMs](ValueSet-jdv-j366-statut-bilan-projet-personnalise-ms.md) | Statut du bilan du projet personnalisé. | 15/04/2025 |
 | [JdvJ367TypeProjetPersonnaliseMs](ValueSet-jdv-j367-type-projet-personnalise-ms.md) | Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l'usager, son entourage familial et professionnel du médico-social. | 15/04/2025 |
 | [JdvJ370TypeContratSejourMs](ValueSet-jdv-j370-type-contrat-sejour-ms.md) | Type de contrat conclu entre l’établissement/service et la personne/son représentant légal. | 21/05/2025 |
+| [JdvJ373TypeAutorite](ValueSet-jdv-j373-type-autorite.md) | Jeu de valeurs contenant les différents types d'autorité (actifs ou inactifs) | 30/03/2026 |
+| [JdvJ374Autorite](ValueSet-jdv-j374-autorite.md) | Jeu de valeurs contenant la liste des autorités quelque soit la catégorie d'autorité et quelque soir l'état de l'autorité active ou inactive) | 30/03/2026 |
+| [JdvJ375AutoriteOrdre](ValueSet-jdv-j375-autorite-ordre.md) | Jeu de valeurs comportant uniquement les autorités de type Ordre. | 30/03/2026 |
 | [JdvJ376PublicActiviteSmsseReguleeRass](ValueSet-jdv-j376-public-activite-smsse-regulee-rass.md) | Ce JDV remplace le JDV_J137_Clientele_RASS | 23/02/2026 |
 | [JdvJ377CategorieEntiteGeographiqueExerciceRor](ValueSet-jdv-j377-categorie-entite-geographique-exercice-ror.md) | Ce JDV remplace le JDV_J55_CategorieEG_ROR | 23/02/2026 |
 | [JdvJ379ActiviteSocialeReguleeRass](ValueSet-jdv-j379-activite-sociale-regulee-rass.md) | Ce JDV remplace le JDV_J136_DisciplineEquipementSocial_RASS | 23/02/2026 |
@@ -87,11 +87,11 @@ Vous touverez ici la liste des JDV du NOS.
 | [JdvJ385CompositionFoyerMs](ValueSet-jdv-j385-composition-foyer-ms.md) | Désigne avec qui vit l’usager dans son logement. | 02/02/2026 |
 | [JdvJ386TypeEnseignementSpecialiseMs](ValueSet-jdv-j386-type-enseignement-specialise-ms.md) | Type d'enseignement spécialisé. | 02/02/2026 |
 | [JdvJ387RoleParticipantMs](ValueSet-jdv-j387-role-participant-ms.md) | Rôle du participant vis à vis de l'événement (mandataire judiciaire, structure en charge de l'événement). | 02/02/2026 |
-| [JDV_J01_XdsAuthorSpecialty_CISIS](ValueSet-JDV-J01-XdsAuthorSpecialty-CISIS.md) | XDS authorSpecialty CI-SIS | 02/02/2026 |
+| [JDV_J01_XdsAuthorSpecialty_CISIS](ValueSet-JDV-J01-XdsAuthorSpecialty-CISIS.md) | XDS authorSpecialty CI-SIS | 30/03/2026 |
 | [JDV_J02_XdsHealthcareFacilityTypeCode_CISIS](ValueSet-JDV-J02-XdsHealthcareFacilityTypeCode-CISIS.md) | XDS healthcareFacilityTypeCode CI-SIS | 23/02/2026 |
 | [JDV_J03_XdsContentTypeCode_CISIS](ValueSet-JDV-J03-XdsContentTypeCode-CISIS.md) | XDS contentTypeCode CI-SIS | 22/12/2025 |
 | [JDV_J04_XdsPracticeSettingCode_CISIS](ValueSet-JDV-J04-XdsPracticeSettingCode-CISIS.md) | XDS practiceSettingCode CI-SIS | 27/09/2024 |
-| [JDV_J05_SubjectRole_CISIS](ValueSet-JDV-J05-SubjectRole-CISIS.md) | subjectRole CI-SIS | 23/02/2026 |
+| [JDV_J05_SubjectRole_CISIS](ValueSet-JDV-J05-SubjectRole-CISIS.md) | subjectRole CI-SIS | 30/03/2026 |
 | [JDV_J06_XdsClassCode_CISIS](ValueSet-JDV-J06-XdsClassCode-CISIS.md) | XDS classCode CI-SIS | 22/09/2023 |
 | [JDV_J07_XdsTypeCode_CISIS](ValueSet-JDV-J07-XdsTypeCode-CISIS.md) | XDS typeCode CI-SIS | 02/02/2026 |
 | [JDV_J08_XdsConfidentialityCode_CISIS](ValueSet-JDV-J08-XdsConfidentialityCode-CISIS.md) | XDS confidentialityCode - CI-SIS | 24/04/2020 |
@@ -100,11 +100,11 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J13_ResponsableConsent_CISIS](ValueSet-JDV-J13-ResponsableConsent-CISIS.md) | Responsable consentement - CI-SIS | 24/04/2020 |
 | [JDV_J14_QualiteRepresentantLegal_CISIS](ValueSet-JDV-J14-QualiteRepresentantLegal-CISIS.md) | Qualité représentant légal - CI-SIS | 13/12/2024 |
 | [JDV_J15_ClasseAge_ROR](ValueSet-JDV-J15-ClasseAge-ROR.md) | Classe d'âge - ROR | 24/04/2020 |
-| [JDV_J16_ActeSpecifique_ROR](ValueSet-JDV-J16-ActeSpecifique-ROR.md) | Acte spécifique - ROR | 22/12/2025 |
-| [JDV_J17_ActiviteOperationnelle_ROR](ValueSet-JDV-J17-ActiviteOperationnelle-ROR.md) | Activité Operationnelle - ROR | 22/12/2025 |
+| [JDV_J16_ActeSpecifique_ROR](ValueSet-JDV-J16-ActeSpecifique-ROR.md) | Acte spécifique - ROR | 30/03/2026 |
+| [JDV_J17_ActiviteOperationnelle_ROR](ValueSet-JDV-J17-ActiviteOperationnelle-ROR.md) | Activité Operationnelle - ROR | 30/03/2026 |
 | [JDV_J18_EquipementSpecifique_ROR](ValueSet-JDV-J18-EquipementSpecifique-ROR.md) | Equipement spécifique - ROR | 22/12/2025 |
-| [JDV_J19_ModePriseEnCharge_ROR](ValueSet-JDV-J19-ModePriseEnCharge-ROR.md) | Mode de la prise en charge - ROR | 22/12/2025 |
-| [JDV_J20_ChampActivite_ROR](ValueSet-JDV-J20-ChampActivite-ROR.md) | Champ d'activité - ROR | 30/10/2023 |
+| [JDV_J19_ModePriseEnCharge_ROR](ValueSet-JDV-J19-ModePriseEnCharge-ROR.md) | Mode de la prise en charge - ROR | 30/03/2026 |
+| [JDV_J20_ChampActivite_ROR](ValueSet-JDV-J20-ChampActivite-ROR.md) | Champ d'activité - ROR | 30/03/2026 |
 | [JDV_J21_PalierAuthentificationActeurPP](ValueSet-JDV-J21-PalierAuthentificationActeurPP.md) | Palier du référentiel PGSSI-S d'authentification des professionnels | 24/04/2020 |
 | [JDV_J22_RestrictionAudienceVIHF_CISIS](ValueSet-JDV-J22-RestrictionAudienceVIHF-CISIS.md) | Restriction d'audience pour les traces des VIHF | 24/04/2020 |
 | [JDV_J23_TypeNoteCahierLiaison_CISIS](ValueSet-JDV-J23-TypeNoteCahierLiaison-CISIS.md) | Type de note du cahier de liaison - CI-SIS | 24/04/2020 |
@@ -112,13 +112,13 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J26_ModeGestion_ROR](ValueSet-JDV-J26-ModeGestion-ROR.md) | Mode gestion - ROR | 24/04/2020 |
 | [JDV_J27_GroupeTarifaireDependance_ROR](ValueSet-JDV-J27-GroupeTarifaireDependance-ROR.md) | Niveau de dépendance associé à un tarif d'un ESMS - ROR | 26/01/2024 |
 | [JDV_J28_OuvertureAnnuelle_ROR](ValueSet-JDV-J28-OuvertureAnnuelle-ROR.md) | Ouverture annuelle - ROR | 24/04/2020 |
-| [JDV_J29_PublicPrisEnCharge_ROR](ValueSet-JDV-J29-PublicPrisEnCharge-ROR.md) | Public pris en charge - ROR | 28/03/2025 |
+| [JDV_J29_PublicPrisEnCharge_ROR](ValueSet-JDV-J29-PublicPrisEnCharge-ROR.md) | Public pris en charge - ROR | 30/03/2026 |
 | [JDV_J30_TemporaliteAccueil_ROR](ValueSet-JDV-J30-TemporaliteAccueil-ROR.md) | Temporalité accueil - ROR | 24/04/2020 |
 | [JDV_J31_AideFinanciere_ROR](ValueSet-JDV-J31-AideFinanciere-ROR.md) | Jeu de valeur de la nomenclature des aides financières - ROR | 24/04/2020 |
 | [JDV_J32_TypeHabitation_ROR](ValueSet-JDV-J32-TypeHabitation-ROR.md) | Type habitation - ROR | 24/04/2020 |
-| [JDV_J33_CompetenceSpecifique_ROR](ValueSet-JDV-J33-CompetenceSpecifique-ROR.md) | Compétence spécifique - ROR | 26/04/2024 |
-| [JDV_J34_CategorieOrganisation_ROR](ValueSet-JDV-J34-CategorieOrganisation-ROR.md) | Catégorie d'organisation - ROR | 23/02/2026 |
-| [JDV_J35_SpecialisationDePriseEnCharge_ROR](ValueSet-JDV-J35-SpecialisationDePriseEnCharge-ROR.md) | Spécialisation de prise en charge - ROR | 25/04/2025 |
+| [JDV_J33_CompetenceSpecifique_ROR](ValueSet-JDV-J33-CompetenceSpecifique-ROR.md) | Compétence spécifique - ROR | 30/03/2026 |
+| [JDV_J34_CategorieOrganisation_ROR](ValueSet-JDV-J34-CategorieOrganisation-ROR.md) | Catégorie d'organisation - ROR | 30/03/2026 |
+| [JDV_J35_SpecialisationDePriseEnCharge_ROR](ValueSet-JDV-J35-SpecialisationDePriseEnCharge-ROR.md) | Spécialisation de prise en charge - ROR | 30/03/2026 |
 | [JDV_J36_TypeTarif_ROR](ValueSet-JDV-J36-TypeTarif-ROR.md) | Type tarif - ROR | 30/06/2023 |
 | [JDV_J37_UcumUniteTemps](ValueSet-JDV-J37-UcumUniteTemps.md) | UCUM - Unité de temps | 27/09/2024 |
 | [JDV_J38_ModeAcces_CISIS](ValueSet-JDV-J38-ModeAcces-CISIS.md) | Mode d'accès pour accéder à un SI santé avec données patients - CI-SIS | 13/12/2024 |
@@ -174,9 +174,9 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J103_TypeVoie_RASS](ValueSet-JDV-J103-TypeVoie-RASS.md) | Type de voie du professionnel du RASS | 24/04/2020 |
 | [JDV_J104_TypeIdentifiantStructure_RASS](ValueSet-JDV-J104-TypeIdentifiantStructure-RASS.md) | Type d'identifiant national de structure dans le RASS | 24/04/2020 |
 | [JDV_J105_EnsembleDiplome_RASS](ValueSet-JDV-J105-EnsembleDiplome-RASS.md) | Ensemble des diplômes et qualifications du RASS | 23/02/2026 |
-| [JDV_J106_EnsembleProfession_RASS](ValueSet-JDV-J106-EnsembleProfession-RASS.md) | Ensemble des professions du RASS | 28/03/2025 |
+| [JDV_J106_EnsembleProfession_RASS](ValueSet-JDV-J106-EnsembleProfession-RASS.md) | Ensemble des professions du RASS | 30/03/2026 |
 | [JDV_J107_EnsembleSavoirFaire_RASS](ValueSet-JDV-J107-EnsembleSavoirFaire-RASS.md) | Ensemble des savoir-faire et compétences du RASS | 22/12/2025 |
-| [JDV_J108_EnsembleFonction_RASS](ValueSet-JDV-J108-EnsembleFonction-RASS.md) | Ensemble des fonctions et rôles du RASS | 02/02/2026 |
+| [JDV_J108_EnsembleFonction_RASS](ValueSet-JDV-J108-EnsembleFonction-RASS.md) | Ensemble des fonctions et rôles du RASS | 30/03/2026 |
 | [JDV_J110_StatutVisibiliteDocument_CISIS](ValueSet-JDV-J110-StatutVisibiliteDocument-CISIS.md) | Restriction d'audience applicable aux objets référencés liste - CISIS | 24/04/2020 |
 | [JDV_J111_StatutEtatCivil_ENREG](ValueSet-JDV-J111-StatutEtatCivil-ENREG.md) | Statut de l'état civil pour ENREG | 31/01/2025 |
 | [JDV_J112_SexeAdministratif_ENREG](ValueSet-JDV-J112-SexeAdministratif-ENREG.md) | Sexe administratif pour ENREG | 29/05/2020 |
@@ -187,7 +187,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J118_CategorieProfessionnelle_ENREG](ValueSet-JDV-J118-CategorieProfessionnelle-ENREG.md) | Catégorie professionnelle pour ENREG | 23/02/2026 |
 | [JDV_J119_TypeActiviteLiberale_ENREG](ValueSet-JDV-J119-TypeActiviteLiberale-ENREG.md) | Type d'activité libérale pour ENREG | 29/05/2020 |
 | [JDV_J120_CommuneHistorisee](ValueSet-JDV-J120-CommuneHistorisee.md) | Toute la nomenclature des codes communes auquel on ajoute le code applicatif "Non renseigné" | 28/06/2024 |
-| [JDV_J121_RolePriseCharge_ENREG](ValueSet-JDV-J121-RolePriseCharge-ENREG.md) | Code des rôles et fonctions pour l'application ENREG | 02/02/2026 |
+| [JDV_J121_RolePriseCharge_ENREG](ValueSet-JDV-J121-RolePriseCharge-ENREG.md) | Code des rôles et fonctions pour l'application ENREG | 30/03/2026 |
 | [JDV_J122_Profession_ENREG](ValueSet-JDV-J122-Profession-ENREG.md) | Liste des professions autorisées dans ENREG Cette liste ne doit contenir qu'une professions définie comme profession par défaut pour les professionnels caractérisés par leur rôle. | 24/11/2023 |
 | [JDV_J124_Commune](ValueSet-JDV-J124-Commune.md) | Toute la nomenclature des codes actuels communes auquel on ajoute le code applicatif "Non renseigné" | 28/06/2024 |
 | [JDV_J125_MotifRejet_ENREG](ValueSet-JDV-J125-MotifRejet-ENREG.md) | Code des motifs de refus d'une demande d'enregistrement pour l'application ENREG | 27/11/2020 |
@@ -263,7 +263,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J207_Civilite_ROR](ValueSet-JDV-J207-Civilite-ROR.md) | Civilité | 26/08/2022 |
 | [JDV_J208_CiviliteExercice_ROR](ValueSet-JDV-J208-CiviliteExercice-ROR.md) | Civilité d'exercice | 26/08/2022 |
 | [JDV_J209_TypeSavoirFaire_ROR](ValueSet-JDV-J209-TypeSavoirFaire-ROR.md) | Type de savoir-faire | 16/10/2025 |
-| [JDV_J210_SpecialiteOrdinale_ROR](ValueSet-JDV-J210-SpecialiteOrdinale-ROR.md) | Spécialité ordinale | 30/10/2023 |
+| [JDV_J210_SpecialiteOrdinale_ROR](ValueSet-JDV-J210-SpecialiteOrdinale-ROR.md) | Spécialité ordinale | 30/03/2026 |
 | [JDV_J211_CompetenceExclusive_ROR](ValueSet-JDV-J211-CompetenceExclusive-ROR.md) | Compétence exclusive | 26/08/2022 |
 | [JDV_J212_OrientationParticuliere_ROR](ValueSet-JDV-J212-OrientationParticuliere-ROR.md) | Orientation particulière | 26/08/2022 |
 | [JDV_J213_CapaciteSavoirFaire_ROR](ValueSet-JDV-J213-CapaciteSavoirFaire-ROR.md) | Capacité (savoir-faire) | 26/08/2022 |
@@ -278,18 +278,18 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J222_NiveauConfidentialite_ROR](ValueSet-JDV-J222-NiveauConfidentialite-ROR.md) | Niveau de restriction d'accès | 26/08/2022 |
 | [JDV_J223_TypeDivisionTerritoriale_ROR](ValueSet-JDV-J223-TypeDivisionTerritoriale-ROR.md) | Type de division territoriale | 26/08/2022 |
 | [JDV_J224_StatutLieu_ROR](ValueSet-JDV-J224-StatutLieu-ROR.md) | Statut lieu | 26/08/2022 |
-| [JDV_J225_CanalCommunication_ROR](ValueSet-JDV-J225-CanalCommunication-ROR.md) | Canal de communication | 26/08/2022 |
-| [JDV_J226_ModaliteAccueil_ROR](ValueSet-JDV-J226-ModaliteAccueil-ROR.md) | Modalité d'accueil | 22/12/2025 |
+| [JDV_J225_CanalCommunication_ROR](ValueSet-JDV-J225-CanalCommunication-ROR.md) | Canal de communication | 30/03/2026 |
+| [JDV_J226_ModaliteAccueil_ROR](ValueSet-JDV-J226-ModaliteAccueil-ROR.md) | Modalité d'accueil | 30/03/2026 |
 | [JDV_J227_NiveauExpertise_ROR](ValueSet-JDV-J227-NiveauExpertise-ROR.md) | Niveau de ressources humaines et matérielles utiles pour la réalisation de l'offre | 22/12/2025 |
 | [JDV_J228_TypeCaracteristiqueEquipement_ROR](ValueSet-JDV-J228-TypeCaracteristiqueEquipement-ROR.md) | Type de caractéristique équipement | 26/08/2022 |
-| [JDV_J229_ProfessionSante_ROR](ValueSet-JDV-J229-ProfessionSante-ROR.md) | Type de caractéristique équipement | 26/08/2022 |
+| [JDV_J229_ProfessionSante_ROR](ValueSet-JDV-J229-ProfessionSante-ROR.md) | Type de caractéristique équipement | 30/03/2026 |
 | [JDV_J231_XdsTypesIdentifiantsReferenceId_DMP](ValueSet-JDV-J231-XdsTypesIdentifiantsReferenceId-DMP.md) | Types d'identifiants utilisés dans la métadonnée XDS referenceIdList de la fiche du document dans le cadre du DMP | 16/12/2022 |
 | [JDV_J232_Competence_ROR](ValueSet-JDV-J232-Competence-ROR.md) | Compétence | 28/06/2024 |
 | [JDV_J233_TypeDiplome_EPARS](ValueSet-JDV-J233-TypeDiplome-EPARS.md) | Jeu de valeur intégrant les types de diplômes pour EPARS | 25/04/2025 |
 | [JDV_J234_GenreActivite_EPARS](ValueSet-JDV-J234-GenreActivite-EPARS.md) | Genre d'activité pour EPARS | 30/09/2022 |
 | [JDV_J235_LieuFormation_EPARS](ValueSet-JDV-J235-LieuFormation-EPARS.md) | Lieu de formation pour EPARS | 26/07/2024 |
 | [JDV_J236_TypeIdentifiant_ROR](ValueSet-JDV-J236-TypeIdentifiant-ROR.md) | Types d'identifiants utilisés dans le ROR | 30/10/2023 |
-| [JDV_J238_TypeOffre_ROR](ValueSet-JDV-J238-TypeOffre-ROR.md) | Prestations que peut réaliser une structure et qui permettent de répondre au besoin de santé d'une personne | 23/02/2026 |
+| [JDV_J238_TypeOffre_ROR](ValueSet-JDV-J238-TypeOffre-ROR.md) | Prestations que peut réaliser une structure et qui permettent de répondre au besoin de santé d'une personne | 30/03/2026 |
 | [JDV_J239_SpecialitesSNP_SAS](ValueSet-JDV-J239-SpecialitesSNP-SAS.md) | Professions de santé participant au Service d'Accès aux Soins | 26/01/2024 |
 | [JDV_J241_ThematiqueAnomalie_ROR](ValueSet-JDV-J241-ThematiqueAnomalie-ROR.md) | Thématique caractérisant une anomalie de donnée ROR | 26/01/2024 |
 | [JDV_J242_ActionAnomalie_ROR](ValueSet-JDV-J242-ActionAnomalie-ROR.md) | Action attendue dans le cadre de la gestion d'une anomalie de donnée dans le ROR | 31/03/2023 |
@@ -323,27 +323,27 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J286_ProfilUtilisateurReferentielNational_ROR](ValueSet-JDV-J286-ProfilUtilisateurReferentielNational-ROR.md) | Profils utilisateurs du ROR National | 28/03/2025 |
 | [JDV_J369_MotifRestrictionDiffusion_ROR](ValueSet-JDV-J369-MotifRestrictionDiffusion-ROR.md) | Nomenclature contenant les motifs de restriction de diffusion | 25/04/2025 |
 | [VsTreG09DepartementOmAll](ValueSet-vs-tre-g09-departement-om-all.md) | Jeu de valeurs ALL contenant le référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco | 22/02/2025 |
-| [VsTreR272EquipementMaterielLourdAll](ValueSet-vs-tre-r272-equipement-materiel-lourd-all.md) | Jeu de valeurs ALL contenant les équipements matériels lourds | 22/02/2025 |
-| [VsTreR274ActiviteSanitaireReguleeAll](ValueSet-vs-tre-r274-activite-sanitaire-regulee-all.md) | Jeu de valeurs FINESS contenant les activités sanitaires soumises à une régulation de la part de l'ARS. | 22/02/2025 |
 | [VsTreR30RegionOmAll](ValueSet-vs-tre-r30-region-om-all.md) | Jeu de valeurs ALL contenant le référentiel des codes régions et collectivités d'outre-mer provenant du COG INSEE + Monaco | 22/02/2025 |
-| [VsTreR361FonctionPubliqueAll](ValueSet-vs-tre-r361-fonction-publique-all.md) | Jeu de valeurs ALL contenant les versants de la fonction publique. | 22/02/2025 |
-| [VsTreR362TypeBudgetAll](ValueSet-vs-tre-r362-type-budget-all.md) | Jeu de valeurs ALL contenant les types de budget associés aux Entités Géographiques d'Exercice (EGE) dans FINESS+. | 22/02/2025 |
 | [VsTreR370RoleRelationEgeAll](ValueSet-vs-tre-r370-role-relation-ege-all.md) | Jeu de valeurs ALL contenant les types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE. | 22/02/2025 |
 | [VsTreR373TypePersonneMoraleAll](ValueSet-vs-tre-r373-type-personne-morale-all.md) | Jeu de valeurs ALL contenant les types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces champs). | 22/02/2025 |
 | [VsTreR374NatureActiviteSmsseReguleeAll](ValueSet-vs-tre-r374-nature-activite-smsse-regulee-all.md) | Jeu de valeurs ALL contenant les grandes natures d'activité SMSSE exercées par les entités FINESS+. | 22/02/2025 |
-| [VsTreR375ModeFinancementAll](ValueSet-vs-tre-r375-mode-financement-all.md) | Jeu de valeurs ALL contenant les modes de financement associés aux capacités de certaines activitées SMSSE. | 22/02/2025 |
 | [VsTreR378MotifArreteAll](ValueSet-vs-tre-r378-motif-arrete-all.md) | Jeu de valeurs ALL contenant les motifs des arrêtés enregsitrées dans FINESS+ | 22/02/2025 |
-| [VsTreR381ActiviteAmmAll](ValueSet-vs-tre-r381-activite-amm-all.md) | Jeu de valeurs ALL contenant les activités de soin AMM | 22/02/2025 |
-| [VsTreR382ModaliteActDeSoinAmmAll](ValueSet-vs-tre-r382-modalite-act-de-soin-amm-all.md) | Jeu de valeurs ALL contenant les modalités pour les activités de soin AMM | 22/02/2025 |
-| [VsTreR383MentionActDeSoinAmmAll](ValueSet-vs-tre-r383-mention-act-de-soin-amm-all.md) | Jeu de valeurs ALL contenant les mentions pour les activités de soin AMM | 22/02/2025 |
-| [VsTreR384PratiqueTherapeutiqueSpecifiqueActDeSoinAmmAll](ValueSet-vs-tre-r384-pratique-therapeutique-specifique-act-soin-amm-all.md) | Jeu de valeurs ALL contenant les pratiques thérapeutiques spécifiques pour les activités de soin AMM | 22/02/2025 |
-| [VsTreR385DeclarationActDeSoinAmmAll](ValueSet-vs-tre-r385-declaration-act-de-soin-amm-all.md) | Jeu de valeurs ALL contenant les déclarations pour les activités de soin AMM | 22/02/2025 |
-| [VsTreR388TypeLogementAll](ValueSet-vs-tre-r388-type-logement-all.md) | Jeu de valeurs ALL contenant les types de logement associés aux capacités des structures FINESS | 22/02/2025 |
 | [VsTreR392TypeActSmsseReguleeAll](ValueSet-vs-tre-r392-type-act-smsse-regulee-all.md) | Jeu de valeurs ALL contenant l'ensemble des codes pour les types d'activitées SMSSE régulées | 13/05/2025 |
-| [VsTreR404ModeFonctionnementActiviteSmsseReguleeAll](ValueSet-vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all.md) | Jeu de valeurs ALL contenant les modes de fonctinonemment des activités ssmsse régulées | 23/02/2026 |
-| [VsTreR405ModaliteActiviteSmsseReguleeAll](ValueSet-vs-tre-r405-modalite-activite-smsse-regulee-all.md) | Jeu de valeurs ALL contenant les modalités des activités SSMSE régulées | 23/02/2026 |
-| [VsTreR406FormeActiviteSmsseReguleeAll](ValueSet-vs-tre-r406-forme-activite-smsse-regulee-all.md) | Jeu de valeurs ALL contenant les formes des activites smsse régulées | 23/02/2026 |
-| [VsTreR62DomaineAll](ValueSet-vs-tre-r62-domaine-all.md) | Jeu de valeurs ALL contenant les domaines | 22/02/2025 |
-| [VsTreR74ModeFixationTarifaireAll](ValueSet-vs-tre-r74-mode-fixation-tarifaire-all.md) | Jeu de valeurs ALL contenant les modes de fixation tarifaire | 22/02/2025 |
+| [VsTreR272EquipementMaterielLourdAll](ValueSet-vs-tre-r272-equipement-materiel-lourd-all.md) | Jeu de valeurs ALL contenant les équipements matériels lourds | 30/03/2026 |
+| [VsTreR274ActiviteSanitaireReguleeAll](ValueSet-vs-tre-r274-activite-sanitaire-regulee-all.md) | Jeu de valeurs FINESS contenant les activités sanitaires soumises à une régulation de la part de l'ARS. | 30/03/2026 |
+| [VsTreR361FonctionPubliqueAll](ValueSet-vs-tre-r361-fonction-publique-all.md) | Jeu de valeurs ALL contenant les versants de la fonction publique. | 30/03/2026 |
+| [VsTreR362TypeBudgetAll](ValueSet-vs-tre-r362-type-budget-all.md) | Jeu de valeurs ALL contenant les types de budget associés aux Entités Géographiques d'Exercice (EGE) dans FINESS+. | 30/03/2026 |
+| [VsTreR375ModeFinancementAll](ValueSet-vs-tre-r375-mode-financement-all.md) | Jeu de valeurs ALL contenant les modes de financement associés aux capacités de certaines activitées SMSSE. | 30/03/2026 |
+| [VsTreR381ActiviteAmmAll](ValueSet-vs-tre-r381-activite-amm-all.md) | Jeu de valeurs ALL contenant les activités de soin AMM | 30/03/2026 |
+| [VsTreR382ModaliteActDeSoinAmmAll](ValueSet-vs-tre-r382-modalite-act-de-soin-amm-all.md) | Jeu de valeurs ALL contenant les modalités pour les activités de soin AMM | 30/03/2026 |
+| [VsTreR383MentionActDeSoinAmmAll](ValueSet-vs-tre-r383-mention-act-de-soin-amm-all.md) | Jeu de valeurs ALL contenant les mentions pour les activités de soin AMM | 30/03/2026 |
+| [VsTreR384PratiqueTherapeutiqueSpecifiqueActDeSoinAmmAll](ValueSet-vs-tre-r384-pratique-therapeutique-specifique-act-soin-amm-all.md) | Jeu de valeurs ALL contenant les pratiques thérapeutiques spécifiques pour les activités de soin AMM | 30/03/2026 |
+| [VsTreR385DeclarationActDeSoinAmmAll](ValueSet-vs-tre-r385-declaration-act-de-soin-amm-all.md) | Jeu de valeurs ALL contenant les déclarations pour les activités de soin AMM | 30/03/2026 |
+| [VsTreR388TypeLogementAll](ValueSet-vs-tre-r388-type-logement-all.md) | Jeu de valeurs ALL contenant les types de logement associés aux capacités des structures FINESS | 30/03/2026 |
+| [VsTreR404ModeFonctionnementActiviteSmsseReguleeAll](ValueSet-vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all.md) | Jeu de valeurs ALL contenant les modes de fonctinonemment des activités ssmsse régulées | 30/03/2026 |
+| [VsTreR405ModaliteActiviteSmsseReguleeAll](ValueSet-vs-tre-r405-modalite-activite-smsse-regulee-all.md) | Jeu de valeurs ALL contenant les modalités des activités SSMSE régulées | 30/03/2026 |
+| [VsTreR406FormeActiviteSmsseReguleeAll](ValueSet-vs-tre-r406-forme-activite-smsse-regulee-all.md) | Jeu de valeurs ALL contenant les formes des activites smsse régulées | 30/03/2026 |
+| [VsTreR62DomaineAll](ValueSet-vs-tre-r62-domaine-all.md) | Jeu de valeurs ALL contenant les domaines | 30/03/2026 |
 | [VsTreR73EspicAll](ValueSet-vs-tre-r73-espic-all.md) | Jeu de valeurs ALL contenant tous les établissements de santé privés d'intérêt collectif | 23/02/2026 |
+| [VsTreR74ModeFixationTarifaireAll](ValueSet-vs-tre-r74-mode-fixation-tarifaire-all.md) | Jeu de valeurs ALL contenant les modes de fixation tarifaire | 30/03/2026 |
 

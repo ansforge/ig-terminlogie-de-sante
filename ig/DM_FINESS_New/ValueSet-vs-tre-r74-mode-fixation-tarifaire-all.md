@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire?vs | *Version*:20250222120000 | |
-| Active as of 2025-02-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:VsTreR74ModeFixationTarifaireAll |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire?vs | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:VsTreR74ModeFixationTarifaireAll |
 
  
 Jeu de valeurs ALL contenant les modes de fixation tarifaire 
@@ -55,23 +55,23 @@ Requête sur le SMT
   "id" : "vs-tre-r74-mode-fixation-tarifaire-all",
   "meta" : {
     "versionId" : "1",
-    "lastUpdated" : "2025-02-22T18:02:28.249+00:00",
+    "lastUpdated" : "2026-03-27T11:18:16+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
-      "start" : "2025-02-22T18:02:28.249+00:00"
+      "start" : "2026-03-30T12:00:00+01:00"
     }
   }],
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire?vs",
-  "version" : "20250222120000",
+  "version" : "20260330120000",
   "name" : "VsTreR74ModeFixationTarifaireAll",
   "title" : "Vs Tre R74 Mode Fixation Tarifaire All",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-02-22T18:02:28.249+00:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Jeu de valeurs ALL contenant les modes de fixation tarifaire",
   "compose" : {

@@ -81,6 +81,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+      "version" : "4.0.0",
       "concept" : [{
         "code" : "<",
         "display" : "Inférieur à la limite de détection"

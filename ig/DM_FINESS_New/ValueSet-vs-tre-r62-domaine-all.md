@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine?vs | *Version*:20250222120000 | |
-| Active as of 2025-02-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:VsTreR62DomaineAll |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine?vs | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:VsTreR62DomaineAll |
 
  
 Jeu de valeurs ALL contenant les domaines 
@@ -55,23 +55,23 @@ Requête sur le SMT
   "id" : "vs-tre-r62-domaine-all",
   "meta" : {
     "versionId" : "1",
-    "lastUpdated" : "2025-02-22T18:02:28.249+00:00",
+    "lastUpdated" : "2026-03-27T11:18:15+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
-      "start" : "2025-02-22T18:02:28.249+00:00"
+      "start" : "2026-03-30T12:00:00+01:00"
     }
   }],
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine?vs",
-  "version" : "20250222120000",
+  "version" : "20260330120000",
   "name" : "VsTreR62DomaineAll",
   "title" : "Vs Tre R62 Domaine All",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-02-22T18:02:28.249+00:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Jeu de valeurs ALL contenant les domaines",
   "compose" : {

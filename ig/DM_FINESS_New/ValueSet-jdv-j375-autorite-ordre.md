@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j375-ordre | *Version*:20250826120000 | |
-| Active as of 2025-08-26 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ375AutoriteOrdre |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j375-ordre | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ375AutoriteOrdre |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.389 | | |
 
  
@@ -56,14 +56,14 @@ Requête sur le SMT
   "id" : "jdv-j375-autorite-ordre",
   "meta" : {
     "versionId" : "1",
-    "lastUpdated" : "2025-08-26T18:02:28.249+00:00",
+    "lastUpdated" : "2026-03-27T11:18:11+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
-      "start" : "2025-08-26T18:02:28.249+00:00"
+      "start" : "2026-03-30T12:00:00+01:00"
     }
   }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j375-ordre",
@@ -71,12 +71,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.389"
   }],
-  "version" : "20250826120000",
+  "version" : "20260330120000",
   "name" : "JdvJ375AutoriteOrdre",
   "title" : "Jdv J375 Autorite Ordre",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-08-26T18:02:28.249+00:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Jeu de valeurs comportant uniquement les autorités de type Ordre.",
   "compose" : {

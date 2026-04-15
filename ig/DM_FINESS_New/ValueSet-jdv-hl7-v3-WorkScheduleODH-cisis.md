@@ -81,6 +81,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
+      "version" : "5.0.0",
       "concept" : [{
         "code" : "DS",
         "display" : "Journée (par exemple : entre 6h et 18h)"

@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r375-mode-financement | *Version*:20241230120000 | |
-| Active as of 2024-12-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR375ModeFinancement |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r375-mode-financement | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR375ModeFinancement |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.290 | | |
 
  
@@ -29,7 +29,7 @@ Nomenclature des modes de financement associés aux capacités de certaines acti
   "id" : "tre-r375-mode-financement",
   "meta" : {
     "versionId" : "1",
-    "lastUpdated" : "2024-12-30T12:00:00+01:00",
+    "lastUpdated" : "2026-03-27T11:13:12+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -44,12 +44,12 @@ Nomenclature des modes de financement associés aux capacités de certaines acti
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.290"
   }],
-  "version" : "20241230120000",
+  "version" : "20260330120000",
   "name" : "TreR375ModeFinancement",
   "title" : "Tre R375 Mode Financement",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-12-30T12:00:00+01:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Nomenclature des modes de financement associés aux capacités de certaines activitées SMSSE",
   "caseSensitive" : false,

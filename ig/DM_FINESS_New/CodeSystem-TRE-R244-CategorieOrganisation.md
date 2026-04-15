@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation | *Version*:20260223120000 | |
-| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R244_CategorieOrganisation |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R244_CategorieOrganisation |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.39 | | |
 
  
@@ -29,10 +29,11 @@ Catégorie d’organisation
   "resourceType" : "CodeSystem",
   "id" : "TRE-R244-CategorieOrganisation",
   "meta" : {
-    "versionId" : "27",
-    "lastUpdated" : "2026-02-23T17:57:22.131+01:00",
+    "versionId" : "28",
+    "lastUpdated" : "2026-03-27T11:13:09.031+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
+  "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
@@ -44,11 +45,11 @@ Catégorie d’organisation
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.39"
   }],
-  "version" : "20260223120000",
+  "version" : "20260330120000",
   "name" : "TRE_R244_CategorieOrganisation",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-23T12:00:00+01:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Catégorie d'organisation",
   "jurisdiction" : [{
@@ -59,7 +60,7 @@ Catégorie d’organisation
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 302,
+  "count" : 306,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -98,14 +99,23 @@ Catégorie d’organisation
   }],
   "concept" : [{
     "code" : "01",
-    "display" : "Appartement thérapeutique",
+    "display" : "Appartement thérapeutique en psychiatrie",
+    "definition" : "Les appartements thérapeutiques sont des unités de soins en sortie d’hospitalisation, à visée de réinsertion sociale, mis à disposition de quelques patients pour des durées limitées et nécessitant une présence importante, sinon continue, de personnels soignants.",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Appartement thérapeutique"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-10-13T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -114,14 +124,23 @@ Catégorie d’organisation
   },
   {
     "code" : "02",
-    "display" : "Atelier thérapeutique",
+    "display" : "Atelier thérapeutique en psychiatrie",
+    "definition" : "L’atelier thérapeutique a pour objectif de répondre aux projets et aux besoins d’insertion ou de réinsertion sociale et professionnelle des personnes en situation de handicap psychique stabilisées dans leur maladie. L'atelier thérapeutique est une activité encadrée par du personnel soignant dont l'objectif est de permettre une évaluation des capacités d'autonomie globale du bénéficiaire (manuelles, relationnelles, sociales). Cette activité se déroule dans un lieu adapté. L'ensemble des observations faites au cours de séances d'atelier permet une évaluation plus fine du diagnostic et des capacités réelles du patient. L'atelier thérapeutique est une activité transitionnelle non rémunérée. Il s’agit, pour les personnes accueillies, de nouer ou renouer avec une activité quotidienne de travail dans le but d’accéder à un emploi dans un établissement et service d’aide par le travail (ESAT) ou autre alternative.",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Atelier thérapeutique"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-10-13T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -354,7 +373,8 @@ Catégorie d’organisation
   },
   {
     "code" : "13",
-    "display" : "Service d'Accueil Familial Thérapeutique",
+    "display" : "Service d'Accueil Familial Thérapeutique en psychiatrie",
+    "definition" : "L’accueil familial thérapeutique est une modalité particulière de prise en charge. Les services d’accueil familial thérapeutique organisent le traitement des personnes de tous âges, souffrant de troubles mentaux susceptibles de retirer un bénéfice d’une prise en charge thérapeutique dans un milieu familial substitutif stable, en vue notamment d’une restauration de leurs capacités relationnelles et d’autonomie.",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -369,7 +389,7 @@ Catégorie d’organisation
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -379,6 +399,7 @@ Catégorie d’organisation
   {
     "code" : "14",
     "display" : "Service Médico-Psychologique Régional (SMPR)",
+    "definition" : "Le parcours de soins en Service Médico-Psychologique Régional est déterminé à l’arrivée de la personne détenue par une évaluation globale médico-psycho-sociale, puis des soins à visée préventive et thérapeutique sont mis en place : consultation médicale, entretiens infirmiers, ateliers et groupes thérapeutiques, accompagnement social, etc.). Le SMPR peut également s’adresser aux sortants de prison avec et sans obligation judiciaire de soins via une consultation externe. Les personnes ciblées sont les personnes détenues présentant des troubles mentaux et dont l’état de santé est compatible avec la détention et également de toutes les personnes vulnérables et fragilisées psychologiquement par la détention. Les SMPR accueillent les hommes majeurs et mineurs. La mixité est proscrite en détention.",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -393,7 +414,7 @@ Catégorie d’organisation
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -514,14 +535,14 @@ Catégorie d’organisation
   },
   {
     "code" : "20",
-    "display" : "Unité d'urgences",
+    "display" : "Unité d'urgences polyvalentes",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-10-13T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-03-28T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -907,13 +928,22 @@ Catégorie d’organisation
   {
     "code" : "36",
     "display" : "Dispositif d'accueil familial social PA-PH",
+    "definition" : "L’accueil familial social est une solution d’hébergement pour les personnes âgées et/ou les personnes handicapées qui ne peuvent ou ne veulent plus vivre chez elles, momentanément ou définitivement. L'accueil familial constitue une alternative à l’hébergement en établissement. L’accueil familial est proposé par des accueillants familiaux (une personne seule ou un couple) qui sont titulaires d’un agrément délivré par le Conseil départemental pour une durée de 5 ans. Les accueillants familiaux reçoivent des personnes âgées ou des personnes en situation de handicap chez eux. Ils proposent aux personnes accueillies un accompagnement ponctuel ou au long cours dans un cadre familial qui leur permet de bénéficier d’une présence aidante, stimulante et d’un accompagnement personnalisé.​",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Dispositif d'accueil familial"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-12-22T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1643,14 +1673,23 @@ Catégorie d’organisation
   },
   {
     "code" : "66",
-    "display" : "Equipe Relai Handicap rare",
+    "display" : "Equipe Relais Handicaps Rares (ERHR)",
+    "definition" : "Les Équipes Relais Handicaps Rares (ERHR) sont des dispositifs d’information, de conseil, d’orientation et de coordination. Elles permettent de mieux répondre aux besoins des personnes en situation de handicap rare en offrant une réponse et des solutions sur leurs territoires de vie. Par conséquent, elles se situent à l’interface entre les ressources spécialisées (CNRHR) et les ressources de proximité (ESMS, MDPH, etc.). Elles ont pour missions de conseiller et d’appuyer les professionnels pour élaborer une stratégie d’intervention globale et adaptée aux besoins de la personne et de l’orienter avec sa famille vers le bon interlocuteur et les ressources compétentes. Elles sont composées d’équipes pluridisciplinaires. Les équipes relais sont coordonnées par le GNCHR.",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "ERHR"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2018-01-26T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -3467,13 +3506,22 @@ Catégorie d’organisation
   {
     "code" : "145",
     "display" : "Unité hospitalière d'addictologie",
+    "definition" : "Le court séjour addictologique est une structure de prise en charge aiguë de l’ensemble des problèmes posés par les patients. Il peut s’agir de la conduite addictive elle-même, ou de ses complications somatiques et/ou psychiatriques et/ou des comorbidités associées. Le court séjour assure le sevrage qui représente une étape essentielle dans la prise en charge du patient dépendant. La consultation hospitalière d’addictologie est un maillon de la filière hospitalière d’addictologie. Elle constitue l’interface entre le dispositif addictologique hospitalier, le dispositif spécialisé ambulatoire et la médecine de ville. Elle est une porte d’entrée importante d’accès aux soins pour les personnes ayant une conduite addictive. L’hôpital de jour en addictologie assure une prise en charge ambulatoire des patients ayant une dépendance et/ou des complications sévères nécessitant un cadre de soins adaptés à leurs besoins tout en maintenant un lien environnemental. L’hôpital de jour en offrant un cadre thérapeutique, permet d’éviter une hospitalisation à temps plein. Il préserve ainsi l’insertion sociale et familiale des patients. Le champ de compétence de la consultation hospitalière d’addictologie et de l’hospitalisation de jour en addictologie s’étend à l’ensemble des conduites addictives (alcool, tabac, substances illicites, médicaments, addictions sans produit).",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Unité d’addictologie"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-10-25T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-12-22T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -3512,12 +3560,20 @@ Catégorie d’organisation
       "valueDateTime" : "2024-10-25T12:00:00+01:00"
     },
     {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+    },
+    {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-10-25T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -6216,12 +6272,20 @@ Catégorie d’organisation
       "valueDateTime" : "2025-04-25T12:00:00+01:00"
     },
     {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+    },
+    {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-04-25T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -6736,6 +6800,7 @@ Catégorie d’organisation
   {
     "code" : "284",
     "display" : "Equipe Spécialisée de Prévention et de Réadaptation à Domicile (ESPRAD)",
+    "definition" : "Les équipes spécialisées de prévention et réadaptation à domicile (ESPRAD) sont des équipes expérimentales issues du Plan maladies neuro-dégénératives 2014-2019 qui prévoyait de concevoir et d'expérimenter un protocole d'intervention au domicile pour les personnes atteintes de la maladie de Parkinson ou de la sclérose en plaques. L’ ESPRAD contribue à favoriser le parcours de soins des personnes accompagnées et, à ce titre, travaille en étroite collaboration avec les acteurs spécifiques et spécialisés. L’ ESPRAD a vocation à prévenir ou à limiter la perte d’autonomie en rapport avec des troubles posturo-locomoteurs et/ou psychomoteurs, des données comportementales et des facteurs situationnels particuliers. Des mesures de rééducation analytique, de réadaptation fonctionnelle et d’adaptation du cadre de vie sont proposées. Il semble que ce dispositif ne soit déployé que dans la région Hauts-de-France.",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -6750,7 +6815,7 @@ Catégorie d’organisation
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-12-22T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -6760,6 +6825,7 @@ Catégorie d’organisation
   {
     "code" : "285",
     "display" : "Centre Anti-Poison et de Toxico-Vigilance (CAPTV)",
+    "definition" : "Le Centre Antipoison et de Toxicovigilance est un service médical composé d’une équipe composée notamment de médecins et/ou de pharmaciens. Ce centre informe les professionnels de santé et le public sur les risques toxiques de tous les produits existants, médicamenteux, industriels et naturels. Le Centre Antipoison et de Toxicovigilance est joignable jour et nuit pour évaluer par téléphone le risque toxicologique lié à des expositions humaines, quelles que soient les circonstances et le type de toxique potentiel. L’avis rendu est gradué : sauf urgence vitale, un appel initial à un CAPTV peut ainsi permettre d’éviter un recours inutile à un service d’urgence. Les CAPTV assurent également une mission de toxicovigilance, sous la tutelle de l’Agence nationale de sécurité sanitaire de l’alimentation, de l’environnement et du travail (Anses) et se coordonnent avec l’ensemble des autres services de vigilance.",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -6774,7 +6840,7 @@ Catégorie d’organisation
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-12-22T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -6784,6 +6850,7 @@ Catégorie d’organisation
   {
     "code" : "286",
     "display" : "Unité hospitalière de Soins Intensifs Néonatals (USIN)",
+    "definition" : "Une unité de soins intensifs néonatals (USIN), prend en charge, sur décision médicale, des nouveau-nés présentant une ou plusieurs pathologies aiguës. Cette unité prend en charge en soins intensifs les nouveau-nés présentant une ou plusieurs pathologies aiguës ou dans les suites d’une réanimation néonatale. Ce secteur peut être organisé au sein de l'unité de néonatologie",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -6798,7 +6865,7 @@ Catégorie d’organisation
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-12-22T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -6808,6 +6875,7 @@ Catégorie d’organisation
   {
     "code" : "287",
     "display" : "Unité hospitalière de réanimation néonatale",
+    "definition" : "L'unité de réanimation néonatale assure tous les jours de l'année, vingt-quatre heures sur vingt-quatre, la surveillance et les soins spécialisés aux nouveau-nés. Cette unité est associée à un secteur de soins intensifs de néonatologie sur le même site. La réanimation néonatale s'exerce dans des installations autorisées à cet effet. Elle ne peut être pratiquée que si l'établissement de santé comprend sur le même site une unité de néonatologie autorisée dont une partie des installations est affectée aux soins intensifs de néonatologie. L’unité de réanimation néonatale prend en charge sur décision médicale les nouveau-nés, souvent prématurés, présentant des détresses graves ou des risques vitaux.",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -6822,7 +6890,7 @@ Catégorie d’organisation
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-12-22T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -6832,6 +6900,7 @@ Catégorie d’organisation
   {
     "code" : "288",
     "display" : "Unité hospitalière « kangourou » ou « koala »",
+    "definition" : "Les unités dites « kangourou » (ou « koala » dans certains territoires) sont des unités de néonatalogie qui proposent également la prise en charge de la mère dans la même chambre. Ces unités prennent en charge sur décision médicale les nouveau-nés à risque et ceux dont l’état de santé s’est dégradé après la naissance ainsi que la personne venant d’accoucher.",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -6846,7 +6915,7 @@ Catégorie d’organisation
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-12-22T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -6856,6 +6925,7 @@ Catégorie d’organisation
   {
     "code" : "289",
     "display" : "Unité hospitalière de néonatalogie",
+    "definition" : "La néonatologie a pour objet la surveillance et les soins spécialisés, sur décision médicale, des nouveau-nés à risques et de ceux dont l'état s'est dégradé après la naissance. L'unité de néonatologie assure tous les jours de l'année, vingt-quatre heures sur vingt-quatre, la surveillance et les soins spécialisés aux nouveau-nés. La néonatologie s'exerce dans des installations autorisées à cet effet. Toute unité de néonatologie constitue soit une unité individualisée, soit un secteur séparé au sein d'une unité de pédiatrie.",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -6870,7 +6940,7 @@ Catégorie d’organisation
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-12-22T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -6880,6 +6950,7 @@ Catégorie d’organisation
   {
     "code" : "290",
     "display" : "Unité hospitalière de maternité",
+    "definition" : "L’unité de maternité constitue un service d'établissements de santé, qu'ils soient publics ou privés, chargé d'assurer, sans interruption, l’accueil de toute patiente nécessitant une prise en charge de type gynécologique et/ou obstétrical. L’unité permet un diagnostic immédiat, une prise en charge adaptée et l’orientation vers la filière de soins appropriée. Toute unité de maternité est liée à une unité d’urgences maternité.",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -6894,7 +6965,7 @@ Catégorie d’organisation
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-12-22T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -6904,6 +6975,7 @@ Catégorie d’organisation
   {
     "code" : "291",
     "display" : "Halte Soins Addiction (HSA)",
+    "definition" : "Les Haltes Soins Addictions (HSA) se sont révélées être un outil supplémentaire dans l’offre médico-sociale particulièrement adapté aux publics consommateurs de drogues en situation de grande précarité et souvent en rupture avec les dispositifs traditionnels. Une fois accueillis, les usagers bénéficient d'un cadre souple et non jugeant, favorisant l'émergence d'une demande de soins. Les HSA permettent ainsi d'initier des parcours de soins ajustés aux réalités des usagers, s’intégrant dans un écosystème de partenaires fortement coordonnés et œuvrant au bénéfice de l’usager. Les services proposés incluent la mise à disposition d’un espace de consommation sécurisé, des soins somatiques de première intention, un accompagnement vers les droits et l'hébergement, ainsi qu'un soutien psychologique et si besoins une orientation vers des soins psychiatriques. Ils favorisent la construction de réponses individualisées et durables même si l’articulation avec le premier recours reste moins avancée que celle avec le secteur de l’addictologie ou de la santé mentale.",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -6918,7 +6990,7 @@ Catégorie d’organisation
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-12-22T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -6928,6 +7000,7 @@ Catégorie d’organisation
   {
     "code" : "292",
     "display" : "Unité Hospitalière Sécurisée Interrégionale (UHSI)",
+    "definition" : "Les UHSI sont des structures hospitalières qui prennent en charge l’ensemble des hospitalisations programmées, hors hospitalisations urgentes et de courte durée (< 48h) ou réclamant la proximité d’un plateau technique très spécialisé ; exception faite des hospitalisations des établissements pénitentiaires rattachés à l’établissement de santé siège de l’UHSI). Les UHSI accueillent des personnes détenues majeures et mineures. Elles sont sécurisées par l’administration pénitentiaire présente au sein de l’unité de soins. L'objectif est de concilier les impératifs de qualité des soins et de rationalisation des escortes et des gardes des personnes détenues hospitalisées. Les UHSI accueillent des patients d’un territoire défini qui recoupe partiellement le découpage des anciennes et des nouvelles régions.",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -6942,7 +7015,7 @@ Catégorie d’organisation
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-12-22T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -7130,12 +7203,20 @@ Catégorie d’organisation
       "valueDateTime" : "2026-02-23T12:00:00+01:00"
     },
     {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+    },
+    {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-02-23T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -7181,6 +7262,70 @@ Catégorie d’organisation
     {
       "code" : "dateMaj",
       "valueDateTime" : "2026-02-23T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "303",
+    "display" : "Cabinet de ville infirmier en pratique avancée en pathologies chroniques stabilisées",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "304",
+    "display" : "Cabinet de ville infirmier en pratique avancée en oncologie et hémato-oncologie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "305",
+    "display" : "Cabinet de ville infirmier en pratique avancée en maladie rénale chronique",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "306",
+    "display" : "Cabinet de ville infirmier en pratique avancée en santé mentale",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",

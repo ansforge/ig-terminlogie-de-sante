@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r362-type-budget | *Version*:20241230120000 | |
-| Active as of 2024-12-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR362TypeBudget |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r362-type-budget | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR362TypeBudget |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.256 | | |
 
  
@@ -29,7 +29,7 @@ Nomenclature des types de budget associés aux Entités Géographiques d’Exerc
   "id" : "tre-r362-type-budget",
   "meta" : {
     "versionId" : "1",
-    "lastUpdated" : "2024-12-30T12:00:00+01:00",
+    "lastUpdated" : "2026-03-27T11:13:11+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -44,12 +44,12 @@ Nomenclature des types de budget associés aux Entités Géographiques d’Exerc
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.256"
   }],
-  "version" : "20241230120000",
+  "version" : "20260330120000",
   "name" : "TreR362TypeBudget",
   "title" : "Tre R362 Type Budget",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-12-30T12:00:00+01:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Nomenclature des types de budget associés aux Entités Géographiques d'Exercice (EGE) dans FINESS+",
   "caseSensitive" : false,

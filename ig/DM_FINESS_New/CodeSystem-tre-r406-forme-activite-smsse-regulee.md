@@ -31,8 +31,8 @@ Formes des activites smsse régulées, remplace la TRE_R276-FormeActivite
   "resourceType" : "CodeSystem",
   "id" : "tre-r406-forme-activite-smsse-regulee",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-02-23T17:57:32.001+01:00",
+    "versionId" : "3",
+    "lastUpdated" : "2026-03-27T12:13:06.196+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -83,18 +83,6 @@ Formes des activites smsse régulées, remplace la TRE_R276-FormeActivite
     "type" : "dateTime"
   },
   {
-    "code" : "cisis",
-    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#cisis",
-    "description" : "Permet de définir les codes concepts uilisés par le CISIS",
-    "type" : "boolean"
-  },
-  {
-    "code" : "rass",
-    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#rass",
-    "description" : "Permet de définir les codes concepts uilisés par le RASS",
-    "type" : "boolean"
-  },
-  {
     "code" : "deprecationDate",
     "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
     "description" : "Date Concept was deprecated",
@@ -111,6 +99,18 @@ Formes des activites smsse régulées, remplace la TRE_R276-FormeActivite
     "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
     "description" : "Date Concept was retired",
     "type" : "dateTime"
+  },
+  {
+    "code" : "rass",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#rass",
+    "description" : "Permet de définir les codes concepts uilisés par le RASS",
+    "type" : "boolean"
+  },
+  {
+    "code" : "cisis",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#cisis",
+    "description" : "Permet de définir les codes concepts uilisés par le CISIS",
+    "type" : "boolean"
   }],
   "concept" : [{
     "code" : "00",
@@ -126,10 +126,6 @@ Formes des activites smsse régulées, remplace la TRE_R276-FormeActivite
     {
       "code" : "status",
       "valueCode" : "active"
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
     }]
   },
   {

@@ -871,6 +871,7 @@ These define new code systems used by systems conforming to this implementation 
 | [ActStatus](CodeSystem-v3-ActStatus.md) | Codes representing the defined possible states of an Act, as defined by the Act class state machine. |
 | [AdministrativeGender](CodeSystem-v3-AdministrativeGender.md) | The gender of a person used for adminstrative purposes (as opposed to clinical gender) |
 | [Base de données publique du médicament](CodeSystem-terminologie-bdpm.md) |  |
+| [Classification Commune des Actes Médicaux](CodeSystem-terminologie-ccam.md) |  |
 | [Classification anatomique, thérapeutique et chimique](CodeSystem-terminologie-atc.md) |  |
 | [Classification des dispositifs médicaux](CodeSystem-terminologie-cladimed.md) |  |
 | [Classification internationale des maladies et des problèmes de santé connexes - 10ème révision - Version française à usage PMSI (Programme Médicalisé des Systèmes d'Information)](CodeSystem-terminologie-cim-10.md) |  |
@@ -883,7 +884,6 @@ These define new code systems used by systems conforming to this implementation 
 | [Dictionnaire européen multilingue des substances entrant dans la composition de médicaments](CodeSystem-terminologie-sms.md) |  |
 | [EntityCode](CodeSystem-v3-EntityCode.md) | **OpenIssue:** Missing description. |
 | [European Medical device nomenclature](CodeSystem-terminologie-emdn.md) |  |
-| [French module](CodeSystem-11000315107-20250621.md) | SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO). |
 | [International Classification of Diseases for Oncology, version 3.](CodeSystem-icd-o-3.md) | International Classification of Diseases for Oncology, version 3. For more information see http://www.who.int/classifications/icd/adaptations/oncology/en/. |
 | [Liste des Actes Inovants Hors Nomenclature](CodeSystem-terminologie-lahn.md) | La liste des actes innovants hors nomenclature (LAHN) a été mise en place par la direction générale de l’offre de soins (DGOS) en 2024, dans le cadre du développement de l’innovation en santé. Elle est la fusion du RIHN et de la Liste Complémentaire (LC). L’objectif est de soutenir l’innovation et de la dynamiser par une prise en charge et une évaluation rapide des actes innovants. La LAHN contient une liste d’actes innovants (biologie et anatomocytopathologie) pris en charge à titre transitoire moyennant un recueil de données pour leur évaluation. |
 | [Media Type](CodeSystem-v3-mediaType.md) | Internet Assigned Numbers Authority (IANA) Mime Media Types. Identifies the type of the encapsulated data and identifies a method to interpret or render the data. The IANA defined domain of media types is established by the Internet standard RFC 2045 [http://www.ietf.org/rfc/rfc2045.txt] and 2046 [http://www.ietf.org/rfc/rfc2046.txt]. RFC 2046 defines the media type to consist of two parts: 1. top level media type, and
@@ -898,7 +898,9 @@ These define new code systems used by systems conforming to this implementation 
 | [Orderable Drug Form](CodeSystem-v3-orderableDrugForm.md) | **OpenIssue:** Missing description. |
 | [ParticipationFunction](CodeSystem-v3-ParticipationFunction.md) | This code is used to specify the exact function an actor had in a service in all necessary detail. This domain may include local extensions (CWE). |
 | [ParticipationType](CodeSystem-v3-ParticipationType.md) | A code specifying the meaning and purpose of every Participation instance. Each of its values implies specific constraints on the Roles undertaking the participation. |
+| [RUIM - european eprescription](CodeSystem-terminologie-ruim-eeprescription.md) |  |
 | [RoleCode](CodeSystem-v3-RoleCode.md) | A set of codes further specifying the kind of Role; specific classification codes for further qualifying RoleClass codes. |
+| [SNOMED CT core](CodeSystem-900000000000207008-20260401.md) | SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO). |
 | [Service type](CodeSystem-service-type.md) | This value set defines an example set of codes of service-types. |
 | [Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments](CodeSystem-terminologie-standardterms.md) |  |
 | [Substance Admin Substitution](CodeSystem-v3-substanceAdminSubstitution.md) | Identifies what sort of change is permitted or has occurred between the therapy that was ordered and the therapy that was/will be provided. |
@@ -923,7 +925,7 @@ These define new code systems used by systems conforming to this implementation 
 | [TRE_G05_SousSectionTableauCNOP](CodeSystem-TRE-G05-SousSectionTableauCNOP.md) | Sous-Section du tableau de l’Ordre des Pharmaciens |
 | [TRE_G07_TypeIdentifiantStructure](CodeSystem-TRE-G07-TypeIdentifiantStructure.md) | Type d’identifiant de structure |
 | [TRE_G08_TypeIdentifiantPersonne](CodeSystem-TRE-G08-TypeIdentifiantPersonne.md) | Type d’identifiant de personne |
-| [TRE_G09_DepartementOM](CodeSystem-TRE-G09-DepartementOM.md) | Référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco |
+| [TRE_G09_DepartementOM](CodeSystem-TRE-G09-DepartementOM.md) | Référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco. Cette TRE possède des propriétés spécifiques : Autorite Epars, pour indiquer le/ les ARS du département (tre-r396-autorite) et region pour indiquer le code de la région du département (TRE-R30-RegionOM) |
 | [TRE_G100_Specialite_AM](CodeSystem-TRE-G100-Specialite-AM.md) | Spécialité Assurance Maladie |
 | [TRE_G11_NatureQualificationADELI](CodeSystem-TRE-G11-NatureQualificationADELI.md) | Nature de qualification ADELI |
 | [TRE_G12_SpecialiteADELI](CodeSystem-TRE-G12-SpecialiteADELI.md) | Spécialité ADELI |

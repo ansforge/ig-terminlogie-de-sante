@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J210-SpecialiteOrdinale-ROR/FHIR/JDV-J210-SpecialiteOrdinale-ROR | *Version*:20231030120000 | |
-| Active as of 2023-10-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J210_SpecialiteOrdinale_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J210-SpecialiteOrdinale-ROR/FHIR/JDV-J210-SpecialiteOrdinale-ROR | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J210_SpecialiteOrdinale_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.42 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J210-SpecialiteOrdinale-ROR",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-07-02T17:05:49.389+00:00",
+    "versionId" : "5",
+    "lastUpdated" : "2026-03-27T11:18:06.321+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -71,11 +71,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.42"
   }],
-  "version" : "20231030120000",
+  "version" : "20260330120000",
   "name" : "JDV_J210_SpecialiteOrdinale_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2023-10-30T12:00:00+01:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Spécialité ordinale",
   "jurisdiction" : [{
@@ -114,10 +114,6 @@ Requête sur le SMT
       {
         "code" : "SI04",
         "display" : "Exercice infirmier en pratique avancée santé mentale (SI)"
-      },
-      {
-        "code" : "SI05",
-        "display" : "Exercice infirmier en pratique avancée urgences (SI)"
       },
       {
         "code" : "SM01",

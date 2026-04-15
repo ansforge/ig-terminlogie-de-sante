@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j289-type-groupe-gco-finess | *Version*:20250711120000 | |
-| Active as of 2025-07-11 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ289TypeGroupeGcoFiness |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j289-type-groupe-gco-finess | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ289TypeGroupeGcoFiness |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.262 | | |
 
  
@@ -56,14 +56,14 @@ Requête sur le SMT
   "id" : "jdv-j289-type-groupe-gco-finess",
   "meta" : {
     "versionId" : "1",
-    "lastUpdated" : "2025-07-11T18:02:28.249+00:00",
+    "lastUpdated" : "2026-03-27T11:18:08+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
-      "start" : "2025-07-11T18:02:28.249+00:00"
+      "start" : "2026-03-30T12:00:00+01:00"
     }
   }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j289-type-groupe-gco-finess",
@@ -71,12 +71,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.262"
   }],
-  "version" : "20250711120000",
+  "version" : "20260330120000",
   "name" : "JdvJ289TypeGroupeGcoFiness",
   "title" : "Jdv J289 Type Groupe Gco Finess",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-07-11T18:02:28.249+00:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Jeu de valeurs Finess contenant les types de Groupement de Coopération Organique (GCO).",
   "compose" : {

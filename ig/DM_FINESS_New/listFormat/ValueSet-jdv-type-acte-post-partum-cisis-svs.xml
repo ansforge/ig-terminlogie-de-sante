@@ -11,15 +11,17 @@
              urlFichier="">
       <ConceptList>
          <concept code="JNFA001"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.215.300.1"
                   displayName="Hystérectomie pour complications obstétricales, par laparotomie"/>
          <concept code="JPGD001"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.215.300.1"
                   displayName="Délivrance artificielle (+ révision utérine)"/>
          <concept code="JNED001"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.215.300.1"
                   displayName="Réduction manuelle d’inversion utérine"/>
-         <concept code="JNBD002" codeSystem="" displayName="Ballonnets intra-utérin"/>
+         <concept code="JNBD002"
+                  codeSystem="1.2.250.1.215.300.1"
+                  displayName="Ballonnets intra-utérin"/>
          <concept code="GEN-092.04.02"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Autre acte réalisé en postpartum immédiat"/>

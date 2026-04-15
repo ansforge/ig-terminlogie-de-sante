@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J108-EnsembleFonction-RASS/FHIR/JDV-J108-EnsembleFonction-RASS | *Version*:20260202120000 | |
-| Active as of 2026-02-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J108_EnsembleFonction_RASS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J108-EnsembleFonction-RASS/FHIR/JDV-J108-EnsembleFonction-RASS | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J108_EnsembleFonction_RASS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.176 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J108-EnsembleFonction-RASS",
   "meta" : {
-    "versionId" : "21",
-    "lastUpdated" : "2026-02-23T18:17:23.504+01:00",
+    "versionId" : "22",
+    "lastUpdated" : "2026-03-27T11:18:03.862+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -71,11 +71,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.176"
   }],
-  "version" : "20260202120000",
+  "version" : "20260330120000",
   "name" : "JDV_J108_EnsembleFonction_RASS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-02T12:00:00+01:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ensemble des fonctions et rôles du RASS",
   "jurisdiction" : [{
@@ -560,6 +560,10 @@ Requête sur le SMT
       {
         "code" : "374",
         "display" : "Agent d'autorité d'enregistrement"
+      },
+      {
+        "code" : "375",
+        "display" : "Conseiller conjugal et familial"
       }]
     }]
   }

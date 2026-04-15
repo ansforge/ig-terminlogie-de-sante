@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r372-type-groupe-gco | *Version*:20250711120000 | |
-| Active as of 2025-07-11 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR372TypeGroupeGco |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r372-type-groupe-gco | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR372TypeGroupeGco |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.288 | | |
 
  
@@ -29,7 +29,7 @@ Nomenclature des types de Groupement de Coopération Organique (GCO)
   "id" : "tre-r372-type-groupe-gco",
   "meta" : {
     "versionId" : "1",
-    "lastUpdated" : "2025-07-11T12:00:00+01:00",
+    "lastUpdated" : "2026-03-27T11:13:12+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -44,12 +44,12 @@ Nomenclature des types de Groupement de Coopération Organique (GCO)
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.288"
   }],
-  "version" : "20250711120000",
+  "version" : "20260330120000",
   "name" : "TreR372TypeGroupeGco",
   "title" : "Tre R372 Type Groupe Gco",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-07-11T12:00:00+01:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Nomenclature des types de Groupement de Coopération Organique (GCO)",
   "caseSensitive" : false,

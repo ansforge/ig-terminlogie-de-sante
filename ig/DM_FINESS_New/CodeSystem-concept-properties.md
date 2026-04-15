@@ -28,7 +28,7 @@ CodeSystem permettant définir les propriétés NOS utilisées dans les CodeSyst
   "id" : "concept-properties",
   "meta" : {
     "versionId" : "1",
-    "lastUpdated" : "2026-03-30T12:00:00.000+00:00",
+    "lastUpdated" : "2026-03-27T11:13:04.161+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -119,7 +119,7 @@ CodeSystem permettant définir les propriétés NOS utilisées dans les CodeSyst
   {
     "code" : "specialisationRpps",
     "display" : "Specialisation RPPS",
-    "definition" : "Permet de définir les codes concepts définis par le RPPS",
+    "definition" : "Propriété permettant de spécifier les codes exclusifs appartenant au RPPS",
     "property" : [{
       "code" : "status",
       "valueCode" : "active"
@@ -200,7 +200,7 @@ CodeSystem permettant définir les propriétés NOS utilisées dans les CodeSyst
   {
     "code" : "macroEtatAdministratif",
     "display" : "Macro-etat administratif",
-    "definition" : "Macro-état administratif (actif ou inactif) du code concept",
+    "definition" : "Propriété permettant de préciser le macro état de chaque objet. Cette propriété est de type Coding et les valeurs possible proviennent de la Tre R386 Macro Etat Objet Administratif",
     "property" : [{
       "code" : "status",
       "valueCode" : "active"

@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee?vs | *Version*:20260223120000 | |
-| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:VsTreR406FormeActiviteSmsseReguleeAll |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee?vs | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:VsTreR406FormeActiviteSmsseReguleeAll |
 
  
 Jeu de valeurs ALL contenant les formes des activites smsse régulées 
@@ -55,23 +55,23 @@ Requête sur le SMT
   "id" : "vs-tre-r406-forme-activite-smsse-regulee-all",
   "meta" : {
     "versionId" : "1",
-    "lastUpdated" : "2026-02-23T18:02:28.249+00:00",
+    "lastUpdated" : "2026-03-27T11:18:15+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
-      "start" : "2026-02-23T18:02:28.249+00:00"
+      "start" : "2026-03-30T12:00:00+01:00"
     }
   }],
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee?vs",
-  "version" : "20260223120000",
+  "version" : "20260330120000",
   "name" : "VsTreR406FormeActiviteSmsseReguleeAll",
   "title" : "Vs Tre R406 Forme Activite Smsse Regulee All",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-23T18:02:28.249+00:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Jeu de valeurs ALL contenant les formes des activites smsse régulées",
   "compose" : {

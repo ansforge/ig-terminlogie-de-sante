@@ -16361,7 +16361,7 @@
     },
     {
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-      "valueCode" : "hl7.fhir.uv.tools.r4#0.9.0"
+      "valueCode" : "hl7.fhir.uv.tools.r4#1.1.2"
     },
     {
       "extension" : [{
@@ -33289,6 +33289,17 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/terminologie-ccam"
+      },
+      "name" : "Classification Commune des Actes Médicaux",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/terminologie-cladimed"
       },
       "name" : "Classification des dispositifs médicaux",
@@ -33503,18 +33514,6 @@
         "reference" : "CodeSystem/terminologie-emdn"
       },
       "name" : "European Medical device nomenclature",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/11000315107-20250621"
-      },
-      "name" : "French module",
-      "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
       "exampleBoolean" : false
     },
     {
@@ -43173,6 +43172,17 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/terminologie-ruim-eeprescription"
+      },
+      "name" : "RUIM - european eprescription",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "NamingSystem"
       }],
       "reference" : {
@@ -43203,6 +43213,18 @@
       },
       "name" : "SeverityObservationCode",
       "description" : "SeverityObservationCode",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/900000000000207008-20260401"
+      },
+      "name" : "SNOMED CT core",
+      "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
       "exampleBoolean" : false
     },
     {
@@ -44088,7 +44110,7 @@
         "reference" : "CodeSystem/TRE-G09-DepartementOM"
       },
       "name" : "TRE_G09_DepartementOM",
-      "description" : "Référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco",
+      "description" : "Référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco. Cette TRE possède des propriétés spécifiques : Autorite Epars, pour indiquer le/ les ARS du département (tre-r396-autorite) et region pour indiquer le code de la région du département (TRE-R30-RegionOM)",
       "exampleBoolean" : false
     },
     {

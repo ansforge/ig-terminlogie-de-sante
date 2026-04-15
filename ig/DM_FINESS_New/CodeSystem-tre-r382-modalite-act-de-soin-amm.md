@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r382-modalite-act-de-soin-amm | *Version*:20241230120000 | |
-| Active as of 2024-12-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR382ModaliteActDeSoinAmm |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r382-modalite-act-de-soin-amm | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR382ModaliteActDeSoinAmm |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.297 | | |
 
  
@@ -29,7 +29,7 @@ Nomenclature des modalités pour les activités de soin AMM
   "id" : "tre-r382-modalite-act-de-soin-amm",
   "meta" : {
     "versionId" : "1",
-    "lastUpdated" : "2024-12-30T12:00:00+01:00",
+    "lastUpdated" : "2026-03-27T12:13:05+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -44,12 +44,12 @@ Nomenclature des modalités pour les activités de soin AMM
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.297"
   }],
-  "version" : "20241230120000",
+  "version" : "20260330120000",
   "name" : "TreR382ModaliteActDeSoinAmm",
   "title" : "Tre R382 Modalite Act De Soin Amm",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-12-30T12:00:00+01:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Nomenclature des modalités pour les activités de soin AMM",
   "caseSensitive" : false,
@@ -590,7 +590,7 @@ Nomenclature des modalités pour les activités de soin AMM
   },
   {
     "code" : "MO047",
-    "display" : "AMP CLI -  Prélèvement d'ovocytes en vue d'une AMP",
+    "display" : "AMP CLI - Prélèvement d'ovocytes en vue d'une AMP",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "1900-01-01T00:00:00+01:00"
@@ -622,7 +622,7 @@ Nomenclature des modalités pour les activités de soin AMM
   },
   {
     "code" : "MO049",
-    "display" : "AMP CLI -  Prélèvement de spermatozoïdes ",
+    "display" : "AMP CLI - Prélèvement de spermatozoïdes",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "1900-01-01T00:00:00+01:00"
@@ -702,7 +702,7 @@ Nomenclature des modalités pour les activités de soin AMM
   },
   {
     "code" : "MO059",
-    "display" : "AMP BIO -  Conservation des embryons en vue de leur accueil et mise en œuvre de celui-ci",
+    "display" : "AMP BIO - Conservation des embryons en vue de leur accueil et mise en œuvre de celui-ci",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "1900-01-01T00:00:00+01:00"
@@ -750,7 +750,7 @@ Nomenclature des modalités pour les activités de soin AMM
   },
   {
     "code" : "MO073",
-    "display" : "AMP CLI - Mise en œuvre de l'Accueil des embryons ",
+    "display" : "AMP CLI - Mise en œuvre de l'Accueil des embryons",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "1900-01-01T00:00:00+01:00"
@@ -766,7 +766,7 @@ Nomenclature des modalités pour les activités de soin AMM
   },
   {
     "code" : "MO074",
-    "display" : "AMP BIO - Conservation des embryons en vue d'un projet parental ",
+    "display" : "AMP BIO - Conservation des embryons en vue d'un projet parental",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "1900-01-01T00:00:00+01:00"

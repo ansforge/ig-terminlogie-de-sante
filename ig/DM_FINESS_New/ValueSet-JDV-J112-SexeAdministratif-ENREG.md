@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J112-SexeAdministratif-ENREG",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-07-02T17:04:47.747+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-03-27T12:18:01.483+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

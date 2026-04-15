@@ -3,8 +3,8 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="condition-clinical"/>
   <meta>
-    <versionId value="1"/>
-    <lastUpdated value="2026-01-07T10:12:48.016+01:00"/>
+    <versionId value="2"/>
+    <lastUpdated value="2026-04-10T10:27:43.449+02:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
   </meta>
   <text>

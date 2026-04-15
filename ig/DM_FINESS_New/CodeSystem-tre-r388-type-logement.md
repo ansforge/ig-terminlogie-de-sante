@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement | *Version*:20241230120000 | |
-| Active as of 2024-12-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR388TypeLogement |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR388TypeLogement |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.303 | | |
 
  
@@ -29,7 +29,7 @@ Nomenclature des types de logement associées aux capacités Remarque : cette no
   "id" : "tre-r388-type-logement",
   "meta" : {
     "versionId" : "1",
-    "lastUpdated" : "2024-12-30T12:00:00+01:00",
+    "lastUpdated" : "2026-03-27T11:13:14+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -44,12 +44,12 @@ Nomenclature des types de logement associées aux capacités Remarque : cette no
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.303"
   }],
-  "version" : "20241230120000",
+  "version" : "20260330120000",
   "name" : "TreR388TypeLogement",
   "title" : "Tre R388 Type Logement",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-12-30T12:00:00+01:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Nomenclature des types de logement associées aux capacités Remarque : cette nomenclature est initialisée avec les besoins FINESS+",
   "caseSensitive" : false,

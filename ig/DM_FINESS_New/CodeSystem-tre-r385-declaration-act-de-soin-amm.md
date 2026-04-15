@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r385-declaration-act-de-soin-amm | *Version*:20241230120000 | |
-| Active as of 2024-12-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR385DeclarationActDeSoinAmm |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r385-declaration-act-de-soin-amm | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR385DeclarationActDeSoinAmm |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.300 | | |
 
  
@@ -29,7 +29,7 @@ Nomenclature des déclarations pour les activités de soin AMM
   "id" : "tre-r385-declaration-act-de-soin-amm",
   "meta" : {
     "versionId" : "1",
-    "lastUpdated" : "2024-12-30T12:00:00+01:00",
+    "lastUpdated" : "2026-03-27T11:13:13+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -44,12 +44,12 @@ Nomenclature des déclarations pour les activités de soin AMM
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.300"
   }],
-  "version" : "20241230120000",
+  "version" : "20260330120000",
   "name" : "TreR385DeclarationActDeSoinAmm",
   "title" : "Tre R385 Declaration Act De Soin Amm",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-12-30T12:00:00+01:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Nomenclature des déclarations pour les activités de soin AMM",
   "caseSensitive" : false,

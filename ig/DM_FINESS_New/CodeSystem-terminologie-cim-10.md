@@ -25,8 +25,8 @@
   "resourceType" : "CodeSystem",
   "id" : "terminologie-cim-10",
   "meta" : {
-    "versionId" : "8.1770199823535",
-    "lastUpdated" : "2026-02-04T11:10:23.535+01:00",
+    "versionId" : "10",
+    "lastUpdated" : "2026-04-07T16:50:05.247+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"],
     "tag" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
@@ -54,7 +54,7 @@
   "publisher" : "Agence du numérique en santé",
   "valueSet" : "https://smt.esante.gouv.fr/terminologie-cim-10?vs",
   "content" : "not-present",
-  "count" : 19161,
+  "count" : 19075,
   "filter" : [{
     "code" : "root",
     "operator" : ["="],

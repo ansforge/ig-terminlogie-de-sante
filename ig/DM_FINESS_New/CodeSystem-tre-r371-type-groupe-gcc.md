@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r371-type-groupe-gcc | *Version*:20250711120000 | |
-| Active as of 2025-07-11 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR371TypeGroupeGcc |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r371-type-groupe-gcc | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR371TypeGroupeGcc |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.287 | | |
 
  
@@ -29,7 +29,7 @@ Nomenclature des types de groupement Concernant les groupement de structure on a
   "id" : "tre-r371-type-groupe-gcc",
   "meta" : {
     "versionId" : "1",
-    "lastUpdated" : "2025-07-11T12:00:00+01:00",
+    "lastUpdated" : "2026-03-27T11:13:11+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -44,12 +44,12 @@ Nomenclature des types de groupement Concernant les groupement de structure on a
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.287"
   }],
-  "version" : "20250711120000",
+  "version" : "20260330120000",
   "name" : "TreR371TypeGroupeGcc",
   "title" : "Tre R371 Type Groupe Gcc",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-07-11T12:00:00+01:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Nomenclature des types de groupement Concernant les groupement de structure on a 2 catégories de regroupement : les Groupement de Coopération Conventionnelle, les Groupement de Coopération Organique",
   "caseSensitive" : false,

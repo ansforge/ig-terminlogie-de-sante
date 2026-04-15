@@ -81,6 +81,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v3-ActPriority",
+      "version" : "4.0.0",
       "concept" : [{
         "code" : "A",
         "display" : "Aussi vite que possible"

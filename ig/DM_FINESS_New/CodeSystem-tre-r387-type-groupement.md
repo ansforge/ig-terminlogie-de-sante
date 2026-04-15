@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement | *Version*:20250619120000 | |
-| Active as of 2025-06-19 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR387TypeGroupement |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR387TypeGroupement |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.302 | | |
 
  
@@ -29,7 +29,7 @@ Nomenclature des types de groupement utilisables dans FINESS. Groupement de coop
   "id" : "tre-r387-type-groupement",
   "meta" : {
     "versionId" : "1",
-    "lastUpdated" : "2025-06-19T12:00:00+01:00",
+    "lastUpdated" : "2026-03-27T12:13:05+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -44,12 +44,12 @@ Nomenclature des types de groupement utilisables dans FINESS. Groupement de coop
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.302"
   }],
-  "version" : "20250619120000",
+  "version" : "20260330120000",
   "name" : "TreR387TypeGroupement",
   "title" : "Tre R387 Type Groupement",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-19T12:00:00+01:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Nomenclature des types de groupement utilisables dans FINESS. Groupement de coopération conventionnelle ou Groupement de coopération organique",
   "caseSensitive" : false,
@@ -149,7 +149,7 @@ Nomenclature des types de groupement utilisables dans FINESS. Groupement de coop
   {
     "code" : "02",
     "display" : "Groupement de coopération organique",
-    "definition" : " La coopération organique entre personnes morales se traduit par la création d’une nouvelle structure juridique dotée d’une personnalité morale. Elle s’adosse à différents supports juridiques dont par exemple le GCS (Groupement de Coopération Sanitaire) ou le Groupement de Coopération sociale et médico-sociale (GCSMS). Un GCO est donc représenté par une Personne Morale particulière dite 'tête de groupe'.",
+    "definition" : "La coopération organique entre personnes morales se traduit par la création d’une nouvelle structure juridique dotée d’une personnalité morale. Elle s’adosse à différents supports juridiques dont par exemple le GCS (Groupement de Coopération Sanitaire) ou le Groupement de Coopération sociale et médico-sociale (GCSMS). Un GCO est donc représenté par une Personne Morale particulière dite 'tête de groupe'.",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {

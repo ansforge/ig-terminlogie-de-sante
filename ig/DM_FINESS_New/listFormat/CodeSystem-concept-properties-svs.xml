@@ -72,7 +72,7 @@
                   displayName="Specialisation RPPS"
                   longDesignation="Specialisation RPPS"
                   shortDesignation="Specialisation RPPS"
-                  descriptionMetier="Permet de définir les codes concepts définis par le RPPS"/>
+                  descriptionMetier="Propriété permettant de spécifier les codes exclusifs appartenant au RPPS"/>
          <concept code="ror"
                   codeSystem=""
                   dateFin=""
@@ -153,7 +153,7 @@
                   displayName="Macro-etat administratif"
                   longDesignation="Macro-etat administratif"
                   shortDesignation="Macro-etat administratif"
-                  descriptionMetier="Macro-état administratif (actif ou inactif) du code concept"/>
+                  descriptionMetier="Propriété permettant de préciser le macro état de chaque objet. Cette propriété est de type Coding et les valeurs possible proviennent de la Tre R386 Macro Etat Objet Administratif"/>
          <concept code="hasTypeRoleMember"
                   codeSystem=""
                   dateFin=""

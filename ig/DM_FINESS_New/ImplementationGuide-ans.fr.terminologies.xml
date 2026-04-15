@@ -11910,7 +11910,7 @@
       </valueReference>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
-      <valueCode value="hl7.fhir.uv.tools.r4#0.9.0"/>
+      <valueCode value="hl7.fhir.uv.tools.r4#1.1.2"/>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
@@ -24339,6 +24339,16 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/terminologie-ccam"/>
+      </reference>
+      <name value="Classification Commune des Actes Médicaux"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/terminologie-cladimed"/>
       </reference>
       <name value="Classification des dispositifs médicaux"/>
@@ -24535,17 +24545,6 @@
         <reference value="CodeSystem/terminologie-emdn"/>
       </reference>
       <name value="European Medical device nomenclature"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/11000315107-20250621"/>
-      </reference>
-      <name value="French module"/>
-      <description value="SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO)."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -33398,6 +33397,16 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/terminologie-ruim-eeprescription"/>
+      </reference>
+      <name value="RUIM - european eprescription"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="NamingSystem"/>
       </extension>
       <reference>
@@ -33426,6 +33435,17 @@
       </reference>
       <name value="SeverityObservationCode"/>
       <description value="SeverityObservationCode"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/900000000000207008-20260401"/>
+      </reference>
+      <name value="SNOMED CT core"/>
+      <description value="SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO)."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -34237,7 +34257,7 @@
         <reference value="CodeSystem/TRE-G09-DepartementOM"/>
       </reference>
       <name value="TRE_G09_DepartementOM"/>
-      <description value="Référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco"/>
+      <description value="Référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco. Cette TRE possède des propriétés spécifiques : Autorite Epars, pour indiquer le/ les ARS du département (tre-r396-autorite) et region pour indiquer le code de la région du département (TRE-R30-RegionOM)"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

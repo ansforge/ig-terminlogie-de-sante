@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_A32_StatutMotifPersonnePriseCharge | *Version*:5.0.0 |
-| Active as of 2026-03-16 | *Computable Name*:ASS_A32_StatutMotifPersonnePriseCharge |
+| Active as of 2026-04-15 | *Computable Name*:ASS_A32_StatutMotifPersonnePriseCharge |
 
  
 ASS_A32_StatutMotifPersonnePriseCharg 
@@ -36,7 +36,7 @@ Pour cette association, seuls les fichiers sont disponibles :
   "title" : "ASS_A32_StatutMotifPersonnePriseCharge",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-16T09:36:58+00:00",
+  "date" : "2026-04-15T12:25:44+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",

@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM | *Version*:20250328120000 | |
-| Active as of 2025-03-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R13_CommuneOM |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R13_CommuneOM |
 | *Other Identifiers:*OID:1.2.250.1.213.2.23 | | |
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
@@ -26,8 +26,8 @@
   "resourceType" : "CodeSystem",
   "id" : "TRE-R13-CommuneOM",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2026-01-26T11:52:29.771+01:00",
+    "versionId" : "4",
+    "lastUpdated" : "2026-03-27T13:58:08.324+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"],
     "tag" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
@@ -40,11 +40,11 @@
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.2.23"
   }],
-  "version" : "20250328120000",
+  "version" : "20260330120000",
   "name" : "TRE_R13_CommuneOM",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-03-28T12:00:00+01:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "caseSensitive" : false,
   "content" : "not-present",

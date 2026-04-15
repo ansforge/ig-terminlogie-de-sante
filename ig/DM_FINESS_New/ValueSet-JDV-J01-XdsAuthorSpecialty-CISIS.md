@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS | *Version*:20260202120000 | |
-| Active as of 2026-02-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J01_XdsAuthorSpecialty_CISIS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J01_XdsAuthorSpecialty_CISIS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.461 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J01-XdsAuthorSpecialty-CISIS",
   "meta" : {
-    "versionId" : "16",
-    "lastUpdated" : "2026-02-03T15:46:04.640+01:00",
+    "versionId" : "17",
+    "lastUpdated" : "2026-03-27T11:18:02.315+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -71,11 +71,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.461"
   }],
-  "version" : "20260202120000",
+  "version" : "20260330120000",
   "name" : "JDV_J01_XdsAuthorSpecialty_CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-02T12:00:00+01:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "XDS authorSpecialty CI-SIS",
   "jurisdiction" : [{
@@ -1666,6 +1666,10 @@ Requête sur le SMT
       {
         "code" : "374",
         "display" : "Agent d'autorité d'enregistrement"
+      },
+      {
+        "code" : "375",
+        "display" : "Conseiller conjugal et familial"
       }]
     }]
   }

@@ -81,6 +81,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "version" : "6.0.0",
       "concept" : [{
         "code" : "DEV",
         "display" : "Dispositif automatique impliqué dans la production des résultats"

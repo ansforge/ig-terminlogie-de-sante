@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r375-mode-financement?vs | *Version*:20250222120000 | |
-| Active as of 2025-02-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:VsTreR375ModeFinancementAll |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r375-mode-financement?vs | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:VsTreR375ModeFinancementAll |
 
  
 Jeu de valeurs ALL contenant les modes de financement associés aux capacités de certaines activitées SMSSE. 
@@ -55,23 +55,23 @@ Requête sur le SMT
   "id" : "vs-tre-r375-mode-financement-all",
   "meta" : {
     "versionId" : "1",
-    "lastUpdated" : "2025-02-22T18:02:28.249+00:00",
+    "lastUpdated" : "2026-03-27T11:18:13+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
-      "start" : "2025-02-22T18:02:28.249+00:00"
+      "start" : "2026-03-30T12:00:00+01:00"
     }
   }],
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r375-mode-financement?vs",
-  "version" : "20250222120000",
+  "version" : "20260330120000",
   "name" : "VsTreR375ModeFinancementAll",
   "title" : "Vs Tre R375 Mode Financement All",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-02-22T18:02:28.249+00:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Jeu de valeurs ALL contenant les modes de financement associés aux capacités de certaines activitées SMSSE.",
   "compose" : {

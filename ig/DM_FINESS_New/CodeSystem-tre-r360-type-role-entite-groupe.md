@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe | *Version*:20250619120000 | |
-| Active as of 2025-06-19 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR360TypeRoleEntiteGroupe |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR360TypeRoleEntiteGroupe |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.254 | | |
 
  
@@ -29,7 +29,7 @@ Nomenclature des types de rôles que peuvent exercer des entités participants �
   "id" : "tre-r360-type-role-entite-groupe",
   "meta" : {
     "versionId" : "1",
-    "lastUpdated" : "2025-06-19T12:00:00+01:00",
+    "lastUpdated" : "2026-03-27T11:13:10+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -44,12 +44,12 @@ Nomenclature des types de rôles que peuvent exercer des entités participants �
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.254"
   }],
-  "version" : "20250619120000",
+  "version" : "20260330120000",
   "name" : "TreR360TypeRoleEntiteGroupe",
   "title" : "Tre R360 Type Role Entite Groupe",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-19T12:00:00+01:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Nomenclature des types de rôles que peuvent exercer des entités participants à des groupements",
   "caseSensitive" : false,

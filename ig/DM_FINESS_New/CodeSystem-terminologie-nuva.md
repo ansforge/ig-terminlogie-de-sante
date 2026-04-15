@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/terminologie-nuva | *Version*:1.0.1072 | |
-| Active as of 2026-03-01 | *Responsible:*Agence du numérique en santé | *Computable Name*:NUVA |
+| *Official URL*:https://smt.esante.gouv.fr/terminologie-nuva | *Version*:1.0.1078 | |
+| Active as of 2026-03-24 | *Responsible:*Agence du numérique en santé | *Computable Name*:NUVA |
 | *Other Identifiers:*OID:1.3.6.1.4.1.48601.1 (use: usual, ), https://smt.esante.gouv.fr/#terminologie-nuva (use: secondary, ) | | |
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
@@ -25,8 +25,8 @@
   "resourceType" : "CodeSystem",
   "id" : "terminologie-nuva",
   "meta" : {
-    "versionId" : "26",
-    "lastUpdated" : "2026-03-04T11:59:33.958+01:00",
+    "versionId" : "27",
+    "lastUpdated" : "2026-04-03T13:23:02.261+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"],
     "tag" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
@@ -45,16 +45,16 @@
     "system" : "https://smt.esante.gouv.fr/",
     "value" : "terminologie-nuva"
   }],
-  "version" : "1.0.1072",
+  "version" : "1.0.1078",
   "name" : "NUVA",
   "title" : "Nomenclature Unifiée des Vaccins",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-01T00:00:00+00:00",
+  "date" : "2026-03-24T00:00:00+00:00",
   "publisher" : "Agence du numérique en santé",
   "valueSet" : "https://smt.esante.gouv.fr/terminologie-nuva?vs",
   "content" : "not-present",
-  "count" : 1927,
+  "count" : 1942,
   "filter" : [{
     "code" : "root",
     "operator" : ["="],
@@ -81,24 +81,14 @@
     "type" : "dateTime"
   },
   {
-    "code" : "modified",
-    "uri" : "http://purl.org/dc/terms/modified",
-    "type" : "dateTime"
-  },
-  {
-    "code" : "containedInVaccine",
-    "uri" : "http://data.esante.gouv.fr/NUVA/nuvs#containedInVaccine",
-    "type" : "code"
-  },
-  {
-    "code" : "prevents",
-    "uri" : "http://data.esante.gouv.fr/NUVA/nuvs#prevents",
-    "type" : "code"
-  },
-  {
     "code" : "comment",
     "uri" : "http://www.w3.org/2000/01/rdf-schema#comment",
     "type" : "string"
+  },
+  {
+    "code" : "modified",
+    "uri" : "http://purl.org/dc/terms/modified",
+    "type" : "dateTime"
   },
   {
     "code" : "containsValence",
@@ -109,6 +99,16 @@
     "code" : "isAbstract",
     "uri" : "http://data.esante.gouv.fr/NUVA/nuvs#isAbstract",
     "type" : "boolean"
+  },
+  {
+    "code" : "containedInVaccine",
+    "uri" : "http://data.esante.gouv.fr/NUVA/nuvs#containedInVaccine",
+    "type" : "code"
+  },
+  {
+    "code" : "prevents",
+    "uri" : "http://data.esante.gouv.fr/NUVA/nuvs#prevents",
+    "type" : "code"
   },
   {
     "code" : "hiddenLabel",

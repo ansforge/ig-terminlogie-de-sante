@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/terminologie-bdpm | *Version*:2026-03-03 | |
-| Active as of 2026-03-03 | *Responsible:*Agence du numérique en santé | *Computable Name*:BDPM |
+| *Official URL*:https://smt.esante.gouv.fr/terminologie-bdpm | *Version*:2026-04-01 | |
+| Active as of 2026-04-01 | *Responsible:*Agence du numérique en santé | *Computable Name*:BDPM |
 | *Other Identifiers:*https://smt.esante.gouv.fr/#terminologie-bdpm (use: secondary, ) | | |
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
@@ -25,8 +25,8 @@
   "resourceType" : "CodeSystem",
   "id" : "terminologie-bdpm",
   "meta" : {
-    "versionId" : "27",
-    "lastUpdated" : "2026-03-03T16:04:41.255+01:00",
+    "versionId" : "28",
+    "lastUpdated" : "2026-04-03T09:53:40.781+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"],
     "tag" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
@@ -40,16 +40,16 @@
     "system" : "https://smt.esante.gouv.fr/",
     "value" : "terminologie-bdpm"
   }],
-  "version" : "2026-03-03",
+  "version" : "2026-04-01",
   "name" : "BDPM",
   "title" : "Base de données publique du médicament",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-03T00:00:00+00:00",
+  "date" : "2026-04-01T00:00:00+00:00",
   "publisher" : "Agence du numérique en santé",
   "valueSet" : "https://smt.esante.gouv.fr/terminologie-bdpm?vs",
   "content" : "not-present",
-  "count" : 41219,
+  "count" : 41228,
   "filter" : [{
     "code" : "root",
     "operator" : ["="],
