@@ -65,7 +65,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J13_ResponsableConsent_CISIS](ValueSet-JDV-J13-ResponsableConsent-CISIS.md) | Responsable consentement - CI-SIS | 24/04/2020 |
 | [JDV_J14_QualiteRepresentantLegal_CISIS](ValueSet-JDV-J14-QualiteRepresentantLegal-CISIS.md) | Qualité représentant légal - CI-SIS | 13/12/2024 |
 | [JDV_J15_ClasseAge_ROR](ValueSet-JDV-J15-ClasseAge-ROR.md) | Classe d'âge - ROR | 24/04/2020 |
-| [JDV_J16_ActeSpecifique_ROR](ValueSet-JDV-J16-ActeSpecifique-ROR.md) | Acte spécifique - ROR | 30/03/2026 |
+| [JDV_J16_ActeSpecifique_ROR](ValueSet-JDV-J16-ActeSpecifique-ROR.md) | Acte spécifique - ROR | 05/05/2026 |
 | [JDV_J17_ActiviteOperationnelle_ROR](ValueSet-JDV-J17-ActiviteOperationnelle-ROR.md) | Activité Operationnelle - ROR | 30/03/2026 |
 | [JDV_J18_EquipementSpecifique_ROR](ValueSet-JDV-J18-EquipementSpecifique-ROR.md) | Equipement spécifique - ROR | 22/12/2025 |
 | [JDV_J19_ModePriseEnCharge_ROR](ValueSet-JDV-J19-ModePriseEnCharge-ROR.md) | Mode de la prise en charge - ROR | 30/03/2026 |

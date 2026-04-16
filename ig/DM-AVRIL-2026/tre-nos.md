@@ -157,8 +157,8 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R207_TypeOrganisationInterne](CodeSystem-TRE-R207-TypeOrganisationInterne.md) | Type organisation interne | 15/12/2023 |
 | [TRE_R208_ClasseAge](CodeSystem-TRE-R208-ClasseAge.md) | Classe d'âge | 15/12/2023 |
 | [TRE_R209_TypeActivite](CodeSystem-TRE-R209-TypeActivite.md) | Type d'activité | 23/02/2024 |
-| [TRE_R210_ActeSpecifique](CodeSystem-TRE-R210-ActeSpecifique.md) | Action menée par un ou plusieurs acteur(s) de santé dans le cadre d'une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé. | 30/03/2026 |
-| [TRE_R211_ActiviteOperationnelle](CodeSystem-TRE-R211-ActiviteOperationnelle.md) | Activite Operationnelle | 30/03/2026 |
+| [TRE_R210_ActeSpecifique](CodeSystem-TRE-R210-ActeSpecifique.md) | Action menée par un ou plusieurs acteur(s) de santé dans le cadre d'une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé. | 05/05/2026 |
+| [TRE_R211_ActiviteOperationnelle](CodeSystem-TRE-R211-ActiviteOperationnelle.md) | Activite Operationnelle | 05/05/2026 |
 | [TRE_R212_Equipement](CodeSystem-TRE-R212-Equipement.md) | Equipement | 22/12/2025 |
 | [TRE_R213_ModePriseEnCharge](CodeSystem-TRE-R213-ModePriseEnCharge.md) | Mode de la prise en charge | 30/03/2026 |
 | [TRE_R216_HL7RoleCode](CodeSystem-TRE-R216-HL7RoleCode.md) | HL7 roleCode | 13/12/2024 |

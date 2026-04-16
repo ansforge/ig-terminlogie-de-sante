@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle | *Version*:20260330120000 | |
-| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R211_ActiviteOperationnelle |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle | *Version*:20260505120000 | |
+| Active as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R211_ActiviteOperationnelle |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.12 | | |
 
  
@@ -29,8 +29,8 @@ Activite Operationnelle
   "resourceType" : "CodeSystem",
   "id" : "TRE-R211-ActiviteOperationnelle",
   "meta" : {
-    "versionId" : "26",
-    "lastUpdated" : "2026-03-27T11:13:06.524+01:00",
+    "versionId" : "25",
+    "lastUpdated" : "2026-05-05T10:46:40.548+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -45,11 +45,11 @@ Activite Operationnelle
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.12"
   }],
-  "version" : "20260330120000",
+  "version" : "20260505120000",
   "name" : "TRE_R211_ActiviteOperationnelle",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-30T12:00:00+01:00",
+  "date" : "2026-05-05T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Activite Operationnelle",
   "jurisdiction" : [{
@@ -10438,13 +10438,21 @@ Activite Operationnelle
     "code" : "575",
     "display" : "Ergothérapie orientation compensation matérielle dans l’environnement de la personne",
     "definition" : "Accompagnement en ergothérapie de personnes dans l’accès à l'ensemble des aides techniques, équipements et aménagements destinés à compenser une perte de fonction, une limitation d’activité ou une situation de handicap. Cela inclus l’apprentissage d’utilisation des compensations matérielles et la prise en compte de l’environnement de la personne jusqu’à intervenir dans celui-ci.",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Ergothérapie orientation compensation matérielle dans l’environnement de la pers"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2025-03-28T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-07-23T12:00:00+01:00"
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -10523,13 +10531,21 @@ Activite Operationnelle
     "code" : "580",
     "display" : "Evaluation en ergothérapie par l’analyse d’activité et accompagnement dans l’environnement de la personne",
     "definition" : "Evaluation fonctionnelle et accompagnement en ergothérapie au travers de mises en situation d’activité réelles (via l’analyse d’activité) en milieu écologique (sur l’ensemble des lieux de vie ((domicile, établissements médico-sociaux, etc.) et d’activité de la personne (établissements scolaires, lieux de formation, milieu professionnel, milieu sportif, de loisirs, etc.)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Eval en ergothérapie par analyse d’activité et accomp dans l’enviro de la person"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2025-03-28T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-07-23T12:00:00+01:00"
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
     },
     {
       "code" : "status",

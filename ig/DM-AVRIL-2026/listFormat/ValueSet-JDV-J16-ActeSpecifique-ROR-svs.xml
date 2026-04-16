@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20260330120000"
+             dateMaj="20260505120000"
              dateValid="20160901000000"
              description="Acte spécifique - ROR"
              displayName="JDV_J16_ActeSpecifique_ROR"
@@ -882,7 +882,7 @@
                   displayName="Prise en charge de l'obésité morbide"/>
          <Concept code="0538"
                   codeSystem="1.2.250.1.213.3.3.11"
-                  displayName="Thérapie de groupe ou atelier à médiation orale et-ou écrite (groupe de parole, d'écriture)"/>
+                  displayName="Thérapie de groupe ou atelier à médiation orale et/ou écrite (groupe de parole, d'écriture)"/>
          <Concept code="0539"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Thérapie de groupe ou atelier à médiation artistique plastique"/>
@@ -2028,7 +2028,7 @@
                   displayName="Vaccination contre les infections sexuellement transmissibles (IST)"/>
          <Concept code="1014"
                   codeSystem="1.2.250.1.213.3.3.11"
-                  displayName="Fourniture de matériel d'hygiène, de prévention et de RdRD"/>
+                  displayName="Fourniture de matériel d’hygiène, de prévention et de Réduction des Risques et des Dommages (RdRD)"/>
          <Concept code="1015"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Surveillance de drainage pleural"/>
@@ -3273,7 +3273,7 @@
                   displayName="Soins infirmiers d'hémodialyse"/>
          <Concept code="1453"
                   codeSystem="1.2.250.1.213.3.3.11"
-                  displayName="Suivi, repérage précoce et accompagnement du développement psychomoteur, des troubles de comportement et des Troubles Neuro Développementaux"/>
+                  displayName="Suivi, repérage précoce et accompagnement du développement psychomoteur, des troubles de comportement et des Troubles Neuro Développementaux"/>
          <Concept code="1454"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Evaluation et suivi standardisé clinique et paraclinique des commotions cérébrales (Traumatisme Crânien Léger - TCL) dans un cadre sportif"/>

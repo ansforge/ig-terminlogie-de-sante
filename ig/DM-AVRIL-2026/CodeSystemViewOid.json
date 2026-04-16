@@ -111,6 +111,22 @@
   "status" : "retired"
 },
 {
+  "id" : "TRE-R210-ActeSpecifique",
+  "name" : "TRE_R210_ActeSpecifique",
+  "title" : null,
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.11",
+  "status" : "active"
+},
+{
+  "id" : "TRE-R211-ActiviteOperationnelle",
+  "name" : "TRE_R211_ActiviteOperationnelle",
+  "title" : null,
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.12",
+  "status" : "active"
+},
+{
   "id" : "TRE-R283-NiveauConfidentialite",
   "name" : "TRE_R283_NiveauConfidentialite",
   "title" : null,
@@ -1036,22 +1052,6 @@
   "title" : null,
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R20-Pays/FHIR/TRE-R20-Pays",
   "identifier" : "urn:oid:1.2.250.1.213.2.24",
-  "status" : "active"
-},
-{
-  "id" : "TRE-R210-ActeSpecifique",
-  "name" : "TRE_R210_ActeSpecifique",
-  "title" : null,
-  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique",
-  "identifier" : "urn:oid:1.2.250.1.213.3.3.11",
-  "status" : "active"
-},
-{
-  "id" : "TRE-R211-ActiviteOperationnelle",
-  "name" : "TRE_R211_ActiviteOperationnelle",
-  "title" : null,
-  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
-  "identifier" : "urn:oid:1.2.250.1.213.3.3.12",
   "status" : "active"
 },
 {

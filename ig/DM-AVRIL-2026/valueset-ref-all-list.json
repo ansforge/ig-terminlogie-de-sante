@@ -161,8 +161,8 @@
     "sources" : ["1.2.250.1.213.1.1.5.465"],
     "uses" : {
     },
-    "ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.html" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS",
-    "ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.html" : "ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS"
+    "ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.html" : "ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS",
+    "ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.html" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS"
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J100-FinessStatutJuridique-RASS/FHIR/JDV-J100-FinessStatutJuridique-RASS",
@@ -906,7 +906,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J16-ActeSpecifique-ROR/FHIR/JDV-J16-ActeSpecifique-ROR",
-    "version" : "20260330120000",
+    "version" : "20260505120000",
     "status" : "active",
     "name" : "JDV_J16_ActeSpecifique_ROR",
     "title" : null,

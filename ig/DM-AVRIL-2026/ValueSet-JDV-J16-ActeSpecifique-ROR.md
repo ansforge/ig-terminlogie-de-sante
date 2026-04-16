@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J16-ActeSpecifique-ROR/FHIR/JDV-J16-ActeSpecifique-ROR | *Version*:20260330120000 | |
-| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J16_ActeSpecifique_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J16-ActeSpecifique-ROR/FHIR/JDV-J16-ActeSpecifique-ROR | *Version*:20260505120000 | |
+| Active as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J16_ActeSpecifique_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.4 | | |
 
  
@@ -56,7 +56,7 @@ Requête sur le SMT
   "id" : "JDV-J16-ActeSpecifique-ROR",
   "meta" : {
     "versionId" : "28",
-    "lastUpdated" : "2026-03-27T12:18:01.859+01:00",
+    "lastUpdated" : "2026-05-05T12:18:01.859+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -71,11 +71,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.4"
   }],
-  "version" : "20260330120000",
+  "version" : "20260505120000",
   "name" : "JDV_J16_ActeSpecifique_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-30T12:00:00+01:00",
+  "date" : "2026-05-05T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Acte spécifique - ROR",
   "jurisdiction" : [{
@@ -1249,7 +1249,7 @@ Requête sur le SMT
       },
       {
         "code" : "0538",
-        "display" : "Thérapie de groupe ou atelier à médiation orale et-ou écrite (groupe de parole, d'écriture)"
+        "display" : "Thérapie de groupe ou atelier à médiation orale et/ou écrite (groupe de parole, d'écriture)"
       },
       {
         "code" : "0539",
@@ -2777,7 +2777,7 @@ Requête sur le SMT
       },
       {
         "code" : "1014",
-        "display" : "Fourniture de matériel d'hygiène, de prévention et de RdRD"
+        "display" : "Fourniture de matériel d’hygiène, de prévention et de Réduction des Risques et des Dommages (RdRD)"
       },
       {
         "code" : "1015",
@@ -4437,7 +4437,7 @@ Requête sur le SMT
       },
       {
         "code" : "1453",
-        "display" : "Suivi, repérage précoce et accompagnement du développement psychomoteur, des troubles de comportement et des Troubles Neuro Développementaux"
+        "display" : "Suivi, repérage précoce et accompagnement du développement psychomoteur, des troubles de comportement et des Troubles Neuro Développementaux"
       },
       {
         "code" : "1454",
