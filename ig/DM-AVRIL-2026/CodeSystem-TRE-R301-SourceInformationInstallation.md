@@ -105,11 +105,19 @@ Sources d’information possible concernant l’installation de l’activité so
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2022-08-26T12:00:00+01:00"
+      "valueDateTime" : "2026-02-23T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-02-23T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-02-23T12:00:00+01:00"
     }]
   },
   {
@@ -121,11 +129,19 @@ Sources d’information possible concernant l’installation de l’activité so
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2022-08-26T12:00:00+01:00"
+      "valueDateTime" : "2026-02-23T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-02-23T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-02-23T12:00:00+01:00"
     }]
   },
   {
@@ -137,11 +153,19 @@ Sources d’information possible concernant l’installation de l’activité so
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2022-08-26T12:00:00+01:00"
+      "valueDateTime" : "2026-02-23T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-02-23T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-02-23T12:00:00+01:00"
     }]
   },
   {
@@ -153,11 +177,19 @@ Sources d’information possible concernant l’installation de l’activité so
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2022-08-26T12:00:00+01:00"
+      "valueDateTime" : "2026-02-23T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-02-23T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-02-23T12:00:00+01:00"
     }]
   },
   {
@@ -169,11 +201,19 @@ Sources d’information possible concernant l’installation de l’activité so
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2022-08-26T12:00:00+01:00"
+      "valueDateTime" : "2026-02-23T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-02-23T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-02-23T12:00:00+01:00"
     }]
   },
   {
@@ -185,11 +225,19 @@ Sources d’information possible concernant l’installation de l’activité so
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2022-08-26T12:00:00+01:00"
+      "valueDateTime" : "2026-02-23T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-02-23T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-02-23T12:00:00+01:00"
     }]
   },
   {
@@ -201,11 +249,19 @@ Sources d’information possible concernant l’installation de l’activité so
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2022-08-26T12:00:00+01:00"
+      "valueDateTime" : "2026-02-23T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-02-23T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-02-23T12:00:00+01:00"
     }]
   },
   {
@@ -217,11 +273,19 @@ Sources d’information possible concernant l’installation de l’activité so
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2022-08-26T12:00:00+01:00"
+      "valueDateTime" : "2026-02-23T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-02-23T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-02-23T12:00:00+01:00"
     }]
   },
   {
@@ -233,11 +297,19 @@ Sources d’information possible concernant l’installation de l’activité so
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2022-08-26T12:00:00+01:00"
+      "valueDateTime" : "2026-02-23T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-02-23T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-02-23T12:00:00+01:00"
     }]
   },
   {

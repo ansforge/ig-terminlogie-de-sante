@@ -119,6 +119,14 @@
   "status" : "active"
 },
 {
+  "id" : "TRE-R301-SourceInformationInstallation",
+  "name" : "TRE_R301_SourceInformationInstallation",
+  "title" : null,
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.208",
+  "status" : "retired"
+},
+{
   "id" : "TRE-R66-CategorieEtablissement",
   "name" : "TRE_R66_CategorieEtablissement",
   "title" : null,
@@ -1749,14 +1757,6 @@
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R300-AgregatDisciplineEquipSocNiv3/FHIR/TRE-R300-AgregatDisciplineEquipSocNiv3",
   "identifier" : "urn:oid:1.2.250.1.213.1.6.1.204",
   "status" : "active"
-},
-{
-  "id" : "TRE-R301-SourceInformationInstallation",
-  "name" : "TRE_R301_SourceInformationInstallation",
-  "title" : null,
-  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation",
-  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.208",
-  "status" : "retired"
 },
 {
   "id" : "TRE-R302-ContexteCodeComplementaire",

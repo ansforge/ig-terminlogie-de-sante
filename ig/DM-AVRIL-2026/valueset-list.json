@@ -2141,7 +2141,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J279-Loinc-UPNOS/FHIR/JDV-J279-Loinc-UPNOS",
-    "version" : "20240927120000",
+    "version" : "20260505120000",
     "status" : "active",
     "name" : "JDV_J279_Loinc_UPNOS",
     "title" : null,

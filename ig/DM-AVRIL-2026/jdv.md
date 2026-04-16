@@ -199,7 +199,7 @@ Les jeux de valeurs (JDV) sont des nomenclatures constituées de codes extraits 
 | [JDV_J275_EMDN_UPNOS](ValueSet-JDV-J275-EMDN-UPNOS.md) | Termes EMDN utilisés | 27/09/2024 |
 | [JDV_J277_NCIT_CISIS](ValueSet-JDV-J277-NCIT-CISIS.md) | Termes NCIT utilisés | 13/12/2024 |
 | [JDV_J278_UcumUniteMesure_UPNOS](ValueSet-JDV-J278-UcumUniteMesure-UPNOS.md) | Termes UCUM utilisés | 27/09/2024 |
-| [JDV_J279_Loinc_UPNOS](ValueSet-JDV-J279-Loinc-UPNOS.md) | Termes LOINC utilisés | 27/09/2024 |
+| [JDV_J279_Loinc_UPNOS](ValueSet-JDV-J279-Loinc-UPNOS.md) | Termes LOINC utilisés | 05/05/2026 |
 | [JDV_J27_GroupeTarifaireDependance_ROR](ValueSet-JDV-J27-GroupeTarifaireDependance-ROR.md) | Niveau de dépendance associé à un tarif d'un ESMS - ROR | 26/01/2024 |
 | [JDV_J281_StatutsRessourcesMS](ValueSet-JDV-J281-StatutsRessourcesMS.md) | Caractérise le statut d’une ressource du médico-social au cours de son cycle de vie. | 22/12/2025 |
 | [JDV_J282_TransportsLiesAuProjetIndividuel_SERAFIN](ValueSet-JDV-J282-TransportsLiesAuProjetIndividuel-SERAFIN.md) | Liste les natures des transports liés au projet individuel provenant de la terminologie SERAFIN | 25/10/2024 |
