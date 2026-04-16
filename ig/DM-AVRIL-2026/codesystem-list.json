@@ -2287,7 +2287,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement",
-    "version" : "20260330120000",
+    "version" : "20260505120000",
     "status" : "active",
     "name" : "TRE_R66_CategorieEtablissement",
     "title" : null,
@@ -2841,7 +2841,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
-    "version" : "20260330120000",
+    "version" : "20260505120000",
     "status" : "active",
     "name" : "TreR397CategorieEntiteGeographiqueExercice",
     "title" : "Tre R397 Categorie Entite Geographique Exercice",
@@ -3070,7 +3070,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-nabm",
-    "version" : "V102",
+    "version" : "V103",
     "status" : "active",
     "name" : "NABM",
     "title" : "Nomenclature des actes de biologie médicale",

@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement | *Version*:20260330120000 | |
-| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R66_CategorieEtablissement |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement | *Version*:20260505120000 | |
+| Active as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R66_CategorieEtablissement |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.8 | | |
 
  
@@ -41,7 +41,7 @@ Catégorie d’établissements
   "id" : "TRE-R66-CategorieEtablissement",
   "meta" : {
     "versionId" : "22",
-    "lastUpdated" : "2026-03-27T11:13:18.258+01:00",
+    "lastUpdated" : "2026-05-05T11:13:18.258+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -56,11 +56,11 @@ Catégorie d’établissements
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.8"
   }],
-  "version" : "20260330120000",
+  "version" : "20260505120000",
   "name" : "TRE_R66_CategorieEtablissement",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-30T12:00:00+01:00",
+  "date" : "2026-05-05T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Catégorie d'établissements",
   "jurisdiction" : [{
@@ -2966,14 +2966,15 @@ Catégorie d’établissements
   },
   {
     "code" : "236",
-    "display" : "Centre Placement Familial Socio-Educatif (C.P.F.S.E.)",
+    "display" : "Service de placement familial",
+    "definition" : "Suite à une réunion avec l'ASE (DGCS), il a été décidé que le changement de nom de la catégorie Centre Placement Familial Socio-Educatif (C.P.F.S.E.)  en « Service de placement familial» (catégorie 236).",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "C.P.F.S.E."
+      "value" : "S.P.F"
     },
     {
       "language" : "fr-FR",
@@ -2981,7 +2982,7 @@ Catégorie d’établissements
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Centre de placement familial socio-éducatif (CPFSE)"
+      "value" : "Service de placement familial (SPF)"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -2989,7 +2990,7 @@ Catégorie d’établissements
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2005-07-06T00:00:00+01:00"
+      "valueDateTime" : "2026-05-05T00:00:00+01:00"
     },
     {
       "code" : "status",

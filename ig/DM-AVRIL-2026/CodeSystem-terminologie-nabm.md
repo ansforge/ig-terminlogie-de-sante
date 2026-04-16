@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/terminologie-nabm | *Version*:V102 | |
-| Active as of 2026-02-23 | *Responsible:*Agence du numérique en santé | *Computable Name*:NABM |
+| *Official URL*:https://smt.esante.gouv.fr/terminologie-nabm | *Version*:V103 | |
+| Active as of 2026-04-13 | *Responsible:*Agence du numérique en santé | *Computable Name*:NABM |
 | *Other Identifiers:*OID:1.2.250.1.215.300.2 (use: usual, ), https://smt.esante.gouv.fr/#terminologie-nabm (use: secondary, ) | | |
 | **Copyright/Legal**: [LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md) | | |
 
@@ -29,8 +29,8 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
   "resourceType" : "CodeSystem",
   "id" : "terminologie-nabm",
   "meta" : {
-    "versionId" : "14",
-    "lastUpdated" : "2026-03-02T11:17:22.852+01:00",
+    "versionId" : "15",
+    "lastUpdated" : "2026-04-16T10:26:57.301+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "url" : "https://smt.esante.gouv.fr/terminologie-nabm",
@@ -44,12 +44,12 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     "system" : "https://smt.esante.gouv.fr/",
     "value" : "terminologie-nabm"
   }],
-  "version" : "V102",
+  "version" : "V103",
   "name" : "NABM",
   "title" : "Nomenclature des actes de biologie médicale",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-23T00:00:00+00:00",
+  "date" : "2026-04-13T00:00:00+00:00",
   "publisher" : "Agence du numérique en santé",
   "description" : "La NABM est la terminologie de facturation des actes de biologie médicale. Elle décrit la liste des actes de biologie dans une arborescence en chapitres et sous-chapitres ainsi que des règles de facturation.",
   "jurisdiction" : [{
@@ -61,7 +61,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
   "copyright" : "[LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md)",
   "valueSet" : "https://smt.esante.gouv.fr/terminologie-nabm?vs",
   "content" : "complete",
-  "count" : 1047,
+  "count" : 1046,
   "filter" : [{
     "code" : "root",
     "operator" : ["="],
@@ -1940,7 +1940,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "17/01/2019"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -1956,7 +1956,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -9136,7 +9136,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/01/2022"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -9152,7 +9152,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -11948,7 +11948,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -11964,7 +11964,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -12208,7 +12208,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -12224,7 +12224,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -12868,7 +12868,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "27/11/2009"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -12884,7 +12884,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -12992,7 +12992,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -13008,7 +13008,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -13112,7 +13112,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -13128,7 +13128,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -14228,7 +14228,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -14244,7 +14244,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -14424,7 +14424,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -14440,7 +14440,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -15060,7 +15060,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -15076,7 +15076,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -15477,7 +15477,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
   },
   {
     "code" : "4004",
-    "display" : "DPN : TRISOMIE 21 FOETALE : DEPISTAGE 2E TRIMESTRE, MARQUEURS SERIQUES MATERNELS",
+    "display" : "DPN:TRISOMIE 21 FOETALE : DEPISTAGE 2E TRIMESTRE,MARQUEURS SERIQUES MATERNELS",
     "property" : [{
       "code" : "parent",
       "valueCode" : "17-06"
@@ -15488,7 +15488,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "14/04/2018"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -15504,7 +15504,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -16416,7 +16416,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -16432,7 +16432,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -16736,7 +16736,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -16752,7 +16752,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -16792,7 +16792,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -16808,7 +16808,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -17249,7 +17249,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
   },
   {
     "code" : "4046",
-    "display" : "DPN PROPREMENT DIT  : MUCOVISCIDOSE : POLYMORPHISME DE L'ADN",
+    "display" : "DPN PROPREMENT DIT : MUCOVISCIDOSE : POLYMORPHISME DE L'ADN",
     "property" : [{
       "code" : "parent",
       "valueCode" : "17-02"
@@ -17260,7 +17260,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -17276,7 +17276,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -17504,7 +17504,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -17520,7 +17520,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -18517,7 +18517,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -18533,7 +18533,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -19246,7 +19246,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -19262,7 +19262,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -20163,7 +20163,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -20179,7 +20179,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -20275,7 +20275,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -20291,7 +20291,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -20828,7 +20828,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -20844,7 +20844,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -20956,7 +20956,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -20972,7 +20972,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -21773,7 +21773,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -21789,7 +21789,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -22666,7 +22666,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -22682,7 +22682,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -23094,7 +23094,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -23110,7 +23110,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -23150,7 +23150,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -23166,7 +23166,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -24075,7 +24075,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "11/03/2025"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -24091,7 +24091,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -24971,7 +24971,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "11/03/2025"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -24987,7 +24987,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -26039,7 +26039,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "11/03/2025"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -26055,7 +26055,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -26467,7 +26467,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "01/02/2019"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -26483,7 +26483,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -27111,7 +27111,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -27127,7 +27127,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -27223,7 +27223,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "04/04/2023"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -27239,7 +27239,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -27355,7 +27355,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -27371,7 +27371,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -28547,7 +28547,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -28563,7 +28563,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -30159,7 +30159,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "30/05/2025"
+      "valueString" : "15/05/2026"
     },
     {
       "code" : "type",
@@ -30187,7 +30187,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "coeffB",
-      "valueString" : "16"
+      "valueString" : "17"
     },
     {
       "code" : "codeIncompatible",
@@ -30723,7 +30723,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -30739,7 +30739,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -31651,7 +31651,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "17/01/2019"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -31667,7 +31667,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -36091,10 +36091,6 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "child",
-      "valueCode" : "1124"
-    },
-    {
-      "code" : "child",
       "valueCode" : "1118"
     },
     {
@@ -38436,62 +38432,6 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     {
       "code" : "coeffB",
       "valueString" : "25"
-    },
-    {
-      "code" : "acteReserve",
-      "valueBoolean" : false
-    },
-    {
-      "code" : "rmo",
-      "valueBoolean" : false
-    },
-    {
-      "code" : "examenSanguin",
-      "valueBoolean" : true
-    }]
-  },
-  {
-    "code" : "1124",
-    "display" : "VITESSE DE SEDIMENTATION (VS)",
-    "property" : [{
-      "code" : "parent",
-      "valueCode" : "05-01"
-    },
-    {
-      "code" : "created",
-      "valueString" : "01/01/1996"
-    },
-    {
-      "code" : "modified",
-      "valueString" : "11/03/2025"
-    },
-    {
-      "code" : "type",
-      "valueString" : "code"
-    },
-    {
-      "code" : "initativeBiologistePossible",
-      "valueBoolean" : false
-    },
-    {
-      "code" : "indicationMédicale",
-      "valueBoolean" : false
-    },
-    {
-      "code" : "remboursementTotal",
-      "valueBoolean" : false
-    },
-    {
-      "code" : "ententePréalable",
-      "valueBoolean" : false
-    },
-    {
-      "code" : "nombreMaximumParFacturation",
-      "valueInteger" : 1
-    },
-    {
-      "code" : "coeffB",
-      "valueString" : "2"
     },
     {
       "code" : "acteReserve",
@@ -44135,7 +44075,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -44151,7 +44091,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -48655,7 +48595,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -48671,7 +48611,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -49023,7 +48963,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -49039,7 +48979,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -49644,7 +49584,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
   },
   {
     "code" : "4058",
-    "display" : "DPN : ALPHA-THALASSEMIE AVEC ANTECEDENTS FAMILIAUX CONNUS",
+    "display" : "DPN:ALPHA-THALASSEMIE AVEC ANTECEDENTS FAMILIAUX CONNUS",
     "property" : [{
       "code" : "parent",
       "valueCode" : "17-02"
@@ -49655,7 +49595,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -49671,7 +49611,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -49899,7 +49839,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -49915,7 +49855,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -49955,7 +49895,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -49971,7 +49911,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -50851,7 +50791,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -50867,7 +50807,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -51095,7 +51035,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -51111,7 +51051,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -52119,7 +52059,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -52135,7 +52075,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -53123,7 +53063,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -53139,7 +53079,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -53243,7 +53183,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -53259,7 +53199,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -54003,7 +53943,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -54019,7 +53959,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -54127,7 +54067,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -54143,7 +54083,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -54843,7 +54783,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -54859,7 +54799,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -54903,7 +54843,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -54919,7 +54859,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -56039,7 +55979,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -56055,7 +55995,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -56727,7 +56667,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -56743,7 +56683,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -57991,7 +57931,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -58007,7 +57947,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -59295,7 +59235,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -59311,7 +59251,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -59603,7 +59543,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -59619,7 +59559,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -60755,7 +60695,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -60771,7 +60711,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -61203,7 +61143,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -61219,7 +61159,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -64314,7 +64254,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
   },
   {
     "code" : "4095",
-    "display" : "DPN : DEFICIT CONGENITAL EN FACTEUR DE L'HEMOSTASE (VIII , IX , W, PROT C, S..)",
+    "display" : "DPN:DEFICIT CONGENITAL EN FACTEUR DE L'HEMOSTASE(VIII , IX , W, PROT C, S..)",
     "property" : [{
       "code" : "parent",
       "valueCode" : "17-05"
@@ -64325,7 +64265,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -64341,7 +64281,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -64437,7 +64377,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -64453,7 +64393,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
@@ -65717,7 +65657,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "modified",
-      "valueString" : "05/04/1996"
+      "valueString" : "16/04/2026"
     },
     {
       "code" : "type",
@@ -65733,7 +65673,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "remboursementTotal",
-      "valueBoolean" : true
+      "valueBoolean" : false
     },
     {
       "code" : "ententePréalable",
