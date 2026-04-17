@@ -14,13 +14,6 @@ jobs:
   analyze:
     runs-on: ubuntu-latest
     # Limiter aux issues terminologiques (sauf déclenchement manuel)
-    if: |
-      github.event_name == 'workflow_dispatch' ||
-      contains(github.event.issue.title, 'TRE') ||
-      contains(github.event.issue.title, 'JDV') ||
-      contains(github.event.issue.title, 'DM') ||
-      contains(github.event.issue.title, 'FINESS') ||
-      contains(github.event.issue.title, 'NOS')
 
     permissions:
       issues: write
