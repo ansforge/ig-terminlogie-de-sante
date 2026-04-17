@@ -151,6 +151,14 @@
   "status" : "active"
 },
 {
+  "id" : "TRE-R85-RolePriseCharge",
+  "name" : "TRE_R85_RolePriseCharge",
+  "title" : null,
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.107",
+  "status" : "active"
+},
+{
   "id" : "TimingEvent-supplement-fr",
   "name" : "TimingEventSupplementFr",
   "title" : "TimingEventSupplementFr",
@@ -2484,14 +2492,6 @@
   "title" : null,
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R84-ProfilAccesAnnuaire-MSSante/FHIR/TRE-R84-ProfilAccesAnnuaire-MSSante",
   "identifier" : "urn:oid:1.2.250.1.213.1.9.1.1",
-  "status" : "active"
-},
-{
-  "id" : "TRE-R85-RolePriseCharge",
-  "name" : "TRE_R85_RolePriseCharge",
-  "title" : null,
-  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
-  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.107",
   "status" : "active"
 },
 {

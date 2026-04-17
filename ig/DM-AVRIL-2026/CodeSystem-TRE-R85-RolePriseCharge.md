@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge | *Version*:20260330120000 | |
-| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R85_RolePriseCharge |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge | *Version*:20260505120000 | |
+| Active as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R85_RolePriseCharge |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.107 | | |
 
  
@@ -41,7 +41,7 @@ Rôle dans la prise en charge des patients ou des usagers
   "id" : "TRE-R85-RolePriseCharge",
   "meta" : {
     "versionId" : "24",
-    "lastUpdated" : "2026-03-27T11:13:18.775+01:00",
+    "lastUpdated" : "2026-05-05T11:13:18.775+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -56,11 +56,11 @@ Rôle dans la prise en charge des patients ou des usagers
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.107"
   }],
-  "version" : "20260330120000",
+  "version" : "20260505120000",
   "name" : "TRE_R85_RolePriseCharge",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-30T12:00:00+01:00",
+  "date" : "2026-05-05T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Rôle dans la prise en charge des patients ou des usagers",
   "jurisdiction" : [{
@@ -71,7 +71,7 @@ Rôle dans la prise en charge des patients ou des usagers
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 76,
+  "count" : 80,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -1694,6 +1694,74 @@ Rôle dans la prise en charge des patients ou des usagers
     {
       "code" : "dateMaj",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "376",
+    "display" : "PADHUE - Médecin",
+    "definition" : "Médecin formé à l’étranger (hors UE) qui travaille dans le système de santé français avant ou pendant la procédure de reconnaissance de son diplôme étranger afin d’obtenir une autorisation de plein exercice. Le diplôme de ce professionnel n'est pas enregistré au RPPS avant l'obtention de l'autorisation de plein exercice, le justificatif sera alors enregistré par l'Ordre.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "377",
+    "display" : "PADHUE - Pharmacien",
+    "definition" : "Pharmacien formé à l’étranger (hors UE) qui travaille dans le système de santé français avant ou pendant la procédure de reconnaissance de son diplôme étranger afin d’obtenir une autorisation de plein exercice. Le diplôme de ce professionnel n'est pas enregistré au RPPS avant l'obtention de l'autorisation de plein exercice, le justificatif sera alors enregistré par l'Ordre.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "378",
+    "display" : "PADHUE - Sage Femme",
+    "definition" : "Sage Femme formé à l’étranger (hors UE) qui travaille dans le système de santé français avant ou pendant la procédure de reconnaissance de son diplôme étranger afin d’obtenir une autorisation de plein exercice. Le diplôme de ce professionnel n'est pas enregistré au RPPS avant l'obtention de l'autorisation de plein exercice, le justificatif sera alors enregistré par l'Ordre.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "379",
+    "display" : "PADHUE - Chirurgien Dentiste",
+    "definition" : "Chirurgien Dentiste formé à l’étranger (hors UE) qui travaille dans le système de santé français avant ou pendant la procédure de reconnaissance de son diplôme étranger afin d’obtenir une autorisation de plein exercice. Le diplôme de ce professionnel n'est pas enregistré au RPPS avant l'obtention de l'autorisation de plein exercice, le justificatif sera alors enregistré par l'Ordre.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
     },
     {
       "code" : "status",

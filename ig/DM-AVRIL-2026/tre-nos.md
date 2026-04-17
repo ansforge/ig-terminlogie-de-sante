@@ -137,7 +137,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R81_Civilite](CodeSystem-TRE-R81-Civilite.md) | Civilité | 15/12/2023 |
 | [TRE_R82_Ordre](CodeSystem-TRE-R82-Ordre.md) | Ordre | 15/12/2023 |
 | [TRE_R84_ProfilAccesAnnuaire_MSSante](CodeSystem-TRE-R84-ProfilAccesAnnuaire-MSSante.md) | Profil d'accès à l'annuaire MSSante | 15/12/2023 |
-| [TRE_R85_RolePriseCharge](CodeSystem-TRE-R85-RolePriseCharge.md) | Rôle dans la prise en charge des patients ou des usagers | 30/03/2026 |
+| [TRE_R85_RolePriseCharge](CodeSystem-TRE-R85-RolePriseCharge.md) | Rôle dans la prise en charge des patients ou des usagers | 05/05/2026 |
 | [TRE_R86_ProfilVIHF](CodeSystem-TRE-R86-ProfilVIHF.md) | Profil VIHF d'accès | 15/12/2023 |
 | [TRE_R87_TypeCarte](CodeSystem-TRE-R87-TypeCarte.md) | Type de carte | 15/12/2023 |
 | [TRE_R88_TerritoireSante](CodeSystem-TRE-R88-TerritoireSante.md) | Territoire de Santé (au sens ARS) en France | 15/12/2023 |
