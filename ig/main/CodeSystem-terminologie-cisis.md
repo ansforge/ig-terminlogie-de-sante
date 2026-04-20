@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis | *Version*:202603110000 | |
-| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TerminologieCISIS |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis | *Version*:202604200000 | |
+| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TerminologieCISIS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.4.322 | | |
 
  
@@ -265,8 +265,8 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
   "resourceType" : "CodeSystem",
   "id" : "terminologie-cisis",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2026-03-11T15:10:50.705+01:00",
+    "versionId" : "10",
+    "lastUpdated" : "2026-04-20T11:25:29.352+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
@@ -280,12 +280,12 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.4.322"
   }],
-  "version" : "202603110000",
+  "version" : "202604200000",
   "name" : "TerminologieCISIS",
   "title" : "TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-11T14:52:01-00:00",
+  "date" : "2026-04-20T11:06:51-00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Terminologie multi-domaines créée et maintenue par l'ANS contenant les termes non trouvés dans les autres terminologies internationales ou nationales.",
   "jurisdiction" : [{
@@ -22944,6 +22944,22 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "dateValid",
       "valueDateTime" : "2026-03-05T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-1350",
+    "display" : "Entrées/sorties hydro-électrolytiques",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-03-20T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-20T00:00:00+01:00"
     },
     {
       "code" : "status",

@@ -55,6 +55,6 @@ However, this HL7 datatypes specification treats the entire media type as one at
 | [SpecimenType](CodeSystem-v3-SpecimenType.md) | **** MISSING DESCRIPTION **** | 20/03/2019 |
 | [Standard_terms_EDQM](CodeSystem-terminologie-standardterms.md) | Les standard terms (ou listes de termes normalisés) ont été établis en réponse à une demande de la Commission européenne. Ils contiennent les formes pharmaceutiques, les voies et/ou les méthodes d’administration, les unités de présentation, ainsi que les conditionnements, les systèmes de fermeture et les dispositifs d’administration des médicaments à usage humain et/ou vétérinaire. | 11/07/2025 |
 | [SubstanceAdminSubstitution](CodeSystem-v3-substanceAdminSubstitution.md) | Identifies what sort of change is permitted or has occurred between the therapy that was ordered and the therapy that was/will be provided. | 20/03/2019 |
-| [TerminologieCISIS](CodeSystem-terminologie-cisis.md) | Terminologie multi-domaines créée et maintenue par l'ANS contenant les termes non trouvés dans les autres terminologies internationales ou nationales. | 11/03/2026 |
+| [TerminologieCISIS](CodeSystem-terminologie-cisis.md) | Terminologie multi-domaines créée et maintenue par l'ANS contenant les termes non trouvés dans les autres terminologies internationales ou nationales. | 20/04/2026 |
 | [TimingEvent](CodeSystem-v3-TimingEvent.md) | **** MISSING DESCRIPTION **** | 20/03/2019 |
 

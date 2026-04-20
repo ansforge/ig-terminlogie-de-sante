@@ -295,7 +295,7 @@ However, this HL7 datatypes specification treats the entire media type as one at
 | [TRE_R95_UsagerTitre](CodeSystem-TRE-R95-UsagerTitre.md) | Usager de titre professionnel | 13/12/2024 |
 | [TRE_R96_AutreFonctionSanitaire](CodeSystem-TRE-R96-AutreFonctionSanitaire.md) | Autres fonctions du domaine sanitaire | 15/12/2023 |
 | [TRE_R97_DroitExerciceCompl](CodeSystem-TRE-R97-DroitExerciceCompl.md) | Droit d'exercice complémentaire | 15/12/2023 |
-| [TerminologieCISIS](CodeSystem-terminologie-cisis.md) | Terminologie multi-domaines créée et maintenue par l'ANS contenant les termes non trouvés dans les autres terminologies internationales ou nationales. | 11/03/2026 |
+| [TerminologieCISIS](CodeSystem-terminologie-cisis.md) | Terminologie multi-domaines créée et maintenue par l'ANS contenant les termes non trouvés dans les autres terminologies internationales ou nationales. | 20/04/2026 |
 | [TimingEvent](CodeSystem-v3-TimingEvent.md) | **** MISSING DESCRIPTION **** | 20/03/2019 |
 | [TreR360TypeRoleEntiteGroupe](CodeSystem-tre-r360-type-role-entite-groupe.md) | Nomenclature des types de rôles que peuvent exercer des entités participants à des groupements | 30/03/2026 |
 | [TreR361FonctionPublique](CodeSystem-tre-r361-fonction-publique.md) | Nomenclature des versants de la fonction publique | 30/03/2026 |
