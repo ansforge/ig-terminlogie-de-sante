@@ -42,28 +42,28 @@ Description: "Type de courrier en France."
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
 * ^property[=].description = "Date Concept was retired"
 * ^property[=].type = #dateTime
-* #ELR "e-lettre rouge"
+* #ELR "E-lettre rouge"
 * #ELR ^property[0].code = #dateValid
 * #ELR ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #ELR ^property[+].code = #dateMaj
 * #ELR ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #ELR ^property[+].code = #status
 * #ELR ^property[=].valueCode = #active
-* #LV "lettre verte"
+* #LV "Lettre verte"
 * #LV ^property[0].code = #dateValid
 * #LV ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #LV ^property[+].code = #dateMaj
 * #LV ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #LV ^property[+].code = #status
 * #LV ^property[=].valueCode = #active
-* #LSP "lettre Services Plus"
+* #LSP "Lettre Services Plus"
 * #LSP ^property[0].code = #dateValid
 * #LSP ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #LSP ^property[+].code = #dateMaj
 * #LSP ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #LSP ^property[+].code = #status
 * #LSP ^property[=].valueCode = #active
-* #LR "lettre recommandée"
+* #LR "Lettre recommandée"
 * #LR ^property[0].code = #dateValid
 * #LR ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #LR ^property[+].code = #dateMaj
