@@ -42,14 +42,14 @@ Description: "Précise l'utilisation du canal de communication."
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
 * ^property[=].description = "Date Concept was retired"
 * ^property[=].type = #dateTime
-* #1 "privé"
+* #1 "Privé"
 * #1 ^property[0].code = #dateValid
 * #1 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #1 ^property[+].code = #dateMaj
 * #1 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #1 ^property[+].code = #status
 * #1 ^property[=].valueCode = #active
-* #2 "professionnel"
+* #2 "Professionnel"
 * #2 ^property[0].code = #dateValid
 * #2 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #2 ^property[+].code = #dateMaj
