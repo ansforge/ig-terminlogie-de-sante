@@ -36603,6 +36603,18 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-j418-activite-sanitaire-diverse-regulee"
+      },
+      "name" : "Jdv J418 Activite Sanitaire Diverse Regulee",
+      "description" : "Jeu de valeurs contenant toutes les activités sanitaires, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/JDV-J69-ActiviteOperationnelle-Santefr"
       },
       "name" : "JDV J69 ActiviteOperationnelle Santefr",

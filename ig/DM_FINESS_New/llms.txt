@@ -908,6 +908,7 @@
 * [Jdv J386 Type Enseignement Specialise Ms](ValueSet-jdv-j386-type-enseignement-specialise-ms.md)
 * [Jdv J387 Role Participant Ms](ValueSet-jdv-j387-role-participant-ms.md)
 * [Jdv J388 Mode Fonctionnement Activite Smsse Regulee Rass](ValueSet-jdv-j388-mode-fonctionnement-activite-smsse-regulee-rass.md)
+* [Jdv J418 Activite Sanitaire Diverse Regulee](ValueSet-jdv-j418-activite-sanitaire-diverse-regulee.md)
 * [JDV Jour Semaine CISIS](ValueSet-jdv-jour-semaine-cisis.md)
 * [JDV Juridique CISIS](ValueSet-jdv-juridique-cisis.md)
 * [JDV Lateralite CISIS](ValueSet-jdv-lateralite-cisis.md)

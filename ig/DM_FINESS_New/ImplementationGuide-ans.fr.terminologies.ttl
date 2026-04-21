@@ -77893,6 +77893,27 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j418-activite-sanitaire-diverse-regulee> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j418-activite-sanitaire-diverse-regulee" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J418 Activite Sanitaire Diverse Regulee" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs contenant toutes les activités sanitaires, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR)" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/JDV-J69-ActiviteOperationnelle-Santefr> ;
          fhir:reference [ fhir:v "ValueSet/JDV-J69-ActiviteOperationnelle-Santefr" ]
        ] ;

@@ -7315,6 +7315,14 @@
   "oids" : ["1.2.250.1.213.1.6.1.395"]
 },
 {
+  "id" : "jdv-j418-activite-sanitaire-diverse-regulee",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j418-activite-sanitaire-diverse-regulee",
+  "version" : "20260421120000",
+  "name" : "JdvJ418ActiviteSanitaireDiverseRegulee",
+  "oids" : ["1.2.250.1.213.1.6.1.400"]
+},
+{
   "id" : "jdv-jour-semaine-cisis",
   "type" : "ValueSet",
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-jour-semaine-cisis",

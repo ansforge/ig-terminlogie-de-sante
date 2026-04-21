@@ -27246,6 +27246,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-j418-activite-sanitaire-diverse-regulee"/>
+      </reference>
+      <name value="Jdv J418 Activite Sanitaire Diverse Regulee"/>
+      <description value="Jeu de valeurs contenant toutes les activités sanitaires, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/JDV-J69-ActiviteOperationnelle-Santefr"/>
       </reference>
       <name value="JDV J69 ActiviteOperationnelle Santefr"/>
