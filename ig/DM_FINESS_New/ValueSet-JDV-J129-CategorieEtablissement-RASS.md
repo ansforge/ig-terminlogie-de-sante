@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J129-CategorieEtablissement-RASS/FHIR/JDV-J129-CategorieEtablissement-RASS | *Version*:20251222120000 | |
-| Retired as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J129_CategorieEtablissement_RASS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J129-CategorieEtablissement-RASS/FHIR/JDV-J129-CategorieEtablissement-RASS | *Version*:20260223120000 | |
+| Retired as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J129_CategorieEtablissement_RASS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.215 | | |
 
  
@@ -57,8 +57,8 @@ Expansions are not generated for retired value sets
   "resourceType" : "ValueSet",
   "id" : "JDV-J129-CategorieEtablissement-RASS",
   "meta" : {
-    "versionId" : "13",
-    "lastUpdated" : "2025-12-22T17:04:57.875+00:00",
+    "versionId" : "17",
+    "lastUpdated" : "2026-02-23T18:17:24.571+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -66,7 +66,7 @@ Expansions are not generated for retired value sets
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
       "start" : "2020-11-27T12:00:00+01:00",
-      "end" : "2025-12-22T12:00:00+01:00"
+      "end" : "2026-02-23T12:00:00+01:00"
     }
   }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J129-CategorieEtablissement-RASS/FHIR/JDV-J129-CategorieEtablissement-RASS",
@@ -74,17 +74,17 @@ Expansions are not generated for retired value sets
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.215"
   }],
-  "version" : "20251222120000",
+  "version" : "20260223120000",
   "name" : "JDV_J129_CategorieEtablissement_RASS",
   "status" : "retired",
   "experimental" : false,
-  "date" : "2025-12-22T12:00:00+01:00",
+  "date" : "2026-02-23T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Catégorie d'établissement du RASS",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
-      "code" : "FR"
+      "code" : "FRA"
     }]
   }],
   "compose" : {
@@ -256,7 +256,7 @@ Expansions are not generated for retired value sets
       },
       {
         "code" : "166",
-        "display" : "Etablissement d'Accueil Mère-Enfant"
+        "display" : "Centre Parents-Enfants de moins de 3 ans"
       },
       {
         "code" : "167",
@@ -472,7 +472,7 @@ Expansions are not generated for retired value sets
       },
       {
         "code" : "231",
-        "display" : "Etablissement Information Consultation Conseil Familial"
+        "display" : "Espaces de vie affective, relationnelle et sexuelle (EVARS)"
       },
       {
         "code" : "233",
@@ -640,7 +640,7 @@ Expansions are not generated for retired value sets
       },
       {
         "code" : "286",
-        "display" : "Club Equipe de Prévention"
+        "display" : "Service de prévention spécialisée"
       },
       {
         "code" : "289",
@@ -1200,7 +1200,7 @@ Expansions are not generated for retired value sets
       },
       {
         "code" : "617",
-        "display" : "Maison médicale de garde (MMG)"
+        "display" : "Lieu de soins non programmés"
       },
       {
         "code" : "618",
@@ -1305,6 +1305,14 @@ Expansions are not generated for retired value sets
       {
         "code" : "648",
         "display" : "Structure qui contribue au Service d'Accès aux Soins"
+      },
+      {
+        "code" : "649",
+        "display" : "Centre de santé et de médiation en santé sexuelle"
+      },
+      {
+        "code" : "650",
+        "display" : "Dispositifs Spécifiques Régionaux en périnatalité"
       },
       {
         "code" : "695",

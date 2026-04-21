@@ -29,11 +29,10 @@ Sexe
   "resourceType" : "CodeSystem",
   "id" : "TRE-R249-Sexe",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2024-08-28T05:12:46.469+00:00",
+    "versionId" : "5",
+    "lastUpdated" : "2025-07-02T18:16:36.845+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
-  "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
@@ -52,24 +51,26 @@ Sexe
   "date" : "2023-12-15T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Sexe",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 5,
   "property" : [{
     "code" : "dateValid",
-    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
     "description" : "date de validité d'un code concept",
     "type" : "dateTime"
   },
   {
     "code" : "dateMaj",
-    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
     "description" : "Date de mise à jour d'un code concept",
     "type" : "dateTime"
   },
   {
     "code" : "dateFin",
-    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
     "description" : "Date de fin d'exploitation d'un code concept",
     "type" : "dateTime"
   },
@@ -90,12 +91,6 @@ Sexe
     "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
     "description" : "Date Concept was retired",
     "type" : "dateTime"
-  },
-  {
-    "code" : "genreCapaciteFiness",
-    "uri" : "http://hl7.org/fhir/concept-properties#genreCapaciteFiness",
-    "description" : "Permet de définir les genres de capacités utilisés par FINESS+",
-    "type" : "boolean"
   }],
   "concept" : [{
     "code" : "U",
@@ -113,12 +108,12 @@ Sexe
       "valueDateTime" : "2023-12-15T12:00:00+01:00"
     },
     {
-      "code" : "status",
-      "valueCode" : "retired"
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-12-15T12:00:00+01:00"
     },
     {
-      "code" : "retirementDate",
-      "valueDateTime" : "2023-12-15T12:00:00+01:00"
+      "code" : "status",
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -135,10 +130,6 @@ Sexe
     {
       "code" : "status",
       "valueCode" : "active"
-    },
-    {
-      "code" : "genreCapaciteFiness",
-      "valueBoolean" : true
     }]
   },
   {
@@ -155,10 +146,6 @@ Sexe
     {
       "code" : "status",
       "valueCode" : "active"
-    },
-    {
-      "code" : "genreCapaciteFiness",
-      "valueBoolean" : true
     }]
   },
   {
@@ -175,10 +162,6 @@ Sexe
     {
       "code" : "status",
       "valueCode" : "active"
-    },
-    {
-      "code" : "genreCapaciteFiness",
-      "valueBoolean" : true
     }]
   },
   {
@@ -203,10 +186,6 @@ Sexe
     {
       "code" : "status",
       "valueCode" : "active"
-    },
-    {
-      "code" : "genreCapaciteFiness",
-      "valueBoolean" : true
     }]
   }]
 }

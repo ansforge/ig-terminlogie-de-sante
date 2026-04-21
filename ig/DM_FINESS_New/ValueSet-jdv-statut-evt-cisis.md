@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-statut-evt-cisis | *Version*:20260311144904 | |
-| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvStatutEvtCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-statut-evt-cisis | *Version*:20260420150251 | |
+| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvStatutEvtCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.165 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-statut-evt-cisis",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-03-11T15:29:12.910+01:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-04-20T16:59:08.301+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "extension" : [{
@@ -70,12 +70,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.165"
   }],
-  "version" : "20260311144904",
+  "version" : "20260420150251",
   "name" : "JdvStatutEvtCisis",
   "title" : "JDV Statut Evt CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-11T14:49:04+01:00",
+  "date" : "2026-04-20T15:02:51+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Statut Evt CISIS",
   "compose" : {

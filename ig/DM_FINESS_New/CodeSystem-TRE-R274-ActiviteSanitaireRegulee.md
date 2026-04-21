@@ -29,11 +29,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
   "resourceType" : "CodeSystem",
   "id" : "TRE-R274-ActiviteSanitaireRegulee",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2024-08-28T05:13:00.844+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-03-27T11:13:09.842+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
-  "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
@@ -52,6 +51,12 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
   "date" : "2023-12-15T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Activités sanitaires soumises à une régulation de la part de l'ARS",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
   "caseSensitive" : false,
   "valueSet" : "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee?vs",
   "content" : "complete",
@@ -59,7 +64,7 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
-    "description" : "date de validité d'un code concept",
+    "description" : "Date de validité d'un code concept",
     "type" : "dateTime"
   },
   {
@@ -73,6 +78,24 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
     "description" : "Date de fin d'exploitation d'un code concept",
     "type" : "dateTime"
+  },
+  {
+    "code" : "deprecationDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+    "description" : "Date Concept was deprecated",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "A property that indicates the status of the concept.",
+    "type" : "code"
+  },
+  {
+    "code" : "retirementDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
+    "description" : "Date Concept was retired",
+    "type" : "dateTime"
   }],
   "concept" : [{
     "code" : "01",
@@ -84,6 +107,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -96,6 +123,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -108,6 +139,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -120,6 +155,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -132,6 +171,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -152,6 +195,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -164,6 +211,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -184,6 +235,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -196,6 +251,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -216,6 +275,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -228,6 +291,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -240,6 +307,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -252,6 +323,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -264,6 +339,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -276,6 +355,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -296,6 +379,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -308,6 +395,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -328,6 +419,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -348,6 +443,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -368,6 +467,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -388,6 +491,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -408,6 +515,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -428,6 +539,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -448,6 +563,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -468,6 +587,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -488,6 +611,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -500,6 +627,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -512,6 +643,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -524,6 +659,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -536,6 +675,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -548,6 +691,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -560,6 +707,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -572,6 +723,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -584,6 +739,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -596,6 +755,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -608,6 +771,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -620,6 +787,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -632,6 +803,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -644,6 +819,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-09-28T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -656,6 +835,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -668,6 +851,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -680,6 +867,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -692,6 +883,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -704,6 +899,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -716,6 +915,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -728,6 +931,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -740,6 +947,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -752,6 +963,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2019-12-13T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -764,6 +979,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -776,6 +995,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2019-12-13T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -788,6 +1011,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2019-12-13T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -800,6 +1027,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2019-12-13T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -812,6 +1043,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2019-12-13T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -824,6 +1059,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2019-12-13T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -836,6 +1075,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2019-12-13T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -848,6 +1091,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2019-12-13T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -860,6 +1107,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2019-12-13T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -872,6 +1123,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2019-12-13T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -884,6 +1139,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2019-12-13T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -896,6 +1155,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2019-12-13T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -908,6 +1171,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2019-12-13T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -920,6 +1187,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2019-12-13T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -932,6 +1203,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2019-12-13T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -944,6 +1219,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2019-12-13T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -956,6 +1235,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2019-12-13T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -968,6 +1251,10 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
     {
       "code" : "dateMaj",
       "valueDateTime" : "2019-12-13T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   }]
 }

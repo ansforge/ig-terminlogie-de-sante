@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20260311144904"
+             dateMaj="20260420150250"
              dateValid="20100101000000"
              description="JDV Nihss Ataxie CISIS"
              displayName="JdvNihssAtaxieCisis"
@@ -10,7 +10,7 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="LA9634-2" codeSystem="" displayName="Absente."/>
+         <concept code="LA9634-2" codeSystem="" displayName="Absent"/>
          <concept code="LA18466-5"
                   codeSystem=""
                   displayName="Présente pour un membre."/>

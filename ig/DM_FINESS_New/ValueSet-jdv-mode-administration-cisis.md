@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mode-administration-cisis | *Version*:20260311144904 | |
-| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvModeAdministrationCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mode-administration-cisis | *Version*:20260420150251 | |
+| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvModeAdministrationCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.75 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-mode-administration-cisis",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-03-11T15:28:38.702+01:00",
+    "versionId" : "9",
+    "lastUpdated" : "2026-04-20T16:58:28.581+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "extension" : [{
@@ -70,12 +70,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.75"
   }],
-  "version" : "20260311144904",
+  "version" : "20260420150251",
   "name" : "JdvModeAdministrationCisis",
   "title" : "JDV Mode Administration CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-11T14:49:04+01:00",
+  "date" : "2026-04-20T15:02:51+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Mode Administration CISIS",
   "compose" : {

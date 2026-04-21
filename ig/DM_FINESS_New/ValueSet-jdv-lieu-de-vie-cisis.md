@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-lieu-de-vie-cisis | *Version*:20260311144904 | |
-| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvLieuDeVieCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-lieu-de-vie-cisis | *Version*:20260420150251 | |
+| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvLieuDeVieCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.64 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-lieu-de-vie-cisis",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-03-11T15:28:31.710+01:00",
+    "versionId" : "9",
+    "lastUpdated" : "2026-04-20T16:58:20.412+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "extension" : [{
@@ -70,27 +70,27 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.64"
   }],
-  "version" : "20260311144904",
+  "version" : "20260420150251",
   "name" : "JdvLieuDeVieCisis",
   "title" : "JDV Lieu De Vie CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-11T14:49:04+01:00",
+  "date" : "2026-04-20T15:02:51+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Lieu De Vie CISIS",
   "compose" : {
     "include" : [{
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement",
-      "concept" : [{
-        "code" : "500",
-        "display" : "Etablissement d'hébergement pour personnes âgées dépendantes"
-      }]
-    },
-    {
       "system" : "http://snomed.info/sct",
       "concept" : [{
         "code" : "264362003",
         "display" : "domicile"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
+      "concept" : [{
+        "code" : "500",
+        "display" : "Etablissement d'hébergement pour personnes âgées dépendantes"
       }]
     }]
   }

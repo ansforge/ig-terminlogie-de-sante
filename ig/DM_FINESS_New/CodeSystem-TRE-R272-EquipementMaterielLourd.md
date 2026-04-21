@@ -29,11 +29,10 @@ Equipements Matériels Lourds
   "resourceType" : "CodeSystem",
   "id" : "TRE-R272-EquipementMaterielLourd",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2024-08-28T05:13:00.147+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-03-27T11:13:09.462+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
-  "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
@@ -52,6 +51,12 @@ Equipements Matériels Lourds
   "date" : "2023-12-15T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Equipements Matériels Lourds",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
   "caseSensitive" : false,
   "valueSet" : "https://mos.esante.gouv.fr/NOS/TRE_R272-EquipementMaterielLourd/FHIR/TRE-R272-EquipementMaterielLourd?vs",
   "content" : "complete",
@@ -59,7 +64,7 @@ Equipements Matériels Lourds
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
-    "description" : "date de validité d'un code concept",
+    "description" : "Date de validité d'un code concept",
     "type" : "dateTime"
   },
   {
@@ -72,6 +77,24 @@ Equipements Matériels Lourds
     "code" : "dateFin",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
     "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "deprecationDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+    "description" : "Date Concept was deprecated",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "A property that indicates the status of the concept.",
+    "type" : "code"
+  },
+  {
+    "code" : "retirementDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
+    "description" : "Date Concept was retired",
     "type" : "dateTime"
   }],
   "concept" : [{
@@ -92,6 +115,10 @@ Equipements Matériels Lourds
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -112,6 +139,10 @@ Equipements Matériels Lourds
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -132,6 +163,10 @@ Equipements Matériels Lourds
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -144,6 +179,10 @@ Equipements Matériels Lourds
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -156,6 +195,10 @@ Equipements Matériels Lourds
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -176,6 +219,10 @@ Equipements Matériels Lourds
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -196,6 +243,10 @@ Equipements Matériels Lourds
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -208,6 +259,10 @@ Equipements Matériels Lourds
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-07-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   }]
 }

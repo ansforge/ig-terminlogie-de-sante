@@ -27,9 +27,9 @@ Vous touverez ici la liste des JDV du NOS.
 | [JdvJ322TypeActEnseignementReguleeFiness](ValueSet-jdv-j322-type-act-enseignement-regulee-finess.md) | Jeu de valeurs FINESS reprenant les types d'activité d'enseignement régulée | 03/06/2025 |
 | [JdvJ331TypeActSocialeReguleeFiness](ValueSet-jdv-j331-type-act-sociale-regulee-finess.md) | Jeu de valeurs FINESS reprenant les types d'activité sociale régulée | 03/06/2025 |
 | [JdvJ332TypeActMedicoSocialeReguleeFiness](ValueSet-jdv-j332-type-act-medico-sociale-regulee-finess.md) | Jeu de valeurs FINESS reprenant les types d'activité médico sociale régulée | 03/06/2025 |
-| [JdvJ333ActiviteSanitaireDiverseReguleeNiv1Finess](ValueSet-jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess.md) | Jeu de valeurs FINESS contenant les Activités Sanitaires Diverses Régulées (ASDR) de niveau 1 | 10/07/2025 |
-| [JdvJ334ActiviteSanitaireDiverseReguleeNiv2Finess](ValueSet-jdv-j334-activite-sanitaire-diverse-regulee-niv2-finess.md) | Jeu de valeurs FINESS contenant les Activités Sanitaires Diverses Régulées (ASDR) de niveau 2 | 10/07/2025 |
-| [JdvJ335ActiviteSanitaireDiverseReguleeNiv3Finess](ValueSet-jdv-j335-activite-sanitaire-diverse-regulee-niv3-finess.md) | Jeu de valeurs FINESS contenant les Activités Sanitaires Diverses Régulées (ASDR) de niveau 3 | 10/07/2025 |
+| [JdvJ333ActiviteSanitaireDiverseReguleeNiv1](ValueSet-jdv-j333-activite-sanitaire-diverse-regulee-niv1.md) | Jeu de valeurs contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 1 | 10/07/2025 |
+| [JdvJ334ActiviteSanitaireDiverseReguleeNiv2](ValueSet-jdv-j334-activite-sanitaire-diverse-regulee-niv2.md) | Jeu de valeurs contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 2 | 10/07/2025 |
+| [JdvJ335ActiviteSanitaireDiverseReguleeNiv3](ValueSet-jdv-j335-activite-sanitaire-diverse-regulee-niv3.md) | Jeu de valeurs contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 3 | 10/07/2025 |
 | [JdvJ336TypeActSanitaireDiverseReguleeFiness](ValueSet-jdv-j336-type-act-sanitaire-diverse-regulee-finess.md) | Jeu de valeurs FINESS reprenant les types d'activité sanitaire régulée | 03/06/2025 |
 | [JdvJ340TypeActDeSoinAmfFiness](ValueSet-jdv-j340-type-act-de-soin-amf-finess.md) | Jeu de valeurs FINESS reprenant les types d'activité de soin AMF | 03/06/2025 |
 | [JdvJ341TypeActAutreActeSoinFiness](ValueSet-jdv-j341-type-act-autre-acte-soin-finess.md) | Jeu de valeurs FINESS reprenant les types d'activité pour les autres actes de soin | 03/06/2025 |

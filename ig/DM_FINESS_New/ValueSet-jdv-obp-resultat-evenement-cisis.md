@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-obp-resultat-evenement-cisis | *Version*:20260311144903 | |
-| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvObpResultatEvenementCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-obp-resultat-evenement-cisis | *Version*:20260420150250 | |
+| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvObpResultatEvenementCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.724 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-obp-resultat-evenement-cisis",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-03-11T15:28:48.721+01:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-04-20T16:58:39.729+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "extension" : [{
@@ -70,12 +70,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.724"
   }],
-  "version" : "20260311144903",
+  "version" : "20260420150250",
   "name" : "JdvObpResultatEvenementCisis",
   "title" : "JDV Obp Resultat Evenement CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-11T14:49:03+01:00",
+  "date" : "2026-04-20T15:02:50+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Obp Resultat Evenement CISIS",
   "compose" : {
@@ -98,11 +98,11 @@ Requête sur le SMT
       },
       {
         "code" : "3156-7",
-        "display" : "Volume de liquique amniotique"
+        "display" : "Volume du prélèvement [Volume] Liquide amniotique ; Numérique"
       },
       {
         "code" : "38386-9",
-        "display" : "Couleur du liquide amniotique"
+        "display" : "Observation [Couleur] Liquide amniotique ; Résultat nominal"
       },
       {
         "code" : "56829-5",

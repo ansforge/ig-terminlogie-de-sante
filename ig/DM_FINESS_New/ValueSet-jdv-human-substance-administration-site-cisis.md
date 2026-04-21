@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-human-substance-administration-site-cisis | *Version*:20260311144903 | |
-| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvHumanSubstanceAdministrationSiteCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-human-substance-administration-site-cisis | *Version*:20260420150249 | |
+| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvHumanSubstanceAdministrationSiteCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.686 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-human-substance-administration-site-cisis",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-03-11T15:28:23.056+01:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-04-20T16:58:10.741+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "extension" : [{
@@ -70,12 +70,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.686"
   }],
-  "version" : "20260311144903",
+  "version" : "20260420150249",
   "name" : "JdvHumanSubstanceAdministrationSiteCisis",
   "title" : "JDV Human Substance Administration Site CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-11T14:49:03+01:00",
+  "date" : "2026-04-20T15:02:49+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Human Substance Administration Site CISIS",
   "compose" : {

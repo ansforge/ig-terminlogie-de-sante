@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20260311144903"
+             dateMaj="20260420150249"
              dateValid="20221114000000"
              description="JDV Modificateur Topographique CISIS"
              displayName="JdvModificateurTopographiqueCisis"
@@ -148,6 +148,27 @@
          <concept code="112233002"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="marginal(e)"/>
+         <concept code="7970006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="allogreffe"/>
+         <concept code="15879007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="autogreffe"/>
+         <concept code="67650000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="hétérogreffe"/>
+         <concept code="16404004"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="induit(e)"/>
+         <concept code="67194007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="isogreffe"/>
+         <concept code="18769003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="juxtaposé(e)"/>
+         <concept code="5054005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="spontané(e)"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

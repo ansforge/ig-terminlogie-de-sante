@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-presentation-foetale-cisis | *Version*:20260311144902 | |
-| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvPresentationFoetaleCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-presentation-foetale-cisis | *Version*:20260420150249 | |
+| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvPresentationFoetaleCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.746 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-presentation-foetale-cisis",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-03-11T15:28:52.090+01:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-04-20T16:58:43.889+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "extension" : [{
@@ -70,12 +70,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.746"
   }],
-  "version" : "20260311144902",
+  "version" : "20260420150249",
   "name" : "JdvPresentationFoetaleCisis",
   "title" : "JDV Presentation Foetale CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-11T14:49:02+01:00",
+  "date" : "2026-04-20T15:02:49+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Presentation Foetale CISIS",
   "compose" : {

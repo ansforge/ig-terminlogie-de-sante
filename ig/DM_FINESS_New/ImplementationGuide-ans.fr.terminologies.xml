@@ -24477,6 +24477,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-hl7-days-of-week-cisis"/>
+      </reference>
+      <name value="DaysOfWeek"/>
+      <description value="DaysOfWeek"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-hl7-days-of-week"/>
       </reference>
       <name value="DaysOfWeek"/>
@@ -24775,6 +24786,17 @@
       </reference>
       <name value="JDV Age De Survenue CISIS"/>
       <description value="JDV Age De Survenue CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-age-gestationnel-cisis"/>
+      </reference>
+      <name value="JDV Age Gestationnel CISIS"/>
+      <description value="JDV Age Gestationnel CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -25211,6 +25233,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-collectivite-sujets-a-risque-rougeole-cisis"/>
+      </reference>
+      <name value="Jdv Collectivite Sujets A Risque Rougeole CISIS"/>
+      <description value="Jdv Collectivite Sujets A Risque Rougeole CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-completude-dispensation-cisis"/>
       </reference>
       <name value="JDV Completude Dispensation CISIS"/>
@@ -25270,6 +25303,17 @@
       </reference>
       <name value="JDV Complication Pulmonaire CISIS"/>
       <description value="JDV Complication Pulmonaire CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-complication-rougeole-cisis"/>
+      </reference>
+      <name value="Jdv Complication Rougeole CISIS"/>
+      <description value="Jdv Complication Rougeole CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -25402,6 +25446,17 @@
       </reference>
       <name value="JDV Couverture Sociale CISIS"/>
       <description value="JDV Couverture Sociale CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-date-accouchement-cisis"/>
+      </reference>
+      <name value="JDV Date Accouchement CISIS"/>
+      <description value="JDV Date Accouchement CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -25783,6 +25838,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-evolution-rougeole-cisis"/>
+      </reference>
+      <name value="JDV Evolution Rougeole CISIS"/>
+      <description value="JDV Evolution Rougeole CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-examen-biochimie-aunv-cisis"/>
       </reference>
       <name value="JDV Examen Biochimie Aunv CISIS"/>
@@ -25893,6 +25959,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-exposition-west-nile-cisis"/>
+      </reference>
+      <name value="Jdv Exposition West Nile CISIS"/>
+      <description value="Jdv Exposition West Nile CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-facteur-de-risque-avc-cisis"/>
       </reference>
       <name value="JDV Facteur De Risque Avc CISIS"/>
@@ -25919,6 +25996,17 @@
       </reference>
       <name value="JDV Facteur De Risque Social CISIS"/>
       <description value="JDV Facteur De Risque Social CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-facteur-risque-rougeole-cisis"/>
+      </reference>
+      <name value="JDV Facteur Risque Rougeole CISIS"/>
+      <description value="JDV Facteur Risque Rougeole CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -26095,6 +26183,17 @@
       </reference>
       <name value="JDV Hemisphere Profond CISIS"/>
       <description value="JDV Hemisphere Profond CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-historique-grossesses-cisis"/>
+      </reference>
+      <name value="JDV Historique Grossesses CISIS"/>
+      <description value="JDV Historique Grossesses CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -26707,10 +26806,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess"/>
+        <reference value="ValueSet/jdv-j333-activite-sanitaire-diverse-regulee-niv1"/>
       </reference>
-      <name value="Jdv J333 Activite Sanitaire Diverse Regulee Niv1 Finess"/>
-      <description value="Jeu de valeurs FINESS contenant les Activités Sanitaires Diverses Régulées (ASDR) de niveau 1"/>
+      <name value="Jdv J333 Activite Sanitaire Diverse Regulee Niv"/>
+      <description value="Jeu de valeurs contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 1"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -26718,10 +26817,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/jdv-j334-activite-sanitaire-diverse-regulee-niv2-finess"/>
+        <reference value="ValueSet/jdv-j334-activite-sanitaire-diverse-regulee-niv2"/>
       </reference>
-      <name value="Jdv J334 Activite Sanitaire Diverse Regulee Niv2 Finess"/>
-      <description value="Jeu de valeurs FINESS contenant les Activités Sanitaires Diverses Régulées (ASDR) de niveau 2"/>
+      <name value="Jdv J334 Activite Sanitaire Diverse Regulee Niv2"/>
+      <description value="Jeu de valeurs contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 2"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -26729,10 +26828,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/jdv-j335-activite-sanitaire-diverse-regulee-niv3-finess"/>
+        <reference value="ValueSet/jdv-j335-activite-sanitaire-diverse-regulee-niv3"/>
       </reference>
-      <name value="Jdv J335 Activite Sanitaire Diverse Regulee Niv3 Finess"/>
-      <description value="Jeu de valeurs FINESS contenant les Activités Sanitaires Diverses Régulées (ASDR) de niveau 3"/>
+      <name value="Jdv J335 Activite Sanitaire Diverse Regulee Niv3"/>
+      <description value="Jeu de valeurs contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 3"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -27250,6 +27349,17 @@
       </reference>
       <name value="JDV Lieu Accouchement CISIS"/>
       <description value="JDV Lieu Accouchement CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-lieu-contact-rougeole-cisis"/>
+      </reference>
+      <name value="JDV Lieu Contact Rougeole CISIS"/>
+      <description value="JDV Lieu Contact Rougeole CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -27796,6 +27906,28 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-mso-resultat-qualitatif-3-cisis"/>
+      </reference>
+      <name value="Jdv MSO Resultat Qualitatif 3 CISIS"/>
+      <description value="Jdv MSO Resultat Qualitatif 3 CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-mso-resultat-qualitatif-5-cisis"/>
+      </reference>
+      <name value="Jdv MSO Resultat Qualitatif 5 CISIS"/>
+      <description value="Jdv MSO Resultat Qualitatif 5 CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-mso-resultat-qualitatif-cisis"/>
       </reference>
       <name value="Jdv MSO Resultat Qualitatif CISIS"/>
@@ -28130,6 +28262,17 @@
       </reference>
       <name value="JDV Origine Effet Indesirable CISIS"/>
       <description value="JDV Origine Effet Indesirable CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-origine-information-vaccin-rougeole-cisis"/>
+      </reference>
+      <name value="Jdv Origine Information Vaccin Rougeole CISIS"/>
+      <description value="Jdv Origine Information Vaccin Rougeole CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -28995,6 +29138,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-serotype-dengue-cisis"/>
+      </reference>
+      <name value="JDV Serotype Dengue CISIS"/>
+      <description value="JDV Serotype Dengue CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-severite-observation-cisis"/>
       </reference>
       <name value="JDV Severite Observation CISIS"/>
@@ -29116,10 +29270,65 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-specimen-type-chikungunya-cisis"/>
+      </reference>
+      <name value="jDV Specimen Type Chikungunya CISIS"/>
+      <description value="jDV Specimen Type Chikungunya CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-specimen-type-cisis"/>
       </reference>
       <name value="JDV Specimen Type CISIS"/>
       <description value="JDV Specimen Type CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-specimen-type-dengue-cisis"/>
+      </reference>
+      <name value="jDV Specimen Type Dengue CISIS"/>
+      <description value="jDV Specimen Type Dengue CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-specimen-type-rougeole-cisis"/>
+      </reference>
+      <name value="jDV Specimen Type Rougeole CISIS"/>
+      <description value="jDV Specimen Type Rougeole CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-specimen-type-westnile-cisis"/>
+      </reference>
+      <name value="jDV Specimen Type West Nile CISIS"/>
+      <description value="jDV Specimen Type West Nile CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-specimen-type-zika-cisis"/>
+      </reference>
+      <name value="jDV Specimen Type Zika CISIS"/>
+      <description value="jDV Specimen Type Zika CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -29776,6 +29985,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-type-event-indesirable-previsible-cisis"/>
+      </reference>
+      <name value="JDV Type Event Indesirable Previsible CISIS"/>
+      <description value="JDV Type Event Indesirable Previsible CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-type-garde-cisis"/>
       </reference>
       <name value="JDV Type Garde CISIS"/>
@@ -29956,6 +30176,17 @@
       </reference>
       <name value="JDV Type Resultat CISIS"/>
       <description value="JDV Type Resultat CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-resultat-type-cisis"/>
+      </reference>
+      <name value="Jdv Type Resultat Type CISIS"/>
+      <description value="Jdv Type Resultat Type CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

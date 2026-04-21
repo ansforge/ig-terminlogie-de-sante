@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-trouble-visuel-cisis | *Version*:20260311144905 | |
-| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTroubleVisuelCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-trouble-visuel-cisis | *Version*:20260420150251 | |
+| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTroubleVisuelCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.158 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-trouble-visuel-cisis",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-03-11T15:29:18.763+01:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-04-20T16:59:15.057+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "extension" : [{
@@ -70,12 +70,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.158"
   }],
-  "version" : "20260311144905",
+  "version" : "20260420150251",
   "name" : "JdvTroubleVisuelCisis",
   "title" : "JDV Trouble Visuel CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-11T14:49:05+01:00",
+  "date" : "2026-04-20T15:02:51+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Trouble Visuel CISIS",
   "compose" : {

@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-ataxie-cisis | *Version*:20260311144904 | |
-| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvNihssAtaxieCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-ataxie-cisis | *Version*:20260420150250 | |
+| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvNihssAtaxieCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.187 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-nihss-ataxie-cisis",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-03-11T15:28:44.506+01:00",
+    "versionId" : "9",
+    "lastUpdated" : "2026-04-20T16:58:35.362+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "extension" : [{
@@ -70,12 +70,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.187"
   }],
-  "version" : "20260311144904",
+  "version" : "20260420150250",
   "name" : "JdvNihssAtaxieCisis",
   "title" : "JDV Nihss Ataxie CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-11T14:49:04+01:00",
+  "date" : "2026-04-20T15:02:50+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Nihss Ataxie CISIS",
   "compose" : {
@@ -83,7 +83,7 @@ Requête sur le SMT
       "system" : "http://loinc.org",
       "concept" : [{
         "code" : "LA9634-2",
-        "display" : "Absente."
+        "display" : "Absent"
       },
       {
         "code" : "LA18466-5",

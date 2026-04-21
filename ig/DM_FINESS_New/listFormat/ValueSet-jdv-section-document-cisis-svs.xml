@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20260311144903"
+             dateMaj="20260420150250"
              dateValid="20260305000000"
              description="JDV Section Document CISIS"
              displayName="JdvSectionDocumentCisis"
@@ -10,6 +10,9 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
+         <concept code="MED-1350"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Entrées/sorties hydro-électrolytiques"/>
          <concept code="GEN-168"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Dossier"/>
@@ -189,26 +192,8 @@
          <concept code="60572-5" codeSystem="" displayName="Compte Rendu"/>
          <concept code="60590-7" codeSystem="" displayName="Médicaments délivrés"/>
          <concept code="70182-1" codeSystem="" displayName="Score NIH Stroke Scale"/>
-         <concept code="70934-5" codeSystem="" displayName="Histoire oculaire"/>
-         <concept code="70935-2" codeSystem="" displayName="Médicaments ophtalmiques"/>
-         <concept code="70936-0" codeSystem="" displayName="Test de vision"/>
-         <concept code="70937-8" codeSystem="" displayName="Acuité visuelle"/>
          <concept code="70938-6" codeSystem="" displayName="Mesure de la réfraction"/>
          <concept code="70939-4" codeSystem="" displayName="Mesure de la lensométrie"/>
-         <concept code="70940-2"
-                  codeSystem=""
-                  displayName="Champ visuel de confrontation"/>
-         <concept code="70941-0" codeSystem="" displayName="Oeil externe"/>
-         <concept code="70942-8"
-                  codeSystem=""
-                  displayName="Alignement oculaire et motilité"/>
-         <concept code="70943-6"
-                  codeSystem=""
-                  displayName="Segment antérieur de l'œil"/>
-         <concept code="70945-1" codeSystem="" displayName="Système lacrymal"/>
-         <concept code="70946-9"
-                  codeSystem=""
-                  displayName="Tests oculaires auxiliaires"/>
          <concept code="70948-5" codeSystem="" displayName="Examen physique oculaire"/>
          <concept code="72135-7" codeSystem="" displayName="Diagnostic du cancer"/>
          <concept code="73569-6"
@@ -226,9 +211,6 @@
          <concept code="101792-0"
                   codeSystem=""
                   displayName="Résultats de laboratoire scannés"/>
-         <concept code="XX-IntakeAndOutput"
-                  codeSystem=""
-                  displayName="Entrées/sorties hydroélectrolytiques"/>
          <concept code="xx-MCH-PsychoMDev"
                   codeSystem=""
                   displayName="Développement psychomoteur"/>
