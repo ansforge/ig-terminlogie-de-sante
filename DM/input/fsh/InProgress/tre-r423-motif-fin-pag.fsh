@@ -9,7 +9,7 @@ Description: "Lorsque le plan d'accompagnement global (PAG) arrive à échéance
 * ^extension.valuePeriod.start = "2026-05-05T12:00:00+01:00"
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r423-motif-fin-pag"
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:1.2.250.1.213.3.3.272" // 272 peut changer
+* ^identifier.value = "urn:oid:1.2.250.1.213.3.3.274" // 274 peut changer
 * ^version = "20260505120000"
 * ^status = #draft
 * ^experimental = false
