@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-examen-hematologie-eunv-cisis | *Version*:20260311144904 | |
-| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvExamenHematologieEunvCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-examen-hematologie-eunv-cisis | *Version*:20260420150251 | |
+| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvExamenHematologieEunvCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.225 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-examen-hematologie-eunv-cisis",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-03-11T15:28:17.875+01:00",
+    "versionId" : "9",
+    "lastUpdated" : "2026-04-20T16:58:03.966+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -71,12 +71,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.225"
   }],
-  "version" : "20260311144904",
+  "version" : "20260420150251",
   "name" : "JdvExamenHematologieEunvCisis",
   "title" : "JDV Examen Hematologie Eunv CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-11T14:49:04+01:00",
+  "date" : "2026-04-20T15:02:51+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Examen Hematologie Eunv CISIS",
   "jurisdiction" : [{
@@ -102,15 +102,15 @@ Requête sur le SMT
       },
       {
         "code" : "30428-7",
-        "display" : "Volume globulaire moyen [Volume d'entité] Érythrocytes ; Numérique"
+        "display" : "Observation [Volume moyen de l'entité] Érythrocytes ; Numérique"
       },
       {
         "code" : "28540-3",
-        "display" : "Concentration corpusculaire moyenne en hémoglobine [Masse/Volume] Érythrocytes ; Numérique"
+        "display" : "Hémoglobine [Masse/Volume de l'entité] Érythrocytes ; Numérique"
       },
       {
         "code" : "28539-5",
-        "display" : "Teneur corpusculaire moyenne en hémoglobine [Masse d'entité] Érythrocytes ; Numérique"
+        "display" : "Hémoglobine [Masse d'entité] Érythrocytes ; Numérique"
       },
       {
         "code" : "777-3",
@@ -122,23 +122,23 @@ Requête sur le SMT
       },
       {
         "code" : "26511-6",
-        "display" : "Polynucléaires neutrophiles/100 leucocytes [Fraction de nombres] Sang ; Numérique"
+        "display" : "Polynucléaires neutrophiles/leucocytes [Fraction de nombres] Sang ; Numérique"
       },
       {
         "code" : "26450-7",
-        "display" : "Polynucléaires éosinophiles/100 leucocytes [Fraction de nombres] Sang ; Numérique"
+        "display" : "Polynucléaires éosinophiles/leucocytes [Fraction de nombres] Sang ; Numérique"
       },
       {
         "code" : "30180-4",
-        "display" : "Polynucléaires basophiles/100 leucocytes [Fraction de nombres] Sang ; Numérique"
+        "display" : "Polynucléaires basophiles/leucocytes [Fraction de nombres] Sang ; Numérique"
       },
       {
         "code" : "26478-8",
-        "display" : "Lymphocytes totaux/100 leucocytes [Fraction de nombres] Sang ; Numérique"
+        "display" : "Lymphocytes totaux/leucocytes [Fraction de nombres] Sang ; Numérique"
       },
       {
         "code" : "26485-3",
-        "display" : "Monocytes/100 leucocytes [Fraction de nombres] Sang ; Numérique"
+        "display" : "Monocytes/leucocytes [Fraction de nombres] Sang ; Numérique"
       }]
     }]
   }

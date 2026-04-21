@@ -23,6 +23,13 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
 * [JdvJ310CategorieEntiteGeographiqueExerciceFiness](ValueSet-jdv-j310-categorie-entite-geographique-exercice-finess.md)
 * [JdvJ377CategorieEntiteGeographiqueExerciceRor](ValueSet-jdv-j377-categorie-entite-geographique-exercice-ror.md)
 * [JdvJ380CategorieEntiteGeographiqueExerciceRass](ValueSet-jdv-j380-categorie-entite-geographique-exercice-rass.md)
+* [JdvLieuDeVieCisis](ValueSet-jdv-lieu-de-vie-cisis.md)
+* [JdvModaliteEntreeEsmsCisis](ValueSet-jdv-modalite-entree-esms-cisis.md)
+* [JdvModaliteSortieCisis](ValueSet-jdv-modalite-sortie-cisis.md)
+* [JdvModeSortieCisis](ValueSet-jdv-mode-sortie-cisis.md)
+* [JdvPatientAdresseParCisis](ValueSet-jdv-patient-adresse-par-cisis.md)
+* [JdvTraitementSuiviCisis](ValueSet-jdv-traitement-suivi-cisis.md)
+* [JdvTypePriseEnChargeCisis](ValueSet-jdv-type-prise-en-charge-cisis.md)
 
 
 

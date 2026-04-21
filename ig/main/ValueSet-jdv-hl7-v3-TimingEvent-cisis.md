@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-TimingEvent-cisis | *Version*:20260311144904 | |
-| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TimingEvent |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-TimingEvent-cisis | *Version*:20260420150251 | |
+| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TimingEvent |
 | *Other Identifiers:*OID:2.16.840.1.113883.1.11.10706 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-hl7-v3-TimingEvent-cisis",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-03-11T15:29:40.975+01:00",
+    "versionId" : "9",
+    "lastUpdated" : "2026-04-20T16:59:40.766+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -71,12 +71,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.840.1.113883.1.11.10706"
   }],
-  "version" : "20260311144904",
+  "version" : "20260420150251",
   "name" : "TimingEvent",
   "title" : "TimingEvent",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-11T14:49:04+01:00",
+  "date" : "2026-04-20T15:02:51+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "TimingEvent",
   "jurisdiction" : [{

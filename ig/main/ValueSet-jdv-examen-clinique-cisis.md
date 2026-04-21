@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-examen-clinique-cisis | *Version*:20260311144904 | |
-| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvExamenCliniqueCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-examen-clinique-cisis | *Version*:20260420150251 | |
+| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvExamenCliniqueCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.27 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-examen-clinique-cisis",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-03-11T15:28:17.222+01:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-04-20T16:58:03.194+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -71,12 +71,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.27"
   }],
-  "version" : "20260311144904",
+  "version" : "20260420150251",
   "name" : "JdvExamenCliniqueCisis",
   "title" : "JDV Examen Clinique CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-11T14:49:04+01:00",
+  "date" : "2026-04-20T15:02:51+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Examen Clinique CISIS",
   "jurisdiction" : [{

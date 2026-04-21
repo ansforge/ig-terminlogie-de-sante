@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modificateur-topographique-cisis | *Version*:20260311144903 | |
-| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvModificateurTopographiqueCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modificateur-topographique-cisis | *Version*:20260420150249 | |
+| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvModificateurTopographiqueCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.688 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-modificateur-topographique-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2026-03-11T15:28:41.443+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-04-20T16:58:31.828+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -71,12 +71,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.688"
   }],
-  "version" : "20260311144903",
+  "version" : "20260420150249",
   "name" : "JdvModificateurTopographiqueCisis",
   "title" : "JDV Modificateur Topographique CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-11T14:49:03+01:00",
+  "date" : "2026-04-20T15:02:49+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Modificateur Topographique CISIS",
   "jurisdiction" : [{
@@ -271,6 +271,34 @@ Requête sur le SMT
       {
         "code" : "112233002",
         "display" : "marginal(e)"
+      },
+      {
+        "code" : "7970006",
+        "display" : "allogreffe"
+      },
+      {
+        "code" : "15879007",
+        "display" : "autogreffe"
+      },
+      {
+        "code" : "67650000",
+        "display" : "hétérogreffe"
+      },
+      {
+        "code" : "16404004",
+        "display" : "induit(e)"
+      },
+      {
+        "code" : "67194007",
+        "display" : "isogreffe"
+      },
+      {
+        "code" : "18769003",
+        "display" : "juxtaposé(e)"
+      },
+      {
+        "code" : "5054005",
+        "display" : "spontané(e)"
       }]
     }]
   }
