@@ -26,6 +26,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [AdministrativeGender](ValueSet-jdv-hl7-v3-AdministrativeGender-cisis.md) | AdministrativeGender |
 | [Allergy Intolerance Criticality](ValueSet-jdv-hl7-allergy-intolerance-criticality-cisis.md) | Allergy Intolerance Criticality |
 | [AllergyIntolerance Clinical Status Codes](ValueSet-jdv-hl7-allergyintolerance-clinical-cisis.md) | AllergyIntolerance Clinical Status Codes |
+| [AllergyIntoleranceCategory](ValueSet-jdv-hl7-allergy-intolerance-category-cisis.md) | AllergyIntoleranceCategory |
 | [Condition Clinical Status Codes](ValueSet-jdv-hl7-condition-clinical-cisis.md) | Condition Clinical Status Codes |
 | [Condition Verification Status](ValueSet-jdv-hl7-condition-ver-status-cisis.md) | Condition Verification Status |
 | [Confidentiality](ValueSet-jdv-hl7-v2-0952-cisis.md) | Confidentiality |

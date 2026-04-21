@@ -5798,7 +5798,7 @@
   "id" : "jdv-destination-transfert-cisis",
   "type" : "ValueSet",
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-destination-transfert-cisis",
-  "version" : "20260220142104",
+  "version" : "20260420150251",
   "name" : "JdvDestinationTransfertCisis",
   "oids" : ["1.2.250.1.213.1.1.5.70"]
 },
@@ -6265,6 +6265,14 @@
   "version" : "20260420150250",
   "name" : "JdvHistoriqueGrossessesCisis",
   "oids" : ["1.2.250.1.213.1.1.5.852"]
+},
+{
+  "id" : "jdv-hl7-allergy-intolerance-category-cisis",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-allergy-intolerance-category-cisis",
+  "version" : "20260420150249",
+  "name" : "AllergyIntoleranceCategory",
+  "oids" : ["2.16.840.1.113883.4.642.3.133"]
 },
 {
   "id" : "jdv-hl7-allergy-intolerance-criticality-cisis",

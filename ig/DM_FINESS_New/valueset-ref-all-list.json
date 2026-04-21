@@ -4317,13 +4317,13 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-destination-transfert-cisis",
-    "version" : "20260220142104",
+    "version" : "20260420150251",
     "status" : "active",
     "name" : "JdvDestinationTransfertCisis",
     "title" : "JDV Destination Transfert CISIS",
     "description" : "JDV Destination Transfert CISIS",
     "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-    "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement",
+    "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
     "http://snomed.info/sct"],
     "oids" : ["1.2.250.1.213.1.1.5.70"],
     "sources" : ["1.2.250.1.213.1.1.5.70"]
@@ -4985,6 +4985,17 @@
     "systems" : ["http://loinc.org"],
     "oids" : ["1.2.250.1.213.1.1.5.852"],
     "sources" : ["1.2.250.1.213.1.1.5.852"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-allergy-intolerance-category-cisis",
+    "version" : "20260420150249",
+    "status" : "active",
+    "name" : "AllergyIntoleranceCategory",
+    "title" : "AllergyIntoleranceCategory",
+    "description" : "AllergyIntoleranceCategory",
+    "systems" : ["http://hl7.org/fhir/ValueSet/allergy-intolerance-category"],
+    "oids" : ["2.16.840.1.113883.4.642.3.133"],
+    "sources" : ["2.16.840.1.113883.4.642.3.133"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-allergy-intolerance-criticality-cisis",
@@ -9815,8 +9826,8 @@
     "systems" : ["https://smt.esante.gouv.fr/terminologie-cip_ucd"],
     "uses" : {
     },
-    "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD",
-    "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD"
+    "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD",
+    "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD"
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-nuva?vs",
@@ -9828,8 +9839,8 @@
     "systems" : ["https://smt.esante.gouv.fr/terminologie-nuva"],
     "uses" : {
     },
-    "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM",
-    "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD"
+    "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD",
+    "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM"
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-sms?vs",

@@ -33070,6 +33070,18 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-hl7-allergy-intolerance-category-cisis"
+      },
+      "name" : "AllergyIntoleranceCategory",
+      "description" : "AllergyIntoleranceCategory",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ConceptMap"
       }],
       "reference" : {

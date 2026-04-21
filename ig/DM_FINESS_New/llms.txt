@@ -777,6 +777,7 @@
 * [JDV Hemisphere Lobaire CISIS](ValueSet-jdv-hemisphere-lobaire-cisis.md)
 * [JDV Hemisphere Profond CISIS](ValueSet-jdv-hemisphere-profond-cisis.md)
 * [JDV Historique Grossesses CISIS](ValueSet-jdv-historique-grossesses-cisis.md)
+* [AllergyIntoleranceCategory](ValueSet-jdv-hl7-allergy-intolerance-category-cisis.md)
 * [Allergy Intolerance Criticality](ValueSet-jdv-hl7-allergy-intolerance-criticality-cisis.md)
 * [AllergyIntolerance Clinical Status Codes](ValueSet-jdv-hl7-allergyintolerance-clinical-cisis.md)
 * [Condition Clinical Status Codes](ValueSet-jdv-hl7-condition-clinical-cisis.md)

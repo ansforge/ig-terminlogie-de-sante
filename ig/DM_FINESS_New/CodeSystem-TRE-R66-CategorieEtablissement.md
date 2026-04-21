@@ -19,7 +19,6 @@ Catégorie d’établissements
 
 * [JDV_J129_CategorieEtablissement_RASS](ValueSet-JDV-J129-CategorieEtablissement-RASS.md)
 * [JDV_J55_CategorieEG_ROR](ValueSet-JDV-J55-CategorieEG-ROR.md)
-* [JdvDestinationTransfertCisis](ValueSet-jdv-destination-transfert-cisis.md)
 * [JdvStructureDeSoinsCisis](ValueSet-jdv-structure-de-soins-cisis.md)
 
 

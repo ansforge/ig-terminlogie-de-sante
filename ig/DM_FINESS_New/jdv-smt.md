@@ -64,6 +64,7 @@ Vous touverez ici la liste des JDV du smt .
 | [ActSubstanceAdministrationImmunizationCode](ValueSet-jdv-hl7-v3-ActSubstanceAdministrationImmunizationCode-cisis.md) | ActSubstanceAdministrationImmunizationCode | 20/04/2026 |
 | [AdministrableDrugForm](ValueSet-jdv-hl7-v3-AdministrableDrugForm-cisis.md) | AdministrableDrugForm | 20/04/2026 |
 | [AdministrativeGender](ValueSet-jdv-hl7-v3-AdministrativeGender-cisis.md) | AdministrativeGender | 20/04/2026 |
+| [AllergyIntoleranceCategory](ValueSet-jdv-hl7-allergy-intolerance-category-cisis.md) | AllergyIntoleranceCategory | 20/04/2026 |
 | [AllergyIntoleranceClinicalStatusCodes](ValueSet-jdv-hl7-allergyintolerance-clinical-cisis.md) | AllergyIntolerance Clinical Status Codes | 20/04/2026 |
 | [AllergyIntoleranceCriticality](ValueSet-jdv-hl7-allergy-intolerance-criticality-cisis.md) | Allergy Intolerance Criticality | 20/04/2026 |
 | [ConditionClinicalStatusCodes](ValueSet-jdv-hl7-condition-clinical-cisis.md) | Condition Clinical Status Codes | 20/04/2026 |
