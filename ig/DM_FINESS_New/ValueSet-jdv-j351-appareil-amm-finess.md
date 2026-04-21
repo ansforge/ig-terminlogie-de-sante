@@ -33,8 +33,6 @@ Requête sur le SMT
 
 ### Expansion
 
-No Expansion for this valueset (Unknown Code System)
-
 -------
 
  Explanation of the columns that may appear on this page: 
@@ -85,7 +83,7 @@ No Expansion for this valueset (Unknown Code System)
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement",
       "filter" : [{
-        "property" : "appareilAmm",
+        "property" : "finess",
         "op" : "=",
         "value" : "true"
       }]
