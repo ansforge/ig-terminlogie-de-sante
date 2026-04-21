@@ -18,4 +18,4 @@ Description: "Jeu de valeurs FINESS contenant les activités sanitaires, utilis�
 * ^experimental = false
 * ^date = "2025-07-10T18:02:28.249+00:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* include codes from system $tre-r347-activite-sanitaire-diverse-regulee where niveau = "4" and status ="active"
+* include codes from system $tre-r347-activite-sanitaire-diverse-regulee where niveau = "4"  and status = #active
