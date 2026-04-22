@@ -1,9 +1,0 @@
-"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
-"fr-echantillon-date-reception","fr-echantillon-date-reception","","","",0,*,"","","","null {[]} {[]}
-","FR-Echantillon-date-reception","IHE-APSR - SpecimenReceived                                                               Cet élément est un élément de type act qui permet de fournir la date de réception d’un échantillon.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
-"fr-echantillon-date-reception.act","fr-echantillon-date-reception.act","","","",1,1,"","","","string {[]} {[]}
-","Entrée Date de réception de l'échantillon","Entrée Date de réception de l'échantillon","","","","","","","","","",,,,,"",,,,"fr-echantillon-date-reception.act",1,1,"",""
-"fr-echantillon-date-reception.code","fr-echantillon-date-reception.code","","","",1,1,"","","","CodeableConcept {[]} {[]}
-","Code de l'entrée","Code de l'entrée","","","","","","","","","",,,,,"",,,,"fr-echantillon-date-reception.code",1,1,"",""
-"fr-echantillon-date-reception.effectiveTime","fr-echantillon-date-reception.effectiveTime","","","",1,1,"","","","Period {[]} {[]}
-","Date de réception de l'échantillon","Date de réception de l'échantillon","","","","","","","","","",,,,,"",,,,"fr-echantillon-date-reception.effectiveTime",1,1,"",""

@@ -1,9 +1,0 @@
-"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
-"fr-dicom-cadres-a-afficher","fr-dicom-cadres-a-afficher","","","",0,*,"","","","null {[]} {[]}
-","FR-DICOM-Cadres-a-afficher","Entrée Cadres à afficher","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
-"fr-dicom-cadres-a-afficher.observation","fr-dicom-cadres-a-afficher.observation","","","",0,1,"","","","string {[]} {[]}
-","Entrée Cadres à afficher","Entrée Cadres à afficher","","","","","","","","","",,,,,"",,,,"fr-dicom-cadres-a-afficher.observation",0,1,"",""
-"fr-dicom-cadres-a-afficher.code","fr-dicom-cadres-a-afficher.code","","","",1,1,"","","","CodeableConcept {[]} {[]}
-","Code de l'observation","Code de l'observation","","","","","","","","","",,,,,"",,,,"fr-dicom-cadres-a-afficher.code",1,1,"",""
-"fr-dicom-cadres-a-afficher.value","fr-dicom-cadres-a-afficher.value","","","",1,1,"","","","string {[]} {[]}
-","Cadres référencés","Cadres référencés","","","","","","","","","",,,,,"",,,,"fr-dicom-cadres-a-afficher.value",1,1,"",""
