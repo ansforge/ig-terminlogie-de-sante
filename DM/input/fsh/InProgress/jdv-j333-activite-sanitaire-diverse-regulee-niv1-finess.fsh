@@ -1,16 +1,16 @@
 Alias: $tre-r347-activite-sanitaire-diverse-regulee = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee
 
-ValueSet: JdvJ333ActiviteSanitaireDiverseReguleeNiv1
-Id: jdv-j333-activite-sanitaire-diverse-regulee-niv1
-Title: "Jdv J333 Activite Sanitaire Diverse Regulee Niv"
-Description: "Jeu de valeurs contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 1"
+ValueSet: JdvJ333ActiviteSanitaireDiverseReguleeNiv1Finess
+Id: jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess
+Title: "Jdv J333 Activite Sanitaire Diverse Regulee Niv Finess"
+Description: "Jeu de valeurs FINESS contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 1"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-07-10T18:02:28.249+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2025-07-10T18:02:28.249+00:00"
-* ^url = "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j333-activite-sanitaire-diverse-regulee-niv1"
+* ^url = "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.341"
 * ^version = "20250710120000"
