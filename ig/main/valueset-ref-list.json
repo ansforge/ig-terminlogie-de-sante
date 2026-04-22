@@ -4235,13 +4235,13 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-destination-transfert-cisis",
-    "version" : "20260220142104",
+    "version" : "20260420150251",
     "status" : "active",
     "name" : "JdvDestinationTransfertCisis",
     "title" : "JDV Destination Transfert CISIS",
     "description" : "JDV Destination Transfert CISIS",
     "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-    "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement",
+    "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
     "http://snomed.info/sct"],
     "oids" : ["1.2.250.1.213.1.1.5.70"],
     "sources" : ["1.2.250.1.213.1.1.5.70"]
@@ -4903,6 +4903,17 @@
     "systems" : ["http://loinc.org"],
     "oids" : ["1.2.250.1.213.1.1.5.852"],
     "sources" : ["1.2.250.1.213.1.1.5.852"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-allergy-intolerance-category-cisis",
+    "version" : "20260420150249",
+    "status" : "active",
+    "name" : "AllergyIntoleranceCategory",
+    "title" : "AllergyIntoleranceCategory",
+    "description" : "AllergyIntoleranceCategory",
+    "systems" : ["http://hl7.org/fhir/ValueSet/allergy-intolerance-category"],
+    "oids" : ["2.16.840.1.113883.4.642.3.133"],
+    "sources" : ["2.16.840.1.113883.4.642.3.133"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-allergy-intolerance-criticality-cisis",
@@ -6639,6 +6650,17 @@
     "sources" : ["1.2.250.1.213.1.1.5.843"]
   },
   {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mso-resultat-qualitatif-5-cisis",
+    "version" : "20260420150250",
+    "status" : "active",
+    "name" : "JdvMsoResultatQualitatif5Cisis",
+    "title" : "Jdv MSO Resultat Qualitatif 5 CISIS",
+    "description" : "Jdv MSO Resultat Qualitatif 5 CISIS",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["1.2.250.1.213.1.1.5.833"],
+    "sources" : ["1.2.250.1.213.1.1.5.833"]
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mso-resultat-qualitatif-cisis",
     "version" : "20260311144903",
     "status" : "active",
@@ -7583,7 +7605,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-qualitatif-cisis",
-    "version" : "20260311144903",
+    "version" : "20260420150250",
     "status" : "active",
     "name" : "JdvResultatQualitatifCisis",
     "title" : "Jdv Resultat Qualitatif CISIS",
@@ -7858,7 +7880,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-section-document-cisis",
-    "version" : "20260311144903",
+    "version" : "20260420150250",
     "status" : "active",
     "name" : "JdvSectionDocumentCisis",
     "title" : "JDV Section Document CISIS",
@@ -8014,6 +8036,18 @@
     "sources" : ["1.2.250.1.213.1.1.5.689"]
   },
   {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-specimen-type-chikungunya-cisis",
+    "version" : "20260420150250",
+    "status" : "active",
+    "name" : "JdvSpecimenTypeChikungunyaCisis",
+    "title" : "jDV Specimen Type Chikungunya CISIS",
+    "description" : "jDV Specimen Type Chikungunya CISIS",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-SpecimenType",
+    "http://terminology.hl7.org/CodeSystem/v2-0487"],
+    "oids" : ["1.2.250.1.213.1.1.5.837"],
+    "sources" : ["1.2.250.1.213.1.1.5.837"]
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-specimen-type-cisis",
     "version" : "20260420150250",
     "status" : "active",
@@ -8024,6 +8058,52 @@
     "http://terminology.hl7.org/CodeSystem/v2-0487"],
     "oids" : ["1.2.250.1.213.1.1.5.819"],
     "sources" : ["1.2.250.1.213.1.1.5.819"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-specimen-type-dengue-cisis",
+    "version" : "20260420150250",
+    "status" : "active",
+    "name" : "JdvSpecimenTypeDengueCisis",
+    "title" : "jDV Specimen Type Dengue CISIS",
+    "description" : "jDV Specimen Type Dengue CISIS",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0487"],
+    "oids" : ["1.2.250.1.213.1.1.5.838"],
+    "sources" : ["1.2.250.1.213.1.1.5.838"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-specimen-type-rougeole-cisis",
+    "version" : "20260420150250",
+    "status" : "active",
+    "name" : "JdvSpecimenTypeRougeoleCisis",
+    "title" : "jDV Specimen Type Rougeole CISIS",
+    "description" : "jDV Specimen Type Rougeole CISIS",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-SpecimenType",
+    "http://terminology.hl7.org/CodeSystem/v2-0487"],
+    "oids" : ["1.2.250.1.213.1.1.5.841"],
+    "sources" : ["1.2.250.1.213.1.1.5.841"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-specimen-type-westnile-cisis",
+    "version" : "20260420150250",
+    "status" : "active",
+    "name" : "JdvSpecimenTypeWestNileCisis",
+    "title" : "jDV Specimen Type West Nile CISIS",
+    "description" : "jDV Specimen Type West Nile CISIS",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0487"],
+    "oids" : ["1.2.250.1.213.1.1.5.839"],
+    "sources" : ["1.2.250.1.213.1.1.5.839"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-specimen-type-zika-cisis",
+    "version" : "20260420150250",
+    "status" : "active",
+    "name" : "JdvSpecimenTypeZikaCisis",
+    "title" : "jDV Specimen Type Zika CISIS",
+    "description" : "jDV Specimen Type Zika CISIS",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-SpecimenType",
+    "http://terminology.hl7.org/CodeSystem/v2-0487"],
+    "oids" : ["1.2.250.1.213.1.1.5.840"],
+    "sources" : ["1.2.250.1.213.1.1.5.840"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-static-sem-procedure-cisis",
@@ -9263,8 +9343,8 @@
     "systems" : ["https://smt.esante.gouv.fr/terminologie-cip_ucd"],
     "uses" : {
     },
-    "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD",
-    "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD"
+    "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD",
+    "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD"
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-nuva?vs",
@@ -9276,8 +9356,8 @@
     "systems" : ["https://smt.esante.gouv.fr/terminologie-nuva"],
     "uses" : {
     },
-    "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM",
-    "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD"
+    "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD",
+    "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM"
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-sms?vs",

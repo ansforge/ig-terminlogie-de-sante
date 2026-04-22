@@ -10,7 +10,7 @@
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-04-21T06:03:26+00:00",
+  "date" : "2026-04-22T06:02:28+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -26499,6 +26499,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-hl7-allergy-intolerance-category-cisis"
+      },
+      "name" : "AllergyIntoleranceCategory",
+      "description" : "AllergyIntoleranceCategory",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -30377,6 +30389,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-mso-resultat-qualitatif-5-cisis"
+      },
+      "name" : "Jdv MSO Resultat Qualitatif 5 CISIS",
+      "description" : "Jdv MSO Resultat Qualitatif 5 CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-mso-resultat-qualitatif-cisis"
       },
       "name" : "Jdv MSO Resultat Qualitatif CISIS",
@@ -31841,10 +31865,70 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-specimen-type-chikungunya-cisis"
+      },
+      "name" : "jDV Specimen Type Chikungunya CISIS",
+      "description" : "jDV Specimen Type Chikungunya CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-specimen-type-cisis"
       },
       "name" : "JDV Specimen Type CISIS",
       "description" : "JDV Specimen Type CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-specimen-type-dengue-cisis"
+      },
+      "name" : "jDV Specimen Type Dengue CISIS",
+      "description" : "jDV Specimen Type Dengue CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-specimen-type-rougeole-cisis"
+      },
+      "name" : "jDV Specimen Type Rougeole CISIS",
+      "description" : "jDV Specimen Type Rougeole CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-specimen-type-westnile-cisis"
+      },
+      "name" : "jDV Specimen Type West Nile CISIS",
+      "description" : "jDV Specimen Type West Nile CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-specimen-type-zika-cisis"
+      },
+      "name" : "jDV Specimen Type Zika CISIS",
+      "description" : "jDV Specimen Type Zika CISIS",
       "exampleBoolean" : false
     },
     {

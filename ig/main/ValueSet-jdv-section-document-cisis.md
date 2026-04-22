@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-section-document-cisis | *Version*:20260311144903 | |
-| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvSectionDocumentCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-section-document-cisis | *Version*:20260420150250 | |
+| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvSectionDocumentCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.836 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-section-document-cisis",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-03-11T15:29:07.357+01:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-04-21T10:46:59.135+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -71,12 +71,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.836"
   }],
-  "version" : "20260311144903",
+  "version" : "20260420150250",
   "name" : "JdvSectionDocumentCisis",
   "title" : "JDV Section Document CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-11T14:49:03+01:00",
+  "date" : "2026-04-20T15:02:50+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Section Document CISIS",
   "jurisdiction" : [{
@@ -89,6 +89,10 @@ Requête sur le SMT
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
       "concept" : [{
+        "code" : "MED-1350",
+        "display" : "Entrées/sorties hydro-électrolytiques"
+      },
+      {
         "code" : "GEN-168",
         "display" : "Dossier"
       }]
@@ -528,52 +532,12 @@ Requête sur le SMT
         "display" : "Score NIH Stroke Scale"
       },
       {
-        "code" : "70934-5",
-        "display" : "Histoire oculaire"
-      },
-      {
-        "code" : "70935-2",
-        "display" : "Médicaments ophtalmiques"
-      },
-      {
-        "code" : "70936-0",
-        "display" : "Test de vision"
-      },
-      {
-        "code" : "70937-8",
-        "display" : "Acuité visuelle"
-      },
-      {
         "code" : "70938-6",
         "display" : "Mesure de la réfraction"
       },
       {
         "code" : "70939-4",
         "display" : "Mesure de la lensométrie"
-      },
-      {
-        "code" : "70940-2",
-        "display" : "Champ visuel de confrontation"
-      },
-      {
-        "code" : "70941-0",
-        "display" : "Oeil externe"
-      },
-      {
-        "code" : "70942-8",
-        "display" : "Alignement oculaire et motilité"
-      },
-      {
-        "code" : "70943-6",
-        "display" : "Segment antérieur de l'œil"
-      },
-      {
-        "code" : "70945-1",
-        "display" : "Système lacrymal"
-      },
-      {
-        "code" : "70946-9",
-        "display" : "Tests oculaires auxiliaires"
       },
       {
         "code" : "70948-5",
@@ -618,10 +582,6 @@ Requête sur le SMT
       {
         "code" : "101792-0",
         "display" : "Résultats de laboratoire scannés"
-      },
-      {
-        "code" : "XX-IntakeAndOutput",
-        "display" : "Entrées/sorties hydroélectrolytiques"
       },
       {
         "code" : "xx-MCH-PsychoMDev",

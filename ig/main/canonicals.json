@@ -5792,7 +5792,7 @@
   "id" : "jdv-destination-transfert-cisis",
   "type" : "ValueSet",
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-destination-transfert-cisis",
-  "version" : "20260220142104",
+  "version" : "20260420150251",
   "name" : "JdvDestinationTransfertCisis",
   "oids" : ["1.2.250.1.213.1.1.5.70"]
 },
@@ -6259,6 +6259,14 @@
   "version" : "20260420150250",
   "name" : "JdvHistoriqueGrossessesCisis",
   "oids" : ["1.2.250.1.213.1.1.5.852"]
+},
+{
+  "id" : "jdv-hl7-allergy-intolerance-category-cisis",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-allergy-intolerance-category-cisis",
+  "version" : "20260420150249",
+  "name" : "AllergyIntoleranceCategory",
+  "oids" : ["2.16.840.1.113883.4.642.3.133"]
 },
 {
   "id" : "jdv-hl7-allergy-intolerance-criticality-cisis",
@@ -7485,6 +7493,14 @@
   "oids" : ["1.2.250.1.213.1.1.5.843"]
 },
 {
+  "id" : "jdv-mso-resultat-qualitatif-5-cisis",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mso-resultat-qualitatif-5-cisis",
+  "version" : "20260420150250",
+  "name" : "JdvMsoResultatQualitatif5Cisis",
+  "oids" : ["1.2.250.1.213.1.1.5.833"]
+},
+{
   "id" : "jdv-mso-resultat-qualitatif-cisis",
   "type" : "ValueSet",
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mso-resultat-qualitatif-cisis",
@@ -8160,7 +8176,7 @@
   "id" : "jdv-resultat-qualitatif-cisis",
   "type" : "ValueSet",
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-qualitatif-cisis",
-  "version" : "20260311144903",
+  "version" : "20260420150250",
   "name" : "JdvResultatQualitatifCisis",
   "oids" : ["1.2.250.1.213.1.1.5.832"]
 },
@@ -8360,7 +8376,7 @@
   "id" : "jdv-section-document-cisis",
   "type" : "ValueSet",
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-section-document-cisis",
-  "version" : "20260311144903",
+  "version" : "20260420150250",
   "name" : "JdvSectionDocumentCisis",
   "oids" : ["1.2.250.1.213.1.1.5.836"]
 },
@@ -8469,12 +8485,52 @@
   "oids" : ["1.2.250.1.213.1.1.5.689"]
 },
 {
+  "id" : "jdv-specimen-type-chikungunya-cisis",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-specimen-type-chikungunya-cisis",
+  "version" : "20260420150250",
+  "name" : "JdvSpecimenTypeChikungunyaCisis",
+  "oids" : ["1.2.250.1.213.1.1.5.837"]
+},
+{
   "id" : "jdv-specimen-type-cisis",
   "type" : "ValueSet",
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-specimen-type-cisis",
   "version" : "20260420150250",
   "name" : "JdvSpecimenTypeCisis",
   "oids" : ["1.2.250.1.213.1.1.5.819"]
+},
+{
+  "id" : "jdv-specimen-type-dengue-cisis",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-specimen-type-dengue-cisis",
+  "version" : "20260420150250",
+  "name" : "JdvSpecimenTypeDengueCisis",
+  "oids" : ["1.2.250.1.213.1.1.5.838"]
+},
+{
+  "id" : "jdv-specimen-type-rougeole-cisis",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-specimen-type-rougeole-cisis",
+  "version" : "20260420150250",
+  "name" : "JdvSpecimenTypeRougeoleCisis",
+  "oids" : ["1.2.250.1.213.1.1.5.841"]
+},
+{
+  "id" : "jdv-specimen-type-westnile-cisis",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-specimen-type-westnile-cisis",
+  "version" : "20260420150250",
+  "name" : "JdvSpecimenTypeWestNileCisis",
+  "oids" : ["1.2.250.1.213.1.1.5.839"]
+},
+{
+  "id" : "jdv-specimen-type-zika-cisis",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-specimen-type-zika-cisis",
+  "version" : "20260420150250",
+  "name" : "JdvSpecimenTypeZikaCisis",
+  "oids" : ["1.2.250.1.213.1.1.5.840"]
 },
 {
   "id" : "jdv-static-sem-procedure-cisis",

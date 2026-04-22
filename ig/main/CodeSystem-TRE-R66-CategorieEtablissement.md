@@ -21,7 +21,6 @@ Catégorie d’établissements
 * [JDV_J254_CategorieEtablissementESSMSPH](ValueSet-JDV-J254-CategorieEtablissementESSMSPH.md)
 * [JDV_J264_ModeEtCentreDePriseEnCharge_MDPH](ValueSet-JDV-J264-ModeEtCentreDePriseEnCharge-MDPH.md)
 * [JDV_J55_CategorieEG_ROR](ValueSet-JDV-J55-CategorieEG-ROR.md)
-* [JdvDestinationTransfertCisis](ValueSet-jdv-destination-transfert-cisis.md)
 * [JdvJ368CategorieEtablissementCisis](ValueSet-jdv-j368-categorie-etablissement-cisis.md)
 * [JdvStructureDeSoinsCisis](ValueSet-jdv-structure-de-soins-cisis.md)
 

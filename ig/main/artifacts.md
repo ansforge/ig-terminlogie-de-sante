@@ -26,6 +26,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [AdministrativeGender](ValueSet-jdv-hl7-v3-AdministrativeGender-cisis.md) | AdministrativeGender |
 | [Allergy Intolerance Criticality](ValueSet-jdv-hl7-allergy-intolerance-criticality-cisis.md) | Allergy Intolerance Criticality |
 | [AllergyIntolerance Clinical Status Codes](ValueSet-jdv-hl7-allergyintolerance-clinical-cisis.md) | AllergyIntolerance Clinical Status Codes |
+| [AllergyIntoleranceCategory](ValueSet-jdv-hl7-allergy-intolerance-category-cisis.md) | AllergyIntoleranceCategory |
 | [Condition Clinical Status Codes](ValueSet-jdv-hl7-condition-clinical-cisis.md) | Condition Clinical Status Codes |
 | [Condition Verification Status](ValueSet-jdv-hl7-condition-ver-status-cisis.md) | Condition Verification Status |
 | [Confidentiality](ValueSet-jdv-hl7-v2-0952-cisis.md) | Confidentiality |
@@ -774,6 +775,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Jdv J386 Type Enseignement Specialise Ms](ValueSet-jdv-j386-type-enseignement-specialise-ms.md) | Type d’enseignement spécialisé. |
 | [Jdv J387 Role Participant Ms](ValueSet-jdv-j387-role-participant-ms.md) | Rôle du participant vis à vis de l’événement (mandataire judiciaire, structure en charge de l’événement). |
 | [Jdv MSO Resultat Qualitatif 3 CISIS](ValueSet-jdv-mso-resultat-qualitatif-3-cisis.md) | Jdv MSO Resultat Qualitatif 3 CISIS |
+| [Jdv MSO Resultat Qualitatif 5 CISIS](ValueSet-jdv-mso-resultat-qualitatif-5-cisis.md) | Jdv MSO Resultat Qualitatif 5 CISIS |
 | [Jdv MSO Resultat Qualitatif CISIS](ValueSet-jdv-mso-resultat-qualitatif-cisis.md) | Jdv MSO Resultat Qualitatif CISIS |
 | [Jdv Mediatype Corps Cda Non Structure CISIS](ValueSet-jdv-mediatype-corps-cda-non-structure-cisis.md) | Jdv Mediatype Corps Cda Non Structure CISIS |
 | [Jdv Modele Document CDA CISIS](ValueSet-jdv-modele-document-cda-cisis.md) | Jdv Modele Document CDA CISIS |
@@ -826,6 +828,11 @@ These define sets of codes used by systems conforming to this implementation gui
 | [WorkScheduleODH](ValueSet-jdv-hl7-v3-WorkScheduleODH-cisis.md) | WorkScheduleODH |
 | [hl7VS-employmentStatus](ValueSet-jdv-hl7-v2-0066-cisis.md) | hl7VS-employmentStatus |
 | [hl7VS-specimenCollectionMethod](ValueSet-jdv-hl7-v2-0488-cisis.md) | hl7VS-specimenCollectionMethod |
+| [jDV Specimen Type Chikungunya CISIS](ValueSet-jdv-specimen-type-chikungunya-cisis.md) | jDV Specimen Type Chikungunya CISIS |
+| [jDV Specimen Type Dengue CISIS](ValueSet-jdv-specimen-type-dengue-cisis.md) | jDV Specimen Type Dengue CISIS |
+| [jDV Specimen Type Rougeole CISIS](ValueSet-jdv-specimen-type-rougeole-cisis.md) | jDV Specimen Type Rougeole CISIS |
+| [jDV Specimen Type West Nile CISIS](ValueSet-jdv-specimen-type-westnile-cisis.md) | jDV Specimen Type West Nile CISIS |
+| [jDV Specimen Type Zika CISIS](ValueSet-jdv-specimen-type-zika-cisis.md) | jDV Specimen Type Zika CISIS |
 | [x_ActMoodDocumentObservation](ValueSet-jdv-hl7-v3-xActMoodDocumentObservation.md) | x_ActMoodDocumentObservation |
 | [x_BasicConfidentialityKind](ValueSet-jdv-hl7-v3-xBasicConfidentialityKind-cisis.md) | x_BasicConfidentialityKind |
 

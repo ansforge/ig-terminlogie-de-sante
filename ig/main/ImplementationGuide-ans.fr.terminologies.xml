@@ -11,7 +11,7 @@
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2026-04-21T06:03:26+00:00"/>
+  <date value="2026-04-22T06:02:28+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -19344,6 +19344,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-hl7-allergy-intolerance-category-cisis"/>
+      </reference>
+      <name value="AllergyIntoleranceCategory"/>
+      <description value="AllergyIntoleranceCategory"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
@@ -22899,6 +22910,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-mso-resultat-qualitatif-5-cisis"/>
+      </reference>
+      <name value="Jdv MSO Resultat Qualitatif 5 CISIS"/>
+      <description value="Jdv MSO Resultat Qualitatif 5 CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-mso-resultat-qualitatif-cisis"/>
       </reference>
       <name value="Jdv MSO Resultat Qualitatif CISIS"/>
@@ -24241,10 +24263,65 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-specimen-type-chikungunya-cisis"/>
+      </reference>
+      <name value="jDV Specimen Type Chikungunya CISIS"/>
+      <description value="jDV Specimen Type Chikungunya CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-specimen-type-cisis"/>
       </reference>
       <name value="JDV Specimen Type CISIS"/>
       <description value="JDV Specimen Type CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-specimen-type-dengue-cisis"/>
+      </reference>
+      <name value="jDV Specimen Type Dengue CISIS"/>
+      <description value="jDV Specimen Type Dengue CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-specimen-type-rougeole-cisis"/>
+      </reference>
+      <name value="jDV Specimen Type Rougeole CISIS"/>
+      <description value="jDV Specimen Type Rougeole CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-specimen-type-westnile-cisis"/>
+      </reference>
+      <name value="jDV Specimen Type West Nile CISIS"/>
+      <description value="jDV Specimen Type West Nile CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-specimen-type-zika-cisis"/>
+      </reference>
+      <name value="jDV Specimen Type Zika CISIS"/>
+      <description value="jDV Specimen Type Zika CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

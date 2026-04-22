@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "Terminologies"] ; # 
   fhir:title [ fhir:v "Terminologies  de Santé"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2026-04-21T06:03:26+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-04-22T06:02:28+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -57646,6 +57646,27 @@
          ] ;
          fhir:value [
            a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-hl7-allergy-intolerance-category-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-hl7-allergy-intolerance-category-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "AllergyIntoleranceCategory" ] ;
+       fhir:description [ fhir:v "AllergyIntoleranceCategory" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
            fhir:v "CodeSystem"
          ]
        ] ) ;
@@ -64432,6 +64453,27 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-mso-resultat-qualitatif-5-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-mso-resultat-qualitatif-5-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv MSO Resultat Qualitatif 5 CISIS" ] ;
+       fhir:description [ fhir:v "Jdv MSO Resultat Qualitatif 5 CISIS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-mso-resultat-qualitatif-cisis> ;
          fhir:reference [ fhir:v "ValueSet/jdv-mso-resultat-qualitatif-cisis" ]
        ] ;
@@ -66994,11 +67036,116 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-specimen-type-chikungunya-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-specimen-type-chikungunya-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "jDV Specimen Type Chikungunya CISIS" ] ;
+       fhir:description [ fhir:v "jDV Specimen Type Chikungunya CISIS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-specimen-type-cisis> ;
          fhir:reference [ fhir:v "ValueSet/jdv-specimen-type-cisis" ]
        ] ;
        fhir:name [ fhir:v "JDV Specimen Type CISIS" ] ;
        fhir:description [ fhir:v "JDV Specimen Type CISIS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-specimen-type-dengue-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-specimen-type-dengue-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "jDV Specimen Type Dengue CISIS" ] ;
+       fhir:description [ fhir:v "jDV Specimen Type Dengue CISIS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-specimen-type-rougeole-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-specimen-type-rougeole-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "jDV Specimen Type Rougeole CISIS" ] ;
+       fhir:description [ fhir:v "jDV Specimen Type Rougeole CISIS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-specimen-type-westnile-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-specimen-type-westnile-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "jDV Specimen Type West Nile CISIS" ] ;
+       fhir:description [ fhir:v "jDV Specimen Type West Nile CISIS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-specimen-type-zika-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-specimen-type-zika-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "jDV Specimen Type Zika CISIS" ] ;
+       fhir:description [ fhir:v "jDV Specimen Type Zika CISIS" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
