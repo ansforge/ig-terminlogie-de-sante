@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://mos.esante.gouv.fr/NOS/JDV-ModeleDocumentCDA | *Version*:1.1.0 |
-| Active as of 2026-04-21 | *Computable Name*:JDV_ModeleDocumentCDA |
+| Active as of 2026-04-22 | *Computable Name*:JDV_ModeleDocumentCDA |
 
  
 JDV avec l’ensemble des codes de la TRE_R220_ModeleDocumentCDAStructure et TRE_R221_ModeleDocumentCDANonStructure 
@@ -68,7 +68,7 @@ Requête sur le SMT
   "title" : "JDV-ModeleDocumentCDA",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-21T15:54:01+00:00",
+  "date" : "2026-04-22T10:01:26+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",

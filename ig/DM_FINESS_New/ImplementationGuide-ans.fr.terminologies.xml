@@ -26817,10 +26817,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/jdv-j333-activite-sanitaire-diverse-regulee-niv1"/>
+        <reference value="ValueSet/jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess"/>
       </reference>
-      <name value="Jdv J333 Activite Sanitaire Diverse Regulee Niv"/>
-      <description value="Jeu de valeurs contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 1"/>
+      <name value="Jdv J333 Activite Sanitaire Diverse Regulee Niv Finess"/>
+      <description value="Jeu de valeurs FINESS contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 1"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -26828,10 +26828,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/jdv-j334-activite-sanitaire-diverse-regulee-niv2"/>
+        <reference value="ValueSet/jdv-j334-activite-sanitaire-diverse-regulee-niv2-finess"/>
       </reference>
-      <name value="Jdv J334 Activite Sanitaire Diverse Regulee Niv2"/>
-      <description value="Jeu de valeurs contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 2"/>
+      <name value="Jdv J334 Activite Sanitaire Diverse Regulee Niv2 Finess"/>
+      <description value="Jeu de valeurs Finess contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 2"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -26839,10 +26839,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/jdv-j335-activite-sanitaire-diverse-regulee-niv3"/>
+        <reference value="ValueSet/jdv-j335-activite-sanitaire-diverse-regulee-niv3-finess"/>
       </reference>
-      <name value="Jdv J335 Activite Sanitaire Diverse Regulee Niv3"/>
-      <description value="Jeu de valeurs contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 3"/>
+      <name value="Jdv J335 Activite Sanitaire Diverse Regulee Niv3 Finess"/>
+      <description value="Jeu de valeurs Finess contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 3"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -27246,10 +27246,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/jdv-j418-activite-sanitaire-diverse-regulee"/>
+        <reference value="ValueSet/jdv-j418-activite-sanitaire-diverse-reguleeActive"/>
       </reference>
-      <name value="Jdv J418 Activite Sanitaire Diverse Regulee"/>
-      <description value="Jeu de valeurs contenant toutes les activités sanitaires, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR)"/>
+      <name value="Jdv J418 Activite Sanitaire Diverse Regulee Active"/>
+      <description value="Jeu de valeurs des activités sanitaires actives, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR)"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

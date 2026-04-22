@@ -77074,11 +77074,11 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j333-activite-sanitaire-diverse-regulee-niv1> ;
-         fhir:reference [ fhir:v "ValueSet/jdv-j333-activite-sanitaire-diverse-regulee-niv1" ]
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess" ]
        ] ;
-       fhir:name [ fhir:v "Jdv J333 Activite Sanitaire Diverse Regulee Niv" ] ;
-       fhir:description [ fhir:v "Jeu de valeurs contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 1" ] ;
+       fhir:name [ fhir:v "Jdv J333 Activite Sanitaire Diverse Regulee Niv Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 1" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -77095,11 +77095,11 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j334-activite-sanitaire-diverse-regulee-niv2> ;
-         fhir:reference [ fhir:v "ValueSet/jdv-j334-activite-sanitaire-diverse-regulee-niv2" ]
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j334-activite-sanitaire-diverse-regulee-niv2-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j334-activite-sanitaire-diverse-regulee-niv2-finess" ]
        ] ;
-       fhir:name [ fhir:v "Jdv J334 Activite Sanitaire Diverse Regulee Niv2" ] ;
-       fhir:description [ fhir:v "Jeu de valeurs contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 2" ] ;
+       fhir:name [ fhir:v "Jdv J334 Activite Sanitaire Diverse Regulee Niv2 Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs Finess contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 2" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -77116,11 +77116,11 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j335-activite-sanitaire-diverse-regulee-niv3> ;
-         fhir:reference [ fhir:v "ValueSet/jdv-j335-activite-sanitaire-diverse-regulee-niv3" ]
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j335-activite-sanitaire-diverse-regulee-niv3-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j335-activite-sanitaire-diverse-regulee-niv3-finess" ]
        ] ;
-       fhir:name [ fhir:v "Jdv J335 Activite Sanitaire Diverse Regulee Niv3" ] ;
-       fhir:description [ fhir:v "Jeu de valeurs contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 3" ] ;
+       fhir:name [ fhir:v "Jdv J335 Activite Sanitaire Diverse Regulee Niv3 Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs Finess contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 3" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -77893,11 +77893,11 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j418-activite-sanitaire-diverse-regulee> ;
-         fhir:reference [ fhir:v "ValueSet/jdv-j418-activite-sanitaire-diverse-regulee" ]
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j418-activite-sanitaire-diverse-reguleeActive> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j418-activite-sanitaire-diverse-reguleeActive" ]
        ] ;
-       fhir:name [ fhir:v "Jdv J418 Activite Sanitaire Diverse Regulee" ] ;
-       fhir:description [ fhir:v "Jeu de valeurs contenant toutes les activités sanitaires, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR)" ] ;
+       fhir:name [ fhir:v "Jdv J418 Activite Sanitaire Diverse Regulee Active" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs des activités sanitaires actives, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR)" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false

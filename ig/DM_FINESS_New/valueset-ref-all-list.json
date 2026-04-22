@@ -6003,34 +6003,34 @@
     "sources" : ["1.2.250.1.213.1.6.1.340"]
   },
   {
-    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j333-activite-sanitaire-diverse-regulee-niv1",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess",
     "version" : "20250710120000",
     "status" : "active",
-    "name" : "JdvJ333ActiviteSanitaireDiverseReguleeNiv1",
-    "title" : "Jdv J333 Activite Sanitaire Diverse Regulee Niv",
-    "description" : "Jeu de valeurs contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 1",
+    "name" : "JdvJ333ActiviteSanitaireDiverseReguleeNiv1Finess",
+    "title" : "Jdv J333 Activite Sanitaire Diverse Regulee Niv Finess",
+    "description" : "Jeu de valeurs FINESS contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 1",
     "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"],
     "oids" : ["1.2.250.1.213.1.6.1.341"],
     "sources" : ["1.2.250.1.213.1.6.1.341"]
   },
   {
-    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j334-activite-sanitaire-diverse-regulee-niv2",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j334-activite-sanitaire-diverse-regulee-niv2-finess",
     "version" : "20250710120000",
     "status" : "active",
-    "name" : "JdvJ334ActiviteSanitaireDiverseReguleeNiv2",
-    "title" : "Jdv J334 Activite Sanitaire Diverse Regulee Niv2",
-    "description" : "Jeu de valeurs contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 2",
+    "name" : "JdvJ334ActiviteSanitaireDiverseReguleeNiv2Finess",
+    "title" : "Jdv J334 Activite Sanitaire Diverse Regulee Niv2 Finess",
+    "description" : "Jeu de valeurs Finess contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 2",
     "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"],
     "oids" : ["1.2.250.1.213.1.6.1.342"],
     "sources" : ["1.2.250.1.213.1.6.1.342"]
   },
   {
-    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j335-activite-sanitaire-diverse-regulee-niv3",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j335-activite-sanitaire-diverse-regulee-niv3-finess",
     "version" : "20250710120000",
     "status" : "active",
-    "name" : "JdvJ335ActiviteSanitaireDiverseReguleeNiv3",
-    "title" : "Jdv J335 Activite Sanitaire Diverse Regulee Niv3",
-    "description" : "Jeu de valeurs contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 3",
+    "name" : "JdvJ335ActiviteSanitaireDiverseReguleeNiv3Finess",
+    "title" : "Jdv J335 Activite Sanitaire Diverse Regulee Niv3 Finess",
+    "description" : "Jeu de valeurs Finess contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 3",
     "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"],
     "oids" : ["1.2.250.1.213.1.6.1.343"],
     "sources" : ["1.2.250.1.213.1.6.1.343"]
@@ -6434,12 +6434,12 @@
     "sources" : ["1.2.250.1.213.1.6.1.395"]
   },
   {
-    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j418-activite-sanitaire-diverse-regulee",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j418-activite-sanitaire-diverse-regulee-active",
     "version" : "20260421120000",
     "status" : "active",
-    "name" : "JdvJ418ActiviteSanitaireDiverseRegulee",
-    "title" : "Jdv J418 Activite Sanitaire Diverse Regulee",
-    "description" : "Jeu de valeurs contenant toutes les activités sanitaires, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR)",
+    "name" : "JdvJ418ActiviteSanitaireDiverseReguleeActive",
+    "title" : "Jdv J418 Activite Sanitaire Diverse Regulee Active",
+    "description" : "Jeu de valeurs des activités sanitaires actives, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR)",
     "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"],
     "oids" : ["1.2.250.1.213.1.6.1.400"],
     "sources" : ["1.2.250.1.213.1.6.1.400"]
@@ -9837,8 +9837,8 @@
     "systems" : ["https://smt.esante.gouv.fr/terminologie-cip_ucd"],
     "uses" : {
     },
-    "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD",
-    "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD"
+    "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD",
+    "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD"
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-nuva?vs",

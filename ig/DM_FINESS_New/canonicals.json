@@ -7003,27 +7003,27 @@
   "oids" : ["1.2.250.1.213.1.6.1.340"]
 },
 {
-  "id" : "jdv-j333-activite-sanitaire-diverse-regulee-niv1",
+  "id" : "jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess",
   "type" : "ValueSet",
-  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j333-activite-sanitaire-diverse-regulee-niv1",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess",
   "version" : "20250710120000",
-  "name" : "JdvJ333ActiviteSanitaireDiverseReguleeNiv1",
+  "name" : "JdvJ333ActiviteSanitaireDiverseReguleeNiv1Finess",
   "oids" : ["1.2.250.1.213.1.6.1.341"]
 },
 {
-  "id" : "jdv-j334-activite-sanitaire-diverse-regulee-niv2",
+  "id" : "jdv-j334-activite-sanitaire-diverse-regulee-niv2-finess",
   "type" : "ValueSet",
-  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j334-activite-sanitaire-diverse-regulee-niv2",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j334-activite-sanitaire-diverse-regulee-niv2-finess",
   "version" : "20250710120000",
-  "name" : "JdvJ334ActiviteSanitaireDiverseReguleeNiv2",
+  "name" : "JdvJ334ActiviteSanitaireDiverseReguleeNiv2Finess",
   "oids" : ["1.2.250.1.213.1.6.1.342"]
 },
 {
-  "id" : "jdv-j335-activite-sanitaire-diverse-regulee-niv3",
+  "id" : "jdv-j335-activite-sanitaire-diverse-regulee-niv3-finess",
   "type" : "ValueSet",
-  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j335-activite-sanitaire-diverse-regulee-niv3",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j335-activite-sanitaire-diverse-regulee-niv3-finess",
   "version" : "20250710120000",
-  "name" : "JdvJ335ActiviteSanitaireDiverseReguleeNiv3",
+  "name" : "JdvJ335ActiviteSanitaireDiverseReguleeNiv3Finess",
   "oids" : ["1.2.250.1.213.1.6.1.343"]
 },
 {
@@ -7315,11 +7315,11 @@
   "oids" : ["1.2.250.1.213.1.6.1.395"]
 },
 {
-  "id" : "jdv-j418-activite-sanitaire-diverse-regulee",
+  "id" : "jdv-j418-activite-sanitaire-diverse-reguleeActive",
   "type" : "ValueSet",
-  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j418-activite-sanitaire-diverse-regulee",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j418-activite-sanitaire-diverse-regulee-active",
   "version" : "20260421120000",
-  "name" : "JdvJ418ActiviteSanitaireDiverseRegulee",
+  "name" : "JdvJ418ActiviteSanitaireDiverseReguleeActive",
   "oids" : ["1.2.250.1.213.1.6.1.400"]
 },
 {

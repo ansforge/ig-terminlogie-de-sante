@@ -35993,10 +35993,10 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/jdv-j333-activite-sanitaire-diverse-regulee-niv1"
+        "reference" : "ValueSet/jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess"
       },
-      "name" : "Jdv J333 Activite Sanitaire Diverse Regulee Niv",
-      "description" : "Jeu de valeurs contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 1",
+      "name" : "Jdv J333 Activite Sanitaire Diverse Regulee Niv Finess",
+      "description" : "Jeu de valeurs FINESS contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 1",
       "exampleBoolean" : false
     },
     {
@@ -36005,10 +36005,10 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/jdv-j334-activite-sanitaire-diverse-regulee-niv2"
+        "reference" : "ValueSet/jdv-j334-activite-sanitaire-diverse-regulee-niv2-finess"
       },
-      "name" : "Jdv J334 Activite Sanitaire Diverse Regulee Niv2",
-      "description" : "Jeu de valeurs contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 2",
+      "name" : "Jdv J334 Activite Sanitaire Diverse Regulee Niv2 Finess",
+      "description" : "Jeu de valeurs Finess contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 2",
       "exampleBoolean" : false
     },
     {
@@ -36017,10 +36017,10 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/jdv-j335-activite-sanitaire-diverse-regulee-niv3"
+        "reference" : "ValueSet/jdv-j335-activite-sanitaire-diverse-regulee-niv3-finess"
       },
-      "name" : "Jdv J335 Activite Sanitaire Diverse Regulee Niv3",
-      "description" : "Jeu de valeurs contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 3",
+      "name" : "Jdv J335 Activite Sanitaire Diverse Regulee Niv3 Finess",
+      "description" : "Jeu de valeurs Finess contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 3",
       "exampleBoolean" : false
     },
     {
@@ -36461,10 +36461,10 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/jdv-j418-activite-sanitaire-diverse-regulee"
+        "reference" : "ValueSet/jdv-j418-activite-sanitaire-diverse-reguleeActive"
       },
-      "name" : "Jdv J418 Activite Sanitaire Diverse Regulee",
-      "description" : "Jeu de valeurs contenant toutes les activités sanitaires, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR)",
+      "name" : "Jdv J418 Activite Sanitaire Diverse Regulee Active",
+      "description" : "Jeu de valeurs des activités sanitaires actives, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR)",
       "exampleBoolean" : false
     },
     {

@@ -86,11 +86,6 @@ Requête sur le SMT
         "property" : "niveau",
         "op" : "=",
         "value" : "4"
-      },
-      {
-        "property" : "status",
-        "op" : "=",
-        "value" : "active"
       }]
     }]
   }
