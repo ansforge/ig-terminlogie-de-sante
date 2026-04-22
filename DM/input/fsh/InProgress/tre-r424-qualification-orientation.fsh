@@ -42,14 +42,16 @@ Description: "La qualification de l'orientation peut être cible ou alternative.
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
 * ^property[=].description = "Date Concept was retired"
 * ^property[=].type = #dateTime
-* #1 "Cible"
+* #1 "Cible" "Qualification d'une décision basée uniquement sur les attentes et les besoins évalués de la personne et considérée par l'équipe pluridisciplinaire ou la CDAPH comme la réponse la plus adaptée à ces attentes et besoins sans prendre en compte la réalité de l'offre disponible.
+L'orientation cible est aussi appelée \"orientation hors contrainte de l’offre, théorique ou idéale\"."
 * #1 ^property[0].code = #dateValid
 * #1 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #1 ^property[+].code = #dateMaj
 * #1 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #1 ^property[+].code = #status
 * #1 ^property[=].valueCode = #active
-* #2 "Alternative"
+* #2 "Alternative" "L'orientation alternative est partiellement adaptée au regard des attentes et des besoins évalués de la personne. Elle prend bien en compte la réalité de l'offre disponible. Elle a ainsi plus de chance d'être mise en œuvre.
+L'orientation alternative est aussi appelée \"Orientation par défaut\". "
 * #2 ^property[0].code = #dateValid
 * #2 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #2 ^property[+].code = #dateMaj
