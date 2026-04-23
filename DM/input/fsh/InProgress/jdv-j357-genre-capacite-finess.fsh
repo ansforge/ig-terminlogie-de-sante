@@ -18,5 +18,4 @@ Description: "Jeu de valeurs FINESS contenant les genres de capacités utilisés
 * ^experimental = false
 * ^date = "2025-05-16T18:02:28.249+00:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* $TRE-R332-GenreCapacite#01
-* $TRE-R332-GenreCapacite#02
+* include codes from system $TRE-R332-GenreCapacite  where finess = "true" 
