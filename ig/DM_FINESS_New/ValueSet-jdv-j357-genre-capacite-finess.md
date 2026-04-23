@@ -82,11 +82,10 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R332-GenreCapacite/FHIR/TRE-R332-GenreCapacite",
-      "concept" : [{
-        "code" : "01"
-      },
-      {
-        "code" : "02"
+      "filter" : [{
+        "property" : "finess",
+        "op" : "=",
+        "value" : "true"
       }]
     }]
   }

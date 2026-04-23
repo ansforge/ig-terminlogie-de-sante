@@ -82,8 +82,10 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R241-AideFinanciere/FHIR/TRE-R241-AideFinanciere",
-      "concept" : [{
-        "code" : "02"
+      "filter" : [{
+        "property" : "finess",
+        "op" : "=",
+        "value" : "true"
       }]
     }]
   }
