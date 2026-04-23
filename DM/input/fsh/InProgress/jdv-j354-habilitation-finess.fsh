@@ -18,4 +18,4 @@ Description: "Jeu de valeurs FINESS contenant les habilitations associées aux c
 * ^experimental = false
 * ^date = "2025-02-22T18:02:28.249+00:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* $tre-r241-aide-financiere#02
+* include codes from system $tre-r241-aide-financiere  where finess = "true" 
