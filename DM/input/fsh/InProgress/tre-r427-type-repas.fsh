@@ -1,7 +1,7 @@
 CodeSystem: TreR427TypeRepas
 Id: tre-r427-type-repas
 Title: "Tre R427 Type Repas"
-Description: "Type de repas que prend l'usager."
+Description: "Type de repas."
 * ^meta.versionId = "1"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
