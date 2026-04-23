@@ -18,7 +18,7 @@
                   displayName="Cible"
                   longDesignation="Cible"
                   shortDesignation="Cible"
-                  descriptionMetier=""/>
+                  descriptionMetier="Qualification d'une décision basée uniquement sur les attentes et les besoins évalués de la personne et considérée par l'équipe pluridisciplinaire ou la CDAPH comme la réponse la plus adaptée à ces attentes et besoins sans prendre en compte la réalité de l'offre disponible.&#xD;&#xA;L'orientation cible est aussi appelée &#34;orientation hors contrainte de l’offre, théorique ou idéale&#34;."/>
          <Concept code="2"
                   codeSystem="1.2.250.1.213.3.3.275"
                   dateFin=""
@@ -27,7 +27,7 @@
                   displayName="Alternative"
                   longDesignation="Alternative"
                   shortDesignation="Alternative"
-                  descriptionMetier=""/>
+                  descriptionMetier="L'orientation alternative est partiellement adaptée au regard des attentes et des besoins évalués de la personne. Elle prend bien en compte la réalité de l'offre disponible. Elle a ainsi plus de chance d'être mise en œuvre.&#xD;&#xA;L'orientation alternative est aussi appelée &#34;Orientation par défaut&#34;. "/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

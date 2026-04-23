@@ -5894,6 +5894,72 @@
     "sources" : ["1.2.250.1.213.3.4.230"]
   },
   {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j392-type-courrier-ms",
+    "version" : "20260505120000",
+    "status" : "draft",
+    "name" : "JdvJ392TypeCourrierMs",
+    "title" : "Jdv J392 Type Courrier Ms",
+    "description" : "Type de courrier en France.",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r416-type-courrier"],
+    "oids" : ["1.2.250.1.213.3.4.232"],
+    "sources" : ["1.2.250.1.213.3.4.232"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j393-utilisation-canal-communication-ms",
+    "version" : "20260505120000",
+    "status" : "draft",
+    "name" : "JdvJ393UtilisationCanalCommunicationMs",
+    "title" : "Jdv J393 Utilisation Canal Communication Ms",
+    "description" : "Précise l'utilisation du canal de communication.",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r415-utilisation-canal-communication"],
+    "oids" : ["1.2.250.1.213.3.4.233"],
+    "sources" : ["1.2.250.1.213.3.4.233"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j395-nature-demande-compensation-ms",
+    "version" : "20260505120000",
+    "status" : "draft",
+    "name" : "JdvJ395NatureDemandeCompensationMs",
+    "title" : "Jdv J395 Nature Demande Compensation Ms",
+    "description" : "Nature de la demande de compensation adressée à la CDAPH.",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r418-nature-demande-compensation"],
+    "oids" : ["1.2.250.1.213.3.4.235"],
+    "sources" : ["1.2.250.1.213.3.4.235"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j404-motif-fin-pag-ms",
+    "version" : "20260505120000",
+    "status" : "draft",
+    "name" : "JdvJ404MotifFinPagMs",
+    "title" : "Jdv J404 Motif Fin Pag Ms",
+    "description" : "Motif pour l'arrêt du plan d'accompagnement global (PAG).",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r423-motif-fin-pag"],
+    "oids" : ["1.2.250.1.213.3.4.244"],
+    "sources" : ["1.2.250.1.213.3.4.244"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j407-motif-absence-ms",
+    "version" : "20260505120000",
+    "status" : "draft",
+    "name" : "JdvJ407MotifAbsenceMs",
+    "title" : "Jdv J407 Motif Absence Ms",
+    "description" : "Motif pour lequel l'usager n'est pas présent lors d'un événement organisé par sa structure de rattachement.",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-motif-absence"],
+    "oids" : ["1.2.250.1.213.3.4.247"],
+    "sources" : ["1.2.250.1.213.3.4.247"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j415-type-adresse-ms",
+    "version" : "20260505120000",
+    "status" : "draft",
+    "name" : "JdvJ415TypeAdresseMs",
+    "title" : "Jdv J415 Type Adresse Ms",
+    "description" : "Type d'adresse postale.",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r434-type-adresse"],
+    "oids" : ["1.2.250.1.213.3.4.255"],
+    "sources" : ["1.2.250.1.213.3.4.255"]
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-jour-semaine-cisis",
     "version" : "20250624152100",
     "status" : "active",

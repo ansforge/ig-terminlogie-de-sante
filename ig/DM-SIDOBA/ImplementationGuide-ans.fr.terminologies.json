@@ -10,7 +10,7 @@
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-04-22T07:43:32+00:00",
+  "date" : "2026-04-23T15:04:42+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -29633,6 +29633,78 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-j392-type-courrier-ms"
+      },
+      "name" : "Jdv J392 Type Courrier Ms",
+      "description" : "Type de courrier en France.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j393-utilisation-canal-communication-ms"
+      },
+      "name" : "Jdv J393 Utilisation Canal Communication Ms",
+      "description" : "Précise l'utilisation du canal de communication.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j395-nature-demande-compensation-ms"
+      },
+      "name" : "Jdv J395 Nature Demande Compensation Ms",
+      "description" : "Nature de la demande de compensation adressée à la CDAPH.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j404-motif-fin-pag-ms"
+      },
+      "name" : "Jdv J404 Motif Fin Pag Ms",
+      "description" : "Motif pour l'arrêt du plan d'accompagnement global (PAG).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j407-motif-absence-ms"
+      },
+      "name" : "Jdv J407 Motif Absence Ms",
+      "description" : "Motif pour lequel l'usager n'est pas présent lors d'un événement organisé par sa structure de rattachement.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j415-type-adresse-ms"
+      },
+      "name" : "Jdv J415 Type Adresse Ms",
+      "description" : "Type d'adresse postale.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/JDV-J69-ActiviteOperationnelle-Santefr"
       },
       "name" : "JDV J69 ActiviteOperationnelle Santefr",
@@ -37358,7 +37430,7 @@
         "reference" : "CodeSystem/tre-r427-type-repas"
       },
       "name" : "Tre R427 Type Repas",
-      "description" : "Type de repas que prend l'usager.",
+      "description" : "Type de repas.",
       "exampleBoolean" : false
     },
     {

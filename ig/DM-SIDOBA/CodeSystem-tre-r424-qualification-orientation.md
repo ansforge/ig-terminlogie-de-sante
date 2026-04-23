@@ -99,6 +99,7 @@ La qualification de l’orientation peut être cible ou alternative.
   "concept" : [{
     "code" : "1",
     "display" : "Cible",
+    "definition" : "Qualification d'une décision basée uniquement sur les attentes et les besoins évalués de la personne et considérée par l'équipe pluridisciplinaire ou la CDAPH comme la réponse la plus adaptée à ces attentes et besoins sans prendre en compte la réalité de l'offre disponible.\r\nL'orientation cible est aussi appelée \"orientation hors contrainte de l’offre, théorique ou idéale\".",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-05-05T12:00:00+01:00"
@@ -115,6 +116,7 @@ La qualification de l’orientation peut être cible ou alternative.
   {
     "code" : "2",
     "display" : "Alternative",
+    "definition" : "L'orientation alternative est partiellement adaptée au regard des attentes et des besoins évalués de la personne. Elle prend bien en compte la réalité de l'offre disponible. Elle a ainsi plus de chance d'être mise en œuvre.\r\nL'orientation alternative est aussi appelée \"Orientation par défaut\". ",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-05-05T12:00:00+01:00"

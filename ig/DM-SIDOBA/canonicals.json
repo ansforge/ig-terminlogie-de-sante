@@ -7077,6 +7077,54 @@
   "oids" : ["1.2.250.1.213.3.4.230"]
 },
 {
+  "id" : "jdv-j392-type-courrier-ms",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j392-type-courrier-ms",
+  "version" : "20260505120000",
+  "name" : "JdvJ392TypeCourrierMs",
+  "oids" : ["1.2.250.1.213.3.4.232"]
+},
+{
+  "id" : "jdv-j393-utilisation-canal-communication-ms",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j393-utilisation-canal-communication-ms",
+  "version" : "20260505120000",
+  "name" : "JdvJ393UtilisationCanalCommunicationMs",
+  "oids" : ["1.2.250.1.213.3.4.233"]
+},
+{
+  "id" : "jdv-j395-nature-demande-compensation-ms",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j395-nature-demande-compensation-ms",
+  "version" : "20260505120000",
+  "name" : "JdvJ395NatureDemandeCompensationMs",
+  "oids" : ["1.2.250.1.213.3.4.235"]
+},
+{
+  "id" : "jdv-j404-motif-fin-pag-ms",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j404-motif-fin-pag-ms",
+  "version" : "20260505120000",
+  "name" : "JdvJ404MotifFinPagMs",
+  "oids" : ["1.2.250.1.213.3.4.244"]
+},
+{
+  "id" : "jdv-j407-motif-absence-ms",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j407-motif-absence-ms",
+  "version" : "20260505120000",
+  "name" : "JdvJ407MotifAbsenceMs",
+  "oids" : ["1.2.250.1.213.3.4.247"]
+},
+{
+  "id" : "jdv-j415-type-adresse-ms",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j415-type-adresse-ms",
+  "version" : "20260505120000",
+  "name" : "JdvJ415TypeAdresseMs",
+  "oids" : ["1.2.250.1.213.3.4.255"]
+},
+{
   "id" : "jdv-jour-semaine-cisis",
   "type" : "ValueSet",
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-jour-semaine-cisis",

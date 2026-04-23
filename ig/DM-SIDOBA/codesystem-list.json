@@ -2989,7 +2989,7 @@
     "status" : "draft",
     "name" : "TreR427TypeRepas",
     "title" : "Tre R427 Type Repas",
-    "description" : "Type de repas que prend l'usager.",
+    "description" : "Type de repas.",
     "oids" : ["1.2.250.1.213.3.3.278"]
   },
   {

@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "Terminologies"] ; # 
   fhir:title [ fhir:v "Terminologies  de Santé"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2026-04-22T07:43:32+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-04-23T15:04:42+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -63130,6 +63130,132 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j392-type-courrier-ms> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j392-type-courrier-ms" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J392 Type Courrier Ms" ] ;
+       fhir:description [ fhir:v "Type de courrier en France." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j393-utilisation-canal-communication-ms> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j393-utilisation-canal-communication-ms" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J393 Utilisation Canal Communication Ms" ] ;
+       fhir:description [ fhir:v "Précise l'utilisation du canal de communication." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j395-nature-demande-compensation-ms> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j395-nature-demande-compensation-ms" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J395 Nature Demande Compensation Ms" ] ;
+       fhir:description [ fhir:v "Nature de la demande de compensation adressée à la CDAPH." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j404-motif-fin-pag-ms> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j404-motif-fin-pag-ms" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J404 Motif Fin Pag Ms" ] ;
+       fhir:description [ fhir:v "Motif pour l'arrêt du plan d'accompagnement global (PAG)." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j407-motif-absence-ms> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j407-motif-absence-ms" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J407 Motif Absence Ms" ] ;
+       fhir:description [ fhir:v "Motif pour lequel l'usager n'est pas présent lors d'un événement organisé par sa structure de rattachement." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j415-type-adresse-ms> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j415-type-adresse-ms" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J415 Type Adresse Ms" ] ;
+       fhir:description [ fhir:v "Type d'adresse postale." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/JDV-J69-ActiviteOperationnelle-Santefr> ;
          fhir:reference [ fhir:v "ValueSet/JDV-J69-ActiviteOperationnelle-Santefr" ]
        ] ;
@@ -76652,7 +76778,7 @@
          fhir:reference [ fhir:v "CodeSystem/tre-r427-type-repas" ]
        ] ;
        fhir:name [ fhir:v "Tre R427 Type Repas" ] ;
-       fhir:description [ fhir:v "Type de repas que prend l'usager." ] ;
+       fhir:description [ fhir:v "Type de repas." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false

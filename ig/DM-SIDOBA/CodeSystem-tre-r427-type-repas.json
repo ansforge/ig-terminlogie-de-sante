@@ -28,7 +28,7 @@
   "experimental" : false,
   "date" : "2026-05-05T12:00:00.000+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Type de repas que prend l'usager.",
+  "description" : "Type de repas.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

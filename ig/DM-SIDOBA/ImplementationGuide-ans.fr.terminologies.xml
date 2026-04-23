@@ -11,7 +11,7 @@
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2026-04-22T07:43:32+00:00"/>
+  <date value="2026-04-23T15:04:42+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -22217,6 +22217,72 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-j392-type-courrier-ms"/>
+      </reference>
+      <name value="Jdv J392 Type Courrier Ms"/>
+      <description value="Type de courrier en France."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j393-utilisation-canal-communication-ms"/>
+      </reference>
+      <name value="Jdv J393 Utilisation Canal Communication Ms"/>
+      <description value="Précise l'utilisation du canal de communication."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j395-nature-demande-compensation-ms"/>
+      </reference>
+      <name value="Jdv J395 Nature Demande Compensation Ms"/>
+      <description value="Nature de la demande de compensation adressée à la CDAPH."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j404-motif-fin-pag-ms"/>
+      </reference>
+      <name value="Jdv J404 Motif Fin Pag Ms"/>
+      <description value="Motif pour l'arrêt du plan d'accompagnement global (PAG)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j407-motif-absence-ms"/>
+      </reference>
+      <name value="Jdv J407 Motif Absence Ms"/>
+      <description value="Motif pour lequel l'usager n'est pas présent lors d'un événement organisé par sa structure de rattachement."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j415-type-adresse-ms"/>
+      </reference>
+      <name value="Jdv J415 Type Adresse Ms"/>
+      <description value="Type d'adresse postale."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/JDV-J69-ActiviteOperationnelle-Santefr"/>
       </reference>
       <name value="JDV J69 ActiviteOperationnelle Santefr"/>
@@ -29298,7 +29364,7 @@
         <reference value="CodeSystem/tre-r427-type-repas"/>
       </reference>
       <name value="Tre R427 Type Repas"/>
-      <description value="Type de repas que prend l'usager."/>
+      <description value="Type de repas."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

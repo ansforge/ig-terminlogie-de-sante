@@ -774,6 +774,12 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Jdv J385 Composition Foyer Ms](ValueSet-jdv-j385-composition-foyer-ms.md) | Désigne avec qui vit l’usager dans son logement. |
 | [Jdv J386 Type Enseignement Specialise Ms](ValueSet-jdv-j386-type-enseignement-specialise-ms.md) | Type d’enseignement spécialisé. |
 | [Jdv J387 Role Participant Ms](ValueSet-jdv-j387-role-participant-ms.md) | Rôle du participant vis à vis de l’événement (mandataire judiciaire, structure en charge de l’événement). |
+| [Jdv J392 Type Courrier Ms](ValueSet-jdv-j392-type-courrier-ms.md) | Type de courrier en France. |
+| [Jdv J393 Utilisation Canal Communication Ms](ValueSet-jdv-j393-utilisation-canal-communication-ms.md) | Précise l’utilisation du canal de communication. |
+| [Jdv J395 Nature Demande Compensation Ms](ValueSet-jdv-j395-nature-demande-compensation-ms.md) | Nature de la demande de compensation adressée à la CDAPH. |
+| [Jdv J404 Motif Fin Pag Ms](ValueSet-jdv-j404-motif-fin-pag-ms.md) | Motif pour l’arrêt du plan d’accompagnement global (PAG). |
+| [Jdv J407 Motif Absence Ms](ValueSet-jdv-j407-motif-absence-ms.md) | Motif pour lequel l’usager n’est pas présent lors d’un événement organisé par sa structure de rattachement. |
+| [Jdv J415 Type Adresse Ms](ValueSet-jdv-j415-type-adresse-ms.md) | Type d’adresse postale. |
 | [Jdv MSO Resultat Qualitatif 3 CISIS](ValueSet-jdv-mso-resultat-qualitatif-3-cisis.md) | Jdv MSO Resultat Qualitatif 3 CISIS |
 | [Jdv MSO Resultat Qualitatif 5 CISIS](ValueSet-jdv-mso-resultat-qualitatif-5-cisis.md) | Jdv MSO Resultat Qualitatif 5 CISIS |
 | [Jdv MSO Resultat Qualitatif CISIS](ValueSet-jdv-mso-resultat-qualitatif-cisis.md) | Jdv MSO Resultat Qualitatif CISIS |
@@ -1192,7 +1198,7 @@ These define new code systems used by systems conforming to this implementation 
 | [Tre R423 Motif Fin Pag](CodeSystem-tre-r423-motif-fin-pag.md) | Lorsque le plan d’accompagnement global (PAG) arrive à échéance ou si le coordonnateur de parcours l’estime nécessaire, un bilan est élaboré et la phase d’actualisation est lancée afin de déterminer s’il faut prolonger ce PAG, le modifier ou y mettre fin. La MDPH, les partenaires et l’usager peuvent définir ensemble que le PAG n’est plus nécessaire et donc y mettre fin. Le consentement de la personne ou de son représentant légal est recueilli et l’information sur la fin du PAG transmise à l’ensemble des parties-prenantes. |
 | [Tre R424 Qualification Orientation](CodeSystem-tre-r424-qualification-orientation.md) | La qualification de l’orientation peut être cible ou alternative. |
 | [Tre R426 Motif Absence](CodeSystem-tre-r426-motif-absence.md) | Motif pour lequel l’usager n’est pas présent lors d’un événement organisé par sa structure de rattachement. |
-| [Tre R427 Type Repas](CodeSystem-tre-r427-type-repas.md) | Type de repas que prend l’usager. |
+| [Tre R427 Type Repas](CodeSystem-tre-r427-type-repas.md) | Type de repas. |
 | [Tre R434 Type Adresse](CodeSystem-tre-r434-type-adresse.md) | Type d’adresse postale. |
 | [V3SpecimenTypeSupplementFr](CodeSystem-v3-SpecimenType-supplement-fr.md) | Traduction Française |
 | [employmentStatus](CodeSystem-v2-0066.md) | HL7-defined code system of concepts which specify an employment status of a person. Used in HL7 Version 2 messaging in the GT1 segment. |
