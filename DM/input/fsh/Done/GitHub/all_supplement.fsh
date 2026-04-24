@@ -37,6 +37,8 @@ Description: "Traduction Française"
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
 * ^supplements = "http://hl7.org/fhir/allergy-intolerance-criticality"
+* ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
+* ^extension.valueCode = #lang-pack
 
 * #low
 * #low ^designation.language = #fr-FR
@@ -65,7 +67,9 @@ Description: "Traduction Française"
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical|1.0.1"
+* ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
+* ^extension.valueCode = #lang-pack
 
 * #active
 * #active ^designation.language = #fr-FR
@@ -94,7 +98,9 @@ Description: "Traduction Française"
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/condition-clinical"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/condition-clinical|3.0.0"
+* ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
+* ^extension.valueCode = #lang-pack
 
 * #active
 * #active ^designation.language = #fr-FR
@@ -138,7 +144,9 @@ Description: "Traduction Française"
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/condition-ver-status"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/condition-ver-status|2.0.1"
+* ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
+* ^extension.valueCode = #lang-pack
 
 * #unconfirmed
 * #unconfirmed ^designation.language = #fr-FR
@@ -167,7 +175,9 @@ Description: "Traduction Française"
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/v2-0066"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/v2-0066|3.0.0"
+* ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
+* ^extension.valueCode = #lang-pack
 
 * #1
 * #1 ^designation.language = #fr-FR
@@ -236,7 +246,9 @@ Description: "Traduction Française"
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/v2-0487"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/v2-0487|3.0.0"
+* ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
+* ^extension.valueCode = #lang-pack
 
 * #ABS
 * #ABS ^designation.language = #fr-FR
@@ -1814,7 +1826,9 @@ Description: "Traduction Française"
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ActCode"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ActCode|9.0.0"
+* ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
+* ^extension.valueCode = #lang-pack
 
 * #AMB
 * #AMB ^designation.language = #fr-FR
@@ -1944,7 +1958,9 @@ Description: "Traduction Française"
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ActMood"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ActMood|3.0.0"
+* ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
+* ^extension.valueCode = #lang-pack
 
 * #DEF
 * #DEF ^designation.language = #fr-FR
@@ -2053,7 +2069,9 @@ Description: "Traduction Française"
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ActPriority"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ActPriority|3.0.0"
+* ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
+* ^extension.valueCode = #lang-pack
 
 * #A
 * #A ^designation.language = #fr-FR
@@ -2127,7 +2145,9 @@ Description: "Traduction Française"
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ActStatus"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ActStatus|3.0.0"
+* ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
+* ^extension.valueCode = #lang-pack
 
 * #aborted
 * #aborted ^designation.language = #fr-FR
@@ -2176,7 +2196,9 @@ Description: "Traduction Française"
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-AdministrativeGender"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-AdministrativeGender|3.0.0"
+* ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
+* ^extension.valueCode = #lang-pack
 
 * #F
 * #F ^designation.language = #fr-FR
@@ -2205,7 +2227,9 @@ Description: "Traduction Française"
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-Confidentiality"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-Confidentiality|3.0.0"
+* ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
+* ^extension.valueCode = #lang-pack
 
 * #L
 * #L ^designation.language = #fr-FR
@@ -2249,7 +2273,9 @@ Description: "Traduction Française"
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-mediaType"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-mediaType|3.0.0"
+* ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
+* ^extension.valueCode = #lang-pack
 
 * #application/dicom
 * #application/dicom ^designation.language = #fr-FR
@@ -2333,7 +2359,9 @@ Description: "Traduction Française"
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation|3.0.0"
+* ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
+* ^extension.valueCode = #lang-pack
 
 * #<
 * #< ^designation.language = #fr-FR
@@ -2542,7 +2570,9 @@ Description: "Traduction Française"
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ObservationMethod"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ObservationMethod|3.0.0"
+* ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
+* ^extension.valueCode = #lang-pack
 
 * #0001
 * #0001 ^designation.language = #fr-FR
@@ -3895,7 +3925,9 @@ Description: "Traduction Française"
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ObservationValue"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ObservationValue|4.0.0"
+* ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
+* ^extension.valueCode = #lang-pack
 
 
 
@@ -3971,7 +4003,9 @@ Description: "Traduction Française"
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm|3.0.0"
+* ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
+* ^extension.valueCode = #lang-pack
 
 * #APPFUL
 * #APPFUL ^designation.language = #fr-FR
@@ -4030,7 +4064,9 @@ Description: "Traduction Française"
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ParticipationFunction"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ParticipationFunction|3.0.0"
+* ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
+* ^extension.valueCode = #lang-pack
 
 * #ADMPHYS
 * #ADMPHYS ^designation.language = #fr-FR
@@ -4064,7 +4100,9 @@ Description: "Traduction Française"
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ParticipationType|5.0.0"
+* ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
+* ^extension.valueCode = #lang-pack
 
 * #ADM
 * #ADM ^designation.language = #fr-FR
@@ -4368,7 +4406,9 @@ Description: "Traduction Française"
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-RoleClass"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-RoleClass|4.0.0"
+* ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
+* ^extension.valueCode = #lang-pack
 
 * #INGR
 * #INGR ^designation.language = #fr-FR
@@ -4422,7 +4462,9 @@ Description: "Traduction Française"
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-RoleCode|3.0.0"
+* ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
+* ^extension.valueCode = #lang-pack
 
 * #C
 * #C ^designation.language = #fr-FR
@@ -5006,7 +5048,9 @@ Description: "Traduction Française"
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution|3.0.0"
+* ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
+* ^extension.valueCode = #lang-pack
 
 * #N
 * #N ^designation.language = #fr-FR
@@ -5030,7 +5074,9 @@ Description: "Traduction Française"
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-TimingEvent"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-TimingEvent|3.0.0"
+* ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
+* ^extension.valueCode = #lang-pack
 
 * #AC
 * #AC ^designation.language = #fr-FR
@@ -5136,6 +5182,8 @@ Description: "Traduction Française"
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
 * ^supplements = "http://terminology.hl7.org/CodeSystem/v3-SpecimenType|3.0.0"
+* ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
+* ^extension.valueCode = #lang-pack
 
 * #BLDC "Sang capillaire"
 * #BLDC ^designation.language = #fr-FR
