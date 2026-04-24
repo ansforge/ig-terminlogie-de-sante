@@ -1,7 +1,9 @@
 CodeSystem: TreR378MotifArrete
 Id: tre-r378-motif-arrete
 Title: "Tre R378 Motif Arrete"
-Description: "Nomenclature des motifs des arrêtés Remarque : initialisé avec les motifs des arrêtés enregistrés dans FINESS+"
+Description: """
+Nomenclature des motifs des arrêtés
+Remarque : Cette TRE est juste initialisée avec les codes FINESS+"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2024-12-30T12:00:00+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
