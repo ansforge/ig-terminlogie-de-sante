@@ -3,7 +3,10 @@ Alias: $sct = http://snomed.info/sct
 CodeSystem: TreR373TypePersonneMorale
 Id: tre-r373-type-personne-morale
 Title: "Tre R373 Type Personne Morale"
-Description: "Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces champs)"
+Description: """
+Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces champs).
+Remarque : Cette TRE est juste initialisée à minima et a vocation à porter d'autres valurs.
+"""
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2024-12-30T12:00:00+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
