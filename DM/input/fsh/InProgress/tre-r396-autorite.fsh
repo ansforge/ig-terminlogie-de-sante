@@ -3,7 +3,7 @@ Alias: $sct = http://snomed.info/sct
 CodeSystem: TreR396Autorite
 Id: tre-r396-autorite
 Title: "Tre R396 Autorite"
-Description: "liste des autorités structurée en plusieurs types d'autorités : Ordres, ARS, ..."
+Description: "liste des autorités (autorités Ordres, autorités ARS, ...)"
 * ^meta.versionId = "8"
 * ^meta.lastUpdated = "2025-08-25T18:18:27.409+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
