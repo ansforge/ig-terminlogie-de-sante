@@ -3,7 +3,9 @@ Alias: $sct = http://snomed.info/sct
 CodeSystem: TreR366TypeObjet
 Id: tre-r366-type-objet
 Title: "Tre R366 Type Objet"
-Description: "Nomenclature des types d’objets du MOS. Remarque : Cette nomenclature est initialisée avec les types d’objet enregistrés et manipulés dans FINESS+"
+Description: """
+Nomenclature des types d’objets du MOS. 
+Remarque : Cette nomenclature est juste initialisée avec les types d’objet FINESS+"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2024-12-30T12:00:00+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
