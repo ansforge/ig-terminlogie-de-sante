@@ -1,7 +1,10 @@
 CodeSystem: TreR379SystemeInformation
 Id: tre-r379-systeme-information
 Title: "Tre R379 Systeme Information"
-Description: "Nomenclature des systemes d’information généralement déclarés pour définir les caractéristiques des identifiants ou des événements"
+Description: """
+Nomenclature des systemes d’information généralement déclarés pour définir les caractéristiques des identifiants ou des événements
+Remarque : Cette TRE est initialisée avec les codes FINESS
+"""
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-06-11T12:00:00+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
