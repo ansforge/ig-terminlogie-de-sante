@@ -3,7 +3,8 @@ Alias: $sct = http://snomed.info/sct
 CodeSystem: TreR365EtatObjet
 Id: tre-r365-etat-objet
 Title: "Tre R365 Etat Objet"
-Description: """Nomenclature des états élémentaires d'un objet du MOS organisés en etat actifs et en etats inactifs. 
+Description: """
+Nomenclature des états élémentaires d'un objet du MOS organisés en etat actifs et en etats inactifs. 
 Remarque : Cette nomenclature est juste initialisée avec les états gérés dans FINESS+
 """
 * ^meta.versionId = "1"
