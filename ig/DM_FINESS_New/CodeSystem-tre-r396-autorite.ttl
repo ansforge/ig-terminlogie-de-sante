@@ -51,7 +51,7 @@
   fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2025-08-25T12:00:00+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
-  fhir:description [ fhir:v "liste des autorités structurée en plusieurs types d'autorités : Ordres, ARS, ..."] ; # 
+  fhir:description [ fhir:v "liste des autorités (autorités Ordres, autorités ARS, ...)"] ; # 
   fhir:caseSensitive [ fhir:v false] ; # 
   fhir:hierarchyMeaning [ fhir:v "is-a"] ; # 
   fhir:content [ fhir:v "complete"] ; # 

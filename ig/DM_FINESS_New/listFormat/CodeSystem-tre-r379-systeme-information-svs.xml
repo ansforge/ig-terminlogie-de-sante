@@ -4,7 +4,7 @@
    <ValueSet dateFin=""
              dateMaj="20250611120000"
              dateValid="19000101000000"
-             description="Nomenclature des systemes d’information généralement déclarés pour définir les caractéristiques des identifiants ou des événements"
+             description="Nomenclature des systemes d’information généralement déclarés pour définir les caractéristiques des identifiants ou des événements&#xA;Remarque : Cette TRE est initialisée avec les codes FINESS"
              displayName="TreR379SystemeInformation"
              id="1.2.250.1.213.1.6.1.294"
              typeFichier="TRE"

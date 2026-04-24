@@ -28,7 +28,7 @@
   <experimental value="false"/>
   <date value="2024-12-30T12:00:00+01:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
-  <description value="Nomenclature des types de documents administratif ( exemple : agrément, convention...) Remarque : Cette nomenclature est initialisée avec les types de documents informatifs et justificatifs pouvant être associés à une entité FINESS"/>
+  <description value="Nomenclature des types de documents administratif ( exemple : agrément, convention...) &#xA;Remarque : Cette nomenclature est juste initialisée avec les types de documents FINESS"/>
   <caseSensitive value="false"/>
   <content value="complete"/>
   <count value="20"/>

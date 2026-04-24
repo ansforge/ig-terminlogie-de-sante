@@ -4,7 +4,7 @@
    <ValueSet dateFin=""
              dateMaj="20241230120000"
              dateValid="19000101000000"
-             description="Nomenclature des événements administratifs pertinents pour un cycle de vie d'un Objet de Santé (du MOS) Remarque : Cette nomenclature est initialisée avec les évenements affectant le cycle de vie des entités et activités enregistrées dans FINESS+"
+             description="Nomenclature des événements administratifs pertinents pour un cycle de vie d'un Objet de Santé (du MOS)&#xA;Remarque : Cette nomenclature est juste initialisée avec les codes FINESS+"
              displayName="TreR376TypeEvenementAdministratif"
              id="1.2.250.1.213.1.6.1.291"
              typeFichier="TRE"

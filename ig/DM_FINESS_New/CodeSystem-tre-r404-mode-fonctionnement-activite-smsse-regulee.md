@@ -13,7 +13,7 @@
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.383 | | |
 
  
-Mode de fonctinonemment des activités ssmsse régulées, remplace la TRE_R209-TypeActivite 
+Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la TRE_R209-TypeActivite 
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
@@ -54,7 +54,7 @@ Mode de fonctinonemment des activités ssmsse régulées, remplace la TRE_R209-T
   "experimental" : false,
   "date" : "2026-02-23T12:00:00.000+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Mode de fonctinonemment des activités ssmsse régulées, remplace la TRE_R209-TypeActivite",
+  "description" : "Mode de fonctinonemment des activités ssmsse régulées.\nCette TRE remplace la TRE_R209-TypeActivite",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

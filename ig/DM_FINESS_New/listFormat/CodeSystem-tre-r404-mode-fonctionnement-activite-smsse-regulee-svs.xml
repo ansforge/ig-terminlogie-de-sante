@@ -4,7 +4,7 @@
    <ValueSet dateFin=""
              dateMaj="20260223120000"
              dateValid="20150408000000"
-             description="Mode de fonctinonemment des activités ssmsse régulées, remplace la TRE_R209-TypeActivite"
+             description="Mode de fonctinonemment des activités ssmsse régulées.&#xA;Cette TRE remplace la TRE_R209-TypeActivite"
              displayName="TreR404ModeFonctionnementActiviteSmsseRegulee"
              id="1.2.250.1.213.1.6.1.383"
              typeFichier="TRE"

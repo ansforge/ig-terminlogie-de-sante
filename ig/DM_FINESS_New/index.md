@@ -43820,7 +43820,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
         "reference" : "CodeSystem/tre-r364-type-document-administratif"
       },
       "name" : "Tre R364 Type Document Administratif",
-      "description" : "Nomenclature des types de documents administratif ( exemple : agrément, convention...) Remarque : Cette nomenclature est initialisée avec les types de documents informatifs et justificatifs pouvant être associés à une entité FINESS",
+      "description" : "Nomenclature des types de documents administratif ( exemple : agrément, convention...) \nRemarque : Cette nomenclature est juste initialisée avec les types de documents FINESS",
       "exampleBoolean" : false
     },
     {
@@ -43832,7 +43832,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
         "reference" : "CodeSystem/tre-r365-etat-objet"
       },
       "name" : "Tre R365 Etat Objet",
-      "description" : "Nomenclature des états élémentaires d'un objet du MOS organisés en etat actifs et en etats inactifs. Remarque : Cette nomenclature est initialisée avec les états que peuvent porter les entités et activités FINESS+",
+      "description" : "Nomenclature des états élémentaires d'un objet du MOS organisés en etat actifs et en etats inactifs. \nRemarque : Cette nomenclature est juste initialisée avec les états gérés dans FINESS+",
       "exampleBoolean" : false
     },
     {
@@ -43844,7 +43844,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
         "reference" : "CodeSystem/tre-r366-type-objet"
       },
       "name" : "Tre R366 Type Objet",
-      "description" : "Nomenclature des types d’objets du MOS. Remarque : Cette nomenclature est initialisée avec les types d’objet enregistrés et manipulés dans FINESS+",
+      "description" : "Nomenclature des types d’objets du MOS. \nRemarque : Cette nomenclature est juste initialisée avec les types d’objet FINESS+",
       "exampleBoolean" : false
     },
     {
@@ -43892,7 +43892,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
         "reference" : "CodeSystem/tre-r373-type-personne-morale"
       },
       "name" : "Tre R373 Type Personne Morale",
-      "description" : "Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces champs)",
+      "description" : "Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces champs).\nRemarque : Cette TRE est juste initialisée à minima et a vocation à porter d'autres valurs.",
       "exampleBoolean" : false
     },
     {
@@ -43928,7 +43928,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
         "reference" : "CodeSystem/tre-r376-type-evenement-administratif"
       },
       "name" : "Tre R376 Type Evenement Administratif",
-      "description" : "Nomenclature des événements administratifs pertinents pour un cycle de vie d'un Objet de Santé (du MOS) Remarque : Cette nomenclature est initialisée avec les évenements affectant le cycle de vie des entités et activités enregistrées dans FINESS+",
+      "description" : "Nomenclature des événements administratifs pertinents pour un cycle de vie d'un Objet de Santé (du MOS)\nRemarque : Cette nomenclature est juste initialisée avec les codes FINESS+",
       "exampleBoolean" : false
     },
     {
@@ -43940,7 +43940,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
         "reference" : "CodeSystem/tre-r377-usage-adresse"
       },
       "name" : "Tre R377 Usage Adresse",
-      "description" : "Nomenclature des types des adresses",
+      "description" : "Nomenclature des types des adresses\nRemarque : Cette TRE est juste intialisée avec les codes FINESS.",
       "exampleBoolean" : false
     },
     {
@@ -43952,7 +43952,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
         "reference" : "CodeSystem/tre-r378-motif-arrete"
       },
       "name" : "Tre R378 Motif Arrete",
-      "description" : "Nomenclature des motifs des arrêtés Remarque : initialisé avec les motifs des arrêtés enregistrés dans FINESS+",
+      "description" : "Nomenclature des motifs des arrêtés\nRemarque : Cette TRE est juste initialisée avec les codes FINESS+",
       "exampleBoolean" : false
     },
     {
@@ -43964,7 +43964,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
         "reference" : "CodeSystem/tre-r379-systeme-information"
       },
       "name" : "Tre R379 Systeme Information",
-      "description" : "Nomenclature des systemes d’information généralement déclarés pour définir les caractéristiques des identifiants ou des événements",
+      "description" : "Nomenclature des systemes d’information généralement déclarés pour définir les caractéristiques des identifiants ou des événements\nRemarque : Cette TRE est initialisée avec les codes FINESS",
       "exampleBoolean" : false
     },
     {
@@ -44036,7 +44036,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
         "reference" : "CodeSystem/tre-r386-macro-etat-objet-administratif"
       },
       "name" : "Tre R386 Macro Etat Objet Administratif",
-      "description" : "Nomenclature des macro-etat des structures FINESS qui dérivent de l'état de l'objet. Permet de distinguer les structures actives de celles inactives.",
+      "description" : "Nomenclature des macro-etat des structures FINESS qui dérivent de l'état de l'objet. \nPermet de distinguer les structures actives de celles inactives.",
       "exampleBoolean" : false
     },
     {
@@ -44144,7 +44144,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
         "reference" : "CodeSystem/tre-r396-autorite"
       },
       "name" : "Tre R396 Autorite",
-      "description" : "liste des autorités structurée en plusieurs types d'autorités : Ordres, ARS, ...",
+      "description" : "liste des autorités (autorités Ordres, autorités ARS, ...)",
       "exampleBoolean" : false
     },
     {
@@ -44168,7 +44168,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
         "reference" : "CodeSystem/tre-r400-finess-statut-juridique"
       },
       "name" : "Tre R400 Finess Statut Juridique",
-      "description" : "Cette TRE hiérarchique remplace les TRE_R68-FinessAgregatStatutJuridiqueNiv1, TRE_R69-FinessAgregatStatutJuridiqueNiv2, TRE_R70-FinessAgregatStatutJuridique, TRE_R72-FinessStatutJuridique, et l'association ASS_X11_FinessAgregatStatutJuridique. Cette TRE possède des propriétés spécifiques : le niveau d'agrégat des statuts juridiques  de 1 à 4 ( du plus large au plus fin), le parent d'un agrégat de statuts juridiques ou d'un statut juridique, un indicateur pour les statuts juridiques  spécifiques à RPPS ( non finess) et les relations nécessaires à la construction des JDV dynamiques associés",
+      "description" : "Statuts juridiques provenant de FINESS, excepté pour les codes 000 et 100 à 110 qui ont été ajoutés pour les besoins du RPPS en 2017.\n\nCette TRE hiérarchique remplace les éléments suivants :\nTRE_R68-FinessAgregatStatutJuridiqueNiv1,TRE_R69-FinessAgregatStatutJuridiqueNiv2, TRE_R70-FinessAgregatStatutJuridique, \nTRE_R72-FinessStatutJuridique, et l'association ASS_X11_FinessAgregatStatutJuridique. \n\nCette TRE possède des propriétés spécifiques :\n1. Propriété NOS \"Niveau\" : Le niveau d’agrégat des statuts juridiques de 1 à 4 (du plus large au plus fin)\n2. Propriété HL7 \"Parent\" : Le code parent d'un code de la TRE (code d'un agrégat d'un statut juridique ou code d'un statut juridique)\n3. Propriété NOS \"specificationRPPS\" :  indicateur indiquant qu'il s'agit d'un code RPPS (et non d'un code FINESS)",
       "exampleBoolean" : false
     },
     {
@@ -44216,7 +44216,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
         "reference" : "CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"
       },
       "name" : "Tre R404 Mode Fonctionnement Activite Smsse Regulee",
-      "description" : "Mode de fonctinonemment des activités ssmsse régulées, remplace la TRE_R209-TypeActivite",
+      "description" : "Mode de fonctinonemment des activités ssmsse régulées.\nCette TRE remplace la TRE_R209-TypeActivite",
       "exampleBoolean" : false
     },
     {

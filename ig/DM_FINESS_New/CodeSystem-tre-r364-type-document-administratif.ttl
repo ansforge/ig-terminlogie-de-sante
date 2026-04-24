@@ -51,7 +51,7 @@
   fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2024-12-30T12:00:00+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
-  fhir:description [ fhir:v "Nomenclature des types de documents administratif ( exemple : agrément, convention...) Remarque : Cette nomenclature est initialisée avec les types de documents informatifs et justificatifs pouvant être associés à une entité FINESS"] ; # 
+  fhir:description [ fhir:v "Nomenclature des types de documents administratif ( exemple : agrément, convention...) \nRemarque : Cette nomenclature est juste initialisée avec les types de documents FINESS"] ; # 
   fhir:caseSensitive [ fhir:v false] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:count [ fhir:v "20"^^xsd:nonNegativeInteger] ; # 

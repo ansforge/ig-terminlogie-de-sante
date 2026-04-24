@@ -4,7 +4,7 @@
    <ValueSet dateFin=""
              dateMaj="20241230120000"
              dateValid="19000101000000"
-             description="Nomenclature des macro-etat des structures FINESS qui dérivent de l'état de l'objet. Permet de distinguer les structures actives de celles inactives."
+             description="Nomenclature des macro-etat des structures FINESS qui dérivent de l'état de l'objet. &#xA;Permet de distinguer les structures actives de celles inactives."
              displayName="TreR386MacroEtatObjetAdministratif"
              id="1.2.250.1.213.1.6.1.301"
              typeFichier="TRE"

@@ -1,5 +1,6 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MAJ>
-1.2.250.1.213.1.6.1.291;TRE;TreR376TypeEvenementAdministratif.tabs;Nomenclature des événements administratifs pertinents pour un cycle de vie d'un Objet de Santé (du MOS) Remarque : Cette nomenclature est initialisée avec les évenements affectant le cycle de vie des entités et activités enregistrées dans FINESS+;;19000101000000;;20241230120000
+1.2.250.1.213.1.6.1.291;TRE;TreR376TypeEvenementAdministratif.tabs;Nomenclature des événements administratifs pertinents pour un cycle de vie d'un Objet de Santé (du MOS)
+Remarque : Cette nomenclature est juste initialisée avec les codes FINESS+;;19000101000000;;20241230120000
 <OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MAJ> 
 1.2.250.1.213.1.6.1.291;001;Entrée PM-EJ dans le champ FINESS;Entrée PM-EJ dans le champ FINESS;Entrée PM-EJ dans le champ FINESS;19000101000000;;19000101000000
 1.2.250.1.213.1.6.1.291;002;Sortie PM-EJ du champ FINESS;Sortie PM-EJ du champ FINESS;Sortie PM-EJ du champ FINESS;19000101000000;;19000101000000

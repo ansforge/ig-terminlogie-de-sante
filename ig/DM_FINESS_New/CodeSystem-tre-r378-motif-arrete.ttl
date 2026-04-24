@@ -50,7 +50,7 @@
   fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2024-12-30T12:00:00+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
-  fhir:description [ fhir:v "Nomenclature des motifs des arrêtés Remarque : initialisé avec les motifs des arrêtés enregistrés dans FINESS+"] ; # 
+  fhir:description [ fhir:v "Nomenclature des motifs des arrêtés\nRemarque : Cette TRE est juste initialisée avec les codes FINESS+"] ; # 
   fhir:caseSensitive [ fhir:v false] ; # 
   fhir:valueSet [
      fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r378-motif-arrete?vs"^^xsd:anyURI ;

@@ -4,7 +4,7 @@
    <ValueSet dateFin=""
              dateMaj="20241230120000"
              dateValid="19000101000000"
-             description="Nomenclature des états élémentaires d'un objet du MOS organisés en etat actifs et en etats inactifs. Remarque : Cette nomenclature est initialisée avec les états que peuvent porter les entités et activités FINESS+"
+             description="Nomenclature des états élémentaires d'un objet du MOS organisés en etat actifs et en etats inactifs. &#xA;Remarque : Cette nomenclature est juste initialisée avec les états gérés dans FINESS+"
              displayName="TreR365EtatObjet"
              id="1.2.250.1.213.1.6.1.259"
              typeFichier="TRE"

@@ -13,7 +13,7 @@
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.260 | | |
 
  
-Nomenclature des types d’objets du MOS. Remarque : Cette nomenclature est initialisée avec les types d’objet enregistrés et manipulés dans FINESS+ 
+Nomenclature des types d’objets du MOS. Remarque : Cette nomenclature est juste initialisée avec les types d’objet FINESS+ 
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
@@ -51,7 +51,7 @@ Nomenclature des types d’objets du MOS. Remarque : Cette nomenclature est init
   "experimental" : false,
   "date" : "2024-12-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Nomenclature des types d’objets du MOS. Remarque : Cette nomenclature est initialisée avec les types d’objet enregistrés et manipulés dans FINESS+",
+  "description" : "Nomenclature des types d’objets du MOS. \nRemarque : Cette nomenclature est juste initialisée avec les types d’objet FINESS+",
   "caseSensitive" : false,
   "content" : "complete",
   "count" : 6,

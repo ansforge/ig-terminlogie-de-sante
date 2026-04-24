@@ -28,7 +28,7 @@
   <experimental value="false"/>
   <date value="2024-12-30T12:00:00+01:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
-  <description value="Nomenclature des motifs des arrêtés Remarque : initialisé avec les motifs des arrêtés enregistrés dans FINESS+"/>
+  <description value="Nomenclature des motifs des arrêtés&#xA;Remarque : Cette TRE est juste initialisée avec les codes FINESS+"/>
   <caseSensitive value="false"/>
   <valueSet value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r378-motif-arrete?vs"/>
   <content value="complete"/>

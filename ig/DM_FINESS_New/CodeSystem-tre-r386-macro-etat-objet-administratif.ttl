@@ -50,7 +50,7 @@
   fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2024-12-30T12:00:00+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
-  fhir:description [ fhir:v "Nomenclature des macro-etat des structures FINESS qui dérivent de l'état de l'objet. Permet de distinguer les structures actives de celles inactives."] ; # 
+  fhir:description [ fhir:v "Nomenclature des macro-etat des structures FINESS qui dérivent de l'état de l'objet. \nPermet de distinguer les structures actives de celles inactives."] ; # 
   fhir:caseSensitive [ fhir:v false] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:count [ fhir:v "2"^^xsd:nonNegativeInteger] ; # 

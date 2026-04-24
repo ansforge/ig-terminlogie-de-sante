@@ -1,5 +1,6 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MAJ>
-1.2.250.1.213.1.6.1.259;TRE;TreR365EtatObjet.tabs;Nomenclature des états élémentaires d'un objet du MOS organisés en etat actifs et en etats inactifs. Remarque : Cette nomenclature est initialisée avec les états que peuvent porter les entités et activités FINESS+;;19000101000000;;20241230120000
+1.2.250.1.213.1.6.1.259;TRE;TreR365EtatObjet.tabs;Nomenclature des états élémentaires d'un objet du MOS organisés en etat actifs et en etats inactifs. 
+Remarque : Cette nomenclature est juste initialisée avec les états gérés dans FINESS+;;19000101000000;;20241230120000
 <OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MAJ> 
 1.2.250.1.213.1.6.1.259;001;Entrée dans le champ FINESS;Entrée dans le champ FINESS;Entrée dans le champ FINESS;19000101000000;;19000101000000
 1.2.250.1.213.1.6.1.259;002;Sortie du champ FINESS;Sortie du champ FINESS;Sortie du champ FINESS;19000101000000;;19000101000000

@@ -28,7 +28,7 @@
   <experimental value="false"/>
   <date value="2025-08-25T12:00:00+01:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
-  <description value="liste des autorités structurée en plusieurs types d'autorités : Ordres, ARS, ..."/>
+  <description value="liste des autorités (autorités Ordres, autorités ARS, ...)"/>
   <caseSensitive value="false"/>
   <hierarchyMeaning value="is-a"/>
   <content value="complete"/>

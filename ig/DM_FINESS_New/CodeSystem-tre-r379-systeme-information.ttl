@@ -50,7 +50,7 @@
   fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2025-06-11T12:00:00+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
-  fhir:description [ fhir:v "Nomenclature des systemes d’information généralement déclarés pour définir les caractéristiques des identifiants ou des événements"] ; # 
+  fhir:description [ fhir:v "Nomenclature des systemes d’information généralement déclarés pour définir les caractéristiques des identifiants ou des événements\nRemarque : Cette TRE est initialisée avec les codes FINESS"] ; # 
   fhir:caseSensitive [ fhir:v false] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:count [ fhir:v "5"^^xsd:nonNegativeInteger] ; # 

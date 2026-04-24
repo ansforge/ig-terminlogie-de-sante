@@ -13,7 +13,13 @@
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.379 | | |
 
  
-Cette TRE hiérarchique remplace les TRE_R68-FinessAgregatStatutJuridiqueNiv1, TRE_R69-FinessAgregatStatutJuridiqueNiv2, TRE_R70-FinessAgregatStatutJuridique, TRE_R72-FinessStatutJuridique, et l’association ASS_X11_FinessAgregatStatutJuridique. Cette TRE possède des propriétés spécifiques : le niveau d’agrégat des statuts juridiques de 1 à 4 ( du plus large au plus fin), le parent d’un agrégat de statuts juridiques ou d’un statut juridique, un indicateur pour les statuts juridiques spécifiques à RPPS ( non finess) et les relations nécessaires à la construction des JDV dynamiques associés 
+Statuts juridiques provenant de FINESS, excepté pour les codes 000 et 100 à 110 qui ont été ajoutés pour les besoins du RPPS en 2017. 
+Cette TRE hiérarchique remplace les éléments suivants : TRE_R68-FinessAgregatStatutJuridiqueNiv1,TRE_R69-FinessAgregatStatutJuridiqueNiv2, TRE_R70-FinessAgregatStatutJuridique, TRE_R72-FinessStatutJuridique, et l’association ASS_X11_FinessAgregatStatutJuridique. 
+Cette TRE possède des propriétés spécifiques : 
+1. Propriété NOS “Niveau” : Le niveau d’agrégat des statuts juridiques de 1 à 4 (du plus large au plus fin)
+1. Propriété HL7 “Parent” : Le code parent d’un code de la TRE (code d’un agrégat d’un statut juridique ou code d’un statut juridique)
+1. Propriété NOS “specificationRPPS” : indicateur indiquant qu’il s’agit d’un code RPPS (et non d’un code FINESS)
+ 
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
@@ -59,7 +65,7 @@ Cette TRE hiérarchique remplace les TRE_R68-FinessAgregatStatutJuridiqueNiv1, T
   "experimental" : false,
   "date" : "2026-02-23T12:00:00.000+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Cette TRE hiérarchique remplace les TRE_R68-FinessAgregatStatutJuridiqueNiv1, TRE_R69-FinessAgregatStatutJuridiqueNiv2, TRE_R70-FinessAgregatStatutJuridique, TRE_R72-FinessStatutJuridique, et l'association ASS_X11_FinessAgregatStatutJuridique. Cette TRE possède des propriétés spécifiques : le niveau d'agrégat des statuts juridiques  de 1 à 4 ( du plus large au plus fin), le parent d'un agrégat de statuts juridiques ou d'un statut juridique, un indicateur pour les statuts juridiques  spécifiques à RPPS ( non finess) et les relations nécessaires à la construction des JDV dynamiques associés",
+  "description" : "Statuts juridiques provenant de FINESS, excepté pour les codes 000 et 100 à 110 qui ont été ajoutés pour les besoins du RPPS en 2017.\n\nCette TRE hiérarchique remplace les éléments suivants :\nTRE_R68-FinessAgregatStatutJuridiqueNiv1,TRE_R69-FinessAgregatStatutJuridiqueNiv2, TRE_R70-FinessAgregatStatutJuridique, \nTRE_R72-FinessStatutJuridique, et l'association ASS_X11_FinessAgregatStatutJuridique. \n\nCette TRE possède des propriétés spécifiques :\n1. Propriété NOS \"Niveau\" : Le niveau d’agrégat des statuts juridiques de 1 à 4 (du plus large au plus fin)\n2. Propriété HL7 \"Parent\" : Le code parent d'un code de la TRE (code d'un agrégat d'un statut juridique ou code d'un statut juridique)\n3. Propriété NOS \"specificationRPPS\" :  indicateur indiquant qu'il s'agit d'un code RPPS (et non d'un code FINESS)  ",
   "caseSensitive" : false,
   "hierarchyMeaning" : "is-a",
   "content" : "complete",

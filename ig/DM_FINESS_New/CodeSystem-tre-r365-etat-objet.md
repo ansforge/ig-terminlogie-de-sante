@@ -13,7 +13,7 @@
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.259 | | |
 
  
-Nomenclature des états élémentaires d’un objet du MOS organisés en etat actifs et en etats inactifs. Remarque : Cette nomenclature est initialisée avec les états que peuvent porter les entités et activités FINESS+ 
+Nomenclature des états élémentaires d’un objet du MOS organisés en etat actifs et en etats inactifs. Remarque : Cette nomenclature est juste initialisée avec les états gérés dans FINESS+ 
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
@@ -51,7 +51,7 @@ Nomenclature des états élémentaires d’un objet du MOS organisés en etat ac
   "experimental" : false,
   "date" : "2024-12-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Nomenclature des états élémentaires d'un objet du MOS organisés en etat actifs et en etats inactifs. Remarque : Cette nomenclature est initialisée avec les états que peuvent porter les entités et activités FINESS+",
+  "description" : "Nomenclature des états élémentaires d'un objet du MOS organisés en etat actifs et en etats inactifs. \nRemarque : Cette nomenclature est juste initialisée avec les états gérés dans FINESS+",
   "caseSensitive" : false,
   "content" : "complete",
   "count" : 38,

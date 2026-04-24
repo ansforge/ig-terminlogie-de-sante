@@ -90529,7 +90529,7 @@
          fhir:reference [ fhir:v "CodeSystem/tre-r364-type-document-administratif" ]
        ] ;
        fhir:name [ fhir:v "Tre R364 Type Document Administratif" ] ;
-       fhir:description [ fhir:v "Nomenclature des types de documents administratif ( exemple : agrément, convention...) Remarque : Cette nomenclature est initialisée avec les types de documents informatifs et justificatifs pouvant être associés à une entité FINESS" ] ;
+       fhir:description [ fhir:v "Nomenclature des types de documents administratif ( exemple : agrément, convention...) \nRemarque : Cette nomenclature est juste initialisée avec les types de documents FINESS" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -90550,7 +90550,7 @@
          fhir:reference [ fhir:v "CodeSystem/tre-r365-etat-objet" ]
        ] ;
        fhir:name [ fhir:v "Tre R365 Etat Objet" ] ;
-       fhir:description [ fhir:v "Nomenclature des états élémentaires d'un objet du MOS organisés en etat actifs et en etats inactifs. Remarque : Cette nomenclature est initialisée avec les états que peuvent porter les entités et activités FINESS+" ] ;
+       fhir:description [ fhir:v "Nomenclature des états élémentaires d'un objet du MOS organisés en etat actifs et en etats inactifs. \nRemarque : Cette nomenclature est juste initialisée avec les états gérés dans FINESS+" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -90571,7 +90571,7 @@
          fhir:reference [ fhir:v "CodeSystem/tre-r366-type-objet" ]
        ] ;
        fhir:name [ fhir:v "Tre R366 Type Objet" ] ;
-       fhir:description [ fhir:v "Nomenclature des types d’objets du MOS. Remarque : Cette nomenclature est initialisée avec les types d’objet enregistrés et manipulés dans FINESS+" ] ;
+       fhir:description [ fhir:v "Nomenclature des types d’objets du MOS. \nRemarque : Cette nomenclature est juste initialisée avec les types d’objet FINESS+" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -90655,7 +90655,7 @@
          fhir:reference [ fhir:v "CodeSystem/tre-r373-type-personne-morale" ]
        ] ;
        fhir:name [ fhir:v "Tre R373 Type Personne Morale" ] ;
-       fhir:description [ fhir:v "Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces champs)" ] ;
+       fhir:description [ fhir:v "Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces champs).\nRemarque : Cette TRE est juste initialisée à minima et a vocation à porter d'autres valurs." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -90718,7 +90718,7 @@
          fhir:reference [ fhir:v "CodeSystem/tre-r376-type-evenement-administratif" ]
        ] ;
        fhir:name [ fhir:v "Tre R376 Type Evenement Administratif" ] ;
-       fhir:description [ fhir:v "Nomenclature des événements administratifs pertinents pour un cycle de vie d'un Objet de Santé (du MOS) Remarque : Cette nomenclature est initialisée avec les évenements affectant le cycle de vie des entités et activités enregistrées dans FINESS+" ] ;
+       fhir:description [ fhir:v "Nomenclature des événements administratifs pertinents pour un cycle de vie d'un Objet de Santé (du MOS)\nRemarque : Cette nomenclature est juste initialisée avec les codes FINESS+" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -90739,7 +90739,7 @@
          fhir:reference [ fhir:v "CodeSystem/tre-r377-usage-adresse" ]
        ] ;
        fhir:name [ fhir:v "Tre R377 Usage Adresse" ] ;
-       fhir:description [ fhir:v "Nomenclature des types des adresses" ] ;
+       fhir:description [ fhir:v "Nomenclature des types des adresses\nRemarque : Cette TRE est juste intialisée avec les codes FINESS." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -90760,7 +90760,7 @@
          fhir:reference [ fhir:v "CodeSystem/tre-r378-motif-arrete" ]
        ] ;
        fhir:name [ fhir:v "Tre R378 Motif Arrete" ] ;
-       fhir:description [ fhir:v "Nomenclature des motifs des arrêtés Remarque : initialisé avec les motifs des arrêtés enregistrés dans FINESS+" ] ;
+       fhir:description [ fhir:v "Nomenclature des motifs des arrêtés\nRemarque : Cette TRE est juste initialisée avec les codes FINESS+" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -90781,7 +90781,7 @@
          fhir:reference [ fhir:v "CodeSystem/tre-r379-systeme-information" ]
        ] ;
        fhir:name [ fhir:v "Tre R379 Systeme Information" ] ;
-       fhir:description [ fhir:v "Nomenclature des systemes d’information généralement déclarés pour définir les caractéristiques des identifiants ou des événements" ] ;
+       fhir:description [ fhir:v "Nomenclature des systemes d’information généralement déclarés pour définir les caractéristiques des identifiants ou des événements\nRemarque : Cette TRE est initialisée avec les codes FINESS" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -90907,7 +90907,7 @@
          fhir:reference [ fhir:v "CodeSystem/tre-r386-macro-etat-objet-administratif" ]
        ] ;
        fhir:name [ fhir:v "Tre R386 Macro Etat Objet Administratif" ] ;
-       fhir:description [ fhir:v "Nomenclature des macro-etat des structures FINESS qui dérivent de l'état de l'objet. Permet de distinguer les structures actives de celles inactives." ] ;
+       fhir:description [ fhir:v "Nomenclature des macro-etat des structures FINESS qui dérivent de l'état de l'objet. \nPermet de distinguer les structures actives de celles inactives." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -91096,7 +91096,7 @@
          fhir:reference [ fhir:v "CodeSystem/tre-r396-autorite" ]
        ] ;
        fhir:name [ fhir:v "Tre R396 Autorite" ] ;
-       fhir:description [ fhir:v "liste des autorités structurée en plusieurs types d'autorités : Ordres, ARS, ..." ] ;
+       fhir:description [ fhir:v "liste des autorités (autorités Ordres, autorités ARS, ...)" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -91138,7 +91138,7 @@
          fhir:reference [ fhir:v "CodeSystem/tre-r400-finess-statut-juridique" ]
        ] ;
        fhir:name [ fhir:v "Tre R400 Finess Statut Juridique" ] ;
-       fhir:description [ fhir:v "Cette TRE hiérarchique remplace les TRE_R68-FinessAgregatStatutJuridiqueNiv1, TRE_R69-FinessAgregatStatutJuridiqueNiv2, TRE_R70-FinessAgregatStatutJuridique, TRE_R72-FinessStatutJuridique, et l'association ASS_X11_FinessAgregatStatutJuridique. Cette TRE possède des propriétés spécifiques : le niveau d'agrégat des statuts juridiques  de 1 à 4 ( du plus large au plus fin), le parent d'un agrégat de statuts juridiques ou d'un statut juridique, un indicateur pour les statuts juridiques  spécifiques à RPPS ( non finess) et les relations nécessaires à la construction des JDV dynamiques associés" ] ;
+       fhir:description [ fhir:v "Statuts juridiques provenant de FINESS, excepté pour les codes 000 et 100 à 110 qui ont été ajoutés pour les besoins du RPPS en 2017.\n\nCette TRE hiérarchique remplace les éléments suivants :\nTRE_R68-FinessAgregatStatutJuridiqueNiv1,TRE_R69-FinessAgregatStatutJuridiqueNiv2, TRE_R70-FinessAgregatStatutJuridique, \nTRE_R72-FinessStatutJuridique, et l'association ASS_X11_FinessAgregatStatutJuridique. \n\nCette TRE possède des propriétés spécifiques :\n1. Propriété NOS \"Niveau\" : Le niveau d’agrégat des statuts juridiques de 1 à 4 (du plus large au plus fin)\n2. Propriété HL7 \"Parent\" : Le code parent d'un code de la TRE (code d'un agrégat d'un statut juridique ou code d'un statut juridique)\n3. Propriété NOS \"specificationRPPS\" :  indicateur indiquant qu'il s'agit d'un code RPPS (et non d'un code FINESS)" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -91222,7 +91222,7 @@
          fhir:reference [ fhir:v "CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee" ]
        ] ;
        fhir:name [ fhir:v "Tre R404 Mode Fonctionnement Activite Smsse Regulee" ] ;
-       fhir:description [ fhir:v "Mode de fonctinonemment des activités ssmsse régulées, remplace la TRE_R209-TypeActivite" ] ;
+       fhir:description [ fhir:v "Mode de fonctinonemment des activités ssmsse régulées.\nCette TRE remplace la TRE_R209-TypeActivite" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false

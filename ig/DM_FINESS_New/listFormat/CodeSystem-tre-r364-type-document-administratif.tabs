@@ -1,5 +1,6 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MAJ>
-1.2.250.1.213.1.6.1.258;TRE;TreR364TypeDocumentAdministratif.tabs;Nomenclature des types de documents administratif ( exemple : agrément, convention...) Remarque : Cette nomenclature est initialisée avec les types de documents informatifs et justificatifs pouvant être associés à une entité FINESS;;19000101000000;;20241230120000
+1.2.250.1.213.1.6.1.258;TRE;TreR364TypeDocumentAdministratif.tabs;Nomenclature des types de documents administratif ( exemple : agrément, convention...) 
+Remarque : Cette nomenclature est juste initialisée avec les types de documents FINESS;;19000101000000;;20241230120000
 <OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MAJ> 
 1.2.250.1.213.1.6.1.258;001;Arrêté d'autorisation;Arrêté d'autorisation;Arrêté d'autorisation;19000101000000;;19000101000000
 1.2.250.1.213.1.6.1.258;002;Projet de santé;Projet de santé;Projet de santé;19000101000000;;19000101000000

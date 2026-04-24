@@ -29,7 +29,7 @@
   "experimental" : false,
   "date" : "2024-12-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Nomenclature des macro-etat des structures FINESS qui dérivent de l'état de l'objet. Permet de distinguer les structures actives de celles inactives.",
+  "description" : "Nomenclature des macro-etat des structures FINESS qui dérivent de l'état de l'objet. \nPermet de distinguer les structures actives de celles inactives.",
   "caseSensitive" : false,
   "content" : "complete",
   "count" : 2,

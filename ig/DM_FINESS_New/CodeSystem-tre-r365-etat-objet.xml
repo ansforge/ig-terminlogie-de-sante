@@ -28,7 +28,7 @@
   <experimental value="false"/>
   <date value="2024-12-30T12:00:00+01:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
-  <description value="Nomenclature des états élémentaires d'un objet du MOS organisés en etat actifs et en etats inactifs. Remarque : Cette nomenclature est initialisée avec les états que peuvent porter les entités et activités FINESS+"/>
+  <description value="Nomenclature des états élémentaires d'un objet du MOS organisés en etat actifs et en etats inactifs. &#xA;Remarque : Cette nomenclature est juste initialisée avec les états gérés dans FINESS+"/>
   <caseSensitive value="false"/>
   <content value="complete"/>
   <count value="38"/>

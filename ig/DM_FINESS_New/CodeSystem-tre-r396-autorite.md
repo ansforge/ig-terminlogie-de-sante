@@ -13,7 +13,7 @@
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.377 | | |
 
  
-liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS, … 
+liste des autorités (autorités Ordres, autorités ARS, …) 
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
@@ -58,7 +58,7 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
   "experimental" : false,
   "date" : "2025-08-25T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "liste des autorités structurée en plusieurs types d'autorités : Ordres, ARS, ...",
+  "description" : "liste des autorités (autorités Ordres, autorités ARS, ...)",
   "caseSensitive" : false,
   "hierarchyMeaning" : "is-a",
   "content" : "complete",

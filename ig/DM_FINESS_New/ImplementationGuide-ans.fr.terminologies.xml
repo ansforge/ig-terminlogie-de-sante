@@ -33861,7 +33861,7 @@
         <reference value="CodeSystem/tre-r364-type-document-administratif"/>
       </reference>
       <name value="Tre R364 Type Document Administratif"/>
-      <description value="Nomenclature des types de documents administratif ( exemple : agrément, convention...) Remarque : Cette nomenclature est initialisée avec les types de documents informatifs et justificatifs pouvant être associés à une entité FINESS"/>
+      <description value="Nomenclature des types de documents administratif ( exemple : agrément, convention...) &#xA;Remarque : Cette nomenclature est juste initialisée avec les types de documents FINESS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -33872,7 +33872,7 @@
         <reference value="CodeSystem/tre-r365-etat-objet"/>
       </reference>
       <name value="Tre R365 Etat Objet"/>
-      <description value="Nomenclature des états élémentaires d'un objet du MOS organisés en etat actifs et en etats inactifs. Remarque : Cette nomenclature est initialisée avec les états que peuvent porter les entités et activités FINESS+"/>
+      <description value="Nomenclature des états élémentaires d'un objet du MOS organisés en etat actifs et en etats inactifs. &#xA;Remarque : Cette nomenclature est juste initialisée avec les états gérés dans FINESS+"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -33883,7 +33883,7 @@
         <reference value="CodeSystem/tre-r366-type-objet"/>
       </reference>
       <name value="Tre R366 Type Objet"/>
-      <description value="Nomenclature des types d’objets du MOS. Remarque : Cette nomenclature est initialisée avec les types d’objet enregistrés et manipulés dans FINESS+"/>
+      <description value="Nomenclature des types d’objets du MOS. &#xA;Remarque : Cette nomenclature est juste initialisée avec les types d’objet FINESS+"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -33927,7 +33927,7 @@
         <reference value="CodeSystem/tre-r373-type-personne-morale"/>
       </reference>
       <name value="Tre R373 Type Personne Morale"/>
-      <description value="Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces champs)"/>
+      <description value="Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces champs).&#xA;Remarque : Cette TRE est juste initialisée à minima et a vocation à porter d'autres valurs."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -33960,7 +33960,7 @@
         <reference value="CodeSystem/tre-r376-type-evenement-administratif"/>
       </reference>
       <name value="Tre R376 Type Evenement Administratif"/>
-      <description value="Nomenclature des événements administratifs pertinents pour un cycle de vie d'un Objet de Santé (du MOS) Remarque : Cette nomenclature est initialisée avec les évenements affectant le cycle de vie des entités et activités enregistrées dans FINESS+"/>
+      <description value="Nomenclature des événements administratifs pertinents pour un cycle de vie d'un Objet de Santé (du MOS)&#xA;Remarque : Cette nomenclature est juste initialisée avec les codes FINESS+"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -33971,7 +33971,7 @@
         <reference value="CodeSystem/tre-r377-usage-adresse"/>
       </reference>
       <name value="Tre R377 Usage Adresse"/>
-      <description value="Nomenclature des types des adresses"/>
+      <description value="Nomenclature des types des adresses&#xA;Remarque : Cette TRE est juste intialisée avec les codes FINESS."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -33982,7 +33982,7 @@
         <reference value="CodeSystem/tre-r378-motif-arrete"/>
       </reference>
       <name value="Tre R378 Motif Arrete"/>
-      <description value="Nomenclature des motifs des arrêtés Remarque : initialisé avec les motifs des arrêtés enregistrés dans FINESS+"/>
+      <description value="Nomenclature des motifs des arrêtés&#xA;Remarque : Cette TRE est juste initialisée avec les codes FINESS+"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -33993,7 +33993,7 @@
         <reference value="CodeSystem/tre-r379-systeme-information"/>
       </reference>
       <name value="Tre R379 Systeme Information"/>
-      <description value="Nomenclature des systemes d’information généralement déclarés pour définir les caractéristiques des identifiants ou des événements"/>
+      <description value="Nomenclature des systemes d’information généralement déclarés pour définir les caractéristiques des identifiants ou des événements&#xA;Remarque : Cette TRE est initialisée avec les codes FINESS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -34059,7 +34059,7 @@
         <reference value="CodeSystem/tre-r386-macro-etat-objet-administratif"/>
       </reference>
       <name value="Tre R386 Macro Etat Objet Administratif"/>
-      <description value="Nomenclature des macro-etat des structures FINESS qui dérivent de l'état de l'objet. Permet de distinguer les structures actives de celles inactives."/>
+      <description value="Nomenclature des macro-etat des structures FINESS qui dérivent de l'état de l'objet. &#xA;Permet de distinguer les structures actives de celles inactives."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -34158,7 +34158,7 @@
         <reference value="CodeSystem/tre-r396-autorite"/>
       </reference>
       <name value="Tre R396 Autorite"/>
-      <description value="liste des autorités structurée en plusieurs types d'autorités : Ordres, ARS, ..."/>
+      <description value="liste des autorités (autorités Ordres, autorités ARS, ...)"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -34180,7 +34180,7 @@
         <reference value="CodeSystem/tre-r400-finess-statut-juridique"/>
       </reference>
       <name value="Tre R400 Finess Statut Juridique"/>
-      <description value="Cette TRE hiérarchique remplace les TRE_R68-FinessAgregatStatutJuridiqueNiv1, TRE_R69-FinessAgregatStatutJuridiqueNiv2, TRE_R70-FinessAgregatStatutJuridique, TRE_R72-FinessStatutJuridique, et l'association ASS_X11_FinessAgregatStatutJuridique. Cette TRE possède des propriétés spécifiques : le niveau d'agrégat des statuts juridiques  de 1 à 4 ( du plus large au plus fin), le parent d'un agrégat de statuts juridiques ou d'un statut juridique, un indicateur pour les statuts juridiques  spécifiques à RPPS ( non finess) et les relations nécessaires à la construction des JDV dynamiques associés"/>
+      <description value="Statuts juridiques provenant de FINESS, excepté pour les codes 000 et 100 à 110 qui ont été ajoutés pour les besoins du RPPS en 2017.&#xA;&#xA;Cette TRE hiérarchique remplace les éléments suivants :&#xA;TRE_R68-FinessAgregatStatutJuridiqueNiv1,TRE_R69-FinessAgregatStatutJuridiqueNiv2, TRE_R70-FinessAgregatStatutJuridique, &#xA;TRE_R72-FinessStatutJuridique, et l'association ASS_X11_FinessAgregatStatutJuridique. &#xA;&#xA;Cette TRE possède des propriétés spécifiques :&#xA;1. Propriété NOS &quot;Niveau&quot; : Le niveau d’agrégat des statuts juridiques de 1 à 4 (du plus large au plus fin)&#xA;2. Propriété HL7 &quot;Parent&quot; : Le code parent d'un code de la TRE (code d'un agrégat d'un statut juridique ou code d'un statut juridique)&#xA;3. Propriété NOS &quot;specificationRPPS&quot; :  indicateur indiquant qu'il s'agit d'un code RPPS (et non d'un code FINESS)"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -34224,7 +34224,7 @@
         <reference value="CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"/>
       </reference>
       <name value="Tre R404 Mode Fonctionnement Activite Smsse Regulee"/>
-      <description value="Mode de fonctinonemment des activités ssmsse régulées, remplace la TRE_R209-TypeActivite"/>
+      <description value="Mode de fonctinonemment des activités ssmsse régulées.&#xA;Cette TRE remplace la TRE_R209-TypeActivite"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

@@ -13,7 +13,7 @@
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.253 | | |
 
  
-Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces champs) 
+Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces champs). Remarque : Cette TRE est juste initialisée à minima et a vocation à porter d’autres valurs. 
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
@@ -51,11 +51,11 @@ Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-
   "experimental" : false,
   "date" : "2024-12-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces champs)",
+  "description" : "Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces champs).\nRemarque : Cette TRE est juste initialisée à minima et a vocation à porter d'autres valurs.",
   "caseSensitive" : false,
   "valueSet" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r373-type-personne-morale?vs",
   "content" : "complete",
-  "count" : 3,
+  "count" : 1,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -102,54 +102,6 @@ Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-
         "code" : "900000000000013009"
       },
       "value" : "PM d'exercice"
-    }],
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "1900-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "1900-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "02",
-    "display" : "Personne morale de support (Support)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "PM de support"
-    }],
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "1900-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "1900-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "03",
-    "display" : "Personne morale Identité electronique seule (IE)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "PM Identité electronique"
     }],
     "property" : [{
       "code" : "dateValid",

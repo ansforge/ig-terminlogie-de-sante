@@ -13,7 +13,7 @@
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.293 | | |
 
  
-Nomenclature des motifs des arrêtés Remarque : initialisé avec les motifs des arrêtés enregistrés dans FINESS+ 
+Nomenclature des motifs des arrêtés Remarque : Cette TRE est juste initialisée avec les codes FINESS+ 
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
@@ -51,7 +51,7 @@ Nomenclature des motifs des arrêtés Remarque : initialisé avec les motifs des
   "experimental" : false,
   "date" : "2024-12-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Nomenclature des motifs des arrêtés Remarque : initialisé avec les motifs des arrêtés enregistrés dans FINESS+",
+  "description" : "Nomenclature des motifs des arrêtés\nRemarque : Cette TRE est juste initialisée avec les codes FINESS+",
   "caseSensitive" : false,
   "valueSet" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r378-motif-arrete?vs",
   "content" : "complete",

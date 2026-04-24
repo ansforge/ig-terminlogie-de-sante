@@ -51,7 +51,7 @@
   fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2026-02-23T12:00:00.000+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
-  fhir:description [ fhir:v "Mode de fonctinonemment des activités ssmsse régulées, remplace la TRE_R209-TypeActivite"] ; # 
+  fhir:description [ fhir:v "Mode de fonctinonemment des activités ssmsse régulées.\nCette TRE remplace la TRE_R209-TypeActivite"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [

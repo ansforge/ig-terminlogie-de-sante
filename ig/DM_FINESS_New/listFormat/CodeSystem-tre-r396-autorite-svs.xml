@@ -4,7 +4,7 @@
    <ValueSet dateFin=""
              dateMaj="20250825120000"
              dateValid="20160202000000"
-             description="liste des autorités structurée en plusieurs types d'autorités : Ordres, ARS, ..."
+             description="liste des autorités (autorités Ordres, autorités ARS, ...)"
              displayName="TreR396Autorite"
              id="1.2.250.1.213.1.6.1.377"
              typeFichier="TRE"

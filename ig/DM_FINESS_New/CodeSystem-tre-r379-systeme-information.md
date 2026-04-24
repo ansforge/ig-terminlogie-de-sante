@@ -13,7 +13,7 @@
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.294 | | |
 
  
-Nomenclature des systemes d’information généralement déclarés pour définir les caractéristiques des identifiants ou des événements 
+Nomenclature des systemes d’information généralement déclarés pour définir les caractéristiques des identifiants ou des événements Remarque : Cette TRE est initialisée avec les codes FINESS 
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
@@ -51,7 +51,7 @@ Nomenclature des systemes d’information généralement déclarés pour défini
   "experimental" : false,
   "date" : "2025-06-11T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Nomenclature des systemes d’information généralement déclarés pour définir les caractéristiques des identifiants ou des événements",
+  "description" : "Nomenclature des systemes d’information généralement déclarés pour définir les caractéristiques des identifiants ou des événements\nRemarque : Cette TRE est initialisée avec les codes FINESS",
   "caseSensitive" : false,
   "content" : "complete",
   "count" : 5,

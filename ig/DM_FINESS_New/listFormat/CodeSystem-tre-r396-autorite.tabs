@@ -1,5 +1,5 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MAJ>
-1.2.250.1.213.1.6.1.377;TRE;TreR396Autorite.tabs;liste des autorités structurée en plusieurs types d'autorités : Ordres, ARS, ...;;20160202000000;;20250825120000
+1.2.250.1.213.1.6.1.377;TRE;TreR396Autorite.tabs;liste des autorités (autorités Ordres, autorités ARS, ...);;20160202000000;;20250825120000
 <OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MAJ> 
 1.2.250.1.213.1.6.1.377;01;Conseil de l'Ordre;;Conseil de l'Ordre;20160322000000;;20160322000000
 1.2.250.1.213.1.6.1.377;02;Agence Régional de Santé;;Agence Régional de Santé;20160322000000;;20160322000000

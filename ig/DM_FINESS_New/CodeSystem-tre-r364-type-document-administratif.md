@@ -13,7 +13,7 @@
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.258 | | |
 
  
-Nomenclature des types de documents administratif ( exemple : agrément, convention…) Remarque : Cette nomenclature est initialisée avec les types de documents informatifs et justificatifs pouvant être associés à une entité FINESS 
+Nomenclature des types de documents administratif ( exemple : agrément, convention…) Remarque : Cette nomenclature est juste initialisée avec les types de documents FINESS 
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
@@ -52,7 +52,7 @@ Nomenclature des types de documents administratif ( exemple : agrément, convent
   "experimental" : false,
   "date" : "2024-12-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Nomenclature des types de documents administratif ( exemple : agrément, convention...) Remarque : Cette nomenclature est initialisée avec les types de documents informatifs et justificatifs pouvant être associés à une entité FINESS",
+  "description" : "Nomenclature des types de documents administratif ( exemple : agrément, convention...) \nRemarque : Cette nomenclature est juste initialisée avec les types de documents FINESS",
   "caseSensitive" : false,
   "content" : "complete",
   "count" : 20,
