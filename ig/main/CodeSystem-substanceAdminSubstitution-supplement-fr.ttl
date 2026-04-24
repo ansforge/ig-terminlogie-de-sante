@@ -14,6 +14,16 @@
      fhir:status [ fhir:v "generated" ] ;
      fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem substanceAdminSubstitution-supplement-fr</b></p><a name=\"substanceAdminSubstitution-supplement-fr\"> </a><a name=\"hcsubstanceAdminSubstitution-supplement-fr\"> </a><p>This code system supplement <code>https://smt.esante.gouv.fr/fhir/CodeSystem/substanceAdminSubstitution-supplement-fr</code> defines labels on the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>French (France) (fr)</b></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-substanceAdminSubstitution.html#v3-substanceAdminSubstitution-N\">N</a><a name=\"substanceAdminSubstitution-supplement-fr-N\"> </a></td><td>Aucune substitution permise</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-substanceAdminSubstitution.html#v3-substanceAdminSubstitution-G\">G</a><a name=\"substanceAdminSubstitution-supplement-fr-G\"> </a></td><td>Substitution autorisée par un produit générique</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "lang-pack"
+     ]
+  ] ) ; # 
   fhir:url [
      fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/substanceAdminSubstitution-supplement-fr"^^xsd:anyURI ;
      fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/substanceAdminSubstitution-supplement-fr>
@@ -36,8 +46,8 @@
   ] ) ; # 
   fhir:content [ fhir:v "supplement"] ; # 
   fhir:supplements [
-     fhir:v "http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution"^^xsd:anyURI ;
-     fhir:l <http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution>
+     fhir:v "http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution|3.0.0"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution?version=3.0.0>
   ] ; # 
   fhir:concept ( [
      fhir:code [ fhir:v "N" ] ;

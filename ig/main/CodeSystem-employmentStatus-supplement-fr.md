@@ -26,6 +26,10 @@ Traduction Française
 {
   "resourceType" : "CodeSystem",
   "id" : "employmentStatus-supplement-fr",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type",
+    "valueCode" : "lang-pack"
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/employmentStatus-supplement-fr",
   "version" : "1.0",
   "name" : "EmploymentStatusSupplementFr",
@@ -41,7 +45,7 @@ Traduction Française
     }]
   }],
   "content" : "supplement",
-  "supplements" : "http://terminology.hl7.org/CodeSystem/v2-0066",
+  "supplements" : "http://terminology.hl7.org/CodeSystem/v2-0066|3.0.0",
   "concept" : [{
     "code" : "1",
     "designation" : [{

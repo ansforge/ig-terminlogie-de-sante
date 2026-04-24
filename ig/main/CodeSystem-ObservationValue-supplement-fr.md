@@ -26,6 +26,10 @@ Traduction Française
 {
   "resourceType" : "CodeSystem",
   "id" : "ObservationValue-supplement-fr",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type",
+    "valueCode" : "lang-pack"
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/ObservationValue-supplement-fr",
   "version" : "1.0",
   "name" : "ObservationValueSupplementFr",
@@ -41,7 +45,7 @@ Traduction Française
     }]
   }],
   "content" : "supplement",
-  "supplements" : "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
+  "supplements" : "http://terminology.hl7.org/CodeSystem/v3-ObservationValue|4.0.0",
   "concept" : [{
     "code" : "DS",
     "designation" : [{

@@ -26,6 +26,10 @@ Traduction Française
 {
   "resourceType" : "CodeSystem",
   "id" : "ObservationInterpretation-supplement-fr",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type",
+    "valueCode" : "lang-pack"
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/observationInterpretation-supplement-fr",
   "version" : "1.0",
   "name" : "ObservationInterpretationSupplementFr",
@@ -41,7 +45,7 @@ Traduction Française
     }]
   }],
   "content" : "supplement",
-  "supplements" : "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+  "supplements" : "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation|3.0.0",
   "concept" : [{
     "code" : "<",
     "designation" : [{

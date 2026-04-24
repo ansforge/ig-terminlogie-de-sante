@@ -26,6 +26,10 @@ Traduction Française
 {
   "resourceType" : "CodeSystem",
   "id" : "actCode-supplement-fr",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type",
+    "valueCode" : "lang-pack"
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/actCode-supplement-fr",
   "version" : "1.0",
   "name" : "ActCodeSupplementFr",
@@ -41,7 +45,7 @@ Traduction Française
     }]
   }],
   "content" : "supplement",
-  "supplements" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+  "supplements" : "http://terminology.hl7.org/CodeSystem/v3-ActCode|9.0.0",
   "concept" : [{
     "code" : "AMB",
     "designation" : [{

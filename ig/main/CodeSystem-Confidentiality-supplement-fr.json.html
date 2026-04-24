@@ -274,6 +274,12 @@
     "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
     "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Narratif généré : CodeSystem Confidentiality-supplement-fr&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;Confidentiality-supplement-fr\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcConfidentiality-supplement-fr\&quot;&gt; &lt;/a&gt;&lt;p&gt;This code system supplement &lt;code&gt;https://smt.esante.gouv.fr/fhir/CodeSystem/confidentiality-supplement-fr&lt;/code&gt; defines labels on the following codes:&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;French (France) (fr)&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;CodeSystem-v3-Confidentiality.html#v3-Confidentiality-L\&quot;&gt;L&lt;/a&gt;&lt;a name=\&quot;Confidentiality-supplement-fr-L\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Bas&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;CodeSystem-v3-Confidentiality.html#v3-Confidentiality-M\&quot;&gt;M&lt;/a&gt;&lt;a name=\&quot;Confidentiality-supplement-fr-M\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Modéré&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;CodeSystem-v3-Confidentiality.html#v3-Confidentiality-N\&quot;&gt;N&lt;/a&gt;&lt;a name=\&quot;Confidentiality-supplement-fr-N\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Normal&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;CodeSystem-v3-Confidentiality.html#v3-Confidentiality-R\&quot;&gt;R&lt;/a&gt;&lt;a name=\&quot;Confidentiality-supplement-fr-R\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Restreint&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;CodeSystem-v3-Confidentiality.html#v3-Confidentiality-U\&quot;&gt;U&lt;/a&gt;&lt;a name=\&quot;Confidentiality-supplement-fr-U\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Non restreint&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a style=\&quot;white-space:nowrap\&quot; href=\&quot;CodeSystem-v3-Confidentiality.html#v3-Confidentiality-V\&quot;&gt;V&lt;/a&gt;&lt;a name=\&quot;Confidentiality-supplement-fr-V\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Très restreint&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
   },
+  "<a href="http://hl7.org/fhir/R4/domainresource.html#CodeSystem.extension">extension</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type",
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCode</a>" : "lang-pack"
+    }
+  ],
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.url">url</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/confidentiality-supplement-fr",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">version</a>" : "1.0",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.name">name</a>" : "ConfidentialitySupplementFr",
@@ -293,7 +299,7 @@
     }
   ],
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.content">content</a>" : "supplement",
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.supplements">supplements</a>" : "http://terminology.hl7.org/CodeSystem/v3-Confidentiality",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.supplements">supplements</a>" : "http://terminology.hl7.org/CodeSystem/v3-Confidentiality|3.0.0",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>" : [
     {
       "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "L",
@@ -420,7 +426,7 @@
 
 <div class="inner-wrapper">
   <p>
-    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.8.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Apr 24, 2026 06:09+0000">2026-04-24</span>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.8.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Apr 24, 2026 12:06+0000">2026-04-24</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

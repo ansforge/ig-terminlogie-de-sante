@@ -26,6 +26,10 @@ Traduction Française
 {
   "resourceType" : "CodeSystem",
   "id" : "condition-ver-status-supplement-fr",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type",
+    "valueCode" : "lang-pack"
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/condition-ver-status-supplement-fr",
   "version" : "1.0",
   "name" : "ConditionVerStatusSupplementFr",
@@ -41,7 +45,7 @@ Traduction Française
     }]
   }],
   "content" : "supplement",
-  "supplements" : "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+  "supplements" : "http://terminology.hl7.org/CodeSystem/condition-ver-status|2.0.1",
   "concept" : [{
     "code" : "unconfirmed",
     "designation" : [{

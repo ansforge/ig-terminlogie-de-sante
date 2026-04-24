@@ -26,6 +26,10 @@ Traduction Française
 {
   "resourceType" : "CodeSystem",
   "id" : "ParticipationType-supplement-fr",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type",
+    "valueCode" : "lang-pack"
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/participationType-supplement-fr",
   "version" : "1.0",
   "name" : "ParticipationTypeSupplementFr",
@@ -41,7 +45,7 @@ Traduction Française
     }]
   }],
   "content" : "supplement",
-  "supplements" : "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+  "supplements" : "http://terminology.hl7.org/CodeSystem/v3-ParticipationType|5.0.0",
   "concept" : [{
     "code" : "ADM",
     "designation" : [{

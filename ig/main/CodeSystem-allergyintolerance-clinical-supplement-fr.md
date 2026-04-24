@@ -26,6 +26,10 @@ Traduction Française
 {
   "resourceType" : "CodeSystem",
   "id" : "allergyintolerance-clinical-supplement-fr",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type",
+    "valueCode" : "lang-pack"
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/allergyintolerance-clinical-supplement-fr",
   "version" : "1.0",
   "name" : "AllergyIntoleranceClinicalSupplementFr",
@@ -41,7 +45,7 @@ Traduction Française
     }]
   }],
   "content" : "supplement",
-  "supplements" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+  "supplements" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical|1.0.1",
   "concept" : [{
     "code" : "active",
     "designation" : [{
