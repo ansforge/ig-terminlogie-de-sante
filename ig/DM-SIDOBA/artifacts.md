@@ -777,8 +777,13 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Jdv J392 Type Courrier Ms](ValueSet-jdv-j392-type-courrier-ms.md) | Type de courrier en France. |
 | [Jdv J393 Utilisation Canal Communication Ms](ValueSet-jdv-j393-utilisation-canal-communication-ms.md) | Précise l’utilisation du canal de communication. |
 | [Jdv J395 Nature Demande Compensation Ms](ValueSet-jdv-j395-nature-demande-compensation-ms.md) | Nature de la demande de compensation adressée à la CDAPH. |
+| [Jdv J396 Canal Communication Ms](ValueSet-jdv-j396-canal-communication-ms.md) | Canal de communication. |
+| [Jdv J397 Type Messagerie Ms](ValueSet-jdv-j397-type-messagerie-ms.md) | Type de messagerie électronique utilisée par le médico-social. |
+| [Jdv J398 Type Decision Ms](ValueSet-jdv-j398-type-decision-ms.md) | Type de décision transmise aux DUI(s) par la CDAPH en réponse à une demande de compensation d’un usager. |
 | [Jdv J404 Motif Fin Pag Ms](ValueSet-jdv-j404-motif-fin-pag-ms.md) | Motif pour l’arrêt du plan d’accompagnement global (PAG). |
+| [Jdv J405 Qualification Orientation Ms](ValueSet-jdv-j405-qualification-orientation-ms.md) | La qualification de l’orientation peut être cible ou alternative. |
 | [Jdv J407 Motif Absence Ms](ValueSet-jdv-j407-motif-absence-ms.md) | Motif pour lequel l’usager n’est pas présent lors d’un événement organisé par sa structure de rattachement. |
+| [Jdv J408 Type Repas Ms](ValueSet-jdv-j408-type-repas-ms.md) | Type de repas. |
 | [Jdv J415 Type Adresse Ms](ValueSet-jdv-j415-type-adresse-ms.md) | Type d’adresse postale. |
 | [Jdv MSO Resultat Qualitatif 3 CISIS](ValueSet-jdv-mso-resultat-qualitatif-3-cisis.md) | Jdv MSO Resultat Qualitatif 3 CISIS |
 | [Jdv MSO Resultat Qualitatif 5 CISIS](ValueSet-jdv-mso-resultat-qualitatif-5-cisis.md) | Jdv MSO Resultat Qualitatif 5 CISIS |

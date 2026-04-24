@@ -7101,6 +7101,30 @@
   "oids" : ["1.2.250.1.213.3.4.235"]
 },
 {
+  "id" : "jdv-j396-canal-communication-ms",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j396-canal-communication-ms",
+  "version" : "20260505120000",
+  "name" : "JdvJ396CanalCommunicationMs",
+  "oids" : ["1.2.250.1.213.3.4.236"]
+},
+{
+  "id" : "jdv-j397-type-messagerie-ms",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j397-type-messagerie-ms",
+  "version" : "20260505120000",
+  "name" : "JdvJ397TypeMessagerieMs",
+  "oids" : ["1.2.250.1.213.3.4.237"]
+},
+{
+  "id" : "jdv-j398-type-decision-ms",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j398-type-decision-ms",
+  "version" : "20260505120000",
+  "name" : "JdvJ398TypeDecisionMs",
+  "oids" : ["1.2.250.1.213.3.4.238"]
+},
+{
   "id" : "jdv-j404-motif-fin-pag-ms",
   "type" : "ValueSet",
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j404-motif-fin-pag-ms",
@@ -7109,12 +7133,28 @@
   "oids" : ["1.2.250.1.213.3.4.244"]
 },
 {
+  "id" : "jdv-j405-qualification-orientation-ms",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j405-qualification-orientation-ms",
+  "version" : "20260505120000",
+  "name" : "JdvJ405QualificationOrientationMs",
+  "oids" : ["1.2.250.1.213.3.4.245"]
+},
+{
   "id" : "jdv-j407-motif-absence-ms",
   "type" : "ValueSet",
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j407-motif-absence-ms",
   "version" : "20260505120000",
   "name" : "JdvJ407MotifAbsenceMs",
   "oids" : ["1.2.250.1.213.3.4.247"]
+},
+{
+  "id" : "jdv-j408-type-repas-ms",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j408-type-repas-ms",
+  "version" : "20260505120000",
+  "name" : "JdvJ408TypeRepasMs",
+  "oids" : ["1.2.250.1.213.3.4.248"]
 },
 {
   "id" : "jdv-j415-type-adresse-ms",

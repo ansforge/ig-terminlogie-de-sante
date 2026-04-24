@@ -10,7 +10,7 @@
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-04-23T15:04:42+00:00",
+  "date" : "2026-04-24T10:09:31+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -29669,6 +29669,42 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-j396-canal-communication-ms"
+      },
+      "name" : "Jdv J396 Canal Communication Ms",
+      "description" : "Canal de communication.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j397-type-messagerie-ms"
+      },
+      "name" : "Jdv J397 Type Messagerie Ms",
+      "description" : "Type de messagerie électronique utilisée par le médico-social.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j398-type-decision-ms"
+      },
+      "name" : "Jdv J398 Type Decision Ms",
+      "description" : "Type de décision transmise aux DUI(s) par la CDAPH en réponse à une demande de compensation d'un usager.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-j404-motif-fin-pag-ms"
       },
       "name" : "Jdv J404 Motif Fin Pag Ms",
@@ -29681,10 +29717,34 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-j405-qualification-orientation-ms"
+      },
+      "name" : "Jdv J405 Qualification Orientation Ms",
+      "description" : "La qualification de l'orientation peut être cible ou alternative.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-j407-motif-absence-ms"
       },
       "name" : "Jdv J407 Motif Absence Ms",
       "description" : "Motif pour lequel l'usager n'est pas présent lors d'un événement organisé par sa structure de rattachement.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j408-type-repas-ms"
+      },
+      "name" : "Jdv J408 Type Repas Ms",
+      "description" : "Type de repas.",
       "exampleBoolean" : false
     },
     {

@@ -11,7 +11,7 @@
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2026-04-23T15:04:42+00:00"/>
+  <date value="2026-04-24T10:09:31+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -22250,6 +22250,39 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-j396-canal-communication-ms"/>
+      </reference>
+      <name value="Jdv J396 Canal Communication Ms"/>
+      <description value="Canal de communication."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j397-type-messagerie-ms"/>
+      </reference>
+      <name value="Jdv J397 Type Messagerie Ms"/>
+      <description value="Type de messagerie électronique utilisée par le médico-social."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j398-type-decision-ms"/>
+      </reference>
+      <name value="Jdv J398 Type Decision Ms"/>
+      <description value="Type de décision transmise aux DUI(s) par la CDAPH en réponse à une demande de compensation d'un usager."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-j404-motif-fin-pag-ms"/>
       </reference>
       <name value="Jdv J404 Motif Fin Pag Ms"/>
@@ -22261,10 +22294,32 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-j405-qualification-orientation-ms"/>
+      </reference>
+      <name value="Jdv J405 Qualification Orientation Ms"/>
+      <description value="La qualification de l'orientation peut être cible ou alternative."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-j407-motif-absence-ms"/>
       </reference>
       <name value="Jdv J407 Motif Absence Ms"/>
       <description value="Motif pour lequel l'usager n'est pas présent lors d'un événement organisé par sa structure de rattachement."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j408-type-repas-ms"/>
+      </reference>
+      <name value="Jdv J408 Type Repas Ms"/>
+      <description value="Type de repas."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

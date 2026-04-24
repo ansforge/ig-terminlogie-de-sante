@@ -161,8 +161,8 @@
     "sources" : ["1.2.250.1.213.1.1.5.465"],
     "uses" : {
     },
-    "ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.html" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS",
-    "ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.html" : "ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS"
+    "ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.html" : "ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS",
+    "ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.html" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS"
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J100-FinessStatutJuridique-RASS/FHIR/JDV-J100-FinessStatutJuridique-RASS",
@@ -5981,6 +5981,39 @@
     "sources" : ["1.2.250.1.213.3.4.235"]
   },
   {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j396-canal-communication-ms",
+    "version" : "20260505120000",
+    "status" : "draft",
+    "name" : "JdvJ396CanalCommunicationMs",
+    "title" : "Jdv J396 Canal Communication Ms",
+    "description" : "Canal de communication.",
+    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R200-CanalCommunication/FHIR/TRE-R200-CanalCommunication"],
+    "oids" : ["1.2.250.1.213.3.4.236"],
+    "sources" : ["1.2.250.1.213.3.4.236"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j397-type-messagerie-ms",
+    "version" : "20260505120000",
+    "status" : "draft",
+    "name" : "JdvJ397TypeMessagerieMs",
+    "title" : "Jdv J397 Type Messagerie Ms",
+    "description" : "Type de messagerie électronique utilisée par le médico-social.",
+    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R256-TypeMessagerie/FHIR/TRE-R256-TypeMessagerie"],
+    "oids" : ["1.2.250.1.213.3.4.237"],
+    "sources" : ["1.2.250.1.213.3.4.237"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j398-type-decision-ms",
+    "version" : "20260505120000",
+    "status" : "draft",
+    "name" : "JdvJ398TypeDecisionMs",
+    "title" : "Jdv J398 Type Decision Ms",
+    "description" : "Type de décision transmise aux DUI(s) par la CDAPH en réponse à une demande de compensation d'un usager.",
+    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R327-TypeDecision/FHIR/TRE-R327-TypeDecision"],
+    "oids" : ["1.2.250.1.213.3.4.238"],
+    "sources" : ["1.2.250.1.213.3.4.238"]
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j404-motif-fin-pag-ms",
     "version" : "20260505120000",
     "status" : "draft",
@@ -5992,6 +6025,17 @@
     "sources" : ["1.2.250.1.213.3.4.244"]
   },
   {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j405-qualification-orientation-ms",
+    "version" : "20260505120000",
+    "status" : "draft",
+    "name" : "JdvJ405QualificationOrientationMs",
+    "title" : "Jdv J405 Qualification Orientation Ms",
+    "description" : "La qualification de l'orientation peut être cible ou alternative.",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r424-qualification-orientation"],
+    "oids" : ["1.2.250.1.213.3.4.245"],
+    "sources" : ["1.2.250.1.213.3.4.245"]
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j407-motif-absence-ms",
     "version" : "20260505120000",
     "status" : "draft",
@@ -6001,6 +6045,17 @@
     "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-motif-absence"],
     "oids" : ["1.2.250.1.213.3.4.247"],
     "sources" : ["1.2.250.1.213.3.4.247"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j408-type-repas-ms",
+    "version" : "20260505120000",
+    "status" : "draft",
+    "name" : "JdvJ408TypeRepasMs",
+    "title" : "Jdv J408 Type Repas Ms",
+    "description" : "Type de repas.",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r427-type-repas"],
+    "oids" : ["1.2.250.1.213.3.4.248"],
+    "sources" : ["1.2.250.1.213.3.4.248"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j415-type-adresse-ms",
@@ -9409,8 +9464,8 @@
     "systems" : ["https://smt.esante.gouv.fr/terminologie-cip_ucd"],
     "uses" : {
     },
-    "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD",
-    "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD"
+    "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD",
+    "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD"
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-nuva?vs",
@@ -9422,8 +9477,8 @@
     "systems" : ["https://smt.esante.gouv.fr/terminologie-nuva"],
     "uses" : {
     },
-    "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM",
-    "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD"
+    "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD",
+    "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM"
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-sms?vs",
