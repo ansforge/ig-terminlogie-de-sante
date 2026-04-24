@@ -1,7 +1,10 @@
 CodeSystem: TreR376TypeEvenementAdministratif
 Id: tre-r376-type-evenement-administratif
 Title: "Tre R376 Type Evenement Administratif"
-Description: "Nomenclature des événements administratifs pertinents pour un cycle de vie d'un Objet de Santé (du MOS) Remarque : Cette nomenclature est initialisée avec les évenements affectant le cycle de vie des entités et activités enregistrées dans FINESS+"
+Description: """
+Nomenclature des événements administratifs pertinents pour un cycle de vie d'un Objet de Santé (du MOS)
+Remarque : Cette nomenclature est juste initialisée avec les codes FINESS+
+"""
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2024-12-30T12:00:00+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
