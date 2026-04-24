@@ -1,7 +1,10 @@
 CodeSystem: TreR386MacroEtatObjetAdministratif
 Id: tre-r386-macro-etat-objet-administratif
 Title: "Tre R386 Macro Etat Objet Administratif"
-Description: "Nomenclature des macro-etat des structures FINESS qui dérivent de l'état de l'objet. Permet de distinguer les structures actives de celles inactives."
+Description: """
+Nomenclature des macro-etat des structures FINESS qui dérivent de l'état de l'objet. 
+Permet de distinguer les structures actives de celles inactives.
+"""
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2024-12-30T12:00:00+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
