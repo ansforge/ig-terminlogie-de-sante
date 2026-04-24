@@ -3,7 +3,10 @@ Alias: $sct = http://snomed.info/sct
 CodeSystem: TreR364TypeDocumentAdministratif
 Id: tre-r364-type-document-administratif
 Title: "Tre R364 Type Document Administratif"
-Description: "Nomenclature des types de documents administratif ( exemple : agrément, convention...) Remarque : Cette nomenclature est initialisée avec les types de documents informatifs et justificatifs pouvant être associés à une entité FINESS"
+Description: """
+Nomenclature des types de documents administratif ( exemple : agrément, convention...) 
+Remarque : Cette nomenclature est juste initialisée avec les types de documents FINESS
+"""
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2024-12-30T12:00:00+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
