@@ -1,7 +1,18 @@
 CodeSystem: TreR400FinessStatutJuridique
 Id: tre-r400-finess-statut-juridique
 Title: "Tre R400 Finess Statut Juridique"
-Description: "Cette TRE hiérarchique remplace les TRE_R68-FinessAgregatStatutJuridiqueNiv1, TRE_R69-FinessAgregatStatutJuridiqueNiv2, TRE_R70-FinessAgregatStatutJuridique, TRE_R72-FinessStatutJuridique, et l'association ASS_X11_FinessAgregatStatutJuridique. Cette TRE possède des propriétés spécifiques : le niveau d'agrégat des statuts juridiques  de 1 à 4 ( du plus large au plus fin), le parent d'un agrégat de statuts juridiques ou d'un statut juridique, un indicateur pour les statuts juridiques  spécifiques à RPPS ( non finess) et les relations nécessaires à la construction des JDV dynamiques associés"
+Description: """
+Statuts juridiques provenant de FINESS, excepté pour les codes 000 et 100 à 110 qui ont été ajoutés pour les besoins du RPPS en 2017.
+
+Cette TRE hiérarchique remplace les éléments suivants :
+TRE_R68-FinessAgregatStatutJuridiqueNiv1,TRE_R69-FinessAgregatStatutJuridiqueNiv2, TRE_R70-FinessAgregatStatutJuridique, 
+TRE_R72-FinessStatutJuridique, et l'association ASS_X11_FinessAgregatStatutJuridique. 
+
+Cette TRE possède des propriétés spécifiques :
+1. Propriété NOS "Niveau" : Le niveau d’agrégat des statuts juridiques de 1 à 4 (du plus large au plus fin)
+2. Propriété HL7 "Parent" : Le code parent d'un code de la TRE (code d'un agrégat d'un statut juridique ou code d'un statut juridique)
+3. Propriété NOS "specificationRPPS" :  indicateur indiquant qu'il s'agit d'un code RPPS (et non d'un code FINESS)  
+"""
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2026-02-23T12:00:00.000+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
