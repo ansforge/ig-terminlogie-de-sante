@@ -59,25 +59,3 @@ Remarque : Cette TRE est juste initialisée à minima et a vocation à porter d'
 * #01 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #01 ^property[+].code = #status
 * #01 ^property[=].valueCode = #active
-* #02 "Personne morale de support (Support)"
-* #02 ^designation.language = #fr-FR
-* #02 ^designation.use.system = "http://snomed.info/sct"
-* #02 ^designation.use = $sct#900000000000013009
-* #02 ^designation.value = "PM de support"
-* #02 ^property[0].code = #dateValid
-* #02 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
-* #02 ^property[+].code = #dateMaj
-* #02 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
-* #02 ^property[+].code = #status
-* #02 ^property[=].valueCode = #active
-* #03 "Personne morale Identité electronique seule (IE)"
-* #03 ^designation.language = #fr-FR
-* #03 ^designation.use.system = "http://snomed.info/sct"
-* #03 ^designation.use = $sct#900000000000013009
-* #03 ^designation.value = "PM Identité electronique"
-* #03 ^property[0].code = #dateValid
-* #03 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
-* #03 ^property[+].code = #dateMaj
-* #03 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
-* #03 ^property[+].code = #status
-* #03 ^property[=].valueCode = #active
