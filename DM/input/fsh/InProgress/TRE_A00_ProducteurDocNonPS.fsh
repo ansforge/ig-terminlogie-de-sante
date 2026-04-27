@@ -30,9 +30,9 @@ Description: "Producteur de document non PS"
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin"
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
-* ^property[+].code = #cisis
-* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#cisis"
-* ^property[=].description = "Permet de définir les codes concepts uilisés par le CISIS"
+* ^property[+].code = #contentTypeCode
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#contentTypeCode"
+* ^property[=].description = "Permet de définir les codes concepts uilisés pour les JDV contentTypeCodeXX"
 * ^property[=].type = #boolean
 * ^property[+].code = #deprecationDate
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
