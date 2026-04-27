@@ -64,3 +64,7 @@ Description: "Nomenclature des types de rôle existant entre les Entités Géogr
 * #R ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #R ^property[+].code = #status
 * #R ^property[=].valueCode = #active
+* #R ^designation[+].language = #fr-FR
+* #R ^designation[=].use.system = "http://snomed.info/sct"
+* #R ^designation[=].use =  $sct#900000000000013009
+* #R ^designation[=].value = "R.H."
