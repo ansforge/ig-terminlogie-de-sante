@@ -57,3 +57,10 @@ Description: "Nomenclature des types de rôle existant entre les Entités Géogr
 * #C ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #C ^property[+].code = #status
 * #C ^property[=].valueCode = #active
+* #R "Ressources humaines"
+* #R ^property[0].code = #dateValid
+* #R ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
+* #R ^property[+].code = #dateMaj
+* #R ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
+* #R ^property[+].code = #status
+* #R ^property[=].valueCode = #active
