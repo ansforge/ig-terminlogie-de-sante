@@ -21,7 +21,7 @@ Description: "XDS contentTypeCode CI-SIS"
 * ^date = "2025-12-22T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
-* include codes from system $TRE-A00-ProducteurDocNonPS where cisis = "true"
+* include codes from system $TRE-A00-ProducteurDocNonPS where contentTypeCode = "true"
 * include codes from system $tre-r404-mode-fonctionnement-activite-smsse-regulee where cisis = "true"
 * include codes from system $TRE-R02-SecteurActivite where cisis = "true"
 * include codes from system $tre-r406-forme-activite-smsse-regulee where cisis = "true"
