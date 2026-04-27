@@ -55,7 +55,7 @@ Nomenclature des types de rôle existant entre les Entités Géographiques d’E
   "caseSensitive" : false,
   "valueSet" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege?vs",
   "content" : "complete",
-  "count" : 2,
+  "count" : 3,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -111,6 +111,30 @@ Nomenclature des types de rôle existant entre les Entités Géographiques d’E
   {
     "code" : "C",
     "display" : "Capacité",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "R",
+    "display" : "Ressources humaines",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "R.H."
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "1900-01-01T00:00:00+01:00"

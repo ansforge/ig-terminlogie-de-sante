@@ -44,18 +44,18 @@ CodeSystem permettant définir les propriétés NOS utilisées dans les CodeSyst
   "title" : "Concept Properties",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-30T12:00:00.000+00:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "CodeSystem permettant définir les propriétés NOS utilisées dans les CodeSystem NOS",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
-      "code" : "FR"
+      "code" : "FRA"
     }]
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 36,
+  "count" : 37,
   "property" : [{
     "code" : "status",
     "uri" : "http://hl7.org/fhir/concept-properties#status",
@@ -174,6 +174,15 @@ CodeSystem permettant définir les propriétés NOS utilisées dans les CodeSyst
     "code" : "finess",
     "display" : "FINESS",
     "definition" : "Permet de définir les codes concepts utilisés par FINESS",
+    "property" : [{
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "contentTypeCode",
+    "display" : "Content Type Code",
+    "definition" : "Permet d'indiquer les listes de valeurs des ContentTypeCodexx",
     "property" : [{
       "code" : "status",
       "valueCode" : "active"

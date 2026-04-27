@@ -89,9 +89,9 @@ Producteur de document non PS
     "type" : "dateTime"
   },
   {
-    "code" : "cisis",
-    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#cisis",
-    "description" : "Permet de définir les codes concepts uilisés par le CISIS",
+    "code" : "contentTypeCode",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#contentTypeCode",
+    "description" : "Permet de définir les codes concepts utilisés pour les JDV contentTypeCodeXX",
     "type" : "boolean"
   },
   {
@@ -184,7 +184,7 @@ Producteur de document non PS
       "valueCode" : "active"
     },
     {
-      "code" : "cisis",
+      "code" : "contentTypeCode",
       "valueBoolean" : true
     }]
   },

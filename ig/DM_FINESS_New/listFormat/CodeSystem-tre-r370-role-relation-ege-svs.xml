@@ -28,6 +28,15 @@
                   longDesignation="Capacité"
                   shortDesignation="Capacité"
                   descriptionMetier=""/>
+         <concept code="R"
+                  codeSystem="1.2.250.1.213.1.6.1.286"
+                  dateFin=""
+                  dateMaj="19000101000000"
+                  dateValid="19000101000000"
+                  displayName="Ressources humaines"
+                  longDesignation="Ressources humaines"
+                  shortDesignation="R.H."
+                  descriptionMetier=""/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

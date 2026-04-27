@@ -14,6 +14,7 @@
 ;enreg;ENREG;ENREG;ENREG;;;
 ;epars;ENREG;ENREG;ENREG;;;
 ;finess;FINESS;FINESS;FINESS;;;
+;contentTypeCode;Content Type Code;Content Type Code;Content Type Code;;;
 ;documentInformatifFiness;Document Informatif Finess;Document Informatif Finess;Document Informatif Finess;;;
 ;documentJustificatifFiness;Document Justificatif Finess;Document Justificatif Finess;Document Justificatif Finess;;;
 ;macroEtatAdministratif;Macro-etat administratif;Macro-etat administratif;Macro-etat administratif;;;

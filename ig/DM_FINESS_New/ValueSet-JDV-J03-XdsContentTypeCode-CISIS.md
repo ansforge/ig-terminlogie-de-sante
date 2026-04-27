@@ -88,7 +88,7 @@ Requête sur le SMT
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS",
       "filter" : [{
-        "property" : "cisis",
+        "property" : "contentTypeCode",
         "op" : "=",
         "value" : "true"
       }]
