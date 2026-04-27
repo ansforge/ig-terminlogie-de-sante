@@ -61,8 +61,8 @@ Description: "CodeSystem permettant définir les propriétés NOS utilisées dan
 * #finess ^property.code = #status
 * #finess ^property.valueCode = #active
 * #contentTypeCode "Content Type Code" "Permet d'indiquer les listes de valeurs des ContentTypeCodexx"
-* #niveau ^property.code = #status
-* #niveau ^property.valueCode = #active
+* #contentTypeCode ^property.code = #status
+* #contentTypeCode ^property.valueCode = #active
 * #documentInformatifFiness "Document Informatif Finess" "Permet de définir les codes à inclure dans le JdvJ295DocumentInformatifFiness"
 * #documentInformatifFiness ^property.code = #status
 * #documentInformatifFiness ^property.valueCode = #active
