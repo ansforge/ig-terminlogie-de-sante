@@ -32,7 +32,7 @@ Description: "Producteur de document non PS"
 * ^property[=].type = #dateTime
 * ^property[+].code = #contentTypeCode
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#contentTypeCode"
-* ^property[=].description = "Permet de définir les codes concepts uilisés pour les JDV contentTypeCodeXX"
+* ^property[=].description = "Permet de définir les codes concepts utilisés pour les JDV contentTypeCodeXX"
 * ^property[=].type = #boolean
 * ^property[+].code = #deprecationDate
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
@@ -78,7 +78,7 @@ Description: "Producteur de document non PS"
 * #EXP_PATIENT ^property[=].valueDateTime = "2010-11-04T00:00:00+01:00"
 * #EXP_PATIENT ^property[+].code = #status
 * #EXP_PATIENT ^property[=].valueCode = #active
-* #EXP_PATIENT ^property[+].code = #cisis
+* #EXP_PATIENT ^property[+].code = #contentTypeCode
 * #EXP_PATIENT ^property[=].valueBoolean = true
 * #SECRETARIAT_MEDICAL "Secrétariat médical"
 * #SECRETARIAT_MEDICAL ^property[0].code = #dateValid
