@@ -1,7 +1,7 @@
 CodeSystem: TRE_R327_TypeDecision
 Id: TRE-R327-TypeDecision
 Description: "Caractérise le type de décision prise par la CDAPH en réponse à une demande de compensation d'un usager (individu ou représentant légal), à une demande de révision par un tiers ou à un recours administratif préalable obligatoire (RAPO) d'un usager."
-* ^meta.versionId = "6" // Passer à 7 ?
+* ^meta.versionId = "6"
 * ^meta.lastUpdated = "2025-07-02T18:17:34.007+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -73,24 +73,17 @@ Description: "Caractérise le type de décision prise par la CDAPH en réponse �
 * #5 ^property[=].valueDateTime = "2021-09-24T12:00:00+01:00"
 * #5 ^property[+].code = #status
 * #5 ^property[=].valueCode = #active
-* #6 "Nouveau droit" "Indique si le droit attribué par la CDAPH est un nouveau droit."
+* #6 "Renouvellement" "Indique si le droit attribué par la CDAPH fait suite à une demande de renouvellement."
 * #6 ^property[0].code = #dateValid
 * #6 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #6 ^property[+].code = #dateMaj
 * #6 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #6 ^property[+].code = #status
 * #6 ^property[=].valueCode = #active
-* #7 "Renouvellement" "Indique si le droit attribué par la CDAPH fait suite à une demande de renouvellement."
+* #7 "Révision" "Indique si le droit attribué par la CDAPH  fait suite à une demande de révision."
 * #7 ^property[0].code = #dateValid
 * #7 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #7 ^property[+].code = #dateMaj
 * #7 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #7 ^property[+].code = #status
 * #7 ^property[=].valueCode = #active
-* #8 "Révision" "Indique si le droit attribué par la CDAPH  fait suite à une demande de révision."
-* #8 ^property[0].code = #dateValid
-* #8 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
-* #8 ^property[+].code = #dateMaj
-* #8 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
-* #8 ^property[+].code = #status
-* #8 ^property[=].valueCode = #active
