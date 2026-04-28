@@ -2,7 +2,7 @@ ValueSet: JDV_J258_Departement
 Id: JDV-J258-Departement
 Description: "Tous les codes actifs des départements et collectivités d'outre-mer actives + Monaco du COG INSEE"
 * ^meta.versionId = "5"
-* ^meta.lastUpdated = "2026-03-30T17:06:15.261+00:00"
+* ^meta.lastUpdated = "2026-05-05T17:06:15.261+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,10 +10,10 @@ Description: "Tous les codes actifs des départements et collectivités d'outre-
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J258-Departement/FHIR/JDV-J258-Departement"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.1.5.764"
-* ^version = "20260330120000"
+* ^version = "20260505120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-03-30T12:00:00+01:00"
+* ^date = "2026-05-05T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-G09-DepartementOM#01 "Ain (01)"
@@ -126,7 +126,7 @@ Description: "Tous les codes actifs des départements et collectivités d'outre-
 * $TRE-G09-DepartementOM#987 "Polynésie française (987)"
 * $TRE-G09-DepartementOM#988 "Nouvelle-Calédonie (988)"
 * $TRE-G09-DepartementOM#989 "La Passion-Clipperton (989)"
-* $TRE-G09-DepartementOM#91352 "Département D'Alger et Orleansville (91352)"
-* $TRE-G09-DepartementOM#92352 "Département D'Oran et Bou Sfer (92352)"
-* $TRE-G09-DepartementOM#93352 "Département de Constantine (93352)"
-* $TRE-G09-DepartementOM#94352 "Sud de l'Algérie (94352)"
+* $TRE-G09-DepartementOM#91352 "Alger"
+* $TRE-G09-DepartementOM#92352 "Oran"
+* $TRE-G09-DepartementOM#93352 "Constantine"
+* $TRE-G09-DepartementOM#94352 "Territoires du sud de l'Algérie"

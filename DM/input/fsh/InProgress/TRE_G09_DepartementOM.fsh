@@ -2,7 +2,7 @@ CodeSystem: TRE_G09_DepartementOM
 Id: TRE-G09-DepartementOM
 Description: "Référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco. Cette TRE possède des propriétés spécifiques : Autorite Epars, pour indiquer le/ les ARS du département (tre-r396-autorite) et region pour indiquer le code de la région du département (TRE-R30-RegionOM)"
 * ^meta.versionId = "10"
-* ^meta.lastUpdated = "2026-03-30T15:27:34.491+01:00"
+* ^meta.lastUpdated = "2026-05-05T15:27:34.491+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,10 +10,10 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.71.1.2.16"
-* ^version = "20260330120000"
+* ^version = "20260505120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-03-30T12:00:00+01:00"
+* ^date = "2026-05-05T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
@@ -2106,11 +2106,11 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #989 ^property[=].valueCoding = $TRE-R30-RegionOM#989
 * #989 ^property[+].code = #status
 * #989 ^property[=].valueCode = #active
-* #91352 "Département D'Alger et Orleansville (91352)"
+* #91352 "Alger"
 * #91352 ^designation[0].language = #fr-FR
 * #91352 ^designation[=].use.system = "http://snomed.info/sct"
 * #91352 ^designation[=].use = $sct#900000000000013009
-* #91352 ^designation[=].value = "DEPARTEMENT D'ALGER et ORLEANSVILLE (91352)"
+* #91352 ^designation[=].value = "Alger (91352)"
 * #91352 ^property[0].code = #dateValid
 * #91352 ^property[=].valueDateTime = "1943-01-01T00:00:00+01:00"
 * #91352 ^property[+].code = #dateFin
@@ -2121,11 +2121,11 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #91352 ^property[=].valueCode = #deprecated
 * #91352 ^property[+].code = #deprecationDate
 * #91352 ^property[=].valueDateTime = "1962-07-05T00:00:00+01:00"
-* #92352 "Département D'Oran et Bou Sfer (92352)"
+* #92352 "Oran"
 * #92352 ^designation[0].language = #fr-FR
 * #92352 ^designation[=].use.system = "http://snomed.info/sct"
 * #92352 ^designation[=].use = $sct#900000000000013009
-* #92352 ^designation[=].value = "DEPARTEMENT D'ORAN et BOU SFER (92352)"
+* #92352 ^designation[=].value = "Oran (92352)"
 * #92352 ^property[0].code = #dateValid
 * #92352 ^property[=].valueDateTime = "1943-01-01T00:00:00+01:00"
 * #92352 ^property[+].code = #dateFin
@@ -2136,11 +2136,11 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #92352 ^property[=].valueCode = #deprecated
 * #92352 ^property[+].code = #deprecationDate
 * #92352 ^property[=].valueDateTime = "1962-07-05T00:00:00+01:00"
-* #93352 "Département de Constantine (93352)"
+* #93352 "Constantine"
 * #93352 ^designation[0].language = #fr-FR
 * #93352 ^designation[=].use.system = "http://snomed.info/sct"
 * #93352 ^designation[=].use = $sct#900000000000013009
-* #93352 ^designation[=].value = "DEPARTEMENT DE CONSTANTINE (93352)"
+* #93352 ^designation[=].value = "Constantine (93352)"
 * #93352 ^property[0].code = #dateValid
 * #93352 ^property[=].valueDateTime = "1943-01-01T00:00:00+01:00"
 * #93352 ^property[+].code = #dateFin
@@ -2151,11 +2151,11 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #93352 ^property[=].valueCode = #deprecated
 * #93352 ^property[+].code = #deprecationDate
 * #93352 ^property[=].valueDateTime = "1962-07-05T00:00:00+01:00"
-* #94352 "Sud de l'Algérie (94352)"
+* #94352 "Territoires du sud de l'Algérie"
 * #94352 ^designation[0].language = #fr-FR
 * #94352 ^designation[=].use.system = "http://snomed.info/sct"
 * #94352 ^designation[=].use = $sct#900000000000013009
-* #94352 ^designation[=].value = "SUD DE L'ALGERIE (94352)"
+* #94352 ^designation[=].value = "Territoires du sud de l'Algérie (94352)"
 * #94352 ^property[0].code = #dateValid
 * #94352 ^property[=].valueDateTime = "1943-01-01T00:00:00+01:00"
 * #94352 ^property[+].code = #dateFin
