@@ -7,7 +7,7 @@ Description: " Catégorie et type de droit et prestation caractérisant la déci
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2026-05-05T12:00:00+01:00"
-* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-categorie-type-droit-prestation"
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.271"
 * ^version = "20260505120000"
