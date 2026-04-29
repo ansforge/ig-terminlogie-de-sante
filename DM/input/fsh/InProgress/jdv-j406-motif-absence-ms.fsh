@@ -17,5 +17,5 @@ Description: "Motif pour lequel l'usager n'est pas présent lors d'un événemen
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 
-* include codes from system https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-motif-absence
+* include codes from system https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r424-motif-absence
     where status = "active"

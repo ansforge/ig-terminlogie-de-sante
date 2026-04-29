@@ -17,5 +17,5 @@ Description: "Type de repas."
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 
-* include codes from system https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r427-type-repas
+* include codes from system https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r425-type-repas
     where status = "active"

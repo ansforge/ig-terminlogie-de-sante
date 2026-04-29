@@ -17,5 +17,5 @@ Description: "Motif pour l'arrêt du plan d'accompagnement global (PAG)."
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 
-* include codes from system https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r423-motif-fin-pag
+* include codes from system https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag
     where status = "active"

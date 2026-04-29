@@ -17,5 +17,5 @@ Description: "Type d'adresse postale."
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 
-* include codes from system https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r434-type-adresse
+* include codes from system https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r427-type-adresse
     where status = "active"

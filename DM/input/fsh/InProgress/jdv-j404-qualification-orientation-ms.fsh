@@ -17,5 +17,5 @@ Description: "La qualification de l'orientation peut être cible ou alternative.
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 
-* include codes from system https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r424-qualification-orientation
+* include codes from system https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r422-qualification-orientation
     where status = "active"
