@@ -192,7 +192,7 @@
 },
 {
   "id" : "tre-r413-categorie-permis-conduire",
-  "name" : "TreR413TypeCategorieConduire",
+  "name" : "TreR413CategorieConduire",
   "title" : "Tre R413 Categorie Permis Conduire",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r413-categorie-permis-conduire",
   "identifier" : "urn:oid:1.2.250.1.213.3.3.264",

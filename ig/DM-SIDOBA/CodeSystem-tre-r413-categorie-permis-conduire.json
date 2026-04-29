@@ -22,7 +22,7 @@
     "value" : "urn:oid:1.2.250.1.213.3.3.264"
   }],
   "version" : "20260505120000",
-  "name" : "TreR413TypeCategorieConduire",
+  "name" : "TreR413CategorieConduire",
   "title" : "Tre R413 Categorie Permis Conduire",
   "status" : "draft",
   "experimental" : false,

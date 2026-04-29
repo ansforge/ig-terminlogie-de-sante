@@ -2933,7 +2933,7 @@
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r413-categorie-permis-conduire",
     "version" : "20260505120000",
     "status" : "draft",
-    "name" : "TreR413TypeCategorieConduire",
+    "name" : "TreR413CategorieConduire",
     "title" : "Tre R413 Categorie Permis Conduire",
     "description" : "Catégorie de permis de conduire.",
     "oids" : ["1.2.250.1.213.3.3.264"]

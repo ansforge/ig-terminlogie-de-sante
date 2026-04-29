@@ -21,7 +21,7 @@
     <value value="urn:oid:1.2.250.1.213.3.3.264"/>
   </identifier>
   <version value="20260505120000"/>
-  <name value="TreR413TypeCategorieConduire"/>
+  <name value="TreR413CategorieConduire"/>
   <title value="Tre R413 Categorie Permis Conduire"/>
   <status value="draft"/>
   <experimental value="false"/>

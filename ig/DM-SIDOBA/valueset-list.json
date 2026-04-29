@@ -6010,7 +6010,7 @@
     "name" : "JdvJ403MotifFinPagMs",
     "title" : "Jdv J403 Motif Fin Pag Ms",
     "description" : "Motif pour l'arrêt du plan d'accompagnement global (PAG).",
-    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r423-motif-fin-pag"],
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag"],
     "oids" : ["1.2.250.1.213.3.4.243"],
     "sources" : ["1.2.250.1.213.3.4.243"]
   },
@@ -6021,7 +6021,7 @@
     "name" : "JdvJ404QualificationOrientationMs",
     "title" : "Jdv J404 Qualification Orientation Ms",
     "description" : "La qualification de l'orientation peut être cible ou alternative.",
-    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r424-qualification-orientation"],
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r422-qualification-orientation"],
     "oids" : ["1.2.250.1.213.3.4.244"],
     "sources" : ["1.2.250.1.213.3.4.244"]
   },
@@ -6043,7 +6043,7 @@
     "name" : "JdvJ406MotifAbsenceMs",
     "title" : "Jdv J406 Motif Absence Ms",
     "description" : "Motif pour lequel l'usager n'est pas présent lors d'un événement organisé par sa structure de rattachement.",
-    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-motif-absence"],
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r424-motif-absence"],
     "oids" : ["1.2.250.1.213.3.4.246"],
     "sources" : ["1.2.250.1.213.3.4.246"]
   },
@@ -6054,7 +6054,7 @@
     "name" : "JdvJ407TypeRepasMs",
     "title" : "Jdv J407 Type Repas Ms",
     "description" : "Type de repas.",
-    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r427-type-repas"],
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r425-type-repas"],
     "oids" : ["1.2.250.1.213.3.4.247"],
     "sources" : ["1.2.250.1.213.3.4.247"]
   },
@@ -6131,7 +6131,7 @@
     "name" : "JdvJ414TypeAdresseMs",
     "title" : "Jdv J414 Type Adresse Ms",
     "description" : "Type d'adresse postale.",
-    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r434-type-adresse"],
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r427-type-adresse"],
     "oids" : ["1.2.250.1.213.3.4.254"],
     "sources" : ["1.2.250.1.213.3.4.254"]
   },

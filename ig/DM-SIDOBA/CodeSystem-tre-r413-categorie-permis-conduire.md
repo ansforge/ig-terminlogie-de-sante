@@ -9,7 +9,7 @@
 | | | |
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r413-categorie-permis-conduire | *Version*:20260505120000 | |
-| Draft as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR413TypeCategorieConduire |
+| Draft as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR413CategorieConduire |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.264 | | |
 
  
@@ -44,7 +44,7 @@ Catégorie de permis de conduire.
     "value" : "urn:oid:1.2.250.1.213.3.3.264"
   }],
   "version" : "20260505120000",
-  "name" : "TreR413TypeCategorieConduire",
+  "name" : "TreR413CategorieConduire",
   "title" : "Tre R413 Categorie Permis Conduire",
   "status" : "draft",
   "experimental" : false,

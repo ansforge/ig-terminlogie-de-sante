@@ -33,8 +33,6 @@ Requête sur le SMT
 
 ### Expansion
 
-No Expansion for this valueset (Unknown Code System)
-
 -------
 
  Explanation of the columns that may appear on this page: 
@@ -88,7 +86,7 @@ No Expansion for this valueset (Unknown Code System)
   }],
   "compose" : {
     "include" : [{
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-motif-absence",
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r424-motif-absence",
       "filter" : [{
         "property" : "status",
         "op" : "=",

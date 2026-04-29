@@ -325,7 +325,7 @@ However, this HL7 datatypes specification treats the entire media type as one at
 | [TreR406FormeActiviteSmsseRegulee](CodeSystem-tre-r406-forme-activite-smsse-regulee.md) | Formes des activites smsse régulées, remplace la TRE_R276-FormeActivite | 23/02/2026 |
 | [TreR407CompositionFoyer](CodeSystem-tre-r407-composition-foyer.md) | Désigne avec qui vit l’usager dans son logement. | 02/02/2026 |
 | [TreR408TypeEnseignementSpecialise](CodeSystem-tre-r408-type-enseignement-specialise.md) | Type d'enseignement spécialisé. | 02/02/2026 |
-| [TreR413TypeCategorieConduire](CodeSystem-tre-r413-categorie-permis-conduire.md) | Catégorie de permis de conduire. | 05/05/2026 |
+| [TreR413CategorieConduire](CodeSystem-tre-r413-categorie-permis-conduire.md) | Catégorie de permis de conduire. | 05/05/2026 |
 | [TreR414TypePermisConduire](CodeSystem-tre-r414-type-permis-conduire.md) | Type de permis de conduire en France. | 05/05/2026 |
 | [TreR415UtilisationCanalCommunication](CodeSystem-tre-r415-utilisation-canal-communication.md) | Précise l'utilisation du canal de communication. | 05/05/2026 |
 | [TreR416TypeCourrier](CodeSystem-tre-r416-type-courrier.md) | Type de courrier en France. | 05/05/2026 |

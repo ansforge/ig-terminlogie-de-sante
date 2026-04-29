@@ -43,7 +43,7 @@
      fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.264" ]
   ] ) ; # 
   fhir:version [ fhir:v "20260505120000"] ; # 
-  fhir:name [ fhir:v "TreR413TypeCategorieConduire"] ; # 
+  fhir:name [ fhir:v "TreR413CategorieConduire"] ; # 
   fhir:title [ fhir:v "Tre R413 Categorie Permis Conduire"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v false] ; # 
