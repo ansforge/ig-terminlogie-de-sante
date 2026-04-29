@@ -1,6 +1,6 @@
 ValueSet: JdvJ408EsmsEnfantSessadMs
 Id: jdv-j408-esms-enfant-sessad-ms
-Title: "JdvJ408EsmsEnfantSessadMs"
+Title: "Jdv J408 Esms Enfant Sessad Ms"
 Description: "Orientation vers un Service d'éducation spéciale et de soins à domicile (SESSAD)."
 * ^meta.versionId = "1"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
