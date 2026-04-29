@@ -11,7 +11,7 @@
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2026-04-29T15:47:22+00:00"/>
+  <date value="2026-04-29T18:06:39+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -22261,6 +22261,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-j378-region-om-finess"/>
+      </reference>
+      <name value="Jdv J378 Region Om Finess"/>
+      <description value="Liste des régions administratives couvertes par le périmètre géographique de FINESS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-j379-activite-sociale-regulee-rass"/>
       </reference>
       <name value="Jdv J379 Activite Sociale Regulee Rass"/>
@@ -29156,6 +29167,17 @@
       </reference>
       <name value="Tre R373 Type Personne Morale"/>
       <description value="Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces champs).&#xA;Remarque : Cette TRE est juste initialisée à minima et a vocation à porter d'autres valurs."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r374-nature-activite-smsse-regulee"/>
+      </reference>
+      <name value="Tre R374 Nature Activite Smsse Regulee"/>
+      <description value="Nomenclature des grandes natures d'activité SMSSE exercées par les entités FINESS+"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

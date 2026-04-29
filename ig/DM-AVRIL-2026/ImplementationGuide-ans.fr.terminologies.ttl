@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "Terminologies"] ; # 
   fhir:title [ fhir:v "Terminologies  de Santé"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2026-04-29T15:47:22+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-04-29T18:06:39+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -63214,6 +63214,27 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j378-region-om-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j378-region-om-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J378 Region Om Finess" ] ;
+       fhir:description [ fhir:v "Liste des régions administratives couvertes par le périmètre géographique de FINESS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j379-activite-sociale-regulee-rass> ;
          fhir:reference [ fhir:v "ValueSet/jdv-j379-activite-sociale-regulee-rass" ]
        ] ;
@@ -76380,6 +76401,27 @@
        ] ;
        fhir:name [ fhir:v "Tre R373 Type Personne Morale" ] ;
        fhir:description [ fhir:v "Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces champs).\nRemarque : Cette TRE est juste initialisée à minima et a vocation à porter d'autres valurs." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r374-nature-activite-smsse-regulee> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r374-nature-activite-smsse-regulee" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R374 Nature Activite Smsse Regulee" ] ;
+       fhir:description [ fhir:v "Nomenclature des grandes natures d'activité SMSSE exercées par les entités FINESS+" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false

@@ -10,7 +10,7 @@
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-04-29T15:47:22+00:00",
+  "date" : "2026-04-29T18:06:39+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -29681,6 +29681,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-j378-region-om-finess"
+      },
+      "name" : "Jdv J378 Region Om Finess",
+      "description" : "Liste des régions administratives couvertes par le périmètre géographique de FINESS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-j379-activite-sociale-regulee-rass"
       },
       "name" : "Jdv J379 Activite Sociale Regulee Rass",
@@ -37203,6 +37215,18 @@
       },
       "name" : "Tre R373 Type Personne Morale",
       "description" : "Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces champs).\nRemarque : Cette TRE est juste initialisée à minima et a vocation à porter d'autres valurs.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r374-nature-activite-smsse-regulee"
+      },
+      "name" : "Tre R374 Nature Activite Smsse Regulee",
+      "description" : "Nomenclature des grandes natures d'activité SMSSE exercées par les entités FINESS+",
       "exampleBoolean" : false
     },
     {

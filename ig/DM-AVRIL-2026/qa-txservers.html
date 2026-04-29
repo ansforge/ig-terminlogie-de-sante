@@ -12,7 +12,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Terminology Server Report for Terminologies</h1>
- <p>Generated Wed Apr 29 16:02:52 UTC 2026, FHIR version 4.0.1 for ans.fr.terminologies#1.8.0 (canonical = <a href="https://interop.esante.gouv.fr/terminologies">https://interop.esante.gouv.fr/terminologies</a> (<a href="https://interop.esante.gouv.fr/terminologies/history.html">history</a>))</p>
+ <p>Generated Wed Apr 29 18:21:45 UTC 2026, FHIR version 4.0.1 for ans.fr.terminologies#1.8.0 (canonical = <a href="https://interop.esante.gouv.fr/terminologies">https://interop.esante.gouv.fr/terminologies</a> (<a href="https://interop.esante.gouv.fr/terminologies/history.html">history</a>))</p>
 <p>This page provides a report on which terminology servers were used while publishing this IG. Note that terminology caching reduces the server hit count - this page only reports content that wasn't cached</p>
 <h2>Terminology Parameters</h2>
 <ul>
@@ -3649,13 +3649,6 @@
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
     <td>null</td>
-    <td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td>null</td>
     <td>https://smt.esante.gouv.fr/terminologie-emdn</td>
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
   </tr>
@@ -4295,13 +4288,6 @@
     <td></td>
     <td>http://loinc.org</td>
     <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx.fhir.de/fhir</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
   </tr>
   <tr>
     <td>Found authoritative server http://tx.fhir.org/r4</td>
@@ -6939,10 +6925,16 @@
       <span title="https://tx.fhir.org/r4/CodeSystem?_format=json&amp;url=http%3A%2F%2Funstats.un.org%2Funsd%2Fmethods%2Fm49%2Fm49.htm">Error resolving CodeSystem http://unstats.un.org/unsd/methods/m49/m49.htm: Error parsing response message from https://tx.fhir.org/r4: JsonNull</span>
     </td>
   </tr>
+  <tr>
+    <td>ttps://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee?vs</td>
+    <td style="background-color: #ffe3e3">
+      <span title="https://tx.fhir.org/tx-reg/resolve?fhirVersion=4.0&amp;valueSet=ttps%3A%2F%2Fsmt.esante.gouv.fr%2Ffhir%2FCodeSystem%2Ftre-r374-nature-activite-smsse-regulee%3Fvs&amp;usage=publication">Error resolving valueSet ttps://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee?vs: Bad Request</span>
+    </td>
+  </tr>
 </table>
 <h2>Primary Server: https://tx.fhir.org/r4</h2>
 <a href="https://tx.fhir.org/r4"></a>
-<p>Use Count: 442. Code Systems used: </p>
+<p>Use Count: 444. Code Systems used: </p>
 <table class="grid">
   <tr>
     <th>
@@ -7115,6 +7107,7 @@
   <li>https://dicom.nema.org/medical/dicom/current/output/chtml/part06/chapter_a.html</li>
   <li>https://wiki.ihe.net/index.php/IHERoleCode_Vocabulary</li>
   <li>https://www.imdrf.org</li>
+  <li>ttps://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee?vs</li>
 </ul>
 <h2>Server: https://tx.fhir.org/r4</h2>
 <a href="https://tx.fhir.org/r4"></a>
@@ -7137,7 +7130,7 @@
 </table>
 <h2>Server: https://smt.esante.gouv.fr/fhir</h2>
 <a href="https://smt.esante.gouv.fr/fhir"></a>
-<p>Use Count: 601. Code Systems used: </p>
+<p>Use Count: 596. Code Systems used: </p>
 <table class="grid">
   <tr>
     <th>
@@ -7218,12 +7211,6 @@
   <tr>
     <td>https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322</td>
     <td>2</td>
-    <td>1</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee</td>
-    <td>1</td>
     <td>1</td>
     <td></td>
   </tr>
@@ -7397,7 +7384,6 @@
   <li>https://mos.esante.gouv.fr/NOS/TRE_R310-CIM10ATIH/FHIR/TRE-R310-CIM10ATIH</li>
   <li>https://mos.esante.gouv.fr/NOS/TRE_R311-RegroupementSurCIM10ATIH/FHIR/TRE-R311-RegroupementSurCIM10ATIH</li>
   <li>https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322</li>
-  <li>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee</li>
   <li>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statuts-bilan-projet-personnalise?vs</li>
   <li>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise?vs</li>
   <li>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour?vs</li>

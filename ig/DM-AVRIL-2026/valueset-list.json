@@ -5964,6 +5964,17 @@
     "sources" : ["1.2.250.1.213.3.4.224"]
   },
   {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j378-region-om-finess",
+    "version" : "20260505120000",
+    "status" : "active",
+    "name" : "JdvJ378RegionOmFiness",
+    "title" : "Jdv J378 Region Om Finess",
+    "description" : "Liste des régions administratives couvertes par le périmètre géographique de FINESS",
+    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"],
+    "oids" : ["1.2.250.1.213.1.6.1.391"],
+    "sources" : ["1.2.250.1.213.1.6.1.391"]
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j379-activite-sociale-regulee-rass",
     "version" : "20260223120000",
     "status" : "active",

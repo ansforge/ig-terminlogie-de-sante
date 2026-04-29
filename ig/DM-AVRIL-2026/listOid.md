@@ -343,6 +343,7 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | TreR371TypeGroupeGcc | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r371-type-groupe-gcc | 1.2.250.1.213.1.6.1.287 |
 | TreR372TypeGroupeGco | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r372-type-groupe-gco | 1.2.250.1.213.1.6.1.288 |
 | TreR373TypePersonneMorale | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r373-type-personne-morale | 1.2.250.1.213.1.6.1.253 |
+| TreR374NatureActiviteSmsseRegulee | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee | 1.2.250.1.213.1.6.1.289 |
 | TreR375ModeFinancement | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r375-mode-financement | 1.2.250.1.213.1.6.1.290 |
 | TreR381ActiviteAmm | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm | 1.2.250.1.213.1.6.1.296 |
 | TreR382ModaliteActDeSoinAmm | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r382-modalite-act-de-soin-amm | 1.2.250.1.213.1.6.1.297 |

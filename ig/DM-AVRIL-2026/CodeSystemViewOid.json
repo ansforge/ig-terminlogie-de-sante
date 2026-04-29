@@ -327,6 +327,14 @@
   "status" : "active"
 },
 {
+  "id" : "tre-r374-nature-activite-smsse-regulee",
+  "name" : "TreR374NatureActiviteSmsseRegulee",
+  "title" : "Tre R374 Nature Activite Smsse Regulee",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.289",
+  "status" : "active"
+},
+{
   "id" : "tre-r397-categorie-entite-geographique-exercice",
   "name" : "TreR397CategorieEntiteGeographiqueExercice",
   "title" : "Tre R397 Categorie Entite Geographique Exercice",

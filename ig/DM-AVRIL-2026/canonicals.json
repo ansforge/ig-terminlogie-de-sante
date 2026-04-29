@@ -4842,6 +4842,14 @@
   "name" : "VsTreR373TypePersonneMoraleAll"
 },
 {
+  "id" : "tre-r374-nature-activite-smsse-regulee",
+  "type" : "CodeSystem",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+  "version" : "20260505120000",
+  "name" : "TreR374NatureActiviteSmsseRegulee",
+  "oids" : ["1.2.250.1.213.1.6.1.289"]
+},
+{
   "id" : "vs-tre-r374-nature-activite-smsse-regulee-all",
   "type" : "ValueSet",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee?vs",
@@ -7112,6 +7120,14 @@
   "version" : "20260223120000",
   "name" : "JdvJ377CategorieEntiteGeographiqueExerciceRor",
   "oids" : ["1.2.250.1.213.3.4.224"]
+},
+{
+  "id" : "jdv-j378-region-om-finess",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j378-region-om-finess",
+  "version" : "20260505120000",
+  "name" : "JdvJ378RegionOmFiness",
+  "oids" : ["1.2.250.1.213.1.6.1.391"]
 },
 {
   "id" : "jdv-j379-activite-sociale-regulee-rass",
