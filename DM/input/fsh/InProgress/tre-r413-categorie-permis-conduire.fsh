@@ -1,4 +1,4 @@
-CodeSystem: TreR413TypeCategorieConduire
+CodeSystem: TreR413CategorieConduire
 Id: tre-r413-categorie-permis-conduire
 Title: "Tre R413 Categorie Permis Conduire"
 Description: "Catégorie de permis de conduire."
