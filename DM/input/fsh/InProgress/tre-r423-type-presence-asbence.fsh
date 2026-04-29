@@ -1,6 +1,6 @@
 CodeSystem: TreR423TypePresenceAbsence
 Id: tre-r423-type-presence-absence
-Title: "TreR423TypePresenceAbsence"
+Title: "Tre R423 Type Presence Absence"
 Description: "Déclaration du type de présence absence de l'usager lors d'un événement organisé par sa structure de rattachement."
 * ^meta.versionId = "1"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
