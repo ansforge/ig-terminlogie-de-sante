@@ -10,7 +10,7 @@
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-04-29T06:12:43+00:00",
+  "date" : "2026-04-29T15:47:22+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -29165,6 +29165,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-j240-activite-sanitaire-diverse-regulee-finess"
+      },
+      "name" : "Jdv J240 Activite Sanitaire Diverse Regulee Finess",
+      "description" : "Jeu de valeurs FINESS contenant les activités sanitaires, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-j289-type-groupe-gco-finess"
       },
       "name" : "Jdv J289 Type Groupe Gco Finess",
@@ -29433,6 +29445,126 @@
       },
       "name" : "Jdv J330 Public Activite Smsse Regulee Niv2 Finess",
       "description" : "Ce JDV contient tous les agregats de publics de niveau 2 (JDV créé à l'image de l'ancienne TRE_R294-AgregatClienteleNiv3)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess"
+      },
+      "name" : "Jdv J333 Activite Sanitaire Diverse Regulee Niv Finess",
+      "description" : "Jeu de valeurs FINESS contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 1",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j334-activite-sanitaire-diverse-regulee-niv2-finess"
+      },
+      "name" : "Jdv J334 Activite Sanitaire Diverse Regulee Niv2 Finess",
+      "description" : "Jeu de valeurs Finess contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 2",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j335-activite-sanitaire-diverse-regulee-niv3-finess"
+      },
+      "name" : "Jdv J335 Activite Sanitaire Diverse Regulee Niv3 Finess",
+      "description" : "Jeu de valeurs Finess contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 3",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j351-appareil-amm-finess"
+      },
+      "name" : "Jdv J351 Appareil Amm Finess",
+      "description" : "Liste des appareils AMM vus de FINESS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j352-nature-capacite-finess"
+      },
+      "name" : "Jdv J352 Nature Capacite Finess",
+      "description" : "Jeu de valeurs FINESS contenant les capacités utilisées par FINESS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j353-type-statut-capacite-finess"
+      },
+      "name" : "Jdv J353 Type Statut Capacite Finess",
+      "description" : "Jeu de valeurs FINESS permettant de préciser le statut des capacités concernées par FINESS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j354-habilitation-finess"
+      },
+      "name" : "Jdv J354 Habilitation Finess",
+      "description" : "Jeu de valeurs FINESS contenant les habilitations associées aux capacités des structures FINESS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j357-genre-capacite-finess"
+      },
+      "name" : "Jdv J357 Genre Capacite Finess",
+      "description" : "Jeu de valeurs FINESS contenant les genres de capacités utilisés par FINESS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j364-type-fermeture-pm-finess"
+      },
+      "name" : "Jdv J364 Type Fermeture Pm Finess",
+      "description" : "Jeu de valeurs FINESS contenant les types de fermeture dédiées aux personnes morales FINESS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j365-type-fermeture-ege-finess"
+      },
+      "name" : "Jdv J365 Type Fermeture Ege Finess",
+      "description" : "Jeu de valeurs FINESS contenant les types de fermeture dédiées aux entités géographiques FINESS",
       "exampleBoolean" : false
     },
     {
@@ -36983,6 +37115,18 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"
+      },
+      "name" : "Tre R347 Activite Sanitaire Diverse Regulee",
+      "description" : "Nomenclature des activités sanitaires utilisée pour décrire les Activités Sanitaires Diverses Régulées (ASDR)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/tre-r360-type-role-entite-groupe"
       },
       "name" : "Tre R360 Type Role Entite Groupe",
@@ -37019,6 +37163,18 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/tre-r370-role-relation-ege"
+      },
+      "name" : "Tre R370 Role Relation Ege",
+      "description" : "Nomenclature des types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/tre-r371-type-groupe-gcc"
       },
       "name" : "Tre R371 Type Groupe Gcc",
@@ -37035,6 +37191,18 @@
       },
       "name" : "Tre R372 Type Groupe Gco",
       "description" : "Nomenclature des types de Groupement de Coopération Organique (GCO)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r373-type-personne-morale"
+      },
+      "name" : "Tre R373 Type Personne Morale",
+      "description" : "Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces champs).\nRemarque : Cette TRE est juste initialisée à minima et a vocation à porter d'autres valurs.",
       "exampleBoolean" : false
     },
     {
@@ -40489,6 +40657,42 @@
       },
       "name" : "Vs Tre R362 Type Budget All",
       "description" : "Jeu de valeurs ALL contenant les types de budget associés aux Entités Géographiques d'Exercice (EGE) dans FINESS+.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r370-role-relation-ege-all"
+      },
+      "name" : "Vs Tre R370 Role Relation Ege All",
+      "description" : "Jeu de valeurs ALL contenant les types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r373-type-personne-morale-all"
+      },
+      "name" : "Vs Tre R373 Type Personne Morale All",
+      "description" : "Jeu de valeurs ALL contenant les types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces  champs).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r374-nature-activite-smsse-regulee-all"
+      },
+      "name" : "Vs Tre R374 Nature Activite Smsse Regulee All",
+      "description" : "Jeu de valeurs ALL contenant les grandes natures d'activité SMSSE exercées par les entités FINESS+.",
       "exampleBoolean" : false
     },
     {

@@ -127,11 +127,35 @@
   "status" : "active"
 },
 {
+  "id" : "TRE-R241-AideFinanciere",
+  "name" : "TRE_R241_AideFinanciere",
+  "title" : null,
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R241-AideFinanciere/FHIR/TRE-R241-AideFinanciere",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.33",
+  "status" : "active"
+},
+{
+  "id" : "TRE-R244-CategorieOrganisation",
+  "name" : "TRE_R244_CategorieOrganisation",
+  "title" : null,
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.39",
+  "status" : "active"
+},
+{
   "id" : "TRE-R283-NiveauConfidentialite",
   "name" : "TRE_R283_NiveauConfidentialite",
   "title" : null,
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R283-NiveauConfidentialite/FHIR/TRE-R283-NiveauConfidentialite",
   "identifier" : "urn:oid:1.2.250.1.213.1.1.4.344",
+  "status" : "active"
+},
+{
+  "id" : "TRE-R286-TypeFermeture",
+  "name" : "TRE_R286_TypeFermeture",
+  "title" : null,
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.136",
   "status" : "active"
 },
 {
@@ -141,6 +165,30 @@
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation",
   "identifier" : "urn:oid:1.2.250.1.213.1.6.1.208",
   "status" : "retired"
+},
+{
+  "id" : "TRE-R329-NatureCapacite",
+  "name" : "TRE_R329_NatureCapacite",
+  "title" : null,
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R329-NatureCapacite/FHIR/TRE-R329-NatureCapacite",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.212",
+  "status" : "active"
+},
+{
+  "id" : "TRE-R330-TypeStatutCapacite",
+  "name" : "TRE_R330_TypeStatutCapacite",
+  "title" : null,
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R330-TypeStatutCapacite/FHIR/TRE-R330-TypeStatutCapacite",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.213",
+  "status" : "active"
+},
+{
+  "id" : "TRE-R332-GenreCapacite",
+  "name" : "TRE_R332_GenreCapacite",
+  "title" : null,
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R332-GenreCapacite/FHIR/TRE-R332-GenreCapacite",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.215",
+  "status" : "active"
 },
 {
   "id" : "TRE-R368-StatutRessource",
@@ -253,6 +301,30 @@
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/substanceAdminSubstitution-supplement-fr",
   "identifier" : null,
   "status" : "draft"
+},
+{
+  "id" : "tre-r347-activite-sanitaire-diverse-regulee",
+  "name" : "TreR347ActiviteSanitaireDiverseRegulee",
+  "title" : "Tre R347 Activite Sanitaire Diverse Regulee",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.248",
+  "status" : "active"
+},
+{
+  "id" : "tre-r370-role-relation-ege",
+  "name" : "TreR370RoleRelationEge",
+  "title" : "Tre R370 Role Relation Ege",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.286",
+  "status" : "active"
+},
+{
+  "id" : "tre-r373-type-personne-morale",
+  "name" : "TreR373TypePersonneMorale",
+  "title" : "Tre R373 Type Personne Morale",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r373-type-personne-morale",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.253",
+  "status" : "active"
 },
 {
   "id" : "tre-r397-categorie-entite-geographique-exercice",
@@ -1311,14 +1383,6 @@
   "status" : "active"
 },
 {
-  "id" : "TRE-R241-AideFinanciere",
-  "name" : "TRE_R241_AideFinanciere",
-  "title" : null,
-  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R241-AideFinanciere/FHIR/TRE-R241-AideFinanciere",
-  "identifier" : "urn:oid:1.2.250.1.213.3.3.33",
-  "status" : "active"
-},
-{
   "id" : "TRE-R242-TypeHabitation",
   "name" : "TRE_R242_TypeHabitation",
   "title" : null,
@@ -1332,14 +1396,6 @@
   "title" : null,
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R243-CompetenceSpecifique/FHIR/TRE-R243-CompetenceSpecifique",
   "identifier" : "urn:oid:1.2.250.1.213.3.3.37",
-  "status" : "active"
-},
-{
-  "id" : "TRE-R244-CategorieOrganisation",
-  "name" : "TRE_R244_CategorieOrganisation",
-  "title" : null,
-  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation",
-  "identifier" : "urn:oid:1.2.250.1.213.3.3.39",
   "status" : "active"
 },
 {
@@ -1655,14 +1711,6 @@
   "status" : "active"
 },
 {
-  "id" : "TRE-R286-TypeFermeture",
-  "name" : "TRE_R286_TypeFermeture",
-  "title" : null,
-  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture",
-  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.136",
-  "status" : "active"
-},
-{
   "id" : "TRE-R287-NatureContact",
   "name" : "TRE_R287_NatureContact",
   "title" : null,
@@ -1935,14 +1983,6 @@
   "status" : "active"
 },
 {
-  "id" : "TRE-R329-NatureCapacite",
-  "name" : "TRE_R329_NatureCapacite",
-  "title" : null,
-  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R329-NatureCapacite/FHIR/TRE-R329-NatureCapacite",
-  "identifier" : "urn:oid:1.2.250.1.213.3.3.212",
-  "status" : "active"
-},
-{
   "id" : "TRE-R32-StatutHospitalier",
   "name" : "TRE_R32_StatutHospitalier",
   "title" : null,
@@ -1951,27 +1991,11 @@
   "status" : "active"
 },
 {
-  "id" : "TRE-R330-TypeStatutCapacite",
-  "name" : "TRE_R330_TypeStatutCapacite",
-  "title" : null,
-  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R330-TypeStatutCapacite/FHIR/TRE-R330-TypeStatutCapacite",
-  "identifier" : "urn:oid:1.2.250.1.213.3.3.213",
-  "status" : "active"
-},
-{
   "id" : "TRE-R331-TemporaliteCapacite",
   "name" : "TRE_R331_TemporaliteCapacite",
   "title" : null,
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R331-TemporaliteCapacite/FHIR/TRE-R331-TemporaliteCapacite",
   "identifier" : "urn:oid:1.2.250.1.213.3.3.214",
-  "status" : "active"
-},
-{
-  "id" : "TRE-R332-GenreCapacite",
-  "name" : "TRE_R332_GenreCapacite",
-  "title" : null,
-  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R332-GenreCapacite/FHIR/TRE-R332-GenreCapacite",
-  "identifier" : "urn:oid:1.2.250.1.213.3.3.215",
   "status" : "active"
 },
 {

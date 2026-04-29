@@ -1072,7 +1072,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation",
-    "version" : "20260330120000",
+    "version" : "20260505120000",
     "status" : "active",
     "name" : "TRE_R244_CategorieOrganisation",
     "title" : null,
@@ -1432,7 +1432,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture",
-    "version" : "20251016120000",
+    "version" : "20260505120000",
     "status" : "active",
     "name" : "TRE_R286_TypeFermeture",
     "title" : null,
@@ -1765,7 +1765,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R329-NatureCapacite/FHIR/TRE-R329-NatureCapacite",
-    "version" : "20250328120000",
+    "version" : "20260505120000",
     "status" : "active",
     "name" : "TRE_R329_NatureCapacite",
     "title" : null,
@@ -2678,6 +2678,15 @@
     "description" : "Traduction Française"
   },
   {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+    "version" : "20260505120000",
+    "status" : "active",
+    "name" : "TreR347ActiviteSanitaireDiverseRegulee",
+    "title" : "Tre R347 Activite Sanitaire Diverse Regulee",
+    "description" : "Nomenclature des activités sanitaires utilisée pour décrire les Activités Sanitaires Diverses Régulées (ASDR)",
+    "oids" : ["1.2.250.1.213.1.6.1.248"]
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe",
     "version" : "20260330120000",
     "status" : "active",
@@ -2705,6 +2714,15 @@
     "oids" : ["1.2.250.1.213.1.6.1.256"]
   },
   {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege",
+    "version" : "20260505120000",
+    "status" : "active",
+    "name" : "TreR370RoleRelationEge",
+    "title" : "Tre R370 Role Relation Ege",
+    "description" : "Nomenclature des types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE",
+    "oids" : ["1.2.250.1.213.1.6.1.286"]
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r371-type-groupe-gcc",
     "version" : "20260330120000",
     "status" : "active",
@@ -2721,6 +2739,15 @@
     "title" : "Tre R372 Type Groupe Gco",
     "description" : "Nomenclature des types de Groupement de Coopération Organique (GCO)",
     "oids" : ["1.2.250.1.213.1.6.1.288"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r373-type-personne-morale",
+    "version" : "20260505120000",
+    "status" : "active",
+    "name" : "TreR373TypePersonneMorale",
+    "title" : "Tre R373 Type Personne Morale",
+    "description" : "Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces champs).\nRemarque : Cette TRE est juste initialisée à minima et a vocation à porter d'autres valurs.",
+    "oids" : ["1.2.250.1.213.1.6.1.253"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r375-mode-financement",

@@ -1830,7 +1830,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J238-TypeOffre-ROR/FHIR/JDV-J238-TypeOffre-ROR",
-    "version" : "20260330120000",
+    "version" : "20260505120000",
     "status" : "active",
     "name" : "JDV_J238_TypeOffre_ROR",
     "title" : null,
@@ -2340,7 +2340,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J34-CategorieOrganisation-ROR/FHIR/JDV-J34-CategorieOrganisation-ROR",
-    "version" : "20260330120000",
+    "version" : "20260505120000",
     "status" : "active",
     "name" : "JDV_J34_CategorieOrganisation_ROR",
     "title" : null,
@@ -3142,6 +3142,33 @@
     "title" : "Vs Tre R362 Type Budget All",
     "description" : "Jeu de valeurs ALL contenant les types de budget associés aux Entités Géographiques d'Exercice (EGE) dans FINESS+.",
     "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r362-type-budget"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege?vs",
+    "version" : "20260505120000",
+    "status" : "active",
+    "name" : "VsTreR370RoleRelationEgeAll",
+    "title" : "Vs Tre R370 Role Relation Ege All",
+    "description" : "Jeu de valeurs ALL contenant les types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE.",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r373-type-personne-morale?vs",
+    "version" : "20260505120000",
+    "status" : "active",
+    "name" : "VsTreR373TypePersonneMoraleAll",
+    "title" : "Vs Tre R373 Type Personne Morale All",
+    "description" : "Jeu de valeurs ALL contenant les types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces  champs).",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r373-type-personne-morale"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee?vs",
+    "version" : "20260505120000",
+    "status" : "active",
+    "name" : "VsTreR374NatureActiviteSmsseReguleeAll",
+    "title" : "Vs Tre R374 Nature Activite Smsse Regulee All",
+    "description" : "Jeu de valeurs ALL contenant les grandes natures d'activité SMSSE exercées par les entités FINESS+.",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r375-mode-financement?vs",
@@ -5520,6 +5547,17 @@
     "sources" : ["1.2.250.1.213.1.1.5.731"]
   },
   {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j240-activite-sanitaire-diverse-regulee-finess",
+    "version" : "20260505120000",
+    "status" : "active",
+    "name" : "JdvJ240ActiviteSanitaireDiverseReguleeFiness",
+    "title" : "Jdv J240 Activite Sanitaire Diverse Regulee Finess",
+    "description" : "Jeu de valeurs FINESS contenant les activités sanitaires, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR)",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"],
+    "oids" : ["1.2.250.1.213.1.6.1.250"],
+    "sources" : ["1.2.250.1.213.1.6.1.250"]
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j289-type-groupe-gco-finess",
     "version" : "20260330120000",
     "status" : "active",
@@ -5771,6 +5809,116 @@
     "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"],
     "oids" : ["1.2.250.1.213.1.6.1.338"],
     "sources" : ["1.2.250.1.213.1.6.1.338"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess",
+    "version" : "20260505120000",
+    "status" : "active",
+    "name" : "JdvJ333ActiviteSanitaireDiverseReguleeNiv1Finess",
+    "title" : "Jdv J333 Activite Sanitaire Diverse Regulee Niv Finess",
+    "description" : "Jeu de valeurs FINESS contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 1",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"],
+    "oids" : ["1.2.250.1.213.1.6.1.341"],
+    "sources" : ["1.2.250.1.213.1.6.1.341"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j334-activite-sanitaire-diverse-regulee-niv2-finess",
+    "version" : "20260505120000",
+    "status" : "active",
+    "name" : "JdvJ334ActiviteSanitaireDiverseReguleeNiv2Finess",
+    "title" : "Jdv J334 Activite Sanitaire Diverse Regulee Niv2 Finess",
+    "description" : "Jeu de valeurs Finess contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 2",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"],
+    "oids" : ["1.2.250.1.213.1.6.1.342"],
+    "sources" : ["1.2.250.1.213.1.6.1.342"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j335-activite-sanitaire-diverse-regulee-niv3-finess",
+    "version" : "20260505120000",
+    "status" : "active",
+    "name" : "JdvJ335ActiviteSanitaireDiverseReguleeNiv3Finess",
+    "title" : "Jdv J335 Activite Sanitaire Diverse Regulee Niv3 Finess",
+    "description" : "Jeu de valeurs Finess contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 3",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"],
+    "oids" : ["1.2.250.1.213.1.6.1.343"],
+    "sources" : ["1.2.250.1.213.1.6.1.343"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j351-appareil-amm-finess",
+    "version" : "20260505120000",
+    "status" : "active",
+    "name" : "JdvJ351AppareilAmmFiness",
+    "title" : "Jdv J351 Appareil Amm Finess",
+    "description" : "Liste des appareils AMM vus de FINESS",
+    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement"],
+    "oids" : ["1.2.250.1.213.1.6.1.359"],
+    "sources" : ["1.2.250.1.213.1.6.1.359"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j352-nature-capacite-finess",
+    "version" : "20260505120000",
+    "status" : "active",
+    "name" : "JdvJ352NatureCapaciteFiness",
+    "title" : "Jdv J352 Nature Capacite Finess",
+    "description" : "Jeu de valeurs FINESS contenant les capacités utilisées par FINESS",
+    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R329-NatureCapacite/FHIR/TRE-R329-NatureCapacite"],
+    "oids" : ["1.2.250.1.213.1.6.1.360"],
+    "sources" : ["1.2.250.1.213.1.6.1.360"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j353-type-statut-capacite-finess",
+    "version" : "20260505120000",
+    "status" : "active",
+    "name" : "JdvJ353TypeStatutCapaciteFiness",
+    "title" : "Jdv J353 Type Statut Capacite Finess",
+    "description" : "Jeu de valeurs FINESS permettant de préciser le statut des capacités concernées par FINESS",
+    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R330-TypeStatutCapacite/FHIR/TRE-R330-TypeStatutCapacite"],
+    "oids" : ["1.2.250.1.213.1.6.1.361"],
+    "sources" : ["1.2.250.1.213.1.6.1.361"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j354-habilitation-finess",
+    "version" : "20260505120000",
+    "status" : "active",
+    "name" : "JdvJ354HabilitationFiness",
+    "title" : "Jdv J354 Habilitation Finess",
+    "description" : "Jeu de valeurs FINESS contenant les habilitations associées aux capacités des structures FINESS",
+    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R241-AideFinanciere/FHIR/TRE-R241-AideFinanciere"],
+    "oids" : ["1.2.250.1.213.1.6.1.362"],
+    "sources" : ["1.2.250.1.213.1.6.1.362"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j357-genre-capacite-finess",
+    "version" : "20260505120000",
+    "status" : "active",
+    "name" : "JdvJ357GenreCapaciteFiness",
+    "title" : "Jdv J357 Genre Capacite Finess",
+    "description" : "Jeu de valeurs FINESS contenant les genres de capacités utilisés par FINESS",
+    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R332-GenreCapacite/FHIR/TRE-R332-GenreCapacite"],
+    "oids" : ["1.2.250.1.213.1.6.1.365"],
+    "sources" : ["1.2.250.1.213.1.6.1.365"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j364-type-fermeture-pm-finess",
+    "version" : "20260505120000",
+    "status" : "active",
+    "name" : "JdvJ364TypeFermeturePmFiness",
+    "title" : "Jdv J364 Type Fermeture Pm Finess",
+    "description" : "Jeu de valeurs FINESS contenant les types de fermeture dédiées aux personnes morales FINESS",
+    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture"],
+    "oids" : ["1.2.250.1.213.1.6.1.372"],
+    "sources" : ["1.2.250.1.213.1.6.1.372"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j365-type-fermeture-ege-finess",
+    "version" : "20260505120000",
+    "status" : "active",
+    "name" : "JdvJ365TypeFermetureEgeFiness",
+    "title" : "Jdv J365 Type Fermeture Ege Finess",
+    "description" : "Jeu de valeurs FINESS contenant les types de fermeture dédiées aux entités géographiques FINESS",
+    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture"],
+    "oids" : ["1.2.250.1.213.1.6.1.373"],
+    "sources" : ["1.2.250.1.213.1.6.1.373"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j366-statut-bilan-projet-personnalise-ms",
@@ -9366,8 +9514,8 @@
     "systems" : ["https://smt.esante.gouv.fr/terminologie-bdpm"],
     "uses" : {
     },
-    "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD",
-    "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM"
+    "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM",
+    "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD"
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-cip_ucd?vs",

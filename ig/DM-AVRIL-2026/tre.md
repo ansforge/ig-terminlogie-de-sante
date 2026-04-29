@@ -140,7 +140,7 @@ However, this HL7 datatypes specification treats the entire media type as one at
 | [TRE_R241_AideFinanciere](CodeSystem-TRE-R241-AideFinanciere.md) | Habilit. de l'EG permettant aux pers. accueillies d'avoir des aides financières | 15/12/2023 |
 | [TRE_R242_TypeHabitation](CodeSystem-TRE-R242-TypeHabitation.md) | Type habitation | 15/12/2023 |
 | [TRE_R243_CompetenceSpecifique](CodeSystem-TRE-R243-CompetenceSpecifique.md) | Compétence spécifique | 30/03/2026 |
-| [TRE_R244_CategorieOrganisation](CodeSystem-TRE-R244-CategorieOrganisation.md) | Catégorie d'organisation | 30/03/2026 |
+| [TRE_R244_CategorieOrganisation](CodeSystem-TRE-R244-CategorieOrganisation.md) | Catégorie d'organisation | 05/05/2026 |
 | [TRE_R245_SpecialisationDePriseEnCharge](CodeSystem-TRE-R245-SpecialisationDePriseEnCharge.md) | Spécialisation de prise en charge | 25/04/2025 |
 | [TRE_R246_TypeTarif](CodeSystem-TRE-R246-TypeTarif.md) | Type tarif | 15/12/2023 |
 | [TRE_R248_ModeAcces](CodeSystem-TRE-R248-ModeAcces.md) | Mode d'accès pour accéder à un SI santé avec données patients | 31/01/2025 |
@@ -180,7 +180,7 @@ However, this HL7 datatypes specification treats the entire media type as one at
 | [TRE_R283_NiveauConfidentialite](CodeSystem-TRE-R283-NiveauConfidentialite.md) | Niveau de restriction d'accès | 05/05/2026 |
 | [TRE_R284_NiveauRecoursORSAN](CodeSystem-TRE-R284-NiveauRecoursORSAN.md) | Hiérarchisation fonctionnelle des Éts pour accueil patients après le SAMU | 15/12/2023 |
 | [TRE_R285_TraitementDocument](CodeSystem-TRE-R285-TraitementDocument.md) | Traitement du document | 15/12/2023 |
-| [TRE_R286_TypeFermeture](CodeSystem-TRE-R286-TypeFermeture.md) | Type de fermeture, codes provenant du FINESS pour les EJ et EG | 16/10/2025 |
+| [TRE_R286_TypeFermeture](CodeSystem-TRE-R286-TypeFermeture.md) | Type de fermeture, codes provenant du FINESS pour les EJ et EG | 05/05/2026 |
 | [TRE_R287_NatureContact](CodeSystem-TRE-R287-NatureContact.md) | Un service ou un guichet assurant le contact au sein de l'organisation | 13/12/2024 |
 | [TRE_R288_TypeProfession](CodeSystem-TRE-R288-TypeProfession.md) | Type de profession | 15/12/2023 |
 | [TRE_R289_TypeFonction](CodeSystem-TRE-R289-TypeFonction.md) | Type de fonction | 15/12/2023 |
@@ -215,7 +215,7 @@ However, this HL7 datatypes specification treats the entire media type as one at
 | [TRE_R326_SituationSansEmploi](CodeSystem-TRE-R326-SituationSansEmploi.md) | Caractérise la situation de la personne lorsqu'elle est sans emploi | 29/03/2024 |
 | [TRE_R327_TypeDecision](CodeSystem-TRE-R327-TypeDecision.md) | Caractérise le type de décision prise par la CDAPH en réponse à une demande de compensation d'un usager (individu ou représentant légal), à une demande de révision par un tiers ou à un recours administratif préalable obligatoire (RAPO) d'un usager | 29/03/2024 |
 | [TRE_R328_TypeScolarisation](CodeSystem-TRE-R328-TypeScolarisation.md) | Caractérise la situation scolaire de la personne | 29/03/2024 |
-| [TRE_R329_NatureCapacite](CodeSystem-TRE-R329-NatureCapacite.md) | Permet d'indiquer si la capacité est exprimée en lits ou en places | 28/03/2025 |
+| [TRE_R329_NatureCapacite](CodeSystem-TRE-R329-NatureCapacite.md) | Permet d'indiquer si la capacité est exprimée en lits ou en places | 05/05/2026 |
 | [TRE_R32_StatutHospitalier](CodeSystem-TRE-R32-StatutHospitalier.md) | Statut hospitalier | 15/12/2023 |
 | [TRE_R330_TypeStatutCapacite](CodeSystem-TRE-R330-TypeStatutCapacite.md) | Permet de préciser le statut des capacités concernées | 28/03/2025 |
 | [TRE_R331_TemporaliteCapacite](CodeSystem-TRE-R331-TemporaliteCapacite.md) | Sert à indiquer le moment où une capacité sera effective. Il est ainsi possible de décrire la situation immédiate ou de fournir une information prospective de capacités, prenant notamment en compte les entrées et sorties déjà identifiés de patients | 15/12/2023 |
@@ -296,11 +296,14 @@ However, this HL7 datatypes specification treats the entire media type as one at
 | [TRE_R97_DroitExerciceCompl](CodeSystem-TRE-R97-DroitExerciceCompl.md) | Droit d'exercice complémentaire | 15/12/2023 |
 | [TerminologieCISIS](CodeSystem-terminologie-cisis.md) | Terminologie multi-domaines créée et maintenue par l'ANS contenant les termes non trouvés dans les autres terminologies internationales ou nationales. | 20/04/2026 |
 | [TimingEvent](CodeSystem-v3-TimingEvent.md) | **** MISSING DESCRIPTION **** | 20/03/2019 |
+| [TreR347ActiviteSanitaireDiverseRegulee](CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.md) | Nomenclature des activités sanitaires utilisée pour décrire les Activités Sanitaires Diverses Régulées (ASDR) | 05/05/2026 |
 | [TreR360TypeRoleEntiteGroupe](CodeSystem-tre-r360-type-role-entite-groupe.md) | Nomenclature des types de rôles que peuvent exercer des entités participants à des groupements | 30/03/2026 |
 | [TreR361FonctionPublique](CodeSystem-tre-r361-fonction-publique.md) | Nomenclature des versants de la fonction publique | 30/03/2026 |
 | [TreR362TypeBudget](CodeSystem-tre-r362-type-budget.md) | Nomenclature des types de budget associés aux Entités Géographiques d'Exercice (EGE) dans FINESS+ | 30/03/2026 |
+| [TreR370RoleRelationEge](CodeSystem-tre-r370-role-relation-ege.md) | Nomenclature des types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE | 05/05/2026 |
 | [TreR371TypeGroupeGcc](CodeSystem-tre-r371-type-groupe-gcc.md) | Nomenclature des types de groupement Concernant les groupement de structure on a 2 catégories de regroupement : les Groupement de Coopération Conventionnelle, les Groupement de Coopération Organique | 30/03/2026 |
 | [TreR372TypeGroupeGco](CodeSystem-tre-r372-type-groupe-gco.md) | Nomenclature des types de Groupement de Coopération Organique (GCO) | 30/03/2026 |
+| [TreR373TypePersonneMorale](CodeSystem-tre-r373-type-personne-morale.md) | Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces champs). Remarque : Cette TRE est juste initialisée à minima et a vocation à porter d'autres valurs. | 05/05/2026 |
 | [TreR375ModeFinancement](CodeSystem-tre-r375-mode-financement.md) | Nomenclature des modes de financement associés aux capacités de certaines activitées SMSSE | 30/03/2026 |
 | [TreR381ActiviteAmm](CodeSystem-tre-r381-activite-amm.md) | Nomenclature des activités de soin AMM | 30/03/2026 |
 | [TreR382ModaliteActDeSoinAmm](CodeSystem-tre-r382-modalite-act-de-soin-amm.md) | Nomenclature des modalités pour les activités de soin AMM | 30/03/2026 |

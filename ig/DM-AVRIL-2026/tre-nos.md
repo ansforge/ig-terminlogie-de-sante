@@ -11,6 +11,9 @@ Vous touverez ici la liste des terminologies du NOS.
 | | | |
 | :--- | :--- | :--- |
 | Name | Description | date_maj |
+| [TreR347ActiviteSanitaireDiverseRegulee](CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.md) | Nomenclature des activités sanitaires utilisée pour décrire les Activités Sanitaires Diverses Régulées (ASDR) | 05/05/2026 |
+| [TreR370RoleRelationEge](CodeSystem-tre-r370-role-relation-ege.md) | Nomenclature des types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE | 05/05/2026 |
+| [TreR373TypePersonneMorale](CodeSystem-tre-r373-type-personne-morale.md) | Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces champs). Remarque : Cette TRE est juste initialisée à minima et a vocation à porter d'autres valurs. | 05/05/2026 |
 | [TreR397CategorieEntiteGeographiqueExercice](CodeSystem-tre-r397-categorie-entite-geographique-exercice.md) | Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement, TRE-R63-AgregatCategorieEtablissementNiv1, TRE-R64-AgregatCategorieEtablissementNiv2, TRE-R65-AgregatCategorieEtablissement et ASS-X10-AgregatCategorieEtablissement. Cette TRE possède des propriétésspécifiques : le niveau d'agrégat des EGE de 1 à 4 (du plus large au plus fin), le parent d'un agrégat d'EGE ou d'un EGE, la relation entre un code et le domaine ( TRE R62), un indicateur pour les EGE spécifiques au ROR ( non finess) et les relations nécessaires à la construction des JDV dynamiques associés | 05/05/2026 |
 | [TreR360TypeRoleEntiteGroupe](CodeSystem-tre-r360-type-role-entite-groupe.md) | Nomenclature des types de rôles que peuvent exercer des entités participants à des groupements | 30/03/2026 |
 | [TreR361FonctionPublique](CodeSystem-tre-r361-fonction-publique.md) | Nomenclature des versants de la fonction publique | 30/03/2026 |
@@ -183,7 +186,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R241_AideFinanciere](CodeSystem-TRE-R241-AideFinanciere.md) | Habilit. de l'EG permettant aux pers. accueillies d'avoir des aides financières | 15/12/2023 |
 | [TRE_R242_TypeHabitation](CodeSystem-TRE-R242-TypeHabitation.md) | Type habitation | 15/12/2023 |
 | [TRE_R243_CompetenceSpecifique](CodeSystem-TRE-R243-CompetenceSpecifique.md) | Compétence spécifique | 30/03/2026 |
-| [TRE_R244_CategorieOrganisation](CodeSystem-TRE-R244-CategorieOrganisation.md) | Catégorie d'organisation | 30/03/2026 |
+| [TRE_R244_CategorieOrganisation](CodeSystem-TRE-R244-CategorieOrganisation.md) | Catégorie d'organisation | 05/05/2026 |
 | [TRE_R245_SpecialisationDePriseEnCharge](CodeSystem-TRE-R245-SpecialisationDePriseEnCharge.md) | Spécialisation de prise en charge | 25/04/2025 |
 | [TRE_R246_TypeTarif](CodeSystem-TRE-R246-TypeTarif.md) | Type tarif | 15/12/2023 |
 | [TRE_R248_ModeAcces](CodeSystem-TRE-R248-ModeAcces.md) | Mode d'accès pour accéder à un SI santé avec données patients | 31/01/2025 |
@@ -221,7 +224,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R283_NiveauConfidentialite](CodeSystem-TRE-R283-NiveauConfidentialite.md) | Niveau de restriction d'accès | 05/05/2026 |
 | [TRE_R284_NiveauRecoursORSAN](CodeSystem-TRE-R284-NiveauRecoursORSAN.md) | Hiérarchisation fonctionnelle des Éts pour accueil patients après le SAMU | 15/12/2023 |
 | [TRE_R285_TraitementDocument](CodeSystem-TRE-R285-TraitementDocument.md) | Traitement du document | 15/12/2023 |
-| [TRE_R286_TypeFermeture](CodeSystem-TRE-R286-TypeFermeture.md) | Type de fermeture, codes provenant du FINESS pour les EJ et EG | 16/10/2025 |
+| [TRE_R286_TypeFermeture](CodeSystem-TRE-R286-TypeFermeture.md) | Type de fermeture, codes provenant du FINESS pour les EJ et EG | 05/05/2026 |
 | [TRE_R287_NatureContact](CodeSystem-TRE-R287-NatureContact.md) | Un service ou un guichet assurant le contact au sein de l'organisation | 13/12/2024 |
 | [TRE_R288_TypeProfession](CodeSystem-TRE-R288-TypeProfession.md) | Type de profession | 15/12/2023 |
 | [TRE_R289_TypeFonction](CodeSystem-TRE-R289-TypeFonction.md) | Type de fonction | 15/12/2023 |
@@ -254,7 +257,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R326_SituationSansEmploi](CodeSystem-TRE-R326-SituationSansEmploi.md) | Caractérise la situation de la personne lorsqu'elle est sans emploi | 29/03/2024 |
 | [TRE_R327_TypeDecision](CodeSystem-TRE-R327-TypeDecision.md) | Caractérise le type de décision prise par la CDAPH en réponse à une demande de compensation d'un usager (individu ou représentant légal), à une demande de révision par un tiers ou à un recours administratif préalable obligatoire (RAPO) d'un usager | 29/03/2024 |
 | [TRE_R328_TypeScolarisation](CodeSystem-TRE-R328-TypeScolarisation.md) | Caractérise la situation scolaire de la personne | 29/03/2024 |
-| [TRE_R329_NatureCapacite](CodeSystem-TRE-R329-NatureCapacite.md) | Permet d'indiquer si la capacité est exprimée en lits ou en places | 28/03/2025 |
+| [TRE_R329_NatureCapacite](CodeSystem-TRE-R329-NatureCapacite.md) | Permet d'indiquer si la capacité est exprimée en lits ou en places | 05/05/2026 |
 | [TRE_R330_TypeStatutCapacite](CodeSystem-TRE-R330-TypeStatutCapacite.md) | Permet de préciser le statut des capacités concernées | 28/03/2025 |
 | [TRE_R331_TemporaliteCapacite](CodeSystem-TRE-R331-TemporaliteCapacite.md) | Sert à indiquer le moment où une capacité sera effective. Il est ainsi possible de décrire la situation immédiate ou de fournir une information prospective de capacités, prenant notamment en compte les entrées et sorties déjà identifiés de patients | 15/12/2023 |
 | [TRE_R332_GenreCapacite](CodeSystem-TRE-R332-GenreCapacite.md) | Permet d'indiquer le genre des patients qui peuvent être installés dans des lits disponibles | 28/08/2025 |
