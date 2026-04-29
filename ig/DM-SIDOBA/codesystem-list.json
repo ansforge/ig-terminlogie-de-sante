@@ -2930,6 +2930,24 @@
     "oids" : ["1.2.250.1.213.3.3.262"]
   },
   {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r413-categorie-permis-conduire",
+    "version" : "20260505120000",
+    "status" : "draft",
+    "name" : "TreR413TypeCategorieConduire",
+    "title" : "Tre R413 Categorie Permis Conduire",
+    "description" : "Catégorie de permis de conduire.",
+    "oids" : ["1.2.250.1.213.3.3.264"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r414-type-permis-conduire",
+    "version" : "20260505120000",
+    "status" : "draft",
+    "name" : "TreR414TypePermisConduire",
+    "title" : "Tre R414 Type Permis Conduire",
+    "description" : "Type de permis de conduire en France.",
+    "oids" : ["1.2.250.1.213.3.3.265"]
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r415-utilisation-canal-communication",
     "version" : "20260505120000",
     "status" : "draft",
@@ -2948,6 +2966,15 @@
     "oids" : ["1.2.250.1.213.3.3.267"]
   },
   {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r417-type-demande-compensation",
+    "version" : "20260505120000",
+    "status" : "draft",
+    "name" : "TreR417TypeDemandeCompensation",
+    "title" : "Tre R417 Type Demande Compensation",
+    "description" : "Type de la demande de compensation adressée à la CDAPH.",
+    "oids" : ["1.2.250.1.213.3.3.268"]
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r418-nature-demande-compensation",
     "version" : "20260505120000",
     "status" : "draft",
@@ -2957,49 +2984,76 @@
     "oids" : ["1.2.250.1.213.3.3.269"]
   },
   {
-    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r423-motif-fin-pag",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation",
     "version" : "20260505120000",
     "status" : "draft",
-    "name" : "TreR423MotifFinPag",
-    "title" : "Tre R423 Motif Fin Pag",
+    "name" : "TreR420DroitPrestation",
+    "title" : "Tre R420 Droit Prestation",
+    "description" : " Catégorie et type de droit et prestation caractérisant la décision d'orientation.",
+    "oids" : ["1.2.250.1.213.3.3.271"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag",
+    "version" : "20260505120000",
+    "status" : "draft",
+    "name" : "TreR421MotifFinPag",
+    "title" : "Tre R421 Motif Fin Pag",
     "description" : "Lorsque le plan d'accompagnement global (PAG) arrive à échéance ou si le coordonnateur de parcours l'estime nécessaire, un bilan est élaboré et la phase d'actualisation est lancée afin de déterminer s'il faut prolonger ce PAG, le modifier ou y mettre fin. La MDPH, les partenaires et l'usager peuvent définir ensemble que le PAG n'est plus nécessaire et donc y mettre fin. Le consentement de la personne ou de son représentant légal est recueilli et l'information sur la fin du PAG transmise à l'ensemble des parties-prenantes.",
+    "oids" : ["1.2.250.1.213.3.3.272"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r422-qualification-orientation",
+    "version" : "20260505120000",
+    "status" : "draft",
+    "name" : "TreR422QualificationOrientation",
+    "title" : "Tre R422 Qualification Orientation",
+    "description" : "La qualification de l'orientation peut être cible ou alternative.",
+    "oids" : ["1.2.250.1.213.3.3.273"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r423-type-presence-absence",
+    "version" : "20260505120000",
+    "status" : "draft",
+    "name" : "TreR423TypePresenceAbsence",
+    "title" : "TreR423TypePresenceAbsence",
+    "description" : "Déclaration du type de présence absence de l'usager lors d'un événement organisé par sa structure de rattachement.",
     "oids" : ["1.2.250.1.213.3.3.274"]
   },
   {
-    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r424-qualification-orientation",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r424-motif-absence",
     "version" : "20260505120000",
     "status" : "draft",
-    "name" : "TreR424QualificationOrientation",
-    "title" : "Tre R424 Qualification Orientation",
-    "description" : "La qualification de l'orientation peut être cible ou alternative.",
+    "name" : "TreR424MotifAbsence",
+    "title" : "Tre R424 Motif Absence",
+    "description" : "Motif pour lequel l'usager n'est pas présent lors d'un événement organisé par sa structure de rattachement.",
     "oids" : ["1.2.250.1.213.3.3.275"]
   },
   {
-    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-motif-absence",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r425-type-repas",
     "version" : "20260505120000",
     "status" : "draft",
-    "name" : "TreR426MotifAbsence",
-    "title" : "Tre R426 Motif Absence",
-    "description" : "Motif pour lequel l'usager n'est pas présent lors d'un événement organisé par sa structure de rattachement.",
+    "name" : "TreR425TypeRepas",
+    "title" : "Tre R425 Type Repas",
+    "description" : "Type de repas.",
+    "oids" : ["1.2.250.1.213.3.3.276"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation",
+    "version" : "20260505120000",
+    "status" : "draft",
+    "name" : "TreR426Orientation",
+    "title" : "Tre R426 Orientation",
+    "description" : "Orientation vers un Service d'éducation spéciale et de soins à domicile (SESSAD) ou vers un Service d'accompagnement familial et d'éducation précoce (SAFEP)",
     "oids" : ["1.2.250.1.213.3.3.277"]
   },
   {
-    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r427-type-repas",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r427-type-adresse",
     "version" : "20260505120000",
     "status" : "draft",
-    "name" : "TreR427TypeRepas",
-    "title" : "Tre R427 Type Repas",
-    "description" : "Type de repas.",
-    "oids" : ["1.2.250.1.213.3.3.278"]
-  },
-  {
-    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r434-type-adresse",
-    "version" : "20260505120000",
-    "status" : "draft",
-    "name" : "TreR434TypeAdresse",
-    "title" : "Tre R434 Type Adresse",
+    "name" : "TreR427TypeAdresse",
+    "title" : "Tre R427 Type Adresse",
     "description" : "Type d'adresse postale.",
-    "oids" : ["1.2.250.1.213.3.3.285"]
+    "oids" : ["1.2.250.1.213.3.3.278"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/v2-0487-supplement-fr",

@@ -1,0 +1,8 @@
+<OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>
+1.2.250.1.213.3.3.264;TRE;TreR413TypeCategorieConduire.tabs;Catégorie de permis de conduire.;;20260505120000;;20260505120000
+<OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MàJ> 
+1.2.250.1.213.3.3.264;AM;AM;AM;AM;20260505120000;;20260505120000
+1.2.250.1.213.3.3.264;B;B;B;B;20260505120000;;20260505120000
+1.2.250.1.213.3.3.264;A;A;A;A;20260505120000;;20260505120000
+1.2.250.1.213.3.3.264;CD;C et D;C et D;C et D;20260505120000;;20260505120000
+1.2.250.1.213.3.3.264;E;E;E;E;20260505120000;;20260505120000

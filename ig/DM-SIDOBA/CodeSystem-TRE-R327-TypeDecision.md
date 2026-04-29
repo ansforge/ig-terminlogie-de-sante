@@ -18,6 +18,7 @@ Caractérise le type de décision prise par la CDAPH en réponse à une demande 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JdvJ398TypeDecisionMs](ValueSet-jdv-j398-type-decision-ms.md)
+* [JdvJ400NatureDroitPrestationMs](ValueSet-jdv-j400-nature-droit-prestation-ms.md)
 
 
 
@@ -58,7 +59,7 @@ Caractérise le type de décision prise par la CDAPH en réponse à une demande 
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 8,
+  "count" : 7,
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",
@@ -179,23 +180,6 @@ Caractérise le type de décision prise par la CDAPH en réponse à une demande 
   },
   {
     "code" : "6",
-    "display" : "Nouveau droit",
-    "definition" : "Indique si le droit attribué par la CDAPH est un nouveau droit.",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-05-05T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-05-05T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "7",
     "display" : "Renouvellement",
     "definition" : "Indique si le droit attribué par la CDAPH fait suite à une demande de renouvellement.",
     "property" : [{
@@ -212,7 +196,7 @@ Caractérise le type de décision prise par la CDAPH en réponse à une demande 
     }]
   },
   {
-    "code" : "8",
+    "code" : "7",
     "display" : "Révision",
     "definition" : "Indique si le droit attribué par la CDAPH  fait suite à une demande de révision.",
     "property" : [{

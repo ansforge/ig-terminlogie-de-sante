@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20260505120000"
+             dateValid="20260505120000"
+             description="Type de permis de conduire en France."
+             displayName="TreR414TypePermisConduire"
+             id="1.2.250.1.213.3.3.265"
+             typeFichier="TRE"
+             urlFichier="">
+      <ConceptList>
+         <Concept code="C"
+                  codeSystem="1.2.250.1.213.3.3.265"
+                  dateFin=""
+                  dateMaj="20260505120000"
+                  dateValid="20260505120000"
+                  displayName="Cyclomoteur"
+                  longDesignation="Cyclomoteur"
+                  shortDesignation="Cyclomoteur"
+                  descriptionMetier=""/>
+         <Concept code="A"
+                  codeSystem="1.2.250.1.213.3.3.265"
+                  dateFin=""
+                  dateMaj="20260505120000"
+                  dateValid="20260505120000"
+                  displayName="Automobile"
+                  longDesignation="Automobile"
+                  shortDesignation="Automobile"
+                  descriptionMetier=""/>
+         <Concept code="M"
+                  codeSystem="1.2.250.1.213.3.3.265"
+                  dateFin=""
+                  dateMaj="20260505120000"
+                  dateValid="20260505120000"
+                  displayName="Moto"
+                  longDesignation="Moto"
+                  shortDesignation="Moto"
+                  descriptionMetier=""/>
+         <Concept code="P"
+                  codeSystem="1.2.250.1.213.3.3.265"
+                  dateFin=""
+                  dateMaj="20260505120000"
+                  dateValid="20260505120000"
+                  displayName="Professionnels"
+                  longDesignation="Professionnels"
+                  shortDesignation="Professionnels"
+                  descriptionMetier=""/>
+         <Concept code="R"
+                  codeSystem="1.2.250.1.213.3.3.265"
+                  dateFin=""
+                  dateMaj="20260505120000"
+                  dateValid="20260505120000"
+                  displayName="Remorque"
+                  longDesignation="Remorque"
+                  shortDesignation="Remorque"
+                  descriptionMetier=""/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20260505120000"
+             dateValid="20260505120000"
+             description="Catégorie de permis de conduire."
+             displayName="TreR413TypeCategorieConduire"
+             id="1.2.250.1.213.3.3.264"
+             typeFichier="TRE"
+             urlFichier="">
+      <ConceptList>
+         <Concept code="AM"
+                  codeSystem="1.2.250.1.213.3.3.264"
+                  dateFin=""
+                  dateMaj="20260505120000"
+                  dateValid="20260505120000"
+                  displayName="AM"
+                  longDesignation="AM"
+                  shortDesignation="AM"
+                  descriptionMetier=""/>
+         <Concept code="B"
+                  codeSystem="1.2.250.1.213.3.3.264"
+                  dateFin=""
+                  dateMaj="20260505120000"
+                  dateValid="20260505120000"
+                  displayName="B"
+                  longDesignation="B"
+                  shortDesignation="B"
+                  descriptionMetier=""/>
+         <Concept code="A"
+                  codeSystem="1.2.250.1.213.3.3.264"
+                  dateFin=""
+                  dateMaj="20260505120000"
+                  dateValid="20260505120000"
+                  displayName="A"
+                  longDesignation="A"
+                  shortDesignation="A"
+                  descriptionMetier=""/>
+         <Concept code="CD"
+                  codeSystem="1.2.250.1.213.3.3.264"
+                  dateFin=""
+                  dateMaj="20260505120000"
+                  dateValid="20260505120000"
+                  displayName="C et D"
+                  longDesignation="C et D"
+                  shortDesignation="C et D"
+                  descriptionMetier=""/>
+         <Concept code="E"
+                  codeSystem="1.2.250.1.213.3.3.264"
+                  dateFin=""
+                  dateMaj="20260505120000"
+                  dateValid="20260505120000"
+                  displayName="E"
+                  longDesignation="E"
+                  shortDesignation="E"
+                  descriptionMetier=""/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

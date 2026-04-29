@@ -56,11 +56,21 @@ Vous touverez ici la liste des JDV du NOS.
 | [JdvJ385CompositionFoyerMs](ValueSet-jdv-j385-composition-foyer-ms.md) | Désigne avec qui vit l’usager dans son logement. | 02/02/2026 |
 | [JdvJ386TypeEnseignementSpecialiseMs](ValueSet-jdv-j386-type-enseignement-specialise-ms.md) | Type d'enseignement spécialisé. | 02/02/2026 |
 | [JdvJ387RoleParticipantMs](ValueSet-jdv-j387-role-participant-ms.md) | Rôle du participant vis à vis de l'événement (mandataire judiciaire, structure en charge de l'événement). | 02/02/2026 |
-| [JdvJ404MotifFinPagMs](ValueSet-jdv-j404-motif-fin-pag-ms.md) | Motif pour l'arrêt du plan d'accompagnement global (PAG). | 05/05/2026 |
-| [JdvJ405QualificationOrientationMs](ValueSet-jdv-j405-qualification-orientation-ms.md) | La qualification de l'orientation peut être cible ou alternative. | 05/05/2026 |
-| [JdvJ407MotifAbsenceMs](ValueSet-jdv-j407-motif-absence-ms.md) | Motif pour lequel l'usager n'est pas présent lors d'un événement organisé par sa structure de rattachement. | 05/05/2026 |
-| [JdvJ408TypeRepasMs](ValueSet-jdv-j408-type-repas-ms.md) | Type de repas. | 05/05/2026 |
-| [JdvJ415TypeAdresseMs](ValueSet-jdv-j415-type-adresse-ms.md) | Type d'adresse postale. | 05/05/2026 |
+| [JdvJ400NatureDroitPrestationMs](ValueSet-jdv-j400-nature-droit-prestation-ms.md) | Nature du droit s’appliquant à tous les droits ou prestations ouverts par la CDAPH. Elle permet de gérer, le cas échéant, le lien entre la date d’ouverture du droit et la date de fin d’un droit précédent. Elle est déterminée par l’équipe pluridisciplinaire ou par la CDAPH. | 05/05/2026 |
+| [JdvJ401CategorieDroitPrestationMs](ValueSet-jdv-j401-categorie-droit-prestation-ms.md) | Catégorie de droit et prestation caractérisant la décision d'orientation. | 05/05/2026 |
+| [JdvJ402TypeDroitPrestationMs](ValueSet-jdv-j402-type-droit-prestation-ms.md) | Type de droit et prestation caractérisant la décision d'orientation. | 05/05/2026 |
+| [JdvJ403MotifFinPagMs](ValueSet-jdv-j403-motif-fin-pag-ms.md) | Motif pour l'arrêt du plan d'accompagnement global (PAG). | 05/05/2026 |
+| [JdvJ404QualificationOrientationMs](ValueSet-jdv-j404-qualification-orientation-ms.md) | La qualification de l'orientation peut être cible ou alternative. | 05/05/2026 |
+| [JdvJ405TypePresenceAbsenceMs](ValueSet-jdv-j405-type-presence-absence-ms.md) | Déclaration du type de présence absence de l'usager lors d'un événement organisé par sa structure de rattachement. | 05/05/2026 |
+| [JdvJ406MotifAbsenceMs](ValueSet-jdv-j406-motif-absence-ms.md) | Motif pour lequel l'usager n'est pas présent lors d'un événement organisé par sa structure de rattachement. | 05/05/2026 |
+| [JdvJ407TypeRepasMs](ValueSet-jdv-j407-type-repas-ms.md) | Type de repas. | 05/05/2026 |
+| [JdvJ408EsmsEnfantSessadMs](ValueSet-jdv-j408-esms-enfant-sessad-ms.md) | Orientation vers un Service d'éducation spéciale et de soins à domicile (SESSAD). | 05/05/2026 |
+| [JdvJ409EsmsEnfantSafepMs](ValueSet-jdv-j409-esms-enfant-safep-ms.md) | Orientation vers un Service d'accompagnement familial et d'éducation précoce (SAFEP). | 05/05/2026 |
+| [JdvJ410EsmsAdulteNonMedicaliseMs](ValueSet-jdv-j410-esms-adulte-non-medicalise-ms.md) | Orientation vers un établissement d'accueil non médicalisé. | 05/05/2026 |
+| [JdvJ411EsmsAdulteMedicaliseMs](ValueSet-jdv-j411-esms-adulte-medicalise-ms.md) | Orientation vers un établissement d'accueil médicalisé en tout ou partie. | 05/05/2026 |
+| [JdvJ414TypeAdresseMs](ValueSet-jdv-j414-type-adresse-ms.md) | Type d'adresse postale. | 05/05/2026 |
+| [JdvJ415CategoriePermisConduireMs](ValueSet-jdv-j415-categorie-permis-conduire-ms.md) | Catégorie de permis de conduire en France. | 05/05/2026 |
+| [JdvJ416TypePermisConduireMs](ValueSet-jdv-j416-type-permis-conduire-ms.md) | Type de permis de conduire en France. | 05/05/2026 |
 | [JDV_J01_XdsAuthorSpecialty_CISIS](ValueSet-JDV-J01-XdsAuthorSpecialty-CISIS.md) | XDS authorSpecialty CI-SIS | 30/03/2026 |
 | [JDV_J02_XdsHealthcareFacilityTypeCode_CISIS](ValueSet-JDV-J02-XdsHealthcareFacilityTypeCode-CISIS.md) | XDS healthcareFacilityTypeCode CI-SIS | 23/02/2026 |
 | [JDV_J03_XdsContentTypeCode_CISIS](ValueSet-JDV-J03-XdsContentTypeCode-CISIS.md) | XDS contentTypeCode CI-SIS | 23/02/2026 |

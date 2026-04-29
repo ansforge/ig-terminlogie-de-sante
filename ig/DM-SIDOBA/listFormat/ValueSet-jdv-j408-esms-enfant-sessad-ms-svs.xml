@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20260505120000"
+             dateValid="20260505120000"
+             description="Orientation vers un Service d'éducation spéciale et de soins à domicile (SESSAD)."
+             displayName="JdvJ408EsmsEnfantSessadMs"
+             id="1.2.250.1.213.3.4.248"
+             typeFichier="JDV"
+             urlFichier="">
+      <ConceptList>
+         <Concept code="1"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation"
+                  displayName="SESSAD polyvalent"/>
+         <Concept code="2"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation"
+                  displayName="SESSAD pour déficience intellectuelle"/>
+         <Concept code="3"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation"
+                  displayName="SESSAD pour déficience motrice"/>
+         <Concept code="4"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation"
+                  displayName="SESSAD pour trouble du comportement"/>
+         <Concept code="5"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation"
+                  displayName="SESSAD pour troubles autistiques et du neurodéveloppement"/>
+         <Concept code="6"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation"
+                  displayName="SESSAD pour troubles du langage et des apprentissages"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

@@ -780,11 +780,21 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Jdv J396 Canal Communication Ms](ValueSet-jdv-j396-canal-communication-ms.md) | Canal de communication. |
 | [Jdv J397 Type Messagerie Ms](ValueSet-jdv-j397-type-messagerie-ms.md) | Type de messagerie électronique utilisée par le médico-social. |
 | [Jdv J398 Type Decision Ms](ValueSet-jdv-j398-type-decision-ms.md) | Type de décision transmise aux DUI(s) par la CDAPH en réponse à une demande de compensation d’un usager. |
-| [Jdv J404 Motif Fin Pag Ms](ValueSet-jdv-j404-motif-fin-pag-ms.md) | Motif pour l’arrêt du plan d’accompagnement global (PAG). |
-| [Jdv J405 Qualification Orientation Ms](ValueSet-jdv-j405-qualification-orientation-ms.md) | La qualification de l’orientation peut être cible ou alternative. |
-| [Jdv J407 Motif Absence Ms](ValueSet-jdv-j407-motif-absence-ms.md) | Motif pour lequel l’usager n’est pas présent lors d’un événement organisé par sa structure de rattachement. |
-| [Jdv J408 Type Repas Ms](ValueSet-jdv-j408-type-repas-ms.md) | Type de repas. |
-| [Jdv J415 Type Adresse Ms](ValueSet-jdv-j415-type-adresse-ms.md) | Type d’adresse postale. |
+| [Jdv J400 Nature Droit Prestation Ms](ValueSet-jdv-j400-nature-droit-prestation-ms.md) | Nature du droit s’appliquant à tous les droits ou prestations ouverts par la CDAPH. Elle permet de gérer, le cas échéant, le lien entre la date d’ouverture du droit et la date de fin d’un droit précédent. Elle est déterminée par l’équipe pluridisciplinaire ou par la CDAPH. |
+| [Jdv J401 Categorie Droit Prestation Ms](ValueSet-jdv-j401-categorie-droit-prestation-ms.md) | Catégorie de droit et prestation caractérisant la décision d’orientation. |
+| [Jdv J402 Type Droit Prestation Ms](ValueSet-jdv-j402-type-droit-prestation-ms.md) | Type de droit et prestation caractérisant la décision d’orientation. |
+| [Jdv J403 Motif Fin Pag Ms](ValueSet-jdv-j403-motif-fin-pag-ms.md) | Motif pour l’arrêt du plan d’accompagnement global (PAG). |
+| [Jdv J404 Qualification Orientation Ms](ValueSet-jdv-j404-qualification-orientation-ms.md) | La qualification de l’orientation peut être cible ou alternative. |
+| [Jdv J405 Type Presence Absence Ms](ValueSet-jdv-j405-type-presence-absence-ms.md) | Déclaration du type de présence absence de l’usager lors d’un événement organisé par sa structure de rattachement. |
+| [Jdv J406 Motif Absence Ms](ValueSet-jdv-j406-motif-absence-ms.md) | Motif pour lequel l’usager n’est pas présent lors d’un événement organisé par sa structure de rattachement. |
+| [Jdv J407 Type Repas Ms](ValueSet-jdv-j407-type-repas-ms.md) | Type de repas. |
+| [Jdv J408 Esms Enfant Sessad Ms](ValueSet-jdv-j408-esms-enfant-sessad-ms.md) | Orientation vers un Service d’éducation spéciale et de soins à domicile (SESSAD). |
+| [Jdv J409 Esms Enfant Safep Ms](ValueSet-jdv-j409-esms-enfant-safep-ms.md) | Orientation vers un Service d’accompagnement familial et d’éducation précoce (SAFEP). |
+| [Jdv J410 Esms Adulte Non Medicalise Ms](ValueSet-jdv-j410-esms-adulte-non-medicalise-ms.md) | Orientation vers un établissement d’accueil non médicalisé. |
+| [Jdv J411 Esms Adulte Medicalise Ms](ValueSet-jdv-j411-esms-adulte-medicalise-ms.md) | Orientation vers un établissement d’accueil médicalisé en tout ou partie. |
+| [Jdv J414 Type Adresse Ms](ValueSet-jdv-j414-type-adresse-ms.md) | Type d’adresse postale. |
+| [Jdv J415 Categorie Permis Conduire Ms](ValueSet-jdv-j415-categorie-permis-conduire-ms.md) | Catégorie de permis de conduire en France. |
+| [Jdv J416 Type Permis Conduire Ms](ValueSet-jdv-j416-type-permis-conduire-ms.md) | Type de permis de conduire en France. |
 | [Jdv MSO Resultat Qualitatif 3 CISIS](ValueSet-jdv-mso-resultat-qualitatif-3-cisis.md) | Jdv MSO Resultat Qualitatif 3 CISIS |
 | [Jdv MSO Resultat Qualitatif 5 CISIS](ValueSet-jdv-mso-resultat-qualitatif-5-cisis.md) | Jdv MSO Resultat Qualitatif 5 CISIS |
 | [Jdv MSO Resultat Qualitatif CISIS](ValueSet-jdv-mso-resultat-qualitatif-cisis.md) | Jdv MSO Resultat Qualitatif CISIS |
@@ -1197,14 +1207,20 @@ These define new code systems used by systems conforming to this implementation 
 | [Tre R406 Forme Activite Smsse Regulee](CodeSystem-tre-r406-forme-activite-smsse-regulee.md) | Formes des activites smsse régulées, remplace la TRE_R276-FormeActivite |
 | [Tre R407 Composition Foyer](CodeSystem-tre-r407-composition-foyer.md) | Désigne avec qui vit l’usager dans son logement. |
 | [Tre R408 Type Enseignement Specialise](CodeSystem-tre-r408-type-enseignement-specialise.md) | Type d’enseignement spécialisé. |
+| [Tre R413 Categorie Permis Conduire](CodeSystem-tre-r413-categorie-permis-conduire.md) | Catégorie de permis de conduire. |
+| [Tre R414 Type Permis Conduire](CodeSystem-tre-r414-type-permis-conduire.md) | Type de permis de conduire en France. |
 | [Tre R415 Utilisation Canal Communication](CodeSystem-tre-r415-utilisation-canal-communication.md) | Précise l’utilisation du canal de communication. |
 | [Tre R416 Type Courrier](CodeSystem-tre-r416-type-courrier.md) | Type de courrier en France. |
+| [Tre R417 Type Demande Compensation](CodeSystem-tre-r417-type-demande-compensation.md) | Type de la demande de compensation adressée à la CDAPH. |
 | [Tre R418 Nature Demande Compensation](CodeSystem-tre-r418-nature-demande-compensation.md) | Nature de la demande de compensation adressée à la CDAPH. |
-| [Tre R423 Motif Fin Pag](CodeSystem-tre-r423-motif-fin-pag.md) | Lorsque le plan d’accompagnement global (PAG) arrive à échéance ou si le coordonnateur de parcours l’estime nécessaire, un bilan est élaboré et la phase d’actualisation est lancée afin de déterminer s’il faut prolonger ce PAG, le modifier ou y mettre fin. La MDPH, les partenaires et l’usager peuvent définir ensemble que le PAG n’est plus nécessaire et donc y mettre fin. Le consentement de la personne ou de son représentant légal est recueilli et l’information sur la fin du PAG transmise à l’ensemble des parties-prenantes. |
-| [Tre R424 Qualification Orientation](CodeSystem-tre-r424-qualification-orientation.md) | La qualification de l’orientation peut être cible ou alternative. |
-| [Tre R426 Motif Absence](CodeSystem-tre-r426-motif-absence.md) | Motif pour lequel l’usager n’est pas présent lors d’un événement organisé par sa structure de rattachement. |
-| [Tre R427 Type Repas](CodeSystem-tre-r427-type-repas.md) | Type de repas. |
-| [Tre R434 Type Adresse](CodeSystem-tre-r434-type-adresse.md) | Type d’adresse postale. |
+| [Tre R420 Droit Prestation](CodeSystem-tre-r420-droit-prestation.md) | Catégorie et type de droit et prestation caractérisant la décision d’orientation. |
+| [Tre R421 Motif Fin Pag](CodeSystem-tre-r421-motif-fin-pag.md) | Lorsque le plan d’accompagnement global (PAG) arrive à échéance ou si le coordonnateur de parcours l’estime nécessaire, un bilan est élaboré et la phase d’actualisation est lancée afin de déterminer s’il faut prolonger ce PAG, le modifier ou y mettre fin. La MDPH, les partenaires et l’usager peuvent définir ensemble que le PAG n’est plus nécessaire et donc y mettre fin. Le consentement de la personne ou de son représentant légal est recueilli et l’information sur la fin du PAG transmise à l’ensemble des parties-prenantes. |
+| [Tre R422 Qualification Orientation](CodeSystem-tre-r422-qualification-orientation.md) | La qualification de l’orientation peut être cible ou alternative. |
+| [Tre R424 Motif Absence](CodeSystem-tre-r424-motif-absence.md) | Motif pour lequel l’usager n’est pas présent lors d’un événement organisé par sa structure de rattachement. |
+| [Tre R425 Type Repas](CodeSystem-tre-r425-type-repas.md) | Type de repas. |
+| [Tre R426 Orientation](CodeSystem-tre-r426-orientation.md) | Orientation vers un Service d’éducation spéciale et de soins à domicile (SESSAD) ou vers un Service d’accompagnement familial et d’éducation précoce (SAFEP) |
+| [Tre R427 Type Adresse](CodeSystem-tre-r427-type-adresse.md) | Type d’adresse postale. |
+| [TreR423TypePresenceAbsence](CodeSystem-tre-r423-type-presence-absence.md) | Déclaration du type de présence absence de l’usager lors d’un événement organisé par sa structure de rattachement. |
 | [V3SpecimenTypeSupplementFr](CodeSystem-v3-SpecimenType-supplement-fr.md) | Traduction Française |
 | [employmentStatus](CodeSystem-v2-0066.md) | HL7-defined code system of concepts which specify an employment status of a person. Used in HL7 Version 2 messaging in the GT1 segment. |
 | [specimenCollectionMethod](CodeSystem-v2-0488.md) | HL7-defined code system of concepts specifying the specimen collection method. Used in HL7 Version 2.x messaging in the SPM segment. |
