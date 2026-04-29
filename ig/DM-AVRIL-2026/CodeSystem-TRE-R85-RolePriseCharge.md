@@ -467,7 +467,7 @@ Rôle dans la prise en charge des patients ou des usagers
   },
   {
     "code" : "317",
-    "display" : "Préparateur en pharmacie (officine)",
+    "display" : "Préparateur en pharmacie",
     "definition" : "Ref juridique : CSP Articles L4241-1 à L4241-18 Source fiche métier de la Fédération des Pharmaciens d’Officine (FPO) : https://www.fspf.fr/wp-content/uploads/2024/01/Fiche-metier-et-formation-Preparateur-en-pharmacie.pdf Le préparateur en pharmacie est un professionnel de santé qui exerce sous la responsabilité du pharmacien, il accueille les clients, délivre les médicaments et peut être amené à passer les commandes et gérer les stocks pour l’officine. Ses rôles d’accueil et de conseil sont également très importants.",
     "designation" : [{
       "language" : "fr-FR",
@@ -475,7 +475,7 @@ Rôle dans la prise en charge des patients ou des usagers
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Prép en pharmacie (officine)"
+      "value" : "Prép en pharmacie"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -483,7 +483,7 @@ Rôle dans la prise en charge des patients ou des usagers
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-09-19T12:00:00+01:00"
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
     },
     {
       "code" : "status",

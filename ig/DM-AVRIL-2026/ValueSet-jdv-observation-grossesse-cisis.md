@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-observation-grossesse-cisis | *Version*:20260311144902 | |
-| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvObservationGrossesseCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-observation-grossesse-cisis | *Version*:20260420150249 | |
+| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvObservationGrossesseCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.500 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-observation-grossesse-cisis",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-03-11T15:28:49.613+01:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-04-20T16:58:40.699+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -71,12 +71,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.500"
   }],
-  "version" : "20260311144902",
+  "version" : "20260420150249",
   "name" : "JdvObservationGrossesseCisis",
   "title" : "JDV Observation Grossesse CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-11T14:49:02+01:00",
+  "date" : "2026-04-20T15:02:49+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Observation Grossesse CISIS",
   "jurisdiction" : [{
@@ -89,12 +89,8 @@ Requête sur le SMT
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
       "concept" : [{
-        "code" : "MED-1184",
-        "display" : "Nombre d'enfants nés vivants et décédés avant 28 jours"
-      },
-      {
-        "code" : "MED-1185",
-        "display" : "Grossesse extra-utérine"
+        "code" : "MED-159",
+        "display" : "Nombre d'enfants pesant moins de 2500 g"
       },
       {
         "code" : "ORG-173",
@@ -103,6 +99,18 @@ Requête sur le SMT
       {
         "code" : "MED-280",
         "display" : "Accouchement récent"
+      },
+      {
+        "code" : "MED-1184",
+        "display" : "Nombre d'enfants nés vivants et décédés avant 28 jours"
+      },
+      {
+        "code" : "MED-1185",
+        "display" : "Grossesse extra-utérine"
+      },
+      {
+        "code" : "MED-1247",
+        "display" : "Etat du périnée"
       }]
     },
     {
@@ -110,6 +118,10 @@ Requête sur le SMT
       "concept" : [{
         "code" : "8339-4",
         "display" : "Poids à la naissance"
+      },
+      {
+        "code" : "8348-5",
+        "display" : "Poids corporel avant grossesse"
       },
       {
         "code" : "8665-2",
@@ -196,6 +208,10 @@ Requête sur le SMT
         "display" : "Nombre de grossesses extra-utérines"
       },
       {
+        "code" : "42797-1",
+        "display" : "Age à la première grossesse"
+      },
+      {
         "code" : "45371-2",
         "display" : "Grossesse multiple"
       },
@@ -204,20 +220,40 @@ Requête sur le SMT
         "display" : "Age gestationnel en semaines"
       },
       {
+        "code" : "55281-0",
+        "display" : "Nombre de fœtus"
+      },
+      {
         "code" : "57062-2",
         "display" : "Nombre d'enfants mort-nés"
+      },
+      {
+        "code" : "57071-3",
+        "display" : "Méthode d'accouchement"
+      },
+      {
+        "code" : "63893-2",
+        "display" : "Issue de la grossesse"
       },
       {
         "code" : "63895-7",
         "display" : "Allaitement"
       },
       {
-        "code" : "42797-1",
-        "display" : "Age à la première grossesse"
+        "code" : "69043-8",
+        "display" : "Nombre de grossesses antérieures"
       },
       {
-        "code" : "55281-0",
-        "display" : "Nombre de fœtus"
+        "code" : "75200-6",
+        "display" : "Date de la première consultation (déclaration de grossesse)"
+      },
+      {
+        "code" : "92276-5",
+        "display" : "Statut du nouveau né"
+      },
+      {
+        "code" : "93857-1",
+        "display" : "Date et heure de l'accouchement"
       }]
     }]
   }

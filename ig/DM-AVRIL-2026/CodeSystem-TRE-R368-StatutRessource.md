@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R368-StatutRessource/FHIR/TRE-R368-StatutRessource | *Version*:20251222120000 | |
-| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R368_StatutRessource |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R368-StatutRessource/FHIR/TRE-R368-StatutRessource | *Version*:20260505120000 | |
+| Active as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R368_StatutRessource |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.250 | | |
 
  
@@ -29,8 +29,8 @@ Caractérise le statut d’une ressource du médico-social au cours de son cycle
   "id" : "TRE-R368-StatutRessource",
   "meta" : {
     "versionId" : "8",
-    "lastUpdated" : "2025-12-22T10:46:46.316+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
+    "lastUpdated" : "2026-05-05T10:46:46.316+01:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -43,11 +43,11 @@ Caractérise le statut d’une ressource du médico-social au cours de son cycle
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.250"
   }],
-  "version" : "20251222120000",
+  "version" : "20260505120000",
   "name" : "TRE_R368_StatutRessource",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-22T12:00:00+01:00",
+  "date" : "2026-05-05T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Caractérise le statut d'une ressource du médico-social au cours de son cycle de vie",
   "jurisdiction" : [{
@@ -115,14 +115,14 @@ Caractérise le statut d’une ressource du médico-social au cours de son cycle
   {
     "code" : "VALIDE",
     "display" : "Validé",
-    "definition" : "Ressource approuvée officiellement par une personne ou un organisme. Ce statut s'adresse aux ressources Evaluation de l'individu et Evenements liés à la prise en charge de l'individu dans une structure ESSMS.",
+    "definition" : "Ressource approuvée officiellement par une personne ou un organisme. Ce statut s'adresse aux ressources Evaluation de l'individu et Evenements liés à la prise en charge de l'individu dans une structure ESSMS.  Ce statut s'adresse également à la ressource PresenceAbsence de l'usager.",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-09-27T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-09-19T12:00:00+01:00"
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -149,14 +149,14 @@ Caractérise le statut d’une ressource du médico-social au cours de son cycle
   {
     "code" : "PLANIFIE",
     "display" : "Planifié",
-    "definition" : "Ressource organisée à l’avance pour une activité. Ce statut s'adresse à la ressource Evenements liés à la prise en charge de l'individu dans une structure ESSMS.",
+    "definition" : "Ressource organisée à l’avance pour une activité. Ce statut s'adresse à la ressource Evenements liés à la prise en charge de l'individu dans une structure ESSMS. Ce statut s'adresse également à la ressource PresenceAbsence de l'usager.",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-09-27T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-09-19T12:00:00+01:00"
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -342,6 +342,23 @@ Caractérise le statut d’une ressource du médico-social au cours de son cycle
     {
       "code" : "dateMaj",
       "valueDateTime" : "2025-12-22T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "FACTURE",
+    "display" : "Facturé",
+    "definition" : "Ressource pour laquelle une facture a été établie.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
     },
     {
       "code" : "status",

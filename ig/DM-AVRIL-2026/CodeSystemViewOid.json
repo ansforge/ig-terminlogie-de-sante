@@ -143,6 +143,14 @@
   "status" : "retired"
 },
 {
+  "id" : "TRE-R368-StatutRessource",
+  "name" : "TRE_R368_StatutRessource",
+  "title" : null,
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R368-StatutRessource/FHIR/TRE-R368-StatutRessource",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.250",
+  "status" : "active"
+},
+{
   "id" : "TRE-R66-CategorieEtablissement",
   "name" : "TRE_R66_CategorieEtablissement",
   "title" : null,
@@ -2165,14 +2173,6 @@
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R35-TypeVoie/FHIR/TRE-R35-TypeVoie",
   "identifier" : "urn:oid:1.2.250.1.213.2.44",
   "status" : "retired"
-},
-{
-  "id" : "TRE-R368-StatutRessource",
-  "name" : "TRE_R368_StatutRessource",
-  "title" : null,
-  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R368-StatutRessource/FHIR/TRE-R368-StatutRessource",
-  "identifier" : "urn:oid:1.2.250.1.213.3.3.250",
-  "status" : "active"
 },
 {
   "id" : "TRE-R369-ProfilUtilisateurReferentielNational",

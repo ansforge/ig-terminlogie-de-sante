@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20260330120000"
+             dateMaj="20260505120000"
              dateValid="20240126120000"
              description="Tous les codes actifs des départements et collectivités d'outre-mer actives + Monaco du COG INSEE"
              displayName="JDV_J258_Departement"
@@ -288,18 +288,14 @@
          <Concept code="989"
                   codeSystem="1.2.250.1.71.1.2.16"
                   displayName="La Passion-Clipperton (989)"/>
-         <Concept code="91352"
-                  codeSystem="1.2.250.1.71.1.2.16"
-                  displayName="Département D'Alger et Orleansville (91352)"/>
-         <Concept code="92352"
-                  codeSystem="1.2.250.1.71.1.2.16"
-                  displayName="Département D'Oran et Bou Sfer (92352)"/>
+         <Concept code="91352" codeSystem="1.2.250.1.71.1.2.16" displayName="Alger"/>
+         <Concept code="92352" codeSystem="1.2.250.1.71.1.2.16" displayName="Oran"/>
          <Concept code="93352"
                   codeSystem="1.2.250.1.71.1.2.16"
-                  displayName="Département de Constantine (93352)"/>
+                  displayName="Constantine"/>
          <Concept code="94352"
                   codeSystem="1.2.250.1.71.1.2.16"
-                  displayName="Sud de l'Algérie (94352)"/>
+                  displayName="Territoires du sud de l'Algérie"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

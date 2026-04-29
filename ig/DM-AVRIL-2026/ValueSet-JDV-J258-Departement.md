@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J258-Departement/FHIR/JDV-J258-Departement | *Version*:20260330120000 | |
-| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J258_Departement |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J258-Departement/FHIR/JDV-J258-Departement | *Version*:20260505120000 | |
+| Active as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J258_Departement |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.764 | | |
 
  
@@ -56,7 +56,7 @@ Requête sur le SMT
   "id" : "JDV-J258-Departement",
   "meta" : {
     "versionId" : "5",
-    "lastUpdated" : "2026-03-30T17:06:15.261+00:00",
+    "lastUpdated" : "2026-05-05T17:06:15.261+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -71,11 +71,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.764"
   }],
-  "version" : "20260330120000",
+  "version" : "20260505120000",
   "name" : "JDV_J258_Departement",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-30T12:00:00+01:00",
+  "date" : "2026-05-05T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Tous les codes actifs des départements et collectivités d'outre-mer actives + Monaco du COG INSEE",
   "jurisdiction" : [{
@@ -529,19 +529,19 @@ Requête sur le SMT
       },
       {
         "code" : "91352",
-        "display" : "Département D'Alger et Orleansville (91352)"
+        "display" : "Alger"
       },
       {
         "code" : "92352",
-        "display" : "Département D'Oran et Bou Sfer (92352)"
+        "display" : "Oran"
       },
       {
         "code" : "93352",
-        "display" : "Département de Constantine (93352)"
+        "display" : "Constantine"
       },
       {
         "code" : "94352",
-        "display" : "Sud de l'Algérie (94352)"
+        "display" : "Territoires du sud de l'Algérie"
       }]
     }]
   }

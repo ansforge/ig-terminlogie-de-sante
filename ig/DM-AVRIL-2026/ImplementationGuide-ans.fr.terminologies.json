@@ -10,7 +10,7 @@
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-04-17T10:10:28+00:00",
+  "date" : "2026-04-29T06:12:43+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -26499,6 +26499,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-hl7-allergy-intolerance-category-cisis"
+      },
+      "name" : "AllergyIntoleranceCategory",
+      "description" : "AllergyIntoleranceCategory",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -27042,6 +27054,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-hl7-days-of-week-cisis"
+      },
+      "name" : "DaysOfWeek",
+      "description" : "DaysOfWeek",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-hl7-days-of-week"
       },
       "name" : "DaysOfWeek",
@@ -27381,6 +27405,18 @@
       },
       "name" : "JDV Age De Survenue CISIS",
       "description" : "JDV Age De Survenue CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-age-gestationnel-cisis"
+      },
+      "name" : "JDV Age Gestationnel CISIS",
+      "description" : "JDV Age Gestationnel CISIS",
       "exampleBoolean" : false
     },
     {
@@ -27857,6 +27893,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-collectivite-sujets-a-risque-rougeole-cisis"
+      },
+      "name" : "Jdv Collectivite Sujets A Risque Rougeole CISIS",
+      "description" : "Jdv Collectivite Sujets A Risque Rougeole CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-completude-dispensation-cisis"
       },
       "name" : "JDV Completude Dispensation CISIS",
@@ -27921,6 +27969,18 @@
       },
       "name" : "JDV Complication Pulmonaire CISIS",
       "description" : "JDV Complication Pulmonaire CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-complication-rougeole-cisis"
+      },
+      "name" : "Jdv Complication Rougeole CISIS",
+      "description" : "Jdv Complication Rougeole CISIS",
       "exampleBoolean" : false
     },
     {
@@ -28065,6 +28125,18 @@
       },
       "name" : "JDV Couverture Sociale CISIS",
       "description" : "JDV Couverture Sociale CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-date-accouchement-cisis"
+      },
+      "name" : "JDV Date Accouchement CISIS",
+      "description" : "JDV Date Accouchement CISIS",
       "exampleBoolean" : false
     },
     {
@@ -28481,6 +28553,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-evolution-rougeole-cisis"
+      },
+      "name" : "JDV Evolution Rougeole CISIS",
+      "description" : "JDV Evolution Rougeole CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-examen-biochimie-aunv-cisis"
       },
       "name" : "JDV Examen Biochimie Aunv CISIS",
@@ -28601,6 +28685,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-exposition-west-nile-cisis"
+      },
+      "name" : "Jdv Exposition West Nile CISIS",
+      "description" : "Jdv Exposition West Nile CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-facteur-de-risque-avc-cisis"
       },
       "name" : "JDV Facteur De Risque Avc CISIS",
@@ -28629,6 +28725,18 @@
       },
       "name" : "JDV Facteur De Risque Social CISIS",
       "description" : "JDV Facteur De Risque Social CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-facteur-risque-rougeole-cisis"
+      },
+      "name" : "JDV Facteur Risque Rougeole CISIS",
+      "description" : "JDV Facteur Risque Rougeole CISIS",
       "exampleBoolean" : false
     },
     {
@@ -28821,6 +28929,18 @@
       },
       "name" : "JDV Hemisphere Profond CISIS",
       "description" : "JDV Hemisphere Profond CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-historique-grossesses-cisis"
+      },
+      "name" : "JDV Historique Grossesses CISIS",
+      "description" : "JDV Historique Grossesses CISIS",
       "exampleBoolean" : false
     },
     {
@@ -29537,6 +29657,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-j418-activite-sanitaire-diverse-regulee-active"
+      },
+      "name" : "Jdv J418 Activite Sanitaire Diverse Regulee Active",
+      "description" : "Jeu de valeurs des activités sanitaires actives, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/JDV-J69-ActiviteOperationnelle-Santefr"
       },
       "name" : "JDV J69 ActiviteOperationnelle Santefr",
@@ -29661,6 +29793,18 @@
       },
       "name" : "JDV Lieu Accouchement CISIS",
       "description" : "JDV Lieu Accouchement CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-lieu-contact-rougeole-cisis"
+      },
+      "name" : "JDV Lieu Contact Rougeole CISIS",
+      "description" : "JDV Lieu Contact Rougeole CISIS",
       "exampleBoolean" : false
     },
     {
@@ -30269,6 +30413,30 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-mso-resultat-qualitatif-3-cisis"
+      },
+      "name" : "Jdv MSO Resultat Qualitatif 3 CISIS",
+      "description" : "Jdv MSO Resultat Qualitatif 3 CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-mso-resultat-qualitatif-5-cisis"
+      },
+      "name" : "Jdv MSO Resultat Qualitatif 5 CISIS",
+      "description" : "Jdv MSO Resultat Qualitatif 5 CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-mso-resultat-qualitatif-cisis"
       },
       "name" : "Jdv MSO Resultat Qualitatif CISIS",
@@ -30633,6 +30801,18 @@
       },
       "name" : "JDV Origine Effet Indesirable CISIS",
       "description" : "JDV Origine Effet Indesirable CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-origine-information-vaccin-rougeole-cisis"
+      },
+      "name" : "Jdv Origine Information Vaccin Rougeole CISIS",
+      "description" : "Jdv Origine Information Vaccin Rougeole CISIS",
       "exampleBoolean" : false
     },
     {
@@ -31577,6 +31757,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-serotype-dengue-cisis"
+      },
+      "name" : "JDV Serotype Dengue CISIS",
+      "description" : "JDV Serotype Dengue CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-severite-observation-cisis"
       },
       "name" : "JDV Severite Observation CISIS",
@@ -31709,10 +31901,70 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-specimen-type-chikungunya-cisis"
+      },
+      "name" : "jDV Specimen Type Chikungunya CISIS",
+      "description" : "jDV Specimen Type Chikungunya CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-specimen-type-cisis"
       },
       "name" : "JDV Specimen Type CISIS",
       "description" : "JDV Specimen Type CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-specimen-type-dengue-cisis"
+      },
+      "name" : "jDV Specimen Type Dengue CISIS",
+      "description" : "jDV Specimen Type Dengue CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-specimen-type-rougeole-cisis"
+      },
+      "name" : "jDV Specimen Type Rougeole CISIS",
+      "description" : "jDV Specimen Type Rougeole CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-specimen-type-westnile-cisis"
+      },
+      "name" : "jDV Specimen Type West Nile CISIS",
+      "description" : "jDV Specimen Type West Nile CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-specimen-type-zika-cisis"
+      },
+      "name" : "jDV Specimen Type Zika CISIS",
+      "description" : "jDV Specimen Type Zika CISIS",
       "exampleBoolean" : false
     },
     {
@@ -32441,6 +32693,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-type-event-indesirable-previsible-cisis"
+      },
+      "name" : "JDV Type Event Indesirable Previsible CISIS",
+      "description" : "JDV Type Event Indesirable Previsible CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-type-garde-cisis"
       },
       "name" : "JDV Type Garde CISIS",
@@ -32637,6 +32901,18 @@
       },
       "name" : "JDV Type Resultat CISIS",
       "description" : "JDV Type Resultat CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-resultat-type-cisis"
+      },
+      "name" : "Jdv Type Resultat Type CISIS",
+      "description" : "Jdv Type Resultat Type CISIS",
       "exampleBoolean" : false
     },
     {

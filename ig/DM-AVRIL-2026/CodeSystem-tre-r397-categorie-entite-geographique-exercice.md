@@ -17,6 +17,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
+* [JdvDestinationTransfertCisis](ValueSet-jdv-destination-transfert-cisis.md)
 * [JdvJ307CategorieEntiteGeographiqueExerciceNiv1Finess](ValueSet-jdv-j307-categorie-entite-geographique-exercice-niv1-finess.md)
 * [JdvJ308CategorieEntiteGeographiqueExerciceNiv2Finess](ValueSet-jdv-j308-categorie-entite-geographique-exercice-niv2-finess.md)
 * [JdvJ309CategorieEntiteGeographiqueExerciceNiv3Finess](ValueSet-jdv-j309-categorie-entite-geographique-exercice-niv3-finess.md)
@@ -24,6 +25,13 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
 * [JdvJ368CategorieEtablissementCisis](ValueSet-jdv-j368-categorie-etablissement-cisis.md)
 * [JdvJ377CategorieEntiteGeographiqueExerciceRor](ValueSet-jdv-j377-categorie-entite-geographique-exercice-ror.md)
 * [JdvJ380CategorieEntiteGeographiqueExerciceRass](ValueSet-jdv-j380-categorie-entite-geographique-exercice-rass.md)
+* [JdvLieuDeVieCisis](ValueSet-jdv-lieu-de-vie-cisis.md)
+* [JdvModaliteEntreeEsmsCisis](ValueSet-jdv-modalite-entree-esms-cisis.md)
+* [JdvModaliteSortieCisis](ValueSet-jdv-modalite-sortie-cisis.md)
+* [JdvModeSortieCisis](ValueSet-jdv-mode-sortie-cisis.md)
+* [JdvPatientAdresseParCisis](ValueSet-jdv-patient-adresse-par-cisis.md)
+* [JdvTraitementSuiviCisis](ValueSet-jdv-traitement-suivi-cisis.md)
+* [JdvTypePriseEnChargeCisis](ValueSet-jdv-type-prise-en-charge-cisis.md)
 
 
 

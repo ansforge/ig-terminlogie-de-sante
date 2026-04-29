@@ -113,7 +113,7 @@ Requête sur le SMT
       },
       {
         "code" : "317",
-        "display" : "Préparateur en pharmacie (officine)"
+        "display" : "Préparateur en pharmacie"
       },
       {
         "code" : "319",

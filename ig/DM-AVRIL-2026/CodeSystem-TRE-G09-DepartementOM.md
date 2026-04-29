@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM | *Version*:20260330120000 | |
-| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_G09_DepartementOM |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM | *Version*:20260505120000 | |
+| Active as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_G09_DepartementOM |
 | *Other Identifiers:*OID:1.2.250.1.71.1.2.16 | | |
 
  
@@ -32,7 +32,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
   "id" : "TRE-G09-DepartementOM",
   "meta" : {
     "versionId" : "10",
-    "lastUpdated" : "2026-03-30T15:27:34.491+01:00",
+    "lastUpdated" : "2026-05-05T15:27:34.491+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -47,11 +47,11 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.71.1.2.16"
   }],
-  "version" : "20260330120000",
+  "version" : "20260505120000",
   "name" : "TRE_G09_DepartementOM",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-30T12:00:00+01:00",
+  "date" : "2026-05-05T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco. Cette TRE possède des propriétés spécifiques : Autorite Epars, pour indiquer le/ les ARS du département (tre-r396-autorite) et region pour indiquer le code de la région du département (TRE-R30-RegionOM)",
   "jurisdiction" : [{
@@ -4650,14 +4650,14 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
   },
   {
     "code" : "91352",
-    "display" : "Département D'Alger et Orleansville (91352)",
+    "display" : "Alger",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "DEPARTEMENT D'ALGER et ORLEANSVILLE (91352)"
+      "value" : "Alger (91352)"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -4682,14 +4682,14 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
   },
   {
     "code" : "92352",
-    "display" : "Département D'Oran et Bou Sfer (92352)",
+    "display" : "Oran",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "DEPARTEMENT D'ORAN et BOU SFER (92352)"
+      "value" : "Oran (92352)"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -4714,14 +4714,14 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
   },
   {
     "code" : "93352",
-    "display" : "Département de Constantine (93352)",
+    "display" : "Constantine",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "DEPARTEMENT DE CONSTANTINE (93352)"
+      "value" : "Constantine (93352)"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -4746,14 +4746,14 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
   },
   {
     "code" : "94352",
-    "display" : "Sud de l'Algérie (94352)",
+    "display" : "Territoires du sud de l'Algérie",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "SUD DE L'ALGERIE (94352)"
+      "value" : "Territoires du sud de l'Algérie (94352)"
     }],
     "property" : [{
       "code" : "dateValid",

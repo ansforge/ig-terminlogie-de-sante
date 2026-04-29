@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-corps-cetoniques-cisis | *Version*:20260311144902 | |
-| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvResultatDepistageCorpsCetoniquesCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-corps-cetoniques-cisis | *Version*:20260420150249 | |
+| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvResultatDepistageCorpsCetoniquesCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.776 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-resultat-depistage-corps-cetoniques-cisis",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-03-11T15:28:59.601+01:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-04-20T16:58:52.720+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -71,12 +71,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.776"
   }],
-  "version" : "20260311144902",
+  "version" : "20260420150249",
   "name" : "JdvResultatDepistageCorpsCetoniquesCisis",
   "title" : "JDV Resultat Depistage Corps Cetoniques CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-11T14:49:02+01:00",
+  "date" : "2026-04-20T15:02:49+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Resultat Depistage Corps Cetoniques CISIS",
   "jurisdiction" : [{

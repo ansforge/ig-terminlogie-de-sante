@@ -52,6 +52,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JdvJ385CompositionFoyerMs](ValueSet-jdv-j385-composition-foyer-ms.md) | Désigne avec qui vit l’usager dans son logement. | 02/02/2026 |
 | [JdvJ386TypeEnseignementSpecialiseMs](ValueSet-jdv-j386-type-enseignement-specialise-ms.md) | Type d'enseignement spécialisé. | 02/02/2026 |
 | [JdvJ387RoleParticipantMs](ValueSet-jdv-j387-role-participant-ms.md) | Rôle du participant vis à vis de l'événement (mandataire judiciaire, structure en charge de l'événement). | 02/02/2026 |
+| [JdvJ418ActiviteSanitaireDiverseReguleeActive](ValueSet-jdv-j418-activite-sanitaire-diverse-regulee-active.md) | Jeu de valeurs des activités sanitaires actives, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR) | 05/05/2026 |
 | [JDV_J01_XdsAuthorSpecialty_CISIS](ValueSet-JDV-J01-XdsAuthorSpecialty-CISIS.md) | XDS authorSpecialty CI-SIS | 05/05/2026 |
 | [JDV_J02_XdsHealthcareFacilityTypeCode_CISIS](ValueSet-JDV-J02-XdsHealthcareFacilityTypeCode-CISIS.md) | XDS healthcareFacilityTypeCode CI-SIS | 23/02/2026 |
 | [JDV_J03_XdsContentTypeCode_CISIS](ValueSet-JDV-J03-XdsContentTypeCode-CISIS.md) | XDS contentTypeCode CI-SIS | 23/02/2026 |
@@ -272,7 +273,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J255_SurspecialiteTransversale_RPPS](ValueSet-JDV-J255-SurspecialiteTransversale-RPPS.md) | Surspécialité (compétence) acquise par l'interne à l'issue d'une Formation Spécialisée Transversale (FST) | 22/12/2025 |
 | [JDV_J256_Pays](ValueSet-JDV-J256-Pays.md) | Tous les codes actifs de la nomenclature du COG INSEE pays auquel on ajoute le code applicatif "non renseigné" | 28/03/2025 |
 | [JDV_J257_Region](ValueSet-JDV-J257-Region.md) | Tous les codes actifs des régions et collectivités d'outre-mer actives + Monaco du COG INSEE | 28/06/2024 |
-| [JDV_J258_Departement](ValueSet-JDV-J258-Departement.md) | Tous les codes actifs des départements et collectivités d'outre-mer actives + Monaco du COG INSEE | 30/03/2026 |
+| [JDV_J258_Departement](ValueSet-JDV-J258-Departement.md) | Tous les codes actifs des départements et collectivités d'outre-mer actives + Monaco du COG INSEE | 05/05/2026 |
 | [JDV_J259_ModeFixationTarifaire_RASS](ValueSet-JDV-J259-ModeFixationTarifaire-RASS.md) | Mode de fixation tarifaire du RASS | 22/12/2025 |
 | [JDV_J260_TypeFermeture_RASS](ValueSet-JDV-J260-TypeFermeture-RASS.md) | Type de fermeture, codes provenant du FINESS pour les EJ et EG pour le RASS | 27/09/2024 |
 | [JDV_J262_Sexe](ValueSet-JDV-J262-Sexe.md) | Tous les codes actifs de la notion sexe | 29/03/2024 |
@@ -282,7 +283,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J277_NCIT_CISIS](ValueSet-JDV-J277-NCIT-CISIS.md) | Termes NCIT utilisés | 13/12/2024 |
 | [JDV_J278_UcumUniteMesure_UPNOS](ValueSet-JDV-J278-UcumUniteMesure-UPNOS.md) | Termes UCUM utilisés | 27/09/2024 |
 | [JDV_J279_Loinc_UPNOS](ValueSet-JDV-J279-Loinc-UPNOS.md) | Termes LOINC utilisés | 05/05/2026 |
-| [JDV_J281_StatutsRessourcesMS](ValueSet-JDV-J281-StatutsRessourcesMS.md) | Caractérise le statut d’une ressource du médico-social au cours de son cycle de vie. | 22/12/2025 |
+| [JDV_J281_StatutsRessourcesMS](ValueSet-JDV-J281-StatutsRessourcesMS.md) | Caractérise le statut d’une ressource du médico-social au cours de son cycle de vie. | 05/05/2026 |
 | [JDV_J282_TransportsLiesAuProjetIndividuel_SERAFIN](ValueSet-JDV-J282-TransportsLiesAuProjetIndividuel-SERAFIN.md) | Liste les natures des transports liés au projet individuel provenant de la terminologie SERAFIN | 25/10/2024 |
 | [JDV_J283_PrestationsIndirects_SERAFIN](ValueSet-JDV-J283-PrestationsIndirects-SERAFIN.md) | Liste des prestations indirects provenant de la terminologie SERAFIN | 25/10/2024 |
 | [JDV_J284_PrestationsDirects_SERAFIN](ValueSet-JDV-J284-PrestationsDirects-SERAFIN.md) | Liste des prestations directs provenant de la terminologie SERAFIN | 25/10/2024 |

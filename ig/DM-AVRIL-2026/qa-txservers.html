@@ -12,7 +12,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Terminology Server Report for Terminologies</h1>
- <p>Generated Fri Apr 17 10:23:26 UTC 2026, FHIR version 4.0.1 for ans.fr.terminologies#1.8.0 (canonical = <a href="https://interop.esante.gouv.fr/terminologies">https://interop.esante.gouv.fr/terminologies</a> (<a href="https://interop.esante.gouv.fr/terminologies/history.html">history</a>))</p>
+ <p>Generated Wed Apr 29 06:26:10 UTC 2026, FHIR version 4.0.1 for ans.fr.terminologies#1.8.0 (canonical = <a href="https://interop.esante.gouv.fr/terminologies">https://interop.esante.gouv.fr/terminologies</a> (<a href="https://interop.esante.gouv.fr/terminologies/history.html">history</a>))</p>
 <p>This page provides a report on which terminology servers were used while publishing this IG. Note that terminology caching reduces the server hit count - this page only reports content that wasn't cached</p>
 <h2>Terminology Parameters</h2>
 <ul>
@@ -862,6 +862,27 @@
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>null</td>
+    <td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>null</td>
+    <td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/allergy-intolerance-category</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
     <td></td>
     <td>https://smt.esante.gouv.fr/terminologie-emdn</td>
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
@@ -1126,6 +1147,13 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
   </tr>
   <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://loinc.org</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx.fhir.de/fhir</td>
+  </tr>
+  <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
     <td></td>
@@ -1385,11 +1413,32 @@
     <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx.fhir.de/fhir</td>
   </tr>
   <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://loinc.org</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx.fhir.de/fhir</td>
+  </tr>
+  <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
     <td></td>
     <td>http://snomed.info/sct</td>
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td></td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server http://tx.fhir.org/r4</td>
@@ -1481,6 +1530,13 @@
     <td></td>
     <td>http://snomed.info/sct</td>
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://loinc.org</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx.fhir.de/fhir</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -1700,6 +1756,13 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
   </tr>
   <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td></td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
+  </tr>
+  <tr>
     <td>Use primary server for http://loinc.org</td>
     <td>https://tx.fhir.org/r4</td>
     <td></td>
@@ -1742,11 +1805,25 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
   </tr>
   <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td></td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
+  </tr>
+  <tr>
     <td>Found authoritative server http://tx.fhir.org/r4</td>
     <td>http://tx.fhir.org/r4</td>
     <td></td>
     <td>http://hl7.org/fhir/sid/icd-10</td>
     <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td></td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -1838,6 +1915,13 @@
     <td></td>
     <td>http://snomed.info/sct</td>
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://loinc.org</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx.fhir.de/fhir</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -2071,6 +2155,13 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
   </tr>
   <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td></td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
+  </tr>
+  <tr>
     <td>Use primary server for http://loinc.org</td>
     <td>https://tx.fhir.org/r4</td>
     <td></td>
@@ -2288,6 +2379,27 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
   </tr>
   <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td></td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td></td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
+  </tr>
+  <tr>
     <td>Use primary server for http://loinc.org</td>
     <td>https://tx.fhir.org/r4</td>
     <td></td>
@@ -2447,6 +2559,13 @@
     <td></td>
     <td>https://smt.esante.gouv.fr/terminologie-adicap</td>
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td></td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -2710,9 +2829,23 @@
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
     <td></td>
     <td>http://snomed.info/sct</td>
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://loinc.org</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx.fhir.de/fhir</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -2825,6 +2958,13 @@
     <td>null</td>
     <td>http://loinc.org</td>
     <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx.fhir.de/fhir</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td></td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -3187,6 +3327,13 @@
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
     <td></td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td></td>
     <td>https://smt.esante.gouv.fr/terminologie-adicap</td>
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
   </tr>
@@ -3511,6 +3658,13 @@
     <td>null</td>
     <td>http://loinc.org</td>
     <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx.fhir.de/fhir</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>null</td>
+    <td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -4159,6 +4313,48 @@
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>null</td>
+    <td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>null</td>
+    <td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>null</td>
+    <td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>null</td>
+    <td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td></td>
+    <td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://hl7.org/fhir/ValueSet/allergy-intolerance-category</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
     <td></td>
     <td>https://smt.esante.gouv.fr/terminologie-emdn</td>
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
@@ -4372,6 +4568,13 @@
     <td></td>
     <td>http://snomed.info/sct</td>
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://loinc.org</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx.fhir.de/fhir</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -4591,6 +4794,20 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
   </tr>
   <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td></td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4</td>
+  </tr>
+  <tr>
     <td>Found authoritative server http://tx.fhir.org/r4</td>
     <td>http://tx.fhir.org/r4</td>
     <td></td>
@@ -4680,6 +4897,13 @@
     <td></td>
     <td>http://snomed.info/sct</td>
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://loinc.org</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx.fhir.de/fhir</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -4899,6 +5123,13 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
   </tr>
   <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td></td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
+  </tr>
+  <tr>
     <td>Use primary server for http://loinc.org</td>
     <td>https://tx.fhir.org/r4</td>
     <td></td>
@@ -4941,11 +5172,25 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
   </tr>
   <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td></td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
+  </tr>
+  <tr>
     <td>Found authoritative server http://tx.fhir.org/r4</td>
     <td>http://tx.fhir.org/r4</td>
     <td></td>
     <td>http://hl7.org/fhir/sid/icd-10</td>
     <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td></td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -5037,6 +5282,13 @@
     <td></td>
     <td>http://snomed.info/sct</td>
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://loinc.org</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx.fhir.de/fhir</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -5184,6 +5436,13 @@
     <td></td>
     <td>http://hl7.org/fhir/sid/icd-10</td>
     <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td></td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -5452,6 +5711,34 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
   </tr>
   <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td></td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td></td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
+  </tr>
+  <tr>
     <td>Use primary server for http://loinc.org</td>
     <td>https://tx.fhir.org/r4</td>
     <td></td>
@@ -5611,6 +5898,13 @@
     <td></td>
     <td>https://smt.esante.gouv.fr/terminologie-adicap</td>
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td></td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -5853,6 +6147,20 @@
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>null</td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
     <td></td>
     <td>http://snomed.info/sct</td>
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
@@ -5863,6 +6171,13 @@
     <td></td>
     <td>http://snomed.info/sct</td>
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://loinc.org</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx.fhir.de/fhir</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -5968,6 +6283,13 @@
     <td></td>
     <td>http://loinc.org</td>
     <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx.fhir.de/fhir</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td></td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -6290,6 +6612,13 @@
     <td></td>
     <td>http://loinc.org</td>
     <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx.fhir.de/fhir</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td></td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4|https://tx.fhir.de/fhir</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -6643,7 +6972,7 @@
   <tr>
     <td>http://snomed.info/sct</td>
     <td style="background-color: #ffe3e3">
-      <span title="https://tx.fhir.org/r4/CodeSystem?_format=json&amp;url=http%3A%2F%2Fsnomed.info%2Fsct">Error resolving CodeSystem http://snomed.info/sct: Invalid ver1 version: 'http://snomed.info/xsct/900000000000207008/version/20250814"</span>
+      <span title="https://tx.fhir.org/r4/CodeSystem?_format=json&amp;url=http%3A%2F%2Fsnomed.info%2Fsct">Error resolving CodeSystem http://snomed.info/sct: Invalid ver1 version: 'http://snomed.info/sct/11000146104/version/20240930"</span>
     </td>
   </tr>
   <tr>
@@ -6655,7 +6984,7 @@
 </table>
 <h2>Primary Server: https://tx.fhir.org/r4</h2>
 <a href="https://tx.fhir.org/r4"></a>
-<p>Use Count: 427. Code Systems used: </p>
+<p>Use Count: 440. Code Systems used: </p>
 <table class="grid">
   <tr>
     <th>
@@ -6672,8 +7001,14 @@
     </th>
   </tr>
   <tr>
+    <td>http://hl7.org/fhir/ValueSet/allergy-intolerance-category</td>
+    <td>2</td>
+    <td>0</td>
+    <td></td>
+  </tr>
+  <tr>
     <td>http://hl7.org/fhir/sid/icd-10</td>
-    <td>74</td>
+    <td>76</td>
     <td>12</td>
     <td>
       <a href="http://terminology.hl7.org/5.0.0/CodeSystem-icd10.html">ICD-10</a>
@@ -6824,7 +7159,7 @@
 </ul>
 <h2>Server: https://tx.fhir.org/r4</h2>
 <a href="https://tx.fhir.org/r4"></a>
-<p>Use Count: 4. Code Systems used: </p>
+<p>Use Count: 6. Code Systems used: </p>
 <table class="grid">
   <tr>
     <th>
@@ -6843,7 +7178,7 @@
 </table>
 <h2>Server: https://smt.esante.gouv.fr/fhir</h2>
 <a href="https://smt.esante.gouv.fr/fhir"></a>
-<p>Use Count: 568. Code Systems used: </p>
+<p>Use Count: 605. Code Systems used: </p>
 <table class="grid">
   <tr>
     <th>
@@ -6861,8 +7196,8 @@
   </tr>
   <tr>
     <td>http://snomed.info/sct</td>
-    <td>361</td>
-    <td>34</td>
+    <td>381</td>
+    <td>40</td>
     <td>
       <a href="CodeSystem-900000000000207008-20260401.html">SNOMED CT core</a>
     </td>
@@ -6925,6 +7260,12 @@
     <td>https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322</td>
     <td>2</td>
     <td>1</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</td>
+    <td>1</td>
+    <td>7</td>
     <td></td>
   </tr>
   <tr>
@@ -7096,6 +7437,7 @@
   <li>https://mos.esante.gouv.fr/NOS/TRE_R310-CIM10ATIH/FHIR/TRE-R310-CIM10ATIH</li>
   <li>https://mos.esante.gouv.fr/NOS/TRE_R311-RegroupementSurCIM10ATIH/FHIR/TRE-R311-RegroupementSurCIM10ATIH</li>
   <li>https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322</li>
+  <li>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</li>
   <li>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statuts-bilan-projet-personnalise?vs</li>
   <li>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise?vs</li>
   <li>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour?vs</li>
