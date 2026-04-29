@@ -42,35 +42,35 @@ Description: "Catégorie de permis de conduire."
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
 * ^property[=].description = "Date Concept was retired"
 * ^property[=].type = #dateTime
-* #AM "AM"
+* #AM "Permis cyclomoteur"
 * #AM ^property[0].code = #dateValid
 * #AM ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #AM ^property[+].code = #dateMaj
 * #AM ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #AM ^property[+].code = #status
 * #AM ^property[=].valueCode = #active
-* #B "B"
+* #B "Permis auto"
 * #B ^property[0].code = #dateValid
 * #B ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #B ^property[+].code = #dateMaj
 * #B ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #B ^property[+].code = #status
 * #B ^property[=].valueCode = #active
-* #A "A"
+* #A "Permis moto"
 * #A ^property[0].code = #dateValid
 * #A ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #A ^property[+].code = #dateMaj
 * #A ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #A ^property[+].code = #status
 * #A ^property[=].valueCode = #active
-* #CD "C et D"
+* #CD "Permis professionnels"
 * #CD ^property[0].code = #dateValid
 * #CD ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #CD ^property[+].code = #dateMaj
 * #CD ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #CD ^property[+].code = #status
 * #CD ^property[=].valueCode = #active
-* #E "E"
+* #E "Permis remorque"
 * #E ^property[0].code = #dateValid
 * #E ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #E ^property[+].code = #dateMaj
