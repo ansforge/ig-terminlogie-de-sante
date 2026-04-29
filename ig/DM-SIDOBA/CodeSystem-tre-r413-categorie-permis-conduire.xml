@@ -8,7 +8,7 @@
   </meta>
   <language value="fr-FR"/>
   <text>
-    <status value="generated"/><div xml:lang="fr-FR" xmlns="http://www.w3.org/1999/xhtml" lang="fr-FR"><p class="res-header-id"><b>Narratif généré : CodeSystem tre-r413-categorie-permis-conduire</b></p><a name="tre-r413-categorie-permis-conduire"> </a><a name="hctre-r413-categorie-permis-conduire"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version : 1; Langue : fr-FR</p><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/R4/shareablecodesystem.html">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class="grid"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>Date de Validité</td><td>dateValid</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>Date de mise à jour</td><td>dateMaj</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>Date de fin</td><td>dateFin</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr><tr><td>deprecationDate</td><td>deprecationDate</td><td>http://hl7.org/fhir/concept-properties#deprecationDate</td><td>dateTime</td><td>Date Concept was deprecated</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>A property that indicates the status of the concept.</td></tr><tr><td>retirementDate</td><td>retirementDate</td><td>http://hl7.org/fhir/concept-properties#retirementDate</td><td>dateTime</td><td>Date Concept was retired</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r413-categorie-permis-conduire</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Affichage</b></td><td><b>Date de Validité</b></td><td><b>Date de mise à jour</b></td><td><b>status</b></td></tr><tr><td style="white-space:nowrap">AM<a name="tre-r413-categorie-permis-conduire-AM"> </a></td><td>AM</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style="white-space:nowrap">B<a name="tre-r413-categorie-permis-conduire-B"> </a></td><td>B</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style="white-space:nowrap">A<a name="tre-r413-categorie-permis-conduire-A"> </a></td><td>A</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style="white-space:nowrap">CD<a name="tre-r413-categorie-permis-conduire-CD"> </a></td><td>C et D</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style="white-space:nowrap">E<a name="tre-r413-categorie-permis-conduire-E"> </a></td><td>E</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr></table></div>
+    <status value="generated"/><div xml:lang="fr-FR" xmlns="http://www.w3.org/1999/xhtml" lang="fr-FR"><p class="res-header-id"><b>Narratif généré : CodeSystem tre-r413-categorie-permis-conduire</b></p><a name="tre-r413-categorie-permis-conduire"> </a><a name="hctre-r413-categorie-permis-conduire"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version : 1; Langue : fr-FR</p><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/R4/shareablecodesystem.html">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class="grid"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>Date de Validité</td><td>dateValid</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>Date de mise à jour</td><td>dateMaj</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>Date de fin</td><td>dateFin</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr><tr><td>deprecationDate</td><td>deprecationDate</td><td>http://hl7.org/fhir/concept-properties#deprecationDate</td><td>dateTime</td><td>Date Concept was deprecated</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>A property that indicates the status of the concept.</td></tr><tr><td>retirementDate</td><td>retirementDate</td><td>http://hl7.org/fhir/concept-properties#retirementDate</td><td>dateTime</td><td>Date Concept was retired</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r413-categorie-permis-conduire</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Affichage</b></td><td><b>Date de Validité</b></td><td><b>Date de mise à jour</b></td><td><b>status</b></td></tr><tr><td style="white-space:nowrap">AM<a name="tre-r413-categorie-permis-conduire-AM"> </a></td><td>Permis cyclomoteur</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style="white-space:nowrap">B<a name="tre-r413-categorie-permis-conduire-B"> </a></td><td>Permis auto</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style="white-space:nowrap">A<a name="tre-r413-categorie-permis-conduire-A"> </a></td><td>Permis moto</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style="white-space:nowrap">CD<a name="tre-r413-categorie-permis-conduire-CD"> </a></td><td>Permis professionnels</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr><tr><td style="white-space:nowrap">E<a name="tre-r413-categorie-permis-conduire-E"> </a></td><td>Permis remorque</td><td>2026-05-05T12:00:00+01:00</td><td>2026-05-05T12:00:00+01:00</td><td>active</td></tr></table></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
     <valuePeriod>
@@ -75,7 +75,7 @@
   </property>
   <concept>
     <code value="AM"/>
-    <display value="AM"/>
+    <display value="Permis cyclomoteur"/>
     <property>
       <code value="dateValid"/>
       <valueDateTime value="2026-05-05T12:00:00+01:00"/>
@@ -91,7 +91,7 @@
   </concept>
   <concept>
     <code value="B"/>
-    <display value="B"/>
+    <display value="Permis auto"/>
     <property>
       <code value="dateValid"/>
       <valueDateTime value="2026-05-05T12:00:00+01:00"/>
@@ -107,7 +107,7 @@
   </concept>
   <concept>
     <code value="A"/>
-    <display value="A"/>
+    <display value="Permis moto"/>
     <property>
       <code value="dateValid"/>
       <valueDateTime value="2026-05-05T12:00:00+01:00"/>
@@ -123,7 +123,7 @@
   </concept>
   <concept>
     <code value="CD"/>
-    <display value="C et D"/>
+    <display value="Permis professionnels"/>
     <property>
       <code value="dateValid"/>
       <valueDateTime value="2026-05-05T12:00:00+01:00"/>
@@ -139,7 +139,7 @@
   </concept>
   <concept>
     <code value="E"/>
-    <display value="E"/>
+    <display value="Permis remorque"/>
     <property>
       <code value="dateValid"/>
       <valueDateTime value="2026-05-05T12:00:00+01:00"/>

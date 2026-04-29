@@ -15,6 +15,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JdvJ296TypeRoleEntiteGroupeFiness](ValueSet-jdv-j296-type-role-entite-groupe-finess.md) | Jeu de valeurs FINESS contenant les types de rôles que peuvent exercer des entités participants à des groupements | 30/03/2026 |
 | [JdvJ392TypeCourrierMs](ValueSet-jdv-j392-type-courrier-ms.md) | Type de courrier en France. | 05/05/2026 |
 | [JdvJ393UtilisationCanalCommunicationMs](ValueSet-jdv-j393-utilisation-canal-communication-ms.md) | Précise l'utilisation du canal de communication. | 05/05/2026 |
+| [JdvJ394TypeDemandeCompensationMs](ValueSet-jdv-j394-type-demande-compensation-ms.md) | Type demande de compensation adressée à la CDAPH. | 05/05/2026 |
 | [JdvJ395NatureDemandeCompensationMs](ValueSet-jdv-j395-nature-demande-compensation-ms.md) | Nature de la demande de compensation adressée à la CDAPH. | 05/05/2026 |
 | [JdvJ396CanalCommunicationMs](ValueSet-jdv-j396-canal-communication-ms.md) | Canal de communication. | 05/05/2026 |
 | [JdvJ397TypeMessagerieMs](ValueSet-jdv-j397-type-messagerie-ms.md) | Type de messagerie électronique utilisée par le médico-social. | 05/05/2026 |
@@ -68,6 +69,8 @@ Vous touverez ici la liste des JDV du NOS.
 | [JdvJ409EsmsEnfantSafepMs](ValueSet-jdv-j409-esms-enfant-safep-ms.md) | Orientation vers un Service d'accompagnement familial et d'éducation précoce (SAFEP). | 05/05/2026 |
 | [JdvJ410EsmsAdulteNonMedicaliseMs](ValueSet-jdv-j410-esms-adulte-non-medicalise-ms.md) | Orientation vers un établissement d'accueil non médicalisé. | 05/05/2026 |
 | [JdvJ411EsmsAdulteMedicaliseMs](ValueSet-jdv-j411-esms-adulte-medicalise-ms.md) | Orientation vers un établissement d'accueil médicalisé en tout ou partie. | 05/05/2026 |
+| [JdvJ412OrientationScolaireAdapteMs](ValueSet-jdv-j412-orientation-scolaire-adapte-ms.md) | Orientation en Enseignement adapté (SEGPA/EREA). | 05/05/2026 |
+| [JdvJ413OrientationScolaireUeMs](ValueSet-jdv-j413-orientation-scolaire-ue-ms.md) | Orientation en Unité d'enseignement. | 05/05/2026 |
 | [JdvJ414TypeAdresseMs](ValueSet-jdv-j414-type-adresse-ms.md) | Type d'adresse postale. | 05/05/2026 |
 | [JdvJ415CategoriePermisConduireMs](ValueSet-jdv-j415-categorie-permis-conduire-ms.md) | Catégorie de permis de conduire en France. | 05/05/2026 |
 | [JdvJ416TypePermisConduireMs](ValueSet-jdv-j416-type-permis-conduire-ms.md) | Type de permis de conduire en France. | 05/05/2026 |

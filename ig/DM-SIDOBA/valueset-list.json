@@ -5916,6 +5916,17 @@
     "sources" : ["1.2.250.1.213.3.4.233"]
   },
   {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j394-type-demande-compensation-ms",
+    "version" : "20260505120000",
+    "status" : "draft",
+    "name" : "JdvJ394TypeDemandeCompensationMs",
+    "title" : "Jdv J394 Type Demande Compensation Ms",
+    "description" : "Type demande de compensation adressée à la CDAPH.",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r417-type-demande-compensation"],
+    "oids" : ["1.2.250.1.213.3.4.234"],
+    "sources" : ["1.2.250.1.213.3.4.234"]
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j395-nature-demande-compensation-ms",
     "version" : "20260505120000",
     "status" : "draft",
@@ -6081,7 +6092,7 @@
     "sources" : ["1.2.250.1.213.3.4.250"]
   },
   {
-    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j411-esms-adulte--medicalise-ms",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j411-esms-adulte-medicalise-ms",
     "version" : "20260505120000",
     "status" : "draft",
     "name" : "JdvJ411EsmsAdulteMedicaliseMs",
@@ -6090,6 +6101,28 @@
     "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"],
     "oids" : ["1.2.250.1.213.3.4.251"],
     "sources" : ["1.2.250.1.213.3.4.251"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j412-orientation-scolaire-adapte-ms",
+    "version" : "20260505120000",
+    "status" : "draft",
+    "name" : "JdvJ412OrientationScolaireAdapteMs",
+    "title" : "Jdv J412 Orientation Scolaire Adapte Ms",
+    "description" : "Orientation en Enseignement adapté (SEGPA/EREA).",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise"],
+    "oids" : ["1.2.250.1.213.3.4.252"],
+    "sources" : ["1.2.250.1.213.3.4.252"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j413-orientation-scolaire-ue-ms",
+    "version" : "20260505120000",
+    "status" : "draft",
+    "name" : "JdvJ413OrientationScolaireUeMs",
+    "title" : "Jdv J413 Orientation Scolaire Ue Ms",
+    "description" : "Orientation en Unité d'enseignement.",
+    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention"],
+    "oids" : ["1.2.250.1.213.3.4.253"],
+    "sources" : ["1.2.250.1.213.3.4.253"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j414-type-adresse-ms",

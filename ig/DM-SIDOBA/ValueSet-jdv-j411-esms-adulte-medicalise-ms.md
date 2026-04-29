@@ -8,7 +8,7 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j411-esms-adulte--medicalise-ms | *Version*:20260505120000 | |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j411-esms-adulte-medicalise-ms | *Version*:20260505120000 | |
 | Draft as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ411EsmsAdulteMedicaliseMs |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.251 | | |
 
@@ -65,7 +65,7 @@ Requête sur le SMT
       "start" : "2026-05-05T12:00:00+01:00"
     }
   }],
-  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j411-esms-adulte--medicalise-ms",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j411-esms-adulte-medicalise-ms",
   "identifier" : [{
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.251"

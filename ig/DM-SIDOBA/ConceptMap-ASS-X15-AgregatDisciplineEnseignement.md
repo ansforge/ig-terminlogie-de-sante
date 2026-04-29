@@ -36,7 +36,7 @@ Pour cette association, seuls les fichiers sont disponibles :
   "title" : "ASS_X15_AgregatDisciplineEnseignement",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-29T08:07:00+00:00",
+  "date" : "2026-04-29T10:02:59+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",

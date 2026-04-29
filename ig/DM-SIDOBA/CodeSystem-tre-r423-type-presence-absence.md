@@ -1,10 +1,10 @@
-# TreR423TypePresenceAbsence - Terminologies de Santé v1.8.0
+# Tre R423 Type Presence Absence - Terminologies de Santé v1.8.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
-* **TreR423TypePresenceAbsence**
+* **Tre R423 Type Presence Absence**
 
-## CodeSystem: TreR423TypePresenceAbsence 
+## CodeSystem: Tre R423 Type Presence Absence 
 
 | | | |
 | :--- | :--- | :--- |
@@ -45,7 +45,7 @@ Déclaration du type de présence absence de l’usager lors d’un événement 
   }],
   "version" : "20260505120000",
   "name" : "TreR423TypePresenceAbsence",
-  "title" : "TreR423TypePresenceAbsence",
+  "title" : "Tre R423 Type Presence Absence",
   "status" : "draft",
   "experimental" : false,
   "date" : "2026-05-05T12:00:00.000+00:00",

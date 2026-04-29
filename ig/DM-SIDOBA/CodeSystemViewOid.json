@@ -265,7 +265,7 @@
 {
   "id" : "tre-r423-type-presence-absence",
   "name" : "TreR423TypePresenceAbsence",
-  "title" : "TreR423TypePresenceAbsence",
+  "title" : "Tre R423 Type Presence Absence",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r423-type-presence-absence",
   "identifier" : "urn:oid:1.2.250.1.213.3.3.274",
   "status" : "draft"

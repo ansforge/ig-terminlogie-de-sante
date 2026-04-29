@@ -7141,6 +7141,14 @@
   "oids" : ["1.2.250.1.213.3.4.233"]
 },
 {
+  "id" : "jdv-j394-type-demande-compensation-ms",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j394-type-demande-compensation-ms",
+  "version" : "20260505120000",
+  "name" : "JdvJ394TypeDemandeCompensationMs",
+  "oids" : ["1.2.250.1.213.3.4.234"]
+},
+{
   "id" : "jdv-j395-nature-demande-compensation-ms",
   "type" : "ValueSet",
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j395-nature-demande-compensation-ms",
@@ -7263,10 +7271,26 @@
 {
   "id" : "jdv-j411-esms-adulte-medicalise-ms",
   "type" : "ValueSet",
-  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j411-esms-adulte--medicalise-ms",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j411-esms-adulte-medicalise-ms",
   "version" : "20260505120000",
   "name" : "JdvJ411EsmsAdulteMedicaliseMs",
   "oids" : ["1.2.250.1.213.3.4.251"]
+},
+{
+  "id" : "jdv-j412-orientation-scolaire-adapte-ms",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j412-orientation-scolaire-adapte-ms",
+  "version" : "20260505120000",
+  "name" : "JdvJ412OrientationScolaireAdapteMs",
+  "oids" : ["1.2.250.1.213.3.4.252"]
+},
+{
+  "id" : "jdv-j413-orientation-scolaire-ue-ms",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j413-orientation-scolaire-ue-ms",
+  "version" : "20260505120000",
+  "name" : "JdvJ413OrientationScolaireUeMs",
+  "oids" : ["1.2.250.1.213.3.4.253"]
 },
 {
   "id" : "jdv-j414-type-adresse-ms",

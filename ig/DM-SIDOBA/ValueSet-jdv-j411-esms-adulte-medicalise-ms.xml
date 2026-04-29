@@ -15,7 +15,7 @@
       <start value="2026-05-05T12:00:00+01:00"/>
     </valuePeriod>
   </extension>
-  <url value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j411-esms-adulte--medicalise-ms"/>
+  <url value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j411-esms-adulte-medicalise-ms"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:1.2.250.1.213.3.4.251"/>

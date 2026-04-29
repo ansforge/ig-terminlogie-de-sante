@@ -3015,7 +3015,7 @@
     "version" : "20260505120000",
     "status" : "draft",
     "name" : "TreR423TypePresenceAbsence",
-    "title" : "TreR423TypePresenceAbsence",
+    "title" : "Tre R423 Type Presence Absence",
     "description" : "Déclaration du type de présence absence de l'usager lors d'un événement organisé par sa structure de rattachement.",
     "oids" : ["1.2.250.1.213.3.3.274"]
   },

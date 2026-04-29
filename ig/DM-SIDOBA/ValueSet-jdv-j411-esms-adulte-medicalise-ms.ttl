@@ -32,8 +32,8 @@
      ]
   ] ) ; # 
   fhir:url [
-     fhir:v "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j411-esms-adulte--medicalise-ms"^^xsd:anyURI ;
-     fhir:l <https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j411-esms-adulte--medicalise-ms>
+     fhir:v "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j411-esms-adulte-medicalise-ms"^^xsd:anyURI ;
+     fhir:l <https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j411-esms-adulte-medicalise-ms>
   ] ; # 
   fhir:identifier ( [
      fhir:system [

@@ -98,7 +98,7 @@ Catégorie de permis de conduire.
   }],
   "concept" : [{
     "code" : "AM",
-    "display" : "AM",
+    "display" : "Permis cyclomoteur",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-05-05T12:00:00+01:00"
@@ -114,7 +114,7 @@ Catégorie de permis de conduire.
   },
   {
     "code" : "B",
-    "display" : "B",
+    "display" : "Permis auto",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-05-05T12:00:00+01:00"
@@ -130,7 +130,7 @@ Catégorie de permis de conduire.
   },
   {
     "code" : "A",
-    "display" : "A",
+    "display" : "Permis moto",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-05-05T12:00:00+01:00"
@@ -146,7 +146,7 @@ Catégorie de permis de conduire.
   },
   {
     "code" : "CD",
-    "display" : "C et D",
+    "display" : "Permis professionnels",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-05-05T12:00:00+01:00"
@@ -162,7 +162,7 @@ Catégorie de permis de conduire.
   },
   {
     "code" : "E",
-    "display" : "E",
+    "display" : "Permis remorque",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-05-05T12:00:00+01:00"
