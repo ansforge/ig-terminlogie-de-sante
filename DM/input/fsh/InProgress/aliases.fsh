@@ -16,6 +16,7 @@ Alias: $tre-r370-role-relation-ege = https://smt.esante.gouv.fr/fhir/CodeSystem/
 Alias: $tre-r371-type-groupe-gcc = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r371-type-groupe-gcc
 Alias: $tre-r372-type-groupe-gco = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r372-type-groupe-gco
 Alias: $tre-r374-nature-activite-smsse-regulee = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee
+Alias: $tre-r373-type-personne-morale = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r373-type-personne-morale
 Alias: $tre-r375-mode-financement = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r375-mode-financement
 Alias: $tre-r381-activite-amm = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm
 Alias: $tre-r382-modalite-act-de-soin-amm = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r382-modalite-act-de-soin-amm
