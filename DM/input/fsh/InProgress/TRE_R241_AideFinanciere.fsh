@@ -4,6 +4,7 @@ Description: "Habilit. de l'EG permettant aux pers. accueillies d'avoir des aide
 * ^meta.versionId = "5"
 * ^meta.lastUpdated = "2025-07-02T18:16:25.441+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2017-10-13T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R241-AideFinanciere/FHIR/TRE-R241-AideFinanciere"
