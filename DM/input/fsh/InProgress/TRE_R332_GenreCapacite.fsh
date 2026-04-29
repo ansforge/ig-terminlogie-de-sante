@@ -4,6 +4,7 @@ Description: "Permet d'indiquer le genre des patients qui peuvent Ãªtre installÃ
 * ^meta.versionId = "8"
 * ^meta.lastUpdated = "2025-10-02T20:13:50.824+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2022-05-27T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R332-GenreCapacite/FHIR/TRE-R332-GenreCapacite"
