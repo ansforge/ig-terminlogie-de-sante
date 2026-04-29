@@ -1,7 +1,7 @@
 ValueSet: JdvJ411EsmsAdulteMedicaliseMs
 Id: jdv-j411-esms-adulte-medicalise-ms
 Title: "Jdv J411 Esms Adulte Medicalise Ms"
-Description: "Orientation vers un établissement d'accueil  médicalisé."
+Description: "Orientation vers un établissement d'accueil médicalisé en tout ou partie."
 * ^meta.versionId = "1"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
