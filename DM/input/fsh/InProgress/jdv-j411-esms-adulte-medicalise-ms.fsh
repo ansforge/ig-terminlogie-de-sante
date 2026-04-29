@@ -7,7 +7,7 @@ Description: "Orientation vers un établissement d'accueil médicalisé en tout 
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2026-05-05T12:00:00+01:00"
-* ^url = "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j411-esms-adulte--medicalise-ms"
+* ^url = "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j411-esms-adulte-medicalise-ms"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.4.251"
 * ^version = "20260505120000"
