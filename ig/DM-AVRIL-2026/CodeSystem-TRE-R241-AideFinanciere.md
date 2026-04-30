@@ -33,6 +33,7 @@ Habilit. de l’EG permettant aux pers. accueillies d’avoir des aides financi�
     "lastUpdated" : "2025-07-02T18:16:25.441+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
+  "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {

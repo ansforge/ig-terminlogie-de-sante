@@ -785,10 +785,10 @@
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R329-NatureCapacite/FHIR/TRE-R329-NatureCapacite",
   "identifier" : "urn:oid:1.2.250.1.213.3.3.212",
   "status" : "active",
-  "codeProperty" : "natureCapaciteFiness",
-  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#natureCapaciteFiness",
+  "codeProperty" : "finess",
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#finess",
   "typeProperty" : "boolean",
-  "descriptionProperty" : "Permet de définir les codes à inclure dans le JdvJ352NatureCapaciteFiness"
+  "descriptionProperty" : "Permet de définir les codes à inclure dans le JdvJ352finess"
 },
 {
   "id" : "TRE-R330-TypeStatutCapacite",

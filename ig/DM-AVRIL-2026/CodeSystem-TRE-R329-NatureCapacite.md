@@ -98,9 +98,9 @@ Permet d’indiquer si la capacité est exprimée en lits ou en places
     "type" : "dateTime"
   },
   {
-    "code" : "natureCapaciteFiness",
-    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#natureCapaciteFiness",
-    "description" : "Permet de définir les codes à inclure dans le JdvJ352NatureCapaciteFiness",
+    "code" : "finess",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#finess",
+    "description" : "Permet de définir les codes à inclure dans le JdvJ352finess",
     "type" : "boolean"
   }],
   "concept" : [{
@@ -135,7 +135,7 @@ Permet d’indiquer si la capacité est exprimée en lits ou en places
       "valueCode" : "active"
     },
     {
-      "code" : "natureCapaciteFiness",
+      "code" : "finess",
       "valueBoolean" : true
     }]
   },
@@ -155,7 +155,7 @@ Permet d’indiquer si la capacité est exprimée en lits ou en places
       "valueCode" : "active"
     },
     {
-      "code" : "natureCapaciteFiness",
+      "code" : "finess",
       "valueBoolean" : true
     }]
   }]

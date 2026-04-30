@@ -89,7 +89,7 @@ Requête sur le SMT
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R329-NatureCapacite/FHIR/TRE-R329-NatureCapacite",
       "filter" : [{
-        "property" : "natureCapaciteFiness",
+        "property" : "finess",
         "op" : "=",
         "value" : "true"
       }]

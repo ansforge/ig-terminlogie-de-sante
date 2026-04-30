@@ -1844,7 +1844,7 @@
   "id" : "JDV-J258-Departement",
   "type" : "ValueSet",
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J258-Departement/FHIR/JDV-J258-Departement",
-  "version" : "20260505120000",
+  "version" : "20240628120000",
   "name" : "JDV_J258_Departement",
   "oids" : ["1.2.250.1.213.1.1.5.764"]
 },

@@ -33,6 +33,7 @@ Permet d’indiquer le genre des patients qui peuvent être installés dans des 
     "lastUpdated" : "2025-10-02T20:13:50.824+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
+  "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {

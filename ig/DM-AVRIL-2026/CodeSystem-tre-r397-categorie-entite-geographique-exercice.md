@@ -9859,7 +9859,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
   {
     "code" : "236",
     "display" : "Service de placement familial",
-    "definition" : "Le placement familial est, au sens strict du terme, un dispositif qui permet de prendre en charge un enfant dans une autre famille que la sienne, afin de résoudre une situation de danger le concernant .Suite à une réunion avec l'ASE (DGCS), il a été décidé que le changement de nom de la catégorie Centre Placement Familial Socio-Educatif (C.P.F.S.E.)  en « Service de placement familial» (catégorie 236).",
+    "definition" : "Le placement familial est, au sens strict du terme, un dispositif qui permet de prendre en charge un enfant dans une autre famille que la sienne, afin de résoudre une situation de danger le concernant. Remarque : Suite à une réunion avec l'ASE (DGCS), il a été décidé que le changement de nom de la catégorie Centre Placement Familial Socio-Educatif (C.P.F.S.E.)  en « Service de placement familial» (catégorie 236).",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
