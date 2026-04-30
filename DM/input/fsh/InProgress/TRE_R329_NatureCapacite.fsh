@@ -41,9 +41,9 @@ Description: "Permet d'indiquer si la capacité est exprimée en lits ou en plac
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
 * ^property[=].description = "Date Concept was retired"
 * ^property[=].type = #dateTime
-* ^property[+].code = #natureCapaciteFiness
-* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#natureCapaciteFiness"
-* ^property[=].description = "Permet de définir les codes à inclure dans le JdvJ352NatureCapaciteFiness"
+* ^property[+].code = #finess
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#finess"
+* ^property[=].description = "Permet de définir les codes à inclure dans le JdvJ352finess"
 * ^property[=].type = #boolean
 * #01 "Lit"
 * #01 ^property[0].code = #dateValid
@@ -59,7 +59,7 @@ Description: "Permet d'indiquer si la capacité est exprimée en lits ou en plac
 * #02 ^property[=].valueDateTime = "2022-05-27T12:00:00+01:00"
 * #02 ^property[+].code = #status
 * #02 ^property[=].valueCode = #active
-* #02 ^property[+].code = #natureCapaciteFiness
+* #02 ^property[+].code = #finess
 * #02 ^property[=].valueBoolean = true
 * #03 "Logement"
 * #03 ^property[0].code = #dateValid
@@ -68,5 +68,5 @@ Description: "Permet d'indiquer si la capacité est exprimée en lits ou en plac
 * #03 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
 * #03 ^property[+].code = #status
 * #03 ^property[=].valueCode = #active
-* #03 ^property[+].code = #natureCapaciteFiness
+* #03 ^property[+].code = #finess
 * #03 ^property[=].valueBoolean = true
