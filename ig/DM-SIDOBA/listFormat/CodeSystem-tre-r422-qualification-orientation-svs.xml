@@ -27,7 +27,7 @@
                   displayName="Alternative"
                   longDesignation="Alternative"
                   shortDesignation="Alternative"
-                  descriptionMetier="L'orientation alternative est partiellement adaptée au regard des attentes et des besoins évalués de la personne. Elle prend bien en compte la réalité de l'offre disponible. Elle a ainsi plus de chance d'être mise en œuvre.&#xA;L'orientation alternative est aussi appelée &#34;Orientation par défaut&#34;. "/>
+                  descriptionMetier="L'orientation alternative est partiellement adaptée au regard des attentes et des besoins évalués de la personne. Elle prend bien en compte la réalité de l'offre disponible. Elle a ainsi plus de chance d'être mise en œuvre.&#xA;L'orientation alternative est aussi appelée &#34;Orientation par défaut&#34;."/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

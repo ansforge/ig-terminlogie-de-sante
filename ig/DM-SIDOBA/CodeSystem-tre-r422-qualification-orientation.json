@@ -94,7 +94,7 @@
   {
     "code" : "2",
     "display" : "Alternative",
-    "definition" : "L'orientation alternative est partiellement adaptée au regard des attentes et des besoins évalués de la personne. Elle prend bien en compte la réalité de l'offre disponible. Elle a ainsi plus de chance d'être mise en œuvre.\nL'orientation alternative est aussi appelée \"Orientation par défaut\". ",
+    "definition" : "L'orientation alternative est partiellement adaptée au regard des attentes et des besoins évalués de la personne. Elle prend bien en compte la réalité de l'offre disponible. Elle a ainsi plus de chance d'être mise en œuvre.\nL'orientation alternative est aussi appelée \"Orientation par défaut\".",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-05-05T12:00:00+01:00"

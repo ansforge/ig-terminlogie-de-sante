@@ -137,7 +137,7 @@
   ] [
      fhir:code [ fhir:v "2" ] ;
      fhir:display [ fhir:v "Alternative" ] ;
-     fhir:definition [ fhir:v "L'orientation alternative est partiellement adaptée au regard des attentes et des besoins évalués de la personne. Elle prend bien en compte la réalité de l'offre disponible. Elle a ainsi plus de chance d'être mise en œuvre.\nL'orientation alternative est aussi appelée \"Orientation par défaut\". " ] ;
+     fhir:definition [ fhir:v "L'orientation alternative est partiellement adaptée au regard des attentes et des besoins évalués de la personne. Elle prend bien en compte la réalité de l'offre disponible. Elle a ainsi plus de chance d'être mise en œuvre.\nL'orientation alternative est aussi appelée \"Orientation par défaut\"." ] ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [

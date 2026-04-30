@@ -36,7 +36,7 @@
                   displayName="AVA (Assurance vieillesse des aidants)"
                   longDesignation="AVA (Assurance vieillesse des aidants)"
                   shortDesignation="AVA (Assurance vieillesse des aidants)"
-                  descriptionMetier="une affiliation gratuite à l'assurance vieillesse des aidants (AVA)"/>
+                  descriptionMetier="Une affiliation gratuite à l'assurance vieillesse des aidants (AVA)"/>
          <Concept code="4"
                   codeSystem="1.2.250.1.213.3.3.271"
                   dateFin=""
@@ -45,7 +45,7 @@
                   displayName="Carte mobilité inclusion"
                   longDesignation="Carte mobilité inclusion"
                   shortDesignation="Carte mobilité inclusion"
-                  descriptionMetier="une carte mobilité inclusion (CMI)"/>
+                  descriptionMetier="Une carte mobilité inclusion (CMI)"/>
          <Concept code="5"
                   codeSystem="1.2.250.1.213.3.3.271"
                   dateFin=""
@@ -54,7 +54,7 @@
                   displayName="PCH"
                   longDesignation="PCH"
                   shortDesignation="PCH"
-                  descriptionMetier="une prestation de compensation du handicap (PCH)"/>
+                  descriptionMetier="Une prestation de compensation du handicap (PCH)"/>
          <Concept code="6"
                   codeSystem="1.2.250.1.213.3.3.271"
                   dateFin=""
@@ -63,7 +63,7 @@
                   displayName="AEEH et son complément"
                   longDesignation="AEEH et son complément"
                   shortDesignation="AEEH et son complément"
-                  descriptionMetier="une allocation d'éducation de l'enfant handicapé (AEEH) et son complément"/>
+                  descriptionMetier="Une allocation d'éducation de l'enfant handicapé (AEEH) et son complément"/>
          <Concept code="7"
                   codeSystem="1.2.250.1.213.3.3.271"
                   dateFin=""
@@ -72,7 +72,7 @@
                   displayName="Orientation ESMS Enfants"
                   longDesignation="Orientation ESMS Enfants"
                   shortDesignation="Orientation ESMS Enfants"
-                  descriptionMetier="une orientation vers un établissement ou service médico-social Enfants"/>
+                  descriptionMetier="Une orientation vers un établissement ou service médico-social Enfants"/>
          <Concept code="8"
                   codeSystem="1.2.250.1.213.3.3.271"
                   dateFin=""
@@ -81,7 +81,7 @@
                   displayName="Orientation scolaire"
                   longDesignation="Orientation scolaire"
                   shortDesignation="Orientation scolaire"
-                  descriptionMetier="une orientation scolaire"/>
+                  descriptionMetier="Une orientation scolaire"/>
          <Concept code="9"
                   codeSystem="1.2.250.1.213.3.3.271"
                   dateFin=""
@@ -108,7 +108,7 @@
                   displayName="Formation et insertion professionnelle"
                   longDesignation="Formation et insertion professionnelle"
                   shortDesignation="Formation et insertion professionnelle"
-                  descriptionMetier="une formation ou une insertion professionnelle"/>
+                  descriptionMetier="Une formation ou une insertion professionnelle"/>
          <Concept code="12"
                   codeSystem="1.2.250.1.213.3.3.271"
                   dateFin=""
@@ -126,7 +126,7 @@
                   displayName="Orientation ESMS Adultes"
                   longDesignation="Orientation ESMS Adultes"
                   shortDesignation="Orientation ESMS Adultes"
-                  descriptionMetier="une orientation vers un établissement ou service médico-social Adultes"/>
+                  descriptionMetier="Une orientation vers un établissement ou service médico-social Adultes"/>
          <Concept code="14"
                   codeSystem="1.2.250.1.213.3.3.271"
                   dateFin=""

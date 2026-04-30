@@ -155,7 +155,7 @@ Catégorie et type de droit et prestation caractérisant la décision d’orient
   {
     "code" : "3",
     "display" : "AVA (Assurance vieillesse des aidants)",
-    "definition" : "une affiliation gratuite à l'assurance vieillesse des aidants (AVA)",
+    "definition" : "Une affiliation gratuite à l'assurance vieillesse des aidants (AVA)",
     "property" : [{
       "code" : "niveau",
       "valueInteger" : 1
@@ -176,7 +176,7 @@ Catégorie et type de droit et prestation caractérisant la décision d’orient
   {
     "code" : "4",
     "display" : "Carte mobilité inclusion",
-    "definition" : "une carte mobilité inclusion (CMI)",
+    "definition" : "Une carte mobilité inclusion (CMI)",
     "property" : [{
       "code" : "niveau",
       "valueInteger" : 1
@@ -197,7 +197,7 @@ Catégorie et type de droit et prestation caractérisant la décision d’orient
   {
     "code" : "5",
     "display" : "PCH",
-    "definition" : "une prestation de compensation du handicap (PCH)",
+    "definition" : "Une prestation de compensation du handicap (PCH)",
     "property" : [{
       "code" : "niveau",
       "valueInteger" : 1
@@ -218,7 +218,7 @@ Catégorie et type de droit et prestation caractérisant la décision d’orient
   {
     "code" : "6",
     "display" : "AEEH et son complément",
-    "definition" : "une allocation d'éducation de l'enfant handicapé (AEEH) et son complément",
+    "definition" : "Une allocation d'éducation de l'enfant handicapé (AEEH) et son complément",
     "property" : [{
       "code" : "niveau",
       "valueInteger" : 1
@@ -239,7 +239,7 @@ Catégorie et type de droit et prestation caractérisant la décision d’orient
   {
     "code" : "7",
     "display" : "Orientation ESMS Enfants",
-    "definition" : "une orientation vers un établissement ou service médico-social Enfants",
+    "definition" : "Une orientation vers un établissement ou service médico-social Enfants",
     "property" : [{
       "code" : "niveau",
       "valueInteger" : 1
@@ -260,7 +260,7 @@ Catégorie et type de droit et prestation caractérisant la décision d’orient
   {
     "code" : "8",
     "display" : "Orientation scolaire",
-    "definition" : "une orientation scolaire",
+    "definition" : "Une orientation scolaire",
     "property" : [{
       "code" : "niveau",
       "valueInteger" : 1
@@ -321,7 +321,7 @@ Catégorie et type de droit et prestation caractérisant la décision d’orient
   {
     "code" : "11",
     "display" : "Formation et insertion professionnelle",
-    "definition" : "une formation ou une insertion professionnelle",
+    "definition" : "Une formation ou une insertion professionnelle",
     "property" : [{
       "code" : "niveau",
       "valueInteger" : 1
@@ -362,7 +362,7 @@ Catégorie et type de droit et prestation caractérisant la décision d’orient
   {
     "code" : "13",
     "display" : "Orientation ESMS Adultes",
-    "definition" : "une orientation vers un établissement ou service médico-social Adultes",
+    "definition" : "Une orientation vers un établissement ou service médico-social Adultes",
     "property" : [{
       "code" : "niveau",
       "valueInteger" : 1
