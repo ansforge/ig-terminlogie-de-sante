@@ -69,7 +69,7 @@ Description: " Catégorie et type de droit et prestation caractérisant la déci
 * #2 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #2 ^property[+].code = #status
 * #2 ^property[=].valueCode = #active
-* #3 "AVA (Assurance vieillesse des aidants)" "une affiliation gratuite à l'assurance vieillesse des aidants (AVA)"
+* #3 "AVA (Assurance vieillesse des aidants)" "Une affiliation gratuite à l'assurance vieillesse des aidants (AVA)"
 * #3 ^property[0].code = #niveau
 * #3 ^property[=].valueInteger =  1
 * #3 ^property[+].code = #dateValid
@@ -78,7 +78,7 @@ Description: " Catégorie et type de droit et prestation caractérisant la déci
 * #3 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #3 ^property[+].code = #status
 * #3 ^property[=].valueCode = #active
-* #4 "Carte mobilité inclusion" "une carte mobilité inclusion (CMI)"
+* #4 "Carte mobilité inclusion" "Une carte mobilité inclusion (CMI)"
 * #4 ^property[0].code = #niveau
 * #4 ^property[=].valueInteger =  1
 * #4 ^property[+].code = #dateValid
@@ -87,7 +87,7 @@ Description: " Catégorie et type de droit et prestation caractérisant la déci
 * #4 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #4 ^property[+].code = #status
 * #4 ^property[=].valueCode = #active
-* #5 "PCH" "une prestation de compensation du handicap (PCH)"
+* #5 "PCH" "Une prestation de compensation du handicap (PCH)"
 * #5 ^property[0].code = #niveau
 * #5 ^property[=].valueInteger =  1
 * #5 ^property[+].code = #dateValid
@@ -96,7 +96,7 @@ Description: " Catégorie et type de droit et prestation caractérisant la déci
 * #5 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #5 ^property[+].code = #status
 * #5 ^property[=].valueCode = #active
-* #6 "AEEH et son complément" "une allocation d'éducation de l'enfant handicapé (AEEH) et son complément"
+* #6 "AEEH et son complément" "Une allocation d'éducation de l'enfant handicapé (AEEH) et son complément"
 * #6 ^property[0].code = #niveau
 * #6 ^property[=].valueInteger =  1
 * #6 ^property[+].code = #dateValid
@@ -105,7 +105,7 @@ Description: " Catégorie et type de droit et prestation caractérisant la déci
 * #6 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #6 ^property[+].code = #status
 * #6 ^property[=].valueCode = #active
-* #7 "Orientation ESMS Enfants" "une orientation vers un établissement ou service médico-social Enfants"
+* #7 "Orientation ESMS Enfants" "Une orientation vers un établissement ou service médico-social Enfants"
 * #7 ^property[0].code = #niveau
 * #7 ^property[=].valueInteger =  1
 * #7 ^property[+].code = #dateValid
@@ -114,7 +114,7 @@ Description: " Catégorie et type de droit et prestation caractérisant la déci
 * #7 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #7 ^property[+].code = #status
 * #7 ^property[=].valueCode = #active
-* #8 "Orientation scolaire" "une orientation scolaire"
+* #8 "Orientation scolaire" "Une orientation scolaire"
 * #8 ^property[0].code = #niveau
 * #8 ^property[=].valueInteger =  1
 * #8 ^property[+].code = #dateValid
@@ -141,7 +141,7 @@ Description: " Catégorie et type de droit et prestation caractérisant la déci
 * #10 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #10 ^property[+].code = #status
 * #10 ^property[=].valueCode = #active
-* #11 "Formation et insertion professionnelle" "une formation ou une insertion professionnelle"
+* #11 "Formation et insertion professionnelle" "Une formation ou une insertion professionnelle"
 * #11 ^property[0].code = #niveau
 * #11 ^property[=].valueInteger =  1
 * #11 ^property[+].code = #dateValid
@@ -159,7 +159,7 @@ Description: " Catégorie et type de droit et prestation caractérisant la déci
 * #12 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #12 ^property[+].code = #status
 * #12 ^property[=].valueCode = #active
-* #13 "Orientation ESMS Adultes" "une orientation vers un établissement ou service médico-social Adultes"
+* #13 "Orientation ESMS Adultes" "Une orientation vers un établissement ou service médico-social Adultes"
 * #13 ^property[0].code = #niveau
 * #13 ^property[=].valueInteger =  1
 * #13 ^property[+].code = #dateValid
