@@ -67,9 +67,6 @@
          <Concept code="156"
                   codeSystem="1.2.250.1.213.1.6.1.8"
                   displayName="Centre médico-psychologique (CMP)"/>
-         <Concept code="159"
-                  codeSystem="1.2.250.1.213.1.6.1.8"
-                  displayName="Centre Parental"/>
          <Concept code="161"
                   codeSystem="1.2.250.1.213.1.6.1.8"
                   displayName="Maison de santé pour maladies mentales"/>

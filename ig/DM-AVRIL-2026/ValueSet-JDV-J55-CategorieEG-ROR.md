@@ -164,10 +164,6 @@ Requête sur le SMT
         "display" : "Centre médico-psychologique (CMP)"
       },
       {
-        "code" : "159",
-        "display" : "Centre Parental"
-      },
-      {
         "code" : "161",
         "display" : "Maison de santé pour maladies mentales"
       },

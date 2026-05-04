@@ -370,6 +370,18 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | TreR409TypeDureeInterruptionExercice | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee | 1.2.250.1.213.1.6.1.396 |
 | TreR410PerimetreInterruptionExercice | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee | 1.2.250.1.213.1.6.1.397 |
 | TreR411SexeInsee | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r411-sexe-insee | 1.2.250.1.213.2.82 |
+| TreR415UtilisationCanalCommunication | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r415-utilisation-canal-communication | 1.2.250.1.213.3.3.266 |
+| TreR416TypeCourrier | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r416-type-courrier | 1.2.250.1.213.3.3.267 |
+| TreR417TypeDemandeCompensation | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r417-type-demande-compensation | 1.2.250.1.213.3.3.268 |
+| TreR418NatureDemandeCompensation | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r418-nature-demande-compensation | 1.2.250.1.213.3.3.269 |
+| TreR420DroitPrestation | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation | 1.2.250.1.213.3.3.271 |
+| TreR421MotifFinPag | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag | 1.2.250.1.213.3.3.272 |
+| TreR422QualificationOrientation | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r422-qualification-orientation | 1.2.250.1.213.3.3.273 |
+| TreR423TypePresenceAbsence | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r423-type-presence-absence | 1.2.250.1.213.3.3.274 |
+| TreR424MotifAbsence | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r424-motif-absence | 1.2.250.1.213.3.3.275 |
+| TreR425TypeRepas | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r425-type-repas | 1.2.250.1.213.3.3.276 |
+| TreR426Orientation | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation | 1.2.250.1.213.3.3.277 |
+| TreR427TypeAdresse | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r427-type-adresse | 1.2.250.1.213.3.3.278 |
 | UCUM | http://unitsofmeasure.org | 2.16.840.1.113883.6.8 |
 | V3SpecimenTypeSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/v3-SpecimenType-supplement-fr |  |
 

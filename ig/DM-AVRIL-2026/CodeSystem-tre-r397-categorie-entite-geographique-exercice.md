@@ -6491,20 +6491,20 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
       "valueDateTime" : "2020-06-26T12:00:00+01:00"
     },
     {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-05-05T00:00:00+01:00"
+    },
+    {
       "code" : "dateMaj",
-      "valueDateTime" : "2020-06-26T12:00:00+01:00"
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-05-05T00:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "ror",
-      "valueBoolean" : true
+      "valueCode" : "deprecated"
     },
     {
       "code" : "cisis",
@@ -6889,7 +6889,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-02-23T00:00:00+01:00"
+      "valueDateTime" : "2026-05-05T00:00:00+01:00"
     },
     {
       "code" : "status",
