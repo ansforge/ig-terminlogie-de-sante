@@ -35,7 +35,6 @@ Description: "Catégories d'établissements FINESS ou hors FINESS et secteurs d'
 * $TRE-R66-CategorieEtablissement#143 "Centre de vaccination BCG"
 * $TRE-R66-CategorieEtablissement#146 "Structure d'alternative à la dialyse en centre"
 * $TRE-R66-CategorieEtablissement#156 "Centre médico-psychologique (CMP)"
-* $TRE-R66-CategorieEtablissement#159 "Centre Parental"
 * $TRE-R66-CategorieEtablissement#161 "Maison de santé pour maladies mentales"
 * $TRE-R66-CategorieEtablissement#165 "Appartement de coordination thérapeutique (ACT)"
 * $TRE-R66-CategorieEtablissement#166 "Centre Parents-Enfants de moins de 3 ans"

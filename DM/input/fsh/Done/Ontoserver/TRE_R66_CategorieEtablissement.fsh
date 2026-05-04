@@ -495,10 +495,14 @@ Description: "Catégorie d'établissements"
 * #159 "Centre Parental"
 * #159 ^property[0].code = #dateValid
 * #159 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #159 ^property[+].code = #dateFin
+* #159 ^property[=].valueDateTime = "2016-05-05T00:00:00+01:00"
 * #159 ^property[+].code = #dateMaj
-* #159 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #159 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
+* #159 ^property[+].code = #deprecationDate
+* #159 ^property[=].valueDateTime = "2026-05-05T00:00:00+01:00"
 * #159 ^property[+].code = #status
-* #159 ^property[=].valueCode = #active
+* #159 ^property[=].valueCode = #deprecated
 * #160 "Centre de Soins Spécifiques pour Toxicomanes (C.S.S.T.)"
 * #160 ^designation[0].language = #fr-FR
 * #160 ^designation[=].use.system = "http://snomed.info/sct"
@@ -609,7 +613,7 @@ Description: "Catégorie d'établissements"
 * #166 ^property[0].code = #dateValid
 * #166 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #166 ^property[+].code = #dateMaj
-* #166 ^property[=].valueDateTime = "2026-02-23T00:00:00+01:00"
+* #166 ^property[=].valueDateTime = "2026-05-05T00:00:00+01:00"
 * #166 ^property[+].code = #status
 * #166 ^property[=].valueCode = #active
 * #167 "Crèche Collective"
