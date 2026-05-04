@@ -9,49 +9,6 @@
              id="1.2.250.1.213.3.4.241"
              typeFichier="JDV"
              urlFichier="">
-      <ConceptList>
-         <Concept code="1"
-                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation"
-                  displayName="AAH et CPR"/>
-         <Concept code="2"
-                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation"
-                  displayName="ACFP et ACTP"/>
-         <Concept code="3"
-                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation"
-                  displayName="AVA (Assurance vieillesse des aidants)"/>
-         <Concept code="4"
-                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation"
-                  displayName="Carte mobilité inclusion"/>
-         <Concept code="5"
-                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation"
-                  displayName="PCH"/>
-         <Concept code="6"
-                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation"
-                  displayName="AEEH et son complément"/>
-         <Concept code="7"
-                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation"
-                  displayName="Orientation ESMS Enfants"/>
-         <Concept code="8"
-                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation"
-                  displayName="Orientation scolaire"/>
-         <Concept code="9"
-                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation"
-                  displayName="Matériel pédagogique adapté"/>
-         <Concept code="10"
-                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation"
-                  displayName="Accompagnant des élèves en situation de handicap (AESH)"/>
-         <Concept code="11"
-                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation"
-                  displayName="Formation et insertion professionnelle"/>
-         <Concept code="12"
-                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation"
-                  displayName="RQTH (Reconnaissance de la qualité de travailleur handicapé)"/>
-         <Concept code="13"
-                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation"
-                  displayName="Orientation ESMS Adultes"/>
-         <Concept code="14"
-                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation"
-                  displayName="Orientation vers un Pôle de compétences et de prestations externalisées (PCPE)"/>
-      </ConceptList>
+      <ConceptList/>
    </ValueSet>
 </RetrieveValueSetResponse>

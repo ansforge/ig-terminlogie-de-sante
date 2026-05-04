@@ -87,61 +87,10 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation",
-      "concept" : [{
-        "code" : "1",
-        "display" : "AAH et CPR"
-      },
-      {
-        "code" : "2",
-        "display" : "ACFP et ACTP"
-      },
-      {
-        "code" : "3",
-        "display" : "AVA (Assurance vieillesse des aidants)"
-      },
-      {
-        "code" : "4",
-        "display" : "Carte mobilité inclusion"
-      },
-      {
-        "code" : "5",
-        "display" : "PCH"
-      },
-      {
-        "code" : "6",
-        "display" : "AEEH et son complément"
-      },
-      {
-        "code" : "7",
-        "display" : "Orientation ESMS Enfants"
-      },
-      {
-        "code" : "8",
-        "display" : "Orientation scolaire"
-      },
-      {
-        "code" : "9",
-        "display" : "Matériel pédagogique adapté"
-      },
-      {
-        "code" : "10",
-        "display" : "Accompagnant des élèves en situation de handicap (AESH)"
-      },
-      {
-        "code" : "11",
-        "display" : "Formation et insertion professionnelle"
-      },
-      {
-        "code" : "12",
-        "display" : "RQTH (Reconnaissance de la qualité de travailleur handicapé)"
-      },
-      {
-        "code" : "13",
-        "display" : "Orientation ESMS Adultes"
-      },
-      {
-        "code" : "14",
-        "display" : "Orientation vers un Pôle de compétences et de prestations externalisées (PCPE)"
+      "filter" : [{
+        "property" : "niveau",
+        "op" : "=",
+        "value" : "1"
       }]
     }]
   }
