@@ -1,4 +1,4 @@
-# TRE_R212_Equipement - Terminologies de Santé v1.8.0
+# TRE_R212_Equipement - Terminologies de Santé v1.9.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -19,6 +19,7 @@ Equipement
 
 * [JDV_J18_EquipementSpecifique_ROR](ValueSet-JDV-J18-EquipementSpecifique-ROR.md)
 * [JDV_J70_Equipement_Santefr](ValueSet-JDV-J70-Equipement-Santefr.md)
+* [JdvJ351AppareilAmmFiness](ValueSet-jdv-j351-appareil-amm-finess.md)
 
 
 

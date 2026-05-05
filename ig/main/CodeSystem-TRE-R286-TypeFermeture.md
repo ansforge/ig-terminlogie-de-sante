@@ -1,4 +1,4 @@
-# TRE_R286_TypeFermeture - Terminologies de Santé v1.8.0
+# TRE_R286_TypeFermeture - Terminologies de Santé v1.9.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture | *Version*:20251016120000 | |
-| Active as of 2025-10-16 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R286_TypeFermeture |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture | *Version*:20260505120000 | |
+| Active as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R286_TypeFermeture |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.136 | | |
 
  
@@ -20,6 +20,8 @@ Type de fermeture, codes provenant du FINESS pour les EJ et EG
 * [JDV_J185_TypeFermeture_ROR](ValueSet-JDV-J185-TypeFermeture-ROR.md)
 * [JDV_J201_TypeFermeture_ROR](ValueSet-JDV-J201-TypeFermeture-ROR.md)
 * [JDV_J260_TypeFermeture_RASS](ValueSet-JDV-J260-TypeFermeture-RASS.md)
+* [JdvJ364TypeFermeturePmFiness](ValueSet-jdv-j364-type-fermeture-pm-finess.md)
+* [JdvJ365TypeFermetureEgeFiness](ValueSet-jdv-j365-type-fermeture-ege-finess.md)
 
 
 
@@ -30,10 +32,11 @@ Type de fermeture, codes provenant du FINESS pour les EJ et EG
   "resourceType" : "CodeSystem",
   "id" : "TRE-R286-TypeFermeture",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2025-10-31T15:01:40.118+01:00",
+    "versionId" : "10",
+    "lastUpdated" : "2026-05-05T09:27:52.098+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
+  "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
@@ -45,11 +48,11 @@ Type de fermeture, codes provenant du FINESS pour les EJ et EG
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.136"
   }],
-  "version" : "20251016120000",
+  "version" : "20260505120000",
   "name" : "TRE_R286_TypeFermeture",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-16T12:00:00+01:00",
+  "date" : "2026-05-05T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Type de fermeture, codes provenant du FINESS pour les EJ et EG",
   "jurisdiction" : [{
@@ -59,56 +62,79 @@ Type de fermeture, codes provenant du FINESS pour les EJ et EG
     }]
   }],
   "caseSensitive" : false,
+  "valueSet" : "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture?vs",
   "content" : "complete",
-  "count" : 7,
+  "count" : 6,
   "property" : [{
     "code" : "dateValid",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
     "description" : "date de validité d'un code concept",
     "type" : "dateTime"
   },
   {
     "code" : "dateMaj",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
     "description" : "Date de mise à jour d'un code concept",
     "type" : "dateTime"
   },
   {
     "code" : "dateFin",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
     "description" : "Date de fin d'exploitation d'un code concept",
-    "type" : "dateTime"
-  },
-  {
-    "code" : "deprecationDate",
-    "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
-    "description" : "Date Concept was deprecated",
     "type" : "dateTime"
   },
   {
     "code" : "status",
     "uri" : "http://hl7.org/fhir/concept-properties#status",
-    "description" : "A property that indicates the status of the concept.",
+    "description" : "Statut d'un code concept",
     "type" : "code"
+  },
+  {
+    "code" : "deprecationDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+    "description" : "Date de dépréciation du code",
+    "type" : "dateTime"
   },
   {
     "code" : "retirementDate",
     "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
-    "description" : "Date Concept was retired",
+    "description" : "Date de retrait du code",
     "type" : "dateTime"
+  },
+  {
+    "code" : "TypeFermeturePmFiness",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#TypeFermeturePmFiness",
+    "description" : "Permet de définir les codes à inclure dans le JdvJ364TypeFermeturePmFiness",
+    "type" : "boolean"
+  },
+  {
+    "code" : "TypeFermetureEgeFiness",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#TypeFermetureEgeFiness",
+    "description" : "Permet de définir les codes à inclure dans le JdvJ365TypeFermetureEgeFiness",
+    "type" : "boolean"
   }],
   "concept" : [{
     "code" : "DEF",
     "display" : "Définitive",
-    "definition" : "Désigne la fermeture définitive d’un élément de l’organisation interne d’un établissement de santé",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-01-25T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-10-16T12:00:00+01:00"
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
     },
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "TypeFermeturePmFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "TypeFermetureEgeFiness",
+      "valueBoolean" : true
     }]
   },
   {
@@ -125,6 +151,14 @@ Type de fermeture, codes provenant du FINESS pour les EJ et EG
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "TypeFermeturePmFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "TypeFermetureEgeFiness",
+      "valueBoolean" : true
     }]
   },
   {
@@ -141,6 +175,10 @@ Type de fermeture, codes provenant du FINESS pour les EJ et EG
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "TypeFermeturePmFiness",
+      "valueBoolean" : true
     }]
   },
   {
@@ -157,6 +195,10 @@ Type de fermeture, codes provenant du FINESS pour les EJ et EG
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "TypeFermetureEgeFiness",
+      "valueBoolean" : true
     }]
   },
   {
@@ -181,40 +223,30 @@ Type de fermeture, codes provenant du FINESS pour les EJ et EG
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "TypeFermetureEgeFiness",
+      "valueBoolean" : true
     }]
   },
   {
     "code" : "PRO",
     "display" : "Provisoire",
-    "definition" : "Désigne la fermeture provisoire d’un élément de l’organisation interne d’un établissement santé. L’utilisateur du référentiel ROR qui sélectionne cette valeur doit alors obligatoirement renseigner une date de réouverture de l’élément en question.",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-01-25T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-10-16T12:00:00+01:00"
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
     },
     {
       "code" : "status",
       "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "PRE",
-    "display" : "Prévisionnelle",
-    "definition" : "Désigne la fermeture prévisionnelle d’un élément de l’organisation interne d’un établissement santé. L’utilisateur du référentiel ROR qui sélectionne cette valeur a alors la possibilité de renseigner une date de réouverture de l’élément en question.",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2025-09-15T12:00:00+01:00"
     },
     {
-      "code" : "dateMaj",
-      "valueDateTime" : "2025-10-16T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
+      "code" : "TypeFermetureEgeFiness",
+      "valueBoolean" : true
     }]
   }]
 }

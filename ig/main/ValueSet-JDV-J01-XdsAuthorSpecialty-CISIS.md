@@ -1,4 +1,4 @@
-# JDV_J01_XdsAuthorSpecialty_CISIS - Terminologies de Santé v1.8.0
+# JDV_J01_XdsAuthorSpecialty_CISIS - Terminologies de Santé v1.9.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS | *Version*:20260330120000 | |
-| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J01_XdsAuthorSpecialty_CISIS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS | *Version*:20260505120000 | |
+| Active as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J01_XdsAuthorSpecialty_CISIS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.461 | | |
 
  
@@ -55,9 +55,9 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J01-XdsAuthorSpecialty-CISIS",
   "meta" : {
-    "versionId" : "17",
-    "lastUpdated" : "2026-03-27T11:18:02.315+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "versionId" : "18",
+    "lastUpdated" : "2026-05-05T09:32:47.457+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -71,11 +71,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.461"
   }],
-  "version" : "20260330120000",
+  "version" : "20260505120000",
   "name" : "JDV_J01_XdsAuthorSpecialty_CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-30T12:00:00+01:00",
+  "date" : "2026-05-05T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "XDS authorSpecialty CI-SIS",
   "jurisdiction" : [{
@@ -1457,7 +1457,7 @@ Requête sur le SMT
       },
       {
         "code" : "317",
-        "display" : "Préparateur en pharmacie (officine)"
+        "display" : "Préparateur en pharmacie"
       },
       {
         "code" : "319",
@@ -1670,6 +1670,22 @@ Requête sur le SMT
       {
         "code" : "375",
         "display" : "Conseiller conjugal et familial"
+      },
+      {
+        "code" : "376",
+        "display" : "PADHUE - Médecin"
+      },
+      {
+        "code" : "377",
+        "display" : "PADHUE - Pharmacien"
+      },
+      {
+        "code" : "378",
+        "display" : "PADHUE - Sage Femme"
+      },
+      {
+        "code" : "379",
+        "display" : "PADHUE - Chirurgien Dentiste"
       }]
     }]
   }

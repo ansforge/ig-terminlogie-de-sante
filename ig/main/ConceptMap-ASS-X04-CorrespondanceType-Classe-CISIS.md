@@ -1,4 +1,4 @@
-# ASS_X04_CorrespondanceType_Classe_CISIS - Terminologies de Santé v1.8.0
+# ASS_X04_CorrespondanceType_Classe_CISIS - Terminologies de Santé v1.9.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_X04-CorrespondanceType-Classe-CISIS/FHIR/ASS-X04-CorrespondanceType-Classe-CISIS | *Version*:20260202120000 |
-| Active as of 2026-02-02 | *Computable Name*:ASS_X04_CorrespondanceType_Classe_CISIS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_X04-CorrespondanceType-Classe-CISIS/FHIR/ASS-X04-CorrespondanceType-Classe-CISIS | *Version*:20260505120000 |
+| Active as of 2026-05-05 | *Computable Name*:ASS_X04_CorrespondanceType_Classe_CISIS |
 | *Other Identifiers:*urn:oid:1.2.250.1.213.1.1.4.249 | |
 
  
@@ -37,12 +37,12 @@ Correspondance entre types et classes de documents CI-SIS
   "identifier" : {
     "value" : "urn:oid:1.2.250.1.213.1.1.4.249"
   },
-  "version" : "20260202120000",
+  "version" : "20260505120000",
   "name" : "ASS_X04_CorrespondanceType_Classe_CISIS",
   "title" : "ASS_X04_CorrespondanceType_Classe_CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-02T12:00:00+01:00",
+  "date" : "2026-05-05T12:00:00+01:00",
   "description" : "Correspondance entre types et classes de documents CI-SIS",
   "jurisdiction" : [{
     "coding" : [{
@@ -50,6 +50,7 @@ Correspondance entre types et classes de documents CI-SIS
       "code" : "FRA"
     }]
   }],
+  "sourceUri" : "https://mos.esante.gouv.fr/NOS/JDV_J07-XdsTypeCode-CISIS/FHIR/JDV-J07-XdsTypeCode-CISIS",
   "targetUri" : "https://mos.esante.gouv.fr/NOS/JDV_J06-XdsClassCode-CISIS/FHIR/JDV-J06-XdsClassCode-CISIS",
   "group" : [{
     "source" : "http://loinc.org",
@@ -653,6 +654,13 @@ Correspondance entre types et classes de documents CI-SIS
       "code" : "83981-1",
       "target" : [{
         "code" : "10",
+        "equivalence" : "equivalent"
+      }]
+    },
+    {
+      "code" : "84067-8",
+      "target" : [{
+        "code" : "11",
         "equivalence" : "equivalent"
       }]
     },

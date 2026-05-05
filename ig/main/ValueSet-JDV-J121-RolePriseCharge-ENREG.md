@@ -1,4 +1,4 @@
-# JDV_J121_RolePriseCharge_ENREG - Terminologies de Santé v1.8.0
+# JDV_J121_RolePriseCharge_ENREG - Terminologies de Santé v1.9.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J121-RolePriseCharge-ENREG/FHIR/JDV-J121-RolePriseCharge-ENREG | *Version*:20260330120000 | |
-| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J121_RolePriseCharge_ENREG |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J121-RolePriseCharge-ENREG/FHIR/JDV-J121-RolePriseCharge-ENREG | *Version*:20260505120000 | |
+| Active as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J121_RolePriseCharge_ENREG |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.200 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J121-RolePriseCharge-ENREG",
   "meta" : {
-    "versionId" : "14",
-    "lastUpdated" : "2026-03-27T11:18:04.418+01:00",
+    "versionId" : "15",
+    "lastUpdated" : "2026-05-05T09:32:51.197+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -71,11 +71,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.200"
   }],
-  "version" : "20260330120000",
+  "version" : "20260505120000",
   "name" : "JDV_J121_RolePriseCharge_ENREG",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-30T12:00:00+01:00",
+  "date" : "2026-05-05T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Code des rôles et fonctions pour l'application ENREG",
   "jurisdiction" : [{
@@ -113,7 +113,7 @@ Requête sur le SMT
       },
       {
         "code" : "317",
-        "display" : "Préparateur en pharmacie (officine)"
+        "display" : "Préparateur en pharmacie"
       },
       {
         "code" : "319",
@@ -310,6 +310,22 @@ Requête sur le SMT
       {
         "code" : "375",
         "display" : "Conseiller conjugal et familial"
+      },
+      {
+        "code" : "376",
+        "display" : "PADHUE - Médecin"
+      },
+      {
+        "code" : "377",
+        "display" : "PADHUE - Pharmacien"
+      },
+      {
+        "code" : "378",
+        "display" : "PADHUE - Sage Femme"
+      },
+      {
+        "code" : "379",
+        "display" : "PADHUE - Chirurgien Dentiste"
       }]
     }]
   }

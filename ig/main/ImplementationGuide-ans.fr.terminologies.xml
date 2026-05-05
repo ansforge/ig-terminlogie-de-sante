@@ -7,11 +7,11 @@
 </div></div>
   </text>
   <url value="https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies"/>
-  <version value="1.8.0"/>
+  <version value="1.9.0"/>
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2026-05-04T06:40:45+00:00"/>
+  <date value="2026-05-05T09:58:06+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -21788,6 +21788,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-j240-activite-sanitaire-diverse-regulee-finess"/>
+      </reference>
+      <name value="Jdv J240 Activite Sanitaire Diverse Regulee Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les activités sanitaires, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-j289-type-groupe-gco-finess"/>
       </reference>
       <name value="Jdv J289 Type Groupe Gco Finess"/>
@@ -22041,6 +22052,116 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess"/>
+      </reference>
+      <name value="Jdv J333 Activite Sanitaire Diverse Regulee Niv Finess"/>
+      <description value="Jeu de valeurs FINESS contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 1"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j334-activite-sanitaire-diverse-regulee-niv2-finess"/>
+      </reference>
+      <name value="Jdv J334 Activite Sanitaire Diverse Regulee Niv2 Finess"/>
+      <description value="Jeu de valeurs Finess contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 2"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j335-activite-sanitaire-diverse-regulee-niv3-finess"/>
+      </reference>
+      <name value="Jdv J335 Activite Sanitaire Diverse Regulee Niv3 Finess"/>
+      <description value="Jeu de valeurs Finess contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 3"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j351-appareil-amm-finess"/>
+      </reference>
+      <name value="Jdv J351 Appareil Amm Finess"/>
+      <description value="Liste des appareils AMM vus de FINESS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j352-nature-capacite-finess"/>
+      </reference>
+      <name value="Jdv J352 Nature Capacite Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les capacités utilisées par FINESS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j353-type-statut-capacite-finess"/>
+      </reference>
+      <name value="Jdv J353 Type Statut Capacite Finess"/>
+      <description value="Jeu de valeurs FINESS permettant de préciser le statut des capacités concernées par FINESS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j354-habilitation-finess"/>
+      </reference>
+      <name value="Jdv J354 Habilitation Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les habilitations associées aux capacités des structures FINESS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j357-genre-capacite-finess"/>
+      </reference>
+      <name value="Jdv J357 Genre Capacite Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les genres de capacités utilisés par FINESS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j364-type-fermeture-pm-finess"/>
+      </reference>
+      <name value="Jdv J364 Type Fermeture Pm Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les types de fermeture dédiées aux personnes morales FINESS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j365-type-fermeture-ege-finess"/>
+      </reference>
+      <name value="Jdv J365 Type Fermeture Ege Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les types de fermeture dédiées aux entités géographiques FINESS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-j366-statut-bilan-projet-personnalise-ms"/>
       </reference>
       <name value="Jdv J366 Statut Bilan Projet Personnalise Ms"/>
@@ -22066,7 +22187,7 @@
         <reference value="ValueSet/jdv-j368-categorie-etablissement-cisis"/>
       </reference>
       <name value="Jdv J368 Categorie Etablissement Cisis"/>
-      <description value="JDV à l'image de l'ensemble des valeurs actives de la terminologie TRE_R66-CategorieEtablissement"/>
+      <description value="JDV pour le CISIS reprenant l'ensemble des valeurs actives et obsolètes de niveau 4 dans la TreR397CategorieEntiteGeographiqueExercice"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -22133,6 +22254,17 @@
       </reference>
       <name value="Jdv J377 Categorie Entite Geographique Exercice Ror"/>
       <description value="Ce JDV remplace le JDV_J55_CategorieEG_ROR"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j378-region-om-finess"/>
+      </reference>
+      <name value="Jdv J378 Region Om Finess"/>
+      <description value="Liste des régions administratives couvertes par le périmètre géographique de FINESS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -28921,6 +29053,17 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
+      </reference>
+      <name value="Tre R347 Activite Sanitaire Diverse Regulee"/>
+      <description value="Nomenclature des activités sanitaires utilisée pour décrire les Activités Sanitaires Diverses Régulées (ASDR)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/tre-r360-type-role-entite-groupe"/>
       </reference>
       <name value="Tre R360 Type Role Entite Groupe"/>
@@ -28954,6 +29097,17 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/tre-r370-role-relation-ege"/>
+      </reference>
+      <name value="Tre R370 Role Relation Ege"/>
+      <description value="Nomenclature des types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/tre-r371-type-groupe-gcc"/>
       </reference>
       <name value="Tre R371 Type Groupe Gcc"/>
@@ -28969,6 +29123,28 @@
       </reference>
       <name value="Tre R372 Type Groupe Gco"/>
       <description value="Nomenclature des types de Groupement de Coopération Organique (GCO)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r373-type-personne-morale"/>
+      </reference>
+      <name value="Tre R373 Type Personne Morale"/>
+      <description value="Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces champs).&#xA;Remarque : Cette TRE est juste initialisée à minima et a vocation à porter d'autres valurs."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r374-nature-activite-smsse-regulee"/>
+      </reference>
+      <name value="Tre R374 Nature Activite Smsse Regulee"/>
+      <description value="Nomenclature des grandes natures d'activité SMSSE exercées par les entités FINESS+"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -29144,7 +29320,7 @@
         <reference value="CodeSystem/tre-r401-activite-sociale-regulee"/>
       </reference>
       <name value="Tre R401 Activite Sociale Regulee"/>
-      <description value="Cette TRE hiérarchique remplace les TRE_R280-DisciplineEquipementSocial, TRE_R298-AgregatDisciplineEquipSocNiv1, TRE_R299-AgregatDisciplineEquipSocNiv2, TRE_R300-AgregatDisciplineEquipSocNiv3 et l'ASS_X14_AgregatDisciplineEquipementSocial. Cette TRE possède des propriétés spécifiques : le niveau d'agrégat desASOCR de 1 à 4 (du plus large au plus fin), le parent d'un agrégat d'ASOCR ou d'une ASOCR ainsi que les relations nécessaires à la construction des JDV dynamiques associés"/>
+      <description value="Cette TRE hiérarchique remplace les éléments suivants :&#xA;TRE_R280-DisciplineEquipementSocial, TRE_R298-AgregatDisciplineEquipSocNiv1, TRE_R299-AgregatDisciplineEquipSocNiv2, TRE_R300-AgregatDisciplineEquipSocNiv3 et ASS_X14_AgregatDisciplineEquipementSocial.&#xA;&#xA;Cette TRE possède des propriétés spécifiques :&#xA;&#xA;1. Le niveau d'agrégat des ASOCR de 1 à 4 (du plus large au plus fin)&#xA;2. Le parent d'un agrégat d'ASOCR ou d'une ASOCR&#xA;3. Les relations nécessaires à la construction des JDV dynamiques associés"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -31057,7 +31233,7 @@
         <reference value="CodeSystem/TRE-R327-TypeDecision"/>
       </reference>
       <name value="TRE_R327_TypeDecision"/>
-      <description value="Caractérise le type de décision prise par la CDAPH en réponse à une demande de compensation d'un usager (individu ou représentant légal), à une demande de révision par un tiers ou à un recours administratif préalable obligatoire (RAPO) d'un usager"/>
+      <description value="Caractérise le type de décision prise par la CDAPH en réponse à une demande de compensation d'un usager (individu ou représentant légal), à une demande de révision par un tiers ou à un recours administratif préalable obligatoire (RAPO) d'un usager."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -32102,6 +32278,39 @@
       </reference>
       <name value="Vs Tre R362 Type Budget All"/>
       <description value="Jeu de valeurs ALL contenant les types de budget associés aux Entités Géographiques d'Exercice (EGE) dans FINESS+."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-tre-r370-role-relation-ege-all"/>
+      </reference>
+      <name value="Vs Tre R370 Role Relation Ege All"/>
+      <description value="Jeu de valeurs ALL contenant les types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-tre-r373-type-personne-morale-all"/>
+      </reference>
+      <name value="Vs Tre R373 Type Personne Morale All"/>
+      <description value="Jeu de valeurs ALL contenant les types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces  champs)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-tre-r374-nature-activite-smsse-regulee-all"/>
+      </reference>
+      <name value="Vs Tre R374 Nature Activite Smsse Regulee All"/>
+      <description value="Jeu de valeurs ALL contenant les grandes natures d'activité SMSSE exercées par les entités FINESS+."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

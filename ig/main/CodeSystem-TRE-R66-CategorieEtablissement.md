@@ -1,4 +1,4 @@
-# TRE_R66_CategorieEtablissement - Terminologies de Santé v1.8.0
+# TRE_R66_CategorieEtablissement - Terminologies de Santé v1.9.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement | *Version*:20260330120000 | |
-| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R66_CategorieEtablissement |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement | *Version*:20260505120000 | |
+| Active as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R66_CategorieEtablissement |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.8 | | |
 
  
@@ -21,7 +21,6 @@ Catégorie d’établissements
 * [JDV_J254_CategorieEtablissementESSMSPH](ValueSet-JDV-J254-CategorieEtablissementESSMSPH.md)
 * [JDV_J264_ModeEtCentreDePriseEnCharge_MDPH](ValueSet-JDV-J264-ModeEtCentreDePriseEnCharge-MDPH.md)
 * [JDV_J55_CategorieEG_ROR](ValueSet-JDV-J55-CategorieEG-ROR.md)
-* [JdvJ368CategorieEtablissementCisis](ValueSet-jdv-j368-categorie-etablissement-cisis.md)
 * [JdvStructureDeSoinsCisis](ValueSet-jdv-structure-de-soins-cisis.md)
 
 
@@ -33,8 +32,8 @@ Catégorie d’établissements
   "resourceType" : "CodeSystem",
   "id" : "TRE-R66-CategorieEtablissement",
   "meta" : {
-    "versionId" : "22",
-    "lastUpdated" : "2026-03-27T11:13:18.258+01:00",
+    "versionId" : "23",
+    "lastUpdated" : "2026-05-05T09:28:00.202+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -49,11 +48,11 @@ Catégorie d’établissements
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.8"
   }],
-  "version" : "20260330120000",
+  "version" : "20260505120000",
   "name" : "TRE_R66_CategorieEtablissement",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-30T12:00:00+01:00",
+  "date" : "2026-05-05T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Catégorie d'établissements",
   "jurisdiction" : [{
@@ -1077,12 +1076,20 @@ Catégorie d’établissements
       "valueDateTime" : "2020-06-26T12:00:00+01:00"
     },
     {
+      "code" : "dateFin",
+      "valueDateTime" : "2016-05-05T00:00:00+01:00"
+    },
+    {
       "code" : "dateMaj",
-      "valueDateTime" : "2020-06-26T12:00:00+01:00"
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-05-05T00:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -1318,7 +1325,7 @@ Catégorie d’établissements
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-02-23T00:00:00+01:00"
+      "valueDateTime" : "2026-05-05T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -2959,14 +2966,15 @@ Catégorie d’établissements
   },
   {
     "code" : "236",
-    "display" : "Centre Placement Familial Socio-Educatif (C.P.F.S.E.)",
+    "display" : "Service de placement familial",
+    "definition" : "Le placement familial est, au sens strict du terme, un dispositif qui permet de prendre en charge un enfant dans une autre famille que la sienne, afin de résoudre une situation de danger le concernant. Remarque : Suite à une réunion avec l'ASE (DGCS), il a été décidé que le changement de nom de la catégorie Centre Placement Familial Socio-Educatif (C.P.F.S.E.)  en « Service de placement familial» (catégorie 236).",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "C.P.F.S.E."
+      "value" : "S.P.F"
     },
     {
       "language" : "fr-FR",
@@ -2974,7 +2982,7 @@ Catégorie d’établissements
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Centre de placement familial socio-éducatif (CPFSE)"
+      "value" : "Service de placement familial (SPF)"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -2982,7 +2990,7 @@ Catégorie d’établissements
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2005-07-06T00:00:00+01:00"
+      "valueDateTime" : "2026-05-05T00:00:00+01:00"
     },
     {
       "code" : "status",

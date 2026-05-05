@@ -1,4 +1,4 @@
-# TRE_R30_RegionOM - Terminologies de Santé v1.8.0
+# TRE_R30_RegionOM - Terminologies de Santé v1.9.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -20,6 +20,7 @@ Référentiel des codes régions et collectivités d’outre-mer provenant du CO
 * [JDV_J237_RegionOM_ROR](ValueSet-JDV-J237-RegionOM-ROR.md)
 * [JDV_J257_Region](ValueSet-JDV-J257-Region.md)
 * [JDV_J93_RegionOM_RASS](ValueSet-JDV-J93-RegionOM-RASS.md)
+* [JdvJ378RegionOmFiness](ValueSet-jdv-j378-region-om-finess.md)
 
 
 

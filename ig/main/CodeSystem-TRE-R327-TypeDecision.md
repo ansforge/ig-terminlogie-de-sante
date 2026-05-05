@@ -1,4 +1,4 @@
-# TRE_R327_TypeDecision - Terminologies de Santé v1.8.0
+# TRE_R327_TypeDecision - Terminologies de Santé v1.9.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,12 +8,12 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R327-TypeDecision/FHIR/TRE-R327-TypeDecision | *Version*:20240329120000 | |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R327-TypeDecision/FHIR/TRE-R327-TypeDecision | *Version*:20260505120000 | |
 | Active as of 2024-03-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R327_TypeDecision |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.82 | | |
 
  
-Caractérise le type de décision prise par la CDAPH en réponse à une demande de compensation d’un usager (individu ou représentant légal), à une demande de révision par un tiers ou à un recours administratif préalable obligatoire (RAPO) d’un usager 
+Caractérise le type de décision prise par la CDAPH en réponse à une demande de compensation d’un usager (individu ou représentant légal), à une demande de révision par un tiers ou à un recours administratif préalable obligatoire (RAPO) d’un usager. 
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
@@ -28,8 +28,8 @@ Caractérise le type de décision prise par la CDAPH en réponse à une demande 
   "resourceType" : "CodeSystem",
   "id" : "TRE-R327-TypeDecision",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-07-02T18:17:34.007+00:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-05-05T11:42:52.272+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
@@ -43,13 +43,13 @@ Caractérise le type de décision prise par la CDAPH en réponse à une demande 
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.82"
   }],
-  "version" : "20240329120000",
+  "version" : "20260505120000",
   "name" : "TRE_R327_TypeDecision",
   "status" : "active",
   "experimental" : false,
   "date" : "2024-03-29T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Caractérise le type de décision prise par la CDAPH en réponse à une demande de compensation d'un usager (individu ou représentant légal), à une demande de révision par un tiers ou à un recours administratif préalable obligatoire (RAPO) d'un usager",
+  "description" : "Caractérise le type de décision prise par la CDAPH en réponse à une demande de compensation d'un usager (individu ou représentant légal), à une demande de révision par un tiers ou à un recours administratif préalable obligatoire (RAPO) d'un usager.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -58,18 +58,22 @@ Caractérise le type de décision prise par la CDAPH en réponse à une demande 
   }],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 7,
   "property" : [{
     "code" : "dateValid",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
     "description" : "date de validité d'un code concept",
     "type" : "dateTime"
   },
   {
     "code" : "dateMaj",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
     "description" : "Date de mise à jour d'un code concept",
     "type" : "dateTime"
   },
   {
     "code" : "dateFin",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
     "description" : "Date de fin d'exploitation d'un code concept",
     "type" : "dateTime"
   },
@@ -170,6 +174,40 @@ Caractérise le type de décision prise par la CDAPH en réponse à une demande 
     {
       "code" : "dateMaj",
       "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "6",
+    "display" : "Renouvellement",
+    "definition" : "Indique si le droit attribué par la CDAPH fait suite à une demande de renouvellement.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "7",
+    "display" : "Révision",
+    "definition" : "Indique si le droit attribué par la CDAPH  fait suite à une demande de révision.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
     },
     {
       "code" : "status",

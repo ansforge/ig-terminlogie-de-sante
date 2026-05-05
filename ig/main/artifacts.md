@@ -1,4 +1,4 @@
-# Artifacts Summary - Terminologies de Santé v1.8.0
+# Artifacts Summary - Terminologies de Santé v1.9.0
 
 * [**Table of Contents**](toc.md)
 * **Artifacts Summary**
@@ -735,6 +735,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Jdv Depistage Neonatal CISIS](ValueSet-jdv-depistage-neonatal-cisis.md) | Jdv Depistage Neonatal CISIS |
 | [Jdv Etat De Conscience CISIS](ValueSet-jdv-etat-de-conscience-cisis.md) | Jdv Etat De Conscience CISIS |
 | [Jdv Exposition West Nile CISIS](ValueSet-jdv-exposition-west-nile-cisis.md) | Jdv Exposition West Nile CISIS |
+| [Jdv J240 Activite Sanitaire Diverse Regulee Finess](ValueSet-jdv-j240-activite-sanitaire-diverse-regulee-finess.md) | Jeu de valeurs FINESS contenant les activités sanitaires, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR) |
 | [Jdv J289 Type Groupe Gco Finess](ValueSet-jdv-j289-type-groupe-gco-finess.md) | Jeu de valeurs Finess contenant les types de Groupement de Coopération Organique (GCO). |
 | [Jdv J296 Type Role Entite Groupe Finess](ValueSet-jdv-j296-type-role-entite-groupe-finess.md) | Jeu de valeurs FINESS contenant les types de rôles que peuvent exercer des entités participants à des groupements |
 | [Jdv J301 Finess Statut Juridique Niv1 Finess](ValueSet-jdv-j301-finess-statut-juridique-niv1-finess.md) | Ce JDV contient les agrégats Niv1 des statust juridiques (JDV créé à l’image de l’ancienne TRE_R70-FinessAgregatStatutJuridique) |
@@ -758,15 +759,26 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Jdv J328 Public Activite Smsse Regulee Finess](ValueSet-jdv-j328-public-activite-smsse-regulee-finess.md) | Ce JDV contient tous les publics hors agrégat (JDV créé à l’image de l’ancienne TRE_R279-Clientele) |
 | [Jdv J329 Public Activite Smsse Regulee Niv1 Finess](ValueSet-jdv-j329-public-activite-smsse-regulee-niv1-finess.md) | Ce JDV contient tous les agregats Niv 1 des publics (JDV créé à l’image de l’ancienne TRE_R293-AgregatClienteleNiv2) |
 | [Jdv J330 Public Activite Smsse Regulee Niv2 Finess](ValueSet-jdv-j330-public-activite-smsse-regulee-niv2-finess.md) | Ce JDV contient tous les agregats de publics de niveau 2 (JDV créé à l’image de l’ancienne TRE_R294-AgregatClienteleNiv3) |
+| [Jdv J333 Activite Sanitaire Diverse Regulee Niv Finess](ValueSet-jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess.md) | Jeu de valeurs FINESS contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 1 |
+| [Jdv J334 Activite Sanitaire Diverse Regulee Niv2 Finess](ValueSet-jdv-j334-activite-sanitaire-diverse-regulee-niv2-finess.md) | Jeu de valeurs Finess contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 2 |
+| [Jdv J335 Activite Sanitaire Diverse Regulee Niv3 Finess](ValueSet-jdv-j335-activite-sanitaire-diverse-regulee-niv3-finess.md) | Jeu de valeurs Finess contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 3 |
+| [Jdv J351 Appareil Amm Finess](ValueSet-jdv-j351-appareil-amm-finess.md) | Liste des appareils AMM vus de FINESS |
+| [Jdv J352 Nature Capacite Finess](ValueSet-jdv-j352-nature-capacite-finess.md) | Jeu de valeurs FINESS contenant les capacités utilisées par FINESS |
+| [Jdv J353 Type Statut Capacite Finess](ValueSet-jdv-j353-type-statut-capacite-finess.md) | Jeu de valeurs FINESS permettant de préciser le statut des capacités concernées par FINESS |
+| [Jdv J354 Habilitation Finess](ValueSet-jdv-j354-habilitation-finess.md) | Jeu de valeurs FINESS contenant les habilitations associées aux capacités des structures FINESS |
+| [Jdv J357 Genre Capacite Finess](ValueSet-jdv-j357-genre-capacite-finess.md) | Jeu de valeurs FINESS contenant les genres de capacités utilisés par FINESS |
+| [Jdv J364 Type Fermeture Pm Finess](ValueSet-jdv-j364-type-fermeture-pm-finess.md) | Jeu de valeurs FINESS contenant les types de fermeture dédiées aux personnes morales FINESS |
+| [Jdv J365 Type Fermeture Ege Finess](ValueSet-jdv-j365-type-fermeture-ege-finess.md) | Jeu de valeurs FINESS contenant les types de fermeture dédiées aux entités géographiques FINESS |
 | [Jdv J366 Statut Bilan Projet Personnalise Ms](ValueSet-jdv-j366-statut-bilan-projet-personnalise-ms.md) | Statut du bilan du projet personnalisé. |
 | [Jdv J367 Type Projet Personnalise Ms](ValueSet-jdv-j367-type-projet-personnalise-ms.md) | Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l’usager, son entourage familial et professionnel du médico-social. |
-| [Jdv J368 Categorie Etablissement Cisis](ValueSet-jdv-j368-categorie-etablissement-cisis.md) | JDV à l’image de l’ensemble des valeurs actives de la terminologie TRE_R66-CategorieEtablissement |
+| [Jdv J368 Categorie Etablissement Cisis](ValueSet-jdv-j368-categorie-etablissement-cisis.md) | JDV pour le CISIS reprenant l’ensemble des valeurs actives et obsolètes de niveau 4 dans la TreR397CategorieEntiteGeographiqueExercice |
 | [Jdv J370 Type Contrat Sejour Ms](ValueSet-jdv-j370-type-contrat-sejour-ms.md) | Type de contrat conclu entre l’établissement/service et la personne/son représentant légal. |
 | [Jdv J373 Type Autorite](ValueSet-jdv-j373-type-autorite.md) | Jeu de valeurs contenant les différents types d’autorité (actifs ou inactifs) |
 | [Jdv J374 Autorite](ValueSet-jdv-j374-autorite.md) | Jeu de valeurs contenant la liste des autorités quelque soit la catégorie d’autorité et quelque soir l’état de l’autorité active ou inactive) |
 | [Jdv J375 Autorite Ordre](ValueSet-jdv-j375-autorite-ordre.md) | Jeu de valeurs comportant uniquement les autorités de type Ordre. |
 | [Jdv J376 Public Activite Smsse Regulee Rass](ValueSet-jdv-j376-public-activite-smsse-regulee-rass.md) | Ce JDV remplace le JDV_J137_Clientele_RASS |
 | [Jdv J377 Categorie Entite Geographique Exercice Ror](ValueSet-jdv-j377-categorie-entite-geographique-exercice-ror.md) | Ce JDV remplace le JDV_J55_CategorieEG_ROR |
+| [Jdv J378 Region Om Finess](ValueSet-jdv-j378-region-om-finess.md) | Liste des régions administratives couvertes par le périmètre géographique de FINESS |
 | [Jdv J379 Activite Sociale Regulee Rass](ValueSet-jdv-j379-activite-sociale-regulee-rass.md) | Ce JDV remplace le JDV_J136_DisciplineEquipementSocial_RASS |
 | [Jdv J380 Categorie Entite Geographique Exercice Rass](ValueSet-jdv-j380-categorie-entite-geographique-exercice-rass.md) | Ce JDV remplace le JDV-J129-CategorieEtablissement-RASS |
 | [Jdv J383 Motif Cloture Exercice Professionnel Epars](ValueSet-jdv-j383-motif-cloture-exercice-professionnel-epars.md) | Ce jeu de valeur liste les différents motifs qui peuvent justifier la clôture d’un exercice professionnel. |
@@ -812,6 +824,9 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Vs Tre R274 Activite Sanitaire Regulee All](ValueSet-vs-tre-r274-activite-sanitaire-regulee-all.md) | Jeu de valeurs FINESS contenant les activités sanitaires soumises à une régulation de la part de l’ARS. |
 | [Vs Tre R361 Fonction Publique All](ValueSet-vs-tre-r361-fonction-publique-all.md) | Jeu de valeurs ALL contenant les versants de la fonction publique. |
 | [Vs Tre R362 Type Budget All](ValueSet-vs-tre-r362-type-budget-all.md) | Jeu de valeurs ALL contenant les types de budget associés aux Entités Géographiques d’Exercice (EGE) dans FINESS+. |
+| [Vs Tre R370 Role Relation Ege All](ValueSet-vs-tre-r370-role-relation-ege-all.md) | Jeu de valeurs ALL contenant les types de rôle existant entre les Entités Géographiques d’Exercice (EGE) au sein d’une PM-SMSSE. |
+| [Vs Tre R373 Type Personne Morale All](ValueSet-vs-tre-r373-type-personne-morale-all.md) | Jeu de valeurs ALL contenant les types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces champs). |
+| [Vs Tre R374 Nature Activite Smsse Regulee All](ValueSet-vs-tre-r374-nature-activite-smsse-regulee-all.md) | Jeu de valeurs ALL contenant les grandes natures d’activité SMSSE exercées par les entités FINESS+. |
 | [Vs Tre R375 Mode Financement All](ValueSet-vs-tre-r375-mode-financement-all.md) | Jeu de valeurs ALL contenant les modes de financement associés aux capacités de certaines activitées SMSSE. |
 | [Vs Tre R381 Activite Amm All](ValueSet-vs-tre-r381-activite-amm-all.md) | Jeu de valeurs ALL contenant les activités de soin AMM |
 | [Vs Tre R382 Modalite Act De Soin Amm All](ValueSet-vs-tre-r382-modalite-act-de-soin-amm-all.md) | Jeu de valeurs ALL contenant les modalités pour les activités de soin AMM |
@@ -1071,7 +1086,7 @@ These define new code systems used by systems conforming to this implementation 
 | [TRE_R324_BesoinSoutienProjetProfessionnel](CodeSystem-TRE-R324-BesoinSoutienProjetProfessionnel.md) | Cette nomenclature permet de préciser le besoin du demandeur quant à l’établissement de son ou ses projet(s) professionnel(s) |
 | [TRE_R325_SituationProfessionnelle](CodeSystem-TRE-R325-SituationProfessionnelle.md) | Caractérise la situation professionnelle de la personne |
 | [TRE_R326_SituationSansEmploi](CodeSystem-TRE-R326-SituationSansEmploi.md) | Caractérise la situation de la personne lorsqu’elle est sans emploi |
-| [TRE_R327_TypeDecision](CodeSystem-TRE-R327-TypeDecision.md) | Caractérise le type de décision prise par la CDAPH en réponse à une demande de compensation d’un usager (individu ou représentant légal), à une demande de révision par un tiers ou à un recours administratif préalable obligatoire (RAPO) d’un usager |
+| [TRE_R327_TypeDecision](CodeSystem-TRE-R327-TypeDecision.md) | Caractérise le type de décision prise par la CDAPH en réponse à une demande de compensation d’un usager (individu ou représentant légal), à une demande de révision par un tiers ou à un recours administratif préalable obligatoire (RAPO) d’un usager. |
 | [TRE_R328_TypeScolarisation](CodeSystem-TRE-R328-TypeScolarisation.md) | Caractérise la situation scolaire de la personne |
 | [TRE_R329_NatureCapacite](CodeSystem-TRE-R329-NatureCapacite.md) | Permet d’indiquer si la capacité est exprimée en lits ou en places |
 | [TRE_R32_StatutHospitalier](CodeSystem-TRE-R32-StatutHospitalier.md) | Statut hospitalier |
@@ -1158,11 +1173,15 @@ These define new code systems used by systems conforming to this implementation 
 | [TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies](CodeSystem-terminologie-cisis.md) | Terminologie multi-domaines créée et maintenue par l’ANS contenant les termes non trouvés dans les autres terminologies internationales ou nationales. |
 | [TimingEvent](CodeSystem-v3-TimingEvent.md) | **** MISSING DESCRIPTION **** |
 | [TimingEventSupplementFr](CodeSystem-TimingEvent-supplement-fr.md) | Traduction Française |
+| [Tre R347 Activite Sanitaire Diverse Regulee](CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.md) | Nomenclature des activités sanitaires utilisée pour décrire les Activités Sanitaires Diverses Régulées (ASDR) |
 | [Tre R360 Type Role Entite Groupe](CodeSystem-tre-r360-type-role-entite-groupe.md) | Nomenclature des types de rôles que peuvent exercer des entités participants à des groupements |
 | [Tre R361 Fonction Publique](CodeSystem-tre-r361-fonction-publique.md) | Nomenclature des versants de la fonction publique |
 | [Tre R362 Type Budget](CodeSystem-tre-r362-type-budget.md) | Nomenclature des types de budget associés aux Entités Géographiques d’Exercice (EGE) dans FINESS+ |
+| [Tre R370 Role Relation Ege](CodeSystem-tre-r370-role-relation-ege.md) | Nomenclature des types de rôle existant entre les Entités Géographiques d’Exercice (EGE) au sein d’une PM-SMSSE |
 | [Tre R371 Type Groupe Gcc](CodeSystem-tre-r371-type-groupe-gcc.md) | Nomenclature des types de groupement Concernant les groupement de structure on a 2 catégories de regroupement : les Groupement de Coopération Conventionnelle, les Groupement de Coopération Organique |
 | [Tre R372 Type Groupe Gco](CodeSystem-tre-r372-type-groupe-gco.md) | Nomenclature des types de Groupement de Coopération Organique (GCO) |
+| [Tre R373 Type Personne Morale](CodeSystem-tre-r373-type-personne-morale.md) | Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces champs). Remarque : Cette TRE est juste initialisée à minima et a vocation à porter d’autres valurs. |
+| [Tre R374 Nature Activite Smsse Regulee](CodeSystem-tre-r374-nature-activite-smsse-regulee.md) | Nomenclature des grandes natures d’activité SMSSE exercées par les entités FINESS+ |
 | [Tre R375 Mode Financement](CodeSystem-tre-r375-mode-financement.md) | Nomenclature des modes de financement associés aux capacités de certaines activitées SMSSE |
 | [Tre R381 Activite Amm](CodeSystem-tre-r381-activite-amm.md) | Nomenclature des activités de soin AMM |
 | [Tre R382 Modalite Act De Soin Amm](CodeSystem-tre-r382-modalite-act-de-soin-amm.md) | Nomenclature des modalités pour les activités de soin AMM |
@@ -1178,7 +1197,10 @@ These define new code systems used by systems conforming to this implementation 
 | [Tre R396 Autorite](CodeSystem-tre-r396-autorite.md) | liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS, … |
 | [Tre R397 Categorie Entite Geographique Exercice](CodeSystem-tre-r397-categorie-entite-geographique-exercice.md) | Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement, TRE-R63-AgregatCategorieEtablissementNiv1, TRE-R64-AgregatCategorieEtablissementNiv2, TRE-R65-AgregatCategorieEtablissement et ASS-X10-AgregatCategorieEtablissement. Cette TRE possède des propriétésspécifiques : le niveau d’agrégat des EGE de 1 à 4 (du plus large au plus fin), le parent d’un agrégat d’EGE ou d’un EGE, la relation entre un code et le domaine ( TRE R62), un indicateur pour les EGE spécifiques au ROR ( non finess) et les relations nécessaires à la construction des JDV dynamiques associés |
 | [Tre R400 Finess Statut Juridique](CodeSystem-tre-r400-finess-statut-juridique.md) | Cette TRE hiérarchique remplace les TRE_R68-FinessAgregatStatutJuridiqueNiv1, TRE_R69-FinessAgregatStatutJuridiqueNiv2, TRE_R70-FinessAgregatStatutJuridique, TRE_R72-FinessStatutJuridique, et l’association ASS_X11_FinessAgregatStatutJuridique. Cette TRE possède des propriétés spécifiques : le niveau d’agrégat des statuts juridiques de 1 à 4 ( du plus large au plus fin), le parent d’un agrégat de statuts juridiques ou d’un statut juridique, un indicateur pour les statuts juridiques spécifiques à RPPS ( non finess) et les relations nécessaires à la construction des JDV dynamiques associés |
-| [Tre R401 Activite Sociale Regulee](CodeSystem-tre-r401-activite-sociale-regulee.md) | Cette TRE hiérarchique remplace les TRE_R280-DisciplineEquipementSocial, TRE_R298-AgregatDisciplineEquipSocNiv1, TRE_R299-AgregatDisciplineEquipSocNiv2, TRE_R300-AgregatDisciplineEquipSocNiv3 et l’ASS_X14_AgregatDisciplineEquipementSocial. Cette TRE possède des propriétés spécifiques : le niveau d’agrégat desASOCR de 1 à 4 (du plus large au plus fin), le parent d’un agrégat d’ASOCR ou d’une ASOCR ainsi que les relations nécessaires à la construction des JDV dynamiques associés |
+| [Tre R401 Activite Sociale Regulee](CodeSystem-tre-r401-activite-sociale-regulee.md) | Cette TRE hiérarchique remplace les éléments suivants : TRE_R280-DisciplineEquipementSocial, TRE_R298-AgregatDisciplineEquipSocNiv1, TRE_R299-AgregatDisciplineEquipSocNiv2, TRE_R300-AgregatDisciplineEquipSocNiv3 et ASS_X14_AgregatDisciplineEquipementSocial.Cette TRE possède des propriétés spécifiques :1. Le niveau d’agrégat des ASOCR de 1 à 4 (du plus large au plus fin)
+1. Le parent d’un agrégat d’ASOCR ou d’une ASOCR
+1. Les relations nécessaires à la construction des JDV dynamiques associés
+ |
 | [Tre R402 Activite Enseignement Regulee](CodeSystem-tre-r402-activite-enseignement-regulee.md) | Liste des activités d’enseignement régulées organisée en 3 niveaux d’agrégation. Annule et remplace les anciennes TRE xxxEnseignement |
 | [Tre R403 Public Activite Smsse Regulee](CodeSystem-tre-r403-public-activite-smsse-regulee.md) | Cette TRE hiérarchique remplace les TRE actuelles TRE_R279-Clientele, TRE_R293-AgregatClienteleNiv2, TRE_R294-AgregatClienteleNiv3 et l’association ASS_X13-AgregatClientele. Cette TRE possède de nouvelles propriétés : le niveau d’agrégat des publics de 1 à 3 (du plus large au plus fin), le parent d’un agrégat de publics ou d’un public ainsi que les relations nécessaires à la construction des JDV dynamiques associés |
 | [Tre R404 Mode Fonctionnemet Activite Smsse Regulee](CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.md) | Mode de fonctinonemment des activités ssmsse régulées, remplace la TRE_R209-TypeActivite |

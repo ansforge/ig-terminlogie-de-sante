@@ -1,4 +1,4 @@
-# TRE_R332_GenreCapacite - Terminologies de Santé v1.8.0
+# TRE_R332_GenreCapacite - Terminologies de Santé v1.9.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -18,6 +18,7 @@ Permet d’indiquer le genre des patients qui peuvent être installés dans des 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J190_GenreCapacite_ROR](ValueSet-JDV-J190-GenreCapacite-ROR.md)
+* [JdvJ357GenreCapaciteFiness](ValueSet-jdv-j357-genre-capacite-finess.md)
 
 
 
@@ -28,10 +29,11 @@ Permet d’indiquer le genre des patients qui peuvent être installés dans des 
   "resourceType" : "CodeSystem",
   "id" : "TRE-R332-GenreCapacite",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2025-10-02T20:13:50.824+02:00",
+    "versionId" : "9",
+    "lastUpdated" : "2026-05-05T09:27:53.510+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
+  "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
@@ -61,18 +63,27 @@ Permet d’indiquer le genre des patients qui peuvent être installés dans des 
   "count" : 4,
   "property" : [{
     "code" : "dateValid",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
     "description" : "date de validité d'un code concept",
     "type" : "dateTime"
   },
   {
     "code" : "dateMaj",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
     "description" : "Date de mise à jour d'un code concept",
     "type" : "dateTime"
   },
   {
     "code" : "dateFin",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
     "description" : "Date de fin d'exploitation d'un code concept",
     "type" : "dateTime"
+  },
+  {
+    "code" : "finess",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#finess",
+    "description" : "Permet de définir les codes concepts utilisés par FINESS+",
+    "type" : "boolean"
   },
   {
     "code" : "deprecationDate",
@@ -106,6 +117,10 @@ Permet d’indiquer le genre des patients qui peuvent être installés dans des 
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
     }]
   },
   {
@@ -122,6 +137,10 @@ Permet d’indiquer le genre des patients qui peuvent être installés dans des 
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
     }]
   },
   {

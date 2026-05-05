@@ -1,4 +1,4 @@
-# JDV_J34_CategorieOrganisation_ROR - Terminologies de Santé v1.8.0
+# JDV_J34_CategorieOrganisation_ROR - Terminologies de Santé v1.9.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J34-CategorieOrganisation-ROR/FHIR/JDV-J34-CategorieOrganisation-ROR | *Version*:20260330120000 | |
-| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J34_CategorieOrganisation_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J34-CategorieOrganisation-ROR/FHIR/JDV-J34-CategorieOrganisation-ROR | *Version*:20260505120000 | |
+| Active as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J34_CategorieOrganisation_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.40 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J34-CategorieOrganisation-ROR",
   "meta" : {
-    "versionId" : "29",
-    "lastUpdated" : "2026-03-27T11:18:09.902+01:00",
+    "versionId" : "30",
+    "lastUpdated" : "2026-05-05T09:32:56.022+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -71,11 +71,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.40"
   }],
-  "version" : "20260330120000",
+  "version" : "20260505120000",
   "name" : "JDV_J34_CategorieOrganisation_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-30T12:00:00+01:00",
+  "date" : "2026-05-05T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Catégorie d'organisation - ROR",
   "jurisdiction" : [{
@@ -165,7 +165,7 @@ Requête sur le SMT
       },
       {
         "code" : "20",
-        "display" : "Unité d'urgences polyvalentes"
+        "display" : "Structure des urgences polyvalentes 24h/24 7j/7"
       },
       {
         "code" : "21",
@@ -653,7 +653,7 @@ Requête sur le SMT
       },
       {
         "code" : "146",
-        "display" : "Unité de prise en charge des brûlés"
+        "display" : "Unité hospitalière de brûlologie"
       },
       {
         "code" : "148",
@@ -1270,6 +1270,34 @@ Requête sur le SMT
       {
         "code" : "306",
         "display" : "Cabinet de ville infirmier en pratique avancée en santé mentale"
+      },
+      {
+        "code" : "307",
+        "display" : "Unité d’Education Thérapeutique du Patient (ETP)"
+      },
+      {
+        "code" : "308",
+        "display" : "Unité de réanimation des brûlés"
+      },
+      {
+        "code" : "309",
+        "display" : "Unité Sanitaire en Milieu Pénitentiaire (USMP, ex UCSA)"
+      },
+      {
+        "code" : "310",
+        "display" : "Lactarium"
+      },
+      {
+        "code" : "311",
+        "display" : "Structure des urgences pédiatriques"
+      },
+      {
+        "code" : "312",
+        "display" : "Pharmacie d'officine (dont mutualiste)"
+      },
+      {
+        "code" : "313",
+        "display" : "Antennes des urgences"
       }]
     }]
   }
