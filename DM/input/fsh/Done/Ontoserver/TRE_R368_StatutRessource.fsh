@@ -17,7 +17,6 @@ Description: "Caractérise le statut d'une ressource du médico-social au cours 
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 13
 * ^property[0].code = #dateValid
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "Date de validité d'un code concept"
