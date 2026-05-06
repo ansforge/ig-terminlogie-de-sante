@@ -1,6 +1,6 @@
-CodeSystem: treR428NiveauScolaire
+CodeSystem: TreR428NiveauScolaire
 Id: tre-r428-niveau-scolaire
-Title: "tre R428 Niveau Scolaire"
+Title: "Tre R428 Niveau Scolaire"
 Description: "Niveau scolaire de l'usager en France."
 * ^meta.versionId = "1"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
