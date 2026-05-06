@@ -28,8 +28,8 @@ Nomenclature des types de groupement utilisables dans FINESS. Groupement de coop
   "resourceType" : "CodeSystem",
   "id" : "tre-r387-type-groupement",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-03-27T12:13:05+01:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-05-05T20:12:16+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

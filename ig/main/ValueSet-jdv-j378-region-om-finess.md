@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-j378-region-om-finess",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-05-05T09:32:58.944+02:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-05-05T19:02:23.319+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

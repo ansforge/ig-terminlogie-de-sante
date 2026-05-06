@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-j375-autorite-ordre",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-03-27T11:18:11+01:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-05-05T19:02:22+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

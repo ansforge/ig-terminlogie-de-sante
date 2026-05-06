@@ -31,8 +31,8 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
   "resourceType" : "CodeSystem",
   "id" : "TRE-G09-DepartementOM",
   "meta" : {
-    "versionId" : "11",
-    "lastUpdated" : "2026-05-05T09:27:49.531+02:00",
+    "versionId" : "12",
+    "lastUpdated" : "2026-05-05T20:11:49.658+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

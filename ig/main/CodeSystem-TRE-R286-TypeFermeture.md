@@ -32,8 +32,8 @@ Type de fermeture, codes provenant du FINESS pour les EJ et EG
   "resourceType" : "CodeSystem",
   "id" : "TRE-R286-TypeFermeture",
   "meta" : {
-    "versionId" : "10",
-    "lastUpdated" : "2026-05-05T09:27:52.098+02:00",
+    "versionId" : "11",
+    "lastUpdated" : "2026-05-05T20:12:03.028+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

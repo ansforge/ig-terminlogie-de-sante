@@ -28,8 +28,8 @@ Champ d’activité
   "resourceType" : "CodeSystem",
   "id" : "TRE-R227-ChampActivite",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2026-03-27T11:13:07.338+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-05-05T20:11:57.249+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

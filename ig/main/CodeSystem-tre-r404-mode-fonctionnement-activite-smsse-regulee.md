@@ -28,9 +28,9 @@ Mode de fonctinonemment des activités ssmsse régulées, remplace la TRE_R209-T
   "resourceType" : "CodeSystem",
   "id" : "tre-r404-mode-fonctionnement-activite-smsse-regulee",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-02-23T17:57:30.564+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
+    "versionId" : "3",
+    "lastUpdated" : "2026-05-05T20:12:24.528+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
   "language" : "fr-FR",
   "extension" : [{

@@ -42,8 +42,8 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
   "resourceType" : "CodeSystem",
   "id" : "tre-r397-categorie-entite-geographique-exercice",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2026-05-05T09:27:58.216+02:00",
+    "versionId" : "5",
+    "lastUpdated" : "2026-05-05T20:12:20.402+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

@@ -28,8 +28,8 @@ Nomenclature des activités de soin AMM
   "resourceType" : "CodeSystem",
   "id" : "tre-r381-activite-amm",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-03-27T11:13:12+01:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-05-05T20:12:13+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

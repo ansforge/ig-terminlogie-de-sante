@@ -37,8 +37,8 @@ Cette TRE possède des propriétés spécifiques :
   "resourceType" : "CodeSystem",
   "id" : "tre-r401-activite-sociale-regulee",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2026-05-05T09:27:59.129+02:00",
+    "versionId" : "5",
+    "lastUpdated" : "2026-05-05T20:12:22.411+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

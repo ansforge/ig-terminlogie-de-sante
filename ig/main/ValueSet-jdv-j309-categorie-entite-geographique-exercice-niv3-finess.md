@@ -55,9 +55,9 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-j309-categorie-entite-geographique-exercice-niv3-finess",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-02-23T18:17:30.357+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+    "versionId" : "3",
+    "lastUpdated" : "2026-05-05T19:02:10.986+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
   "extension" : [{

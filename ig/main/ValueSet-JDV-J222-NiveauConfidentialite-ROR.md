@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J222-NiveauConfidentialite-ROR",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2026-05-05T09:32:51.517+02:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-05-05T19:02:45.870+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

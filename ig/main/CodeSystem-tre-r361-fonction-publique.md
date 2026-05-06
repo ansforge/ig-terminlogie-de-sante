@@ -28,8 +28,8 @@ Nomenclature des versants de la fonction publique
   "resourceType" : "CodeSystem",
   "id" : "tre-r361-fonction-publique",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-03-27T11:13:11+01:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-05-05T20:12:09+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-j335-activite-sanitaire-diverse-regulee-niv3-finess",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-05-05T09:32:54.711+02:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-05-05T19:02:17.815+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

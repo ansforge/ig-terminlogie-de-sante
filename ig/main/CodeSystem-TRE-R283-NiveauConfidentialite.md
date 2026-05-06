@@ -28,8 +28,8 @@ Niveau de restriction d’accès
   "resourceType" : "CodeSystem",
   "id" : "TRE-R283-NiveauConfidentialite",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2026-05-05T09:27:51.641+02:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-05-05T20:12:02.619+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J121-RolePriseCharge-ENREG",
   "meta" : {
-    "versionId" : "15",
-    "lastUpdated" : "2026-05-05T09:32:51.197+02:00",
+    "versionId" : "16",
+    "lastUpdated" : "2026-05-05T19:02:36.500+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",

@@ -28,8 +28,8 @@ Nomenclature des pratiques thérapeutiques spécifiques pour les activités de s
   "resourceType" : "CodeSystem",
   "id" : "tre-r384-pratique-therapeutique-specifique-act-de-soin-amm",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-03-27T11:13:13+01:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-05-05T20:12:15+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

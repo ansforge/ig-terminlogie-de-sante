@@ -55,9 +55,9 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J101-SecteurActivite-RASS",
   "meta" : {
-    "versionId" : "15",
-    "lastUpdated" : "2026-02-23T18:17:21.574+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+    "versionId" : "16",
+    "lastUpdated" : "2026-05-05T19:02:30.896+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
   "extension" : [{

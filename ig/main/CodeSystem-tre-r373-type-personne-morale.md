@@ -28,8 +28,8 @@ Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-
   "resourceType" : "CodeSystem",
   "id" : "tre-r373-type-personne-morale",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-05-05T09:27:56+02:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-05-05T20:12:12+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-j380-categorie-entite-geographique-exercice-rass",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2026-03-27T11:18:11.275+01:00",
+    "versionId" : "5",
+    "lastUpdated" : "2026-05-05T19:02:24.131+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

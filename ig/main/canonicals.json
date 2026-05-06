@@ -5128,7 +5128,7 @@
   "id" : "alignement-bdpm-cipucd",
   "type" : "ConceptMap",
   "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-bdpm-cipucd",
-  "version" : "2026-04",
+  "version" : "2026-05",
   "name" : "Alignement_Codes_Presentation_BDPM_CIPUCD"
 },
 {
@@ -9562,7 +9562,7 @@
   "id" : "terminologie-bdpm",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/terminologie-bdpm",
-  "version" : "2026-04-01",
+  "version" : "2026-05-05",
   "name" : "BDPM"
 },
 {
@@ -9669,7 +9669,7 @@
   "id" : "terminologie-sms",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/terminologie-sms",
-  "version" : "2026-04",
+  "version" : "2026-05",
   "name" : "Dictionnaire_SMS_Substance_Management_Services_",
   "oids" : ["2.16.840.1.113883.3.6905.2"]
 },

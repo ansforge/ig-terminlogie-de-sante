@@ -28,9 +28,9 @@ Sources d’information possible concernant l’installation de l’activité so
   "resourceType" : "CodeSystem",
   "id" : "TRE-R301-SourceInformationInstallation",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2026-02-23T17:57:23.228+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
+    "versionId" : "7",
+    "lastUpdated" : "2026-05-05T20:12:03.933+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",

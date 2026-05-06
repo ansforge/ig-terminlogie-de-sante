@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-j364-type-fermeture-pm-finess",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-05-05T09:32:57.910+02:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-05-05T19:02:20.271+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

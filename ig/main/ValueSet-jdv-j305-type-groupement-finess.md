@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-j305-type-groupement-finess",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-03-27T12:18:02+01:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-05-05T19:02:09+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-j368-categorie-etablissement-cisis",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2026-05-05T09:32:58.533+02:00",
+    "versionId" : "4",
+    "lastUpdated" : "2026-05-05T19:02:21.041+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
