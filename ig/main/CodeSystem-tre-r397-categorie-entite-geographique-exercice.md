@@ -42,8 +42,8 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
   "resourceType" : "CodeSystem",
   "id" : "tre-r397-categorie-entite-geographique-exercice",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2026-05-05T20:12:20.402+02:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-05-06T17:57:46.671+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -6866,7 +6866,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Etab.Acc.Mère-Enfant"
+      "value" : "Centre Parents–Enfants 0–3 ans"
     }],
     "property" : [{
       "code" : "niveau",

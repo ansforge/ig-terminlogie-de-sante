@@ -66,7 +66,7 @@ No Expansion for this valueset (Unknown Code System)
   "name" : "ValueSet_CIPUCD_All",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-06T11:42:28+00:00",
+  "date" : "2026-05-06T17:13:11+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ce jeu de valeurs inclut tous les codes concepts de la terminologie CIP-UCD",
   "jurisdiction" : [{

@@ -32,8 +32,8 @@ Catégorie d’établissements
   "resourceType" : "CodeSystem",
   "id" : "TRE-R66-CategorieEtablissement",
   "meta" : {
-    "versionId" : "24",
-    "lastUpdated" : "2026-05-05T20:12:27.884+02:00",
+    "versionId" : "25",
+    "lastUpdated" : "2026-05-06T17:57:47.986+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -1317,7 +1317,7 @@ Catégorie d’établissements
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Etab.Acc.Mère-Enfant"
+      "value" : "Centre Parents–Enfants 0–3 ans"
     }],
     "property" : [{
       "code" : "dateValid",
