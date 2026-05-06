@@ -111,3 +111,10 @@ Description: "Type de fermeture, codes provenant du FINESS pour les EJ et EG"
 * #PRO ^property[=].valueCode = #active
 * #PRO ^property[+].code = #TypeFermetureEgeFiness
 * #PRO ^property[=].valueBoolean = true
+* #PRE "Prévisionnelle" "Désigne la fermeture prévisionnelle d’un élément de l’organisation interne d’un établissement santé. L’utilisateur du référentiel ROR qui sélectionne cette valeur a alors la possibilité de renseigner une date de réouverture de l’élément en question."
+* #PRE ^property[0].code = #dateValid
+* #PRE ^property[=].valueDateTime = "2025-09-15T12:00:00+01:00"
+* #PRE ^property[+].code = #dateMaj
+* #PRE ^property[=].valueDateTime = "2025-10-16T12:00:00+01:00"
+* #PRE ^property[+].code = #status
+* #PRE ^property[=].valueCode = #active
