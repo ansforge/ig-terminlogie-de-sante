@@ -32,8 +32,8 @@ Type de fermeture, codes provenant du FINESS pour les EJ et EG
   "resourceType" : "CodeSystem",
   "id" : "TRE-R286-TypeFermeture",
   "meta" : {
-    "versionId" : "11",
-    "lastUpdated" : "2026-05-05T20:12:03.028+02:00",
+    "versionId" : "12",
+    "lastUpdated" : "2026-05-06T11:12:50.766+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -64,7 +64,7 @@ Type de fermeture, codes provenant du FINESS pour les EJ et EG
   "caseSensitive" : false,
   "valueSet" : "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture?vs",
   "content" : "complete",
-  "count" : 6,
+  "count" : 7,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -247,6 +247,23 @@ Type de fermeture, codes provenant du FINESS pour les EJ et EG
     {
       "code" : "TypeFermetureEgeFiness",
       "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "PRE",
+    "display" : "Prévisionnelle",
+    "definition" : "Désigne la fermeture prévisionnelle d’un élément de l’organisation interne d’un établissement santé. L’utilisateur du référentiel ROR qui sélectionne cette valeur a alors la possibilité de renseigner une date de réouverture de l’élément en question.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-09-15T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-10-16T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   }]
 }
