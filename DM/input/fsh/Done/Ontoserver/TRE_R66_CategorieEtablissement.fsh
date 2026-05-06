@@ -609,7 +609,7 @@ Description: "Catégorie d'établissements"
 * #166 ^designation[0].language = #fr-FR
 * #166 ^designation[=].use.system = "http://snomed.info/sct"
 * #166 ^designation[=].use = $sct#900000000000013009
-* #166 ^designation[=].value = "Etab.Acc.Mère-Enfant"
+* #166 ^designation[=].value = "Centre Parents–Enfants 0–3 ans"
 * #166 ^property[0].code = #dateValid
 * #166 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #166 ^property[+].code = #dateMaj
