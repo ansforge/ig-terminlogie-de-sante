@@ -1,9 +1,9 @@
 ValueSet: JDV_J172_SecteurActivite_EPARS
 Id: JDV-J172-SecteurActivite-EPARS
 Description: "Secteur d'activité pour EPARS"
-* ^meta.versionId = "10"
-* ^meta.lastUpdated = "2026-02-23T18:17:26.272+01:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^meta.versionId = "11"
+* ^meta.lastUpdated = "2026-05-05T19:02:41.012+02:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2021-06-25T12:00:00+01:00"
@@ -15,7 +15,7 @@ Description: "Secteur d'activité pour EPARS"
 * ^experimental = false
 * ^date = "2026-02-23T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R02-SecteurActivite#SA01 "Etablissement public de santé"
 * $TRE-R02-SecteurActivite#SA02 "Hôpital militaire du Service de santé des armées"
 * $TRE-R02-SecteurActivite#SA03 "Etablissement privé PSPH"

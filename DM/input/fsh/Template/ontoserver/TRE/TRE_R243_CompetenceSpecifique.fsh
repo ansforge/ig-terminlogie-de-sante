@@ -1,29 +1,34 @@
 CodeSystem: TRE_R243_CompetenceSpecifique
 Id: TRE-R243-CompetenceSpecifique
 Description: "Compétence spécifique"
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2025-07-02T18:16:27.410+00:00"
+* ^meta.versionId = "7"
+* ^meta.lastUpdated = "2026-05-05T20:11:58.790+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2017-10-13T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R243-CompetenceSpecifique/FHIR/TRE-R243-CompetenceSpecifique"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.37"
-* ^version = "20240426120000"
+* ^version = "20260330120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-04-26T12:00:00+01:00"
+* ^date = "2026-03-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
+* ^count = 62
 * ^property[0].code = #dateValid
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateMaj
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj"
 * ^property[=].description = "Date de mise à jour d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateFin
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin"
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #deprecationDate
@@ -603,6 +608,7 @@ Description: "Compétence spécifique"
 * #60 ^property[=].valueCode = #active
 * #61 "Conseiller conjugal et familial"
 * #61 ^designation[0].language = #fr-FR
+* #61 ^designation[=].use.system = "http://snomed.info/sct"
 * #61 ^designation[=].use = $sct#900000000000013009
 * #61 ^designation[=].value = "Conseiller conj. et familial"
 * #61 ^property[0].code = #dateValid
@@ -611,3 +617,13 @@ Description: "Compétence spécifique"
 * #61 ^property[=].valueDateTime = "2024-04-26T12:00:00+01:00"
 * #61 ^property[+].code = #status
 * #61 ^property[=].valueCode = #active
+* #62 "Maîtrise du Facile à Lire et à Comprendre (FALC)"
+* #62 ^designation[0].language = #fr-FR
+* #62 ^designation[=].use = $sct#900000000000013009
+* #62 ^designation[=].value = "Maîtrise du FALC"
+* #62 ^property[0].code = #dateValid
+* #62 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #62 ^property[+].code = #dateMaj
+* #62 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #62 ^property[+].code = #status
+* #62 ^property[=].valueCode = #active

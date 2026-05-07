@@ -1,8 +1,8 @@
 ValueSet: JDV_J112_SexeAdministratif_ENREG
 Id: JDV-J112-SexeAdministratif-ENREG
 Description: "Sexe administratif pour ENREG"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2025-07-02T17:04:47.747+00:00"
+* ^meta.versionId = "6"
+* ^meta.lastUpdated = "2026-03-27T12:18:01.483+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

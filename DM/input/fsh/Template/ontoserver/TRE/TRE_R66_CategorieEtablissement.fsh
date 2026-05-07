@@ -1,8 +1,8 @@
 CodeSystem: TRE_R66_CategorieEtablissement
 Id: TRE-R66-CategorieEtablissement
 Description: "Catégorie d'établissements"
-* ^meta.versionId = "21"
-* ^meta.lastUpdated = "2026-02-23T17:57:34.340+01:00"
+* ^meta.versionId = "25"
+* ^meta.lastUpdated = "2026-05-06T17:57:47.986+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,15 +10,15 @@ Description: "Catégorie d'établissements"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.8"
-* ^version = "20260223120000"
+* ^version = "20260505120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-02-23T12:00:00+01:00"
+* ^date = "2026-05-05T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 321
+* ^count = 322
 * ^property[0].code = #dateValid
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "Date de validité d'un code concept"
@@ -496,10 +496,14 @@ Description: "Catégorie d'établissements"
 * #159 "Centre Parental"
 * #159 ^property[0].code = #dateValid
 * #159 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #159 ^property[+].code = #dateFin
+* #159 ^property[=].valueDateTime = "2016-05-05T00:00:00+01:00"
 * #159 ^property[+].code = #dateMaj
-* #159 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #159 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
+* #159 ^property[+].code = #deprecationDate
+* #159 ^property[=].valueDateTime = "2026-05-05T00:00:00+01:00"
 * #159 ^property[+].code = #status
-* #159 ^property[=].valueCode = #active
+* #159 ^property[=].valueCode = #deprecated
 * #160 "Centre de Soins Spécifiques pour Toxicomanes (C.S.S.T.)"
 * #160 ^designation[0].language = #fr-FR
 * #160 ^designation[=].use.system = "http://snomed.info/sct"
@@ -606,11 +610,11 @@ Description: "Catégorie d'établissements"
 * #166 ^designation[0].language = #fr-FR
 * #166 ^designation[=].use.system = "http://snomed.info/sct"
 * #166 ^designation[=].use = $sct#900000000000013009
-* #166 ^designation[=].value = "Etab.Acc.Mère-Enfant"
+* #166 ^designation[=].value = "Centre Parents–Enfants 0–3 ans"
 * #166 ^property[0].code = #dateValid
 * #166 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #166 ^property[+].code = #dateMaj
-* #166 ^property[=].valueDateTime = "2026-02-23T00:00:00+01:00"
+* #166 ^property[=].valueDateTime = "2026-05-05T00:00:00+01:00"
 * #166 ^property[+].code = #status
 * #166 ^property[=].valueCode = #active
 * #167 "Crèche Collective"
@@ -1224,10 +1228,14 @@ Description: "Catégorie d'établissements"
 * #218 "Aire Station Nomades"
 * #218 ^property[0].code = #dateValid
 * #218 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
+* #218 ^property[+].code = #dateFin
+* #218 ^property[=].valueDateTime = "2026-03-30T00:00:00+01:00"
 * #218 ^property[+].code = #dateMaj
-* #218 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
+* #218 ^property[=].valueDateTime = "2026-03-30T00:00:00+01:00"
+* #218 ^property[+].code = #deprecationDate
+* #218 ^property[=].valueDateTime = "2026-03-30T00:00:00+01:00"
 * #218 ^property[+].code = #status
-* #218 ^property[=].valueCode = #active
+* #218 ^property[=].valueCode = #deprecated
 * #219 "Autre Centre d'Accueil"
 * #219 ^designation[0].language = #fr-FR
 * #219 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1246,8 +1254,12 @@ Description: "Catégorie d'établissements"
 * #220 ^designation[=].value = "Ctre.Social"
 * #220 ^property[0].code = #dateValid
 * #220 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
+* #220 ^property[+].code = #dateFin
+* #220 ^property[=].valueDateTime = "2026-03-30T00:00:00+01:00"
 * #220 ^property[+].code = #dateMaj
-* #220 ^property[=].valueDateTime = "1990-01-05T00:00:00+01:00"
+* #220 ^property[=].valueDateTime = "2026-03-30T00:00:00+01:00"
+* #220 ^property[+].code = #deprecationDate
+* #220 ^property[=].valueDateTime = "2026-03-30T00:00:00+01:00"
 * #220 ^property[+].code = #status
 * #220 ^property[=].valueCode = #deprecated
 * #221 "Bureau d'Aide Psychologique Universitaire (B.A.P.U.)"
@@ -1365,19 +1377,19 @@ Description: "Catégorie d'établissements"
 * #233 ^property[=].valueDateTime = "2015-03-04T00:00:00+01:00"
 * #233 ^property[+].code = #status
 * #233 ^property[=].valueCode = #deprecated
-* #236 "Centre Placement Familial Socio-Educatif (C.P.F.S.E.)"
+* #236 "Service de placement familial" "Le placement familial est, au sens strict du terme, un dispositif qui permet de prendre en charge un enfant dans une autre famille que la sienne, afin de résoudre une situation de danger le concernant. Remarque : Suite à une réunion avec l'ASE (DGCS), il a été décidé que le changement de nom de la catégorie Centre Placement Familial Socio-Educatif (C.P.F.S.E.)  en « Service de placement familial» (catégorie 236)."
 * #236 ^designation[0].language = #fr-FR
 * #236 ^designation[=].use.system = "http://snomed.info/sct"
 * #236 ^designation[=].use = $sct#900000000000013009
-* #236 ^designation[=].value = "C.P.F.S.E."
+* #236 ^designation[=].value = "S.P.F"
 * #236 ^designation[+].language = #fr-FR
 * #236 ^designation[=].use.system = "http://snomed.info/sct"
 * #236 ^designation[=].use = $sct#900000000000013009
-* #236 ^designation[=].value = "Centre de placement familial socio-éducatif (CPFSE)"
+* #236 ^designation[=].value = "Service de placement familial (SPF)"
 * #236 ^property[0].code = #dateValid
 * #236 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #236 ^property[+].code = #dateMaj
-* #236 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
+* #236 ^property[=].valueDateTime = "2026-05-05T00:00:00+01:00"
 * #236 ^property[+].code = #status
 * #236 ^property[=].valueCode = #active
 * #237 "Centre de Placement Familial Spécialisé"
@@ -1930,10 +1942,14 @@ Description: "Catégorie d'établissements"
 * #285 ^property[+].code = #status
 * #285 ^property[=].valueCode = #deprecated
 * #286 "Service de prévention spécialisée"
+* #286 ^designation[0].language = #fr-FR
+* #286 ^designation[=].use.system = "http://snomed.info/sct"
+* #286 ^designation[=].use = $sct#900000000000013009
+* #286 ^designation[=].value = "S.P.S."
 * #286 ^property[0].code = #dateValid
 * #286 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #286 ^property[+].code = #dateMaj
-* #286 ^property[=].valueDateTime = "2026-02-23T00:00:00+01:00"
+* #286 ^property[=].valueDateTime = "2026-03-30T00:00:00+01:00"
 * #286 ^property[+].code = #status
 * #286 ^property[=].valueCode = #active
 * #289 "Centre de Soins Infirmiers"
@@ -2326,10 +2342,14 @@ Description: "Catégorie d'établissements"
 * #324 ^designation[=].value = "Log.Foyer non Spéc."
 * #324 ^property[0].code = #dateValid
 * #324 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
+* #324 ^property[+].code = #dateFin
+* #324 ^property[=].valueDateTime = "2026-03-30T00:00:00+01:00"
 * #324 ^property[+].code = #dateMaj
-* #324 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
+* #324 ^property[=].valueDateTime = "2026-03-30T00:00:00+01:00"
+* #324 ^property[+].code = #deprecationDate
+* #324 ^property[=].valueDateTime = "2026-03-30T00:00:00+01:00"
 * #324 ^property[+].code = #status
-* #324 ^property[=].valueCode = #active
+* #324 ^property[=].valueCode = #deprecated
 * #326 "Ecole de cadres"
 * #326 ^property[0].code = #dateValid
 * #326 ^property[=].valueDateTime = "1901-01-01T00:00:00+01:00"
@@ -2483,10 +2503,14 @@ Description: "Catégorie d'établissements"
 * #345 ^designation[=].value = "Service de tutelle aux prestations sociales adultes"
 * #345 ^property[0].code = #dateValid
 * #345 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
+* #345 ^property[+].code = #dateFin
+* #345 ^property[=].valueDateTime = "2026-03-30T00:00:00+01:00"
 * #345 ^property[+].code = #dateMaj
-* #345 ^property[=].valueDateTime = "1979-01-23T00:00:00+01:00"
+* #345 ^property[=].valueDateTime = "2026-03-30T00:00:00+01:00"
+* #345 ^property[+].code = #deprecationDate
+* #345 ^property[=].valueDateTime = "2026-03-30T00:00:00+01:00"
 * #345 ^property[+].code = #status
-* #345 ^property[=].valueCode = #active
+* #345 ^property[=].valueCode = #deprecated
 * #346 "Service de Travailleuses Familiales"
 * #346 ^designation[0].language = #fr-FR
 * #346 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2629,10 +2653,14 @@ Description: "Catégorie d'établissements"
 * #359 ^designation[=].value = "Ctre.Circons.San.Soc"
 * #359 ^property[0].code = #dateValid
 * #359 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
+* #359 ^property[+].code = #dateFin
+* #359 ^property[=].valueDateTime = "2026-03-30T00:00:00+01:00"
 * #359 ^property[+].code = #dateMaj
-* #359 ^property[=].valueDateTime = "1979-01-23T00:00:00+01:00"
+* #359 ^property[=].valueDateTime = "2026-03-30T00:00:00+01:00"
+* #359 ^property[+].code = #deprecationDate
+* #359 ^property[=].valueDateTime = "2026-03-30T00:00:00+01:00"
 * #359 ^property[+].code = #status
-* #359 ^property[=].valueCode = #active
+* #359 ^property[=].valueCode = #deprecated
 * #361 "Centre de Cure Médicale"
 * #361 ^designation[0].language = #fr-FR
 * #361 ^designation[=].use.system = "http://snomed.info/sct"
@@ -3063,10 +3091,14 @@ Description: "Catégorie d'établissements"
 * #400 ^designation[=].value = "Ctre.Services Assoc."
 * #400 ^property[0].code = #dateValid
 * #400 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
+* #400 ^property[+].code = #dateFin
+* #400 ^property[=].valueDateTime = "2026-03-30T00:00:00+01:00"
 * #400 ^property[+].code = #dateMaj
-* #400 ^property[=].valueDateTime = "1982-11-19T00:00:00+01:00"
+* #400 ^property[=].valueDateTime = "2026-03-30T00:00:00+01:00"
+* #400 ^property[+].code = #deprecationDate
+* #400 ^property[=].valueDateTime = "2026-03-30T00:00:00+01:00"
 * #400 ^property[+].code = #status
-* #400 ^property[=].valueCode = #active
+* #400 ^property[=].valueCode = #deprecated
 * #401 "D.R.A.S.S."
 * #401 ^designation[0].language = #fr-FR
 * #401 ^designation[=].use.system = "http://snomed.info/sct"
@@ -3100,10 +3132,14 @@ Description: "Catégorie d'établissements"
 * #403 ^designation[=].value = "Serv.Soc.Spéc.Pol.Ca"
 * #403 ^property[0].code = #dateValid
 * #403 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
+* #403 ^property[+].code = #dateFin
+* #403 ^property[=].valueDateTime = "2026-03-30T00:00:00+01:00"
 * #403 ^property[+].code = #dateMaj
-* #403 ^property[=].valueDateTime = "1994-07-05T00:00:00+01:00"
+* #403 ^property[=].valueDateTime = "2026-03-30T00:00:00+01:00"
+* #403 ^property[+].code = #deprecationDate
+* #403 ^property[=].valueDateTime = "2026-03-30T00:00:00+01:00"
 * #403 ^property[+].code = #status
-* #403 ^property[=].valueCode = #active
+* #403 ^property[=].valueCode = #deprecated
 * #404 "Etablissement Acc.Collect.Parental Régulier & Occasionnel"
 * #404 ^designation[0].language = #fr-FR
 * #404 ^designation[=].use.system = "http://snomed.info/sct"
@@ -3130,10 +3166,14 @@ Description: "Catégorie d'établissements"
 * #405 ^designation[=].value = "Serv.Soc.Polyv.Sect."
 * #405 ^property[0].code = #dateValid
 * #405 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
+* #405 ^property[+].code = #dateFin
+* #405 ^property[=].valueDateTime = "2026-03-30T00:00:00+01:00"
 * #405 ^property[+].code = #dateMaj
-* #405 ^property[=].valueDateTime = "1982-12-08T00:00:00+01:00"
+* #405 ^property[=].valueDateTime = "2026-03-30T00:00:00+01:00"
+* #405 ^property[+].code = #deprecationDate
+* #405 ^property[=].valueDateTime = "2026-03-30T00:00:00+01:00"
 * #405 ^property[+].code = #status
-* #405 ^property[=].valueCode = #active
+* #405 ^property[=].valueCode = #deprecated
 * #411 "Intermédiaire de Placement Social"
 * #411 ^designation[0].language = #fr-FR
 * #411 ^designation[=].use.system = "http://snomed.info/sct"
@@ -4401,6 +4441,7 @@ Description: "Catégorie d'établissements"
 * #702 ^property[=].valueCode = #active
 * #703 "Espace Santé Jeunes (ESJ)"
 * #703 ^designation[0].language = #fr-FR
+* #703 ^designation[=].use.system = "http://snomed.info/sct"
 * #703 ^designation[=].use = $sct#900000000000013009
 * #703 ^designation[=].value = "ESJ"
 * #703 ^property[0].code = #dateValid
@@ -4416,3 +4457,13 @@ Description: "Catégorie d'établissements"
 * #704 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #704 ^property[+].code = #status
 * #704 ^property[=].valueCode = #active
+* #705 "Groupe d’Entraide Mutuelle (GEM)" "Catégorie créée à la demande du ROR. A date aucun enregistrement n'est prévu dans FINESS pour cette catégorie"
+* #705 ^designation[0].language = #fr-FR
+* #705 ^designation[=].use = $sct#900000000000013009
+* #705 ^designation[=].value = "GEM"
+* #705 ^property[0].code = #dateValid
+* #705 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #705 ^property[+].code = #dateMaj
+* #705 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #705 ^property[+].code = #status
+* #705 ^property[=].valueCode = #active

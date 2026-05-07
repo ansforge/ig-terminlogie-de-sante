@@ -1,9 +1,9 @@
 CodeSystem: TRE_R09_CategorieProfessionnelle
 Id: TRE-R09-CategorieProfessionnelle
 Description: "Catégorie professionnelle"
-* ^meta.versionId = "8"
-* ^meta.lastUpdated = "2026-02-23T17:57:20.237+01:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^meta.versionId = "9"
+* ^meta.lastUpdated = "2026-05-05T20:11:50.786+02:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2008-03-20T09:24:55+01:00"
@@ -15,7 +15,7 @@ Description: "Catégorie professionnelle"
 * ^experimental = false
 * ^date = "2026-02-23T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
 * ^count = 4

@@ -1,18 +1,19 @@
 CodeSystem: TRE_R338_ModaliteAccueil
 Id: TRE-R338-ModaliteAccueil
 Description: "Modalités d'accueil"
-* ^meta.versionId = "18"
-* ^meta.lastUpdated = "2025-12-22T10:46:44.090+01:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
+* ^meta.versionId = "20"
+* ^meta.lastUpdated = "2026-05-05T20:12:05.993+02:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2022-09-30T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R338-ModaliteAccueil/FHIR/TRE-R338-ModaliteAccueil"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.221"
-* ^version = "20251222120000"
+* ^version = "20260330120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-12-22T12:00:00+01:00"
+* ^date = "2026-03-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
@@ -193,11 +194,15 @@ Description: "Modalités d'accueil"
 * #17 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
 * #17 ^property[+].code = #status
 * #17 ^property[=].valueCode = #active
-* #18 "Intra-hospitalier"
+* #18 "Intra-hospitalier (dont équipe de liaison)"
+* #18 ^designation[0].language = #fr-FR
+* #18 ^designation[=].use.system = "http://snomed.info/sct"
+* #18 ^designation[=].use = $sct#900000000000013009
+* #18 ^designation[=].value = "Intra-hospitalier"
 * #18 ^property[0].code = #dateValid
 * #18 ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
 * #18 ^property[+].code = #dateMaj
-* #18 ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
+* #18 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #18 ^property[+].code = #status
 * #18 ^property[=].valueCode = #active
 * #19 "Extra-hospitalier"

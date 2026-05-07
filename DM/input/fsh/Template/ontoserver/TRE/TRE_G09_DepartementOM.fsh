@@ -1,8 +1,8 @@
 CodeSystem: TRE_G09_DepartementOM
 Id: TRE-G09-DepartementOM
 Description: "Référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco. Cette TRE possède des propriétés spécifiques : Autorite Epars, pour indiquer le/ les ARS du département (tre-r396-autorite) et region pour indiquer le code de la région du département (TRE-R30-RegionOM)"
-* ^meta.versionId = "10"
-* ^meta.lastUpdated = "2026-02-25T15:27:34.491+01:00"
+* ^meta.versionId = "12"
+* ^meta.lastUpdated = "2026-05-05T20:11:49.658+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,16 +10,16 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.71.1.2.16"
-* ^version = "20240628120000"
+* ^version = "20260505120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-06-28T12:00:00+01:00"
+* ^date = "2026-05-05T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^valueSet = "https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM?vs"
 * ^content = #complete
-* ^count = 113
+* ^count = 117
 * ^property[0].code = #dateValid
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
@@ -65,8 +65,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #01 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #01 ^property[=].valueCoding = $tre-r396-autorite#ARS-84
 * #01 ^property[+].code = #region
-* #01 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #01 ^property[=].valueCoding = $TRE-R30-RegionOM#84
+* #01 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #01 ^property[=].valueCoding = TRE_R30_RegionOM#84
 * #01 ^property[+].code = #status
 * #01 ^property[=].valueCode = #active
 * #02 "Aisne"
@@ -82,8 +82,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #02 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #02 ^property[=].valueCoding = $tre-r396-autorite#ARS-32
 * #02 ^property[+].code = #region
-* #02 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #02 ^property[=].valueCoding = $TRE-R30-RegionOM#32
+* #02 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #02 ^property[=].valueCoding = TRE_R30_RegionOM#32
 * #02 ^property[+].code = #status
 * #02 ^property[=].valueCode = #active
 * #03 "Allier"
@@ -99,8 +99,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #03 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #03 ^property[=].valueCoding = $tre-r396-autorite#ARS-84
 * #03 ^property[+].code = #region
-* #03 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #03 ^property[=].valueCoding = $TRE-R30-RegionOM#84
+* #03 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #03 ^property[=].valueCoding = TRE_R30_RegionOM#84
 * #03 ^property[+].code = #status
 * #03 ^property[=].valueCode = #active
 * #04 "Alpes-de-Haute-Provence"
@@ -120,8 +120,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #04 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #04 ^property[=].valueCoding = $tre-r396-autorite#ARS-93
 * #04 ^property[+].code = #region
-* #04 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #04 ^property[=].valueCoding = $TRE-R30-RegionOM#93
+* #04 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #04 ^property[=].valueCoding = TRE_R30_RegionOM#93
 * #04 ^property[+].code = #status
 * #04 ^property[=].valueCode = #active
 * #05 "Hautes-Alpes"
@@ -141,8 +141,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #05 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #05 ^property[=].valueCoding = $tre-r396-autorite#ARS-93
 * #05 ^property[+].code = #region
-* #05 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #05 ^property[=].valueCoding = $TRE-R30-RegionOM#93
+* #05 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #05 ^property[=].valueCoding = TRE_R30_RegionOM#93
 * #05 ^property[+].code = #status
 * #05 ^property[=].valueCode = #active
 * #06 "Alpes-Maritimes"
@@ -162,8 +162,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #06 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #06 ^property[=].valueCoding = $tre-r396-autorite#ARS-93
 * #06 ^property[+].code = #region
-* #06 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #06 ^property[=].valueCoding = $TRE-R30-RegionOM#93
+* #06 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #06 ^property[=].valueCoding = TRE_R30_RegionOM#93
 * #06 ^property[+].code = #status
 * #06 ^property[=].valueCode = #active
 * #07 "Ardèche"
@@ -183,8 +183,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #07 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #07 ^property[=].valueCoding = $tre-r396-autorite#ARS-84
 * #07 ^property[+].code = #region
-* #07 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #07 ^property[=].valueCoding = $TRE-R30-RegionOM#84
+* #07 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #07 ^property[=].valueCoding = TRE_R30_RegionOM#84
 * #07 ^property[+].code = #status
 * #07 ^property[=].valueCode = #active
 * #08 "Ardennes"
@@ -200,8 +200,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #08 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #08 ^property[=].valueCoding = $tre-r396-autorite#ARS-41
 * #08 ^property[+].code = #region
-* #08 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #08 ^property[=].valueCoding = $TRE-R30-RegionOM#44
+* #08 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #08 ^property[=].valueCoding = TRE_R30_RegionOM#44
 * #08 ^property[+].code = #status
 * #08 ^property[=].valueCode = #active
 * #09 "Ariège"
@@ -221,8 +221,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #09 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #09 ^property[=].valueCoding = $tre-r396-autorite#ARS-76
 * #09 ^property[+].code = #region
-* #09 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #09 ^property[=].valueCoding = $TRE-R30-RegionOM#76
+* #09 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #09 ^property[=].valueCoding = TRE_R30_RegionOM#76
 * #09 ^property[+].code = #status
 * #09 ^property[=].valueCode = #active
 * #10 "Aube"
@@ -238,8 +238,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #10 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #10 ^property[=].valueCoding = $tre-r396-autorite#ARS-41
 * #10 ^property[+].code = #region
-* #10 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #10 ^property[=].valueCoding = $TRE-R30-RegionOM#44
+* #10 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #10 ^property[=].valueCoding = TRE_R30_RegionOM#44
 * #10 ^property[+].code = #status
 * #10 ^property[=].valueCode = #active
 * #11 "Aude"
@@ -255,8 +255,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #11 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #11 ^property[=].valueCoding = $tre-r396-autorite#ARS-76
 * #11 ^property[+].code = #region
-* #11 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #11 ^property[=].valueCoding = $TRE-R30-RegionOM#76
+* #11 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #11 ^property[=].valueCoding = TRE_R30_RegionOM#76
 * #11 ^property[+].code = #status
 * #11 ^property[=].valueCode = #active
 * #12 "Aveyron"
@@ -272,8 +272,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #12 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #12 ^property[=].valueCoding = $tre-r396-autorite#ARS-76
 * #12 ^property[+].code = #region
-* #12 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #12 ^property[=].valueCoding = $TRE-R30-RegionOM#76
+* #12 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #12 ^property[=].valueCoding = TRE_R30_RegionOM#76
 * #12 ^property[+].code = #status
 * #12 ^property[=].valueCode = #active
 * #13 "Bouches-du-Rhône"
@@ -293,8 +293,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #13 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #13 ^property[=].valueCoding = $tre-r396-autorite#ARS-93
 * #13 ^property[+].code = #region
-* #13 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #13 ^property[=].valueCoding = $TRE-R30-RegionOM#93
+* #13 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #13 ^property[=].valueCoding = TRE_R30_RegionOM#93
 * #13 ^property[+].code = #status
 * #13 ^property[=].valueCode = #active
 * #14 "Calvados"
@@ -310,8 +310,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #14 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #14 ^property[=].valueCoding = $tre-r396-autorite#ARS-28
 * #14 ^property[+].code = #region
-* #14 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #14 ^property[=].valueCoding = $TRE-R30-RegionOM#28
+* #14 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #14 ^property[=].valueCoding = TRE_R30_RegionOM#28
 * #14 ^property[+].code = #status
 * #14 ^property[=].valueCode = #active
 * #15 "Cantal"
@@ -327,8 +327,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #15 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #15 ^property[=].valueCoding = $tre-r396-autorite#ARS-84
 * #15 ^property[+].code = #region
-* #15 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #15 ^property[=].valueCoding = $TRE-R30-RegionOM#84
+* #15 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #15 ^property[=].valueCoding = TRE_R30_RegionOM#84
 * #15 ^property[+].code = #status
 * #15 ^property[=].valueCode = #active
 * #16 "Charente"
@@ -344,8 +344,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #16 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #16 ^property[=].valueCoding = $tre-r396-autorite#ARS-75
 * #16 ^property[+].code = #region
-* #16 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #16 ^property[=].valueCoding = $TRE-R30-RegionOM#75
+* #16 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #16 ^property[=].valueCoding = TRE_R30_RegionOM#75
 * #16 ^property[+].code = #status
 * #16 ^property[=].valueCode = #active
 * #17 "Charente-Maritime"
@@ -365,8 +365,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #17 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #17 ^property[=].valueCoding = $tre-r396-autorite#ARS-75
 * #17 ^property[+].code = #region
-* #17 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #17 ^property[=].valueCoding = $TRE-R30-RegionOM#75
+* #17 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #17 ^property[=].valueCoding = TRE_R30_RegionOM#75
 * #17 ^property[+].code = #status
 * #17 ^property[=].valueCode = #active
 * #18 "Cher"
@@ -382,8 +382,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #18 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #18 ^property[=].valueCoding = $tre-r396-autorite#ARS-24
 * #18 ^property[+].code = #region
-* #18 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #18 ^property[=].valueCoding = $TRE-R30-RegionOM#24
+* #18 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #18 ^property[=].valueCoding = TRE_R30_RegionOM#24
 * #18 ^property[+].code = #status
 * #18 ^property[=].valueCode = #active
 * #19 "Corrèze"
@@ -403,8 +403,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #19 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #19 ^property[=].valueCoding = $tre-r396-autorite#ARS-75
 * #19 ^property[+].code = #region
-* #19 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #19 ^property[=].valueCoding = $TRE-R30-RegionOM#75
+* #19 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #19 ^property[=].valueCoding = TRE_R30_RegionOM#75
 * #19 ^property[+].code = #status
 * #19 ^property[=].valueCode = #active
 * #20 "Corse (Ancien Code)"
@@ -419,8 +419,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #20 ^property[+].code = #dateMaj
 * #20 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #20 ^property[+].code = #region
-* #20 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #20 ^property[=].valueCoding = $TRE-R30-RegionOM#94
+* #20 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #20 ^property[=].valueCoding = TRE_R30_RegionOM#94
 * #20 ^property[+].code = #status
 * #20 ^property[=].valueCode = #deprecated
 * #20 ^property[+].code = #deprecationDate
@@ -442,8 +442,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #21 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #21 ^property[=].valueCoding = $tre-r396-autorite#ARS-27
 * #21 ^property[+].code = #region
-* #21 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #21 ^property[=].valueCoding = $TRE-R30-RegionOM#27
+* #21 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #21 ^property[=].valueCoding = TRE_R30_RegionOM#27
 * #21 ^property[+].code = #status
 * #21 ^property[=].valueCode = #active
 * #22 "Côtes-d'Armor"
@@ -463,8 +463,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #22 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #22 ^property[=].valueCoding = $tre-r396-autorite#ARS-53
 * #22 ^property[+].code = #region
-* #22 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #22 ^property[=].valueCoding = $TRE-R30-RegionOM#53
+* #22 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #22 ^property[=].valueCoding = TRE_R30_RegionOM#53
 * #22 ^property[+].code = #status
 * #22 ^property[=].valueCode = #active
 * #23 "Creuse"
@@ -480,8 +480,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #23 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #23 ^property[=].valueCoding = $tre-r396-autorite#ARS-75
 * #23 ^property[+].code = #region
-* #23 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #23 ^property[=].valueCoding = $TRE-R30-RegionOM#75
+* #23 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #23 ^property[=].valueCoding = TRE_R30_RegionOM#75
 * #23 ^property[+].code = #status
 * #23 ^property[=].valueCode = #active
 * #24 "Dordogne"
@@ -497,8 +497,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #24 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #24 ^property[=].valueCoding = $tre-r396-autorite#ARS-75
 * #24 ^property[+].code = #region
-* #24 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #24 ^property[=].valueCoding = $TRE-R30-RegionOM#75
+* #24 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #24 ^property[=].valueCoding = TRE_R30_RegionOM#75
 * #24 ^property[+].code = #status
 * #24 ^property[=].valueCode = #active
 * #25 "Doubs"
@@ -514,8 +514,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #25 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #25 ^property[=].valueCoding = $tre-r396-autorite#ARS-27
 * #25 ^property[+].code = #region
-* #25 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #25 ^property[=].valueCoding = $TRE-R30-RegionOM#27
+* #25 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #25 ^property[=].valueCoding = TRE_R30_RegionOM#27
 * #25 ^property[+].code = #status
 * #25 ^property[=].valueCode = #active
 * #26 "Drôme"
@@ -535,8 +535,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #26 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #26 ^property[=].valueCoding = $tre-r396-autorite#ARS-84
 * #26 ^property[+].code = #region
-* #26 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #26 ^property[=].valueCoding = $TRE-R30-RegionOM#84
+* #26 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #26 ^property[=].valueCoding = TRE_R30_RegionOM#84
 * #26 ^property[+].code = #status
 * #26 ^property[=].valueCode = #active
 * #27 "Eure"
@@ -552,8 +552,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #27 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #27 ^property[=].valueCoding = $tre-r396-autorite#ARS-28
 * #27 ^property[+].code = #region
-* #27 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #27 ^property[=].valueCoding = $TRE-R30-RegionOM#28
+* #27 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #27 ^property[=].valueCoding = TRE_R30_RegionOM#28
 * #27 ^property[+].code = #status
 * #27 ^property[=].valueCode = #active
 * #28 "Eure-et-Loir"
@@ -573,8 +573,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #28 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #28 ^property[=].valueCoding = $tre-r396-autorite#ARS-24
 * #28 ^property[+].code = #region
-* #28 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #28 ^property[=].valueCoding = $TRE-R30-RegionOM#24
+* #28 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #28 ^property[=].valueCoding = TRE_R30_RegionOM#24
 * #28 ^property[+].code = #status
 * #28 ^property[=].valueCode = #active
 * #29 "Finistère"
@@ -594,8 +594,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #29 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #29 ^property[=].valueCoding = $tre-r396-autorite#ARS-53
 * #29 ^property[+].code = #region
-* #29 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #29 ^property[=].valueCoding = $TRE-R30-RegionOM#53
+* #29 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #29 ^property[=].valueCoding = TRE_R30_RegionOM#53
 * #29 ^property[+].code = #status
 * #29 ^property[=].valueCode = #active
 * #30 "Gard"
@@ -607,12 +607,9 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #30 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
 * #30 ^property[+].code = #dateMaj
 * #30 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
-* #30 ^property[+].code = #autoriteEpars
-* #30 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #30 ^property[=].valueCoding = $tre-r396-autorite#ARS-57
 * #30 ^property[+].code = #region
-* #30 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #30 ^property[=].valueCoding = $TRE-R30-RegionOM#76
+* #30 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #30 ^property[=].valueCoding = $tre-r396-autorite#76
 * #30 ^property[+].code = #status
 * #30 ^property[=].valueCode = #active
 * #31 "Haute-Garonne"
@@ -632,8 +629,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #31 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #31 ^property[=].valueCoding = $tre-r396-autorite#ARS-76
 * #31 ^property[+].code = #region
-* #31 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #31 ^property[=].valueCoding = $TRE-R30-RegionOM#76
+* #31 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #31 ^property[=].valueCoding = TRE_R30_RegionOM#76
 * #31 ^property[+].code = #status
 * #31 ^property[=].valueCode = #active
 * #32 "Gers"
@@ -649,8 +646,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #32 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #32 ^property[=].valueCoding = $tre-r396-autorite#ARS-76
 * #32 ^property[+].code = #region
-* #32 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #32 ^property[=].valueCoding = $TRE-R30-RegionOM#76
+* #32 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #32 ^property[=].valueCoding = TRE_R30_RegionOM#76
 * #32 ^property[+].code = #status
 * #32 ^property[=].valueCode = #active
 * #33 "Gironde"
@@ -666,8 +663,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #33 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #33 ^property[=].valueCoding = $tre-r396-autorite#ARS-75
 * #33 ^property[+].code = #region
-* #33 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #33 ^property[=].valueCoding = $TRE-R30-RegionOM#75
+* #33 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #33 ^property[=].valueCoding = TRE_R30_RegionOM#75
 * #33 ^property[+].code = #status
 * #33 ^property[=].valueCode = #active
 * #34 "Hérault"
@@ -687,8 +684,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #34 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #34 ^property[=].valueCoding = $tre-r396-autorite#ARS-76
 * #34 ^property[+].code = #region
-* #34 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #34 ^property[=].valueCoding = $TRE-R30-RegionOM#76
+* #34 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #34 ^property[=].valueCoding = TRE_R30_RegionOM#76
 * #34 ^property[+].code = #status
 * #34 ^property[=].valueCode = #active
 * #35 "Ille-et-Vilaine"
@@ -708,8 +705,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #35 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #35 ^property[=].valueCoding = $tre-r396-autorite#ARS-53
 * #35 ^property[+].code = #region
-* #35 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #35 ^property[=].valueCoding = $TRE-R30-RegionOM#53
+* #35 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #35 ^property[=].valueCoding = TRE_R30_RegionOM#53
 * #35 ^property[+].code = #status
 * #35 ^property[=].valueCode = #active
 * #36 "Indre"
@@ -725,8 +722,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #36 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #36 ^property[=].valueCoding = $tre-r396-autorite#ARS-24
 * #36 ^property[+].code = #region
-* #36 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #36 ^property[=].valueCoding = $TRE-R30-RegionOM#24
+* #36 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #36 ^property[=].valueCoding = TRE_R30_RegionOM#24
 * #36 ^property[+].code = #status
 * #36 ^property[=].valueCode = #active
 * #37 "Indre-et-Loire"
@@ -746,8 +743,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #37 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #37 ^property[=].valueCoding = $tre-r396-autorite#ARS-24
 * #37 ^property[+].code = #region
-* #37 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #37 ^property[=].valueCoding = $TRE-R30-RegionOM#24
+* #37 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #37 ^property[=].valueCoding = TRE_R30_RegionOM#24
 * #37 ^property[+].code = #status
 * #37 ^property[=].valueCode = #active
 * #38 "Isère"
@@ -767,8 +764,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #38 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #38 ^property[=].valueCoding = $tre-r396-autorite#ARS-84
 * #38 ^property[+].code = #region
-* #38 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #38 ^property[=].valueCoding = $TRE-R30-RegionOM#84
+* #38 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #38 ^property[=].valueCoding = TRE_R30_RegionOM#84
 * #38 ^property[+].code = #status
 * #38 ^property[=].valueCode = #active
 * #39 "Jura"
@@ -784,8 +781,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #39 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #39 ^property[=].valueCoding = $tre-r396-autorite#ARS-27
 * #39 ^property[+].code = #region
-* #39 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #39 ^property[=].valueCoding = $TRE-R30-RegionOM#27
+* #39 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #39 ^property[=].valueCoding = TRE_R30_RegionOM#27
 * #39 ^property[+].code = #status
 * #39 ^property[=].valueCode = #active
 * #40 "Landes"
@@ -801,8 +798,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #40 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #40 ^property[=].valueCoding = $tre-r396-autorite#ARS-75
 * #40 ^property[+].code = #region
-* #40 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #40 ^property[=].valueCoding = $TRE-R30-RegionOM#75
+* #40 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #40 ^property[=].valueCoding = TRE_R30_RegionOM#75
 * #40 ^property[+].code = #status
 * #40 ^property[=].valueCode = #active
 * #41 "Loir-et-Cher"
@@ -822,8 +819,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #41 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #41 ^property[=].valueCoding = $tre-r396-autorite#ARS-24
 * #41 ^property[+].code = #region
-* #41 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #41 ^property[=].valueCoding = $TRE-R30-RegionOM#24
+* #41 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #41 ^property[=].valueCoding = TRE_R30_RegionOM#24
 * #41 ^property[+].code = #status
 * #41 ^property[=].valueCode = #active
 * #42 "Loire"
@@ -839,8 +836,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #42 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #42 ^property[=].valueCoding = $tre-r396-autorite#ARS-84
 * #42 ^property[+].code = #region
-* #42 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #42 ^property[=].valueCoding = $TRE-R30-RegionOM#84
+* #42 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #42 ^property[=].valueCoding = TRE_R30_RegionOM#84
 * #42 ^property[+].code = #status
 * #42 ^property[=].valueCode = #active
 * #43 "Haute-Loire"
@@ -860,8 +857,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #43 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #43 ^property[=].valueCoding = $tre-r396-autorite#ARS-84
 * #43 ^property[+].code = #region
-* #43 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #43 ^property[=].valueCoding = $TRE-R30-RegionOM#84
+* #43 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #43 ^property[=].valueCoding = TRE_R30_RegionOM#84
 * #43 ^property[+].code = #status
 * #43 ^property[=].valueCode = #active
 * #44 "Loire-Atlantique"
@@ -881,8 +878,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #44 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #44 ^property[=].valueCoding = $tre-r396-autorite#ARS-52
 * #44 ^property[+].code = #region
-* #44 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #44 ^property[=].valueCoding = $TRE-R30-RegionOM#52
+* #44 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #44 ^property[=].valueCoding = TRE_R30_RegionOM#52
 * #44 ^property[+].code = #status
 * #44 ^property[=].valueCode = #active
 * #45 "Loiret"
@@ -898,8 +895,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #45 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #45 ^property[=].valueCoding = $tre-r396-autorite#ARS-24
 * #45 ^property[+].code = #region
-* #45 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #45 ^property[=].valueCoding = $TRE-R30-RegionOM#24
+* #45 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #45 ^property[=].valueCoding = TRE_R30_RegionOM#24
 * #45 ^property[+].code = #status
 * #45 ^property[=].valueCode = #active
 * #46 "Lot"
@@ -915,8 +912,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #46 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #46 ^property[=].valueCoding = $tre-r396-autorite#ARS-76
 * #46 ^property[+].code = #region
-* #46 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #46 ^property[=].valueCoding = $TRE-R30-RegionOM#76
+* #46 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #46 ^property[=].valueCoding = TRE_R30_RegionOM#76
 * #46 ^property[+].code = #status
 * #46 ^property[=].valueCode = #active
 * #47 "Lot-et-Garonne"
@@ -936,8 +933,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #47 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #47 ^property[=].valueCoding = $tre-r396-autorite#ARS-75
 * #47 ^property[+].code = #region
-* #47 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #47 ^property[=].valueCoding = $TRE-R30-RegionOM#75
+* #47 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #47 ^property[=].valueCoding = TRE_R30_RegionOM#75
 * #47 ^property[+].code = #status
 * #47 ^property[=].valueCode = #active
 * #48 "Lozère"
@@ -957,8 +954,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #48 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #48 ^property[=].valueCoding = $tre-r396-autorite#ARS-76
 * #48 ^property[+].code = #region
-* #48 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #48 ^property[=].valueCoding = $TRE-R30-RegionOM#76
+* #48 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #48 ^property[=].valueCoding = TRE_R30_RegionOM#76
 * #48 ^property[+].code = #status
 * #48 ^property[=].valueCode = #active
 * #49 "Maine-et-Loire"
@@ -978,8 +975,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #49 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #49 ^property[=].valueCoding = $tre-r396-autorite#ARS-52
 * #49 ^property[+].code = #region
-* #49 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #49 ^property[=].valueCoding = $TRE-R30-RegionOM#52
+* #49 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #49 ^property[=].valueCoding = TRE_R30_RegionOM#52
 * #49 ^property[+].code = #status
 * #49 ^property[=].valueCode = #active
 * #50 "Manche"
@@ -995,8 +992,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #50 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #50 ^property[=].valueCoding = $tre-r396-autorite#ARS-28
 * #50 ^property[+].code = #region
-* #50 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #50 ^property[=].valueCoding = $TRE-R30-RegionOM#28
+* #50 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #50 ^property[=].valueCoding = TRE_R30_RegionOM#28
 * #50 ^property[+].code = #status
 * #50 ^property[=].valueCode = #active
 * #51 "Marne"
@@ -1012,8 +1009,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #51 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #51 ^property[=].valueCoding = $tre-r396-autorite#ARS-41
 * #51 ^property[+].code = #region
-* #51 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #51 ^property[=].valueCoding = $TRE-R30-RegionOM#44
+* #51 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #51 ^property[=].valueCoding = TRE_R30_RegionOM#44
 * #51 ^property[+].code = #status
 * #51 ^property[=].valueCode = #active
 * #52 "Haute-Marne"
@@ -1033,8 +1030,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #52 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #52 ^property[=].valueCoding = $tre-r396-autorite#ARS-41
 * #52 ^property[+].code = #region
-* #52 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #52 ^property[=].valueCoding = $TRE-R30-RegionOM#44
+* #52 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #52 ^property[=].valueCoding = TRE_R30_RegionOM#44
 * #52 ^property[+].code = #status
 * #52 ^property[=].valueCode = #active
 * #53 "Mayenne"
@@ -1050,8 +1047,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #53 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #53 ^property[=].valueCoding = $tre-r396-autorite#ARS-52
 * #53 ^property[+].code = #region
-* #53 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #53 ^property[=].valueCoding = $TRE-R30-RegionOM#52
+* #53 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #53 ^property[=].valueCoding = TRE_R30_RegionOM#52
 * #53 ^property[+].code = #status
 * #53 ^property[=].valueCode = #active
 * #54 "Meurthe-et-Moselle"
@@ -1071,8 +1068,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #54 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #54 ^property[=].valueCoding = $tre-r396-autorite#ARS-41
 * #54 ^property[+].code = #region
-* #54 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #54 ^property[=].valueCoding = $TRE-R30-RegionOM#44
+* #54 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #54 ^property[=].valueCoding = TRE_R30_RegionOM#44
 * #54 ^property[+].code = #status
 * #54 ^property[=].valueCode = #active
 * #55 "Meuse"
@@ -1088,8 +1085,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #55 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #55 ^property[=].valueCoding = $tre-r396-autorite#ARS-41
 * #55 ^property[+].code = #region
-* #55 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #55 ^property[=].valueCoding = $TRE-R30-RegionOM#44
+* #55 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #55 ^property[=].valueCoding = TRE_R30_RegionOM#44
 * #55 ^property[+].code = #status
 * #55 ^property[=].valueCode = #active
 * #56 "Morbihan"
@@ -1105,8 +1102,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #56 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #56 ^property[=].valueCoding = $tre-r396-autorite#ARS-53
 * #56 ^property[+].code = #region
-* #56 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #56 ^property[=].valueCoding = $TRE-R30-RegionOM#53
+* #56 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #56 ^property[=].valueCoding = TRE_R30_RegionOM#53
 * #56 ^property[+].code = #status
 * #56 ^property[=].valueCode = #active
 * #57 "Moselle"
@@ -1122,8 +1119,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #57 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #57 ^property[=].valueCoding = $tre-r396-autorite#ARS-41
 * #57 ^property[+].code = #region
-* #57 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #57 ^property[=].valueCoding = $TRE-R30-RegionOM#44
+* #57 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #57 ^property[=].valueCoding = TRE_R30_RegionOM#44
 * #57 ^property[+].code = #status
 * #57 ^property[=].valueCode = #active
 * #58 "Nièvre"
@@ -1143,8 +1140,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #58 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #58 ^property[=].valueCoding = $tre-r396-autorite#ARS-27
 * #58 ^property[+].code = #region
-* #58 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #58 ^property[=].valueCoding = $TRE-R30-RegionOM#27
+* #58 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #58 ^property[=].valueCoding = TRE_R30_RegionOM#27
 * #58 ^property[+].code = #status
 * #58 ^property[=].valueCode = #active
 * #59 "Nord"
@@ -1160,8 +1157,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #59 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #59 ^property[=].valueCoding = $tre-r396-autorite#ARS-32
 * #59 ^property[+].code = #region
-* #59 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #59 ^property[=].valueCoding = $TRE-R30-RegionOM#32
+* #59 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #59 ^property[=].valueCoding = TRE_R30_RegionOM#32
 * #59 ^property[+].code = #status
 * #59 ^property[=].valueCode = #active
 * #60 "Oise"
@@ -1177,8 +1174,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #60 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #60 ^property[=].valueCoding = $tre-r396-autorite#ARS-32
 * #60 ^property[+].code = #region
-* #60 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #60 ^property[=].valueCoding = $TRE-R30-RegionOM#32
+* #60 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #60 ^property[=].valueCoding = TRE_R30_RegionOM#32
 * #60 ^property[+].code = #status
 * #60 ^property[=].valueCode = #active
 * #61 "Orne"
@@ -1194,8 +1191,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #61 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #61 ^property[=].valueCoding = $tre-r396-autorite#ARS-28
 * #61 ^property[+].code = #region
-* #61 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #61 ^property[=].valueCoding = $TRE-R30-RegionOM#28
+* #61 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #61 ^property[=].valueCoding = TRE_R30_RegionOM#28
 * #61 ^property[+].code = #status
 * #61 ^property[=].valueCode = #active
 * #62 "Pas-de-Calais"
@@ -1215,8 +1212,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #62 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #62 ^property[=].valueCoding = $tre-r396-autorite#ARS-32
 * #62 ^property[+].code = #region
-* #62 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #62 ^property[=].valueCoding = $TRE-R30-RegionOM#32
+* #62 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #62 ^property[=].valueCoding = TRE_R30_RegionOM#32
 * #62 ^property[+].code = #status
 * #62 ^property[=].valueCode = #active
 * #63 "Puy-de-Dôme"
@@ -1236,8 +1233,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #63 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #63 ^property[=].valueCoding = $tre-r396-autorite#ARS-84
 * #63 ^property[+].code = #region
-* #63 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #63 ^property[=].valueCoding = $TRE-R30-RegionOM#84
+* #63 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #63 ^property[=].valueCoding = TRE_R30_RegionOM#84
 * #63 ^property[+].code = #status
 * #63 ^property[=].valueCode = #active
 * #64 "Pyrénées-Atlantiques"
@@ -1257,8 +1254,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #64 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #64 ^property[=].valueCoding = $tre-r396-autorite#ARS-75
 * #64 ^property[+].code = #region
-* #64 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #64 ^property[=].valueCoding = $TRE-R30-RegionOM#75
+* #64 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #64 ^property[=].valueCoding = TRE_R30_RegionOM#75
 * #64 ^property[+].code = #status
 * #64 ^property[=].valueCode = #active
 * #65 "Hautes-Pyrénées"
@@ -1278,8 +1275,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #65 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #65 ^property[=].valueCoding = $tre-r396-autorite#ARS-76
 * #65 ^property[+].code = #region
-* #65 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #65 ^property[=].valueCoding = $TRE-R30-RegionOM#76
+* #65 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #65 ^property[=].valueCoding = TRE_R30_RegionOM#76
 * #65 ^property[+].code = #status
 * #65 ^property[=].valueCode = #active
 * #66 "Pyrénées-Orientales"
@@ -1299,8 +1296,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #66 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #66 ^property[=].valueCoding = $tre-r396-autorite#ARS-76
 * #66 ^property[+].code = #region
-* #66 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #66 ^property[=].valueCoding = $TRE-R30-RegionOM#76
+* #66 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #66 ^property[=].valueCoding = TRE_R30_RegionOM#76
 * #66 ^property[+].code = #status
 * #66 ^property[=].valueCode = #active
 * #67 "Bas-Rhin"
@@ -1320,8 +1317,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #67 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #67 ^property[=].valueCoding = $tre-r396-autorite#ARS-41
 * #67 ^property[+].code = #region
-* #67 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #67 ^property[=].valueCoding = $TRE-R30-RegionOM#44
+* #67 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #67 ^property[=].valueCoding = TRE_R30_RegionOM#44
 * #67 ^property[+].code = #status
 * #67 ^property[=].valueCode = #active
 * #68 "Haut-Rhin"
@@ -1341,8 +1338,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #68 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #68 ^property[=].valueCoding = $tre-r396-autorite#ARS-41
 * #68 ^property[+].code = #region
-* #68 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #68 ^property[=].valueCoding = $TRE-R30-RegionOM#44
+* #68 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #68 ^property[=].valueCoding = TRE_R30_RegionOM#44
 * #68 ^property[+].code = #status
 * #68 ^property[=].valueCode = #active
 * #69 "Rhône"
@@ -1362,8 +1359,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #69 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #69 ^property[=].valueCoding = $tre-r396-autorite#ARS-84
 * #69 ^property[+].code = #region
-* #69 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #69 ^property[=].valueCoding = $TRE-R30-RegionOM#84
+* #69 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #69 ^property[=].valueCoding = TRE_R30_RegionOM#84
 * #69 ^property[+].code = #status
 * #69 ^property[=].valueCode = #active
 * #70 "Haute-Saône"
@@ -1383,8 +1380,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #70 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #70 ^property[=].valueCoding = $tre-r396-autorite#ARS-27
 * #70 ^property[+].code = #region
-* #70 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #70 ^property[=].valueCoding = $TRE-R30-RegionOM#27
+* #70 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #70 ^property[=].valueCoding = TRE_R30_RegionOM#27
 * #70 ^property[+].code = #status
 * #70 ^property[=].valueCode = #active
 * #71 "Saône-et-Loire"
@@ -1404,8 +1401,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #71 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #71 ^property[=].valueCoding = $tre-r396-autorite#ARS-27
 * #71 ^property[+].code = #region
-* #71 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #71 ^property[=].valueCoding = $TRE-R30-RegionOM#27
+* #71 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #71 ^property[=].valueCoding = TRE_R30_RegionOM#27
 * #71 ^property[+].code = #status
 * #71 ^property[=].valueCode = #active
 * #72 "Sarthe"
@@ -1421,8 +1418,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #72 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #72 ^property[=].valueCoding = $tre-r396-autorite#ARS-52
 * #72 ^property[+].code = #region
-* #72 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #72 ^property[=].valueCoding = $TRE-R30-RegionOM#52
+* #72 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #72 ^property[=].valueCoding = TRE_R30_RegionOM#52
 * #72 ^property[+].code = #status
 * #72 ^property[=].valueCode = #active
 * #73 "Savoie"
@@ -1438,8 +1435,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #73 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #73 ^property[=].valueCoding = $tre-r396-autorite#ARS-84
 * #73 ^property[+].code = #region
-* #73 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #73 ^property[=].valueCoding = $TRE-R30-RegionOM#84
+* #73 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #73 ^property[=].valueCoding = TRE_R30_RegionOM#84
 * #73 ^property[+].code = #status
 * #73 ^property[=].valueCode = #active
 * #74 "Haute-Savoie"
@@ -1459,8 +1456,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #74 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #74 ^property[=].valueCoding = $tre-r396-autorite#ARS-84
 * #74 ^property[+].code = #region
-* #74 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #74 ^property[=].valueCoding = $TRE-R30-RegionOM#84
+* #74 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #74 ^property[=].valueCoding = TRE_R30_RegionOM#84
 * #74 ^property[+].code = #status
 * #74 ^property[=].valueCode = #active
 * #75 "Paris"
@@ -1476,8 +1473,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #75 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #75 ^property[=].valueCoding = $tre-r396-autorite#ARS-11
 * #75 ^property[+].code = #region
-* #75 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #75 ^property[=].valueCoding = $TRE-R30-RegionOM#11
+* #75 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #75 ^property[=].valueCoding = TRE_R30_RegionOM#11
 * #75 ^property[+].code = #status
 * #75 ^property[=].valueCode = #active
 * #76 "Seine-Maritime"
@@ -1497,8 +1494,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #76 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #76 ^property[=].valueCoding = $tre-r396-autorite#ARS-28
 * #76 ^property[+].code = #region
-* #76 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #76 ^property[=].valueCoding = $TRE-R30-RegionOM#28
+* #76 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #76 ^property[=].valueCoding = TRE_R30_RegionOM#28
 * #76 ^property[+].code = #status
 * #76 ^property[=].valueCode = #active
 * #77 "Seine-et-Marne"
@@ -1518,8 +1515,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #77 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #77 ^property[=].valueCoding = $tre-r396-autorite#ARS-11
 * #77 ^property[+].code = #region
-* #77 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #77 ^property[=].valueCoding = $TRE-R30-RegionOM#11
+* #77 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #77 ^property[=].valueCoding = TRE_R30_RegionOM#11
 * #77 ^property[+].code = #status
 * #77 ^property[=].valueCode = #active
 * #78 "Yvelines"
@@ -1535,8 +1532,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #78 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #78 ^property[=].valueCoding = $tre-r396-autorite#ARS-11
 * #78 ^property[+].code = #region
-* #78 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #78 ^property[=].valueCoding = $TRE-R30-RegionOM#11
+* #78 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #78 ^property[=].valueCoding = TRE_R30_RegionOM#11
 * #78 ^property[+].code = #status
 * #78 ^property[=].valueCode = #active
 * #79 "Deux-Sèvres"
@@ -1556,8 +1553,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #79 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #79 ^property[=].valueCoding = $tre-r396-autorite#ARS-75
 * #79 ^property[+].code = #region
-* #79 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #79 ^property[=].valueCoding = $TRE-R30-RegionOM#75
+* #79 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #79 ^property[=].valueCoding = TRE_R30_RegionOM#75
 * #79 ^property[+].code = #status
 * #79 ^property[=].valueCode = #active
 * #80 "Somme"
@@ -1573,8 +1570,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #80 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #80 ^property[=].valueCoding = $tre-r396-autorite#ARS-32
 * #80 ^property[+].code = #region
-* #80 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #80 ^property[=].valueCoding = $TRE-R30-RegionOM#32
+* #80 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #80 ^property[=].valueCoding = TRE_R30_RegionOM#32
 * #80 ^property[+].code = #status
 * #80 ^property[=].valueCode = #active
 * #81 "Tarn"
@@ -1590,8 +1587,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #81 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #81 ^property[=].valueCoding = $tre-r396-autorite#ARS-76
 * #81 ^property[+].code = #region
-* #81 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #81 ^property[=].valueCoding = $TRE-R30-RegionOM#76
+* #81 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #81 ^property[=].valueCoding = TRE_R30_RegionOM#76
 * #81 ^property[+].code = #status
 * #81 ^property[=].valueCode = #active
 * #82 "Tarn-et-Garonne"
@@ -1611,8 +1608,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #82 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #82 ^property[=].valueCoding = $tre-r396-autorite#ARS-76
 * #82 ^property[+].code = #region
-* #82 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #82 ^property[=].valueCoding = $TRE-R30-RegionOM#76
+* #82 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #82 ^property[=].valueCoding = TRE_R30_RegionOM#76
 * #82 ^property[+].code = #status
 * #82 ^property[=].valueCode = #active
 * #83 "Var"
@@ -1628,8 +1625,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #83 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #83 ^property[=].valueCoding = $tre-r396-autorite#ARS-93
 * #83 ^property[+].code = #region
-* #83 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #83 ^property[=].valueCoding = $TRE-R30-RegionOM#93
+* #83 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #83 ^property[=].valueCoding = TRE_R30_RegionOM#93
 * #83 ^property[+].code = #status
 * #83 ^property[=].valueCode = #active
 * #84 "Vaucluse"
@@ -1645,8 +1642,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #84 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #84 ^property[=].valueCoding = $tre-r396-autorite#ARS-93
 * #84 ^property[+].code = #region
-* #84 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #84 ^property[=].valueCoding = $TRE-R30-RegionOM#93
+* #84 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #84 ^property[=].valueCoding = TRE_R30_RegionOM#93
 * #84 ^property[+].code = #status
 * #84 ^property[=].valueCode = #active
 * #85 "Vendée"
@@ -1666,8 +1663,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #85 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #85 ^property[=].valueCoding = $tre-r396-autorite#ARS-52
 * #85 ^property[+].code = #region
-* #85 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #85 ^property[=].valueCoding = $TRE-R30-RegionOM#52
+* #85 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #85 ^property[=].valueCoding = TRE_R30_RegionOM#52
 * #85 ^property[+].code = #status
 * #85 ^property[=].valueCode = #active
 * #86 "Vienne"
@@ -1683,8 +1680,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #86 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #86 ^property[=].valueCoding = $tre-r396-autorite#ARS-75
 * #86 ^property[+].code = #region
-* #86 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #86 ^property[=].valueCoding = $TRE-R30-RegionOM#75
+* #86 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #86 ^property[=].valueCoding = TRE_R30_RegionOM#75
 * #86 ^property[+].code = #status
 * #86 ^property[=].valueCode = #active
 * #87 "Haute-Vienne"
@@ -1704,8 +1701,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #87 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #87 ^property[=].valueCoding = $tre-r396-autorite#ARS-75
 * #87 ^property[+].code = #region
-* #87 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #87 ^property[=].valueCoding = $TRE-R30-RegionOM#75
+* #87 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #87 ^property[=].valueCoding = TRE_R30_RegionOM#75
 * #87 ^property[+].code = #status
 * #87 ^property[=].valueCode = #active
 * #88 "Vosges"
@@ -1721,8 +1718,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #88 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #88 ^property[=].valueCoding = $tre-r396-autorite#ARS-41
 * #88 ^property[+].code = #region
-* #88 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #88 ^property[=].valueCoding = $TRE-R30-RegionOM#44
+* #88 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #88 ^property[=].valueCoding = TRE_R30_RegionOM#44
 * #88 ^property[+].code = #status
 * #88 ^property[=].valueCode = #active
 * #89 "Yonne"
@@ -1738,8 +1735,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #89 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #89 ^property[=].valueCoding = $tre-r396-autorite#ARS-27
 * #89 ^property[+].code = #region
-* #89 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #89 ^property[=].valueCoding = $TRE-R30-RegionOM#27
+* #89 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #89 ^property[=].valueCoding = TRE_R30_RegionOM#27
 * #89 ^property[+].code = #status
 * #89 ^property[=].valueCode = #active
 * #90 "Territoire de Belfort"
@@ -1755,8 +1752,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #90 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #90 ^property[=].valueCoding = $tre-r396-autorite#ARS-27
 * #90 ^property[+].code = #region
-* #90 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #90 ^property[=].valueCoding = $TRE-R30-RegionOM#27
+* #90 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #90 ^property[=].valueCoding = TRE_R30_RegionOM#27
 * #90 ^property[+].code = #status
 * #90 ^property[=].valueCode = #active
 * #91 "Essonne"
@@ -1772,8 +1769,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #91 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #91 ^property[=].valueCoding = $tre-r396-autorite#ARS-11
 * #91 ^property[+].code = #region
-* #91 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #91 ^property[=].valueCoding = $TRE-R30-RegionOM#11
+* #91 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #91 ^property[=].valueCoding = TRE_R30_RegionOM#11
 * #91 ^property[+].code = #status
 * #91 ^property[=].valueCode = #active
 * #92 "Hauts-de-Seine"
@@ -1793,8 +1790,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #92 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #92 ^property[=].valueCoding = $tre-r396-autorite#ARS-11
 * #92 ^property[+].code = #region
-* #92 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #92 ^property[=].valueCoding = $TRE-R30-RegionOM#11
+* #92 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #92 ^property[=].valueCoding = TRE_R30_RegionOM#11
 * #92 ^property[+].code = #status
 * #92 ^property[=].valueCode = #active
 * #93 "Seine-Saint-Denis"
@@ -1814,8 +1811,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #93 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #93 ^property[=].valueCoding = $tre-r396-autorite#ARS-11
 * #93 ^property[+].code = #region
-* #93 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #93 ^property[=].valueCoding = $TRE-R30-RegionOM#11
+* #93 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #93 ^property[=].valueCoding = TRE_R30_RegionOM#11
 * #93 ^property[+].code = #status
 * #93 ^property[=].valueCode = #active
 * #94 "Val-de-Marne"
@@ -1835,8 +1832,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #94 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #94 ^property[=].valueCoding = $tre-r396-autorite#ARS-11
 * #94 ^property[+].code = #region
-* #94 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #94 ^property[=].valueCoding = $TRE-R30-RegionOM#11
+* #94 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #94 ^property[=].valueCoding = TRE_R30_RegionOM#11
 * #94 ^property[+].code = #status
 * #94 ^property[=].valueCode = #active
 * #95 "Val-d'Oise"
@@ -1856,8 +1853,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #95 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #95 ^property[=].valueCoding = $tre-r396-autorite#ARS-11
 * #95 ^property[+].code = #region
-* #95 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #95 ^property[=].valueCoding = $TRE-R30-RegionOM#11
+* #95 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #95 ^property[=].valueCoding = TRE_R30_RegionOM#11
 * #95 ^property[+].code = #status
 * #95 ^property[=].valueCode = #active
 * #971 "Guadeloupe"
@@ -1873,8 +1870,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #971 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #971 ^property[=].valueCoding = $tre-r396-autorite#ARS-01
 * #971 ^property[+].code = #region
-* #971 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #971 ^property[=].valueCoding = $TRE-R30-RegionOM#01
+* #971 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #971 ^property[=].valueCoding = TRE_R30_RegionOM#01
 * #971 ^property[+].code = #status
 * #971 ^property[=].valueCode = #active
 * #972 "Martinique"
@@ -1890,8 +1887,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #972 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #972 ^property[=].valueCoding = $tre-r396-autorite#ARS-02
 * #972 ^property[+].code = #region
-* #972 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #972 ^property[=].valueCoding = $TRE-R30-RegionOM#02
+* #972 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #972 ^property[=].valueCoding = TRE_R30_RegionOM#02
 * #972 ^property[+].code = #status
 * #972 ^property[=].valueCode = #active
 * #973 "Guyane"
@@ -1907,8 +1904,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #973 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #973 ^property[=].valueCoding = $tre-r396-autorite#ARS-03
 * #973 ^property[+].code = #region
-* #973 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #973 ^property[=].valueCoding = $TRE-R30-RegionOM#03
+* #973 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #973 ^property[=].valueCoding = TRE_R30_RegionOM#03
 * #973 ^property[+].code = #status
 * #973 ^property[=].valueCode = #active
 * #974 "La Réunion"
@@ -1928,8 +1925,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #974 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #974 ^property[=].valueCoding = $tre-r396-autorite#ARS-05
 * #974 ^property[+].code = #region
-* #974 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #974 ^property[=].valueCoding = $TRE-R30-RegionOM#04
+* #974 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #974 ^property[=].valueCoding = TRE_R30_RegionOM#04
 * #974 ^property[+].code = #status
 * #974 ^property[=].valueCode = #active
 * #975 "Saint-Pierre-et-Miquelon"
@@ -1942,7 +1939,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #975 ^property[+].code = #dateMaj
 * #975 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #975 ^property[+].code = #region
-* #975 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
+* #975 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #975 ^property[=].valueCoding = $tre-r396-autorite#975
 * #975 ^property[+].code = #status
 * #975 ^property[=].valueCode = #active
@@ -1955,12 +1952,9 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #976 ^property[=].valueDateTime = "2008-01-01T00:00:00+01:00"
 * #976 ^property[+].code = #dateMaj
 * #976 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
-* #976 ^property[+].code = #autoriteEpars
-* #976 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
-* #976 ^property[=].valueCoding = $tre-r396-autorite#ARS-86
 * #976 ^property[+].code = #region
-* #976 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #976 ^property[=].valueCoding = $TRE-R30-RegionOM#06
+* #976 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #976 ^property[=].valueCoding = $tre-r396-autorite#06
 * #976 ^property[+].code = #status
 * #976 ^property[=].valueCode = #active
 * #977 "Saint-Barthélemy"
@@ -1980,8 +1974,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #977 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #977 ^property[=].valueCoding = $tre-r396-autorite#ARS-01
 * #977 ^property[+].code = #region
-* #977 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #977 ^property[=].valueCoding = $TRE-R30-RegionOM#977
+* #977 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #977 ^property[=].valueCoding = TRE_R30_RegionOM#977
 * #977 ^property[+].code = #status
 * #977 ^property[=].valueCode = #active
 * #978 "Saint-Martin"
@@ -2001,8 +1995,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #978 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #978 ^property[=].valueCoding = $tre-r396-autorite#ARS-01
 * #978 ^property[+].code = #region
-* #978 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #978 ^property[=].valueCoding = $TRE-R30-RegionOM#978
+* #978 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #978 ^property[=].valueCoding = TRE_R30_RegionOM#978
 * #978 ^property[+].code = #status
 * #978 ^property[=].valueCode = #active
 * #984 "Terres australes et antarctiques françaises"
@@ -2019,7 +2013,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #984 ^property[+].code = #dateMaj
 * #984 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #984 ^property[+].code = #region
-* #984 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
+* #984 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #984 ^property[=].valueCoding = $tre-r396-autorite#984
 * #984 ^property[+].code = #status
 * #984 ^property[=].valueCode = #active
@@ -2035,8 +2029,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #985 ^property[+].code = #dateMaj
 * #985 ^property[=].valueDateTime = "2009-10-23T00:00:00+01:00"
 * #985 ^property[+].code = #region
-* #985 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #985 ^property[=].valueCoding = $TRE-R30-RegionOM#985
+* #985 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #985 ^property[=].valueCoding = TRE_R30_RegionOM#985
 * #985 ^property[+].code = #status
 * #985 ^property[=].valueCode = #deprecated
 * #985 ^property[+].code = #deprecationDate
@@ -2055,7 +2049,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #986 ^property[+].code = #dateMaj
 * #986 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #986 ^property[+].code = #region
-* #986 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
+* #986 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #986 ^property[=].valueCoding = $tre-r396-autorite#986
 * #986 ^property[+].code = #status
 * #986 ^property[=].valueCode = #active
@@ -2073,7 +2067,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #987 ^property[+].code = #dateMaj
 * #987 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #987 ^property[+].code = #region
-* #987 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
+* #987 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #987 ^property[=].valueCoding = $tre-r396-autorite#987
 * #987 ^property[+].code = #status
 * #987 ^property[=].valueCode = #active
@@ -2091,7 +2085,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #988 ^property[+].code = #dateMaj
 * #988 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #988 ^property[+].code = #region
-* #988 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
+* #988 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #988 ^property[=].valueCoding = $tre-r396-autorite#988
 * #988 ^property[+].code = #status
 * #988 ^property[=].valueCode = #active
@@ -2109,10 +2103,70 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #989 ^property[+].code = #dateMaj
 * #989 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #989 ^property[+].code = #region
-* #989 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
+* #989 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #989 ^property[=].valueCoding = $tre-r396-autorite#989
 * #989 ^property[+].code = #status
 * #989 ^property[=].valueCode = #active
+* #91352 "Alger"
+* #91352 ^designation[0].language = #fr-FR
+* #91352 ^designation[=].use.system = "http://snomed.info/sct"
+* #91352 ^designation[=].use = $sct#900000000000013009
+* #91352 ^designation[=].value = "Alger (91352)"
+* #91352 ^property[0].code = #dateValid
+* #91352 ^property[=].valueDateTime = "1943-01-01T00:00:00+01:00"
+* #91352 ^property[+].code = #dateFin
+* #91352 ^property[=].valueDateTime = "1962-07-05T00:00:00+01:00"
+* #91352 ^property[+].code = #dateMaj
+* #91352 ^property[=].valueDateTime = "1962-07-05T00:00:00+01:00"
+* #91352 ^property[+].code = #status
+* #91352 ^property[=].valueCode = #deprecated
+* #91352 ^property[+].code = #deprecationDate
+* #91352 ^property[=].valueDateTime = "1962-07-05T00:00:00+01:00"
+* #92352 "Oran"
+* #92352 ^designation[0].language = #fr-FR
+* #92352 ^designation[=].use.system = "http://snomed.info/sct"
+* #92352 ^designation[=].use = $sct#900000000000013009
+* #92352 ^designation[=].value = "Oran (92352)"
+* #92352 ^property[0].code = #dateValid
+* #92352 ^property[=].valueDateTime = "1943-01-01T00:00:00+01:00"
+* #92352 ^property[+].code = #dateFin
+* #92352 ^property[=].valueDateTime = "1962-07-05T00:00:00+01:00"
+* #92352 ^property[+].code = #dateMaj
+* #92352 ^property[=].valueDateTime = "1962-07-05T00:00:00+01:00"
+* #92352 ^property[+].code = #status
+* #92352 ^property[=].valueCode = #deprecated
+* #92352 ^property[+].code = #deprecationDate
+* #92352 ^property[=].valueDateTime = "1962-07-05T00:00:00+01:00"
+* #93352 "Constantine"
+* #93352 ^designation[0].language = #fr-FR
+* #93352 ^designation[=].use.system = "http://snomed.info/sct"
+* #93352 ^designation[=].use = $sct#900000000000013009
+* #93352 ^designation[=].value = "Constantine (93352)"
+* #93352 ^property[0].code = #dateValid
+* #93352 ^property[=].valueDateTime = "1943-01-01T00:00:00+01:00"
+* #93352 ^property[+].code = #dateFin
+* #93352 ^property[=].valueDateTime = "1962-07-05T00:00:00+01:00"
+* #93352 ^property[+].code = #dateMaj
+* #93352 ^property[=].valueDateTime = "1962-07-05T00:00:00+01:00"
+* #93352 ^property[+].code = #status
+* #93352 ^property[=].valueCode = #deprecated
+* #93352 ^property[+].code = #deprecationDate
+* #93352 ^property[=].valueDateTime = "1962-07-05T00:00:00+01:00"
+* #94352 "Territoires du sud de l'Algérie"
+* #94352 ^designation[0].language = #fr-FR
+* #94352 ^designation[=].use.system = "http://snomed.info/sct"
+* #94352 ^designation[=].use = $sct#900000000000013009
+* #94352 ^designation[=].value = "Territoires du sud de l'Algérie (94352)"
+* #94352 ^property[0].code = #dateValid
+* #94352 ^property[=].valueDateTime = "1943-01-01T00:00:00+01:00"
+* #94352 ^property[+].code = #dateFin
+* #94352 ^property[=].valueDateTime = "1962-07-05T00:00:00+01:00"
+* #94352 ^property[+].code = #dateMaj
+* #94352 ^property[=].valueDateTime = "1962-07-05T00:00:00+01:00"
+* #94352 ^property[+].code = #status
+* #94352 ^property[=].valueCode = #deprecated
+* #94352 ^property[+].code = #deprecationDate
+* #94352 ^property[=].valueDateTime = "1962-07-05T00:00:00+01:00"
 * #98000 "Monaco"
 * #98000 ^designation[0].language = #fr-FR
 * #98000 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2125,8 +2179,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #98000 ^property[+].code = #dateMaj
 * #98000 ^property[=].valueDateTime = "2016-02-05T00:00:00+01:00"
 * #98000 ^property[+].code = #region
-* #98000 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #98000 ^property[=].valueCoding = $TRE-R30-RegionOM#980
+* #98000 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #98000 ^property[=].valueCoding = TRE_R30_RegionOM#980
 * #98000 ^property[+].code = #status
 * #98000 ^property[=].valueCode = #deprecated
 * #98000 ^property[+].code = #deprecationDate
@@ -2145,7 +2199,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #99138 ^property[+].code = #dateMaj
 * #99138 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #99138 ^property[+].code = #region
-* #99138 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
+* #99138 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
 * #99138 ^property[=].valueCoding = $tre-r396-autorite#99138
 * #99138 ^property[+].code = #status
 * #99138 ^property[=].valueCode = #active
@@ -2166,8 +2220,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #2A ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
 * #2A ^property[=].valueCoding = $tre-r396-autorite#ARS-94
 * #2A ^property[+].code = #region
-* #2A ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #2A ^property[=].valueCoding = $TRE-R30-RegionOM#94
+* #2A ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+* #2A ^property[=].valueCoding = TRE_R30_RegionOM#94
 * #2A ^property[+].code = #status
 * #2A ^property[=].valueCode = #active
 * #2B "Haute-Corse"
@@ -2184,6 +2238,6 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #2B ^property[+].code = #autoriteEpars
 * #2B ^property[=].valueCoding = $tre-r396-autorite#ARS-94
 * #2B ^property[+].code = #region
-* #2B ^property[=].valueCoding = $TRE-R30-RegionOM#94
+* #2B ^property[=].valueCoding = TRE_R30_RegionOM#94
 * #2B ^property[+].code = #status
 * #2B ^property[=].valueCode = #active

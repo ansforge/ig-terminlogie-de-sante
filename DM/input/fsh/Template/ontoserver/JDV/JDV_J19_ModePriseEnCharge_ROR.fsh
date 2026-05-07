@@ -1,8 +1,8 @@
 ValueSet: JDV_J19_ModePriseEnCharge_ROR
 Id: JDV-J19-ModePriseEnCharge-ROR
 Description: "Mode de la prise en charge - ROR"
-* ^meta.versionId = "8"
-* ^meta.lastUpdated = "2025-12-18T16:47:45.368+01:00"
+* ^meta.versionId = "10"
+* ^meta.lastUpdated = "2026-05-05T19:02:44.451+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,12 +10,12 @@ Description: "Mode de la prise en charge - ROR"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J19-ModePriseEnCharge-ROR/FHIR/JDV-J19-ModePriseEnCharge-ROR"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.4.1"
-* ^version = "20251222120000"
+* ^version = "20260330120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-12-22T12:00:00+01:00"
+* ^date = "2026-03-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R213-ModePriseEnCharge#01 "Accueil Permanence des soins en établissement de santé"
 * $TRE-R213-ModePriseEnCharge#02 "Accueil spécialisé"
 * $TRE-R213-ModePriseEnCharge#09 "Chirurgie ambulatoire"
@@ -50,5 +50,5 @@ Description: "Mode de la prise en charge - ROR"
 * $TRE-R213-ModePriseEnCharge#55 "Plateau technique"
 * $TRE-R213-ModePriseEnCharge#56 "Accueil non programmé"
 * $TRE-R213-ModePriseEnCharge#57 "Centre spécialisé"
-* $TRE-R213-ModePriseEnCharge#58 "Coordination de parcours"
+* $TRE-R213-ModePriseEnCharge#58 "Suivi ou coordination de parcours"
 * $TRE-R213-ModePriseEnCharge#59 "Equipe d'intervention mobile"

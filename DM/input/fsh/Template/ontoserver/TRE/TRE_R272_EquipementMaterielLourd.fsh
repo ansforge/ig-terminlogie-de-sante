@@ -1,8 +1,8 @@
 CodeSystem: TRE_R272_EquipementMaterielLourd
 Id: TRE-R272-EquipementMaterielLourd
 Description: "Equipements Matériels Lourds"
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2025-07-02T18:16:56.526+00:00"
+* ^meta.versionId = "7"
+* ^meta.lastUpdated = "2026-05-05T20:12:00.509+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2018-07-27T12:00:00+01:00"
@@ -14,16 +14,21 @@ Description: "Equipements Matériels Lourds"
 * ^experimental = false
 * ^date = "2023-12-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
+* ^valueSet = "https://mos.esante.gouv.fr/NOS/TRE_R272-EquipementMaterielLourd/FHIR/TRE-R272-EquipementMaterielLourd?vs"
 * ^content = #complete
+* ^count = 8
 * ^property[0].code = #dateValid
-* ^property[=].description = "date de validité d'un code concept"
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
+* ^property[=].description = "Date de validité d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateMaj
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj"
 * ^property[=].description = "Date de mise à jour d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateFin
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin"
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #deprecationDate
