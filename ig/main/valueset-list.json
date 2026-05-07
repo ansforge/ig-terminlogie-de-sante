@@ -6053,6 +6053,17 @@
     "sources" : ["1.2.250.1.213.3.4.230"]
   },
   {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j418-activite-sanitaire-diverse-regulee-active",
+    "version" : "20260505120000",
+    "status" : "active",
+    "name" : "JdvJ418ActiviteSanitaireDiverseReguleeActive",
+    "title" : "Jdv J418 Activite Sanitaire Diverse Regulee Active",
+    "description" : "Jeu de valeurs des activités sanitaires actives, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR)",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"],
+    "oids" : ["1.2.250.1.213.1.6.1.400"],
+    "sources" : ["1.2.250.1.213.1.6.1.400"]
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-jour-semaine-cisis",
     "version" : "20250624152100",
     "status" : "active",

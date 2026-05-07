@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "Terminologies"] ; # 
   fhir:title [ fhir:v "Terminologies  de Santé"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2026-05-07T06:35:15+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-05-07T08:59:52+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -63366,6 +63366,27 @@
        ] ;
        fhir:name [ fhir:v "Jdv J387 Role Participant Ms" ] ;
        fhir:description [ fhir:v "Rôle du participant vis à vis de l'événement (mandataire judiciaire, structure en charge de l'événement)." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j418-activite-sanitaire-diverse-regulee-active> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j418-activite-sanitaire-diverse-regulee-active" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J418 Activite Sanitaire Diverse Regulee Active" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs des activités sanitaires actives, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR)" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false

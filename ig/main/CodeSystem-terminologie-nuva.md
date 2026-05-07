@@ -29,8 +29,8 @@ La nomenclature unifiée des vaccins (NUVA) liste les spécialités vaccinales c
   "resourceType" : "CodeSystem",
   "id" : "terminologie-nuva",
   "meta" : {
-    "versionId" : "27",
-    "lastUpdated" : "2026-04-03T13:23:02.261+02:00",
+    "versionId" : "27.1778143886513",
+    "lastUpdated" : "2026-05-07T10:51:26.513+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "url" : "https://smt.esante.gouv.fr/terminologie-nuva",
