@@ -347,5 +347,5 @@ However, this HL7 datatypes specification treats the entire media type as one at
 | [TreR425TypeRepas](CodeSystem-tre-r425-type-repas.md) | Type de repas. | 05/05/2026 |
 | [TreR426Orientation](CodeSystem-tre-r426-orientation.md) | Orientation vers un Service d'éducation spéciale et de soins à domicile (SESSAD) ou vers un Service d'accompagnement familial et d'éducation précoce (SAFEP) | 05/05/2026 |
 | [TreR427TypeAdresse](CodeSystem-tre-r427-type-adresse.md) | Type d'adresse postale. | 05/05/2026 |
-| [TreR428NiveauScolaire](CodeSystem-tre-r428-niveau-scolaire.md) | Niveau scolaire de l'usager en France. | 05/05/2026 |
+| [TreR428NiveauScolaire](CodeSystem-tre-r428-niveau-scolaire.md) | Niveau scolaire de l'usager en France. | 01/06/2026 |
 

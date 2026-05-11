@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-niveau-scolaire | *Version*:20260505120000 | |
-| Draft as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR428NiveauScolaire |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-niveau-scolaire | *Version*:20260601120000 | |
+| Draft as of 2026-06-01 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR428NiveauScolaire |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.279 | | |
 
  
@@ -35,7 +35,7 @@ Niveau scolaire de l’usager en France.
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
-      "start" : "2026-05-05T12:00:00+01:00"
+      "start" : "2026-06-01T12:00:00+01:00"
     }
   }],
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-niveau-scolaire",
@@ -43,12 +43,12 @@ Niveau scolaire de l’usager en France.
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.279"
   }],
-  "version" : "20260505120000",
+  "version" : "20260601120000",
   "name" : "TreR428NiveauScolaire",
   "title" : "Tre R428 Niveau Scolaire",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-05T12:00:00.000+00:00",
+  "date" : "2026-06-01T12:00:00.000+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Niveau scolaire de l'usager en France.",
   "jurisdiction" : [{
@@ -101,11 +101,11 @@ Niveau scolaire de l’usager en France.
     "display" : "Maternelle petite section",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -117,11 +117,11 @@ Niveau scolaire de l’usager en France.
     "display" : "Maternelle moyenne section",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -133,11 +133,11 @@ Niveau scolaire de l’usager en France.
     "display" : "Maternelle grande section",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -149,11 +149,11 @@ Niveau scolaire de l’usager en France.
     "display" : "Cours préparatoire",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -165,11 +165,11 @@ Niveau scolaire de l’usager en France.
     "display" : "Cours élémentaire première année",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -181,11 +181,11 @@ Niveau scolaire de l’usager en France.
     "display" : "Cours élémentaire deuxième année",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -197,11 +197,11 @@ Niveau scolaire de l’usager en France.
     "display" : "Cours moyen première année",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -213,11 +213,11 @@ Niveau scolaire de l’usager en France.
     "display" : "Cours moyen deuxième année",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -229,11 +229,11 @@ Niveau scolaire de l’usager en France.
     "display" : "Collège 6ème",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -245,11 +245,11 @@ Niveau scolaire de l’usager en France.
     "display" : "Collège 5ème",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -261,11 +261,11 @@ Niveau scolaire de l’usager en France.
     "display" : "Collège 4ème",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -277,11 +277,11 @@ Niveau scolaire de l’usager en France.
     "display" : "Collège 3ème",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -293,11 +293,11 @@ Niveau scolaire de l’usager en France.
     "display" : "Lycée seconde",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -309,11 +309,11 @@ Niveau scolaire de l’usager en France.
     "display" : "Lycée première",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -325,11 +325,11 @@ Niveau scolaire de l’usager en France.
     "display" : "Lycée terminale",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -341,11 +341,11 @@ Niveau scolaire de l’usager en France.
     "display" : "Enseignement supérieur",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",

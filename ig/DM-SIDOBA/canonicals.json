@@ -5234,7 +5234,7 @@
   "id" : "tre-r428-niveau-scolaire",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-niveau-scolaire",
-  "version" : "20260505120000",
+  "version" : "20260601120000",
   "name" : "TreR428NiveauScolaire",
   "oids" : ["1.2.250.1.213.3.3.279"]
 },

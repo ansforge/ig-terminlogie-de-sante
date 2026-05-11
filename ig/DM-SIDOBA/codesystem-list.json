@@ -3102,7 +3102,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-niveau-scolaire",
-    "version" : "20260505120000",
+    "version" : "20260601120000",
     "status" : "draft",
     "name" : "TreR428NiveauScolaire",
     "title" : "Tre R428 Niveau Scolaire",

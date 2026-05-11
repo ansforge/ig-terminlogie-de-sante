@@ -346,7 +346,7 @@ https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r424-motif-absence,20260505120000
 https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r425-type-repas,20260505120000,draft,"1.2.250.1.213.3.3.276",TreR425TypeRepas,Tre R425 Type Repas,"Type de repas.",
 https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation,20260505120000,draft,"1.2.250.1.213.3.3.277",TreR426Orientation,Tre R426 Orientation,"Orientation vers un Service d'éducation spéciale et de soins à domicile (SESSAD) ou vers un Service d'accompagnement familial et d'éducation précoce (SAFEP)",
 https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r427-type-adresse,20260505120000,draft,"1.2.250.1.213.3.3.278",TreR427TypeAdresse,Tre R427 Type Adresse,"Type d'adresse postale.",
-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-niveau-scolaire,20260505120000,draft,"1.2.250.1.213.3.3.279",TreR428NiveauScolaire,Tre R428 Niveau Scolaire,"Niveau scolaire de l'usager en France.",
+https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-niveau-scolaire,20260601120000,draft,"1.2.250.1.213.3.3.279",TreR428NiveauScolaire,Tre R428 Niveau Scolaire,"Niveau scolaire de l'usager en France.",
 https://smt.esante.gouv.fr/fhir/CodeSystem/v2-0487-supplement-fr,1.0,draft,,SpecimenTypeSupplementFr,SpecimenTypeSupplementFr,"Traduction Française",
 https://smt.esante.gouv.fr/fhir/CodeSystem/v3-SpecimenType-supplement-fr,1.0,draft,,V3SpecimenTypeSupplementFr,V3SpecimenTypeSupplementFr,"Traduction Française",
 https://smt.esante.gouv.fr/fhir/concept-properties,20260330120000,active,,ConceptProperties,Concept Properties,"CodeSystem permettant définir les propriétés NOS utilisées dans les CodeSystem NOS",
