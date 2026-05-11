@@ -21,7 +21,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JdvJ396CanalCommunicationMs](ValueSet-jdv-j396-canal-communication-ms.md) | Canal de communication. | 05/05/2026 |
 | [JdvJ397TypeMessagerieMs](ValueSet-jdv-j397-type-messagerie-ms.md) | Type de messagerie électronique utilisée par le médico-social. | 05/05/2026 |
 | [JdvJ398TypeDecisionMs](ValueSet-jdv-j398-type-decision-ms.md) | Type de décision transmise aux DUI(s) par la CDAPH en réponse à une demande de compensation d'un usager. | 05/05/2026 |
-| [JdvJ399MotivationMs](ValueSet-jdv-j399-motivation-ms.md) | L'énoncé des considérations de droit ou de fait qui constituent le fondement de la proposition et de la décision de la CDAPH. | 05/05/2026 |
+| [JdvJ399MotivationMs](ValueSet-jdv-j399-motivation-ms.md) | L'énoncé des considérations de droit ou de fait qui constituent le fondement de la proposition et de la décision de la CDAPH. | 01/06/2026 |
 | [JdvJ301FinessStatutJuridiqueNiv1Finess](ValueSet-jdv-j301-finess-statut-juridique-niv1-finess.md) | Ce JDV contient les agrégats Niv1 des statust juridiques (JDV créé à l'image de l'ancienne TRE_R70-FinessAgregatStatutJuridique) | 23/02/2026 |
 | [JdvJ302FinessStatutJuridiqueNiv2Finess](ValueSet-jdv-j302-finess-statut-juridique-niv2-finess.md) | Ce JDV contient les agrégats Niv2 des statuts juridiques (JDV créé à l'image de l'ancienne TRE_R68-FinessAgregatStatutJuridiqueNiv1) | 23/02/2026 |
 | [JdvJ303FinessStatutJuridiqueNiv3Finess](ValueSet-jdv-j303-finess-statut-juridique-niv3-finess.md) | Ce JDV contient les agrégats Niv3 des statuts juridiques (JDV créé à l'image de l'ancienne TRE_R69-FinessAgregatStatutJuridiqueNiv2) | 23/02/2026 |

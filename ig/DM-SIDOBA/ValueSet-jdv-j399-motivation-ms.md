@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j399-motivation-ms | *Version*:20260505120000 | |
-| Draft as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ399MotivationMs |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j399-motivation-ms | *Version*:20260601120000 | |
+| Draft as of 2026-06-01 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ399MotivationMs |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.239 | | |
 
  
@@ -62,7 +62,7 @@ Requête sur le SMT
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
-      "start" : "2026-05-05T12:00:00+01:00"
+      "start" : "2026-06-01T12:00:00+01:00"
     }
   }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j399-motivation-ms",
@@ -70,12 +70,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.239"
   }],
-  "version" : "20260505120000",
+  "version" : "20260601120000",
   "name" : "JdvJ399MotivationMs",
   "title" : "Jdv J399 Motivation Ms",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-05T12:00:00.000+00:00",
+  "date" : "2026-06-01T12:00:00.000+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "L'énoncé des considérations de droit ou de fait qui constituent le fondement de la proposition et de la décision de la CDAPH.",
   "jurisdiction" : [{

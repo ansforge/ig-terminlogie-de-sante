@@ -6131,7 +6131,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j399-motivation-ms",
-    "version" : "20260505120000",
+    "version" : "20260601120000",
     "status" : "draft",
     "name" : "JdvJ399MotivationMs",
     "title" : "Jdv J399 Motivation Ms",
