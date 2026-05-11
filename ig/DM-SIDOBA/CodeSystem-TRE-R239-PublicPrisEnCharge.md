@@ -28,8 +28,8 @@ Public pris en charge
   "resourceType" : "CodeSystem",
   "id" : "TRE-R239-PublicPrisEnCharge",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-03-27T11:13:07.692+01:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-05-05T20:11:57.717+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

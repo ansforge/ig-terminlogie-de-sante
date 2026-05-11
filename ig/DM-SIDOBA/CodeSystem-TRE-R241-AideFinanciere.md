@@ -18,6 +18,7 @@ Habilit. de l’EG permettant aux pers. accueillies d’avoir des aides financi�
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J31_AideFinanciere_ROR](ValueSet-JDV-J31-AideFinanciere-ROR.md)
+* [JdvJ354HabilitationFiness](ValueSet-jdv-j354-habilitation-finess.md)
 
 
 
@@ -28,10 +29,11 @@ Habilit. de l’EG permettant aux pers. accueillies d’avoir des aides financi�
   "resourceType" : "CodeSystem",
   "id" : "TRE-R241-AideFinanciere",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:16:25.441+00:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-05-05T20:11:58.157+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
+  "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
@@ -58,20 +60,30 @@ Habilit. de l’EG permettant aux pers. accueillies d’avoir des aides financi�
   }],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 3,
   "property" : [{
     "code" : "dateValid",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
     "description" : "date de validité d'un code concept",
     "type" : "dateTime"
   },
   {
     "code" : "dateMaj",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
     "description" : "Date de mise à jour d'un code concept",
     "type" : "dateTime"
   },
   {
     "code" : "dateFin",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
     "description" : "Date de fin d'exploitation d'un code concept",
     "type" : "dateTime"
+  },
+  {
+    "code" : "finess",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#finess",
+    "description" : "Permet de définir les codes concepts utilisés par FINESS+",
+    "type" : "boolean"
   },
   {
     "code" : "deprecationDate",
@@ -129,6 +141,10 @@ Habilit. de l’EG permettant aux pers. accueillies d’avoir des aides financi�
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
     }]
   },
   {

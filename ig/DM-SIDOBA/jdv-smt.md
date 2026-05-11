@@ -12,14 +12,17 @@ Vous touverez ici la liste des JDV du smt .
 | :--- | :--- | :--- |
 | Name | Description | date_maj |
 | [VS_test](ValueSet-VS-test.md) | VS-test | 31/12/2020 |
-| [ValueSet_ATC_All](ValueSet-vs-atc-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC | 04/05/2026 |
-| [ValueSet_BDPM_All](ValueSet-vs-bdpm-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie BDPM | 04/05/2026 |
-| [ValueSet_CIPUCD_All](ValueSet-vs-cipucd-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie CIP-UCD | 04/05/2026 |
-| [ValueSet_EDQM_All](ValueSet-vs-edqm-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie EDQM | 04/05/2026 |
-| [ValueSet_NUVA_All](ValueSet-vs-nuva-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA | 04/05/2026 |
-| [ValueSet_SMS_All](ValueSet-vs-sms-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie SMS, Dictionnaire des substances médicamenteuses | 04/05/2026 |
+| [ValueSet_ATC_All](ValueSet-vs-atc-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC | 11/05/2026 |
+| [ValueSet_BDPM_All](ValueSet-vs-bdpm-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie BDPM | 11/05/2026 |
+| [ValueSet_CIPUCD_All](ValueSet-vs-cipucd-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie CIP-UCD | 11/05/2026 |
+| [ValueSet_EDQM_All](ValueSet-vs-edqm-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie EDQM | 11/05/2026 |
+| [ValueSet_NUVA_All](ValueSet-vs-nuva-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA | 11/05/2026 |
+| [ValueSet_SMS_All](ValueSet-vs-sms-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie SMS, Dictionnaire des substances médicamenteuses | 11/05/2026 |
 | [VsTreR361FonctionPubliqueAll](ValueSet-vs-tre-r361-fonction-publique-all.md) | Jeu de valeurs ALL contenant les versants de la fonction publique. | 30/03/2026 |
 | [VsTreR362TypeBudgetAll](ValueSet-vs-tre-r362-type-budget-all.md) | Jeu de valeurs ALL contenant les types de budget associés aux Entités Géographiques d'Exercice (EGE) dans FINESS+. | 30/03/2026 |
+| [VsTreR370RoleRelationEgeAll](ValueSet-vs-tre-r370-role-relation-ege-all.md) | Jeu de valeurs ALL contenant les types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE. | 05/05/2026 |
+| [VsTreR373TypePersonneMoraleAll](ValueSet-vs-tre-r373-type-personne-morale-all.md) | Jeu de valeurs ALL contenant les types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces champs). | 05/05/2026 |
+| [VsTreR374NatureActiviteSmsseReguleeAll](ValueSet-vs-tre-r374-nature-activite-smsse-regulee-all.md) | Jeu de valeurs ALL contenant les grandes natures d'activité SMSSE exercées par les entités FINESS+. | 05/05/2026 |
 | [VsTreR375ModeFinancementAll](ValueSet-vs-tre-r375-mode-financement-all.md) | Jeu de valeurs ALL contenant les modes de financement associés aux capacités de certaines activitées SMSSE. | 30/03/2026 |
 | [VsTreR381ActiviteAmmAll](ValueSet-vs-tre-r381-activite-amm-all.md) | Jeu de valeurs ALL contenant les activités de soin AMM | 30/03/2026 |
 | [VsTreR382ModaliteActDeSoinAmmAll](ValueSet-vs-tre-r382-modalite-act-de-soin-amm-all.md) | Jeu de valeurs ALL contenant les modalités pour les activités de soin AMM | 30/03/2026 |

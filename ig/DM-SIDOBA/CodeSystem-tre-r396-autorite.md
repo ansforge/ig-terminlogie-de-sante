@@ -30,8 +30,8 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
   "resourceType" : "CodeSystem",
   "id" : "tre-r396-autorite",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-03-27T11:13:14.947+01:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-05-05T20:12:17.035+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -143,7 +143,7 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001"
+        "code" : "900000000000013009"
       },
       "value" : "Ordre"
     }],
@@ -171,7 +171,7 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001"
+        "code" : "900000000000013009"
       },
       "value" : "ARS"
     }],
@@ -227,7 +227,7 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
-        "code" : "900000000000003001"
+        "code" : "900000000000013009"
       },
       "value" : "Armées"
     }],

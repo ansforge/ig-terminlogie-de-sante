@@ -13,7 +13,12 @@
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.380 | | |
 
  
-Cette TRE hiérarchique remplace les TRE_R280-DisciplineEquipementSocial, TRE_R298-AgregatDisciplineEquipSocNiv1, TRE_R299-AgregatDisciplineEquipSocNiv2, TRE_R300-AgregatDisciplineEquipSocNiv3 et l’ASS_X14_AgregatDisciplineEquipementSocial. Cette TRE possède des propriétés spécifiques : le niveau d’agrégat desASOCR de 1 à 4 (du plus large au plus fin), le parent d’un agrégat d’ASOCR ou d’une ASOCR ainsi que les relations nécessaires à la construction des JDV dynamiques associés 
+Cette TRE hiérarchique remplace les éléments suivants : TRE_R280-DisciplineEquipementSocial, TRE_R298-AgregatDisciplineEquipSocNiv1, TRE_R299-AgregatDisciplineEquipSocNiv2, TRE_R300-AgregatDisciplineEquipSocNiv3 et ASS_X14_AgregatDisciplineEquipementSocial. 
+Cette TRE possède des propriétés spécifiques : 
+1. Le niveau d’agrégat des ASOCR de 1 à 4 (du plus large au plus fin)
+1. Le parent d’un agrégat d’ASOCR ou d’une ASOCR
+1. Les relations nécessaires à la construction des JDV dynamiques associés
+ 
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
@@ -32,8 +37,8 @@ Cette TRE hiérarchique remplace les TRE_R280-DisciplineEquipementSocial, TRE_R2
   "resourceType" : "CodeSystem",
   "id" : "tre-r401-activite-sociale-regulee",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2026-03-27T11:13:17.045+01:00",
+    "versionId" : "5",
+    "lastUpdated" : "2026-05-05T20:12:22.411+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -55,7 +60,7 @@ Cette TRE hiérarchique remplace les TRE_R280-DisciplineEquipementSocial, TRE_R2
   "experimental" : false,
   "date" : "2026-03-30T12:00:00.000+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Cette TRE hiérarchique remplace les TRE_R280-DisciplineEquipementSocial, TRE_R298-AgregatDisciplineEquipSocNiv1, TRE_R299-AgregatDisciplineEquipSocNiv2, TRE_R300-AgregatDisciplineEquipSocNiv3 et l'ASS_X14_AgregatDisciplineEquipementSocial. Cette TRE possède des propriétés spécifiques : le niveau d'agrégat desASOCR de 1 à 4 (du plus large au plus fin), le parent d'un agrégat d'ASOCR ou d'une ASOCR ainsi que les relations nécessaires à la construction des JDV dynamiques associés",
+  "description" : "Cette TRE hiérarchique remplace les éléments suivants :\nTRE_R280-DisciplineEquipementSocial, TRE_R298-AgregatDisciplineEquipSocNiv1, TRE_R299-AgregatDisciplineEquipSocNiv2, TRE_R300-AgregatDisciplineEquipSocNiv3 et ASS_X14_AgregatDisciplineEquipementSocial.\n\nCette TRE possède des propriétés spécifiques :\n\n1. Le niveau d'agrégat des ASOCR de 1 à 4 (du plus large au plus fin)\n2. Le parent d'un agrégat d'ASOCR ou d'une ASOCR\n3. Les relations nécessaires à la construction des JDV dynamiques associés",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

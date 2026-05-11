@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R329-NatureCapacite/FHIR/TRE-R329-NatureCapacite | *Version*:20250328120000 | |
-| Active as of 2025-03-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R329_NatureCapacite |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R329-NatureCapacite/FHIR/TRE-R329-NatureCapacite | *Version*:20260505120000 | |
+| Active as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R329_NatureCapacite |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.212 | | |
 
  
@@ -18,6 +18,7 @@ Permet d’indiquer si la capacité est exprimée en lits ou en places
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J187_NatureCapacite_ROR](ValueSet-JDV-J187-NatureCapacite-ROR.md)
+* [JdvJ352NatureCapaciteFiness](ValueSet-jdv-j352-nature-capacite-finess.md)
 
 
 
@@ -28,10 +29,11 @@ Permet d’indiquer si la capacité est exprimée en lits ou en places
   "resourceType" : "CodeSystem",
   "id" : "TRE-R329-NatureCapacite",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-07-02T18:17:34.963+00:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-05-05T20:12:04.748+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
+  "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
@@ -43,11 +45,11 @@ Permet d’indiquer si la capacité est exprimée en lits ou en places
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.212"
   }],
-  "version" : "20250328120000",
+  "version" : "20260505120000",
   "name" : "TRE_R329_NatureCapacite",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-03-28T12:00:00+01:00",
+  "date" : "2026-05-05T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Permet d'indiquer si la capacité est exprimée en lits ou en places",
   "jurisdiction" : [{
@@ -58,18 +60,22 @@ Permet d’indiquer si la capacité est exprimée en lits ou en places
   }],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 3,
   "property" : [{
     "code" : "dateValid",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
     "description" : "date de validité d'un code concept",
     "type" : "dateTime"
   },
   {
     "code" : "dateMaj",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
     "description" : "Date de mise à jour d'un code concept",
     "type" : "dateTime"
   },
   {
     "code" : "dateFin",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
     "description" : "Date de fin d'exploitation d'un code concept",
     "type" : "dateTime"
   },
@@ -90,6 +96,12 @@ Permet d’indiquer si la capacité est exprimée en lits ou en places
     "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
     "description" : "Date Concept was retired",
     "type" : "dateTime"
+  },
+  {
+    "code" : "finess",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#finess",
+    "description" : "Permet de définir les codes à inclure dans le JdvJ352finess",
+    "type" : "boolean"
   }],
   "concept" : [{
     "code" : "01",
@@ -121,6 +133,10 @@ Permet d’indiquer si la capacité est exprimée en lits ou en places
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
     }]
   },
   {
@@ -137,6 +153,10 @@ Permet d’indiquer si la capacité est exprimée en lits ou en places
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
     }]
   }]
 }

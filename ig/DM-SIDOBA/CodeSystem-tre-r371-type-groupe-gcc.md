@@ -28,8 +28,8 @@ Nomenclature des types de groupement Concernant les groupement de structure on a
   "resourceType" : "CodeSystem",
   "id" : "tre-r371-type-groupe-gcc",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-03-27T11:13:11+01:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-05-05T20:12:11+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

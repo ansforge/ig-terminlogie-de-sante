@@ -515,6 +515,78 @@
   "descriptionProperty" : "Date Concept was retired"
 },
 {
+  "id" : "tre-r419-motivation",
+  "name" : "TreR419Motivation",
+  "title" : "Tre R419 Motivation",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r419-motivation",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.270",
+  "status" : "draft",
+  "codeProperty" : "dateValid",
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
+  "typeProperty" : "dateTime",
+  "descriptionProperty" : "date de validité d'un code concept"
+},
+{
+  "id" : "tre-r419-motivation",
+  "name" : "TreR419Motivation",
+  "title" : "Tre R419 Motivation",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r419-motivation",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.270",
+  "status" : "draft",
+  "codeProperty" : "dateMaj",
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
+  "typeProperty" : "dateTime",
+  "descriptionProperty" : "Date de mise à jour d'un code concept"
+},
+{
+  "id" : "tre-r419-motivation",
+  "name" : "TreR419Motivation",
+  "title" : "Tre R419 Motivation",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r419-motivation",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.270",
+  "status" : "draft",
+  "codeProperty" : "dateFin",
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
+  "typeProperty" : "dateTime",
+  "descriptionProperty" : "Date de fin d'exploitation d'un code concept"
+},
+{
+  "id" : "tre-r419-motivation",
+  "name" : "TreR419Motivation",
+  "title" : "Tre R419 Motivation",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r419-motivation",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.270",
+  "status" : "draft",
+  "codeProperty" : "deprecationDate",
+  "uriProperty" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+  "typeProperty" : "dateTime",
+  "descriptionProperty" : "Date Concept was deprecated"
+},
+{
+  "id" : "tre-r419-motivation",
+  "name" : "TreR419Motivation",
+  "title" : "Tre R419 Motivation",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r419-motivation",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.270",
+  "status" : "draft",
+  "codeProperty" : "status",
+  "uriProperty" : "http://hl7.org/fhir/concept-properties#status",
+  "typeProperty" : "code",
+  "descriptionProperty" : "A property that indicates the status of the concept."
+},
+{
+  "id" : "tre-r419-motivation",
+  "name" : "TreR419Motivation",
+  "title" : "Tre R419 Motivation",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r419-motivation",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.270",
+  "status" : "draft",
+  "codeProperty" : "retirementDate",
+  "uriProperty" : "http://hl7.org/fhir/concept-properties#retirementDate",
+  "typeProperty" : "dateTime",
+  "descriptionProperty" : "Date Concept was retired"
+},
+{
   "id" : "tre-r420-droit-prestation",
   "name" : "TreR420DroitPrestation",
   "title" : "Tre R420 Droit Prestation",
@@ -1108,6 +1180,78 @@
   "title" : "Tre R427 Type Adresse",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r427-type-adresse",
   "identifier" : "urn:oid:1.2.250.1.213.3.3.278",
+  "status" : "draft",
+  "codeProperty" : "retirementDate",
+  "uriProperty" : "http://hl7.org/fhir/concept-properties#retirementDate",
+  "typeProperty" : "dateTime",
+  "descriptionProperty" : "Date Concept was retired"
+},
+{
+  "id" : "tre-r428-niveau-scolaire",
+  "name" : "TreR428NiveauScolaire",
+  "title" : "Tre R428 Niveau Scolaire",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-niveau-scolaire",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.279",
+  "status" : "draft",
+  "codeProperty" : "dateValid",
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
+  "typeProperty" : "dateTime",
+  "descriptionProperty" : "date de validité d'un code concept"
+},
+{
+  "id" : "tre-r428-niveau-scolaire",
+  "name" : "TreR428NiveauScolaire",
+  "title" : "Tre R428 Niveau Scolaire",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-niveau-scolaire",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.279",
+  "status" : "draft",
+  "codeProperty" : "dateMaj",
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
+  "typeProperty" : "dateTime",
+  "descriptionProperty" : "Date de mise à jour d'un code concept"
+},
+{
+  "id" : "tre-r428-niveau-scolaire",
+  "name" : "TreR428NiveauScolaire",
+  "title" : "Tre R428 Niveau Scolaire",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-niveau-scolaire",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.279",
+  "status" : "draft",
+  "codeProperty" : "dateFin",
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
+  "typeProperty" : "dateTime",
+  "descriptionProperty" : "Date de fin d'exploitation d'un code concept"
+},
+{
+  "id" : "tre-r428-niveau-scolaire",
+  "name" : "TreR428NiveauScolaire",
+  "title" : "Tre R428 Niveau Scolaire",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-niveau-scolaire",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.279",
+  "status" : "draft",
+  "codeProperty" : "deprecationDate",
+  "uriProperty" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+  "typeProperty" : "dateTime",
+  "descriptionProperty" : "Date Concept was deprecated"
+},
+{
+  "id" : "tre-r428-niveau-scolaire",
+  "name" : "TreR428NiveauScolaire",
+  "title" : "Tre R428 Niveau Scolaire",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-niveau-scolaire",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.279",
+  "status" : "draft",
+  "codeProperty" : "status",
+  "uriProperty" : "http://hl7.org/fhir/concept-properties#status",
+  "typeProperty" : "code",
+  "descriptionProperty" : "A property that indicates the status of the concept."
+},
+{
+  "id" : "tre-r428-niveau-scolaire",
+  "name" : "TreR428NiveauScolaire",
+  "title" : "Tre R428 Niveau Scolaire",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-niveau-scolaire",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.279",
   "status" : "draft",
   "codeProperty" : "retirementDate",
   "uriProperty" : "http://hl7.org/fhir/concept-properties#retirementDate",
@@ -4427,7 +4571,7 @@
   "descriptionProperty" : "The SNOMED CT concept id of the module that the concept belongs to."
 },
 {
-  "id" : "900000000000207008-20260401",
+  "id" : "900000000000207008-20260501",
   "name" : "SNOMED_CT",
   "title" : "SNOMED CT core",
   "url" : "http://snomed.info/sct",
@@ -4439,7 +4583,7 @@
   "descriptionProperty" : "Whether the code is active or not (defaults to false)."
 },
 {
-  "id" : "900000000000207008-20260401",
+  "id" : "900000000000207008-20260501",
   "name" : "SNOMED_CT",
   "title" : "SNOMED CT core",
   "url" : "http://snomed.info/sct",
@@ -4451,7 +4595,7 @@
   "descriptionProperty" : "True if the description logic definition of the concept includes sufficient conditions (i.e., if the concept is not primitive)."
 },
 {
-  "id" : "900000000000207008-20260401",
+  "id" : "900000000000207008-20260501",
   "name" : "SNOMED_CT",
   "title" : "SNOMED CT core",
   "url" : "http://snomed.info/sct",
@@ -4463,7 +4607,7 @@
   "descriptionProperty" : "The SNOMED CT concept id that is a direct parent of the concept."
 },
 {
-  "id" : "900000000000207008-20260401",
+  "id" : "900000000000207008-20260501",
   "name" : "SNOMED_CT",
   "title" : "SNOMED CT core",
   "url" : "http://snomed.info/sct",
@@ -4475,7 +4619,7 @@
   "descriptionProperty" : "The SNOMED CT concept id that is a direct child of the concept."
 },
 {
-  "id" : "900000000000207008-20260401",
+  "id" : "900000000000207008-20260501",
   "name" : "SNOMED_CT",
   "title" : "SNOMED CT core",
   "url" : "http://snomed.info/sct",
@@ -11394,7 +11538,7 @@
   "identifier" : "urn:oid:1.2.250.1.213.3.3.33",
   "status" : "active",
   "codeProperty" : "dateValid",
-  "uriProperty" : null,
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
   "typeProperty" : "dateTime",
   "descriptionProperty" : "date de validité d'un code concept"
 },
@@ -11406,7 +11550,7 @@
   "identifier" : "urn:oid:1.2.250.1.213.3.3.33",
   "status" : "active",
   "codeProperty" : "dateMaj",
-  "uriProperty" : null,
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
   "typeProperty" : "dateTime",
   "descriptionProperty" : "Date de mise à jour d'un code concept"
 },
@@ -11418,9 +11562,21 @@
   "identifier" : "urn:oid:1.2.250.1.213.3.3.33",
   "status" : "active",
   "codeProperty" : "dateFin",
-  "uriProperty" : null,
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
   "typeProperty" : "dateTime",
   "descriptionProperty" : "Date de fin d'exploitation d'un code concept"
+},
+{
+  "id" : "TRE-R241-AideFinanciere",
+  "name" : "TRE_R241_AideFinanciere",
+  "title" : null,
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R241-AideFinanciere/FHIR/TRE-R241-AideFinanciere",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.33",
+  "status" : "active",
+  "codeProperty" : "finess",
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#finess",
+  "typeProperty" : "boolean",
+  "descriptionProperty" : "Permet de définir les codes concepts utilisés par FINESS+"
 },
 {
   "id" : "TRE-R241-AideFinanciere",
@@ -14370,7 +14526,7 @@
   "identifier" : "urn:oid:1.2.250.1.213.1.1.4.344",
   "status" : "active",
   "codeProperty" : "dateValid",
-  "uriProperty" : null,
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
   "typeProperty" : "dateTime",
   "descriptionProperty" : "date de validité d'un code concept"
 },
@@ -14382,7 +14538,7 @@
   "identifier" : "urn:oid:1.2.250.1.213.1.1.4.344",
   "status" : "active",
   "codeProperty" : "dateMaj",
-  "uriProperty" : null,
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
   "typeProperty" : "dateTime",
   "descriptionProperty" : "Date de mise à jour d'un code concept"
 },
@@ -14394,7 +14550,7 @@
   "identifier" : "urn:oid:1.2.250.1.213.1.1.4.344",
   "status" : "active",
   "codeProperty" : "dateFin",
-  "uriProperty" : null,
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
   "typeProperty" : "dateTime",
   "descriptionProperty" : "Date de fin d'exploitation d'un code concept"
 },
@@ -14586,7 +14742,7 @@
   "identifier" : "urn:oid:1.2.250.1.213.1.6.1.136",
   "status" : "active",
   "codeProperty" : "dateValid",
-  "uriProperty" : null,
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
   "typeProperty" : "dateTime",
   "descriptionProperty" : "date de validité d'un code concept"
 },
@@ -14598,7 +14754,7 @@
   "identifier" : "urn:oid:1.2.250.1.213.1.6.1.136",
   "status" : "active",
   "codeProperty" : "dateMaj",
-  "uriProperty" : null,
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
   "typeProperty" : "dateTime",
   "descriptionProperty" : "Date de mise à jour d'un code concept"
 },
@@ -14610,21 +14766,9 @@
   "identifier" : "urn:oid:1.2.250.1.213.1.6.1.136",
   "status" : "active",
   "codeProperty" : "dateFin",
-  "uriProperty" : null,
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
   "typeProperty" : "dateTime",
   "descriptionProperty" : "Date de fin d'exploitation d'un code concept"
-},
-{
-  "id" : "TRE-R286-TypeFermeture",
-  "name" : "TRE_R286_TypeFermeture",
-  "title" : null,
-  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture",
-  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.136",
-  "status" : "active",
-  "codeProperty" : "deprecationDate",
-  "uriProperty" : "http://hl7.org/fhir/concept-properties#deprecationDate",
-  "typeProperty" : "dateTime",
-  "descriptionProperty" : "Date Concept was deprecated"
 },
 {
   "id" : "TRE-R286-TypeFermeture",
@@ -14636,7 +14780,19 @@
   "codeProperty" : "status",
   "uriProperty" : "http://hl7.org/fhir/concept-properties#status",
   "typeProperty" : "code",
-  "descriptionProperty" : "A property that indicates the status of the concept."
+  "descriptionProperty" : "Statut d'un code concept"
+},
+{
+  "id" : "TRE-R286-TypeFermeture",
+  "name" : "TRE_R286_TypeFermeture",
+  "title" : null,
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.136",
+  "status" : "active",
+  "codeProperty" : "deprecationDate",
+  "uriProperty" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+  "typeProperty" : "dateTime",
+  "descriptionProperty" : "Date de dépréciation du code"
 },
 {
   "id" : "TRE-R286-TypeFermeture",
@@ -14648,7 +14804,31 @@
   "codeProperty" : "retirementDate",
   "uriProperty" : "http://hl7.org/fhir/concept-properties#retirementDate",
   "typeProperty" : "dateTime",
-  "descriptionProperty" : "Date Concept was retired"
+  "descriptionProperty" : "Date de retrait du code"
+},
+{
+  "id" : "TRE-R286-TypeFermeture",
+  "name" : "TRE_R286_TypeFermeture",
+  "title" : null,
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.136",
+  "status" : "active",
+  "codeProperty" : "TypeFermeturePmFiness",
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#TypeFermeturePmFiness",
+  "typeProperty" : "boolean",
+  "descriptionProperty" : "Permet de définir les codes à inclure dans le JdvJ364TypeFermeturePmFiness"
+},
+{
+  "id" : "TRE-R286-TypeFermeture",
+  "name" : "TRE_R286_TypeFermeture",
+  "title" : null,
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.136",
+  "status" : "active",
+  "codeProperty" : "TypeFermetureEgeFiness",
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#TypeFermetureEgeFiness",
+  "typeProperty" : "boolean",
+  "descriptionProperty" : "Permet de définir les codes à inclure dans le JdvJ365TypeFermetureEgeFiness"
 },
 {
   "id" : "TRE-R287-NatureContact",
@@ -17118,7 +17298,7 @@
   "identifier" : "urn:oid:1.2.250.1.213.3.3.212",
   "status" : "active",
   "codeProperty" : "dateValid",
-  "uriProperty" : null,
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
   "typeProperty" : "dateTime",
   "descriptionProperty" : "date de validité d'un code concept"
 },
@@ -17130,7 +17310,7 @@
   "identifier" : "urn:oid:1.2.250.1.213.3.3.212",
   "status" : "active",
   "codeProperty" : "dateMaj",
-  "uriProperty" : null,
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
   "typeProperty" : "dateTime",
   "descriptionProperty" : "Date de mise à jour d'un code concept"
 },
@@ -17142,7 +17322,7 @@
   "identifier" : "urn:oid:1.2.250.1.213.3.3.212",
   "status" : "active",
   "codeProperty" : "dateFin",
-  "uriProperty" : null,
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
   "typeProperty" : "dateTime",
   "descriptionProperty" : "Date de fin d'exploitation d'un code concept"
 },
@@ -17181,6 +17361,18 @@
   "uriProperty" : "http://hl7.org/fhir/concept-properties#retirementDate",
   "typeProperty" : "dateTime",
   "descriptionProperty" : "Date Concept was retired"
+},
+{
+  "id" : "TRE-R329-NatureCapacite",
+  "name" : "TRE_R329_NatureCapacite",
+  "title" : null,
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R329-NatureCapacite/FHIR/TRE-R329-NatureCapacite",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.212",
+  "status" : "active",
+  "codeProperty" : "finess",
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#finess",
+  "typeProperty" : "boolean",
+  "descriptionProperty" : "Permet de définir les codes à inclure dans le JdvJ352finess"
 },
 {
   "id" : "TRE-R32-StatutHospitalier",
@@ -17262,7 +17454,7 @@
   "identifier" : "urn:oid:1.2.250.1.213.3.3.213",
   "status" : "active",
   "codeProperty" : "dateValid",
-  "uriProperty" : null,
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
   "typeProperty" : "dateTime",
   "descriptionProperty" : "date de validité d'un code concept"
 },
@@ -17274,7 +17466,7 @@
   "identifier" : "urn:oid:1.2.250.1.213.3.3.213",
   "status" : "active",
   "codeProperty" : "dateMaj",
-  "uriProperty" : null,
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
   "typeProperty" : "dateTime",
   "descriptionProperty" : "Date de mise à jour d'un code concept"
 },
@@ -17286,7 +17478,7 @@
   "identifier" : "urn:oid:1.2.250.1.213.3.3.213",
   "status" : "active",
   "codeProperty" : "dateFin",
-  "uriProperty" : null,
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
   "typeProperty" : "dateTime",
   "descriptionProperty" : "Date de fin d'exploitation d'un code concept"
 },
@@ -17325,6 +17517,18 @@
   "uriProperty" : "http://hl7.org/fhir/concept-properties#retirementDate",
   "typeProperty" : "dateTime",
   "descriptionProperty" : "Date Concept was retired"
+},
+{
+  "id" : "TRE-R330-TypeStatutCapacite",
+  "name" : "TRE_R330_TypeStatutCapacite",
+  "title" : null,
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R330-TypeStatutCapacite/FHIR/TRE-R330-TypeStatutCapacite",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.213",
+  "status" : "active",
+  "codeProperty" : "finess",
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#finess",
+  "typeProperty" : "boolean",
+  "descriptionProperty" : "Permet de définir les codes à inclure dans le JdvJ353TypeStatutCapaciteFiness"
 },
 {
   "id" : "TRE-R331-TemporaliteCapacite",
@@ -17406,7 +17610,7 @@
   "identifier" : "urn:oid:1.2.250.1.213.3.3.215",
   "status" : "active",
   "codeProperty" : "dateValid",
-  "uriProperty" : null,
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
   "typeProperty" : "dateTime",
   "descriptionProperty" : "date de validité d'un code concept"
 },
@@ -17418,7 +17622,7 @@
   "identifier" : "urn:oid:1.2.250.1.213.3.3.215",
   "status" : "active",
   "codeProperty" : "dateMaj",
-  "uriProperty" : null,
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
   "typeProperty" : "dateTime",
   "descriptionProperty" : "Date de mise à jour d'un code concept"
 },
@@ -17430,9 +17634,21 @@
   "identifier" : "urn:oid:1.2.250.1.213.3.3.215",
   "status" : "active",
   "codeProperty" : "dateFin",
-  "uriProperty" : null,
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
   "typeProperty" : "dateTime",
   "descriptionProperty" : "Date de fin d'exploitation d'un code concept"
+},
+{
+  "id" : "TRE-R332-GenreCapacite",
+  "name" : "TRE_R332_GenreCapacite",
+  "title" : null,
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R332-GenreCapacite/FHIR/TRE-R332-GenreCapacite",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.215",
+  "status" : "active",
+  "codeProperty" : "finess",
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#finess",
+  "typeProperty" : "boolean",
+  "descriptionProperty" : "Permet de définir les codes concepts utilisés par FINESS+"
 },
 {
   "id" : "TRE-R332-GenreCapacite",
@@ -23123,6 +23339,102 @@
   "descriptionProperty" : "HL7 Concept Usage Notes"
 },
 {
+  "id" : "tre-r347-activite-sanitaire-diverse-regulee",
+  "name" : "TreR347ActiviteSanitaireDiverseRegulee",
+  "title" : "Tre R347 Activite Sanitaire Diverse Regulee",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.248",
+  "status" : "active",
+  "codeProperty" : "parent",
+  "uriProperty" : "http://hl7.org/fhir/concept-properties#parent",
+  "typeProperty" : "code",
+  "descriptionProperty" : "An immediate parent of the concept in the hierarchy"
+},
+{
+  "id" : "tre-r347-activite-sanitaire-diverse-regulee",
+  "name" : "TreR347ActiviteSanitaireDiverseRegulee",
+  "title" : "Tre R347 Activite Sanitaire Diverse Regulee",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.248",
+  "status" : "active",
+  "codeProperty" : "dateValid",
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
+  "typeProperty" : "dateTime",
+  "descriptionProperty" : "date de validité d'un code concept"
+},
+{
+  "id" : "tre-r347-activite-sanitaire-diverse-regulee",
+  "name" : "TreR347ActiviteSanitaireDiverseRegulee",
+  "title" : "Tre R347 Activite Sanitaire Diverse Regulee",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.248",
+  "status" : "active",
+  "codeProperty" : "dateMaj",
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
+  "typeProperty" : "dateTime",
+  "descriptionProperty" : "Date de mise à jour d'un code concept"
+},
+{
+  "id" : "tre-r347-activite-sanitaire-diverse-regulee",
+  "name" : "TreR347ActiviteSanitaireDiverseRegulee",
+  "title" : "Tre R347 Activite Sanitaire Diverse Regulee",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.248",
+  "status" : "active",
+  "codeProperty" : "dateFin",
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
+  "typeProperty" : "dateTime",
+  "descriptionProperty" : "Date de fin d'exploitation d'un code concept"
+},
+{
+  "id" : "tre-r347-activite-sanitaire-diverse-regulee",
+  "name" : "TreR347ActiviteSanitaireDiverseRegulee",
+  "title" : "Tre R347 Activite Sanitaire Diverse Regulee",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.248",
+  "status" : "active",
+  "codeProperty" : "status",
+  "uriProperty" : "http://hl7.org/fhir/concept-properties#status",
+  "typeProperty" : "code",
+  "descriptionProperty" : "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired"
+},
+{
+  "id" : "tre-r347-activite-sanitaire-diverse-regulee",
+  "name" : "TreR347ActiviteSanitaireDiverseRegulee",
+  "title" : "Tre R347 Activite Sanitaire Diverse Regulee",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.248",
+  "status" : "active",
+  "codeProperty" : "deprecationDate",
+  "uriProperty" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+  "typeProperty" : "dateTime",
+  "descriptionProperty" : "The date at which a concept was deprecated. Concepts that are deprecated but not inactive can still be used, but their use is discouraged, and they should be expected to be made inactive in a future release. Property type is dateTime. Note that the status property may also be used to indicate that a concept is deprecated"
+},
+{
+  "id" : "tre-r347-activite-sanitaire-diverse-regulee",
+  "name" : "TreR347ActiviteSanitaireDiverseRegulee",
+  "title" : "Tre R347 Activite Sanitaire Diverse Regulee",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.248",
+  "status" : "active",
+  "codeProperty" : "retirementDate",
+  "uriProperty" : "http://hl7.org/fhir/concept-properties#retirementDate",
+  "typeProperty" : "dateTime",
+  "descriptionProperty" : "The date at which a concept was retired"
+},
+{
+  "id" : "tre-r347-activite-sanitaire-diverse-regulee",
+  "name" : "TreR347ActiviteSanitaireDiverseRegulee",
+  "title" : "Tre R347 Activite Sanitaire Diverse Regulee",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.248",
+  "status" : "active",
+  "codeProperty" : "niveau",
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#niveau",
+  "typeProperty" : "integer",
+  "descriptionProperty" : "Permet d'indiquer le niveau hiérarchique du code"
+},
+{
   "id" : "tre-r360-type-role-entite-groupe",
   "name" : "TreR360TypeRoleEntiteGroupe",
   "title" : "Tre R360 Type Role Entite Groupe",
@@ -23351,6 +23663,78 @@
   "descriptionProperty" : "The date at which a concept was retired"
 },
 {
+  "id" : "tre-r370-role-relation-ege",
+  "name" : "TreR370RoleRelationEge",
+  "title" : "Tre R370 Role Relation Ege",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.286",
+  "status" : "active",
+  "codeProperty" : "dateValid",
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
+  "typeProperty" : "dateTime",
+  "descriptionProperty" : "date de validité d'un code concept"
+},
+{
+  "id" : "tre-r370-role-relation-ege",
+  "name" : "TreR370RoleRelationEge",
+  "title" : "Tre R370 Role Relation Ege",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.286",
+  "status" : "active",
+  "codeProperty" : "dateMaj",
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
+  "typeProperty" : "dateTime",
+  "descriptionProperty" : "Date de mise à jour d'un code concept"
+},
+{
+  "id" : "tre-r370-role-relation-ege",
+  "name" : "TreR370RoleRelationEge",
+  "title" : "Tre R370 Role Relation Ege",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.286",
+  "status" : "active",
+  "codeProperty" : "dateFin",
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
+  "typeProperty" : "dateTime",
+  "descriptionProperty" : "Date de fin d'exploitation d'un code concept"
+},
+{
+  "id" : "tre-r370-role-relation-ege",
+  "name" : "TreR370RoleRelationEge",
+  "title" : "Tre R370 Role Relation Ege",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.286",
+  "status" : "active",
+  "codeProperty" : "status",
+  "uriProperty" : "http://hl7.org/fhir/concept-properties#status",
+  "typeProperty" : "code",
+  "descriptionProperty" : "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired"
+},
+{
+  "id" : "tre-r370-role-relation-ege",
+  "name" : "TreR370RoleRelationEge",
+  "title" : "Tre R370 Role Relation Ege",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.286",
+  "status" : "active",
+  "codeProperty" : "deprecationDate",
+  "uriProperty" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+  "typeProperty" : "dateTime",
+  "descriptionProperty" : "The date at which a concept was deprecated. Concepts that are deprecated but not inactive can still be used, but their use is discouraged, and they should be expected to be made inactive in a future release. Property type is dateTime. Note that the status property may also be used to indicate that a concept is deprecated"
+},
+{
+  "id" : "tre-r370-role-relation-ege",
+  "name" : "TreR370RoleRelationEge",
+  "title" : "Tre R370 Role Relation Ege",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.286",
+  "status" : "active",
+  "codeProperty" : "retirementDate",
+  "uriProperty" : "http://hl7.org/fhir/concept-properties#retirementDate",
+  "typeProperty" : "dateTime",
+  "descriptionProperty" : "The date at which a concept was retired"
+},
+{
   "id" : "tre-r371-type-groupe-gcc",
   "name" : "TreR371TypeGroupeGcc",
   "title" : "Tre R371 Type Groupe Gcc",
@@ -23517,6 +23901,150 @@
   "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#finess",
   "typeProperty" : "boolean",
   "descriptionProperty" : "Permet de définir les codes concepts utilisés par FINESS+"
+},
+{
+  "id" : "tre-r373-type-personne-morale",
+  "name" : "TreR373TypePersonneMorale",
+  "title" : "Tre R373 Type Personne Morale",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r373-type-personne-morale",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.253",
+  "status" : "active",
+  "codeProperty" : "dateValid",
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
+  "typeProperty" : "dateTime",
+  "descriptionProperty" : "date de validité d'un code concept"
+},
+{
+  "id" : "tre-r373-type-personne-morale",
+  "name" : "TreR373TypePersonneMorale",
+  "title" : "Tre R373 Type Personne Morale",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r373-type-personne-morale",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.253",
+  "status" : "active",
+  "codeProperty" : "dateMaj",
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
+  "typeProperty" : "dateTime",
+  "descriptionProperty" : "Date de mise à jour d'un code concept"
+},
+{
+  "id" : "tre-r373-type-personne-morale",
+  "name" : "TreR373TypePersonneMorale",
+  "title" : "Tre R373 Type Personne Morale",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r373-type-personne-morale",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.253",
+  "status" : "active",
+  "codeProperty" : "dateFin",
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
+  "typeProperty" : "dateTime",
+  "descriptionProperty" : "Date de fin d'exploitation d'un code concept"
+},
+{
+  "id" : "tre-r373-type-personne-morale",
+  "name" : "TreR373TypePersonneMorale",
+  "title" : "Tre R373 Type Personne Morale",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r373-type-personne-morale",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.253",
+  "status" : "active",
+  "codeProperty" : "status",
+  "uriProperty" : "http://hl7.org/fhir/concept-properties#status",
+  "typeProperty" : "code",
+  "descriptionProperty" : "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired"
+},
+{
+  "id" : "tre-r373-type-personne-morale",
+  "name" : "TreR373TypePersonneMorale",
+  "title" : "Tre R373 Type Personne Morale",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r373-type-personne-morale",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.253",
+  "status" : "active",
+  "codeProperty" : "deprecationDate",
+  "uriProperty" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+  "typeProperty" : "dateTime",
+  "descriptionProperty" : "The date at which a concept was deprecated. Concepts that are deprecated but not inactive can still be used, but their use is discouraged, and they should be expected to be made inactive in a future release. Property type is dateTime. Note that the status property may also be used to indicate that a concept is deprecated"
+},
+{
+  "id" : "tre-r373-type-personne-morale",
+  "name" : "TreR373TypePersonneMorale",
+  "title" : "Tre R373 Type Personne Morale",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r373-type-personne-morale",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.253",
+  "status" : "active",
+  "codeProperty" : "retirementDate",
+  "uriProperty" : "http://hl7.org/fhir/concept-properties#retirementDate",
+  "typeProperty" : "dateTime",
+  "descriptionProperty" : "The date at which a concept was retired"
+},
+{
+  "id" : "tre-r374-nature-activite-smsse-regulee",
+  "name" : "TreR374NatureActiviteSmsseRegulee",
+  "title" : "Tre R374 Nature Activite Smsse Regulee",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.289",
+  "status" : "active",
+  "codeProperty" : "dateValid",
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
+  "typeProperty" : "dateTime",
+  "descriptionProperty" : "date de validité d'un code concept"
+},
+{
+  "id" : "tre-r374-nature-activite-smsse-regulee",
+  "name" : "TreR374NatureActiviteSmsseRegulee",
+  "title" : "Tre R374 Nature Activite Smsse Regulee",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.289",
+  "status" : "active",
+  "codeProperty" : "dateMaj",
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
+  "typeProperty" : "dateTime",
+  "descriptionProperty" : "Date de mise à jour d'un code concept"
+},
+{
+  "id" : "tre-r374-nature-activite-smsse-regulee",
+  "name" : "TreR374NatureActiviteSmsseRegulee",
+  "title" : "Tre R374 Nature Activite Smsse Regulee",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.289",
+  "status" : "active",
+  "codeProperty" : "dateFin",
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
+  "typeProperty" : "dateTime",
+  "descriptionProperty" : "Date de fin d'exploitation d'un code concept"
+},
+{
+  "id" : "tre-r374-nature-activite-smsse-regulee",
+  "name" : "TreR374NatureActiviteSmsseRegulee",
+  "title" : "Tre R374 Nature Activite Smsse Regulee",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.289",
+  "status" : "active",
+  "codeProperty" : "status",
+  "uriProperty" : "http://hl7.org/fhir/concept-properties#status",
+  "typeProperty" : "code",
+  "descriptionProperty" : "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired"
+},
+{
+  "id" : "tre-r374-nature-activite-smsse-regulee",
+  "name" : "TreR374NatureActiviteSmsseRegulee",
+  "title" : "Tre R374 Nature Activite Smsse Regulee",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.289",
+  "status" : "active",
+  "codeProperty" : "deprecationDate",
+  "uriProperty" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+  "typeProperty" : "dateTime",
+  "descriptionProperty" : "The date at which a concept was deprecated. Concepts that are deprecated but not inactive can still be used, but their use is discouraged, and they should be expected to be made inactive in a future release. Property type is dateTime. Note that the status property may also be used to indicate that a concept is deprecated"
+},
+{
+  "id" : "tre-r374-nature-activite-smsse-regulee",
+  "name" : "TreR374NatureActiviteSmsseRegulee",
+  "title" : "Tre R374 Nature Activite Smsse Regulee",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.289",
+  "status" : "active",
+  "codeProperty" : "retirementDate",
+  "uriProperty" : "http://hl7.org/fhir/concept-properties#retirementDate",
+  "typeProperty" : "dateTime",
+  "descriptionProperty" : "The date at which a concept was retired"
 },
 {
   "id" : "tre-r375-mode-financement",

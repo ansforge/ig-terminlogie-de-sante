@@ -239,6 +239,14 @@
   "status" : "draft"
 },
 {
+  "id" : "tre-r419-motivation",
+  "name" : "TreR419Motivation",
+  "title" : "Tre R419 Motivation",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r419-motivation",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.270",
+  "status" : "draft"
+},
+{
   "id" : "tre-r420-droit-prestation",
   "name" : "TreR420DroitPrestation",
   "title" : "Tre R420 Droit Prestation",
@@ -300,6 +308,14 @@
   "title" : "Tre R427 Type Adresse",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r427-type-adresse",
   "identifier" : "urn:oid:1.2.250.1.213.3.3.278",
+  "status" : "draft"
+},
+{
+  "id" : "tre-r428-niveau-scolaire",
+  "name" : "TreR428NiveauScolaire",
+  "title" : "Tre R428 Niveau Scolaire",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-niveau-scolaire",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.279",
   "status" : "draft"
 },
 {
@@ -591,7 +607,7 @@
   "status" : "active"
 },
 {
-  "id" : "900000000000207008-20260401",
+  "id" : "900000000000207008-20260501",
   "name" : "SNOMED_CT",
   "title" : "SNOMED CT core",
   "url" : "http://snomed.info/sct",
@@ -2655,6 +2671,14 @@
   "status" : "active"
 },
 {
+  "id" : "tre-r347-activite-sanitaire-diverse-regulee",
+  "name" : "TreR347ActiviteSanitaireDiverseRegulee",
+  "title" : "Tre R347 Activite Sanitaire Diverse Regulee",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.248",
+  "status" : "active"
+},
+{
   "id" : "tre-r360-type-role-entite-groupe",
   "name" : "TreR360TypeRoleEntiteGroupe",
   "title" : "Tre R360 Type Role Entite Groupe",
@@ -2679,6 +2703,14 @@
   "status" : "active"
 },
 {
+  "id" : "tre-r370-role-relation-ege",
+  "name" : "TreR370RoleRelationEge",
+  "title" : "Tre R370 Role Relation Ege",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.286",
+  "status" : "active"
+},
+{
   "id" : "tre-r371-type-groupe-gcc",
   "name" : "TreR371TypeGroupeGcc",
   "title" : "Tre R371 Type Groupe Gcc",
@@ -2692,6 +2724,22 @@
   "title" : "Tre R372 Type Groupe Gco",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r372-type-groupe-gco",
   "identifier" : "urn:oid:1.2.250.1.213.1.6.1.288",
+  "status" : "active"
+},
+{
+  "id" : "tre-r373-type-personne-morale",
+  "name" : "TreR373TypePersonneMorale",
+  "title" : "Tre R373 Type Personne Morale",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r373-type-personne-morale",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.253",
+  "status" : "active"
+},
+{
+  "id" : "tre-r374-nature-activite-smsse-regulee",
+  "name" : "TreR374NatureActiviteSmsseRegulee",
+  "title" : "Tre R374 Nature Activite Smsse Regulee",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.289",
   "status" : "active"
 },
 {

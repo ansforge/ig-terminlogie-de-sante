@@ -57,9 +57,9 @@ Expansions are not generated for retired value sets
   "resourceType" : "ValueSet",
   "id" : "JDV-J99-InseeNAFrav2Niveau5-RASS",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2026-02-23T18:17:37.656+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+    "versionId" : "7",
+    "lastUpdated" : "2026-05-05T19:02:56.959+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
   "extension" : [{

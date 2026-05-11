@@ -28,8 +28,8 @@ Nomenclature des types de budget associés aux Entités Géographiques d’Exerc
   "resourceType" : "CodeSystem",
   "id" : "tre-r362-type-budget",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-03-27T11:13:11+01:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-05-05T20:12:10+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

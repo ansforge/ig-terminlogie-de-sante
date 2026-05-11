@@ -29,8 +29,8 @@ Equipements Matériels Lourds
   "resourceType" : "CodeSystem",
   "id" : "TRE-R272-EquipementMaterielLourd",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2026-03-27T11:13:09.462+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-05-05T20:12:00.509+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{

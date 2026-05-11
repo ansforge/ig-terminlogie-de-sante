@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J35-SpecialisationDePriseEnCharge-ROR",
   "meta" : {
-    "versionId" : "11",
-    "lastUpdated" : "2026-03-27T11:18:10.202+01:00",
+    "versionId" : "12",
+    "lastUpdated" : "2026-05-05T19:02:52.240+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

@@ -10,7 +10,7 @@
   },
   {
     "url" : "http://snomed.info/sct",
-    "version" : "http://snomed.info/sct/900000000000207008/version/20260401",
+    "version" : "http://snomed.info/sct/900000000000207008/version/20260501",
     "status" : "active",
     "name" : "SNOMED_CT",
     "title" : "SNOMED CT core",
@@ -433,7 +433,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM",
-    "version" : "20240628120000",
+    "version" : "20260505120000",
     "status" : "active",
     "name" : "TRE_G09_DepartementOM",
     "title" : null,
@@ -604,7 +604,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM",
-    "version" : "20260330120000",
+    "version" : "20260505120000",
     "status" : "active",
     "name" : "TRE_R13_CommuneOM",
     "title" : null,
@@ -1072,7 +1072,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation",
-    "version" : "20260330120000",
+    "version" : "20260505120000",
     "status" : "active",
     "name" : "TRE_R244_CategorieOrganisation",
     "title" : null,
@@ -1405,7 +1405,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R283-NiveauConfidentialite/FHIR/TRE-R283-NiveauConfidentialite",
-    "version" : "20231215120000",
+    "version" : "20260505120000",
     "status" : "active",
     "name" : "TRE_R283_NiveauConfidentialite",
     "title" : null,
@@ -1432,7 +1432,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture",
-    "version" : "20251016120000",
+    "version" : "20260505120000",
     "status" : "active",
     "name" : "TRE_R286_TypeFermeture",
     "title" : null,
@@ -1765,7 +1765,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R329-NatureCapacite/FHIR/TRE-R329-NatureCapacite",
-    "version" : "20250328120000",
+    "version" : "20260505120000",
     "status" : "active",
     "name" : "TRE_R329_NatureCapacite",
     "title" : null,
@@ -2035,7 +2035,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R368-StatutRessource/FHIR/TRE-R368-StatutRessource",
-    "version" : "20251222120000",
+    "version" : "20260505120000",
     "status" : "active",
     "name" : "TRE_R368_StatutRessource",
     "title" : null,
@@ -2287,7 +2287,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement",
-    "version" : "20260330120000",
+    "version" : "20260505120000",
     "status" : "active",
     "name" : "TRE_R66_CategorieEtablissement",
     "title" : null,
@@ -2404,7 +2404,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
-    "version" : "20260330120000",
+    "version" : "20260505120000",
     "status" : "active",
     "name" : "TRE_R85_RolePriseCharge",
     "title" : null,
@@ -2678,6 +2678,15 @@
     "description" : "Traduction Française"
   },
   {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+    "version" : "20260505120000",
+    "status" : "active",
+    "name" : "TreR347ActiviteSanitaireDiverseRegulee",
+    "title" : "Tre R347 Activite Sanitaire Diverse Regulee",
+    "description" : "Nomenclature des activités sanitaires utilisée pour décrire les Activités Sanitaires Diverses Régulées (ASDR)",
+    "oids" : ["1.2.250.1.213.1.6.1.248"]
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe",
     "version" : "20260330120000",
     "status" : "active",
@@ -2705,6 +2714,15 @@
     "oids" : ["1.2.250.1.213.1.6.1.256"]
   },
   {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege",
+    "version" : "20260505120000",
+    "status" : "active",
+    "name" : "TreR370RoleRelationEge",
+    "title" : "Tre R370 Role Relation Ege",
+    "description" : "Nomenclature des types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE",
+    "oids" : ["1.2.250.1.213.1.6.1.286"]
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r371-type-groupe-gcc",
     "version" : "20260330120000",
     "status" : "active",
@@ -2721,6 +2739,24 @@
     "title" : "Tre R372 Type Groupe Gco",
     "description" : "Nomenclature des types de Groupement de Coopération Organique (GCO)",
     "oids" : ["1.2.250.1.213.1.6.1.288"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r373-type-personne-morale",
+    "version" : "20260505120000",
+    "status" : "active",
+    "name" : "TreR373TypePersonneMorale",
+    "title" : "Tre R373 Type Personne Morale",
+    "description" : "Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces champs).\nRemarque : Cette TRE est juste initialisée à minima et a vocation à porter d'autres valurs.",
+    "oids" : ["1.2.250.1.213.1.6.1.253"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+    "version" : "20260505120000",
+    "status" : "active",
+    "name" : "TreR374NatureActiviteSmsseRegulee",
+    "title" : "Tre R374 Nature Activite Smsse Regulee",
+    "description" : "Nomenclature des grandes natures d'activité SMSSE exercées par les entités FINESS+",
+    "oids" : ["1.2.250.1.213.1.6.1.289"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r375-mode-financement",
@@ -2841,7 +2877,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
-    "version" : "20260330120000",
+    "version" : "20260505120000",
     "status" : "active",
     "name" : "TreR397CategorieEntiteGeographiqueExercice",
     "title" : "Tre R397 Categorie Entite Geographique Exercice",
@@ -2863,7 +2899,7 @@
     "status" : "active",
     "name" : "TreR401ActiviteSocialeRegulee",
     "title" : "Tre R401 Activite Sociale Regulee",
-    "description" : "Cette TRE hiérarchique remplace les TRE_R280-DisciplineEquipementSocial, TRE_R298-AgregatDisciplineEquipSocNiv1, TRE_R299-AgregatDisciplineEquipSocNiv2, TRE_R300-AgregatDisciplineEquipSocNiv3 et l'ASS_X14_AgregatDisciplineEquipementSocial. Cette TRE possède des propriétés spécifiques : le niveau d'agrégat desASOCR de 1 à 4 (du plus large au plus fin), le parent d'un agrégat d'ASOCR ou d'une ASOCR ainsi que les relations nécessaires à la construction des JDV dynamiques associés",
+    "description" : "Cette TRE hiérarchique remplace les éléments suivants :\nTRE_R280-DisciplineEquipementSocial, TRE_R298-AgregatDisciplineEquipSocNiv1, TRE_R299-AgregatDisciplineEquipSocNiv2, TRE_R300-AgregatDisciplineEquipSocNiv3 et ASS_X14_AgregatDisciplineEquipementSocial.\n\nCette TRE possède des propriétés spécifiques :\n\n1. Le niveau d'agrégat des ASOCR de 1 à 4 (du plus large au plus fin)\n2. Le parent d'un agrégat d'ASOCR ou d'une ASOCR\n3. Les relations nécessaires à la construction des JDV dynamiques associés",
     "oids" : ["1.2.250.1.213.1.6.1.380"]
   },
   {
@@ -2984,6 +3020,15 @@
     "oids" : ["1.2.250.1.213.3.3.269"]
   },
   {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r419-motivation",
+    "version" : "20260505120000",
+    "status" : "draft",
+    "name" : "TreR419Motivation",
+    "title" : "Tre R419 Motivation",
+    "description" : "Considération(s) de droit ou de fait qui constituent le fondement de la proposition et de la décision de la CDAPH.",
+    "oids" : ["1.2.250.1.213.3.3.270"]
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation",
     "version" : "20260505120000",
     "status" : "draft",
@@ -3056,6 +3101,15 @@
     "oids" : ["1.2.250.1.213.3.3.278"]
   },
   {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-niveau-scolaire",
+    "version" : "20260505120000",
+    "status" : "draft",
+    "name" : "TreR428NiveauScolaire",
+    "title" : "Tre R428 Niveau Scolaire",
+    "description" : "Niveau scolaire de l'usager en France.",
+    "oids" : ["1.2.250.1.213.3.3.279"]
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/v2-0487-supplement-fr",
     "version" : "1.0",
     "status" : "draft",
@@ -3098,7 +3152,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-bdpm",
-    "version" : "2026-04-01",
+    "version" : "2026-05-05",
     "status" : "active",
     "name" : "BDPM",
     "title" : "Base de données publique du médicament",
@@ -3178,7 +3232,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-nuva",
-    "version" : "1.0.1078",
+    "version" : "1.0.1096",
     "status" : "active",
     "name" : "NUVA",
     "title" : "Nomenclature Unifiée des Vaccins",
@@ -3195,7 +3249,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-sms",
-    "version" : "2026-04",
+    "version" : "2026-05",
     "status" : "active",
     "name" : "Dictionnaire_SMS_Substance_Management_Services_",
     "title" : "Dictionnaire européen multilingue des substances entrant dans la composition de médicaments",

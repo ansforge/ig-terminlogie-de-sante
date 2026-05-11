@@ -28,8 +28,8 @@ Nomenclature des types de rôles que peuvent exercer des entités participants �
   "resourceType" : "CodeSystem",
   "id" : "tre-r360-type-role-entite-groupe",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-03-27T11:13:10+01:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-05-05T20:12:09+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

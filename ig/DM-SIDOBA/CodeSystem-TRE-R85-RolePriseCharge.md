@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge | *Version*:20260330120000 | |
-| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R85_RolePriseCharge |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge | *Version*:20260505120000 | |
+| Active as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R85_RolePriseCharge |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.107 | | |
 
  
@@ -40,8 +40,8 @@ Rôle dans la prise en charge des patients ou des usagers
   "resourceType" : "CodeSystem",
   "id" : "TRE-R85-RolePriseCharge",
   "meta" : {
-    "versionId" : "24",
-    "lastUpdated" : "2026-03-27T11:13:18.775+01:00",
+    "versionId" : "26",
+    "lastUpdated" : "2026-05-05T20:12:30.743+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -56,11 +56,11 @@ Rôle dans la prise en charge des patients ou des usagers
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.107"
   }],
-  "version" : "20260330120000",
+  "version" : "20260505120000",
   "name" : "TRE_R85_RolePriseCharge",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-30T12:00:00+01:00",
+  "date" : "2026-05-05T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Rôle dans la prise en charge des patients ou des usagers",
   "jurisdiction" : [{
@@ -71,7 +71,7 @@ Rôle dans la prise en charge des patients ou des usagers
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 76,
+  "count" : 80,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -467,7 +467,7 @@ Rôle dans la prise en charge des patients ou des usagers
   },
   {
     "code" : "317",
-    "display" : "Préparateur en pharmacie (officine)",
+    "display" : "Préparateur en pharmacie",
     "definition" : "Ref juridique : CSP Articles L4241-1 à L4241-18 Source fiche métier de la Fédération des Pharmaciens d’Officine (FPO) : https://www.fspf.fr/wp-content/uploads/2024/01/Fiche-metier-et-formation-Preparateur-en-pharmacie.pdf Le préparateur en pharmacie est un professionnel de santé qui exerce sous la responsabilité du pharmacien, il accueille les clients, délivre les médicaments et peut être amené à passer les commandes et gérer les stocks pour l’officine. Ses rôles d’accueil et de conseil sont également très importants.",
     "designation" : [{
       "language" : "fr-FR",
@@ -475,7 +475,7 @@ Rôle dans la prise en charge des patients ou des usagers
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Prép en pharmacie (officine)"
+      "value" : "Prép en pharmacie"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -483,7 +483,7 @@ Rôle dans la prise en charge des patients ou des usagers
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-09-19T12:00:00+01:00"
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1694,6 +1694,74 @@ Rôle dans la prise en charge des patients ou des usagers
     {
       "code" : "dateMaj",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "376",
+    "display" : "PADHUE - Médecin",
+    "definition" : "Médecin formé à l’étranger (hors UE) qui travaille dans le système de santé français avant ou pendant la procédure de reconnaissance de son diplôme étranger afin d’obtenir une autorisation de plein exercice. Le diplôme de ce professionnel n'est pas enregistré au RPPS avant l'obtention de l'autorisation de plein exercice, le justificatif sera alors enregistré par l'Ordre.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "377",
+    "display" : "PADHUE - Pharmacien",
+    "definition" : "Pharmacien formé à l’étranger (hors UE) qui travaille dans le système de santé français avant ou pendant la procédure de reconnaissance de son diplôme étranger afin d’obtenir une autorisation de plein exercice. Le diplôme de ce professionnel n'est pas enregistré au RPPS avant l'obtention de l'autorisation de plein exercice, le justificatif sera alors enregistré par l'Ordre.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "378",
+    "display" : "PADHUE - Sage Femme",
+    "definition" : "Sage Femme formé à l’étranger (hors UE) qui travaille dans le système de santé français avant ou pendant la procédure de reconnaissance de son diplôme étranger afin d’obtenir une autorisation de plein exercice. Le diplôme de ce professionnel n'est pas enregistré au RPPS avant l'obtention de l'autorisation de plein exercice, le justificatif sera alors enregistré par l'Ordre.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "379",
+    "display" : "PADHUE - Chirurgien Dentiste",
+    "definition" : "Chirurgien Dentiste formé à l’étranger (hors UE) qui travaille dans le système de santé français avant ou pendant la procédure de reconnaissance de son diplôme étranger afin d’obtenir une autorisation de plein exercice. Le diplôme de ce professionnel n'est pas enregistré au RPPS avant l'obtention de l'autorisation de plein exercice, le justificatif sera alors enregistré par l'Ordre.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
     },
     {
       "code" : "status",
