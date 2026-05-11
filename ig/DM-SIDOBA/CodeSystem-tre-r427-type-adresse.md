@@ -17,7 +17,7 @@ Type d’adresse postale.
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvJ414TypeAdresseMs](ValueSet-jdv-j414-type-adresse-ms.md)
+* [JdvJ409TypeAdresseMs](ValueSet-jdv-j409-type-adresse-ms.md)
 
 
 

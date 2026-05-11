@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "Terminologies"] ; # 
   fhir:title [ fhir:v "Terminologies  de Santé"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2026-05-11T09:19:17+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-05-11T14:08:41+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -63718,11 +63718,11 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j408-esms-enfant-sessad-ms> ;
-         fhir:reference [ fhir:v "ValueSet/jdv-j408-esms-enfant-sessad-ms" ]
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j408-orientation-ms> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j408-orientation-ms" ]
        ] ;
-       fhir:name [ fhir:v "Jdv J408 Esms Enfant Sessad Ms" ] ;
-       fhir:description [ fhir:v "Orientation vers un Service d'éducation spéciale et de soins à domicile (SESSAD)." ] ;
+       fhir:name [ fhir:v "Jdv J408 Orientation Ms" ] ;
+       fhir:description [ fhir:v "Ensemble des orientations vers un Service d'éducation spéciale et de soins à domicile (SESSAD), un Service d'accompagnement familial et d'éducation précoce (SAFEP), un enseignement adapté (SEGPA/EREA) ou une unité d'enseignement." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -63739,115 +63739,10 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j409-esms-enfant-safep-ms> ;
-         fhir:reference [ fhir:v "ValueSet/jdv-j409-esms-enfant-safep-ms" ]
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j409-type-adresse-ms> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j409-type-adresse-ms" ]
        ] ;
-       fhir:name [ fhir:v "Jdv J409 Esms Enfant Safep Ms" ] ;
-       fhir:description [ fhir:v "Orientation vers un Service d'accompagnement familial et d'éducation précoce (SAFEP)." ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j410-esms-adulte-non-medicalise-ms> ;
-         fhir:reference [ fhir:v "ValueSet/jdv-j410-esms-adulte-non-medicalise-ms" ]
-       ] ;
-       fhir:name [ fhir:v "Jdv J410 Esms Adulte Non Medicalise Ms" ] ;
-       fhir:description [ fhir:v "Orientation vers un établissement d'accueil non médicalisé." ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j411-esms-adulte-medicalise-ms> ;
-         fhir:reference [ fhir:v "ValueSet/jdv-j411-esms-adulte-medicalise-ms" ]
-       ] ;
-       fhir:name [ fhir:v "Jdv J411 Esms Adulte Medicalise Ms" ] ;
-       fhir:description [ fhir:v "Orientation vers un établissement d'accueil médicalisé en tout ou partie." ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j412-orientation-scolaire-adapte-ms> ;
-         fhir:reference [ fhir:v "ValueSet/jdv-j412-orientation-scolaire-adapte-ms" ]
-       ] ;
-       fhir:name [ fhir:v "Jdv J412 Orientation Scolaire Adapte Ms" ] ;
-       fhir:description [ fhir:v "Orientation en Enseignement adapté (SEGPA/EREA)." ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j413-orientation-scolaire-ue-ms> ;
-         fhir:reference [ fhir:v "ValueSet/jdv-j413-orientation-scolaire-ue-ms" ]
-       ] ;
-       fhir:name [ fhir:v "Jdv J413 Orientation Scolaire Ue Ms" ] ;
-       fhir:description [ fhir:v "Orientation en Unité d'enseignement." ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j414-type-adresse-ms> ;
-         fhir:reference [ fhir:v "ValueSet/jdv-j414-type-adresse-ms" ]
-       ] ;
-       fhir:name [ fhir:v "Jdv J414 Type Adresse Ms" ] ;
+       fhir:name [ fhir:v "Jdv J409 Type Adresse Ms" ] ;
        fhir:description [ fhir:v "Type d'adresse postale." ] ;
        fhir:example [
          a fhir:Boolean ;
@@ -63865,10 +63760,10 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j415-categorie-permis-conduire-ms> ;
-         fhir:reference [ fhir:v "ValueSet/jdv-j415-categorie-permis-conduire-ms" ]
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j410-categorie-permis-conduire-ms> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j410-categorie-permis-conduire-ms" ]
        ] ;
-       fhir:name [ fhir:v "Jdv J415 Categorie Permis Conduire Ms" ] ;
+       fhir:name [ fhir:v "Jdv J410 Categorie Permis Conduire Ms" ] ;
        fhir:description [ fhir:v "Catégorie de permis de conduire en France." ] ;
        fhir:example [
          a fhir:Boolean ;
@@ -63886,10 +63781,10 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j416-type-permis-conduire-ms> ;
-         fhir:reference [ fhir:v "ValueSet/jdv-j416-type-permis-conduire-ms" ]
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j411-type-permis-conduire-ms> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j411-type-permis-conduire-ms" ]
        ] ;
-       fhir:name [ fhir:v "Jdv J416 Type Permis Conduire Ms" ] ;
+       fhir:name [ fhir:v "Jdv J411 Type Permis Conduire Ms" ] ;
        fhir:description [ fhir:v "Type de permis de conduire en France." ] ;
        fhir:example [
          a fhir:Boolean ;
@@ -63907,10 +63802,10 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j417-niveau-scolaire-ms> ;
-         fhir:reference [ fhir:v "ValueSet/jdv-j417-niveau-scolaire-ms" ]
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j412-niveau-scolaire-ms> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j412-niveau-scolaire-ms" ]
        ] ;
-       fhir:name [ fhir:v "Jdv J417 Niveau Scolaire Ms" ] ;
+       fhir:name [ fhir:v "Jdv J412 Niveau Scolaire Ms" ] ;
        fhir:description [ fhir:v "Niveau scolaire de l'usager en France." ] ;
        fhir:example [
          a fhir:Boolean ;

@@ -498,16 +498,11 @@ Les jeux de valeurs (JDV) sont des nomenclatures constituées de codes extraits 
 | [JdvJ405TypePresenceAbsenceMs](ValueSet-jdv-j405-type-presence-absence-ms.md) | Déclaration du type de présence absence de l'usager lors d'un événement organisé par sa structure de rattachement. | 05/05/2026 |
 | [JdvJ406MotifAbsenceMs](ValueSet-jdv-j406-motif-absence-ms.md) | Motif pour lequel l'usager n'est pas présent lors d'un événement organisé par sa structure de rattachement. | 05/05/2026 |
 | [JdvJ407TypeRepasMs](ValueSet-jdv-j407-type-repas-ms.md) | Type de repas. | 05/05/2026 |
-| [JdvJ408EsmsEnfantSessadMs](ValueSet-jdv-j408-esms-enfant-sessad-ms.md) | Orientation vers un Service d'éducation spéciale et de soins à domicile (SESSAD). | 05/05/2026 |
-| [JdvJ409EsmsEnfantSafepMs](ValueSet-jdv-j409-esms-enfant-safep-ms.md) | Orientation vers un Service d'accompagnement familial et d'éducation précoce (SAFEP). | 05/05/2026 |
-| [JdvJ410EsmsAdulteNonMedicaliseMs](ValueSet-jdv-j410-esms-adulte-non-medicalise-ms.md) | Orientation vers un établissement d'accueil non médicalisé. | 05/05/2026 |
-| [JdvJ411EsmsAdulteMedicaliseMs](ValueSet-jdv-j411-esms-adulte-medicalise-ms.md) | Orientation vers un établissement d'accueil médicalisé en tout ou partie. | 05/05/2026 |
-| [JdvJ412OrientationScolaireAdapteMs](ValueSet-jdv-j412-orientation-scolaire-adapte-ms.md) | Orientation en Enseignement adapté (SEGPA/EREA). | 05/05/2026 |
-| [JdvJ413OrientationScolaireUeMs](ValueSet-jdv-j413-orientation-scolaire-ue-ms.md) | Orientation en Unité d'enseignement. | 05/05/2026 |
-| [JdvJ414TypeAdresseMs](ValueSet-jdv-j414-type-adresse-ms.md) | Type d'adresse postale. | 05/05/2026 |
-| [JdvJ415CategoriePermisConduireMs](ValueSet-jdv-j415-categorie-permis-conduire-ms.md) | Catégorie de permis de conduire en France. | 05/05/2026 |
-| [JdvJ416TypePermisConduireMs](ValueSet-jdv-j416-type-permis-conduire-ms.md) | Type de permis de conduire en France. | 05/05/2026 |
-| [JdvJ417NiveauScolaireMs](ValueSet-jdv-j417-niveau-scolaire-ms.md) | Niveau scolaire de l'usager en France. | 05/05/2026 |
+| [JdvJ408OrientationMs](ValueSet-jdv-j408-orientation-ms.md) | Ensemble des orientations vers un Service d'éducation spéciale et de soins à domicile (SESSAD), un Service d'accompagnement familial et d'éducation précoce (SAFEP), un enseignement adapté (SEGPA/EREA) ou une unité d'enseignement. | 01/06/2026 |
+| [JdvJ409TypeAdresseMs](ValueSet-jdv-j409-type-adresse-ms.md) | Type d'adresse postale. | 05/05/2026 |
+| [JdvJ410CategoriePermisConduireMs](ValueSet-jdv-j410-categorie-permis-conduire-ms.md) | Catégorie de permis de conduire en France. | 05/05/2026 |
+| [JdvJ411TypePermisConduireMs](ValueSet-jdv-j411-type-permis-conduire-ms.md) | Type de permis de conduire en France. | 05/05/2026 |
+| [JdvJ412NiveauScolaireMs](ValueSet-jdv-j412-niveau-scolaire-ms.md) | Niveau scolaire de l'usager en France. | 05/05/2026 |
 | [JdvJ418ActiviteSanitaireDiverseReguleeActive](ValueSet-jdv-j418-activite-sanitaire-diverse-regulee-active.md) | Jeu de valeurs des activités sanitaires actives, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR) | 05/05/2026 |
 | [JdvJourSemaineCisis](ValueSet-jdv-jour-semaine-cisis.md) | JDV Jour Semaine CISIS | 24/06/2025 |
 | [JdvJuridiqueCisis](ValueSet-jdv-juridique-cisis.md) | JDV Juridique CISIS | 20/04/2026 |

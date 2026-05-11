@@ -10,7 +10,7 @@
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-05-11T09:19:17+00:00",
+  "date" : "2026-05-11T14:08:41+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -29969,10 +29969,10 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/jdv-j408-esms-enfant-sessad-ms"
+        "reference" : "ValueSet/jdv-j408-orientation-ms"
       },
-      "name" : "Jdv J408 Esms Enfant Sessad Ms",
-      "description" : "Orientation vers un Service d'éducation spéciale et de soins à domicile (SESSAD).",
+      "name" : "Jdv J408 Orientation Ms",
+      "description" : "Ensemble des orientations vers un Service d'éducation spéciale et de soins à domicile (SESSAD), un Service d'accompagnement familial et d'éducation précoce (SAFEP), un enseignement adapté (SEGPA/EREA) ou une unité d'enseignement.",
       "exampleBoolean" : false
     },
     {
@@ -29981,69 +29981,9 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/jdv-j409-esms-enfant-safep-ms"
+        "reference" : "ValueSet/jdv-j409-type-adresse-ms"
       },
-      "name" : "Jdv J409 Esms Enfant Safep Ms",
-      "description" : "Orientation vers un Service d'accompagnement familial et d'éducation précoce (SAFEP).",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/jdv-j410-esms-adulte-non-medicalise-ms"
-      },
-      "name" : "Jdv J410 Esms Adulte Non Medicalise Ms",
-      "description" : "Orientation vers un établissement d'accueil non médicalisé.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/jdv-j411-esms-adulte-medicalise-ms"
-      },
-      "name" : "Jdv J411 Esms Adulte Medicalise Ms",
-      "description" : "Orientation vers un établissement d'accueil médicalisé en tout ou partie.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/jdv-j412-orientation-scolaire-adapte-ms"
-      },
-      "name" : "Jdv J412 Orientation Scolaire Adapte Ms",
-      "description" : "Orientation en Enseignement adapté (SEGPA/EREA).",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/jdv-j413-orientation-scolaire-ue-ms"
-      },
-      "name" : "Jdv J413 Orientation Scolaire Ue Ms",
-      "description" : "Orientation en Unité d'enseignement.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/jdv-j414-type-adresse-ms"
-      },
-      "name" : "Jdv J414 Type Adresse Ms",
+      "name" : "Jdv J409 Type Adresse Ms",
       "description" : "Type d'adresse postale.",
       "exampleBoolean" : false
     },
@@ -30053,9 +29993,9 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/jdv-j415-categorie-permis-conduire-ms"
+        "reference" : "ValueSet/jdv-j410-categorie-permis-conduire-ms"
       },
-      "name" : "Jdv J415 Categorie Permis Conduire Ms",
+      "name" : "Jdv J410 Categorie Permis Conduire Ms",
       "description" : "Catégorie de permis de conduire en France.",
       "exampleBoolean" : false
     },
@@ -30065,9 +30005,9 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/jdv-j416-type-permis-conduire-ms"
+        "reference" : "ValueSet/jdv-j411-type-permis-conduire-ms"
       },
-      "name" : "Jdv J416 Type Permis Conduire Ms",
+      "name" : "Jdv J411 Type Permis Conduire Ms",
       "description" : "Type de permis de conduire en France.",
       "exampleBoolean" : false
     },
@@ -30077,9 +30017,9 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/jdv-j417-niveau-scolaire-ms"
+        "reference" : "ValueSet/jdv-j412-niveau-scolaire-ms"
       },
-      "name" : "Jdv J417 Niveau Scolaire Ms",
+      "name" : "Jdv J412 Niveau Scolaire Ms",
       "description" : "Niveau scolaire de l'usager en France.",
       "exampleBoolean" : false
     },

@@ -7418,84 +7418,44 @@
   "oids" : ["1.2.250.1.213.3.4.247"]
 },
 {
-  "id" : "jdv-j408-esms-enfant-sessad-ms",
+  "id" : "jdv-j408-orientation-ms",
   "type" : "ValueSet",
-  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j408-esms-enfant-sessad-ms",
-  "version" : "20260505120000",
-  "name" : "JdvJ408EsmsEnfantSessadMs",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j408-orientation-ms",
+  "version" : "20260601120000",
+  "name" : "JdvJ408OrientationMs",
   "oids" : ["1.2.250.1.213.3.4.248"]
 },
 {
-  "id" : "jdv-j409-esms-enfant-safep-ms",
+  "id" : "jdv-j409-type-adresse-ms",
   "type" : "ValueSet",
-  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j409-esms-enfant-safep-ms",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j409-type-adresse-ms",
   "version" : "20260505120000",
-  "name" : "JdvJ409EsmsEnfantSafepMs",
+  "name" : "JdvJ409TypeAdresseMs",
   "oids" : ["1.2.250.1.213.3.4.249"]
 },
 {
-  "id" : "jdv-j410-esms-adulte-non-medicalise-ms",
+  "id" : "jdv-j410-categorie-permis-conduire-ms",
   "type" : "ValueSet",
-  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j410-esms-adulte-non-medicalise-ms",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j410-categorie-permis-conduire-ms",
   "version" : "20260505120000",
-  "name" : "JdvJ410EsmsAdulteNonMedicaliseMs",
+  "name" : "JdvJ410CategoriePermisConduireMs",
   "oids" : ["1.2.250.1.213.3.4.250"]
 },
 {
-  "id" : "jdv-j411-esms-adulte-medicalise-ms",
+  "id" : "jdv-j411-type-permis-conduire-ms",
   "type" : "ValueSet",
-  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j411-esms-adulte-medicalise-ms",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j411-type-permis-conduire-ms",
   "version" : "20260505120000",
-  "name" : "JdvJ411EsmsAdulteMedicaliseMs",
+  "name" : "JdvJ411TypePermisConduireMs",
   "oids" : ["1.2.250.1.213.3.4.251"]
 },
 {
-  "id" : "jdv-j412-orientation-scolaire-adapte-ms",
+  "id" : "jdv-j412-niveau-scolaire-ms",
   "type" : "ValueSet",
-  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j412-orientation-scolaire-adapte-ms",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j412-niveau-scolaire-ms",
   "version" : "20260505120000",
-  "name" : "JdvJ412OrientationScolaireAdapteMs",
+  "name" : "JdvJ412NiveauScolaireMs",
   "oids" : ["1.2.250.1.213.3.4.252"]
-},
-{
-  "id" : "jdv-j413-orientation-scolaire-ue-ms",
-  "type" : "ValueSet",
-  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j413-orientation-scolaire-ue-ms",
-  "version" : "20260505120000",
-  "name" : "JdvJ413OrientationScolaireUeMs",
-  "oids" : ["1.2.250.1.213.3.4.253"]
-},
-{
-  "id" : "jdv-j414-type-adresse-ms",
-  "type" : "ValueSet",
-  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j414-type-adresse-ms",
-  "version" : "20260505120000",
-  "name" : "JdvJ414TypeAdresseMs",
-  "oids" : ["1.2.250.1.213.3.4.254"]
-},
-{
-  "id" : "jdv-j415-categorie-permis-conduire-ms",
-  "type" : "ValueSet",
-  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j415-categorie-permis-conduire-ms",
-  "version" : "20260505120000",
-  "name" : "JdvJ415CategoriePermisConduireMs",
-  "oids" : ["1.2.250.1.213.3.4.255"]
-},
-{
-  "id" : "jdv-j416-type-permis-conduire-ms",
-  "type" : "ValueSet",
-  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j416-type-permis-conduire-ms",
-  "version" : "20260505120000",
-  "name" : "JdvJ416TypePermisConduireMs",
-  "oids" : ["1.2.250.1.213.3.4.256"]
-},
-{
-  "id" : "jdv-j417-niveau-scolaire-ms",
-  "type" : "ValueSet",
-  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j417-niveau-scolaire-ms",
-  "version" : "20260505120000",
-  "name" : "JdvJ417NiveauScolaireMs",
-  "oids" : ["1.2.250.1.213.3.4.257"]
 },
 {
   "id" : "jdv-j418-activite-sanitaire-diverse-regulee-active",

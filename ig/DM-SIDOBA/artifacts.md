@@ -802,16 +802,11 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Jdv J405 Type Presence Absence Ms](ValueSet-jdv-j405-type-presence-absence-ms.md) | Déclaration du type de présence absence de l’usager lors d’un événement organisé par sa structure de rattachement. |
 | [Jdv J406 Motif Absence Ms](ValueSet-jdv-j406-motif-absence-ms.md) | Motif pour lequel l’usager n’est pas présent lors d’un événement organisé par sa structure de rattachement. |
 | [Jdv J407 Type Repas Ms](ValueSet-jdv-j407-type-repas-ms.md) | Type de repas. |
-| [Jdv J408 Esms Enfant Sessad Ms](ValueSet-jdv-j408-esms-enfant-sessad-ms.md) | Orientation vers un Service d’éducation spéciale et de soins à domicile (SESSAD). |
-| [Jdv J409 Esms Enfant Safep Ms](ValueSet-jdv-j409-esms-enfant-safep-ms.md) | Orientation vers un Service d’accompagnement familial et d’éducation précoce (SAFEP). |
-| [Jdv J410 Esms Adulte Non Medicalise Ms](ValueSet-jdv-j410-esms-adulte-non-medicalise-ms.md) | Orientation vers un établissement d’accueil non médicalisé. |
-| [Jdv J411 Esms Adulte Medicalise Ms](ValueSet-jdv-j411-esms-adulte-medicalise-ms.md) | Orientation vers un établissement d’accueil médicalisé en tout ou partie. |
-| [Jdv J412 Orientation Scolaire Adapte Ms](ValueSet-jdv-j412-orientation-scolaire-adapte-ms.md) | Orientation en Enseignement adapté (SEGPA/EREA). |
-| [Jdv J413 Orientation Scolaire Ue Ms](ValueSet-jdv-j413-orientation-scolaire-ue-ms.md) | Orientation en Unité d’enseignement. |
-| [Jdv J414 Type Adresse Ms](ValueSet-jdv-j414-type-adresse-ms.md) | Type d’adresse postale. |
-| [Jdv J415 Categorie Permis Conduire Ms](ValueSet-jdv-j415-categorie-permis-conduire-ms.md) | Catégorie de permis de conduire en France. |
-| [Jdv J416 Type Permis Conduire Ms](ValueSet-jdv-j416-type-permis-conduire-ms.md) | Type de permis de conduire en France. |
-| [Jdv J417 Niveau Scolaire Ms](ValueSet-jdv-j417-niveau-scolaire-ms.md) | Niveau scolaire de l’usager en France. |
+| [Jdv J408 Orientation Ms](ValueSet-jdv-j408-orientation-ms.md) | Ensemble des orientations vers un Service d’éducation spéciale et de soins à domicile (SESSAD), un Service d’accompagnement familial et d’éducation précoce (SAFEP), un enseignement adapté (SEGPA/EREA) ou une unité d’enseignement. |
+| [Jdv J409 Type Adresse Ms](ValueSet-jdv-j409-type-adresse-ms.md) | Type d’adresse postale. |
+| [Jdv J410 Categorie Permis Conduire Ms](ValueSet-jdv-j410-categorie-permis-conduire-ms.md) | Catégorie de permis de conduire en France. |
+| [Jdv J411 Type Permis Conduire Ms](ValueSet-jdv-j411-type-permis-conduire-ms.md) | Type de permis de conduire en France. |
+| [Jdv J412 Niveau Scolaire Ms](ValueSet-jdv-j412-niveau-scolaire-ms.md) | Niveau scolaire de l’usager en France. |
 | [Jdv J418 Activite Sanitaire Diverse Regulee Active](ValueSet-jdv-j418-activite-sanitaire-diverse-regulee-active.md) | Jeu de valeurs des activités sanitaires actives, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR) |
 | [Jdv MSO Resultat Qualitatif 3 CISIS](ValueSet-jdv-mso-resultat-qualitatif-3-cisis.md) | Jdv MSO Resultat Qualitatif 3 CISIS |
 | [Jdv MSO Resultat Qualitatif 5 CISIS](ValueSet-jdv-mso-resultat-qualitatif-5-cisis.md) | Jdv MSO Resultat Qualitatif 5 CISIS |

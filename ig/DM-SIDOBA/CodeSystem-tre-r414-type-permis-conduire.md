@@ -17,7 +17,7 @@ Type de permis de conduire en France.
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvJ416TypePermisConduireMs](ValueSet-jdv-j416-type-permis-conduire-ms.md)
+* [JdvJ411TypePermisConduireMs](ValueSet-jdv-j411-type-permis-conduire-ms.md)
 
 
 
