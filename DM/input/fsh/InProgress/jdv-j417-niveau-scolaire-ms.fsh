@@ -17,5 +17,5 @@ Description: "Niveau scolaire de l'usager en France."
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 
-* include codes from system https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r417-niveau-scolaire
+* include codes from system https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-niveau-scolaire
     where status = "active"
