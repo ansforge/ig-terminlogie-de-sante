@@ -1,3 +1,5 @@
+Alias: $tre-r387-type-groupementStructure = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupementStructure
+
 ValueSet: JdvJ305TypeGroupementFiness
 Id: jdv-j305-type-groupement-finess
 Title: "Jdv J305 Type Groupement Finess"
