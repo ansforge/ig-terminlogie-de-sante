@@ -1,4 +1,4 @@
-Alias: $tre-r386-macro-etat-objet-administratif = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif
+Alias: $tre-r386-macro-etat-objet-structure = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure
 
 ValueSet: JdvJ298MacroEtatObjetAdministratifFiness
 Id: jdv-j298-macro-etat-objet-administratif-finess
