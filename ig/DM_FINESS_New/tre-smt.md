@@ -11,14 +11,16 @@ Vous trouverez ici la liste des terminologies au format FHIR publiée par le SMT
 | | | |
 | :--- | :--- | :--- |
 | Name | Description | date_maj |
-| [TreR364TypeDocumentAdministratif](CodeSystem-tre-r364-type-document-administratif.md) | Nomenclature des types de documents administratif ( exemple : agrément, convention...) Remarque : Cette nomenclature est juste initialisée avec les types de documents FINESS | 30/12/2024 |
+| [TreR360RoleMembre](CodeSystem-tre-r360-role-membre.md) | Nomenclature des rôles que peuvent exercer des membres participants à des groupements | 30/03/2026 |
+| [TreR364TypeDocumentStructure](CodeSystem-tre-r364-type-document-structure.md) | Nomenclature des types de documents des structures (PM, EGE, activites EGE, engagments) ( exemple : agrément, convention...) | 30/12/2024 |
 | [TreR365EtatObjetStructure](CodeSystem-tre-r365-etat-objet-structure.md) | Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites, engagements) organisés en etat actifs et en etats inactifs. | 30/12/2024 |
 | [TreR366TypeObjet](CodeSystem-tre-r366-type-objet.md) | Nomenclature des types d’objets du MOS. Remarque : Cette nomenclature est juste initialisée avec les types d’objet FINESS+ | 30/12/2024 |
-| [TreR376TypeEvenementAdministratif](CodeSystem-tre-r376-type-evenement-administratif.md) | Nomenclature des événements administratifs pertinents pour un cycle de vie d'un Objet de Santé (du MOS) Remarque : Cette nomenclature est juste initialisée avec les codes FINESS+ | 30/12/2024 |
+| [TreR376TypeEvenementStructure](CodeSystem-tre-r376-type-evenement-structure.md) | Nomenclature des événements administratifs pertinents pour un cycle de vie d'un Objet de Santé (du MOS) Remarque : Cette nomenclature est juste initialisée avec les codes FINESS+ | 30/12/2024 |
 | [TreR377UsageAdresse](CodeSystem-tre-r377-usage-adresse.md) | Nomenclature des types des adresses Remarque : Cette TRE est juste intialisée avec les codes FINESS. | 30/12/2024 |
 | [TreR378MotifArrete](CodeSystem-tre-r378-motif-arrete.md) | Nomenclature des motifs des arrêtés Remarque : Cette TRE est juste initialisée avec les codes FINESS+ | 30/12/2024 |
 | [TreR379SystemeInformation](CodeSystem-tre-r379-systeme-information.md) | Nomenclature des systemes d’information généralement déclarés pour définir les caractéristiques des identifiants ou des événements Remarque : Cette TRE est initialisée avec les codes FINESS | 11/06/2025 |
 | [TreR386MacroEtatObjetStructure](CodeSystem-tre-r386-macro-etat-objet-structure.md) | Nomenclature des macro-etat des structures (PM, EGE, Activites, engagements) qui dérivent de l'état de l'objet. Permet de distinguer les structures actives de celles inactives. | 30/12/2024 |
+| [TreR387TypeGroupementStructure](CodeSystem-tre-r387-type-groupement-structure.md) | Nomenclature des types de groupement des ressources Structures. Groupement de coopération conventionnelle ou Groupement de coopération organique | 30/03/2026 |
 | [TreR389StatutBilanProjetPersonnalise](CodeSystem-tre-r389-statut-bilan-projet-personnalise.md) | Statut du bilan du projet personnalisé. | 18/04/2025 |
 | [TreR390TypeProjetPersonnalise](CodeSystem-tre-r390-type-projet-personnalise.md) | Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l'usager, son entourage familial et professionnel du médico-social. | 22/04/2025 |
 | [TreR392TypeActSmsseRegulee](CodeSystem-tre-r392-type-act-smsse-regulee.md) | Type activité SMSSE régulée | 07/11/2025 |

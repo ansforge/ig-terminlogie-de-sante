@@ -1,5 +1,23 @@
 {
   "codeSystems" : [{
+    "url" : "http://hl7.org/fhir/us/example/CodeSystem/tre-r360-role-membre",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "TreR360RoleMembre",
+    "title" : "Tre R360 Role Membre",
+    "description" : "Nomenclature des  rôles que peuvent exercer des membres participants à des groupements",
+    "oids" : ["1.2.250.1.213.1.6.1.254"]
+  },
+  {
+    "url" : "http://hl7.org/fhir/us/example/CodeSystem/tre-r387-type-groupement-structure",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "TreR387TypeGroupementStructure",
+    "title" : "Tre R387 Type Groupement Structure",
+    "description" : "Nomenclature des types de groupement des ressources Structures. Groupement de coopération conventionnelle ou Groupement de coopération organique",
+    "oids" : ["1.2.250.1.213.1.6.1.302"]
+  },
+  {
     "url" : "http://snomed.info/sct",
     "version" : "http://snomed.info/sct/900000000000207008/version/20260501",
     "status" : "active",
@@ -2520,12 +2538,12 @@
     "oids" : ["1.2.250.1.213.1.6.1.256"]
   },
   {
-    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r364-type-document-administratif",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r364-type-document-structure",
     "version" : "20241230120000",
     "status" : "active",
-    "name" : "TreR364TypeDocumentAdministratif",
-    "title" : "Tre R364 Type Document Administratif",
-    "description" : "Nomenclature des types de documents administratif ( exemple : agrément, convention...) \nRemarque : Cette nomenclature est juste initialisée avec les types de documents FINESS",
+    "name" : "TreR364TypeDocumentStructure",
+    "title" : "Tre R364 Type Document Structure",
+    "description" : "Nomenclature des types de documents des structures (PM, EGE, activites EGE, engagments) ( exemple : agrément, convention...)",
     "oids" : ["1.2.250.1.213.1.6.1.258"]
   },
   {
@@ -2601,11 +2619,11 @@
     "oids" : ["1.2.250.1.213.1.6.1.290"]
   },
   {
-    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r376-type-evenement-administratif",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r376-type-evenement-structure",
     "version" : "20241230120000",
     "status" : "active",
-    "name" : "TreR376TypeEvenementAdministratif",
-    "title" : "Tre R376 Type Evenement Administratif",
+    "name" : "TreR376TypeEvenementStructure",
+    "title" : "Tre R376 Type Evenement Structure",
     "description" : "Nomenclature des événements administratifs pertinents pour un cycle de vie d'un Objet de Santé (du MOS)\nRemarque : Cette nomenclature est juste initialisée avec les codes FINESS+",
     "oids" : ["1.2.250.1.213.1.6.1.291"]
   },

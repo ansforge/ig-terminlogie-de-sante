@@ -8,7 +8,7 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j296-type-role-entite-groupe-finess | *Version*:20260330120000 | |
+| *Official URL*:http://hl7.org/fhir/us/example/ValueSet/jdv-j296-type-role-entite-groupe-finess | *Version*:20260330120000 | |
 | Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ296TypeRoleEntiteGroupeFiness |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.263 | | |
 
@@ -32,6 +32,8 @@ Requête sur le SMT
  
 
 ### Expansion
+
+No Expansion for this valueset (Unknown Code System)
 
 -------
 
@@ -66,7 +68,7 @@ Requête sur le SMT
       "start" : "2026-03-30T12:00:00+01:00"
     }
   }],
-  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j296-type-role-entite-groupe-finess",
+  "url" : "http://hl7.org/fhir/us/example/ValueSet/jdv-j296-type-role-entite-groupe-finess",
   "identifier" : [{
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.263"
@@ -87,7 +89,7 @@ Requête sur le SMT
   }],
   "compose" : {
     "include" : [{
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe",
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-role-membre",
       "filter" : [{
         "property" : "finess",
         "op" : "=",

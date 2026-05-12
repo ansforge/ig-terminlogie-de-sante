@@ -25,6 +25,28 @@
     "sources" : ["2.16.840.1.113883.4.642.3.264"]
   },
   {
+    "url" : "http://hl7.org/fhir/us/example/ValueSet/jdv-j296-type-role-entite-groupe-finess",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "JdvJ296TypeRoleEntiteGroupeFiness",
+    "title" : "Jdv J296 Type Role Entite Groupe Finess",
+    "description" : "Jeu de valeurs FINESS contenant les types de rôles que peuvent exercer des entités participants à des groupements",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-role-membre"],
+    "oids" : ["1.2.250.1.213.1.6.1.263"],
+    "sources" : ["1.2.250.1.213.1.6.1.263"]
+  },
+  {
+    "url" : "http://hl7.org/fhir/us/example/ValueSet/jdv-j305-type-groupement-finess",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "JdvJ305TypeGroupementFiness",
+    "title" : "Jdv J305 Type Groupement Finess",
+    "description" : "Jeu de valeurs FINESS contenant les types de groupement utilisables dans FINESS. Groupement de coopération conventionnelle ou Groupement de coopération organique",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupementStructure"],
+    "oids" : ["1.2.250.1.213.1.6.1.313"],
+    "sources" : ["1.2.250.1.213.1.6.1.313"]
+  },
+  {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV-MediaTypeCorpsCDANonStructure?vs",
     "version" : "1.1.0",
     "status" : "active",
@@ -5646,7 +5668,7 @@
     "name" : "JdvJ294DocumentJustificatifFiness",
     "title" : "Jdv J294 Document Justificatif Finess",
     "description" : "Jeu de valeurs FINESS contenant les types de documents justificatifs pouvant être associés à une entité FINESS",
-    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r364-type-document-administratif"],
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r364-type-document-structure"],
     "oids" : ["1.2.250.1.213.1.6.1.268"],
     "sources" : ["1.2.250.1.213.1.6.1.268"]
   },
@@ -5657,20 +5679,9 @@
     "name" : "JdvJ295DocumentInformatifFiness",
     "title" : "Jdv J295 Document Informatif Finess",
     "description" : "Jeu de valeurs FINESS contenant les types de documents informatifs pouvant être associés à une entité FINESS",
-    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r364-type-document-administratif"],
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r364-type-document-structure"],
     "oids" : ["1.2.250.1.213.1.6.1.269"],
     "sources" : ["1.2.250.1.213.1.6.1.269"]
-  },
-  {
-    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j296-type-role-entite-groupe-finess",
-    "version" : "20260330120000",
-    "status" : "active",
-    "name" : "JdvJ296TypeRoleEntiteGroupeFiness",
-    "title" : "Jdv J296 Type Role Entite Groupe Finess",
-    "description" : "Jeu de valeurs FINESS contenant les types de rôles que peuvent exercer des entités participants à des groupements",
-    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe"],
-    "oids" : ["1.2.250.1.213.1.6.1.263"],
-    "sources" : ["1.2.250.1.213.1.6.1.263"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j297-type-evenement-administratif-finess",
@@ -5679,7 +5690,7 @@
     "name" : "JdvJ297TypeEvenementAdministratifFiness",
     "title" : "Jdv J297 Type Evenement Administratif Finess",
     "description" : "Jeu de valeurs FINESS contenant les événements affectant le cycle de vie des entités et activités enrgeistrées dans FINESS+",
-    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r376-type-evenement-administratif"],
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r376-type-evenement-structure"],
     "oids" : ["1.2.250.1.213.1.6.1.304"],
     "sources" : ["1.2.250.1.213.1.6.1.304"]
   },
@@ -5690,7 +5701,7 @@
     "name" : "JdvJ298MacroEtatObjetAdministratifFiness",
     "title" : "Jdv J298 Macro Etat Objet Administratif Finess",
     "description" : "Jeu de valeurs FINESS contenant les macro-etat des structures FINESS qui dérivent de l'état de l'objet. Permet de distinguer les structures actives de celles inactives.",
-    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"],
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"],
     "oids" : ["1.2.250.1.213.1.6.1.306"],
     "sources" : ["1.2.250.1.213.1.6.1.306"]
   },
@@ -5759,17 +5770,6 @@
     "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique"],
     "oids" : ["1.2.250.1.213.1.6.1.312"],
     "sources" : ["1.2.250.1.213.1.6.1.312"]
-  },
-  {
-    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j305-type-groupement-finess",
-    "version" : "20260330120000",
-    "status" : "active",
-    "name" : "JdvJ305TypeGroupementFiness",
-    "title" : "Jdv J305 Type Groupement Finess",
-    "description" : "Jeu de valeurs FINESS contenant les types de groupement utilisables dans FINESS. Groupement de coopération conventionnelle ou Groupement de coopération organique",
-    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement"],
-    "oids" : ["1.2.250.1.213.1.6.1.313"],
-    "sources" : ["1.2.250.1.213.1.6.1.313"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j306-type-groupe-gcc-finess",
@@ -6262,7 +6262,7 @@
     "name" : "JdvJ371EtatObjetAdministratifFiness",
     "title" : "Jdv J371 Etat Objet Administratif Finess",
     "description" : "Jeu de valeurs FINESS contenant les états élémentaires que peuvent porter les entités et activités FINESS+",
-    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet"],
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet-structure"],
     "oids" : ["1.2.250.1.213.1.6.1.305"],
     "sources" : ["1.2.250.1.213.1.6.1.305"]
   },
@@ -10013,8 +10013,8 @@
     "systems" : ["https://smt.esante.gouv.fr/terminologie-cip_ucd"],
     "uses" : {
     },
-    "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD",
-    "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD"
+    "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD",
+    "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD"
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-nuva?vs",
@@ -10026,8 +10026,8 @@
     "systems" : ["https://smt.esante.gouv.fr/terminologie-nuva"],
     "uses" : {
     },
-    "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD",
-    "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM"
+    "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM",
+    "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD"
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-sms?vs",

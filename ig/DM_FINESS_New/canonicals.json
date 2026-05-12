@@ -7,6 +7,38 @@
   "oids" : ["2.16.840.1.113883.4.642.3.264"]
 },
 {
+  "id" : "tre-r360-role-membre",
+  "type" : "CodeSystem",
+  "url" : "http://hl7.org/fhir/us/example/CodeSystem/tre-r360-role-membre",
+  "version" : "20260330120000",
+  "name" : "TreR360RoleMembre",
+  "oids" : ["1.2.250.1.213.1.6.1.254"]
+},
+{
+  "id" : "tre-r387-type-groupement-structure",
+  "type" : "CodeSystem",
+  "url" : "http://hl7.org/fhir/us/example/CodeSystem/tre-r387-type-groupement-structure",
+  "version" : "20260330120000",
+  "name" : "TreR387TypeGroupementStructure",
+  "oids" : ["1.2.250.1.213.1.6.1.302"]
+},
+{
+  "id" : "jdv-j296-type-role-entite-groupe-finess",
+  "type" : "ValueSet",
+  "url" : "http://hl7.org/fhir/us/example/ValueSet/jdv-j296-type-role-entite-groupe-finess",
+  "version" : "20260330120000",
+  "name" : "JdvJ296TypeRoleEntiteGroupeFiness",
+  "oids" : ["1.2.250.1.213.1.6.1.263"]
+},
+{
+  "id" : "jdv-j305-type-groupement-finess",
+  "type" : "ValueSet",
+  "url" : "http://hl7.org/fhir/us/example/ValueSet/jdv-j305-type-groupement-finess",
+  "version" : "20260330120000",
+  "name" : "JdvJ305TypeGroupementFiness",
+  "oids" : ["1.2.250.1.213.1.6.1.313"]
+},
+{
   "id" : "900000000000207008-20260501",
   "type" : "CodeSystem",
   "url" : "http://snomed.info/sct",
@@ -4669,11 +4701,11 @@
   "name" : "VsTreR362TypeBudgetAll"
 },
 {
-  "id" : "tre-r364-type-document-administratif",
+  "id" : "tre-r364-type-document-structure",
   "type" : "CodeSystem",
-  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r364-type-document-administratif",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r364-type-document-structure",
   "version" : "20241230120000",
-  "name" : "TreR364TypeDocumentAdministratif",
+  "name" : "TreR364TypeDocumentStructure",
   "oids" : ["1.2.250.1.213.1.6.1.258"]
 },
 {
@@ -4769,11 +4801,11 @@
   "name" : "VsTreR375ModeFinancementAll"
 },
 {
-  "id" : "tre-r376-type-evenement-administratif",
+  "id" : "tre-r376-type-evenement-structure",
   "type" : "CodeSystem",
-  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r376-type-evenement-administratif",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r376-type-evenement-structure",
   "version" : "20241230120000",
-  "name" : "TreR376TypeEvenementAdministratif",
+  "name" : "TreR376TypeEvenementStructure",
   "oids" : ["1.2.250.1.213.1.6.1.291"]
 },
 {
@@ -6851,14 +6883,6 @@
   "oids" : ["1.2.250.1.213.1.6.1.269"]
 },
 {
-  "id" : "jdv-j296-type-role-entite-groupe-finess",
-  "type" : "ValueSet",
-  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j296-type-role-entite-groupe-finess",
-  "version" : "20260330120000",
-  "name" : "JdvJ296TypeRoleEntiteGroupeFiness",
-  "oids" : ["1.2.250.1.213.1.6.1.263"]
-},
-{
   "id" : "jdv-j297-type-evenement-administratif-finess",
   "type" : "ValueSet",
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j297-type-evenement-administratif-finess",
@@ -6921,14 +6945,6 @@
   "version" : "20260223120000",
   "name" : "JdvJ304FinessStatutJuridiqueFiness",
   "oids" : ["1.2.250.1.213.1.6.1.312"]
-},
-{
-  "id" : "jdv-j305-type-groupement-finess",
-  "type" : "ValueSet",
-  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j305-type-groupement-finess",
-  "version" : "20260330120000",
-  "name" : "JdvJ305TypeGroupementFiness",
-  "oids" : ["1.2.250.1.213.1.6.1.313"]
 },
 {
   "id" : "jdv-j306-type-groupe-gcc-finess",

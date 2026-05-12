@@ -33,8 +33,6 @@ Requête sur le SMT
 
 ### Expansion
 
-No Expansion for this valueset (Unknown Code System)
-
 -------
 
  Explanation of the columns that may appear on this page: 
@@ -83,7 +81,7 @@ No Expansion for this valueset (Unknown Code System)
   "description" : "Jeu de valeurs FINESS contenant les macro-etat des structures FINESS qui dérivent de l'état de l'objet. Permet de distinguer les structures actives de celles inactives.",
   "compose" : {
     "include" : [{
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure",
       "filter" : [{
         "property" : "finess",
         "op" : "=",

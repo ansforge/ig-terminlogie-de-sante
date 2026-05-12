@@ -81,7 +81,7 @@ Requête sur le SMT
   "description" : "Jeu de valeurs FINESS contenant les événements affectant le cycle de vie des entités et activités enrgeistrées dans FINESS+",
   "compose" : {
     "include" : [{
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r376-type-evenement-administratif",
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r376-type-evenement-structure",
       "filter" : [{
         "property" : "finess",
         "op" : "=",

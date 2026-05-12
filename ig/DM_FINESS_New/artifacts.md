@@ -1196,10 +1196,11 @@ These define new code systems used by systems conforming to this implementation 
 | [TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies](CodeSystem-terminologie-cisis.md) | Terminologie multi-domaines créée et maintenue par l’ANS contenant les termes non trouvés dans les autres terminologies internationales ou nationales. |
 | [TimingEvent](CodeSystem-v3-TimingEvent.md) | **** MISSING DESCRIPTION **** |
 | [Tre R347 Activite Sanitaire Diverse Regulee](CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.md) | Nomenclature des activités sanitaires utilisée pour décrire les Activités Sanitaires Diverses Régulées (ASDR) |
+| [Tre R360 Role Membre](CodeSystem-tre-r360-role-membre.md) | Nomenclature des rôles que peuvent exercer des membres participants à des groupements |
 | [Tre R360 Type Role Entite Groupe](CodeSystem-tre-r360-type-role-entite-groupe.md) | Nomenclature des types de rôles que peuvent exercer des entités participants à des groupements |
 | [Tre R361 Fonction Publique](CodeSystem-tre-r361-fonction-publique.md) | Nomenclature des versants de la fonction publique |
 | [Tre R362 Type Budget](CodeSystem-tre-r362-type-budget.md) | Nomenclature des types de budget associés aux Entités Géographiques d’Exercice (EGE) dans FINESS+ |
-| [Tre R364 Type Document Administratif](CodeSystem-tre-r364-type-document-administratif.md) | Nomenclature des types de documents administratif ( exemple : agrément, convention…) Remarque : Cette nomenclature est juste initialisée avec les types de documents FINESS |
+| [Tre R364 Type Document Structure](CodeSystem-tre-r364-type-document-structure.md) | Nomenclature des types de documents des structures (PM, EGE, activites EGE, engagments) ( exemple : agrément, convention…) |
 | [Tre R365 Etat Objet Structure](CodeSystem-tre-r365-etat-objet-structure.md) | Nomenclature des états élémentaires d’un objet Structure (PM, EGE, Activites, engagements) organisés en etat actifs et en etats inactifs. |
 | [Tre R366 Type Objet](CodeSystem-tre-r366-type-objet.md) | Nomenclature des types d’objets du MOS. Remarque : Cette nomenclature est juste initialisée avec les types d’objet FINESS+ |
 | [Tre R370 Role Relation Ege](CodeSystem-tre-r370-role-relation-ege.md) | Nomenclature des types de rôle existant entre les Entités Géographiques d’Exercice (EGE) au sein d’une PM-SMSSE |
@@ -1208,7 +1209,7 @@ These define new code systems used by systems conforming to this implementation 
 | [Tre R373 Type Personne Morale](CodeSystem-tre-r373-type-personne-morale.md) | Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces champs). Remarque : Cette TRE est juste initialisée à minima et a vocation à porter d’autres valurs. |
 | [Tre R374 Nature Activite Smsse Regulee](CodeSystem-tre-r374-nature-activite-smsse-regulee.md) | Nomenclature des grandes natures d’activité SMSSE exercées par les entités FINESS+ |
 | [Tre R375 Mode Financement](CodeSystem-tre-r375-mode-financement.md) | Nomenclature des modes de financement associés aux capacités de certaines activitées SMSSE |
-| [Tre R376 Type Evenement Administratif](CodeSystem-tre-r376-type-evenement-administratif.md) | Nomenclature des événements administratifs pertinents pour un cycle de vie d’un Objet de Santé (du MOS) Remarque : Cette nomenclature est juste initialisée avec les codes FINESS+ |
+| [Tre R376 Type Evenement Structure](CodeSystem-tre-r376-type-evenement-structure.md) | Nomenclature des événements administratifs pertinents pour un cycle de vie d’un Objet de Santé (du MOS) Remarque : Cette nomenclature est juste initialisée avec les codes FINESS+ |
 | [Tre R377 Usage Adresse](CodeSystem-tre-r377-usage-adresse.md) | Nomenclature des types des adresses Remarque : Cette TRE est juste intialisée avec les codes FINESS. |
 | [Tre R378 Motif Arrete](CodeSystem-tre-r378-motif-arrete.md) | Nomenclature des motifs des arrêtés Remarque : Cette TRE est juste initialisée avec les codes FINESS+ |
 | [Tre R379 Systeme Information](CodeSystem-tre-r379-systeme-information.md) | Nomenclature des systemes d’information généralement déclarés pour définir les caractéristiques des identifiants ou des événements Remarque : Cette TRE est initialisée avec les codes FINESS |
@@ -1219,6 +1220,7 @@ These define new code systems used by systems conforming to this implementation 
 | [Tre R385 Declaration Act De Soin Amm](CodeSystem-tre-r385-declaration-act-de-soin-amm.md) | Nomenclature des déclarations pour les activités de soin AMM |
 | [Tre R386 Macro Etat Objet Structure](CodeSystem-tre-r386-macro-etat-objet-structure.md) | Nomenclature des macro-etat des structures (PM, EGE, Activites, engagements) qui dérivent de l’état de l’objet. Permet de distinguer les structures actives de celles inactives. |
 | [Tre R387 Type Groupement](CodeSystem-tre-r387-type-groupement.md) | Nomenclature des types de groupement utilisables dans FINESS. Groupement de coopération conventionnelle ou Groupement de coopération organique |
+| [Tre R387 Type Groupement Structure](CodeSystem-tre-r387-type-groupement-structure.md) | Nomenclature des types de groupement des ressources Structures. Groupement de coopération conventionnelle ou Groupement de coopération organique |
 | [Tre R388 Type Logement](CodeSystem-tre-r388-type-logement.md) | Nomenclature des types de logement associées aux capacités Remarque : cette nomenclature est initialisée avec les besoins FINESS+ |
 | [Tre R389 Statut Bilan Projet Personnalise](CodeSystem-tre-r389-statut-bilan-projet-personnalise.md) | Statut du bilan du projet personnalisé. |
 | [Tre R390 Type Projet Personnalise](CodeSystem-tre-r390-type-projet-personnalise.md) | Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l’usager, son entourage familial et professionnel du médico-social. |

@@ -90798,6 +90798,27 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r360-role-membre> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r360-role-membre" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R360 Role Membre" ] ;
+       fhir:description [ fhir:v "Nomenclature des  rôles que peuvent exercer des membres participants à des groupements" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r360-type-role-entite-groupe> ;
          fhir:reference [ fhir:v "CodeSystem/tre-r360-type-role-entite-groupe" ]
        ] ;
@@ -90861,11 +90882,11 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r364-type-document-administratif> ;
-         fhir:reference [ fhir:v "CodeSystem/tre-r364-type-document-administratif" ]
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r364-type-document-structure> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r364-type-document-structure" ]
        ] ;
-       fhir:name [ fhir:v "Tre R364 Type Document Administratif" ] ;
-       fhir:description [ fhir:v "Nomenclature des types de documents administratif ( exemple : agrément, convention...) \nRemarque : Cette nomenclature est juste initialisée avec les types de documents FINESS" ] ;
+       fhir:name [ fhir:v "Tre R364 Type Document Structure" ] ;
+       fhir:description [ fhir:v "Nomenclature des types de documents des structures (PM, EGE, activites EGE, engagments) ( exemple : agrément, convention...)" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -91050,10 +91071,10 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r376-type-evenement-administratif> ;
-         fhir:reference [ fhir:v "CodeSystem/tre-r376-type-evenement-administratif" ]
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r376-type-evenement-structure> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r376-type-evenement-structure" ]
        ] ;
-       fhir:name [ fhir:v "Tre R376 Type Evenement Administratif" ] ;
+       fhir:name [ fhir:v "Tre R376 Type Evenement Structure" ] ;
        fhir:description [ fhir:v "Nomenclature des événements administratifs pertinents pour un cycle de vie d'un Objet de Santé (du MOS)\nRemarque : Cette nomenclature est juste initialisée avec les codes FINESS+" ] ;
        fhir:example [
          a fhir:Boolean ;
@@ -91265,6 +91286,27 @@
        ] ;
        fhir:name [ fhir:v "Tre R387 Type Groupement" ] ;
        fhir:description [ fhir:v "Nomenclature des types de groupement utilisables dans FINESS. Groupement de coopération conventionnelle ou Groupement de coopération organique" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r387-type-groupement-structure> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r387-type-groupement-structure" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R387 Type Groupement Structure" ] ;
+       fhir:description [ fhir:v "Nomenclature des types de groupement des ressources Structures. Groupement de coopération conventionnelle ou Groupement de coopération organique" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false

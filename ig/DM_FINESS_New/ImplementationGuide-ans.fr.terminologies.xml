@@ -34001,6 +34001,17 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/tre-r360-role-membre"/>
+      </reference>
+      <name value="Tre R360 Role Membre"/>
+      <description value="Nomenclature des  rôles que peuvent exercer des membres participants à des groupements"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/tre-r360-type-role-entite-groupe"/>
       </reference>
       <name value="Tre R360 Type Role Entite Groupe"/>
@@ -34034,10 +34045,10 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/tre-r364-type-document-administratif"/>
+        <reference value="CodeSystem/tre-r364-type-document-structure"/>
       </reference>
-      <name value="Tre R364 Type Document Administratif"/>
-      <description value="Nomenclature des types de documents administratif ( exemple : agrément, convention...) &#xA;Remarque : Cette nomenclature est juste initialisée avec les types de documents FINESS"/>
+      <name value="Tre R364 Type Document Structure"/>
+      <description value="Nomenclature des types de documents des structures (PM, EGE, activites EGE, engagments) ( exemple : agrément, convention...)"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -34133,9 +34144,9 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/tre-r376-type-evenement-administratif"/>
+        <reference value="CodeSystem/tre-r376-type-evenement-structure"/>
       </reference>
-      <name value="Tre R376 Type Evenement Administratif"/>
+      <name value="Tre R376 Type Evenement Structure"/>
       <description value="Nomenclature des événements administratifs pertinents pour un cycle de vie d'un Objet de Santé (du MOS)&#xA;Remarque : Cette nomenclature est juste initialisée avec les codes FINESS+"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -34247,6 +34258,17 @@
       </reference>
       <name value="Tre R387 Type Groupement"/>
       <description value="Nomenclature des types de groupement utilisables dans FINESS. Groupement de coopération conventionnelle ou Groupement de coopération organique"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r387-type-groupement-structure"/>
+      </reference>
+      <name value="Tre R387 Type Groupement Structure"/>
+      <description value="Nomenclature des types de groupement des ressources Structures. Groupement de coopération conventionnelle ou Groupement de coopération organique"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

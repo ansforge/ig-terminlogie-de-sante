@@ -20,7 +20,7 @@
   fhir:language [ fhir:v "fr-FR"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet jdv-j305-type-groupement-finess</b></p><a name=\"jdv-j305-type-groupement-finess\"> </a><a name=\"hcjdv-j305-type-groupement-finess\"> </a><a name=\"jdv-j305-type-groupement-finess-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Last updated: 2026-03-27 12:18:02+0100; Language: fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include codes provenant de<a href=\"CodeSystem-tre-r387-type-groupement.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement</code></a> où finess  = true</li></ul></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j305-type-groupement-finess</b></p><a name=\"jdv-j305-type-groupement-finess\"> </a><a name=\"hcjdv-j305-type-groupement-finess\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 2; Dernière mise à jour : 2026-05-05 19:02:09+0200; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include codes provenant de<code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupementStructure</code><span title=\"La version n'est pas explicitement indiquée. Aucun Système de codes (Code System) correspondant trouvé\"> version Non Précisé(e) (utilise la dernière version provenant du serveur de terminologie)</span> où finess  = true</li></ul></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
      fhir:url [
@@ -33,8 +33,8 @@
      ]
   ] ) ; # 
   fhir:url [
-     fhir:v "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j305-type-groupement-finess"^^xsd:anyURI ;
-     fhir:l <https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j305-type-groupement-finess>
+     fhir:v "http://hl7.org/fhir/us/example/ValueSet/jdv-j305-type-groupement-finess"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/us/example/ValueSet/jdv-j305-type-groupement-finess>
   ] ; # 
   fhir:identifier ( [
      fhir:system [
@@ -63,8 +63,8 @@
   fhir:compose [
      fhir:include ( [
        fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement>
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupementStructure"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupementStructure>
        ] ;
        fhir:filter ( [
          fhir:property [ fhir:v "finess" ] ;
