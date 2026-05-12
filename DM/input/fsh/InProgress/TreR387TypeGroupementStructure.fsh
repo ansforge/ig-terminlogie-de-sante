@@ -65,10 +65,10 @@ Description: "Nomenclature des types de groupement des ressources Structures. Gr
 * #01 ^property[+].code = #finess
 * #01 ^property[=].valueBoolean = true
 * #01 ^property[+].code = #hasTypeRoleMember
-* #01 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe"
-* #01 ^property[=].valueCoding = TreR360TypeRoleEntiteGroupe#M
+* #01 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-role-membre"
+* #01 ^property[=].valueCoding = TreR360RoleMembre#M
 * #01 ^property[+].code = #hasTypeRoleMember
-* #01 ^property[=].valueCoding = TreR360TypeRoleEntiteGroupe#S
+* #01 ^property[=].valueCoding = TreR360RoleMembre#S
 * #02 "Groupement de coopération organique" "La coopération organique entre personnes morales se traduit par la création d’une nouvelle structure juridique dotée d’une personnalité morale. Elle s’adosse à différents supports juridiques dont par exemple le GCS (Groupement de Coopération Sanitaire) ou le Groupement de Coopération sociale et médico-sociale (GCSMS). Un GCO est donc représenté par une Personne Morale particulière dite 'tête de groupe'."
 * #02 ^designation.language = #fr-FR
 * #02 ^designation.use = $sct#900000000000013009
@@ -82,4 +82,4 @@ Description: "Nomenclature des types de groupement des ressources Structures. Gr
 * #02 ^property[+].code = #finess
 * #02 ^property[=].valueBoolean = true
 * #02 ^property[+].code = #hasTypeRoleMember
-* #02 ^property[=].valueCoding = TreR360TypeRoleEntiteGroupe#M
+* #02 ^property[=].valueCoding = TreR360RoleMembre#M
