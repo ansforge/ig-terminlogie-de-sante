@@ -1,3 +1,5 @@
+Alias: $tre-r360-role-membre = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-role-membre 
+
 ValueSet: JdvJ296TypeRoleEntiteGroupeFiness
 Id: jdv-j296-type-role-entite-groupe-finess
 Title: "Jdv J296 Type Role Entite Groupe Finess"
