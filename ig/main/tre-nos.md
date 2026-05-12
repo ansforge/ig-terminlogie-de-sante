@@ -1,4 +1,4 @@
-# Terminologies du NOS - Terminologies de Santé v1.9.1
+# Terminologies du NOS - Terminologies de Santé v1.9.2
 
 * [**Table of Contents**](toc.md)
 * [**Terminologies**](tre.md)
@@ -46,6 +46,18 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TreR406FormeActiviteSmsseRegulee](CodeSystem-tre-r406-forme-activite-smsse-regulee.md) | Formes des activites smsse régulées, remplace la TRE_R276-FormeActivite | 23/02/2026 |
 | [TreR407CompositionFoyer](CodeSystem-tre-r407-composition-foyer.md) | Désigne avec qui vit l’usager dans son logement. | 02/02/2026 |
 | [TreR408TypeEnseignementSpecialise](CodeSystem-tre-r408-type-enseignement-specialise.md) | Type d'enseignement spécialisé. | 02/02/2026 |
+| [TreR415UtilisationCanalCommunication](CodeSystem-tre-r415-utilisation-canal-communication.md) | Précise l'utilisation du canal de communication. | 05/05/2026 |
+| [TreR416TypeCourrier](CodeSystem-tre-r416-type-courrier.md) | Type de courrier en France. | 05/05/2026 |
+| [TreR417TypeDemandeCompensation](CodeSystem-tre-r417-type-demande-compensation.md) | Type de la demande de compensation adressée à la CDAPH. | 05/05/2026 |
+| [TreR418NatureDemandeCompensation](CodeSystem-tre-r418-nature-demande-compensation.md) | Nature de la demande de compensation adressée à la CDAPH. | 05/05/2026 |
+| [TreR420DroitPrestation](CodeSystem-tre-r420-droit-prestation.md) | Catégorie et type de droit et prestation caractérisant la décision d'orientation. | 05/05/2026 |
+| [TreR421MotifFinPag](CodeSystem-tre-r421-motif-fin-pag.md) | Lorsque le plan d'accompagnement global (PAG) arrive à échéance ou si le coordonnateur de parcours l'estime nécessaire, un bilan est élaboré et la phase d'actualisation est lancée afin de déterminer s'il faut prolonger ce PAG, le modifier ou y mettre fin. La MDPH, les partenaires et l'usager peuvent définir ensemble que le PAG n'est plus nécessaire et donc y mettre fin. Le consentement de la personne ou de son représentant légal est recueilli et l'information sur la fin du PAG transmise à l'ensemble des parties-prenantes. | 05/05/2026 |
+| [TreR422QualificationOrientation](CodeSystem-tre-r422-qualification-orientation.md) | La qualification de l'orientation peut être cible ou alternative. | 05/05/2026 |
+| [TreR423TypePresenceAbsence](CodeSystem-tre-r423-type-presence-absence.md) | Déclaration du type de présence absence de l'usager lors d'un événement organisé par sa structure de rattachement. | 05/05/2026 |
+| [TreR424MotifAbsence](CodeSystem-tre-r424-motif-absence.md) | Motif pour lequel l'usager n'est pas présent lors d'un événement organisé par sa structure de rattachement. | 05/05/2026 |
+| [TreR425TypeRepas](CodeSystem-tre-r425-type-repas.md) | Type de repas. | 05/05/2026 |
+| [TreR426Orientation](CodeSystem-tre-r426-orientation.md) | Orientation vers un Service d'éducation spéciale et de soins à domicile (SESSAD) ou vers un Service d'accompagnement familial et d'éducation précoce (SAFEP) | 05/05/2026 |
+| [TreR427TypeAdresse](CodeSystem-tre-r427-type-adresse.md) | Type d'adresse postale. | 05/05/2026 |
 | [TRE_A00_ProducteurDocNonPS](CodeSystem-TRE-A00-ProducteurDocNonPS.md) | Producteur de document non PS | 29/03/2024 |
 | [TRE_A01_CadreExercice](CodeSystem-TRE-A01-CadreExercice.md) | Cadre d'exercice | 27/09/2024 |
 | [TRE_A02_ProfessionSavFaire_CISIS](CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.md) | Profession et savoir-faire CI-SIS | 02/02/2026 |

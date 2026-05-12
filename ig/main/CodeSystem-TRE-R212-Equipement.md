@@ -1,4 +1,4 @@
-# TRE_R212_Equipement - Terminologies de Santé v1.9.1
+# TRE_R212_Equipement - Terminologies de Santé v1.9.2
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

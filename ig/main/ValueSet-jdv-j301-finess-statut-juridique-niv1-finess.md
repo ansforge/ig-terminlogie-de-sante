@@ -1,4 +1,4 @@
-# Jdv J301 Finess Statut Juridique Niv1 Finess - Terminologies de Santé v1.9.1
+# Jdv J301 Finess Statut Juridique Niv1 Finess - Terminologies de Santé v1.9.2
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

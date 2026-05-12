@@ -1,4 +1,4 @@
-# Snomed_CT_core_900000000000207008 - Terminologies de Santé v1.9.1
+# Snomed_CT_core_900000000000207008 - Terminologies de Santé v1.9.2
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

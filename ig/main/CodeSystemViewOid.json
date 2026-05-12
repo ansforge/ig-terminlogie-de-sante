@@ -2797,4 +2797,100 @@
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise",
   "identifier" : "urn:oid:1.2.250.1.213.3.3.262",
   "status" : "active"
+},
+{
+  "id" : "tre-r415-utilisation-canal-communication",
+  "name" : "TreR415UtilisationCanalCommunication",
+  "title" : "Tre R415 Utilisation Canal Communication",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r415-utilisation-canal-communication",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.266",
+  "status" : "draft"
+},
+{
+  "id" : "tre-r416-type-courrier",
+  "name" : "TreR416TypeCourrier",
+  "title" : "Tre R416 Type Courrier",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r416-type-courrier",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.267",
+  "status" : "draft"
+},
+{
+  "id" : "tre-r417-type-demande-compensation",
+  "name" : "TreR417TypeDemandeCompensation",
+  "title" : "Tre R417 Type Demande Compensation",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r417-type-demande-compensation",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.268",
+  "status" : "draft"
+},
+{
+  "id" : "tre-r418-nature-demande-compensation",
+  "name" : "TreR418NatureDemandeCompensation",
+  "title" : "Tre R418 Nature Demande Compensation",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r418-nature-demande-compensation",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.269",
+  "status" : "draft"
+},
+{
+  "id" : "tre-r420-droit-prestation",
+  "name" : "TreR420DroitPrestation",
+  "title" : "Tre R420 Droit Prestation",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.271",
+  "status" : "draft"
+},
+{
+  "id" : "tre-r421-motif-fin-pag",
+  "name" : "TreR421MotifFinPag",
+  "title" : "Tre R421 Motif Fin Pag",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.272",
+  "status" : "draft"
+},
+{
+  "id" : "tre-r422-qualification-orientation",
+  "name" : "TreR422QualificationOrientation",
+  "title" : "Tre R422 Qualification Orientation",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r422-qualification-orientation",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.273",
+  "status" : "draft"
+},
+{
+  "id" : "tre-r423-type-presence-absence",
+  "name" : "TreR423TypePresenceAbsence",
+  "title" : "Tre R423 Type Presence Absence",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r423-type-presence-absence",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.274",
+  "status" : "draft"
+},
+{
+  "id" : "tre-r424-motif-absence",
+  "name" : "TreR424MotifAbsence",
+  "title" : "Tre R424 Motif Absence",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r424-motif-absence",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.275",
+  "status" : "draft"
+},
+{
+  "id" : "tre-r425-type-repas",
+  "name" : "TreR425TypeRepas",
+  "title" : "Tre R425 Type Repas",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r425-type-repas",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.276",
+  "status" : "draft"
+},
+{
+  "id" : "tre-r426-orientation",
+  "name" : "TreR426Orientation",
+  "title" : "Tre R426 Orientation",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.277",
+  "status" : "draft"
+},
+{
+  "id" : "tre-r427-type-adresse",
+  "name" : "TreR427TypeAdresse",
+  "title" : "Tre R427 Type Adresse",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r427-type-adresse",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.278",
+  "status" : "draft"
 }]
