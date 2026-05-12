@@ -1,11 +1,10 @@
 Alias: $sct = http://snomed.info/sct
 
-CodeSystem: TreR364TypeDocumentAdministratif
-Id: tre-r364-type-document-administratif
-Title: "Tre R364 Type Document Administratif"
+CodeSystem: TreR364TypeDocumentStructure
+Id: tre-r364-type-document-structure
+Title: "Tre R364 Type Document Structure"
 Description: """
-Nomenclature des types de documents administratif ( exemple : agrément, convention...) 
-Remarque : Cette nomenclature est juste initialisée avec les types de documents FINESS
+Nomenclature des types de documents des structures (PM, EGE, activites EGE, engagments) ( exemple : agrément, convention...) 
 """
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2024-12-30T12:00:00+01:00"
@@ -13,7 +12,7 @@ Remarque : Cette nomenclature est juste initialisée avec les types de documents
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "1900-01-01T00:00:00+01:00"
-* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r364-type-document-administratif"
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r364-type-document-structure"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.258"
 * ^version = "20241230120000"
