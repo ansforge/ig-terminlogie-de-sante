@@ -52,6 +52,7 @@ jobs:
         run: | 
           rm ./igSource/DM/input/fsh/Done/GitHub/*.fsh
           rm -rf ./igSource/DM/input/fsh/InProgress/*.fsh
+          rm -rf ./igSource/DM/input/fsh/Done/Ontoserver/*.fsh
 
           
       - name: Get From ontoserver      
