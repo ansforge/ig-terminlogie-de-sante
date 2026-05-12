@@ -16,4 +16,4 @@ Description: "Jeu de valeurs FINESS contenant les types de rôles que peuvent ex
 * ^date = "2026-03-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
-* include codes from system $tre-r360-type-role-entite-groupe where finess = "true"
+* include codes from system $tre-r360-role-membre where finess = "true"
