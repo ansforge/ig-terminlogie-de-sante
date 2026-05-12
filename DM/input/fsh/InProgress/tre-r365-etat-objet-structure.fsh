@@ -62,7 +62,7 @@ Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites,
 * #001 ^property[+].code = #status
 * #001 ^property[=].valueCode = #active
 * #001 ^property[+].code = #macroEtatAdministratif
-* #001 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #001 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"
 * #001 ^property[=].valueCoding.code = #A
 * #001 ^property[+].code = #finess
 * #001 ^property[=].valueBoolean = true
@@ -74,7 +74,7 @@ Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites,
 * #002 ^property[+].code = #status
 * #002 ^property[=].valueCode = #active
 * #002 ^property[+].code = #macroEtatAdministratif
-* #002 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #002 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"
 * #002 ^property[=].valueCoding.code = #I
 * #002 ^property[+].code = #finess
 * #002 ^property[=].valueBoolean = true
@@ -90,7 +90,7 @@ Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites,
 * #003 ^property[+].code = #status
 * #003 ^property[=].valueCode = #active
 * #003 ^property[+].code = #macroEtatAdministratif
-* #003 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #003 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"
 * #003 ^property[=].valueCoding.code = #A
 * #003 ^property[+].code = #finess
 * #003 ^property[=].valueBoolean = true
@@ -102,7 +102,7 @@ Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites,
 * #004 ^property[+].code = #status
 * #004 ^property[=].valueCode = #active
 * #004 ^property[+].code = #macroEtatAdministratif
-* #004 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #004 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"
 * #004 ^property[=].valueCoding.code = #I
 * #004 ^property[+].code = #finess
 * #004 ^property[=].valueBoolean = true
@@ -114,7 +114,7 @@ Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites,
 * #005 ^property[+].code = #status
 * #005 ^property[=].valueCode = #active
 * #005 ^property[+].code = #macroEtatAdministratif
-* #005 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #005 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"
 * #005 ^property[=].valueCoding.code = #I
 * #005 ^property[+].code = #finess
 * #005 ^property[=].valueBoolean = true
@@ -126,7 +126,7 @@ Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites,
 * #007 ^property[+].code = #status
 * #007 ^property[=].valueCode = #active
 * #007 ^property[+].code = #macroEtatAdministratif
-* #007 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #007 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"
 * #007 ^property[=].valueCoding.code = #A
 * #007 ^property[+].code = #finess
 * #007 ^property[=].valueBoolean = true
@@ -138,7 +138,7 @@ Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites,
 * #010 ^property[+].code = #status
 * #010 ^property[=].valueCode = #active
 * #010 ^property[+].code = #macroEtatAdministratif
-* #010 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #010 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"
 * #010 ^property[=].valueCoding.code = #A
 * #010 ^property[+].code = #finess
 * #010 ^property[=].valueBoolean = true
@@ -150,7 +150,7 @@ Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites,
 * #012 ^property[+].code = #status
 * #012 ^property[=].valueCode = #active
 * #012 ^property[+].code = #macroEtatAdministratif
-* #012 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #012 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"
 * #012 ^property[=].valueCoding.code = #A
 * #012 ^property[+].code = #finess
 * #012 ^property[=].valueBoolean = true
@@ -162,7 +162,7 @@ Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites,
 * #013 ^property[+].code = #status
 * #013 ^property[=].valueCode = #active
 * #013 ^property[+].code = #macroEtatAdministratif
-* #013 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #013 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"
 * #013 ^property[=].valueCoding.code = #I
 * #013 ^property[+].code = #finess
 * #013 ^property[=].valueBoolean = true
@@ -174,7 +174,7 @@ Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites,
 * #015 ^property[+].code = #status
 * #015 ^property[=].valueCode = #active
 * #015 ^property[+].code = #macroEtatAdministratif
-* #015 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #015 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"
 * #015 ^property[=].valueCoding.code = #I
 * #015 ^property[+].code = #finess
 * #015 ^property[=].valueBoolean = true
@@ -186,7 +186,7 @@ Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites,
 * #016 ^property[+].code = #status
 * #016 ^property[=].valueCode = #active
 * #016 ^property[+].code = #macroEtatAdministratif
-* #016 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #016 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"
 * #016 ^property[=].valueCoding.code = #A
 * #016 ^property[+].code = #finess
 * #016 ^property[=].valueBoolean = true
@@ -198,7 +198,7 @@ Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites,
 * #017 ^property[+].code = #status
 * #017 ^property[=].valueCode = #active
 * #017 ^property[+].code = #macroEtatAdministratif
-* #017 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #017 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"
 * #017 ^property[=].valueCoding.code = #A
 * #017 ^property[+].code = #finess
 * #017 ^property[=].valueBoolean = true
@@ -210,7 +210,7 @@ Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites,
 * #018 ^property[+].code = #status
 * #018 ^property[=].valueCode = #active
 * #018 ^property[+].code = #macroEtatAdministratif
-* #018 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #018 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"
 * #018 ^property[=].valueCoding.code = #I
 * #018 ^property[+].code = #finess
 * #018 ^property[=].valueBoolean = true
@@ -222,7 +222,7 @@ Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites,
 * #019 ^property[+].code = #status
 * #019 ^property[=].valueCode = #active
 * #019 ^property[+].code = #macroEtatAdministratif
-* #019 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #019 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"
 * #019 ^property[=].valueCoding.code = #A
 * #019 ^property[+].code = #finess
 * #019 ^property[=].valueBoolean = true
@@ -234,7 +234,7 @@ Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites,
 * #020 ^property[+].code = #status
 * #020 ^property[=].valueCode = #active
 * #020 ^property[+].code = #macroEtatAdministratif
-* #020 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #020 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"
 * #020 ^property[=].valueCoding.code = #I
 * #020 ^property[+].code = #finess
 * #020 ^property[=].valueBoolean = true
@@ -246,7 +246,7 @@ Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites,
 * #021 ^property[+].code = #status
 * #021 ^property[=].valueCode = #active
 * #021 ^property[+].code = #macroEtatAdministratif
-* #021 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #021 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"
 * #021 ^property[=].valueCoding.code = #A
 * #021 ^property[+].code = #finess
 * #021 ^property[=].valueBoolean = true
@@ -258,7 +258,7 @@ Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites,
 * #022 ^property[+].code = #status
 * #022 ^property[=].valueCode = #active
 * #022 ^property[+].code = #macroEtatAdministratif
-* #022 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #022 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"
 * #022 ^property[=].valueCoding.code = #A
 * #022 ^property[+].code = #finess
 * #022 ^property[=].valueBoolean = true
@@ -270,7 +270,7 @@ Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites,
 * #023 ^property[+].code = #status
 * #023 ^property[=].valueCode = #active
 * #023 ^property[+].code = #macroEtatAdministratif
-* #023 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #023 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"
 * #023 ^property[=].valueCoding.code = #I
 * #023 ^property[+].code = #finess
 * #023 ^property[=].valueBoolean = true
@@ -282,7 +282,7 @@ Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites,
 * #024 ^property[+].code = #status
 * #024 ^property[=].valueCode = #active
 * #024 ^property[+].code = #macroEtatAdministratif
-* #024 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #024 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"
 * #024 ^property[=].valueCoding.code = #A
 * #024 ^property[+].code = #finess
 * #024 ^property[=].valueBoolean = true
@@ -294,7 +294,7 @@ Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites,
 * #025 ^property[+].code = #status
 * #025 ^property[=].valueCode = #active
 * #025 ^property[+].code = #macroEtatAdministratif
-* #025 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #025 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"
 * #025 ^property[=].valueCoding.code = #I
 * #025 ^property[+].code = #finess
 * #025 ^property[=].valueBoolean = true
@@ -306,7 +306,7 @@ Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites,
 * #027 ^property[+].code = #status
 * #027 ^property[=].valueCode = #active
 * #027 ^property[+].code = #macroEtatAdministratif
-* #027 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #027 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"
 * #027 ^property[=].valueCoding.code = #A
 * #027 ^property[+].code = #finess
 * #027 ^property[=].valueBoolean = true
@@ -318,7 +318,7 @@ Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites,
 * #029 ^property[+].code = #status
 * #029 ^property[=].valueCode = #active
 * #029 ^property[+].code = #macroEtatAdministratif
-* #029 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #029 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"
 * #029 ^property[=].valueCoding.code = #I
 * #029 ^property[+].code = #finess
 * #029 ^property[=].valueBoolean = true
@@ -330,7 +330,7 @@ Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites,
 * #030 ^property[+].code = #status
 * #030 ^property[=].valueCode = #active
 * #030 ^property[+].code = #macroEtatAdministratif
-* #030 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #030 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"
 * #030 ^property[=].valueCoding.code = #I
 * #030 ^property[+].code = #finess
 * #030 ^property[=].valueBoolean = true
@@ -342,7 +342,7 @@ Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites,
 * #031 ^property[+].code = #status
 * #031 ^property[=].valueCode = #active
 * #031 ^property[+].code = #macroEtatAdministratif
-* #031 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #031 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"
 * #031 ^property[=].valueCoding.code = #A
 * #031 ^property[+].code = #finess
 * #031 ^property[=].valueBoolean = true
@@ -354,7 +354,7 @@ Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites,
 * #032 ^property[+].code = #status
 * #032 ^property[=].valueCode = #active
 * #032 ^property[+].code = #macroEtatAdministratif
-* #032 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #032 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"
 * #032 ^property[=].valueCoding.code = #I
 * #032 ^property[+].code = #finess
 * #032 ^property[=].valueBoolean = true
@@ -366,7 +366,7 @@ Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites,
 * #033 ^property[+].code = #status
 * #033 ^property[=].valueCode = #active
 * #033 ^property[+].code = #macroEtatAdministratif
-* #033 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #033 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"
 * #033 ^property[=].valueCoding.code = #A
 * #033 ^property[+].code = #finess
 * #033 ^property[=].valueBoolean = true
@@ -378,7 +378,7 @@ Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites,
 * #034 ^property[+].code = #status
 * #034 ^property[=].valueCode = #active
 * #034 ^property[+].code = #macroEtatAdministratif
-* #034 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #034 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"
 * #034 ^property[=].valueCoding.code = #A
 * #034 ^property[+].code = #finess
 * #034 ^property[=].valueBoolean = true
@@ -390,7 +390,7 @@ Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites,
 * #035 ^property[+].code = #status
 * #035 ^property[=].valueCode = #active
 * #035 ^property[+].code = #macroEtatAdministratif
-* #035 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #035 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"
 * #035 ^property[=].valueCoding.code = #A
 * #035 ^property[+].code = #finess
 * #035 ^property[=].valueBoolean = true
@@ -402,7 +402,7 @@ Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites,
 * #036 ^property[+].code = #status
 * #036 ^property[=].valueCode = #active
 * #036 ^property[+].code = #macroEtatAdministratif
-* #036 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #036 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"
 * #036 ^property[=].valueCoding.code = #A
 * #036 ^property[+].code = #finess
 * #036 ^property[=].valueBoolean = true
@@ -414,7 +414,7 @@ Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites,
 * #037 ^property[+].code = #status
 * #037 ^property[=].valueCode = #active
 * #037 ^property[+].code = #macroEtatAdministratif
-* #037 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #037 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"
 * #037 ^property[=].valueCoding.code = #A
 * #037 ^property[+].code = #finess
 * #037 ^property[=].valueBoolean = true
@@ -426,7 +426,7 @@ Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites,
 * #038 ^property[+].code = #status
 * #038 ^property[=].valueCode = #active
 * #038 ^property[+].code = #macroEtatAdministratif
-* #038 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #038 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"
 * #038 ^property[=].valueCoding.code = #I
 * #038 ^property[+].code = #finess
 * #038 ^property[=].valueBoolean = true
@@ -438,7 +438,7 @@ Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites,
 * #039 ^property[+].code = #status
 * #039 ^property[=].valueCode = #active
 * #039 ^property[+].code = #macroEtatAdministratif
-* #039 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #039 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"
 * #039 ^property[=].valueCoding.code = #A
 * #039 ^property[+].code = #finess
 * #039 ^property[=].valueBoolean = true
@@ -450,7 +450,7 @@ Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites,
 * #040 ^property[+].code = #status
 * #040 ^property[=].valueCode = #active
 * #040 ^property[+].code = #macroEtatAdministratif
-* #040 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #040 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"
 * #040 ^property[=].valueCoding.code = #I
 * #040 ^property[+].code = #finess
 * #040 ^property[=].valueBoolean = true
@@ -462,7 +462,7 @@ Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites,
 * #041 ^property[+].code = #status
 * #041 ^property[=].valueCode = #active
 * #041 ^property[+].code = #macroEtatAdministratif
-* #041 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #041 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"
 * #041 ^property[=].valueCoding.code = #A
 * #041 ^property[+].code = #finess
 * #041 ^property[=].valueBoolean = true
@@ -478,7 +478,7 @@ Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites,
 * #100 ^property[+].code = #status
 * #100 ^property[=].valueCode = #active
 * #100 ^property[+].code = #macroEtatAdministratif
-* #100 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #100 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"
 * #100 ^property[=].valueCoding.code = #I
 * #100 ^property[+].code = #finess
 * #100 ^property[=].valueBoolean = true
@@ -494,7 +494,7 @@ Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites,
 * #101 ^property[+].code = #status
 * #101 ^property[=].valueCode = #active
 * #101 ^property[+].code = #macroEtatAdministratif
-* #101 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #101 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"
 * #101 ^property[=].valueCoding.code = #I
 * #101 ^property[+].code = #finess
 * #101 ^property[=].valueBoolean = true
@@ -510,7 +510,7 @@ Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites,
 * #102 ^property[+].code = #status
 * #102 ^property[=].valueCode = #active
 * #102 ^property[+].code = #macroEtatAdministratif
-* #102 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #102 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"
 * #102 ^property[=].valueCoding.code = #I
 * #102 ^property[+].code = #finess
 * #102 ^property[=].valueBoolean = true
@@ -526,7 +526,7 @@ Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites,
 * #103 ^property[+].code = #status
 * #103 ^property[=].valueCode = #active
 * #103 ^property[+].code = #macroEtatAdministratif
-* #103 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #103 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"
 * #103 ^property[=].valueCoding.code = #I
 * #103 ^property[+].code = #finess
 * #103 ^property[=].valueBoolean = true
