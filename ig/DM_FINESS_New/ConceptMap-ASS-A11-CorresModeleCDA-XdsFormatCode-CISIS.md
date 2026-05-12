@@ -29,7 +29,7 @@ Lorsque le corps du CDA est structuré, la métadonnée ‘formatCode’ provien
   "title" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-12T11:56:23+00:00",
+  "date" : "2026-05-12T13:38:44+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",

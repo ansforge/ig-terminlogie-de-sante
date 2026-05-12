@@ -1200,7 +1200,7 @@ These define new code systems used by systems conforming to this implementation 
 | [Tre R361 Fonction Publique](CodeSystem-tre-r361-fonction-publique.md) | Nomenclature des versants de la fonction publique |
 | [Tre R362 Type Budget](CodeSystem-tre-r362-type-budget.md) | Nomenclature des types de budget associés aux Entités Géographiques d’Exercice (EGE) dans FINESS+ |
 | [Tre R364 Type Document Administratif](CodeSystem-tre-r364-type-document-administratif.md) | Nomenclature des types de documents administratif ( exemple : agrément, convention…) Remarque : Cette nomenclature est juste initialisée avec les types de documents FINESS |
-| [Tre R365 Etat Objet](CodeSystem-tre-r365-etat-objet.md) | Nomenclature des états élémentaires d’un objet du MOS organisés en etat actifs et en etats inactifs. Remarque : Cette nomenclature est juste initialisée avec les états gérés dans FINESS+ |
+| [Tre R365 Etat Objet Structure](CodeSystem-tre-r365-etat-objet-structure.md) | Nomenclature des états élémentaires d’un objet Structure (PM, EGE, Activites, engagements) organisés en etat actifs et en etats inactifs. |
 | [Tre R366 Type Objet](CodeSystem-tre-r366-type-objet.md) | Nomenclature des types d’objets du MOS. Remarque : Cette nomenclature est juste initialisée avec les types d’objet FINESS+ |
 | [Tre R370 Role Relation Ege](CodeSystem-tre-r370-role-relation-ege.md) | Nomenclature des types de rôle existant entre les Entités Géographiques d’Exercice (EGE) au sein d’une PM-SMSSE |
 | [Tre R371 Type Groupe Gcc](CodeSystem-tre-r371-type-groupe-gcc.md) | Nomenclature des types de groupement Concernant les groupement de structure on a 2 catégories de regroupement : les Groupement de Coopération Conventionnelle, les Groupement de Coopération Organique |
@@ -1217,7 +1217,7 @@ These define new code systems used by systems conforming to this implementation 
 | [Tre R383 Mention Act De Soin Amm](CodeSystem-tre-r383-mention-act-de-soin-amm.md) | Nomenclature des mentions pour les activités de soin AMM |
 | [Tre R384 Pratique Therapeutique Specifique Act De Soin Amm](CodeSystem-tre-r384-pratique-therapeutique-specifique-act-de-soin-amm.md) | Nomenclature des pratiques thérapeutiques spécifiques pour les activités de soin AMM |
 | [Tre R385 Declaration Act De Soin Amm](CodeSystem-tre-r385-declaration-act-de-soin-amm.md) | Nomenclature des déclarations pour les activités de soin AMM |
-| [Tre R386 Macro Etat Objet Administratif](CodeSystem-tre-r386-macro-etat-objet-administratif.md) | Nomenclature des macro-etat des structures FINESS qui dérivent de l’état de l’objet. Permet de distinguer les structures actives de celles inactives. |
+| [Tre R386 Macro Etat Objet Structure](CodeSystem-tre-r386-macro-etat-objet-structure.md) | Nomenclature des macro-etat des structures (PM, EGE, Activites, engagements) qui dérivent de l’état de l’objet. Permet de distinguer les structures actives de celles inactives. |
 | [Tre R387 Type Groupement](CodeSystem-tre-r387-type-groupement.md) | Nomenclature des types de groupement utilisables dans FINESS. Groupement de coopération conventionnelle ou Groupement de coopération organique |
 | [Tre R388 Type Logement](CodeSystem-tre-r388-type-logement.md) | Nomenclature des types de logement associées aux capacités Remarque : cette nomenclature est initialisée avec les besoins FINESS+ |
 | [Tre R389 Statut Bilan Projet Personnalise](CodeSystem-tre-r389-statut-bilan-projet-personnalise.md) | Statut du bilan du projet personnalisé. |

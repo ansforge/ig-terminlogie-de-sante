@@ -90882,11 +90882,11 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r365-etat-objet> ;
-         fhir:reference [ fhir:v "CodeSystem/tre-r365-etat-objet" ]
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r365-etat-objet-structure> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r365-etat-objet-structure" ]
        ] ;
-       fhir:name [ fhir:v "Tre R365 Etat Objet" ] ;
-       fhir:description [ fhir:v "Nomenclature des états élémentaires d'un objet du MOS organisés en etat actifs et en etats inactifs. \nRemarque : Cette nomenclature est juste initialisée avec les états gérés dans FINESS+" ] ;
+       fhir:name [ fhir:v "Tre R365 Etat Objet Structure" ] ;
+       fhir:description [ fhir:v "Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites, engagements) organisés en etat actifs et en etats inactifs." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -91239,11 +91239,11 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r386-macro-etat-objet-administratif> ;
-         fhir:reference [ fhir:v "CodeSystem/tre-r386-macro-etat-objet-administratif" ]
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r386-macro-etat-objet-structure> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r386-macro-etat-objet-structure" ]
        ] ;
-       fhir:name [ fhir:v "Tre R386 Macro Etat Objet Administratif" ] ;
-       fhir:description [ fhir:v "Nomenclature des macro-etat des structures FINESS qui dérivent de l'état de l'objet. \nPermet de distinguer les structures actives de celles inactives." ] ;
+       fhir:name [ fhir:v "Tre R386 Macro Etat Objet Structure" ] ;
+       fhir:description [ fhir:v "Nomenclature des macro-etat des structures (PM, EGE, Activites, engagements) qui dérivent de l'état de l'objet. \nPermet de distinguer les structures actives de celles inactives." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false

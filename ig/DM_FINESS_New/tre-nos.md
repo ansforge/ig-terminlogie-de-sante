@@ -12,13 +12,13 @@ Vous touverez ici la liste des terminologies du NOS.
 | :--- | :--- | :--- |
 | Name | Description | date_maj |
 | [TreR364TypeDocumentAdministratif](CodeSystem-tre-r364-type-document-administratif.md) | Nomenclature des types de documents administratif ( exemple : agrément, convention...) Remarque : Cette nomenclature est juste initialisée avec les types de documents FINESS | 30/12/2024 |
-| [TreR365EtatObjet](CodeSystem-tre-r365-etat-objet.md) | Nomenclature des états élémentaires d'un objet du MOS organisés en etat actifs et en etats inactifs. Remarque : Cette nomenclature est juste initialisée avec les états gérés dans FINESS+ | 30/12/2024 |
+| [TreR365EtatObjetStructure](CodeSystem-tre-r365-etat-objet-structure.md) | Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites, engagements) organisés en etat actifs et en etats inactifs. | 30/12/2024 |
 | [TreR366TypeObjet](CodeSystem-tre-r366-type-objet.md) | Nomenclature des types d’objets du MOS. Remarque : Cette nomenclature est juste initialisée avec les types d’objet FINESS+ | 30/12/2024 |
 | [TreR376TypeEvenementAdministratif](CodeSystem-tre-r376-type-evenement-administratif.md) | Nomenclature des événements administratifs pertinents pour un cycle de vie d'un Objet de Santé (du MOS) Remarque : Cette nomenclature est juste initialisée avec les codes FINESS+ | 30/12/2024 |
 | [TreR377UsageAdresse](CodeSystem-tre-r377-usage-adresse.md) | Nomenclature des types des adresses Remarque : Cette TRE est juste intialisée avec les codes FINESS. | 30/12/2024 |
 | [TreR378MotifArrete](CodeSystem-tre-r378-motif-arrete.md) | Nomenclature des motifs des arrêtés Remarque : Cette TRE est juste initialisée avec les codes FINESS+ | 30/12/2024 |
 | [TreR379SystemeInformation](CodeSystem-tre-r379-systeme-information.md) | Nomenclature des systemes d’information généralement déclarés pour définir les caractéristiques des identifiants ou des événements Remarque : Cette TRE est initialisée avec les codes FINESS | 11/06/2025 |
-| [TreR386MacroEtatObjetAdministratif](CodeSystem-tre-r386-macro-etat-objet-administratif.md) | Nomenclature des macro-etat des structures FINESS qui dérivent de l'état de l'objet. Permet de distinguer les structures actives de celles inactives. | 30/12/2024 |
+| [TreR386MacroEtatObjetStructure](CodeSystem-tre-r386-macro-etat-objet-structure.md) | Nomenclature des macro-etat des structures (PM, EGE, Activites, engagements) qui dérivent de l'état de l'objet. Permet de distinguer les structures actives de celles inactives. | 30/12/2024 |
 | [TreR389StatutBilanProjetPersonnalise](CodeSystem-tre-r389-statut-bilan-projet-personnalise.md) | Statut du bilan du projet personnalisé. | 18/04/2025 |
 | [TreR390TypeProjetPersonnalise](CodeSystem-tre-r390-type-projet-personnalise.md) | Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l'usager, son entourage familial et professionnel du médico-social. | 22/04/2025 |
 | [TreR392TypeActSmsseRegulee](CodeSystem-tre-r392-type-act-smsse-regulee.md) | Type activité SMSSE régulée | 07/11/2025 |

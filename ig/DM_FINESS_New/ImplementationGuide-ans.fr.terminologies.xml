@@ -34045,10 +34045,10 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/tre-r365-etat-objet"/>
+        <reference value="CodeSystem/tre-r365-etat-objet-structure"/>
       </reference>
-      <name value="Tre R365 Etat Objet"/>
-      <description value="Nomenclature des états élémentaires d'un objet du MOS organisés en etat actifs et en etats inactifs. &#xA;Remarque : Cette nomenclature est juste initialisée avec les états gérés dans FINESS+"/>
+      <name value="Tre R365 Etat Objet Structure"/>
+      <description value="Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites, engagements) organisés en etat actifs et en etats inactifs."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -34232,10 +34232,10 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/tre-r386-macro-etat-objet-administratif"/>
+        <reference value="CodeSystem/tre-r386-macro-etat-objet-structure"/>
       </reference>
-      <name value="Tre R386 Macro Etat Objet Administratif"/>
-      <description value="Nomenclature des macro-etat des structures FINESS qui dérivent de l'état de l'objet. &#xA;Permet de distinguer les structures actives de celles inactives."/>
+      <name value="Tre R386 Macro Etat Objet Structure"/>
+      <description value="Nomenclature des macro-etat des structures (PM, EGE, Activites, engagements) qui dérivent de l'état de l'objet. &#xA;Permet de distinguer les structures actives de celles inactives."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

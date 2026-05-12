@@ -2529,12 +2529,12 @@
     "oids" : ["1.2.250.1.213.1.6.1.258"]
   },
   {
-    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet-structure",
     "version" : "20241230120000",
     "status" : "active",
-    "name" : "TreR365EtatObjet",
-    "title" : "Tre R365 Etat Objet",
-    "description" : "Nomenclature des états élémentaires d'un objet du MOS organisés en etat actifs et en etats inactifs. \nRemarque : Cette nomenclature est juste initialisée avec les états gérés dans FINESS+",
+    "name" : "TreR365EtatObjetStructure",
+    "title" : "Tre R365 Etat Objet Structure",
+    "description" : "Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites, engagements) organisés en etat actifs et en etats inactifs.",
     "oids" : ["1.2.250.1.213.1.6.1.259"]
   },
   {
@@ -2682,12 +2682,12 @@
     "oids" : ["1.2.250.1.213.1.6.1.300"]
   },
   {
-    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure",
     "version" : "20241230120000",
     "status" : "active",
-    "name" : "TreR386MacroEtatObjetAdministratif",
-    "title" : "Tre R386 Macro Etat Objet Administratif",
-    "description" : "Nomenclature des macro-etat des structures FINESS qui dérivent de l'état de l'objet. \nPermet de distinguer les structures actives de celles inactives.",
+    "name" : "TreR386MacroEtatObjetStructure",
+    "title" : "Tre R386 Macro Etat Objet Structure",
+    "description" : "Nomenclature des macro-etat des structures (PM, EGE, Activites, engagements) qui dérivent de l'état de l'objet. \nPermet de distinguer les structures actives de celles inactives.",
     "oids" : ["1.2.250.1.213.1.6.1.301"]
   },
   {
