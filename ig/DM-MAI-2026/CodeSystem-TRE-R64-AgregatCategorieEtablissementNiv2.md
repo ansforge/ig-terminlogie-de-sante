@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R64-AgregatCategorieEtablissementNiv2/FHIR/TRE-R64-AgregatCategorieEtablissementNiv2 | *Version*:20231215120000 | |
-| Active as of 2023-12-15 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R64_AgregatCategorieEtablissementNiv2 |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R64-AgregatCategorieEtablissementNiv2/FHIR/TRE-R64-AgregatCategorieEtablissementNiv2 | *Version*:20260601120000 | |
+| Active as of 2026-06-01 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R64_AgregatCategorieEtablissementNiv2 |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.6 | | |
 
  
@@ -29,7 +29,7 @@ Agrégats de catégories d’établissements niveau 2
   "id" : "TRE-R64-AgregatCategorieEtablissementNiv2",
   "meta" : {
     "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:18:29.224+00:00",
+    "lastUpdated" : "2026-06-01T18:18:29.224+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
@@ -43,11 +43,11 @@ Agrégats de catégories d’établissements niveau 2
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.6"
   }],
-  "version" : "20231215120000",
+  "version" : "20260601120000",
   "name" : "TRE_R64_AgregatCategorieEtablissementNiv2",
   "status" : "active",
   "experimental" : false,
-  "date" : "2023-12-15T12:00:00+01:00",
+  "date" : "2026-06-01T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Agrégats de catégories d'établissements niveau 2",
   "jurisdiction" : [{
@@ -58,6 +58,7 @@ Agrégats de catégories d’établissements niveau 2
   }],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 19,
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",
@@ -94,6 +95,7 @@ Agrégats de catégories d’établissements niveau 2
   "concept" : [{
     "code" : "110",
     "display" : "Etablissements d'Administration",
+    "definition" : "Remarque : Ce code obsolète ne sera pas reconduit dans la TRE R397 car il n'a jamais été utilisé.",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
