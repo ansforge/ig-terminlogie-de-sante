@@ -1,23 +1,5 @@
 {
   "codeSystems" : [{
-    "url" : "http://hl7.org/fhir/us/example/CodeSystem/tre-r360-role-membre",
-    "version" : "20260330120000",
-    "status" : "active",
-    "name" : "TreR360RoleMembre",
-    "title" : "Tre R360 Role Membre",
-    "description" : "Nomenclature des  rôles que peuvent exercer des membres participants à des groupements",
-    "oids" : ["1.2.250.1.213.1.6.1.254"]
-  },
-  {
-    "url" : "http://hl7.org/fhir/us/example/CodeSystem/tre-r387-type-groupement-structure",
-    "version" : "20260330120000",
-    "status" : "active",
-    "name" : "TreR387TypeGroupementStructure",
-    "title" : "Tre R387 Type Groupement Structure",
-    "description" : "Nomenclature des types de groupement des ressources Structures. Groupement de coopération conventionnelle ou Groupement de coopération organique",
-    "oids" : ["1.2.250.1.213.1.6.1.302"]
-  },
-  {
     "url" : "http://snomed.info/sct",
     "version" : "http://snomed.info/sct/900000000000207008/version/20260501",
     "status" : "active",
@@ -2511,6 +2493,15 @@
     "oids" : ["1.2.250.1.213.1.6.1.248"]
   },
   {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-role-membre",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "TreR360RoleMembre",
+    "title" : "Tre R360 Role Membre",
+    "description" : "Nomenclature des  rôles que peuvent exercer des membres participants à des groupements",
+    "oids" : ["1.2.250.1.213.1.6.1.254"]
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe",
     "version" : "20260330120000",
     "status" : "active",
@@ -2715,6 +2706,15 @@
     "name" : "TreR387TypeGroupement",
     "title" : "Tre R387 Type Groupement",
     "description" : "Nomenclature des types de groupement utilisables dans FINESS. Groupement de coopération conventionnelle ou Groupement de coopération organique",
+    "oids" : ["1.2.250.1.213.1.6.1.302"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement-structure",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "TreR387TypeGroupementStructure",
+    "title" : "Tre R387 Type Groupement Structure",
+    "description" : "Nomenclature des types de groupement des ressources Structures. Groupement de coopération conventionnelle ou Groupement de coopération organique",
     "oids" : ["1.2.250.1.213.1.6.1.302"]
   },
   {

@@ -121,7 +121,7 @@ Nomenclature des états élémentaires d’un objet Structure (PM, EGE, Activite
     {
       "code" : "macroEtatAdministratif",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure",
         "code" : "A"
       }
     },
@@ -148,7 +148,7 @@ Nomenclature des états élémentaires d’un objet Structure (PM, EGE, Activite
     {
       "code" : "macroEtatAdministratif",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure",
         "code" : "I"
       }
     },
@@ -183,7 +183,7 @@ Nomenclature des états élémentaires d’un objet Structure (PM, EGE, Activite
     {
       "code" : "macroEtatAdministratif",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure",
         "code" : "A"
       }
     },
@@ -210,7 +210,7 @@ Nomenclature des états élémentaires d’un objet Structure (PM, EGE, Activite
     {
       "code" : "macroEtatAdministratif",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure",
         "code" : "I"
       }
     },
@@ -237,7 +237,7 @@ Nomenclature des états élémentaires d’un objet Structure (PM, EGE, Activite
     {
       "code" : "macroEtatAdministratif",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure",
         "code" : "I"
       }
     },
@@ -264,7 +264,7 @@ Nomenclature des états élémentaires d’un objet Structure (PM, EGE, Activite
     {
       "code" : "macroEtatAdministratif",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure",
         "code" : "A"
       }
     },
@@ -291,7 +291,7 @@ Nomenclature des états élémentaires d’un objet Structure (PM, EGE, Activite
     {
       "code" : "macroEtatAdministratif",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure",
         "code" : "A"
       }
     },
@@ -318,7 +318,7 @@ Nomenclature des états élémentaires d’un objet Structure (PM, EGE, Activite
     {
       "code" : "macroEtatAdministratif",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure",
         "code" : "A"
       }
     },
@@ -345,7 +345,7 @@ Nomenclature des états élémentaires d’un objet Structure (PM, EGE, Activite
     {
       "code" : "macroEtatAdministratif",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure",
         "code" : "I"
       }
     },
@@ -372,7 +372,7 @@ Nomenclature des états élémentaires d’un objet Structure (PM, EGE, Activite
     {
       "code" : "macroEtatAdministratif",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure",
         "code" : "I"
       }
     },
@@ -399,7 +399,7 @@ Nomenclature des états élémentaires d’un objet Structure (PM, EGE, Activite
     {
       "code" : "macroEtatAdministratif",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure",
         "code" : "A"
       }
     },
@@ -426,7 +426,7 @@ Nomenclature des états élémentaires d’un objet Structure (PM, EGE, Activite
     {
       "code" : "macroEtatAdministratif",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure",
         "code" : "A"
       }
     },
@@ -453,7 +453,7 @@ Nomenclature des états élémentaires d’un objet Structure (PM, EGE, Activite
     {
       "code" : "macroEtatAdministratif",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure",
         "code" : "I"
       }
     },
@@ -480,7 +480,7 @@ Nomenclature des états élémentaires d’un objet Structure (PM, EGE, Activite
     {
       "code" : "macroEtatAdministratif",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure",
         "code" : "A"
       }
     },
@@ -507,7 +507,7 @@ Nomenclature des états élémentaires d’un objet Structure (PM, EGE, Activite
     {
       "code" : "macroEtatAdministratif",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure",
         "code" : "I"
       }
     },
@@ -534,7 +534,7 @@ Nomenclature des états élémentaires d’un objet Structure (PM, EGE, Activite
     {
       "code" : "macroEtatAdministratif",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure",
         "code" : "A"
       }
     },
@@ -561,7 +561,7 @@ Nomenclature des états élémentaires d’un objet Structure (PM, EGE, Activite
     {
       "code" : "macroEtatAdministratif",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure",
         "code" : "A"
       }
     },
@@ -588,7 +588,7 @@ Nomenclature des états élémentaires d’un objet Structure (PM, EGE, Activite
     {
       "code" : "macroEtatAdministratif",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure",
         "code" : "I"
       }
     },
@@ -615,7 +615,7 @@ Nomenclature des états élémentaires d’un objet Structure (PM, EGE, Activite
     {
       "code" : "macroEtatAdministratif",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure",
         "code" : "A"
       }
     },
@@ -642,7 +642,7 @@ Nomenclature des états élémentaires d’un objet Structure (PM, EGE, Activite
     {
       "code" : "macroEtatAdministratif",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure",
         "code" : "I"
       }
     },
@@ -669,7 +669,7 @@ Nomenclature des états élémentaires d’un objet Structure (PM, EGE, Activite
     {
       "code" : "macroEtatAdministratif",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure",
         "code" : "A"
       }
     },
@@ -696,7 +696,7 @@ Nomenclature des états élémentaires d’un objet Structure (PM, EGE, Activite
     {
       "code" : "macroEtatAdministratif",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure",
         "code" : "I"
       }
     },
@@ -723,7 +723,7 @@ Nomenclature des états élémentaires d’un objet Structure (PM, EGE, Activite
     {
       "code" : "macroEtatAdministratif",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure",
         "code" : "I"
       }
     },
@@ -750,7 +750,7 @@ Nomenclature des états élémentaires d’un objet Structure (PM, EGE, Activite
     {
       "code" : "macroEtatAdministratif",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure",
         "code" : "A"
       }
     },
@@ -777,7 +777,7 @@ Nomenclature des états élémentaires d’un objet Structure (PM, EGE, Activite
     {
       "code" : "macroEtatAdministratif",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure",
         "code" : "I"
       }
     },
@@ -804,7 +804,7 @@ Nomenclature des états élémentaires d’un objet Structure (PM, EGE, Activite
     {
       "code" : "macroEtatAdministratif",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure",
         "code" : "A"
       }
     },
@@ -831,7 +831,7 @@ Nomenclature des états élémentaires d’un objet Structure (PM, EGE, Activite
     {
       "code" : "macroEtatAdministratif",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure",
         "code" : "A"
       }
     },
@@ -858,7 +858,7 @@ Nomenclature des états élémentaires d’un objet Structure (PM, EGE, Activite
     {
       "code" : "macroEtatAdministratif",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure",
         "code" : "A"
       }
     },
@@ -885,7 +885,7 @@ Nomenclature des états élémentaires d’un objet Structure (PM, EGE, Activite
     {
       "code" : "macroEtatAdministratif",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure",
         "code" : "A"
       }
     },
@@ -912,7 +912,7 @@ Nomenclature des états élémentaires d’un objet Structure (PM, EGE, Activite
     {
       "code" : "macroEtatAdministratif",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure",
         "code" : "A"
       }
     },
@@ -939,7 +939,7 @@ Nomenclature des états élémentaires d’un objet Structure (PM, EGE, Activite
     {
       "code" : "macroEtatAdministratif",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure",
         "code" : "I"
       }
     },
@@ -966,7 +966,7 @@ Nomenclature des états élémentaires d’un objet Structure (PM, EGE, Activite
     {
       "code" : "macroEtatAdministratif",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure",
         "code" : "A"
       }
     },
@@ -993,7 +993,7 @@ Nomenclature des états élémentaires d’un objet Structure (PM, EGE, Activite
     {
       "code" : "macroEtatAdministratif",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure",
         "code" : "I"
       }
     },
@@ -1020,7 +1020,7 @@ Nomenclature des états élémentaires d’un objet Structure (PM, EGE, Activite
     {
       "code" : "macroEtatAdministratif",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure",
         "code" : "A"
       }
     },
@@ -1055,7 +1055,7 @@ Nomenclature des états élémentaires d’un objet Structure (PM, EGE, Activite
     {
       "code" : "macroEtatAdministratif",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure",
         "code" : "I"
       }
     },
@@ -1090,7 +1090,7 @@ Nomenclature des états élémentaires d’un objet Structure (PM, EGE, Activite
     {
       "code" : "macroEtatAdministratif",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure",
         "code" : "I"
       }
     },
@@ -1125,7 +1125,7 @@ Nomenclature des états élémentaires d’un objet Structure (PM, EGE, Activite
     {
       "code" : "macroEtatAdministratif",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure",
         "code" : "I"
       }
     },
@@ -1160,7 +1160,7 @@ Nomenclature des états élémentaires d’un objet Structure (PM, EGE, Activite
     {
       "code" : "macroEtatAdministratif",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure",
         "code" : "I"
       }
     },

@@ -98,7 +98,7 @@
     <property>
       <code value="macroEtatAdministratif"/>
       <valueCoding>
-        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"/>
+        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"/>
         <code value="A"/>
       </valueCoding>
     </property>
@@ -125,7 +125,7 @@
     <property>
       <code value="macroEtatAdministratif"/>
       <valueCoding>
-        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"/>
+        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"/>
         <code value="I"/>
       </valueCoding>
     </property>
@@ -160,7 +160,7 @@
     <property>
       <code value="macroEtatAdministratif"/>
       <valueCoding>
-        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"/>
+        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"/>
         <code value="A"/>
       </valueCoding>
     </property>
@@ -187,7 +187,7 @@
     <property>
       <code value="macroEtatAdministratif"/>
       <valueCoding>
-        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"/>
+        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"/>
         <code value="I"/>
       </valueCoding>
     </property>
@@ -214,7 +214,7 @@
     <property>
       <code value="macroEtatAdministratif"/>
       <valueCoding>
-        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"/>
+        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"/>
         <code value="I"/>
       </valueCoding>
     </property>
@@ -241,7 +241,7 @@
     <property>
       <code value="macroEtatAdministratif"/>
       <valueCoding>
-        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"/>
+        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"/>
         <code value="A"/>
       </valueCoding>
     </property>
@@ -268,7 +268,7 @@
     <property>
       <code value="macroEtatAdministratif"/>
       <valueCoding>
-        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"/>
+        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"/>
         <code value="A"/>
       </valueCoding>
     </property>
@@ -295,7 +295,7 @@
     <property>
       <code value="macroEtatAdministratif"/>
       <valueCoding>
-        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"/>
+        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"/>
         <code value="A"/>
       </valueCoding>
     </property>
@@ -322,7 +322,7 @@
     <property>
       <code value="macroEtatAdministratif"/>
       <valueCoding>
-        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"/>
+        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"/>
         <code value="I"/>
       </valueCoding>
     </property>
@@ -349,7 +349,7 @@
     <property>
       <code value="macroEtatAdministratif"/>
       <valueCoding>
-        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"/>
+        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"/>
         <code value="I"/>
       </valueCoding>
     </property>
@@ -376,7 +376,7 @@
     <property>
       <code value="macroEtatAdministratif"/>
       <valueCoding>
-        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"/>
+        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"/>
         <code value="A"/>
       </valueCoding>
     </property>
@@ -403,7 +403,7 @@
     <property>
       <code value="macroEtatAdministratif"/>
       <valueCoding>
-        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"/>
+        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"/>
         <code value="A"/>
       </valueCoding>
     </property>
@@ -430,7 +430,7 @@
     <property>
       <code value="macroEtatAdministratif"/>
       <valueCoding>
-        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"/>
+        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"/>
         <code value="I"/>
       </valueCoding>
     </property>
@@ -457,7 +457,7 @@
     <property>
       <code value="macroEtatAdministratif"/>
       <valueCoding>
-        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"/>
+        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"/>
         <code value="A"/>
       </valueCoding>
     </property>
@@ -484,7 +484,7 @@
     <property>
       <code value="macroEtatAdministratif"/>
       <valueCoding>
-        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"/>
+        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"/>
         <code value="I"/>
       </valueCoding>
     </property>
@@ -511,7 +511,7 @@
     <property>
       <code value="macroEtatAdministratif"/>
       <valueCoding>
-        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"/>
+        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"/>
         <code value="A"/>
       </valueCoding>
     </property>
@@ -538,7 +538,7 @@
     <property>
       <code value="macroEtatAdministratif"/>
       <valueCoding>
-        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"/>
+        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"/>
         <code value="A"/>
       </valueCoding>
     </property>
@@ -565,7 +565,7 @@
     <property>
       <code value="macroEtatAdministratif"/>
       <valueCoding>
-        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"/>
+        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"/>
         <code value="I"/>
       </valueCoding>
     </property>
@@ -592,7 +592,7 @@
     <property>
       <code value="macroEtatAdministratif"/>
       <valueCoding>
-        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"/>
+        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"/>
         <code value="A"/>
       </valueCoding>
     </property>
@@ -619,7 +619,7 @@
     <property>
       <code value="macroEtatAdministratif"/>
       <valueCoding>
-        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"/>
+        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"/>
         <code value="I"/>
       </valueCoding>
     </property>
@@ -646,7 +646,7 @@
     <property>
       <code value="macroEtatAdministratif"/>
       <valueCoding>
-        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"/>
+        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"/>
         <code value="A"/>
       </valueCoding>
     </property>
@@ -673,7 +673,7 @@
     <property>
       <code value="macroEtatAdministratif"/>
       <valueCoding>
-        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"/>
+        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"/>
         <code value="I"/>
       </valueCoding>
     </property>
@@ -700,7 +700,7 @@
     <property>
       <code value="macroEtatAdministratif"/>
       <valueCoding>
-        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"/>
+        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"/>
         <code value="I"/>
       </valueCoding>
     </property>
@@ -727,7 +727,7 @@
     <property>
       <code value="macroEtatAdministratif"/>
       <valueCoding>
-        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"/>
+        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"/>
         <code value="A"/>
       </valueCoding>
     </property>
@@ -754,7 +754,7 @@
     <property>
       <code value="macroEtatAdministratif"/>
       <valueCoding>
-        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"/>
+        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"/>
         <code value="I"/>
       </valueCoding>
     </property>
@@ -781,7 +781,7 @@
     <property>
       <code value="macroEtatAdministratif"/>
       <valueCoding>
-        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"/>
+        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"/>
         <code value="A"/>
       </valueCoding>
     </property>
@@ -808,7 +808,7 @@
     <property>
       <code value="macroEtatAdministratif"/>
       <valueCoding>
-        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"/>
+        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"/>
         <code value="A"/>
       </valueCoding>
     </property>
@@ -835,7 +835,7 @@
     <property>
       <code value="macroEtatAdministratif"/>
       <valueCoding>
-        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"/>
+        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"/>
         <code value="A"/>
       </valueCoding>
     </property>
@@ -862,7 +862,7 @@
     <property>
       <code value="macroEtatAdministratif"/>
       <valueCoding>
-        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"/>
+        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"/>
         <code value="A"/>
       </valueCoding>
     </property>
@@ -889,7 +889,7 @@
     <property>
       <code value="macroEtatAdministratif"/>
       <valueCoding>
-        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"/>
+        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"/>
         <code value="A"/>
       </valueCoding>
     </property>
@@ -916,7 +916,7 @@
     <property>
       <code value="macroEtatAdministratif"/>
       <valueCoding>
-        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"/>
+        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"/>
         <code value="I"/>
       </valueCoding>
     </property>
@@ -943,7 +943,7 @@
     <property>
       <code value="macroEtatAdministratif"/>
       <valueCoding>
-        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"/>
+        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"/>
         <code value="A"/>
       </valueCoding>
     </property>
@@ -970,7 +970,7 @@
     <property>
       <code value="macroEtatAdministratif"/>
       <valueCoding>
-        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"/>
+        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"/>
         <code value="I"/>
       </valueCoding>
     </property>
@@ -997,7 +997,7 @@
     <property>
       <code value="macroEtatAdministratif"/>
       <valueCoding>
-        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"/>
+        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"/>
         <code value="A"/>
       </valueCoding>
     </property>
@@ -1032,7 +1032,7 @@
     <property>
       <code value="macroEtatAdministratif"/>
       <valueCoding>
-        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"/>
+        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"/>
         <code value="I"/>
       </valueCoding>
     </property>
@@ -1067,7 +1067,7 @@
     <property>
       <code value="macroEtatAdministratif"/>
       <valueCoding>
-        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"/>
+        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"/>
         <code value="I"/>
       </valueCoding>
     </property>
@@ -1102,7 +1102,7 @@
     <property>
       <code value="macroEtatAdministratif"/>
       <valueCoding>
-        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"/>
+        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"/>
         <code value="I"/>
       </valueCoding>
     </property>
@@ -1137,7 +1137,7 @@
     <property>
       <code value="macroEtatAdministratif"/>
       <valueCoding>
-        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"/>
+        <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"/>
         <code value="I"/>
       </valueCoding>
     </property>

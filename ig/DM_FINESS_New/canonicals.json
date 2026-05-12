@@ -7,22 +7,6 @@
   "oids" : ["2.16.840.1.113883.4.642.3.264"]
 },
 {
-  "id" : "tre-r360-role-membre",
-  "type" : "CodeSystem",
-  "url" : "http://hl7.org/fhir/us/example/CodeSystem/tre-r360-role-membre",
-  "version" : "20260330120000",
-  "name" : "TreR360RoleMembre",
-  "oids" : ["1.2.250.1.213.1.6.1.254"]
-},
-{
-  "id" : "tre-r387-type-groupement-structure",
-  "type" : "CodeSystem",
-  "url" : "http://hl7.org/fhir/us/example/CodeSystem/tre-r387-type-groupement-structure",
-  "version" : "20260330120000",
-  "name" : "TreR387TypeGroupementStructure",
-  "oids" : ["1.2.250.1.213.1.6.1.302"]
-},
-{
   "id" : "jdv-j296-type-role-entite-groupe-finess",
   "type" : "ValueSet",
   "url" : "http://hl7.org/fhir/us/example/ValueSet/jdv-j296-type-role-entite-groupe-finess",
@@ -4663,6 +4647,14 @@
   "oids" : ["1.2.250.1.213.1.6.1.248"]
 },
 {
+  "id" : "tre-r360-role-membre",
+  "type" : "CodeSystem",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-role-membre",
+  "version" : "20260330120000",
+  "name" : "TreR360RoleMembre",
+  "oids" : ["1.2.250.1.213.1.6.1.254"]
+},
+{
   "id" : "tre-r360-type-role-entite-groupe",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe",
@@ -4928,6 +4920,14 @@
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement",
   "version" : "20260330120000",
   "name" : "TreR387TypeGroupement",
+  "oids" : ["1.2.250.1.213.1.6.1.302"]
+},
+{
+  "id" : "tre-r387-type-groupement-structure",
+  "type" : "CodeSystem",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement-structure",
+  "version" : "20260330120000",
+  "name" : "TreR387TypeGroupementStructure",
   "oids" : ["1.2.250.1.213.1.6.1.302"]
 },
 {

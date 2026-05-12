@@ -42,7 +42,7 @@
     "name" : "JdvJ305TypeGroupementFiness",
     "title" : "Jdv J305 Type Groupement Finess",
     "description" : "Jeu de valeurs FINESS contenant les types de groupement utilisables dans FINESS. Groupement de coopération conventionnelle ou Groupement de coopération organique",
-    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupementStructure"],
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement-structure"],
     "oids" : ["1.2.250.1.213.1.6.1.313"],
     "sources" : ["1.2.250.1.213.1.6.1.313"]
   },
@@ -10000,8 +10000,8 @@
     "systems" : ["https://smt.esante.gouv.fr/terminologie-bdpm"],
     "uses" : {
     },
-    "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD",
-    "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM"
+    "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM",
+    "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD"
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-cip_ucd?vs",

@@ -146,8 +146,8 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [
-           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
-           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure>
          ] ;
          fhir:code [ fhir:v "A" ]
        ]
@@ -184,8 +184,8 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [
-           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
-           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure>
          ] ;
          fhir:code [ fhir:v "I" ]
        ]
@@ -234,8 +234,8 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [
-           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
-           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure>
          ] ;
          fhir:code [ fhir:v "A" ]
        ]
@@ -272,8 +272,8 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [
-           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
-           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure>
          ] ;
          fhir:code [ fhir:v "I" ]
        ]
@@ -310,8 +310,8 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [
-           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
-           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure>
          ] ;
          fhir:code [ fhir:v "I" ]
        ]
@@ -348,8 +348,8 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [
-           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
-           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure>
          ] ;
          fhir:code [ fhir:v "A" ]
        ]
@@ -386,8 +386,8 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [
-           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
-           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure>
          ] ;
          fhir:code [ fhir:v "A" ]
        ]
@@ -424,8 +424,8 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [
-           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
-           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure>
          ] ;
          fhir:code [ fhir:v "A" ]
        ]
@@ -462,8 +462,8 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [
-           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
-           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure>
          ] ;
          fhir:code [ fhir:v "I" ]
        ]
@@ -500,8 +500,8 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [
-           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
-           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure>
          ] ;
          fhir:code [ fhir:v "I" ]
        ]
@@ -538,8 +538,8 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [
-           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
-           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure>
          ] ;
          fhir:code [ fhir:v "A" ]
        ]
@@ -576,8 +576,8 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [
-           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
-           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure>
          ] ;
          fhir:code [ fhir:v "A" ]
        ]
@@ -614,8 +614,8 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [
-           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
-           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure>
          ] ;
          fhir:code [ fhir:v "I" ]
        ]
@@ -652,8 +652,8 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [
-           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
-           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure>
          ] ;
          fhir:code [ fhir:v "A" ]
        ]
@@ -690,8 +690,8 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [
-           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
-           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure>
          ] ;
          fhir:code [ fhir:v "I" ]
        ]
@@ -728,8 +728,8 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [
-           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
-           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure>
          ] ;
          fhir:code [ fhir:v "A" ]
        ]
@@ -766,8 +766,8 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [
-           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
-           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure>
          ] ;
          fhir:code [ fhir:v "A" ]
        ]
@@ -804,8 +804,8 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [
-           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
-           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure>
          ] ;
          fhir:code [ fhir:v "I" ]
        ]
@@ -842,8 +842,8 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [
-           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
-           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure>
          ] ;
          fhir:code [ fhir:v "A" ]
        ]
@@ -880,8 +880,8 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [
-           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
-           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure>
          ] ;
          fhir:code [ fhir:v "I" ]
        ]
@@ -918,8 +918,8 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [
-           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
-           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure>
          ] ;
          fhir:code [ fhir:v "A" ]
        ]
@@ -956,8 +956,8 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [
-           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
-           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure>
          ] ;
          fhir:code [ fhir:v "I" ]
        ]
@@ -994,8 +994,8 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [
-           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
-           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure>
          ] ;
          fhir:code [ fhir:v "I" ]
        ]
@@ -1032,8 +1032,8 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [
-           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
-           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure>
          ] ;
          fhir:code [ fhir:v "A" ]
        ]
@@ -1070,8 +1070,8 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [
-           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
-           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure>
          ] ;
          fhir:code [ fhir:v "I" ]
        ]
@@ -1108,8 +1108,8 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [
-           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
-           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure>
          ] ;
          fhir:code [ fhir:v "A" ]
        ]
@@ -1146,8 +1146,8 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [
-           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
-           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure>
          ] ;
          fhir:code [ fhir:v "A" ]
        ]
@@ -1184,8 +1184,8 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [
-           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
-           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure>
          ] ;
          fhir:code [ fhir:v "A" ]
        ]
@@ -1222,8 +1222,8 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [
-           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
-           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure>
          ] ;
          fhir:code [ fhir:v "A" ]
        ]
@@ -1260,8 +1260,8 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [
-           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
-           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure>
          ] ;
          fhir:code [ fhir:v "A" ]
        ]
@@ -1298,8 +1298,8 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [
-           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
-           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure>
          ] ;
          fhir:code [ fhir:v "I" ]
        ]
@@ -1336,8 +1336,8 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [
-           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
-           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure>
          ] ;
          fhir:code [ fhir:v "A" ]
        ]
@@ -1374,8 +1374,8 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [
-           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
-           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure>
          ] ;
          fhir:code [ fhir:v "I" ]
        ]
@@ -1412,8 +1412,8 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [
-           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
-           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure>
          ] ;
          fhir:code [ fhir:v "A" ]
        ]
@@ -1462,8 +1462,8 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [
-           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
-           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure>
          ] ;
          fhir:code [ fhir:v "I" ]
        ]
@@ -1512,8 +1512,8 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [
-           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
-           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure>
          ] ;
          fhir:code [ fhir:v "I" ]
        ]
@@ -1562,8 +1562,8 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [
-           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
-           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure>
          ] ;
          fhir:code [ fhir:v "I" ]
        ]
@@ -1612,8 +1612,8 @@
        fhir:value [
          a fhir:Coding ;
          fhir:system [
-           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
-           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure>
          ] ;
          fhir:code [ fhir:v "I" ]
        ]

@@ -8,7 +8,7 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:http://hl7.org/fhir/us/example/CodeSystem/tre-r360-role-membre | *Version*:20260330120000 | |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-role-membre | *Version*:20260330120000 | |
 | Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR360RoleMembre |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.254 | | |
 
@@ -17,7 +17,7 @@ Nomenclature des rôles que peuvent exercer des membres participants à des grou
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* Cette terminologie de référence (CodeSystem) n'est pas utilisée ici; elle peut être utilisée ailleurs (par exemple spécifications et/ou implémentations qui utilisent ce contenu)
+* [JdvJ296TypeRoleEntiteGroupeFiness](ValueSet-jdv-j296-type-role-entite-groupe-finess.md)
 
 
 
@@ -39,7 +39,7 @@ Nomenclature des rôles que peuvent exercer des membres participants à des grou
       "start" : "1900-01-01T00:00:00+01:00"
     }
   }],
-  "url" : "http://hl7.org/fhir/us/example/CodeSystem/tre-r360-role-membre",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-role-membre",
   "identifier" : [{
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.254"

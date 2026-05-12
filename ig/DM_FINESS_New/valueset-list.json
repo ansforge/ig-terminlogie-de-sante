@@ -28,7 +28,7 @@
     "name" : "JdvJ305TypeGroupementFiness",
     "title" : "Jdv J305 Type Groupement Finess",
     "description" : "Jeu de valeurs FINESS contenant les types de groupement utilisables dans FINESS. Groupement de coopération conventionnelle ou Groupement de coopération organique",
-    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupementStructure"],
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement-structure"],
     "oids" : ["1.2.250.1.213.1.6.1.313"],
     "sources" : ["1.2.250.1.213.1.6.1.313"]
   },
