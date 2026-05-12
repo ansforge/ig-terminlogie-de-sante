@@ -1,8 +1,8 @@
-CodeSystem: TreR386MacroEtatObjetAdministratif
-Id: tre-r386-macro-etat-objet-administratif
-Title: "Tre R386 Macro Etat Objet Administratif"
+CodeSystem: TreR386MacroEtatObjetStructure
+Id: tre-r386-macro-etat-objet-structure
+Title: "Tre R386 Macro Etat Objet Structure"
 Description: """
-Nomenclature des macro-etat des structures FINESS qui dérivent de l'état de l'objet. 
+Nomenclature des macro-etat des structures (PM, EGE, Activites, engagements) qui dérivent de l'état de l'objet. 
 Permet de distinguer les structures actives de celles inactives.
 """
 * ^meta.versionId = "1"
@@ -11,7 +11,7 @@ Permet de distinguer les structures actives de celles inactives.
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "1900-01-01T00:00:00+01:00"
-* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.301"
 * ^version = "20241230120000"
