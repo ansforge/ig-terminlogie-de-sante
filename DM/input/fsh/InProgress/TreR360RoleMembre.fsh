@@ -1,7 +1,7 @@
-CodeSystem: TreR360TypeRoleEntiteGroupe
-Id: tre-r360-type-role-entite-groupe
-Title: "Tre R360 Type Role Entite Groupe"
-Description: "Nomenclature des types de rôles que peuvent exercer des entités participants à des groupements"
+CodeSystem: TreR360RoleMembre
+Id: tre-r360-role-membre
+Title: "Tre R360 Role Membre"
+Description: "Nomenclature des  rôles que peuvent exercer des membres participants à des groupements"
 * ^meta.versionId = "2"
 * ^meta.lastUpdated = "2026-05-05T20:12:09+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
