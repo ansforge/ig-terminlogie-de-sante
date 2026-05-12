@@ -1,6 +1,6 @@
-CodeSystem: TreR376TypeEvenementAdministratif
-Id: tre-r376-type-evenement-administratif
-Title: "Tre R376 Type Evenement Administratif"
+CodeSystem: TreR376TypeEvenementStructure
+Id: tre-r376-type-evenement-structure
+Title: "Tre R376 Type Evenement Structure"
 Description: """
 Nomenclature des événements administratifs pertinents pour un cycle de vie d'un Objet de Santé (du MOS)
 Remarque : Cette nomenclature est juste initialisée avec les codes FINESS+
@@ -11,7 +11,7 @@ Remarque : Cette nomenclature est juste initialisée avec les codes FINESS+
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "1900-01-01T00:00:00+01:00"
-* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r376-type-evenement-administratif"
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r376-type-evenement-structure"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.291"
 * ^version = "20241230120000"
