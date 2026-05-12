@@ -18,4 +18,4 @@ Description: "Jeu de valeurs FINESS contenant les macro-etat des structures FINE
 * ^experimental = false
 * ^date = "2025-02-22T18:02:28.249+00:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* include codes from system $tre-r386-macro-etat-objet-administratif where finess = "true"
+* include codes from system $tre-r386-macro-etat-objet-structure where finess = "true"
