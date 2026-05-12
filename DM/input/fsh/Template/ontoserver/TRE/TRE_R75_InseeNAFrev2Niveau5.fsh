@@ -1,9 +1,9 @@
 CodeSystem: TRE_R75_InseeNAFrev2Niveau5
 Id: TRE-R75-InseeNAFrev2Niveau5
 Description: "Sous-classes de la Nomenclature d'Activités Française - INSEE"
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2026-02-23T17:57:36.276+01:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^meta.versionId = "7"
+* ^meta.lastUpdated = "2026-05-05T20:12:30.029+02:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2015-12-21T00:00:00+01:00"
 * ^extension.valuePeriod.end = "2026-02-23T00:00:00+01:00"
@@ -15,7 +15,7 @@ Description: "Sous-classes de la Nomenclature d'Activités Française - INSEE"
 * ^experimental = false
 * ^date = "2026-02-23T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
 * ^count = 732

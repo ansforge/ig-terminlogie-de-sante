@@ -1,8 +1,8 @@
 ValueSet: JDV_J106_EnsembleProfession_RASS
 Id: JDV-J106-EnsembleProfession-RASS
 Description: "Ensemble des professions du RASS"
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2025-07-02T17:04:43.453+00:00"
+* ^meta.versionId = "7"
+* ^meta.lastUpdated = "2026-05-05T19:02:34.720+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,12 +10,12 @@ Description: "Ensemble des professions du RASS"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J106-EnsembleProfession-RASS/FHIR/JDV-J106-EnsembleProfession-RASS"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.174"
-* ^version = "20250328120000"
+* ^version = "20260330120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-03-28T12:00:00+01:00"
+* ^date = "2026-03-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-G15-ProfessionSante#10 "Médecin"
 * $TRE-G15-ProfessionSante#21 "Pharmacien"
 * $TRE-G15-ProfessionSante#26 "Audioprothésiste"
@@ -25,7 +25,6 @@ Description: "Ensemble des professions du RASS"
 * $TRE-G15-ProfessionSante#40 "Chirurgien-Dentiste"
 * $TRE-G15-ProfessionSante#50 "Sage-Femme"
 * $TRE-G15-ProfessionSante#60 "Infirmier"
-* $TRE-G15-ProfessionSante#69 "Infirmier psychiatrique"
 * $TRE-G15-ProfessionSante#70 "Masseur-Kinésithérapeute"
 * $TRE-G15-ProfessionSante#80 "Pédicure-Podologue"
 * $TRE-G15-ProfessionSante#81 "Orthoprothésiste"

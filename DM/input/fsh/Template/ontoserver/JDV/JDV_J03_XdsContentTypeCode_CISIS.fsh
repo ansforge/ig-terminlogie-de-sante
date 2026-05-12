@@ -1,9 +1,9 @@
 ValueSet: JDV_J03_XdsContentTypeCode_CISIS
 Id: JDV-J03-XdsContentTypeCode-CISIS
 Description: "XDS contentTypeCode CI-SIS"
-* ^meta.versionId = "15"
-* ^meta.lastUpdated = "2026-02-23T18:17:20.165+01:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^meta.versionId = "16"
+* ^meta.lastUpdated = "2026-05-05T19:02:27.511+02:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2014-10-08T00:00:00+01:00"
@@ -15,7 +15,7 @@ Description: "XDS contentTypeCode CI-SIS"
 * ^experimental = false
 * ^date = "2026-02-23T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-A00-ProducteurDocNonPS#EXP_PATIENT "Expression personnelle du patient"
 * $TRE-R209-TypeActivite#03 "Hospitalisation complète (non compris hospitalisation de semaine)"
 * $TRE-R209-TypeActivite#04 "Hospitalisation de jour"

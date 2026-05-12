@@ -1,9 +1,9 @@
 CodeSystem: TRE_R73_ESPIC
 Id: TRE-R73-ESPIC
 Description: "Etablissement de santé privé d'intérêt collectif"
-* ^meta.versionId = "7"
-* ^meta.lastUpdated = "2026-02-23T17:57:35.005+01:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^meta.versionId = "8"
+* ^meta.lastUpdated = "2026-05-05T20:12:28.443+02:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2013-06-28T00:00:00+01:00"
@@ -15,7 +15,7 @@ Description: "Etablissement de santé privé d'intérêt collectif"
 * ^experimental = false
 * ^date = "2023-12-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^valueSet = "https://mos.esante.gouv.fr/NOS/TRE_R73-ESPIC/FHIR/TRE-R73-ESPIC?vs"
 * ^content = #complete

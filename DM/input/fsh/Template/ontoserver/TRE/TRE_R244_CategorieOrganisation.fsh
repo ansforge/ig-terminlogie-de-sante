@@ -1,23 +1,24 @@
 CodeSystem: TRE_R244_CategorieOrganisation
 Id: TRE-R244-CategorieOrganisation
 Description: "Catégorie d'organisation"
-* ^meta.versionId = "27"
-* ^meta.lastUpdated = "2026-02-23T17:57:22.131+01:00"
+* ^meta.versionId = "30"
+* ^meta.lastUpdated = "2026-05-05T20:11:59.960+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2017-10-13T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.39"
-* ^version = "20260223120000"
+* ^version = "20260505120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-02-23T12:00:00+01:00"
+* ^date = "2026-05-05T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 302
+* ^count = 313
 * ^property[0].code = #dateValid
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
@@ -42,18 +43,26 @@ Description: "Catégorie d'organisation"
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
 * ^property[=].description = "Date Concept was retired"
 * ^property[=].type = #dateTime
-* #01 "Appartement thérapeutique"
+* #01 "Appartement thérapeutique en psychiatrie" "Les appartements thérapeutiques sont des unités de soins en sortie d’hospitalisation, à visée de réinsertion sociale, mis à disposition de quelques patients pour des durées limitées et nécessitant une présence importante, sinon continue, de personnels soignants."
+* #01 ^designation[0].language = #fr-FR
+* #01 ^designation[=].use.system = "http://snomed.info/sct"
+* #01 ^designation[=].use = $sct#900000000000013009
+* #01 ^designation[=].value = "Appartement thérapeutique"
 * #01 ^property[0].code = #dateValid
 * #01 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
 * #01 ^property[+].code = #dateMaj
-* #01 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #01 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #01 ^property[+].code = #status
 * #01 ^property[=].valueCode = #active
-* #02 "Atelier thérapeutique"
+* #02 "Atelier thérapeutique en psychiatrie" "L’atelier thérapeutique a pour objectif de répondre aux projets et aux besoins d’insertion ou de réinsertion sociale et professionnelle des personnes en situation de handicap psychique stabilisées dans leur maladie. L'atelier thérapeutique est une activité encadrée par du personnel soignant dont l'objectif est de permettre une évaluation des capacités d'autonomie globale du bénéficiaire (manuelles, relationnelles, sociales). Cette activité se déroule dans un lieu adapté. L'ensemble des observations faites au cours de séances d'atelier permet une évaluation plus fine du diagnostic et des capacités réelles du patient. L'atelier thérapeutique est une activité transitionnelle non rémunérée. Il s’agit, pour les personnes accueillies, de nouer ou renouer avec une activité quotidienne de travail dans le but d’accéder à un emploi dans un établissement et service d’aide par le travail (ESAT) ou autre alternative."
+* #02 ^designation[0].language = #fr-FR
+* #02 ^designation[=].use.system = "http://snomed.info/sct"
+* #02 ^designation[=].use = $sct#900000000000013009
+* #02 ^designation[=].value = "Atelier thérapeutique"
 * #02 ^property[0].code = #dateValid
 * #02 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
 * #02 ^property[+].code = #dateMaj
-* #02 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #02 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #02 ^property[+].code = #status
 * #02 ^property[=].valueCode = #active
 * #03 "Cellule d'Urgences Médico-Psychologique (CUMP)"
@@ -158,7 +167,7 @@ Description: "Catégorie d'organisation"
 * #12 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
 * #12 ^property[+].code = #status
 * #12 ^property[=].valueCode = #active
-* #13 "Service d'Accueil Familial Thérapeutique"
+* #13 "Service d'Accueil Familial Thérapeutique en psychiatrie" "L’accueil familial thérapeutique est une modalité particulière de prise en charge. Les services d’accueil familial thérapeutique organisent le traitement des personnes de tous âges, souffrant de troubles mentaux susceptibles de retirer un bénéfice d’une prise en charge thérapeutique dans un milieu familial substitutif stable, en vue notamment d’une restauration de leurs capacités relationnelles et d’autonomie."
 * #13 ^designation[0].language = #fr-FR
 * #13 ^designation[=].use.system = "http://snomed.info/sct"
 * #13 ^designation[=].use = $sct#900000000000013009
@@ -166,10 +175,10 @@ Description: "Catégorie d'organisation"
 * #13 ^property[0].code = #dateValid
 * #13 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
 * #13 ^property[+].code = #dateMaj
-* #13 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #13 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #13 ^property[+].code = #status
 * #13 ^property[=].valueCode = #active
-* #14 "Service Médico-Psychologique Régional (SMPR)"
+* #14 "Service Médico-Psychologique Régional (SMPR)" "Le parcours de soins en Service Médico-Psychologique Régional est déterminé à l’arrivée de la personne détenue par une évaluation globale médico-psycho-sociale, puis des soins à visée préventive et thérapeutique sont mis en place : consultation médicale, entretiens infirmiers, ateliers et groupes thérapeutiques, accompagnement social, etc.). Le SMPR peut également s’adresser aux sortants de prison avec et sans obligation judiciaire de soins via une consultation externe. Les personnes ciblées sont les personnes détenues présentant des troubles mentaux et dont l’état de santé est compatible avec la détention et également de toutes les personnes vulnérables et fragilisées psychologiquement par la détention. Les SMPR accueillent les hommes majeurs et mineurs. La mixité est proscrite en détention."
 * #14 ^designation[0].language = #fr-FR
 * #14 ^designation[=].use.system = "http://snomed.info/sct"
 * #14 ^designation[=].use = $sct#900000000000013009
@@ -177,7 +186,7 @@ Description: "Catégorie d'organisation"
 * #14 ^property[0].code = #dateValid
 * #14 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
 * #14 ^property[+].code = #dateMaj
-* #14 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #14 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #14 ^property[+].code = #status
 * #14 ^property[=].valueCode = #active
 * #15 "Unité de Soins Intensifs Psychiatriques (USIP)"
@@ -231,11 +240,15 @@ Description: "Catégorie d'organisation"
 * #19 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
 * #19 ^property[+].code = #status
 * #19 ^property[=].valueCode = #active
-* #20 "Unité d'urgences"
+* #20 "Structure des urgences polyvalentes 24h/24 7j/7"
+* #20 ^designation[0].language = #fr-FR
+* #20 ^designation[=].use.system = "http://snomed.info/sct"
+* #20 ^designation[=].use = $sct#900000000000013009
+* #20 ^designation[=].value = "Struct. urgences polyvalentes"
 * #20 ^property[0].code = #dateValid
 * #20 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
 * #20 ^property[+].code = #dateMaj
-* #20 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
+* #20 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #20 ^property[+].code = #status
 * #20 ^property[=].valueCode = #active
 * #21 "Accueil ou hébergement pour personnes âgées dépendantes, sans spécificité"
@@ -411,11 +424,15 @@ Description: "Catégorie d'organisation"
 * #35 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #35 ^property[+].code = #status
 * #35 ^property[=].valueCode = #active
-* #36 "Dispositif d'accueil familial social PA-PH"
+* #36 "Dispositif d'accueil familial social PA-PH" "L’accueil familial social est une solution d’hébergement pour les personnes âgées et/ou les personnes handicapées qui ne peuvent ou ne veulent plus vivre chez elles, momentanément ou définitivement. L'accueil familial constitue une alternative à l’hébergement en établissement. L’accueil familial est proposé par des accueillants familiaux (une personne seule ou un couple) qui sont titulaires d’un agrément délivré par le Conseil départemental pour une durée de 5 ans. Les accueillants familiaux reçoivent des personnes âgées ou des personnes en situation de handicap chez eux. Ils proposent aux personnes accueillies un accompagnement ponctuel ou au long cours dans un cadre familial qui leur permet de bénéficier d’une présence aidante, stimulante et d’un accompagnement personnalisé.​"
+* #36 ^designation[0].language = #fr-FR
+* #36 ^designation[=].use.system = "http://snomed.info/sct"
+* #36 ^designation[=].use = $sct#900000000000013009
+* #36 ^designation[=].value = "Dispositif d'accueil familial"
 * #36 ^property[0].code = #dateValid
 * #36 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #36 ^property[+].code = #dateMaj
-* #36 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #36 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #36 ^property[+].code = #status
 * #36 ^property[=].valueCode = #active
 * #37 "Centre d'accueil familial spécialisé (CAFS)"
@@ -749,11 +766,15 @@ Description: "Catégorie d'organisation"
 * #65 ^property[=].valueDateTime = "2025-07-10T12:00:00+01:00"
 * #65 ^property[+].code = #status
 * #65 ^property[=].valueCode = #active
-* #66 "Equipe Relai Handicap rare"
+* #66 "Equipe Relais Handicaps Rares (ERHR)" "Les Équipes Relais Handicaps Rares (ERHR) sont des dispositifs d’information, de conseil, d’orientation et de coordination. Elles permettent de mieux répondre aux besoins des personnes en situation de handicap rare en offrant une réponse et des solutions sur leurs territoires de vie. Par conséquent, elles se situent à l’interface entre les ressources spécialisées (CNRHR) et les ressources de proximité (ESMS, MDPH, etc.). Elles ont pour missions de conseiller et d’appuyer les professionnels pour élaborer une stratégie d’intervention globale et adaptée aux besoins de la personne et de l’orienter avec sa famille vers le bon interlocuteur et les ressources compétentes. Elles sont composées d’équipes pluridisciplinaires. Les équipes relais sont coordonnées par le GNCHR."
+* #66 ^designation[0].language = #fr-FR
+* #66 ^designation[=].use.system = "http://snomed.info/sct"
+* #66 ^designation[=].use = $sct#900000000000013009
+* #66 ^designation[=].value = "ERHR"
 * #66 ^property[0].code = #dateValid
 * #66 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #66 ^property[+].code = #dateMaj
-* #66 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
+* #66 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #66 ^property[+].code = #status
 * #66 ^property[=].valueCode = #active
 * #67 "Lieu de vie et d'accueil (hors ESMS)"
@@ -1580,31 +1601,39 @@ Description: "Catégorie d'organisation"
 * #144 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
 * #144 ^property[+].code = #status
 * #144 ^property[=].valueCode = #active
-* #145 "Unité hospitalière d'addictologie"
+* #145 "Unité hospitalière d'addictologie" "Le court séjour addictologique est une structure de prise en charge aiguë de l’ensemble des problèmes posés par les patients. Il peut s’agir de la conduite addictive elle-même, ou de ses complications somatiques et/ou psychiatriques et/ou des comorbidités associées. Le court séjour assure le sevrage qui représente une étape essentielle dans la prise en charge du patient dépendant. La consultation hospitalière d’addictologie est un maillon de la filière hospitalière d’addictologie. Elle constitue l’interface entre le dispositif addictologique hospitalier, le dispositif spécialisé ambulatoire et la médecine de ville. Elle est une porte d’entrée importante d’accès aux soins pour les personnes ayant une conduite addictive. L’hôpital de jour en addictologie assure une prise en charge ambulatoire des patients ayant une dépendance et/ou des complications sévères nécessitant un cadre de soins adaptés à leurs besoins tout en maintenant un lien environnemental. L’hôpital de jour en offrant un cadre thérapeutique, permet d’éviter une hospitalisation à temps plein. Il préserve ainsi l’insertion sociale et familiale des patients. Le champ de compétence de la consultation hospitalière d’addictologie et de l’hospitalisation de jour en addictologie s’étend à l’ensemble des conduites addictives (alcool, tabac, substances illicites, médicaments, addictions sans produit)."
+* #145 ^designation[0].language = #fr-FR
+* #145 ^designation[=].use.system = "http://snomed.info/sct"
+* #145 ^designation[=].use = $sct#900000000000013009
+* #145 ^designation[=].value = "Unité d’addictologie"
 * #145 ^property[0].code = #dateValid
 * #145 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
 * #145 ^property[+].code = #dateMaj
-* #145 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #145 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #145 ^property[+].code = #status
 * #145 ^property[=].valueCode = #active
-* #146 "Unité de prise en charge des brûlés"
+* #146 "Unité hospitalière de brûlologie"
 * #146 ^designation[0].language = #fr-FR
 * #146 ^designation[=].use.system = "http://snomed.info/sct"
 * #146 ^designation[=].use = $sct#900000000000013009
-* #146 ^designation[=].value = "Unité des brûlés"
+* #146 ^designation[=].value = "Unité hospitalière brûlologie"
 * #146 ^property[0].code = #dateValid
 * #146 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
 * #146 ^property[+].code = #dateMaj
-* #146 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
+* #146 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #146 ^property[+].code = #status
 * #146 ^property[=].valueCode = #active
 * #147 "Unité de sevrage complexe"
 * #147 ^property[0].code = #dateValid
 * #147 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
+* #147 ^property[+].code = #dateFin
+* #147 ^property[=].valueDateTime = "2026-03-30T00:00:00+01:00"
 * #147 ^property[+].code = #dateMaj
-* #147 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
+* #147 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #147 ^property[+].code = #deprecationDate
+* #147 ^property[=].valueDateTime = "2026-03-30T00:00:00+01:00"
 * #147 ^property[+].code = #status
-* #147 ^property[=].valueCode = #active
+* #147 ^property[=].valueCode = #deprecated
 * #148 "Unité hospitalière d'allergologie"
 * #148 ^designation[0].language = #fr-FR
 * #148 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2838,10 +2867,14 @@ Description: "Catégorie d'organisation"
 * #261 ^designation[=].value = "Accueil familial PA"
 * #261 ^property[0].code = #dateValid
 * #261 ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
+* #261 ^property[+].code = #dateFin
+* #261 ^property[=].valueDateTime = "2026-03-30T00:00:00+01:00"
 * #261 ^property[+].code = #dateMaj
-* #261 ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
+* #261 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #261 ^property[+].code = #deprecationDate
+* #261 ^property[=].valueDateTime = "2026-03-30T00:00:00+01:00"
 * #261 ^property[+].code = #status
-* #261 ^property[=].valueCode = #active
+* #261 ^property[=].valueCode = #deprecated
 * #262 "Unité de soins intensifs spécialisés cardiologie (USIC)"
 * #262 ^designation[0].language = #fr-FR
 * #262 ^designation[=].use.system = "http://snomed.info/sct"
@@ -3072,7 +3105,7 @@ Description: "Catégorie d'organisation"
 * #283 ^property[=].valueDateTime = "2025-10-17T12:00:00+01:00"
 * #283 ^property[+].code = #status
 * #283 ^property[=].valueCode = #active
-* #284 "Equipe Spécialisée de Prévention et de Réadaptation à Domicile (ESPRAD)"
+* #284 "Equipe Spécialisée de Prévention et de Réadaptation à Domicile (ESPRAD)" "Les équipes spécialisées de prévention et réadaptation à domicile (ESPRAD) sont des équipes expérimentales issues du Plan maladies neuro-dégénératives 2014-2019 qui prévoyait de concevoir et d'expérimenter un protocole d'intervention au domicile pour les personnes atteintes de la maladie de Parkinson ou de la sclérose en plaques. L’ ESPRAD contribue à favoriser le parcours de soins des personnes accompagnées et, à ce titre, travaille en étroite collaboration avec les acteurs spécifiques et spécialisés. L’ ESPRAD a vocation à prévenir ou à limiter la perte d’autonomie en rapport avec des troubles posturo-locomoteurs et/ou psychomoteurs, des données comportementales et des facteurs situationnels particuliers. Des mesures de rééducation analytique, de réadaptation fonctionnelle et d’adaptation du cadre de vie sont proposées. Il semble que ce dispositif ne soit déployé que dans la région Hauts-de-France."
 * #284 ^designation[0].language = #fr-FR
 * #284 ^designation[=].use.system = "http://snomed.info/sct"
 * #284 ^designation[=].use = $sct#900000000000013009
@@ -3080,10 +3113,10 @@ Description: "Catégorie d'organisation"
 * #284 ^property[0].code = #dateValid
 * #284 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #284 ^property[+].code = #dateMaj
-* #284 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #284 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #284 ^property[+].code = #status
 * #284 ^property[=].valueCode = #active
-* #285 "Centre Anti-Poison et de Toxico-Vigilance (CAPTV)"
+* #285 "Centre Anti-Poison et de Toxico-Vigilance (CAPTV)" "Le Centre Antipoison et de Toxicovigilance est un service médical composé d’une équipe composée notamment de médecins et/ou de pharmaciens. Ce centre informe les professionnels de santé et le public sur les risques toxiques de tous les produits existants, médicamenteux, industriels et naturels. Le Centre Antipoison et de Toxicovigilance est joignable jour et nuit pour évaluer par téléphone le risque toxicologique lié à des expositions humaines, quelles que soient les circonstances et le type de toxique potentiel. L’avis rendu est gradué : sauf urgence vitale, un appel initial à un CAPTV peut ainsi permettre d’éviter un recours inutile à un service d’urgence. Les CAPTV assurent également une mission de toxicovigilance, sous la tutelle de l’Agence nationale de sécurité sanitaire de l’alimentation, de l’environnement et du travail (Anses) et se coordonnent avec l’ensemble des autres services de vigilance."
 * #285 ^designation[0].language = #fr-FR
 * #285 ^designation[=].use.system = "http://snomed.info/sct"
 * #285 ^designation[=].use = $sct#900000000000013009
@@ -3091,10 +3124,10 @@ Description: "Catégorie d'organisation"
 * #285 ^property[0].code = #dateValid
 * #285 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #285 ^property[+].code = #dateMaj
-* #285 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #285 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #285 ^property[+].code = #status
 * #285 ^property[=].valueCode = #active
-* #286 "Unité hospitalière de Soins Intensifs Néonatals (USIN)"
+* #286 "Unité hospitalière de Soins Intensifs Néonatals (USIN)" "Une unité de soins intensifs néonatals (USIN), prend en charge, sur décision médicale, des nouveau-nés présentant une ou plusieurs pathologies aiguës. Cette unité prend en charge en soins intensifs les nouveau-nés présentant une ou plusieurs pathologies aiguës ou dans les suites d’une réanimation néonatale. Ce secteur peut être organisé au sein de l'unité de néonatologie"
 * #286 ^designation[0].language = #fr-FR
 * #286 ^designation[=].use.system = "http://snomed.info/sct"
 * #286 ^designation[=].use = $sct#900000000000013009
@@ -3102,10 +3135,10 @@ Description: "Catégorie d'organisation"
 * #286 ^property[0].code = #dateValid
 * #286 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #286 ^property[+].code = #dateMaj
-* #286 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #286 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #286 ^property[+].code = #status
 * #286 ^property[=].valueCode = #active
-* #287 "Unité hospitalière de réanimation néonatale"
+* #287 "Unité hospitalière de réanimation néonatale" "L'unité de réanimation néonatale assure tous les jours de l'année, vingt-quatre heures sur vingt-quatre, la surveillance et les soins spécialisés aux nouveau-nés. Cette unité est associée à un secteur de soins intensifs de néonatologie sur le même site. La réanimation néonatale s'exerce dans des installations autorisées à cet effet. Elle ne peut être pratiquée que si l'établissement de santé comprend sur le même site une unité de néonatologie autorisée dont une partie des installations est affectée aux soins intensifs de néonatologie. L’unité de réanimation néonatale prend en charge sur décision médicale les nouveau-nés, souvent prématurés, présentant des détresses graves ou des risques vitaux."
 * #287 ^designation[0].language = #fr-FR
 * #287 ^designation[=].use.system = "http://snomed.info/sct"
 * #287 ^designation[=].use = $sct#900000000000013009
@@ -3113,10 +3146,10 @@ Description: "Catégorie d'organisation"
 * #287 ^property[0].code = #dateValid
 * #287 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #287 ^property[+].code = #dateMaj
-* #287 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #287 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #287 ^property[+].code = #status
 * #287 ^property[=].valueCode = #active
-* #288 "Unité hospitalière « kangourou » ou « koala »"
+* #288 "Unité hospitalière « kangourou » ou « koala »" "Les unités dites « kangourou » (ou « koala » dans certains territoires) sont des unités de néonatalogie qui proposent également la prise en charge de la mère dans la même chambre. Ces unités prennent en charge sur décision médicale les nouveau-nés à risque et ceux dont l’état de santé s’est dégradé après la naissance ainsi que la personne venant d’accoucher."
 * #288 ^designation[0].language = #fr-FR
 * #288 ^designation[=].use.system = "http://snomed.info/sct"
 * #288 ^designation[=].use = $sct#900000000000013009
@@ -3124,10 +3157,10 @@ Description: "Catégorie d'organisation"
 * #288 ^property[0].code = #dateValid
 * #288 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #288 ^property[+].code = #dateMaj
-* #288 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #288 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #288 ^property[+].code = #status
 * #288 ^property[=].valueCode = #active
-* #289 "Unité hospitalière de néonatalogie"
+* #289 "Unité hospitalière de néonatalogie" "La néonatologie a pour objet la surveillance et les soins spécialisés, sur décision médicale, des nouveau-nés à risques et de ceux dont l'état s'est dégradé après la naissance. L'unité de néonatologie assure tous les jours de l'année, vingt-quatre heures sur vingt-quatre, la surveillance et les soins spécialisés aux nouveau-nés. La néonatologie s'exerce dans des installations autorisées à cet effet. Toute unité de néonatologie constitue soit une unité individualisée, soit un secteur séparé au sein d'une unité de pédiatrie."
 * #289 ^designation[0].language = #fr-FR
 * #289 ^designation[=].use.system = "http://snomed.info/sct"
 * #289 ^designation[=].use = $sct#900000000000013009
@@ -3135,10 +3168,10 @@ Description: "Catégorie d'organisation"
 * #289 ^property[0].code = #dateValid
 * #289 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #289 ^property[+].code = #dateMaj
-* #289 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #289 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #289 ^property[+].code = #status
 * #289 ^property[=].valueCode = #active
-* #290 "Unité hospitalière de maternité"
+* #290 "Unité hospitalière de maternité" "L’unité de maternité constitue un service d'établissements de santé, qu'ils soient publics ou privés, chargé d'assurer, sans interruption, l’accueil de toute patiente nécessitant une prise en charge de type gynécologique et/ou obstétrical. L’unité permet un diagnostic immédiat, une prise en charge adaptée et l’orientation vers la filière de soins appropriée. Toute unité de maternité est liée à une unité d’urgences maternité."
 * #290 ^designation[0].language = #fr-FR
 * #290 ^designation[=].use.system = "http://snomed.info/sct"
 * #290 ^designation[=].use = $sct#900000000000013009
@@ -3146,10 +3179,10 @@ Description: "Catégorie d'organisation"
 * #290 ^property[0].code = #dateValid
 * #290 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #290 ^property[+].code = #dateMaj
-* #290 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #290 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #290 ^property[+].code = #status
 * #290 ^property[=].valueCode = #active
-* #291 "Halte Soins Addiction (HSA)"
+* #291 "Halte Soins Addiction (HSA)" "Les Haltes Soins Addictions (HSA) se sont révélées être un outil supplémentaire dans l’offre médico-sociale particulièrement adapté aux publics consommateurs de drogues en situation de grande précarité et souvent en rupture avec les dispositifs traditionnels. Une fois accueillis, les usagers bénéficient d'un cadre souple et non jugeant, favorisant l'émergence d'une demande de soins. Les HSA permettent ainsi d'initier des parcours de soins ajustés aux réalités des usagers, s’intégrant dans un écosystème de partenaires fortement coordonnés et œuvrant au bénéfice de l’usager. Les services proposés incluent la mise à disposition d’un espace de consommation sécurisé, des soins somatiques de première intention, un accompagnement vers les droits et l'hébergement, ainsi qu'un soutien psychologique et si besoins une orientation vers des soins psychiatriques. Ils favorisent la construction de réponses individualisées et durables même si l’articulation avec le premier recours reste moins avancée que celle avec le secteur de l’addictologie ou de la santé mentale."
 * #291 ^designation[0].language = #fr-FR
 * #291 ^designation[=].use.system = "http://snomed.info/sct"
 * #291 ^designation[=].use = $sct#900000000000013009
@@ -3157,10 +3190,10 @@ Description: "Catégorie d'organisation"
 * #291 ^property[0].code = #dateValid
 * #291 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #291 ^property[+].code = #dateMaj
-* #291 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #291 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #291 ^property[+].code = #status
 * #291 ^property[=].valueCode = #active
-* #292 "Unité Hospitalière Sécurisée Interrégionale (UHSI)"
+* #292 "Unité Hospitalière Sécurisée Interrégionale (UHSI)" "Les UHSI sont des structures hospitalières qui prennent en charge l’ensemble des hospitalisations programmées, hors hospitalisations urgentes et de courte durée (< 48h) ou réclamant la proximité d’un plateau technique très spécialisé ; exception faite des hospitalisations des établissements pénitentiaires rattachés à l’établissement de santé siège de l’UHSI). Les UHSI accueillent des personnes détenues majeures et mineures. Elles sont sécurisées par l’administration pénitentiaire présente au sein de l’unité de soins. L'objectif est de concilier les impératifs de qualité des soins et de rationalisation des escortes et des gardes des personnes détenues hospitalisées. Les UHSI accueillent des patients d’un territoire défini qui recoupe partiellement le découpage des anciennes et des nouvelles régions."
 * #292 ^designation[0].language = #fr-FR
 * #292 ^designation[=].use.system = "http://snomed.info/sct"
 * #292 ^designation[=].use = $sct#900000000000013009
@@ -3168,7 +3201,7 @@ Description: "Catégorie d'organisation"
 * #292 ^property[0].code = #dateValid
 * #292 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #292 ^property[+].code = #dateMaj
-* #292 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #292 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #292 ^property[+].code = #status
 * #292 ^property[=].valueCode = #active
 * #293 "Unité hospitalière dédiée grossesse pathologique (GHR)"
@@ -3251,10 +3284,14 @@ Description: "Catégorie d'organisation"
 * #300 ^designation[=].value = "Equipe de Psy. Périnatale"
 * #300 ^property[0].code = #dateValid
 * #300 ^property[=].valueDateTime = "2026-02-23T12:00:00+01:00"
+* #300 ^property[+].code = #dateFin
+* #300 ^property[=].valueDateTime = "2026-03-30T00:00:00+01:00"
 * #300 ^property[+].code = #dateMaj
-* #300 ^property[=].valueDateTime = "2026-02-23T12:00:00+01:00"
+* #300 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #300 ^property[+].code = #deprecationDate
+* #300 ^property[=].valueDateTime = "2026-03-30T00:00:00+01:00"
 * #300 ^property[+].code = #status
-* #300 ^property[=].valueCode = #active
+* #300 ^property[=].valueCode = #deprecated
 * #301 "Unité d'urgences psychiatriques"
 * #301 ^designation[0].language = #fr-FR
 * #301 ^designation[=].use.system = "http://snomed.info/sct"
@@ -3268,6 +3305,7 @@ Description: "Catégorie d'organisation"
 * #301 ^property[=].valueCode = #active
 * #302 "Centre d’Accueil et de Crise (CAC)" "Le centre d'accueil et de crise (CAC) est un dispositif d'accueil en continu répondant au besoin non programmé d'évaluation et d'orientation du patient relevant d'une situation clinique de crise. Le centre peut disposer de lits d'hospitalisation de très courte durée permettant d'initier la prise en charge thérapeutique du patient dans une perspective de relai vers un autre mode de prise en charge."
 * #302 ^designation[0].language = #fr-FR
+* #302 ^designation[=].use.system = "http://snomed.info/sct"
 * #302 ^designation[=].use = $sct#900000000000013009
 * #302 ^designation[=].value = "CAC"
 * #302 ^property[0].code = #dateValid
@@ -3276,3 +3314,103 @@ Description: "Catégorie d'organisation"
 * #302 ^property[=].valueDateTime = "2026-02-23T12:00:00+01:00"
 * #302 ^property[+].code = #status
 * #302 ^property[=].valueCode = #active
+* #303 "Cabinet de ville infirmier en pratique avancée en pathologies chroniques stabilisées"
+* #303 ^property[0].code = #dateValid
+* #303 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #303 ^property[+].code = #dateMaj
+* #303 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #303 ^property[+].code = #status
+* #303 ^property[=].valueCode = #active
+* #304 "Cabinet de ville infirmier en pratique avancée en oncologie et hémato-oncologie"
+* #304 ^property[0].code = #dateValid
+* #304 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #304 ^property[+].code = #dateMaj
+* #304 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #304 ^property[+].code = #status
+* #304 ^property[=].valueCode = #active
+* #305 "Cabinet de ville infirmier en pratique avancée en maladie rénale chronique"
+* #305 ^property[0].code = #dateValid
+* #305 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #305 ^property[+].code = #dateMaj
+* #305 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #305 ^property[+].code = #status
+* #305 ^property[=].valueCode = #active
+* #306 "Cabinet de ville infirmier en pratique avancée en santé mentale"
+* #306 ^property[0].code = #dateValid
+* #306 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #306 ^property[+].code = #dateMaj
+* #306 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #306 ^property[+].code = #status
+* #306 ^property[=].valueCode = #active
+* #307 "Unité d’Education Thérapeutique du Patient (ETP)"
+* #307 ^designation[0].language = #fr-FR
+* #307 ^designation[=].use.system = "http://snomed.info/sct"
+* #307 ^designation[=].use = $sct#900000000000013009
+* #307 ^designation[=].value = "ETP"
+* #307 ^property[0].code = #dateValid
+* #307 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
+* #307 ^property[+].code = #dateMaj
+* #307 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
+* #307 ^property[+].code = #status
+* #307 ^property[=].valueCode = #active
+* #308 "Unité de réanimation des brûlés"
+* #308 ^designation[0].language = #fr-FR
+* #308 ^designation[=].use.system = "http://snomed.info/sct"
+* #308 ^designation[=].use = $sct#900000000000013009
+* #308 ^designation[=].value = "Unité de réa des brûlés"
+* #308 ^property[0].code = #dateValid
+* #308 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
+* #308 ^property[+].code = #dateMaj
+* #308 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
+* #308 ^property[+].code = #status
+* #308 ^property[=].valueCode = #active
+* #309 "Unité Sanitaire en Milieu Pénitentiaire (USMP, ex UCSA)"
+* #309 ^designation[0].language = #fr-FR
+* #309 ^designation[=].use.system = "http://snomed.info/sct"
+* #309 ^designation[=].use = $sct#900000000000013009
+* #309 ^designation[=].value = "USMP, ex UCSA"
+* #309 ^property[0].code = #dateValid
+* #309 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
+* #309 ^property[+].code = #dateMaj
+* #309 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
+* #309 ^property[+].code = #status
+* #309 ^property[=].valueCode = #active
+* #310 "Lactarium"
+* #310 ^property[0].code = #dateValid
+* #310 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
+* #310 ^property[+].code = #dateMaj
+* #310 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
+* #310 ^property[+].code = #status
+* #310 ^property[=].valueCode = #active
+* #311 "Structure des urgences pédiatriques"
+* #311 ^designation[0].language = #fr-FR
+* #311 ^designation[=].use.system = "http://snomed.info/sct"
+* #311 ^designation[=].use = $sct#900000000000013009
+* #311 ^designation[=].value = "Urgences pédiatriques"
+* #311 ^property[0].code = #dateValid
+* #311 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
+* #311 ^property[+].code = #dateMaj
+* #311 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
+* #311 ^property[+].code = #status
+* #311 ^property[=].valueCode = #active
+* #312 "Pharmacie d'officine (dont mutualiste)"
+* #312 ^designation[0].language = #fr-FR
+* #312 ^designation[=].use.system = "http://snomed.info/sct"
+* #312 ^designation[=].use = $sct#900000000000013009
+* #312 ^designation[=].value = "Pharmacie d'officine"
+* #312 ^property[0].code = #dateValid
+* #312 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
+* #312 ^property[+].code = #dateMaj
+* #312 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
+* #312 ^property[+].code = #status
+* #312 ^property[=].valueCode = #active
+* #313 "Antennes des urgences"
+* #313 ^designation[0].language = #fr-FR
+* #313 ^designation[=].use = $sct#900000000000013009
+* #313 ^designation[=].value = "Antennes urgences"
+* #313 ^property[0].code = #dateValid
+* #313 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
+* #313 ^property[+].code = #dateMaj
+* #313 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
+* #313 ^property[+].code = #status
+* #313 ^property[=].valueCode = #active

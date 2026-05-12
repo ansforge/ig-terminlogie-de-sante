@@ -1,9 +1,9 @@
 ValueSet: JDV_J261_SourceInformationInstallation_RASS
 Id: JDV-J261-SourceInformationInstallation-RASS
 Description: "Sources d'information possible concernant l'installation de l'activité sociale du RASS"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2026-02-23T18:17:27.752+01:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2026-05-05T19:02:48.942+02:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2024-09-27T12:00:00+01:00"
@@ -16,7 +16,7 @@ Description: "Sources d'information possible concernant l'installation de l'acti
 * ^experimental = false
 * ^date = "2026-02-23T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R301-SourceInformationInstallation#V "Visite de conformité"
 * $TRE-R301-SourceInformationInstallation#E "Enquête statistique"
 * $TRE-R301-SourceInformationInstallation#I "Interrogation de l'ET"

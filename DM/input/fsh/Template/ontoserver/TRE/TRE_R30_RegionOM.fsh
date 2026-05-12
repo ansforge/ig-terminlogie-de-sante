@@ -1,9 +1,9 @@
 CodeSystem: TRE_R30_RegionOM
 Id: TRE-R30-RegionOM
 Description: "Référentiel des codes régions et collectivités d'outre-mer provenant du COG INSEE + Monaco"
-* ^meta.versionId = "8"
-* ^meta.lastUpdated = "2026-02-24T09:12:25.930+01:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^meta.versionId = "9"
+* ^meta.lastUpdated = "2026-05-05T20:12:03.519+02:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2016-01-01T00:00:00+01:00"
@@ -15,7 +15,7 @@ Description: "Référentiel des codes régions et collectivités d'outre-mer pro
 * ^experimental = false
 * ^date = "2024-06-28T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^valueSet = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM?vs"
 * ^content = #complete

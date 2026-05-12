@@ -1,23 +1,24 @@
 CodeSystem: TRE_R85_RolePriseCharge
 Id: TRE-R85-RolePriseCharge
 Description: "Rôle dans la prise en charge des patients ou des usagers"
-* ^meta.versionId = "23"
-* ^meta.lastUpdated = "2026-02-03T15:41:56.470+01:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
+* ^meta.versionId = "26"
+* ^meta.lastUpdated = "2026-05-05T20:12:30.743+02:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2015-01-01T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.107"
-* ^version = "20260202120000"
+* ^version = "20260505120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-02-02T12:00:00+01:00"
+* ^date = "2026-05-05T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 75
+* ^count = 80
 * ^property[0].code = #dateValid
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
@@ -201,15 +202,15 @@ Description: "Rôle dans la prise en charge des patients ou des usagers"
 * #316 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
 * #316 ^property[+].code = #status
 * #316 ^property[=].valueCode = #active
-* #317 "Préparateur en pharmacie (officine)" "Ref juridique : CSP Articles L4241-1 à L4241-18 Source fiche métier de la Fédération des Pharmaciens d’Officine (FPO) : https://www.fspf.fr/wp-content/uploads/2024/01/Fiche-metier-et-formation-Preparateur-en-pharmacie.pdf Le préparateur en pharmacie est un professionnel de santé qui exerce sous la responsabilité du pharmacien, il accueille les clients, délivre les médicaments et peut être amené à passer les commandes et gérer les stocks pour l’officine. Ses rôles d’accueil et de conseil sont également très importants."
+* #317 "Préparateur en pharmacie" "Ref juridique : CSP Articles L4241-1 à L4241-18 Source fiche métier de la Fédération des Pharmaciens d’Officine (FPO) : https://www.fspf.fr/wp-content/uploads/2024/01/Fiche-metier-et-formation-Preparateur-en-pharmacie.pdf Le préparateur en pharmacie est un professionnel de santé qui exerce sous la responsabilité du pharmacien, il accueille les clients, délivre les médicaments et peut être amené à passer les commandes et gérer les stocks pour l’officine. Ses rôles d’accueil et de conseil sont également très importants."
 * #317 ^designation[0].language = #fr-FR
 * #317 ^designation[=].use.system = "http://snomed.info/sct"
 * #317 ^designation[=].use = $sct#900000000000013009
-* #317 ^designation[=].value = "Prép en pharmacie (officine)"
+* #317 ^designation[=].value = "Prép en pharmacie"
 * #317 ^property[0].code = #dateValid
 * #317 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #317 ^property[+].code = #dateMaj
-* #317 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
+* #317 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #317 ^property[+].code = #status
 * #317 ^property[=].valueCode = #active
 * #318 "Auxiliaire de vie sociale" "Ref juridique : CASF Article D451-92 Source : https://www.servicesalapersonne.gouv.fr/travailler-dans-sap/metiers-des-sap/auxiliaire-de-vie-sociale-avs L’auxiliaire de vie social (AVS) aide, accompagne et est à l’écoute de la personne qui ne peut plus assumer seule les actes de la vie quotidienne. Il ou elle intervient auprès des personnes fragiles. En fonction de la personne chez qui il ou elle intervient, l’AVS prépare des repas équilibrés dans le cadre d'un régime alimentaire particulier, entretient le logement, assiste la personne dans les actes de la vie quotidienne et notamment l'aide à la toilette. Il peut également faire les courses, seul ou accompagné de la personne, aménager l'espace du logement pour favoriser une circulation sécurisée, réaliser des démarches administratives, accompagner la personne lors de sorties… L'observation des conditions de vie de la personne lui permet de transmettre des informations utiles à l'entourage ou aux personnels soignants intervenant auprès d'elle. Le plus souvent, l'auxiliaire de vie sociale travaille au sein d'un organisme de services à la personne (association, entreprise, CCAS). Les diplômes et titres ministériels recommandés sont : - Diplôme d’État accompagnement éducatif et social (DEAES) - Titre professionnel Assistant(e) de vie aux familles ( TP ADVF) - Mention complémentaire AD (MC AD) - CAP Agricole services aux personnes et vente en milieu rural (CAPa SAPVER) - Baccalauréat professionnel Accompagnement, soins et services à la personne - option A : à domicile (Bac Pro ASSP) - Baccalauréat professionnel services aux personnes et aux territoires (Bac Pro SAPAT) Les autres titres et diplômes possibles plus délivrés à ce jour - Auxiliaire de gérontologie - Assistant(e) de vie dépendance - Diplôme d'État Auxiliaire de vie sociale (DEAVS) uniquement par la VAE"
@@ -737,3 +738,38 @@ Description: "Rôle dans la prise en charge des patients ou des usagers"
 * #374 ^property[=].valueDateTime = "2026-02-02T12:00:00+01:00"
 * #374 ^property[+].code = #status
 * #374 ^property[=].valueCode = #active
+* #375 "Conseiller conjugal et familial" "Ref juridique : arrêté du 3 décembre 2010 relatif à la formation des personnels intervenant dans les centres de planification ou d’éducation familiale et dans les établissements d’information, de consultation ou de conseil familial.​ Le Conseiller conjugal et familial exerce – auprès des jeunes, des femmes, des couples et des familles – des activités d’information, d’orientation et d’accompagnement dans tous les domaines liés à la vie affective et sexuelle, aux conduites à risques, aux discriminations, aux violences (sexuelles, sexistes, de couple...), aux problèmes relationnels dans le couple et dans la famille. ​ Il s’inscrit dans le cadre de la promotion de la santé et de l’approche globale des personnes en matière d’éducation à la sexualité. Il s’appuie sur l’analyse de pratique, la formation continue, le travail en réseau et le cadre déontologique de l'écoute active pour répondre au plus juste aux besoins des personnes."
+* #375 ^property[0].code = #dateValid
+* #375 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #375 ^property[+].code = #dateMaj
+* #375 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #375 ^property[+].code = #status
+* #375 ^property[=].valueCode = #active
+* #376 "PADHUE - Médecin" "Médecin formé à l’étranger (hors UE) qui travaille dans le système de santé français avant ou pendant la procédure de reconnaissance de son diplôme étranger afin d’obtenir une autorisation de plein exercice. Le diplôme de ce professionnel n'est pas enregistré au RPPS avant l'obtention de l'autorisation de plein exercice, le justificatif sera alors enregistré par l'Ordre."
+* #376 ^property[0].code = #dateValid
+* #376 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
+* #376 ^property[+].code = #dateMaj
+* #376 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
+* #376 ^property[+].code = #status
+* #376 ^property[=].valueCode = #active
+* #377 "PADHUE - Pharmacien" "Pharmacien formé à l’étranger (hors UE) qui travaille dans le système de santé français avant ou pendant la procédure de reconnaissance de son diplôme étranger afin d’obtenir une autorisation de plein exercice. Le diplôme de ce professionnel n'est pas enregistré au RPPS avant l'obtention de l'autorisation de plein exercice, le justificatif sera alors enregistré par l'Ordre."
+* #377 ^property[0].code = #dateValid
+* #377 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
+* #377 ^property[+].code = #dateMaj
+* #377 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
+* #377 ^property[+].code = #status
+* #377 ^property[=].valueCode = #active
+* #378 "PADHUE - Sage Femme" "Sage Femme formé à l’étranger (hors UE) qui travaille dans le système de santé français avant ou pendant la procédure de reconnaissance de son diplôme étranger afin d’obtenir une autorisation de plein exercice. Le diplôme de ce professionnel n'est pas enregistré au RPPS avant l'obtention de l'autorisation de plein exercice, le justificatif sera alors enregistré par l'Ordre."
+* #378 ^property[0].code = #dateValid
+* #378 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
+* #378 ^property[+].code = #dateMaj
+* #378 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
+* #378 ^property[+].code = #status
+* #378 ^property[=].valueCode = #active
+* #379 "PADHUE - Chirurgien Dentiste" "Chirurgien Dentiste formé à l’étranger (hors UE) qui travaille dans le système de santé français avant ou pendant la procédure de reconnaissance de son diplôme étranger afin d’obtenir une autorisation de plein exercice. Le diplôme de ce professionnel n'est pas enregistré au RPPS avant l'obtention de l'autorisation de plein exercice, le justificatif sera alors enregistré par l'Ordre."
+* #379 ^property[0].code = #dateValid
+* #379 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
+* #379 ^property[+].code = #dateMaj
+* #379 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
+* #379 ^property[+].code = #status
+* #379 ^property[=].valueCode = #active

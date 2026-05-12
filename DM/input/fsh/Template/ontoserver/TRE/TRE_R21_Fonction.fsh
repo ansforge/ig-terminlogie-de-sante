@@ -1,9 +1,9 @@
 CodeSystem: TRE_R21_Fonction
 Id: TRE-R21-Fonction
 Description: "Fonction"
-* ^meta.versionId = "13"
-* ^meta.lastUpdated = "2026-02-23T17:57:20.779+01:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^meta.versionId = "14"
+* ^meta.lastUpdated = "2026-05-05T20:11:51.739+02:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2007-07-25T00:00:00+01:00"

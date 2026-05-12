@@ -1,23 +1,23 @@
 CodeSystem: TRE_R368_StatutRessource
 Id: TRE-R368-StatutRessource
 Description: "Caractérise le statut d'une ressource du médico-social au cours de son cycle de vie"
-* ^meta.versionId = "8"
-* ^meta.lastUpdated = "2025-12-22T10:46:46.316+01:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
+* ^meta.versionId = "10"
+* ^meta.lastUpdated = "2026-05-05T20:12:10.708+02:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2024-09-27T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R368-StatutRessource/FHIR/TRE-R368-StatutRessource"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.250"
-* ^version = "20251222120000"
+* ^version = "20260505120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-12-22T12:00:00+01:00"
+* ^date = "2026-05-05T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 13
+* ^count = 14
 * ^property[0].code = #dateValid
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "Date de validité d'un code concept"
@@ -49,11 +49,11 @@ Description: "Caractérise le statut d'une ressource du médico-social au cours 
 * #TERMINE ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #TERMINE ^property[+].code = #status
 * #TERMINE ^property[=].valueCode = #active
-* #VALIDE "Validé" "Ressource approuvée officiellement par une personne ou un organisme. Ce statut s'adresse aux ressources Evaluation de l'individu et Evenements liés à la prise en charge de l'individu dans une structure ESSMS."
+* #VALIDE "Validé" "Ressource approuvée officiellement par une personne ou un organisme. Ce statut s'adresse aux ressources Evaluation de l'individu et Evenements liés à la prise en charge de l'individu dans une structure ESSMS.  Ce statut s'adresse également à la ressource PresenceAbsence de l'usager."
 * #VALIDE ^property[0].code = #dateValid
 * #VALIDE ^property[=].valueDateTime = "2024-09-27T12:00:00+01:00"
 * #VALIDE ^property[+].code = #dateMaj
-* #VALIDE ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
+* #VALIDE ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #VALIDE ^property[+].code = #status
 * #VALIDE ^property[=].valueCode = #active
 * #APPROUVE "Approuvé" "Le professionnel considère la ressource comme correcte. Ce statut s'adresse à la ressource Evaluation de l'individu."
@@ -63,11 +63,11 @@ Description: "Caractérise le statut d'une ressource du médico-social au cours 
 * #APPROUVE ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
 * #APPROUVE ^property[+].code = #status
 * #APPROUVE ^property[=].valueCode = #active
-* #PLANIFIE "Planifié" "Ressource organisée à l’avance pour une activité. Ce statut s'adresse à la ressource Evenements liés à la prise en charge de l'individu dans une structure ESSMS."
+* #PLANIFIE "Planifié" "Ressource organisée à l’avance pour une activité. Ce statut s'adresse à la ressource Evenements liés à la prise en charge de l'individu dans une structure ESSMS. Ce statut s'adresse également à la ressource PresenceAbsence de l'usager."
 * #PLANIFIE ^property[0].code = #dateValid
 * #PLANIFIE ^property[=].valueDateTime = "2024-09-27T12:00:00+01:00"
 * #PLANIFIE ^property[+].code = #dateMaj
-* #PLANIFIE ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
+* #PLANIFIE ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #PLANIFIE ^property[+].code = #status
 * #PLANIFIE ^property[=].valueCode = #active
 * #REALISE "Réalisé" "Ressource totalement effectuée. Ce statut s'adresse à la ressource Evenements liés à la prise en charge de l'individu dans une structure ESSMS."
@@ -149,3 +149,10 @@ Description: "Caractérise le statut d'une ressource du médico-social au cours 
 * #ENPAUSE ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #ENPAUSE ^property[+].code = #status
 * #ENPAUSE ^property[=].valueCode = #active
+* #FACTURE "Facturé" "Ressource pour laquelle une facture a été établie."
+* #FACTURE ^property[0].code = #dateValid
+* #FACTURE ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
+* #FACTURE ^property[+].code = #dateMaj
+* #FACTURE ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
+* #FACTURE ^property[+].code = #status
+* #FACTURE ^property[=].valueCode = #active

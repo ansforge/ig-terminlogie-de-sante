@@ -1,8 +1,8 @@
 ValueSet: JDV_J29_PublicPrisEnCharge_ROR
 Id: JDV-J29-PublicPrisEnCharge-ROR
 Description: "Public pris en charge - ROR"
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2025-07-02T17:06:24.913+00:00"
+* ^meta.versionId = "7"
+* ^meta.lastUpdated = "2026-05-05T19:02:49.666+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,12 +10,12 @@ Description: "Public pris en charge - ROR"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J29-PublicPrisEnCharge-ROR/FHIR/JDV-J29-PublicPrisEnCharge-ROR"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.30"
-* ^version = "20250328120000"
+* ^version = "20260330120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-03-28T12:00:00+01:00"
+* ^date = "2026-03-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R239-PublicPrisEnCharge#01 "Personnes âgées en perte d'autonomie (PA) et aidants"
 * $TRE-R239-PublicPrisEnCharge#02 "Personnes en situation de handicap (PH) et aidants"
 * $TRE-R239-PublicPrisEnCharge#03 "Personnes âgées autonomes"
@@ -25,3 +25,4 @@ Description: "Public pris en charge - ROR"
 * $TRE-R239-PublicPrisEnCharge#07 "Tout public"
 * $TRE-R239-PublicPrisEnCharge#08 "Etudiants"
 * $TRE-R239-PublicPrisEnCharge#09 "Personnes atteintes de pathologies chroniques ou présentant une affection de longue durée (ALD)"
+* $TRE-R239-PublicPrisEnCharge#10 "Victime de violence (intrafamiliale, professionnelle, prostitutionnelle, cyber)"
