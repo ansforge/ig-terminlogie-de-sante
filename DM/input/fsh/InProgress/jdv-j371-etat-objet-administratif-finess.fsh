@@ -1,4 +1,4 @@
-Alias: $tre-r365-etat-objet = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet
+Alias: $tre-r365-etat-objet-structure = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet-structure
 
 ValueSet: JdvJ371EtatObjetAdministratifFiness
 Id: jdv-j371-etat-objet-administratif-finess
@@ -18,4 +18,4 @@ Description: "Jeu de valeurs FINESS contenant les états élémentaires que peuv
 * ^experimental = false
 * ^date = "2025-02-22T18:02:28.249+00:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* include codes from system $tre-r365-etat-objet where finess = "true"
+* include codes from system $tre-r365-etat-objet-structure where finess = "true"
