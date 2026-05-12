@@ -1,9 +1,9 @@
 ValueSet: JDV_J98_StatutHospitalier_RASS
 Id: JDV-J98-StatutHospitalier-RASS
 Description: "Statut des professionnels intervenant dans un hôpital dans le RASS"
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2026-02-23T18:17:36.269+01:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^meta.versionId = "7"
+* ^meta.lastUpdated = "2026-05-05T19:02:53.986+02:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2019-08-30T12:00:00+01:00"
@@ -15,7 +15,7 @@ Description: "Statut des professionnels intervenant dans un hôpital dans le RAS
 * ^experimental = false
 * ^date = "2026-02-23T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R32-StatutHospitalier#SH01 "Professeur des universités - Praticien hospitalier (PU-PH) (décret n° 84-135)"
 * $TRE-R32-StatutHospitalier#SH02 "Maître de conférences des universités - Praticien hospitalier (décret n° 84-135)"
 * $TRE-R32-StatutHospitalier#SH03 "Chef de clinique des universités - Assistant des hôpitaux (décret n° 84-135)"

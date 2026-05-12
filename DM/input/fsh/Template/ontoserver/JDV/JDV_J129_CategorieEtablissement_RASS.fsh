@@ -1,9 +1,9 @@
 ValueSet: JDV_J129_CategorieEtablissement_RASS
 Id: JDV-J129-CategorieEtablissement-RASS
 Description: "Catégorie d'établissement du RASS"
-* ^meta.versionId = "17"
-* ^meta.lastUpdated = "2026-02-23T18:17:24.571+01:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^meta.versionId = "18"
+* ^meta.lastUpdated = "2026-05-05T19:02:38.015+02:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2020-11-27T12:00:00+01:00"

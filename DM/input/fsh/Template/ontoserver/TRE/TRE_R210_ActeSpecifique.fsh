@@ -1,7 +1,7 @@
 CodeSystem: TRE_R210_ActeSpecifique
 Id: TRE-R210-ActeSpecifique
-* ^meta.versionId = "30"
-* ^meta.lastUpdated = "2026-03-27T12:13:04.883+01:00"
+* ^meta.versionId = "31"
+* ^meta.lastUpdated = "2026-05-05T20:11:53.920+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^meta.tag = $v3-ObservationValue#SUBSETTED "Resource encoded in summary mode"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique"

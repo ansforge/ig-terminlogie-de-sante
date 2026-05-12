@@ -1,8 +1,8 @@
 ValueSet: JDV_J20_ChampActivite_ROR
 Id: JDV-J20-ChampActivite-ROR
 Description: "Champ d'activité - ROR"
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2026-03-27T11:18:05.976+01:00"
+* ^meta.versionId = "6"
+* ^meta.lastUpdated = "2026-05-05T19:02:44.819+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Champ d'activité - ROR"
 * ^experimental = false
 * ^date = "2026-03-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R227-ChampActivite#01 "Médecine, Chirurgie, Obstétrique (MCO)"
 * $TRE-R227-ChampActivite#02 "Soins Médicaux et de réadaptation (SMR)"
 * $TRE-R227-ChampActivite#03 "Psychiatrie (PSY)"

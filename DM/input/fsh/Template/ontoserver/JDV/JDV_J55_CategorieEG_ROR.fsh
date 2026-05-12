@@ -1,8 +1,8 @@
 ValueSet: JDV_J55_CategorieEG_ROR
 Id: JDV-J55-CategorieEG-ROR
 Description: "Catégories d'établissements FINESS ou hors FINESS et secteurs d'activité des cabinets"
-* ^meta.versionId = "19"
-* ^meta.lastUpdated = "2026-03-27T11:18:12.066+01:00"
+* ^meta.versionId = "21"
+* ^meta.lastUpdated = "2026-05-05T19:02:53.231+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,12 +10,12 @@ Description: "Catégories d'établissements FINESS ou hors FINESS et secteurs d'
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J55-CategorieEG-ROR/FHIR/JDV-J55-CategorieEG-ROR"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.65"
-* ^version = "20260330120000"
+* ^version = "20260505120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-03-30T12:00:00+01:00"
+* ^date = "2026-05-05T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R66-CategorieEtablissement#101 "Centre hospitalier régional (CHR)"
 * $TRE-R66-CategorieEtablissement#106 "Centre hospitalier (ex Hôpital local)"
 * $TRE-R66-CategorieEtablissement#109 "Etablissement de santé privé autorisé en soins de suite et de réadaptation (SSR)"
@@ -35,7 +35,6 @@ Description: "Catégories d'établissements FINESS ou hors FINESS et secteurs d'
 * $TRE-R66-CategorieEtablissement#143 "Centre de vaccination BCG"
 * $TRE-R66-CategorieEtablissement#146 "Structure d'alternative à la dialyse en centre"
 * $TRE-R66-CategorieEtablissement#156 "Centre médico-psychologique (CMP)"
-* $TRE-R66-CategorieEtablissement#159 "Centre Parental"
 * $TRE-R66-CategorieEtablissement#161 "Maison de santé pour maladies mentales"
 * $TRE-R66-CategorieEtablissement#165 "Appartement de coordination thérapeutique (ACT)"
 * $TRE-R66-CategorieEtablissement#166 "Centre Parents-Enfants de moins de 3 ans"
@@ -70,7 +69,7 @@ Description: "Catégories d'établissements FINESS ou hors FINESS et secteurs d'
 * $TRE-R66-CategorieEtablissement#228 "Centre de santé sexuelle"
 * $TRE-R66-CategorieEtablissement#230 "Etablissement consultation protection infantile"
 * $TRE-R66-CategorieEtablissement#231 "Espaces de vie affective, relationnelle et sexuelle (EVARS)"
-* $TRE-R66-CategorieEtablissement#236 "Centre de placement familial socio-éducatif (CPFSE)"
+* $TRE-R66-CategorieEtablissement#236 "Service de placement familial (SPF)"
 * $TRE-R66-CategorieEtablissement#238 "Centre d'accueil familial spécialisé"
 * $TRE-R66-CategorieEtablissement#241 "Établissement de Placement"
 * $TRE-R66-CategorieEtablissement#242 "Service d'Activité de Jour"

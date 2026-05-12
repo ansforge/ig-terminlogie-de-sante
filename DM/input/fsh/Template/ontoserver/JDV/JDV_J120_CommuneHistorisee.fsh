@@ -1,18 +1,18 @@
 ValueSet: JDV_J120_CommuneHistorisee
 Id: JDV-J120-CommuneHistorisee
 Description: "Toute la nomenclature des codes communes auquel on ajoute le code applicatif \"Non renseigné\""
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2026-03-27T13:58:15.306+01:00"
+* ^meta.versionId = "7"
+* ^meta.lastUpdated = "2026-05-04T15:35:24.244+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2020-05-29T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J120-CommuneHistorisee/FHIR/JDV-J120-CommuneHistorisee"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.191"
-* ^version = "20260330120000"
+* ^version = "20260505120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-03-30T12:00:00+01:00"
+* ^date = "2026-05-05T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * $TRE-R13-CommuneOM#01001 "L'Abergement-Clémenciat (01001)"
 * $TRE-R13-CommuneOM#01002 "L'Abergement-de-Varey (01002)"
@@ -39307,4 +39307,8 @@ Description: "Toute la nomenclature des codes communes auquel on ajoute le code 
 * $TRE-R13-CommuneOM#98833 "Kouaoua (98833)"
 * $TRE-R13-CommuneOM#98901 "La Passion-Clipperton (98901)"
 * $TRE-R13-CommuneOM#99138 "Monaco (99138)"
+* $TRE-R13-CommuneOM#91352 "Alger (91352)"
+* $TRE-R13-CommuneOM#92352 "Oran (92352)"
+* $TRE-R13-CommuneOM#93352 "Constantine (93352)"
+* $TRE-R13-CommuneOM#94352 "Territoires du sud de l'Algérie (94352)"
 * $TRE-R302-ContexteCodeComplementaire#01 "Non renseigné"

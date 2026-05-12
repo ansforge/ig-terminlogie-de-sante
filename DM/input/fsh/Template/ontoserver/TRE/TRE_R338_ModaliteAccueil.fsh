@@ -1,8 +1,8 @@
 CodeSystem: TRE_R338_ModaliteAccueil
 Id: TRE-R338-ModaliteAccueil
 Description: "Modalités d'accueil"
-* ^meta.versionId = "19"
-* ^meta.lastUpdated = "2026-03-27T11:13:10.686+01:00"
+* ^meta.versionId = "20"
+* ^meta.lastUpdated = "2026-05-05T20:12:05.993+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

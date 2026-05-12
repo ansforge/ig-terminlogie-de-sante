@@ -1,8 +1,8 @@
 CodeSystem: TRE_R227_ChampActivite
 Id: TRE-R227-ChampActivite
 Description: "Champ d'activité"
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2026-03-27T11:13:07.338+01:00"
+* ^meta.versionId = "7"
+* ^meta.lastUpdated = "2026-05-05T20:11:57.249+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Champ d'activité"
 * ^experimental = false
 * ^date = "2026-03-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
 * ^count = 6

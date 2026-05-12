@@ -1,8 +1,8 @@
 ValueSet: JDV_J210_SpecialiteOrdinale_ROR
 Id: JDV-J210-SpecialiteOrdinale-ROR
 Description: "Spécialité ordinale"
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2026-03-27T11:18:06.321+01:00"
+* ^meta.versionId = "6"
+* ^meta.lastUpdated = "2026-05-05T19:02:45.540+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Spécialité ordinale"
 * ^experimental = false
 * ^date = "2026-03-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R38-SpecialiteOrdinale#SCD01 "Orthopédie dento-faciale (SCD)"
 * $TRE-R38-SpecialiteOrdinale#SCD02 "Chirurgie orale (SCD)"
 * $TRE-R38-SpecialiteOrdinale#SCD03 "Médecine bucco-dentaire (SCD)"

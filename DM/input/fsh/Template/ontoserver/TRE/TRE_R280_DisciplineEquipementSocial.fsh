@@ -1,8 +1,8 @@
 CodeSystem: TRE_R280_DisciplineEquipementSocial
 Id: TRE-R280-DisciplineEquipementSocial
 Description: "Disciplines d'équipement pour le social"
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2026-03-27T11:13:10.337+01:00"
+* ^meta.versionId = "7"
+* ^meta.lastUpdated = "2026-05-05T20:12:02.176+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Disciplines d'équipement pour le social"
 * ^experimental = false
 * ^date = "2026-03-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
 * ^count = 133

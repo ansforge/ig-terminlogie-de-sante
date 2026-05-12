@@ -1,8 +1,8 @@
 CodeSystem: TRE_R211_ActiviteOperationnelle
 Id: TRE-R211-ActiviteOperationnelle
 Description: "Activite Operationnelle"
-* ^meta.versionId = "26"
-* ^meta.lastUpdated = "2026-03-27T11:13:06.524+01:00"
+* ^meta.versionId = "27"
+* ^meta.lastUpdated = "2026-05-05T20:11:55.520+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

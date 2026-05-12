@@ -1,8 +1,8 @@
 ValueSet: JDV_J33_CompetenceSpecifique_ROR
 Id: JDV-J33-CompetenceSpecifique-ROR
 Description: "Compétence spécifique - ROR"
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2026-03-27T11:18:09.303+01:00"
+* ^meta.versionId = "6"
+* ^meta.lastUpdated = "2026-05-05T19:02:50.184+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Compétence spécifique - ROR"
 * ^experimental = false
 * ^date = "2026-03-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R243-CompetenceSpecifique#01 "Maîtrise de la Langue des Signes Française (LSF)"
 * $TRE-R243-CompetenceSpecifique#02 "Maîtrise de la Langue Parlé Complété (LPC)"
 * $TRE-R243-CompetenceSpecifique#03 "Maîtrise de la lecture et de l'écriture du Braille"

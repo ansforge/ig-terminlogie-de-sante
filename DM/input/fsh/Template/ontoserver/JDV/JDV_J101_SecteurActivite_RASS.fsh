@@ -1,9 +1,9 @@
 ValueSet: JDV_J101_SecteurActivite_RASS
 Id: JDV-J101-SecteurActivite-RASS
 Description: "Secteurs d'activité des établissements avec la même activité dans le RASS"
-* ^meta.versionId = "15"
-* ^meta.lastUpdated = "2026-02-23T18:17:21.574+01:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^meta.versionId = "16"
+* ^meta.lastUpdated = "2026-05-05T19:02:30.896+02:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2019-08-30T12:00:00+01:00"
@@ -15,7 +15,7 @@ Description: "Secteurs d'activité des établissements avec la même activité d
 * ^experimental = false
 * ^date = "2026-02-23T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R02-SecteurActivite#SA01 "Etablissement public de santé"
 * $TRE-R02-SecteurActivite#SA02 "Hôpital militaire du Service de santé des armées"
 * $TRE-R02-SecteurActivite#SA03 "Etablissement privé PSPH"

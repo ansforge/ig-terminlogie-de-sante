@@ -1,8 +1,8 @@
 ValueSet: JDV_J106_EnsembleProfession_RASS
 Id: JDV-J106-EnsembleProfession-RASS
 Description: "Ensemble des professions du RASS"
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2026-03-27T11:18:03.328+01:00"
+* ^meta.versionId = "7"
+* ^meta.lastUpdated = "2026-05-05T19:02:34.720+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Ensemble des professions du RASS"
 * ^experimental = false
 * ^date = "2026-03-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-G15-ProfessionSante#10 "Médecin"
 * $TRE-G15-ProfessionSante#21 "Pharmacien"
 * $TRE-G15-ProfessionSante#26 "Audioprothésiste"

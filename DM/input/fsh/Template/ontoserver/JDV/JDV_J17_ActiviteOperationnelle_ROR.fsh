@@ -1,8 +1,8 @@
 ValueSet: JDV_J17_ActiviteOperationnelle_ROR
 Id: JDV-J17-ActiviteOperationnelle-ROR
 Description: "Activité Operationnelle - ROR"
-* ^meta.versionId = "26"
-* ^meta.lastUpdated = "2026-03-27T11:18:05.487+01:00"
+* ^meta.versionId = "27"
+* ^meta.lastUpdated = "2026-05-05T19:02:43.361+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

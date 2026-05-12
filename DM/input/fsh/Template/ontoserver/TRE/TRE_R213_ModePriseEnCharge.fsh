@@ -1,8 +1,8 @@
 CodeSystem: TRE_R213_ModePriseEnCharge
 Id: TRE-R213-ModePriseEnCharge
 Description: "Mode de la prise en charge"
-* ^meta.versionId = "12"
-* ^meta.lastUpdated = "2026-03-27T11:13:07.001+01:00"
+* ^meta.versionId = "13"
+* ^meta.lastUpdated = "2026-05-05T20:11:56.538+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

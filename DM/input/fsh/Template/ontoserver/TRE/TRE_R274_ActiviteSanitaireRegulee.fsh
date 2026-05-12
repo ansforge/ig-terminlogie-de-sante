@@ -1,8 +1,8 @@
 CodeSystem: TRE_R274_ActiviteSanitaireRegulee
 Id: TRE-R274-ActiviteSanitaireRegulee
 Description: "Activités sanitaires soumises à une régulation de la part de l'ARS"
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2026-03-27T11:13:09.842+01:00"
+* ^meta.versionId = "7"
+* ^meta.lastUpdated = "2026-05-05T20:12:00.999+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2018-07-27T12:00:00+01:00"
@@ -14,7 +14,7 @@ Description: "Activités sanitaires soumises à une régulation de la part de l'
 * ^experimental = false
 * ^date = "2023-12-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^valueSet = "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee?vs"
 * ^content = #complete

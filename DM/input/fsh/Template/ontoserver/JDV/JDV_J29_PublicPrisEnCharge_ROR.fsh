@@ -1,8 +1,8 @@
 ValueSet: JDV_J29_PublicPrisEnCharge_ROR
 Id: JDV-J29-PublicPrisEnCharge-ROR
 Description: "Public pris en charge - ROR"
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2026-03-27T11:18:08.530+01:00"
+* ^meta.versionId = "7"
+* ^meta.lastUpdated = "2026-05-05T19:02:49.666+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Public pris en charge - ROR"
 * ^experimental = false
 * ^date = "2026-03-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R239-PublicPrisEnCharge#01 "Personnes âgées en perte d'autonomie (PA) et aidants"
 * $TRE-R239-PublicPrisEnCharge#02 "Personnes en situation de handicap (PH) et aidants"
 * $TRE-R239-PublicPrisEnCharge#03 "Personnes âgées autonomes"

@@ -1,9 +1,10 @@
 CodeSystem: TRE_R332_GenreCapacite
 Id: TRE-R332-GenreCapacite
 Description: "Permet d'indiquer le genre des patients qui peuvent être installés dans des lits disponibles"
-* ^meta.versionId = "8"
-* ^meta.lastUpdated = "2025-10-02T20:13:50.824+02:00"
+* ^meta.versionId = "10"
+* ^meta.lastUpdated = "2026-05-05T20:12:05.518+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2022-05-27T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R332-GenreCapacite/FHIR/TRE-R332-GenreCapacite"
@@ -14,19 +15,26 @@ Description: "Permet d'indiquer le genre des patients qui peuvent être install�
 * ^experimental = false
 * ^date = "2025-08-28T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
 * ^count = 4
 * ^property[0].code = #dateValid
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateMaj
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj"
 * ^property[=].description = "Date de mise à jour d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateFin
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin"
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #finess
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#finess"
+* ^property[=].description = "Permet de définir les codes concepts utilisés par FINESS+"
+* ^property[=].type = #boolean
 * ^property[+].code = #deprecationDate
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
 * ^property[=].description = "Date Concept was deprecated"
@@ -46,6 +54,8 @@ Description: "Permet d'indiquer le genre des patients qui peuvent être install�
 * #01 ^property[=].valueDateTime = "2022-05-27T12:00:00+01:00"
 * #01 ^property[+].code = #status
 * #01 ^property[=].valueCode = #active
+* #01 ^property[+].code = #finess
+* #01 ^property[=].valueBoolean = true
 * #02 "Homme"
 * #02 ^property[0].code = #dateValid
 * #02 ^property[=].valueDateTime = "2022-05-27T12:00:00+01:00"
@@ -53,6 +63,8 @@ Description: "Permet d'indiquer le genre des patients qui peuvent être install�
 * #02 ^property[=].valueDateTime = "2022-05-27T12:00:00+01:00"
 * #02 ^property[+].code = #status
 * #02 ^property[=].valueCode = #active
+* #02 ^property[+].code = #finess
+* #02 ^property[=].valueBoolean = true
 * #03 "Indifférencié"
 * #03 ^property[0].code = #dateValid
 * #03 ^property[=].valueDateTime = "2022-05-27T12:00:00+01:00"

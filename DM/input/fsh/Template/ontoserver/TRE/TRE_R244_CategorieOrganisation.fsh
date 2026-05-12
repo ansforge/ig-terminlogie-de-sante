@@ -1,8 +1,8 @@
 CodeSystem: TRE_R244_CategorieOrganisation
 Id: TRE-R244-CategorieOrganisation
 Description: "Catégorie d'organisation"
-* ^meta.versionId = "28"
-* ^meta.lastUpdated = "2026-03-27T11:13:09.031+01:00"
+* ^meta.versionId = "30"
+* ^meta.lastUpdated = "2026-05-05T20:11:59.960+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,15 +10,15 @@ Description: "Catégorie d'organisation"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.39"
-* ^version = "20260330120000"
+* ^version = "20260505120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-03-30T12:00:00+01:00"
+* ^date = "2026-05-05T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 306
+* ^count = 313
 * ^property[0].code = #dateValid
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
@@ -240,11 +240,15 @@ Description: "Catégorie d'organisation"
 * #19 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
 * #19 ^property[+].code = #status
 * #19 ^property[=].valueCode = #active
-* #20 "Unité d'urgences polyvalentes"
+* #20 "Structure des urgences polyvalentes 24h/24 7j/7"
+* #20 ^designation[0].language = #fr-FR
+* #20 ^designation[=].use.system = "http://snomed.info/sct"
+* #20 ^designation[=].use = $sct#900000000000013009
+* #20 ^designation[=].value = "Struct. urgences polyvalentes"
 * #20 ^property[0].code = #dateValid
 * #20 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
 * #20 ^property[+].code = #dateMaj
-* #20 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #20 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #20 ^property[+].code = #status
 * #20 ^property[=].valueCode = #active
 * #21 "Accueil ou hébergement pour personnes âgées dépendantes, sans spécificité"
@@ -1608,15 +1612,15 @@ Description: "Catégorie d'organisation"
 * #145 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #145 ^property[+].code = #status
 * #145 ^property[=].valueCode = #active
-* #146 "Unité de prise en charge des brûlés"
+* #146 "Unité hospitalière de brûlologie"
 * #146 ^designation[0].language = #fr-FR
 * #146 ^designation[=].use.system = "http://snomed.info/sct"
 * #146 ^designation[=].use = $sct#900000000000013009
-* #146 ^designation[=].value = "Unité des brûlés"
+* #146 ^designation[=].value = "Unité hospitalière brûlologie"
 * #146 ^property[0].code = #dateValid
 * #146 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
 * #146 ^property[+].code = #dateMaj
-* #146 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
+* #146 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #146 ^property[+].code = #status
 * #146 ^property[=].valueCode = #active
 * #147 "Unité de sevrage complexe"
@@ -3301,6 +3305,7 @@ Description: "Catégorie d'organisation"
 * #301 ^property[=].valueCode = #active
 * #302 "Centre d’Accueil et de Crise (CAC)" "Le centre d'accueil et de crise (CAC) est un dispositif d'accueil en continu répondant au besoin non programmé d'évaluation et d'orientation du patient relevant d'une situation clinique de crise. Le centre peut disposer de lits d'hospitalisation de très courte durée permettant d'initier la prise en charge thérapeutique du patient dans une perspective de relai vers un autre mode de prise en charge."
 * #302 ^designation[0].language = #fr-FR
+* #302 ^designation[=].use.system = "http://snomed.info/sct"
 * #302 ^designation[=].use = $sct#900000000000013009
 * #302 ^designation[=].value = "CAC"
 * #302 ^property[0].code = #dateValid
@@ -3337,3 +3342,75 @@ Description: "Catégorie d'organisation"
 * #306 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #306 ^property[+].code = #status
 * #306 ^property[=].valueCode = #active
+* #307 "Unité d’Education Thérapeutique du Patient (ETP)"
+* #307 ^designation[0].language = #fr-FR
+* #307 ^designation[=].use.system = "http://snomed.info/sct"
+* #307 ^designation[=].use = $sct#900000000000013009
+* #307 ^designation[=].value = "ETP"
+* #307 ^property[0].code = #dateValid
+* #307 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
+* #307 ^property[+].code = #dateMaj
+* #307 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
+* #307 ^property[+].code = #status
+* #307 ^property[=].valueCode = #active
+* #308 "Unité de réanimation des brûlés"
+* #308 ^designation[0].language = #fr-FR
+* #308 ^designation[=].use.system = "http://snomed.info/sct"
+* #308 ^designation[=].use = $sct#900000000000013009
+* #308 ^designation[=].value = "Unité de réa des brûlés"
+* #308 ^property[0].code = #dateValid
+* #308 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
+* #308 ^property[+].code = #dateMaj
+* #308 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
+* #308 ^property[+].code = #status
+* #308 ^property[=].valueCode = #active
+* #309 "Unité Sanitaire en Milieu Pénitentiaire (USMP, ex UCSA)"
+* #309 ^designation[0].language = #fr-FR
+* #309 ^designation[=].use.system = "http://snomed.info/sct"
+* #309 ^designation[=].use = $sct#900000000000013009
+* #309 ^designation[=].value = "USMP, ex UCSA"
+* #309 ^property[0].code = #dateValid
+* #309 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
+* #309 ^property[+].code = #dateMaj
+* #309 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
+* #309 ^property[+].code = #status
+* #309 ^property[=].valueCode = #active
+* #310 "Lactarium"
+* #310 ^property[0].code = #dateValid
+* #310 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
+* #310 ^property[+].code = #dateMaj
+* #310 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
+* #310 ^property[+].code = #status
+* #310 ^property[=].valueCode = #active
+* #311 "Structure des urgences pédiatriques"
+* #311 ^designation[0].language = #fr-FR
+* #311 ^designation[=].use.system = "http://snomed.info/sct"
+* #311 ^designation[=].use = $sct#900000000000013009
+* #311 ^designation[=].value = "Urgences pédiatriques"
+* #311 ^property[0].code = #dateValid
+* #311 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
+* #311 ^property[+].code = #dateMaj
+* #311 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
+* #311 ^property[+].code = #status
+* #311 ^property[=].valueCode = #active
+* #312 "Pharmacie d'officine (dont mutualiste)"
+* #312 ^designation[0].language = #fr-FR
+* #312 ^designation[=].use.system = "http://snomed.info/sct"
+* #312 ^designation[=].use = $sct#900000000000013009
+* #312 ^designation[=].value = "Pharmacie d'officine"
+* #312 ^property[0].code = #dateValid
+* #312 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
+* #312 ^property[+].code = #dateMaj
+* #312 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
+* #312 ^property[+].code = #status
+* #312 ^property[=].valueCode = #active
+* #313 "Antennes des urgences"
+* #313 ^designation[0].language = #fr-FR
+* #313 ^designation[=].use = $sct#900000000000013009
+* #313 ^designation[=].value = "Antennes urgences"
+* #313 ^property[0].code = #dateValid
+* #313 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
+* #313 ^property[+].code = #dateMaj
+* #313 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
+* #313 ^property[+].code = #status
+* #313 ^property[=].valueCode = #active

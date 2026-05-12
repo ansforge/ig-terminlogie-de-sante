@@ -1,9 +1,9 @@
 CodeSystem: TRE_R58_AutreTypeDiplome
 Id: TRE-R58-AutreTypeDiplome
 Description: "Autre type de diplôme"
-* ^meta.versionId = "14"
-* ^meta.lastUpdated = "2026-02-23T17:57:32.825+01:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^meta.versionId = "15"
+* ^meta.lastUpdated = "2026-05-05T20:12:26.273+02:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2013-06-28T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome"

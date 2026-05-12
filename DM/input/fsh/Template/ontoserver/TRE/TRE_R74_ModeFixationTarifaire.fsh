@@ -1,8 +1,8 @@
 CodeSystem: TRE_R74_ModeFixationTarifaire
 Id: TRE-R74-ModeFixationTarifaire
 Description: "Mode de fixation tarifaire"
-* ^meta.versionId = "10"
-* ^meta.lastUpdated = "2026-03-27T12:13:06.598+01:00"
+* ^meta.versionId = "11"
+* ^meta.lastUpdated = "2026-05-05T20:12:28.986+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "1999-11-02T00:00:00+01:00"

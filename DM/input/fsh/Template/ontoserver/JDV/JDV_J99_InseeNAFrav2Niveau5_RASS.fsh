@@ -1,9 +1,9 @@
 ValueSet: JDV_J99_InseeNAFrav2Niveau5_RASS
 Id: JDV-J99-InseeNAFrav2Niveau5-RASS
 Description: "Sous-classes de la Nomenclature Activités Française (INSEE) des prof du RASS"
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2026-02-23T18:17:37.656+01:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^meta.versionId = "7"
+* ^meta.lastUpdated = "2026-05-05T19:02:56.959+02:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2019-08-30T12:00:00+01:00"
@@ -16,7 +16,7 @@ Description: "Sous-classes de la Nomenclature Activités Française (INSEE) des 
 * ^experimental = false
 * ^date = "2026-02-23T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R75-InseeNAFrev2Niveau5#01.11Z "Culture de céréales (sf riz) légumineuses, graines oléagineuses"
 * $TRE-R75-InseeNAFrev2Niveau5#01.12Z "Culture du riz"
 * $TRE-R75-InseeNAFrev2Niveau5#01.13Z "Culture de légumes, de melons, de racines et de tubercules"

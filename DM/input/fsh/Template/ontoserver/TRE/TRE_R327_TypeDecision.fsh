@@ -1,29 +1,33 @@
 CodeSystem: TRE_R327_TypeDecision
 Id: TRE-R327-TypeDecision
-Description: "Caractérise le type de décision prise par la CDAPH en réponse à une demande de compensation d'un usager (individu ou représentant légal), à une demande de révision par un tiers ou à un recours administratif préalable obligatoire (RAPO) d'un usager"
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2025-07-02T18:17:34.007+00:00"
+Description: "Caractérise le type de décision prise par la CDAPH en réponse à une demande de compensation d'un usager (individu ou représentant légal), à une demande de révision par un tiers ou à un recours administratif préalable obligatoire (RAPO) d'un usager."
+* ^meta.versionId = "8"
+* ^meta.lastUpdated = "2026-05-05T20:12:04.370+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2021-09-24T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R327-TypeDecision/FHIR/TRE-R327-TypeDecision"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.82"
-* ^version = "20240329120000"
+* ^version = "20260505120000"
 * ^status = #active
 * ^experimental = false
 * ^date = "2024-03-29T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
+* ^count = 7
 * ^property[0].code = #dateValid
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateMaj
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj"
 * ^property[=].description = "Date de mise à jour d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateFin
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin"
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #deprecationDate
@@ -73,3 +77,17 @@ Description: "Caractérise le type de décision prise par la CDAPH en réponse �
 * #5 ^property[=].valueDateTime = "2021-09-24T12:00:00+01:00"
 * #5 ^property[+].code = #status
 * #5 ^property[=].valueCode = #active
+* #6 "Renouvellement" "Indique si le droit attribué par la CDAPH fait suite à une demande de renouvellement."
+* #6 ^property[0].code = #dateValid
+* #6 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
+* #6 ^property[+].code = #dateMaj
+* #6 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
+* #6 ^property[+].code = #status
+* #6 ^property[=].valueCode = #active
+* #7 "Révision" "Indique si le droit attribué par la CDAPH  fait suite à une demande de révision."
+* #7 ^property[0].code = #dateValid
+* #7 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
+* #7 ^property[+].code = #dateMaj
+* #7 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
+* #7 ^property[+].code = #status
+* #7 ^property[=].valueCode = #active

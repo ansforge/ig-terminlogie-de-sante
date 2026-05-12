@@ -1,9 +1,9 @@
 ValueSet: JDV_J02_XdsHealthcareFacilityTypeCode_CISIS
 Id: JDV-J02-XdsHealthcareFacilityTypeCode-CISIS
 Description: "XDS healthcareFacilityTypeCode CI-SIS"
-* ^meta.versionId = "15"
-* ^meta.lastUpdated = "2026-02-23T18:17:19.661+01:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^meta.versionId = "16"
+* ^meta.lastUpdated = "2026-05-05T19:02:26.780+02:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2014-10-08T00:00:00+01:00"
@@ -15,7 +15,7 @@ Description: "XDS healthcareFacilityTypeCode CI-SIS"
 * ^experimental = false
 * ^date = "2026-02-23T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-A00-ProducteurDocNonPS#EXP_PATIENT "Expression personnelle du patient"
 * $TRE-A00-ProducteurDocNonPS#SNR "Service numérique référencé"
 * $TRE-R02-SecteurActivite#SA01 "Etablissement public de santé"

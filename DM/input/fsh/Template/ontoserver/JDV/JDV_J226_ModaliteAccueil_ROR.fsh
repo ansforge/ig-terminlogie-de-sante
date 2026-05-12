@@ -1,8 +1,8 @@
 ValueSet: JDV_J226_ModaliteAccueil_ROR
 Id: JDV-J226-ModaliteAccueil-ROR
 Description: "Modalité d'accueil"
-* ^meta.versionId = "16"
-* ^meta.lastUpdated = "2026-03-27T11:18:07.107+01:00"
+* ^meta.versionId = "17"
+* ^meta.lastUpdated = "2026-05-05T19:02:46.670+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -15,7 +15,7 @@ Description: "Modalité d'accueil"
 * ^experimental = false
 * ^date = "2026-03-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R338-ModaliteAccueil#01 "Accueil séquentiel accepté"
 * $TRE-R338-ModaliteAccueil#02 "Prise en charge directe SMUR"
 * $TRE-R338-ModaliteAccueil#03 "En présentiel"
