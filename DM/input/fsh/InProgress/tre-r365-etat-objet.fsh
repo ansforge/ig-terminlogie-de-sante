@@ -1,11 +1,10 @@
 Alias: $sct = http://snomed.info/sct
 
-CodeSystem: TreR365EtatObjet
-Id: tre-r365-etat-objet
-Title: "Tre R365 Etat Objet"
+CodeSystem: TreR365EtatObjetStructure
+Id: tre-r365-etat-objet-structure
+Title: "Tre R365 Etat Objet Structure"
 Description: """
-Nomenclature des états élémentaires d'un objet du MOS organisés en etat actifs et en etats inactifs. 
-Remarque : Cette nomenclature est juste initialisée avec les états gérés dans FINESS+
+Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites, engagements) organisés en etat actifs et en etats inactifs. 
 """
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2024-12-30T12:00:00+01:00"
@@ -13,7 +12,7 @@ Remarque : Cette nomenclature est juste initialisée avec les états gérés dan
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "1900-01-01T00:00:00+01:00"
-* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet"
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet-structure"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.259"
 * ^version = "20241230120000"
