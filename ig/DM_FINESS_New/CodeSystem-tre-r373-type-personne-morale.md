@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r373-type-personne-morale | *Version*:20241230120000 | |
-| Active as of 2024-12-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR373TypePersonneMorale |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r373-type-personne-morale | *Version*:20260505120000 | |
+| Active as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR373TypePersonneMorale |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.253 | | |
 
  
@@ -28,8 +28,8 @@ Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-
   "resourceType" : "CodeSystem",
   "id" : "tre-r373-type-personne-morale",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2024-12-30T12:00:00+01:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-05-05T20:12:12+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -44,14 +44,20 @@ Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.253"
   }],
-  "version" : "20241230120000",
+  "version" : "20260505120000",
   "name" : "TreR373TypePersonneMorale",
   "title" : "Tre R373 Type Personne Morale",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-12-30T12:00:00+01:00",
+  "date" : "2026-05-05T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces champs).\nRemarque : Cette TRE est juste initialisée à minima et a vocation à porter d'autres valurs.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "caseSensitive" : false,
   "valueSet" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r373-type-personne-morale?vs",
   "content" : "complete",

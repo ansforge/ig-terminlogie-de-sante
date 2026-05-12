@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j354-habilitation-finess | *Version*:20250222120000 | |
-| Active as of 2025-02-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ354HabilitationFiness |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j354-habilitation-finess | *Version*:20260505120000 | |
+| Active as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ354HabilitationFiness |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.362 | | |
 
  
@@ -55,15 +55,15 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-j354-habilitation-finess",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2025-02-22T18:02:28.249+00:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-05-05T19:02:19.405+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
-      "start" : "2025-02-22T18:02:28.249+00:00"
+      "start" : "2026-05-05T18:02:28.249+00:00"
     }
   }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j354-habilitation-finess",
@@ -71,14 +71,20 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.362"
   }],
-  "version" : "20250222120000",
+  "version" : "20260505120000",
   "name" : "JdvJ354HabilitationFiness",
   "title" : "Jdv J354 Habilitation Finess",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-02-22T18:02:28.249+00:00",
+  "date" : "2026-05-05T18:02:28.249+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Jeu de valeurs FINESS contenant les habilitations associées aux capacités des structures FINESS",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R241-AideFinanciere/FHIR/TRE-R241-AideFinanciere",

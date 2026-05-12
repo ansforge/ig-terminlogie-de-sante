@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege | *Version*:20241230120000 | |
-| Active as of 2024-12-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR370RoleRelationEge |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege | *Version*:20260505120000 | |
+| Active as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR370RoleRelationEge |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.286 | | |
 
  
@@ -28,8 +28,8 @@ Nomenclature des types de rôle existant entre les Entités Géographiques d’E
   "resourceType" : "CodeSystem",
   "id" : "tre-r370-role-relation-ege",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2024-12-30T12:00:00+01:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-05-05T20:12:11+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -44,14 +44,20 @@ Nomenclature des types de rôle existant entre les Entités Géographiques d’E
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.286"
   }],
-  "version" : "20241230120000",
+  "version" : "20260505120000",
   "name" : "TreR370RoleRelationEge",
   "title" : "Tre R370 Role Relation Ege",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-12-30T12:00:00+01:00",
+  "date" : "2026-05-05T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Nomenclature des types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "caseSensitive" : false,
   "valueSet" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege?vs",
   "content" : "complete",

@@ -29,10 +29,11 @@ Permet d’indiquer le genre des patients qui peuvent être installés dans des 
   "resourceType" : "CodeSystem",
   "id" : "TRE-R332-GenreCapacite",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2025-10-02T20:13:50.824+02:00",
+    "versionId" : "10",
+    "lastUpdated" : "2026-05-05T20:12:05.518+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
+  "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
@@ -54,7 +55,7 @@ Permet d’indiquer le genre des patients qui peuvent être installés dans des 
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
-      "code" : "FR"
+      "code" : "FRA"
     }]
   }],
   "caseSensitive" : false,

@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM | *Version*:20240628120000 | |
-| Active as of 2024-06-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_G09_DepartementOM |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM | *Version*:20260505120000 | |
+| Active as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_G09_DepartementOM |
 | *Other Identifiers:*OID:1.2.250.1.71.1.2.16 | | |
 
  
@@ -32,8 +32,8 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
   "resourceType" : "CodeSystem",
   "id" : "TRE-G09-DepartementOM",
   "meta" : {
-    "versionId" : "10",
-    "lastUpdated" : "2026-02-25T15:27:34.491+01:00",
+    "versionId" : "12",
+    "lastUpdated" : "2026-05-05T20:11:49.658+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -48,23 +48,23 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.71.1.2.16"
   }],
-  "version" : "20240628120000",
+  "version" : "20260505120000",
   "name" : "TRE_G09_DepartementOM",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-06-28T12:00:00+01:00",
+  "date" : "2026-05-05T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco. Cette TRE possède des propriétés spécifiques : Autorite Epars, pour indiquer le/ les ARS du département (tre-r396-autorite) et region pour indiquer le code de la région du département (TRE-R30-RegionOM)",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
-      "code" : "FR"
+      "code" : "FRA"
     }]
   }],
   "caseSensitive" : false,
   "valueSet" : "https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM?vs",
   "content" : "complete",
-  "count" : 113,
+  "count" : 117,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -142,7 +142,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "84"
       }
     },
@@ -180,7 +180,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "32"
       }
     },
@@ -218,7 +218,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "84"
       }
     },
@@ -264,7 +264,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "93"
       }
     },
@@ -310,7 +310,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "93"
       }
     },
@@ -356,7 +356,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "93"
       }
     },
@@ -402,7 +402,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "84"
       }
     },
@@ -440,7 +440,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "44"
       }
     },
@@ -486,7 +486,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "76"
       }
     },
@@ -524,7 +524,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "44"
       }
     },
@@ -562,7 +562,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "76"
       }
     },
@@ -600,7 +600,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "76"
       }
     },
@@ -646,7 +646,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "93"
       }
     },
@@ -684,7 +684,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "28"
       }
     },
@@ -722,7 +722,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "84"
       }
     },
@@ -760,7 +760,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "75"
       }
     },
@@ -806,7 +806,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "75"
       }
     },
@@ -844,7 +844,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "24"
       }
     },
@@ -890,7 +890,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "75"
       }
     },
@@ -925,7 +925,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "94"
       }
     },
@@ -975,7 +975,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "27"
       }
     },
@@ -1021,7 +1021,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "53"
       }
     },
@@ -1059,7 +1059,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "75"
       }
     },
@@ -1097,7 +1097,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "75"
       }
     },
@@ -1135,7 +1135,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "27"
       }
     },
@@ -1181,7 +1181,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "84"
       }
     },
@@ -1219,7 +1219,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "28"
       }
     },
@@ -1265,7 +1265,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "24"
       }
     },
@@ -1311,7 +1311,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "53"
       }
     },
@@ -1340,16 +1340,9 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
       "valueDateTime" : "2024-01-26T12:00:00+01:00"
     },
     {
-      "code" : "autoriteEpars",
-      "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-        "code" : "ARS-57"
-      }
-    },
-    {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "76"
       }
     },
@@ -1395,7 +1388,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "76"
       }
     },
@@ -1433,7 +1426,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "76"
       }
     },
@@ -1471,7 +1464,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "75"
       }
     },
@@ -1517,7 +1510,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "76"
       }
     },
@@ -1563,7 +1556,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "53"
       }
     },
@@ -1601,7 +1594,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "24"
       }
     },
@@ -1647,7 +1640,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "24"
       }
     },
@@ -1693,7 +1686,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "84"
       }
     },
@@ -1731,7 +1724,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "27"
       }
     },
@@ -1769,7 +1762,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "75"
       }
     },
@@ -1815,7 +1808,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "24"
       }
     },
@@ -1853,7 +1846,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "84"
       }
     },
@@ -1899,7 +1892,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "84"
       }
     },
@@ -1945,7 +1938,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "52"
       }
     },
@@ -1983,7 +1976,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "24"
       }
     },
@@ -2021,7 +2014,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "76"
       }
     },
@@ -2067,7 +2060,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "75"
       }
     },
@@ -2113,7 +2106,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "76"
       }
     },
@@ -2159,7 +2152,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "52"
       }
     },
@@ -2197,7 +2190,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "28"
       }
     },
@@ -2235,7 +2228,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "44"
       }
     },
@@ -2281,7 +2274,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "44"
       }
     },
@@ -2319,7 +2312,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "52"
       }
     },
@@ -2365,7 +2358,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "44"
       }
     },
@@ -2403,7 +2396,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "44"
       }
     },
@@ -2441,7 +2434,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "53"
       }
     },
@@ -2479,7 +2472,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "44"
       }
     },
@@ -2525,7 +2518,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "27"
       }
     },
@@ -2563,7 +2556,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "32"
       }
     },
@@ -2601,7 +2594,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "32"
       }
     },
@@ -2639,7 +2632,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "28"
       }
     },
@@ -2685,7 +2678,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "32"
       }
     },
@@ -2731,7 +2724,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "84"
       }
     },
@@ -2777,7 +2770,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "75"
       }
     },
@@ -2823,7 +2816,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "76"
       }
     },
@@ -2869,7 +2862,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "76"
       }
     },
@@ -2915,7 +2908,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "44"
       }
     },
@@ -2961,7 +2954,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "44"
       }
     },
@@ -3007,7 +3000,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "84"
       }
     },
@@ -3053,7 +3046,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "27"
       }
     },
@@ -3099,7 +3092,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "27"
       }
     },
@@ -3137,7 +3130,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "52"
       }
     },
@@ -3175,7 +3168,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "84"
       }
     },
@@ -3221,7 +3214,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "84"
       }
     },
@@ -3259,7 +3252,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "11"
       }
     },
@@ -3305,7 +3298,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "28"
       }
     },
@@ -3351,7 +3344,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "11"
       }
     },
@@ -3389,7 +3382,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "11"
       }
     },
@@ -3435,7 +3428,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "75"
       }
     },
@@ -3473,7 +3466,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "32"
       }
     },
@@ -3511,7 +3504,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "76"
       }
     },
@@ -3557,7 +3550,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "76"
       }
     },
@@ -3595,7 +3588,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "93"
       }
     },
@@ -3633,7 +3626,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "93"
       }
     },
@@ -3679,7 +3672,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "52"
       }
     },
@@ -3717,7 +3710,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "75"
       }
     },
@@ -3763,7 +3756,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "75"
       }
     },
@@ -3801,7 +3794,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "44"
       }
     },
@@ -3839,7 +3832,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "27"
       }
     },
@@ -3877,7 +3870,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "27"
       }
     },
@@ -3915,7 +3908,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "11"
       }
     },
@@ -3961,7 +3954,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "11"
       }
     },
@@ -4007,7 +4000,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "11"
       }
     },
@@ -4053,7 +4046,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "11"
       }
     },
@@ -4099,7 +4092,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "11"
       }
     },
@@ -4137,7 +4130,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "01"
       }
     },
@@ -4175,7 +4168,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "02"
       }
     },
@@ -4213,7 +4206,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "03"
       }
     },
@@ -4259,7 +4252,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "04"
       }
     },
@@ -4290,7 +4283,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "975"
       }
     },
@@ -4319,16 +4312,9 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
       "valueDateTime" : "2024-01-26T12:00:00+01:00"
     },
     {
-      "code" : "autoriteEpars",
-      "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-        "code" : "ARS-86"
-      }
-    },
-    {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "06"
       }
     },
@@ -4374,7 +4360,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "977"
       }
     },
@@ -4420,7 +4406,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "978"
       }
     },
@@ -4459,7 +4445,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "984"
       }
     },
@@ -4494,7 +4480,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "985"
       }
     },
@@ -4537,7 +4523,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "986"
       }
     },
@@ -4576,7 +4562,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "987"
       }
     },
@@ -4615,7 +4601,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "988"
       }
     },
@@ -4654,13 +4640,141 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "989"
       }
     },
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "91352",
+    "display" : "Alger",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Alger (91352)"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1943-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "1962-07-05T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1962-07-05T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "1962-07-05T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "92352",
+    "display" : "Oran",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Oran (92352)"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1943-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "1962-07-05T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1962-07-05T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "1962-07-05T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "93352",
+    "display" : "Constantine",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Constantine (93352)"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1943-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "1962-07-05T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1962-07-05T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "1962-07-05T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "94352",
+    "display" : "Territoires du sud de l'Algérie",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Territoires du sud de l'Algérie (94352)"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1943-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "1962-07-05T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1962-07-05T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "1962-07-05T00:00:00+01:00"
     }]
   },
   {
@@ -4689,7 +4803,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "980"
       }
     },
@@ -4732,7 +4846,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "99138"
       }
     },
@@ -4778,7 +4892,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "94"
       }
     },
@@ -4824,7 +4938,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     {
       "code" : "region",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
         "code" : "94"
       }
     },

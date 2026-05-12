@@ -28,8 +28,8 @@ Nomenclature des types de groupement Concernant les groupement de structure on a
   "resourceType" : "CodeSystem",
   "id" : "tre-r371-type-groupe-gcc",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-03-27T11:13:11+01:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-05-05T20:12:11+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -52,6 +52,12 @@ Nomenclature des types de groupement Concernant les groupement de structure on a
   "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Nomenclature des types de groupement Concernant les groupement de structure on a 2 catégories de regroupement : les Groupement de Coopération Conventionnelle, les Groupement de Coopération Organique",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "caseSensitive" : false,
   "content" : "complete",
   "count" : 2,

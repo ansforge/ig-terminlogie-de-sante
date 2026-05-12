@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J29-PublicPrisEnCharge-ROR",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2026-03-27T11:18:08.530+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-05-05T19:02:49.666+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -81,7 +81,7 @@ Requête sur le SMT
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
-      "code" : "FR"
+      "code" : "FRA"
     }]
   }],
   "compose" : {

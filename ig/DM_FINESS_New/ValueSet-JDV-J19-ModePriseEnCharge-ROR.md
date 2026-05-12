@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J19-ModePriseEnCharge-ROR",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2026-03-27T11:18:05.749+01:00",
+    "versionId" : "10",
+    "lastUpdated" : "2026-05-05T19:02:44.451+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -81,7 +81,7 @@ Requête sur le SMT
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
-      "code" : "FR"
+      "code" : "FRA"
     }]
   }],
   "compose" : {

@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee?vs | *Version*:20250222120000 | |
-| Active as of 2025-02-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:VsTreR374NatureActiviteSmsseReguleeAll |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee?vs | *Version*:20260505120000 | |
+| Active as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:VsTreR374NatureActiviteSmsseReguleeAll |
 
  
 Jeu de valeurs ALL contenant les grandes natures d’activité SMSSE exercées par les entités FINESS+. 
@@ -55,23 +55,23 @@ Requête sur le SMT
   "id" : "vs-tre-r374-nature-activite-smsse-regulee-all",
   "meta" : {
     "versionId" : "1",
-    "lastUpdated" : "2025-02-22T18:02:28.249+00:00",
+    "lastUpdated" : "2026-05-05T09:33:00.838+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
-      "start" : "2025-02-22T18:02:28.249+00:00"
+      "start" : "2026-05-05T18:02:28.249+00:00"
     }
   }],
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee?vs",
-  "version" : "20250222120000",
+  "version" : "20260505120000",
   "name" : "VsTreR374NatureActiviteSmsseReguleeAll",
   "title" : "Vs Tre R374 Nature Activite Smsse Regulee All",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-02-22T18:02:28.249+00:00",
+  "date" : "2026-05-05T18:02:28.249+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Jeu de valeurs ALL contenant les grandes natures d'activité SMSSE exercées par les entités FINESS+.",
   "compose" : {

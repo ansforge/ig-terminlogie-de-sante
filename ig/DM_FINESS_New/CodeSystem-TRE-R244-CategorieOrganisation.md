@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation | *Version*:20260330120000 | |
-| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R244_CategorieOrganisation |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation | *Version*:20260505120000 | |
+| Active as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R244_CategorieOrganisation |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.39 | | |
 
  
@@ -29,8 +29,8 @@ Catégorie d’organisation
   "resourceType" : "CodeSystem",
   "id" : "TRE-R244-CategorieOrganisation",
   "meta" : {
-    "versionId" : "28",
-    "lastUpdated" : "2026-03-27T11:13:09.031+01:00",
+    "versionId" : "30",
+    "lastUpdated" : "2026-05-05T20:11:59.960+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -45,11 +45,11 @@ Catégorie d’organisation
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.39"
   }],
-  "version" : "20260330120000",
+  "version" : "20260505120000",
   "name" : "TRE_R244_CategorieOrganisation",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-30T12:00:00+01:00",
+  "date" : "2026-05-05T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Catégorie d'organisation",
   "jurisdiction" : [{
@@ -60,7 +60,7 @@ Catégorie d’organisation
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 306,
+  "count" : 313,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -535,14 +535,22 @@ Catégorie d’organisation
   },
   {
     "code" : "20",
-    "display" : "Unité d'urgences polyvalentes",
+    "display" : "Structure des urgences polyvalentes 24h/24 7j/7",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Struct. urgences polyvalentes"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-10-13T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -3530,14 +3538,14 @@ Catégorie d’organisation
   },
   {
     "code" : "146",
-    "display" : "Unité de prise en charge des brûlés",
+    "display" : "Unité hospitalière de brûlologie",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Unité des brûlés"
+      "value" : "Unité hospitalière brûlologie"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -3545,7 +3553,7 @@ Catégorie d’organisation
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-10-25T12:00:00+01:00"
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -7326,6 +7334,166 @@ Catégorie d’organisation
     {
       "code" : "dateMaj",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "307",
+    "display" : "Unité d’Education Thérapeutique du Patient (ETP)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "ETP"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "308",
+    "display" : "Unité de réanimation des brûlés",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Unité de réa des brûlés"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "309",
+    "display" : "Unité Sanitaire en Milieu Pénitentiaire (USMP, ex UCSA)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "USMP, ex UCSA"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "310",
+    "display" : "Lactarium",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "311",
+    "display" : "Structure des urgences pédiatriques",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Urgences pédiatriques"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "312",
+    "display" : "Pharmacie d'officine (dont mutualiste)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Pharmacie d'officine"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "313",
+    "display" : "Antennes des urgences",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Antennes urgences"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
     },
     {
       "code" : "status",

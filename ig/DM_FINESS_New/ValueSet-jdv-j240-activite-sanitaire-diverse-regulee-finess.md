@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j240-activite-sanitaire-diverse-regulee-finess | *Version*:20250710120000 | |
-| Active as of 2025-07-10 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ240ActiviteSanitaireDiverseReguleeFiness |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j240-activite-sanitaire-diverse-regulee-finess | *Version*:20260505120000 | |
+| Active as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ240ActiviteSanitaireDiverseReguleeFiness |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.250 | | |
 
  
@@ -55,15 +55,15 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-j240-activite-sanitaire-diverse-regulee-finess",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2025-07-10T18:02:28.249+00:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-05-05T19:02:06.217+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
-      "start" : "2025-07-10T18:02:28.249+00:00"
+      "start" : "2026-05-05T18:02:28.249+00:00"
     }
   }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j240-activite-sanitaire-diverse-regulee-finess",
@@ -71,14 +71,20 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.250"
   }],
-  "version" : "20250710120000",
+  "version" : "20260505120000",
   "name" : "JdvJ240ActiviteSanitaireDiverseReguleeFiness",
   "title" : "Jdv J240 Activite Sanitaire Diverse Regulee Finess",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-07-10T18:02:28.249+00:00",
+  "date" : "2026-05-05T18:02:28.249+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Jeu de valeurs FINESS contenant les activités sanitaires, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR)",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",

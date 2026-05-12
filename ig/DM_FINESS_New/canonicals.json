@@ -7,10 +7,10 @@
   "oids" : ["2.16.840.1.113883.4.642.3.264"]
 },
 {
-  "id" : "900000000000207008-20260401",
+  "id" : "900000000000207008-20260501",
   "type" : "CodeSystem",
   "url" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/900000000000207008/version/20260401",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20260501",
   "name" : "SNOMED_CT",
   "oids" : ["2.16.840.1.113883.6.96"]
 },
@@ -481,7 +481,7 @@
   "id" : "JDV-J01-XdsAuthorSpecialty-CISIS",
   "type" : "ValueSet",
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS",
-  "version" : "20260330120000",
+  "version" : "20260505120000",
   "name" : "JDV_J01_XdsAuthorSpecialty_CISIS",
   "oids" : ["1.2.250.1.213.1.1.5.461"]
 },
@@ -513,7 +513,7 @@
   "id" : "JDV-J05-SubjectRole-CISIS",
   "type" : "ValueSet",
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J05-SubjectRole-CISIS/FHIR/JDV-J05-SubjectRole-CISIS",
-  "version" : "20260330120000",
+  "version" : "20260505120000",
   "name" : "JDV_J05_SubjectRole_CISIS",
   "oids" : ["1.2.250.1.213.1.1.5.470"]
 },
@@ -529,7 +529,7 @@
   "id" : "JDV-J07-XdsTypeCode-CISIS",
   "type" : "ValueSet",
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J07-XdsTypeCode-CISIS/FHIR/JDV-J07-XdsTypeCode-CISIS",
-  "version" : "20260202120000",
+  "version" : "20260505120000",
   "name" : "JDV_J07_XdsTypeCode_CISIS",
   "oids" : ["1.2.250.1.213.1.1.5.471"]
 },
@@ -609,7 +609,7 @@
   "id" : "JDV-J108-EnsembleFonction-RASS",
   "type" : "ValueSet",
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J108-EnsembleFonction-RASS/FHIR/JDV-J108-EnsembleFonction-RASS",
-  "version" : "20260330120000",
+  "version" : "20260505120000",
   "name" : "JDV_J108_EnsembleFonction_RASS",
   "oids" : ["1.2.250.1.213.1.6.1.176"]
 },
@@ -721,7 +721,7 @@
   "id" : "JDV-J121-RolePriseCharge-ENREG",
   "type" : "ValueSet",
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J121-RolePriseCharge-ENREG/FHIR/JDV-J121-RolePriseCharge-ENREG",
-  "version" : "20260330120000",
+  "version" : "20260505120000",
   "name" : "JDV_J121_RolePriseCharge_ENREG",
   "oids" : ["1.2.250.1.213.1.6.1.200"]
 },
@@ -1577,7 +1577,7 @@
   "id" : "JDV-J222-NiveauConfidentialite-ROR",
   "type" : "ValueSet",
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J222-NiveauConfidentialite-ROR/FHIR/JDV-J222-NiveauConfidentialite-ROR",
-  "version" : "20220826120000",
+  "version" : "20260505120000",
   "name" : "JDV_J222_NiveauConfidentialite_ROR",
   "oids" : ["1.2.250.1.213.3.4.54"]
 },
@@ -1705,7 +1705,7 @@
   "id" : "JDV-J238-TypeOffre-ROR",
   "type" : "ValueSet",
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J238-TypeOffre-ROR/FHIR/JDV-J238-TypeOffre-ROR",
-  "version" : "20260330120000",
+  "version" : "20260505120000",
   "name" : "JDV_J238_TypeOffre_ROR",
   "oids" : ["1.2.250.1.213.3.4.65"]
 },
@@ -1977,7 +1977,7 @@
   "id" : "JDV-J281-StatutsRessourcesMS",
   "type" : "ValueSet",
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J281-StatutsRessourcesMS/FHIR/JDV-J281-StatutsRessourcesMS",
-  "version" : "20251222120000",
+  "version" : "20260505120000",
   "name" : "JDV_J281_StatutsRessourcesMS",
   "oids" : ["1.2.250.1.213.3.4.219"]
 },
@@ -2065,7 +2065,7 @@
   "id" : "JDV-J34-CategorieOrganisation-ROR",
   "type" : "ValueSet",
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J34-CategorieOrganisation-ROR/FHIR/JDV-J34-CategorieOrganisation-ROR",
-  "version" : "20260330120000",
+  "version" : "20260505120000",
   "name" : "JDV_J34_CategorieOrganisation_ROR",
   "oids" : ["1.2.250.1.213.3.3.40"]
 },
@@ -2729,7 +2729,7 @@
   "id" : "TRE-G09-DepartementOM",
   "type" : "CodeSystem",
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM",
-  "version" : "20240628120000",
+  "version" : "20260505120000",
   "name" : "TRE_G09_DepartementOM",
   "oids" : ["1.2.250.1.71.1.2.16"]
 },
@@ -2888,7 +2888,7 @@
   "id" : "TRE-R13-CommuneOM",
   "type" : "CodeSystem",
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM",
-  "version" : "20260330120000",
+  "version" : "20260505120000",
   "name" : "TRE_R13_CommuneOM",
   "oids" : ["1.2.250.1.213.2.23"]
 },
@@ -3311,7 +3311,7 @@
   "id" : "TRE-R244-CategorieOrganisation",
   "type" : "CodeSystem",
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation",
-  "version" : "20260330120000",
+  "version" : "20260505120000",
   "name" : "TRE_R244_CategorieOrganisation",
   "oids" : ["1.2.250.1.213.3.3.39"]
 },
@@ -3621,7 +3621,7 @@
   "id" : "TRE-R283-NiveauConfidentialite",
   "type" : "CodeSystem",
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R283-NiveauConfidentialite/FHIR/TRE-R283-NiveauConfidentialite",
-  "version" : "20231215120000",
+  "version" : "20260505120000",
   "name" : "TRE_R283_NiveauConfidentialite",
   "oids" : ["1.2.250.1.213.1.1.4.344"]
 },
@@ -3645,7 +3645,7 @@
   "id" : "TRE-R286-TypeFermeture",
   "type" : "CodeSystem",
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture",
-  "version" : "20231215120000",
+  "version" : "20260505120000",
   "name" : "TRE_R286_TypeFermeture",
   "oids" : ["1.2.250.1.213.1.6.1.136"]
 },
@@ -3932,7 +3932,7 @@
   "id" : "TRE-R327-TypeDecision",
   "type" : "CodeSystem",
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R327-TypeDecision/FHIR/TRE-R327-TypeDecision",
-  "version" : "20240329120000",
+  "version" : "20260505120000",
   "name" : "TRE_R327_TypeDecision",
   "oids" : ["1.2.250.1.213.3.3.82"]
 },
@@ -3948,7 +3948,7 @@
   "id" : "TRE-R329-NatureCapacite",
   "type" : "CodeSystem",
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R329-NatureCapacite/FHIR/TRE-R329-NatureCapacite",
-  "version" : "20250328120000",
+  "version" : "20260505120000",
   "name" : "TRE_R329_NatureCapacite",
   "oids" : ["1.2.250.1.213.3.3.212"]
 },
@@ -4188,7 +4188,7 @@
   "id" : "TRE-R368-StatutRessource",
   "type" : "CodeSystem",
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R368-StatutRessource/FHIR/TRE-R368-StatutRessource",
-  "version" : "20251222120000",
+  "version" : "20260505120000",
   "name" : "TRE_R368_StatutRessource",
   "oids" : ["1.2.250.1.213.3.3.250"]
 },
@@ -4538,7 +4538,7 @@
   "id" : "TRE-R85-RolePriseCharge",
   "type" : "CodeSystem",
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
-  "version" : "20260330120000",
+  "version" : "20260505120000",
   "name" : "TRE_R85_RolePriseCharge",
   "oids" : ["1.2.250.1.213.1.6.1.107"]
 },
@@ -4626,7 +4626,7 @@
   "id" : "tre-r347-activite-sanitaire-diverse-regulee",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
-  "version" : "20250220120000",
+  "version" : "20260505120000",
   "name" : "TreR347ActiviteSanitaireDiverseRegulee",
   "oids" : ["1.2.250.1.213.1.6.1.248"]
 },
@@ -4696,7 +4696,7 @@
   "id" : "tre-r370-role-relation-ege",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege",
-  "version" : "20241230120000",
+  "version" : "20260505120000",
   "name" : "TreR370RoleRelationEge",
   "oids" : ["1.2.250.1.213.1.6.1.286"]
 },
@@ -4704,7 +4704,7 @@
   "id" : "vs-tre-r370-role-relation-ege-all",
   "type" : "ValueSet",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege?vs",
-  "version" : "20250222120000",
+  "version" : "20260505120000",
   "name" : "VsTreR370RoleRelationEgeAll"
 },
 {
@@ -4727,7 +4727,7 @@
   "id" : "tre-r373-type-personne-morale",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r373-type-personne-morale",
-  "version" : "20241230120000",
+  "version" : "20260505120000",
   "name" : "TreR373TypePersonneMorale",
   "oids" : ["1.2.250.1.213.1.6.1.253"]
 },
@@ -4735,14 +4735,14 @@
   "id" : "vs-tre-r373-type-personne-morale-all",
   "type" : "ValueSet",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r373-type-personne-morale?vs",
-  "version" : "20250222120000",
+  "version" : "20260505120000",
   "name" : "VsTreR373TypePersonneMoraleAll"
 },
 {
   "id" : "tre-r374-nature-activite-smsse-regulee",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
-  "version" : "20241230120000",
+  "version" : "20260505120000",
   "name" : "TreR374NatureActiviteSmsseRegulee",
   "oids" : ["1.2.250.1.213.1.6.1.289"]
 },
@@ -4750,7 +4750,7 @@
   "id" : "vs-tre-r374-nature-activite-smsse-regulee-all",
   "type" : "ValueSet",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee?vs",
-  "version" : "20250222120000",
+  "version" : "20260505120000",
   "name" : "VsTreR374NatureActiviteSmsseReguleeAll"
 },
 {
@@ -4980,7 +4980,7 @@
   "id" : "tre-r397-categorie-entite-geographique-exercice",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
-  "version" : "20260330120000",
+  "version" : "20260505120000",
   "name" : "TreR397CategorieEntiteGeographiqueExercice",
   "oids" : ["1.2.250.1.213.1.6.1.378"]
 },
@@ -5078,24 +5078,120 @@
   "oids" : ["1.2.250.1.213.3.3.262"]
 },
 {
+  "id" : "tre-r415-utilisation-canal-communication",
+  "type" : "CodeSystem",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r415-utilisation-canal-communication",
+  "version" : "20260505120000",
+  "name" : "TreR415UtilisationCanalCommunication",
+  "oids" : ["1.2.250.1.213.3.3.266"]
+},
+{
+  "id" : "tre-r416-type-courrier",
+  "type" : "CodeSystem",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r416-type-courrier",
+  "version" : "20260505120000",
+  "name" : "TreR416TypeCourrier",
+  "oids" : ["1.2.250.1.213.3.3.267"]
+},
+{
+  "id" : "tre-r417-type-demande-compensation",
+  "type" : "CodeSystem",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r417-type-demande-compensation",
+  "version" : "20260505120000",
+  "name" : "TreR417TypeDemandeCompensation",
+  "oids" : ["1.2.250.1.213.3.3.268"]
+},
+{
+  "id" : "tre-r418-nature-demande-compensation",
+  "type" : "CodeSystem",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r418-nature-demande-compensation",
+  "version" : "20260505120000",
+  "name" : "TreR418NatureDemandeCompensation",
+  "oids" : ["1.2.250.1.213.3.3.269"]
+},
+{
+  "id" : "tre-r420-droit-prestation",
+  "type" : "CodeSystem",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation",
+  "version" : "20260505120000",
+  "name" : "TreR420DroitPrestation",
+  "oids" : ["1.2.250.1.213.3.3.271"]
+},
+{
+  "id" : "tre-r421-motif-fin-pag",
+  "type" : "CodeSystem",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag",
+  "version" : "20260505120000",
+  "name" : "TreR421MotifFinPag",
+  "oids" : ["1.2.250.1.213.3.3.272"]
+},
+{
+  "id" : "tre-r422-qualification-orientation",
+  "type" : "CodeSystem",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r422-qualification-orientation",
+  "version" : "20260505120000",
+  "name" : "TreR422QualificationOrientation",
+  "oids" : ["1.2.250.1.213.3.3.273"]
+},
+{
+  "id" : "tre-r423-type-presence-absence",
+  "type" : "CodeSystem",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r423-type-presence-absence",
+  "version" : "20260505120000",
+  "name" : "TreR423TypePresenceAbsence",
+  "oids" : ["1.2.250.1.213.3.3.274"]
+},
+{
+  "id" : "tre-r424-motif-absence",
+  "type" : "CodeSystem",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r424-motif-absence",
+  "version" : "20260505120000",
+  "name" : "TreR424MotifAbsence",
+  "oids" : ["1.2.250.1.213.3.3.275"]
+},
+{
+  "id" : "tre-r425-type-repas",
+  "type" : "CodeSystem",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r425-type-repas",
+  "version" : "20260505120000",
+  "name" : "TreR425TypeRepas",
+  "oids" : ["1.2.250.1.213.3.3.276"]
+},
+{
+  "id" : "tre-r426-orientation",
+  "type" : "CodeSystem",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation",
+  "version" : "20260505120000",
+  "name" : "TreR426Orientation",
+  "oids" : ["1.2.250.1.213.3.3.277"]
+},
+{
+  "id" : "tre-r427-type-adresse",
+  "type" : "CodeSystem",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r427-type-adresse",
+  "version" : "20260505120000",
+  "name" : "TreR427TypeAdresse",
+  "oids" : ["1.2.250.1.213.3.3.278"]
+},
+{
   "id" : "alignement-bdpm-cipucd",
   "type" : "ConceptMap",
   "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-bdpm-cipucd",
-  "version" : "2026-04",
+  "version" : "2026-05",
   "name" : "Alignement_Codes_Presentation_BDPM_CIPUCD"
 },
 {
   "id" : "alignement-nuva-bdpm",
   "type" : "ConceptMap",
   "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-bdpm",
-  "version" : "1.0.1078",
+  "version" : "1.0.1096",
   "name" : "Alignement_Codes_NUVA_CIS_CIP_BDMP"
 },
 {
   "id" : "alignement-nuva-cipucd",
   "type" : "ConceptMap",
   "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-cipucd",
-  "version" : "1.0.1078",
+  "version" : "1.0.1096",
   "name" : "Alignement_Codes_NUVA_CIP_CIPUCD"
 },
 {
@@ -6710,7 +6806,7 @@
   "id" : "jdv-j240-activite-sanitaire-diverse-regulee-finess",
   "type" : "ValueSet",
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j240-activite-sanitaire-diverse-regulee-finess",
-  "version" : "20250710120000",
+  "version" : "20260505120000",
   "name" : "JdvJ240ActiviteSanitaireDiverseReguleeFiness",
   "oids" : ["1.2.250.1.213.1.6.1.250"]
 },
@@ -7006,7 +7102,7 @@
   "id" : "jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess",
   "type" : "ValueSet",
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess",
-  "version" : "20250710120000",
+  "version" : "20260505120000",
   "name" : "JdvJ333ActiviteSanitaireDiverseReguleeNiv1Finess",
   "oids" : ["1.2.250.1.213.1.6.1.341"]
 },
@@ -7014,7 +7110,7 @@
   "id" : "jdv-j334-activite-sanitaire-diverse-regulee-niv2-finess",
   "type" : "ValueSet",
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j334-activite-sanitaire-diverse-regulee-niv2-finess",
-  "version" : "20250710120000",
+  "version" : "20260505120000",
   "name" : "JdvJ334ActiviteSanitaireDiverseReguleeNiv2Finess",
   "oids" : ["1.2.250.1.213.1.6.1.342"]
 },
@@ -7022,7 +7118,7 @@
   "id" : "jdv-j335-activite-sanitaire-diverse-regulee-niv3-finess",
   "type" : "ValueSet",
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j335-activite-sanitaire-diverse-regulee-niv3-finess",
-  "version" : "20250710120000",
+  "version" : "20260505120000",
   "name" : "JdvJ335ActiviteSanitaireDiverseReguleeNiv3Finess",
   "oids" : ["1.2.250.1.213.1.6.1.343"]
 },
@@ -7078,7 +7174,7 @@
   "id" : "jdv-j351-appareil-amm-finess",
   "type" : "ValueSet",
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j351-appareil-amm-finess",
-  "version" : "20250717120000",
+  "version" : "20260505120000",
   "name" : "JdvJ351AppareilAmmFiness",
   "oids" : ["1.2.250.1.213.1.6.1.359"]
 },
@@ -7086,7 +7182,7 @@
   "id" : "jdv-j352-nature-capacite-finess",
   "type" : "ValueSet",
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j352-nature-capacite-finess",
-  "version" : "20250516120000",
+  "version" : "20260505120000",
   "name" : "JdvJ352NatureCapaciteFiness",
   "oids" : ["1.2.250.1.213.1.6.1.360"]
 },
@@ -7094,7 +7190,7 @@
   "id" : "jdv-j353-type-statut-capacite-finess",
   "type" : "ValueSet",
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j353-type-statut-capacite-finess",
-  "version" : "20250516120000",
+  "version" : "20260505120000",
   "name" : "JdvJ353TypeStatutCapaciteFiness",
   "oids" : ["1.2.250.1.213.1.6.1.361"]
 },
@@ -7102,7 +7198,7 @@
   "id" : "jdv-j354-habilitation-finess",
   "type" : "ValueSet",
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j354-habilitation-finess",
-  "version" : "20250222120000",
+  "version" : "20260505120000",
   "name" : "JdvJ354HabilitationFiness",
   "oids" : ["1.2.250.1.213.1.6.1.362"]
 },
@@ -7110,7 +7206,7 @@
   "id" : "jdv-j357-genre-capacite-finess",
   "type" : "ValueSet",
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j357-genre-capacite-finess",
-  "version" : "20250516120000",
+  "version" : "20260505120000",
   "name" : "JdvJ357GenreCapaciteFiness",
   "oids" : ["1.2.250.1.213.1.6.1.365"]
 },
@@ -7142,7 +7238,7 @@
   "id" : "jdv-j364-type-fermeture-pm-finess",
   "type" : "ValueSet",
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j364-type-fermeture-pm-finess",
-  "version" : "20250222120000",
+  "version" : "20260505120000",
   "name" : "JdvJ364TypeFermeturePmFiness",
   "oids" : ["1.2.250.1.213.1.6.1.372"]
 },
@@ -7150,7 +7246,7 @@
   "id" : "jdv-j365-type-fermeture-ege-finess",
   "type" : "ValueSet",
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j365-type-fermeture-ege-finess",
-  "version" : "20250222120000",
+  "version" : "20260505120000",
   "name" : "JdvJ365TypeFermetureEgeFiness",
   "oids" : ["1.2.250.1.213.1.6.1.373"]
 },
@@ -7246,7 +7342,7 @@
   "id" : "jdv-j378-region-om-finess",
   "type" : "ValueSet",
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j378-region-om-finess",
-  "version" : "20251222120000",
+  "version" : "20260505120000",
   "name" : "JdvJ378RegionOmFiness",
   "oids" : ["1.2.250.1.213.1.6.1.391"]
 },
@@ -7315,10 +7411,138 @@
   "oids" : ["1.2.250.1.213.1.6.1.395"]
 },
 {
-  "id" : "jdv-j418-activite-sanitaire-diverse-reguleeActive",
+  "id" : "jdv-j392-type-courrier-ms",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j392-type-courrier-ms",
+  "version" : "20260505120000",
+  "name" : "JdvJ392TypeCourrierMs",
+  "oids" : ["1.2.250.1.213.3.4.232"]
+},
+{
+  "id" : "jdv-j393-utilisation-canal-communication-ms",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j393-utilisation-canal-communication-ms",
+  "version" : "20260505120000",
+  "name" : "JdvJ393UtilisationCanalCommunicationMs",
+  "oids" : ["1.2.250.1.213.3.4.233"]
+},
+{
+  "id" : "jdv-j394-type-demande-compensation-ms",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j394-type-demande-compensation-ms",
+  "version" : "20260505120000",
+  "name" : "JdvJ394TypeDemandeCompensationMs",
+  "oids" : ["1.2.250.1.213.3.4.234"]
+},
+{
+  "id" : "jdv-j395-nature-demande-compensation-ms",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j395-nature-demande-compensation-ms",
+  "version" : "20260505120000",
+  "name" : "JdvJ395NatureDemandeCompensationMs",
+  "oids" : ["1.2.250.1.213.3.4.235"]
+},
+{
+  "id" : "jdv-j396-canal-communication-ms",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j396-canal-communication-ms",
+  "version" : "20260505120000",
+  "name" : "JdvJ396CanalCommunicationMs",
+  "oids" : ["1.2.250.1.213.3.4.236"]
+},
+{
+  "id" : "jdv-j397-type-messagerie-ms",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j397-type-messagerie-ms",
+  "version" : "20260505120000",
+  "name" : "JdvJ397TypeMessagerieMs",
+  "oids" : ["1.2.250.1.213.3.4.237"]
+},
+{
+  "id" : "jdv-j398-type-decision-ms",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j398-type-decision-ms",
+  "version" : "20260505120000",
+  "name" : "JdvJ398TypeDecisionMs",
+  "oids" : ["1.2.250.1.213.3.4.238"]
+},
+{
+  "id" : "jdv-j400-nature-droit-prestation-ms",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j400-nature-droit-prestation-ms",
+  "version" : "20260505120000",
+  "name" : "JdvJ400NatureDroitPrestationMs",
+  "oids" : ["1.2.250.1.213.3.4.240"]
+},
+{
+  "id" : "jdv-j401-categorie-droit-prestation-ms",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j401-categorie-droit-prestation-ms",
+  "version" : "20260505120000",
+  "name" : "JdvJ401CategorieDroitPrestationMs",
+  "oids" : ["1.2.250.1.213.3.4.241"]
+},
+{
+  "id" : "jdv-j402-type-droit-prestation-ms",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j402-type-droit-prestation-ms",
+  "version" : "20260505120000",
+  "name" : "JdvJ402TypeDroitPrestationMs",
+  "oids" : ["1.2.250.1.213.3.4.242"]
+},
+{
+  "id" : "jdv-j403-motif-fin-pag-ms",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j403-motif-fin-pag-ms",
+  "version" : "20260505120000",
+  "name" : "JdvJ403MotifFinPagMs",
+  "oids" : ["1.2.250.1.213.3.4.243"]
+},
+{
+  "id" : "jdv-j404-qualification-orientation-ms",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j404-qualification-orientation-ms",
+  "version" : "20260505120000",
+  "name" : "JdvJ404QualificationOrientationMs",
+  "oids" : ["1.2.250.1.213.3.4.244"]
+},
+{
+  "id" : "jdv-j405-type-presence-absence-ms",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j405-type-presence-absence-ms",
+  "version" : "20260505120000",
+  "name" : "JdvJ405TypePresenceAbsenceMs",
+  "oids" : ["1.2.250.1.213.3.4.245"]
+},
+{
+  "id" : "jdv-j406-motif-absence-ms",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j406-motif-absence-ms",
+  "version" : "20260505120000",
+  "name" : "JdvJ406MotifAbsenceMs",
+  "oids" : ["1.2.250.1.213.3.4.246"]
+},
+{
+  "id" : "jdv-j407-type-repas-ms",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j407-type-repas-ms",
+  "version" : "20260505120000",
+  "name" : "JdvJ407TypeRepasMs",
+  "oids" : ["1.2.250.1.213.3.4.247"]
+},
+{
+  "id" : "jdv-j409-type-adresse-ms",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j409-type-adresse-ms",
+  "version" : "20260505120000",
+  "name" : "JdvJ409TypeAdresseMs",
+  "oids" : ["1.2.250.1.213.3.4.249"]
+},
+{
+  "id" : "jdv-j418-activite-sanitaire-diverse-regulee-active",
   "type" : "ValueSet",
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j418-activite-sanitaire-diverse-regulee-active",
-  "version" : "20260421120000",
+  "version" : "20260505120000",
   "name" : "JdvJ418ActiviteSanitaireDiverseReguleeActive",
   "oids" : ["1.2.250.1.213.1.6.1.400"]
 },
@@ -9723,7 +9947,7 @@
   "id" : "terminologie-bdpm",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/terminologie-bdpm",
-  "version" : "2026-04-01",
+  "version" : "2026-05-05",
   "name" : "BDPM"
 },
 {
@@ -9808,7 +10032,7 @@
   "id" : "terminologie-nuva",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/terminologie-nuva",
-  "version" : "1.0.1078",
+  "version" : "1.0.1096",
   "name" : "NUVA",
   "oids" : ["1.3.6.1.4.1.48601.1"]
 },
@@ -9830,7 +10054,7 @@
   "id" : "terminologie-sms",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/terminologie-sms",
-  "version" : "2026-04",
+  "version" : "2026-05",
   "name" : "Dictionnaire_SMS_Substance_Management_Services_",
   "oids" : ["2.16.840.1.113883.3.6905.2"]
 },

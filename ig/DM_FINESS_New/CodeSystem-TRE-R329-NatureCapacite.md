@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R329-NatureCapacite/FHIR/TRE-R329-NatureCapacite | *Version*:20250328120000 | |
-| Active as of 2025-03-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R329_NatureCapacite |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R329-NatureCapacite/FHIR/TRE-R329-NatureCapacite | *Version*:20260505120000 | |
+| Active as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R329_NatureCapacite |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.212 | | |
 
  
@@ -29,8 +29,8 @@ Permet d’indiquer si la capacité est exprimée en lits ou en places
   "resourceType" : "CodeSystem",
   "id" : "TRE-R329-NatureCapacite",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-03-31T18:11:28.898+00:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-05-05T20:12:04.748+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -45,13 +45,19 @@ Permet d’indiquer si la capacité est exprimée en lits ou en places
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.212"
   }],
-  "version" : "20250328120000",
+  "version" : "20260505120000",
   "name" : "TRE_R329_NatureCapacite",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-03-28T12:00:00+01:00",
+  "date" : "2026-05-05T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Permet d'indiquer si la capacité est exprimée en lits ou en places",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "caseSensitive" : false,
   "content" : "complete",
   "count" : 3,
@@ -92,9 +98,9 @@ Permet d’indiquer si la capacité est exprimée en lits ou en places
     "type" : "dateTime"
   },
   {
-    "code" : "NatureCapaciteFiness",
-    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#NatureCapaciteFiness",
-    "description" : "Permet de définir les codes à inclure dans le JdvJ352NatureCapaciteFiness",
+    "code" : "finess",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#finess",
+    "description" : "Permet de définir les codes à inclure dans le JdvJ352finess",
     "type" : "boolean"
   }],
   "concept" : [{
@@ -129,7 +135,7 @@ Permet d’indiquer si la capacité est exprimée en lits ou en places
       "valueCode" : "active"
     },
     {
-      "code" : "NatureCapaciteFiness",
+      "code" : "finess",
       "valueBoolean" : true
     }]
   },
@@ -149,7 +155,7 @@ Permet d’indiquer si la capacité est exprimée en lits ou en places
       "valueCode" : "active"
     },
     {
-      "code" : "NatureCapaciteFiness",
+      "code" : "finess",
       "valueBoolean" : true
     }]
   }]

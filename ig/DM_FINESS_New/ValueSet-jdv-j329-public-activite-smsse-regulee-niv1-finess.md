@@ -55,9 +55,9 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-j329-public-activite-smsse-regulee-niv1-finess",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-02-23T18:17:32.604+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+    "versionId" : "3",
+    "lastUpdated" : "2026-05-05T19:02:16.140+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -79,6 +79,12 @@ Requête sur le SMT
   "date" : "2026-02-23T12:00:00.000+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ce JDV contient tous les agregats Niv 1 des publics (JDV créé à l'image de l'ancienne TRE_R293-AgregatClienteleNiv2)",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",

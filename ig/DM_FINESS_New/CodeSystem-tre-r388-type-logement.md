@@ -28,8 +28,8 @@ Nomenclature des types de logement associées aux capacités Remarque : cette no
   "resourceType" : "CodeSystem",
   "id" : "tre-r388-type-logement",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-03-27T11:13:14+01:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-05-05T20:12:16+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -52,6 +52,12 @@ Nomenclature des types de logement associées aux capacités Remarque : cette no
   "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Nomenclature des types de logement associées aux capacités Remarque : cette nomenclature est initialisée avec les besoins FINESS+",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "caseSensitive" : false,
   "valueSet" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement?vs",
   "content" : "complete",

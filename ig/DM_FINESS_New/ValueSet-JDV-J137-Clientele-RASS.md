@@ -57,9 +57,9 @@ Expansions are not generated for retired value sets
   "resourceType" : "ValueSet",
   "id" : "JDV-J137-Clientele-RASS",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-02-23T18:17:25.858+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+    "versionId" : "9",
+    "lastUpdated" : "2026-05-05T19:02:39.751+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -84,7 +84,7 @@ Expansions are not generated for retired value sets
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
-      "code" : "FR"
+      "code" : "FRA"
     }]
   }],
   "compose" : {

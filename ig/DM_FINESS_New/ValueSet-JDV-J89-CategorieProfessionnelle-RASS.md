@@ -55,9 +55,9 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J89-CategorieProfessionnelle-RASS",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-02-23T18:17:35.917+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+    "versionId" : "8",
+    "lastUpdated" : "2026-05-05T19:02:53.575+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -81,7 +81,7 @@ Requête sur le SMT
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
-      "code" : "FR"
+      "code" : "FRA"
     }]
   }],
   "compose" : {

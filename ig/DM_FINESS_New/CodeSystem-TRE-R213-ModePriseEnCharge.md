@@ -32,8 +32,8 @@ Mode de la prise en charge
   "resourceType" : "CodeSystem",
   "id" : "TRE-R213-ModePriseEnCharge",
   "meta" : {
-    "versionId" : "12",
-    "lastUpdated" : "2026-03-27T11:13:07.001+01:00",
+    "versionId" : "13",
+    "lastUpdated" : "2026-05-05T20:11:56.538+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

@@ -28,8 +28,8 @@ Nomenclature des versants de la fonction publique
   "resourceType" : "CodeSystem",
   "id" : "tre-r361-fonction-publique",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-03-27T11:13:11+01:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-05-05T20:12:09+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -52,6 +52,12 @@ Nomenclature des versants de la fonction publique
   "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Nomenclature des versants de la fonction publique",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "caseSensitive" : false,
   "valueSet" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r361-fonction-publique?vs",
   "content" : "complete",

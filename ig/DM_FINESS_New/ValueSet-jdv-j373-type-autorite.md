@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-j373-type-autorite",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-03-27T11:18:10+01:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-05-05T19:02:21+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -79,6 +79,12 @@ Requête sur le SMT
   "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Jeu de valeurs contenant les différents types d'autorité (actifs ou inactifs)",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",

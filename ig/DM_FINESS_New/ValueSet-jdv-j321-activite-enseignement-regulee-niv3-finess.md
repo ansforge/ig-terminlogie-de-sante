@@ -55,9 +55,9 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-j321-activite-enseignement-regulee-niv3-finess",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-02-24T10:32:19.764+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+    "versionId" : "2",
+    "lastUpdated" : "2026-05-05T19:02:13.298+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -79,6 +79,12 @@ Requête sur le SMT
   "date" : "2026-02-23T12:00:00.000+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 3",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",

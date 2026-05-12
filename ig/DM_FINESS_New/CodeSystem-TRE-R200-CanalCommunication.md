@@ -18,6 +18,7 @@ Canal de communication
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J225_CanalCommunication_ROR](ValueSet-JDV-J225-CanalCommunication-ROR.md)
+* [JdvJ396CanalCommunicationMs](ValueSet-jdv-j396-canal-communication-ms.md)
 
 
 
@@ -28,8 +29,8 @@ Canal de communication
   "resourceType" : "CodeSystem",
   "id" : "TRE-R200-CanalCommunication",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2026-03-27T11:13:04.547+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-05-05T20:11:51.238+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -54,7 +55,7 @@ Canal de communication
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
-      "code" : "FR"
+      "code" : "FRA"
     }]
   }],
   "caseSensitive" : false,

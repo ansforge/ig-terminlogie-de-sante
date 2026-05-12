@@ -29,8 +29,8 @@ Permet de préciser le statut des capacités concernées
   "resourceType" : "CodeSystem",
   "id" : "TRE-R330-TypeStatutCapacite",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2025-03-31T18:11:29.663+00:00",
+    "versionId" : "11",
+    "lastUpdated" : "2026-05-05T20:12:05.141+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -52,6 +52,12 @@ Permet de préciser le statut des capacités concernées
   "date" : "2025-03-28T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Permet de préciser le statut des capacités concernées",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "caseSensitive" : false,
   "content" : "complete",
   "count" : 9,

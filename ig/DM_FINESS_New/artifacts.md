@@ -814,7 +814,23 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Jdv J386 Type Enseignement Specialise Ms](ValueSet-jdv-j386-type-enseignement-specialise-ms.md) | Type d’enseignement spécialisé. |
 | [Jdv J387 Role Participant Ms](ValueSet-jdv-j387-role-participant-ms.md) | Rôle du participant vis à vis de l’événement (mandataire judiciaire, structure en charge de l’événement). |
 | [Jdv J388 Mode Fonctionnement Activite Smsse Regulee Rass](ValueSet-jdv-j388-mode-fonctionnement-activite-smsse-regulee-rass.md) | Ce JDV remplace le JDV_J138_TypeActivite_RASS |
-| [Jdv J418 Activite Sanitaire Diverse Regulee Active](ValueSet-jdv-j418-activite-sanitaire-diverse-reguleeActive.md) | Jeu de valeurs des activités sanitaires actives, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR) |
+| [Jdv J392 Type Courrier Ms](ValueSet-jdv-j392-type-courrier-ms.md) | Type de courrier en France. |
+| [Jdv J393 Utilisation Canal Communication Ms](ValueSet-jdv-j393-utilisation-canal-communication-ms.md) | Précise l’utilisation du canal de communication. |
+| [Jdv J394 Type Demande Compensation Ms](ValueSet-jdv-j394-type-demande-compensation-ms.md) | Type demande de compensation adressée à la CDAPH. |
+| [Jdv J395 Nature Demande Compensation Ms](ValueSet-jdv-j395-nature-demande-compensation-ms.md) | Nature de la demande de compensation adressée à la CDAPH. |
+| [Jdv J396 Canal Communication Ms](ValueSet-jdv-j396-canal-communication-ms.md) | Canal de communication. |
+| [Jdv J397 Type Messagerie Ms](ValueSet-jdv-j397-type-messagerie-ms.md) | Type de messagerie électronique utilisée par le médico-social. |
+| [Jdv J398 Type Decision Ms](ValueSet-jdv-j398-type-decision-ms.md) | Type de décision transmise aux DUI(s) par la CDAPH en réponse à une demande de compensation d’un usager. |
+| [Jdv J400 Nature Droit Prestation Ms](ValueSet-jdv-j400-nature-droit-prestation-ms.md) | Nature du droit s’appliquant à tous les droits ou prestations ouverts par la CDAPH. Elle permet de gérer, le cas échéant, le lien entre la date d’ouverture du droit et la date de fin d’un droit précédent. Elle est déterminée par l’équipe pluridisciplinaire ou par la CDAPH. |
+| [Jdv J401 Categorie Droit Prestation Ms](ValueSet-jdv-j401-categorie-droit-prestation-ms.md) | Catégorie de droit et prestation caractérisant la décision d’orientation. |
+| [Jdv J402 Type Droit Prestation Ms](ValueSet-jdv-j402-type-droit-prestation-ms.md) | Type de droit et prestation caractérisant la décision d’orientation. |
+| [Jdv J403 Motif Fin Pag Ms](ValueSet-jdv-j403-motif-fin-pag-ms.md) | Motif pour l’arrêt du plan d’accompagnement global (PAG). |
+| [Jdv J404 Qualification Orientation Ms](ValueSet-jdv-j404-qualification-orientation-ms.md) | La qualification de l’orientation peut être cible ou alternative. |
+| [Jdv J405 Type Presence Absence Ms](ValueSet-jdv-j405-type-presence-absence-ms.md) | Déclaration du type de présence absence de l’usager lors d’un événement organisé par sa structure de rattachement. |
+| [Jdv J406 Motif Absence Ms](ValueSet-jdv-j406-motif-absence-ms.md) | Motif pour lequel l’usager n’est pas présent lors d’un événement organisé par sa structure de rattachement. |
+| [Jdv J407 Type Repas Ms](ValueSet-jdv-j407-type-repas-ms.md) | Type de repas. |
+| [Jdv J409 Type Adresse Ms](ValueSet-jdv-j409-type-adresse-ms.md) | Type d’adresse postale. |
+| [Jdv J418 Activite Sanitaire Diverse Regulee Active](ValueSet-jdv-j418-activite-sanitaire-diverse-regulee-active.md) | Jeu de valeurs des activités sanitaires actives, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR) |
 | [Jdv MSO Resultat Qualitatif 3 CISIS](ValueSet-jdv-mso-resultat-qualitatif-3-cisis.md) | Jdv MSO Resultat Qualitatif 3 CISIS |
 | [Jdv MSO Resultat Qualitatif 5 CISIS](ValueSet-jdv-mso-resultat-qualitatif-5-cisis.md) | Jdv MSO Resultat Qualitatif 5 CISIS |
 | [Jdv MSO Resultat Qualitatif CISIS](ValueSet-jdv-mso-resultat-qualitatif-cisis.md) | Jdv MSO Resultat Qualitatif CISIS |
@@ -923,7 +939,7 @@ These define new code systems used by systems conforming to this implementation 
 | [ParticipationType](CodeSystem-v3-ParticipationType.md) | A code specifying the meaning and purpose of every Participation instance. Each of its values implies specific constraints on the Roles undertaking the participation. |
 | [RUIM - european eprescription](CodeSystem-terminologie-ruim-eeprescription.md) |  |
 | [RoleCode](CodeSystem-v3-RoleCode.md) | A set of codes further specifying the kind of Role; specific classification codes for further qualifying RoleClass codes. |
-| [SNOMED CT core](CodeSystem-900000000000207008-20260401.md) | SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO). |
+| [SNOMED CT core](CodeSystem-900000000000207008-20260501.md) | SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO). |
 | [Service type](CodeSystem-service-type.md) | This value set defines an example set of codes of service-types. |
 | [Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments](CodeSystem-terminologie-standardterms.md) |  |
 | [Substance Admin Substitution](CodeSystem-v3-substanceAdminSubstitution.md) | Identifies what sort of change is permitted or has occurred between the therapy that was ordered and the therapy that was/will be provided. |
@@ -1093,7 +1109,7 @@ These define new code systems used by systems conforming to this implementation 
 | [TRE_R324_BesoinSoutienProjetProfessionnel](CodeSystem-TRE-R324-BesoinSoutienProjetProfessionnel.md) | Cette nomenclature permet de préciser le besoin du demandeur quant à l’établissement de son ou ses projet(s) professionnel(s) |
 | [TRE_R325_SituationProfessionnelle](CodeSystem-TRE-R325-SituationProfessionnelle.md) | Caractérise la situation professionnelle de la personne |
 | [TRE_R326_SituationSansEmploi](CodeSystem-TRE-R326-SituationSansEmploi.md) | Caractérise la situation de la personne lorsqu’elle est sans emploi |
-| [TRE_R327_TypeDecision](CodeSystem-TRE-R327-TypeDecision.md) | Caractérise le type de décision prise par la CDAPH en réponse à une demande de compensation d’un usager (individu ou représentant légal), à une demande de révision par un tiers ou à un recours administratif préalable obligatoire (RAPO) d’un usager |
+| [TRE_R327_TypeDecision](CodeSystem-TRE-R327-TypeDecision.md) | Caractérise le type de décision prise par la CDAPH en réponse à une demande de compensation d’un usager (individu ou représentant légal), à une demande de révision par un tiers ou à un recours administratif préalable obligatoire (RAPO) d’un usager. |
 | [TRE_R328_TypeScolarisation](CodeSystem-TRE-R328-TypeScolarisation.md) | Caractérise la situation scolaire de la personne |
 | [TRE_R329_NatureCapacite](CodeSystem-TRE-R329-NatureCapacite.md) | Permet d’indiquer si la capacité est exprimée en lits ou en places |
 | [TRE_R32_StatutHospitalier](CodeSystem-TRE-R32-StatutHospitalier.md) | Statut hospitalier |
@@ -1216,7 +1232,10 @@ These define new code systems used by systems conforming to this implementation 
 1. Propriété HL7 “Parent” : Le code parent d’un code de la TRE (code d’un agrégat d’un statut juridique ou code d’un statut juridique)
 1. Propriété NOS “specificationRPPS” : indicateur indiquant qu’il s’agit d’un code RPPS (et non d’un code FINESS)
  |
-| [Tre R401 Activite Sociale Regulee](CodeSystem-tre-r401-activite-sociale-regulee.md) | Cette TRE hiérarchique remplace les TRE_R280-DisciplineEquipementSocial, TRE_R298-AgregatDisciplineEquipSocNiv1, TRE_R299-AgregatDisciplineEquipSocNiv2, TRE_R300-AgregatDisciplineEquipSocNiv3 et l’ASS_X14_AgregatDisciplineEquipementSocial. Cette TRE possède des propriétés spécifiques : le niveau d’agrégat desASOCR de 1 à 4 (du plus large au plus fin), le parent d’un agrégat d’ASOCR ou d’une ASOCR ainsi que les relations nécessaires à la construction des JDV dynamiques associés |
+| [Tre R401 Activite Sociale Regulee](CodeSystem-tre-r401-activite-sociale-regulee.md) | Cette TRE hiérarchique remplace les éléments suivants : TRE_R280-DisciplineEquipementSocial, TRE_R298-AgregatDisciplineEquipSocNiv1, TRE_R299-AgregatDisciplineEquipSocNiv2, TRE_R300-AgregatDisciplineEquipSocNiv3 et ASS_X14_AgregatDisciplineEquipementSocial.Cette TRE possède des propriétés spécifiques :1. Le niveau d’agrégat des ASOCR de 1 à 4 (du plus large au plus fin)
+1. Le parent d’un agrégat d’ASOCR ou d’une ASOCR
+1. Les relations nécessaires à la construction des JDV dynamiques associés
+ |
 | [Tre R402 Activite Enseignement Regulee](CodeSystem-tre-r402-activite-enseignement-regulee.md) | Liste des activités d’enseignement régulées organisée en 3 niveaux d’agrégation. Annule et remplace les anciennes TRE xxxEnseignement |
 | [Tre R403 Public Activite Smsse Regulee](CodeSystem-tre-r403-public-activite-smsse-regulee.md) | Cette TRE hiérarchique remplace les TRE actuelles TRE_R279-Clientele, TRE_R293-AgregatClienteleNiv2, TRE_R294-AgregatClienteleNiv3 et l’association ASS_X13-AgregatClientele. Cette TRE possède de nouvelles propriétés : le niveau d’agrégat des publics de 1 à 3 (du plus large au plus fin), le parent d’un agrégat de publics ou d’un public ainsi que les relations nécessaires à la construction des JDV dynamiques associés |
 | [Tre R404 Mode Fonctionnement Activite Smsse Regulee](CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.md) | Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la TRE_R209-TypeActivite |
@@ -1224,6 +1243,18 @@ These define new code systems used by systems conforming to this implementation 
 | [Tre R406 Forme Activite Smsse Regulee](CodeSystem-tre-r406-forme-activite-smsse-regulee.md) | Formes des activites smsse régulées, remplace la TRE_R276-FormeActivite |
 | [Tre R407 Composition Foyer](CodeSystem-tre-r407-composition-foyer.md) | Désigne avec qui vit l’usager dans son logement. |
 | [Tre R408 Type Enseignement Specialise](CodeSystem-tre-r408-type-enseignement-specialise.md) | Type d’enseignement spécialisé. |
+| [Tre R415 Utilisation Canal Communication](CodeSystem-tre-r415-utilisation-canal-communication.md) | Précise l’utilisation du canal de communication. |
+| [Tre R416 Type Courrier](CodeSystem-tre-r416-type-courrier.md) | Type de courrier en France. |
+| [Tre R417 Type Demande Compensation](CodeSystem-tre-r417-type-demande-compensation.md) | Type de la demande de compensation adressée à la CDAPH. |
+| [Tre R418 Nature Demande Compensation](CodeSystem-tre-r418-nature-demande-compensation.md) | Nature de la demande de compensation adressée à la CDAPH. |
+| [Tre R420 Droit Prestation](CodeSystem-tre-r420-droit-prestation.md) | Catégorie et type de droit et prestation caractérisant la décision d’orientation. |
+| [Tre R421 Motif Fin Pag](CodeSystem-tre-r421-motif-fin-pag.md) | Lorsque le plan d’accompagnement global (PAG) arrive à échéance ou si le coordonnateur de parcours l’estime nécessaire, un bilan est élaboré et la phase d’actualisation est lancée afin de déterminer s’il faut prolonger ce PAG, le modifier ou y mettre fin. La MDPH, les partenaires et l’usager peuvent définir ensemble que le PAG n’est plus nécessaire et donc y mettre fin. Le consentement de la personne ou de son représentant légal est recueilli et l’information sur la fin du PAG transmise à l’ensemble des parties-prenantes. |
+| [Tre R422 Qualification Orientation](CodeSystem-tre-r422-qualification-orientation.md) | La qualification de l’orientation peut être cible ou alternative. |
+| [Tre R423 Type Presence Absence](CodeSystem-tre-r423-type-presence-absence.md) | Déclaration du type de présence absence de l’usager lors d’un événement organisé par sa structure de rattachement. |
+| [Tre R424 Motif Absence](CodeSystem-tre-r424-motif-absence.md) | Motif pour lequel l’usager n’est pas présent lors d’un événement organisé par sa structure de rattachement. |
+| [Tre R425 Type Repas](CodeSystem-tre-r425-type-repas.md) | Type de repas. |
+| [Tre R426 Orientation](CodeSystem-tre-r426-orientation.md) | Orientation vers un Service d’éducation spéciale et de soins à domicile (SESSAD) ou vers un Service d’accompagnement familial et d’éducation précoce (SAFEP) |
+| [Tre R427 Type Adresse](CodeSystem-tre-r427-type-adresse.md) | Type d’adresse postale. |
 | [employmentStatus](CodeSystem-v2-0066.md) | HL7-defined code system of concepts which specify an employment status of a person. Used in HL7 Version 2 messaging in the GT1 segment. |
 | [specimenCollectionMethod](CodeSystem-v2-0488.md) | HL7-defined code system of concepts specifying the specimen collection method. Used in HL7 Version 2.x messaging in the SPM segment. |
 | [specimenType](CodeSystem-v2-0487.md) | HL7-defined code system of concepts that describe the precise nature of an entity that may be used as the source material for an observation. This is one of two code systems that are used instead of table 0070 (code system 2.16.840.1.113883.18.28) which conflated specimen types and specimen collection methods. Used in HL7 Version 2.x messaging in the SPM segment. |

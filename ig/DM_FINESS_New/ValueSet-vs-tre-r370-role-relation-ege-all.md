@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege?vs | *Version*:20250222120000 | |
-| Active as of 2025-02-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:VsTreR370RoleRelationEgeAll |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege?vs | *Version*:20260505120000 | |
+| Active as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:VsTreR370RoleRelationEgeAll |
 
  
 Jeu de valeurs ALL contenant les types de rôle existant entre les Entités Géographiques d’Exercice (EGE) au sein d’une PM-SMSSE. 
@@ -55,7 +55,7 @@ Requête sur le SMT
   "id" : "vs-tre-r370-role-relation-ege-all",
   "meta" : {
     "versionId" : "1",
-    "lastUpdated" : "2025-02-22T18:02:28.249+00:00",
+    "lastUpdated" : "2026-05-05T09:33:00.262+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -66,12 +66,12 @@ Requête sur le SMT
     }
   }],
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege?vs",
-  "version" : "20250222120000",
+  "version" : "20260505120000",
   "name" : "VsTreR370RoleRelationEgeAll",
   "title" : "Vs Tre R370 Role Relation Ege All",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-02-22T18:02:28.249+00:00",
+  "date" : "2026-05-05T18:02:28.249+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Jeu de valeurs ALL contenant les types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE.",
   "compose" : {

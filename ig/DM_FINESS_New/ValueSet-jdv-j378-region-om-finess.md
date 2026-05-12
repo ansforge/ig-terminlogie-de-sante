@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j378-region-om-finess | *Version*:20251222120000 | |
-| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ378RegionOmFiness |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j378-region-om-finess | *Version*:20260505120000 | |
+| Active as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ378RegionOmFiness |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.391 | | |
 
  
@@ -55,15 +55,15 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-j378-region-om-finess",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2025-12-22T18:02:28.249+00:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-05-05T19:02:23.319+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
-      "start" : "2025-12-22T18:02:28.249+00:00"
+      "start" : "2026-05-05T18:02:28.249+00:00"
     }
   }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j378-region-om-finess",
@@ -71,14 +71,20 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.391"
   }],
-  "version" : "20251222120000",
+  "version" : "20260505120000",
   "name" : "JdvJ378RegionOmFiness",
   "title" : "Jdv J378 Region Om Finess",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-22T18:02:28.249+00:00",
+  "date" : "2026-05-05T18:02:28.249+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Liste des régions administratives couvertes par le périmètre géographique de FINESS",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",

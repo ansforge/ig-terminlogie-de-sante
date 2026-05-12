@@ -55,9 +55,9 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-j379-activite-sociale-regulee-rass",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-02-23T18:17:34.544+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+    "versionId" : "3",
+    "lastUpdated" : "2026-05-05T19:02:23.737+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -82,7 +82,7 @@ Requête sur le SMT
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
-      "code" : "FR"
+      "code" : "FRA"
     }]
   }],
   "compose" : {

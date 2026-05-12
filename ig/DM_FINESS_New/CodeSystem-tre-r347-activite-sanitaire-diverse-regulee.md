@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee | *Version*:20250220120000 | |
-| Active as of 2025-02-20 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR347ActiviteSanitaireDiverseRegulee |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee | *Version*:20260505120000 | |
+| Active as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR347ActiviteSanitaireDiverseRegulee |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.248 | | |
 
  
@@ -21,7 +21,7 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
 * [JdvJ333ActiviteSanitaireDiverseReguleeNiv1Finess](ValueSet-jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess.md)
 * [JdvJ334ActiviteSanitaireDiverseReguleeNiv2Finess](ValueSet-jdv-j334-activite-sanitaire-diverse-regulee-niv2-finess.md)
 * [JdvJ335ActiviteSanitaireDiverseReguleeNiv3Finess](ValueSet-jdv-j335-activite-sanitaire-diverse-regulee-niv3-finess.md)
-* [JdvJ418ActiviteSanitaireDiverseReguleeActive](ValueSet-jdv-j418-activite-sanitaire-diverse-reguleeActive.md)
+* [JdvJ418ActiviteSanitaireDiverseReguleeActive](ValueSet-jdv-j418-activite-sanitaire-diverse-regulee-active.md)
 
 
 
@@ -32,8 +32,8 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
   "resourceType" : "CodeSystem",
   "id" : "tre-r347-activite-sanitaire-diverse-regulee",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2025-02-22T14:11:19.571+00:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-05-05T20:12:08.851+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -48,14 +48,20 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.248"
   }],
-  "version" : "20250220120000",
+  "version" : "20260505120000",
   "name" : "TreR347ActiviteSanitaireDiverseRegulee",
   "title" : "Tre R347 Activite Sanitaire Diverse Regulee",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-02-20T12:00:00+01:00",
+  "date" : "2026-05-05T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Nomenclature des activités sanitaires utilisée pour décrire les Activités Sanitaires Diverses Régulées (ASDR)",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "caseSensitive" : false,
   "hierarchyMeaning" : "is-a",
   "content" : "complete",

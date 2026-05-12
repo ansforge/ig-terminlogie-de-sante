@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture | *Version*:20231215120000 | |
-| Active as of 2023-12-15 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R286_TypeFermeture |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture | *Version*:20260505120000 | |
+| Active as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R286_TypeFermeture |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.136 | | |
 
  
@@ -32,8 +32,8 @@ Type de fermeture, codes provenant du FINESS pour les EJ et EG
   "resourceType" : "CodeSystem",
   "id" : "TRE-R286-TypeFermeture",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2024-08-28T05:13:08.820+00:00",
+    "versionId" : "12",
+    "lastUpdated" : "2026-05-06T11:12:50.766+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -48,17 +48,17 @@ Type de fermeture, codes provenant du FINESS pour les EJ et EG
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.136"
   }],
-  "version" : "20231215120000",
+  "version" : "20260505120000",
   "name" : "TRE_R286_TypeFermeture",
   "status" : "active",
   "experimental" : false,
-  "date" : "2023-12-15T12:00:00+01:00",
+  "date" : "2026-05-05T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Type de fermeture, codes provenant du FINESS pour les EJ et EG",
   "caseSensitive" : false,
   "valueSet" : "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture?vs",
   "content" : "complete",
-  "count" : 6,
+  "count" : 7,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -241,6 +241,23 @@ Type de fermeture, codes provenant du FINESS pour les EJ et EG
     {
       "code" : "TypeFermetureEgeFiness",
       "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "PRE",
+    "display" : "Prévisionnelle",
+    "definition" : "Désigne la fermeture prévisionnelle d’un élément de l’organisation interne d’un établissement santé. L’utilisateur du référentiel ROR qui sélectionne cette valeur a alors la possibilité de renseigner une date de réouverture de l’élément en question.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-09-15T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-10-16T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   }]
 }

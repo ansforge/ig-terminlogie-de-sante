@@ -55,9 +55,9 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-j376-public-activite-smsse-regulee-rass",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-02-23T18:17:34.092+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+    "versionId" : "3",
+    "lastUpdated" : "2026-05-05T19:02:22.540+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -79,6 +79,12 @@ Requête sur le SMT
   "date" : "2026-02-23T18:02:28.249+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ce JDV remplace le JDV_J137_Clientele_RASS",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",

@@ -55,9 +55,9 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-j304-finess-statut-juridique-finess",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-02-23T18:17:29.207+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+    "versionId" : "3",
+    "lastUpdated" : "2026-05-05T19:02:08.779+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -79,6 +79,12 @@ Requête sur le SMT
   "date" : "2026-02-23T12:00:00.000+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ce JDV comporte tous les status juridiques hors agrégat (JDV créé à l'image de l'ancienne TRE_R72-FinessStatutJuridique)",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
