@@ -5,13 +5,13 @@
              dateMaj="20260330120000"
              dateValid="19000101000000"
              description="Nomenclature des types de groupement des ressources Structures. Groupement de coopération conventionnelle ou Groupement de coopération organique"
-             displayName="TreR387TypeGroupementStructure"
-             id="1.2.250.1.213.1.6.1.302"
+             displayName="Tre435TypeGroupementStructure"
+             id="1.2.250.1.213.1.6.1.401"
              typeFichier="TRE"
              urlFichier="">
       <ConceptList>
          <concept code="01"
-                  codeSystem="1.2.250.1.213.1.6.1.302"
+                  codeSystem="1.2.250.1.213.1.6.1.401"
                   dateFin=""
                   dateMaj="19000101000000"
                   dateValid="19000101000000"
@@ -20,7 +20,7 @@
                   shortDesignation="GCC"
                   descriptionMetier="La coopération conventionnelle ne donne pas lieu à la création d'une structure juridique.  Elle n'est matérialisée que par un engagement qui associe l'ensemble des membres du groupe. Une des personnes morales appartenant au groupe sera dite 'PM support'. Elle a un rôle particulier au sein du groupe notamment pour les échanges avec l'extérieur."/>
          <concept code="02"
-                  codeSystem="1.2.250.1.213.1.6.1.302"
+                  codeSystem="1.2.250.1.213.1.6.1.401"
                   dateFin=""
                   dateMaj="19000101000000"
                   dateValid="19000101000000"

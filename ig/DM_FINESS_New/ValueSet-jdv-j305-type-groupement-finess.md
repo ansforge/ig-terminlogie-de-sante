@@ -87,7 +87,7 @@ Requête sur le SMT
   }],
   "compose" : {
     "include" : [{
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement-structure",
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r435-type-groupement-structure",
       "filter" : [{
         "property" : "finess",
         "op" : "=",

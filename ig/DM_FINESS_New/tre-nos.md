@@ -20,7 +20,6 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TreR378MotifArrete](CodeSystem-tre-r378-motif-arrete.md) | Nomenclature des motifs des arrêtés Remarque : Cette TRE est juste initialisée avec les codes FINESS+ | 30/12/2024 |
 | [TreR379SystemeInformation](CodeSystem-tre-r379-systeme-information.md) | Nomenclature des systemes d’information généralement déclarés pour définir les caractéristiques des identifiants ou des événements Remarque : Cette TRE est initialisée avec les codes FINESS | 11/06/2025 |
 | [TreR386MacroEtatObjetStructure](CodeSystem-tre-r386-macro-etat-objet-structure.md) | Nomenclature des macro-etat des structures (PM, EGE, Activites, engagements) qui dérivent de l'état de l'objet. Permet de distinguer les structures actives de celles inactives. | 30/12/2024 |
-| [TreR387TypeGroupementStructure](CodeSystem-tre-r387-type-groupement-structure.md) | Nomenclature des types de groupement des ressources Structures. Groupement de coopération conventionnelle ou Groupement de coopération organique | 30/03/2026 |
 | [TreR389StatutBilanProjetPersonnalise](CodeSystem-tre-r389-statut-bilan-projet-personnalise.md) | Statut du bilan du projet personnalisé. | 18/04/2025 |
 | [TreR390TypeProjetPersonnalise](CodeSystem-tre-r390-type-projet-personnalise.md) | Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l'usager, son entourage familial et professionnel du médico-social. | 22/04/2025 |
 | [TreR392TypeActSmsseRegulee](CodeSystem-tre-r392-type-act-smsse-regulee.md) | Type activité SMSSE régulée | 07/11/2025 |
@@ -28,6 +27,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TreR394CompetenceMetier](CodeSystem-tre-r394-competence-metier.md) | Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue. | 25/06/2025 |
 | [TreR395Engagement](CodeSystem-tre-r395-engagement.md) | Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités. Cette TRE remplace la TRE-R278-Convention | 16/07/2025 |
 | [TreR396Autorite](CodeSystem-tre-r396-autorite.md) | liste des autorités (autorités Ordres, autorités ARS, ...) | 25/08/2025 |
+| [Tre435TypeGroupementStructure](CodeSystem-tre-r435-type-groupement-structure.md) | Nomenclature des types de groupement des ressources Structures. Groupement de coopération conventionnelle ou Groupement de coopération organique | 30/03/2026 |
 | [TreR347ActiviteSanitaireDiverseRegulee](CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.md) | Nomenclature des activités sanitaires utilisée pour décrire les Activités Sanitaires Diverses Régulées (ASDR) | 05/05/2026 |
 | [TreR360TypeRoleEntiteGroupe](CodeSystem-tre-r360-type-role-entite-groupe.md) | Nomenclature des types de rôles que peuvent exercer des entités participants à des groupements | 30/03/2026 |
 | [TreR361FonctionPublique](CodeSystem-tre-r361-fonction-publique.md) | Nomenclature des versants de la fonction publique | 30/03/2026 |

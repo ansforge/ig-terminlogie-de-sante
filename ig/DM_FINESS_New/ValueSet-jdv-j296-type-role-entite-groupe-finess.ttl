@@ -20,7 +20,7 @@
   fhir:language [ fhir:v "fr-FR"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j296-type-role-entite-groupe-finess</b></p><a name=\"jdv-j296-type-role-entite-groupe-finess\"> </a><a name=\"hcjdv-j296-type-role-entite-groupe-finess\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 2; Dernière mise à jour : 2026-05-05 19:02:07+0200; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include codes provenant de<a href=\"CodeSystem-tre-r360-role-membre.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-role-membre</code></a><span title=\"La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\"> version ?20260330120000</span> où finess  = true</li></ul></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet jdv-j296-type-role-entite-groupe-finess</b></p><a name=\"jdv-j296-type-role-entite-groupe-finess\"> </a><a name=\"hcjdv-j296-type-role-entite-groupe-finess\"> </a><a name=\"jdv-j296-type-role-entite-groupe-finess-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Last updated: 2026-03-27 11:18:08+0100; Language: fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include codes provenant de<a href=\"CodeSystem-tre-r360-type-role-entite-groupe.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe</code></a> où finess  = true</li></ul></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
      fhir:url [
@@ -33,8 +33,8 @@
      ]
   ] ) ; # 
   fhir:url [
-     fhir:v "http://hl7.org/fhir/us/example/ValueSet/jdv-j296-type-role-entite-groupe-finess"^^xsd:anyURI ;
-     fhir:l <http://hl7.org/fhir/us/example/ValueSet/jdv-j296-type-role-entite-groupe-finess>
+     fhir:v "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j296-type-role-entite-groupe-finess"^^xsd:anyURI ;
+     fhir:l <https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j296-type-role-entite-groupe-finess>
   ] ; # 
   fhir:identifier ( [
      fhir:system [
@@ -63,8 +63,8 @@
   fhir:compose [
      fhir:include ( [
        fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-role-membre"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-role-membre>
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe>
        ] ;
        fhir:filter ( [
          fhir:property [ fhir:v "finess" ] ;

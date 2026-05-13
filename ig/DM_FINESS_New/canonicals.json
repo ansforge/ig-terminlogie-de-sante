@@ -7,14 +7,6 @@
   "oids" : ["2.16.840.1.113883.4.642.3.264"]
 },
 {
-  "id" : "jdv-j296-type-role-entite-groupe-finess",
-  "type" : "ValueSet",
-  "url" : "http://hl7.org/fhir/us/example/ValueSet/jdv-j296-type-role-entite-groupe-finess",
-  "version" : "20260330120000",
-  "name" : "JdvJ296TypeRoleEntiteGroupeFiness",
-  "oids" : ["1.2.250.1.213.1.6.1.263"]
-},
-{
   "id" : "jdv-j305-type-groupement-finess",
   "type" : "ValueSet",
   "url" : "http://hl7.org/fhir/us/example/ValueSet/jdv-j305-type-groupement-finess",
@@ -4923,14 +4915,6 @@
   "oids" : ["1.2.250.1.213.1.6.1.302"]
 },
 {
-  "id" : "tre-r387-type-groupement-structure",
-  "type" : "CodeSystem",
-  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement-structure",
-  "version" : "20260330120000",
-  "name" : "TreR387TypeGroupementStructure",
-  "oids" : ["1.2.250.1.213.1.6.1.302"]
-},
-{
   "id" : "tre-r388-type-logement",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement",
@@ -5204,6 +5188,14 @@
   "version" : "20260505120000",
   "name" : "TreR427TypeAdresse",
   "oids" : ["1.2.250.1.213.3.3.278"]
+},
+{
+  "id" : "tre-r435-type-groupement-structure",
+  "type" : "CodeSystem",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r435-type-groupement-structure",
+  "version" : "20260330120000",
+  "name" : "Tre435TypeGroupementStructure",
+  "oids" : ["1.2.250.1.213.1.6.1.401"]
 },
 {
   "id" : "alignement-bdpm-cipucd",
@@ -6881,6 +6873,14 @@
   "version" : "20250222120000",
   "name" : "JdvJ295DocumentInformatifFiness",
   "oids" : ["1.2.250.1.213.1.6.1.269"]
+},
+{
+  "id" : "jdv-j296-type-role-entite-groupe-finess",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j296-type-role-entite-groupe-finess",
+  "version" : "20260330120000",
+  "name" : "JdvJ296TypeRoleEntiteGroupeFiness",
+  "oids" : ["1.2.250.1.213.1.6.1.263"]
 },
 {
   "id" : "jdv-j297-type-evenement-administratif-finess",

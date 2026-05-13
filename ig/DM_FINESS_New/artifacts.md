@@ -1220,7 +1220,6 @@ These define new code systems used by systems conforming to this implementation 
 | [Tre R385 Declaration Act De Soin Amm](CodeSystem-tre-r385-declaration-act-de-soin-amm.md) | Nomenclature des déclarations pour les activités de soin AMM |
 | [Tre R386 Macro Etat Objet Structure](CodeSystem-tre-r386-macro-etat-objet-structure.md) | Nomenclature des macro-etat des structures (PM, EGE, Activites, engagements) qui dérivent de l’état de l’objet. Permet de distinguer les structures actives de celles inactives. |
 | [Tre R387 Type Groupement](CodeSystem-tre-r387-type-groupement.md) | Nomenclature des types de groupement utilisables dans FINESS. Groupement de coopération conventionnelle ou Groupement de coopération organique |
-| [Tre R387 Type Groupement Structure](CodeSystem-tre-r387-type-groupement-structure.md) | Nomenclature des types de groupement des ressources Structures. Groupement de coopération conventionnelle ou Groupement de coopération organique |
 | [Tre R388 Type Logement](CodeSystem-tre-r388-type-logement.md) | Nomenclature des types de logement associées aux capacités Remarque : cette nomenclature est initialisée avec les besoins FINESS+ |
 | [Tre R389 Statut Bilan Projet Personnalise](CodeSystem-tre-r389-statut-bilan-projet-personnalise.md) | Statut du bilan du projet personnalisé. |
 | [Tre R390 Type Projet Personnalise](CodeSystem-tre-r390-type-projet-personnalise.md) | Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l’usager, son entourage familial et professionnel du médico-social. |
@@ -1257,6 +1256,7 @@ These define new code systems used by systems conforming to this implementation 
 | [Tre R425 Type Repas](CodeSystem-tre-r425-type-repas.md) | Type de repas. |
 | [Tre R426 Orientation](CodeSystem-tre-r426-orientation.md) | Orientation vers un Service d’éducation spéciale et de soins à domicile (SESSAD) ou vers un Service d’accompagnement familial et d’éducation précoce (SAFEP) |
 | [Tre R427 Type Adresse](CodeSystem-tre-r427-type-adresse.md) | Type d’adresse postale. |
+| [Tre R435 Type Groupement Structure](CodeSystem-tre-r435-type-groupement-structure.md) | Nomenclature des types de groupement des ressources Structures. Groupement de coopération conventionnelle ou Groupement de coopération organique |
 | [employmentStatus](CodeSystem-v2-0066.md) | HL7-defined code system of concepts which specify an employment status of a person. Used in HL7 Version 2 messaging in the GT1 segment. |
 | [specimenCollectionMethod](CodeSystem-v2-0488.md) | HL7-defined code system of concepts specifying the specimen collection method. Used in HL7 Version 2.x messaging in the SPM segment. |
 | [specimenType](CodeSystem-v2-0487.md) | HL7-defined code system of concepts that describe the precise nature of an entity that may be used as the source material for an observation. This is one of two code systems that are used instead of table 0070 (code system 2.16.840.1.113883.18.28) which conflated specimen types and specimen collection methods. Used in HL7 Version 2.x messaging in the SPM segment. |

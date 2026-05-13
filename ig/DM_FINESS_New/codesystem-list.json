@@ -2709,15 +2709,6 @@
     "oids" : ["1.2.250.1.213.1.6.1.302"]
   },
   {
-    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement-structure",
-    "version" : "20260330120000",
-    "status" : "active",
-    "name" : "TreR387TypeGroupementStructure",
-    "title" : "Tre R387 Type Groupement Structure",
-    "description" : "Nomenclature des types de groupement des ressources Structures. Groupement de coopération conventionnelle ou Groupement de coopération organique",
-    "oids" : ["1.2.250.1.213.1.6.1.302"]
-  },
-  {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement",
     "version" : "20260330120000",
     "status" : "active",
@@ -2986,6 +2977,15 @@
     "title" : "Tre R427 Type Adresse",
     "description" : "Type d'adresse postale.",
     "oids" : ["1.2.250.1.213.3.3.278"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r435-type-groupement-structure",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "Tre435TypeGroupementStructure",
+    "title" : "Tre R435 Type Groupement Structure",
+    "description" : "Nomenclature des types de groupement des ressources Structures. Groupement de coopération conventionnelle ou Groupement de coopération organique",
+    "oids" : ["1.2.250.1.213.1.6.1.401"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/concept-properties",

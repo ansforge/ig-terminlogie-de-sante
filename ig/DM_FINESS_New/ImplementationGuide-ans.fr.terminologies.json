@@ -44119,18 +44119,6 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/tre-r387-type-groupement-structure"
-      },
-      "name" : "Tre R387 Type Groupement Structure",
-      "description" : "Nomenclature des types de groupement des ressources Structures. Groupement de coopération conventionnelle ou Groupement de coopération organique",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
         "reference" : "CodeSystem/tre-r388-type-logement"
       },
       "name" : "Tre R388 Type Logement",
@@ -44483,6 +44471,18 @@
       },
       "name" : "Tre R427 Type Adresse",
       "description" : "Type d'adresse postale.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r435-type-groupement-structure"
+      },
+      "name" : "Tre R435 Type Groupement Structure",
+      "description" : "Nomenclature des types de groupement des ressources Structures. Groupement de coopération conventionnelle ou Groupement de coopération organique",
       "exampleBoolean" : false
     },
     {

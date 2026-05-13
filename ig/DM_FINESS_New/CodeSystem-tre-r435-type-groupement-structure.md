@@ -1,16 +1,16 @@
-# Tre R387 Type Groupement Structure - Terminologies de Santé (Publiées par l'ANS) v0.1.0
+# Tre R435 Type Groupement Structure - Terminologies de Santé (Publiées par l'ANS) v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
-* **Tre R387 Type Groupement Structure**
+* **Tre R435 Type Groupement Structure**
 
-## CodeSystem: Tre R387 Type Groupement Structure 
+## CodeSystem: Tre R435 Type Groupement Structure 
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement-structure | *Version*:20260330120000 | |
-| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR387TypeGroupementStructure |
-| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.302 | | |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r435-type-groupement-structure | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:Tre435TypeGroupementStructure |
+| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.401 | | |
 
  
 Nomenclature des types de groupement des ressources Structures. Groupement de coopération conventionnelle ou Groupement de coopération organique 
@@ -26,7 +26,7 @@ Nomenclature des types de groupement des ressources Structures. Groupement de co
 ```json
 {
   "resourceType" : "CodeSystem",
-  "id" : "tre-r387-type-groupement-structure",
+  "id" : "tre-r435-type-groupement-structure",
   "meta" : {
     "versionId" : "2",
     "lastUpdated" : "2026-05-05T20:12:16+02:00",
@@ -39,14 +39,14 @@ Nomenclature des types de groupement des ressources Structures. Groupement de co
       "start" : "1900-01-01T00:00:00+01:00"
     }
   }],
-  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement-structure",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r435-type-groupement-structure",
   "identifier" : [{
     "system" : "urn:ietf:rfc:3986",
-    "value" : "urn:oid:1.2.250.1.213.1.6.1.302"
+    "value" : "urn:oid:1.2.250.1.213.1.6.1.401"
   }],
   "version" : "20260330120000",
-  "name" : "TreR387TypeGroupementStructure",
-  "title" : "Tre R387 Type Groupement Structure",
+  "name" : "Tre435TypeGroupementStructure",
+  "title" : "Tre R435 Type Groupement Structure",
   "status" : "active",
   "experimental" : false,
   "date" : "2026-03-30T12:00:00+01:00",
@@ -140,14 +140,14 @@ Nomenclature des types de groupement des ressources Structures. Groupement de co
     {
       "code" : "hasTypeRoleMember",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-role-membre",
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TreR360TypeRoleEntiteGroupe",
         "code" : "M"
       }
     },
     {
       "code" : "hasTypeRoleMember",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-role-membre",
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TreR360TypeRoleEntiteGroupe",
         "code" : "S"
       }
     }]
@@ -183,7 +183,7 @@ Nomenclature des types de groupement des ressources Structures. Groupement de co
     {
       "code" : "hasTypeRoleMember",
       "valueCoding" : {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-role-membre",
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TreR360TypeRoleEntiteGroupe",
         "code" : "M"
       }
     }]

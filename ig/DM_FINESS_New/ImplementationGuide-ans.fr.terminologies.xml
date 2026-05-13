@@ -34265,17 +34265,6 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/tre-r387-type-groupement-structure"/>
-      </reference>
-      <name value="Tre R387 Type Groupement Structure"/>
-      <description value="Nomenclature des types de groupement des ressources Structures. Groupement de coopération conventionnelle ou Groupement de coopération organique"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
         <reference value="CodeSystem/tre-r388-type-logement"/>
       </reference>
       <name value="Tre R388 Type Logement"/>
@@ -34599,6 +34588,17 @@
       </reference>
       <name value="Tre R427 Type Adresse"/>
       <description value="Type d'adresse postale."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r435-type-groupement-structure"/>
+      </reference>
+      <name value="Tre R435 Type Groupement Structure"/>
+      <description value="Nomenclature des types de groupement des ressources Structures. Groupement de coopération conventionnelle ou Groupement de coopération organique"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
