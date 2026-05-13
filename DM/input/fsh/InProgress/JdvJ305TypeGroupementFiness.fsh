@@ -1,4 +1,4 @@
-Alias: $tre-r387-type-groupement-structure = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement-structure
+Alias: $tre-r435-type-groupement-structure = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r435-type-groupement-structure
 
 ValueSet: JdvJ305TypeGroupementFiness
 Id: jdv-j305-type-groupement-finess
@@ -18,4 +18,4 @@ Description: "Jeu de valeurs FINESS contenant les types de groupement utilisable
 * ^date = "2026-03-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
-* include codes from system $tre-r387-type-groupement-structure where finess = "true"
+* include codes from system $tre-r435-type-groupement-structure where finess = "true"
