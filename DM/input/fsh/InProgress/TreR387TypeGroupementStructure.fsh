@@ -1,8 +1,8 @@
 Alias: $tre-r360-role-membre = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-role-membre
 
-CodeSystem: TreR387TypeGroupementStructure
-Id: tre-r387-type-groupement-structure
-Title: "Tre R387 Type Groupement Structure"
+CodeSystem: Tre435TypeGroupementStructure
+Id: tre-r435-type-groupement-structure
+Title: "Tre R435 Type Groupement Structure"
 Description: "Nomenclature des types de groupement des ressources Structures. Groupement de coopération conventionnelle ou Groupement de coopération organique"
 * ^meta.versionId = "2"
 * ^meta.lastUpdated = "2026-05-05T20:12:16+02:00"
@@ -10,7 +10,7 @@ Description: "Nomenclature des types de groupement des ressources Structures. Gr
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "1900-01-01T00:00:00+01:00"
-* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement-structure"
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r435-type-groupement-structure"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.302"
 * ^version = "20260330120000"
