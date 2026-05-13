@@ -12,7 +12,7 @@ Description: "Nomenclature des types de groupement des ressources Structures. Gr
 * ^extension.valuePeriod.start = "1900-01-01T00:00:00+01:00"
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r435-type-groupement-structure"
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.302"
+* ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.401"
 * ^version = "20260330120000"
 * ^status = #active
 * ^experimental = false
