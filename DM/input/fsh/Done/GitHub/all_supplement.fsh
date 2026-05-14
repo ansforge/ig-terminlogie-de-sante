@@ -67,7 +67,7 @@ Description: "Traduction Française"
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical|1.0.1"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
 * ^extension.valueCode = #lang-pack
 
@@ -98,7 +98,7 @@ Description: "Traduction Française"
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/condition-clinical|3.0.0"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/condition-clinical"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
 * ^extension.valueCode = #lang-pack
 
@@ -144,7 +144,7 @@ Description: "Traduction Française"
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/condition-ver-status|2.0.1"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/condition-ver-status"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
 * ^extension.valueCode = #lang-pack
 
@@ -175,7 +175,7 @@ Description: "Traduction Française"
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/v2-0066|3.0.0"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/v2-0066"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
 * ^extension.valueCode = #lang-pack
 
@@ -246,7 +246,7 @@ Description: "Traduction Française"
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/v2-0487|3.0.0"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/v2-0487"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
 * ^extension.valueCode = #lang-pack
 
@@ -1826,7 +1826,7 @@ Description: "Traduction Française"
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ActCode|9.0.0"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ActCode"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
 * ^extension.valueCode = #lang-pack
 
@@ -1927,7 +1927,6 @@ Description: "Traduction Française"
 
 * #FFC 
 * #FFC  ^designation.language = #fr-FR
-* #FFC  ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
 * #FFC  ^designation.use =  $sct#900000000000013009
 * #FFC  ^designation.value = "Première dispensation - complète"
 
@@ -1958,7 +1957,7 @@ Description: "Traduction Française"
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ActMood|3.0.0"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ActMood"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
 * ^extension.valueCode = #lang-pack
 
@@ -2069,7 +2068,7 @@ Description: "Traduction Française"
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ActPriority|3.0.0"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ActPriority"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
 * ^extension.valueCode = #lang-pack
 
@@ -2145,7 +2144,7 @@ Description: "Traduction Française"
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ActStatus|3.0.0"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ActStatus"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
 * ^extension.valueCode = #lang-pack
 
@@ -2196,7 +2195,7 @@ Description: "Traduction Française"
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-AdministrativeGender|3.0.0"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-AdministrativeGender"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
 * ^extension.valueCode = #lang-pack
 
@@ -2227,7 +2226,7 @@ Description: "Traduction Française"
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-Confidentiality|3.0.0"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-Confidentiality"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
 * ^extension.valueCode = #lang-pack
 
@@ -2273,7 +2272,7 @@ Description: "Traduction Française"
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-mediaType|3.0.0"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-mediaType"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
 * ^extension.valueCode = #lang-pack
 
@@ -2359,7 +2358,7 @@ Description: "Traduction Française"
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation|3.0.0"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
 * ^extension.valueCode = #lang-pack
 
@@ -2570,7 +2569,7 @@ Description: "Traduction Française"
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ObservationMethod|3.0.0"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ObservationMethod"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
 * ^extension.valueCode = #lang-pack
 
@@ -3925,7 +3924,7 @@ Description: "Traduction Française"
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ObservationValue|4.0.0"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ObservationValue"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
 * ^extension.valueCode = #lang-pack
 
@@ -4003,7 +4002,7 @@ Description: "Traduction Française"
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm|3.0.0"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
 * ^extension.valueCode = #lang-pack
 
@@ -4064,7 +4063,7 @@ Description: "Traduction Française"
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ParticipationFunction|3.0.0"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ParticipationFunction"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
 * ^extension.valueCode = #lang-pack
 
@@ -4100,7 +4099,7 @@ Description: "Traduction Française"
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ParticipationType|5.0.0"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
 * ^extension.valueCode = #lang-pack
 
@@ -4406,7 +4405,7 @@ Description: "Traduction Française"
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-RoleClass|4.0.0"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-RoleClass"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
 * ^extension.valueCode = #lang-pack
 
@@ -4462,7 +4461,7 @@ Description: "Traduction Française"
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-RoleCode|3.0.0"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-RoleCode"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
 * ^extension.valueCode = #lang-pack
 
@@ -5048,7 +5047,7 @@ Description: "Traduction Française"
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution|3.0.0"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
 * ^extension.valueCode = #lang-pack
 
@@ -5074,7 +5073,7 @@ Description: "Traduction Française"
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-TimingEvent|3.0.0"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-TimingEvent"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
 * ^extension.valueCode = #lang-pack
 
@@ -5181,7 +5180,7 @@ Description: "Traduction Française"
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
-* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-SpecimenType|3.0.0"
+* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"
 * ^extension.valueCode = #lang-pack
 
