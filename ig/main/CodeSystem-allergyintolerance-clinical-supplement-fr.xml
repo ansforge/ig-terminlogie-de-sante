@@ -23,7 +23,7 @@
     </coding>
   </jurisdiction>
   <content value="supplement"/>
-  <supplements value="http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical|1.0.1"/>
+  <supplements value="http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"/>
   <concept>
     <code value="active"/>
     <designation>

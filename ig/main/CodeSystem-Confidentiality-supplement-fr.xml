@@ -23,7 +23,7 @@
     </coding>
   </jurisdiction>
   <content value="supplement"/>
-  <supplements value="http://terminology.hl7.org/CodeSystem/v3-Confidentiality|3.0.0"/>
+  <supplements value="http://terminology.hl7.org/CodeSystem/v3-Confidentiality"/>
   <concept>
     <code value="L"/>
     <designation>

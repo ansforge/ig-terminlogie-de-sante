@@ -45,7 +45,7 @@ Traduction Française
     }]
   }],
   "content" : "supplement",
-  "supplements" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass|4.0.0",
+  "supplements" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
   "concept" : [{
     "code" : "INGR",
     "designation" : [{

@@ -45,7 +45,7 @@ Traduction Française
     }]
   }],
   "content" : "supplement",
-  "supplements" : "http://terminology.hl7.org/CodeSystem/v3-SpecimenType|3.0.0",
+  "supplements" : "http://terminology.hl7.org/CodeSystem/v3-SpecimenType",
   "concept" : [{
     "code" : "BLDC",
     "display" : "Sang capillaire",

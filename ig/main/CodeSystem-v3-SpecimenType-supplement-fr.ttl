@@ -46,8 +46,8 @@
   ] ) ; # 
   fhir:content [ fhir:v "supplement"] ; # 
   fhir:supplements [
-     fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType|3.0.0"^^xsd:anyURI ;
-     fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType?version=3.0.0>
+     fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
   ] ; # 
   fhir:concept ( [
      fhir:code [ fhir:v "BLDC" ] ;

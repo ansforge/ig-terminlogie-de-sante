@@ -46,8 +46,8 @@
   ] ) ; # 
   fhir:content [ fhir:v "supplement"] ; # 
   fhir:supplements [
-     fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode|3.0.0"^^xsd:anyURI ;
-     fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode?version=3.0.0>
+     fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/CodeSystem/v3-RoleCode>
   ] ; # 
   fhir:concept ( [
      fhir:code [ fhir:v "C" ] ;

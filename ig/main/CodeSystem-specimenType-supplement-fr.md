@@ -45,7 +45,7 @@ Traduction Française
     }]
   }],
   "content" : "supplement",
-  "supplements" : "http://terminology.hl7.org/CodeSystem/v2-0487|3.0.0",
+  "supplements" : "http://terminology.hl7.org/CodeSystem/v2-0487",
   "concept" : [{
     "code" : "ABS",
     "designation" : [{

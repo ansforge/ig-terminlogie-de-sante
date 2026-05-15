@@ -45,7 +45,7 @@ Traduction Française
     }]
   }],
   "content" : "supplement",
-  "supplements" : "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm|3.0.0",
+  "supplements" : "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm",
   "concept" : [{
     "code" : "APPFUL",
     "designation" : [{

@@ -46,8 +46,8 @@
   ] ) ; # 
   fhir:content [ fhir:v "supplement"] ; # 
   fhir:supplements [
-     fhir:v "http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution|3.0.0"^^xsd:anyURI ;
-     fhir:l <http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution?version=3.0.0>
+     fhir:v "http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution>
   ] ; # 
   fhir:concept ( [
      fhir:code [ fhir:v "N" ] ;
