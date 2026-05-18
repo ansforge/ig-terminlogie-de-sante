@@ -1,4 +1,4 @@
-Alias: $tre-r376-type-evenement-structure = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r376-type-evenement-structure
+Alias: $tre-r376-type-evenement-administratif = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r376-type-evenement-administratif
 
 ValueSet: JdvJ297TypeEvenementAdministratifFiness
 Id: jdv-j297-type-evenement-administratif-finess
@@ -18,4 +18,4 @@ Description: "Jeu de valeurs FINESS contenant les événements affectant le cycl
 * ^experimental = false
 * ^date = "2025-06-11T18:02:28.249+00:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* include codes from system $tre-r376-type-evenement-structure where finess = "true"
+* include codes from system $tre-r376-type-evenement-administratif where finess = "true"
