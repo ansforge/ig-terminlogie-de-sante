@@ -1318,18 +1318,18 @@ Description: "Activite Operationnelle"
 * #156 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #156 ^property[+].code = #status
 * #156 ^property[=].valueCode = #active
-* #157 "Urgences polyvalentes"
+* #157 "Urgences polyvalentes hospitalières"
 * #157 ^property[0].code = #dateValid
 * #157 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #157 ^property[+].code = #dateMaj
-* #157 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
+* #157 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #157 ^property[+].code = #status
 * #157 ^property[=].valueCode = #active
-* #158 "Urgences psychiatriques"
+* #158 "Urgences psychiatriques hospitalières"
 * #158 ^property[0].code = #dateValid
 * #158 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #158 ^property[+].code = #dateMaj
-* #158 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #158 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #158 ^property[+].code = #status
 * #158 ^property[=].valueCode = #active
 * #159 "Urgences spécialisées traumatologiques"
@@ -2110,11 +2110,11 @@ Description: "Activite Operationnelle"
 * #248 ^property[=].valueDateTime = "2023-01-27T12:00:00+01:00"
 * #248 ^property[+].code = #status
 * #248 ^property[=].valueCode = #active
-* #249 "Urgences pédiatriques"
+* #249 "Urgences pédiatriques hospitalières"
 * #249 ^property[0].code = #dateValid
 * #249 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #249 ^property[+].code = #dateMaj
-* #249 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
+* #249 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #249 ^property[+].code = #status
 * #249 ^property[=].valueCode = #active
 * #250 "Urgences spécialisées céphalées"
