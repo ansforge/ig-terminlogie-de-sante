@@ -2080,3 +2080,45 @@ Description: "Equipement"
 * #237 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #237 ^property[+].code = #status
 * #237 ^property[=].valueCode = #active
+* #238 "Plateforme de force (étude de la posture)"
+* #238 ^property[0].code = #dateValid
+* #238 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #238 ^property[+].code = #dateMaj
+* #238 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #238 ^property[+].code = #status
+* #238 ^property[=].valueCode = #active
+* #239 "Plateforme de pression (étude de la marche)"
+* #239 ^property[0].code = #dateValid
+* #239 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #239 ^property[+].code = #dateMaj
+* #239 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #239 ^property[+].code = #status
+* #239 ^property[=].valueCode = #active
+* #240 "Piste de marche"
+* #240 ^property[0].code = #dateValid
+* #240 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #240 ^property[+].code = #dateMaj
+* #240 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #240 ^property[+].code = #status
+* #240 ^property[=].valueCode = #active
+* #241 "Tapis de course"
+* #241 ^property[0].code = #dateValid
+* #241 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #241 ^property[+].code = #dateMaj
+* #241 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #241 ^property[+].code = #status
+* #241 ^property[=].valueCode = #active
+* #242 "Système vidéo d'analyse de la marche et de la course"
+* #242 ^property[0].code = #dateValid
+* #242 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #242 ^property[+].code = #dateMaj
+* #242 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #242 ^property[+].code = #status
+* #242 ^property[=].valueCode = #active
+* #243 "Semelles avec capteurs embarqués"
+* #243 ^property[0].code = #dateValid
+* #243 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #243 ^property[+].code = #dateMaj
+* #243 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #243 ^property[+].code = #status
+* #243 ^property[=].valueCode = #active
