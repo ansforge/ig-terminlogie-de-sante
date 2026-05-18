@@ -13013,242 +13013,242 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1581 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1581 ^property[+].code = #status
 * #1581 ^property[=].valueCode = #active
-* #1582 "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en cardiologie"
+* #1582 "Prise en charge spécialisée et continue en cardiologie"
 * #1582 ^property[0].code = #dateValid
 * #1582 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1582 ^property[+].code = #dateMaj
-* #1582 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #1582 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #1582 ^property[+].code = #status
 * #1582 ^property[=].valueCode = #active
-* #1583 "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie cardiaque et gros vaisseaux"
+* #1583 "Prise en charge spécialisée et continue en chirurgie cardiaque et gros vaisseaux"
 * #1583 ^property[0].code = #dateValid
 * #1583 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1583 ^property[+].code = #dateMaj
-* #1583 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #1583 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #1583 ^property[+].code = #status
 * #1583 ^property[=].valueCode = #active
-* #1584 "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie digestive et viscérale"
+* #1584 "Prise en charge spécialisée et continue en chirurgie digestive et viscérale"
 * #1584 ^property[0].code = #dateValid
 * #1584 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1584 ^property[+].code = #dateMaj
-* #1584 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #1584 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #1584 ^property[+].code = #status
 * #1584 ^property[=].valueCode = #active
-* #1585 "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie maxillo-faciale et stomatologie"
+* #1585 "Prise en charge spécialisée et continue en chirurgie maxillo-faciale et stomatologie"
 * #1585 ^property[0].code = #dateValid
 * #1585 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1585 ^property[+].code = #dateMaj
-* #1585 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #1585 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #1585 ^property[+].code = #status
 * #1585 ^property[=].valueCode = #active
-* #1586 "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie orthopédique et traumatologie"
+* #1586 "Prise en charge spécialisée et continue en chirurgie orthopédique et traumatologie"
 * #1586 ^property[0].code = #dateValid
 * #1586 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1586 ^property[+].code = #dateMaj
-* #1586 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #1586 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #1586 ^property[+].code = #status
 * #1586 ^property[=].valueCode = #active
-* #1587 "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie pédiatrique orthopédique et traumatologie"
+* #1587 "Prise en charge spécialisée et continue en chirurgie pédiatrique orthopédique et traumatologie"
 * #1587 ^property[0].code = #dateValid
 * #1587 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1587 ^property[+].code = #dateMaj
-* #1587 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #1587 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #1587 ^property[+].code = #status
 * #1587 ^property[=].valueCode = #active
-* #1588 "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie pédiatrique viscérale et digestive"
+* #1588 "Prise en charge spécialisée et continue en chirurgie pédiatrique viscérale et digestive"
 * #1588 ^property[0].code = #dateValid
 * #1588 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1588 ^property[+].code = #dateMaj
-* #1588 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #1588 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #1588 ^property[+].code = #status
 * #1588 ^property[=].valueCode = #active
-* #1589 "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie thoracique et pulmonaire"
+* #1589 "Prise en charge spécialisée et continue en chirurgie thoracique et pulmonaire"
 * #1589 ^property[0].code = #dateValid
 * #1589 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1589 ^property[+].code = #dateMaj
-* #1589 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #1589 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #1589 ^property[+].code = #status
 * #1589 ^property[=].valueCode = #active
-* #1590 "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie vasculaire"
+* #1590 "Prise en charge spécialisée et continue en chirurgie vasculaire"
 * #1590 ^property[0].code = #dateValid
 * #1590 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1590 ^property[+].code = #dateMaj
-* #1590 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #1590 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #1590 ^property[+].code = #status
 * #1590 ^property[=].valueCode = #active
-* #1591 "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en dermatologie"
+* #1591 "Prise en charge spécialisée et continue en dermatologie"
 * #1591 ^property[0].code = #dateValid
 * #1591 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1591 ^property[+].code = #dateMaj
-* #1591 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #1591 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #1591 ^property[+].code = #status
 * #1591 ^property[=].valueCode = #active
-* #1592 "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en endocrinologie"
+* #1592 "Prise en charge spécialisée et continue en endocrinologie"
 * #1592 ^property[0].code = #dateValid
 * #1592 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1592 ^property[+].code = #dateMaj
-* #1592 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #1592 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #1592 ^property[+].code = #status
 * #1592 ^property[=].valueCode = #active
-* #1593 "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en gériatrie (gérontologie)"
+* #1593 "Prise en charge spécialisée et continue en gériatrie (gérontologie)"
 * #1593 ^property[0].code = #dateValid
 * #1593 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1593 ^property[+].code = #dateMaj
-* #1593 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #1593 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #1593 ^property[+].code = #status
 * #1593 ^property[=].valueCode = #active
-* #1594 "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en gynécologie"
+* #1594 "Prise en charge spécialisée et continue en gynécologie"
 * #1594 ^property[0].code = #dateValid
 * #1594 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1594 ^property[+].code = #dateMaj
-* #1594 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #1594 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #1594 ^property[+].code = #status
 * #1594 ^property[=].valueCode = #active
-* #1595 "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en hématologie"
+* #1595 "Prise en charge spécialisée et continue en hématologie"
 * #1595 ^property[0].code = #dateValid
 * #1595 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1595 ^property[+].code = #dateMaj
-* #1595 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #1595 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #1595 ^property[+].code = #status
 * #1595 ^property[=].valueCode = #active
-* #1596 "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en hépato-gastro-entérologie"
+* #1596 "Prise en charge spécialisée et continue en hépato-gastro-entérologie"
 * #1596 ^property[0].code = #dateValid
 * #1596 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1596 ^property[+].code = #dateMaj
-* #1596 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #1596 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #1596 ^property[+].code = #status
 * #1596 ^property[=].valueCode = #active
-* #1597 "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en maladies infectieuses et tropicales"
+* #1597 "Prise en charge spécialisée et continue en maladies infectieuses et tropicales"
 * #1597 ^property[0].code = #dateValid
 * #1597 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1597 ^property[+].code = #dateMaj
-* #1597 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #1597 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #1597 ^property[+].code = #status
 * #1597 ^property[=].valueCode = #active
-* #1598 "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en médecine interne"
+* #1598 "Prise en charge spécialisée et continue en médecine interne"
 * #1598 ^property[0].code = #dateValid
 * #1598 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1598 ^property[+].code = #dateMaj
-* #1598 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #1598 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #1598 ^property[+].code = #status
 * #1598 ^property[=].valueCode = #active
-* #1599 "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en médecine vasculaire"
+* #1599 "Prise en charge spécialisée et continue en médecine vasculaire"
 * #1599 ^property[0].code = #dateValid
 * #1599 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1599 ^property[+].code = #dateMaj
-* #1599 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #1599 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #1599 ^property[+].code = #status
 * #1599 ^property[=].valueCode = #active
-* #1600 "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en néphrologie (dont dialyse)"
+* #1600 "Prise en charge spécialisée et continue en néphrologie (dont dialyse)"
 * #1600 ^property[0].code = #dateValid
 * #1600 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1600 ^property[+].code = #dateMaj
-* #1600 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #1600 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #1600 ^property[+].code = #status
 * #1600 ^property[=].valueCode = #active
-* #1601 "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en neurochirurgie"
+* #1601 "Prise en charge spécialisée et continue en neurochirurgie"
 * #1601 ^property[0].code = #dateValid
 * #1601 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1601 ^property[+].code = #dateMaj
-* #1601 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #1601 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #1601 ^property[+].code = #status
 * #1601 ^property[=].valueCode = #active
-* #1602 "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en neurologie"
+* #1602 "Prise en charge spécialisée et continue en neurologie"
 * #1602 ^property[0].code = #dateValid
 * #1602 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1602 ^property[+].code = #dateMaj
-* #1602 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #1602 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #1602 ^property[+].code = #status
 * #1602 ^property[=].valueCode = #active
-* #1603 "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en oncologie"
+* #1603 "Prise en charge spécialisée et continue en oncologie"
 * #1603 ^property[0].code = #dateValid
 * #1603 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1603 ^property[+].code = #dateMaj
-* #1603 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #1603 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #1603 ^property[+].code = #status
 * #1603 ^property[=].valueCode = #active
-* #1604 "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en ophtalmologie"
+* #1604 "Prise en charge spécialisée et continue en ophtalmologie"
 * #1604 ^property[0].code = #dateValid
 * #1604 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1604 ^property[+].code = #dateMaj
-* #1604 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #1604 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #1604 ^property[+].code = #status
 * #1604 ^property[=].valueCode = #active
-* #1605 "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en oto-rhino-laryngologie (ORL) et chirurgie cervico-faciale"
+* #1605 "Prise en charge spécialisée et continue en oto-rhino-laryngologie (ORL) et chirurgie cervico-faciale"
 * #1605 ^property[0].code = #dateValid
 * #1605 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1605 ^property[+].code = #dateMaj
-* #1605 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #1605 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #1605 ^property[+].code = #status
 * #1605 ^property[=].valueCode = #active
-* #1606 "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en pédiatrie"
+* #1606 "Prise en charge spécialisée et continue en pédiatrie"
 * #1606 ^property[0].code = #dateValid
 * #1606 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1606 ^property[+].code = #dateMaj
-* #1606 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #1606 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #1606 ^property[+].code = #status
 * #1606 ^property[=].valueCode = #active
-* #1607 "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en pneumologie"
+* #1607 "Prise en charge spécialisée et continue en pneumologie"
 * #1607 ^property[0].code = #dateValid
 * #1607 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1607 ^property[+].code = #dateMaj
-* #1607 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #1607 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #1607 ^property[+].code = #status
 * #1607 ^property[=].valueCode = #active
-* #1608 "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en rhumatologie"
+* #1608 "Prise en charge spécialisée et continue en rhumatologie"
 * #1608 ^property[0].code = #dateValid
 * #1608 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1608 ^property[+].code = #dateMaj
-* #1608 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #1608 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #1608 ^property[+].code = #status
 * #1608 ^property[=].valueCode = #active
-* #1609 "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en urologie"
+* #1609 "Prise en charge spécialisée et continue en urologie"
 * #1609 ^property[0].code = #dateValid
 * #1609 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1609 ^property[+].code = #dateMaj
-* #1609 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #1609 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #1609 ^property[+].code = #status
 * #1609 ^property[=].valueCode = #active
-* #1610 "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en caisson oxygène hyperbare"
+* #1610 "Prise en charge spécialisée et continue en caisson oxygène hyperbare"
 * #1610 ^property[0].code = #dateValid
 * #1610 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1610 ^property[+].code = #dateMaj
-* #1610 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #1610 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #1610 ^property[+].code = #status
 * #1610 ^property[=].valueCode = #active
-* #1611 "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie de la main SOS main"
+* #1611 "Prise en charge spécialisée et continue en chirurgie de la main SOS main"
 * #1611 ^property[0].code = #dateValid
 * #1611 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1611 ^property[+].code = #dateMaj
-* #1611 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #1611 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #1611 ^property[+].code = #status
 * #1611 ^property[=].valueCode = #active
-* #1612 "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en odontologie"
+* #1612 "Prise en charge spécialisée et continue en odontologie"
 * #1612 ^property[0].code = #dateValid
 * #1612 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1612 ^property[+].code = #dateMaj
-* #1612 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #1612 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #1612 ^property[+].code = #status
 * #1612 ^property[=].valueCode = #active
-* #1613 "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en psychiatrie (dont équipe de liaison)"
+* #1613 "Prise en charge spécialisée et continue en psychiatrie (dont équipe de liaison)"
 * #1613 ^property[0].code = #dateValid
 * #1613 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1613 ^property[+].code = #dateMaj
-* #1613 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #1613 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #1613 ^property[+].code = #status
 * #1613 ^property[=].valueCode = #active
-* #1614 "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en radiologie interventionnelle"
+* #1614 "Prise en charge spécialisée et continue en radiologie interventionnelle"
 * #1614 ^property[0].code = #dateValid
 * #1614 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1614 ^property[+].code = #dateMaj
-* #1614 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #1614 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #1614 ^property[+].code = #status
 * #1614 ^property[=].valueCode = #active
-* #1615 "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) rachis"
+* #1615 "Prise en charge spécialisée et continue rachis"
 * #1615 ^property[0].code = #dateValid
 * #1615 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1615 ^property[+].code = #dateMaj
-* #1615 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #1615 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #1615 ^property[+].code = #status
 * #1615 ^property[=].valueCode = #active
 * #1616 "Pédicurie-podologie conventionnée du pied diabétique de grade 2 et 3"
@@ -13349,3 +13349,17 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1629 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #1629 ^property[+].code = #status
 * #1629 ^property[=].valueCode = #active
+* #1630 "Prise en charge spécialisée et continue en pédopsychiatrie (dont équipe de liaison)"
+* #1630 ^property[0].code = #dateValid
+* #1630 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1630 ^property[+].code = #dateMaj
+* #1630 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1630 ^property[+].code = #status
+* #1630 ^property[=].valueCode = #active
+* #1631 "Prise en charge spécialisée et continue SOS main"
+* #1631 ^property[0].code = #dateValid
+* #1631 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1631 ^property[+].code = #dateMaj
+* #1631 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1631 ^property[+].code = #status
+* #1631 ^property[=].valueCode = #active
