@@ -240,3 +240,4 @@ Alias: $TRE-R03-AttributionParticuliere = https://mos.esante.gouv.fr/NOS/TRE_R03
 Alias: $TRE-R34-StatutProfessionnelSSA = https://mos.esante.gouv.fr/NOS/TRE_R34-StatutProfessionnelSSA/FHIR/TRE-R34-StatutProfessionnelSSA
 Alias: $TRE-R32-StatutHospitalier = https://mos.esante.gouv.fr/NOS/TRE_R32-StatutHospitalier/FHIR/TRE-R32-StatutHospitalier
 Alias: $TRE-R75-InseeNAFrev2Niveau5 = https://mos.esante.gouv.fr/NOS/TRE_R75-InseeNAFrev2Niveau5/FHIR/TRE-R75-InseeNAFrev2Niveau5
+Alias: $TRE-R256-TypeMessagerie = https://mos.esante.gouv.fr/NOS/TRE_R256-TypeMessagerie/FHIR/TRE-R256-TypeMessagerie
