@@ -13342,3 +13342,10 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1628 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #1628 ^property[+].code = #status
 * #1628 ^property[=].valueCode = #active
+* #1629 "Confection de semelle de comblement en polyuréthane (PU) pour amputation partielle du pied"
+* #1629 ^property[0].code = #dateValid
+* #1629 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1629 ^property[+].code = #dateMaj
+* #1629 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1629 ^property[+].code = #status
+* #1629 ^property[=].valueCode = #active
