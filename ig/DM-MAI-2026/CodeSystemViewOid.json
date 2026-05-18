@@ -119,12 +119,28 @@
   "status" : "active"
 },
 {
+  "id" : "TRE-R212-Equipement",
+  "name" : "TRE_R212_Equipement",
+  "title" : null,
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.10",
+  "status" : "active"
+},
+{
   "id" : "TRE-R301-SourceInformationInstallation",
   "name" : "TRE_R301_SourceInformationInstallation",
   "title" : null,
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation",
   "identifier" : "urn:oid:1.2.250.1.213.1.6.1.208",
   "status" : "retired"
+},
+{
+  "id" : "TRE-R343-FonctionLieu",
+  "name" : "TRE_R343_FonctionLieu",
+  "title" : null,
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R343-FonctionLieu/FHIR/TRE-R343-FonctionLieu",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.227",
+  "status" : "active"
 },
 {
   "id" : "TRE-R64-AgregatCategorieEtablissementNiv2",
@@ -1036,14 +1052,6 @@
   "title" : null,
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R20-Pays/FHIR/TRE-R20-Pays",
   "identifier" : "urn:oid:1.2.250.1.213.2.24",
-  "status" : "active"
-},
-{
-  "id" : "TRE-R212-Equipement",
-  "name" : "TRE_R212_Equipement",
-  "title" : null,
-  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement",
-  "identifier" : "urn:oid:1.2.250.1.213.3.3.10",
   "status" : "active"
 },
 {
@@ -2028,14 +2036,6 @@
   "title" : null,
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R342-XdsTypesIdentifiantsReferenceId/FHIR/TRE-R342-XdsTypesIdentifiantsReferenceId",
   "identifier" : "urn:oid:1.2.250.1.213.1.1.4.347",
-  "status" : "active"
-},
-{
-  "id" : "TRE-R343-FonctionLieu",
-  "name" : "TRE_R343_FonctionLieu",
-  "title" : null,
-  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R343-FonctionLieu/FHIR/TRE-R343-FonctionLieu",
-  "identifier" : "urn:oid:1.2.250.1.213.3.3.227",
   "status" : "active"
 },
 {

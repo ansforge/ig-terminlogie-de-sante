@@ -173,9 +173,9 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R207_TypeOrganisationInterne](CodeSystem-TRE-R207-TypeOrganisationInterne.md) | Type organisation interne | 15/12/2023 |
 | [TRE_R208_ClasseAge](CodeSystem-TRE-R208-ClasseAge.md) | Classe d'âge | 15/12/2023 |
 | [TRE_R209_TypeActivite](CodeSystem-TRE-R209-TypeActivite.md) | Type d'activité | 23/02/2024 |
-| [TRE_R210_ActeSpecifique](CodeSystem-TRE-R210-ActeSpecifique.md) | Action menée par un ou plusieurs acteur(s) de santé dans le cadre d'une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé. | 05/05/2026 |
-| [TRE_R211_ActiviteOperationnelle](CodeSystem-TRE-R211-ActiviteOperationnelle.md) | Activite Operationnelle | 05/05/2026 |
-| [TRE_R212_Equipement](CodeSystem-TRE-R212-Equipement.md) | Equipement | 22/12/2025 |
+| [TRE_R210_ActeSpecifique](CodeSystem-TRE-R210-ActeSpecifique.md) | Action menée par un ou plusieurs acteur(s) de santé dans le cadre d'une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé. | 01/06/2026 |
+| [TRE_R211_ActiviteOperationnelle](CodeSystem-TRE-R211-ActiviteOperationnelle.md) | Activite Operationnelle | 01/06/2026 |
+| [TRE_R212_Equipement](CodeSystem-TRE-R212-Equipement.md) | Equipement | 01/06/2026 |
 | [TRE_R213_ModePriseEnCharge](CodeSystem-TRE-R213-ModePriseEnCharge.md) | Mode de la prise en charge | 30/03/2026 |
 | [TRE_R216_HL7RoleCode](CodeSystem-TRE-R216-HL7RoleCode.md) | HL7 roleCode | 13/12/2024 |
 | [TRE_R217_ProtectionJuridique](CodeSystem-TRE-R217-ProtectionJuridique.md) | Protection juridique | 15/12/2023 |
@@ -283,7 +283,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R340_TypeCaracteristiqueEquipement](CodeSystem-TRE-R340-TypeCaracteristiqueEquipement.md) | Type de caractéristique de l'équipement | 29/03/2024 |
 | [TRE_R341_StatutCommunication](CodeSystem-TRE-R341-StatutCommunication.md) | Permet de donner une indication pour savoir une action doit être menée ou de son résultat lorsqu'elle a été menée | 15/12/2023 |
 | [TRE_R342_XdsTypesIdentifiantsReferenceId](CodeSystem-TRE-R342-XdsTypesIdentifiantsReferenceId.md) | Types d'identifiants utilisés dans la métadonnée XDS referenceIdList de la fiche du document. Ces types d'identifiants sont spécifiés dans une terminologie incluse dans le profil XDS dans le Cadre Technique d'IHE IT Infrastructure. | 15/12/2023 |
-| [TRE_R343_FonctionLieu](CodeSystem-TRE-R343-FonctionLieu.md) | Destination d'usage du lieu | 22/12/2025 |
+| [TRE_R343_FonctionLieu](CodeSystem-TRE-R343-FonctionLieu.md) | Destination d'usage du lieu | 01/06/2026 |
 | [TRE_R344_NiveauExpertise](CodeSystem-TRE-R344-NiveauExpertise.md) | Le niveau d'expertise atteste du niveau de ressources humaines et matérielles engagées dans la réalisation de l'offre et défini dans un cahier des charges officiel. | 22/12/2025 |
 | [TRE_R345_TypeIdentifiantAutre](CodeSystem-TRE-R345-TypeIdentifiantAutre.md) | Autre Type d'identifiant | 29/03/2024 |
 | [TRE_R348_FormationSpecialiseeTransversale](CodeSystem-TRE-R348-FormationSpecialiseeTransversale.md) | Formation Spécialisée Transversale (FST) | 22/12/2025 |

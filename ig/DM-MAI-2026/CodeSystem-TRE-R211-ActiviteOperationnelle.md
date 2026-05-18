@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle | *Version*:20260505120000 | |
-| Active as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R211_ActiviteOperationnelle |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle | *Version*:20260601120000 | |
+| Active as of 2026-06-01 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R211_ActiviteOperationnelle |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.12 | | |
 
  
@@ -45,11 +45,11 @@ Activite Operationnelle
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.12"
   }],
-  "version" : "20260505120000",
+  "version" : "20260601120000",
   "name" : "TRE_R211_ActiviteOperationnelle",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-05T12:00:00+01:00",
+  "date" : "2026-06-01T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Activite Operationnelle",
   "jurisdiction" : [{
@@ -2985,14 +2985,14 @@ Activite Operationnelle
   },
   {
     "code" : "157",
-    "display" : "Urgences polyvalentes",
+    "display" : "Urgences polyvalentes hospitalières",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2015-04-08T00:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -3001,14 +3001,14 @@ Activite Operationnelle
   },
   {
     "code" : "158",
-    "display" : "Urgences psychiatriques",
+    "display" : "Urgences psychiatriques hospitalières",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -3796,7 +3796,7 @@ Activite Operationnelle
   },
   {
     "code" : "201",
-    "display" : "Pédicure-Podologie",
+    "display" : "Pédicurie-Podologie (bilan diagnostic et mise en œuvre des activités thérapeutiques si nécessaire)",
     "definition" : "Discipline paramédicale qualifiée pour traiter directement les affections épidermiques, limitées aux couches cornées et aux affections unguéales du pied, à l'exclusion de toute intervention chirurgicale, pour pratiquer les soins d'hygiène, pour confectionner et appliquer des semelles destinées à prévenir ou à soulager les affections épidermiques, pour analyser et évaluer les troubles morphostatiques et dynamiques du pied et élaborer un diagnostic de pédicurie-podologie en tenant compte de la statique et de la dynamique du pied, pour renouveler les prescriptions médicales initiales d'orthèses plantaires.",
     "property" : [{
       "code" : "dateValid",
@@ -3804,7 +3804,7 @@ Activite Operationnelle
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-06-28T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -4787,14 +4787,14 @@ Activite Operationnelle
   },
   {
     "code" : "249",
-    "display" : "Urgences pédiatriques",
+    "display" : "Urgences pédiatriques hospitalières",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-01-26T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2018-01-26T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",

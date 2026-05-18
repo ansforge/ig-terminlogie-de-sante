@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique | *Version*:20260505120000 | |
-| Active as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R210_ActeSpecifique |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique | *Version*:20260601120000 | |
+| Active as of 2026-06-01 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R210_ActeSpecifique |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.11 | | |
 
  
@@ -45,11 +45,11 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.11"
   }],
-  "version" : "20260505120000",
+  "version" : "20260601120000",
   "name" : "TRE_R210_ActeSpecifique",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-05T12:00:00+01:00",
+  "date" : "2026-06-01T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Action menée par un ou plusieurs acteur(s) de santé dans le cadre d'une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé.",
   "jurisdiction" : [{
@@ -60,7 +60,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 1614,
+  "count" : 1630,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -29517,14 +29517,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1582",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en cardiologie",
+    "display" : "Prise en charge spécialisée et continue en cardiologie",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29533,14 +29533,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1583",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie cardiaque et gros vaisseaux",
+    "display" : "Prise en charge spécialisée et continue en chirurgie cardiaque et gros vaisseaux",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29549,14 +29549,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1584",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie digestive et viscérale",
+    "display" : "Prise en charge spécialisée et continue en chirurgie digestive et viscérale",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29565,14 +29565,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1585",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie maxillo-faciale et stomatologie",
+    "display" : "Prise en charge spécialisée et continue en chirurgie maxillo-faciale et stomatologie",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29581,14 +29581,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1586",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie orthopédique et traumatologie",
+    "display" : "Prise en charge spécialisée et continue en chirurgie orthopédique et traumatologie",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29597,14 +29597,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1587",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie pédiatrique orthopédique et traumatologie",
+    "display" : "Prise en charge spécialisée et continue en chirurgie pédiatrique orthopédique et traumatologie",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29613,14 +29613,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1588",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie pédiatrique viscérale et digestive",
+    "display" : "Prise en charge spécialisée et continue en chirurgie pédiatrique viscérale et digestive",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29629,14 +29629,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1589",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie thoracique et pulmonaire",
+    "display" : "Prise en charge spécialisée et continue en chirurgie thoracique et pulmonaire",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29645,14 +29645,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1590",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie vasculaire",
+    "display" : "Prise en charge spécialisée et continue en chirurgie vasculaire",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29661,14 +29661,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1591",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en dermatologie",
+    "display" : "Prise en charge spécialisée et continue en dermatologie",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29677,14 +29677,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1592",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en endocrinologie",
+    "display" : "Prise en charge spécialisée et continue en endocrinologie",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29693,14 +29693,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1593",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en gériatrie (gérontologie)",
+    "display" : "Prise en charge spécialisée et continue en gériatrie (gérontologie)",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29709,14 +29709,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1594",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en gynécologie",
+    "display" : "Prise en charge spécialisée et continue en gynécologie",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29725,14 +29725,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1595",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en hématologie",
+    "display" : "Prise en charge spécialisée et continue en hématologie",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29741,14 +29741,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1596",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en hépato-gastro-entérologie",
+    "display" : "Prise en charge spécialisée et continue en hépato-gastro-entérologie",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29757,14 +29757,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1597",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en maladies infectieuses et tropicales",
+    "display" : "Prise en charge spécialisée et continue en maladies infectieuses et tropicales",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29773,14 +29773,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1598",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en médecine interne",
+    "display" : "Prise en charge spécialisée et continue en médecine interne",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29789,14 +29789,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1599",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en médecine vasculaire",
+    "display" : "Prise en charge spécialisée et continue en médecine vasculaire",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29805,14 +29805,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1600",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en néphrologie (dont dialyse)",
+    "display" : "Prise en charge spécialisée et continue en néphrologie (dont dialyse)",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29821,14 +29821,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1601",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en neurochirurgie",
+    "display" : "Prise en charge spécialisée et continue en neurochirurgie",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29837,14 +29837,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1602",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en neurologie",
+    "display" : "Prise en charge spécialisée et continue en neurologie",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29853,14 +29853,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1603",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en oncologie",
+    "display" : "Prise en charge spécialisée et continue en oncologie",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29869,14 +29869,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1604",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en ophtalmologie",
+    "display" : "Prise en charge spécialisée et continue en ophtalmologie",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29885,14 +29885,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1605",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en oto-rhino-laryngologie (ORL) et chirurgie cervico-faciale",
+    "display" : "Prise en charge spécialisée et continue en oto-rhino-laryngologie (ORL) et chirurgie cervico-faciale",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29901,14 +29901,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1606",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en pédiatrie",
+    "display" : "Prise en charge spécialisée et continue en pédiatrie",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29917,14 +29917,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1607",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en pneumologie",
+    "display" : "Prise en charge spécialisée et continue en pneumologie",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29933,14 +29933,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1608",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en rhumatologie",
+    "display" : "Prise en charge spécialisée et continue en rhumatologie",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29949,14 +29949,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1609",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en urologie",
+    "display" : "Prise en charge spécialisée et continue en urologie",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29965,14 +29965,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1610",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en caisson oxygène hyperbare",
+    "display" : "Prise en charge spécialisée et continue en caisson oxygène hyperbare",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29981,14 +29981,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1611",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie de la main SOS main",
+    "display" : "Prise en charge spécialisée et continue en chirurgie de la main SOS main",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29997,14 +29997,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1612",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en odontologie",
+    "display" : "Prise en charge spécialisée et continue en odontologie",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -30013,14 +30013,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1613",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en psychiatrie (dont équipe de liaison)",
+    "display" : "Prise en charge spécialisée et continue en psychiatrie (dont équipe de liaison)",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -30029,14 +30029,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1614",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en radiologie interventionnelle",
+    "display" : "Prise en charge spécialisée et continue en radiologie interventionnelle",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -30045,14 +30045,270 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1615",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) rachis",
+    "display" : "Prise en charge spécialisée et continue rachis",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1616",
+    "display" : "Pédicurie-podologie conventionnée du pied diabétique de grade 2 et 3",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1617",
+    "display" : "Pédicurie-podologie conventionnée soins de support oncologie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1618",
+    "display" : "Orthoplastie (appareillage d’orteil)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1619",
+    "display" : "Orthonyxie (appareillage d’ongle)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1620",
+    "display" : "Onychoplastie (reconstruction de l’ongle)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1621",
+    "display" : "Orthèse plantaire (semelle orthopédique)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1622",
+    "display" : "Bilan diagnostique podologique de la prévention de la chute",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1623",
+    "display" : "Rééducation du pied (sous la cheville)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1624",
+    "display" : "Contention nocturne",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1625",
+    "display" : "Soin de pédicurie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1626",
+    "display" : "Traitement de la verrue plantaire par azote liquide",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1627",
+    "display" : "Traitement sans douleur de l’ongle incarné par phénolisation (protocole de coopération)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1628",
+    "display" : "Prélèvement unguéal pour analyse biologique (protocole de coopération)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1629",
+    "display" : "Confection de semelle de comblement en polyuréthane (PU) pour amputation partielle du pied",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1630",
+    "display" : "Prise en charge spécialisée et continue en pédopsychiatrie (dont équipe de liaison)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1631",
+    "display" : "Prise en charge spécialisée et continue SOS main",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",

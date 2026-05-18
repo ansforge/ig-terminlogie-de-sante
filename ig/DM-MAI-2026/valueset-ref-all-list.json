@@ -909,7 +909,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J16-ActeSpecifique-ROR/FHIR/JDV-J16-ActeSpecifique-ROR",
-    "version" : "20260505120000",
+    "version" : "20260601120000",
     "status" : "active",
     "name" : "JDV_J16_ActeSpecifique_ROR",
     "title" : null,
@@ -1021,7 +1021,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J17-ActiviteOperationnelle-ROR/FHIR/JDV-J17-ActiviteOperationnelle-ROR",
-    "version" : "20260330120000",
+    "version" : "20260601120000",
     "status" : "active",
     "name" : "JDV_J17_ActiviteOperationnelle_ROR",
     "title" : null,
@@ -1127,7 +1127,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J18-EquipementSpecifique-ROR/FHIR/JDV-J18-EquipementSpecifique-ROR",
-    "version" : "20251222120000",
+    "version" : "20260601120000",
     "status" : "active",
     "name" : "JDV_J18_EquipementSpecifique_ROR",
     "title" : null,
@@ -1350,7 +1350,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J198-FonctionLieu-ROR/FHIR/JDV-J198-FonctionLieu-ROR",
-    "version" : "20251222120000",
+    "version" : "20260601120000",
     "status" : "active",
     "name" : "JDV_J198_FonctionLieu_ROR",
     "title" : null,
@@ -1681,12 +1681,13 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J225-CanalCommunication-ROR/FHIR/JDV-J225-CanalCommunication-ROR",
-    "version" : "20260330120000",
+    "version" : "20260601120000",
     "status" : "active",
     "name" : "JDV_J225_CanalCommunication_ROR",
     "title" : null,
     "description" : "Canal de communication",
-    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R200-CanalCommunication/FHIR/TRE-R200-CanalCommunication"],
+    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R256-TypeMessagerie/FHIR/TRE-R256-TypeMessagerie",
+    "https://mos.esante.gouv.fr/NOS/TRE_R200-CanalCommunication/FHIR/TRE-R200-CanalCommunication"],
     "oids" : ["1.2.250.1.213.3.4.57"],
     "sources" : ["1.2.250.1.213.3.4.57"]
   },
@@ -9701,8 +9702,8 @@
     "systems" : ["https://smt.esante.gouv.fr/terminologie-bdpm"],
     "uses" : {
     },
-    "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM",
-    "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD"
+    "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD",
+    "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM"
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-cip_ucd?vs",

@@ -766,7 +766,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique",
-    "version" : "20260505120000",
+    "version" : "20260601120000",
     "status" : "active",
     "name" : "TRE_R210_ActeSpecifique",
     "title" : null,
@@ -775,7 +775,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
-    "version" : "20260505120000",
+    "version" : "20260601120000",
     "status" : "active",
     "name" : "TRE_R211_ActiviteOperationnelle",
     "title" : null,
@@ -784,7 +784,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement",
-    "version" : "20251222120000",
+    "version" : "20260601120000",
     "status" : "active",
     "name" : "TRE_R212_Equipement",
     "title" : null,
@@ -1909,7 +1909,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R343-FonctionLieu/FHIR/TRE-R343-FonctionLieu",
-    "version" : "20251222120000",
+    "version" : "20260601120000",
     "status" : "active",
     "name" : "TRE_R343_FonctionLieu",
     "title" : null,

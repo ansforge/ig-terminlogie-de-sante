@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J18-EquipementSpecifique-ROR/FHIR/JDV-J18-EquipementSpecifique-ROR | *Version*:20251222120000 | |
-| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J18_EquipementSpecifique_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J18-EquipementSpecifique-ROR/FHIR/JDV-J18-EquipementSpecifique-ROR | *Version*:20260601120000 | |
+| Active as of 2026-06-01 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J18_EquipementSpecifique_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.6 | | |
 
  
@@ -71,11 +71,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.6"
   }],
-  "version" : "20251222120000",
+  "version" : "20260601120000",
   "name" : "JDV_J18_EquipementSpecifique_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-22T12:00:00+01:00",
+  "date" : "2026-06-01T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Equipement spécifique - ROR",
   "jurisdiction" : [{
@@ -706,6 +706,38 @@ Requête sur le SMT
       {
         "code" : "235",
         "display" : "Espace de consommation de drogues à fumer"
+      },
+      {
+        "code" : "236",
+        "display" : "Appareil de thermoformage"
+      },
+      {
+        "code" : "237",
+        "display" : "Appareil de thermosoudage"
+      },
+      {
+        "code" : "238",
+        "display" : "Plateforme de force (étude de la posture)"
+      },
+      {
+        "code" : "239",
+        "display" : "Plateforme de pression (étude de la marche)"
+      },
+      {
+        "code" : "240",
+        "display" : "Piste de marche"
+      },
+      {
+        "code" : "241",
+        "display" : "Tapis de course"
+      },
+      {
+        "code" : "242",
+        "display" : "Système vidéo d'analyse de la marche et de la course"
+      },
+      {
+        "code" : "243",
+        "display" : "Semelles avec capteurs embarqués"
       }]
     }]
   }
