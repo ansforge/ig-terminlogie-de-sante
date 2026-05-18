@@ -10,10 +10,10 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.11"
-* ^version = "20260505120000"
+* ^version = "20260601120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-05-05T12:00:00+01:00"
+* ^date = "2026-06-01T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
@@ -13251,3 +13251,94 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1615 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1615 ^property[+].code = #status
 * #1615 ^property[=].valueCode = #active
+* #1616 "Pédicurie-podologie conventionnée du pied diabétique de grade 2 et 3"
+* #1616 ^property[0].code = #dateValid
+* #1616 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1616 ^property[+].code = #dateMaj
+* #1616 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1616 ^property[+].code = #status
+* #1616 ^property[=].valueCode = #active
+* #1617 "Pédicurie-podologie conventionnée soins de support oncologie"
+* #1617 ^property[0].code = #dateValid
+* #1617 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1617 ^property[+].code = #dateMaj
+* #1617 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1617 ^property[+].code = #status
+* #1617 ^property[=].valueCode = #active
+* #1618 "Orthoplastie (appareillage d’orteil)"
+* #1618 ^property[0].code = #dateValid
+* #1618 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1618 ^property[+].code = #dateMaj
+* #1618 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1618 ^property[+].code = #status
+* #1618 ^property[=].valueCode = #active
+* #1619 "Orthonyxie (appareillage d’ongle)"
+* #1619 ^property[0].code = #dateValid
+* #1619 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1619 ^property[+].code = #dateMaj
+* #1619 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1619 ^property[+].code = #status
+* #1619 ^property[=].valueCode = #active
+* #1620 "Onychoplastie (reconstruction de l’ongle)"
+* #1620 ^property[0].code = #dateValid
+* #1620 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1620 ^property[+].code = #dateMaj
+* #1620 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1620 ^property[+].code = #status
+* #1620 ^property[=].valueCode = #active
+* #1621 "Orthèse plantaire (semelle orthopédique)"
+* #1621 ^property[0].code = #dateValid
+* #1621 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1621 ^property[+].code = #dateMaj
+* #1621 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1621 ^property[+].code = #status
+* #1621 ^property[=].valueCode = #active
+* #1622 "Bilan diagnostique podologique de la prévention de la chute"
+* #1622 ^property[0].code = #dateValid
+* #1622 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1622 ^property[+].code = #dateMaj
+* #1622 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1622 ^property[+].code = #status
+* #1622 ^property[=].valueCode = #active
+* #1623 "Rééducation du pied (sous la cheville)"
+* #1623 ^property[0].code = #dateValid
+* #1623 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1623 ^property[+].code = #dateMaj
+* #1623 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1623 ^property[+].code = #status
+* #1623 ^property[=].valueCode = #active
+* #1624 "Contention nocturne"
+* #1624 ^property[0].code = #dateValid
+* #1624 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1624 ^property[+].code = #dateMaj
+* #1624 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1624 ^property[+].code = #status
+* #1624 ^property[=].valueCode = #active
+* #1625 "Soin de pédicurie"
+* #1625 ^property[0].code = #dateValid
+* #1625 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1625 ^property[+].code = #dateMaj
+* #1625 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1625 ^property[+].code = #status
+* #1625 ^property[=].valueCode = #active
+* #1626 "Traitement de la verrue plantaire par azote liquide"
+* #1626 ^property[0].code = #dateValid
+* #1626 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1626 ^property[+].code = #dateMaj
+* #1626 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1626 ^property[+].code = #status
+* #1626 ^property[=].valueCode = #active
+* #1627 "Traitement sans douleur de l’ongle incarné par phénolisation (protocole de coopération)"
+* #1627 ^property[0].code = #dateValid
+* #1627 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1627 ^property[+].code = #dateMaj
+* #1627 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1627 ^property[+].code = #status
+* #1627 ^property[=].valueCode = #active
+* #1628 "Prélèvement unguéal pour analyse biologique (protocole de coopération)"
+* #1628 ^property[0].code = #dateValid
+* #1628 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1628 ^property[+].code = #dateMaj
+* #1628 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #1628 ^property[+].code = #status
+* #1628 ^property[=].valueCode = #active
