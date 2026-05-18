@@ -2529,21 +2529,21 @@
     "oids" : ["1.2.250.1.213.1.6.1.256"]
   },
   {
-    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r364-type-document-structure",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r364-type-document-administratif",
     "version" : "20241230120000",
     "status" : "active",
-    "name" : "TreR364TypeDocumentStructure",
-    "title" : "Tre R364 Type Document Structure",
-    "description" : "Nomenclature des types de documents des structures (PM, EGE, activites EGE, engagments) ( exemple : agrément, convention...)",
+    "name" : "TreR364TypeDocumentAdministratif",
+    "title" : "Tre R364 Type Document Administratif",
+    "description" : "Nomenclature des types de documents administratif ( exemple : agrément, convention...) Remarque : Cette nomenclature est initialisée avec les types de documents informatifs et justificatifs pouvant être associés à une entité FINESS",
     "oids" : ["1.2.250.1.213.1.6.1.258"]
   },
   {
-    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet-structure",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet",
     "version" : "20241230120000",
     "status" : "active",
-    "name" : "TreR365EtatObjetStructure",
-    "title" : "Tre R365 Etat Objet Structure",
-    "description" : "Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites, engagements) organisés en etat actifs et en etats inactifs.",
+    "name" : "TreR365EtatObjet",
+    "title" : "Tre R365 Etat Objet",
+    "description" : "Nomenclature des états élémentaires d'un objet du MOS organisés en etat actifs et en etats inactifs. Remarque : Cette nomenclature est initialisée avec les états que peuvent porter les entités et activités FINESS+",
     "oids" : ["1.2.250.1.213.1.6.1.259"]
   },
   {
@@ -2610,12 +2610,12 @@
     "oids" : ["1.2.250.1.213.1.6.1.290"]
   },
   {
-    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r376-type-evenement-structure",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r376-type-evenement-administratif",
     "version" : "20241230120000",
     "status" : "active",
-    "name" : "TreR376TypeEvenementStructure",
-    "title" : "Tre R376 Type Evenement Structure",
-    "description" : "Nomenclature des événements administratifs pertinents pour un cycle de vie d'un Objet de Santé (du MOS)\nRemarque : Cette nomenclature est juste initialisée avec les codes FINESS+",
+    "name" : "TreR376TypeEvenementAdministratif",
+    "title" : "Tre R376 Type Evenement Administratif",
+    "description" : "Nomenclature des événements administratifs pertinents pour un cycle de vie d'un Objet de Santé (du MOS) Remarque : Cette nomenclature est initialisée avec les évenements affectant le cycle de vie des entités et activités enregistrées dans FINESS+",
     "oids" : ["1.2.250.1.213.1.6.1.291"]
   },
   {
@@ -2691,12 +2691,12 @@
     "oids" : ["1.2.250.1.213.1.6.1.300"]
   },
   {
-    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
     "version" : "20241230120000",
     "status" : "active",
-    "name" : "TreR386MacroEtatObjetStructure",
-    "title" : "Tre R386 Macro Etat Objet Structure",
-    "description" : "Nomenclature des macro-etat des structures (PM, EGE, Activites, engagements) qui dérivent de l'état de l'objet. \nPermet de distinguer les structures actives de celles inactives.",
+    "name" : "TreR386MacroEtatObjetAdministratif",
+    "title" : "Tre R386 Macro Etat Objet Administratif",
+    "description" : "Nomenclature des macro-etat des structures FINESS qui dérivent de l'état de l'objet. Permet de distinguer les structures actives de celles inactives.",
     "oids" : ["1.2.250.1.213.1.6.1.301"]
   },
   {

@@ -31,7 +31,7 @@
     "name" : "JdvJ305TypeGroupementFiness",
     "title" : "Jdv J305 Type Groupement Finess",
     "description" : "Jeu de valeurs FINESS contenant les types de groupement utilisables dans FINESS. Groupement de coopération conventionnelle ou Groupement de coopération organique",
-    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r435-type-groupement-structure"],
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r435-type-groupement"],
     "oids" : ["1.2.250.1.213.1.6.1.313"],
     "sources" : ["1.2.250.1.213.1.6.1.313"]
   },
@@ -5657,7 +5657,7 @@
     "name" : "JdvJ294DocumentJustificatifFiness",
     "title" : "Jdv J294 Document Justificatif Finess",
     "description" : "Jeu de valeurs FINESS contenant les types de documents justificatifs pouvant être associés à une entité FINESS",
-    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r364-type-document-structure"],
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r364-type-document-administratif"],
     "oids" : ["1.2.250.1.213.1.6.1.268"],
     "sources" : ["1.2.250.1.213.1.6.1.268"]
   },
@@ -5668,7 +5668,7 @@
     "name" : "JdvJ295DocumentInformatifFiness",
     "title" : "Jdv J295 Document Informatif Finess",
     "description" : "Jeu de valeurs FINESS contenant les types de documents informatifs pouvant être associés à une entité FINESS",
-    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r364-type-document-structure"],
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r364-type-document-administratif"],
     "oids" : ["1.2.250.1.213.1.6.1.269"],
     "sources" : ["1.2.250.1.213.1.6.1.269"]
   },
@@ -5690,7 +5690,7 @@
     "name" : "JdvJ297TypeEvenementAdministratifFiness",
     "title" : "Jdv J297 Type Evenement Administratif Finess",
     "description" : "Jeu de valeurs FINESS contenant les événements affectant le cycle de vie des entités et activités enrgeistrées dans FINESS+",
-    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r376-type-evenement-structure"],
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r376-type-evenement-administratif"],
     "oids" : ["1.2.250.1.213.1.6.1.304"],
     "sources" : ["1.2.250.1.213.1.6.1.304"]
   },
@@ -5701,7 +5701,7 @@
     "name" : "JdvJ298MacroEtatObjetAdministratifFiness",
     "title" : "Jdv J298 Macro Etat Objet Administratif Finess",
     "description" : "Jeu de valeurs FINESS contenant les macro-etat des structures FINESS qui dérivent de l'état de l'objet. Permet de distinguer les structures actives de celles inactives.",
-    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure"],
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"],
     "oids" : ["1.2.250.1.213.1.6.1.306"],
     "sources" : ["1.2.250.1.213.1.6.1.306"]
   },
@@ -6262,7 +6262,7 @@
     "name" : "JdvJ371EtatObjetAdministratifFiness",
     "title" : "Jdv J371 Etat Objet Administratif Finess",
     "description" : "Jeu de valeurs FINESS contenant les états élémentaires que peuvent porter les entités et activités FINESS+",
-    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet-structure"],
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet"],
     "oids" : ["1.2.250.1.213.1.6.1.305"],
     "sources" : ["1.2.250.1.213.1.6.1.305"]
   },
@@ -10000,8 +10000,8 @@
     "systems" : ["https://smt.esante.gouv.fr/terminologie-bdpm"],
     "uses" : {
     },
-    "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD",
-    "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM"
+    "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM",
+    "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD"
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-cip_ucd?vs",
@@ -10026,8 +10026,8 @@
     "systems" : ["https://smt.esante.gouv.fr/terminologie-nuva"],
     "uses" : {
     },
-    "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD",
-    "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM"
+    "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM",
+    "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD"
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-sms?vs",

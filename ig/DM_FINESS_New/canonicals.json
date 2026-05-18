@@ -4685,19 +4685,19 @@
   "name" : "VsTreR362TypeBudgetAll"
 },
 {
-  "id" : "tre-r364-type-document-structure",
+  "id" : "tre-r364-type-document-administratif",
   "type" : "CodeSystem",
-  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r364-type-document-structure",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r364-type-document-administratif",
   "version" : "20241230120000",
-  "name" : "TreR364TypeDocumentStructure",
+  "name" : "TreR364TypeDocumentAdministratif",
   "oids" : ["1.2.250.1.213.1.6.1.258"]
 },
 {
-  "id" : "tre-r365-etat-objet-structure",
+  "id" : "tre-r365-etat-objet",
   "type" : "CodeSystem",
-  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet-structure",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet",
   "version" : "20241230120000",
-  "name" : "TreR365EtatObjetStructure",
+  "name" : "TreR365EtatObjet",
   "oids" : ["1.2.250.1.213.1.6.1.259"]
 },
 {
@@ -4785,11 +4785,11 @@
   "name" : "VsTreR375ModeFinancementAll"
 },
 {
-  "id" : "tre-r376-type-evenement-structure",
+  "id" : "tre-r376-type-evenement-administratif",
   "type" : "CodeSystem",
-  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r376-type-evenement-structure",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r376-type-evenement-administratif",
   "version" : "20241230120000",
-  "name" : "TreR376TypeEvenementStructure",
+  "name" : "TreR376TypeEvenementAdministratif",
   "oids" : ["1.2.250.1.213.1.6.1.291"]
 },
 {
@@ -4899,11 +4899,11 @@
   "name" : "VsTreR385DeclarationActDeSoinAmmAll"
 },
 {
-  "id" : "tre-r386-macro-etat-objet-structure",
+  "id" : "tre-r386-macro-etat-objet-administratif",
   "type" : "CodeSystem",
-  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
   "version" : "20241230120000",
-  "name" : "TreR386MacroEtatObjetStructure",
+  "name" : "TreR386MacroEtatObjetAdministratif",
   "oids" : ["1.2.250.1.213.1.6.1.301"]
 },
 {

@@ -81,7 +81,7 @@ Requête sur le SMT
   "description" : "Jeu de valeurs FINESS contenant les états élémentaires que peuvent porter les entités et activités FINESS+",
   "compose" : {
     "include" : [{
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet-structure",
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet",
       "filter" : [{
         "property" : "finess",
         "op" : "=",

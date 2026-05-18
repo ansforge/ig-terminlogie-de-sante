@@ -33,6 +33,8 @@ Requête sur le SMT
 
 ### Expansion
 
+No Expansion for this valueset (Unknown Code System)
+
 -------
 
  Explanation of the columns that may appear on this page: 
@@ -87,7 +89,7 @@ Requête sur le SMT
   }],
   "compose" : {
     "include" : [{
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r435-type-groupement-structure",
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r435-type-groupement",
       "filter" : [{
         "property" : "finess",
         "op" : "=",

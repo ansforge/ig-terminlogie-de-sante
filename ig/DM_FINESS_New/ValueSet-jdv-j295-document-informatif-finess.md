@@ -81,7 +81,7 @@ Requête sur le SMT
   "description" : "Jeu de valeurs FINESS contenant les types de documents informatifs pouvant être associés à une entité FINESS",
   "compose" : {
     "include" : [{
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r364-type-document-structure",
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r364-type-document-administratif",
       "filter" : [{
         "property" : "documentInformatifFiness",
         "op" : "=",

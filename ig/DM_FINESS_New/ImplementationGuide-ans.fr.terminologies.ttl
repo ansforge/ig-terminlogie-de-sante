@@ -79,7 +79,7 @@
        fhir:l <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
      ] ;
      fhir:packageId [ fhir:v "hl7.fhir.uv.extensions.r4" ] ;
-     fhir:version [ fhir:v "5.2.0" ]
+     fhir:version [ fhir:v "5.3.0" ]
   ] ) ; # 
   fhir:definition [
      fhir:extension ( [
@@ -90882,11 +90882,11 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r364-type-document-structure> ;
-         fhir:reference [ fhir:v "CodeSystem/tre-r364-type-document-structure" ]
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r364-type-document-administratif> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r364-type-document-administratif" ]
        ] ;
-       fhir:name [ fhir:v "Tre R364 Type Document Structure" ] ;
-       fhir:description [ fhir:v "Nomenclature des types de documents des structures (PM, EGE, activites EGE, engagments) ( exemple : agrément, convention...)" ] ;
+       fhir:name [ fhir:v "Tre R364 Type Document Administratif" ] ;
+       fhir:description [ fhir:v "Nomenclature des types de documents administratif ( exemple : agrément, convention...) Remarque : Cette nomenclature est initialisée avec les types de documents informatifs et justificatifs pouvant être associés à une entité FINESS" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -90903,11 +90903,11 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r365-etat-objet-structure> ;
-         fhir:reference [ fhir:v "CodeSystem/tre-r365-etat-objet-structure" ]
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r365-etat-objet> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r365-etat-objet" ]
        ] ;
-       fhir:name [ fhir:v "Tre R365 Etat Objet Structure" ] ;
-       fhir:description [ fhir:v "Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites, engagements) organisés en etat actifs et en etats inactifs." ] ;
+       fhir:name [ fhir:v "Tre R365 Etat Objet" ] ;
+       fhir:description [ fhir:v "Nomenclature des états élémentaires d'un objet du MOS organisés en etat actifs et en etats inactifs. Remarque : Cette nomenclature est initialisée avec les états que peuvent porter les entités et activités FINESS+" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -91071,11 +91071,11 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r376-type-evenement-structure> ;
-         fhir:reference [ fhir:v "CodeSystem/tre-r376-type-evenement-structure" ]
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r376-type-evenement-administratif> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r376-type-evenement-administratif" ]
        ] ;
-       fhir:name [ fhir:v "Tre R376 Type Evenement Structure" ] ;
-       fhir:description [ fhir:v "Nomenclature des événements administratifs pertinents pour un cycle de vie d'un Objet de Santé (du MOS)\nRemarque : Cette nomenclature est juste initialisée avec les codes FINESS+" ] ;
+       fhir:name [ fhir:v "Tre R376 Type Evenement Administratif" ] ;
+       fhir:description [ fhir:v "Nomenclature des événements administratifs pertinents pour un cycle de vie d'un Objet de Santé (du MOS) Remarque : Cette nomenclature est initialisée avec les évenements affectant le cycle de vie des entités et activités enregistrées dans FINESS+" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -91260,11 +91260,11 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r386-macro-etat-objet-structure> ;
-         fhir:reference [ fhir:v "CodeSystem/tre-r386-macro-etat-objet-structure" ]
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r386-macro-etat-objet-administratif> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r386-macro-etat-objet-administratif" ]
        ] ;
-       fhir:name [ fhir:v "Tre R386 Macro Etat Objet Structure" ] ;
-       fhir:description [ fhir:v "Nomenclature des macro-etat des structures (PM, EGE, Activites, engagements) qui dérivent de l'état de l'objet. \nPermet de distinguer les structures actives de celles inactives." ] ;
+       fhir:name [ fhir:v "Tre R386 Macro Etat Objet Administratif" ] ;
+       fhir:description [ fhir:v "Nomenclature des macro-etat des structures FINESS qui dérivent de l'état de l'objet. Permet de distinguer les structures actives de celles inactives." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false

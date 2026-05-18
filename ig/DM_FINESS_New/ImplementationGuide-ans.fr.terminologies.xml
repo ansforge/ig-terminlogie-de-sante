@@ -45,7 +45,7 @@
     </extension>
     <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
     <packageId value="hl7.fhir.uv.extensions.r4"/>
-    <version value="5.2.0"/>
+    <version value="5.3.0"/>
   </dependsOn>
   <definition>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -34045,10 +34045,10 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/tre-r364-type-document-structure"/>
+        <reference value="CodeSystem/tre-r364-type-document-administratif"/>
       </reference>
-      <name value="Tre R364 Type Document Structure"/>
-      <description value="Nomenclature des types de documents des structures (PM, EGE, activites EGE, engagments) ( exemple : agrément, convention...)"/>
+      <name value="Tre R364 Type Document Administratif"/>
+      <description value="Nomenclature des types de documents administratif ( exemple : agrément, convention...) Remarque : Cette nomenclature est initialisée avec les types de documents informatifs et justificatifs pouvant être associés à une entité FINESS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -34056,10 +34056,10 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/tre-r365-etat-objet-structure"/>
+        <reference value="CodeSystem/tre-r365-etat-objet"/>
       </reference>
-      <name value="Tre R365 Etat Objet Structure"/>
-      <description value="Nomenclature des états élémentaires d'un objet Structure (PM, EGE, Activites, engagements) organisés en etat actifs et en etats inactifs."/>
+      <name value="Tre R365 Etat Objet"/>
+      <description value="Nomenclature des états élémentaires d'un objet du MOS organisés en etat actifs et en etats inactifs. Remarque : Cette nomenclature est initialisée avec les états que peuvent porter les entités et activités FINESS+"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -34144,10 +34144,10 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/tre-r376-type-evenement-structure"/>
+        <reference value="CodeSystem/tre-r376-type-evenement-administratif"/>
       </reference>
-      <name value="Tre R376 Type Evenement Structure"/>
-      <description value="Nomenclature des événements administratifs pertinents pour un cycle de vie d'un Objet de Santé (du MOS)&#xA;Remarque : Cette nomenclature est juste initialisée avec les codes FINESS+"/>
+      <name value="Tre R376 Type Evenement Administratif"/>
+      <description value="Nomenclature des événements administratifs pertinents pour un cycle de vie d'un Objet de Santé (du MOS) Remarque : Cette nomenclature est initialisée avec les évenements affectant le cycle de vie des entités et activités enregistrées dans FINESS+"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -34243,10 +34243,10 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/tre-r386-macro-etat-objet-structure"/>
+        <reference value="CodeSystem/tre-r386-macro-etat-objet-administratif"/>
       </reference>
-      <name value="Tre R386 Macro Etat Objet Structure"/>
-      <description value="Nomenclature des macro-etat des structures (PM, EGE, Activites, engagements) qui dérivent de l'état de l'objet. &#xA;Permet de distinguer les structures actives de celles inactives."/>
+      <name value="Tre R386 Macro Etat Objet Administratif"/>
+      <description value="Nomenclature des macro-etat des structures FINESS qui dérivent de l'état de l'objet. Permet de distinguer les structures actives de celles inactives."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

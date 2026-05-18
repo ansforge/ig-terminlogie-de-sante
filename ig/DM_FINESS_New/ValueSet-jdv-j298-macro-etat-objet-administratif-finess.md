@@ -81,7 +81,7 @@ Requête sur le SMT
   "description" : "Jeu de valeurs FINESS contenant les macro-etat des structures FINESS qui dérivent de l'état de l'objet. Permet de distinguer les structures actives de celles inactives.",
   "compose" : {
     "include" : [{
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-structure",
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
       "filter" : [{
         "property" : "finess",
         "op" : "=",

@@ -12,7 +12,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Terminology Server Report for Terminologies</h1>
- <p>Generated Wed May 13 11:10:00 UTC 2026, FHIR version 4.0.1 for ans.fr.terminologies#0.1.0 (canonical = <a href="https://interop.esante.gouv.fr/terminologies">https://interop.esante.gouv.fr/terminologies</a> (<a href="https://interop.esante.gouv.fr/terminologies/history.html">history</a>))</p>
+ <p>Generated Mon May 18 14:03:21 UTC 2026, FHIR version 4.0.1 for ans.fr.terminologies#0.1.0 (canonical = <a href="https://interop.esante.gouv.fr/terminologies">https://interop.esante.gouv.fr/terminologies</a> (<a href="https://interop.esante.gouv.fr/terminologies/history.html">history</a>))</p>
 <p>This page provides a report on which terminology servers were used while publishing this IG. Note that terminology caching reduces the server hit count - this page only reports content that wasn't cached</p>
 <h2>Terminology Parameters</h2>
 <ul>
@@ -781,6 +781,13 @@
     <td>null</td>
     <td>http://loinc.org</td>
     <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.fhir.de/fhir</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>null</td>
+    <td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r435-type-groupement</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
   </tr>
   <tr>
     <td>Found authoritative server http://tx.fhir.org/r4</td>
@@ -3373,6 +3380,13 @@
     <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx-nordics.fhir.org/fhir/r4</td>
   </tr>
   <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>null</td>
+    <td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r435-type-groupement</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+  </tr>
+  <tr>
     <td>Use primary server for http://loinc.org</td>
     <td>https://tx.fhir.org/r4</td>
     <td>null</td>
@@ -4168,6 +4182,27 @@
     <td>https://smt.esante.gouv.fr/fhir</td>
     <td></td>
     <td>https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>null</td>
+    <td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r435-type-groupement</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>null</td>
+    <td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r435-type-groupement</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td></td>
+    <td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r435-type-groupement</td>
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
   </tr>
   <tr>
@@ -7137,7 +7172,7 @@
 </table>
 <h2>Server: https://smt.esante.gouv.fr/fhir</h2>
 <a href="https://smt.esante.gouv.fr/fhir"></a>
-<p>Use Count: 599. Code Systems used: </p>
+<p>Use Count: 607. Code Systems used: </p>
 <table class="grid">
   <tr>
     <th>
@@ -7249,6 +7284,12 @@
     <td>https://smt.esante.gouv.fr/fhir/CodeSystem/TreR360TypeRoleEntiteGroupe</td>
     <td>0</td>
     <td>1</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r435-type-groupement</td>
+    <td>1</td>
+    <td>4</td>
     <td></td>
   </tr>
   <tr>
@@ -7422,6 +7463,7 @@
   <li>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statuts-bilan-projet-personnalise?vs</li>
   <li>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise?vs</li>
   <li>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour?vs</li>
+  <li>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r435-type-groupement</li>
   <li>https://smt.esante.gouv.fr/terminologie-PCS/</li>
   <li>https://smt.esante.gouv.fr/terminologie-SERAFINPH?vs</li>
   <li>https://smt.esante.gouv.fr/terminologie-adicap</li>
