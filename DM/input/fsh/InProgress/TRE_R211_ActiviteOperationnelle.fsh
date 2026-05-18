@@ -10,10 +10,10 @@ Description: "Activite Operationnelle"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.12"
-* ^version = "20260505120000"
+* ^version = "20260601120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-05-05T12:00:00+01:00"
+* ^date = "2026-06-01T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
@@ -1670,11 +1670,13 @@ Description: "Activite Operationnelle"
 * #200 ^property[=].valueDateTime = "2023-05-26T12:00:00+01:00"
 * #200 ^property[+].code = #status
 * #200 ^property[=].valueCode = #active
-* #201 "Pédicure-Podologie" "Discipline paramédicale qualifiée pour traiter directement les affections épidermiques, limitées aux couches cornées et aux affections unguéales du pied, à l'exclusion de toute intervention chirurgicale, pour pratiquer les soins d'hygiène, pour confectionner et appliquer des semelles destinées à prévenir ou à soulager les affections épidermiques, pour analyser et évaluer les troubles morphostatiques et dynamiques du pied et élaborer un diagnostic de pédicurie-podologie en tenant compte de la statique et de la dynamique du pied, pour renouveler les prescriptions médicales initiales d'orthèses plantaires."
+* #201 "Pédicurie-Podologie (bilan diagnostic et mise en œuvre des activités thérapeutiques si nécessaire)" "Discipline paramédicale qualifiée pour traiter directement les affections épidermiques, limitées aux couches cornées et aux affections unguéales du pied, à l'exclusion de toute intervention chirurgicale, pour pratiquer les soins d'hygiène, pour confectionner et appliquer des semelles destinées à prévenir ou à soulager les affections épidermiques, pour analyser et évaluer les troubles morphostatiques et dynamiques du pied et élaborer un diagnostic de pédicurie-podologie en tenant compte de la statique et de la dynamique du pied, pour renouveler les prescriptions médicales initiales d'orthèses plantaires."
 * #201 ^property[0].code = #dateValid
+* #201 ^designation.language = #fr-FR
+* #201 ^designation.value = "Pédicurie-Podologie (bilan diagnostic et mise en œuvre des act. thérapeutiques)"
 * #201 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #201 ^property[+].code = #dateMaj
-* #201 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #201 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #201 ^property[+].code = #status
 * #201 ^property[=].valueCode = #active
 * #202 "Réunion de Concertation Pluridisciplinaire (RCP) Appareil Digestif"
