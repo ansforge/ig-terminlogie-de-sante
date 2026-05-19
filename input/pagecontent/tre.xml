@@ -26,6 +26,7 @@
   "query" : " select  name as Name, 
                       Description,
                       STRFTIME('%d/%m/%Y',date(date)) date_maj,
+                      Status as Status,
                       Web 
               from    Resources 
               where   Type='CodeSystem'  
