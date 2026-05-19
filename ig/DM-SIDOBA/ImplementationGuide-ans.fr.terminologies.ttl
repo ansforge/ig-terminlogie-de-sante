@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "Terminologies"] ; # 
   fhir:title [ fhir:v "Terminologies  de Santé"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2026-05-11T15:21:10+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-05-19T13:50:07+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -63382,6 +63382,27 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j391-niveau-diplome-ms> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j391-niveau-diplome-ms" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J391 Niveau Diplome Ms" ] ;
+       fhir:description [ fhir:v "Niveau de diplôme." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j392-type-courrier-ms> ;
          fhir:reference [ fhir:v "ValueSet/jdv-j392-type-courrier-ms" ]
        ] ;
@@ -77304,6 +77325,27 @@
        ] ;
        fhir:name [ fhir:v "Tre R408 Type Enseignement Specialise" ] ;
        fhir:description [ fhir:v "Type d'enseignement spécialisé." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r412-niveau-diplome> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r412-niveau-diplome" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R412 Niveau Diplome" ] ;
+       fhir:description [ fhir:v "Niveau de diplôme." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false

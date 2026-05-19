@@ -6053,6 +6053,17 @@
     "sources" : ["1.2.250.1.213.3.4.230"]
   },
   {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j391-niveau-diplome-ms",
+    "version" : "20260601120000",
+    "status" : "draft",
+    "name" : "JdvJ391NiveauDiplomeMs",
+    "title" : "Jdv J391 Niveau Diplome Ms",
+    "description" : "Niveau de diplôme.",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-niveau-diplome"],
+    "oids" : ["1.2.250.1.213.3.4.231"],
+    "sources" : ["1.2.250.1.213.3.4.231"]
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j392-type-courrier-ms",
     "version" : "20260505120000",
     "status" : "draft",
@@ -6276,7 +6287,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j412-niveau-scolaire-ms",
-    "version" : "20260505120000",
+    "version" : "20260601120000",
     "status" : "draft",
     "name" : "JdvJ412NiveauScolaireMs",
     "title" : "Jdv J412 Niveau Scolaire Ms",

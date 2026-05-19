@@ -2966,6 +2966,15 @@
     "oids" : ["1.2.250.1.213.3.3.262"]
   },
   {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome",
+    "version" : "20260601120000",
+    "status" : "draft",
+    "name" : "TreR412NiveauDiplome",
+    "title" : "Tre R412 Niveau Diplome",
+    "description" : "Niveau de diplôme.",
+    "oids" : ["1.2.250.1.213.3.3.263"]
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r413-categorie-permis-conduire",
     "version" : "20260505120000",
     "status" : "draft",

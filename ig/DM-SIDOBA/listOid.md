@@ -367,6 +367,7 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | TreR406FormeActiviteSmsseRegulee | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee | 1.2.250.1.213.1.6.1.385 |
 | TreR407CompositionFoyer | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r407-composition-foyer | 1.2.250.1.213.3.3.261 |
 | TreR408TypeEnseignementSpecialise | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise | 1.2.250.1.213.3.3.262 |
+| TreR412NiveauDiplome | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome | 1.2.250.1.213.3.3.263 |
 | TreR413CategorieConduire | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r413-categorie-permis-conduire | 1.2.250.1.213.3.3.264 |
 | TreR414TypePermisConduire | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r414-type-permis-conduire | 1.2.250.1.213.3.3.265 |
 | TreR415UtilisationCanalCommunication | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r415-utilisation-canal-communication | 1.2.250.1.213.3.3.266 |

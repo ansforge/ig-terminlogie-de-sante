@@ -10,7 +10,7 @@
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-05-11T15:21:10+00:00",
+  "date" : "2026-05-19T13:50:07+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -29777,6 +29777,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-j391-niveau-diplome-ms"
+      },
+      "name" : "Jdv J391 Niveau Diplome Ms",
+      "description" : "Niveau de diplôme.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-j392-type-courrier-ms"
       },
       "name" : "Jdv J392 Type Courrier Ms",
@@ -37731,6 +37743,18 @@
       },
       "name" : "Tre R408 Type Enseignement Specialise",
       "description" : "Type d'enseignement spécialisé.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r412-niveau-diplome"
+      },
+      "name" : "Tre R412 Niveau Diplome",
+      "description" : "Niveau de diplôme.",
       "exampleBoolean" : false
     },
     {
