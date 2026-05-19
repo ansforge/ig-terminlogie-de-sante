@@ -1,15 +1,15 @@
-ValueSet: JdvJ413NiveauDiplomeMs
-Id: jdv-j413-niveau-diplome-ms
-Title: "Jdv J413 Niveau Diplome Ms"
+ValueSet: JdvJ391NiveauDiplomeMs
+Id: jdv-j391-niveau-diplome-ms
+Title: "Jdv J391 Niveau Diplome Ms"
 Description: "Niveau de diplôme."
 * ^meta.versionId = "1"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2026-06-01T12:00:00+01:00"
-* ^url = "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j413-niveau-diplome-ms"
+* ^url = "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j391-niveau-diplome-ms"
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:1.2.250.1.213.3.4.253"
+* ^identifier.value = "urn:oid:1.2.250.1.213.3.4.231"
 * ^version = "20260601120000"
 * ^status = #draft
 * ^experimental = false

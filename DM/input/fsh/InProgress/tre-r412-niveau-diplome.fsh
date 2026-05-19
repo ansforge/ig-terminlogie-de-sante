@@ -1,15 +1,15 @@
-CodeSystem: TreR429NiveauDiplome
-Id: tre-r429-niveau-diplome
-Title: "Tre R429 Niveau Diplome"
+CodeSystem: TreR412NiveauDiplome
+Id: tre-r412-niveau-diplome
+Title: "Tre R412 Niveau Diplome"
 Description: "Niveau de diplôme."
 * ^meta.versionId = "1"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2026-06-01T12:00:00+01:00"
-* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-niveau-diplome"
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome"
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:1.2.250.1.213.3.3.280"
+* ^identifier.value = "urn:oid:1.2.250.1.213.3.3.263"
 * ^version = "20260601120000"
 * ^status = #draft
 * ^experimental = false
