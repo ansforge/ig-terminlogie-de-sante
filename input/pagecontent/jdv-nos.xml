@@ -24,7 +24,8 @@
   "columns" : [
     { "name" : "Name", "type" : "link", "source" : "Name", "target" : "Web"},
     { "name" : "Description", "type" : "markdown", "source" : "Description"},
-    { "name" : "Date MAJ", "type" : "markdown", "source" : "date_maj"}
+    { "name" : "Date MAJ", "type" : "markdown", "source" : "date_maj"},
+    { "name" : "Status", "type" : "markdown", "source" : "Status"}   
   ]
 } %}
     
