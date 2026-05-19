@@ -20,7 +20,7 @@
     <div id="orig">
 
    {% sql {
-  "query" : "select name as Name, Description,STRFTIME('%d/%m/%Y',date(date)) date_maj, Web from Resources where Type='ValueSet'  and  json_extract(Resources.json,'$.status') != 'retired'  order by name",
+  "query" : "select name as Name, Description,STRFTIME('%d/%m/%Y',date(date)) date_maj, Status as Status, Web from Resources where Type='ValueSet'  and  json_extract(Resources.json,'$.status') != 'retired'  order by name",
   "class" : "codes",
   "columns" : [
     { "name" : "Name", "type" : "link", "source" : "Name", "target" : "Web"},
