@@ -1,15 +1,15 @@
-CodeSystem: TreR428NiveauScolaire
-Id: tre-r428-niveau-scolaire
-Title: "Tre R428 Niveau Scolaire"
+CodeSystem: TreR414NiveauScolaire
+Id: tre-r414-niveau-scolaire
+Title: "Tre R414 Niveau Scolaire"
 Description: "Niveau scolaire de l'usager en France."
 * ^meta.versionId = "1"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2026-06-01T12:00:00+01:00"
-* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-niveau-scolaire"
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r414-niveau-scolaire"
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:1.2.250.1.213.3.3.279"
+* ^identifier.value = "urn:oid:1.2.250.1.213.3.3.265"
 * ^version = "20260601120000"
 * ^status = #draft
 * ^experimental = false
