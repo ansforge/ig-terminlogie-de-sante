@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://mos.esante.gouv.fr/NOS/JDV-MediaTypeCorpsCDANonStructure?vs | *Version*:1.1.0 |
-| Active as of 2026-05-19 | *Computable Name*:JDV_TRE_R222_MediaTypeCorpsCDANonStructure |
+| Active as of 2026-05-20 | *Computable Name*:JDV_TRE_R222_MediaTypeCorpsCDANonStructure |
 
  
 JDV avec l’ensemble des codes actifs de la TRE_R222_MediaTypeCorpsCDANonStructure 
@@ -68,7 +68,7 @@ Requête sur le SMT
   "title" : "JDV-MediaTypeCorpsCDANonStructure",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-19T12:50:53+00:00",
+  "date" : "2026-05-20T07:44:12+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
