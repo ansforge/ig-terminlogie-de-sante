@@ -6059,7 +6059,7 @@
     "name" : "JdvJ391NiveauDiplomeMs",
     "title" : "Jdv J391 Niveau Diplome Ms",
     "description" : "Niveau de diplôme permettant d'indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel.",
-    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-niveau-diplome"],
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome"],
     "oids" : ["1.2.250.1.213.3.4.231"],
     "sources" : ["1.2.250.1.213.3.4.231"]
   },
