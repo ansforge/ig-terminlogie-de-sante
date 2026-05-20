@@ -32,6 +32,7 @@ Destination d’usage du lieu
     "lastUpdated" : "2025-12-22T10:46:44.572+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
+  "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {

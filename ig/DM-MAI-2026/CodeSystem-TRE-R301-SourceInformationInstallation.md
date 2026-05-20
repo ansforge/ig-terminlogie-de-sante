@@ -32,6 +32,7 @@ Sources d’information possible concernant l’installation de l’activité so
     "lastUpdated" : "2026-02-23T17:57:23.228+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
+  "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {

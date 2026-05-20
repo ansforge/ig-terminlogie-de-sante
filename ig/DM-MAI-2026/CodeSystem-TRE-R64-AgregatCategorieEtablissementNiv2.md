@@ -32,6 +32,7 @@ Agrégats de catégories d’établissements niveau 2
     "lastUpdated" : "2026-06-01T18:18:29.224+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
+  "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {

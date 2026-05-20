@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_A28-TypeDiplome-Diplome-Profession-EPARS/FHIR/ASS-A28-TypeDiplome-Diplome-Profession-EPARS | *Version*:20240726120000 |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_A28-TypeDiplome-Diplome-Profession-EPARS/FHIR/ASS-A28-TypeDiplome-Diplome-Profession-EPARS | *Version*:20260601120000 |
 | Active as of 2024-07-26 | *Computable Name*:ASS_A28_TypeDiplome_Diplome_Profession_EPARS |
 | *Other Identifiers:*urn:oid:1.2.250.1.213.1.6.1.241 | |
 
@@ -45,7 +45,7 @@ Pour cette association, les fichiers suivants sont également disponibles :
   "identifier" : {
     "value" : "urn:oid:1.2.250.1.213.1.6.1.241"
   },
-  "version" : "20240726120000",
+  "version" : "20260601120000",
   "name" : "ASS_A28_TypeDiplome_Diplome_Profession_EPARS",
   "title" : "ASS_A28_TypeDiplome_Diplome_Profession_EPARS",
   "status" : "active",
@@ -600,7 +600,29 @@ Pour cette association, les fichiers suivants sont également disponibles :
     {
       "code" : "AU",
       "target" : [{
+        "code" : "DIP356",
+        "equivalence" : "equivalent",
+        "dependsOn" : [{
+          "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+          "value" : "72"
+        }]
+      }]
+    },
+    {
+      "code" : "AU",
+      "target" : [{
         "code" : "DIP357",
+        "equivalence" : "equivalent",
+        "dependsOn" : [{
+          "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+          "value" : "72"
+        }]
+      }]
+    },
+    {
+      "code" : "AU",
+      "target" : [{
+        "code" : "DIP358",
         "equivalence" : "equivalent",
         "dependsOn" : [{
           "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
@@ -615,7 +637,7 @@ Pour cette association, les fichiers suivants sont également disponibles :
         "equivalence" : "equivalent",
         "dependsOn" : [{
           "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
-          "value" : "93"
+          "value" : "72"
         }]
       }]
     },

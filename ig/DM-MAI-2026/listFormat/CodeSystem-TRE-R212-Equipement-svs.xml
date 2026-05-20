@@ -2197,6 +2197,24 @@
                   longDesignation="Semelles avec capteurs embarqués"
                   shortDesignation="Semelles avec capteurs embarqués"
                   descriptionMetier=""/>
+         <Concept code="244"
+                  codeSystem="1.2.250.1.213.3.3.10"
+                  dateFin=""
+                  dateMaj="20260601120000"
+                  dateValid="20260601120000"
+                  displayName="Caisson hyperbare"
+                  longDesignation="Caisson hyperbare"
+                  shortDesignation="Caisson hyperbare"
+                  descriptionMetier="Caisson hyperbare soumis à autorisation"/>
+         <Concept code="245"
+                  codeSystem="1.2.250.1.213.3.3.10"
+                  dateFin=""
+                  dateMaj="20260601120000"
+                  dateValid="20260601120000"
+                  displayName="Cyclotron à usage médical"
+                  longDesignation="Cyclotron à usage médical"
+                  shortDesignation="Cyclotron"
+                  descriptionMetier="Cyclotron à usagemédical soumis à autorisation dans le cadre d'une activité AMM de médecine nucléaire"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -243,10 +243,6 @@ Requête sur le SMT
         "display" : "Lettre de liaison à la sortie d'un établissement de soins"
       },
       {
-        "code" : "34112-3",
-        "display" : "CR hospitalier (séjour)"
-      },
-      {
         "code" : "11502-2",
         "display" : "CR d'examens biologiques"
       },
@@ -289,6 +285,10 @@ Requête sur le SMT
       {
         "code" : "29274-8",
         "display" : "Mesures de signes vitaux"
+      },
+      {
+        "code" : "34112-3",
+        "display" : "CR hospitalier (séjour)"
       },
       {
         "code" : "34120-6",
@@ -353,6 +353,18 @@ Requête sur le SMT
       {
         "code" : "56446-8",
         "display" : "Notification de rendez-vous"
+      },
+      {
+        "code" : "57055-6",
+        "display" : "Synthèse antepartum"
+      },
+      {
+        "code" : "57057-2",
+        "display" : "Synthèse Salle de Naissance Mère"
+      },
+      {
+        "code" : "57075-4",
+        "display" : "Synthèse Salle de Naissance Enfant"
       },
       {
         "code" : "57828-6",
@@ -451,6 +463,10 @@ Requête sur le SMT
         "display" : "Planification thérapeutique"
       },
       {
+        "code" : "78489-2",
+        "display" : "Synthèse Enfant en Maternité"
+      },
+      {
         "code" : "78513-9",
         "display" : "CR de consultation en ophtalmologie"
       },
@@ -495,6 +511,10 @@ Requête sur le SMT
         "display" : "Lettre de liaison à la sortie d'une structure sociale ou médico-sociale"
       },
       {
+        "code" : "84067-8",
+        "display" : "Synthèse transfusionnelle"
+      },
+      {
         "code" : "85208-7",
         "display" : "CR de télémédecine"
       },
@@ -511,12 +531,28 @@ Requête sur le SMT
         "display" : "Lettre de liaison d'entrée en structure sociale ou médico-sociale"
       },
       {
+        "code" : "89233-1",
+        "display" : "CR de grossesse"
+      },
+      {
+        "code" : "89235-6",
+        "display" : "Synthèse Suites de Couches Mère"
+      },
+      {
         "code" : "89601-9",
         "display" : "Certificat médical"
       },
       {
         "code" : "93024-8",
         "display" : "CR de consultation pharmaceutique"
+      },
+      {
+        "code" : "96163-1",
+        "display" : "Bilan de soins infirmiers"
+      },
+      {
+        "code" : "96173-0",
+        "display" : "Test rapide d'orientation diagnostique"
       },
       {
         "code" : "96349-6",
@@ -527,48 +563,16 @@ Requête sur le SMT
         "display" : "COVID-19 Attestation de vaccination"
       },
       {
-        "code" : "96173-0",
-        "display" : "Test rapide d'orientation diagnostique"
-      },
-      {
-        "code" : "57055-6",
-        "display" : "Synthèse antepartum"
-      },
-      {
-        "code" : "57057-2",
-        "display" : "Synthèse Salle de Naissance Mère"
-      },
-      {
-        "code" : "57075-4",
-        "display" : "Synthèse Salle de Naissance Enfant"
-      },
-      {
-        "code" : "84067-8",
-        "display" : "Synthèse transfusionnelle"
-      },
-      {
-        "code" : "89235-6",
-        "display" : "Synthèse Suites de Couches Mère"
-      },
-      {
-        "code" : "78489-2",
-        "display" : "Synthèse Enfant en Maternité"
-      },
-      {
-        "code" : "89233-1",
-        "display" : "CR de grossesse"
-      },
-      {
-        "code" : "101881-1",
-        "display" : "Carte d'implant"
-      },
-      {
         "code" : "97694-4",
         "display" : "Note d'évaluation en médecine maternelle et fœtale"
       },
       {
         "code" : "100967-9",
         "display" : "Rythme cardiaque fœtal"
+      },
+      {
+        "code" : "101881-1",
+        "display" : "Carte d'implant"
       }]
     },
     {

@@ -31,9 +31,10 @@ Equipement
   "id" : "TRE-R212-Equipement",
   "meta" : {
     "versionId" : "23",
-    "lastUpdated" : "2025-12-22T10:46:41.590+01:00",
+    "lastUpdated" : "2026-06-01T10:46:41.590+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
+  "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
@@ -60,7 +61,7 @@ Equipement
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 243,
+  "count" : 245,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -4762,6 +4763,56 @@ Equipement
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "244",
+    "display" : "Caisson hyperbare",
+    "definition" : "Caisson hyperbare soumis à autorisation",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "245",
+    "display" : "Cyclotron à usage médical",
+    "definition" : "Cyclotron à usagemédical soumis à autorisation dans le cadre d'une activité AMM de médecine nucléaire",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Cyclotron"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
     }]
   }]
 }
