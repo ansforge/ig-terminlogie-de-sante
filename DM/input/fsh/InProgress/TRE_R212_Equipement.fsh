@@ -2,8 +2,9 @@ CodeSystem: TRE_R212_Equipement
 Id: TRE-R212-Equipement
 Description: "Equipement"
 * ^meta.versionId = "23"
-* ^meta.lastUpdated = "2025-12-22T10:46:41.590+01:00"
+* ^meta.lastUpdated = "2026-06-01T10:46:41.590+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2015-03-25T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement"
@@ -17,7 +18,6 @@ Description: "Equipement"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 243
 * ^property[0].code = #dateValid
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
@@ -2122,3 +2122,24 @@ Description: "Equipement"
 * #243 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #243 ^property[+].code = #status
 * #243 ^property[=].valueCode = #active
+* #244 "Caisson hyperbare" "Caisson hyperbare soumis à autorisation"
+* #244 ^property[0].code = #dateValid
+* #244 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #244 ^property[+].code = #dateMaj
+* #244 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #244 ^property[+].code = #status
+* #244 ^property[=].valueCode = #active
+* #244 ^property[+].code = #finess
+* #244 ^property[=].valueBoolean = true
+* #245 "Cyclotron à usage médical" "Cyclotron à usagemédical soumis à autorisation dans le cadre d'une activité AMM de médecine nucléaire"
+* #245 ^designation.language = #fr-FR
+* #245 ^designation.use = $sct#900000000000013009
+* #245 ^designation.value = "Cyclotron"
+* #245 ^property[0].code = #dateValid
+* #245 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #245 ^property[+].code = #dateMaj
+* #245 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #245 ^property[+].code = #status
+* #245 ^property[=].valueCode = #active
+* #245 ^property[+].code = #finess
+* #245 ^property[=].valueBoolean = true

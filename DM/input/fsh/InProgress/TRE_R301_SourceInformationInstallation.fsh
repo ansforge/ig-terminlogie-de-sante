@@ -4,6 +4,7 @@ Description: "Sources d'information possible concernant l'installation de l'acti
 * ^meta.versionId = "6"
 * ^meta.lastUpdated = "2026-02-23T17:57:23.228+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2020-07-31T12:00:00+01:00"
 * ^extension.valuePeriod.end = "2026-02-23T12:00:00+01:00"
@@ -18,7 +19,6 @@ Description: "Sources d'information possible concernant l'installation de l'acti
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 10
 * ^property[0].code = #dateValid
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
