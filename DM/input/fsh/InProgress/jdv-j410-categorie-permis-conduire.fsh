@@ -1,7 +1,7 @@
 ValueSet: JdvJ410CategoriePermisConduireMs
 Id: jdv-j410-categorie-permis-conduire-ms
 Title: "Jdv J410 Categorie Permis Conduire Ms"
-Description: "Catégorie de permis de conduire en France."
+Description: "Catégorie de permis de conduire."
 * ^meta.versionId = "1"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
