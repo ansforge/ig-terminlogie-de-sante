@@ -2,7 +2,7 @@ ValueSet: JDV_J07_XdsTypeCode_CISIS
 Id: JDV-J07-XdsTypeCode-CISIS
 Description: "XDS typeCode CI-SIS"
 * ^meta.versionId = "18"
-* ^meta.lastUpdated = "2026-05-05T19:02:30.247+02:00"
+* ^meta.lastUpdated = "2026-06-01T19:02:30.247+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,10 +10,10 @@ Description: "XDS typeCode CI-SIS"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J07-XdsTypeCode-CISIS/FHIR/JDV-J07-XdsTypeCode-CISIS"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.1.5.471"
-* ^version = "20260505120000"
+* ^version = "20260601120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-05-05T12:00:00+01:00"
+* ^date = "2026-06-01T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-A05-TypeDocComplementaire#ATTEST-ASS-COMPL "Attestation assurance complémentaire"
