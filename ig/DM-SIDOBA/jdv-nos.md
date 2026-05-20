@@ -14,7 +14,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JdvJ240ActiviteSanitaireDiverseReguleeFiness](ValueSet-jdv-j240-activite-sanitaire-diverse-regulee-finess.md) | Jeu de valeurs FINESS contenant les activités sanitaires, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR) | 05/05/2026 |
 | [JdvJ289TypeGroupeGcoFiness](ValueSet-jdv-j289-type-groupe-gco-finess.md) | Jeu de valeurs Finess contenant les types de Groupement de Coopération Organique (GCO). | 30/03/2026 |
 | [JdvJ296TypeRoleEntiteGroupeFiness](ValueSet-jdv-j296-type-role-entite-groupe-finess.md) | Jeu de valeurs FINESS contenant les types de rôles que peuvent exercer des entités participants à des groupements | 30/03/2026 |
-| [JdvJ391NiveauDiplomeMs](ValueSet-jdv-j391-niveau-diplome-ms.md) | Niveau de diplôme. | 01/06/2026 |
+| [JdvJ391NiveauDiplomeMs](ValueSet-jdv-j391-niveau-diplome-ms.md) | Niveau de diplôme permettant d'indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel. | 01/06/2026 |
 | [JdvJ392TypeCourrierMs](ValueSet-jdv-j392-type-courrier-ms.md) | Type de courrier en France. | 05/05/2026 |
 | [JdvJ393UtilisationCanalCommunicationMs](ValueSet-jdv-j393-utilisation-canal-communication-ms.md) | Précise l'utilisation du canal de communication. | 05/05/2026 |
 | [JdvJ394TypeDemandeCompensationMs](ValueSet-jdv-j394-type-demande-compensation-ms.md) | Type demande de compensation adressée à la CDAPH. | 05/05/2026 |
@@ -81,9 +81,8 @@ Vous touverez ici la liste des JDV du NOS.
 | [JdvJ407TypeRepasMs](ValueSet-jdv-j407-type-repas-ms.md) | Type de repas. | 05/05/2026 |
 | [JdvJ408OrientationMs](ValueSet-jdv-j408-orientation-ms.md) | Ensemble des orientations vers un Service d'éducation spéciale et de soins à domicile (SESSAD), un Service d'accompagnement familial et d'éducation précoce (SAFEP), un enseignement adapté (SEGPA/EREA) ou une unité d'enseignement. | 01/06/2026 |
 | [JdvJ409TypeAdresseMs](ValueSet-jdv-j409-type-adresse-ms.md) | Type d'adresse postale. | 05/05/2026 |
-| [JdvJ410CategoriePermisConduireMs](ValueSet-jdv-j410-categorie-permis-conduire-ms.md) | Catégorie de permis de conduire en France. | 05/05/2026 |
-| [JdvJ411TypePermisConduireMs](ValueSet-jdv-j411-type-permis-conduire-ms.md) | Type de permis de conduire en France. | 05/05/2026 |
-| [JdvJ412NiveauScolaireMs](ValueSet-jdv-j412-niveau-scolaire-ms.md) | Niveau scolaire de l'usager en France. | 01/06/2026 |
+| [JdvJ410CategoriePermisConduireMs](ValueSet-jdv-j410-categorie-permis-conduire-ms.md) | Catégorie de permis de conduire. | 01/06/2026 |
+| [JdvJ411NiveauScolaireMs](ValueSet-jdv-j411-niveau-scolaire-ms.md) | Niveau scolaire de l'usager en France. | 01/06/2026 |
 | [JdvJ418ActiviteSanitaireDiverseReguleeActive](ValueSet-jdv-j418-activite-sanitaire-diverse-regulee-active.md) | Jeu de valeurs des activités sanitaires actives, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR) | 05/05/2026 |
 | [JDV_J01_XdsAuthorSpecialty_CISIS](ValueSet-JDV-J01-XdsAuthorSpecialty-CISIS.md) | XDS authorSpecialty CI-SIS | 05/05/2026 |
 | [JDV_J02_XdsHealthcareFacilityTypeCode_CISIS](ValueSet-JDV-J02-XdsHealthcareFacilityTypeCode-CISIS.md) | XDS healthcareFacilityTypeCode CI-SIS | 23/02/2026 |

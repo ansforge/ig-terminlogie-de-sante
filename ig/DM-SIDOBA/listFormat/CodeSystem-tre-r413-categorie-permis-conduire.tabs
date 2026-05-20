@@ -1,8 +1,8 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>
-1.2.250.1.213.3.3.264;TRE;TreR413CategorieConduire.tabs;Catégorie de permis de conduire.;;20260505120000;;20260505120000
+1.2.250.1.213.3.3.264;TRE;TreR413CategoriePermisConduire.tabs;Catégorie de permis de conduire.;;20260601120000;;20260601120000
 <OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MàJ> 
-1.2.250.1.213.3.3.264;AM;Permis cyclomoteur;Permis cyclomoteur;Permis cyclomoteur;20260505120000;;20260505120000
-1.2.250.1.213.3.3.264;B;Permis auto;Permis auto;Permis auto;20260505120000;;20260505120000
-1.2.250.1.213.3.3.264;A;Permis moto;Permis moto;Permis moto;20260505120000;;20260505120000
-1.2.250.1.213.3.3.264;CD;Permis professionnels;Permis professionnels;Permis professionnels;20260505120000;;20260505120000
-1.2.250.1.213.3.3.264;E;Permis remorque;Permis remorque;Permis remorque;20260505120000;;20260505120000
+1.2.250.1.213.3.3.264;AM;Catégorie AM, permis cyclomoteur;Catégorie AM, permis cyclomoteur;Catégorie AM, permis cyclomoteur;20260601120000;;20260601120000
+1.2.250.1.213.3.3.264;B;Catégorie B, permis auto;Catégorie B, permis auto;Catégorie B, permis auto;20260601120000;;20260601120000
+1.2.250.1.213.3.3.264;A;Catégorie A, permis moto;Catégorie A, permis moto;Catégorie A, permis moto;20260601120000;;20260601120000
+1.2.250.1.213.3.3.264;CD;Catégorie C et D, permis professionnels;Catégorie C et D, permis professionnels;Catégorie C et D, permis professionnels;20260601120000;;20260601120000
+1.2.250.1.213.3.3.264;E;Catégorie E, permis remorque;Catégorie E, permis remorque;Catégorie E, permis remorque;20260601120000;;20260601120000

@@ -786,7 +786,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Jdv J385 Composition Foyer Ms](ValueSet-jdv-j385-composition-foyer-ms.md) | Désigne avec qui vit l’usager dans son logement. |
 | [Jdv J386 Type Enseignement Specialise Ms](ValueSet-jdv-j386-type-enseignement-specialise-ms.md) | Type d’enseignement spécialisé. |
 | [Jdv J387 Role Participant Ms](ValueSet-jdv-j387-role-participant-ms.md) | Rôle du participant vis à vis de l’événement (mandataire judiciaire, structure en charge de l’événement). |
-| [Jdv J391 Niveau Diplome Ms](ValueSet-jdv-j391-niveau-diplome-ms.md) | Niveau de diplôme. |
+| [Jdv J391 Niveau Diplome Ms](ValueSet-jdv-j391-niveau-diplome-ms.md) | Niveau de diplôme permettant d’indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel. |
 | [Jdv J392 Type Courrier Ms](ValueSet-jdv-j392-type-courrier-ms.md) | Type de courrier en France. |
 | [Jdv J393 Utilisation Canal Communication Ms](ValueSet-jdv-j393-utilisation-canal-communication-ms.md) | Précise l’utilisation du canal de communication. |
 | [Jdv J394 Type Demande Compensation Ms](ValueSet-jdv-j394-type-demande-compensation-ms.md) | Type demande de compensation adressée à la CDAPH. |
@@ -805,9 +805,8 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Jdv J407 Type Repas Ms](ValueSet-jdv-j407-type-repas-ms.md) | Type de repas. |
 | [Jdv J408 Orientation Ms](ValueSet-jdv-j408-orientation-ms.md) | Ensemble des orientations vers un Service d’éducation spéciale et de soins à domicile (SESSAD), un Service d’accompagnement familial et d’éducation précoce (SAFEP), un enseignement adapté (SEGPA/EREA) ou une unité d’enseignement. |
 | [Jdv J409 Type Adresse Ms](ValueSet-jdv-j409-type-adresse-ms.md) | Type d’adresse postale. |
-| [Jdv J410 Categorie Permis Conduire Ms](ValueSet-jdv-j410-categorie-permis-conduire-ms.md) | Catégorie de permis de conduire en France. |
-| [Jdv J411 Type Permis Conduire Ms](ValueSet-jdv-j411-type-permis-conduire-ms.md) | Type de permis de conduire en France. |
-| [Jdv J412 Niveau Scolaire Ms](ValueSet-jdv-j412-niveau-scolaire-ms.md) | Niveau scolaire de l’usager en France. |
+| [Jdv J410 Categorie Permis Conduire Ms](ValueSet-jdv-j410-categorie-permis-conduire-ms.md) | Catégorie de permis de conduire. |
+| [Jdv J411 Niveau Scolaire Ms](ValueSet-jdv-j411-niveau-scolaire-ms.md) | Niveau scolaire de l’usager en France. |
 | [Jdv J418 Activite Sanitaire Diverse Regulee Active](ValueSet-jdv-j418-activite-sanitaire-diverse-regulee-active.md) | Jeu de valeurs des activités sanitaires actives, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR) |
 | [Jdv MSO Resultat Qualitatif 3 CISIS](ValueSet-jdv-mso-resultat-qualitatif-3-cisis.md) | Jdv MSO Resultat Qualitatif 3 CISIS |
 | [Jdv MSO Resultat Qualitatif 5 CISIS](ValueSet-jdv-mso-resultat-qualitatif-5-cisis.md) | Jdv MSO Resultat Qualitatif 5 CISIS |
@@ -1231,9 +1230,9 @@ These define new code systems used by systems conforming to this implementation 
 | [Tre R406 Forme Activite Smsse Regulee](CodeSystem-tre-r406-forme-activite-smsse-regulee.md) | Formes des activites smsse régulées, remplace la TRE_R276-FormeActivite |
 | [Tre R407 Composition Foyer](CodeSystem-tre-r407-composition-foyer.md) | Désigne avec qui vit l’usager dans son logement. |
 | [Tre R408 Type Enseignement Specialise](CodeSystem-tre-r408-type-enseignement-specialise.md) | Type d’enseignement spécialisé. |
-| [Tre R412 Niveau Diplome](CodeSystem-tre-r412-niveau-diplome.md) | Niveau de diplôme. |
+| [Tre R412 Niveau Diplome](CodeSystem-tre-r412-niveau-diplome.md) | Niveau de diplôme permettant d’indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel. |
 | [Tre R413 Categorie Permis Conduire](CodeSystem-tre-r413-categorie-permis-conduire.md) | Catégorie de permis de conduire. |
-| [Tre R414 Type Permis Conduire](CodeSystem-tre-r414-type-permis-conduire.md) | Type de permis de conduire en France. |
+| [Tre R414 Niveau Scolaire](CodeSystem-tre-r414-niveau-scolaire.md) | Niveau scolaire de l’usager en France. |
 | [Tre R415 Utilisation Canal Communication](CodeSystem-tre-r415-utilisation-canal-communication.md) | Précise l’utilisation du canal de communication. |
 | [Tre R416 Type Courrier](CodeSystem-tre-r416-type-courrier.md) | Type de courrier en France. |
 | [Tre R417 Type Demande Compensation](CodeSystem-tre-r417-type-demande-compensation.md) | Type de la demande de compensation adressée à la CDAPH. |
@@ -1247,7 +1246,6 @@ These define new code systems used by systems conforming to this implementation 
 | [Tre R425 Type Repas](CodeSystem-tre-r425-type-repas.md) | Type de repas. |
 | [Tre R426 Orientation](CodeSystem-tre-r426-orientation.md) | Orientation vers un Service d’éducation spéciale et de soins à domicile (SESSAD) ou vers un Service d’accompagnement familial et d’éducation précoce (SAFEP) |
 | [Tre R427 Type Adresse](CodeSystem-tre-r427-type-adresse.md) | Type d’adresse postale. |
-| [Tre R428 Niveau Scolaire](CodeSystem-tre-r428-niveau-scolaire.md) | Niveau scolaire de l’usager en France. |
 | [V3SpecimenTypeSupplementFr](CodeSystem-v3-SpecimenType-supplement-fr.md) | Traduction Française |
 | [employmentStatus](CodeSystem-v2-0066.md) | HL7-defined code system of concepts which specify an employment status of a person. Used in HL7 Version 2 messaging in the GT1 segment. |
 | [specimenCollectionMethod](CodeSystem-v2-0488.md) | HL7-defined code system of concepts specifying the specimen collection method. Used in HL7 Version 2.x messaging in the SPM segment. |

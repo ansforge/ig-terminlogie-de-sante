@@ -10,7 +10,7 @@
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-05-19T13:50:07+00:00",
+  "date" : "2026-05-20T09:40:51+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -29780,7 +29780,7 @@
         "reference" : "ValueSet/jdv-j391-niveau-diplome-ms"
       },
       "name" : "Jdv J391 Niveau Diplome Ms",
-      "description" : "Niveau de diplôme.",
+      "description" : "Niveau de diplôme permettant d'indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel.",
       "exampleBoolean" : false
     },
     {
@@ -30008,7 +30008,7 @@
         "reference" : "ValueSet/jdv-j410-categorie-permis-conduire-ms"
       },
       "name" : "Jdv J410 Categorie Permis Conduire Ms",
-      "description" : "Catégorie de permis de conduire en France.",
+      "description" : "Catégorie de permis de conduire.",
       "exampleBoolean" : false
     },
     {
@@ -30017,21 +30017,9 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/jdv-j411-type-permis-conduire-ms"
+        "reference" : "ValueSet/jdv-j411-niveau-scolaire-ms"
       },
-      "name" : "Jdv J411 Type Permis Conduire Ms",
-      "description" : "Type de permis de conduire en France.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/jdv-j412-niveau-scolaire-ms"
-      },
-      "name" : "Jdv J412 Niveau Scolaire Ms",
+      "name" : "Jdv J411 Niveau Scolaire Ms",
       "description" : "Niveau scolaire de l'usager en France.",
       "exampleBoolean" : false
     },
@@ -37754,7 +37742,7 @@
         "reference" : "CodeSystem/tre-r412-niveau-diplome"
       },
       "name" : "Tre R412 Niveau Diplome",
-      "description" : "Niveau de diplôme.",
+      "description" : "Niveau de diplôme permettant d'indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel.",
       "exampleBoolean" : false
     },
     {
@@ -37775,10 +37763,10 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/tre-r414-type-permis-conduire"
+        "reference" : "CodeSystem/tre-r414-niveau-scolaire"
       },
-      "name" : "Tre R414 Type Permis Conduire",
-      "description" : "Type de permis de conduire en France.",
+      "name" : "Tre R414 Niveau Scolaire",
+      "description" : "Niveau scolaire de l'usager en France.",
       "exampleBoolean" : false
     },
     {
@@ -37935,18 +37923,6 @@
       },
       "name" : "Tre R427 Type Adresse",
       "description" : "Type d'adresse postale.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/tre-r428-niveau-scolaire"
-      },
-      "name" : "Tre R428 Niveau Scolaire",
-      "description" : "Niveau scolaire de l'usager en France.",
       "exampleBoolean" : false
     },
     {

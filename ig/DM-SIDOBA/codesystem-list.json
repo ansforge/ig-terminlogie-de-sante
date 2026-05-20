@@ -2971,25 +2971,25 @@
     "status" : "draft",
     "name" : "TreR412NiveauDiplome",
     "title" : "Tre R412 Niveau Diplome",
-    "description" : "Niveau de diplôme.",
+    "description" : "Niveau de diplôme permettant d'indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel.",
     "oids" : ["1.2.250.1.213.3.3.263"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r413-categorie-permis-conduire",
-    "version" : "20260505120000",
+    "version" : "20260601120000",
     "status" : "draft",
-    "name" : "TreR413CategorieConduire",
+    "name" : "TreR413CategoriePermisConduire",
     "title" : "Tre R413 Categorie Permis Conduire",
     "description" : "Catégorie de permis de conduire.",
     "oids" : ["1.2.250.1.213.3.3.264"]
   },
   {
-    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r414-type-permis-conduire",
-    "version" : "20260505120000",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r414-niveau-scolaire",
+    "version" : "20260601120000",
     "status" : "draft",
-    "name" : "TreR414TypePermisConduire",
-    "title" : "Tre R414 Type Permis Conduire",
-    "description" : "Type de permis de conduire en France.",
+    "name" : "TreR414NiveauScolaire",
+    "title" : "Tre R414 Niveau Scolaire",
+    "description" : "Niveau scolaire de l'usager en France.",
     "oids" : ["1.2.250.1.213.3.3.265"]
   },
   {
@@ -3108,15 +3108,6 @@
     "title" : "Tre R427 Type Adresse",
     "description" : "Type d'adresse postale.",
     "oids" : ["1.2.250.1.213.3.3.278"]
-  },
-  {
-    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-niveau-scolaire",
-    "version" : "20260601120000",
-    "status" : "draft",
-    "name" : "TreR428NiveauScolaire",
-    "title" : "Tre R428 Niveau Scolaire",
-    "description" : "Niveau scolaire de l'usager en France.",
-    "oids" : ["1.2.250.1.213.3.3.279"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/v2-0487-supplement-fr",

@@ -49,7 +49,7 @@
   fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2026-06-01T12:00:00.000+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
-  fhir:description [ fhir:v "Niveau de diplôme."] ; # 
+  fhir:description [ fhir:v "Niveau de diplôme permettant d'indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [

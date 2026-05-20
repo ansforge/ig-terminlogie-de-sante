@@ -5122,16 +5122,16 @@
   "id" : "tre-r413-categorie-permis-conduire",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r413-categorie-permis-conduire",
-  "version" : "20260505120000",
-  "name" : "TreR413CategorieConduire",
+  "version" : "20260601120000",
+  "name" : "TreR413CategoriePermisConduire",
   "oids" : ["1.2.250.1.213.3.3.264"]
 },
 {
-  "id" : "tre-r414-type-permis-conduire",
+  "id" : "tre-r414-niveau-scolaire",
   "type" : "CodeSystem",
-  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r414-type-permis-conduire",
-  "version" : "20260505120000",
-  "name" : "TreR414TypePermisConduire",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r414-niveau-scolaire",
+  "version" : "20260601120000",
+  "name" : "TreR414NiveauScolaire",
   "oids" : ["1.2.250.1.213.3.3.265"]
 },
 {
@@ -5237,14 +5237,6 @@
   "version" : "20260505120000",
   "name" : "TreR427TypeAdresse",
   "oids" : ["1.2.250.1.213.3.3.278"]
-},
-{
-  "id" : "tre-r428-niveau-scolaire",
-  "type" : "CodeSystem",
-  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-niveau-scolaire",
-  "version" : "20260601120000",
-  "name" : "TreR428NiveauScolaire",
-  "oids" : ["1.2.250.1.213.3.3.279"]
 },
 {
   "id" : "specimenType-supplement-fr",
@@ -7453,25 +7445,17 @@
   "id" : "jdv-j410-categorie-permis-conduire-ms",
   "type" : "ValueSet",
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j410-categorie-permis-conduire-ms",
-  "version" : "20260505120000",
+  "version" : "20260601120000",
   "name" : "JdvJ410CategoriePermisConduireMs",
   "oids" : ["1.2.250.1.213.3.4.250"]
 },
 {
-  "id" : "jdv-j411-type-permis-conduire-ms",
+  "id" : "jdv-j411-niveau-scolaire-ms",
   "type" : "ValueSet",
-  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j411-type-permis-conduire-ms",
-  "version" : "20260505120000",
-  "name" : "JdvJ411TypePermisConduireMs",
-  "oids" : ["1.2.250.1.213.3.4.251"]
-},
-{
-  "id" : "jdv-j412-niveau-scolaire-ms",
-  "type" : "ValueSet",
-  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j412-niveau-scolaire-ms",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j411-niveau-scolaire-ms",
   "version" : "20260601120000",
-  "name" : "JdvJ412NiveauScolaireMs",
-  "oids" : ["1.2.250.1.213.3.4.252"]
+  "name" : "JdvJ411NiveauScolaireMs",
+  "oids" : ["1.2.250.1.213.3.4.251"]
 },
 {
   "id" : "jdv-j418-activite-sanitaire-diverse-regulee-active",

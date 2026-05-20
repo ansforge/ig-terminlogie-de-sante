@@ -368,8 +368,8 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | TreR407CompositionFoyer | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r407-composition-foyer | 1.2.250.1.213.3.3.261 |
 | TreR408TypeEnseignementSpecialise | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise | 1.2.250.1.213.3.3.262 |
 | TreR412NiveauDiplome | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome | 1.2.250.1.213.3.3.263 |
-| TreR413CategorieConduire | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r413-categorie-permis-conduire | 1.2.250.1.213.3.3.264 |
-| TreR414TypePermisConduire | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r414-type-permis-conduire | 1.2.250.1.213.3.3.265 |
+| TreR413CategoriePermisConduire | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r413-categorie-permis-conduire | 1.2.250.1.213.3.3.264 |
+| TreR414NiveauScolaire | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r414-niveau-scolaire | 1.2.250.1.213.3.3.265 |
 | TreR415UtilisationCanalCommunication | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r415-utilisation-canal-communication | 1.2.250.1.213.3.3.266 |
 | TreR416TypeCourrier | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r416-type-courrier | 1.2.250.1.213.3.3.267 |
 | TreR417TypeDemandeCompensation | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r417-type-demande-compensation | 1.2.250.1.213.3.3.268 |
@@ -383,7 +383,6 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | TreR425TypeRepas | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r425-type-repas | 1.2.250.1.213.3.3.276 |
 | TreR426Orientation | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation | 1.2.250.1.213.3.3.277 |
 | TreR427TypeAdresse | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r427-type-adresse | 1.2.250.1.213.3.3.278 |
-| TreR428NiveauScolaire | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-niveau-scolaire | 1.2.250.1.213.3.3.279 |
 | UCUM | http://unitsofmeasure.org | 2.16.840.1.113883.6.8 |
 | V3SpecimenTypeSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/v3-SpecimenType-supplement-fr |  |
 

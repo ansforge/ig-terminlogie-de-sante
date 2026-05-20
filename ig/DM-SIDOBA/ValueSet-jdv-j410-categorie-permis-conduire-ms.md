@@ -8,12 +8,12 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j410-categorie-permis-conduire-ms | *Version*:20260505120000 | |
-| Draft as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ410CategoriePermisConduireMs |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j410-categorie-permis-conduire-ms | *Version*:20260601120000 | |
+| Draft as of 2026-06-01 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ410CategoriePermisConduireMs |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.250 | | |
 
  
-Catégorie de permis de conduire en France. 
+Catégorie de permis de conduire. 
 
  **References** 
 
@@ -62,7 +62,7 @@ Requête sur le SMT
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
-      "start" : "2026-05-05T12:00:00+01:00"
+      "start" : "2026-06-01T12:00:00+01:00"
     }
   }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j410-categorie-permis-conduire-ms",
@@ -70,14 +70,14 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.250"
   }],
-  "version" : "20260505120000",
+  "version" : "20260601120000",
   "name" : "JdvJ410CategoriePermisConduireMs",
   "title" : "Jdv J410 Categorie Permis Conduire Ms",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-05T12:00:00.000+00:00",
+  "date" : "2026-06-01T12:00:00.000+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Catégorie de permis de conduire en France.",
+  "description" : "Catégorie de permis de conduire.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

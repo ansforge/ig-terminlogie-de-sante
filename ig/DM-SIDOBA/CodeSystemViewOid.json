@@ -200,17 +200,17 @@
 },
 {
   "id" : "tre-r413-categorie-permis-conduire",
-  "name" : "TreR413CategorieConduire",
+  "name" : "TreR413CategoriePermisConduire",
   "title" : "Tre R413 Categorie Permis Conduire",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r413-categorie-permis-conduire",
   "identifier" : "urn:oid:1.2.250.1.213.3.3.264",
   "status" : "draft"
 },
 {
-  "id" : "tre-r414-type-permis-conduire",
-  "name" : "TreR414TypePermisConduire",
-  "title" : "Tre R414 Type Permis Conduire",
-  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r414-type-permis-conduire",
+  "id" : "tre-r414-niveau-scolaire",
+  "name" : "TreR414NiveauScolaire",
+  "title" : "Tre R414 Niveau Scolaire",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r414-niveau-scolaire",
   "identifier" : "urn:oid:1.2.250.1.213.3.3.265",
   "status" : "draft"
 },
@@ -316,14 +316,6 @@
   "title" : "Tre R427 Type Adresse",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r427-type-adresse",
   "identifier" : "urn:oid:1.2.250.1.213.3.3.278",
-  "status" : "draft"
-},
-{
-  "id" : "tre-r428-niveau-scolaire",
-  "name" : "TreR428NiveauScolaire",
-  "title" : "Tre R428 Niveau Scolaire",
-  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-niveau-scolaire",
-  "identifier" : "urn:oid:1.2.250.1.213.3.3.279",
   "status" : "draft"
 },
 {

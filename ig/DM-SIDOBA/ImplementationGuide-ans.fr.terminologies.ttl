@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "Terminologies"] ; # 
   fhir:title [ fhir:v "Terminologies  de Santé"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2026-05-19T13:50:07+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-05-20T09:40:51+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -63386,7 +63386,7 @@
          fhir:reference [ fhir:v "ValueSet/jdv-j391-niveau-diplome-ms" ]
        ] ;
        fhir:name [ fhir:v "Jdv J391 Niveau Diplome Ms" ] ;
-       fhir:description [ fhir:v "Niveau de diplôme." ] ;
+       fhir:description [ fhir:v "Niveau de diplôme permettant d'indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -63785,7 +63785,7 @@
          fhir:reference [ fhir:v "ValueSet/jdv-j410-categorie-permis-conduire-ms" ]
        ] ;
        fhir:name [ fhir:v "Jdv J410 Categorie Permis Conduire Ms" ] ;
-       fhir:description [ fhir:v "Catégorie de permis de conduire en France." ] ;
+       fhir:description [ fhir:v "Catégorie de permis de conduire." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -63802,31 +63802,10 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j411-type-permis-conduire-ms> ;
-         fhir:reference [ fhir:v "ValueSet/jdv-j411-type-permis-conduire-ms" ]
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j411-niveau-scolaire-ms> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j411-niveau-scolaire-ms" ]
        ] ;
-       fhir:name [ fhir:v "Jdv J411 Type Permis Conduire Ms" ] ;
-       fhir:description [ fhir:v "Type de permis de conduire en France." ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j412-niveau-scolaire-ms> ;
-         fhir:reference [ fhir:v "ValueSet/jdv-j412-niveau-scolaire-ms" ]
-       ] ;
-       fhir:name [ fhir:v "Jdv J412 Niveau Scolaire Ms" ] ;
+       fhir:name [ fhir:v "Jdv J411 Niveau Scolaire Ms" ] ;
        fhir:description [ fhir:v "Niveau scolaire de l'usager en France." ] ;
        fhir:example [
          a fhir:Boolean ;
@@ -77345,7 +77324,7 @@
          fhir:reference [ fhir:v "CodeSystem/tre-r412-niveau-diplome" ]
        ] ;
        fhir:name [ fhir:v "Tre R412 Niveau Diplome" ] ;
-       fhir:description [ fhir:v "Niveau de diplôme." ] ;
+       fhir:description [ fhir:v "Niveau de diplôme permettant d'indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -77383,11 +77362,11 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r414-type-permis-conduire> ;
-         fhir:reference [ fhir:v "CodeSystem/tre-r414-type-permis-conduire" ]
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r414-niveau-scolaire> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r414-niveau-scolaire" ]
        ] ;
-       fhir:name [ fhir:v "Tre R414 Type Permis Conduire" ] ;
-       fhir:description [ fhir:v "Type de permis de conduire en France." ] ;
+       fhir:name [ fhir:v "Tre R414 Niveau Scolaire" ] ;
+       fhir:description [ fhir:v "Niveau scolaire de l'usager en France." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -77661,27 +77640,6 @@
        ] ;
        fhir:name [ fhir:v "Tre R427 Type Adresse" ] ;
        fhir:description [ fhir:v "Type d'adresse postale." ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "CodeSystem"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r428-niveau-scolaire> ;
-         fhir:reference [ fhir:v "CodeSystem/tre-r428-niveau-scolaire" ]
-       ] ;
-       fhir:name [ fhir:v "Tre R428 Niveau Scolaire" ] ;
-       fhir:description [ fhir:v "Niveau scolaire de l'usager en France." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false

@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r413-categorie-permis-conduire | *Version*:20260505120000 | |
-| Draft as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR413CategorieConduire |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r413-categorie-permis-conduire | *Version*:20260601120000 | |
+| Draft as of 2026-06-01 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR413CategoriePermisConduire |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.264 | | |
 
  
@@ -35,7 +35,7 @@ Catégorie de permis de conduire.
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
-      "start" : "2026-05-05T12:00:00+01:00"
+      "start" : "2026-06-01T12:00:00+01:00"
     }
   }],
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r413-categorie-permis-conduire",
@@ -43,12 +43,12 @@ Catégorie de permis de conduire.
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.264"
   }],
-  "version" : "20260505120000",
-  "name" : "TreR413CategorieConduire",
+  "version" : "20260601120000",
+  "name" : "TreR413CategoriePermisConduire",
   "title" : "Tre R413 Categorie Permis Conduire",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-05T12:00:00.000+00:00",
+  "date" : "2026-06-01T12:00:00.000+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Catégorie de permis de conduire.",
   "jurisdiction" : [{
@@ -98,14 +98,15 @@ Catégorie de permis de conduire.
   }],
   "concept" : [{
     "code" : "AM",
-    "display" : "Permis cyclomoteur",
+    "display" : "Catégorie AM, permis cyclomoteur",
+    "definition" : "Cette catégorie (AM) permet de conduire dès 14 ans des cyclomoteurs (motocyclettes de moins de 50 cm3) et des voiturettes (quadricycles légers). Elle est délivrée à l’issue d’une formation d’une durée minimale de 8 heures. C’est la seule catégorie exclue du régime de permis à points.",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -114,14 +115,15 @@ Catégorie de permis de conduire.
   },
   {
     "code" : "B",
-    "display" : "Permis auto",
+    "display" : "Catégorie B, permis auto",
+    "definition" : "Être détenteur de la catégorie B permet de conduire des voitures dont le poids en charge est inférieur (PTAC) à 3,5 tonnes, et qui ne peuvent transporter plus de 8 passagers. Son obtention est soumise à des conditions d’âge, de formation et de réussite à un examen composé du code et d’une épreuve de conduite.",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -130,14 +132,15 @@ Catégorie de permis de conduire.
   },
   {
     "code" : "A",
-    "display" : "Permis moto",
+    "display" : "Catégorie A, permis moto",
+    "definition" : "Il existe trois catégories du permis moto : A1, A2 et A. Ces catégories requièrent différents examens et définissent la taille de la cylindrée autorisée à être conduite.",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -146,14 +149,15 @@ Catégorie de permis de conduire.
   },
   {
     "code" : "CD",
-    "display" : "Permis professionnels",
+    "display" : "Catégorie C et D, permis professionnels",
+    "definition" : "Le permis C autorise la conduite des véhicules affectés au transport de marchandises ou de matériel dont le poids total autorisé en charge (PTAC) est supérieur à 7,5 tonnes. Il existe différents permis dans cette catégorie : les permis C, C1 et C1E. Le permis D autorise la conduite des véhicules affectés au transport de personnes comportant plus de 8 places assises outre le siège du conducteur.",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -162,14 +166,15 @@ Catégorie de permis de conduire.
   },
   {
     "code" : "E",
-    "display" : "Permis remorque",
+    "display" : "Catégorie E, permis remorque",
+    "definition" : "Le permis E autorise la conduite des véhicules de catégorie B, C ou D attelés d’une remorque. On distingue donc trois permis E : le permis BE, le permis CE et le permis DE.",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-05-05T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",

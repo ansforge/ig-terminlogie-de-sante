@@ -6058,7 +6058,7 @@
     "status" : "draft",
     "name" : "JdvJ391NiveauDiplomeMs",
     "title" : "Jdv J391 Niveau Diplome Ms",
-    "description" : "Niveau de diplôme.",
+    "description" : "Niveau de diplôme permettant d'indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel.",
     "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-niveau-diplome"],
     "oids" : ["1.2.250.1.213.3.4.231"],
     "sources" : ["1.2.250.1.213.3.4.231"]
@@ -6265,36 +6265,25 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j410-categorie-permis-conduire-ms",
-    "version" : "20260505120000",
+    "version" : "20260601120000",
     "status" : "draft",
     "name" : "JdvJ410CategoriePermisConduireMs",
     "title" : "Jdv J410 Categorie Permis Conduire Ms",
-    "description" : "Catégorie de permis de conduire en France.",
+    "description" : "Catégorie de permis de conduire.",
     "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r413-categorie-permis-conduire"],
     "oids" : ["1.2.250.1.213.3.4.250"],
     "sources" : ["1.2.250.1.213.3.4.250"]
   },
   {
-    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j411-type-permis-conduire-ms",
-    "version" : "20260505120000",
-    "status" : "draft",
-    "name" : "JdvJ411TypePermisConduireMs",
-    "title" : "Jdv J411 Type Permis Conduire Ms",
-    "description" : "Type de permis de conduire en France.",
-    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r414-type-permis-conduire"],
-    "oids" : ["1.2.250.1.213.3.4.251"],
-    "sources" : ["1.2.250.1.213.3.4.251"]
-  },
-  {
-    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j412-niveau-scolaire-ms",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j411-niveau-scolaire-ms",
     "version" : "20260601120000",
     "status" : "draft",
-    "name" : "JdvJ412NiveauScolaireMs",
-    "title" : "Jdv J412 Niveau Scolaire Ms",
+    "name" : "JdvJ411NiveauScolaireMs",
+    "title" : "Jdv J411 Niveau Scolaire Ms",
     "description" : "Niveau scolaire de l'usager en France.",
-    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r428-niveau-scolaire"],
-    "oids" : ["1.2.250.1.213.3.4.252"],
-    "sources" : ["1.2.250.1.213.3.4.252"]
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r414-niveau-scolaire"],
+    "oids" : ["1.2.250.1.213.3.4.251"],
+    "sources" : ["1.2.250.1.213.3.4.251"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j418-activite-sanitaire-diverse-regulee-active",
