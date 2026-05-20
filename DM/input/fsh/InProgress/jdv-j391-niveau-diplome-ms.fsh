@@ -1,7 +1,7 @@
 ValueSet: JdvJ391NiveauDiplomeMs
 Id: jdv-j391-niveau-diplome-ms
 Title: "Jdv J391 Niveau Diplome Ms"
-Description: "Niveau de diplôme."
+Description: "Niveau de diplôme permettant d'indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel."
 * ^meta.versionId = "1"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR

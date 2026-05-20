@@ -1,7 +1,7 @@
 CodeSystem: TreR412NiveauDiplome
 Id: tre-r412-niveau-diplome
 Title: "Tre R412 Niveau Diplome"
-Description: "Niveau de diplôme."
+Description: "Niveau de diplôme permettant d'indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel."
 * ^meta.versionId = "1"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
