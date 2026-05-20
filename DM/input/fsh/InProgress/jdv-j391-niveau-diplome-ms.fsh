@@ -17,5 +17,5 @@ Description: "Niveau de diplôme permettant d'indiquer le type de formation néc
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 
-* include codes from system https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r429-niveau-diplome
+* include codes from system https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome
     where status = "active"
