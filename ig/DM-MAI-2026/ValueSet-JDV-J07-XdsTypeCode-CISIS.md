@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J07-XdsTypeCode-CISIS/FHIR/JDV-J07-XdsTypeCode-CISIS | *Version*:20260505120000 | |
-| Active as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J07_XdsTypeCode_CISIS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J07-XdsTypeCode-CISIS/FHIR/JDV-J07-XdsTypeCode-CISIS | *Version*:20260601120000 | |
+| Active as of 2026-06-01 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J07_XdsTypeCode_CISIS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.471 | | |
 
  
@@ -56,7 +56,7 @@ Requête sur le SMT
   "id" : "JDV-J07-XdsTypeCode-CISIS",
   "meta" : {
     "versionId" : "18",
-    "lastUpdated" : "2026-05-05T19:02:30.247+02:00",
+    "lastUpdated" : "2026-06-01T19:02:30.247+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -71,11 +71,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.471"
   }],
-  "version" : "20260505120000",
+  "version" : "20260601120000",
   "name" : "JDV_J07_XdsTypeCode_CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-05T12:00:00+01:00",
+  "date" : "2026-06-01T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "XDS typeCode CI-SIS",
   "jurisdiction" : [{
