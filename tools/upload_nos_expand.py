@@ -228,14 +228,12 @@ async def main():
                 # Expand automatique des JDV logiques
 
                 if has_filter(ValueSet):
-
                     print(f"  [expand] {e_valueSet['name']}")
-
                     expanded = expand_valueset(ValueSet)
-
                     if expanded:
+                        expanded["id"] = e_valueSet["id"]
                         ValueSet = expanded
-
+                        
                 with open(
                     "../input/ontoserver/JDV/"
                     + e_valueSet["name"]
