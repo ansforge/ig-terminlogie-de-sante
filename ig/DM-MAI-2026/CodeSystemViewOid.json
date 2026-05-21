@@ -255,6 +255,14 @@
   "status" : "draft"
 },
 {
+  "id" : "tre-r347-activite-sanitaire-diverse-regulee",
+  "name" : "TreR347ActiviteSanitaireDiverseRegulee",
+  "title" : "Tre R347 Activite Sanitaire Diverse Regulee",
+  "url" : "http://hl7.org/fhir/us/example/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.248",
+  "status" : "active"
+},
+{
   "id" : "tre-r397-categorie-entite-geographique-exercice",
   "name" : "TreR397CategorieEntiteGeographiqueExercice",
   "title" : "Tre R397 Categorie Entite Geographique Exercice",
@@ -2580,14 +2588,6 @@
   "title" : "TimingEvent",
   "url" : "http://terminology.hl7.org/CodeSystem/v3-TimingEvent",
   "identifier" : "urn:oid:2.16.840.1.113883.5.139",
-  "status" : "active"
-},
-{
-  "id" : "tre-r347-activite-sanitaire-diverse-regulee",
-  "name" : "TreR347ActiviteSanitaireDiverseRegulee",
-  "title" : "Tre R347 Activite Sanitaire Diverse Regulee",
-  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
-  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.248",
   "status" : "active"
 },
 {

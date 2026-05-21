@@ -1,5 +1,14 @@
 {
   "codeSystems" : [{
+    "url" : "http://hl7.org/fhir/us/example/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+    "version" : "20260601120000",
+    "status" : "active",
+    "name" : "TreR347ActiviteSanitaireDiverseRegulee",
+    "title" : "Tre R347 Activite Sanitaire Diverse Regulee",
+    "description" : "Nomenclature des activités sanitaires utilisée pour décrire les Activités Sanitaires Diverses Régulées (ASDR)",
+    "oids" : ["1.2.250.1.213.1.6.1.248"]
+  },
+  {
     "url" : "http://hl7.org/fhir/us/example/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
     "version" : "20260601120000",
     "status" : "active",
@@ -2694,15 +2703,6 @@
     "name" : "TimingEventSupplementFr",
     "title" : "TimingEventSupplementFr",
     "description" : "Traduction Française"
-  },
-  {
-    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
-    "version" : "20260505120000",
-    "status" : "active",
-    "name" : "TreR347ActiviteSanitaireDiverseRegulee",
-    "title" : "Tre R347 Activite Sanitaire Diverse Regulee",
-    "description" : "Nomenclature des activités sanitaires utilisée pour décrire les Activités Sanitaires Diverses Régulées (ASDR)",
-    "oids" : ["1.2.250.1.213.1.6.1.248"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe",

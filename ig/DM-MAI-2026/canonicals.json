@@ -1,4 +1,12 @@
 [{
+  "id" : "tre-r347-activite-sanitaire-diverse-regulee",
+  "type" : "CodeSystem",
+  "url" : "http://hl7.org/fhir/us/example/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+  "version" : "20260601120000",
+  "name" : "TreR347ActiviteSanitaireDiverseRegulee",
+  "oids" : ["1.2.250.1.213.1.6.1.248"]
+},
+{
   "id" : "tre-r397-categorie-entite-geographique-exercice",
   "type" : "CodeSystem",
   "url" : "http://hl7.org/fhir/us/example/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
@@ -4764,14 +4772,6 @@
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/timingEvent-supplement-fr",
   "version" : "1.0",
   "name" : "TimingEventSupplementFr"
-},
-{
-  "id" : "tre-r347-activite-sanitaire-diverse-regulee",
-  "type" : "CodeSystem",
-  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
-  "version" : "20260505120000",
-  "name" : "TreR347ActiviteSanitaireDiverseRegulee",
-  "oids" : ["1.2.250.1.213.1.6.1.248"]
 },
 {
   "id" : "tre-r360-type-role-entite-groupe",

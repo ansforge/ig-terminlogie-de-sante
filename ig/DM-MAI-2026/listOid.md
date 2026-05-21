@@ -335,7 +335,7 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | TerminologieCISIS | https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis | 1.2.250.1.213.1.1.4.322 |
 | TimingEvent | http://terminology.hl7.org/CodeSystem/v3-TimingEvent | 2.16.840.1.113883.5.139 |
 | TimingEventSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/timingEvent-supplement-fr |  |
-| TreR347ActiviteSanitaireDiverseRegulee | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee | 1.2.250.1.213.1.6.1.248 |
+| TreR347ActiviteSanitaireDiverseRegulee | http://hl7.org/fhir/us/example/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee | 1.2.250.1.213.1.6.1.248 |
 | TreR360TypeRoleEntiteGroupe | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe | 1.2.250.1.213.1.6.1.254 |
 | TreR361FonctionPublique | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r361-fonction-publique | 1.2.250.1.213.1.6.1.255 |
 | TreR362TypeBudget | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r362-type-budget | 1.2.250.1.213.1.6.1.256 |
