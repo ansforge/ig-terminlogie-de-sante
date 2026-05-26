@@ -13035,6 +13035,10 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1584 ^property[+].code = #status
 * #1584 ^property[=].valueCode = #active
 * #1585 "Prise en charge spécialisée et continue en chirurgie maxillo-faciale et stomatologie"
+* #1585 ^designation[0].language = #fr-FR
+* #1585 ^designation[=].use.system = "http://snomed.info/sct"
+* #1585 ^designation[=].use = $sct#900000000000013009
+* #1585 ^designation[=].value = "PEC spécialisée et continue en chir. maxillo-faciale et stomatologie"
 * #1585 ^property[0].code = #dateValid
 * #1585 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1585 ^property[+].code = #dateMaj
@@ -13042,6 +13046,10 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1585 ^property[+].code = #status
 * #1585 ^property[=].valueCode = #active
 * #1586 "Prise en charge spécialisée et continue en chirurgie orthopédique et traumatologie"
+* #1586 ^designation[0].language = #fr-FR
+* #1586 ^designation[=].use.system = "http://snomed.info/sct"
+* #1586 ^designation[=].use = $sct#900000000000013009
+* #1586 ^designation[=].value = "Prise en charge spécialisée et continue en chir. orthopédique et traumatologie"
 * #1586 ^property[0].code = #dateValid
 * #1586 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1586 ^property[+].code = #dateMaj
@@ -13049,6 +13057,10 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1586 ^property[+].code = #status
 * #1586 ^property[=].valueCode = #active
 * #1587 "Prise en charge spécialisée et continue en chirurgie pédiatrique orthopédique et traumatologie"
+* #1587 ^designation[0].language = #fr-FR
+* #1587 ^designation[=].use.system = "http://snomed.info/sct"
+* #1587 ^designation[=].use = $sct#900000000000013009
+* #1587 ^designation[=].value = "PEC spécialisée et continue en chir. pédiatrique orthopédique et traumatologie"
 * #1587 ^property[0].code = #dateValid
 * #1587 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1587 ^property[+].code = #dateMaj
@@ -13056,6 +13068,10 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1587 ^property[+].code = #status
 * #1587 ^property[=].valueCode = #active
 * #1588 "Prise en charge spécialisée et continue en chirurgie pédiatrique viscérale et digestive"
+* #1588 ^designation[0].language = #fr-FR
+* #1588 ^designation[=].use.system = "http://snomed.info/sct"
+* #1588 ^designation[=].use = $sct#900000000000013009
+* #1588 ^designation[=].value = "PEC spécialisée et continue en chir. pédiatrique viscérale et digestive"
 * #1588 ^property[0].code = #dateValid
 * #1588 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1588 ^property[+].code = #dateMaj
@@ -13175,6 +13191,10 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1604 ^property[+].code = #status
 * #1604 ^property[=].valueCode = #active
 * #1605 "Prise en charge spécialisée et continue en oto-rhino-laryngologie (ORL) et chirurgie cervico-faciale"
+* #1605 ^designation[0].language = #fr-FR
+* #1605 ^designation[=].use.system = "http://snomed.info/sct"
+* #1605 ^designation[=].use = $sct#900000000000013009
+* #1605 ^designation[=].value = "PEC spécialisée et continue en ORL et chir. cervico-faciale"
 * #1605 ^property[0].code = #dateValid
 * #1605 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1605 ^property[+].code = #dateMaj
@@ -13217,6 +13237,10 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1610 ^property[+].code = #status
 * #1610 ^property[=].valueCode = #active
 * #1611 "Prise en charge spécialisée et continue en chirurgie de la main SOS main"
+* #1611 ^designation[0].language = #fr-FR
+* #1611 ^designation[=].use.system = "http://snomed.info/sct"
+* #1611 ^designation[=].use = $sct#900000000000013009
+* #1611 ^designation[=].value = "PEC spécialisée et continue en chirurgie de la main"
 * #1611 ^property[0].code = #dateValid
 * #1611 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1611 ^property[+].code = #dateMaj
@@ -13224,6 +13248,10 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1611 ^property[+].code = #status
 * #1611 ^property[=].valueCode = #active
 * #1612 "Prise en charge spécialisée et continue en odontologie"
+* #1612 ^designation[0].language = #fr-FR
+* #1612 ^designation[=].use.system = "http://snomed.info/sct"
+* #1612 ^designation[=].use = $sct#900000000000013009
+* #1612 ^designation[=].value = "PEC spécialisée et continue en odontologie"
 * #1612 ^property[0].code = #dateValid
 * #1612 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1612 ^property[+].code = #dateMaj
@@ -13231,6 +13259,10 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1612 ^property[+].code = #status
 * #1612 ^property[=].valueCode = #active
 * #1613 "Prise en charge spécialisée et continue en psychiatrie (dont équipe de liaison)"
+* #1613 ^designation[0].language = #fr-FR
+* #1613 ^designation[=].use.system = "http://snomed.info/sct"
+* #1613 ^designation[=].use = $sct#900000000000013009
+* #1613 ^designation[=].value = "PEC spécialisée et continue en psychiatrie (dont équipe de liaison)"
 * #1613 ^property[0].code = #dateValid
 * #1613 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1613 ^property[+].code = #dateMaj
@@ -13238,6 +13270,10 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1613 ^property[+].code = #status
 * #1613 ^property[=].valueCode = #active
 * #1614 "Prise en charge spécialisée et continue en radiologie interventionnelle"
+* #1614 ^designation[0].language = #fr-FR
+* #1614 ^designation[=].use.system = "http://snomed.info/sct"
+* #1614 ^designation[=].use = $sct#900000000000013009
+* #1614 ^designation[=].value = "PEC spécialisée et continue en radiologie interventionnelle"
 * #1614 ^property[0].code = #dateValid
 * #1614 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1614 ^property[+].code = #dateMaj
@@ -13245,6 +13281,10 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1614 ^property[+].code = #status
 * #1614 ^property[=].valueCode = #active
 * #1615 "Prise en charge spécialisée et continue rachis"
+* #1615 ^designation[0].language = #fr-FR
+* #1615 ^designation[=].use.system = "http://snomed.info/sct"
+* #1615 ^designation[=].use = $sct#900000000000013009
+* #1615 ^designation[=].value = "PEC spécialisée et continue en chirurgie du rachis"
 * #1615 ^property[0].code = #dateValid
 * #1615 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #1615 ^property[+].code = #dateMaj
@@ -13329,6 +13369,10 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1626 ^property[+].code = #status
 * #1626 ^property[=].valueCode = #active
 * #1627 "Traitement sans douleur de l’ongle incarné par phénolisation (protocole de coopération)"
+* #1627 ^designation[0].language = #fr-FR
+* #1627 ^designation[=].use.system = "http://snomed.info/sct"
+* #1627 ^designation[=].use = $sct#900000000000013009
+* #1627 ^designation[=].value = "Traitement sans douleur de l’ongle incarné par phénolisation"
 * #1627 ^property[0].code = #dateValid
 * #1627 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #1627 ^property[+].code = #dateMaj
@@ -13343,6 +13387,10 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1628 ^property[+].code = #status
 * #1628 ^property[=].valueCode = #active
 * #1629 "Confection de semelle de comblement en polyuréthane (PU) pour amputation partielle du pied"
+* #1629 ^designation[0].language = #fr-FR
+* #1629 ^designation[=].use.system = "http://snomed.info/sct"
+* #1629 ^designation[=].use = $sct#900000000000013009
+* #1629 ^designation[=].value = "Confection de semelle de comblement en PU pour amputation partielle du pied"
 * #1629 ^property[0].code = #dateValid
 * #1629 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #1629 ^property[+].code = #dateMaj
@@ -13350,6 +13398,10 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1629 ^property[+].code = #status
 * #1629 ^property[=].valueCode = #active
 * #1630 "Prise en charge spécialisée et continue en pédopsychiatrie (dont équipe de liaison)"
+* #1630 ^designation[0].language = #fr-FR
+* #1630 ^designation[=].use.system = "http://snomed.info/sct"
+* #1630 ^designation[=].use = $sct#900000000000013009
+* #1630 ^designation[=].value = "PEC spécialisée et continue en pédopsychiatrie (dont équipe de liaison)"
 * #1630 ^property[0].code = #dateValid
 * #1630 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #1630 ^property[+].code = #dateMaj
@@ -13357,6 +13409,10 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1630 ^property[+].code = #status
 * #1630 ^property[=].valueCode = #active
 * #1631 "Prise en charge spécialisée et continue SOS main"
+* #1631 ^designation[0].language = #fr-FR
+* #1631 ^designation[=].use.system = "http://snomed.info/sct"
+* #1631 ^designation[=].use = $sct#900000000000013009
+* #1631 ^designation[=].value = "PEC spécialisée et continue SOS main"
 * #1631 ^property[0].code = #dateValid
 * #1631 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #1631 ^property[+].code = #dateMaj
