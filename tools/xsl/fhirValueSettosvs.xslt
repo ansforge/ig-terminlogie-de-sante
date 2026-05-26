@@ -22,7 +22,7 @@
                 >
                 <xsl:variable name="extInfo" select="document('./codesystems.xml')"/>                
                 <ConceptList>
-                    <xsl:for-each select='//f:concept'>
+                    <xsl:for-each select='//f:concept | //f:contains'>
                         <xsl:variable name="uriCodeSystem" select="../f:system/@value"/>
                         <xsl:variable name='codeSystemCalc'>
                             <xsl:choose>

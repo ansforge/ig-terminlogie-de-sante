@@ -13,7 +13,7 @@
     <xsl:template match="/"><![CDATA[<OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>  ]]>
 <xsl:value-of select="substring-after(/f:ValueSet/f:identifier[f:system/@value='urn:ietf:rfc:3986']/f:value/@value,'oid:')" />;JDV;<xsl:value-of select="/f:ValueSet/f:name/@value" />.tabs;<xsl:value-of select="/f:ValueSet/f:description/@value" />;<xsl:value-of select="substring-before(/f:ValueSet/f:url/@value,'/FHIR')" />;<xsl:value-of select="format-dateTime(/f:ValueSet/f:extension/f:valuePeriod/f:start/@value,'[Y0001][M01][D01][H01][m01][s01]')" />;<xsl:value-of select="format-dateTime(/f:ValueSet/f:extension/f:valuePeriod/f:end/@value,'[Y0001][M01][D01][H01][m01][s01]')" />;<xsl:value-of select="format-dateTime(/f:ValueSet/f:date/@value,'[Y0001][M01][D01][H01][m01][s01]')" />
 <![CDATA[<OID>;<Code>;<Libellé>]]>
-<xsl:for-each select='//f:concept'>
+<xsl:for-each select='//f:concept | //f:contains'>
     <xsl:variable name="uriCodeSystem" select="../f:system/@value"/>
     <xsl:variable name='codeSystemCalc'>
         <xsl:choose>
