@@ -1817,7 +1817,7 @@
                   dateValid="20170707100000"
                   displayName="Pédicurie-Podologie (bilan diagnostic et mise en œuvre des activités thérapeutiques si nécessaire)"
                   longDesignation="Pédicurie-Podologie (bilan diagnostic et mise en œuvre des activités thérapeutiques si nécessaire)"
-                  shortDesignation="Pédicurie-Podologie (bilan diagnostic et mise en œuvre des activités thérapeutiques si nécessaire)"
+                  shortDesignation="Pédicurie-Podologie"
                   descriptionMetier="Discipline paramédicale qualifiée pour traiter directement les affections épidermiques, limitées aux couches cornées et aux affections unguéales du pied, à l'exclusion de toute intervention chirurgicale, pour pratiquer les soins d'hygiène, pour confectionner et appliquer des semelles destinées à prévenir ou à soulager les affections épidermiques, pour analyser et évaluer les troubles morphostatiques et dynamiques du pied et élaborer un diagnostic de pédicurie-podologie en tenant compte de la statique et de la dynamique du pied, pour renouveler les prescriptions médicales initiales d'orthèses plantaires."/>
          <Concept code="202"
                   codeSystem="1.2.250.1.213.3.3.12"

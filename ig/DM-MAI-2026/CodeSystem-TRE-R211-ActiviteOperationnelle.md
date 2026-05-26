@@ -3798,6 +3798,14 @@ Activite Operationnelle
     "code" : "201",
     "display" : "Pédicurie-Podologie (bilan diagnostic et mise en œuvre des activités thérapeutiques si nécessaire)",
     "definition" : "Discipline paramédicale qualifiée pour traiter directement les affections épidermiques, limitées aux couches cornées et aux affections unguéales du pied, à l'exclusion de toute intervention chirurgicale, pour pratiquer les soins d'hygiène, pour confectionner et appliquer des semelles destinées à prévenir ou à soulager les affections épidermiques, pour analyser et évaluer les troubles morphostatiques et dynamiques du pied et élaborer un diagnostic de pédicurie-podologie en tenant compte de la statique et de la dynamique du pied, pour renouveler les prescriptions médicales initiales d'orthèses plantaires.",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Pédicurie-Podologie"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"

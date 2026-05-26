@@ -14263,7 +14263,7 @@
                   dateMaj="20260601120000"
                   dateValid="20260330120000"
                   displayName="Prise en charge spécialisée et continue en chirurgie maxillo-faciale et stomatologie"
-                  longDesignation="Prise en charge spécialisée et continue en chirurgie maxillo-faciale et stomatologie"
+                  longDesignation="PEC spécialisée et continue en chir. maxillo-faciale et stomatologie"
                   shortDesignation="Prise en charge spécialisée et continue en chirurgie maxillo-faciale et stomatologie"
                   descriptionMetier=""/>
          <Concept code="1586"
@@ -14272,7 +14272,7 @@
                   dateMaj="20260601120000"
                   dateValid="20260330120000"
                   displayName="Prise en charge spécialisée et continue en chirurgie orthopédique et traumatologie"
-                  longDesignation="Prise en charge spécialisée et continue en chirurgie orthopédique et traumatologie"
+                  longDesignation="Prise en charge spécialisée et continue en chir. orthopédique et traumatologie"
                   shortDesignation="Prise en charge spécialisée et continue en chirurgie orthopédique et traumatologie"
                   descriptionMetier=""/>
          <Concept code="1587"
@@ -14281,7 +14281,7 @@
                   dateMaj="20260601120000"
                   dateValid="20260330120000"
                   displayName="Prise en charge spécialisée et continue en chirurgie pédiatrique orthopédique et traumatologie"
-                  longDesignation="Prise en charge spécialisée et continue en chirurgie pédiatrique orthopédique et traumatologie"
+                  longDesignation="PEC spécialisée et continue en chir. pédiatrique orthopédique et traumatologie"
                   shortDesignation="Prise en charge spécialisée et continue en chirurgie pédiatrique orthopédique et traumatologie"
                   descriptionMetier=""/>
          <Concept code="1588"
@@ -14290,7 +14290,7 @@
                   dateMaj="20260601120000"
                   dateValid="20260330120000"
                   displayName="Prise en charge spécialisée et continue en chirurgie pédiatrique viscérale et digestive"
-                  longDesignation="Prise en charge spécialisée et continue en chirurgie pédiatrique viscérale et digestive"
+                  longDesignation="PEC spécialisée et continue en chir. pédiatrique viscérale et digestive"
                   shortDesignation="Prise en charge spécialisée et continue en chirurgie pédiatrique viscérale et digestive"
                   descriptionMetier=""/>
          <Concept code="1589"
@@ -14443,7 +14443,7 @@
                   dateMaj="20260601120000"
                   dateValid="20260330120000"
                   displayName="Prise en charge spécialisée et continue en oto-rhino-laryngologie (ORL) et chirurgie cervico-faciale"
-                  longDesignation="Prise en charge spécialisée et continue en oto-rhino-laryngologie (ORL) et chirurgie cervico-faciale"
+                  longDesignation="PEC spécialisée et continue en ORL et chir. cervico-faciale"
                   shortDesignation="Prise en charge spécialisée et continue en oto-rhino-laryngologie (ORL) et chirurgie cervico-facia"
                   descriptionMetier=""/>
          <Concept code="1606"
@@ -14497,7 +14497,7 @@
                   dateMaj="20260601120000"
                   dateValid="20260330120000"
                   displayName="Prise en charge spécialisée et continue en chirurgie de la main SOS main"
-                  longDesignation="Prise en charge spécialisée et continue en chirurgie de la main SOS main"
+                  longDesignation="PEC spécialisée et continue en chirurgie de la main"
                   shortDesignation="Prise en charge spécialisée et continue en chirurgie de la main SOS main"
                   descriptionMetier=""/>
          <Concept code="1612"
@@ -14506,7 +14506,7 @@
                   dateMaj="20260601120000"
                   dateValid="20260330120000"
                   displayName="Prise en charge spécialisée et continue en odontologie"
-                  longDesignation="Prise en charge spécialisée et continue en odontologie"
+                  longDesignation="PEC spécialisée et continue en odontologie"
                   shortDesignation="Prise en charge spécialisée et continue en odontologie"
                   descriptionMetier=""/>
          <Concept code="1613"
@@ -14515,7 +14515,7 @@
                   dateMaj="20260601120000"
                   dateValid="20260330120000"
                   displayName="Prise en charge spécialisée et continue en psychiatrie (dont équipe de liaison)"
-                  longDesignation="Prise en charge spécialisée et continue en psychiatrie (dont équipe de liaison)"
+                  longDesignation="PEC spécialisée et continue en psychiatrie (dont équipe de liaison)"
                   shortDesignation="Prise en charge spécialisée et continue en psychiatrie (dont équipe de liaison)"
                   descriptionMetier=""/>
          <Concept code="1614"
@@ -14524,7 +14524,7 @@
                   dateMaj="20260601120000"
                   dateValid="20260330120000"
                   displayName="Prise en charge spécialisée et continue en radiologie interventionnelle"
-                  longDesignation="Prise en charge spécialisée et continue en radiologie interventionnelle"
+                  longDesignation="PEC spécialisée et continue en radiologie interventionnelle"
                   shortDesignation="Prise en charge spécialisée et continue en radiologie interventionnelle"
                   descriptionMetier=""/>
          <Concept code="1615"
@@ -14533,7 +14533,7 @@
                   dateMaj="20260601120000"
                   dateValid="20260330120000"
                   displayName="Prise en charge spécialisée et continue rachis"
-                  longDesignation="Prise en charge spécialisée et continue rachis"
+                  longDesignation="PEC spécialisée et continue en chirurgie du rachis"
                   shortDesignation="Prise en charge spécialisée et continue rachis"
                   descriptionMetier=""/>
          <Concept code="1616"
@@ -14641,7 +14641,7 @@
                   dateMaj="20260601120000"
                   dateValid="20260601120000"
                   displayName="Traitement sans douleur de l’ongle incarné par phénolisation (protocole de coopération)"
-                  longDesignation="Traitement sans douleur de l’ongle incarné par phénolisation (protocole de coopération)"
+                  longDesignation="Traitement sans douleur de l’ongle incarné par phénolisation"
                   shortDesignation="Traitement sans douleur de l’ongle incarné par phénolisation (protocole de coopération)"
                   descriptionMetier=""/>
          <Concept code="1628"
@@ -14659,7 +14659,7 @@
                   dateMaj="20260601120000"
                   dateValid="20260601120000"
                   displayName="Confection de semelle de comblement en polyuréthane (PU) pour amputation partielle du pied"
-                  longDesignation="Confection de semelle de comblement en polyuréthane (PU) pour amputation partielle du pied"
+                  longDesignation="Confection de semelle de comblement en PU pour amputation partielle du pied"
                   shortDesignation="Confection de semelle de comblement en polyuréthane (PU) pour amputation partielle du pied"
                   descriptionMetier=""/>
          <Concept code="1630"
@@ -14668,7 +14668,7 @@
                   dateMaj="20260601120000"
                   dateValid="20260601120000"
                   displayName="Prise en charge spécialisée et continue en pédopsychiatrie (dont équipe de liaison)"
-                  longDesignation="Prise en charge spécialisée et continue en pédopsychiatrie (dont équipe de liaison)"
+                  longDesignation="PEC spécialisée et continue en pédopsychiatrie (dont équipe de liaison)"
                   shortDesignation="Prise en charge spécialisée et continue en pédopsychiatrie (dont équipe de liaison)"
                   descriptionMetier=""/>
          <Concept code="1631"
@@ -14677,7 +14677,7 @@
                   dateMaj="20260601120000"
                   dateValid="20260601120000"
                   displayName="Prise en charge spécialisée et continue SOS main"
-                  longDesignation="Prise en charge spécialisée et continue SOS main"
+                  longDesignation="PEC spécialisée et continue SOS main"
                   shortDesignation="Prise en charge spécialisée et continue SOS main"
                   descriptionMetier=""/>
       </ConceptList>

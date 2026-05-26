@@ -40991,6 +40991,18 @@
   ] [
      fhir:code [ fhir:v "1585" ] ;
      fhir:display [ fhir:v "Prise en charge spécialisée et continue en chirurgie maxillo-faciale et stomatologie" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "PEC spécialisée et continue en chir. maxillo-faciale et stomatologie" ]
+     ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
@@ -41013,6 +41025,18 @@
   ] [
      fhir:code [ fhir:v "1586" ] ;
      fhir:display [ fhir:v "Prise en charge spécialisée et continue en chirurgie orthopédique et traumatologie" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "Prise en charge spécialisée et continue en chir. orthopédique et traumatologie" ]
+     ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
@@ -41035,6 +41059,18 @@
   ] [
      fhir:code [ fhir:v "1587" ] ;
      fhir:display [ fhir:v "Prise en charge spécialisée et continue en chirurgie pédiatrique orthopédique et traumatologie" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "PEC spécialisée et continue en chir. pédiatrique orthopédique et traumatologie" ]
+     ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
@@ -41057,6 +41093,18 @@
   ] [
      fhir:code [ fhir:v "1588" ] ;
      fhir:display [ fhir:v "Prise en charge spécialisée et continue en chirurgie pédiatrique viscérale et digestive" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "PEC spécialisée et continue en chir. pédiatrique viscérale et digestive" ]
+     ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
@@ -41431,6 +41479,18 @@
   ] [
      fhir:code [ fhir:v "1605" ] ;
      fhir:display [ fhir:v "Prise en charge spécialisée et continue en oto-rhino-laryngologie (ORL) et chirurgie cervico-faciale" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "PEC spécialisée et continue en ORL et chir. cervico-faciale" ]
+     ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
@@ -41563,6 +41623,18 @@
   ] [
      fhir:code [ fhir:v "1611" ] ;
      fhir:display [ fhir:v "Prise en charge spécialisée et continue en chirurgie de la main SOS main" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "PEC spécialisée et continue en chirurgie de la main" ]
+     ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
@@ -41585,6 +41657,18 @@
   ] [
      fhir:code [ fhir:v "1612" ] ;
      fhir:display [ fhir:v "Prise en charge spécialisée et continue en odontologie" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "PEC spécialisée et continue en odontologie" ]
+     ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
@@ -41607,6 +41691,18 @@
   ] [
      fhir:code [ fhir:v "1613" ] ;
      fhir:display [ fhir:v "Prise en charge spécialisée et continue en psychiatrie (dont équipe de liaison)" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "PEC spécialisée et continue en psychiatrie (dont équipe de liaison)" ]
+     ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
@@ -41629,6 +41725,18 @@
   ] [
      fhir:code [ fhir:v "1614" ] ;
      fhir:display [ fhir:v "Prise en charge spécialisée et continue en radiologie interventionnelle" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "PEC spécialisée et continue en radiologie interventionnelle" ]
+     ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
@@ -41651,6 +41759,18 @@
   ] [
      fhir:code [ fhir:v "1615" ] ;
      fhir:display [ fhir:v "Prise en charge spécialisée et continue rachis" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "PEC spécialisée et continue en chirurgie du rachis" ]
+     ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
@@ -41915,6 +42035,18 @@
   ] [
      fhir:code [ fhir:v "1627" ] ;
      fhir:display [ fhir:v "Traitement sans douleur de l’ongle incarné par phénolisation (protocole de coopération)" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "Traitement sans douleur de l’ongle incarné par phénolisation" ]
+     ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
@@ -41959,6 +42091,18 @@
   ] [
      fhir:code [ fhir:v "1629" ] ;
      fhir:display [ fhir:v "Confection de semelle de comblement en polyuréthane (PU) pour amputation partielle du pied" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "Confection de semelle de comblement en PU pour amputation partielle du pied" ]
+     ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
@@ -41981,6 +42125,18 @@
   ] [
      fhir:code [ fhir:v "1630" ] ;
      fhir:display [ fhir:v "Prise en charge spécialisée et continue en pédopsychiatrie (dont équipe de liaison)" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "PEC spécialisée et continue en pédopsychiatrie (dont équipe de liaison)" ]
+     ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
@@ -42003,6 +42159,18 @@
   ] [
      fhir:code [ fhir:v "1631" ] ;
      fhir:display [ fhir:v "Prise en charge spécialisée et continue SOS main" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         a sct:900000000000013009 ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
+         fhir:code [ fhir:v "900000000000013009" ]
+       ] ;
+       fhir:value [ fhir:v "PEC spécialisée et continue SOS main" ]
+     ] ) ;
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [

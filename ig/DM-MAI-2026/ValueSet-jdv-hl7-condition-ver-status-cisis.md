@@ -88,7 +88,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-      "version" : "2.0.1",
+      "version" : "4.0.1",
       "concept" : [{
         "code" : "unconfirmed",
         "display" : "Non confirmé"

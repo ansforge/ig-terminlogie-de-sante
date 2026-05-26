@@ -88,7 +88,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v3-SpecimenType",
-      "version" : "4.0.0",
+      "version" : "2018-08-12",
       "concept" : [{
         "code" : "CVX",
         "display" : "Col de l’utérus"
@@ -112,7 +112,7 @@ Requête sur le SMT
     },
     {
       "system" : "http://terminology.hl7.org/CodeSystem/v2-0487",
-      "version" : "3.0.0",
+      "version" : "2.9",
       "concept" : [{
         "code" : "AMN",
         "display" : "Liquide amniotique"

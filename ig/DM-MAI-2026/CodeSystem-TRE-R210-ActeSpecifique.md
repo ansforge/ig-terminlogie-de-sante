@@ -29566,6 +29566,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1585",
     "display" : "Prise en charge spécialisée et continue en chirurgie maxillo-faciale et stomatologie",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et continue en chir. maxillo-faciale et stomatologie"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
@@ -29582,6 +29590,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1586",
     "display" : "Prise en charge spécialisée et continue en chirurgie orthopédique et traumatologie",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Prise en charge spécialisée et continue en chir. orthopédique et traumatologie"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
@@ -29598,6 +29614,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1587",
     "display" : "Prise en charge spécialisée et continue en chirurgie pédiatrique orthopédique et traumatologie",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et continue en chir. pédiatrique orthopédique et traumatologie"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
@@ -29614,6 +29638,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1588",
     "display" : "Prise en charge spécialisée et continue en chirurgie pédiatrique viscérale et digestive",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et continue en chir. pédiatrique viscérale et digestive"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
@@ -29886,6 +29918,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1605",
     "display" : "Prise en charge spécialisée et continue en oto-rhino-laryngologie (ORL) et chirurgie cervico-faciale",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et continue en ORL et chir. cervico-faciale"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
@@ -29982,6 +30022,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1611",
     "display" : "Prise en charge spécialisée et continue en chirurgie de la main SOS main",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et continue en chirurgie de la main"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
@@ -29998,6 +30046,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1612",
     "display" : "Prise en charge spécialisée et continue en odontologie",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et continue en odontologie"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
@@ -30014,6 +30070,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1613",
     "display" : "Prise en charge spécialisée et continue en psychiatrie (dont équipe de liaison)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et continue en psychiatrie (dont équipe de liaison)"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
@@ -30030,6 +30094,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1614",
     "display" : "Prise en charge spécialisée et continue en radiologie interventionnelle",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et continue en radiologie interventionnelle"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
@@ -30046,6 +30118,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1615",
     "display" : "Prise en charge spécialisée et continue rachis",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et continue en chirurgie du rachis"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
@@ -30238,6 +30318,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1627",
     "display" : "Traitement sans douleur de l’ongle incarné par phénolisation (protocole de coopération)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Traitement sans douleur de l’ongle incarné par phénolisation"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-06-01T12:00:00+01:00"
@@ -30270,6 +30358,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1629",
     "display" : "Confection de semelle de comblement en polyuréthane (PU) pour amputation partielle du pied",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Confection de semelle de comblement en PU pour amputation partielle du pied"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-06-01T12:00:00+01:00"
@@ -30286,6 +30382,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1630",
     "display" : "Prise en charge spécialisée et continue en pédopsychiatrie (dont équipe de liaison)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et continue en pédopsychiatrie (dont équipe de liaison)"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-06-01T12:00:00+01:00"
@@ -30302,6 +30406,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1631",
     "display" : "Prise en charge spécialisée et continue SOS main",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et continue SOS main"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-06-01T12:00:00+01:00"
