@@ -73,6 +73,15 @@
                   longDesignation="Specialisation RPPS"
                   shortDesignation="Specialisation RPPS"
                   descriptionMetier="Propriété permettant de spécifier les codes exclusifs appartenant au RPPS"/>
+         <Concept code="specialisationFiness"
+                  codeSystem=""
+                  dateFin=""
+                  dateMaj=""
+                  dateValid=""
+                  displayName="Specialisation FINESS"
+                  longDesignation="Specialisation FINESS"
+                  shortDesignation="Specialisation FINESS"
+                  descriptionMetier="Propriété permettant de spécifier les codes exclusifs appartenant à FINESS"/>
          <Concept code="ror"
                   codeSystem=""
                   dateFin=""

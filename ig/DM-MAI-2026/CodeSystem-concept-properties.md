@@ -55,7 +55,7 @@ CodeSystem permettant définir les propriétés NOS utilisées dans les CodeSyst
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 36,
+  "count" : 37,
   "property" : [{
     "code" : "status",
     "uri" : "http://hl7.org/fhir/concept-properties#status",
@@ -120,6 +120,15 @@ CodeSystem permettant définir les propriétés NOS utilisées dans les CodeSyst
     "code" : "specialisationRpps",
     "display" : "Specialisation RPPS",
     "definition" : "Propriété permettant de spécifier les codes exclusifs appartenant au RPPS",
+    "property" : [{
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "specialisationFiness",
+    "display" : "Specialisation FINESS",
+    "definition" : "Propriété permettant de spécifier les codes exclusifs appartenant à FINESS",
     "property" : [{
       "code" : "status",
       "valueCode" : "active"

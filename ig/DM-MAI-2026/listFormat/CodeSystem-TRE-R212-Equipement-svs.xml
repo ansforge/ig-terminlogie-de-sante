@@ -2205,7 +2205,7 @@
                   displayName="Caisson hyperbare"
                   longDesignation="Caisson hyperbare"
                   shortDesignation="Caisson hyperbare"
-                  descriptionMetier="Caisson hyperbare soumis à autorisation"/>
+                  descriptionMetier="Code créé spécifiquement pour les besoins de FINESS.&#xA;&#xA;Caisson hyperbare soumis à autorisation&#34;"/>
          <Concept code="245"
                   codeSystem="1.2.250.1.213.3.3.10"
                   dateFin=""
@@ -2214,7 +2214,7 @@
                   displayName="Cyclotron à usage médical"
                   longDesignation="Cyclotron à usage médical"
                   shortDesignation="Cyclotron"
-                  descriptionMetier="Cyclotron à usagemédical soumis à autorisation dans le cadre d'une activité AMM de médecine nucléaire"/>
+                  descriptionMetier="Code créé spécifiquement pour les besoins de FINESS.&#xA;&#xA;Cyclotron à usage médical soumis à autorisation dans le cadre d'une activité AMM de médecine nucléaire."/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -299,6 +299,18 @@
   "descriptionProperty" : "Permet de définir les codes concepts utilisés par FINESS+"
 },
 {
+  "id" : "TRE-R212-Equipement",
+  "name" : "TRE_R212_Equipement",
+  "title" : null,
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.10",
+  "status" : "active",
+  "codeProperty" : "specialisationfiness",
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#specialisationFiness",
+  "typeProperty" : "boolean",
+  "descriptionProperty" : "Propriété permettant de spécifier les codes exclusifs appartenant à FINESS"
+},
+{
   "id" : "TRE-R280-DisciplineEquipementSocial",
   "name" : "TRE_R280_DisciplineEquipementSocial",
   "title" : null,

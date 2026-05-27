@@ -103,6 +103,12 @@ Equipement
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#finess",
     "description" : "Permet de définir les codes concepts utilisés par FINESS+",
     "type" : "boolean"
+  },
+  {
+    "code" : "specialisationfiness",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#specialisationFiness",
+    "description" : "Propriété permettant de spécifier les codes exclusifs appartenant à FINESS",
+    "type" : "boolean"
   }],
   "concept" : [{
     "code" : "001",
@@ -4768,7 +4774,7 @@ Equipement
   {
     "code" : "244",
     "display" : "Caisson hyperbare",
-    "definition" : "Caisson hyperbare soumis à autorisation",
+    "definition" : "Code créé spécifiquement pour les besoins de FINESS.\n\nCaisson hyperbare soumis à autorisation\"",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-06-01T12:00:00+01:00"
@@ -4784,12 +4790,16 @@ Equipement
     {
       "code" : "finess",
       "valueBoolean" : true
+    },
+    {
+      "code" : "specialisationFiness",
+      "valueBoolean" : true
     }]
   },
   {
     "code" : "245",
     "display" : "Cyclotron à usage médical",
-    "definition" : "Cyclotron à usagemédical soumis à autorisation dans le cadre d'une activité AMM de médecine nucléaire",
+    "definition" : "Code créé spécifiquement pour les besoins de FINESS.\n\nCyclotron à usage médical soumis à autorisation dans le cadre d'une activité AMM de médecine nucléaire.",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -4812,6 +4822,10 @@ Equipement
     },
     {
       "code" : "finess",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "specialisationFiness",
       "valueBoolean" : true
     }]
   }]
