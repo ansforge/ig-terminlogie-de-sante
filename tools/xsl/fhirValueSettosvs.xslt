@@ -23,11 +23,11 @@
                 <xsl:variable name="extInfo" select="document('./codesystems.xml')"/>                
                 <ConceptList>
                     <xsl:for-each select='//f:concept | //f:contains'>
-                        <xsl:variable name="uriCodeSystem" select="../f:system/@value | f:system/@value"/>
+                        <xsl:variable name="uriCodeSystem" select="(../f:system | f:system)/@value"/>
                         <xsl:variable name='codeSystemCalc'>
                             <xsl:choose>
-                                <xsl:when test="substring-after(document(concat('https://smt.esante.gouv.fr/fhir/CodeSystem?url=', ../f:system/@value,'&amp;_format=application/fhir+xml'))//f:CodeSystem/f:identifier[f:system/@value='urn:ietf:rfc:3986']/f:value/@value,'oid:') ">
-                                        <xsl:value-of select="substring-after(document(concat('https://smt.esante.gouv.fr/fhir/CodeSystem?url=', ../f:system/@value,'&amp;_format=application/fhir+xml'))//f:CodeSystem/f:identifier[f:system/@value='urn:ietf:rfc:3986']/f:value/@value,'oid:')"/>
+                                <xsl:when test="substring-after(document(concat('https://smt.esante.gouv.fr/fhir/CodeSystem?url=', (../f:system | f:system)/@value,'&amp;_format=application/fhir+xml'))//f:CodeSystem/f:identifier[f:system/@value='urn:ietf:rfc:3986']/f:value/@value,'oid:') ">
+                                        <xsl:value-of select="substring-after(document(concat('https://smt.esante.gouv.fr/fhir/CodeSystem?url=', (../f:system | f:system)/@value,'&amp;_format=application/fhir+xml'))//f:CodeSystem/f:identifier[f:system/@value='urn:ietf:rfc:3986']/f:value/@value,'oid:')"/>
                                 </xsl:when>
                                <xsl:when test="exists($extInfo//*:codesystem[@uri = $uriCodeSystem]/@oid) ">
                                         <xsl:value-of select="$extInfo//*:codesystem[@uri = $uriCodeSystem]/@oid"/>
