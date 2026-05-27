@@ -46,6 +46,10 @@ Description: "Equipement"
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#finess"
 * ^property[=].description = "Permet de définir les codes concepts utilisés par FINESS+"
 * ^property[=].type = #boolean
+* ^property[+].code = #specialisationfiness
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#specialisationFiness"
+* ^property[=].description = "Propriété permettant de spécifier les codes exclusifs appartenant à FINESS"
+* ^property[=].type = #boolean
 * #001 "Angiographie biplan rotationnelle (reconstruction scanner integrée)"
 * #001 ^property[0].code = #dateValid
 * #001 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
@@ -2122,7 +2126,12 @@ Description: "Equipement"
 * #243 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #243 ^property[+].code = #status
 * #243 ^property[=].valueCode = #active
-* #244 "Caisson hyperbare" "Caisson hyperbare soumis à autorisation"
+* #244 "Caisson hyperbare" 
+"""
+Code créé spécifiquement pour les besoins de FINESS.
+
+Caisson hyperbare soumis à autorisation"
+"""
 * #244 ^property[0].code = #dateValid
 * #244 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #244 ^property[+].code = #dateMaj
@@ -2131,7 +2140,14 @@ Description: "Equipement"
 * #244 ^property[=].valueCode = #active
 * #244 ^property[+].code = #finess
 * #244 ^property[=].valueBoolean = true
-* #245 "Cyclotron à usage médical" "Cyclotron à usagemédical soumis à autorisation dans le cadre d'une activité AMM de médecine nucléaire"
+* #244 ^property[+].code = #specialisationFiness
+* #244 ^property[=].valueBoolean = true
+* #245 "Cyclotron à usage médical" 
+"""
+Code créé spécifiquement pour les besoins de FINESS.
+
+Cyclotron à usage médical soumis à autorisation dans le cadre d'une activité AMM de médecine nucléaire.
+"""
 * #245 ^designation.language = #fr-FR
 * #245 ^designation.use = $sct#900000000000013009
 * #245 ^designation.value = "Cyclotron"
@@ -2142,4 +2158,6 @@ Description: "Equipement"
 * #245 ^property[+].code = #status
 * #245 ^property[=].valueCode = #active
 * #245 ^property[+].code = #finess
+* #245 ^property[=].valueBoolean = true
+* #245 ^property[+].code = #specialisationFiness
 * #245 ^property[=].valueBoolean = true

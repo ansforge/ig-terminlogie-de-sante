@@ -41,6 +41,9 @@ Description: "CodeSystem permettant définir les propriétés NOS utilisées dan
 * #specialisationRpps "Specialisation RPPS" "Propriété permettant de spécifier les codes exclusifs appartenant au RPPS"
 * #specialisationRpps ^property.code = #status
 * #specialisationRpps ^property.valueCode = #active
+* #specialisationFiness "Specialisation FINESS" "Propriété permettant de spécifier les codes exclusifs appartenant à FINESS"
+* #specialisationFiness ^property.code = #status
+* #specialisationFiness ^property.valueCode = #active
 * #ror "ROR" "Permet de définir les codes concepts uilisés par le ROR"
 * #ror ^property.code = #status
 * #ror ^property.valueCode = #active
