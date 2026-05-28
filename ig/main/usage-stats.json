@@ -1,6 +1,6 @@
 {
   "package": "ans.fr.terminologies",
-  "version": "1.9.2",
+  "version": "1.9.3",
   "fhirVersion": "4.0.1",
   "jurisdiction": "FRA",
   "extensions": [],

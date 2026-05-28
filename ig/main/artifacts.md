@@ -1,4 +1,4 @@
-# Artifacts Summary - Terminologies de Santé v1.9.2
+# Artifacts Summary - Terminologies de Santé v1.9.3
 
 * [**Table of Contents**](toc.md)
 * **Artifacts Summary**
@@ -786,6 +786,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Jdv J385 Composition Foyer Ms](ValueSet-jdv-j385-composition-foyer-ms.md) | Désigne avec qui vit l’usager dans son logement. |
 | [Jdv J386 Type Enseignement Specialise Ms](ValueSet-jdv-j386-type-enseignement-specialise-ms.md) | Type d’enseignement spécialisé. |
 | [Jdv J387 Role Participant Ms](ValueSet-jdv-j387-role-participant-ms.md) | Rôle du participant vis à vis de l’événement (mandataire judiciaire, structure en charge de l’événement). |
+| [Jdv J391 Niveau Diplome Ms](ValueSet-jdv-j391-niveau-diplome-ms.md) | Niveau de diplôme permettant d’indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel. |
 | [Jdv J392 Type Courrier Ms](ValueSet-jdv-j392-type-courrier-ms.md) | Type de courrier en France. |
 | [Jdv J393 Utilisation Canal Communication Ms](ValueSet-jdv-j393-utilisation-canal-communication-ms.md) | Précise l’utilisation du canal de communication. |
 | [Jdv J394 Type Demande Compensation Ms](ValueSet-jdv-j394-type-demande-compensation-ms.md) | Type demande de compensation adressée à la CDAPH. |
@@ -793,6 +794,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Jdv J396 Canal Communication Ms](ValueSet-jdv-j396-canal-communication-ms.md) | Canal de communication. |
 | [Jdv J397 Type Messagerie Ms](ValueSet-jdv-j397-type-messagerie-ms.md) | Type de messagerie électronique utilisée par le médico-social. |
 | [Jdv J398 Type Decision Ms](ValueSet-jdv-j398-type-decision-ms.md) | Type de décision transmise aux DUI(s) par la CDAPH en réponse à une demande de compensation d’un usager. |
+| [Jdv J399 Motivation Ms](ValueSet-jdv-j399-motivation-ms.md) | L’énoncé des considérations de droit ou de fait qui constituent le fondement de la proposition et de la décision de la CDAPH. |
 | [Jdv J400 Nature Droit Prestation Ms](ValueSet-jdv-j400-nature-droit-prestation-ms.md) | Nature du droit s’appliquant à tous les droits ou prestations ouverts par la CDAPH. Elle permet de gérer, le cas échéant, le lien entre la date d’ouverture du droit et la date de fin d’un droit précédent. Elle est déterminée par l’équipe pluridisciplinaire ou par la CDAPH. |
 | [Jdv J401 Categorie Droit Prestation Ms](ValueSet-jdv-j401-categorie-droit-prestation-ms.md) | Catégorie de droit et prestation caractérisant la décision d’orientation. |
 | [Jdv J402 Type Droit Prestation Ms](ValueSet-jdv-j402-type-droit-prestation-ms.md) | Type de droit et prestation caractérisant la décision d’orientation. |
@@ -801,7 +803,10 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Jdv J405 Type Presence Absence Ms](ValueSet-jdv-j405-type-presence-absence-ms.md) | Déclaration du type de présence absence de l’usager lors d’un événement organisé par sa structure de rattachement. |
 | [Jdv J406 Motif Absence Ms](ValueSet-jdv-j406-motif-absence-ms.md) | Motif pour lequel l’usager n’est pas présent lors d’un événement organisé par sa structure de rattachement. |
 | [Jdv J407 Type Repas Ms](ValueSet-jdv-j407-type-repas-ms.md) | Type de repas. |
+| [Jdv J408 Orientation Ms](ValueSet-jdv-j408-orientation-ms.md) | Ensemble des orientations vers un Service d’éducation spéciale et de soins à domicile (SESSAD), un Service d’accompagnement familial et d’éducation précoce (SAFEP), un enseignement adapté (SEGPA/EREA) ou une unité d’enseignement. |
 | [Jdv J409 Type Adresse Ms](ValueSet-jdv-j409-type-adresse-ms.md) | Type d’adresse postale. |
+| [Jdv J410 Categorie Permis Conduire Ms](ValueSet-jdv-j410-categorie-permis-conduire-ms.md) | Catégorie de permis de conduire. |
+| [Jdv J411 Niveau Scolaire Ms](ValueSet-jdv-j411-niveau-scolaire-ms.md) | Niveau scolaire de l’usager en France. |
 | [Jdv J418 Activite Sanitaire Diverse Regulee Active](ValueSet-jdv-j418-activite-sanitaire-diverse-regulee-active.md) | Jeu de valeurs des activités sanitaires actives, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR) |
 | [Jdv MSO Resultat Qualitatif 3 CISIS](ValueSet-jdv-mso-resultat-qualitatif-3-cisis.md) | Jdv MSO Resultat Qualitatif 3 CISIS |
 | [Jdv MSO Resultat Qualitatif 5 CISIS](ValueSet-jdv-mso-resultat-qualitatif-5-cisis.md) | Jdv MSO Resultat Qualitatif 5 CISIS |
@@ -1225,10 +1230,14 @@ These define new code systems used by systems conforming to this implementation 
 | [Tre R406 Forme Activite Smsse Regulee](CodeSystem-tre-r406-forme-activite-smsse-regulee.md) | Formes des activites smsse régulées, remplace la TRE_R276-FormeActivite |
 | [Tre R407 Composition Foyer](CodeSystem-tre-r407-composition-foyer.md) | Désigne avec qui vit l’usager dans son logement. |
 | [Tre R408 Type Enseignement Specialise](CodeSystem-tre-r408-type-enseignement-specialise.md) | Type d’enseignement spécialisé. |
+| [Tre R412 Niveau Diplome](CodeSystem-tre-r412-niveau-diplome.md) | Niveau de diplôme permettant d’indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel. |
+| [Tre R413 Categorie Permis Conduire](CodeSystem-tre-r413-categorie-permis-conduire.md) | Catégorie de permis de conduire. |
+| [Tre R414 Niveau Scolaire](CodeSystem-tre-r414-niveau-scolaire.md) | Niveau scolaire de l’usager en France. |
 | [Tre R415 Utilisation Canal Communication](CodeSystem-tre-r415-utilisation-canal-communication.md) | Précise l’utilisation du canal de communication. |
 | [Tre R416 Type Courrier](CodeSystem-tre-r416-type-courrier.md) | Type de courrier en France. |
 | [Tre R417 Type Demande Compensation](CodeSystem-tre-r417-type-demande-compensation.md) | Type de la demande de compensation adressée à la CDAPH. |
 | [Tre R418 Nature Demande Compensation](CodeSystem-tre-r418-nature-demande-compensation.md) | Nature de la demande de compensation adressée à la CDAPH. |
+| [Tre R419 Motivation](CodeSystem-tre-r419-motivation.md) | Considération(s) de droit ou de fait qui constituent le fondement de la proposition et de la décision de la CDAPH. |
 | [Tre R420 Droit Prestation](CodeSystem-tre-r420-droit-prestation.md) | Catégorie et type de droit et prestation caractérisant la décision d’orientation. |
 | [Tre R421 Motif Fin Pag](CodeSystem-tre-r421-motif-fin-pag.md) | Lorsque le plan d’accompagnement global (PAG) arrive à échéance ou si le coordonnateur de parcours l’estime nécessaire, un bilan est élaboré et la phase d’actualisation est lancée afin de déterminer s’il faut prolonger ce PAG, le modifier ou y mettre fin. La MDPH, les partenaires et l’usager peuvent définir ensemble que le PAG n’est plus nécessaire et donc y mettre fin. Le consentement de la personne ou de son représentant légal est recueilli et l’information sur la fin du PAG transmise à l’ensemble des parties-prenantes. |
 | [Tre R422 Qualification Orientation](CodeSystem-tre-r422-qualification-orientation.md) | La qualification de l’orientation peut être cible ou alternative. |

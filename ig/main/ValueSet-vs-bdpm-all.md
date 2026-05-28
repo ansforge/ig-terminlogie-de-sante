@@ -1,4 +1,4 @@
-# ValueSet_BDPM_All - Terminologies de Santé v1.9.2
+# ValueSet_BDPM_All - Terminologies de Santé v1.9.3
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 | | | |
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-bdpm?vs | *Version*:20241106120000 | |
-| Active as of 2026-05-27 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ValueSet_BDPM_All |
+| Active as of 2026-05-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ValueSet_BDPM_All |
 
  
 Ce jeu de valeurs inclut tous les codes de la terminologie BDPM 
@@ -64,7 +64,7 @@ Requête sur le SMT
   "name" : "ValueSet_BDPM_All",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-27T08:01:58+00:00",
+  "date" : "2026-05-28T08:24:30+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ce jeu de valeurs inclut tous les codes de la terminologie BDPM",
   "jurisdiction" : [{

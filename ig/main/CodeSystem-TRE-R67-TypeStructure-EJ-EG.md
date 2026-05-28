@@ -1,4 +1,4 @@
-# TRE_R67_TypeStructure_EJ_EG - Terminologies de Santé v1.9.2
+# TRE_R67_TypeStructure_EJ_EG - Terminologies de Santé v1.9.3
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

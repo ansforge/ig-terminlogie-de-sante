@@ -1,4 +1,4 @@
-# hl7VS-specimenCollectionMethod - Terminologies de Santé v1.9.2
+# hl7VS-specimenCollectionMethod - Terminologies de Santé v1.9.3
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

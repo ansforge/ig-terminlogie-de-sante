@@ -1,4 +1,4 @@
-# Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments - Terminologies de Santé v1.9.2
+# Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments - Terminologies de Santé v1.9.3
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

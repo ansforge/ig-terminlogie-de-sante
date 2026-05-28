@@ -1,4 +1,4 @@
-# Terminologies du NOS - Terminologies de Santé v1.9.2
+# Terminologies du NOS - Terminologies de Santé v1.9.3
 
 * [**Table of Contents**](toc.md)
 * [**Terminologies**](tre.md)
@@ -46,10 +46,14 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TreR406FormeActiviteSmsseRegulee](CodeSystem-tre-r406-forme-activite-smsse-regulee.md) | Formes des activites smsse régulées, remplace la TRE_R276-FormeActivite | 23/02/2026 | active |
 | [TreR407CompositionFoyer](CodeSystem-tre-r407-composition-foyer.md) | Désigne avec qui vit l’usager dans son logement. | 02/02/2026 | active |
 | [TreR408TypeEnseignementSpecialise](CodeSystem-tre-r408-type-enseignement-specialise.md) | Type d'enseignement spécialisé. | 02/02/2026 | active |
+| [TreR412NiveauDiplome](CodeSystem-tre-r412-niveau-diplome.md) | Niveau de diplôme permettant d'indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel. | 01/06/2026 | draft |
+| [TreR413CategoriePermisConduire](CodeSystem-tre-r413-categorie-permis-conduire.md) | Catégorie de permis de conduire. | 01/06/2026 | draft |
+| [TreR414NiveauScolaire](CodeSystem-tre-r414-niveau-scolaire.md) | Niveau scolaire de l'usager en France. | 01/06/2026 | draft |
 | [TreR415UtilisationCanalCommunication](CodeSystem-tre-r415-utilisation-canal-communication.md) | Précise l'utilisation du canal de communication. | 05/05/2026 | draft |
 | [TreR416TypeCourrier](CodeSystem-tre-r416-type-courrier.md) | Type de courrier en France. | 05/05/2026 | draft |
 | [TreR417TypeDemandeCompensation](CodeSystem-tre-r417-type-demande-compensation.md) | Type de la demande de compensation adressée à la CDAPH. | 05/05/2026 | draft |
 | [TreR418NatureDemandeCompensation](CodeSystem-tre-r418-nature-demande-compensation.md) | Nature de la demande de compensation adressée à la CDAPH. | 05/05/2026 | draft |
+| [TreR419Motivation](CodeSystem-tre-r419-motivation.md) | Considération(s) de droit ou de fait qui constituent le fondement de la proposition et de la décision de la CDAPH. | 01/06/2026 | draft |
 | [TreR420DroitPrestation](CodeSystem-tre-r420-droit-prestation.md) | Catégorie et type de droit et prestation caractérisant la décision d'orientation. | 05/05/2026 | draft |
 | [TreR421MotifFinPag](CodeSystem-tre-r421-motif-fin-pag.md) | Lorsque le plan d'accompagnement global (PAG) arrive à échéance ou si le coordonnateur de parcours l'estime nécessaire, un bilan est élaboré et la phase d'actualisation est lancée afin de déterminer s'il faut prolonger ce PAG, le modifier ou y mettre fin. La MDPH, les partenaires et l'usager peuvent définir ensemble que le PAG n'est plus nécessaire et donc y mettre fin. Le consentement de la personne ou de son représentant légal est recueilli et l'information sur la fin du PAG transmise à l'ensemble des parties-prenantes. | 05/05/2026 | draft |
 | [TreR422QualificationOrientation](CodeSystem-tre-r422-qualification-orientation.md) | La qualification de l'orientation peut être cible ou alternative. | 05/05/2026 | draft |
