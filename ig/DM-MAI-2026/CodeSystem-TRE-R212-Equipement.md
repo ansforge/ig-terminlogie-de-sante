@@ -105,7 +105,7 @@ Equipement
     "type" : "boolean"
   },
   {
-    "code" : "specialisationfiness",
+    "code" : "specialisationFiness",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#specialisationFiness",
     "description" : "Propriété permettant de spécifier les codes exclusifs appartenant à FINESS",
     "type" : "boolean"

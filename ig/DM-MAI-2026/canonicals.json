@@ -5135,6 +5135,30 @@
   "oids" : ["1.2.250.1.213.2.82"]
 },
 {
+  "id" : "tre-r412-niveau-diplome",
+  "type" : "CodeSystem",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome",
+  "version" : "20260601120000",
+  "name" : "TreR412NiveauDiplome",
+  "oids" : ["1.2.250.1.213.3.3.263"]
+},
+{
+  "id" : "tre-r413-categorie-permis-conduire",
+  "type" : "CodeSystem",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r413-categorie-permis-conduire",
+  "version" : "20260601120000",
+  "name" : "TreR413CategoriePermisConduire",
+  "oids" : ["1.2.250.1.213.3.3.264"]
+},
+{
+  "id" : "tre-r414-niveau-scolaire",
+  "type" : "CodeSystem",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r414-niveau-scolaire",
+  "version" : "20260601120000",
+  "name" : "TreR414NiveauScolaire",
+  "oids" : ["1.2.250.1.213.3.3.265"]
+},
+{
   "id" : "tre-r415-utilisation-canal-communication",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r415-utilisation-canal-communication",
@@ -5165,6 +5189,14 @@
   "version" : "20260505120000",
   "name" : "TreR418NatureDemandeCompensation",
   "oids" : ["1.2.250.1.213.3.3.269"]
+},
+{
+  "id" : "tre-r419-motivation",
+  "type" : "CodeSystem",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r419-motivation",
+  "version" : "20260601120000",
+  "name" : "TreR419Motivation",
+  "oids" : ["1.2.250.1.213.3.3.270"]
 },
 {
   "id" : "tre-r420-droit-prestation",
@@ -7298,6 +7330,14 @@
   "oids" : ["1.2.250.1.213.1.6.1.399"]
 },
 {
+  "id" : "jdv-j391-niveau-diplome-ms",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j391-niveau-diplome-ms",
+  "version" : "20260601120000",
+  "name" : "JdvJ391NiveauDiplomeMs",
+  "oids" : ["1.2.250.1.213.3.4.231"]
+},
+{
   "id" : "jdv-j392-type-courrier-ms",
   "type" : "ValueSet",
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j392-type-courrier-ms",
@@ -7352,6 +7392,14 @@
   "version" : "20260505120000",
   "name" : "JdvJ398TypeDecisionMs",
   "oids" : ["1.2.250.1.213.3.4.238"]
+},
+{
+  "id" : "jdv-j399-motivation-ms",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j399-motivation-ms",
+  "version" : "20260601120000",
+  "name" : "JdvJ399MotivationMs",
+  "oids" : ["1.2.250.1.213.3.4.239"]
 },
 {
   "id" : "jdv-j400-nature-droit-prestation-ms",
@@ -7418,12 +7466,36 @@
   "oids" : ["1.2.250.1.213.3.4.247"]
 },
 {
+  "id" : "jdv-j408-orientation-ms",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j408-orientation-ms",
+  "version" : "20260601120000",
+  "name" : "JdvJ408OrientationMs",
+  "oids" : ["1.2.250.1.213.3.4.248"]
+},
+{
   "id" : "jdv-j409-type-adresse-ms",
   "type" : "ValueSet",
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j409-type-adresse-ms",
   "version" : "20260505120000",
   "name" : "JdvJ409TypeAdresseMs",
   "oids" : ["1.2.250.1.213.3.4.249"]
+},
+{
+  "id" : "jdv-j410-categorie-permis-conduire-ms",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j410-categorie-permis-conduire-ms",
+  "version" : "20260601120000",
+  "name" : "JdvJ410CategoriePermisConduireMs",
+  "oids" : ["1.2.250.1.213.3.4.250"]
+},
+{
+  "id" : "jdv-j411-niveau-scolaire-ms",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j411-niveau-scolaire-ms",
+  "version" : "20260601120000",
+  "name" : "JdvJ411NiveauScolaireMs",
+  "oids" : ["1.2.250.1.213.3.4.251"]
 },
 {
   "id" : "jdv-j418-activite-sanitaire-diverse-regulee-active",

@@ -370,10 +370,14 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | TreR409TypeDureeInterruptionExercice | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee | 1.2.250.1.213.1.6.1.396 |
 | TreR410PerimetreInterruptionExercice | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee | 1.2.250.1.213.1.6.1.397 |
 | TreR411SexeInsee | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r411-sexe-insee | 1.2.250.1.213.2.82 |
+| TreR412NiveauDiplome | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome | 1.2.250.1.213.3.3.263 |
+| TreR413CategoriePermisConduire | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r413-categorie-permis-conduire | 1.2.250.1.213.3.3.264 |
+| TreR414NiveauScolaire | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r414-niveau-scolaire | 1.2.250.1.213.3.3.265 |
 | TreR415UtilisationCanalCommunication | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r415-utilisation-canal-communication | 1.2.250.1.213.3.3.266 |
 | TreR416TypeCourrier | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r416-type-courrier | 1.2.250.1.213.3.3.267 |
 | TreR417TypeDemandeCompensation | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r417-type-demande-compensation | 1.2.250.1.213.3.3.268 |
 | TreR418NatureDemandeCompensation | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r418-nature-demande-compensation | 1.2.250.1.213.3.3.269 |
+| TreR419Motivation | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r419-motivation | 1.2.250.1.213.3.3.270 |
 | TreR420DroitPrestation | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation | 1.2.250.1.213.3.3.271 |
 | TreR421MotifFinPag | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag | 1.2.250.1.213.3.3.272 |
 | TreR422QualificationOrientation | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r422-qualification-orientation | 1.2.250.1.213.3.3.273 |
