@@ -46,7 +46,7 @@ Description: "Equipement"
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#finess"
 * ^property[=].description = "Permet de définir les codes concepts utilisés par FINESS+"
 * ^property[=].type = #boolean
-* ^property[+].code = #specialisationfiness
+* ^property[+].code = #specialisationFiness
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#specialisationFiness"
 * ^property[=].description = "Propriété permettant de spécifier les codes exclusifs appartenant à FINESS"
 * ^property[=].type = #boolean
