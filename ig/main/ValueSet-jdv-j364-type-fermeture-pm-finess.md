@@ -6,14 +6,11 @@
 
 ## ValueSet: Jdv J364 Type Fermeture Pm Finess 
 
-| | | |
-| :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j364-type-fermeture-pm-finess | *Version*:20260505120000 | |
-| Active as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ364TypeFermeturePmFiness |
-| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.372 | | |
-
- 
-Jeu de valeurs FINESS contenant les types de fermeture dédiées aux personnes morales FINESS 
+| | |
+| :--- | :--- |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j364-type-fermeture-pm-finess | *Version*:20260505120000 |
+| Active as of 2026-05-29 | *Computable Name*:JdvJ364TypeFermeturePmFiness |
+| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.372 | |
 
  **References** 
 
@@ -28,6 +25,8 @@ Requête sur le SMT
 ```
 
 ### Définition logique (CLD)
+
+Aucune définition formelle fournie pour ce jeu de valeurs
 
  
 
@@ -54,11 +53,6 @@ Requête sur le SMT
 {
   "resourceType" : "ValueSet",
   "id" : "jdv-j364-type-fermeture-pm-finess",
-  "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-05-05T19:02:20.271+02:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-  },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -76,23 +70,39 @@ Requête sur le SMT
   "title" : "Jdv J364 Type Fermeture Pm Finess",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-05T18:02:28.249+00:00",
-  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Jeu de valeurs FINESS contenant les types de fermeture dédiées aux personnes morales FINESS",
+  "date" : "2026-05-29T09:12:29+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FRA"
     }]
   }],
-  "compose" : {
-    "include" : [{
+  "expansion" : {
+    "identifier" : "urn:uuid:4106851c-4eb2-4599-a567-8a985ee51865",
+    "timestamp" : "2026-05-29T11:10:59+02:00",
+    "total" : 3,
+    "parameter" : [{
+      "name" : "used-codesystem",
+      "valueUri" : "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture|20260505120000"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture|20260505120000"
+    }],
+    "contains" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture",
-      "filter" : [{
-        "property" : "TypeFermeturePmFiness",
-        "op" : "=",
-        "value" : "true"
-      }]
+      "code" : "DEF",
+      "display" : "Définitive"
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture",
+      "code" : "ERR",
+      "display" : "Erreur"
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture",
+      "code" : "NDI",
+      "display" : "Non défini"
     }]
   }
 }

@@ -6,14 +6,11 @@
 
 ## ValueSet: Jdv J383 Motif Cloture Exercice Professionnel Epars 
 
-| | | |
-| :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j383-motif-cloture-exercice-professionnel-epars | *Version*:20251222120000 | |
-| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ383MotifClotureExerciceProfessionnelEpars |
-| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.394 | | |
-
- 
-Ce jeu de valeur liste les différents motifs qui peuvent justifier la clôture d’un exercice professionnel. 
+| | |
+| :--- | :--- |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j383-motif-cloture-exercice-professionnel-epars | *Version*:20251222120000 |
+| Active as of 2026-05-29 | *Computable Name*:JdvJ383MotifClotureExerciceProfessionnelEpars |
+| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.394 | |
 
  **References** 
 
@@ -28,6 +25,8 @@ Requête sur le SMT
 ```
 
 ### Définition logique (CLD)
+
+Aucune définition formelle fournie pour ce jeu de valeurs
 
  
 
@@ -54,11 +53,6 @@ Requête sur le SMT
 {
   "resourceType" : "ValueSet",
   "id" : "jdv-j383-motif-cloture-exercice-professionnel-epars",
-  "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2025-12-19T09:32:31.318+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-  },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -76,23 +70,54 @@ Requête sur le SMT
   "title" : "Jdv J383 Motif Cloture Exercice Professionnel Epars",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-22T12:00:00.249+00:00",
-  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Ce jeu de valeur liste les différents motifs qui peuvent justifier la clôture d'un exercice professionnel.",
+  "date" : "2026-05-29T09:12:29+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FRA"
     }]
   }],
-  "compose" : {
-    "include" : [{
+  "expansion" : {
+    "identifier" : "urn:uuid:2955eb62-2145-459a-9fbf-921368578b2c",
+    "timestamp" : "2026-05-29T11:10:50+02:00",
+    "total" : 6,
+    "parameter" : [{
+      "name" : "used-codesystem",
+      "valueUri" : "https://mos.esante.gouv.fr/NOS/TRE_R25-MotifFinActivite/FHIR/TRE-R25-MotifFinActivite|20231215120000"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "https://mos.esante.gouv.fr/NOS/TRE_R25-MotifFinActivite/FHIR/TRE-R25-MotifFinActivite|20231215120000"
+    }],
+    "contains" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R25-MotifFinActivite/FHIR/TRE-R25-MotifFinActivite",
-      "filter" : [{
-        "property" : "epars",
-        "op" : "=",
-        "value" : "true"
-      }]
+      "code" : "AUT",
+      "display" : "Autre motif"
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R25-MotifFinActivite/FHIR/TRE-R25-MotifFinActivite",
+      "code" : "CHP",
+      "display" : "Changement de profession"
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R25-MotifFinActivite/FHIR/TRE-R25-MotifFinActivite",
+      "code" : "DCD",
+      "display" : "Décès"
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R25-MotifFinActivite/FHIR/TRE-R25-MotifFinActivite",
+      "code" : "ETR",
+      "display" : "Départ à l'étranger"
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R25-MotifFinActivite/FHIR/TRE-R25-MotifFinActivite",
+      "code" : "RL",
+      "display" : "Retraite libérale"
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R25-MotifFinActivite/FHIR/TRE-R25-MotifFinActivite",
+      "code" : "RS",
+      "display" : "Retraite salariée"
     }]
   }
 }

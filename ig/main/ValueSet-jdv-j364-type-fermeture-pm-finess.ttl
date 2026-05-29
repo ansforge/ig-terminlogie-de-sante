@@ -9,18 +9,10 @@
 <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j364-type-fermeture-pm-finess> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "jdv-j364-type-fermeture-pm-finess"] ; # 
-  fhir:meta [
-     fhir:versionId [ fhir:v "2" ] ;
-     fhir:lastUpdated [ fhir:v "2026-05-05T19:02:20.271+02:00"^^xsd:dateTime ] ;
-     fhir:profile ( [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
-     ] )
-  ] ; # 
   fhir:language [ fhir:v "fr-FR"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j364-type-fermeture-pm-finess</b></p><a name=\"jdv-j364-type-fermeture-pm-finess\"> </a><a name=\"hcjdv-j364-type-fermeture-pm-finess\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 2; Dernière mise à jour : 2026-05-05 19:02:20+0200; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include codes provenant de<a href=\"CodeSystem-TRE-R286-TypeFermeture.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture</code></a><span title=\"La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\"> version ?20260505120000</span> où TypeFermeturePmFiness  = true</li></ul></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j364-type-fermeture-pm-finess</b></p><a name=\"jdv-j364-type-fermeture-pm-finess\"> </a><a name=\"hcjdv-j364-type-fermeture-pm-finess\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Langue : fr-FR</p></div><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion basée sur <a href=\"CodeSystem-TRE-R286-TypeFermeture.html\">codesystem TRE_R286_TypeFermeture v20260505120000 (CodeSystem)</a></p><p>Ce jeu de valeur (ValueSet) contient 3 concepts</p><table class=\"codes\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage (fr-FR)</b> - French (France) (fr)</td></tr><tr><td><a name=\"jdv-j364-type-fermeture-pm-finess-https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture-DEF\"> </a><code>https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-TRE-R286-TypeFermeture.html#TRE-R286-TypeFermeture-DEF\">DEF</a></td><td>Définitive</td></tr><tr><td><a name=\"jdv-j364-type-fermeture-pm-finess-https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture-ERR\"> </a><code>https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-TRE-R286-TypeFermeture.html#TRE-R286-TypeFermeture-ERR\">ERR</a></td><td>Erreur</td></tr><tr><td><a name=\"jdv-j364-type-fermeture-pm-finess-https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture-NDI\"> </a><code>https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-TRE-R286-TypeFermeture.html#TRE-R286-TypeFermeture-NDI\">NDI</a></td><td>Non défini</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
      fhir:url [
@@ -48,9 +40,7 @@
   fhir:title [ fhir:v "Jdv J364 Type Fermeture Pm Finess"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-05-05T18:02:28.249+00:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
-  fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les types de fermeture dédiées aux personnes morales FINESS"] ; # 
+  fhir:date [ fhir:v "2026-05-29T09:12:29+00:00"^^xsd:dateTime] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [
@@ -60,17 +50,49 @@
        fhir:code [ fhir:v "FRA" ]
      ] )
   ] ) ; # 
-  fhir:compose [
-     fhir:include ( [
+  fhir:expansion [
+     fhir:identifier [
+       fhir:v "urn:uuid:4106851c-4eb2-4599-a567-8a985ee51865"^^xsd:anyURI ;
+       fhir:l <urn:uuid:4106851c-4eb2-4599-a567-8a985ee51865>
+     ] ;
+     fhir:timestamp [ fhir:v "2026-05-29T11:10:59+02:00"^^xsd:dateTime ] ;
+     fhir:total [ fhir:v 3 ] ;
+     fhir:parameter ( [
+       fhir:name [ fhir:v "used-codesystem" ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture|20260505120000"^^xsd:anyURI ;
+         fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture?version=20260505120000>
+       ]
+     ] [
+       fhir:name [ fhir:v "version" ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture|20260505120000"^^xsd:anyURI ;
+         fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture?version=20260505120000>
+       ]
+     ] ) ;
+     fhir:contains ( [
        fhir:system [
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture>
        ] ;
-       fhir:filter ( [
-         fhir:property [ fhir:v "TypeFermeturePmFiness" ] ;
-         fhir:op [ fhir:v "=" ] ;
-         fhir:value [ fhir:v "true" ]
-       ] )
+       fhir:code [ fhir:v "DEF" ] ;
+       fhir:display [ fhir:v "Définitive" ]
+     ] [
+       fhir:system [
+         fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture"^^xsd:anyURI ;
+         fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture>
+       ] ;
+       fhir:code [ fhir:v "ERR" ] ;
+       fhir:display [ fhir:v "Erreur" ]
+     ] [
+       fhir:system [
+         fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture"^^xsd:anyURI ;
+         fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture>
+       ] ;
+       fhir:code [ fhir:v "NDI" ] ;
+       fhir:display [ fhir:v "Non défini" ]
      ] )
   ] . # 
 

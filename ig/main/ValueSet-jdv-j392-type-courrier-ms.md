@@ -6,14 +6,11 @@
 
 ## ValueSet: Jdv J392 Type Courrier Ms 
 
-| | | |
-| :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j392-type-courrier-ms | *Version*:20260505120000 | |
-| Draft as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ392TypeCourrierMs |
-| *Other Identifiers:*OID:1.2.250.1.213.3.4.232 | | |
-
- 
-Type de courrier en France. 
+| | |
+| :--- | :--- |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j392-type-courrier-ms | *Version*:20260505120000 |
+| Draft as of 2026-05-29 | *Computable Name*:JdvJ392TypeCourrierMs |
+| *Other Identifiers:*OID:1.2.250.1.213.3.4.232 | |
 
  **References** 
 
@@ -28,6 +25,8 @@ Requête sur le SMT
 ```
 
 ### Définition logique (CLD)
+
+Aucune définition formelle fournie pour ce jeu de valeurs
 
  
 
@@ -54,11 +53,6 @@ Requête sur le SMT
 {
   "resourceType" : "ValueSet",
   "id" : "jdv-j392-type-courrier-ms",
-  "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-05-12T10:17:36.546+02:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-  },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -76,23 +70,52 @@ Requête sur le SMT
   "title" : "Jdv J392 Type Courrier Ms",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-05T12:00:00.000+00:00",
-  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Type de courrier en France.",
+  "date" : "2026-05-29T09:12:29+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FRA"
     }]
   }],
-  "compose" : {
-    "include" : [{
+  "expansion" : {
+    "identifier" : "urn:uuid:d63eb8fb-34b5-4055-93aa-3b822898b538",
+    "timestamp" : "2026-05-29T11:10:36+02:00",
+    "total" : 4,
+    "parameter" : [{
+      "name" : "used-codesystem",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r416-type-courrier|20260505120000"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r416-type-courrier|20260505120000"
+    },
+    {
+      "name" : "warning-draft",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j392-type-courrier-ms|20260505120000"
+    },
+    {
+      "name" : "warning-draft",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r416-type-courrier|20260505120000"
+    }],
+    "contains" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r416-type-courrier",
-      "filter" : [{
-        "property" : "status",
-        "op" : "=",
-        "value" : "active"
-      }]
+      "code" : "ELR",
+      "display" : "E-lettre rouge"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r416-type-courrier",
+      "code" : "LR",
+      "display" : "Lettre recommandée"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r416-type-courrier",
+      "code" : "LSP",
+      "display" : "Lettre Services Plus"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r416-type-courrier",
+      "code" : "LV",
+      "display" : "Lettre verte"
     }]
   }
 }

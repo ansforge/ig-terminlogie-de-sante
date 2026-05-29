@@ -6,14 +6,11 @@
 
 ## ValueSet: Jdv J396 Canal Communication Ms 
 
-| | | |
-| :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j396-canal-communication-ms | *Version*:20260505120000 | |
-| Draft as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ396CanalCommunicationMs |
-| *Other Identifiers:*OID:1.2.250.1.213.3.4.236 | | |
-
- 
-Canal de communication. 
+| | |
+| :--- | :--- |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j396-canal-communication-ms | *Version*:20260505120000 |
+| Draft as of 2026-05-29 | *Computable Name*:JdvJ396CanalCommunicationMs |
+| *Other Identifiers:*OID:1.2.250.1.213.3.4.236 | |
 
  **References** 
 
@@ -28,6 +25,8 @@ Requête sur le SMT
 ```
 
 ### Définition logique (CLD)
+
+Aucune définition formelle fournie pour ce jeu de valeurs
 
  
 
@@ -54,11 +53,6 @@ Requête sur le SMT
 {
   "resourceType" : "ValueSet",
   "id" : "jdv-j396-canal-communication-ms",
-  "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-05-12T10:17:38.113+02:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-  },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -76,30 +70,68 @@ Requête sur le SMT
   "title" : "Jdv J396 Canal Communication Ms",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-05T12:00:00.000+00:00",
-  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Canal de communication.",
+  "date" : "2026-05-29T09:12:29+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FRA"
     }]
   }],
-  "compose" : {
-    "include" : [{
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R200-CanalCommunication/FHIR/TRE-R200-CanalCommunication",
-      "filter" : [{
-        "property" : "status",
-        "op" : "=",
-        "value" : "active"
-      }]
+  "expansion" : {
+    "identifier" : "urn:uuid:50f6f483-ef79-4bd4-a37d-411dcdbe8bca",
+    "timestamp" : "2026-05-29T11:10:32+02:00",
+    "total" : 8,
+    "parameter" : [{
+      "name" : "used-codesystem",
+      "valueUri" : "https://mos.esante.gouv.fr/NOS/TRE_R200-CanalCommunication/FHIR/TRE-R200-CanalCommunication|20260330120000"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "https://mos.esante.gouv.fr/NOS/TRE_R200-CanalCommunication/FHIR/TRE-R200-CanalCommunication|20260330120000"
+    },
+    {
+      "name" : "warning-draft",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j396-canal-communication-ms|20260505120000"
     }],
-    "exclude" : [{
+    "contains" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R200-CanalCommunication/FHIR/TRE-R200-CanalCommunication",
-      "concept" : [{
-        "code" : "7",
-        "display" : "Réseau radio numérique ANTARES"
-      }]
+      "code" : "3",
+      "display" : "Courrier électronique"
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R200-CanalCommunication/FHIR/TRE-R200-CanalCommunication",
+      "code" : "9",
+      "display" : "Mail d'alerte"
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R200-CanalCommunication/FHIR/TRE-R200-CanalCommunication",
+      "code" : "4",
+      "display" : "Site web"
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R200-CanalCommunication/FHIR/TRE-R200-CanalCommunication",
+      "code" : "5",
+      "display" : "Transfert de fichiers"
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R200-CanalCommunication/FHIR/TRE-R200-CanalCommunication",
+      "code" : "6",
+      "display" : "Télécopie"
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R200-CanalCommunication/FHIR/TRE-R200-CanalCommunication",
+      "code" : "8",
+      "display" : "Téléphone d'alerte"
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R200-CanalCommunication/FHIR/TRE-R200-CanalCommunication",
+      "code" : "2",
+      "display" : "Téléphone fixe"
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R200-CanalCommunication/FHIR/TRE-R200-CanalCommunication",
+      "code" : "1",
+      "display" : "Téléphone mobile"
     }]
   }
 }

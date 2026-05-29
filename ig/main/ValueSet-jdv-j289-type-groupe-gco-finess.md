@@ -6,14 +6,11 @@
 
 ## ValueSet: Jdv J289 Type Groupe Gco Finess 
 
-| | | |
-| :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j289-type-groupe-gco-finess | *Version*:20260330120000 | |
-| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ289TypeGroupeGcoFiness |
-| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.262 | | |
-
- 
-Jeu de valeurs Finess contenant les types de Groupement de Coopération Organique (GCO). 
+| | |
+| :--- | :--- |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j289-type-groupe-gco-finess | *Version*:20260330120000 |
+| Active as of 2026-05-29 | *Computable Name*:JdvJ289TypeGroupeGcoFiness |
+| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.262 | |
 
  **References** 
 
@@ -28,6 +25,8 @@ Requête sur le SMT
 ```
 
 ### Définition logique (CLD)
+
+Aucune définition formelle fournie pour ce jeu de valeurs
 
  
 
@@ -54,11 +53,6 @@ Requête sur le SMT
 {
   "resourceType" : "ValueSet",
   "id" : "jdv-j289-type-groupe-gco-finess",
-  "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-05-05T19:02:06+02:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-  },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -76,23 +70,44 @@ Requête sur le SMT
   "title" : "Jdv J289 Type Groupe Gco Finess",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-30T12:00:00+01:00",
-  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Jeu de valeurs Finess contenant les types de Groupement de Coopération Organique (GCO).",
+  "date" : "2026-05-29T09:12:29+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FRA"
     }]
   }],
-  "compose" : {
-    "include" : [{
+  "expansion" : {
+    "identifier" : "urn:uuid:f1976160-eb8d-4995-9b5d-10eaad45ecfd",
+    "timestamp" : "2026-05-29T11:11:20+02:00",
+    "total" : 4,
+    "parameter" : [{
+      "name" : "used-codesystem",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r372-type-groupe-gco|20260330120000"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r372-type-groupe-gco|20260330120000"
+    }],
+    "contains" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r372-type-groupe-gco",
-      "filter" : [{
-        "property" : "finess",
-        "op" : "=",
-        "value" : "true"
-      }]
+      "code" : "001",
+      "display" : "Communautés professionnelles territoriales de santé (CPTS)"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r372-type-groupe-gco",
+      "code" : "002",
+      "display" : "Groupement de coopération sanitaire - Etablissement de santé"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r372-type-groupe-gco",
+      "code" : "003",
+      "display" : "Groupement de coopération sanitaire de moyens"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r372-type-groupe-gco",
+      "code" : "004",
+      "display" : "Groupement de coopération sanitaire exploitant"
     }]
   }
 }

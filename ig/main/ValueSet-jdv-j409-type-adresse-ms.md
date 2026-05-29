@@ -6,14 +6,11 @@
 
 ## ValueSet: Jdv J409 Type Adresse Ms 
 
-| | | |
-| :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j409-type-adresse-ms | *Version*:20260505120000 | |
-| Draft as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ409TypeAdresseMs |
-| *Other Identifiers:*OID:1.2.250.1.213.3.4.249 | | |
-
- 
-Type d’adresse postale. 
+| | |
+| :--- | :--- |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j409-type-adresse-ms | *Version*:20260505120000 |
+| Draft as of 2026-05-29 | *Computable Name*:JdvJ409TypeAdresseMs |
+| *Other Identifiers:*OID:1.2.250.1.213.3.4.249 | |
 
  **References** 
 
@@ -28,6 +25,8 @@ Requête sur le SMT
 ```
 
 ### Définition logique (CLD)
+
+Aucune définition formelle fournie pour ce jeu de valeurs
 
  
 
@@ -54,11 +53,6 @@ Requête sur le SMT
 {
   "resourceType" : "ValueSet",
   "id" : "jdv-j409-type-adresse-ms",
-  "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-05-12T10:17:42.094+02:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-  },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -76,23 +70,52 @@ Requête sur le SMT
   "title" : "Jdv J409 Type Adresse Ms",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-05T12:00:00.000+00:00",
-  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Type d'adresse postale.",
+  "date" : "2026-05-29T09:12:29+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FRA"
     }]
   }],
-  "compose" : {
-    "include" : [{
+  "expansion" : {
+    "identifier" : "urn:uuid:f05c809f-f13d-432c-a8c6-b948e3d9e8ba",
+    "timestamp" : "2026-05-29T11:11:23+02:00",
+    "total" : 4,
+    "parameter" : [{
+      "name" : "used-codesystem",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r427-type-adresse|20260505120000"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r427-type-adresse|20260505120000"
+    },
+    {
+      "name" : "warning-draft",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j409-type-adresse-ms|20260505120000"
+    },
+    {
+      "name" : "warning-draft",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r427-type-adresse|20260505120000"
+    }],
+    "contains" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r427-type-adresse",
-      "filter" : [{
-        "property" : "status",
-        "op" : "=",
-        "value" : "active"
-      }]
+      "code" : "1",
+      "display" : "Domicile"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r427-type-adresse",
+      "code" : "3",
+      "display" : "Facturation"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r427-type-adresse",
+      "code" : "4",
+      "display" : "Livraison"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r427-type-adresse",
+      "code" : "2",
+      "display" : "Professionnelle"
     }]
   }
 }

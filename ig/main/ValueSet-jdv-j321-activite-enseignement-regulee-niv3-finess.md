@@ -6,14 +6,11 @@
 
 ## ValueSet: Jdv J321 Activite Enseignement Regulee Niv3 Finess 
 
-| | | |
-| :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j321-activite-enseignement-regulee-niv3-finess | *Version*:20260223120000 | |
-| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ321ActiviteEnseignementReguleeNiv3Finess |
-| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.329 | | |
-
- 
-Jeu de valeurs FINESS contenant les activités d’enseignement régulées de niveau 3 
+| | |
+| :--- | :--- |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j321-activite-enseignement-regulee-niv3-finess | *Version*:20260223120000 |
+| Active as of 2026-05-29 | *Computable Name*:JdvJ321ActiviteEnseignementReguleeNiv3Finess |
+| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.329 | |
 
  **References** 
 
@@ -28,6 +25,8 @@ Requête sur le SMT
 ```
 
 ### Définition logique (CLD)
+
+Aucune définition formelle fournie pour ce jeu de valeurs
 
  
 
@@ -54,11 +53,6 @@ Requête sur le SMT
 {
   "resourceType" : "ValueSet",
   "id" : "jdv-j321-activite-enseignement-regulee-niv3-finess",
-  "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-05-05T19:02:13.298+02:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
-  },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -76,28 +70,44 @@ Requête sur le SMT
   "title" : "Jdv J321 Activite Enseignement Regulee Niv3 Finess",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-23T12:00:00.000+00:00",
-  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 3",
+  "date" : "2026-05-29T09:12:29+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FRA"
     }]
   }],
-  "compose" : {
-    "include" : [{
+  "expansion" : {
+    "identifier" : "urn:uuid:1ba380cc-97f2-4212-b2d1-6579790f801c",
+    "timestamp" : "2026-05-29T11:11:59+02:00",
+    "total" : 4,
+    "parameter" : [{
+      "name" : "used-codesystem",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee|20260223120000"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee|20260223120000"
+    }],
+    "contains" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
-      "filter" : [{
-        "property" : "niveau",
-        "op" : "=",
-        "value" : "3"
-      },
-      {
-        "property" : "finess",
-        "op" : "=",
-        "value" : "true"
-      }]
+      "code" : "2240",
+      "display" : "Formation de cadre de santé"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "2230",
+      "display" : "Formation des Personnels Administratifs San. et Soc"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "2210",
+      "display" : "Formation des Personnels Sanitaires"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "2220",
+      "display" : "Formation des Personnels Sociaux"
     }]
   }
 }

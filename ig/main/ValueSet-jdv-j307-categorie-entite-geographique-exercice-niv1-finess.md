@@ -6,14 +6,11 @@
 
 ## ValueSet: Jdv J307 Categorie Entite Geographique Exercice Niv1 Finess 
 
-| | | |
-| :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j307-categorie-entite-geographique-exercice-niv1-finess | *Version*:20260223120000 | |
-| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ307CategorieEntiteGeographiqueExerciceNiv1Finess |
-| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.315 | | |
-
- 
-Ce JDV contient tous les agrégats Niv1 d’EGE (JDV créé à l’image de l’ancienne TRE_R65-AgregatCategorieEtablissement) 
+| | |
+| :--- | :--- |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j307-categorie-entite-geographique-exercice-niv1-finess | *Version*:20260223120000 |
+| Active as of 2026-05-29 | *Computable Name*:JdvJ307CategorieEntiteGeographiqueExerciceNiv1Finess |
+| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.315 | |
 
  **References** 
 
@@ -28,6 +25,8 @@ Requête sur le SMT
 ```
 
 ### Définition logique (CLD)
+
+Aucune définition formelle fournie pour ce jeu de valeurs
 
  
 
@@ -54,11 +53,6 @@ Requête sur le SMT
 {
   "resourceType" : "ValueSet",
   "id" : "jdv-j307-categorie-entite-geographique-exercice-niv1-finess",
-  "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2026-05-05T19:02:10.093+02:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
-  },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -76,23 +70,67 @@ Requête sur le SMT
   "title" : "Jdv J307 Categorie Entite Geographique Exercice Niv1 Finess",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-23T12:00:00.000+00:00",
-  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Ce JDV contient tous les agrégats Niv1 d'EGE (JDV créé à l'image de l'ancienne TRE_R65-AgregatCategorieEtablissement)",
+  "date" : "2026-05-29T09:12:29+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FRA"
     }]
   }],
-  "compose" : {
-    "include" : [{
+  "expansion" : {
+    "identifier" : "urn:uuid:989874f0-6e1d-41a7-b46b-462e18336cc0",
+    "timestamp" : "2026-05-29T11:11:57+02:00",
+    "total" : 7,
+    "parameter" : [{
+      "name" : "used-codesystem",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice|20260505120000"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice|20260505120000"
+    }],
+    "contains" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
-      "filter" : [{
-        "property" : "niveau",
-        "op" : "=",
-        "value" : "1"
-      }]
+      "code" : "2000",
+      "display" : "Autres Etablissements de Soins et Prévention"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
+      "code" : "3000",
+      "display" : "Autres Etablissements à Caractère Sanitaire"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
+      "code" : "6000",
+      "display" : "Etab.de Formation des Personnels Sanitaires et Sociaux"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
+      "code" : "4000",
+      "display" : "Etab.Serv.Soc.d'Accueil Hébergement Assistance Réadaptation"
+    },
+    {
+      "extension" : [{
+        "extension" : [{
+          "url" : "inactive",
+          "valueBoolean" : true
+        }],
+        "url" : "http://ontoserver.csiro.au/profiles/expansion"
+      }],
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
+      "inactive" : true,
+      "code" : "0100",
+      "display" : "Etablissements d'administration"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
+      "code" : "5000",
+      "display" : "Etablissements et Services Sociaux d'Aide à la Famille"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
+      "code" : "1000",
+      "display" : "Etablissements Relevant de la Loi Hospitalière"
     }]
   }
 }

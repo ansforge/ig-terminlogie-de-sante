@@ -6,14 +6,11 @@
 
 ## ValueSet: Jdv J408 Orientation Ms 
 
-| | | |
-| :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j408-orientation-ms | *Version*:20260601120000 | |
-| Draft as of 2026-06-01 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ408OrientationMs |
-| *Other Identifiers:*OID:1.2.250.1.213.3.4.248 | | |
-
- 
-Ensemble des orientations vers un Service d’éducation spéciale et de soins à domicile (SESSAD), un Service d’accompagnement familial et d’éducation précoce (SAFEP), un enseignement adapté (SEGPA/EREA) ou une unité d’enseignement. 
+| | |
+| :--- | :--- |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j408-orientation-ms | *Version*:20260601120000 |
+| Draft as of 2026-05-29 | *Computable Name*:JdvJ408OrientationMs |
+| *Other Identifiers:*OID:1.2.250.1.213.3.4.248 | |
 
  **References** 
 
@@ -28,6 +25,8 @@ Requête sur le SMT
 ```
 
 ### Définition logique (CLD)
+
+Aucune définition formelle fournie pour ce jeu de valeurs
 
  
 
@@ -54,11 +53,6 @@ Requête sur le SMT
 {
   "resourceType" : "ValueSet",
   "id" : "jdv-j408-orientation-ms",
-  "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-05-27T15:47:16.414+02:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-  },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -76,45 +70,120 @@ Requête sur le SMT
   "title" : "Jdv J408 Orientation Ms",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-06-01T12:00:00.000+00:00",
-  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Ensemble des orientations vers un Service d'éducation spéciale et de soins à domicile (SESSAD), un Service d'accompagnement familial et d'éducation précoce (SAFEP), un enseignement adapté (SEGPA/EREA) ou une unité d'enseignement.",
+  "date" : "2026-05-29T09:12:29+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FRA"
     }]
   }],
-  "compose" : {
-    "include" : [{
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation",
-      "filter" : [{
-        "property" : "status",
-        "op" : "=",
-        "value" : "active"
-      }]
+  "expansion" : {
+    "identifier" : "urn:uuid:f535a3cd-c396-4113-a3af-feb2c8899f56",
+    "timestamp" : "2026-05-29T11:11:39+02:00",
+    "total" : 12,
+    "parameter" : [{
+      "name" : "used-codesystem",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise|20260202120000"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise|20260202120000"
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention|20250131120000"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention|20250131120000"
+    },
+    {
+      "name" : "used-codesystem",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation|20260505120000"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation|20260505120000"
+    },
+    {
+      "name" : "warning-draft",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j408-orientation-ms|20260601120000"
+    },
+    {
+      "name" : "warning-draft",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation|20260505120000"
+    }],
+    "contains" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise",
+      "version" : "20260202120000",
+      "code" : "9",
+      "display" : "Scolarisation en SEGPA (sections d’enseignement général et professionnel adapté)"
     },
     {
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise",
-      "concept" : [{
-        "code" : "9",
-        "display" : "Scolarisation en SEGPA (sections d’enseignement général et professionnel adapté)"
-      },
-      {
-        "code" : "10",
-        "display" : "Scolarisation en EREA (établissements régionaux d’enseignement adapté)"
-      }]
+      "version" : "20260202120000",
+      "code" : "10",
+      "display" : "Scolarisation en EREA (établissements régionaux d’enseignement adapté)"
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention",
-      "concept" : [{
-        "code" : "UEA",
-        "display" : "Unité d'enseignement élémentaire autisme"
-      },
-      {
-        "code" : "UEM",
-        "display" : "Unité d'enseignement en maternelle plan autisme"
-      }]
+      "version" : "20250131120000",
+      "code" : "UEA",
+      "display" : "Unité d'enseignement élémentaire autisme"
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention",
+      "version" : "20250131120000",
+      "code" : "UEM",
+      "display" : "Unité d'enseignement en maternelle plan autisme"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation",
+      "version" : "20260505120000",
+      "code" : "7",
+      "display" : "SAFEP déficience auditive"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation",
+      "version" : "20260505120000",
+      "code" : "8",
+      "display" : "SAFEP déficience visuelle"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation",
+      "version" : "20260505120000",
+      "code" : "1",
+      "display" : "SESSAD polyvalent"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation",
+      "version" : "20260505120000",
+      "code" : "2",
+      "display" : "SESSAD pour déficience intellectuelle"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation",
+      "version" : "20260505120000",
+      "code" : "3",
+      "display" : "SESSAD pour déficience motrice"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation",
+      "version" : "20260505120000",
+      "code" : "4",
+      "display" : "SESSAD pour trouble du comportement"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation",
+      "version" : "20260505120000",
+      "code" : "5",
+      "display" : "SESSAD pour troubles autistiques et du neurodéveloppement"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation",
+      "version" : "20260505120000",
+      "code" : "6",
+      "display" : "SESSAD pour troubles du langage et des apprentissages"
     }]
   }
 }

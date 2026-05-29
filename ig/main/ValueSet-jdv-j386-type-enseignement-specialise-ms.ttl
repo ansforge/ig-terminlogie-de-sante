@@ -9,18 +9,10 @@
 <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j386-type-enseignement-specialise-ms> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "jdv-j386-type-enseignement-specialise-ms"] ; # 
-  fhir:meta [
-     fhir:versionId [ fhir:v "1" ] ;
-     fhir:lastUpdated [ fhir:v "2026-02-03T10:17:54.692+01:00"^^xsd:dateTime ] ;
-     fhir:profile ( [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
-     ] )
-  ] ; # 
   fhir:language [ fhir:v "fr-FR"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j386-type-enseignement-specialise-ms</b></p><a name=\"jdv-j386-type-enseignement-specialise-ms\"> </a><a name=\"hcjdv-j386-type-enseignement-specialise-ms\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 1; Dernière mise à jour : 2026-02-03 10:17:54+0100; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include codes provenant de<a href=\"CodeSystem-tre-r408-type-enseignement-specialise.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise</code></a><span title=\"La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\"> version ?20260202120000</span> où status  = active</li></ul></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j386-type-enseignement-specialise-ms</b></p><a name=\"jdv-j386-type-enseignement-specialise-ms\"> </a><a name=\"hcjdv-j386-type-enseignement-specialise-ms\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Langue : fr-FR</p></div><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion basée sur <a href=\"CodeSystem-tre-r408-type-enseignement-specialise.html\">codesystem Tre R408 Type Enseignement Specialise v20260202120000 (CodeSystem)</a></p><p>Ce jeu de valeur (ValueSet) contient 17 concepts</p><table class=\"codes\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage (fr-FR)</b> - French (France) (fr)</td></tr><tr><td><a name=\"jdv-j386-type-enseignement-specialise-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise-16\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r408-type-enseignement-specialise.html#tre-r408-type-enseignement-specialise-16\">16</a></td><td>Enseignement par le CNED</td></tr><tr><td><a name=\"jdv-j386-type-enseignement-specialise-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise-15\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r408-type-enseignement-specialise.html#tre-r408-type-enseignement-specialise-15\">15</a></td><td>Enseignement à domicile avec un SAPAD</td></tr><tr><td><a name=\"jdv-j386-type-enseignement-specialise-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise-1\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r408-type-enseignement-specialise.html#tre-r408-type-enseignement-specialise-1\">1</a></td><td>Enseignement à domicile par les services d’éducation et de soins à domicile (SESSAD)</td></tr><tr><td><a name=\"jdv-j386-type-enseignement-specialise-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise-17\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r408-type-enseignement-specialise.html#tre-r408-type-enseignement-specialise-17\">17</a></td><td>Formation en CFA</td></tr><tr><td><a name=\"jdv-j386-type-enseignement-specialise-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise-14\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r408-type-enseignement-specialise.html#tre-r408-type-enseignement-specialise-14\">14</a></td><td>Scolarisation dans un pôle d'enseignement des jeunes sourds (PEJS)</td></tr><tr><td><a name=\"jdv-j386-type-enseignement-specialise-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise-5\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r408-type-enseignement-specialise.html#tre-r408-type-enseignement-specialise-5\">5</a></td><td>Scolarisation en CLIS1 et ULIS pour troubles importants des fonctions cognitives (TFC) dont les troubles envahissant du développement (TED) et les troubles spécifiques du langage (TSL)</td></tr><tr><td><a name=\"jdv-j386-type-enseignement-specialise-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise-6\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r408-type-enseignement-specialise.html#tre-r408-type-enseignement-specialise-6\">6</a></td><td>Scolarisation en CLIS2 et ULIS pour handicap auditif (TFA)</td></tr><tr><td><a name=\"jdv-j386-type-enseignement-specialise-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise-7\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r408-type-enseignement-specialise.html#tre-r408-type-enseignement-specialise-7\">7</a></td><td>Scolarisation en CLIS3 et ULIS pour handicap visuel (TFV)</td></tr><tr><td><a name=\"jdv-j386-type-enseignement-specialise-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise-8\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r408-type-enseignement-specialise.html#tre-r408-type-enseignement-specialise-8\">8</a></td><td>Scolarisation en CLIS4 et ULIS pour handicap moteur (TFM) dont les troubles praxiques (tous les dys)</td></tr><tr><td><a name=\"jdv-j386-type-enseignement-specialise-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise-10\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r408-type-enseignement-specialise.html#tre-r408-type-enseignement-specialise-10\">10</a></td><td>Scolarisation en EREA (établissements régionaux d’enseignement adapté)</td></tr><tr><td><a name=\"jdv-j386-type-enseignement-specialise-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise-12\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r408-type-enseignement-specialise.html#tre-r408-type-enseignement-specialise-12\">12</a></td><td>Scolarisation en IEM (instituts d’éducation motrice)</td></tr><tr><td><a name=\"jdv-j386-type-enseignement-specialise-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise-11\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r408-type-enseignement-specialise.html#tre-r408-type-enseignement-specialise-11\">11</a></td><td>Scolarisation en IME (instituts médico-éducatif)</td></tr><tr><td><a name=\"jdv-j386-type-enseignement-specialise-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise-13\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r408-type-enseignement-specialise.html#tre-r408-type-enseignement-specialise-13\">13</a></td><td>Scolarisation en ITEP (instituts thérapeutiques, éducatifs et pédagogiques)</td></tr><tr><td><a name=\"jdv-j386-type-enseignement-specialise-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise-9\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r408-type-enseignement-specialise.html#tre-r408-type-enseignement-specialise-9\">9</a></td><td>Scolarisation en SEGPA (sections d’enseignement général et professionnel adapté)</td></tr><tr><td><a name=\"jdv-j386-type-enseignement-specialise-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise-3\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r408-type-enseignement-specialise.html#tre-r408-type-enseignement-specialise-3\">3</a></td><td>Scolarisation en ULIS collège</td></tr><tr><td><a name=\"jdv-j386-type-enseignement-specialise-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise-4\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r408-type-enseignement-specialise.html#tre-r408-type-enseignement-specialise-4\">4</a></td><td>Scolarisation en ULIS lycée</td></tr><tr><td><a name=\"jdv-j386-type-enseignement-specialise-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise-2\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r408-type-enseignement-specialise.html#tre-r408-type-enseignement-specialise-2\">2</a></td><td>Scolarisation en ULIS école</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
      fhir:url [
@@ -48,9 +40,7 @@
   fhir:title [ fhir:v "Jdv J386 Type Enseignement Specialise Ms"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-02T12:00:00.000+00:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
-  fhir:description [ fhir:v "Type d'enseignement spécialisé."] ; # 
+  fhir:date [ fhir:v "2026-05-29T09:12:29+00:00"^^xsd:dateTime] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [
@@ -60,17 +50,147 @@
        fhir:code [ fhir:v "FRA" ]
      ] )
   ] ) ; # 
-  fhir:compose [
-     fhir:include ( [
+  fhir:expansion [
+     fhir:identifier [
+       fhir:v "urn:uuid:62219115-5b77-4105-a587-daf682b48c5d"^^xsd:anyURI ;
+       fhir:l <urn:uuid:62219115-5b77-4105-a587-daf682b48c5d>
+     ] ;
+     fhir:timestamp [ fhir:v "2026-05-29T11:11:45+02:00"^^xsd:dateTime ] ;
+     fhir:total [ fhir:v 17 ] ;
+     fhir:parameter ( [
+       fhir:name [ fhir:v "used-codesystem" ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise|20260202120000"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise?version=20260202120000>
+       ]
+     ] [
+       fhir:name [ fhir:v "version" ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise|20260202120000"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise?version=20260202120000>
+       ]
+     ] ) ;
+     fhir:contains ( [
        fhir:system [
          fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise"^^xsd:anyURI ;
          fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise>
        ] ;
-       fhir:filter ( [
-         fhir:property [ fhir:v "status" ] ;
-         fhir:op [ fhir:v "=" ] ;
-         fhir:value [ fhir:v "active" ]
-       ] )
+       fhir:code [ fhir:v "16" ] ;
+       fhir:display [ fhir:v "Enseignement par le CNED" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise>
+       ] ;
+       fhir:code [ fhir:v "15" ] ;
+       fhir:display [ fhir:v "Enseignement à domicile avec un SAPAD" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise>
+       ] ;
+       fhir:code [ fhir:v "1" ] ;
+       fhir:display [ fhir:v "Enseignement à domicile par les services d’éducation et de soins à domicile (SESSAD)" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise>
+       ] ;
+       fhir:code [ fhir:v "17" ] ;
+       fhir:display [ fhir:v "Formation en CFA" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise>
+       ] ;
+       fhir:code [ fhir:v "14" ] ;
+       fhir:display [ fhir:v "Scolarisation dans un pôle d'enseignement des jeunes sourds (PEJS)" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise>
+       ] ;
+       fhir:code [ fhir:v "5" ] ;
+       fhir:display [ fhir:v "Scolarisation en CLIS1 et ULIS pour troubles importants des fonctions cognitives (TFC) dont les troubles envahissant du développement (TED) et les troubles spécifiques du langage (TSL)" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise>
+       ] ;
+       fhir:code [ fhir:v "6" ] ;
+       fhir:display [ fhir:v "Scolarisation en CLIS2 et ULIS pour handicap auditif (TFA)" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise>
+       ] ;
+       fhir:code [ fhir:v "7" ] ;
+       fhir:display [ fhir:v "Scolarisation en CLIS3 et ULIS pour handicap visuel (TFV)" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise>
+       ] ;
+       fhir:code [ fhir:v "8" ] ;
+       fhir:display [ fhir:v "Scolarisation en CLIS4 et ULIS pour handicap moteur (TFM) dont les troubles praxiques (tous les dys)" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise>
+       ] ;
+       fhir:code [ fhir:v "10" ] ;
+       fhir:display [ fhir:v "Scolarisation en EREA (établissements régionaux d’enseignement adapté)" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise>
+       ] ;
+       fhir:code [ fhir:v "12" ] ;
+       fhir:display [ fhir:v "Scolarisation en IEM (instituts d’éducation motrice)" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise>
+       ] ;
+       fhir:code [ fhir:v "11" ] ;
+       fhir:display [ fhir:v "Scolarisation en IME (instituts médico-éducatif)" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise>
+       ] ;
+       fhir:code [ fhir:v "13" ] ;
+       fhir:display [ fhir:v "Scolarisation en ITEP (instituts thérapeutiques, éducatifs et pédagogiques)" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise>
+       ] ;
+       fhir:code [ fhir:v "9" ] ;
+       fhir:display [ fhir:v "Scolarisation en SEGPA (sections d’enseignement général et professionnel adapté)" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise>
+       ] ;
+       fhir:code [ fhir:v "3" ] ;
+       fhir:display [ fhir:v "Scolarisation en ULIS collège" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise>
+       ] ;
+       fhir:code [ fhir:v "4" ] ;
+       fhir:display [ fhir:v "Scolarisation en ULIS lycée" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise>
+       ] ;
+       fhir:code [ fhir:v "2" ] ;
+       fhir:display [ fhir:v "Scolarisation en ULIS école" ]
      ] )
   ] . # 
 

@@ -6,14 +6,11 @@
 
 ## ValueSet: Jdv J367 Type Projet Personnalise Ms 
 
-| | | |
-| :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j367-type-projet-personnalise-ms | *Version*:20250422120000 | |
-| Active as of 2025-04-15 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ367TypeProjetPersonnaliseMs |
-| *Other Identifiers:*OID:1.2.250.1.213.3.4.221 | | |
-
- 
-Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l’usager, son entourage familial et professionnel du médico-social. 
+| | |
+| :--- | :--- |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j367-type-projet-personnalise-ms | *Version*:20250422120000 |
+| Active as of 2026-05-29 | *Computable Name*:JdvJ367TypeProjetPersonnaliseMs |
+| *Other Identifiers:*OID:1.2.250.1.213.3.4.221 | |
 
  **References** 
 
@@ -28,6 +25,8 @@ Requête sur le SMT
 ```
 
 ### Définition logique (CLD)
+
+Aucune définition formelle fournie pour ce jeu de valeurs
 
  
 
@@ -54,11 +53,6 @@ Requête sur le SMT
 {
   "resourceType" : "ValueSet",
   "id" : "jdv-j367-type-projet-personnalise-ms",
-  "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2025-07-01T13:32:19.246+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-  },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -76,23 +70,59 @@ Requête sur le SMT
   "title" : "Jdv J367 Type Projet Personnalise Ms",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-04-15T18:02:28.249+00:00",
-  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l'usager, son entourage familial et professionnel du médico-social.",
+  "date" : "2026-05-29T09:12:29+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FRA"
     }]
   }],
-  "compose" : {
-    "include" : [{
+  "expansion" : {
+    "identifier" : "urn:uuid:dc8d004b-df35-4113-90e8-feffad58352f",
+    "timestamp" : "2026-05-29T11:11:56+02:00",
+    "total" : 7,
+    "parameter" : [{
+      "name" : "used-codesystem",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise|20250422120000"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise|20250422120000"
+    }],
+    "contains" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise",
-      "filter" : [{
-        "property" : "status",
-        "op" : "=",
-        "value" : "active"
-      }]
+      "code" : "PA",
+      "display" : "Projet d'Accompagnement"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise",
+      "code" : "PAI",
+      "display" : "Projet d'Accompagnement Individuel"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise",
+      "code" : "PI",
+      "display" : "Projet Individuel"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise",
+      "code" : "PP",
+      "display" : "Projet Personnalisé"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise",
+      "code" : "PPA",
+      "display" : "Projet Personnalisé d'Accompagnement"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise",
+      "code" : "PPI",
+      "display" : "Projet Personnalisé Individuel"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise",
+      "code" : "PPIA",
+      "display" : "Projet Personnalisé Individuel d'Accompagnement"
     }]
   }
 }

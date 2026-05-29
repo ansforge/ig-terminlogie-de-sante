@@ -9,18 +9,10 @@
 <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j296-type-role-entite-groupe-finess> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "jdv-j296-type-role-entite-groupe-finess"] ; # 
-  fhir:meta [
-     fhir:versionId [ fhir:v "2" ] ;
-     fhir:lastUpdated [ fhir:v "2026-05-05T19:02:07+02:00"^^xsd:dateTime ] ;
-     fhir:profile ( [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
-     ] )
-  ] ; # 
   fhir:language [ fhir:v "fr-FR"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j296-type-role-entite-groupe-finess</b></p><a name=\"jdv-j296-type-role-entite-groupe-finess\"> </a><a name=\"hcjdv-j296-type-role-entite-groupe-finess\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 2; Dernière mise à jour : 2026-05-05 19:02:07+0200; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include codes provenant de<a href=\"CodeSystem-tre-r360-type-role-entite-groupe.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe</code></a><span title=\"La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\"> version ?20260330120000</span> où finess  = true</li></ul></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j296-type-role-entite-groupe-finess</b></p><a name=\"jdv-j296-type-role-entite-groupe-finess\"> </a><a name=\"hcjdv-j296-type-role-entite-groupe-finess\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Langue : fr-FR</p></div><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion basée sur <a href=\"CodeSystem-tre-r360-type-role-entite-groupe.html\">codesystem Tre R360 Type Role Entite Groupe v20260330120000 (CodeSystem)</a></p><p>Ce jeu de valeur (ValueSet) contient 2 concepts</p><table class=\"codes\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage (fr-FR)</b> - French (France) (fr)</td></tr><tr><td><a name=\"jdv-j296-type-role-entite-groupe-finess-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe-S\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r360-type-role-entite-groupe.html#tre-r360-type-role-entite-groupe-S\">S</a></td><td>Entité support</td></tr><tr><td><a name=\"jdv-j296-type-role-entite-groupe-finess-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe-M\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r360-type-role-entite-groupe.html#tre-r360-type-role-entite-groupe-M\">M</a></td><td>Membre simple</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
      fhir:url [
@@ -48,9 +40,7 @@
   fhir:title [ fhir:v "Jdv J296 Type Role Entite Groupe Finess"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-03-30T12:00:00+01:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
-  fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les types de rôles que peuvent exercer des entités participants à des groupements"] ; # 
+  fhir:date [ fhir:v "2026-05-29T09:12:29+00:00"^^xsd:dateTime] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [
@@ -60,17 +50,42 @@
        fhir:code [ fhir:v "FRA" ]
      ] )
   ] ) ; # 
-  fhir:compose [
-     fhir:include ( [
+  fhir:expansion [
+     fhir:identifier [
+       fhir:v "urn:uuid:df3b41e5-35f4-4ec1-9d5d-e1c43e878368"^^xsd:anyURI ;
+       fhir:l <urn:uuid:df3b41e5-35f4-4ec1-9d5d-e1c43e878368>
+     ] ;
+     fhir:timestamp [ fhir:v "2026-05-29T11:11:42+02:00"^^xsd:dateTime ] ;
+     fhir:total [ fhir:v 2 ] ;
+     fhir:parameter ( [
+       fhir:name [ fhir:v "used-codesystem" ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe|20260330120000"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe?version=20260330120000>
+       ]
+     ] [
+       fhir:name [ fhir:v "version" ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe|20260330120000"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe?version=20260330120000>
+       ]
+     ] ) ;
+     fhir:contains ( [
        fhir:system [
          fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe"^^xsd:anyURI ;
          fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe>
        ] ;
-       fhir:filter ( [
-         fhir:property [ fhir:v "finess" ] ;
-         fhir:op [ fhir:v "=" ] ;
-         fhir:value [ fhir:v "true" ]
-       ] )
+       fhir:code [ fhir:v "S" ] ;
+       fhir:display [ fhir:v "Entité support" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe>
+       ] ;
+       fhir:code [ fhir:v "M" ] ;
+       fhir:display [ fhir:v "Membre simple" ]
      ] )
   ] . # 
 

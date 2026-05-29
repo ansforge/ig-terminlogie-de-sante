@@ -9,18 +9,10 @@
 <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess"] ; # 
-  fhir:meta [
-     fhir:versionId [ fhir:v "2" ] ;
-     fhir:lastUpdated [ fhir:v "2026-05-05T19:02:16.958+02:00"^^xsd:dateTime ] ;
-     fhir:profile ( [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
-     ] )
-  ] ; # 
   fhir:language [ fhir:v "fr-FR"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess</b></p><a name=\"jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess\"> </a><a name=\"hcjdv-j333-activite-sanitaire-diverse-regulee-niv1-finess\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 2; Dernière mise à jour : 2026-05-05 19:02:16+0200; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include codes provenant de<a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</code></a><span title=\"La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\"> version ?20260505120000</span> où niveau  = 1</li></ul></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess</b></p><a name=\"jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess\"> </a><a name=\"hcjdv-j333-activite-sanitaire-diverse-regulee-niv1-finess\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Langue : fr-FR</p></div><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion basée sur <a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html\">codesystem Tre R347 Activite Sanitaire Diverse Regulee v20260505120000 (CodeSystem)</a></p><p>Ce jeu de valeur (ValueSet) contient 6 concepts</p><table class=\"codes\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage (fr-FR)</b> - French (France) (fr)</td><td><b>Inactif</b></td></tr><tr><td><a name=\"jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee-0500\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html#tre-r347-activite-sanitaire-diverse-regulee-0500\">0500</a></td><td>Accueil et Réception des Urgences</td><td>inactif</td></tr><tr><td><a name=\"jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee-0600\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html#tre-r347-activite-sanitaire-diverse-regulee-0600\">0600</a></td><td>Autres Disciplines Sanitaires</td><td/></tr><tr><td><a name=\"jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee-0400\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html#tre-r347-activite-sanitaire-diverse-regulee-0400\">0400</a></td><td>Disciplines Médico-Techniques</td><td/></tr><tr><td><a name=\"jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee-0300\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html#tre-r347-activite-sanitaire-diverse-regulee-0300\">0300</a></td><td>Disciplines Spécifiques</td><td/></tr><tr><td><a name=\"jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee-0200\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html#tre-r347-activite-sanitaire-diverse-regulee-0200\">0200</a></td><td>Hospitalisation</td><td>inactif</td></tr><tr><td><a name=\"jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee-0800\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.html#tre-r347-activite-sanitaire-diverse-regulee-0800\">0800</a></td><td>Lutte contre les Toxicomanies</td><td/></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
      fhir:url [
@@ -48,9 +40,7 @@
   fhir:title [ fhir:v "Jdv J333 Activite Sanitaire Diverse Regulee Niv Finess"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-05-05T18:02:28.249+00:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
-  fhir:description [ fhir:v "Jeu de valeurs FINESS contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 1"] ; # 
+  fhir:date [ fhir:v "2026-05-29T09:12:29+00:00"^^xsd:dateTime] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [
@@ -60,17 +50,104 @@
        fhir:code [ fhir:v "FRA" ]
      ] )
   ] ) ; # 
-  fhir:compose [
-     fhir:include ( [
+  fhir:expansion [
+     fhir:identifier [
+       fhir:v "urn:uuid:1cdca2c9-e963-4036-8fcd-84b77720c0f8"^^xsd:anyURI ;
+       fhir:l <urn:uuid:1cdca2c9-e963-4036-8fcd-84b77720c0f8>
+     ] ;
+     fhir:timestamp [ fhir:v "2026-05-29T11:11:58+02:00"^^xsd:dateTime ] ;
+     fhir:total [ fhir:v 6 ] ;
+     fhir:parameter ( [
+       fhir:name [ fhir:v "used-codesystem" ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee|20260505120000"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee?version=20260505120000>
+       ]
+     ] [
+       fhir:name [ fhir:v "version" ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee|20260505120000"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee?version=20260505120000>
+       ]
+     ] ) ;
+     fhir:contains ( [
+       fhir:extension ( [
+         fhir:extension ( [
+           fhir:url [
+             fhir:v "inactive"^^xsd:anyURI ;
+             fhir:l fhir:inactive
+           ] ;
+           fhir:value [
+             a fhir:Boolean ;
+             fhir:v true
+           ]
+         ] ) ;
+         fhir:url [
+           fhir:v "http://ontoserver.csiro.au/profiles/expansion"^^xsd:anyURI ;
+           fhir:l <http://ontoserver.csiro.au/profiles/expansion>
+         ]
+       ] ) ;
        fhir:system [
          fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"^^xsd:anyURI ;
          fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee>
        ] ;
-       fhir:filter ( [
-         fhir:property [ fhir:v "niveau" ] ;
-         fhir:op [ fhir:v "=" ] ;
-         fhir:value [ fhir:v "1" ]
-       ] )
+       fhir:inactive [ fhir:v true ] ;
+       fhir:code [ fhir:v "0500" ] ;
+       fhir:display [ fhir:v "Accueil et Réception des Urgences" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee>
+       ] ;
+       fhir:code [ fhir:v "0600" ] ;
+       fhir:display [ fhir:v "Autres Disciplines Sanitaires" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee>
+       ] ;
+       fhir:code [ fhir:v "0400" ] ;
+       fhir:display [ fhir:v "Disciplines Médico-Techniques" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee>
+       ] ;
+       fhir:code [ fhir:v "0300" ] ;
+       fhir:display [ fhir:v "Disciplines Spécifiques" ]
+     ] [
+       fhir:extension ( [
+         fhir:extension ( [
+           fhir:url [
+             fhir:v "inactive"^^xsd:anyURI ;
+             fhir:l fhir:inactive
+           ] ;
+           fhir:value [
+             a fhir:Boolean ;
+             fhir:v true
+           ]
+         ] ) ;
+         fhir:url [
+           fhir:v "http://ontoserver.csiro.au/profiles/expansion"^^xsd:anyURI ;
+           fhir:l <http://ontoserver.csiro.au/profiles/expansion>
+         ]
+       ] ) ;
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee>
+       ] ;
+       fhir:inactive [ fhir:v true ] ;
+       fhir:code [ fhir:v "0200" ] ;
+       fhir:display [ fhir:v "Hospitalisation" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee>
+       ] ;
+       fhir:code [ fhir:v "0800" ] ;
+       fhir:display [ fhir:v "Lutte contre les Toxicomanies" ]
      ] )
   ] . # 
 

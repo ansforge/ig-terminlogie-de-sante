@@ -6,14 +6,11 @@
 
 ## ValueSet: Jdv J370 Type Contrat Sejour Ms 
 
-| | | |
-| :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j370-type-contrat-sejour-ms | *Version*:20250521120000 | |
-| Active as of 2025-05-21 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ370TypeContratSejourMs |
-| *Other Identifiers:*OID:1.2.250.1.213.3.4.223 | | |
-
- 
-Type de contrat conclu entre l’établissement/service et la personne/son représentant légal. 
+| | |
+| :--- | :--- |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j370-type-contrat-sejour-ms | *Version*:20250521120000 |
+| Active as of 2026-05-29 | *Computable Name*:JdvJ370TypeContratSejourMs |
+| *Other Identifiers:*OID:1.2.250.1.213.3.4.223 | |
 
  **References** 
 
@@ -28,6 +25,8 @@ Requête sur le SMT
 ```
 
 ### Définition logique (CLD)
+
+Aucune définition formelle fournie pour ce jeu de valeurs
 
  
 
@@ -54,11 +53,6 @@ Requête sur le SMT
 {
   "resourceType" : "ValueSet",
   "id" : "jdv-j370-type-contrat-sejour-ms",
-  "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2025-07-01T13:32:20.162+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-  },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -76,23 +70,34 @@ Requête sur le SMT
   "title" : "Jdv J370 Type Contrat Sejour Ms",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-05-21T18:02:28.249+00:00",
-  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Type de contrat conclu entre l’établissement/service et la personne/son représentant légal.",
+  "date" : "2026-05-29T09:12:29+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FRA"
     }]
   }],
-  "compose" : {
-    "include" : [{
+  "expansion" : {
+    "identifier" : "urn:uuid:f3dea27b-2e67-4c55-ae4a-e4b82431627c",
+    "timestamp" : "2026-05-29T11:11:47+02:00",
+    "total" : 2,
+    "parameter" : [{
+      "name" : "used-codesystem",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour|20250521120000"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour|20250521120000"
+    }],
+    "contains" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour",
-      "filter" : [{
-        "property" : "status",
-        "op" : "=",
-        "value" : "active"
-      }]
+      "code" : "CS",
+      "display" : "Contrat de séjour"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour",
+      "code" : "DIPC",
+      "display" : "Document Individuel de Prise en Charge"
     }]
   }
 }

@@ -6,14 +6,11 @@
 
 ## ValueSet: Jdv J353 Type Statut Capacite Finess 
 
-| | | |
-| :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j353-type-statut-capacite-finess | *Version*:20260505120000 | |
-| Active as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ353TypeStatutCapaciteFiness |
-| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.361 | | |
-
- 
-Jeu de valeurs FINESS permettant de préciser le statut des capacités concernées par FINESS 
+| | |
+| :--- | :--- |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j353-type-statut-capacite-finess | *Version*:20260505120000 |
+| Active as of 2026-05-29 | *Computable Name*:JdvJ353TypeStatutCapaciteFiness |
+| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.361 | |
 
  **References** 
 
@@ -28,6 +25,8 @@ Requête sur le SMT
 ```
 
 ### Définition logique (CLD)
+
+Aucune définition formelle fournie pour ce jeu de valeurs
 
  
 
@@ -54,11 +53,6 @@ Requête sur le SMT
 {
   "resourceType" : "ValueSet",
   "id" : "jdv-j353-type-statut-capacite-finess",
-  "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-05-05T19:02:19.036+02:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-  },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -76,23 +70,34 @@ Requête sur le SMT
   "title" : "Jdv J353 Type Statut Capacite Finess",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-05T18:02:28.249+00:00",
-  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Jeu de valeurs FINESS permettant de préciser le statut des capacités concernées par FINESS",
+  "date" : "2026-05-29T09:12:29+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FRA"
     }]
   }],
-  "compose" : {
-    "include" : [{
+  "expansion" : {
+    "identifier" : "urn:uuid:10fcb04b-2104-45ba-8a05-393d6a22a3b6",
+    "timestamp" : "2026-05-29T11:11:32+02:00",
+    "total" : 2,
+    "parameter" : [{
+      "name" : "used-codesystem",
+      "valueUri" : "https://mos.esante.gouv.fr/NOS/TRE_R330-TypeStatutCapacite/FHIR/TRE-R330-TypeStatutCapacite|20250328120000"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "https://mos.esante.gouv.fr/NOS/TRE_R330-TypeStatutCapacite/FHIR/TRE-R330-TypeStatutCapacite|20250328120000"
+    }],
+    "contains" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R330-TypeStatutCapacite/FHIR/TRE-R330-TypeStatutCapacite",
-      "filter" : [{
-        "property" : "finess",
-        "op" : "=",
-        "value" : "true"
-      }]
+      "code" : "09",
+      "display" : "Autorisé"
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R330-TypeStatutCapacite/FHIR/TRE-R330-TypeStatutCapacite",
+      "code" : "08",
+      "display" : "Installé constaté"
     }]
   }
 }

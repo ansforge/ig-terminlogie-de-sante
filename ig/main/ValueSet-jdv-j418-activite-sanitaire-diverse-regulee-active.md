@@ -6,14 +6,11 @@
 
 ## ValueSet: Jdv J418 Activite Sanitaire Diverse Regulee Active 
 
-| | | |
-| :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j418-activite-sanitaire-diverse-regulee-active | *Version*:20260505120000 | |
-| Active as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ418ActiviteSanitaireDiverseReguleeActive |
-| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.400 | | |
-
- 
-Jeu de valeurs des activités sanitaires actives, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR) 
+| | |
+| :--- | :--- |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j418-activite-sanitaire-diverse-regulee-active | *Version*:20260505120000 |
+| Active as of 2026-05-29 | *Computable Name*:JdvJ418ActiviteSanitaireDiverseReguleeActive |
+| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.400 | |
 
  **References** 
 
@@ -28,6 +25,8 @@ Requête sur le SMT
 ```
 
 ### Définition logique (CLD)
+
+Aucune définition formelle fournie pour ce jeu de valeurs
 
  
 
@@ -54,11 +53,6 @@ Requête sur le SMT
 {
   "resourceType" : "ValueSet",
   "id" : "jdv-j418-activite-sanitaire-diverse-regulee-active",
-  "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-05-07T10:32:43.945+02:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-  },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -76,28 +70,239 @@ Requête sur le SMT
   "title" : "Jdv J418 Activite Sanitaire Diverse Regulee Active",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-05T18:02:28.249+00:00",
-  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Jeu de valeurs des activités sanitaires actives, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR)",
+  "date" : "2026-05-29T09:12:29+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FRA"
     }]
   }],
-  "compose" : {
-    "include" : [{
+  "expansion" : {
+    "identifier" : "urn:uuid:28bc00d7-2143-468a-8912-283224fc9d5a",
+    "timestamp" : "2026-05-29T11:11:12+02:00",
+    "total" : 43,
+    "parameter" : [{
+      "name" : "used-codesystem",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee|20260505120000"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee|20260505120000"
+    }],
+    "contains" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
-      "filter" : [{
-        "property" : "niveau",
-        "op" : "=",
-        "value" : "4"
-      },
-      {
-        "property" : "status",
-        "op" : "=",
-        "value" : "active"
-      }]
+      "code" : "205",
+      "display" : "Act inform dépistage diag infections sexuellmnt transmissibl"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "218",
+      "display" : "Activité de lutte anti tuberculose"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "853",
+      "display" : "Activité de lutte contre la lèpre"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "823",
+      "display" : "Activité de Transfusion Sanguine"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "086",
+      "display" : "Activité de vaccination gratuite"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "197",
+      "display" : "Activité dentaire unique"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "204",
+      "display" : "Activité infirmière unique"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "851",
+      "display" : "Activité médicale autre que dentaire unique"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "850",
+      "display" : "Activité médicale et paramédicale"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "852",
+      "display" : "Activité paramédicale autre qu'activité infirmière unique"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "854",
+      "display" : "Activité sage-femme en maison de naissance"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "209",
+      "display" : "Ambulances"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "806",
+      "display" : "atelier thérapeutique adulte"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "807",
+      "display" : "atelier thérapeutique infanto-juvenile"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "084",
+      "display" : "Biologie Médicale"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "237",
+      "display" : "centre d'accueil permanent adulte"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "238",
+      "display" : "centre d'accueil permanent infanto-juvénile"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "233",
+      "display" : "Centre d'accueil thérapeutique à temps partiel adulte"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "234",
+      "display" : "Centre d'accueil thérapeutique à temps partiel infanto-juv"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "231",
+      "display" : "centre médico-psychologique adulte"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "232",
+      "display" : "centre médico-psychologique infanto-juvénile"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "087",
+      "display" : "Consultation Anti-Tabac"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "391",
+      "display" : "Consultation de Planification ou Éducation Familiale"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "390",
+      "display" : "Consultation en Conseil Génétique"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "727",
+      "display" : "Consultation Externes Indifférenciées"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "726",
+      "display" : "Consultations Multidisciplinaires"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "386",
+      "display" : "Consultations Protection Infantile"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "385",
+      "display" : "Consultations Prénuptiale Prénatale et Postnatale"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "173",
+      "display" : "Cure Thermale"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "203",
+      "display" : "Dispensaire de Soins"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "666",
+      "display" : "Dispensation à Domicile d'Oxygène à usage médical"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "396",
+      "display" : "Guidance infantile"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "395",
+      "display" : "Guidance Parentale"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "241",
+      "display" : "Hygiène Alimentaire"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "392",
+      "display" : "Information Consultation ou Conseil familial"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "309",
+      "display" : "Interruption Volontaire de Grossesse"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "089",
+      "display" : "Médecine Préventive Santé Publique"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "446",
+      "display" : "Médecine Scolaire"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "448",
+      "display" : "Médecine Sportive"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "447",
+      "display" : "Médecine Universitaire"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "824",
+      "display" : "Pharmacie d'Établissement"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "384",
+      "display" : "Protection Maternelle & Infantile"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "200",
+      "display" : "Transfusion Sanguine (Laboratoire)"
     }]
   }
 }

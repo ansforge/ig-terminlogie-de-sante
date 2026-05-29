@@ -17,7 +17,7 @@ Nature de la demande de compensation adressée à la CDAPH.
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvJ395NatureDemandeCompensationMs](ValueSet-jdv-j395-nature-demande-compensation-ms.md)
+* Cette terminologie de référence (CodeSystem) n'est pas utilisée ici; elle peut être utilisée ailleurs (par exemple spécifications et/ou implémentations qui utilisent ce contenu)
 
 
 

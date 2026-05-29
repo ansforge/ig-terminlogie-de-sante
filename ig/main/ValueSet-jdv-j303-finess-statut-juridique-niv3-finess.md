@@ -6,14 +6,11 @@
 
 ## ValueSet: Jdv J303 Finess Statut Juridique Niv3 Finess 
 
-| | | |
-| :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j303-finess-statut-juridique-niv3-finess | *Version*:20260223120000 | |
-| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ303FinessStatutJuridiqueNiv3Finess |
-| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.311 | | |
-
- 
-Ce JDV contient les agrégats Niv3 des statuts juridiques (JDV créé à l’image de l’ancienne TRE_R69-FinessAgregatStatutJuridiqueNiv2) 
+| | |
+| :--- | :--- |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j303-finess-statut-juridique-niv3-finess | *Version*:20260223120000 |
+| Active as of 2026-05-29 | *Computable Name*:JdvJ303FinessStatutJuridiqueNiv3Finess |
+| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.311 | |
 
  **References** 
 
@@ -28,6 +25,8 @@ Requête sur le SMT
 ```
 
 ### Définition logique (CLD)
+
+Aucune définition formelle fournie pour ce jeu de valeurs
 
  
 
@@ -54,11 +53,6 @@ Requête sur le SMT
 {
   "resourceType" : "ValueSet",
   "id" : "jdv-j303-finess-statut-juridique-niv3-finess",
-  "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2026-05-05T19:02:08.379+02:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
-  },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -76,31 +70,134 @@ Requête sur le SMT
   "title" : "Jdv J303 Finess Statut Juridique Niv3 Finess",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-23T12:00:00.000+00:00",
-  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Ce JDV contient les agrégats Niv3 des statuts juridiques (JDV créé à l'image de l'ancienne TRE_R69-FinessAgregatStatutJuridiqueNiv2)",
+  "date" : "2026-05-29T09:12:29+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FRA"
     }]
   }],
-  "compose" : {
-    "include" : [{
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
-      "filter" : [{
-        "property" : "niveau",
-        "op" : "=",
-        "value" : "3"
-      }]
+  "expansion" : {
+    "identifier" : "urn:uuid:b40312b6-5e94-4a64-9c1e-05e38ab937c0",
+    "timestamp" : "2026-05-29T11:11:21+02:00",
+    "total" : 22,
+    "parameter" : [{
+      "name" : "used-codesystem",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique|20260223120000"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique|20260223120000"
     }],
-    "exclude" : [{
+    "contains" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
-      "filter" : [{
-        "property" : "specialisationRpps",
-        "op" : "=",
-        "value" : "true"
-      }]
+      "code" : "2160",
+      "display" : "Association"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
+      "code" : "2190",
+      "display" : "Autre Organisme Privé à But non Lucratif"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
+      "code" : "2280",
+      "display" : "Autre Organisme Privé à Caractère Commercial"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
+      "code" : "2260",
+      "display" : "Autre Société"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
+      "code" : "1120",
+      "display" : "Collectivité Territoriale"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
+      "code" : "2130",
+      "display" : "Comité d'Entreprise et Comité d'Etablissement"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
+      "code" : "2180",
+      "display" : "Congrégation"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
+      "code" : "1210",
+      "display" : "Etablissement Public à Caractère Administratif"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
+      "code" : "1220",
+      "display" : "Etablissement Public à Caractère Industriel et Commercial"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
+      "code" : "1110",
+      "display" : "Etat"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
+      "code" : "2170",
+      "display" : "Fondation"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
+      "code" : "2270",
+      "display" : "Groupement Privé à Caractère Commercial"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
+      "code" : "2110",
+      "display" : "Organisme Gérant un Régime de Protection Sociale à Adhésion"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
+      "code" : "2120",
+      "display" : "Organisme Mutualiste"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
+      "code" : "2140",
+      "display" : "Organisme Professionnel"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
+      "code" : "3110",
+      "display" : "Personne Morale de Droit Etranger"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
+      "code" : "2210",
+      "display" : "Personne Physique"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
+      "code" : "2230",
+      "display" : "Société A Responsabilité Limitée (S.A.R.L.)"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
+      "code" : "2240",
+      "display" : "Société Anonyme (S.A.)"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
+      "code" : "2250",
+      "display" : "Société Civile"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
+      "code" : "2220",
+      "display" : "Société en Nom Collectif (S.N.C.)"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
+      "code" : "2150",
+      "display" : "Syndicat de Propriétaires"
     }]
   }
 }

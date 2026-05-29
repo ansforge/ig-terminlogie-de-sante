@@ -18,7 +18,6 @@ Habilit. de l’EG permettant aux pers. accueillies d’avoir des aides financi�
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J31_AideFinanciere_ROR](ValueSet-JDV-J31-AideFinanciere-ROR.md)
-* [JdvJ354HabilitationFiness](ValueSet-jdv-j354-habilitation-finess.md)
 
 
 

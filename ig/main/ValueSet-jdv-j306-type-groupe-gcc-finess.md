@@ -6,14 +6,11 @@
 
 ## ValueSet: Jdv J306 Type Groupe Gcc Finess 
 
-| | | |
-| :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j306-type-groupe-gcc-finess | *Version*:20260330120000 | |
-| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ306TypeGroupeGccFiness |
-| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.314 | | |
-
- 
-Jeu de valeurs FINESS contenant les types de Groupement de Coopération conventionnelle (GCC). 
+| | |
+| :--- | :--- |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j306-type-groupe-gcc-finess | *Version*:20260330120000 |
+| Active as of 2026-05-29 | *Computable Name*:JdvJ306TypeGroupeGccFiness |
+| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.314 | |
 
  **References** 
 
@@ -28,6 +25,8 @@ Requête sur le SMT
 ```
 
 ### Définition logique (CLD)
+
+Aucune définition formelle fournie pour ce jeu de valeurs
 
  
 
@@ -54,11 +53,6 @@ Requête sur le SMT
 {
   "resourceType" : "ValueSet",
   "id" : "jdv-j306-type-groupe-gcc-finess",
-  "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-05-05T19:02:09+02:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-  },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -76,23 +70,34 @@ Requête sur le SMT
   "title" : "Jdv J306 Type Groupe Gcc Finess",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-30T12:00:00+01:00",
-  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Jeu de valeurs FINESS contenant les types de Groupement de Coopération conventionnelle (GCC).",
+  "date" : "2026-05-29T09:12:29+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FRA"
     }]
   }],
-  "compose" : {
-    "include" : [{
+  "expansion" : {
+    "identifier" : "urn:uuid:8c2c40ce-fc79-4424-8cc2-d7e51fc7430e",
+    "timestamp" : "2026-05-29T11:11:09+02:00",
+    "total" : 2,
+    "parameter" : [{
+      "name" : "used-codesystem",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r371-type-groupe-gcc|20260330120000"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r371-type-groupe-gcc|20260330120000"
+    }],
+    "contains" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r371-type-groupe-gcc",
-      "filter" : [{
-        "property" : "finess",
-        "op" : "=",
-        "value" : "true"
-      }]
+      "code" : "001",
+      "display" : "Groupement hospitalier de territoire - Généraliste"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r371-type-groupe-gcc",
+      "code" : "002",
+      "display" : "Groupement hospitalier de territoire - Psychiatrie"
     }]
   }
 }

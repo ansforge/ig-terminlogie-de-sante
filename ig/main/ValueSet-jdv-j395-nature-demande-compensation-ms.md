@@ -6,14 +6,11 @@
 
 ## ValueSet: Jdv J395 Nature Demande Compensation Ms 
 
-| | | |
-| :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j395-nature-demande-compensation-ms | *Version*:20260505120000 | |
-| Draft as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ395NatureDemandeCompensationMs |
-| *Other Identifiers:*OID:1.2.250.1.213.3.4.235 | | |
-
- 
-Nature de la demande de compensation adressée à la CDAPH. 
+| | |
+| :--- | :--- |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j395-nature-demande-compensation-ms | *Version*:20260505120000 |
+| Draft as of 2026-05-29 | *Computable Name*:JdvJ395NatureDemandeCompensationMs |
+| *Other Identifiers:*OID:1.2.250.1.213.3.4.235 | |
 
  **References** 
 
@@ -28,6 +25,8 @@ Requête sur le SMT
 ```
 
 ### Définition logique (CLD)
+
+Aucune définition formelle fournie pour ce jeu de valeurs
 
  
 
@@ -54,11 +53,6 @@ Requête sur le SMT
 {
   "resourceType" : "ValueSet",
   "id" : "jdv-j395-nature-demande-compensation-ms",
-  "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-05-12T10:17:37.736+02:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-  },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -76,23 +70,42 @@ Requête sur le SMT
   "title" : "Jdv J395 Nature Demande Compensation Ms",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-05T12:00:00.000+00:00",
-  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Nature de la demande de compensation adressée à la CDAPH.",
+  "date" : "2026-05-29T09:12:29+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FRA"
     }]
   }],
-  "compose" : {
-    "include" : [{
+  "expansion" : {
+    "identifier" : "urn:uuid:3ff21874-bea2-4876-957e-e5e587aa1165",
+    "timestamp" : "2026-05-29T11:12:00+02:00",
+    "total" : 2,
+    "parameter" : [{
+      "name" : "used-codesystem",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r418-nature-demande-compensation|20260505120000"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r418-nature-demande-compensation|20260505120000"
+    },
+    {
+      "name" : "warning-draft",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j395-nature-demande-compensation-ms|20260505120000"
+    },
+    {
+      "name" : "warning-draft",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r418-nature-demande-compensation|20260505120000"
+    }],
+    "contains" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r418-nature-demande-compensation",
-      "filter" : [{
-        "property" : "status",
-        "op" : "=",
-        "value" : "active"
-      }]
+      "code" : "1",
+      "display" : "Première demande"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r418-nature-demande-compensation",
+      "code" : "2",
+      "display" : "Ré-examen"
     }]
   }
 }

@@ -6,14 +6,11 @@
 
 ## ValueSet: Jdv J318 Activite Enseignement Regulee Finess 
 
-| | | |
-| :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j318-activite-enseignement-regulee-finess | *Version*:20260223120000 | |
-| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ318ActiviteEnseignementReguleeFiness |
-| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.326 | | |
-
- 
-Ce JDV contient toutes les AER hors agrégat (JDV créé à l’image de l’ancienne TRE_R281-DisciplineEnseignement) 
+| | |
+| :--- | :--- |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j318-activite-enseignement-regulee-finess | *Version*:20260223120000 |
+| Active as of 2026-05-29 | *Computable Name*:JdvJ318ActiviteEnseignementReguleeFiness |
+| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.326 | |
 
  **References** 
 
@@ -28,6 +25,8 @@ Requête sur le SMT
 ```
 
 ### Définition logique (CLD)
+
+Aucune définition formelle fournie pour ce jeu de valeurs
 
  
 
@@ -54,11 +53,6 @@ Requête sur le SMT
 {
   "resourceType" : "ValueSet",
   "id" : "jdv-j318-activite-enseignement-regulee-finess",
-  "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2026-05-05T19:02:11.972+02:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
-  },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -76,28 +70,315 @@ Requête sur le SMT
   "title" : "Jdv J318 Activite Enseignement Regulee Finess",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-23T12:00:00.000+00:00",
-  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Ce JDV contient toutes les AER hors agrégat (JDV créé à l'image de l'ancienne TRE_R281-DisciplineEnseignement)",
+  "date" : "2026-05-29T09:12:29+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FRA"
     }]
   }],
-  "compose" : {
-    "include" : [{
+  "expansion" : {
+    "identifier" : "urn:uuid:014bbf27-5b80-4715-9b82-d680e16bca9c",
+    "timestamp" : "2026-05-29T11:11:26+02:00",
+    "total" : 55,
+    "parameter" : [{
+      "name" : "used-codesystem",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee|20260223120000"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee|20260223120000"
+    }],
+    "contains" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
-      "filter" : [{
-        "property" : "niveau",
-        "op" : "=",
-        "value" : "4"
-      },
-      {
-        "property" : "finess",
-        "op" : "=",
-        "value" : "true"
-      }]
+      "code" : "449",
+      "display" : "Formation CA fonction directeur établissement social"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "444",
+      "display" : "Formation CA fonction encadrement unité intervention sociale"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "882",
+      "display" : "Formation Cadre de Santé (audioprothésiste)"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "881",
+      "display" : "Formation Cadre de Santé (diététicien)"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "805",
+      "display" : "Formation Cadre de santé (ergothérapeute)"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "428",
+      "display" : "Formation Cadre de santé (Infirmier)"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "431",
+      "display" : "Formation Cadre de santé (Manip.Electro-Radiologie)"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "430",
+      "display" : "Formation Cadre de santé (Masseur-Kinésithérapeute)"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "885",
+      "display" : "Formation Cadre de Santé (opticien)"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "886",
+      "display" : "Formation Cadre de Santé (orthophoniste)"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "887",
+      "display" : "Formation Cadre de Santé (orthoptiste)"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "888",
+      "display" : "Formation Cadre de Santé (préparateur pharmacie hospitalièr)"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "884",
+      "display" : "Formation Cadre de Santé (psychomotricien)"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "883",
+      "display" : "Formation Cadre de Santé (pédicure podologue)"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "454",
+      "display" : "Formation Cadre de santé (Sage-Femme)"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "453",
+      "display" : "Formation Cadre de Santé (sans autre indication)"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "804",
+      "display" : "Formation Cadre de santé (technicien LABM)"
+    },
+    {
+      "extension" : [{
+        "extension" : [{
+          "url" : "inactive",
+          "valueBoolean" : true
+        }],
+        "url" : "http://ontoserver.csiro.au/profiles/expansion"
+      }],
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "inactive" : true,
+      "code" : "429",
+      "display" : "Formation Cadres Infirmiers Secteur Psychiatrique"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "440",
+      "display" : "Formation CF Délégué Tutelle aux Prestations Sociales"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "590",
+      "display" : "Formation DE Accompagnant Éducatif et Social"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "438",
+      "display" : "Formation DE aide médico psychologique"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "419",
+      "display" : "Formation DE Aide-Soignant"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "413",
+      "display" : "Formation DE Ambulancier"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "587",
+      "display" : "Formation DE Assistant Familial"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "586",
+      "display" : "Formation DE auxiliaire de vie sociale"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "456",
+      "display" : "Formation DE Auxiliaire Puériculture"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "422",
+      "display" : "Formation DE Conseillère en Économie Sociale et Familiale"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "432",
+      "display" : "Formation DE d'assistant de Service Social"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "433",
+      "display" : "Formation DE d'éducateur spécialisé"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "435",
+      "display" : "Formation DE d'éducateurs Jeunes Enfants"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "592",
+      "display" : "Formation DE Délégué aux Prestations Familiales"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "423",
+      "display" : "Formation DE Ergothérapeute"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "439",
+      "display" : "Formation DE fonction d'animation"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "414",
+      "display" : "Formation DE Infirmier"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "425",
+      "display" : "Formation DE Infirmier Anesthésiste"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "426",
+      "display" : "Formation DE Infirmier Bloc Opératoire"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "588",
+      "display" : "Formation DE Ingénierie Sociale"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "591",
+      "display" : "Formation DE Mandataire Judiciaire à la Protection des Majeurs"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "421",
+      "display" : "Formation DE ManipulateurElectro-radiologie médicale"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "416",
+      "display" : "Formation DE Masseur-Kinésithérapeute"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "437",
+      "display" : "Formation DE moniteur éducateurs"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "441",
+      "display" : "Formation DE Médiateur Familial"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "424",
+      "display" : "Formation DE Psychomotricien"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "418",
+      "display" : "Formation DE Puéricultrice"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "420",
+      "display" : "Formation DE Pédicure-Podologue"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "415",
+      "display" : "Formation DE Sage-Femme"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "434",
+      "display" : "Formation DE technicien de l'intervention sociale familiale"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "417",
+      "display" : "Formation DE Technicien en laboratoire médical"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "436",
+      "display" : "Formation DE éducateur technique spécialisé"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "585",
+      "display" : "Formation diplôme supérieur en Travail social"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "597",
+      "display" : "Formation Manipulateur Exploration Fonctionnelle"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "500",
+      "display" : "Formation Personnels Admin.Santé Secteur Social"
+    },
+    {
+      "extension" : [{
+        "extension" : [{
+          "url" : "inactive",
+          "valueBoolean" : true
+        }],
+        "url" : "http://ontoserver.csiro.au/profiles/expansion"
+      }],
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "inactive" : true,
+      "code" : "427",
+      "display" : "Formation Professionnel Secteur Psychiatrique"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "880",
+      "display" : "Formation Préparateur en Pharmacie Hospitalière"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "code" : "584",
+      "display" : "Formation qualification Conseil Conjugal ou Familial"
     }]
   }
 }

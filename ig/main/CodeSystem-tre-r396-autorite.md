@@ -17,9 +17,7 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvJ373TypeAutorite](ValueSet-jdv-j373-type-autorite.md)
-* [JdvJ374Autorite](ValueSet-jdv-j374-autorite.md)
-* [JdvJ375AutoriteOrdre](ValueSet-jdv-j375-autorite-ordre.md)
+* Cette terminologie de référence (CodeSystem) n'est pas utilisée ici; elle peut être utilisée ailleurs (par exemple spécifications et/ou implémentations qui utilisent ce contenu)
 
 
 

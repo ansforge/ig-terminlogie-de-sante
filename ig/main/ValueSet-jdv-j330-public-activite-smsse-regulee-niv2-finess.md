@@ -6,14 +6,11 @@
 
 ## ValueSet: Jdv J330 Public Activite Smsse Regulee Niv2 Finess 
 
-| | | |
-| :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j330-public-activite-smsse-regulee-niv2-finess | *Version*:20260223120000 | |
-| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ330PublicActiviteSmsseReguleeNiv2Finess |
-| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.338 | | |
-
- 
-Ce JDV contient tous les agregats de publics de niveau 2 (JDV créé à l’image de l’ancienne TRE_R294-AgregatClienteleNiv3) 
+| | |
+| :--- | :--- |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j330-public-activite-smsse-regulee-niv2-finess | *Version*:20260223120000 |
+| Active as of 2026-05-29 | *Computable Name*:JdvJ330PublicActiviteSmsseReguleeNiv2Finess |
+| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.338 | |
 
  **References** 
 
@@ -28,6 +25,8 @@ Requête sur le SMT
 ```
 
 ### Définition logique (CLD)
+
+Aucune définition formelle fournie pour ce jeu de valeurs
 
  
 
@@ -54,11 +53,6 @@ Requête sur le SMT
 {
   "resourceType" : "ValueSet",
   "id" : "jdv-j330-public-activite-smsse-regulee-niv2-finess",
-  "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2026-05-05T19:02:16.548+02:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
-  },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -76,23 +70,137 @@ Requête sur le SMT
   "title" : "Jdv J330 Public Activite Smsse Regulee Niv2 Finess",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-23T12:00:00.000+00:00",
-  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Ce JDV contient tous les agregats de publics de niveau 2 (JDV créé à l'image de l'ancienne TRE_R294-AgregatClienteleNiv3)",
+  "date" : "2026-05-29T09:12:29+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FRA"
     }]
   }],
-  "compose" : {
-    "include" : [{
+  "expansion" : {
+    "identifier" : "urn:uuid:a85a1d95-63bf-455d-943c-1c1a3199901a",
+    "timestamp" : "2026-05-29T11:10:27+02:00",
+    "total" : 21,
+    "parameter" : [{
+      "name" : "used-codesystem",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee|20260223120000"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee|20260223120000"
+    }],
+    "contains" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "filter" : [{
-        "property" : "niveau",
-        "op" : "=",
-        "value" : "2"
-      }]
+      "code" : "5100",
+      "display" : "Adultes en Difficulté d'Insertion Sociale"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+      "code" : "6100",
+      "display" : "Autres Catégories de Clientèles"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+      "code" : "4100",
+      "display" : "Autres Enfants"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+      "code" : "6200",
+      "display" : "Clientèles transverses"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+      "code" : "1700",
+      "display" : "Déficiences Auditives"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+      "code" : "1200",
+      "display" : "Déficiences Intellectuelles"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+      "code" : "1500",
+      "display" : "Déficiences Motrices"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+      "code" : "1800",
+      "display" : "Déficiences Visuelles"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+      "code" : "3100",
+      "display" : "Enfants et Adolescents (Aide Soc Justice)"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+      "code" : "8200",
+      "display" : "Epilepsies"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+      "code" : "5200",
+      "display" : "Familles en Difficulté d'Insertion Sociale"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+      "code" : "8300",
+      "display" : "Maladie Invalidante de Longue Durée"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+      "code" : "2100",
+      "display" : "Personnes Agées"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+      "code" : "8400",
+      "display" : "Personnes ayant des pratiques addictives"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+      "code" : "5300",
+      "display" : "Personnes et Familles Protégées"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+      "code" : "1600",
+      "display" : "Polyhandicap"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+      "code" : "1900",
+      "display" : "Surdi-Cécité"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+      "code" : "1100",
+      "display" : "Tous Types de Déficiences"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+      "code" : "7100",
+      "display" : "Toute Population"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+      "code" : "1300",
+      "display" : "Troubles du Comportement, Handicap psychique ou cognitif"
+    },
+    {
+      "extension" : [{
+        "extension" : [{
+          "url" : "inactive",
+          "valueBoolean" : true
+        }],
+        "url" : "http://ontoserver.csiro.au/profiles/expansion"
+      }],
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+      "inactive" : true,
+      "code" : "8100",
+      "display" : "Troubles Psychopathologiques"
     }]
   }
 }

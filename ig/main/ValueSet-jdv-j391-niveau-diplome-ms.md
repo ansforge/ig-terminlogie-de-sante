@@ -6,14 +6,11 @@
 
 ## ValueSet: Jdv J391 Niveau Diplome Ms 
 
-| | | |
-| :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j391-niveau-diplome-ms | *Version*:20260601120000 | |
-| Draft as of 2026-06-01 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ391NiveauDiplomeMs |
-| *Other Identifiers:*OID:1.2.250.1.213.3.4.231 | | |
-
- 
-Niveau de diplôme permettant d’indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel. 
+| | |
+| :--- | :--- |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j391-niveau-diplome-ms | *Version*:20260601120000 |
+| Draft as of 2026-05-29 | *Computable Name*:JdvJ391NiveauDiplomeMs |
+| *Other Identifiers:*OID:1.2.250.1.213.3.4.231 | |
 
  **References** 
 
@@ -28,6 +25,8 @@ Requête sur le SMT
 ```
 
 ### Définition logique (CLD)
+
+Aucune définition formelle fournie pour ce jeu de valeurs
 
  
 
@@ -54,11 +53,6 @@ Requête sur le SMT
 {
   "resourceType" : "ValueSet",
   "id" : "jdv-j391-niveau-diplome-ms",
-  "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-05-27T15:47:15.597+02:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-  },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -76,23 +70,77 @@ Requête sur le SMT
   "title" : "Jdv J391 Niveau Diplome Ms",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-06-01T12:00:00.000+00:00",
-  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Niveau de diplôme permettant d'indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel.",
+  "date" : "2026-05-29T09:12:29+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FRA"
     }]
   }],
-  "compose" : {
-    "include" : [{
+  "expansion" : {
+    "identifier" : "urn:uuid:0363fac5-07a1-48ae-ae1e-ec9774c88fd6",
+    "timestamp" : "2026-05-29T11:11:29+02:00",
+    "total" : 9,
+    "parameter" : [{
+      "name" : "used-codesystem",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome|20260601120000"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome|20260601120000"
+    },
+    {
+      "name" : "warning-draft",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome|20260601120000"
+    },
+    {
+      "name" : "warning-draft",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j391-niveau-diplome-ms|20260601120000"
+    }],
+    "contains" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome",
-      "filter" : [{
-        "property" : "status",
-        "op" : "=",
-        "value" : "active"
-      }]
+      "code" : "N1",
+      "display" : "Niv. 1 - Maîtrise des savoirs de base"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome",
+      "code" : "N2",
+      "display" : "Niv. 2 - Activité professionnelle simple. Capacité  à effectuer des activités simples et résoudre des problèmes courants avec un niveau restreint d'autonomie."
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome",
+      "code" : "N3",
+      "display" : "Niv. 3 - CAP, BEP"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome",
+      "code" : "N4",
+      "display" : "Niv. 4 - Baccalauréat"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome",
+      "code" : "N5",
+      "display" : "Niv. 5 - Bac + 2 - DEUG, BTS, DUT, DEUST"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome",
+      "code" : "N6B3",
+      "display" : "Niv. 6 - Bac + 3 - Licence, licence LMD, licence professionnelle"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome",
+      "code" : "N6B4",
+      "display" : "Niv. 6 - Bac + 4 - Maîtrise"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome",
+      "code" : "N7",
+      "display" : "Niv. 7 - Bac + 5 - Master, DEA, DESS, diplôme d'ingénieur"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome",
+      "code" : "N8",
+      "display" : "Niv. 8 - Bac + 8 - Doctorat, habilitation à diriger des recherches"
     }]
   }
 }

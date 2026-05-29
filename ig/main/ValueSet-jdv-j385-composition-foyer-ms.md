@@ -6,14 +6,11 @@
 
 ## ValueSet: Jdv J385 Composition Foyer Ms 
 
-| | | |
-| :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j385-composition-foyer-ms | *Version*:20260202120000 | |
-| Active as of 2026-02-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ385CompositionFoyerMs |
-| *Other Identifiers:*OID:1.2.250.1.213.3.4.228 | | |
-
- 
-Désigne avec qui vit l’usager dans son logement. 
+| | |
+| :--- | :--- |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j385-composition-foyer-ms | *Version*:20260202120000 |
+| Active as of 2026-05-29 | *Computable Name*:JdvJ385CompositionFoyerMs |
+| *Other Identifiers:*OID:1.2.250.1.213.3.4.228 | |
 
  **References** 
 
@@ -28,6 +25,8 @@ Requête sur le SMT
 ```
 
 ### Définition logique (CLD)
+
+Aucune définition formelle fournie pour ce jeu de valeurs
 
  
 
@@ -54,11 +53,6 @@ Requête sur le SMT
 {
   "resourceType" : "ValueSet",
   "id" : "jdv-j385-composition-foyer-ms",
-  "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-02-03T10:17:54.090+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-  },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -76,23 +70,64 @@ Requête sur le SMT
   "title" : "Jdv J385 Composition Foyer Ms",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-02T12:00:00.000+00:00",
-  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Désigne avec qui vit l’usager dans son logement.",
+  "date" : "2026-05-29T09:12:29+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FRA"
     }]
   }],
-  "compose" : {
-    "include" : [{
+  "expansion" : {
+    "identifier" : "urn:uuid:114b4a6a-fc2c-4d0e-9f1d-a75ce78f9fbd",
+    "timestamp" : "2026-05-29T11:11:52+02:00",
+    "total" : 8,
+    "parameter" : [{
+      "name" : "used-codesystem",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r407-composition-foyer|20260202120000"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r407-composition-foyer|20260202120000"
+    }],
+    "contains" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r407-composition-foyer",
-      "filter" : [{
-        "property" : "status",
-        "op" : "=",
-        "value" : "active"
-      }]
+      "code" : "2",
+      "display" : "Avec conjoint(e)"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r407-composition-foyer",
+      "code" : "8",
+      "display" : "Avec d'autres types de personnes"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r407-composition-foyer",
+      "code" : "4",
+      "display" : "Avec ses parents"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r407-composition-foyer",
+      "code" : "3",
+      "display" : "Avec son ou ses enfants"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r407-composition-foyer",
+      "code" : "5",
+      "display" : "Avec un autre membre de sa famille"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r407-composition-foyer",
+      "code" : "6",
+      "display" : "Avec un(e) ou des ami(e)s"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r407-composition-foyer",
+      "code" : "7",
+      "display" : "Avec un(e) ou des colocataires"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r407-composition-foyer",
+      "code" : "1",
+      "display" : "Seul(e)"
     }]
   }
 }

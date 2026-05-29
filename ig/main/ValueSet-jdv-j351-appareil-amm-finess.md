@@ -6,14 +6,11 @@
 
 ## ValueSet: Jdv J351 Appareil Amm Finess 
 
-| | | |
-| :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j351-appareil-amm-finess | *Version*:20260505120000 | |
-| Active as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ351AppareilAmmFiness |
-| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.359 | | |
-
- 
-Liste des appareils AMM vus de FINESS 
+| | |
+| :--- | :--- |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j351-appareil-amm-finess | *Version*:20260505120000 |
+| Active as of 2026-05-29 | *Computable Name*:JdvJ351AppareilAmmFiness |
+| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.359 | |
 
  **References** 
 
@@ -28,6 +25,8 @@ Requête sur le SMT
 ```
 
 ### Définition logique (CLD)
+
+Aucune définition formelle fournie pour ce jeu de valeurs
 
  
 
@@ -54,11 +53,6 @@ Requête sur le SMT
 {
   "resourceType" : "ValueSet",
   "id" : "jdv-j351-appareil-amm-finess",
-  "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-05-05T19:02:18.227+02:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-  },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -76,23 +70,44 @@ Requête sur le SMT
   "title" : "Jdv J351 Appareil Amm Finess",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-05T18:02:28.249+00:00",
-  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Liste des appareils AMM vus de FINESS",
+  "date" : "2026-05-29T09:12:29+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FRA"
     }]
   }],
-  "compose" : {
-    "include" : [{
+  "expansion" : {
+    "identifier" : "urn:uuid:e3290384-634d-40e2-a233-916b5ae11318",
+    "timestamp" : "2026-05-29T11:11:01+02:00",
+    "total" : 4,
+    "parameter" : [{
+      "name" : "used-codesystem",
+      "valueUri" : "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement|20251222120000"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement|20251222120000"
+    }],
+    "contains" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement",
-      "filter" : [{
-        "property" : "finess",
-        "op" : "=",
-        "value" : "true"
-      }]
+      "code" : "230",
+      "display" : "Imagerie par Résonance Magnétique"
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement",
+      "code" : "231",
+      "display" : "Scanner"
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement",
+      "code" : "233",
+      "display" : "Tomographie par Émission de Positons"
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement",
+      "code" : "232",
+      "display" : "Tomographie par Émission Monophotonique"
     }]
   }
 }

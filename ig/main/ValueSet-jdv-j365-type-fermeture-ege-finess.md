@@ -6,14 +6,11 @@
 
 ## ValueSet: Jdv J365 Type Fermeture Ege Finess 
 
-| | | |
-| :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j365-type-fermeture-ege-finess | *Version*:20260505120000 | |
-| Active as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ365TypeFermetureEgeFiness |
-| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.373 | | |
-
- 
-Jeu de valeurs FINESS contenant les types de fermeture dédiées aux entités géographiques FINESS 
+| | |
+| :--- | :--- |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j365-type-fermeture-ege-finess | *Version*:20260505120000 |
+| Active as of 2026-05-29 | *Computable Name*:JdvJ365TypeFermetureEgeFiness |
+| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.373 | |
 
  **References** 
 
@@ -28,6 +25,8 @@ Requête sur le SMT
 ```
 
 ### Définition logique (CLD)
+
+Aucune définition formelle fournie pour ce jeu de valeurs
 
  
 
@@ -54,11 +53,6 @@ Requête sur le SMT
 {
   "resourceType" : "ValueSet",
   "id" : "jdv-j365-type-fermeture-ege-finess",
-  "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-05-05T19:02:20.686+02:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-  },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -76,23 +70,49 @@ Requête sur le SMT
   "title" : "Jdv J365 Type Fermeture Ege Finess",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-05T18:02:28.249+00:00",
-  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Jeu de valeurs FINESS contenant les types de fermeture dédiées aux entités géographiques FINESS",
+  "date" : "2026-05-29T09:12:29+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FRA"
     }]
   }],
-  "compose" : {
-    "include" : [{
+  "expansion" : {
+    "identifier" : "urn:uuid:739b35ac-d796-442e-91a4-6aa52ff6ca02",
+    "timestamp" : "2026-05-29T11:11:14+02:00",
+    "total" : 5,
+    "parameter" : [{
+      "name" : "used-codesystem",
+      "valueUri" : "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture|20260505120000"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture|20260505120000"
+    }],
+    "contains" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture",
-      "filter" : [{
-        "property" : "TypeFermetureEgeFiness",
-        "op" : "=",
-        "value" : "true"
-      }]
+      "code" : "EML",
+      "display" : "Ancienne autorisation fonctionnement EML"
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture",
+      "code" : "DEF",
+      "display" : "Définitive"
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture",
+      "code" : "ERR",
+      "display" : "Erreur"
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture",
+      "code" : "PRO",
+      "display" : "Provisoire"
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture",
+      "code" : "CHP",
+      "display" : "Sortie du champ FINESS"
     }]
   }
 }

@@ -9,18 +9,10 @@
 <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j378-region-om-finess> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "jdv-j378-region-om-finess"] ; # 
-  fhir:meta [
-     fhir:versionId [ fhir:v "2" ] ;
-     fhir:lastUpdated [ fhir:v "2026-05-05T19:02:23.319+02:00"^^xsd:dateTime ] ;
-     fhir:profile ( [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
-     ] )
-  ] ; # 
   fhir:language [ fhir:v "fr-FR"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j378-region-om-finess</b></p><a name=\"jdv-j378-region-om-finess\"> </a><a name=\"hcjdv-j378-region-om-finess\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 2; Dernière mise à jour : 2026-05-05 19:02:23+0200; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include codes provenant de<a href=\"CodeSystem-TRE-R30-RegionOM.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM</code></a><span title=\"La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\"> version ?20240628120000</span> où finess  = true</li></ul></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j378-region-om-finess</b></p><a name=\"jdv-j378-region-om-finess\"> </a><a name=\"hcjdv-j378-region-om-finess\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Langue : fr-FR</p></div><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion basée sur <a href=\"CodeSystem-TRE-R30-RegionOM.html\">codesystem TRE_R30_RegionOM v20240628120000 (CodeSystem)</a></p><p>Ce jeu de valeur (ValueSet) contient 22 concepts</p><table class=\"codes\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage (fr-FR)</b> - French (France) (fr)</td></tr><tr><td><a name=\"jdv-j378-region-om-finess-https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM-84\"> </a><code>https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-TRE-R30-RegionOM.html#TRE-R30-RegionOM-84\">84</a></td><td>Auvergne-Rhône-Alpes</td></tr><tr><td><a name=\"jdv-j378-region-om-finess-https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM-27\"> </a><code>https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-TRE-R30-RegionOM.html#TRE-R30-RegionOM-27\">27</a></td><td>Bourgogne-Franche-Comté</td></tr><tr><td><a name=\"jdv-j378-region-om-finess-https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM-53\"> </a><code>https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-TRE-R30-RegionOM.html#TRE-R30-RegionOM-53\">53</a></td><td>Bretagne</td></tr><tr><td><a name=\"jdv-j378-region-om-finess-https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM-24\"> </a><code>https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-TRE-R30-RegionOM.html#TRE-R30-RegionOM-24\">24</a></td><td>Centre-Val de Loire</td></tr><tr><td><a name=\"jdv-j378-region-om-finess-https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM-94\"> </a><code>https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-TRE-R30-RegionOM.html#TRE-R30-RegionOM-94\">94</a></td><td>Corse</td></tr><tr><td><a name=\"jdv-j378-region-om-finess-https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM-44\"> </a><code>https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-TRE-R30-RegionOM.html#TRE-R30-RegionOM-44\">44</a></td><td>Grand Est</td></tr><tr><td><a name=\"jdv-j378-region-om-finess-https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM-01\"> </a><code>https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-TRE-R30-RegionOM.html#TRE-R30-RegionOM-01\">01</a></td><td>Guadeloupe</td></tr><tr><td><a name=\"jdv-j378-region-om-finess-https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM-03\"> </a><code>https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-TRE-R30-RegionOM.html#TRE-R30-RegionOM-03\">03</a></td><td>Guyane</td></tr><tr><td><a name=\"jdv-j378-region-om-finess-https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM-32\"> </a><code>https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-TRE-R30-RegionOM.html#TRE-R30-RegionOM-32\">32</a></td><td>Hauts-de-France</td></tr><tr><td><a name=\"jdv-j378-region-om-finess-https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM-04\"> </a><code>https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-TRE-R30-RegionOM.html#TRE-R30-RegionOM-04\">04</a></td><td>La Réunion</td></tr><tr><td><a name=\"jdv-j378-region-om-finess-https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM-02\"> </a><code>https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-TRE-R30-RegionOM.html#TRE-R30-RegionOM-02\">02</a></td><td>Martinique</td></tr><tr><td><a name=\"jdv-j378-region-om-finess-https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM-06\"> </a><code>https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-TRE-R30-RegionOM.html#TRE-R30-RegionOM-06\">06</a></td><td>Mayotte</td></tr><tr><td><a name=\"jdv-j378-region-om-finess-https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM-28\"> </a><code>https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-TRE-R30-RegionOM.html#TRE-R30-RegionOM-28\">28</a></td><td>Normandie</td></tr><tr><td><a name=\"jdv-j378-region-om-finess-https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM-75\"> </a><code>https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-TRE-R30-RegionOM.html#TRE-R30-RegionOM-75\">75</a></td><td>Nouvelle-Aquitaine</td></tr><tr><td><a name=\"jdv-j378-region-om-finess-https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM-76\"> </a><code>https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-TRE-R30-RegionOM.html#TRE-R30-RegionOM-76\">76</a></td><td>Occitanie</td></tr><tr><td><a name=\"jdv-j378-region-om-finess-https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM-52\"> </a><code>https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-TRE-R30-RegionOM.html#TRE-R30-RegionOM-52\">52</a></td><td>Pays de la Loire</td></tr><tr><td><a name=\"jdv-j378-region-om-finess-https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM-93\"> </a><code>https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-TRE-R30-RegionOM.html#TRE-R30-RegionOM-93\">93</a></td><td>Provence-Alpes-Côte d'Azur</td></tr><tr><td><a name=\"jdv-j378-region-om-finess-https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM-977\"> </a><code>https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-TRE-R30-RegionOM.html#TRE-R30-RegionOM-977\">977</a></td><td>Saint-Barthélemy</td></tr><tr><td><a name=\"jdv-j378-region-om-finess-https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM-978\"> </a><code>https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-TRE-R30-RegionOM.html#TRE-R30-RegionOM-978\">978</a></td><td>Saint-Martin</td></tr><tr><td><a name=\"jdv-j378-region-om-finess-https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM-975\"> </a><code>https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-TRE-R30-RegionOM.html#TRE-R30-RegionOM-975\">975</a></td><td>Saint-Pierre-et-Miquelon</td></tr><tr><td><a name=\"jdv-j378-region-om-finess-https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM-986\"> </a><code>https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-TRE-R30-RegionOM.html#TRE-R30-RegionOM-986\">986</a></td><td>Wallis-et-Futuna</td></tr><tr><td><a name=\"jdv-j378-region-om-finess-https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM-11\"> </a><code>https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-TRE-R30-RegionOM.html#TRE-R30-RegionOM-11\">11</a></td><td>Île-de-France</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
      fhir:url [
@@ -48,9 +40,7 @@
   fhir:title [ fhir:v "Jdv J378 Region Om Finess"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-05-05T18:02:28.249+00:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
-  fhir:description [ fhir:v "Liste des régions administratives couvertes par le périmètre géographique de FINESS"] ; # 
+  fhir:date [ fhir:v "2026-05-29T09:12:29+00:00"^^xsd:dateTime] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [
@@ -60,17 +50,182 @@
        fhir:code [ fhir:v "FRA" ]
      ] )
   ] ) ; # 
-  fhir:compose [
-     fhir:include ( [
+  fhir:expansion [
+     fhir:identifier [
+       fhir:v "urn:uuid:15f741b4-de87-4300-95cd-08388e333bba"^^xsd:anyURI ;
+       fhir:l <urn:uuid:15f741b4-de87-4300-95cd-08388e333bba>
+     ] ;
+     fhir:timestamp [ fhir:v "2026-05-29T11:11:28+02:00"^^xsd:dateTime ] ;
+     fhir:total [ fhir:v 22 ] ;
+     fhir:parameter ( [
+       fhir:name [ fhir:v "used-codesystem" ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM|20240628120000"^^xsd:anyURI ;
+         fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM?version=20240628120000>
+       ]
+     ] [
+       fhir:name [ fhir:v "version" ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM|20240628120000"^^xsd:anyURI ;
+         fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM?version=20240628120000>
+       ]
+     ] ) ;
+     fhir:contains ( [
        fhir:system [
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM>
        ] ;
-       fhir:filter ( [
-         fhir:property [ fhir:v "finess" ] ;
-         fhir:op [ fhir:v "=" ] ;
-         fhir:value [ fhir:v "true" ]
-       ] )
+       fhir:code [ fhir:v "84" ] ;
+       fhir:display [ fhir:v "Auvergne-Rhône-Alpes" ]
+     ] [
+       fhir:system [
+         fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"^^xsd:anyURI ;
+         fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM>
+       ] ;
+       fhir:code [ fhir:v "27" ] ;
+       fhir:display [ fhir:v "Bourgogne-Franche-Comté" ]
+     ] [
+       fhir:system [
+         fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"^^xsd:anyURI ;
+         fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM>
+       ] ;
+       fhir:code [ fhir:v "53" ] ;
+       fhir:display [ fhir:v "Bretagne" ]
+     ] [
+       fhir:system [
+         fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"^^xsd:anyURI ;
+         fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM>
+       ] ;
+       fhir:code [ fhir:v "24" ] ;
+       fhir:display [ fhir:v "Centre-Val de Loire" ]
+     ] [
+       fhir:system [
+         fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"^^xsd:anyURI ;
+         fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM>
+       ] ;
+       fhir:code [ fhir:v "94" ] ;
+       fhir:display [ fhir:v "Corse" ]
+     ] [
+       fhir:system [
+         fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"^^xsd:anyURI ;
+         fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM>
+       ] ;
+       fhir:code [ fhir:v "44" ] ;
+       fhir:display [ fhir:v "Grand Est" ]
+     ] [
+       fhir:system [
+         fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"^^xsd:anyURI ;
+         fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM>
+       ] ;
+       fhir:code [ fhir:v "01" ] ;
+       fhir:display [ fhir:v "Guadeloupe" ]
+     ] [
+       fhir:system [
+         fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"^^xsd:anyURI ;
+         fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM>
+       ] ;
+       fhir:code [ fhir:v "03" ] ;
+       fhir:display [ fhir:v "Guyane" ]
+     ] [
+       fhir:system [
+         fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"^^xsd:anyURI ;
+         fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM>
+       ] ;
+       fhir:code [ fhir:v "32" ] ;
+       fhir:display [ fhir:v "Hauts-de-France" ]
+     ] [
+       fhir:system [
+         fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"^^xsd:anyURI ;
+         fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM>
+       ] ;
+       fhir:code [ fhir:v "04" ] ;
+       fhir:display [ fhir:v "La Réunion" ]
+     ] [
+       fhir:system [
+         fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"^^xsd:anyURI ;
+         fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM>
+       ] ;
+       fhir:code [ fhir:v "02" ] ;
+       fhir:display [ fhir:v "Martinique" ]
+     ] [
+       fhir:system [
+         fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"^^xsd:anyURI ;
+         fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM>
+       ] ;
+       fhir:code [ fhir:v "06" ] ;
+       fhir:display [ fhir:v "Mayotte" ]
+     ] [
+       fhir:system [
+         fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"^^xsd:anyURI ;
+         fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM>
+       ] ;
+       fhir:code [ fhir:v "28" ] ;
+       fhir:display [ fhir:v "Normandie" ]
+     ] [
+       fhir:system [
+         fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"^^xsd:anyURI ;
+         fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM>
+       ] ;
+       fhir:code [ fhir:v "75" ] ;
+       fhir:display [ fhir:v "Nouvelle-Aquitaine" ]
+     ] [
+       fhir:system [
+         fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"^^xsd:anyURI ;
+         fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM>
+       ] ;
+       fhir:code [ fhir:v "76" ] ;
+       fhir:display [ fhir:v "Occitanie" ]
+     ] [
+       fhir:system [
+         fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"^^xsd:anyURI ;
+         fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM>
+       ] ;
+       fhir:code [ fhir:v "52" ] ;
+       fhir:display [ fhir:v "Pays de la Loire" ]
+     ] [
+       fhir:system [
+         fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"^^xsd:anyURI ;
+         fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM>
+       ] ;
+       fhir:code [ fhir:v "93" ] ;
+       fhir:display [ fhir:v "Provence-Alpes-Côte d'Azur" ]
+     ] [
+       fhir:system [
+         fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"^^xsd:anyURI ;
+         fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM>
+       ] ;
+       fhir:code [ fhir:v "977" ] ;
+       fhir:display [ fhir:v "Saint-Barthélemy" ]
+     ] [
+       fhir:system [
+         fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"^^xsd:anyURI ;
+         fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM>
+       ] ;
+       fhir:code [ fhir:v "978" ] ;
+       fhir:display [ fhir:v "Saint-Martin" ]
+     ] [
+       fhir:system [
+         fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"^^xsd:anyURI ;
+         fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM>
+       ] ;
+       fhir:code [ fhir:v "975" ] ;
+       fhir:display [ fhir:v "Saint-Pierre-et-Miquelon" ]
+     ] [
+       fhir:system [
+         fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"^^xsd:anyURI ;
+         fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM>
+       ] ;
+       fhir:code [ fhir:v "986" ] ;
+       fhir:display [ fhir:v "Wallis-et-Futuna" ]
+     ] [
+       fhir:system [
+         fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"^^xsd:anyURI ;
+         fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM>
+       ] ;
+       fhir:code [ fhir:v "11" ] ;
+       fhir:display [ fhir:v "Île-de-France" ]
      ] )
   ] . # 
 

@@ -6,14 +6,11 @@
 
 ## ValueSet: Jdv J329 Public Activite Smsse Regulee Niv1 Finess 
 
-| | | |
-| :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j329-public-activite-smsse-regulee-niv1-finess | *Version*:20260223120000 | |
-| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ329PublicActiviteSmsseReguleeNiv1Finess |
-| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.337 | | |
-
- 
-Ce JDV contient tous les agregats Niv 1 des publics (JDV créé à l’image de l’ancienne TRE_R293-AgregatClienteleNiv2) 
+| | |
+| :--- | :--- |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j329-public-activite-smsse-regulee-niv1-finess | *Version*:20260223120000 |
+| Active as of 2026-05-29 | *Computable Name*:JdvJ329PublicActiviteSmsseReguleeNiv1Finess |
+| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.337 | |
 
  **References** 
 
@@ -28,6 +25,8 @@ Requête sur le SMT
 ```
 
 ### Définition logique (CLD)
+
+Aucune définition formelle fournie pour ce jeu de valeurs
 
  
 
@@ -54,11 +53,6 @@ Requête sur le SMT
 {
   "resourceType" : "ValueSet",
   "id" : "jdv-j329-public-activite-smsse-regulee-niv1-finess",
-  "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2026-05-05T19:02:16.140+02:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
-  },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -76,23 +70,64 @@ Requête sur le SMT
   "title" : "Jdv J329 Public Activite Smsse Regulee Niv1 Finess",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-23T12:00:00.000+00:00",
-  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Ce JDV contient tous les agregats Niv 1 des publics (JDV créé à l'image de l'ancienne TRE_R293-AgregatClienteleNiv2)",
+  "date" : "2026-05-29T09:12:29+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FRA"
     }]
   }],
-  "compose" : {
-    "include" : [{
+  "expansion" : {
+    "identifier" : "urn:uuid:159caa16-fc56-414d-b6e7-674af988b495",
+    "timestamp" : "2026-05-29T11:11:52+02:00",
+    "total" : 8,
+    "parameter" : [{
+      "name" : "used-codesystem",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee|20260223120000"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee|20260223120000"
+    }],
+    "contains" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "filter" : [{
-        "property" : "niveau",
-        "op" : "=",
-        "value" : "1"
-      }]
+      "code" : "6000",
+      "display" : "Autres Catégories de Clientèles"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+      "code" : "4000",
+      "display" : "Autres Enfants"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+      "code" : "3000",
+      "display" : "Enfants et Adolescents (Aide Soc Just)"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+      "code" : "2000",
+      "display" : "Personnes Agées"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+      "code" : "8000",
+      "display" : "Personnes ayant des pathologies ou difficultés spécifiques"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+      "code" : "5000",
+      "display" : "Personnes et Familles en Difficulté"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+      "code" : "1000",
+      "display" : "Personnes Handicapées"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+      "code" : "7000",
+      "display" : "Toute Population"
     }]
   }
 }

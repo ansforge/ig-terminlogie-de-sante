@@ -19,7 +19,6 @@ Equipement
 
 * [JDV_J18_EquipementSpecifique_ROR](ValueSet-JDV-J18-EquipementSpecifique-ROR.md)
 * [JDV_J70_Equipement_Santefr](ValueSet-JDV-J70-Equipement-Santefr.md)
-* [JdvJ351AppareilAmmFiness](ValueSet-jdv-j351-appareil-amm-finess.md)
 
 
 
