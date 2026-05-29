@@ -1,4 +1,4 @@
-# JDV_J153_TypeDiabete_ENS - Terminologies de Santé v1.9.3
+# JDV_J153_TypeDiabete_ENS - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -61,6 +61,7 @@ Expansions are not generated for retired value sets
     "lastUpdated" : "2025-01-28T12:47:09.121+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
+  "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {

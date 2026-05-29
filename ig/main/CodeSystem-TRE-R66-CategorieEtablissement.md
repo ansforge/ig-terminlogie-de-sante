@@ -1,4 +1,4 @@
-# TRE_R66_CategorieEtablissement - Terminologies de Santé v1.9.3
+# TRE_R66_CategorieEtablissement - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -19,8 +19,8 @@ Catégorie d’établissements
 
 * [JDV_J129_CategorieEtablissement_RASS](ValueSet-JDV-J129-CategorieEtablissement-RASS.md)
 * [JDV_J254_CategorieEtablissementESSMSPH](ValueSet-JDV-J254-CategorieEtablissementESSMSPH.md)
-* [JDV_J264_ModeEtCentreDePriseEnCharge_MDPH](ValueSet-JDV-J264-ModeEtCentreDePriseEnCharge-MDPH.md)
 * [JDV_J55_CategorieEG_ROR](ValueSet-JDV-J55-CategorieEG-ROR.md)
+* [JdvStructureDeSoinsCisis](ValueSet-jdv-structure-de-soins-cisis.md)
 
 
 

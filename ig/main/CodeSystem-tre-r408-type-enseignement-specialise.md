@@ -1,4 +1,4 @@
-# Tre R408 Type Enseignement Specialise - Terminologies de Santé v1.9.3
+# Tre R408 Type Enseignement Specialise - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -17,7 +17,8 @@ Type d’enseignement spécialisé.
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* Cette terminologie de référence (CodeSystem) n'est pas utilisée ici; elle peut être utilisée ailleurs (par exemple spécifications et/ou implémentations qui utilisent ce contenu)
+* [JdvJ386TypeEnseignementSpecialiseMs](ValueSet-jdv-j386-type-enseignement-specialise-ms.md)
+* [JdvJ408OrientationMs](ValueSet-jdv-j408-orientation-ms.md)
 
 
 

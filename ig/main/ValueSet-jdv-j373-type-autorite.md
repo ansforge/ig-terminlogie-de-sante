@@ -1,4 +1,4 @@
-# Jdv J373 Type Autorite - Terminologies de Santé v1.9.3
+# Jdv J373 Type Autorite - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -6,11 +6,14 @@
 
 ## ValueSet: Jdv J373 Type Autorite 
 
-| | |
-| :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j373-type-autorite | *Version*:20260330120000 |
-| Active as of 2026-05-29 | *Computable Name*:JdvJ373TypeAutorite |
-| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.387 | |
+| | | |
+| :--- | :--- | :--- |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j373-type-autorite | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ373TypeAutorite |
+| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.387 | | |
+
+ 
+Jeu de valeurs contenant les différents types d’autorité (actifs ou inactifs) 
 
  **References** 
 
@@ -25,8 +28,6 @@ Requête sur le SMT
 ```
 
 ### Définition logique (CLD)
-
-Aucune définition formelle fournie pour ce jeu de valeurs
 
  
 
@@ -53,6 +54,11 @@ Aucune définition formelle fournie pour ce jeu de valeurs
 {
   "resourceType" : "ValueSet",
   "id" : "jdv-j373-type-autorite",
+  "meta" : {
+    "versionId" : "2",
+    "lastUpdated" : "2026-05-05T19:02:21+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -70,44 +76,23 @@ Aucune définition formelle fournie pour ce jeu de valeurs
   "title" : "Jdv J373 Type Autorite",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-29T09:12:29+00:00",
+  "date" : "2026-03-30T12:00:00+01:00",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "Jeu de valeurs contenant les différents types d'autorité (actifs ou inactifs)",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FRA"
     }]
   }],
-  "expansion" : {
-    "identifier" : "urn:uuid:22859451-6316-4ef2-9060-1c2275e24ac4",
-    "timestamp" : "2026-05-29T11:11:22+02:00",
-    "total" : 4,
-    "parameter" : [{
-      "name" : "used-codesystem",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite|20260330120000"
-    },
-    {
-      "name" : "version",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite|20260330120000"
-    }],
-    "contains" : [{
+  "compose" : {
+    "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "code" : "02",
-      "display" : "Agence Régional de Santé"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "code" : "01",
-      "display" : "Conseil de l'Ordre"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "code" : "08",
-      "display" : "Services des Armées"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "code" : "03",
-      "display" : "Structure"
+      "filter" : [{
+        "property" : "niveau",
+        "op" : "=",
+        "value" : "1"
+      }]
     }]
   }
 }

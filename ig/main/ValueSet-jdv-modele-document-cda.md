@@ -1,4 +1,4 @@
-# Jdv Modele Document Cda - Terminologies de Santé v1.9.3
+# Jdv Modele Document Cda - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -68,7 +68,7 @@ Requête sur le SMT
   "title" : "Jdv Modele Document Cda",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-29T09:12:29+00:00",
+  "date" : "2026-05-29T13:24:19+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",

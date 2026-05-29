@@ -1,4 +1,4 @@
-# Jdv J366 Statut Bilan Projet Personnalise Ms - Terminologies de Santé v1.9.3
+# Jdv J366 Statut Bilan Projet Personnalise Ms - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -6,11 +6,14 @@
 
 ## ValueSet: Jdv J366 Statut Bilan Projet Personnalise Ms 
 
-| | |
-| :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j366-statut-bilan-projet-personnalise-ms | *Version*:20250415120000 |
-| Active as of 2026-05-29 | *Computable Name*:JdvJ366StatutBilanProjetPersonnaliseMs |
-| *Other Identifiers:*OID:1.2.250.1.213.3.4.220 | |
+| | | |
+| :--- | :--- | :--- |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j366-statut-bilan-projet-personnalise-ms | *Version*:20250415120000 | |
+| Active as of 2025-04-15 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ366StatutBilanProjetPersonnaliseMs |
+| *Other Identifiers:*OID:1.2.250.1.213.3.4.220 | | |
+
+ 
+Statut du bilan du projet personnalisé. 
 
  **References** 
 
@@ -25,8 +28,6 @@ Requête sur le SMT
 ```
 
 ### Définition logique (CLD)
-
-Aucune définition formelle fournie pour ce jeu de valeurs
 
  
 
@@ -53,6 +54,11 @@ Aucune définition formelle fournie pour ce jeu de valeurs
 {
   "resourceType" : "ValueSet",
   "id" : "jdv-j366-statut-bilan-projet-personnalise-ms",
+  "meta" : {
+    "versionId" : "2",
+    "lastUpdated" : "2025-07-01T13:32:18.834+00:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -70,39 +76,23 @@ Aucune définition formelle fournie pour ce jeu de valeurs
   "title" : "Jdv J366 Statut Bilan Projet Personnalise Ms",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-29T09:12:29+00:00",
+  "date" : "2025-04-15T18:02:28.249+00:00",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "Statut du bilan du projet personnalisé.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FRA"
     }]
   }],
-  "expansion" : {
-    "identifier" : "urn:uuid:8c650496-2cee-498a-938e-6eeb3089d913",
-    "timestamp" : "2026-05-29T11:11:25+02:00",
-    "total" : 3,
-    "parameter" : [{
-      "name" : "used-codesystem",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise|20250418120000"
-    },
-    {
-      "name" : "version",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise|20250418120000"
-    }],
-    "contains" : [{
+  "compose" : {
+    "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise",
-      "code" : "FINAL",
-      "display" : "Final"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise",
-      "code" : "INTERMEDIAIRE",
-      "display" : "Intermédiaire"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise",
-      "code" : "PARTIEL",
-      "display" : "Partiel"
+      "filter" : [{
+        "property" : "status",
+        "op" : "=",
+        "value" : "active"
+      }]
     }]
   }
 }

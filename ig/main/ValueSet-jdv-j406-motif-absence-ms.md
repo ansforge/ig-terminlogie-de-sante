@@ -1,4 +1,4 @@
-# Jdv J406 Motif Absence Ms - Terminologies de Santé v1.9.3
+# Jdv J406 Motif Absence Ms - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -6,11 +6,14 @@
 
 ## ValueSet: Jdv J406 Motif Absence Ms 
 
-| | |
-| :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j406-motif-absence-ms | *Version*:20260505120000 |
-| Draft as of 2026-05-29 | *Computable Name*:JdvJ406MotifAbsenceMs |
-| *Other Identifiers:*OID:1.2.250.1.213.3.4.246 | |
+| | | |
+| :--- | :--- | :--- |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j406-motif-absence-ms | *Version*:20260505120000 | |
+| Draft as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ406MotifAbsenceMs |
+| *Other Identifiers:*OID:1.2.250.1.213.3.4.246 | | |
+
+ 
+Motif pour lequel l’usager n’est pas présent lors d’un événement organisé par sa structure de rattachement. 
 
  **References** 
 
@@ -25,8 +28,6 @@ Requête sur le SMT
 ```
 
 ### Définition logique (CLD)
-
-Aucune définition formelle fournie pour ce jeu de valeurs
 
  
 
@@ -53,6 +54,11 @@ Aucune définition formelle fournie pour ce jeu de valeurs
 {
   "resourceType" : "ValueSet",
   "id" : "jdv-j406-motif-absence-ms",
+  "meta" : {
+    "versionId" : "1",
+    "lastUpdated" : "2026-05-12T10:17:41.435+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -70,42 +76,23 @@ Aucune définition formelle fournie pour ce jeu de valeurs
   "title" : "Jdv J406 Motif Absence Ms",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-29T09:12:29+00:00",
+  "date" : "2026-05-05T12:00:00.000+00:00",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "Motif pour lequel l'usager n'est pas présent lors d'un événement organisé par sa structure de rattachement.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FRA"
     }]
   }],
-  "expansion" : {
-    "identifier" : "urn:uuid:6ecf33d0-8ce9-4264-975b-534b7e446220",
-    "timestamp" : "2026-05-29T11:11:48+02:00",
-    "total" : 2,
-    "parameter" : [{
-      "name" : "used-codesystem",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r424-motif-absence|20260505120000"
-    },
-    {
-      "name" : "version",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r424-motif-absence|20260505120000"
-    },
-    {
-      "name" : "warning-draft",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j406-motif-absence-ms|20260505120000"
-    },
-    {
-      "name" : "warning-draft",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r424-motif-absence|20260505120000"
-    }],
-    "contains" : [{
+  "compose" : {
+    "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r424-motif-absence",
-      "code" : "1",
-      "display" : "Hospitalisation de l'usager"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r424-motif-absence",
-      "code" : "2",
-      "display" : "Raisons personnelles de l'usager"
+      "filter" : [{
+        "property" : "status",
+        "op" : "=",
+        "value" : "active"
+      }]
     }]
   }
 }

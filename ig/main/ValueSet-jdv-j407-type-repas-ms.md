@@ -1,4 +1,4 @@
-# Jdv J407 Type Repas Ms - Terminologies de Santé v1.9.3
+# Jdv J407 Type Repas Ms - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -6,11 +6,14 @@
 
 ## ValueSet: Jdv J407 Type Repas Ms 
 
-| | |
-| :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j407-type-repas-ms | *Version*:20260505120000 |
-| Draft as of 2026-05-29 | *Computable Name*:JdvJ407TypeRepasMs |
-| *Other Identifiers:*OID:1.2.250.1.213.3.4.247 | |
+| | | |
+| :--- | :--- | :--- |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j407-type-repas-ms | *Version*:20260505120000 | |
+| Draft as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ407TypeRepasMs |
+| *Other Identifiers:*OID:1.2.250.1.213.3.4.247 | | |
+
+ 
+Type de repas. 
 
  **References** 
 
@@ -25,8 +28,6 @@ Requête sur le SMT
 ```
 
 ### Définition logique (CLD)
-
-Aucune définition formelle fournie pour ce jeu de valeurs
 
  
 
@@ -53,6 +54,11 @@ Aucune définition formelle fournie pour ce jeu de valeurs
 {
   "resourceType" : "ValueSet",
   "id" : "jdv-j407-type-repas-ms",
+  "meta" : {
+    "versionId" : "1",
+    "lastUpdated" : "2026-05-12T10:17:41.770+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -70,52 +76,23 @@ Aucune définition formelle fournie pour ce jeu de valeurs
   "title" : "Jdv J407 Type Repas Ms",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-29T09:12:29+00:00",
+  "date" : "2026-05-05T12:00:00.000+00:00",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "Type de repas.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FRA"
     }]
   }],
-  "expansion" : {
-    "identifier" : "urn:uuid:a8eaf327-7e61-42f1-bbaa-86781316a7ea",
-    "timestamp" : "2026-05-29T11:11:44+02:00",
-    "total" : 4,
-    "parameter" : [{
-      "name" : "used-codesystem",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r425-type-repas|20260505120000"
-    },
-    {
-      "name" : "version",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r425-type-repas|20260505120000"
-    },
-    {
-      "name" : "warning-draft",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r425-type-repas|20260505120000"
-    },
-    {
-      "name" : "warning-draft",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j407-type-repas-ms|20260505120000"
-    }],
-    "contains" : [{
+  "compose" : {
+    "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r425-type-repas",
-      "code" : "2",
-      "display" : "Déjeuner"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r425-type-repas",
-      "code" : "4",
-      "display" : "Dîner"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r425-type-repas",
-      "code" : "3",
-      "display" : "Goûter"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r425-type-repas",
-      "code" : "1",
-      "display" : "Petit-déjeuner"
+      "filter" : [{
+        "property" : "status",
+        "op" : "=",
+        "value" : "active"
+      }]
     }]
   }
 }

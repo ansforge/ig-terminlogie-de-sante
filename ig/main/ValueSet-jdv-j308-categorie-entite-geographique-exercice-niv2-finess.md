@@ -1,4 +1,4 @@
-# Jdv J308 Categorie Entite Geographique Exercice Niv2 Finess - Terminologies de Santé v1.9.3
+# Jdv J308 Categorie Entite Geographique Exercice Niv2 Finess - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -6,11 +6,14 @@
 
 ## ValueSet: Jdv J308 Categorie Entite Geographique Exercice Niv2 Finess 
 
-| | |
-| :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j308-categorie-entite-geographique-exercice-niv2-finess | *Version*:20260223120000 |
-| Active as of 2026-05-29 | *Computable Name*:JdvJ308CategorieEntiteGeographiqueExerciceNiv2Finess |
-| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.316 | |
+| | | |
+| :--- | :--- | :--- |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j308-categorie-entite-geographique-exercice-niv2-finess | *Version*:20260223120000 | |
+| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ308CategorieEntiteGeographiqueExerciceNiv2Finess |
+| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.316 | | |
+
+ 
+Ce JDV contient tous les agrégats Niv 2 d’EGE (JDV crée à l’image de l’ancienneTRE_R63-AgregatCategorieEtablissementNiv1) 
 
  **References** 
 
@@ -25,8 +28,6 @@ Requête sur le SMT
 ```
 
 ### Définition logique (CLD)
-
-Aucune définition formelle fournie pour ce jeu de valeurs
 
  
 
@@ -53,6 +54,11 @@ Aucune définition formelle fournie pour ce jeu de valeurs
 {
   "resourceType" : "ValueSet",
   "id" : "jdv-j308-categorie-entite-geographique-exercice-niv2-finess",
+  "meta" : {
+    "versionId" : "3",
+    "lastUpdated" : "2026-05-05T19:02:10.542+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+  },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -70,143 +76,23 @@ Aucune définition formelle fournie pour ce jeu de valeurs
   "title" : "Jdv J308 Categorie Entite Geographique Exercice Niv2 Finess",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-29T09:12:29+00:00",
+  "date" : "2026-02-23T12:00:00.000+00:00",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "Ce JDV contient tous les agrégats Niv 2 d'EGE (JDV crée à l'image de l'ancienneTRE_R63-AgregatCategorieEtablissementNiv1)",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FRA"
     }]
   }],
-  "expansion" : {
-    "identifier" : "urn:uuid:7ddc7e42-fd54-4819-9593-2613170aaff1",
-    "timestamp" : "2026-05-29T11:11:40+02:00",
-    "total" : 19,
-    "parameter" : [{
-      "name" : "used-codesystem",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice|20260505120000"
-    },
-    {
-      "name" : "version",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice|20260505120000"
-    }],
-    "contains" : [{
+  "compose" : {
+    "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
-      "code" : "4600",
-      "display" : "Autres Etab. Accueil, Hébergement, Réadaptation et Services"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
-      "code" : "2200",
-      "display" : "Autres Etablissements de Soins et Prévention"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
-      "code" : "1200",
-      "display" : "Autres Etablissements Relevant de la Loi Hospitalière"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
-      "code" : "3400",
-      "display" : "Autres Etablissements à Caractère Sanitaire"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
-      "code" : "2100",
-      "display" : "Cabinets Libéraux"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
-      "code" : "3200",
-      "display" : "Commerce de Biens à Usage Médicaux"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
-      "code" : "4100",
-      "display" : "Etab.et Serv.pour l'Enfance et la Jeunesse Handicapée"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
-      "code" : "4500",
-      "display" : "Etab.et Serv.Sociaux Concourant à la Protection de l'Enfance"
-    },
-    {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
-      "inactive" : true,
-      "code" : "0110",
-      "display" : "Etablissements d'Administration"
-    },
-    {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
-      "inactive" : true,
-      "code" : "110",
-      "display" : "Etablissements d'Administration"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
-      "code" : "6100",
-      "display" : "Etablissements de Formation des Personnels Sanitaires"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
-      "code" : "6200",
-      "display" : "Etablissements de Formation des Personnels Sociaux"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
-      "code" : "6300",
-      "display" : "Etablissements de Formation Polyvalente"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
-      "code" : "4300",
-      "display" : "Etablissements et Services pour Adultes Handicapés"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
-      "code" : "4400",
-      "display" : "Etablissements et Services pour Personnes Agées"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
-      "code" : "5100",
-      "display" : "Etablissements et Services Sociaux d'Aide à la Famille"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
-      "code" : "1100",
-      "display" : "Etablissements Hospitaliers"
-    },
-    {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
-      "inactive" : true,
-      "code" : "4200",
-      "display" : "Etablissements ou Classes d'Enseignement Spécial"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
-      "code" : "3100",
-      "display" : "Laboratoires de Biologie Médicale"
+      "filter" : [{
+        "property" : "niveau",
+        "op" : "=",
+        "value" : "2"
+      }]
     }]
   }
 }

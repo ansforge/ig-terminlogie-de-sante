@@ -1,4 +1,4 @@
-# Jdv J383 Motif Cloture Exercice Professionnel Epars - Terminologies de Santé v1.9.3
+# Jdv J383 Motif Cloture Exercice Professionnel Epars - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -6,11 +6,14 @@
 
 ## ValueSet: Jdv J383 Motif Cloture Exercice Professionnel Epars 
 
-| | |
-| :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j383-motif-cloture-exercice-professionnel-epars | *Version*:20251222120000 |
-| Active as of 2026-05-29 | *Computable Name*:JdvJ383MotifClotureExerciceProfessionnelEpars |
-| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.394 | |
+| | | |
+| :--- | :--- | :--- |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j383-motif-cloture-exercice-professionnel-epars | *Version*:20251222120000 | |
+| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ383MotifClotureExerciceProfessionnelEpars |
+| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.394 | | |
+
+ 
+Ce jeu de valeur liste les différents motifs qui peuvent justifier la clôture d’un exercice professionnel. 
 
  **References** 
 
@@ -25,8 +28,6 @@ Requête sur le SMT
 ```
 
 ### Définition logique (CLD)
-
-Aucune définition formelle fournie pour ce jeu de valeurs
 
  
 
@@ -53,6 +54,11 @@ Aucune définition formelle fournie pour ce jeu de valeurs
 {
   "resourceType" : "ValueSet",
   "id" : "jdv-j383-motif-cloture-exercice-professionnel-epars",
+  "meta" : {
+    "versionId" : "2",
+    "lastUpdated" : "2025-12-19T09:32:31.318+01:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -70,54 +76,23 @@ Aucune définition formelle fournie pour ce jeu de valeurs
   "title" : "Jdv J383 Motif Cloture Exercice Professionnel Epars",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-29T09:12:29+00:00",
+  "date" : "2025-12-22T12:00:00.249+00:00",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "Ce jeu de valeur liste les différents motifs qui peuvent justifier la clôture d'un exercice professionnel.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FRA"
     }]
   }],
-  "expansion" : {
-    "identifier" : "urn:uuid:2955eb62-2145-459a-9fbf-921368578b2c",
-    "timestamp" : "2026-05-29T11:10:50+02:00",
-    "total" : 6,
-    "parameter" : [{
-      "name" : "used-codesystem",
-      "valueUri" : "https://mos.esante.gouv.fr/NOS/TRE_R25-MotifFinActivite/FHIR/TRE-R25-MotifFinActivite|20231215120000"
-    },
-    {
-      "name" : "version",
-      "valueUri" : "https://mos.esante.gouv.fr/NOS/TRE_R25-MotifFinActivite/FHIR/TRE-R25-MotifFinActivite|20231215120000"
-    }],
-    "contains" : [{
+  "compose" : {
+    "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R25-MotifFinActivite/FHIR/TRE-R25-MotifFinActivite",
-      "code" : "AUT",
-      "display" : "Autre motif"
-    },
-    {
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R25-MotifFinActivite/FHIR/TRE-R25-MotifFinActivite",
-      "code" : "CHP",
-      "display" : "Changement de profession"
-    },
-    {
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R25-MotifFinActivite/FHIR/TRE-R25-MotifFinActivite",
-      "code" : "DCD",
-      "display" : "Décès"
-    },
-    {
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R25-MotifFinActivite/FHIR/TRE-R25-MotifFinActivite",
-      "code" : "ETR",
-      "display" : "Départ à l'étranger"
-    },
-    {
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R25-MotifFinActivite/FHIR/TRE-R25-MotifFinActivite",
-      "code" : "RL",
-      "display" : "Retraite libérale"
-    },
-    {
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R25-MotifFinActivite/FHIR/TRE-R25-MotifFinActivite",
-      "code" : "RS",
-      "display" : "Retraite salariée"
+      "filter" : [{
+        "property" : "epars",
+        "op" : "=",
+        "value" : "true"
+      }]
     }]
   }
 }

@@ -2,22 +2,13 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20260529091229"
+             dateMaj="20260505120000"
              dateValid="20260505120000"
-             description=""
+             description="Type d'adresse postale."
              displayName="JdvJ409TypeAdresseMs"
              id="1.2.250.1.213.3.4.249"
              typeFichier="JDV"
              urlFichier="">
-      <ConceptList>
-         <Concept code="1" codeSystem="1.2.250.1.213.3.3.278" displayName="Domicile"/>
-         <Concept code="3"
-                  codeSystem="1.2.250.1.213.3.3.278"
-                  displayName="Facturation"/>
-         <Concept code="4" codeSystem="1.2.250.1.213.3.3.278" displayName="Livraison"/>
-         <Concept code="2"
-                  codeSystem="1.2.250.1.213.3.3.278"
-                  displayName="Professionnelle"/>
-      </ConceptList>
+      <ConceptList/>
    </ValueSet>
 </RetrieveValueSetResponse>

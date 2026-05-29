@@ -1,4 +1,4 @@
-# Jdv J403 Motif Fin Pag Ms - Terminologies de Santé v1.9.3
+# Jdv J403 Motif Fin Pag Ms - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -6,11 +6,14 @@
 
 ## ValueSet: Jdv J403 Motif Fin Pag Ms 
 
-| | |
-| :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j403-motif-fin-pag-ms | *Version*:20260505120000 |
-| Draft as of 2026-05-29 | *Computable Name*:JdvJ403MotifFinPagMs |
-| *Other Identifiers:*OID:1.2.250.1.213.3.4.243 | |
+| | | |
+| :--- | :--- | :--- |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j403-motif-fin-pag-ms | *Version*:20260505120000 | |
+| Draft as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ403MotifFinPagMs |
+| *Other Identifiers:*OID:1.2.250.1.213.3.4.243 | | |
+
+ 
+Motif pour l’arrêt du plan d’accompagnement global (PAG). 
 
  **References** 
 
@@ -25,8 +28,6 @@ Requête sur le SMT
 ```
 
 ### Définition logique (CLD)
-
-Aucune définition formelle fournie pour ce jeu de valeurs
 
  
 
@@ -53,6 +54,11 @@ Aucune définition formelle fournie pour ce jeu de valeurs
 {
   "resourceType" : "ValueSet",
   "id" : "jdv-j403-motif-fin-pag-ms",
+  "meta" : {
+    "versionId" : "1",
+    "lastUpdated" : "2026-05-12T10:17:40.349+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -70,77 +76,23 @@ Aucune définition formelle fournie pour ce jeu de valeurs
   "title" : "Jdv J403 Motif Fin Pag Ms",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-29T09:12:29+00:00",
+  "date" : "2026-05-05T12:00:00.000+00:00",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "Motif pour l'arrêt du plan d'accompagnement global (PAG).",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FRA"
     }]
   }],
-  "expansion" : {
-    "identifier" : "urn:uuid:f1570650-1bbf-4c99-8612-f4dfa62ef8d6",
-    "timestamp" : "2026-05-29T11:11:18+02:00",
-    "total" : 9,
-    "parameter" : [{
-      "name" : "used-codesystem",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag|20260505120000"
-    },
-    {
-      "name" : "version",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag|20260505120000"
-    },
-    {
-      "name" : "warning-draft",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag|20260505120000"
-    },
-    {
-      "name" : "warning-draft",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j403-motif-fin-pag-ms|20260505120000"
-    }],
-    "contains" : [{
+  "compose" : {
+    "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag",
-      "code" : "4",
-      "display" : "Coordination effective sans recours au PAG"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag",
-      "code" : "5",
-      "display" : "Demande de l’usager"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag",
-      "code" : "9",
-      "display" : "Décès usager"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag",
-      "code" : "8",
-      "display" : "Déménagement (hors département)"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag",
-      "code" : "7",
-      "display" : "Elaboration d'un nouveau PAG"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag",
-      "code" : "6",
-      "display" : "Fin des dérogations"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag",
-      "code" : "2",
-      "display" : "Réponse alternative stabilisée et pérennisée"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag",
-      "code" : "1",
-      "display" : "Réponse cible atteinte"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag",
-      "code" : "3",
-      "display" : "Solution spécifique du PAG stabilisée et pérennisée et devenue la cible"
+      "filter" : [{
+        "property" : "status",
+        "op" : "=",
+        "value" : "active"
+      }]
     }]
   }
 }

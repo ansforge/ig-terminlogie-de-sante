@@ -9,10 +9,18 @@
 <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j384-role-membre-famille-ms> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "jdv-j384-role-membre-famille-ms"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "1" ] ;
+     fhir:lastUpdated [ fhir:v "2026-02-03T10:17:53.493+01:00"^^xsd:dateTime ] ;
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+     ] )
+  ] ; # 
   fhir:language [ fhir:v "fr-FR"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j384-role-membre-famille-ms</b></p><a name=\"jdv-j384-role-membre-famille-ms\"> </a><a name=\"hcjdv-j384-role-membre-famille-ms\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Langue : fr-FR</p></div><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion basée sur <a href=\"CodeSystem-TRE-R260-HL7RoleClass.html\">codesystem TRE_R260_HL7RoleClass v20240426120000 (CodeSystem)</a></p><p>Ce jeu de valeur (ValueSet) contient 5 concepts</p><table class=\"codes\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage (fr-FR)</b> - French (France) (fr)</td></tr><tr><td><a name=\"jdv-j384-role-membre-famille-ms-https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass-CAREGIVER\"> </a><code>https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-TRE-R260-HL7RoleClass.html#TRE-R260-HL7RoleClass-CAREGIVER\">CAREGIVER</a></td><td>Aidant</td></tr><tr><td><a name=\"jdv-j384-role-membre-famille-ms-https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass-CON\"> </a><code>https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-TRE-R260-HL7RoleClass.html#TRE-R260-HL7RoleClass-CON\">CON</a></td><td>Informateur</td></tr><tr><td><a name=\"jdv-j384-role-membre-famille-ms-https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass-NOK\"> </a><code>https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-TRE-R260-HL7RoleClass.html#TRE-R260-HL7RoleClass-NOK\">NOK</a></td><td>personne de confiance</td></tr><tr><td><a name=\"jdv-j384-role-membre-famille-ms-https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass-ECON\"> </a><code>https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-TRE-R260-HL7RoleClass.html#TRE-R260-HL7RoleClass-ECON\">ECON</a></td><td>personne à prévenir en cas d'urgence</td></tr><tr><td><a name=\"jdv-j384-role-membre-famille-ms-https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass-GUARD\"> </a><code>https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-TRE-R260-HL7RoleClass.html#TRE-R260-HL7RoleClass-GUARD\">GUARD</a></td><td>Responsable légal</td></tr></table></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j384-role-membre-famille-ms</b></p><a name=\"jdv-j384-role-membre-famille-ms\"> </a><a name=\"hcjdv-j384-role-membre-famille-ms\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 1; Dernière mise à jour : 2026-02-03 10:17:53+0100; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include codes provenant de<a href=\"CodeSystem-TRE-R260-HL7RoleClass.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass</code></a><span title=\"La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\"> version ?20240426120000</span> où ms  = true</li></ul></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
      fhir:url [
@@ -40,7 +48,9 @@
   fhir:title [ fhir:v "Jdv J384 Role Membre Famille Ms"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-05-29T09:12:29+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-02T12:00:00.000+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
+  fhir:description [ fhir:v "Rôle d'un membre de la famille ou d'un proche de l'usager."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [
@@ -50,63 +60,17 @@
        fhir:code [ fhir:v "FRA" ]
      ] )
   ] ) ; # 
-  fhir:expansion [
-     fhir:identifier [
-       fhir:v "urn:uuid:a14c9418-4041-4132-8f84-d8b05085c468"^^xsd:anyURI ;
-       fhir:l <urn:uuid:a14c9418-4041-4132-8f84-d8b05085c468>
-     ] ;
-     fhir:timestamp [ fhir:v "2026-05-29T11:11:28+02:00"^^xsd:dateTime ] ;
-     fhir:total [ fhir:v 5 ] ;
-     fhir:parameter ( [
-       fhir:name [ fhir:v "used-codesystem" ] ;
-       fhir:value [
-         a fhir:Uri ;
-         fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass|20240426120000"^^xsd:anyURI ;
-         fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass?version=20240426120000>
-       ]
-     ] [
-       fhir:name [ fhir:v "version" ] ;
-       fhir:value [
-         a fhir:Uri ;
-         fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass|20240426120000"^^xsd:anyURI ;
-         fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass?version=20240426120000>
-       ]
-     ] ) ;
-     fhir:contains ( [
+  fhir:compose [
+     fhir:include ( [
        fhir:system [
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass>
        ] ;
-       fhir:code [ fhir:v "CAREGIVER" ] ;
-       fhir:display [ fhir:v "Aidant" ]
-     ] [
-       fhir:system [
-         fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass"^^xsd:anyURI ;
-         fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass>
-       ] ;
-       fhir:code [ fhir:v "CON" ] ;
-       fhir:display [ fhir:v "Informateur" ]
-     ] [
-       fhir:system [
-         fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass"^^xsd:anyURI ;
-         fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass>
-       ] ;
-       fhir:code [ fhir:v "NOK" ] ;
-       fhir:display [ fhir:v "personne de confiance" ]
-     ] [
-       fhir:system [
-         fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass"^^xsd:anyURI ;
-         fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass>
-       ] ;
-       fhir:code [ fhir:v "ECON" ] ;
-       fhir:display [ fhir:v "personne à prévenir en cas d'urgence" ]
-     ] [
-       fhir:system [
-         fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass"^^xsd:anyURI ;
-         fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass>
-       ] ;
-       fhir:code [ fhir:v "GUARD" ] ;
-       fhir:display [ fhir:v "Responsable légal" ]
+       fhir:filter ( [
+         fhir:property [ fhir:v "ms" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "true" ]
+       ] )
      ] )
   ] . # 
 

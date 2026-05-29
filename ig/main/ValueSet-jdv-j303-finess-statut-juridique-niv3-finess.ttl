@@ -9,10 +9,18 @@
 <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j303-finess-statut-juridique-niv3-finess> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "jdv-j303-finess-statut-juridique-niv3-finess"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "3" ] ;
+     fhir:lastUpdated [ fhir:v "2026-05-05T19:02:08.379+02:00"^^xsd:dateTime ] ;
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablevalueset?version=4.0.1>
+     ] )
+  ] ; # 
   fhir:language [ fhir:v "fr-FR"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j303-finess-statut-juridique-niv3-finess</b></p><a name=\"jdv-j303-finess-statut-juridique-niv3-finess\"> </a><a name=\"hcjdv-j303-finess-statut-juridique-niv3-finess\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Langue : fr-FR</p></div><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion basée sur <a href=\"CodeSystem-tre-r400-finess-statut-juridique.html\">codesystem Tre R400 Finess Statut Juridique v20260223120000 (CodeSystem)</a></p><p>Ce jeu de valeur (ValueSet) contient 22 concepts</p><table class=\"codes\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage (fr-FR)</b> - French (France) (fr)</td></tr><tr><td><a name=\"jdv-j303-finess-statut-juridique-niv3-finess-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique-2160\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r400-finess-statut-juridique.html#tre-r400-finess-statut-juridique-2160\">2160</a></td><td>Association</td></tr><tr><td><a name=\"jdv-j303-finess-statut-juridique-niv3-finess-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique-2190\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r400-finess-statut-juridique.html#tre-r400-finess-statut-juridique-2190\">2190</a></td><td>Autre Organisme Privé à But non Lucratif</td></tr><tr><td><a name=\"jdv-j303-finess-statut-juridique-niv3-finess-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique-2280\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r400-finess-statut-juridique.html#tre-r400-finess-statut-juridique-2280\">2280</a></td><td>Autre Organisme Privé à Caractère Commercial</td></tr><tr><td><a name=\"jdv-j303-finess-statut-juridique-niv3-finess-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique-2260\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r400-finess-statut-juridique.html#tre-r400-finess-statut-juridique-2260\">2260</a></td><td>Autre Société</td></tr><tr><td><a name=\"jdv-j303-finess-statut-juridique-niv3-finess-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique-1120\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r400-finess-statut-juridique.html#tre-r400-finess-statut-juridique-1120\">1120</a></td><td>Collectivité Territoriale</td></tr><tr><td><a name=\"jdv-j303-finess-statut-juridique-niv3-finess-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique-2130\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r400-finess-statut-juridique.html#tre-r400-finess-statut-juridique-2130\">2130</a></td><td>Comité d'Entreprise et Comité d'Etablissement</td></tr><tr><td><a name=\"jdv-j303-finess-statut-juridique-niv3-finess-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique-2180\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r400-finess-statut-juridique.html#tre-r400-finess-statut-juridique-2180\">2180</a></td><td>Congrégation</td></tr><tr><td><a name=\"jdv-j303-finess-statut-juridique-niv3-finess-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique-1210\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r400-finess-statut-juridique.html#tre-r400-finess-statut-juridique-1210\">1210</a></td><td>Etablissement Public à Caractère Administratif</td></tr><tr><td><a name=\"jdv-j303-finess-statut-juridique-niv3-finess-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique-1220\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r400-finess-statut-juridique.html#tre-r400-finess-statut-juridique-1220\">1220</a></td><td>Etablissement Public à Caractère Industriel et Commercial</td></tr><tr><td><a name=\"jdv-j303-finess-statut-juridique-niv3-finess-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique-1110\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r400-finess-statut-juridique.html#tre-r400-finess-statut-juridique-1110\">1110</a></td><td>Etat</td></tr><tr><td><a name=\"jdv-j303-finess-statut-juridique-niv3-finess-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique-2170\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r400-finess-statut-juridique.html#tre-r400-finess-statut-juridique-2170\">2170</a></td><td>Fondation</td></tr><tr><td><a name=\"jdv-j303-finess-statut-juridique-niv3-finess-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique-2270\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r400-finess-statut-juridique.html#tre-r400-finess-statut-juridique-2270\">2270</a></td><td>Groupement Privé à Caractère Commercial</td></tr><tr><td><a name=\"jdv-j303-finess-statut-juridique-niv3-finess-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique-2110\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r400-finess-statut-juridique.html#tre-r400-finess-statut-juridique-2110\">2110</a></td><td>Organisme Gérant un Régime de Protection Sociale à Adhésion</td></tr><tr><td><a name=\"jdv-j303-finess-statut-juridique-niv3-finess-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique-2120\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r400-finess-statut-juridique.html#tre-r400-finess-statut-juridique-2120\">2120</a></td><td>Organisme Mutualiste</td></tr><tr><td><a name=\"jdv-j303-finess-statut-juridique-niv3-finess-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique-2140\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r400-finess-statut-juridique.html#tre-r400-finess-statut-juridique-2140\">2140</a></td><td>Organisme Professionnel</td></tr><tr><td><a name=\"jdv-j303-finess-statut-juridique-niv3-finess-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique-3110\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r400-finess-statut-juridique.html#tre-r400-finess-statut-juridique-3110\">3110</a></td><td>Personne Morale de Droit Etranger</td></tr><tr><td><a name=\"jdv-j303-finess-statut-juridique-niv3-finess-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique-2210\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r400-finess-statut-juridique.html#tre-r400-finess-statut-juridique-2210\">2210</a></td><td>Personne Physique</td></tr><tr><td><a name=\"jdv-j303-finess-statut-juridique-niv3-finess-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique-2230\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r400-finess-statut-juridique.html#tre-r400-finess-statut-juridique-2230\">2230</a></td><td>Société A Responsabilité Limitée (S.A.R.L.)</td></tr><tr><td><a name=\"jdv-j303-finess-statut-juridique-niv3-finess-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique-2240\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r400-finess-statut-juridique.html#tre-r400-finess-statut-juridique-2240\">2240</a></td><td>Société Anonyme (S.A.)</td></tr><tr><td><a name=\"jdv-j303-finess-statut-juridique-niv3-finess-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique-2250\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r400-finess-statut-juridique.html#tre-r400-finess-statut-juridique-2250\">2250</a></td><td>Société Civile</td></tr><tr><td><a name=\"jdv-j303-finess-statut-juridique-niv3-finess-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique-2220\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r400-finess-statut-juridique.html#tre-r400-finess-statut-juridique-2220\">2220</a></td><td>Société en Nom Collectif (S.N.C.)</td></tr><tr><td><a name=\"jdv-j303-finess-statut-juridique-niv3-finess-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique-2150\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r400-finess-statut-juridique.html#tre-r400-finess-statut-juridique-2150\">2150</a></td><td>Syndicat de Propriétaires</td></tr></table></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j303-finess-statut-juridique-niv3-finess</b></p><a name=\"jdv-j303-finess-statut-juridique-niv3-finess\"> </a><a name=\"hcjdv-j303-finess-statut-juridique-niv3-finess\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 3; Dernière mise à jour : 2026-05-05 19:02:08+0200; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a> version : 4.0.1</p></div><p>Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :</p><ul><li>Inclut codes provenant de<a href=\"CodeSystem-tre-r400-finess-statut-juridique.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique</code></a><span title=\"La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\"> version ?20260223120000</span> où niveau  = 3</li></ul><p>Ce jeu de valeur (ValueSet) exclut les codes selon les règles suivantes :</p><ul><li>Exclut codes provenant de<a href=\"CodeSystem-tre-r400-finess-statut-juridique.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique</code></a><span title=\"La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\"> version ?20260223120000</span> où specialisationRpps  = true</li></ul></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
      fhir:url [
@@ -40,7 +48,9 @@
   fhir:title [ fhir:v "Jdv J303 Finess Statut Juridique Niv3 Finess"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-05-29T09:12:29+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-23T12:00:00.000+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
+  fhir:description [ fhir:v "Ce JDV contient les agrégats Niv3 des statuts juridiques (JDV créé à l'image de l'ancienne TRE_R69-FinessAgregatStatutJuridiqueNiv2)"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [
@@ -50,182 +60,28 @@
        fhir:code [ fhir:v "FRA" ]
      ] )
   ] ) ; # 
-  fhir:expansion [
-     fhir:identifier [
-       fhir:v "urn:uuid:b40312b6-5e94-4a64-9c1e-05e38ab937c0"^^xsd:anyURI ;
-       fhir:l <urn:uuid:b40312b6-5e94-4a64-9c1e-05e38ab937c0>
-     ] ;
-     fhir:timestamp [ fhir:v "2026-05-29T11:11:21+02:00"^^xsd:dateTime ] ;
-     fhir:total [ fhir:v 22 ] ;
-     fhir:parameter ( [
-       fhir:name [ fhir:v "used-codesystem" ] ;
-       fhir:value [
-         a fhir:Uri ;
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique|20260223120000"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique?version=20260223120000>
-       ]
-     ] [
-       fhir:name [ fhir:v "version" ] ;
-       fhir:value [
-         a fhir:Uri ;
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique|20260223120000"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique?version=20260223120000>
-       ]
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "niveau" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "3" ]
+       ] )
      ] ) ;
-     fhir:contains ( [
+     fhir:exclude ( [
        fhir:system [
          fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique"^^xsd:anyURI ;
          fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique>
        ] ;
-       fhir:code [ fhir:v "2160" ] ;
-       fhir:display [ fhir:v "Association" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique>
-       ] ;
-       fhir:code [ fhir:v "2190" ] ;
-       fhir:display [ fhir:v "Autre Organisme Privé à But non Lucratif" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique>
-       ] ;
-       fhir:code [ fhir:v "2280" ] ;
-       fhir:display [ fhir:v "Autre Organisme Privé à Caractère Commercial" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique>
-       ] ;
-       fhir:code [ fhir:v "2260" ] ;
-       fhir:display [ fhir:v "Autre Société" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique>
-       ] ;
-       fhir:code [ fhir:v "1120" ] ;
-       fhir:display [ fhir:v "Collectivité Territoriale" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique>
-       ] ;
-       fhir:code [ fhir:v "2130" ] ;
-       fhir:display [ fhir:v "Comité d'Entreprise et Comité d'Etablissement" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique>
-       ] ;
-       fhir:code [ fhir:v "2180" ] ;
-       fhir:display [ fhir:v "Congrégation" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique>
-       ] ;
-       fhir:code [ fhir:v "1210" ] ;
-       fhir:display [ fhir:v "Etablissement Public à Caractère Administratif" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique>
-       ] ;
-       fhir:code [ fhir:v "1220" ] ;
-       fhir:display [ fhir:v "Etablissement Public à Caractère Industriel et Commercial" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique>
-       ] ;
-       fhir:code [ fhir:v "1110" ] ;
-       fhir:display [ fhir:v "Etat" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique>
-       ] ;
-       fhir:code [ fhir:v "2170" ] ;
-       fhir:display [ fhir:v "Fondation" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique>
-       ] ;
-       fhir:code [ fhir:v "2270" ] ;
-       fhir:display [ fhir:v "Groupement Privé à Caractère Commercial" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique>
-       ] ;
-       fhir:code [ fhir:v "2110" ] ;
-       fhir:display [ fhir:v "Organisme Gérant un Régime de Protection Sociale à Adhésion" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique>
-       ] ;
-       fhir:code [ fhir:v "2120" ] ;
-       fhir:display [ fhir:v "Organisme Mutualiste" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique>
-       ] ;
-       fhir:code [ fhir:v "2140" ] ;
-       fhir:display [ fhir:v "Organisme Professionnel" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique>
-       ] ;
-       fhir:code [ fhir:v "3110" ] ;
-       fhir:display [ fhir:v "Personne Morale de Droit Etranger" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique>
-       ] ;
-       fhir:code [ fhir:v "2210" ] ;
-       fhir:display [ fhir:v "Personne Physique" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique>
-       ] ;
-       fhir:code [ fhir:v "2230" ] ;
-       fhir:display [ fhir:v "Société A Responsabilité Limitée (S.A.R.L.)" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique>
-       ] ;
-       fhir:code [ fhir:v "2240" ] ;
-       fhir:display [ fhir:v "Société Anonyme (S.A.)" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique>
-       ] ;
-       fhir:code [ fhir:v "2250" ] ;
-       fhir:display [ fhir:v "Société Civile" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique>
-       ] ;
-       fhir:code [ fhir:v "2220" ] ;
-       fhir:display [ fhir:v "Société en Nom Collectif (S.N.C.)" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique>
-       ] ;
-       fhir:code [ fhir:v "2150" ] ;
-       fhir:display [ fhir:v "Syndicat de Propriétaires" ]
+       fhir:filter ( [
+         fhir:property [ fhir:v "specialisationRpps" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "true" ]
+       ] )
      ] )
   ] . # 
 

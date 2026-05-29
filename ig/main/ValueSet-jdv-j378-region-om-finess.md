@@ -1,4 +1,4 @@
-# Jdv J378 Region Om Finess - Terminologies de Santé v1.9.3
+# Jdv J378 Region Om Finess - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -6,11 +6,14 @@
 
 ## ValueSet: Jdv J378 Region Om Finess 
 
-| | |
-| :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j378-region-om-finess | *Version*:20260505120000 |
-| Active as of 2026-05-29 | *Computable Name*:JdvJ378RegionOmFiness |
-| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.391 | |
+| | | |
+| :--- | :--- | :--- |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j378-region-om-finess | *Version*:20260505120000 | |
+| Active as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ378RegionOmFiness |
+| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.391 | | |
+
+ 
+Liste des régions administratives couvertes par le périmètre géographique de FINESS 
 
  **References** 
 
@@ -25,8 +28,6 @@ Requête sur le SMT
 ```
 
 ### Définition logique (CLD)
-
-Aucune définition formelle fournie pour ce jeu de valeurs
 
  
 
@@ -53,6 +54,11 @@ Aucune définition formelle fournie pour ce jeu de valeurs
 {
   "resourceType" : "ValueSet",
   "id" : "jdv-j378-region-om-finess",
+  "meta" : {
+    "versionId" : "2",
+    "lastUpdated" : "2026-05-05T19:02:23.319+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -70,134 +76,23 @@ Aucune définition formelle fournie pour ce jeu de valeurs
   "title" : "Jdv J378 Region Om Finess",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-29T09:12:29+00:00",
+  "date" : "2026-05-05T18:02:28.249+00:00",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "Liste des régions administratives couvertes par le périmètre géographique de FINESS",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FRA"
     }]
   }],
-  "expansion" : {
-    "identifier" : "urn:uuid:15f741b4-de87-4300-95cd-08388e333bba",
-    "timestamp" : "2026-05-29T11:11:28+02:00",
-    "total" : 22,
-    "parameter" : [{
-      "name" : "used-codesystem",
-      "valueUri" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM|20240628120000"
-    },
-    {
-      "name" : "version",
-      "valueUri" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM|20240628120000"
-    }],
-    "contains" : [{
+  "compose" : {
+    "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
-      "code" : "84",
-      "display" : "Auvergne-Rhône-Alpes"
-    },
-    {
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
-      "code" : "27",
-      "display" : "Bourgogne-Franche-Comté"
-    },
-    {
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
-      "code" : "53",
-      "display" : "Bretagne"
-    },
-    {
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
-      "code" : "24",
-      "display" : "Centre-Val de Loire"
-    },
-    {
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
-      "code" : "94",
-      "display" : "Corse"
-    },
-    {
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
-      "code" : "44",
-      "display" : "Grand Est"
-    },
-    {
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
-      "code" : "01",
-      "display" : "Guadeloupe"
-    },
-    {
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
-      "code" : "03",
-      "display" : "Guyane"
-    },
-    {
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
-      "code" : "32",
-      "display" : "Hauts-de-France"
-    },
-    {
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
-      "code" : "04",
-      "display" : "La Réunion"
-    },
-    {
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
-      "code" : "02",
-      "display" : "Martinique"
-    },
-    {
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
-      "code" : "06",
-      "display" : "Mayotte"
-    },
-    {
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
-      "code" : "28",
-      "display" : "Normandie"
-    },
-    {
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
-      "code" : "75",
-      "display" : "Nouvelle-Aquitaine"
-    },
-    {
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
-      "code" : "76",
-      "display" : "Occitanie"
-    },
-    {
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
-      "code" : "52",
-      "display" : "Pays de la Loire"
-    },
-    {
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
-      "code" : "93",
-      "display" : "Provence-Alpes-Côte d'Azur"
-    },
-    {
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
-      "code" : "977",
-      "display" : "Saint-Barthélemy"
-    },
-    {
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
-      "code" : "978",
-      "display" : "Saint-Martin"
-    },
-    {
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
-      "code" : "975",
-      "display" : "Saint-Pierre-et-Miquelon"
-    },
-    {
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
-      "code" : "986",
-      "display" : "Wallis-et-Futuna"
-    },
-    {
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
-      "code" : "11",
-      "display" : "Île-de-France"
+      "filter" : [{
+        "property" : "finess",
+        "op" : "=",
+        "value" : "true"
+      }]
     }]
   }
 }

@@ -1,4 +1,4 @@
-# Jdv J320 Activite Enseignement Regulee Niv2 Finess - Terminologies de Santé v1.9.3
+# Jdv J320 Activite Enseignement Regulee Niv2 Finess - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -6,11 +6,14 @@
 
 ## ValueSet: Jdv J320 Activite Enseignement Regulee Niv2 Finess 
 
-| | |
-| :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j320-activite-enseignement-regulee-niv2-finess | *Version*:20260223120000 |
-| Active as of 2026-05-29 | *Computable Name*:JdvJ320ActiviteEnseignementReguleeNiv2Finess |
-| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.328 | |
+| | | |
+| :--- | :--- | :--- |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j320-activite-enseignement-regulee-niv2-finess | *Version*:20260223120000 | |
+| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ320ActiviteEnseignementReguleeNiv2Finess |
+| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.328 | | |
+
+ 
+Jeu de valeurs FINESS contenant les activités d’enseignement régulées de niveau 2 
 
  **References** 
 
@@ -25,8 +28,6 @@ Requête sur le SMT
 ```
 
 ### Définition logique (CLD)
-
-Aucune définition formelle fournie pour ce jeu de valeurs
 
  
 
@@ -53,6 +54,11 @@ Aucune définition formelle fournie pour ce jeu de valeurs
 {
   "resourceType" : "ValueSet",
   "id" : "jdv-j320-activite-enseignement-regulee-niv2-finess",
+  "meta" : {
+    "versionId" : "2",
+    "lastUpdated" : "2026-05-05T19:02:12.852+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+  },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -70,29 +76,28 @@ Aucune définition formelle fournie pour ce jeu de valeurs
   "title" : "Jdv J320 Activite Enseignement Regulee Niv2 Finess",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-29T09:12:29+00:00",
+  "date" : "2026-02-23T12:00:00.000+00:00",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 2",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FRA"
     }]
   }],
-  "expansion" : {
-    "identifier" : "urn:uuid:3fe8eaaa-4c80-45b6-92eb-5a788e4d1117",
-    "timestamp" : "2026-05-29T11:11:43+02:00",
-    "total" : 1,
-    "parameter" : [{
-      "name" : "used-codesystem",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee|20260223120000"
-    },
-    {
-      "name" : "version",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee|20260223120000"
-    }],
-    "contains" : [{
+  "compose" : {
+    "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
-      "code" : "2200",
-      "display" : "Services Spécialisés d'Enseignement"
+      "filter" : [{
+        "property" : "niveau",
+        "op" : "=",
+        "value" : "2"
+      },
+      {
+        "property" : "finess",
+        "op" : "=",
+        "value" : "true"
+      }]
     }]
   }
 }

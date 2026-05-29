@@ -2,9 +2,9 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20260529091229"
+             dateMaj="20260601120000"
              dateValid="20260601120000"
-             description=""
+             description="Ensemble des orientations vers un Service d'éducation spéciale et de soins à domicile (SESSAD), un Service d'accompagnement familial et d'éducation précoce (SAFEP), un enseignement adapté (SEGPA/EREA) ou une unité d'enseignement."
              displayName="JdvJ408OrientationMs"
              id="1.2.250.1.213.3.4.248"
              typeFichier="JDV"
@@ -22,30 +22,6 @@
          <Concept code="UEM"
                   codeSystem="1.2.250.1.213.1.6.1.131"
                   displayName="Unité d'enseignement en maternelle plan autisme"/>
-         <Concept code="7"
-                  codeSystem="1.2.250.1.213.3.3.277"
-                  displayName="SAFEP déficience auditive"/>
-         <Concept code="8"
-                  codeSystem="1.2.250.1.213.3.3.277"
-                  displayName="SAFEP déficience visuelle"/>
-         <Concept code="1"
-                  codeSystem="1.2.250.1.213.3.3.277"
-                  displayName="SESSAD polyvalent"/>
-         <Concept code="2"
-                  codeSystem="1.2.250.1.213.3.3.277"
-                  displayName="SESSAD pour déficience intellectuelle"/>
-         <Concept code="3"
-                  codeSystem="1.2.250.1.213.3.3.277"
-                  displayName="SESSAD pour déficience motrice"/>
-         <Concept code="4"
-                  codeSystem="1.2.250.1.213.3.3.277"
-                  displayName="SESSAD pour trouble du comportement"/>
-         <Concept code="5"
-                  codeSystem="1.2.250.1.213.3.3.277"
-                  displayName="SESSAD pour troubles autistiques et du neurodéveloppement"/>
-         <Concept code="6"
-                  codeSystem="1.2.250.1.213.3.3.277"
-                  displayName="SESSAD pour troubles du langage et des apprentissages"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

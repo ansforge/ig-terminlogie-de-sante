@@ -1,4 +1,4 @@
-# TRE_R256_TypeMessagerie - Terminologies de Santé v1.9.3
+# TRE_R256_TypeMessagerie - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -17,6 +17,7 @@ Type de messagerie électronique
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
+* [JDV_J225_CanalCommunication_ROR](ValueSet-JDV-J225-CanalCommunication-ROR.md)
 * [JdvJ397TypeMessagerieMs](ValueSet-jdv-j397-type-messagerie-ms.md)
 
 

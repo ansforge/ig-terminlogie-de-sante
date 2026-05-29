@@ -1,4 +1,4 @@
-# Tre R424 Motif Absence - Terminologies de Santé v1.9.3
+# Tre R424 Motif Absence - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -17,7 +17,7 @@ Motif pour lequel l’usager n’est pas présent lors d’un événement organi
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* Cette terminologie de référence (CodeSystem) n'est pas utilisée ici; elle peut être utilisée ailleurs (par exemple spécifications et/ou implémentations qui utilisent ce contenu)
+* [JdvJ406MotifAbsenceMs](ValueSet-jdv-j406-motif-absence-ms.md)
 
 
 

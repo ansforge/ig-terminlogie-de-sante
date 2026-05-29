@@ -1,4 +1,4 @@
-# JDV J12 CiviliteTitre CISIS - Terminologies de Santé v1.9.3
+# JDV J12 CiviliteTitre CISIS - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -61,6 +61,7 @@ Expansions are not generated for retired value sets
     "lastUpdated" : "2025-01-06T12:44:43.391+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
+  "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {

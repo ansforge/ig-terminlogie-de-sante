@@ -1,4 +1,4 @@
-# Jdv J301 Finess Statut Juridique Niv1 Finess - Terminologies de Santé v1.9.3
+# Jdv J301 Finess Statut Juridique Niv1 Finess - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -6,11 +6,14 @@
 
 ## ValueSet: Jdv J301 Finess Statut Juridique Niv1 Finess 
 
-| | |
-| :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j301-finess-statut-juridique-niv1-finess | *Version*:20260223120000 |
-| Active as of 2026-05-29 | *Computable Name*:JdvJ301FinessStatutJuridiqueNiv1Finess |
-| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.309 | |
+| | | |
+| :--- | :--- | :--- |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j301-finess-statut-juridique-niv1-finess | *Version*:20260223120000 | |
+| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ301FinessStatutJuridiqueNiv1Finess |
+| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.309 | | |
+
+ 
+Ce JDV contient les agrégats Niv1 des statust juridiques (JDV créé à l’image de l’ancienne TRE_R70-FinessAgregatStatutJuridique) 
 
  **References** 
 
@@ -25,8 +28,6 @@ Requête sur le SMT
 ```
 
 ### Définition logique (CLD)
-
-Aucune définition formelle fournie pour ce jeu de valeurs
 
  
 
@@ -53,6 +54,11 @@ Aucune définition formelle fournie pour ce jeu de valeurs
 {
   "resourceType" : "ValueSet",
   "id" : "jdv-j301-finess-statut-juridique-niv1-finess",
+  "meta" : {
+    "versionId" : "3",
+    "lastUpdated" : "2026-05-05T19:02:07.494+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+  },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -70,39 +76,31 @@ Aucune définition formelle fournie pour ce jeu de valeurs
   "title" : "Jdv J301 Finess Statut Juridique Niv1 Finess",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-29T09:12:29+00:00",
+  "date" : "2026-02-23T12:00:00.000+00:00",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "Ce JDV contient les agrégats Niv1 des statust juridiques (JDV créé à l'image de l'ancienne TRE_R70-FinessAgregatStatutJuridique)",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FRA"
     }]
   }],
-  "expansion" : {
-    "identifier" : "urn:uuid:8719815b-330d-4bef-b097-a74f186d5c01",
-    "timestamp" : "2026-05-29T11:10:37+02:00",
-    "total" : 3,
-    "parameter" : [{
-      "name" : "used-codesystem",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique|20260223120000"
-    },
-    {
-      "name" : "version",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique|20260223120000"
+  "compose" : {
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
+      "filter" : [{
+        "property" : "niveau",
+        "op" : "=",
+        "value" : "1"
+      }]
     }],
-    "contains" : [{
+    "exclude" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
-      "code" : "1000",
-      "display" : "Organismes et Etablissements Publics"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
-      "code" : "2000",
-      "display" : "Organismes Privés"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
-      "code" : "3000",
-      "display" : "Personne Morale de Droit Etranger"
+      "filter" : [{
+        "property" : "specialisationRpps",
+        "op" : "=",
+        "value" : "true"
+      }]
     }]
   }
 }

@@ -1,4 +1,4 @@
-# Jdv J411 Niveau Scolaire Ms - Terminologies de Santé v1.9.3
+# Jdv J411 Niveau Scolaire Ms - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -6,11 +6,14 @@
 
 ## ValueSet: Jdv J411 Niveau Scolaire Ms 
 
-| | |
-| :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j411-niveau-scolaire-ms | *Version*:20260601120000 |
-| Draft as of 2026-05-29 | *Computable Name*:JdvJ411NiveauScolaireMs |
-| *Other Identifiers:*OID:1.2.250.1.213.3.4.251 | |
+| | | |
+| :--- | :--- | :--- |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j411-niveau-scolaire-ms | *Version*:20260601120000 | |
+| Draft as of 2026-06-01 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ411NiveauScolaireMs |
+| *Other Identifiers:*OID:1.2.250.1.213.3.4.251 | | |
+
+ 
+Niveau scolaire de l’usager en France. 
 
  **References** 
 
@@ -25,8 +28,6 @@ Requête sur le SMT
 ```
 
 ### Définition logique (CLD)
-
-Aucune définition formelle fournie pour ce jeu de valeurs
 
  
 
@@ -53,6 +54,11 @@ Aucune définition formelle fournie pour ce jeu de valeurs
 {
   "resourceType" : "ValueSet",
   "id" : "jdv-j411-niveau-scolaire-ms",
+  "meta" : {
+    "versionId" : "1",
+    "lastUpdated" : "2026-05-27T15:47:17.197+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -70,112 +76,23 @@ Aucune définition formelle fournie pour ce jeu de valeurs
   "title" : "Jdv J411 Niveau Scolaire Ms",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-29T09:12:29+00:00",
+  "date" : "2026-06-01T12:00:00.000+00:00",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "Niveau scolaire de l'usager en France.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FRA"
     }]
   }],
-  "expansion" : {
-    "identifier" : "urn:uuid:64d85ff1-c34b-4a46-870f-b3b8fdecbeed",
-    "timestamp" : "2026-05-29T11:11:32+02:00",
-    "total" : 16,
-    "parameter" : [{
-      "name" : "used-codesystem",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r414-niveau-scolaire|20260601120000"
-    },
-    {
-      "name" : "version",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r414-niveau-scolaire|20260601120000"
-    },
-    {
-      "name" : "warning-draft",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r414-niveau-scolaire|20260601120000"
-    },
-    {
-      "name" : "warning-draft",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j411-niveau-scolaire-ms|20260601120000"
-    }],
-    "contains" : [{
+  "compose" : {
+    "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r414-niveau-scolaire",
-      "code" : "3e",
-      "display" : "Collège 3ème"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r414-niveau-scolaire",
-      "code" : "4e",
-      "display" : "Collège 4ème"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r414-niveau-scolaire",
-      "code" : "5e",
-      "display" : "Collège 5ème"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r414-niveau-scolaire",
-      "code" : "6e",
-      "display" : "Collège 6ème"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r414-niveau-scolaire",
-      "code" : "CM2",
-      "display" : "Cours moyen deuxième année"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r414-niveau-scolaire",
-      "code" : "CM1",
-      "display" : "Cours moyen première année"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r414-niveau-scolaire",
-      "code" : "CP",
-      "display" : "Cours préparatoire"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r414-niveau-scolaire",
-      "code" : "CE2",
-      "display" : "Cours élémentaire deuxième année"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r414-niveau-scolaire",
-      "code" : "CE1",
-      "display" : "Cours élémentaire première année"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r414-niveau-scolaire",
-      "code" : "ES",
-      "display" : "Enseignement supérieur"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r414-niveau-scolaire",
-      "code" : "PR",
-      "display" : "Lycée première"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r414-niveau-scolaire",
-      "code" : "SE",
-      "display" : "Lycée seconde"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r414-niveau-scolaire",
-      "code" : "TR",
-      "display" : "Lycée terminale"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r414-niveau-scolaire",
-      "code" : "GS",
-      "display" : "Maternelle grande section"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r414-niveau-scolaire",
-      "code" : "MS",
-      "display" : "Maternelle moyenne section"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r414-niveau-scolaire",
-      "code" : "PS",
-      "display" : "Maternelle petite section"
+      "filter" : [{
+        "property" : "status",
+        "op" : "=",
+        "value" : "active"
+      }]
     }]
   }
 }

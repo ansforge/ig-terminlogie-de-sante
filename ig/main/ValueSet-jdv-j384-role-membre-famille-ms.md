@@ -1,4 +1,4 @@
-# Jdv J384 Role Membre Famille Ms - Terminologies de Santé v1.9.3
+# Jdv J384 Role Membre Famille Ms - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -6,11 +6,14 @@
 
 ## ValueSet: Jdv J384 Role Membre Famille Ms 
 
-| | |
-| :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j384-role-membre-famille-ms | *Version*:20260202120000 |
-| Active as of 2026-05-29 | *Computable Name*:JdvJ384RoleMembreFamilleMs |
-| *Other Identifiers:*OID:1.2.250.1.213.3.4.227 | |
+| | | |
+| :--- | :--- | :--- |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j384-role-membre-famille-ms | *Version*:20260202120000 | |
+| Active as of 2026-02-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ384RoleMembreFamilleMs |
+| *Other Identifiers:*OID:1.2.250.1.213.3.4.227 | | |
+
+ 
+Rôle d’un membre de la famille ou d’un proche de l’usager. 
 
  **References** 
 
@@ -25,8 +28,6 @@ Requête sur le SMT
 ```
 
 ### Définition logique (CLD)
-
-Aucune définition formelle fournie pour ce jeu de valeurs
 
  
 
@@ -53,6 +54,11 @@ Aucune définition formelle fournie pour ce jeu de valeurs
 {
   "resourceType" : "ValueSet",
   "id" : "jdv-j384-role-membre-famille-ms",
+  "meta" : {
+    "versionId" : "1",
+    "lastUpdated" : "2026-02-03T10:17:53.493+01:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -70,49 +76,23 @@ Aucune définition formelle fournie pour ce jeu de valeurs
   "title" : "Jdv J384 Role Membre Famille Ms",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-29T09:12:29+00:00",
+  "date" : "2026-02-02T12:00:00.000+00:00",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "Rôle d'un membre de la famille ou d'un proche de l'usager.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FRA"
     }]
   }],
-  "expansion" : {
-    "identifier" : "urn:uuid:a14c9418-4041-4132-8f84-d8b05085c468",
-    "timestamp" : "2026-05-29T11:11:28+02:00",
-    "total" : 5,
-    "parameter" : [{
-      "name" : "used-codesystem",
-      "valueUri" : "https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass|20240426120000"
-    },
-    {
-      "name" : "version",
-      "valueUri" : "https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass|20240426120000"
-    }],
-    "contains" : [{
+  "compose" : {
+    "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass",
-      "code" : "CAREGIVER",
-      "display" : "Aidant"
-    },
-    {
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass",
-      "code" : "CON",
-      "display" : "Informateur"
-    },
-    {
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass",
-      "code" : "NOK",
-      "display" : "personne de confiance"
-    },
-    {
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass",
-      "code" : "ECON",
-      "display" : "personne à prévenir en cas d'urgence"
-    },
-    {
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass",
-      "code" : "GUARD",
-      "display" : "Responsable légal"
+      "filter" : [{
+        "property" : "ms",
+        "op" : "=",
+        "value" : "true"
+      }]
     }]
   }
 }

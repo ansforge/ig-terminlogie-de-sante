@@ -1,4 +1,4 @@
-# Jdv J326 Activite Sociale Regulee Niv3 Finess - Terminologies de Santé v1.9.3
+# Jdv J326 Activite Sociale Regulee Niv3 Finess - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -6,11 +6,14 @@
 
 ## ValueSet: Jdv J326 Activite Sociale Regulee Niv3 Finess 
 
-| | |
-| :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j326-activite-sociale-regulee-niv3-finess | *Version*:20260223120000 |
-| Active as of 2026-05-29 | *Computable Name*:JdvJ326ActiviteSocialeReguleeNiv3Finess |
-| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.334 | |
+| | | |
+| :--- | :--- | :--- |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j326-activite-sociale-regulee-niv3-finess | *Version*:20260223120000 | |
+| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ326ActiviteSocialeReguleeNiv3Finess |
+| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.334 | | |
+
+ 
+Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 3 
 
  **References** 
 
@@ -25,8 +28,6 @@ Requête sur le SMT
 ```
 
 ### Définition logique (CLD)
-
-Aucune définition formelle fournie pour ce jeu de valeurs
 
  
 
@@ -53,6 +54,11 @@ Aucune définition formelle fournie pour ce jeu de valeurs
 {
   "resourceType" : "ValueSet",
   "id" : "jdv-j326-activite-sociale-regulee-niv3-finess",
+  "meta" : {
+    "versionId" : "3",
+    "lastUpdated" : "2026-05-05T19:02:15.402+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+  },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -70,139 +76,28 @@ Aucune définition formelle fournie pour ce jeu de valeurs
   "title" : "Jdv J326 Activite Sociale Regulee Niv3 Finess",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-29T09:12:29+00:00",
+  "date" : "2026-02-23T12:00:00.000+00:00",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 3",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FRA"
     }]
   }],
-  "expansion" : {
-    "identifier" : "urn:uuid:93b4c2a1-ff41-47ab-855b-ea6ff49d9749",
-    "timestamp" : "2026-05-29T11:11:41+02:00",
-    "total" : 23,
-    "parameter" : [{
-      "name" : "used-codesystem",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee|20260330120000"
-    },
-    {
-      "name" : "version",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee|20260330120000"
-    }],
-    "contains" : [{
+  "compose" : {
+    "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-      "code" : "4510",
-      "display" : "Accueil au titre de la protection de l'enfance"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-      "code" : "4330",
-      "display" : "Accueil et accompagnement pour personnes handicapées"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-      "code" : "4940",
-      "display" : "Activité des centres de ressources"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-      "code" : "4930",
-      "display" : "Activité expérimentale dans établissements sociaux"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-      "code" : "4740",
-      "display" : "Education adaptée et accompagnement social et médico-social"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-      "code" : "4720",
-      "display" : "Education spéciale enfance handicapée"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-      "code" : "4810",
-      "display" : "Garde des enfants"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-      "code" : "4620",
-      "display" : "Hébergement des adultes en difficulté"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-      "code" : "4320",
-      "display" : "Hébergement des adultes handicapés"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-      "code" : "4630",
-      "display" : "Hébergement des autres adultes"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-      "code" : "4730",
-      "display" : "Hébergement enfance handicapée"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-      "code" : "4420",
-      "display" : "Hébergement personnes âgées"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-      "code" : "4310",
-      "display" : "Insertion professionnelle et sociale des adultes handicapés"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-      "code" : "4650",
-      "display" : "Mesures de protection des majeurs"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-      "code" : "4520",
-      "display" : "Observation orientation mineurs en difficulté"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-      "code" : "4640",
-      "display" : "Prise en charge des personnes en difficultés spécifiques"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-      "code" : "4920",
-      "display" : "Recherche et administration domaine social"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-      "code" : "4610",
-      "display" : "Réinsertion professionnelle et sociale adultes en difficulté"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-      "code" : "4910",
-      "display" : "Services medico-sociaux à domicile"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-      "code" : "4820",
-      "display" : "Services à la famille"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-      "code" : "4410",
-      "display" : "Soins médico sociaux aux personnes âgées"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-      "code" : "4710",
-      "display" : "Soins médico-sociaux enfance handicapée"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-      "code" : "4530",
-      "display" : "Soutien personnalisé enfants et ado en difficulté sociale"
+      "filter" : [{
+        "property" : "niveau",
+        "op" : "=",
+        "value" : "3"
+      },
+      {
+        "property" : "finess",
+        "op" : "=",
+        "value" : "true"
+      }]
     }]
   }
 }

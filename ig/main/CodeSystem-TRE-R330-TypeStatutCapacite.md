@@ -1,4 +1,4 @@
-# TRE_R330_TypeStatutCapacite - Terminologies de Santé v1.9.3
+# TRE_R330_TypeStatutCapacite - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -18,6 +18,7 @@ Permet de préciser le statut des capacités concernées
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J188_TypeStatutCapacite_ROR](ValueSet-JDV-J188-TypeStatutCapacite-ROR.md)
+* [JdvJ353TypeStatutCapaciteFiness](ValueSet-jdv-j353-type-statut-capacite-finess.md)
 
 
 

@@ -1,4 +1,4 @@
-# TRE_R94_ProfessionSocial - Terminologies de Santé v1.9.3
+# TRE_R94_ProfessionSocial - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -26,6 +26,7 @@ Profession du social
 * [JDV_J54_Profession_ROR](ValueSet-JDV-J54-Profession-ROR.md)
 * [JDV_J56_AuthorSpecialty_DMP](ValueSet-JDV-J56-AuthorSpecialty-DMP.md)
 * [JDV_J65_SubjectRole_DMP](ValueSet-JDV-J65-SubjectRole-DMP.md)
+* [JdvProfessionPersonnelActiviteCisis](ValueSet-jdv-profession-personnel-activite-cisis.md)
 
 
 

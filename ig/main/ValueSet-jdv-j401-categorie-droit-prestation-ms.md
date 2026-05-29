@@ -1,4 +1,4 @@
-# Jdv J401 Categorie Droit Prestation Ms - Terminologies de Santé v1.9.3
+# Jdv J401 Categorie Droit Prestation Ms - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -6,11 +6,14 @@
 
 ## ValueSet: Jdv J401 Categorie Droit Prestation Ms 
 
-| | |
-| :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j401-categorie-droit-prestation-ms | *Version*:20260505120000 |
-| Draft as of 2026-05-29 | *Computable Name*:JdvJ401CategorieDroitPrestationMs |
-| *Other Identifiers:*OID:1.2.250.1.213.3.4.241 | |
+| | | |
+| :--- | :--- | :--- |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j401-categorie-droit-prestation-ms | *Version*:20260505120000 | |
+| Draft as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ401CategorieDroitPrestationMs |
+| *Other Identifiers:*OID:1.2.250.1.213.3.4.241 | | |
+
+ 
+Catégorie de droit et prestation caractérisant la décision d’orientation. 
 
  **References** 
 
@@ -25,8 +28,6 @@ Requête sur le SMT
 ```
 
 ### Définition logique (CLD)
-
-Aucune définition formelle fournie pour ce jeu de valeurs
 
  
 
@@ -53,6 +54,11 @@ Aucune définition formelle fournie pour ce jeu de valeurs
 {
   "resourceType" : "ValueSet",
   "id" : "jdv-j401-categorie-droit-prestation-ms",
+  "meta" : {
+    "versionId" : "1",
+    "lastUpdated" : "2026-05-12T10:17:39.548+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -70,102 +76,23 @@ Aucune définition formelle fournie pour ce jeu de valeurs
   "title" : "Jdv J401 Categorie Droit Prestation Ms",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-29T09:12:29+00:00",
+  "date" : "2026-05-05T12:00:00.000+00:00",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "Catégorie de droit et prestation caractérisant la décision d'orientation.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FRA"
     }]
   }],
-  "expansion" : {
-    "identifier" : "urn:uuid:a9e08fde-beaa-4ad3-9a84-10ed9ae40370",
-    "timestamp" : "2026-05-29T11:10:42+02:00",
-    "total" : 14,
-    "parameter" : [{
-      "name" : "used-codesystem",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation|20260505120000"
-    },
-    {
-      "name" : "version",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation|20260505120000"
-    },
-    {
-      "name" : "warning-draft",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation|20260505120000"
-    },
-    {
-      "name" : "warning-draft",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j401-categorie-droit-prestation-ms|20260505120000"
-    }],
-    "contains" : [{
+  "compose" : {
+    "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation",
-      "code" : "1",
-      "display" : "AAH et CPR"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation",
-      "code" : "10",
-      "display" : "Accompagnant des élèves en situation de handicap (AESH)"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation",
-      "code" : "2",
-      "display" : "ACFP et ACTP"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation",
-      "code" : "6",
-      "display" : "AEEH et son complément"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation",
-      "code" : "3",
-      "display" : "AVA (Assurance vieillesse des aidants)"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation",
-      "code" : "4",
-      "display" : "Carte mobilité inclusion"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation",
-      "code" : "11",
-      "display" : "Formation et insertion professionnelle"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation",
-      "code" : "9",
-      "display" : "Matériel pédagogique adapté"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation",
-      "code" : "13",
-      "display" : "Orientation ESMS Adultes"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation",
-      "code" : "7",
-      "display" : "Orientation ESMS Enfants"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation",
-      "code" : "8",
-      "display" : "Orientation scolaire"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation",
-      "code" : "14",
-      "display" : "Orientation vers un Pôle de compétences et de prestations externalisées (PCPE)"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation",
-      "code" : "5",
-      "display" : "PCH"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation",
-      "code" : "12",
-      "display" : "RQTH (Reconnaissance de la qualité de travailleur handicapé)"
+      "filter" : [{
+        "property" : "niveau",
+        "op" : "=",
+        "value" : "1"
+      }]
     }]
   }
 }

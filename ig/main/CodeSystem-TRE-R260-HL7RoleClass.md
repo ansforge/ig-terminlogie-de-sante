@@ -1,4 +1,4 @@
-# TRE_R260_HL7RoleClass - Terminologies de Santé v1.9.3
+# TRE_R260_HL7RoleClass - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -19,6 +19,7 @@ Rôle de la personne point de contact auprès d’une autre personne repris de l
 
 * [JDV_J141_RoleClass_CISIS](ValueSet-JDV-J141-RoleClass-CISIS.md)
 * [JDV_J265_RoleMembreCercleDeSoins_CISIS](ValueSet-JDV-J265-RoleMembreCercleDeSoins-CISIS.md)
+* [JdvJ384RoleMembreFamilleMs](ValueSet-jdv-j384-role-membre-famille-ms.md)
 
 
 

@@ -1,4 +1,4 @@
-# Jdv J302 Finess Statut Juridique Niv2 Finess - Terminologies de Santé v1.9.3
+# Jdv J302 Finess Statut Juridique Niv2 Finess - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -6,11 +6,14 @@
 
 ## ValueSet: Jdv J302 Finess Statut Juridique Niv2 Finess 
 
-| | |
-| :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j302-finess-statut-juridique-niv2-finess | *Version*:20260223120000 |
-| Active as of 2026-05-29 | *Computable Name*:JdvJ302FinessStatutJuridiqueNiv2Finess |
-| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.310 | |
+| | | |
+| :--- | :--- | :--- |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j302-finess-statut-juridique-niv2-finess | *Version*:20260223120000 | |
+| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ302FinessStatutJuridiqueNiv2Finess |
+| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.310 | | |
+
+ 
+Ce JDV contient les agrégats Niv2 des statuts juridiques (JDV créé à l’image de l’ancienne TRE_R68-FinessAgregatStatutJuridiqueNiv1) 
 
  **References** 
 
@@ -25,8 +28,6 @@ Requête sur le SMT
 ```
 
 ### Définition logique (CLD)
-
-Aucune définition formelle fournie pour ce jeu de valeurs
 
  
 
@@ -53,6 +54,11 @@ Aucune définition formelle fournie pour ce jeu de valeurs
 {
   "resourceType" : "ValueSet",
   "id" : "jdv-j302-finess-statut-juridique-niv2-finess",
+  "meta" : {
+    "versionId" : "3",
+    "lastUpdated" : "2026-05-05T19:02:07.934+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+  },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -70,49 +76,31 @@ Aucune définition formelle fournie pour ce jeu de valeurs
   "title" : "Jdv J302 Finess Statut Juridique Niv2 Finess",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-29T09:12:29+00:00",
+  "date" : "2026-02-23T12:00:00.000+00:00",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "Ce JDV contient les agrégats Niv2 des statuts juridiques (JDV créé à l'image de l'ancienne TRE_R68-FinessAgregatStatutJuridiqueNiv1)",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FRA"
     }]
   }],
-  "expansion" : {
-    "identifier" : "urn:uuid:0ffb53e5-fc03-4390-96b7-81b9299b0c4f",
-    "timestamp" : "2026-05-29T11:10:52+02:00",
-    "total" : 5,
-    "parameter" : [{
-      "name" : "used-codesystem",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique|20260223120000"
-    },
-    {
-      "name" : "version",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique|20260223120000"
+  "compose" : {
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
+      "filter" : [{
+        "property" : "niveau",
+        "op" : "=",
+        "value" : "2"
+      }]
     }],
-    "contains" : [{
+    "exclude" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
-      "code" : "1200",
-      "display" : "Etablissement Public"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
-      "code" : "1100",
-      "display" : "Etat et Collectivités Territoriales"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
-      "code" : "2100",
-      "display" : "Organisme Privé à But non Lucratif"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
-      "code" : "2200",
-      "display" : "Organisme Privé à Caractère Commercial"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
-      "code" : "3100",
-      "display" : "Personne Morale de Droit Etranger"
+      "filter" : [{
+        "property" : "specialisationRpps",
+        "op" : "=",
+        "value" : "true"
+      }]
     }]
   }
 }

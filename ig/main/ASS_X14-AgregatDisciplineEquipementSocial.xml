@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <ValueSet dateFin="" dateMaj="20230127120000" dateValid="20200626120000" description="Association d'agrégats de disciplines d'équipement pour le social" displayName="ASS_X14-AgregatDisciplineEquipementSocial.tabs" id="1.2.250.1.213.1.6.1.198" typeFichier="ASS" urlFichier="https://mos.esante.gouv.fr/NOS/ASS_X14-AgregatDisciplineEquipementSocial">
+    <ValueSet dateFin="" dateMaj="20260601120000" dateValid="20200626120000" description="Association d'agrégats de disciplines d'équipement pour le social" displayName="ASS_X14-AgregatDisciplineEquipementSocial.tabs" id="1.2.250.1.213.1.6.1.198" typeFichier="ASS" urlFichier="https://mos.esante.gouv.fr/NOS/ASS_X14-AgregatDisciplineEquipementSocial">
         <MappedConceptList>
             <MappedConcept>
                 <Concept code="4000" codeSystem="1.2.250.1.213.1.6.1.202"/>
@@ -61,6 +61,12 @@
                 <Concept code="4300" codeSystem="1.2.250.1.213.1.6.1.203"/>
                 <Concept code="4320" codeSystem="1.2.250.1.213.1.6.1.204"/>
                 <Concept code="569" codeSystem="1.2.250.1.213.1.6.1.133"/>
+            </MappedConcept>
+            <MappedConcept>
+                <Concept code="4000" codeSystem="1.2.250.1.213.1.6.1.202"/>
+                <Concept code="4300" codeSystem="1.2.250.1.213.1.6.1.203"/>
+                <Concept code="4320" codeSystem="1.2.250.1.213.1.6.1.204"/>
+                <Concept code="570" codeSystem="1.2.250.1.213.1.6.1.133"/>
             </MappedConcept>
             <MappedConcept>
                 <Concept code="4000" codeSystem="1.2.250.1.213.1.6.1.202"/>

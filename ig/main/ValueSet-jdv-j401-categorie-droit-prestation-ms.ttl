@@ -9,10 +9,18 @@
 <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j401-categorie-droit-prestation-ms> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "jdv-j401-categorie-droit-prestation-ms"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "1" ] ;
+     fhir:lastUpdated [ fhir:v "2026-05-12T10:17:39.548+02:00"^^xsd:dateTime ] ;
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+     ] )
+  ] ; # 
   fhir:language [ fhir:v "fr-FR"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j401-categorie-droit-prestation-ms</b></p><a name=\"jdv-j401-categorie-droit-prestation-ms\"> </a><a name=\"hcjdv-j401-categorie-droit-prestation-ms\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Langue : fr-FR</p></div><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion basée sur <a href=\"CodeSystem-tre-r420-droit-prestation.html\">codesystem Tre R420 Droit Prestation v20260505120000 (CodeSystem)</a></p><p>Ce jeu de valeur (ValueSet) contient 14 concepts</p><table class=\"codes\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage (fr-FR)</b></td><td><b>Définition</b></td></tr><tr><td><a name=\"jdv-j401-categorie-droit-prestation-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation-1\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r420-droit-prestation.html#tre-r420-droit-prestation-1\">1</a></td><td>AAH et CPR</td><td>Une allocation aux adultes handicapés (AAH) ou un complément de ressources (CPR) associé à l'AAH</td></tr><tr><td><a name=\"jdv-j401-categorie-droit-prestation-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation-10\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r420-droit-prestation.html#tre-r420-droit-prestation-10\">10</a></td><td>Accompagnant des élèves en situation de handicap (AESH)</td><td/></tr><tr><td><a name=\"jdv-j401-categorie-droit-prestation-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation-2\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r420-droit-prestation.html#tre-r420-droit-prestation-2\">2</a></td><td>ACFP et ACTP</td><td>Une allocation compensatrice pour frais professionnels (ACFP) ou pour tierce personne (ACTP)</td></tr><tr><td><a name=\"jdv-j401-categorie-droit-prestation-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation-6\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r420-droit-prestation.html#tre-r420-droit-prestation-6\">6</a></td><td>AEEH et son complément</td><td>Une allocation d'éducation de l'enfant handicapé (AEEH) et son complément</td></tr><tr><td><a name=\"jdv-j401-categorie-droit-prestation-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation-3\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r420-droit-prestation.html#tre-r420-droit-prestation-3\">3</a></td><td>AVA (Assurance vieillesse des aidants)</td><td>Une affiliation gratuite à l'assurance vieillesse des aidants (AVA)</td></tr><tr><td><a name=\"jdv-j401-categorie-droit-prestation-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation-4\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r420-droit-prestation.html#tre-r420-droit-prestation-4\">4</a></td><td>Carte mobilité inclusion</td><td>Une carte mobilité inclusion (CMI)</td></tr><tr><td><a name=\"jdv-j401-categorie-droit-prestation-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation-11\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r420-droit-prestation.html#tre-r420-droit-prestation-11\">11</a></td><td>Formation et insertion professionnelle</td><td>Une formation ou une insertion professionnelle</td></tr><tr><td><a name=\"jdv-j401-categorie-droit-prestation-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation-9\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r420-droit-prestation.html#tre-r420-droit-prestation-9\">9</a></td><td>Matériel pédagogique adapté</td><td/></tr><tr><td><a name=\"jdv-j401-categorie-droit-prestation-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation-13\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r420-droit-prestation.html#tre-r420-droit-prestation-13\">13</a></td><td>Orientation ESMS Adultes</td><td>Une orientation vers un établissement ou service médico-social Adultes</td></tr><tr><td><a name=\"jdv-j401-categorie-droit-prestation-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation-7\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r420-droit-prestation.html#tre-r420-droit-prestation-7\">7</a></td><td>Orientation ESMS Enfants</td><td>Une orientation vers un établissement ou service médico-social Enfants</td></tr><tr><td><a name=\"jdv-j401-categorie-droit-prestation-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation-8\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r420-droit-prestation.html#tre-r420-droit-prestation-8\">8</a></td><td>Orientation scolaire</td><td>Une orientation scolaire</td></tr><tr><td><a name=\"jdv-j401-categorie-droit-prestation-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation-14\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r420-droit-prestation.html#tre-r420-droit-prestation-14\">14</a></td><td>Orientation vers un Pôle de compétences et de prestations externalisées (PCPE)</td><td/></tr><tr><td><a name=\"jdv-j401-categorie-droit-prestation-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation-5\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r420-droit-prestation.html#tre-r420-droit-prestation-5\">5</a></td><td>PCH</td><td>Une prestation de compensation du handicap (PCH)</td></tr><tr><td><a name=\"jdv-j401-categorie-droit-prestation-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation-12\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r420-droit-prestation.html#tre-r420-droit-prestation-12\">12</a></td><td>RQTH (Reconnaissance de la qualité de travailleur handicapé)</td><td/></tr></table></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j401-categorie-droit-prestation-ms</b></p><a name=\"jdv-j401-categorie-droit-prestation-ms\"> </a><a name=\"hcjdv-j401-categorie-droit-prestation-ms\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 1; Dernière mise à jour : 2026-05-12 10:17:39+0200; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include codes provenant de<a href=\"CodeSystem-tre-r420-droit-prestation.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation</code></a><span title=\"La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\"> version ?20260505120000</span> où niveau  = <a href=\"CodeSystem-tre-r420-droit-prestation.html#tre-r420-droit-prestation-1\">1</a></li></ul></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
      fhir:url [
@@ -40,7 +48,9 @@
   fhir:title [ fhir:v "Jdv J401 Categorie Droit Prestation Ms"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-05-29T09:12:29+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-05-05T12:00:00.000+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
+  fhir:description [ fhir:v "Catégorie de droit et prestation caractérisant la décision d'orientation."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [
@@ -50,140 +60,17 @@
        fhir:code [ fhir:v "FRA" ]
      ] )
   ] ) ; # 
-  fhir:expansion [
-     fhir:identifier [
-       fhir:v "urn:uuid:a9e08fde-beaa-4ad3-9a84-10ed9ae40370"^^xsd:anyURI ;
-       fhir:l <urn:uuid:a9e08fde-beaa-4ad3-9a84-10ed9ae40370>
-     ] ;
-     fhir:timestamp [ fhir:v "2026-05-29T11:10:42+02:00"^^xsd:dateTime ] ;
-     fhir:total [ fhir:v 14 ] ;
-     fhir:parameter ( [
-       fhir:name [ fhir:v "used-codesystem" ] ;
-       fhir:value [
-         a fhir:Uri ;
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation|20260505120000"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation?version=20260505120000>
-       ]
-     ] [
-       fhir:name [ fhir:v "version" ] ;
-       fhir:value [
-         a fhir:Uri ;
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation|20260505120000"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation?version=20260505120000>
-       ]
-     ] [
-       fhir:name [ fhir:v "warning-draft" ] ;
-       fhir:value [
-         a fhir:Uri ;
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation|20260505120000"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation?version=20260505120000>
-       ]
-     ] [
-       fhir:name [ fhir:v "warning-draft" ] ;
-       fhir:value [
-         a fhir:Uri ;
-         fhir:v "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j401-categorie-droit-prestation-ms|20260505120000"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j401-categorie-droit-prestation-ms?version=20260505120000>
-       ]
-     ] ) ;
-     fhir:contains ( [
+  fhir:compose [
+     fhir:include ( [
        fhir:system [
          fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation"^^xsd:anyURI ;
          fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation>
        ] ;
-       fhir:code [ fhir:v "1" ] ;
-       fhir:display [ fhir:v "AAH et CPR" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation>
-       ] ;
-       fhir:code [ fhir:v "10" ] ;
-       fhir:display [ fhir:v "Accompagnant des élèves en situation de handicap (AESH)" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation>
-       ] ;
-       fhir:code [ fhir:v "2" ] ;
-       fhir:display [ fhir:v "ACFP et ACTP" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation>
-       ] ;
-       fhir:code [ fhir:v "6" ] ;
-       fhir:display [ fhir:v "AEEH et son complément" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation>
-       ] ;
-       fhir:code [ fhir:v "3" ] ;
-       fhir:display [ fhir:v "AVA (Assurance vieillesse des aidants)" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation>
-       ] ;
-       fhir:code [ fhir:v "4" ] ;
-       fhir:display [ fhir:v "Carte mobilité inclusion" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation>
-       ] ;
-       fhir:code [ fhir:v "11" ] ;
-       fhir:display [ fhir:v "Formation et insertion professionnelle" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation>
-       ] ;
-       fhir:code [ fhir:v "9" ] ;
-       fhir:display [ fhir:v "Matériel pédagogique adapté" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation>
-       ] ;
-       fhir:code [ fhir:v "13" ] ;
-       fhir:display [ fhir:v "Orientation ESMS Adultes" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation>
-       ] ;
-       fhir:code [ fhir:v "7" ] ;
-       fhir:display [ fhir:v "Orientation ESMS Enfants" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation>
-       ] ;
-       fhir:code [ fhir:v "8" ] ;
-       fhir:display [ fhir:v "Orientation scolaire" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation>
-       ] ;
-       fhir:code [ fhir:v "14" ] ;
-       fhir:display [ fhir:v "Orientation vers un Pôle de compétences et de prestations externalisées (PCPE)" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation>
-       ] ;
-       fhir:code [ fhir:v "5" ] ;
-       fhir:display [ fhir:v "PCH" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation>
-       ] ;
-       fhir:code [ fhir:v "12" ] ;
-       fhir:display [ fhir:v "RQTH (Reconnaissance de la qualité de travailleur handicapé)" ]
+       fhir:filter ( [
+         fhir:property [ fhir:v "niveau" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "1" ]
+       ] )
      ] )
   ] . # 
 

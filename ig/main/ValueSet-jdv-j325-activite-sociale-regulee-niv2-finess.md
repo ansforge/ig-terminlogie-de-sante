@@ -1,4 +1,4 @@
-# Jdv J325 Activite Sociale Regulee Niv2 Finess - Terminologies de Santé v1.9.3
+# Jdv J325 Activite Sociale Regulee Niv2 Finess - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -6,11 +6,14 @@
 
 ## ValueSet: Jdv J325 Activite Sociale Regulee Niv2 Finess 
 
-| | |
-| :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j325-activite-sociale-regulee-niv2-finess | *Version*:20260223120000 |
-| Active as of 2026-05-29 | *Computable Name*:JdvJ325ActiviteSocialeReguleeNiv2Finess |
-| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.333 | |
+| | | |
+| :--- | :--- | :--- |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j325-activite-sociale-regulee-niv2-finess | *Version*:20260223120000 | |
+| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ325ActiviteSocialeReguleeNiv2Finess |
+| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.333 | | |
+
+ 
+Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 2 
 
  **References** 
 
@@ -25,8 +28,6 @@ Requête sur le SMT
 ```
 
 ### Définition logique (CLD)
-
-Aucune définition formelle fournie pour ce jeu de valeurs
 
  
 
@@ -53,6 +54,11 @@ Aucune définition formelle fournie pour ce jeu de valeurs
 {
   "resourceType" : "ValueSet",
   "id" : "jdv-j325-activite-sociale-regulee-niv2-finess",
+  "meta" : {
+    "versionId" : "3",
+    "lastUpdated" : "2026-05-05T19:02:14.980+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+  },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -70,59 +76,28 @@ Aucune définition formelle fournie pour ce jeu de valeurs
   "title" : "Jdv J325 Activite Sociale Regulee Niv2 Finess",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-29T09:12:29+00:00",
+  "date" : "2026-02-23T12:00:00.000+00:00",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 2",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FRA"
     }]
   }],
-  "expansion" : {
-    "identifier" : "urn:uuid:24af2f9b-cf6b-402a-b9f6-24aa355a885a",
-    "timestamp" : "2026-05-29T11:11:22+02:00",
-    "total" : 7,
-    "parameter" : [{
-      "name" : "used-codesystem",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee|20260330120000"
-    },
-    {
-      "name" : "version",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee|20260330120000"
-    }],
-    "contains" : [{
+  "compose" : {
+    "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-      "code" : "4600",
-      "display" : "Action sociale autres adultes"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-      "code" : "4300",
-      "display" : "Adultes handicapés"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-      "code" : "4800",
-      "display" : "Aide à la famille"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-      "code" : "4900",
-      "display" : "Autres services du domaine social"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-      "code" : "4700",
-      "display" : "Enfance handicapée"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-      "code" : "4400",
-      "display" : "Personnes âgées"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-      "code" : "4500",
-      "display" : "Protection de l'enfance"
+      "filter" : [{
+        "property" : "niveau",
+        "op" : "=",
+        "value" : "2"
+      },
+      {
+        "property" : "finess",
+        "op" : "=",
+        "value" : "true"
+      }]
     }]
   }
 }

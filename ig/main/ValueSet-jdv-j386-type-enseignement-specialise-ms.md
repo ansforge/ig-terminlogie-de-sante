@@ -1,4 +1,4 @@
-# Jdv J386 Type Enseignement Specialise Ms - Terminologies de Santé v1.9.3
+# Jdv J386 Type Enseignement Specialise Ms - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -6,11 +6,14 @@
 
 ## ValueSet: Jdv J386 Type Enseignement Specialise Ms 
 
-| | |
-| :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j386-type-enseignement-specialise-ms | *Version*:20260202120000 |
-| Active as of 2026-05-29 | *Computable Name*:JdvJ386TypeEnseignementSpecialiseMs |
-| *Other Identifiers:*OID:1.2.250.1.213.3.4.229 | |
+| | | |
+| :--- | :--- | :--- |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j386-type-enseignement-specialise-ms | *Version*:20260202120000 | |
+| Active as of 2026-02-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ386TypeEnseignementSpecialiseMs |
+| *Other Identifiers:*OID:1.2.250.1.213.3.4.229 | | |
+
+ 
+Type d’enseignement spécialisé. 
 
  **References** 
 
@@ -25,8 +28,6 @@ Requête sur le SMT
 ```
 
 ### Définition logique (CLD)
-
-Aucune définition formelle fournie pour ce jeu de valeurs
 
  
 
@@ -53,6 +54,11 @@ Aucune définition formelle fournie pour ce jeu de valeurs
 {
   "resourceType" : "ValueSet",
   "id" : "jdv-j386-type-enseignement-specialise-ms",
+  "meta" : {
+    "versionId" : "1",
+    "lastUpdated" : "2026-02-03T10:17:54.692+01:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -70,109 +76,23 @@ Aucune définition formelle fournie pour ce jeu de valeurs
   "title" : "Jdv J386 Type Enseignement Specialise Ms",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-29T09:12:29+00:00",
+  "date" : "2026-02-02T12:00:00.000+00:00",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "Type d'enseignement spécialisé.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FRA"
     }]
   }],
-  "expansion" : {
-    "identifier" : "urn:uuid:62219115-5b77-4105-a587-daf682b48c5d",
-    "timestamp" : "2026-05-29T11:11:45+02:00",
-    "total" : 17,
-    "parameter" : [{
-      "name" : "used-codesystem",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise|20260202120000"
-    },
-    {
-      "name" : "version",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise|20260202120000"
-    }],
-    "contains" : [{
+  "compose" : {
+    "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise",
-      "code" : "16",
-      "display" : "Enseignement par le CNED"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise",
-      "code" : "15",
-      "display" : "Enseignement à domicile avec un SAPAD"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise",
-      "code" : "1",
-      "display" : "Enseignement à domicile par les services d’éducation et de soins à domicile (SESSAD)"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise",
-      "code" : "17",
-      "display" : "Formation en CFA"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise",
-      "code" : "14",
-      "display" : "Scolarisation dans un pôle d'enseignement des jeunes sourds (PEJS)"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise",
-      "code" : "5",
-      "display" : "Scolarisation en CLIS1 et ULIS pour troubles importants des fonctions cognitives (TFC) dont les troubles envahissant du développement (TED) et les troubles spécifiques du langage (TSL)"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise",
-      "code" : "6",
-      "display" : "Scolarisation en CLIS2 et ULIS pour handicap auditif (TFA)"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise",
-      "code" : "7",
-      "display" : "Scolarisation en CLIS3 et ULIS pour handicap visuel (TFV)"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise",
-      "code" : "8",
-      "display" : "Scolarisation en CLIS4 et ULIS pour handicap moteur (TFM) dont les troubles praxiques (tous les dys)"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise",
-      "code" : "10",
-      "display" : "Scolarisation en EREA (établissements régionaux d’enseignement adapté)"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise",
-      "code" : "12",
-      "display" : "Scolarisation en IEM (instituts d’éducation motrice)"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise",
-      "code" : "11",
-      "display" : "Scolarisation en IME (instituts médico-éducatif)"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise",
-      "code" : "13",
-      "display" : "Scolarisation en ITEP (instituts thérapeutiques, éducatifs et pédagogiques)"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise",
-      "code" : "9",
-      "display" : "Scolarisation en SEGPA (sections d’enseignement général et professionnel adapté)"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise",
-      "code" : "3",
-      "display" : "Scolarisation en ULIS collège"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise",
-      "code" : "4",
-      "display" : "Scolarisation en ULIS lycée"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise",
-      "code" : "2",
-      "display" : "Scolarisation en ULIS école"
+      "filter" : [{
+        "property" : "status",
+        "op" : "=",
+        "value" : "active"
+      }]
     }]
   }
 }

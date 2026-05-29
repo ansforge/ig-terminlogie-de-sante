@@ -1,4 +1,4 @@
-# Jdv J374 Autorite - Terminologies de Santé v1.9.3
+# Jdv J374 Autorite - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -6,11 +6,14 @@
 
 ## ValueSet: Jdv J374 Autorite 
 
-| | |
-| :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j374-autorite | *Version*:20260330120000 |
-| Active as of 2026-05-29 | *Computable Name*:JdvJ374Autorite |
-| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.388 | |
+| | | |
+| :--- | :--- | :--- |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j374-autorite | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ374Autorite |
+| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.388 | | |
+
+ 
+Jeu de valeurs contenant la liste des autorités quelque soit la catégorie d’autorité et quelque soir l’état de l’autorité active ou inactive) 
 
  **References** 
 
@@ -25,8 +28,6 @@ Requête sur le SMT
 ```
 
 ### Définition logique (CLD)
-
-Aucune définition formelle fournie pour ce jeu de valeurs
 
  
 
@@ -53,6 +54,11 @@ Aucune définition formelle fournie pour ce jeu de valeurs
 {
   "resourceType" : "ValueSet",
   "id" : "jdv-j374-autorite",
+  "meta" : {
+    "versionId" : "2",
+    "lastUpdated" : "2026-05-05T19:02:21+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -70,385 +76,23 @@ Aucune définition formelle fournie pour ce jeu de valeurs
   "title" : "Jdv J374 Autorite",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-29T09:12:29+00:00",
+  "date" : "2026-03-30T12:00:00+01:00",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "Jeu de valeurs contenant la liste des autorités quelque soit la catégorie d'autorité et quelque soir l'état de l'autorité active ou inactive)",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FRA"
     }]
   }],
-  "expansion" : {
-    "identifier" : "urn:uuid:9352d3a0-97fc-479e-bfb9-1dcc6715390c",
-    "timestamp" : "2026-05-29T11:10:28+02:00",
-    "total" : 45,
-    "parameter" : [{
-      "name" : "used-codesystem",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite|20260330120000"
-    },
-    {
-      "name" : "version",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite|20260330120000"
-    }],
-    "contains" : [{
+  "compose" : {
+    "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "code" : "ARS-01",
-      "display" : "ARS-01 : Guadeloupe"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "code" : "ARS-02",
-      "display" : "ARS-02 : Martinique"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "code" : "ARS-03",
-      "display" : "ARS-03 : Guyane"
-    },
-    {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "inactive" : true,
-      "code" : "ARS-04",
-      "display" : "ARS-04 : Océan Indien (La Réunion et Mayotte)"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "code" : "ARS-05",
-      "display" : "ARS-05 : La Réunion"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "code" : "ARS-06",
-      "display" : "ARS-06 : Mayotte"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "code" : "ARS-11",
-      "display" : "ARS-11 : Ile-de-France"
-    },
-    {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "inactive" : true,
-      "code" : "ARS-21",
-      "display" : "ARS-21 : Champagne-Ardenne"
-    },
-    {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "inactive" : true,
-      "code" : "ARS-22",
-      "display" : "ARS-22 : Picardie"
-    },
-    {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "inactive" : true,
-      "code" : "ARS-23",
-      "display" : "ARS-23 : Haute-Normandie"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "code" : "ARS-24",
-      "display" : "ARS-24 : Centre-Val de Loire"
-    },
-    {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "inactive" : true,
-      "code" : "ARS-25",
-      "display" : "ARS-25 : Basse-Normandie"
-    },
-    {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "inactive" : true,
-      "code" : "ARS-26",
-      "display" : "ARS-26 : Bourgogne"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "code" : "ARS-27",
-      "display" : "ARS-27 : Bourgogne-Franche-Comté"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "code" : "ARS-28",
-      "display" : "ARS-28 : Normandie"
-    },
-    {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "inactive" : true,
-      "code" : "ARS-31",
-      "display" : "ARS-31 : Nord-Pas-de-Calais"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "code" : "ARS-32",
-      "display" : "ARS-32 : Hauts-de-France"
-    },
-    {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "inactive" : true,
-      "code" : "ARS-41",
-      "display" : "ARS-41 : Lorraine"
-    },
-    {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "inactive" : true,
-      "code" : "ARS-42",
-      "display" : "ARS-42 : Alsace"
-    },
-    {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "inactive" : true,
-      "code" : "ARS-43",
-      "display" : "ARS-43 : Franche-Comté"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "code" : "ARS-44",
-      "display" : "ARS-44 : Grand Est"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "code" : "ARS-52",
-      "display" : "ARS-52 : Pays de la Loire"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "code" : "ARS-53",
-      "display" : "ARS-53 : Bretagne"
-    },
-    {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "inactive" : true,
-      "code" : "ARS-54",
-      "display" : "ARS-54 : Poitou-Charentes"
-    },
-    {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "inactive" : true,
-      "code" : "ARS-72",
-      "display" : "ARS-72 : Aquitaine"
-    },
-    {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "inactive" : true,
-      "code" : "ARS-73",
-      "display" : "ARS-73 : Midi-Pyrénées"
-    },
-    {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "inactive" : true,
-      "code" : "ARS-74",
-      "display" : "ARS-74 : Limousin"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "code" : "ARS-75",
-      "display" : "ARS-75 : Nouvelle-Aquitaine"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "code" : "ARS-76",
-      "display" : "ARS-76 : Occitanie"
-    },
-    {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "inactive" : true,
-      "code" : "ARS-82",
-      "display" : "ARS-82 : Rhône-Alpes"
-    },
-    {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "inactive" : true,
-      "code" : "ARS-83",
-      "display" : "ARS-83 : Auvergne"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "code" : "ARS-84",
-      "display" : "ARS-84 : Auvergne-Rhône-Alpes"
-    },
-    {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "inactive" : true,
-      "code" : "ARS-91",
-      "display" : "ARS-91 : Languedoc-Roussillon"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "code" : "ARS-93",
-      "display" : "ARS-93 : Provence-Alpes-Côte d'Azur"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "code" : "ARS-94",
-      "display" : "ARS-94 : Corse"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "code" : "AT-975",
-      "display" : "AT-975 : ATS de Saint-Pierre-Et-Miquelon"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "code" : "ENREG",
-      "display" : "Enregistrement par les AE locales (Structures)"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "code" : "ONCD",
-      "display" : "Ordre des chirurgiens-dentistes"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "code" : "ONI",
-      "display" : "Ordre des infirmiers"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "code" : "CNOMK",
-      "display" : "Ordre des masseurs-kinésithérapeutes"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "code" : "CNOM",
-      "display" : "Ordre des médecins"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "code" : "CNOP",
-      "display" : "Ordre des pharmaciens"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "code" : "CNOPP",
-      "display" : "Ordre des pédicures-podologues"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "code" : "CNOSF",
-      "display" : "Ordre des sages-femmes"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "code" : "SSA",
-      "display" : "Service de santé des armées"
+      "filter" : [{
+        "property" : "niveau",
+        "op" : "=",
+        "value" : "2"
+      }]
     }]
   }
 }

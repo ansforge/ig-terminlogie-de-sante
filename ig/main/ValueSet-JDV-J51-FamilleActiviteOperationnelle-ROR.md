@@ -1,4 +1,4 @@
-# JDV_J51_FamilleActiviteOperationnelle_ROR - Terminologies de Santé v1.9.3
+# JDV_J51_FamilleActiviteOperationnelle_ROR - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -61,6 +61,7 @@ No Expansion for this valueset (Unknown Code System)
     "lastUpdated" : "2024-04-27T05:07:50.820+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
+  "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {

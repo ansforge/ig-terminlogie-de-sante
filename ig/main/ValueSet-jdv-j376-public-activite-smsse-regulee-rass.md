@@ -1,4 +1,4 @@
-# Jdv J376 Public Activite Smsse Regulee Rass - Terminologies de Santé v1.9.3
+# Jdv J376 Public Activite Smsse Regulee Rass - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -6,11 +6,14 @@
 
 ## ValueSet: Jdv J376 Public Activite Smsse Regulee Rass 
 
-| | |
-| :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j376-public-activite-smsse-regulee-rass | *Version*:20260223120000 |
-| Active as of 2026-05-29 | *Computable Name*:JdvJ376PublicActiviteSmsseReguleeRass |
-| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.390 | |
+| | | |
+| :--- | :--- | :--- |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j376-public-activite-smsse-regulee-rass | *Version*:20260223120000 | |
+| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ376PublicActiviteSmsseReguleeRass |
+| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.390 | | |
+
+ 
+Ce JDV remplace le JDV_J137_Clientele_RASS 
 
  **References** 
 
@@ -25,8 +28,6 @@ Requête sur le SMT
 ```
 
 ### Définition logique (CLD)
-
-Aucune définition formelle fournie pour ce jeu de valeurs
 
  
 
@@ -53,6 +54,11 @@ Aucune définition formelle fournie pour ce jeu de valeurs
 {
   "resourceType" : "ValueSet",
   "id" : "jdv-j376-public-activite-smsse-regulee-rass",
+  "meta" : {
+    "versionId" : "3",
+    "lastUpdated" : "2026-05-05T19:02:22.540+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+  },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -70,429 +76,28 @@ Aucune définition formelle fournie pour ce jeu de valeurs
   "title" : "Jdv J376 Public Activite Smsse Regulee Rass",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-29T09:12:29+00:00",
+  "date" : "2026-02-23T18:02:28.249+00:00",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "Ce JDV remplace le JDV_J137_Clientele_RASS",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FRA"
     }]
   }],
-  "expansion" : {
-    "identifier" : "urn:uuid:8703ddb5-6742-4ac9-8a8c-627918286a78",
-    "timestamp" : "2026-05-29T11:11:07+02:00",
-    "total" : 81,
-    "parameter" : [{
-      "name" : "used-codesystem",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee|20260223120000"
-    },
-    {
-      "name" : "version",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee|20260223120000"
-    }],
-    "contains" : [{
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "828",
-      "display" : "Accompagnants (ou aidants)"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "802",
-      "display" : "Adolescents ASE (7-17 ans)"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "441",
-      "display" : "Adultes autistes relevant des cas complexes"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "861",
-      "display" : "Adultes avec difficultés budgétaires"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "810",
-      "display" : "Adultes en Difficulté d'Insertion Sociale (SAI)"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "431",
-      "display" : "Affection Cardiaque"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "433",
-      "display" : "Affection Respiratoire"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "041",
-      "display" : "Aidants / aidés Maladies chroniques invalidantes"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "040",
-      "display" : "Aidants / aidés Personnes âgées"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "042",
-      "display" : "Aidants / aidés Tous types de handicap"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "043",
-      "display" : "Aidants / aidés Troubles du spectre de l'autisme"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "819",
-      "display" : "Autres Adultes en difficulté d'Insertion Sociale"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "809",
-      "display" : "Autres Enfants, Adolescents"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "438",
-      "display" : "Cérébro lésés"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "432",
-      "display" : "Diabète"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "200",
-      "display" : "Difficultés psychologiques avec troubles du comportement"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "318",
-      "display" : "Déficience auditive grave"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "117",
-      "display" : "Déficience intellectuelle"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "201",
-      "display" : "Déficience Intermittente de la Conscience ycompris épilepsie"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "414",
-      "display" : "Déficience Motrice"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "324",
-      "display" : "Déficience visuelle grave"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "801",
-      "display" : "Enfants ASE (0-6 ans)"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "808",
-      "display" : "Enfants d'Age Préscolaire"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "807",
-      "display" : "Enfants et Adolescents avec difficultés sociales"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "800",
-      "display" : "Enfants, adolescents et jeunes majeurs ASE"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "804",
-      "display" : "Enfants, adolescents et jeunes majeurs PJJ"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "620",
-      "display" : "Epilepsie"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "829",
-      "display" : "Familles en difficulté et-ou femmes isolées"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "821",
-      "display" : "Familles en Difficulté ou sans Logement"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "823",
-      "display" : "Familles Nomades"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "812",
-      "display" : "Femmes Seules en Difficulté"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "831",
-      "display" : "Femmes Victimes de Violence"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "207",
-      "display" : "Handicap cognitif spécifique"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "206",
-      "display" : "Handicap psychique"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "011",
-      "display" : "Handicap rare"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "820",
-      "display" : "Hommes seuls en difficulté"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "434",
-      "display" : "Hémophilie"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "818",
-      "display" : "Inculpés sous Contrôle judiciaire et Condamnés Libres"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "435",
-      "display" : "Insuffisance Rénale"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "811",
-      "display" : "Jeunes Adultes en Difficulté"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "805",
-      "display" : "Jeunes et familles en risque d'inadaptation sociale"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "803",
-      "display" : "Jeunes Majeurs ASE (18-21 ans)"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "826",
-      "display" : "Jeunes Travailleurs"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "860",
-      "display" : "Majeurs Protégés"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "440",
-      "display" : "MND autres que Maladie Alzheimer et Maladies Apparentées"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "835",
-      "display" : "Parents en difficulté avec enfant"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "834",
-      "display" : "Patients et accompagnants (ou aidants)"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "833",
-      "display" : "Pers.agée, Pers.handicapée, Etudiant, Jeune travailleur"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "700",
-      "display" : "Personnes Agées (Sans Autre Indication)"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "701",
-      "display" : "Personnes Agées Autonomes"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "711",
-      "display" : "Personnes Agées dépendantes"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "436",
-      "display" : "Personnes Alzheimer ou maladies apparentées"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "832",
-      "display" : "Personnes avec Problèmes Psychiques"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "814",
-      "display" : "Personnes consommant des substances psychoactives illicites"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "852",
-      "display" : "Personnes en demande sevrage tabagique ou diminution tabac"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "813",
-      "display" : "Personnes en difficulté avec l'alcool"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "830",
-      "display" : "Personnes et Familles Demandeurs d'Asile"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "822",
-      "display" : "Personnes et Familles Rapatriées"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "827",
-      "display" : "Personnes et Familles Réfugiées"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "702",
-      "display" : "Personnes Handicapées vieillissantes"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "851",
-      "display" : "Personnes mésusant de médicaments"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "430",
-      "display" : "Personnes nécessitant prise en charge psycho soc et san SAI"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "840",
-      "display" : "Personnes sans Domicile"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "806",
-      "display" : "Personnes se présentant comme MNA en attente d'évaluation"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "824",
-      "display" : "Personnes seules en Difficulté avec Enfant"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "853",
-      "display" : "Personnes souffrant d'addictions (Sans Autre Indication)"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "850",
-      "display" : "Personnes souffrant d'addictions sans substances"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "836",
-      "display" : "Personnes victimes de la Traite des Etres Humains (T.E.H.)"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "500",
-      "display" : "Polyhandicap"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "816",
-      "display" : "Prostituées avec ou sans Enfant"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "815",
-      "display" : "Sortants d'Etablissement Hospitalier ou médico-social yc psy"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "511",
-      "display" : "Surdi-Cécité avec ou sans troubles associés"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "899",
-      "display" : "Tous publics en difficulté"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "010",
-      "display" : "Tous Types de Déficiences Pers.Handicap.(sans autre indic.)"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "990",
-      "display" : "Toute Population"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "825",
-      "display" : "Travailleurs Migrants"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "442",
-      "display" : "Troubles du neurodéveloppement"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "437",
-      "display" : "Troubles du spectre de l'autisme"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "862",
-      "display" : "Tuteurs Familiaux"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "817",
-      "display" : "Vagabonds et ex-Détenus"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-      "code" : "439",
-      "display" : "VIH VHC"
+  "compose" : {
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+      "filter" : [{
+        "property" : "niveau",
+        "op" : "=",
+        "value" : "3"
+      },
+      {
+        "property" : "status",
+        "op" : "=",
+        "value" : "active"
+      }]
     }]
   }
 }

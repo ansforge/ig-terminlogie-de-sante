@@ -1,4 +1,4 @@
-# Tre R421 Motif Fin Pag - Terminologies de Santé v1.9.3
+# Tre R421 Motif Fin Pag - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -17,7 +17,7 @@ Lorsque le plan d’accompagnement global (PAG) arrive à échéance ou si le co
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* Cette terminologie de référence (CodeSystem) n'est pas utilisée ici; elle peut être utilisée ailleurs (par exemple spécifications et/ou implémentations qui utilisent ce contenu)
+* [JdvJ403MotifFinPagMs](ValueSet-jdv-j403-motif-fin-pag-ms.md)
 
 
 

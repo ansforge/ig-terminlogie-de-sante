@@ -1,4 +1,4 @@
-# TRE_R241_AideFinanciere - Terminologies de Santé v1.9.3
+# TRE_R241_AideFinanciere - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -18,6 +18,7 @@ Habilit. de l’EG permettant aux pers. accueillies d’avoir des aides financi�
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J31_AideFinanciere_ROR](ValueSet-JDV-J31-AideFinanciere-ROR.md)
+* [JdvJ354HabilitationFiness](ValueSet-jdv-j354-habilitation-finess.md)
 
 
 

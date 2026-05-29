@@ -1,4 +1,4 @@
-# Jdv J375 Autorite Ordre - Terminologies de Santé v1.9.3
+# Jdv J375 Autorite Ordre - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -6,11 +6,14 @@
 
 ## ValueSet: Jdv J375 Autorite Ordre 
 
-| | |
-| :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j375-ordre | *Version*:20260330120000 |
-| Active as of 2026-05-29 | *Computable Name*:JdvJ375AutoriteOrdre |
-| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.389 | |
+| | | |
+| :--- | :--- | :--- |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j375-ordre | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ375AutoriteOrdre |
+| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.389 | | |
+
+ 
+Jeu de valeurs comportant uniquement les autorités de type Ordre. 
 
  **References** 
 
@@ -25,8 +28,6 @@ Requête sur le SMT
 ```
 
 ### Définition logique (CLD)
-
-Aucune définition formelle fournie pour ce jeu de valeurs
 
  
 
@@ -53,6 +54,11 @@ Aucune définition formelle fournie pour ce jeu de valeurs
 {
   "resourceType" : "ValueSet",
   "id" : "jdv-j375-autorite-ordre",
+  "meta" : {
+    "versionId" : "2",
+    "lastUpdated" : "2026-05-05T19:02:22+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -70,59 +76,23 @@ Aucune définition formelle fournie pour ce jeu de valeurs
   "title" : "Jdv J375 Autorite Ordre",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-29T09:12:29+00:00",
+  "date" : "2026-03-30T12:00:00+01:00",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "Jeu de valeurs comportant uniquement les autorités de type Ordre.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FRA"
     }]
   }],
-  "expansion" : {
-    "identifier" : "urn:uuid:c5ab9f7d-f5bf-4680-a824-fd8967193caf",
-    "timestamp" : "2026-05-29T11:11:18+02:00",
-    "total" : 7,
-    "parameter" : [{
-      "name" : "used-codesystem",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite|20260330120000"
-    },
-    {
-      "name" : "version",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite|20260330120000"
-    }],
-    "contains" : [{
+  "compose" : {
+    "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "code" : "ONCD",
-      "display" : "Ordre des chirurgiens-dentistes"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "code" : "ONI",
-      "display" : "Ordre des infirmiers"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "code" : "CNOMK",
-      "display" : "Ordre des masseurs-kinésithérapeutes"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "code" : "CNOM",
-      "display" : "Ordre des médecins"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "code" : "CNOP",
-      "display" : "Ordre des pharmaciens"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "code" : "CNOPP",
-      "display" : "Ordre des pédicures-podologues"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "code" : "CNOSF",
-      "display" : "Ordre des sages-femmes"
+      "filter" : [{
+        "property" : "parent",
+        "op" : "=",
+        "value" : "01"
+      }]
     }]
   }
 }
