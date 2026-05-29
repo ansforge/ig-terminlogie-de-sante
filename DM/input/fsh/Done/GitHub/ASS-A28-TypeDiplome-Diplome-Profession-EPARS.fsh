@@ -270,6 +270,7 @@ Usage: #definition
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[=].target.dependsOn.property = "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"
 * group[=].element[=].target.dependsOn.value = "93"
+* group[=].element[+].code = #AU
 * group[=].element[=].target.code = #DIP357
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[=].target.dependsOn.property = "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"
