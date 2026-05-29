@@ -615,6 +615,17 @@ Pour cette association, les fichiers suivants sont également disponibles :
         "equivalence" : "equivalent",
         "dependsOn" : [{
           "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
+          "value" : "93"
+        }]
+      }]
+    },
+    {
+      "code" : "AU",
+      "target" : [{
+        "code" : "DIP357",
+        "equivalence" : "equivalent",
+        "dependsOn" : [{
+          "property" : "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS",
           "value" : "72"
         }]
       }]
