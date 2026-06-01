@@ -3,7 +3,7 @@ Id: TRE-R212-Equipement
 Description: "Equipement"
 * ^meta.versionId = "23"
 * ^meta.lastUpdated = "2026-06-01T10:46:41.590+01:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2015-03-25T00:00:00+01:00"
