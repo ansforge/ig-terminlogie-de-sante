@@ -231,8 +231,7 @@ async def main():
                     print(f"  [expand] {e_valueSet['name']}")
                     expanded = expand_valueset(ValueSet)
                     if expanded:
-                        expanded["id"] = e_valueSet["id"]
-                        ValueSet = expanded
+                        ValueSet["expansion"] = expanded.get("expansion")
                         
                 with open(
                     "../input/ontoserver/JDV/"
