@@ -1,5 +1,5 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>
-1.2.250.1.213.1.6.1.248;TRE;TreR347ActiviteSanitaireDiverseRegulee.tabs;Nomenclature des activités sanitaires utilisée pour décrire les Activités Sanitaires Diverses Régulées (ASDR);;19790101000000;;20260505120000
+1.2.250.1.213.1.6.1.248;TRE;TreR347ActiviteSanitaireDiverseRegulee.tabs;Nomenclature des activités sanitaires utilisée pour décrire les Activités Sanitaires Diverses Régulées (ASDR);;19790101000000;;20260601120000
 <OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MàJ> 
 1.2.250.1.213.1.6.1.248;0200;Hospitalisation;Hospitalisation;Hospitalisation;19790101000000;;20170607000000
 1.2.250.1.213.1.6.1.248;0300;Disciplines Spécifiques;Disc. Spécifiques;Disciplines Spécifiques;19790101000000;;19790101000000
@@ -450,6 +450,10 @@
 1.2.250.1.213.1.6.1.248;852;Activité paramédicale autre qu'activité infirmière unique;Act para aut inf uni;Activité paramédicale autre qu'activité infirmière unique;20131219000000;;20131219000000
 1.2.250.1.213.1.6.1.248;853;Activité de lutte contre la lèpre;Act lutte contr lèpr;Activité de lutte contre la lèpre;20131219000000;;20131219000000
 1.2.250.1.213.1.6.1.248;854;Activité sage-femme en maison de naissance;Act maison naissance;Activité sage-femme en maison de naissance;20190801000000;;20190801000000
+1.2.250.1.213.1.6.1.248;855;Maison médicale de garde;M.M.G.;Maison médicale de garde;20260601120000;;20260601120000
+1.2.250.1.213.1.6.1.248;856;Point fixe de garde;P.F.G.;Point fixe de garde;20260601120000;;20260601120000
+1.2.250.1.213.1.6.1.248;857;Point fixe de consultation;P.F.C.;Point fixe de consultation;20260601120000;;20260601120000
+1.2.250.1.213.1.6.1.248;858;Visite à domicile;V.A.D.;Visite à domicile;20260601120000;;20260601120000
 1.2.250.1.213.1.6.1.248;949;Recherche Chirurgicale ou Chirurgie Expérimentale;Rech.Chir.Chir.Exp.;Recherche Chirurgicale ou Chirurgie Expérimentale;19790101000000;;20170607000000
 1.2.250.1.213.1.6.1.248;950;Enseignement Médical;Enseignement Médical;Enseignement Médical;19790101000000;;20170607000000
 1.2.250.1.213.1.6.1.248;951;Enseignement Autre (Ex:Éducation Sanitaire);Enseignement Autre;Enseignement Autre (Ex:Éducation Sanitaire);19790101000000;;20170607000000

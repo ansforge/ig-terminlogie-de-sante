@@ -35,10 +35,10 @@
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="décès"/>
          <Concept code="127"
-                  codeSystem="1.2.250.1.213.1.6.1.378"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"
                   displayName="Hospitalisation à Domicile"/>
          <Concept code="500"
-                  codeSystem="1.2.250.1.213.1.6.1.378"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"
                   displayName="Etablissement d'hébergement pour personnes âgées dépendantes"/>
       </ConceptList>
    </ValueSet>

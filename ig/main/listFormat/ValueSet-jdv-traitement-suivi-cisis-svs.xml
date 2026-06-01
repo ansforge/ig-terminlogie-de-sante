@@ -23,13 +23,13 @@
                   codeSystem="1.2.250.1.213.3.3.13"
                   displayName="Hospitalisation de jour (HJ)"/>
          <Concept code="255"
-                  codeSystem="1.2.250.1.213.1.6.1.378"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"
                   displayName="Maison d'Accueil Spécialisée (M.A.S.)"/>
          <Concept code="127"
-                  codeSystem="1.2.250.1.213.1.6.1.378"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"
                   displayName="Hospitalisation à Domicile"/>
          <Concept code="354"
-                  codeSystem="1.2.250.1.213.1.6.1.378"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"
                   displayName="Service de Soins Infirmiers A Domicile (S.S.I.A.D)"/>
       </ConceptList>
    </ValueSet>

@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee | *Version*:20260505120000 | |
-| Active as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR347ActiviteSanitaireDiverseRegulee |
+| *Official URL*:http://example.org/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee | *Version*:20260601120000 | |
+| Active as of 2026-06-01 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR347ActiviteSanitaireDiverseRegulee |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.248 | | |
 
  
@@ -17,11 +17,7 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvJ240ActiviteSanitaireDiverseReguleeFiness](ValueSet-jdv-j240-activite-sanitaire-diverse-regulee-finess.md)
-* [JdvJ333ActiviteSanitaireDiverseReguleeNiv1Finess](ValueSet-jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess.md)
-* [JdvJ334ActiviteSanitaireDiverseReguleeNiv2Finess](ValueSet-jdv-j334-activite-sanitaire-diverse-regulee-niv2-finess.md)
-* [JdvJ335ActiviteSanitaireDiverseReguleeNiv3Finess](ValueSet-jdv-j335-activite-sanitaire-diverse-regulee-niv3-finess.md)
-* [JdvJ418ActiviteSanitaireDiverseReguleeActive](ValueSet-jdv-j418-activite-sanitaire-diverse-regulee-active.md)
+* Cette terminologie de référence (CodeSystem) n'est pas utilisée ici; elle peut être utilisée ailleurs (par exemple spécifications et/ou implémentations qui utilisent ce contenu)
 
 
 
@@ -32,8 +28,8 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
   "resourceType" : "CodeSystem",
   "id" : "tre-r347-activite-sanitaire-diverse-regulee",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-05-05T20:12:08.851+02:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-06-01T15:43:04.408+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -43,17 +39,17 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
       "start" : "1979-01-01T00:00:00+01:00"
     }
   }],
-  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+  "url" : "http://example.org/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
   "identifier" : [{
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.248"
   }],
-  "version" : "20260505120000",
+  "version" : "20260601120000",
   "name" : "TreR347ActiviteSanitaireDiverseRegulee",
   "title" : "Tre R347 Activite Sanitaire Diverse Regulee",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-05T12:00:00+01:00",
+  "date" : "2026-06-01T12:00:00.000+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Nomenclature des activités sanitaires utilisée pour décrire les Activités Sanitaires Diverses Régulées (ASDR)",
   "jurisdiction" : [{
@@ -65,7 +61,7 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
   "caseSensitive" : false,
   "hierarchyMeaning" : "is-a",
   "content" : "complete",
-  "count" : 457,
+  "count" : 461,
   "property" : [{
     "code" : "parent",
     "uri" : "http://hl7.org/fhir/concept-properties#parent",
@@ -15000,6 +14996,138 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
     {
       "code" : "dateMaj",
       "valueDateTime" : "2019-08-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 4
+    }]
+  },
+  {
+    "code" : "855",
+    "display" : "Maison médicale de garde",
+    "definition" : "Activités contribuant à la permanence des Soins Ambulatoires (PDSA) exercées dans le cadre d'une Maison Médicale de Garde",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "M.M.G."
+    }],
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "0343"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 4
+    }]
+  },
+  {
+    "code" : "856",
+    "display" : "Point fixe de garde",
+    "definition" : "Activités contribuant à la permanence des Soins Ambulatoires (PDSA) exercées dans le cadre d'un Point fixe de garde",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "P.F.G."
+    }],
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "0343"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 4
+    }]
+  },
+  {
+    "code" : "857",
+    "display" : "Point fixe de consultation",
+    "definition" : "Activités contribuant à la permanence des Soins Ambulatoires (PDSA) exercées dans le cadre d'un Point fixe de consultation",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "P.F.C."
+    }],
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "0343"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 4
+    }]
+  },
+  {
+    "code" : "858",
+    "display" : "Visite à domicile",
+    "definition" : "Activités contribuant à la permanence des Soins Ambulatoires (PDSA) exercées dans le cadre de visites à domicile",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "V.A.D."
+    }],
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "0343"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",

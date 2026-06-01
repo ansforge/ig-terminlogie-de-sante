@@ -5,6 +5,6 @@
 1.2.250.1.213.1.1.4.322;GEN-092.06.01;Autre établissement de santé
 1.2.250.1.213.3.3.13;28;Hospitalisation complète (HC)
 1.2.250.1.213.3.3.13;29;Hospitalisation de jour (HJ)
-1.2.250.1.213.1.6.1.378;255;Maison d'Accueil Spécialisée (M.A.S.)
-1.2.250.1.213.1.6.1.378;127;Hospitalisation à Domicile
-1.2.250.1.213.1.6.1.378;354;Service de Soins Infirmiers A Domicile (S.S.I.A.D)
+https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice;255;Maison d'Accueil Spécialisée (M.A.S.)
+https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice;127;Hospitalisation à Domicile
+https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice;354;Service de Soins Infirmiers A Domicile (S.S.I.A.D)
