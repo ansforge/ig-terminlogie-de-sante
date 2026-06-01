@@ -4095,59 +4095,5 @@
     "uses" : {
     },
     "ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.html" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS"
-  },
-  {
-    "url" : "https://smt.esante.gouv.fr/terminologie-atc?vs",
-    "version" : "20241114120000",
-    "status" : "active",
-    "name" : "ValueSet_ATC_All",
-    "title" : null,
-    "description" : "Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC",
-    "systems" : ["https://smt.esante.gouv.fr/terminologie-atc"]
-  },
-  {
-    "url" : "https://smt.esante.gouv.fr/terminologie-bdpm?vs",
-    "version" : "20241106120000",
-    "status" : "active",
-    "name" : "ValueSet_BDPM_All",
-    "title" : null,
-    "description" : "Ce jeu de valeurs inclut tous les codes de la terminologie BDPM",
-    "systems" : ["https://smt.esante.gouv.fr/terminologie-bdpm"]
-  },
-  {
-    "url" : "https://smt.esante.gouv.fr/terminologie-cip_ucd?vs",
-    "version" : "20241114120000",
-    "status" : "active",
-    "name" : "ValueSet_CIPUCD_All",
-    "title" : null,
-    "description" : "Ce jeu de valeurs inclut tous les codes concepts de la terminologie CIP-UCD",
-    "systems" : ["https://smt.esante.gouv.fr/terminologie-cip_ucd"]
-  },
-  {
-    "url" : "https://smt.esante.gouv.fr/terminologie-nuva?vs",
-    "version" : "20241106120000",
-    "status" : "active",
-    "name" : "ValueSet_NUVA_All",
-    "title" : null,
-    "description" : "Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA",
-    "systems" : ["https://smt.esante.gouv.fr/terminologie-nuva"]
-  },
-  {
-    "url" : "https://smt.esante.gouv.fr/terminologie-sms?vs",
-    "version" : "20241114120000",
-    "status" : "active",
-    "name" : "ValueSet_SMS_All",
-    "title" : null,
-    "description" : "Ce jeu de valeurs inclut tous les codes de la terminologie SMS, Dictionnaire des substances médicamenteuses",
-    "systems" : ["https://smt.esante.gouv.fr/terminologie-sms"]
-  },
-  {
-    "url" : "https://smt.esante.gouv.fr/terminologie-standardterms?vs",
-    "version" : "20241114120000",
-    "status" : "active",
-    "name" : "ValueSet_EDQM_All",
-    "title" : null,
-    "description" : "Ce jeu de valeurs inclut tous les codes de la terminologie EDQM",
-    "systems" : ["https://smt.esante.gouv.fr/terminologie-standardterms"]
   }]
 }

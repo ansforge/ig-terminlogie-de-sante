@@ -10,7 +10,7 @@
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-06-01T12:34:00+00:00",
+  "date" : "2026-06-01T13:24:12+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -34367,78 +34367,6 @@
       },
       "name" : "V3SpecimenTypeSupplementFr",
       "description" : "Traduction Française",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/vs-atc-all"
-      },
-      "name" : "ValueSet_ATC_All",
-      "description" : "Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/vs-bdpm-all"
-      },
-      "name" : "ValueSet_BDPM_All",
-      "description" : "Ce jeu de valeurs inclut tous les codes de la terminologie BDPM",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/vs-cipucd-all"
-      },
-      "name" : "ValueSet_CIPUCD_All",
-      "description" : "Ce jeu de valeurs inclut tous les codes concepts de la terminologie CIP-UCD",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/vs-edqm-all"
-      },
-      "name" : "ValueSet_EDQM_All",
-      "description" : "Ce jeu de valeurs inclut tous les codes de la terminologie EDQM",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/vs-nuva-all"
-      },
-      "name" : "ValueSet_NUVA_All",
-      "description" : "Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/vs-sms-all"
-      },
-      "name" : "ValueSet_SMS_All",
-      "description" : "Ce jeu de valeurs inclut tous les codes de la terminologie SMS, Dictionnaire des substances médicamenteuses",
       "exampleBoolean" : false
     },
     {

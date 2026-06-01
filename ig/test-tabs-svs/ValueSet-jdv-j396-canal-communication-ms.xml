@@ -53,8 +53,8 @@
     </exclude>
   </compose>
   <expansion>
-    <identifier value="urn:uuid:754e1133-5050-4d80-a81b-2fb61b8e8c85"/>
-    <timestamp value="2026-06-01T14:32:18+02:00"/>
+    <identifier value="urn:uuid:4271d77a-b686-4d9d-9404-992301d6142c"/>
+    <timestamp value="2026-06-01T15:22:09+02:00"/>
     <total value="8"/>
     <parameter>
       <name value="used-codesystem"/>
