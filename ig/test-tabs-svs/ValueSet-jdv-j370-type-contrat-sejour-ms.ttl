@@ -1,0 +1,116 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j370-type-contrat-sejour-ms> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "jdv-j370-type-contrat-sejour-ms"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "2" ] ;
+     fhir:lastUpdated [ fhir:v "2025-07-01T13:32:20.162+00:00"^^xsd:dateTime ] ;
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+     ] )
+  ] ; # 
+  fhir:language [ fhir:v "fr-FR"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j370-type-contrat-sejour-ms</b></p><a name=\"jdv-j370-type-contrat-sejour-ms\"> </a><a name=\"hcjdv-j370-type-contrat-sejour-ms\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 2; Dernière mise à jour : 2025-07-01 13:32:20+0000; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion basée sur <a href=\"CodeSystem-tre-r393-type-contrat-sejour.html\">codesystem Tre R393 Type Contrat Sejour v20250521120000 (CodeSystem)</a></p><p>Ce jeu de valeur (ValueSet) contient 2 concepts</p><table class=\"codes\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage (fr-FR)</b></td><td><b>Définition</b></td></tr><tr><td><a name=\"jdv-j370-type-contrat-sejour-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour-CS\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r393-type-contrat-sejour.html#tre-r393-type-contrat-sejour-CS\">CS</a></td><td>Contrat de séjour</td><td>Le contrat de séjour en établissement médico-social est un document essentiel définissant les engagements réciproques entre l'établissement et la personne accueillie. Obligatoire pour les séjours d'une durée prévisionnelle supérieure à deux mois, il précise les prestations, leur coût, et les conditions de séjour.</td></tr><tr><td><a name=\"jdv-j370-type-contrat-sejour-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour-DIPC\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r393-type-contrat-sejour.html#tre-r393-type-contrat-sejour-DIPC\">DIPC</a></td><td>Document Individuel de Prise en Charge</td><td>Le DIPC, contrat unilatéral, a toutefois un contenu identique à celui du contrat de séjour. Un document individuel de prise en charge doit être conclu entre la personne accompagnée (ou son représentant légal) et l'établissement.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod>
+     ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2025-05-21T18:02:28.249+00:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j370-type-contrat-sejour-ms"^^xsd:anyURI ;
+     fhir:l <https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j370-type-contrat-sejour-ms>
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [
+       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
+       fhir:l <urn:ietf:rfc:3986>
+     ] ;
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.4.223" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "20250521120000"] ; # 
+  fhir:name [ fhir:v "JdvJ370TypeContratSejourMs"] ; # 
+  fhir:title [ fhir:v "Jdv J370 Type Contrat Sejour Ms"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-05-21T18:02:28.249+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
+  fhir:description [ fhir:v "Type de contrat conclu entre l’établissement/service et la personne/son représentant légal."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "FRA" ]
+     ] )
+  ] ) ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "status" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "active" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:identifier [
+       fhir:v "urn:uuid:4b4795b5-81f1-40c4-b23f-47570abeeb4f"^^xsd:anyURI ;
+       fhir:l <urn:uuid:4b4795b5-81f1-40c4-b23f-47570abeeb4f>
+     ] ;
+     fhir:timestamp [ fhir:v "2026-06-01T10:45:22+02:00"^^xsd:dateTime ] ;
+     fhir:total [ fhir:v 2 ] ;
+     fhir:parameter ( [
+       fhir:name [ fhir:v "used-codesystem" ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour|20250521120000"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour?version=20250521120000>
+       ]
+     ] [
+       fhir:name [ fhir:v "version" ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour|20250521120000"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour?version=20250521120000>
+       ]
+     ] ) ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour>
+       ] ;
+       fhir:code [ fhir:v "CS" ] ;
+       fhir:display [ fhir:v "Contrat de séjour" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour>
+       ] ;
+       fhir:code [ fhir:v "DIPC" ] ;
+       fhir:display [ fhir:v "Document Individuel de Prise en Charge" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

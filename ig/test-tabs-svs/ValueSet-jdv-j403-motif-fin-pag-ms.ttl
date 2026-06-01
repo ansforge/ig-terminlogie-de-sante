@@ -1,0 +1,179 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j403-motif-fin-pag-ms> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "jdv-j403-motif-fin-pag-ms"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "1" ] ;
+     fhir:lastUpdated [ fhir:v "2026-05-12T10:17:40.349+02:00"^^xsd:dateTime ] ;
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+     ] )
+  ] ; # 
+  fhir:language [ fhir:v "fr-FR"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j403-motif-fin-pag-ms</b></p><a name=\"jdv-j403-motif-fin-pag-ms\"> </a><a name=\"hcjdv-j403-motif-fin-pag-ms\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 1; Dernière mise à jour : 2026-05-12 10:17:40+0200; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion basée sur <a href=\"CodeSystem-tre-r421-motif-fin-pag.html\">codesystem Tre R421 Motif Fin Pag v20260505120000 (CodeSystem)</a></p><p>Ce jeu de valeur (ValueSet) contient 9 concepts</p><table class=\"codes\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage (fr-FR)</b></td><td><b>Définition</b></td></tr><tr><td><a name=\"jdv-j403-motif-fin-pag-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag-4\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r421-motif-fin-pag.html#tre-r421-motif-fin-pag-4\">4</a></td><td>Coordination effective sans recours au PAG</td><td>En raison de la coordination effective sans recours au PAG</td></tr><tr><td><a name=\"jdv-j403-motif-fin-pag-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag-5\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r421-motif-fin-pag.html#tre-r421-motif-fin-pag-5\">5</a></td><td>Demande de l’usager</td><td>À la demande de l’usager</td></tr><tr><td><a name=\"jdv-j403-motif-fin-pag-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag-9\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r421-motif-fin-pag.html#tre-r421-motif-fin-pag-9\">9</a></td><td>Décès usager</td><td>Suite au décès de l'usager</td></tr><tr><td><a name=\"jdv-j403-motif-fin-pag-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag-8\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r421-motif-fin-pag.html#tre-r421-motif-fin-pag-8\">8</a></td><td>Déménagement (hors département)</td><td>Suite au déménagement de l'usager hors département</td></tr><tr><td><a name=\"jdv-j403-motif-fin-pag-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag-7\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r421-motif-fin-pag.html#tre-r421-motif-fin-pag-7\">7</a></td><td>Elaboration d'un nouveau PAG</td><td>En vue de l'élaboration d'un nouveau PAG</td></tr><tr><td><a name=\"jdv-j403-motif-fin-pag-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag-6\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r421-motif-fin-pag.html#tre-r421-motif-fin-pag-6\">6</a></td><td>Fin des dérogations</td><td>En raison de la fin des dérogations</td></tr><tr><td><a name=\"jdv-j403-motif-fin-pag-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag-2\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r421-motif-fin-pag.html#tre-r421-motif-fin-pag-2\">2</a></td><td>Réponse alternative stabilisée et pérennisée</td><td>En raison de la stabilisation et de la pérennisation de la réponse alternative</td></tr><tr><td><a name=\"jdv-j403-motif-fin-pag-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag-1\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r421-motif-fin-pag.html#tre-r421-motif-fin-pag-1\">1</a></td><td>Réponse cible atteinte</td><td>En raison de l'atteinte de la réponse cible</td></tr><tr><td><a name=\"jdv-j403-motif-fin-pag-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag-3\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r421-motif-fin-pag.html#tre-r421-motif-fin-pag-3\">3</a></td><td>Solution spécifique du PAG stabilisée et pérennisée et devenue la cible</td><td>En raison de la stabilisation et de la pérennisation de la solution spécifique du PAG devenue la cible</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod>
+     ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2026-05-05T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j403-motif-fin-pag-ms"^^xsd:anyURI ;
+     fhir:l <https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j403-motif-fin-pag-ms>
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [
+       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
+       fhir:l <urn:ietf:rfc:3986>
+     ] ;
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.4.243" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "20260505120000"] ; # 
+  fhir:name [ fhir:v "JdvJ403MotifFinPagMs"] ; # 
+  fhir:title [ fhir:v "Jdv J403 Motif Fin Pag Ms"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-05-05T12:00:00.000+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
+  fhir:description [ fhir:v "Motif pour l'arrêt du plan d'accompagnement global (PAG)."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "FRA" ]
+     ] )
+  ] ) ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "status" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "active" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:identifier [
+       fhir:v "urn:uuid:eeb1f0f3-869b-4558-bfbc-cb5cfddd9486"^^xsd:anyURI ;
+       fhir:l <urn:uuid:eeb1f0f3-869b-4558-bfbc-cb5cfddd9486>
+     ] ;
+     fhir:timestamp [ fhir:v "2026-06-01T10:45:01+02:00"^^xsd:dateTime ] ;
+     fhir:total [ fhir:v 9 ] ;
+     fhir:parameter ( [
+       fhir:name [ fhir:v "used-codesystem" ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag|20260505120000"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag?version=20260505120000>
+       ]
+     ] [
+       fhir:name [ fhir:v "version" ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag|20260505120000"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag?version=20260505120000>
+       ]
+     ] [
+       fhir:name [ fhir:v "warning-draft" ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag|20260505120000"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag?version=20260505120000>
+       ]
+     ] [
+       fhir:name [ fhir:v "warning-draft" ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j403-motif-fin-pag-ms|20260505120000"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j403-motif-fin-pag-ms?version=20260505120000>
+       ]
+     ] ) ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag>
+       ] ;
+       fhir:code [ fhir:v "4" ] ;
+       fhir:display [ fhir:v "Coordination effective sans recours au PAG" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag>
+       ] ;
+       fhir:code [ fhir:v "5" ] ;
+       fhir:display [ fhir:v "Demande de l’usager" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag>
+       ] ;
+       fhir:code [ fhir:v "9" ] ;
+       fhir:display [ fhir:v "Décès usager" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag>
+       ] ;
+       fhir:code [ fhir:v "8" ] ;
+       fhir:display [ fhir:v "Déménagement (hors département)" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag>
+       ] ;
+       fhir:code [ fhir:v "7" ] ;
+       fhir:display [ fhir:v "Elaboration d'un nouveau PAG" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag>
+       ] ;
+       fhir:code [ fhir:v "6" ] ;
+       fhir:display [ fhir:v "Fin des dérogations" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag>
+       ] ;
+       fhir:code [ fhir:v "2" ] ;
+       fhir:display [ fhir:v "Réponse alternative stabilisée et pérennisée" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag>
+       ] ;
+       fhir:code [ fhir:v "1" ] ;
+       fhir:display [ fhir:v "Réponse cible atteinte" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag>
+       ] ;
+       fhir:code [ fhir:v "3" ] ;
+       fhir:display [ fhir:v "Solution spécifique du PAG stabilisée et pérennisée et devenue la cible" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

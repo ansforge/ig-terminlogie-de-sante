@@ -1,0 +1,179 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j391-niveau-diplome-ms> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "jdv-j391-niveau-diplome-ms"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "1" ] ;
+     fhir:lastUpdated [ fhir:v "2026-05-27T15:47:15.597+02:00"^^xsd:dateTime ] ;
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+     ] )
+  ] ; # 
+  fhir:language [ fhir:v "fr-FR"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j391-niveau-diplome-ms</b></p><a name=\"jdv-j391-niveau-diplome-ms\"> </a><a name=\"hcjdv-j391-niveau-diplome-ms\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 1; Dernière mise à jour : 2026-05-27 15:47:15+0200; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion basée sur <a href=\"CodeSystem-tre-r412-niveau-diplome.html\">codesystem Tre R412 Niveau Diplome v20260601120000 (CodeSystem)</a></p><p>Ce jeu de valeur (ValueSet) contient 9 concepts</p><table class=\"codes\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage (fr-FR)</b> - French (France) (fr)</td></tr><tr><td><a name=\"jdv-j391-niveau-diplome-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome-N1\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r412-niveau-diplome.html#tre-r412-niveau-diplome-N1\">N1</a></td><td>Niv. 1 - Maîtrise des savoirs de base</td></tr><tr><td><a name=\"jdv-j391-niveau-diplome-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome-N2\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r412-niveau-diplome.html#tre-r412-niveau-diplome-N2\">N2</a></td><td>Niv. 2 - Activité professionnelle simple. Capacité  à effectuer des activités simples et résoudre des problèmes courants avec un niveau restreint d'autonomie.</td></tr><tr><td><a name=\"jdv-j391-niveau-diplome-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome-N3\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r412-niveau-diplome.html#tre-r412-niveau-diplome-N3\">N3</a></td><td>Niv. 3 - CAP, BEP</td></tr><tr><td><a name=\"jdv-j391-niveau-diplome-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome-N4\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r412-niveau-diplome.html#tre-r412-niveau-diplome-N4\">N4</a></td><td>Niv. 4 - Baccalauréat</td></tr><tr><td><a name=\"jdv-j391-niveau-diplome-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome-N5\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r412-niveau-diplome.html#tre-r412-niveau-diplome-N5\">N5</a></td><td>Niv. 5 - Bac + 2 - DEUG, BTS, DUT, DEUST</td></tr><tr><td><a name=\"jdv-j391-niveau-diplome-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome-N6B3\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r412-niveau-diplome.html#tre-r412-niveau-diplome-N6B3\">N6B3</a></td><td>Niv. 6 - Bac + 3 - Licence, licence LMD, licence professionnelle</td></tr><tr><td><a name=\"jdv-j391-niveau-diplome-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome-N6B4\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r412-niveau-diplome.html#tre-r412-niveau-diplome-N6B4\">N6B4</a></td><td>Niv. 6 - Bac + 4 - Maîtrise</td></tr><tr><td><a name=\"jdv-j391-niveau-diplome-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome-N7\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r412-niveau-diplome.html#tre-r412-niveau-diplome-N7\">N7</a></td><td>Niv. 7 - Bac + 5 - Master, DEA, DESS, diplôme d'ingénieur</td></tr><tr><td><a name=\"jdv-j391-niveau-diplome-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome-N8\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r412-niveau-diplome.html#tre-r412-niveau-diplome-N8\">N8</a></td><td>Niv. 8 - Bac + 8 - Doctorat, habilitation à diriger des recherches</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod>
+     ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2026-06-01T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j391-niveau-diplome-ms"^^xsd:anyURI ;
+     fhir:l <https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j391-niveau-diplome-ms>
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [
+       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
+       fhir:l <urn:ietf:rfc:3986>
+     ] ;
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.4.231" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "20260601120000"] ; # 
+  fhir:name [ fhir:v "JdvJ391NiveauDiplomeMs"] ; # 
+  fhir:title [ fhir:v "Jdv J391 Niveau Diplome Ms"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-06-01T12:00:00.000+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
+  fhir:description [ fhir:v "Niveau de diplôme permettant d'indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "FRA" ]
+     ] )
+  ] ) ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "status" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "active" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:identifier [
+       fhir:v "urn:uuid:d676b823-f75e-4322-99e7-a168bf704101"^^xsd:anyURI ;
+       fhir:l <urn:uuid:d676b823-f75e-4322-99e7-a168bf704101>
+     ] ;
+     fhir:timestamp [ fhir:v "2026-06-01T10:45:09+02:00"^^xsd:dateTime ] ;
+     fhir:total [ fhir:v 9 ] ;
+     fhir:parameter ( [
+       fhir:name [ fhir:v "used-codesystem" ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome|20260601120000"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome?version=20260601120000>
+       ]
+     ] [
+       fhir:name [ fhir:v "version" ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome|20260601120000"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome?version=20260601120000>
+       ]
+     ] [
+       fhir:name [ fhir:v "warning-draft" ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome|20260601120000"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome?version=20260601120000>
+       ]
+     ] [
+       fhir:name [ fhir:v "warning-draft" ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j391-niveau-diplome-ms|20260601120000"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j391-niveau-diplome-ms?version=20260601120000>
+       ]
+     ] ) ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome>
+       ] ;
+       fhir:code [ fhir:v "N1" ] ;
+       fhir:display [ fhir:v "Niv. 1 - Maîtrise des savoirs de base" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome>
+       ] ;
+       fhir:code [ fhir:v "N2" ] ;
+       fhir:display [ fhir:v "Niv. 2 - Activité professionnelle simple. Capacité  à effectuer des activités simples et résoudre des problèmes courants avec un niveau restreint d'autonomie." ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome>
+       ] ;
+       fhir:code [ fhir:v "N3" ] ;
+       fhir:display [ fhir:v "Niv. 3 - CAP, BEP" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome>
+       ] ;
+       fhir:code [ fhir:v "N4" ] ;
+       fhir:display [ fhir:v "Niv. 4 - Baccalauréat" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome>
+       ] ;
+       fhir:code [ fhir:v "N5" ] ;
+       fhir:display [ fhir:v "Niv. 5 - Bac + 2 - DEUG, BTS, DUT, DEUST" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome>
+       ] ;
+       fhir:code [ fhir:v "N6B3" ] ;
+       fhir:display [ fhir:v "Niv. 6 - Bac + 3 - Licence, licence LMD, licence professionnelle" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome>
+       ] ;
+       fhir:code [ fhir:v "N6B4" ] ;
+       fhir:display [ fhir:v "Niv. 6 - Bac + 4 - Maîtrise" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome>
+       ] ;
+       fhir:code [ fhir:v "N7" ] ;
+       fhir:display [ fhir:v "Niv. 7 - Bac + 5 - Master, DEA, DESS, diplôme d'ingénieur" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome>
+       ] ;
+       fhir:code [ fhir:v "N8" ] ;
+       fhir:display [ fhir:v "Niv. 8 - Bac + 8 - Doctorat, habilitation à diriger des recherches" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

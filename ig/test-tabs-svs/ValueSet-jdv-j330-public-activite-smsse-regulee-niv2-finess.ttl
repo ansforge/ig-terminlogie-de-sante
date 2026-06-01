@@ -1,0 +1,266 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j330-public-activite-smsse-regulee-niv2-finess> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "jdv-j330-public-activite-smsse-regulee-niv2-finess"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "3" ] ;
+     fhir:lastUpdated [ fhir:v "2026-05-05T19:02:16.548+02:00"^^xsd:dateTime ] ;
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablevalueset?version=4.0.1>
+     ] )
+  ] ; # 
+  fhir:language [ fhir:v "fr-FR"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet jdv-j330-public-activite-smsse-regulee-niv2-finess</b></p><a name=\"jdv-j330-public-activite-smsse-regulee-niv2-finess\"> </a><a name=\"hcjdv-j330-public-activite-smsse-regulee-niv2-finess\"> </a><a name=\"jdv-j330-public-activite-smsse-regulee-niv2-finess-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 2; Last updated: 2026-02-23 18:17:33+0100; Language: fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSetversion: null4.0.1)</a></p></div><ul><li>Include codes provenant de<a href=\"CodeSystem-tre-r403-public-activite-smsse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee</code></a> où niveau  = 2</li></ul></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod>
+     ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2026-02-23T12:00:00.000+00:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j330-public-activite-smsse-regulee-niv2-finess"^^xsd:anyURI ;
+     fhir:l <https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j330-public-activite-smsse-regulee-niv2-finess>
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [
+       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
+       fhir:l <urn:ietf:rfc:3986>
+     ] ;
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.338" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "20260223120000"] ; # 
+  fhir:name [ fhir:v "JdvJ330PublicActiviteSmsseReguleeNiv2Finess"] ; # 
+  fhir:title [ fhir:v "Jdv J330 Public Activite Smsse Regulee Niv2 Finess"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-23T12:00:00.000+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
+  fhir:description [ fhir:v "Ce JDV contient tous les agregats de publics de niveau 2 (JDV créé à l'image de l'ancienne TRE_R294-AgregatClienteleNiv3)"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "FRA" ]
+     ] )
+  ] ) ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee>
+       ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "niveau" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "2" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:identifier [
+       fhir:v "urn:uuid:f5b778a9-3add-4e28-8344-923143faad20"^^xsd:anyURI ;
+       fhir:l <urn:uuid:f5b778a9-3add-4e28-8344-923143faad20>
+     ] ;
+     fhir:timestamp [ fhir:v "2026-06-01T10:44:33+02:00"^^xsd:dateTime ] ;
+     fhir:total [ fhir:v 21 ] ;
+     fhir:parameter ( [
+       fhir:name [ fhir:v "used-codesystem" ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee|20260223120000"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee?version=20260223120000>
+       ]
+     ] [
+       fhir:name [ fhir:v "version" ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee|20260223120000"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee?version=20260223120000>
+       ]
+     ] ) ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "5100" ] ;
+       fhir:display [ fhir:v "Adultes en Difficulté d'Insertion Sociale" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "6100" ] ;
+       fhir:display [ fhir:v "Autres Catégories de Clientèles" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "4100" ] ;
+       fhir:display [ fhir:v "Autres Enfants" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "6200" ] ;
+       fhir:display [ fhir:v "Clientèles transverses" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "1700" ] ;
+       fhir:display [ fhir:v "Déficiences Auditives" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "1200" ] ;
+       fhir:display [ fhir:v "Déficiences Intellectuelles" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "1500" ] ;
+       fhir:display [ fhir:v "Déficiences Motrices" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "1800" ] ;
+       fhir:display [ fhir:v "Déficiences Visuelles" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "3100" ] ;
+       fhir:display [ fhir:v "Enfants et Adolescents (Aide Soc Justice)" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "8200" ] ;
+       fhir:display [ fhir:v "Epilepsies" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "5200" ] ;
+       fhir:display [ fhir:v "Familles en Difficulté d'Insertion Sociale" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "8300" ] ;
+       fhir:display [ fhir:v "Maladie Invalidante de Longue Durée" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "2100" ] ;
+       fhir:display [ fhir:v "Personnes Agées" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "8400" ] ;
+       fhir:display [ fhir:v "Personnes ayant des pratiques addictives" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "5300" ] ;
+       fhir:display [ fhir:v "Personnes et Familles Protégées" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "1600" ] ;
+       fhir:display [ fhir:v "Polyhandicap" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "1900" ] ;
+       fhir:display [ fhir:v "Surdi-Cécité" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "1100" ] ;
+       fhir:display [ fhir:v "Tous Types de Déficiences" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "7100" ] ;
+       fhir:display [ fhir:v "Toute Population" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "1300" ] ;
+       fhir:display [ fhir:v "Troubles du Comportement, Handicap psychique ou cognitif" ]
+     ] [
+       fhir:extension ( [
+         fhir:extension ( [
+           fhir:url [
+             fhir:v "inactive"^^xsd:anyURI ;
+             fhir:l fhir:inactive
+           ] ;
+           fhir:value [
+             a fhir:Boolean ;
+             fhir:v true
+           ]
+         ] ) ;
+         fhir:url [
+           fhir:v "http://ontoserver.csiro.au/profiles/expansion"^^xsd:anyURI ;
+           fhir:l <http://ontoserver.csiro.au/profiles/expansion>
+         ]
+       ] ) ;
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee>
+       ] ;
+       fhir:inactive [ fhir:v true ] ;
+       fhir:code [ fhir:v "8100" ] ;
+       fhir:display [ fhir:v "Troubles Psychopathologiques" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+
