@@ -11,7 +11,7 @@
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2026-06-01T09:57:24+00:00"/>
+  <date value="2026-06-01T12:34:00+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -26557,6 +26557,72 @@
       </reference>
       <name value="V3SpecimenTypeSupplementFr"/>
       <description value="Traduction Française"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-atc-all"/>
+      </reference>
+      <name value="ValueSet_ATC_All"/>
+      <description value="Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-bdpm-all"/>
+      </reference>
+      <name value="ValueSet_BDPM_All"/>
+      <description value="Ce jeu de valeurs inclut tous les codes de la terminologie BDPM"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-cipucd-all"/>
+      </reference>
+      <name value="ValueSet_CIPUCD_All"/>
+      <description value="Ce jeu de valeurs inclut tous les codes concepts de la terminologie CIP-UCD"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-edqm-all"/>
+      </reference>
+      <name value="ValueSet_EDQM_All"/>
+      <description value="Ce jeu de valeurs inclut tous les codes de la terminologie EDQM"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-nuva-all"/>
+      </reference>
+      <name value="ValueSet_NUVA_All"/>
+      <description value="Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-sms-all"/>
+      </reference>
+      <name value="ValueSet_SMS_All"/>
+      <description value="Ce jeu de valeurs inclut tous les codes de la terminologie SMS, Dictionnaire des substances médicamenteuses"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

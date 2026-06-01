@@ -5557,4 +5557,46 @@
   "version" : "20260505120000",
   "name" : "JdvJ418ActiviteSanitaireDiverseReguleeActive",
   "oids" : ["1.2.250.1.213.1.6.1.400"]
+},
+{
+  "id" : "vs-atc-all",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/terminologie-atc?vs",
+  "version" : "20241114120000",
+  "name" : "ValueSet_ATC_All"
+},
+{
+  "id" : "vs-bdpm-all",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/terminologie-bdpm?vs",
+  "version" : "20241106120000",
+  "name" : "ValueSet_BDPM_All"
+},
+{
+  "id" : "vs-cipucd-all",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/terminologie-cip_ucd?vs",
+  "version" : "20241114120000",
+  "name" : "ValueSet_CIPUCD_All"
+},
+{
+  "id" : "vs-nuva-all",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/terminologie-nuva?vs",
+  "version" : "20241106120000",
+  "name" : "ValueSet_NUVA_All"
+},
+{
+  "id" : "vs-sms-all",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/terminologie-sms?vs",
+  "version" : "20241114120000",
+  "name" : "ValueSet_SMS_All"
+},
+{
+  "id" : "vs-edqm-all",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/terminologie-standardterms?vs",
+  "version" : "20241114120000",
+  "name" : "ValueSet_EDQM_All"
 }]

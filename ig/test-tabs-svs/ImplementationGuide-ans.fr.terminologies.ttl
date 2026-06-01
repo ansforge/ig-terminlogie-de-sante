@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "Terminologies"] ; # 
   fhir:title [ fhir:v "Terminologies  de Santé"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2026-06-01T09:57:24+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-06-01T12:34:00+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -71411,6 +71411,132 @@
        ] ;
        fhir:name [ fhir:v "V3SpecimenTypeSupplementFr" ] ;
        fhir:description [ fhir:v "Traduction Française" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-atc-all> ;
+         fhir:reference [ fhir:v "ValueSet/vs-atc-all" ]
+       ] ;
+       fhir:name [ fhir:v "ValueSet_ATC_All" ] ;
+       fhir:description [ fhir:v "Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-bdpm-all> ;
+         fhir:reference [ fhir:v "ValueSet/vs-bdpm-all" ]
+       ] ;
+       fhir:name [ fhir:v "ValueSet_BDPM_All" ] ;
+       fhir:description [ fhir:v "Ce jeu de valeurs inclut tous les codes de la terminologie BDPM" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-cipucd-all> ;
+         fhir:reference [ fhir:v "ValueSet/vs-cipucd-all" ]
+       ] ;
+       fhir:name [ fhir:v "ValueSet_CIPUCD_All" ] ;
+       fhir:description [ fhir:v "Ce jeu de valeurs inclut tous les codes concepts de la terminologie CIP-UCD" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-edqm-all> ;
+         fhir:reference [ fhir:v "ValueSet/vs-edqm-all" ]
+       ] ;
+       fhir:name [ fhir:v "ValueSet_EDQM_All" ] ;
+       fhir:description [ fhir:v "Ce jeu de valeurs inclut tous les codes de la terminologie EDQM" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-nuva-all> ;
+         fhir:reference [ fhir:v "ValueSet/vs-nuva-all" ]
+       ] ;
+       fhir:name [ fhir:v "ValueSet_NUVA_All" ] ;
+       fhir:description [ fhir:v "Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-sms-all> ;
+         fhir:reference [ fhir:v "ValueSet/vs-sms-all" ]
+       ] ;
+       fhir:name [ fhir:v "ValueSet_SMS_All" ] ;
+       fhir:description [ fhir:v "Ce jeu de valeurs inclut tous les codes de la terminologie SMS, Dictionnaire des substances médicamenteuses" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
