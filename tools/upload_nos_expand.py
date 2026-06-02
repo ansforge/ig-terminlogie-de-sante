@@ -18,9 +18,10 @@ def has_filter(valueset):
     for include in compose.get("include", []):
         if include.get("filter"):
             return True
-
+        if not include.get("concept") and include.get("system"):
+            return True
+        
     return False
-
 
 def expand_valueset(valueset):
     """
