@@ -471,7 +471,7 @@
   "status" : "active"
 },
 {
-  "id" : "900000000000207008-20260501",
+  "id" : "900000000000207008-20260601",
   "name" : "SNOMED_CT",
   "title" : "SNOMED CT core",
   "url" : "http://snomed.info/sct",
@@ -2546,7 +2546,7 @@
   "id" : "tre-r347-activite-sanitaire-diverse-regulee",
   "name" : "TreR347ActiviteSanitaireDiverseRegulee",
   "title" : "Tre R347 Activite Sanitaire Diverse Regulee",
-  "url" : "http://example.org/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
   "identifier" : "urn:oid:1.2.250.1.213.1.6.1.248",
   "status" : "active"
 },
@@ -2722,7 +2722,7 @@
   "id" : "tre-r397-categorie-entite-geographique-exercice",
   "name" : "TreR397CategorieEntiteGeographiqueExercice",
   "title" : "Tre R397 Categorie Entite Geographique Exercice",
-  "url" : "http://example.org/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
   "identifier" : "urn:oid:1.2.250.1.213.1.6.1.378",
   "status" : "active"
 },
@@ -2738,7 +2738,7 @@
   "id" : "tre-r401-activite-sociale-regulee",
   "name" : "TreR401ActiviteSocialeRegulee",
   "title" : "Tre R401 Activite Sociale Regulee",
-  "url" : "http://example.org/CodeSystem/tre-r401-activite-sociale-regulee",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
   "identifier" : "urn:oid:1.2.250.1.213.1.6.1.380",
   "status" : "active"
 },

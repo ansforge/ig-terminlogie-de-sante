@@ -8,7 +8,7 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:http://example.org/CodeSystem/tre-r401-activite-sociale-regulee | *Version*:20260601120000 | |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee | *Version*:20260601120000 | |
 | Active as of 2026-06-01 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR401ActiviteSocialeRegulee |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.380 | | |
 
@@ -22,7 +22,11 @@ Cette TRE possède des propriétés spécifiques :
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* Cette terminologie de référence (CodeSystem) n'est pas utilisée ici; elle peut être utilisée ailleurs (par exemple spécifications et/ou implémentations qui utilisent ce contenu)
+* [JdvJ323ActiviteSocialeReguleeFiness](ValueSet-jdv-j323-activite-sociale-regulee-finess.md)
+* [JdvJ324ActiviteSocialeReguleeNiv1Finess](ValueSet-jdv-j324-activite-sociale-regulee-niv1-finess.md)
+* [JdvJ325ActiviteSocialeReguleeNiv2Finess](ValueSet-jdv-j325-activite-sociale-regulee-niv2-finess.md)
+* [JdvJ326ActiviteSocialeReguleeNiv3Finess](ValueSet-jdv-j326-activite-sociale-regulee-niv3-finess.md)
+* [JdvJ379ActiviteSocialeReguleeRass](ValueSet-jdv-j379-activite-sociale-regulee-rass.md)
 
 
 
@@ -33,8 +37,8 @@ Cette TRE possède des propriétés spécifiques :
   "resourceType" : "CodeSystem",
   "id" : "tre-r401-activite-sociale-regulee",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2026-06-01T15:43:07.540+02:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-06-02T16:13:03.588+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -44,7 +48,7 @@ Cette TRE possède des propriétés spécifiques :
       "start" : "1979-01-01T00:00:00+01:00"
     }
   }],
-  "url" : "http://example.org/CodeSystem/tre-r401-activite-sociale-regulee",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
   "identifier" : [{
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.380"

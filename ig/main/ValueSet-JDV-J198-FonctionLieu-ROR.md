@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J198-FonctionLieu-ROR",
   "meta" : {
-    "versionId" : "10",
-    "lastUpdated" : "2026-05-29T13:18:06.766+02:00",
+    "versionId" : "11",
+    "lastUpdated" : "2026-06-02T15:19:02.126+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

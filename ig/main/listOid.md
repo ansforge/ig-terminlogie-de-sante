@@ -335,7 +335,7 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | TerminologieCISIS | https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis | 1.2.250.1.213.1.1.4.322 |
 | TimingEvent | http://terminology.hl7.org/CodeSystem/v3-TimingEvent | 2.16.840.1.113883.5.139 |
 | TimingEventSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/timingEvent-supplement-fr |  |
-| TreR347ActiviteSanitaireDiverseRegulee | http://example.org/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee | 1.2.250.1.213.1.6.1.248 |
+| TreR347ActiviteSanitaireDiverseRegulee | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee | 1.2.250.1.213.1.6.1.248 |
 | TreR360TypeRoleEntiteGroupe | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe | 1.2.250.1.213.1.6.1.254 |
 | TreR361FonctionPublique | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r361-fonction-publique | 1.2.250.1.213.1.6.1.255 |
 | TreR362TypeBudget | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r362-type-budget | 1.2.250.1.213.1.6.1.256 |
@@ -357,9 +357,9 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | TreR393TypeContratSejour | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour | 1.2.250.1.213.3.3.260 |
 | TreR394CompetenceMetier | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r394-competence-metier | 1.2.250.1.213.1.6.1.375 |
 | TreR396Autorite | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite | 1.2.250.1.213.1.6.1.377 |
-| TreR397CategorieEntiteGeographiqueExercice | http://example.org/CodeSystem/tre-r397-categorie-entite-geographique-exercice | 1.2.250.1.213.1.6.1.378 |
+| TreR397CategorieEntiteGeographiqueExercice | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice | 1.2.250.1.213.1.6.1.378 |
 | TreR400FinessStatutJuridique | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique | 1.2.250.1.213.1.6.1.379 |
-| TreR401ActiviteSocialeRegulee | http://example.org/CodeSystem/tre-r401-activite-sociale-regulee | 1.2.250.1.213.1.6.1.380 |
+| TreR401ActiviteSocialeRegulee | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee | 1.2.250.1.213.1.6.1.380 |
 | TreR402ActiviteEnseignementRegulee | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee | 1.2.250.1.213.1.6.1.381 |
 | TreR403PublicActiviteSmsseRegulee | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee | 1.2.250.1.213.1.6.1.382 |
 | TreR404ModeFonctionnemetActiviteSmsseRegulee | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee | 1.2.250.1.213.1.6.1.383 |

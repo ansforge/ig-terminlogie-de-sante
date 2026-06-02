@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J17-ActiviteOperationnelle-ROR",
   "meta" : {
-    "versionId" : "28",
-    "lastUpdated" : "2026-05-29T13:18:05.425+02:00",
+    "versionId" : "29",
+    "lastUpdated" : "2026-06-02T15:19:00.544+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

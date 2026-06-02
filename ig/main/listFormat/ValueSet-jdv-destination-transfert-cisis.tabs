@@ -3,4 +3,4 @@
 <OID>;<Code>;<Libellé>
 1.2.250.1.213.1.1.4.322;GEN-092.06.03;Autre destination
 2.16.840.1.113883.6.96;160849004;retour au domicile
-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice;500;Etablissement d'hébergement pour personnes âgées dépendantes
+1.2.250.1.213.1.6.1.378;500;Etablissement d'hébergement pour personnes âgées dépendantes

@@ -1,28 +1,4 @@
 [{
-  "id" : "tre-r347-activite-sanitaire-diverse-regulee",
-  "type" : "CodeSystem",
-  "url" : "http://example.org/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
-  "version" : "20260601120000",
-  "name" : "TreR347ActiviteSanitaireDiverseRegulee",
-  "oids" : ["1.2.250.1.213.1.6.1.248"]
-},
-{
-  "id" : "tre-r397-categorie-entite-geographique-exercice",
-  "type" : "CodeSystem",
-  "url" : "http://example.org/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
-  "version" : "20260601120000",
-  "name" : "TreR397CategorieEntiteGeographiqueExercice",
-  "oids" : ["1.2.250.1.213.1.6.1.378"]
-},
-{
-  "id" : "tre-r401-activite-sociale-regulee",
-  "type" : "CodeSystem",
-  "url" : "http://example.org/CodeSystem/tre-r401-activite-sociale-regulee",
-  "version" : "20260601120000",
-  "name" : "TreR401ActiviteSocialeRegulee",
-  "oids" : ["1.2.250.1.213.1.6.1.380"]
-},
-{
   "id" : "11000315107-20250621",
   "type" : "CodeSystem",
   "url" : "http://snomed.info/sct",
@@ -31,10 +7,10 @@
   "oids" : ["2.16.840.1.113883.6.96"]
 },
 {
-  "id" : "900000000000207008-20260501",
+  "id" : "900000000000207008-20260601",
   "type" : "CodeSystem",
   "url" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/900000000000207008/version/20260501",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20260601",
   "name" : "SNOMED_CT",
   "oids" : ["2.16.840.1.113883.6.96"]
 },
@@ -4774,6 +4750,14 @@
   "name" : "TimingEventSupplementFr"
 },
 {
+  "id" : "tre-r347-activite-sanitaire-diverse-regulee",
+  "type" : "CodeSystem",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+  "version" : "20260601120000",
+  "name" : "TreR347ActiviteSanitaireDiverseRegulee",
+  "oids" : ["1.2.250.1.213.1.6.1.248"]
+},
+{
   "id" : "tre-r360-type-role-entite-groupe",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe",
@@ -5026,12 +5010,28 @@
   "oids" : ["1.2.250.1.213.1.6.1.377"]
 },
 {
+  "id" : "tre-r397-categorie-entite-geographique-exercice",
+  "type" : "CodeSystem",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
+  "version" : "20260601120000",
+  "name" : "TreR397CategorieEntiteGeographiqueExercice",
+  "oids" : ["1.2.250.1.213.1.6.1.378"]
+},
+{
   "id" : "tre-r400-finess-statut-juridique",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
   "version" : "20260223120000",
   "name" : "TreR400FinessStatutJuridique",
   "oids" : ["1.2.250.1.213.1.6.1.379"]
+},
+{
+  "id" : "tre-r401-activite-sociale-regulee",
+  "type" : "CodeSystem",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
+  "version" : "20260601120000",
+  "name" : "TreR401ActiviteSocialeRegulee",
+  "oids" : ["1.2.250.1.213.1.6.1.380"]
 },
 {
   "id" : "tre-r402-activite-enseignement-regulee",
@@ -5256,7 +5256,7 @@
   "id" : "alignement-bdpm-cipucd",
   "type" : "ConceptMap",
   "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-bdpm-cipucd",
-  "version" : "2026-05",
+  "version" : "2026-06",
   "name" : "Alignement_Codes_Presentation_BDPM_CIPUCD"
 },
 {
@@ -9866,7 +9866,7 @@
   "id" : "terminologie-bdpm",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/terminologie-bdpm",
-  "version" : "2026-05-05",
+  "version" : "2026-06-01",
   "name" : "BDPM"
 },
 {

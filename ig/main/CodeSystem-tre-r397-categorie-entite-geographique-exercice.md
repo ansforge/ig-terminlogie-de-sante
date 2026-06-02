@@ -8,7 +8,7 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:http://example.org/CodeSystem/tre-r397-categorie-entite-geographique-exercice | *Version*:20260601120000 | |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice | *Version*:20260601120000 | |
 | Active as of 2026-06-01 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR397CategorieEntiteGeographiqueExercice |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.378 | | |
 
@@ -17,7 +17,21 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* Cette terminologie de référence (CodeSystem) n'est pas utilisée ici; elle peut être utilisée ailleurs (par exemple spécifications et/ou implémentations qui utilisent ce contenu)
+* [JdvDestinationTransfertCisis](ValueSet-jdv-destination-transfert-cisis.md)
+* [JdvJ307CategorieEntiteGeographiqueExerciceNiv1Finess](ValueSet-jdv-j307-categorie-entite-geographique-exercice-niv1-finess.md)
+* [JdvJ308CategorieEntiteGeographiqueExerciceNiv2Finess](ValueSet-jdv-j308-categorie-entite-geographique-exercice-niv2-finess.md)
+* [JdvJ309CategorieEntiteGeographiqueExerciceNiv3Finess](ValueSet-jdv-j309-categorie-entite-geographique-exercice-niv3-finess.md)
+* [JdvJ310CategorieEntiteGeographiqueExerciceFiness](ValueSet-jdv-j310-categorie-entite-geographique-exercice-finess.md)
+* [JdvJ368CategorieEtablissementCisis](ValueSet-jdv-j368-categorie-etablissement-cisis.md)
+* [JdvJ377CategorieEntiteGeographiqueExerciceRor](ValueSet-jdv-j377-categorie-entite-geographique-exercice-ror.md)
+* [JdvJ380CategorieEntiteGeographiqueExerciceRass](ValueSet-jdv-j380-categorie-entite-geographique-exercice-rass.md)
+* [JdvLieuDeVieCisis](ValueSet-jdv-lieu-de-vie-cisis.md)
+* [JdvModaliteEntreeEsmsCisis](ValueSet-jdv-modalite-entree-esms-cisis.md)
+* [JdvModaliteSortieCisis](ValueSet-jdv-modalite-sortie-cisis.md)
+* [JdvModeSortieCisis](ValueSet-jdv-mode-sortie-cisis.md)
+* [JdvPatientAdresseParCisis](ValueSet-jdv-patient-adresse-par-cisis.md)
+* [JdvTraitementSuiviCisis](ValueSet-jdv-traitement-suivi-cisis.md)
+* [JdvTypePriseEnChargeCisis](ValueSet-jdv-type-prise-en-charge-cisis.md)
 
 
 
@@ -28,8 +42,8 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
   "resourceType" : "CodeSystem",
   "id" : "tre-r397-categorie-entite-geographique-exercice",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-06-01T15:43:06.474+02:00",
+    "versionId" : "9",
+    "lastUpdated" : "2026-06-02T16:13:02.636+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -39,7 +53,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
       "start" : "1979-01-01T00:00:00+01:00"
     }
   }],
-  "url" : "http://example.org/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
   "identifier" : [{
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.378"

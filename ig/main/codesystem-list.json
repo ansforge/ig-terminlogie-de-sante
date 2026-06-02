@@ -1,32 +1,5 @@
 {
   "codeSystems" : [{
-    "url" : "http://example.org/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
-    "version" : "20260601120000",
-    "status" : "active",
-    "name" : "TreR347ActiviteSanitaireDiverseRegulee",
-    "title" : "Tre R347 Activite Sanitaire Diverse Regulee",
-    "description" : "Nomenclature des activités sanitaires utilisée pour décrire les Activités Sanitaires Diverses Régulées (ASDR)",
-    "oids" : ["1.2.250.1.213.1.6.1.248"]
-  },
-  {
-    "url" : "http://example.org/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
-    "version" : "20260601120000",
-    "status" : "active",
-    "name" : "TreR397CategorieEntiteGeographiqueExercice",
-    "title" : "Tre R397 Categorie Entite Geographique Exercice",
-    "description" : "Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement, TRE-R63-AgregatCategorieEtablissementNiv1, TRE-R64-AgregatCategorieEtablissementNiv2, TRE-R65-AgregatCategorieEtablissement et ASS-X10-AgregatCategorieEtablissement. Cette TRE possède des propriétésspécifiques : le niveau d'agrégat des EGE de 1 à 4 (du plus large au plus fin), le parent d'un agrégat d'EGE ou d'un EGE, la relation entre un code et le domaine ( TRE R62), un indicateur pour les EGE spécifiques au ROR ( non finess) et les relations nécessaires à la construction des JDV dynamiques associés",
-    "oids" : ["1.2.250.1.213.1.6.1.378"]
-  },
-  {
-    "url" : "http://example.org/CodeSystem/tre-r401-activite-sociale-regulee",
-    "version" : "20260601120000",
-    "status" : "active",
-    "name" : "TreR401ActiviteSocialeRegulee",
-    "title" : "Tre R401 Activite Sociale Regulee",
-    "description" : "Cette TRE hiérarchique remplace les éléments suivants :\nTRE_R280-DisciplineEquipementSocial, TRE_R298-AgregatDisciplineEquipSocNiv1, TRE_R299-AgregatDisciplineEquipSocNiv2, TRE_R300-AgregatDisciplineEquipSocNiv3 et ASS_X14_AgregatDisciplineEquipementSocial.\n\nCette TRE possède des propriétés spécifiques :\n\n1. Le niveau d'agrégat des ASOCR de 1 à 4 (du plus large au plus fin)\n2. Le parent d'un agrégat d'ASOCR ou d'une ASOCR\n3. Les relations nécessaires à la construction des JDV dynamiques associés",
-    "oids" : ["1.2.250.1.213.1.6.1.380"]
-  },
-  {
     "url" : "http://snomed.info/sct",
     "version" : "http://snomed.info/sct/11000315107/version/20250621",
     "status" : "active",
@@ -37,7 +10,7 @@
   },
   {
     "url" : "http://snomed.info/sct",
-    "version" : "http://snomed.info/sct/900000000000207008/version/20260501",
+    "version" : "http://snomed.info/sct/900000000000207008/version/20260601",
     "status" : "active",
     "name" : "SNOMED_CT",
     "title" : "SNOMED CT core",
@@ -2705,6 +2678,15 @@
     "description" : "Traduction Française"
   },
   {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+    "version" : "20260601120000",
+    "status" : "active",
+    "name" : "TreR347ActiviteSanitaireDiverseRegulee",
+    "title" : "Tre R347 Activite Sanitaire Diverse Regulee",
+    "description" : "Nomenclature des activités sanitaires utilisée pour décrire les Activités Sanitaires Diverses Régulées (ASDR)",
+    "oids" : ["1.2.250.1.213.1.6.1.248"]
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe",
     "version" : "20260330120000",
     "status" : "active",
@@ -2894,6 +2876,15 @@
     "oids" : ["1.2.250.1.213.1.6.1.377"]
   },
   {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
+    "version" : "20260601120000",
+    "status" : "active",
+    "name" : "TreR397CategorieEntiteGeographiqueExercice",
+    "title" : "Tre R397 Categorie Entite Geographique Exercice",
+    "description" : "Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement, TRE-R63-AgregatCategorieEtablissementNiv1, TRE-R64-AgregatCategorieEtablissementNiv2, TRE-R65-AgregatCategorieEtablissement et ASS-X10-AgregatCategorieEtablissement. Cette TRE possède des propriétésspécifiques : le niveau d'agrégat des EGE de 1 à 4 (du plus large au plus fin), le parent d'un agrégat d'EGE ou d'un EGE, la relation entre un code et le domaine ( TRE R62), un indicateur pour les EGE spécifiques au ROR ( non finess) et les relations nécessaires à la construction des JDV dynamiques associés",
+    "oids" : ["1.2.250.1.213.1.6.1.378"]
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
     "version" : "20260223120000",
     "status" : "active",
@@ -2901,6 +2892,15 @@
     "title" : "Tre R400 Finess Statut Juridique",
     "description" : "Cette TRE hiérarchique remplace les TRE_R68-FinessAgregatStatutJuridiqueNiv1, TRE_R69-FinessAgregatStatutJuridiqueNiv2, TRE_R70-FinessAgregatStatutJuridique, TRE_R72-FinessStatutJuridique, et l'association ASS_X11_FinessAgregatStatutJuridique. Cette TRE possède des propriétés spécifiques : le niveau d'agrégat des statuts juridiques  de 1 à 4 ( du plus large au plus fin), le parent d'un agrégat de statuts juridiques ou d'un statut juridique, un indicateur pour les statuts juridiques  spécifiques à RPPS ( non finess) et les relations nécessaires à la construction des JDV dynamiques associés",
     "oids" : ["1.2.250.1.213.1.6.1.379"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
+    "version" : "20260601120000",
+    "status" : "active",
+    "name" : "TreR401ActiviteSocialeRegulee",
+    "title" : "Tre R401 Activite Sociale Regulee",
+    "description" : "Cette TRE hiérarchique remplace les éléments suivants :\nTRE_R280-DisciplineEquipementSocial, TRE_R298-AgregatDisciplineEquipSocNiv1, TRE_R299-AgregatDisciplineEquipSocNiv2, TRE_R300-AgregatDisciplineEquipSocNiv3 et ASS_X14_AgregatDisciplineEquipementSocial.\n\nCette TRE possède des propriétés spécifiques :\n\n1. Le niveau d'agrégat des ASOCR de 1 à 4 (du plus large au plus fin)\n2. Le parent d'un agrégat d'ASOCR ou d'une ASOCR\n3. Les relations nécessaires à la construction des JDV dynamiques associés",
+    "oids" : ["1.2.250.1.213.1.6.1.380"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
@@ -3152,7 +3152,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-bdpm",
-    "version" : "2026-05-05",
+    "version" : "2026-06-01",
     "status" : "active",
     "name" : "BDPM",
     "title" : "Base de données publique du médicament",

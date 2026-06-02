@@ -42,8 +42,8 @@
 
 ### CodeSystems
 
-* [French module](CodeSystem-900000000000207008-20260501.md)
-* [SNOMED CT core](CodeSystem-900000000000207008-20260501.md)
+* [French module](CodeSystem-900000000000207008-20260601.md)
+* [SNOMED CT core](CodeSystem-900000000000207008-20260601.md)
 * [ActMoodSupplementFr](CodeSystem-ActMood-supplement-fr.md)
 * [ActPrioritySupplementFr](CodeSystem-ActPriority-supplement-fr.md)
 * [ActStatusSupplementFr](CodeSystem-ActStatus-supplement-fr.md)

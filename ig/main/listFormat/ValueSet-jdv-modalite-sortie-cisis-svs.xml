@@ -20,13 +20,13 @@
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="retour au domicile"/>
          <Concept code="109"
-                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"
+                  codeSystem="1.2.250.1.213.1.6.1.378"
                   displayName="Etablissement de santé privé autorisé en SSR"/>
          <Concept code="127"
-                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"
+                  codeSystem="1.2.250.1.213.1.6.1.378"
                   displayName="Hospitalisation à Domicile"/>
          <Concept code="500"
-                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"
+                  codeSystem="1.2.250.1.213.1.6.1.378"
                   displayName="Etablissement d'hébergement pour personnes âgées dépendantes"/>
       </ConceptList>
    </ValueSet>
