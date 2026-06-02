@@ -79,10 +79,10 @@
   ] ; # 
   fhir:expansion [
      fhir:identifier [
-       fhir:v "urn:uuid:03334428-fcf4-4d7b-9f81-0931438664b8"^^xsd:anyURI ;
-       fhir:l <urn:uuid:03334428-fcf4-4d7b-9f81-0931438664b8>
+       fhir:v "urn:uuid:db5dd68e-56a6-4016-932d-4c45d3f055ca"^^xsd:anyURI ;
+       fhir:l <urn:uuid:db5dd68e-56a6-4016-932d-4c45d3f055ca>
      ] ;
-     fhir:timestamp [ fhir:v "2026-06-01T15:22:35+02:00"^^xsd:dateTime ] ;
+     fhir:timestamp [ fhir:v "2026-06-02T15:11:50+02:00"^^xsd:dateTime ] ;
      fhir:total [ fhir:v 81 ] ;
      fhir:parameter ( [
        fhir:name [ fhir:v "used-codesystem" ] ;

@@ -76,37 +76,6 @@
          fhir:value [ fhir:v "true" ]
        ] )
      ] )
-  ] ; # 
-  fhir:expansion [
-     fhir:identifier [
-       fhir:v "urn:uuid:9c69cbc5-712f-4bca-bd83-3b537b0c8f4d"^^xsd:anyURI ;
-       fhir:l <urn:uuid:9c69cbc5-712f-4bca-bd83-3b537b0c8f4d>
-     ] ;
-     fhir:timestamp [ fhir:v "2026-06-01T15:23:06+02:00"^^xsd:dateTime ] ;
-     fhir:total [ fhir:v 1 ] ;
-     fhir:parameter ( [
-       fhir:name [ fhir:v "used-codesystem" ] ;
-       fhir:value [
-         a fhir:Uri ;
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee|20260330120000"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee?version=20260330120000>
-       ]
-     ] [
-       fhir:name [ fhir:v "version" ] ;
-       fhir:value [
-         a fhir:Uri ;
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee|20260330120000"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee?version=20260330120000>
-       ]
-     ] ) ;
-     fhir:contains ( [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee>
-       ] ;
-       fhir:code [ fhir:v "4000" ] ;
-       fhir:display [ fhir:v "Disciplines d'équipement sociales" ]
-     ] )
   ] . # 
 
 # -------------------------------------------------------------------------------------

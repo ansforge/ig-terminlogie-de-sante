@@ -69,7 +69,7 @@ Les terminologies sont des nomenclatures officielles créées et maintenues :
 | [TRE_R209_TypeActivite](CodeSystem-TRE-R209-TypeActivite.md) | Type d'activité | 23/02/2024 | active |
 | [TRE_R20_Pays](CodeSystem-TRE-R20-Pays.md) | Référentiel des codes pays provenant du COG INSEE | 28/03/2025 | active |
 | [TRE_R210_ActeSpecifique](CodeSystem-TRE-R210-ActeSpecifique.md) |  | 01/06/2026 | active |
-| [TRE_R211_ActiviteOperationnelle](CodeSystem-TRE-R211-ActiviteOperationnelle.md) | Activite Operationnelle | 30/03/2026 | active |
+| [TRE_R211_ActiviteOperationnelle](CodeSystem-TRE-R211-ActiviteOperationnelle.md) | Activite Operationnelle | 01/06/2026 | active |
 | [TRE_R212_Equipement](CodeSystem-TRE-R212-Equipement.md) | Equipement | 01/06/2026 | active |
 | [TRE_R213_ModePriseEnCharge](CodeSystem-TRE-R213-ModePriseEnCharge.md) | Mode de la prise en charge | 30/03/2026 | active |
 | [TRE_R216_HL7RoleCode](CodeSystem-TRE-R216-HL7RoleCode.md) | HL7 roleCode | 13/12/2024 | active |
@@ -131,7 +131,7 @@ Les terminologies sont des nomenclatures officielles créées et maintenues :
 | [TRE_R276_FormeActivite](CodeSystem-TRE-R276-FormeActivite.md) | Type d'organisation de prise en charge | 29/03/2024 | active |
 | [TRE_R278_FinessConvention](CodeSystem-TRE-R278-FinessConvention.md) | Convention du domaine social FINESS | 31/01/2025 | active |
 | [TRE_R279_Clientele](CodeSystem-TRE-R279-Clientele.md) | Clientèles | 27/09/2024 | active |
-| [TRE_R280_DisciplineEquipementSocial](CodeSystem-TRE-R280-DisciplineEquipementSocial.md) | Disciplines d'équipement pour le social | 30/03/2026 | active |
+| [TRE_R280_DisciplineEquipementSocial](CodeSystem-TRE-R280-DisciplineEquipementSocial.md) | Disciplines d'équipement pour le social | 01/06/2026 | active |
 | [TRE_R281_DisciplineEnseignement](CodeSystem-TRE-R281-DisciplineEnseignement.md) | Disciplines pour l'enseignement | 29/03/2024 | active |
 | [TRE_R282_CNAMAmeliSecteurConventionnement](CodeSystem-TRE-R282-CNAMAmeliSecteurConventionnement.md) | Secteur de conventionnement du professionnel libéral par la CNAM extracts ameli | 15/12/2023 | active |
 | [TRE_R283_NiveauConfidentialite](CodeSystem-TRE-R283-NiveauConfidentialite.md) | Niveau de restriction d'accès | 05/05/2026 | active |
@@ -187,7 +187,7 @@ Les terminologies sont des nomenclatures officielles créées et maintenues :
 | [TRE_R340_TypeCaracteristiqueEquipement](CodeSystem-TRE-R340-TypeCaracteristiqueEquipement.md) | Type de caractéristique de l'équipement | 29/03/2024 | active |
 | [TRE_R341_StatutCommunication](CodeSystem-TRE-R341-StatutCommunication.md) | Permet de donner une indication pour savoir une action doit être menée ou de son résultat lorsqu'elle a été menée | 15/12/2023 | active |
 | [TRE_R342_XdsTypesIdentifiantsReferenceId](CodeSystem-TRE-R342-XdsTypesIdentifiantsReferenceId.md) | Types d'identifiants utilisés dans la métadonnée XDS referenceIdList de la fiche du document. Ces types d'identifiants sont spécifiés dans une terminologie incluse dans le profil XDS dans le Cadre Technique d'IHE IT Infrastructure. | 15/12/2023 | active |
-| [TRE_R343_FonctionLieu](CodeSystem-TRE-R343-FonctionLieu.md) | Destination d'usage du lieu | 22/12/2025 | active |
+| [TRE_R343_FonctionLieu](CodeSystem-TRE-R343-FonctionLieu.md) | Destination d'usage du lieu | 01/06/2026 | active |
 | [TRE_R344_NiveauExpertise](CodeSystem-TRE-R344-NiveauExpertise.md) | Le niveau d'expertise atteste du niveau de ressources humaines et matérielles engagées dans la réalisation de l'offre et défini dans un cahier des charges officiel. | 22/12/2025 | active |
 | [TRE_R345_TypeIdentifiantAutre](CodeSystem-TRE-R345-TypeIdentifiantAutre.md) | Autre Type d'identifiant | 29/03/2024 | active |
 | [TRE_R348_FormationSpecialiseeTransversale](CodeSystem-TRE-R348-FormationSpecialiseeTransversale.md) | Formation Spécialisée Transversale (FST) | 22/12/2025 | active |
@@ -251,7 +251,6 @@ Les terminologies sont des nomenclatures officielles créées et maintenues :
 | [TRE_R95_UsagerTitre](CodeSystem-TRE-R95-UsagerTitre.md) | Usager de titre professionnel | 13/12/2024 | active |
 | [TRE_R96_AutreFonctionSanitaire](CodeSystem-TRE-R96-AutreFonctionSanitaire.md) | Autres fonctions du domaine sanitaire | 15/12/2023 | active |
 | [TRE_R97_DroitExerciceCompl](CodeSystem-TRE-R97-DroitExerciceCompl.md) | Droit d'exercice complémentaire | 15/12/2023 | active |
-| [TreR347ActiviteSanitaireDiverseRegulee](CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.md) | Nomenclature des activités sanitaires utilisée pour décrire les Activités Sanitaires Diverses Régulées (ASDR) | 05/05/2026 | active |
 | [TreR360TypeRoleEntiteGroupe](CodeSystem-tre-r360-type-role-entite-groupe.md) | Nomenclature des types de rôles que peuvent exercer des entités participants à des groupements | 30/03/2026 | active |
 | [TreR361FonctionPublique](CodeSystem-tre-r361-fonction-publique.md) | Nomenclature des versants de la fonction publique | 30/03/2026 | active |
 | [TreR362TypeBudget](CodeSystem-tre-r362-type-budget.md) | Nomenclature des types de budget associés aux Entités Géographiques d'Exercice (EGE) dans FINESS+ | 30/03/2026 | active |
@@ -273,12 +272,7 @@ Les terminologies sont des nomenclatures officielles créées et maintenues :
 | [TreR393TypeContratSejour](CodeSystem-tre-r393-type-contrat-sejour.md) | Type de contrat conclu entre l’établissement/service et la personne/son représentant légal lors de son entrée en établissement | 21/05/2025 | active |
 | [TreR394CompetenceMetier](CodeSystem-tre-r394-competence-metier.md) | Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue. | 25/06/2025 | active |
 | [TreR396Autorite](CodeSystem-tre-r396-autorite.md) | liste des autorités structurée en plusieurs types d'autorités : Ordres, ARS, ... | 30/03/2026 | active |
-| [TreR397CategorieEntiteGeographiqueExercice](CodeSystem-tre-r397-categorie-entite-geographique-exercice.md) | Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement, TRE-R63-AgregatCategorieEtablissementNiv1, TRE-R64-AgregatCategorieEtablissementNiv2, TRE-R65-AgregatCategorieEtablissement et ASS-X10-AgregatCategorieEtablissement. Cette TRE possède des propriétésspécifiques : le niveau d'agrégat des EGE de 1 à 4 (du plus large au plus fin), le parent d'un agrégat d'EGE ou d'un EGE, la relation entre un code et le domaine ( TRE R62), un indicateur pour les EGE spécifiques au ROR ( non finess) et les relations nécessaires à la construction des JDV dynamiques associés | 05/05/2026 | active |
 | [TreR400FinessStatutJuridique](CodeSystem-tre-r400-finess-statut-juridique.md) | Cette TRE hiérarchique remplace les TRE_R68-FinessAgregatStatutJuridiqueNiv1, TRE_R69-FinessAgregatStatutJuridiqueNiv2, TRE_R70-FinessAgregatStatutJuridique, TRE_R72-FinessStatutJuridique, et l'association ASS_X11_FinessAgregatStatutJuridique. Cette TRE possède des propriétés spécifiques : le niveau d'agrégat des statuts juridiques de 1 à 4 ( du plus large au plus fin), le parent d'un agrégat de statuts juridiques ou d'un statut juridique, un indicateur pour les statuts juridiques spécifiques à RPPS ( non finess) et les relations nécessaires à la construction des JDV dynamiques associés | 23/02/2026 | active |
-| [TreR401ActiviteSocialeRegulee](CodeSystem-tre-r401-activite-sociale-regulee.md) | Cette TRE hiérarchique remplace les éléments suivants : TRE_R280-DisciplineEquipementSocial, TRE_R298-AgregatDisciplineEquipSocNiv1, TRE_R299-AgregatDisciplineEquipSocNiv2, TRE_R300-AgregatDisciplineEquipSocNiv3 et ASS_X14_AgregatDisciplineEquipementSocial.Cette TRE possède des propriétés spécifiques :1. Le niveau d'agrégat des ASOCR de 1 à 4 (du plus large au plus fin)
-1. Le parent d'un agrégat d'ASOCR ou d'une ASOCR
-1. Les relations nécessaires à la construction des JDV dynamiques associés
- | 30/03/2026 | active |
 | [TreR402ActiviteEnseignementRegulee](CodeSystem-tre-r402-activite-enseignement-regulee.md) | Liste des activités d'enseignement régulées organisée en 3 niveaux d'agrégation. Annule et remplace les anciennes TRE xxxEnseignement | 23/02/2026 | active |
 | [TreR403PublicActiviteSmsseRegulee](CodeSystem-tre-r403-public-activite-smsse-regulee.md) | Cette TRE hiérarchique remplace les TRE actuelles TRE_R279-Clientele, TRE_R293-AgregatClienteleNiv2, TRE_R294-AgregatClienteleNiv3 et l'association ASS_X13-AgregatClientele. Cette TRE possède de nouvelles propriétés : le niveau d'agrégat des publics de 1 à 3 (du plus large au plus fin), le parent d'un agrégat de publics ou d'un public ainsi que les relations nécessaires à la construction des JDV dynamiques associés | 23/02/2026 | active |
 | [TreR404ModeFonctionnemetActiviteSmsseRegulee](CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.md) | Mode de fonctinonemment des activités ssmsse régulées, remplace la TRE_R209-TypeActivite | 23/02/2026 | active |

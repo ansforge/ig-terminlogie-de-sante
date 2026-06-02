@@ -50,53 +50,5 @@
         "value" : "true"
       }]
     }]
-  },
-  "expansion" : {
-    "identifier" : "urn:uuid:2af10abf-23bf-484f-ab18-9c57a45565ab",
-    "timestamp" : "2026-06-01T15:22:50+02:00",
-    "total" : 7,
-    "parameter" : [{
-      "name" : "used-codesystem",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee|20260330120000"
-    },
-    {
-      "name" : "version",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee|20260330120000"
-    }],
-    "contains" : [{
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-      "code" : "4600",
-      "display" : "Action sociale autres adultes"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-      "code" : "4300",
-      "display" : "Adultes handicapés"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-      "code" : "4800",
-      "display" : "Aide à la famille"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-      "code" : "4900",
-      "display" : "Autres services du domaine social"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-      "code" : "4700",
-      "display" : "Enfance handicapée"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-      "code" : "4400",
-      "display" : "Personnes âgées"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-      "code" : "4500",
-      "display" : "Protection de l'enfance"
-    }]
   }
 }

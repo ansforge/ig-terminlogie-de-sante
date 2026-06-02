@@ -2742,7 +2742,7 @@
   "id" : "TRE-R211-ActiviteOperationnelle",
   "type" : "CodeSystem",
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
-  "version" : "20260330120000",
+  "version" : "20260601120000",
   "name" : "TRE_R211_ActiviteOperationnelle",
   "oids" : ["1.2.250.1.213.3.3.12"]
 },
@@ -3307,7 +3307,7 @@
   "id" : "TRE-R280-DisciplineEquipementSocial",
   "type" : "CodeSystem",
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R280-DisciplineEquipementSocial/FHIR/TRE-R280-DisciplineEquipementSocial",
-  "version" : "20260330120000",
+  "version" : "20260601120000",
   "name" : "TRE_R280_DisciplineEquipementSocial",
   "oids" : ["1.2.250.1.213.1.6.1.133"]
 },
@@ -3771,7 +3771,7 @@
   "id" : "TRE-R343-FonctionLieu",
   "type" : "CodeSystem",
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R343-FonctionLieu/FHIR/TRE-R343-FonctionLieu",
-  "version" : "20251222120000",
+  "version" : "20260601120000",
   "name" : "TRE_R343_FonctionLieu",
   "oids" : ["1.2.250.1.213.3.3.227"]
 },
@@ -4472,14 +4472,6 @@
   "name" : "TimingEventSupplementFr"
 },
 {
-  "id" : "tre-r347-activite-sanitaire-diverse-regulee",
-  "type" : "CodeSystem",
-  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
-  "version" : "20260505120000",
-  "name" : "TreR347ActiviteSanitaireDiverseRegulee",
-  "oids" : ["1.2.250.1.213.1.6.1.248"]
-},
-{
   "id" : "tre-r360-type-role-entite-groupe",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe",
@@ -4732,28 +4724,12 @@
   "oids" : ["1.2.250.1.213.1.6.1.377"]
 },
 {
-  "id" : "tre-r397-categorie-entite-geographique-exercice",
-  "type" : "CodeSystem",
-  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
-  "version" : "20260505120000",
-  "name" : "TreR397CategorieEntiteGeographiqueExercice",
-  "oids" : ["1.2.250.1.213.1.6.1.378"]
-},
-{
   "id" : "tre-r400-finess-statut-juridique",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
   "version" : "20260223120000",
   "name" : "TreR400FinessStatutJuridique",
   "oids" : ["1.2.250.1.213.1.6.1.379"]
-},
-{
-  "id" : "tre-r401-activite-sociale-regulee",
-  "type" : "CodeSystem",
-  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-  "version" : "20260330120000",
-  "name" : "TreR401ActiviteSocialeRegulee",
-  "oids" : ["1.2.250.1.213.1.6.1.380"]
 },
 {
   "id" : "tre-r402-activite-enseignement-regulee",
