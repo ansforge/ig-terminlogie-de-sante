@@ -20,7 +20,7 @@
   fhir:language [ fhir:v "fr-FR"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all</b></p><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all\"> </a><a name=\"hcvs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 1; Dernière mise à jour : 2026-03-27 11:18:15+0100; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include tous les codes définis dans <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></a><span title=\"La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\"> version ?20260223120000</span></li></ul></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all</b></p><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all\"> </a><a name=\"hcvs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 1; Dernière mise à jour : 2026-03-27 11:18:15+0100; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion basée sur <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html\">codesystem Tre R404 Mode Fonctionnemet Activite Smsse Regulee v20260223120000 (CodeSystem)</a></p><p>Ce jeu de valeur (ValueSet) contient 51 concepts</p><table class=\"codes\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage (fr-FR)</b> - French (France) (fr)</td><td><b>Inactif</b></td></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-52\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-52\">52</a></td><td>Accompagnement Social Personnalisé</td><td/></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-21\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-21\">21</a></td><td>Accueil de Jour (sans distinction entre semi-internat et externat)</td><td/></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-47\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-47\">47</a></td><td>Accueil de jour et accompagnement en milieu ordinaire</td><td/></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-22\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-22\">22</a></td><td>Accueil de Nuit</td><td/></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-10\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-10\">10</a></td><td>Accueil des Urgences</td><td>inactif</td></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-37\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-37\">37</a></td><td>Accueil et prise en charge en appartement thérapeutique</td><td/></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-39\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-39\">39</a></td><td>Accueil et prise en charge en centre de crise psychiatrique</td><td>inactif</td></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-38\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-38\">38</a></td><td>Accueil et prise en charge en centre de postcure</td><td>inactif</td></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-24\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-24\">24</a></td><td>Accueil familial Thérapeutique</td><td>inactif</td></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-27\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-27\">27</a></td><td>Accueil modulable/séquentiel</td><td/></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-45\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-45\">45</a></td><td>Accueil temporaire (avec et sans hébergement)</td><td/></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-40\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-40\">40</a></td><td>Accueil temporaire avec hébergement</td><td/></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-44\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-44\">44</a></td><td>Accueil temporaire de jour</td><td/></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-25\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-25\">25</a></td><td>Accueil Temporaire Week-End Vacances</td><td>inactif</td></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-01\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-01\">01</a></td><td>Administration</td><td/></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-51\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-51\">51</a></td><td>Aide Judiciaire à la Gestion du Budget Familial</td><td/></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-26\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-26\">26</a></td><td>Analyses médicales biologiques</td><td/></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-23\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-23\">23</a></td><td>Anesthésie Chirurgie Ambulatoire</td><td>inactif</td></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-09\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-09\">09</a></td><td>Autre unité médico-tech (anesthé, explor fonct, rééduc et réadapt fonct, pharma)</td><td/></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-08\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-08\">08</a></td><td>Bloc opératoire (y compris obstétrical et gynécologique)</td><td/></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-07\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-07\">07</a></td><td>Consultation Soins Externes</td><td/></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-28\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-28\">28</a></td><td>Consultations dentaires et soins dentaires</td><td/></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-60\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-60\">60</a></td><td>Consultations et actes</td><td/></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-34\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-34\">34</a></td><td>Enseignement</td><td/></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-42\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-42\">42</a></td><td>Equipe mobile de rue</td><td/></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-14\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-14\">14</a></td><td>Externat</td><td/></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-03\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-03\">03</a></td><td>Hospitalisation complète (non compris hospitalisation de semaine)</td><td/></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-04\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-04\">04</a></td><td>Hospitalisation de Jour</td><td/></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-05\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-05\">05</a></td><td>Hospitalisation de Nuit</td><td>inactif</td></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-20\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-20\">20</a></td><td>Hospitalisation de Semaine</td><td/></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-06\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-06\">06</a></td><td>Hospitalisation à Domicile</td><td>inactif</td></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-11\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-11\">11</a></td><td>Hébergement complet ou internat (non compris internat de semaine)</td><td/></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-18\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-18\">18</a></td><td>Hébergement de Nuit Eclaté</td><td/></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-12\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-12\">12</a></td><td>Hébergement de Nuit Regroupé</td><td>inactif</td></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-53\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-53\">53</a></td><td>Information des Tuteurs Familiaux</td><td/></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-17\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-17\">17</a></td><td>Internat de Semaine</td><td/></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-41\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-41\">41</a></td><td>Permanence téléphonique</td><td/></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-15\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-15\">15</a></td><td>Placement en famille d'accueil (strictement social)</td><td/></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-16\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-16\">16</a></td><td>Prestations sur le lieu de vie (non compris placement familial)</td><td/></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-50\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-50\">50</a></td><td>Protection Juridique</td><td/></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-32\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-32\">32</a></td><td>Radiologie</td><td>inactif</td></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-33\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-33\">33</a></td><td>Recherche</td><td/></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-99\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-99\">99</a></td><td>Regroupement Calcules (Annexes XXIV)</td><td>inactif</td></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-13\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-13\">13</a></td><td>Semi-Internat</td><td/></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-30\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-30\">30</a></td><td>Stockage Organes et Produits Humains</td><td/></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-46\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-46\">46</a></td><td>Tous modes d'accueil (avec et sans hébergement)</td><td/></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-43\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-43\">43</a></td><td>Tous modes d'accueil avec hébergement</td><td/></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-48\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-48\">48</a></td><td>Tous modes d'accueil et d'accompagnement</td><td/></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-19\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-19\">19</a></td><td>Traitement et Cure Ambulatoire</td><td/></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-31\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-31\">31</a></td><td>Transport de Malades</td><td/></tr><tr><td><a name=\"vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee-97\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html#tre-r404-mode-fonctionnement-activite-smsse-regulee-97\">97</a></td><td>Type d'activité indifferencié</td><td/></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
      fhir:url [
@@ -59,6 +59,574 @@
          fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
          fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
        ]
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:identifier [
+       fhir:v "urn:uuid:fa824bb3-8a38-4773-a058-8a41f30ee3ca"^^xsd:anyURI ;
+       fhir:l <urn:uuid:fa824bb3-8a38-4773-a058-8a41f30ee3ca>
+     ] ;
+     fhir:timestamp [ fhir:v "2026-06-03T09:32:09+02:00"^^xsd:dateTime ] ;
+     fhir:total [ fhir:v 51 ] ;
+     fhir:parameter ( [
+       fhir:name [ fhir:v "used-codesystem" ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee|20260223120000"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee?version=20260223120000>
+       ]
+     ] [
+       fhir:name [ fhir:v "version" ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee|20260223120000"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee?version=20260223120000>
+       ]
+     ] ) ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "52" ] ;
+       fhir:display [ fhir:v "Accompagnement Social Personnalisé" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "21" ] ;
+       fhir:display [ fhir:v "Accueil de Jour (sans distinction entre semi-internat et externat)" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "47" ] ;
+       fhir:display [ fhir:v "Accueil de jour et accompagnement en milieu ordinaire" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "22" ] ;
+       fhir:display [ fhir:v "Accueil de Nuit" ]
+     ] [
+       fhir:extension ( [
+         fhir:extension ( [
+           fhir:url [
+             fhir:v "inactive"^^xsd:anyURI ;
+             fhir:l fhir:inactive
+           ] ;
+           fhir:value [
+             a fhir:Boolean ;
+             fhir:v true
+           ]
+         ] ) ;
+         fhir:url [
+           fhir:v "http://ontoserver.csiro.au/profiles/expansion"^^xsd:anyURI ;
+           fhir:l <http://ontoserver.csiro.au/profiles/expansion>
+         ]
+       ] ) ;
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:inactive [ fhir:v true ] ;
+       fhir:code [ fhir:v "10" ] ;
+       fhir:display [ fhir:v "Accueil des Urgences" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "37" ] ;
+       fhir:display [ fhir:v "Accueil et prise en charge en appartement thérapeutique" ]
+     ] [
+       fhir:extension ( [
+         fhir:extension ( [
+           fhir:url [
+             fhir:v "inactive"^^xsd:anyURI ;
+             fhir:l fhir:inactive
+           ] ;
+           fhir:value [
+             a fhir:Boolean ;
+             fhir:v true
+           ]
+         ] ) ;
+         fhir:url [
+           fhir:v "http://ontoserver.csiro.au/profiles/expansion"^^xsd:anyURI ;
+           fhir:l <http://ontoserver.csiro.au/profiles/expansion>
+         ]
+       ] ) ;
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:inactive [ fhir:v true ] ;
+       fhir:code [ fhir:v "39" ] ;
+       fhir:display [ fhir:v "Accueil et prise en charge en centre de crise psychiatrique" ]
+     ] [
+       fhir:extension ( [
+         fhir:extension ( [
+           fhir:url [
+             fhir:v "inactive"^^xsd:anyURI ;
+             fhir:l fhir:inactive
+           ] ;
+           fhir:value [
+             a fhir:Boolean ;
+             fhir:v true
+           ]
+         ] ) ;
+         fhir:url [
+           fhir:v "http://ontoserver.csiro.au/profiles/expansion"^^xsd:anyURI ;
+           fhir:l <http://ontoserver.csiro.au/profiles/expansion>
+         ]
+       ] ) ;
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:inactive [ fhir:v true ] ;
+       fhir:code [ fhir:v "38" ] ;
+       fhir:display [ fhir:v "Accueil et prise en charge en centre de postcure" ]
+     ] [
+       fhir:extension ( [
+         fhir:extension ( [
+           fhir:url [
+             fhir:v "inactive"^^xsd:anyURI ;
+             fhir:l fhir:inactive
+           ] ;
+           fhir:value [
+             a fhir:Boolean ;
+             fhir:v true
+           ]
+         ] ) ;
+         fhir:url [
+           fhir:v "http://ontoserver.csiro.au/profiles/expansion"^^xsd:anyURI ;
+           fhir:l <http://ontoserver.csiro.au/profiles/expansion>
+         ]
+       ] ) ;
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:inactive [ fhir:v true ] ;
+       fhir:code [ fhir:v "24" ] ;
+       fhir:display [ fhir:v "Accueil familial Thérapeutique" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "27" ] ;
+       fhir:display [ fhir:v "Accueil modulable/séquentiel" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "45" ] ;
+       fhir:display [ fhir:v "Accueil temporaire (avec et sans hébergement)" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "40" ] ;
+       fhir:display [ fhir:v "Accueil temporaire avec hébergement" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "44" ] ;
+       fhir:display [ fhir:v "Accueil temporaire de jour" ]
+     ] [
+       fhir:extension ( [
+         fhir:extension ( [
+           fhir:url [
+             fhir:v "inactive"^^xsd:anyURI ;
+             fhir:l fhir:inactive
+           ] ;
+           fhir:value [
+             a fhir:Boolean ;
+             fhir:v true
+           ]
+         ] ) ;
+         fhir:url [
+           fhir:v "http://ontoserver.csiro.au/profiles/expansion"^^xsd:anyURI ;
+           fhir:l <http://ontoserver.csiro.au/profiles/expansion>
+         ]
+       ] ) ;
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:inactive [ fhir:v true ] ;
+       fhir:code [ fhir:v "25" ] ;
+       fhir:display [ fhir:v "Accueil Temporaire Week-End Vacances" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "01" ] ;
+       fhir:display [ fhir:v "Administration" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "51" ] ;
+       fhir:display [ fhir:v "Aide Judiciaire à la Gestion du Budget Familial" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "26" ] ;
+       fhir:display [ fhir:v "Analyses médicales biologiques" ]
+     ] [
+       fhir:extension ( [
+         fhir:extension ( [
+           fhir:url [
+             fhir:v "inactive"^^xsd:anyURI ;
+             fhir:l fhir:inactive
+           ] ;
+           fhir:value [
+             a fhir:Boolean ;
+             fhir:v true
+           ]
+         ] ) ;
+         fhir:url [
+           fhir:v "http://ontoserver.csiro.au/profiles/expansion"^^xsd:anyURI ;
+           fhir:l <http://ontoserver.csiro.au/profiles/expansion>
+         ]
+       ] ) ;
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:inactive [ fhir:v true ] ;
+       fhir:code [ fhir:v "23" ] ;
+       fhir:display [ fhir:v "Anesthésie Chirurgie Ambulatoire" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "09" ] ;
+       fhir:display [ fhir:v "Autre unité médico-tech (anesthé, explor fonct, rééduc et réadapt fonct, pharma)" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "08" ] ;
+       fhir:display [ fhir:v "Bloc opératoire (y compris obstétrical et gynécologique)" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "07" ] ;
+       fhir:display [ fhir:v "Consultation Soins Externes" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "28" ] ;
+       fhir:display [ fhir:v "Consultations dentaires et soins dentaires" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "60" ] ;
+       fhir:display [ fhir:v "Consultations et actes" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "34" ] ;
+       fhir:display [ fhir:v "Enseignement" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "42" ] ;
+       fhir:display [ fhir:v "Equipe mobile de rue" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "14" ] ;
+       fhir:display [ fhir:v "Externat" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "03" ] ;
+       fhir:display [ fhir:v "Hospitalisation complète (non compris hospitalisation de semaine)" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "04" ] ;
+       fhir:display [ fhir:v "Hospitalisation de Jour" ]
+     ] [
+       fhir:extension ( [
+         fhir:extension ( [
+           fhir:url [
+             fhir:v "inactive"^^xsd:anyURI ;
+             fhir:l fhir:inactive
+           ] ;
+           fhir:value [
+             a fhir:Boolean ;
+             fhir:v true
+           ]
+         ] ) ;
+         fhir:url [
+           fhir:v "http://ontoserver.csiro.au/profiles/expansion"^^xsd:anyURI ;
+           fhir:l <http://ontoserver.csiro.au/profiles/expansion>
+         ]
+       ] ) ;
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:inactive [ fhir:v true ] ;
+       fhir:code [ fhir:v "05" ] ;
+       fhir:display [ fhir:v "Hospitalisation de Nuit" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "20" ] ;
+       fhir:display [ fhir:v "Hospitalisation de Semaine" ]
+     ] [
+       fhir:extension ( [
+         fhir:extension ( [
+           fhir:url [
+             fhir:v "inactive"^^xsd:anyURI ;
+             fhir:l fhir:inactive
+           ] ;
+           fhir:value [
+             a fhir:Boolean ;
+             fhir:v true
+           ]
+         ] ) ;
+         fhir:url [
+           fhir:v "http://ontoserver.csiro.au/profiles/expansion"^^xsd:anyURI ;
+           fhir:l <http://ontoserver.csiro.au/profiles/expansion>
+         ]
+       ] ) ;
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:inactive [ fhir:v true ] ;
+       fhir:code [ fhir:v "06" ] ;
+       fhir:display [ fhir:v "Hospitalisation à Domicile" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "11" ] ;
+       fhir:display [ fhir:v "Hébergement complet ou internat (non compris internat de semaine)" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "18" ] ;
+       fhir:display [ fhir:v "Hébergement de Nuit Eclaté" ]
+     ] [
+       fhir:extension ( [
+         fhir:extension ( [
+           fhir:url [
+             fhir:v "inactive"^^xsd:anyURI ;
+             fhir:l fhir:inactive
+           ] ;
+           fhir:value [
+             a fhir:Boolean ;
+             fhir:v true
+           ]
+         ] ) ;
+         fhir:url [
+           fhir:v "http://ontoserver.csiro.au/profiles/expansion"^^xsd:anyURI ;
+           fhir:l <http://ontoserver.csiro.au/profiles/expansion>
+         ]
+       ] ) ;
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:inactive [ fhir:v true ] ;
+       fhir:code [ fhir:v "12" ] ;
+       fhir:display [ fhir:v "Hébergement de Nuit Regroupé" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "53" ] ;
+       fhir:display [ fhir:v "Information des Tuteurs Familiaux" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "17" ] ;
+       fhir:display [ fhir:v "Internat de Semaine" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "41" ] ;
+       fhir:display [ fhir:v "Permanence téléphonique" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "15" ] ;
+       fhir:display [ fhir:v "Placement en famille d'accueil (strictement social)" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "16" ] ;
+       fhir:display [ fhir:v "Prestations sur le lieu de vie (non compris placement familial)" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "50" ] ;
+       fhir:display [ fhir:v "Protection Juridique" ]
+     ] [
+       fhir:extension ( [
+         fhir:extension ( [
+           fhir:url [
+             fhir:v "inactive"^^xsd:anyURI ;
+             fhir:l fhir:inactive
+           ] ;
+           fhir:value [
+             a fhir:Boolean ;
+             fhir:v true
+           ]
+         ] ) ;
+         fhir:url [
+           fhir:v "http://ontoserver.csiro.au/profiles/expansion"^^xsd:anyURI ;
+           fhir:l <http://ontoserver.csiro.au/profiles/expansion>
+         ]
+       ] ) ;
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:inactive [ fhir:v true ] ;
+       fhir:code [ fhir:v "32" ] ;
+       fhir:display [ fhir:v "Radiologie" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "33" ] ;
+       fhir:display [ fhir:v "Recherche" ]
+     ] [
+       fhir:extension ( [
+         fhir:extension ( [
+           fhir:url [
+             fhir:v "inactive"^^xsd:anyURI ;
+             fhir:l fhir:inactive
+           ] ;
+           fhir:value [
+             a fhir:Boolean ;
+             fhir:v true
+           ]
+         ] ) ;
+         fhir:url [
+           fhir:v "http://ontoserver.csiro.au/profiles/expansion"^^xsd:anyURI ;
+           fhir:l <http://ontoserver.csiro.au/profiles/expansion>
+         ]
+       ] ) ;
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:inactive [ fhir:v true ] ;
+       fhir:code [ fhir:v "99" ] ;
+       fhir:display [ fhir:v "Regroupement Calcules (Annexes XXIV)" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "13" ] ;
+       fhir:display [ fhir:v "Semi-Internat" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "30" ] ;
+       fhir:display [ fhir:v "Stockage Organes et Produits Humains" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "46" ] ;
+       fhir:display [ fhir:v "Tous modes d'accueil (avec et sans hébergement)" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "43" ] ;
+       fhir:display [ fhir:v "Tous modes d'accueil avec hébergement" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "48" ] ;
+       fhir:display [ fhir:v "Tous modes d'accueil et d'accompagnement" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "19" ] ;
+       fhir:display [ fhir:v "Traitement et Cure Ambulatoire" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "31" ] ;
+       fhir:display [ fhir:v "Transport de Malades" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "97" ] ;
+       fhir:display [ fhir:v "Type d'activité indifferencié" ]
      ] )
   ] . # 
 

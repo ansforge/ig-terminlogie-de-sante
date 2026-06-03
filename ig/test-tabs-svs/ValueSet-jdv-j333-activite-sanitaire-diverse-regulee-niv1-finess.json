@@ -45,5 +45,64 @@
         "value" : "1"
       }]
     }]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:ea0222c5-8b0e-4c03-8351-16c89965cabc",
+    "timestamp" : "2026-06-03T09:32:09+02:00",
+    "total" : 6,
+    "parameter" : [{
+      "name" : "used-codesystem",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee|20260601120000"
+    },
+    {
+      "name" : "version",
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee|20260601120000"
+    }],
+    "contains" : [{
+      "extension" : [{
+        "extension" : [{
+          "url" : "inactive",
+          "valueBoolean" : true
+        }],
+        "url" : "http://ontoserver.csiro.au/profiles/expansion"
+      }],
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "inactive" : true,
+      "code" : "0500",
+      "display" : "Accueil et Réception des Urgences"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "0600",
+      "display" : "Autres Disciplines Sanitaires"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "0400",
+      "display" : "Disciplines Médico-Techniques"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "0300",
+      "display" : "Disciplines Spécifiques"
+    },
+    {
+      "extension" : [{
+        "extension" : [{
+          "url" : "inactive",
+          "valueBoolean" : true
+        }],
+        "url" : "http://ontoserver.csiro.au/profiles/expansion"
+      }],
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "inactive" : true,
+      "code" : "0200",
+      "display" : "Hospitalisation"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "0800",
+      "display" : "Lutte contre les Toxicomanies"
+    }]
   }
 }

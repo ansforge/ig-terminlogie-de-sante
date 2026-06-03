@@ -336,6 +336,30 @@
 <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.filter.property">fhir:property</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;finess&quot; ] ;
 <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.filter.op">fhir:op</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;=&quot; ] ;
 <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.filter.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;true&quot; ]       ] )     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion">fhir:expansion</a> [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.identifier">fhir:identifier</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;urn:uuid:785a50e0-6b20-4a01-9edc-e4c367eaf6d2&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;urn:uuid:785a50e0-6b20-4a01-9edc-e4c367eaf6d2&gt;     ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.timestamp">fhir:timestamp</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2026-06-03T09:31:44+02:00&quot;^^xsd:dateTime ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.total">fhir:total</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#integer">fhir:v</a> 1 ] ;
+    ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter">fhir:parameter</a> [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;used-codesystem&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">a</a> fhir:Uri ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee|20260601120000&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee?version=20260601120000&gt;       ]     ] [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;version&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">a</a> fhir:Uri ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee|20260601120000&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee?version=20260601120000&gt;       ]     ] ) ;
+    ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">fhir:contains</a> [
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:system</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&gt;       ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;4000&quot; ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Disciplines d'équipement sociales&quot; ]     ] )
   ] . # 
 
 </code></pre>
@@ -385,7 +409,7 @@
 
 <div class="inner-wrapper">
   <p>
-    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.9.3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Jun 2, 2026 13:13+0000">2026-06-02</span>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.9.3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jun 3, 2026 07:33+0000">2026-06-03</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

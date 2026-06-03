@@ -1,3 +1,55 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>  
 1.2.250.1.213.1.6.1.343;JDV;JdvJ335ActiviteSanitaireDiverseReguleeNiv3Finess.tabs;Jeu de valeurs Finess contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 3;;20260505180228;;20260505180228
 <OID>;<Code>;<Libellé>
+1.2.250.1.213.1.6.1.248;0351;Aide aux Insuffisants Respiratoires
+1.2.250.1.213.1.6.1.248;0471;Analyses Médicales Biologiques
+1.2.250.1.213.1.6.1.248;0421;Anesthésiologie et Réveil
+1.2.250.1.213.1.6.1.248;0661;Autres Disciplines
+1.2.250.1.213.1.6.1.248;0361;Autres Traitements Spécialisés à Domicile
+1.2.250.1.213.1.6.1.248;0411;Blocs Opératoires et Obstétricaux
+1.2.250.1.213.1.6.1.248;0321;Chimiothérapie
+1.2.250.1.213.1.6.1.248;0221;Chirurgie Générale
+1.2.250.1.213.1.6.1.248;0222;Chirurgie Infantile
+1.2.250.1.213.1.6.1.248;0262;Convalescence, Repos, Régime
+1.2.250.1.213.1.6.1.248;0266;Cures Médicales
+1.2.250.1.213.1.6.1.248;0267;Cures Médicales pour Enfants
+1.2.250.1.213.1.6.1.248;0265;Cures Thermales
+1.2.250.1.213.1.6.1.248;0311;Dialyse
+1.2.250.1.213.1.6.1.248;0381;disciplines de cures thermales
+1.2.250.1.213.1.6.1.248;0641;Enseignement
+1.2.250.1.213.1.6.1.248;0341;Examens Systématique et Dépistage
+1.2.250.1.213.1.6.1.248;0451;Exploration Fonctionnelle
+1.2.250.1.213.1.6.1.248;0231;Gynécologie Obstétrique
+1.2.250.1.213.1.6.1.248;0331;Hospitalisation de Jour en Gynéco-Obstétrique
+1.2.250.1.213.1.6.1.248;0431;Imagerie
+1.2.250.1.213.1.6.1.248;0821;Lutte contre l'Alcoolisme
+1.2.250.1.213.1.6.1.248;0264;Lutte contre la Tuberculose et les Maladies Respiratoires
+1.2.250.1.213.1.6.1.248;0811;Lutte contre les Toxicomanies
+1.2.250.1.213.1.6.1.248;0261;Maladie à Evolution Prolongée
+1.2.250.1.213.1.6.1.248;0211;Médecine Générale
+1.2.250.1.213.1.6.1.248;0241;Neuro-chirurgie
+1.2.250.1.213.1.6.1.248;0481;Pharmacie et autres biens médicaux
+1.2.250.1.213.1.6.1.248;0268;Post-Cure pour Alcooliques
+1.2.250.1.213.1.6.1.248;0342;Prévention et Conseil
+1.2.250.1.213.1.6.1.248;0281;Psychiatrie Adulte
+1.2.250.1.213.1.6.1.248;0372;psychiatrie en milieu pénitentiaire
+1.2.250.1.213.1.6.1.248;0291;Psychiatrie Infanto-juvénile
+1.2.250.1.213.1.6.1.248;0212;Pédiatrie
+1.2.250.1.213.1.6.1.248;0441;Radiothérapie
+1.2.250.1.213.1.6.1.248;0642;Recherche
+1.2.250.1.213.1.6.1.248;0224;Réanimation Chirurgicale
+1.2.250.1.213.1.6.1.248;0214;Réanimation Médicale
+1.2.250.1.213.1.6.1.248;0263;Rééducation Fonctionnelle et Réadaptation
+1.2.250.1.213.1.6.1.248;0531;SAMU - SMUR
+1.2.250.1.213.1.6.1.248;0271;Soins de Longue Durée
+1.2.250.1.213.1.6.1.248;0343;Soins Divers
+1.2.250.1.213.1.6.1.248;0223;Spécialités Chirurgicales
+1.2.250.1.213.1.6.1.248;0213;Spécialités Médicales
+1.2.250.1.213.1.6.1.248;0631;Stockage d'Organes et de Produits Humains
+1.2.250.1.213.1.6.1.248;0371;structures de psychiatrie sans hébergement
+1.2.250.1.213.1.6.1.248;0225;Surveillance Continue Chirurgicale
+1.2.250.1.213.1.6.1.248;0215;Surveillance Continue Médicale
+1.2.250.1.213.1.6.1.248;0461;Techniques de Rééducation et de Réadaptation Fonctionnelle
+1.2.250.1.213.1.6.1.248;0621;Transport des Malades
+1.2.250.1.213.1.6.1.248;0511;Urgence
+1.2.250.1.213.1.6.1.248;0521;Urgence Chirurgicale

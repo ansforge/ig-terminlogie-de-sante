@@ -20,7 +20,7 @@
   fhir:language [ fhir:v "fr-FR"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs vs-tre-r381-activite-amm-all</b></p><a name=\"vs-tre-r381-activite-amm-all\"> </a><a name=\"hcvs-tre-r381-activite-amm-all\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 1; Dernière mise à jour : 2026-03-27 11:18:13+0100; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include tous les codes définis dans <a href=\"CodeSystem-tre-r381-activite-amm.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm</code></a><span title=\"La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\"> version ?20260330120000</span></li></ul></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs vs-tre-r381-activite-amm-all</b></p><a name=\"vs-tre-r381-activite-amm-all\"> </a><a name=\"hcvs-tre-r381-activite-amm-all\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 1; Dernière mise à jour : 2026-03-27 11:18:13+0100; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion basée sur <a href=\"CodeSystem-tre-r381-activite-amm.html\">codesystem Tre R381 Activite Amm v20260330120000 (CodeSystem)</a></p><p>Ce jeu de valeur (ValueSet) contient 25 concepts</p><table class=\"codes\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage (fr-FR)</b> - French (France) (fr)</td></tr><tr><td><a name=\"vs-tre-r381-activite-amm-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm-QA011\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r381-activite-amm.html#tre-r381-activite-amm-QA011\">QA011</a></td><td>Activité interventionnelle sous imagerie médicale en cardiologie</td></tr><tr><td><a name=\"vs-tre-r381-activite-amm-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm-QA013\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r381-activite-amm.html#tre-r381-activite-amm-QA013\">QA013</a></td><td>Activité interventionnelle sous imagerie médicale en neuroradiologie</td></tr><tr><td><a name=\"vs-tre-r381-activite-amm-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm-QA017\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r381-activite-amm.html#tre-r381-activite-amm-QA017\">QA017</a></td><td>AMP</td></tr><tr><td><a name=\"vs-tre-r381-activite-amm-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm-QEML2\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r381-activite-amm.html#tre-r381-activite-amm-QEML2\">QEML2</a></td><td>Caisson hyperbare</td></tr><tr><td><a name=\"vs-tre-r381-activite-amm-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm-QA010\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r381-activite-amm.html#tre-r381-activite-amm-QA010\">QA010</a></td><td>Chirugie cardiaque</td></tr><tr><td><a name=\"vs-tre-r381-activite-amm-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm-QA002\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r381-activite-amm.html#tre-r381-activite-amm-QA002\">QA002</a></td><td>Chirurgie</td></tr><tr><td><a name=\"vs-tre-r381-activite-amm-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm-QEML3\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r381-activite-amm.html#tre-r381-activite-amm-QEML3\">QEML3</a></td><td>Cyclotron à utilisation médicale</td></tr><tr><td><a name=\"vs-tre-r381-activite-amm-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm-QA021\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r381-activite-amm.html#tre-r381-activite-amm-QA021\">QA021</a></td><td>DPN</td></tr><tr><td><a name=\"vs-tre-r381-activite-amm-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm-QA009\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r381-activite-amm.html#tre-r381-activite-amm-QA009\">QA009</a></td><td>Grands Brûlés</td></tr><tr><td><a name=\"vs-tre-r381-activite-amm-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm-QA080\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r381-activite-amm.html#tre-r381-activite-amm-QA080\">QA080</a></td><td>Greffe</td></tr><tr><td><a name=\"vs-tre-r381-activite-amm-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm-QA003\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r381-activite-amm.html#tre-r381-activite-amm-QA003\">QA003</a></td><td>Gynécologique-Obstétrique, Néonatologie, Réanimation néonatale</td></tr><tr><td><a name=\"vs-tre-r381-activite-amm-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm-QA019\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r381-activite-amm.html#tre-r381-activite-amm-QA019\">QA019</a></td><td>Génétique</td></tr><tr><td><a name=\"vs-tre-r381-activite-amm-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm-QA020\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r381-activite-amm.html#tre-r381-activite-amm-QA020\">QA020</a></td><td>Hospitalisation à domicile</td></tr><tr><td><a name=\"vs-tre-r381-activite-amm-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm-QA001\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r381-activite-amm.html#tre-r381-activite-amm-QA001\">QA001</a></td><td>Médecine</td></tr><tr><td><a name=\"vs-tre-r381-activite-amm-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm-QA014\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r381-activite-amm.html#tre-r381-activite-amm-QA014\">QA014</a></td><td>Médecine d'urgence</td></tr><tr><td><a name=\"vs-tre-r381-activite-amm-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm-QA040\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r381-activite-amm.html#tre-r381-activite-amm-QA040\">QA040</a></td><td>Médecine nucléaire</td></tr><tr><td><a name=\"vs-tre-r381-activite-amm-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm-QA012\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r381-activite-amm.html#tre-r381-activite-amm-QA012\">QA012</a></td><td>Neurochirurgie</td></tr><tr><td><a name=\"vs-tre-r381-activite-amm-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm-QA004\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r381-activite-amm.html#tre-r381-activite-amm-QA004\">QA004</a></td><td>Psychiatrie</td></tr><tr><td><a name=\"vs-tre-r381-activite-amm-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm-QEML1\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r381-activite-amm.html#tre-r381-activite-amm-QEML1\">QEML1</a></td><td>Radiologie diagnostique</td></tr><tr><td><a name=\"vs-tre-r381-activite-amm-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm-QA030\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r381-activite-amm.html#tre-r381-activite-amm-QA030\">QA030</a></td><td>Radiologie interventionnelle</td></tr><tr><td><a name=\"vs-tre-r381-activite-amm-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm-QA015\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r381-activite-amm.html#tre-r381-activite-amm-QA015\">QA015</a></td><td>Soins critiques</td></tr><tr><td><a name=\"vs-tre-r381-activite-amm-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm-QA007\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r381-activite-amm.html#tre-r381-activite-amm-QA007\">QA007</a></td><td>Soins de longue durée</td></tr><tr><td><a name=\"vs-tre-r381-activite-amm-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm-QA050\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r381-activite-amm.html#tre-r381-activite-amm-QA050\">QA050</a></td><td>Soins médicaux et de réadaptation</td></tr><tr><td><a name=\"vs-tre-r381-activite-amm-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm-QA016\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r381-activite-amm.html#tre-r381-activite-amm-QA016\">QA016</a></td><td>Traitement de l'insuffisance rénale chronique par épuration extrarénale</td></tr><tr><td><a name=\"vs-tre-r381-activite-amm-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm-QA018\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r381-activite-amm.html#tre-r381-activite-amm-QA018\">QA018</a></td><td>Traitement du cancer</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
      fhir:url [
@@ -59,6 +59,205 @@
          fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm"^^xsd:anyURI ;
          fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm>
        ]
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:identifier [
+       fhir:v "urn:uuid:a207f981-9437-4541-94b1-bee5a66b9298"^^xsd:anyURI ;
+       fhir:l <urn:uuid:a207f981-9437-4541-94b1-bee5a66b9298>
+     ] ;
+     fhir:timestamp [ fhir:v "2026-06-03T09:31:02+02:00"^^xsd:dateTime ] ;
+     fhir:total [ fhir:v 25 ] ;
+     fhir:parameter ( [
+       fhir:name [ fhir:v "used-codesystem" ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm|20260330120000"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm?version=20260330120000>
+       ]
+     ] [
+       fhir:name [ fhir:v "version" ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm|20260330120000"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm?version=20260330120000>
+       ]
+     ] ) ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm>
+       ] ;
+       fhir:code [ fhir:v "QA011" ] ;
+       fhir:display [ fhir:v "Activité interventionnelle sous imagerie médicale en cardiologie" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm>
+       ] ;
+       fhir:code [ fhir:v "QA013" ] ;
+       fhir:display [ fhir:v "Activité interventionnelle sous imagerie médicale en neuroradiologie" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm>
+       ] ;
+       fhir:code [ fhir:v "QA017" ] ;
+       fhir:display [ fhir:v "AMP" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm>
+       ] ;
+       fhir:code [ fhir:v "QEML2" ] ;
+       fhir:display [ fhir:v "Caisson hyperbare" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm>
+       ] ;
+       fhir:code [ fhir:v "QA010" ] ;
+       fhir:display [ fhir:v "Chirugie cardiaque" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm>
+       ] ;
+       fhir:code [ fhir:v "QA002" ] ;
+       fhir:display [ fhir:v "Chirurgie" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm>
+       ] ;
+       fhir:code [ fhir:v "QEML3" ] ;
+       fhir:display [ fhir:v "Cyclotron à utilisation médicale" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm>
+       ] ;
+       fhir:code [ fhir:v "QA021" ] ;
+       fhir:display [ fhir:v "DPN" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm>
+       ] ;
+       fhir:code [ fhir:v "QA009" ] ;
+       fhir:display [ fhir:v "Grands Brûlés" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm>
+       ] ;
+       fhir:code [ fhir:v "QA080" ] ;
+       fhir:display [ fhir:v "Greffe" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm>
+       ] ;
+       fhir:code [ fhir:v "QA003" ] ;
+       fhir:display [ fhir:v "Gynécologique-Obstétrique, Néonatologie, Réanimation néonatale" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm>
+       ] ;
+       fhir:code [ fhir:v "QA019" ] ;
+       fhir:display [ fhir:v "Génétique" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm>
+       ] ;
+       fhir:code [ fhir:v "QA020" ] ;
+       fhir:display [ fhir:v "Hospitalisation à domicile" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm>
+       ] ;
+       fhir:code [ fhir:v "QA001" ] ;
+       fhir:display [ fhir:v "Médecine" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm>
+       ] ;
+       fhir:code [ fhir:v "QA014" ] ;
+       fhir:display [ fhir:v "Médecine d'urgence" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm>
+       ] ;
+       fhir:code [ fhir:v "QA040" ] ;
+       fhir:display [ fhir:v "Médecine nucléaire" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm>
+       ] ;
+       fhir:code [ fhir:v "QA012" ] ;
+       fhir:display [ fhir:v "Neurochirurgie" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm>
+       ] ;
+       fhir:code [ fhir:v "QA004" ] ;
+       fhir:display [ fhir:v "Psychiatrie" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm>
+       ] ;
+       fhir:code [ fhir:v "QEML1" ] ;
+       fhir:display [ fhir:v "Radiologie diagnostique" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm>
+       ] ;
+       fhir:code [ fhir:v "QA030" ] ;
+       fhir:display [ fhir:v "Radiologie interventionnelle" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm>
+       ] ;
+       fhir:code [ fhir:v "QA015" ] ;
+       fhir:display [ fhir:v "Soins critiques" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm>
+       ] ;
+       fhir:code [ fhir:v "QA007" ] ;
+       fhir:display [ fhir:v "Soins de longue durée" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm>
+       ] ;
+       fhir:code [ fhir:v "QA050" ] ;
+       fhir:display [ fhir:v "Soins médicaux et de réadaptation" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm>
+       ] ;
+       fhir:code [ fhir:v "QA016" ] ;
+       fhir:display [ fhir:v "Traitement de l'insuffisance rénale chronique par épuration extrarénale" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm>
+       ] ;
+       fhir:code [ fhir:v "QA018" ] ;
+       fhir:display [ fhir:v "Traitement du cancer" ]
      ] )
   ] . # 
 

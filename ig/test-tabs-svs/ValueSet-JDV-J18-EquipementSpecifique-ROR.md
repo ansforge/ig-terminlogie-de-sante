@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J18-EquipementSpecifique-ROR",
   "meta" : {
-    "versionId" : "19",
-    "lastUpdated" : "2026-05-29T13:18:06.328+02:00",
+    "versionId" : "20",
+    "lastUpdated" : "2026-06-02T15:19:01.594+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

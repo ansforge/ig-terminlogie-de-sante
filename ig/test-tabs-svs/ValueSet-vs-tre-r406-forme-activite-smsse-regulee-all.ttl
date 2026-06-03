@@ -20,7 +20,7 @@
   fhir:language [ fhir:v "fr-FR"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs vs-tre-r406-forme-activite-smsse-regulee-all</b></p><a name=\"vs-tre-r406-forme-activite-smsse-regulee-all\"> </a><a name=\"hcvs-tre-r406-forme-activite-smsse-regulee-all\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 1; Dernière mise à jour : 2026-03-27 11:18:15+0100; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include tous les codes définis dans <a href=\"CodeSystem-tre-r406-forme-activite-smsse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee</code></a><span title=\"La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\"> version ?20260223120000</span></li></ul></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs vs-tre-r406-forme-activite-smsse-regulee-all</b></p><a name=\"vs-tre-r406-forme-activite-smsse-regulee-all\"> </a><a name=\"hcvs-tre-r406-forme-activite-smsse-regulee-all\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 1; Dernière mise à jour : 2026-03-27 11:18:15+0100; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion basée sur <a href=\"CodeSystem-tre-r406-forme-activite-smsse-regulee.html\">codesystem Tre R406 Forme Activite Smsse Regulee v20260223120000 (CodeSystem)</a></p><p>Ce jeu de valeur (ValueSet) contient 40 concepts</p><table class=\"codes\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage (fr-FR)</b> - French (France) (fr)</td></tr><tr><td><a name=\"vs-tre-r406-forme-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee-06\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r406-forme-activite-smsse-regulee.html#tre-r406-forme-activite-smsse-regulee-06\">06</a></td><td>Anesthésie ambulatoire</td></tr><tr><td><a name=\"vs-tre-r406-forme-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee-10\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r406-forme-activite-smsse-regulee.html#tre-r406-forme-activite-smsse-regulee-10\">10</a></td><td>Appartement thérapeutique</td></tr><tr><td><a name=\"vs-tre-r406-forme-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee-30\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r406-forme-activite-smsse-regulee.html#tre-r406-forme-activite-smsse-regulee-30\">30</a></td><td>Centre</td></tr><tr><td><a name=\"vs-tre-r406-forme-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee-24\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r406-forme-activite-smsse-regulee.html#tre-r406-forme-activite-smsse-regulee-24\">24</a></td><td>Centre correspondant</td></tr><tr><td><a name=\"vs-tre-r406-forme-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee-12\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r406-forme-activite-smsse-regulee.html#tre-r406-forme-activite-smsse-regulee-12\">12</a></td><td>Centre de crise</td></tr><tr><td><a name=\"vs-tre-r406-forme-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee-25\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r406-forme-activite-smsse-regulee.html#tre-r406-forme-activite-smsse-regulee-25\">25</a></td><td>Centre de référence</td></tr><tr><td><a name=\"vs-tre-r406-forme-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee-11\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r406-forme-activite-smsse-regulee.html#tre-r406-forme-activite-smsse-regulee-11\">11</a></td><td>Centre postcure</td></tr><tr><td><a name=\"vs-tre-r406-forme-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee-31\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r406-forme-activite-smsse-regulee.html#tre-r406-forme-activite-smsse-regulee-31\">31</a></td><td>Centre ressources</td></tr><tr><td><a name=\"vs-tre-r406-forme-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee-32\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r406-forme-activite-smsse-regulee.html#tre-r406-forme-activite-smsse-regulee-32\">32</a></td><td>Centre spécialisé</td></tr><tr><td><a name=\"vs-tre-r406-forme-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee-07\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r406-forme-activite-smsse-regulee.html#tre-r406-forme-activite-smsse-regulee-07\">07</a></td><td>Chirurgie ambulatoire</td></tr><tr><td><a name=\"vs-tre-r406-forme-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee-33\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r406-forme-activite-smsse-regulee.html#tre-r406-forme-activite-smsse-regulee-33\">33</a></td><td>CMP</td></tr><tr><td><a name=\"vs-tre-r406-forme-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee-08\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r406-forme-activite-smsse-regulee.html#tre-r406-forme-activite-smsse-regulee-08\">08</a></td><td>Consultation extérieure indifférenciée</td></tr><tr><td><a name=\"vs-tre-r406-forme-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee-34\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r406-forme-activite-smsse-regulee.html#tre-r406-forme-activite-smsse-regulee-34\">34</a></td><td>Consultations</td></tr><tr><td><a name=\"vs-tre-r406-forme-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee-44\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r406-forme-activite-smsse-regulee.html#tre-r406-forme-activite-smsse-regulee-44\">44</a></td><td>Consultations d'évaluation pluri professionnelles post AVC</td></tr><tr><td><a name=\"vs-tre-r406-forme-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee-27\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r406-forme-activite-smsse-regulee.html#tre-r406-forme-activite-smsse-regulee-27\">27</a></td><td>Consultations gériatriques avancées</td></tr><tr><td><a name=\"vs-tre-r406-forme-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee-35\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r406-forme-activite-smsse-regulee.html#tre-r406-forme-activite-smsse-regulee-35\">35</a></td><td>Consultations mémoire</td></tr><tr><td><a name=\"vs-tre-r406-forme-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee-36\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r406-forme-activite-smsse-regulee.html#tre-r406-forme-activite-smsse-regulee-36\">36</a></td><td>Equipe de liaison</td></tr><tr><td><a name=\"vs-tre-r406-forme-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee-28\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r406-forme-activite-smsse-regulee.html#tre-r406-forme-activite-smsse-regulee-28\">28</a></td><td>Equipe mobile</td></tr><tr><td><a name=\"vs-tre-r406-forme-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee-15\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r406-forme-activite-smsse-regulee.html#tre-r406-forme-activite-smsse-regulee-15\">15</a></td><td>Forme non précisée</td></tr><tr><td><a name=\"vs-tre-r406-forme-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee-37\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r406-forme-activite-smsse-regulee.html#tre-r406-forme-activite-smsse-regulee-37\">37</a></td><td>H.A.D.</td></tr><tr><td><a name=\"vs-tre-r406-forme-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee-01\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r406-forme-activite-smsse-regulee.html#tre-r406-forme-activite-smsse-regulee-01\">01</a></td><td>Hospitalisation complète (24 heures consécutives ou plus)</td></tr><tr><td><a name=\"vs-tre-r406-forme-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee-05\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r406-forme-activite-smsse-regulee.html#tre-r406-forme-activite-smsse-regulee-05\">05</a></td><td>Hospitalisation à domicile (au domicile du patient)</td></tr><tr><td><a name=\"vs-tre-r406-forme-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee-03\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r406-forme-activite-smsse-regulee.html#tre-r406-forme-activite-smsse-regulee-03\">03</a></td><td>Hospitalisation à temps partiel de jour</td></tr><tr><td><a name=\"vs-tre-r406-forme-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee-02\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r406-forme-activite-smsse-regulee.html#tre-r406-forme-activite-smsse-regulee-02\">02</a></td><td>Hospitalisation à temps partiel de jour ou de nuit</td></tr><tr><td><a name=\"vs-tre-r406-forme-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee-04\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r406-forme-activite-smsse-regulee.html#tre-r406-forme-activite-smsse-regulee-04\">04</a></td><td>Hospitalisation à temps partiel de nuit</td></tr><tr><td><a name=\"vs-tre-r406-forme-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee-38\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r406-forme-activite-smsse-regulee.html#tre-r406-forme-activite-smsse-regulee-38\">38</a></td><td>Ligne d'astreinte PDSES Nuit totale</td></tr><tr><td><a name=\"vs-tre-r406-forme-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee-39\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r406-forme-activite-smsse-regulee.html#tre-r406-forme-activite-smsse-regulee-39\">39</a></td><td>Ligne d'astreinte PDSES Première partie de nuit</td></tr><tr><td><a name=\"vs-tre-r406-forme-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee-49\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r406-forme-activite-smsse-regulee.html#tre-r406-forme-activite-smsse-regulee-49\">49</a></td><td>Ligne d'astreinte PDSES Première partie de nuit en semaine (Lundi au vendredi)</td></tr><tr><td><a name=\"vs-tre-r406-forme-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee-48\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r406-forme-activite-smsse-regulee.html#tre-r406-forme-activite-smsse-regulee-48\">48</a></td><td>Ligne d'astreinte PDSES Week-end et jours fériés</td></tr><tr><td><a name=\"vs-tre-r406-forme-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee-40\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r406-forme-activite-smsse-regulee.html#tre-r406-forme-activite-smsse-regulee-40\">40</a></td><td>Ligne de garde PDSES Nuit totale</td></tr><tr><td><a name=\"vs-tre-r406-forme-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee-47\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r406-forme-activite-smsse-regulee.html#tre-r406-forme-activite-smsse-regulee-47\">47</a></td><td>Ligne de garde PDSES première partie de nuit</td></tr><tr><td><a name=\"vs-tre-r406-forme-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee-14\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r406-forme-activite-smsse-regulee.html#tre-r406-forme-activite-smsse-regulee-14\">14</a></td><td>Non saisonnier</td></tr><tr><td><a name=\"vs-tre-r406-forme-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee-00\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r406-forme-activite-smsse-regulee.html#tre-r406-forme-activite-smsse-regulee-00\">00</a></td><td>Pas de forme</td></tr><tr><td><a name=\"vs-tre-r406-forme-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee-21\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r406-forme-activite-smsse-regulee.html#tre-r406-forme-activite-smsse-regulee-21\">21</a></td><td>Personne décédée assist par ventil mécanique avec une fonct hémodynamique</td></tr><tr><td><a name=\"vs-tre-r406-forme-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee-20\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r406-forme-activite-smsse-regulee.html#tre-r406-forme-activite-smsse-regulee-20\">20</a></td><td>Personne décédée présentant un arrêt cardiaque et respiratoire persistant</td></tr><tr><td><a name=\"vs-tre-r406-forme-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee-22\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r406-forme-activite-smsse-regulee.html#tre-r406-forme-activite-smsse-regulee-22\">22</a></td><td>Personne vivante</td></tr><tr><td><a name=\"vs-tre-r406-forme-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee-09\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r406-forme-activite-smsse-regulee.html#tre-r406-forme-activite-smsse-regulee-09\">09</a></td><td>Placement familial thérapeutique</td></tr><tr><td><a name=\"vs-tre-r406-forme-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee-41\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r406-forme-activite-smsse-regulee.html#tre-r406-forme-activite-smsse-regulee-41\">41</a></td><td>Pôle d'évaluation</td></tr><tr><td><a name=\"vs-tre-r406-forme-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee-13\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r406-forme-activite-smsse-regulee.html#tre-r406-forme-activite-smsse-regulee-13\">13</a></td><td>Saisonnier</td></tr><tr><td><a name=\"vs-tre-r406-forme-activite-smsse-regulee-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee-42\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r406-forme-activite-smsse-regulee.html#tre-r406-forme-activite-smsse-regulee-42\">42</a></td><td>Unité d'hébergement renforcée (UHR)</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
      fhir:url [
@@ -59,6 +59,310 @@
          fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"^^xsd:anyURI ;
          fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee>
        ]
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:identifier [
+       fhir:v "urn:uuid:3903371d-1921-4b29-aa4d-ecfc5d74808c"^^xsd:anyURI ;
+       fhir:l <urn:uuid:3903371d-1921-4b29-aa4d-ecfc5d74808c>
+     ] ;
+     fhir:timestamp [ fhir:v "2026-06-03T09:31:06+02:00"^^xsd:dateTime ] ;
+     fhir:total [ fhir:v 40 ] ;
+     fhir:parameter ( [
+       fhir:name [ fhir:v "used-codesystem" ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee|20260223120000"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee?version=20260223120000>
+       ]
+     ] [
+       fhir:name [ fhir:v "version" ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee|20260223120000"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee?version=20260223120000>
+       ]
+     ] ) ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "06" ] ;
+       fhir:display [ fhir:v "Anesthésie ambulatoire" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "10" ] ;
+       fhir:display [ fhir:v "Appartement thérapeutique" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "30" ] ;
+       fhir:display [ fhir:v "Centre" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "24" ] ;
+       fhir:display [ fhir:v "Centre correspondant" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "12" ] ;
+       fhir:display [ fhir:v "Centre de crise" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "25" ] ;
+       fhir:display [ fhir:v "Centre de référence" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "11" ] ;
+       fhir:display [ fhir:v "Centre postcure" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "31" ] ;
+       fhir:display [ fhir:v "Centre ressources" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "32" ] ;
+       fhir:display [ fhir:v "Centre spécialisé" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "07" ] ;
+       fhir:display [ fhir:v "Chirurgie ambulatoire" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "33" ] ;
+       fhir:display [ fhir:v "CMP" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "08" ] ;
+       fhir:display [ fhir:v "Consultation extérieure indifférenciée" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "34" ] ;
+       fhir:display [ fhir:v "Consultations" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "44" ] ;
+       fhir:display [ fhir:v "Consultations d'évaluation pluri professionnelles post AVC" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "27" ] ;
+       fhir:display [ fhir:v "Consultations gériatriques avancées" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "35" ] ;
+       fhir:display [ fhir:v "Consultations mémoire" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "36" ] ;
+       fhir:display [ fhir:v "Equipe de liaison" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "28" ] ;
+       fhir:display [ fhir:v "Equipe mobile" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "15" ] ;
+       fhir:display [ fhir:v "Forme non précisée" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "37" ] ;
+       fhir:display [ fhir:v "H.A.D." ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "01" ] ;
+       fhir:display [ fhir:v "Hospitalisation complète (24 heures consécutives ou plus)" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "05" ] ;
+       fhir:display [ fhir:v "Hospitalisation à domicile (au domicile du patient)" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "03" ] ;
+       fhir:display [ fhir:v "Hospitalisation à temps partiel de jour" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "02" ] ;
+       fhir:display [ fhir:v "Hospitalisation à temps partiel de jour ou de nuit" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "04" ] ;
+       fhir:display [ fhir:v "Hospitalisation à temps partiel de nuit" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "38" ] ;
+       fhir:display [ fhir:v "Ligne d'astreinte PDSES Nuit totale" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "39" ] ;
+       fhir:display [ fhir:v "Ligne d'astreinte PDSES Première partie de nuit" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "49" ] ;
+       fhir:display [ fhir:v "Ligne d'astreinte PDSES Première partie de nuit en semaine (Lundi au vendredi)" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "48" ] ;
+       fhir:display [ fhir:v "Ligne d'astreinte PDSES Week-end et jours fériés" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "40" ] ;
+       fhir:display [ fhir:v "Ligne de garde PDSES Nuit totale" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "47" ] ;
+       fhir:display [ fhir:v "Ligne de garde PDSES première partie de nuit" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "14" ] ;
+       fhir:display [ fhir:v "Non saisonnier" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "00" ] ;
+       fhir:display [ fhir:v "Pas de forme" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "21" ] ;
+       fhir:display [ fhir:v "Personne décédée assist par ventil mécanique avec une fonct hémodynamique" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "20" ] ;
+       fhir:display [ fhir:v "Personne décédée présentant un arrêt cardiaque et respiratoire persistant" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "22" ] ;
+       fhir:display [ fhir:v "Personne vivante" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "09" ] ;
+       fhir:display [ fhir:v "Placement familial thérapeutique" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "41" ] ;
+       fhir:display [ fhir:v "Pôle d'évaluation" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "13" ] ;
+       fhir:display [ fhir:v "Saisonnier" ]
+     ] [
+       fhir:system [
+         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"^^xsd:anyURI ;
+         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee>
+       ] ;
+       fhir:code [ fhir:v "42" ] ;
+       fhir:display [ fhir:v "Unité d'hébergement renforcée (UHR)" ]
      ] )
   ] . # 
 

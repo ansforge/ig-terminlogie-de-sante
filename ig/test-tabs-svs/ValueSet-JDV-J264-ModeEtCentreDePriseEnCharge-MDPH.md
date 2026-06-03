@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J264-ModeEtCentreDePriseEnCharge-MDPH",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2026-05-29T13:18:07.499+02:00",
+    "versionId" : "4",
+    "lastUpdated" : "2026-06-02T15:19:02.966+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

@@ -11,7 +11,7 @@
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2026-06-02T13:13:17+00:00"/>
+  <date value="2026-06-03T07:33:02+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -23278,6 +23278,17 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
+      </reference>
+      <name value="Tre R347 Activite Sanitaire Diverse Regulee"/>
+      <description value="Nomenclature des activités sanitaires utilisée pour décrire les Activités Sanitaires Diverses Régulées (ASDR)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/tre-r360-type-role-entite-groupe"/>
       </reference>
       <name value="Tre R360 Type Role Entite Groupe"/>
@@ -23509,10 +23520,32 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/tre-r397-categorie-entite-geographique-exercice"/>
+      </reference>
+      <name value="Tre R397 Categorie Entite Geographique Exercice"/>
+      <description value="Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement, TRE-R63-AgregatCategorieEtablissementNiv1, TRE-R64-AgregatCategorieEtablissementNiv2, TRE-R65-AgregatCategorieEtablissement et ASS-X10-AgregatCategorieEtablissement. Cette TRE possède des propriétésspécifiques : le niveau d'agrégat des EGE de 1 à 4 (du plus large au plus fin), le parent d'un agrégat d'EGE ou d'un EGE, la relation entre un code et le domaine ( TRE R62), un indicateur pour les EGE spécifiques au ROR ( non finess) et les relations nécessaires à la construction des JDV dynamiques associés"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/tre-r400-finess-statut-juridique"/>
       </reference>
       <name value="Tre R400 Finess Statut Juridique"/>
       <description value="Cette TRE hiérarchique remplace les TRE_R68-FinessAgregatStatutJuridiqueNiv1, TRE_R69-FinessAgregatStatutJuridiqueNiv2, TRE_R70-FinessAgregatStatutJuridique, TRE_R72-FinessStatutJuridique, et l'association ASS_X11_FinessAgregatStatutJuridique. Cette TRE possède des propriétés spécifiques : le niveau d'agrégat des statuts juridiques  de 1 à 4 ( du plus large au plus fin), le parent d'un agrégat de statuts juridiques ou d'un statut juridique, un indicateur pour les statuts juridiques  spécifiques à RPPS ( non finess) et les relations nécessaires à la construction des JDV dynamiques associés"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r401-activite-sociale-regulee"/>
+      </reference>
+      <name value="Tre R401 Activite Sociale Regulee"/>
+      <description value="Cette TRE hiérarchique remplace les éléments suivants :&#xA;TRE_R280-DisciplineEquipementSocial, TRE_R298-AgregatDisciplineEquipSocNiv1, TRE_R299-AgregatDisciplineEquipSocNiv2, TRE_R300-AgregatDisciplineEquipSocNiv3 et ASS_X14_AgregatDisciplineEquipementSocial.&#xA;&#xA;Cette TRE possède des propriétés spécifiques :&#xA;&#xA;1. Le niveau d'agrégat des ASOCR de 1 à 4 (du plus large au plus fin)&#xA;2. Le parent d'un agrégat d'ASOCR ou d'une ASOCR&#xA;3. Les relations nécessaires à la construction des JDV dynamiques associés"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
