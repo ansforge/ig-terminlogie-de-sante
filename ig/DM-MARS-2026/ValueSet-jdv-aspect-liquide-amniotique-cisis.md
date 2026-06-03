@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-aspect-liquide-amniotique-cisis | *Version*:20260311144903 | |
-| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvAspectLiquideAmniotiqueCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-aspect-liquide-amniotique-cisis | *Version*:20260420150249 | |
+| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvAspectLiquideAmniotiqueCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.740 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-aspect-liquide-amniotique-cisis",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-03-11T15:27:57.347+01:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-04-20T16:57:39.439+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -71,12 +71,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.740"
   }],
-  "version" : "20260311144903",
+  "version" : "20260420150249",
   "name" : "JdvAspectLiquideAmniotiqueCisis",
   "title" : "JDV Aspect Liquide Amniotique CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-11T14:49:03+01:00",
+  "date" : "2026-04-20T15:02:49+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Aspect Liquide Amniotique CISIS",
   "jurisdiction" : [{
@@ -88,7 +88,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-      "version" : "202603110000",
+      "version" : "202604200000",
       "concept" : [{
         "code" : "GEN-092.01.05",
         "display" : "Autre aspect du liquide amniotique"
@@ -96,7 +96,6 @@ Requête sur le SMT
     },
     {
       "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20260301",
       "concept" : [{
         "code" : "408781009",
         "display" : "liquide amniotique de couleur jaune paille"

@@ -27,7 +27,7 @@
                   displayName="Groupement de coopération organique"
                   longDesignation="Groupement de coopération organique"
                   shortDesignation="GCO"
-                  descriptionMetier=" La coopération organique entre personnes morales se traduit par la création d’une nouvelle structure juridique dotée d’une personnalité morale. Elle s’adosse à différents supports juridiques dont par exemple le GCS (Groupement de Coopération Sanitaire) ou le Groupement de Coopération sociale et médico-sociale (GCSMS). Un GCO est donc représenté par une Personne Morale particulière dite 'tête de groupe'."/>
+                  descriptionMetier="La coopération organique entre personnes morales se traduit par la création d’une nouvelle structure juridique dotée d’une personnalité morale. Elle s’adosse à différents supports juridiques dont par exemple le GCS (Groupement de Coopération Sanitaire) ou le Groupement de Coopération sociale et médico-sociale (GCSMS). Un GCO est donc représenté par une Personne Morale particulière dite 'tête de groupe'."/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

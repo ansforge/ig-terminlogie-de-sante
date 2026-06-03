@@ -10,8 +10,8 @@
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "alignement-bdpm-cipucd"] ; # 
   fhir:meta [
-     fhir:versionId [ fhir:v "22" ] ;
-     fhir:lastUpdated [ fhir:v "2026-03-04T08:48:58.557+01:00"^^xsd:dateTime ] ;
+     fhir:versionId [ fhir:v "25" ] ;
+     fhir:lastUpdated [ fhir:v "2026-06-02T15:47:32.988+02:00"^^xsd:dateTime ] ;
      fhir:tag ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationValue"^^xsd:anyURI ;
@@ -23,17 +23,17 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CarteDeConcepts alignement-bdpm-cipucd</b></p><a name=\"alignement-bdpm-cipucd\"> </a><a name=\"hcalignement-bdpm-cipucd\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 22; Dernière mise à jour : 2026-03-04 08:48:58+0100</p><p style=\"margin-bottom: 0px\">Balise: Resource encoded in summary mode (Détails : code ObservationValue SUBSETTED = 'Resource encoded in summary mode')</p></div><p>Mapping de <a href=\"ValueSet-vs-bdpm-all.html\">ValueSet_BDPM_All</a> vers <a href=\"ValueSet-vs-cipucd-all.html\">ValueSet_CIPUCD_All</a></p><br/></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CarteDeConcepts alignement-bdpm-cipucd</b></p><a name=\"alignement-bdpm-cipucd\"> </a><a name=\"hcalignement-bdpm-cipucd\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 25; Dernière mise à jour : 2026-06-02 15:47:32+0200</p><p style=\"margin-bottom: 0px\">Balise: <a href=\"http://hl7.org/fhir/R4/v3/ObservationValue/cs.html\">Resource encoded in summary mode (Détails : code v3 Code System ObservationValue SUBSETTED = 'Resource encoded in summary mode')</a></p></div><p>Mapping de <a href=\"ValueSet-vs-bdpm-all.html\">ValueSet_BDPM_All</a> vers <a href=\"ValueSet-vs-cipucd-all.html\">ValueSet_CIPUCD_All</a></p><br/></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:url [
      fhir:v "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-bdpm-cipucd"^^xsd:anyURI ;
      fhir:l <https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-bdpm-cipucd>
   ] ; # 
-  fhir:version [ fhir:v "2026-03"] ; # 
+  fhir:version [ fhir:v "2026-06"] ; # 
   fhir:name [ fhir:v "Alignement_Codes_Presentation_BDPM_CIPUCD"] ; # 
   fhir:title [ fhir:v "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2026-03-03"^^xsd:date] ; # 
+  fhir:date [ fhir:v "2026-06-02"^^xsd:date] ; # 
   fhir:publisher [ fhir:v "Agence du numérique en santé"] ; # 
   fhir:contact ( [
      fhir:telecom ( [

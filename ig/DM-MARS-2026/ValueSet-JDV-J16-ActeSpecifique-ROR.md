@@ -2142,7 +2142,7 @@ Requête sur le SMT
       },
       {
         "code" : "0814",
-        "display" : "Soutien et écoute à distance (par téléphone et/ou par messagerie) "
+        "display" : "Soutien et écoute à distance (par téléphone et/ou par messagerie)"
       },
       {
         "code" : "0815",

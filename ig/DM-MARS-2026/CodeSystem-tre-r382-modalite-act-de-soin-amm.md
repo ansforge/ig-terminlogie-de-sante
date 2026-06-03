@@ -596,7 +596,7 @@ Nomenclature des modalités pour les activités de soin AMM
   },
   {
     "code" : "MO047",
-    "display" : "AMP CLI -  Prélèvement d'ovocytes en vue d'une AMP",
+    "display" : "AMP CLI - Prélèvement d'ovocytes en vue d'une AMP",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "1900-01-01T00:00:00+01:00"
@@ -628,7 +628,7 @@ Nomenclature des modalités pour les activités de soin AMM
   },
   {
     "code" : "MO049",
-    "display" : "AMP CLI -  Prélèvement de spermatozoïdes ",
+    "display" : "AMP CLI - Prélèvement de spermatozoïdes",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "1900-01-01T00:00:00+01:00"
@@ -708,7 +708,7 @@ Nomenclature des modalités pour les activités de soin AMM
   },
   {
     "code" : "MO059",
-    "display" : "AMP BIO -  Conservation des embryons en vue de leur accueil et mise en œuvre de celui-ci",
+    "display" : "AMP BIO - Conservation des embryons en vue de leur accueil et mise en œuvre de celui-ci",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "1900-01-01T00:00:00+01:00"
@@ -756,7 +756,7 @@ Nomenclature des modalités pour les activités de soin AMM
   },
   {
     "code" : "MO073",
-    "display" : "AMP CLI - Mise en œuvre de l'Accueil des embryons ",
+    "display" : "AMP CLI - Mise en œuvre de l'Accueil des embryons",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "1900-01-01T00:00:00+01:00"
@@ -772,7 +772,7 @@ Nomenclature des modalités pour les activités de soin AMM
   },
   {
     "code" : "MO074",
-    "display" : "AMP BIO - Conservation des embryons en vue d'un projet parental ",
+    "display" : "AMP BIO - Conservation des embryons en vue d'un projet parental",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "1900-01-01T00:00:00+01:00"

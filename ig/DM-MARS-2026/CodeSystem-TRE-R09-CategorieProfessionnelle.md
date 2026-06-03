@@ -29,8 +29,8 @@ Catégorie professionnelle
   "resourceType" : "CodeSystem",
   "id" : "TRE-R09-CategorieProfessionnelle",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-02-23T17:57:20.237+01:00",
+    "versionId" : "9",
+    "lastUpdated" : "2026-05-05T20:11:50.786+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
   "language" : "fr-FR",

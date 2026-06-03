@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-specimen-type-cisis | *Version*:20260311144903 | |
-| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvSpecimenTypeCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-specimen-type-cisis | *Version*:20260420150250 | |
+| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvSpecimenTypeCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.819 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-specimen-type-cisis",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-03-11T15:29:10.355+01:00",
+    "versionId" : "10",
+    "lastUpdated" : "2026-04-21T11:57:25.239+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -71,12 +71,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.819"
   }],
-  "version" : "20260311144903",
+  "version" : "20260420150250",
   "name" : "JdvSpecimenTypeCisis",
   "title" : "JDV Specimen Type CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-11T14:49:03+01:00",
+  "date" : "2026-04-20T15:02:50+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Specimen Type CISIS",
   "jurisdiction" : [{
@@ -88,7 +88,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v3-SpecimenType",
-      "version" : "4.0.0",
+      "version" : "2018-08-12",
       "concept" : [{
         "code" : "BLDC",
         "display" : "Sang capillaire"
@@ -188,7 +188,7 @@ Requête sur le SMT
     },
     {
       "system" : "http://terminology.hl7.org/CodeSystem/v2-0487",
-      "version" : "3.0.0",
+      "version" : "2.9",
       "concept" : [{
         "code" : "ABS",
         "display" : "Abcès"

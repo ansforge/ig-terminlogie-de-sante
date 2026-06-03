@@ -3,8 +3,8 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="terminologie-cim-10"/>
   <meta>
-    <versionId value="8.1770199823535"/>
-    <lastUpdated value="2026-02-04T11:10:23.535+01:00"/>
+    <versionId value="10"/>
+    <lastUpdated value="2026-04-07T16:50:05.247+02:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"/>
   </meta>
   <text>
@@ -38,7 +38,7 @@
   <copyright value="[CC BY-NC-ND 3.0 IGO](https://creativecommons.org/licenses/by-nc-nd/3.0/igo/legalcode)"/>
   <valueSet value="https://smt.esante.gouv.fr/terminologie-cim-10?vs"/>
   <content value="not-present"/>
-  <count value="19161"/>
+  <count value="19075"/>
   <filter>
     <code value="root"/>
     <operator value="="/>

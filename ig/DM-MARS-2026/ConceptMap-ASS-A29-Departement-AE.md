@@ -54,7 +54,7 @@ Table d’association Département- AE responsable pour détermination de l’au
   "targetUri" : "https://mos.esante.gouv.fr/NOS/JDV_J170-AutoriteEnregistrement-EPARS/FHIR/JDV-J170-AutoriteEnregistrement-EPARS",
   "group" : [{
     "source" : "https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM",
-    "sourceVersion" : "20240628120000",
+    "sourceVersion" : "20260505120000",
     "target" : "https://mos.esante.gouv.fr/NOS/TRE_R60-AutoriteEnregistrement/FHIR/TRE-R60-AutoriteEnregistrement",
     "targetVersion" : "20240628120000",
     "element" : [{

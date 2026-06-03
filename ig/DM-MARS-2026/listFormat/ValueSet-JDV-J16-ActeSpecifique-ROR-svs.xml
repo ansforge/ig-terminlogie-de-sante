@@ -1551,7 +1551,7 @@
                   displayName="Visite de convivialité"/>
          <Concept code="0814"
                   codeSystem="1.2.250.1.213.3.3.11"
-                  displayName="Soutien et écoute à distance (par téléphone et/ou par messagerie) "/>
+                  displayName="Soutien et écoute à distance (par téléphone et/ou par messagerie)"/>
          <Concept code="0815"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Acceptation d'animaux aidants ou de compagnie"/>

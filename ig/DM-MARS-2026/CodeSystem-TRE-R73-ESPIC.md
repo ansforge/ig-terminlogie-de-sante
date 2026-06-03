@@ -30,8 +30,8 @@ Etablissement de santé privé d’intérêt collectif
   "resourceType" : "CodeSystem",
   "id" : "TRE-R73-ESPIC",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-02-23T17:57:35.005+01:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-05-05T20:12:28.443+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
   "language" : "fr-FR",

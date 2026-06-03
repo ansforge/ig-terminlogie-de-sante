@@ -41,7 +41,7 @@ Traduction Française
     }]
   }],
   "content" : "supplement",
-  "supplements" : "http://terminology.hl7.org/CodeSystem/condition-ver-status|2.0.1",
+  "supplements" : "http://terminology.hl7.org/CodeSystem/condition-ver-status|4.0.1",
   "concept" : [{
     "code" : "unconfirmed",
     "designation" : [{

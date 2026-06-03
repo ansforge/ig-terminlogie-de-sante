@@ -21,7 +21,12 @@ Underlying Master Code System for V2 table 0487 (Specimen Type)
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
+* [JdvSpecimenTypeChikungunyaCisis](ValueSet-jdv-specimen-type-chikungunya-cisis.md)
 * [JdvSpecimenTypeCisis](ValueSet-jdv-specimen-type-cisis.md)
+* [JdvSpecimenTypeDengueCisis](ValueSet-jdv-specimen-type-dengue-cisis.md)
+* [JdvSpecimenTypeRougeoleCisis](ValueSet-jdv-specimen-type-rougeole-cisis.md)
+* [JdvSpecimenTypeWestNileCisis](ValueSet-jdv-specimen-type-westnile-cisis.md)
+* [JdvSpecimenTypeZikaCisis](ValueSet-jdv-specimen-type-zika-cisis.md)
 
 
 
@@ -67,7 +72,7 @@ Underlying Master Code System for V2 table 0487 (Specimen Type)
   "purpose" : "Underlying Master Code System for V2 table 0487 (Specimen Type)",
   "copyright" : "This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.html",
   "caseSensitive" : true,
-  "valueSet" : "http://terminology.hl7.org/ValueSet/v2-0487|3.0.0",
+  "valueSet" : "http://terminology.hl7.org/ValueSet/v2-0487|2.9",
   "hierarchyMeaning" : "is-a",
   "compositional" : false,
   "versionNeeded" : false,

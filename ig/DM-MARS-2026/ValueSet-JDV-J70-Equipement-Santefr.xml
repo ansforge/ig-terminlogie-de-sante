@@ -38,7 +38,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement"/>
-      <version value="20251222120000"/>
+      <version value="20260601120000"/>
       <concept>
         <code value="003"/>
         <display value="Angioscope"/>

@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-disposition-pretherapeutique-cisis | *Version*:20260311144903 | |
-| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvDispositionPretherapeutiqueCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-disposition-pretherapeutique-cisis | *Version*:20260420150249 | |
+| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvDispositionPretherapeutiqueCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.216 | | |
 
  
@@ -33,8 +33,6 @@ Requête sur le SMT
 
 ### Expansion
 
-No Expansion for this valueset (Unsupported Code System Version)
-
 -------
 
  Explanation of the columns that may appear on this page: 
@@ -57,8 +55,8 @@ No Expansion for this valueset (Unsupported Code System Version)
   "resourceType" : "ValueSet",
   "id" : "jdv-disposition-pretherapeutique-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2026-03-11T15:28:12.084+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-04-20T16:57:56.985+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -73,12 +71,12 @@ No Expansion for this valueset (Unsupported Code System Version)
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.216"
   }],
-  "version" : "20260311144903",
+  "version" : "20260420150249",
   "name" : "JdvDispositionPretherapeutiqueCisis",
   "title" : "JDV Disposition Pretherapeutique CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-11T14:49:03+01:00",
+  "date" : "2026-04-20T15:02:49+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Disposition Pretherapeutique CISIS",
   "jurisdiction" : [{
@@ -90,7 +88,7 @@ No Expansion for this valueset (Unsupported Code System Version)
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-      "version" : "202603110000",
+      "version" : "202604200000",
       "concept" : [{
         "code" : "MED-495",
         "display" : "Aspirine dans les 24h d'hospitalisation"
@@ -121,7 +119,6 @@ No Expansion for this valueset (Unsupported Code System Version)
     },
     {
       "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20260301",
       "concept" : [{
         "code" : "233428003",
         "display" : "thrombolyse veineuse"

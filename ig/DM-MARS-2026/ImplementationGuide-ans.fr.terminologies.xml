@@ -11,7 +11,7 @@
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2026-03-27T09:46:53+00:00"/>
+  <date value="2026-06-03T09:21:46+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -18256,6 +18256,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-hl7-allergy-intolerance-category-cisis"/>
+      </reference>
+      <name value="AllergyIntoleranceCategory"/>
+      <description value="AllergyIntoleranceCategory"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
@@ -18754,6 +18765,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-hl7-days-of-week-cisis"/>
+      </reference>
+      <name value="DaysOfWeek"/>
+      <description value="DaysOfWeek"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-hl7-days-of-week"/>
       </reference>
       <name value="DaysOfWeek"/>
@@ -19065,6 +19087,17 @@
       </reference>
       <name value="JDV Age De Survenue CISIS"/>
       <description value="JDV Age De Survenue CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-age-gestationnel-cisis"/>
+      </reference>
+      <name value="JDV Age Gestationnel CISIS"/>
+      <description value="JDV Age Gestationnel CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -19501,6 +19534,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-collectivite-sujets-a-risque-rougeole-cisis"/>
+      </reference>
+      <name value="Jdv Collectivite Sujets A Risque Rougeole CISIS"/>
+      <description value="Jdv Collectivite Sujets A Risque Rougeole CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-completude-dispensation-cisis"/>
       </reference>
       <name value="JDV Completude Dispensation CISIS"/>
@@ -19560,6 +19604,17 @@
       </reference>
       <name value="JDV Complication Pulmonaire CISIS"/>
       <description value="JDV Complication Pulmonaire CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-complication-rougeole-cisis"/>
+      </reference>
+      <name value="Jdv Complication Rougeole CISIS"/>
+      <description value="Jdv Complication Rougeole CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -19692,6 +19747,17 @@
       </reference>
       <name value="JDV Couverture Sociale CISIS"/>
       <description value="JDV Couverture Sociale CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-date-accouchement-cisis"/>
+      </reference>
+      <name value="JDV Date Accouchement CISIS"/>
+      <description value="JDV Date Accouchement CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -20073,6 +20139,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-evolution-rougeole-cisis"/>
+      </reference>
+      <name value="JDV Evolution Rougeole CISIS"/>
+      <description value="JDV Evolution Rougeole CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-examen-biochimie-aunv-cisis"/>
       </reference>
       <name value="JDV Examen Biochimie Aunv CISIS"/>
@@ -20183,6 +20260,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-exposition-west-nile-cisis"/>
+      </reference>
+      <name value="Jdv Exposition West Nile CISIS"/>
+      <description value="Jdv Exposition West Nile CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-facteur-de-risque-avc-cisis"/>
       </reference>
       <name value="JDV Facteur De Risque Avc CISIS"/>
@@ -20209,6 +20297,17 @@
       </reference>
       <name value="JDV Facteur De Risque Social CISIS"/>
       <description value="JDV Facteur De Risque Social CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-facteur-risque-rougeole-cisis"/>
+      </reference>
+      <name value="JDV Facteur Risque Rougeole CISIS"/>
+      <description value="JDV Facteur Risque Rougeole CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -20385,6 +20484,17 @@
       </reference>
       <name value="JDV Hemisphere Profond CISIS"/>
       <description value="JDV Hemisphere Profond CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-historique-grossesses-cisis"/>
+      </reference>
+      <name value="JDV Historique Grossesses CISIS"/>
+      <description value="JDV Historique Grossesses CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -20583,6 +20693,17 @@
       </reference>
       <name value="JDV J12 CiviliteTitre CISIS"/>
       <description value="Titre civilité - CI-SIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j240-activite-sanitaire-diverse-regulee-finess"/>
+      </reference>
+      <name value="Jdv J240 Activite Sanitaire Diverse Regulee Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les activités sanitaires, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR)"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -20843,6 +20964,116 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess"/>
+      </reference>
+      <name value="Jdv J333 Activite Sanitaire Diverse Regulee Niv Finess"/>
+      <description value="Jeu de valeurs FINESS contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 1"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j334-activite-sanitaire-diverse-regulee-niv2-finess"/>
+      </reference>
+      <name value="Jdv J334 Activite Sanitaire Diverse Regulee Niv2 Finess"/>
+      <description value="Jeu de valeurs Finess contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 2"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j335-activite-sanitaire-diverse-regulee-niv3-finess"/>
+      </reference>
+      <name value="Jdv J335 Activite Sanitaire Diverse Regulee Niv3 Finess"/>
+      <description value="Jeu de valeurs Finess contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 3"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j351-appareil-amm-finess"/>
+      </reference>
+      <name value="Jdv J351 Appareil Amm Finess"/>
+      <description value="Liste des appareils AMM vus de FINESS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j352-nature-capacite-finess"/>
+      </reference>
+      <name value="Jdv J352 Nature Capacite Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les capacités utilisées par FINESS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j353-type-statut-capacite-finess"/>
+      </reference>
+      <name value="Jdv J353 Type Statut Capacite Finess"/>
+      <description value="Jeu de valeurs FINESS permettant de préciser le statut des capacités concernées par FINESS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j354-habilitation-finess"/>
+      </reference>
+      <name value="Jdv J354 Habilitation Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les habilitations associées aux capacités des structures FINESS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j357-genre-capacite-finess"/>
+      </reference>
+      <name value="Jdv J357 Genre Capacite Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les genres de capacités utilisés par FINESS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j364-type-fermeture-pm-finess"/>
+      </reference>
+      <name value="Jdv J364 Type Fermeture Pm Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les types de fermeture dédiées aux personnes morales FINESS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j365-type-fermeture-ege-finess"/>
+      </reference>
+      <name value="Jdv J365 Type Fermeture Ege Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les types de fermeture dédiées aux entités géographiques FINESS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-j366-statut-bilan-projet-personnalise-ms"/>
       </reference>
       <name value="Jdv J366 Statut Bilan Projet Personnalise Ms"/>
@@ -20868,7 +21099,7 @@
         <reference value="ValueSet/jdv-j368-categorie-etablissement-cisis"/>
       </reference>
       <name value="Jdv J368 Categorie Etablissement Cisis"/>
-      <description value="JDV à l'image de l'ensemble des valeurs actives de la terminologie TRE_R66-CategorieEtablissement"/>
+      <description value="JDV pour le CISIS reprenant l'ensemble des valeurs actives et obsolètes de niveau 4 dans la TreR397CategorieEntiteGeographiqueExercice"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -20935,6 +21166,17 @@
       </reference>
       <name value="Jdv J377 Categorie Entite Geographique Exercice Ror"/>
       <description value="Ce JDV remplace le JDV_J55_CategorieEG_ROR"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j378-region-om-finess"/>
+      </reference>
+      <name value="Jdv J378 Region Om Finess"/>
+      <description value="Liste des régions administratives couvertes par le périmètre géographique de FINESS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -21012,6 +21254,248 @@
       </reference>
       <name value="Jdv J387 Role Participant Ms"/>
       <description value="Rôle du participant vis à vis de l'événement (mandataire judiciaire, structure en charge de l'événement)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j391-niveau-diplome-ms"/>
+      </reference>
+      <name value="Jdv J391 Niveau Diplome Ms"/>
+      <description value="Niveau de diplôme permettant d'indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j392-type-courrier-ms"/>
+      </reference>
+      <name value="Jdv J392 Type Courrier Ms"/>
+      <description value="Type de courrier en France."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j393-utilisation-canal-communication-ms"/>
+      </reference>
+      <name value="Jdv J393 Utilisation Canal Communication Ms"/>
+      <description value="Précise l'utilisation du canal de communication."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j394-type-demande-compensation-ms"/>
+      </reference>
+      <name value="Jdv J394 Type Demande Compensation Ms"/>
+      <description value="Type demande de compensation adressée à la CDAPH."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j395-nature-demande-compensation-ms"/>
+      </reference>
+      <name value="Jdv J395 Nature Demande Compensation Ms"/>
+      <description value="Nature de la demande de compensation adressée à la CDAPH."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j396-canal-communication-ms"/>
+      </reference>
+      <name value="Jdv J396 Canal Communication Ms"/>
+      <description value="Canal de communication."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j397-type-messagerie-ms"/>
+      </reference>
+      <name value="Jdv J397 Type Messagerie Ms"/>
+      <description value="Type de messagerie électronique utilisée par le médico-social."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j398-type-decision-ms"/>
+      </reference>
+      <name value="Jdv J398 Type Decision Ms"/>
+      <description value="Type de décision transmise aux DUI(s) par la CDAPH en réponse à une demande de compensation d'un usager."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j399-motivation-ms"/>
+      </reference>
+      <name value="Jdv J399 Motivation Ms"/>
+      <description value="L'énoncé des considérations de droit ou de fait qui constituent le fondement de la proposition et de la décision de la CDAPH."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j400-nature-droit-prestation-ms"/>
+      </reference>
+      <name value="Jdv J400 Nature Droit Prestation Ms"/>
+      <description value="Nature du droit s’appliquant à tous les droits ou prestations ouverts par la CDAPH. Elle permet de gérer, le cas échéant, le lien entre la date d’ouverture du droit et la date de fin d’un droit précédent. Elle est déterminée par l’équipe pluridisciplinaire ou par la CDAPH."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j401-categorie-droit-prestation-ms"/>
+      </reference>
+      <name value="Jdv J401 Categorie Droit Prestation Ms"/>
+      <description value="Catégorie de droit et prestation caractérisant la décision d'orientation."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j402-type-droit-prestation-ms"/>
+      </reference>
+      <name value="Jdv J402 Type Droit Prestation Ms"/>
+      <description value="Type de droit et prestation caractérisant la décision d'orientation."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j403-motif-fin-pag-ms"/>
+      </reference>
+      <name value="Jdv J403 Motif Fin Pag Ms"/>
+      <description value="Motif pour l'arrêt du plan d'accompagnement global (PAG)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j404-qualification-orientation-ms"/>
+      </reference>
+      <name value="Jdv J404 Qualification Orientation Ms"/>
+      <description value="La qualification de l'orientation peut être cible ou alternative."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j405-type-presence-absence-ms"/>
+      </reference>
+      <name value="Jdv J405 Type Presence Absence Ms"/>
+      <description value="Déclaration du type de présence absence de l'usager lors d'un événement organisé par sa structure de rattachement."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j406-motif-absence-ms"/>
+      </reference>
+      <name value="Jdv J406 Motif Absence Ms"/>
+      <description value="Motif pour lequel l'usager n'est pas présent lors d'un événement organisé par sa structure de rattachement."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j407-type-repas-ms"/>
+      </reference>
+      <name value="Jdv J407 Type Repas Ms"/>
+      <description value="Type de repas."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j408-orientation-ms"/>
+      </reference>
+      <name value="Jdv J408 Orientation Ms"/>
+      <description value="Ensemble des orientations vers un Service d'éducation spéciale et de soins à domicile (SESSAD), un Service d'accompagnement familial et d'éducation précoce (SAFEP), un enseignement adapté (SEGPA/EREA) ou une unité d'enseignement."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j409-type-adresse-ms"/>
+      </reference>
+      <name value="Jdv J409 Type Adresse Ms"/>
+      <description value="Type d'adresse postale."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j410-categorie-permis-conduire-ms"/>
+      </reference>
+      <name value="Jdv J410 Categorie Permis Conduire Ms"/>
+      <description value="Catégorie de permis de conduire."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j411-niveau-scolaire-ms"/>
+      </reference>
+      <name value="Jdv J411 Niveau Scolaire Ms"/>
+      <description value="Niveau scolaire de l'usager en France."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j418-activite-sanitaire-diverse-regulee-active"/>
+      </reference>
+      <name value="Jdv J418 Activite Sanitaire Diverse Regulee Active"/>
+      <description value="Jeu de valeurs des activités sanitaires actives, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR)"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -21133,6 +21617,17 @@
       </reference>
       <name value="JDV Lieu Accouchement CISIS"/>
       <description value="JDV Lieu Accouchement CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-lieu-contact-rougeole-cisis"/>
+      </reference>
+      <name value="JDV Lieu Contact Rougeole CISIS"/>
+      <description value="JDV Lieu Contact Rougeole CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -21690,6 +22185,28 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-mso-resultat-qualitatif-3-cisis"/>
+      </reference>
+      <name value="Jdv MSO Resultat Qualitatif 3 CISIS"/>
+      <description value="Jdv MSO Resultat Qualitatif 3 CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-mso-resultat-qualitatif-5-cisis"/>
+      </reference>
+      <name value="Jdv MSO Resultat Qualitatif 5 CISIS"/>
+      <description value="Jdv MSO Resultat Qualitatif 5 CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-mso-resultat-qualitatif-cisis"/>
       </reference>
       <name value="Jdv MSO Resultat Qualitatif CISIS"/>
@@ -22024,6 +22541,17 @@
       </reference>
       <name value="JDV Origine Effet Indesirable CISIS"/>
       <description value="JDV Origine Effet Indesirable CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-origine-information-vaccin-rougeole-cisis"/>
+      </reference>
+      <name value="Jdv Origine Information Vaccin Rougeole CISIS"/>
+      <description value="Jdv Origine Information Vaccin Rougeole CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -22889,6 +23417,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-serotype-dengue-cisis"/>
+      </reference>
+      <name value="JDV Serotype Dengue CISIS"/>
+      <description value="JDV Serotype Dengue CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-severite-observation-cisis"/>
       </reference>
       <name value="JDV Severite Observation CISIS"/>
@@ -23010,10 +23549,65 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-specimen-type-chikungunya-cisis"/>
+      </reference>
+      <name value="jDV Specimen Type Chikungunya CISIS"/>
+      <description value="jDV Specimen Type Chikungunya CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-specimen-type-cisis"/>
       </reference>
       <name value="JDV Specimen Type CISIS"/>
       <description value="JDV Specimen Type CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-specimen-type-dengue-cisis"/>
+      </reference>
+      <name value="jDV Specimen Type Dengue CISIS"/>
+      <description value="jDV Specimen Type Dengue CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-specimen-type-rougeole-cisis"/>
+      </reference>
+      <name value="jDV Specimen Type Rougeole CISIS"/>
+      <description value="jDV Specimen Type Rougeole CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-specimen-type-westnile-cisis"/>
+      </reference>
+      <name value="jDV Specimen Type West Nile CISIS"/>
+      <description value="jDV Specimen Type West Nile CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-specimen-type-zika-cisis"/>
+      </reference>
+      <name value="jDV Specimen Type Zika CISIS"/>
+      <description value="jDV Specimen Type Zika CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -23681,6 +24275,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-type-event-indesirable-previsible-cisis"/>
+      </reference>
+      <name value="JDV Type Event Indesirable Previsible CISIS"/>
+      <description value="JDV Type Event Indesirable Previsible CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-type-garde-cisis"/>
       </reference>
       <name value="JDV Type Garde CISIS"/>
@@ -23861,6 +24466,17 @@
       </reference>
       <name value="JDV Type Resultat CISIS"/>
       <description value="JDV Type Resultat CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-resultat-type-cisis"/>
+      </reference>
+      <name value="Jdv Type Resultat Type CISIS"/>
+      <description value="Jdv Type Resultat Type CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -27381,6 +27997,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/terminologie-ruim-eeprescription"/>
+      </reference>
+      <name value="RUIM - european eprescription"/>
+      <description value="Composite CodeSystem grouping Brand Name + Package Size (+ optional properties).NB: dans cette version bêta, le Brand Name est remplacé par le libellé de la spécialité."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="NamingSystem"/>
       </extension>
       <reference>
@@ -27402,17 +28029,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/terminologie-esesali"/>
-      </reference>
-      <name value="SESALI"/>
-      <description value="Composite CodeSystem grouping Brand Name + Package Size (+ optional properties).NB: dans cette version bêta, le Brand Name est remplacé par le libellé de la spécialité."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -27427,7 +28043,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/900000000000207008-20260301"/>
+        <reference value="CodeSystem/900000000000207008-20260601"/>
       </reference>
       <name value="SNOMED CT core"/>
       <description value="SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO)."/>
@@ -27591,6 +28207,17 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
+      </reference>
+      <name value="Tre R347 Activite Sanitaire Diverse Regulee"/>
+      <description value="Nomenclature des activités sanitaires utilisée pour décrire les Activités Sanitaires Diverses Régulées (ASDR)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/tre-r360-type-role-entite-groupe"/>
       </reference>
       <name value="Tre R360 Type Role Entite Groupe"/>
@@ -27624,6 +28251,17 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/tre-r370-role-relation-ege"/>
+      </reference>
+      <name value="Tre R370 Role Relation Ege"/>
+      <description value="Nomenclature des types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/tre-r371-type-groupe-gcc"/>
       </reference>
       <name value="Tre R371 Type Groupe Gcc"/>
@@ -27639,6 +28277,28 @@
       </reference>
       <name value="Tre R372 Type Groupe Gco"/>
       <description value="Nomenclature des types de Groupement de Coopération Organique (GCO)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r373-type-personne-morale"/>
+      </reference>
+      <name value="Tre R373 Type Personne Morale"/>
+      <description value="Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces champs).&#xA;Remarque : Cette TRE est juste initialisée à minima et a vocation à porter d'autres valurs."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r374-nature-activite-smsse-regulee"/>
+      </reference>
+      <name value="Tre R374 Nature Activite Smsse Regulee"/>
+      <description value="Nomenclature des grandes natures d'activité SMSSE exercées par les entités FINESS+"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -27892,6 +28552,182 @@
       </reference>
       <name value="Tre R408 Type Enseignement Specialise"/>
       <description value="Type d'enseignement spécialisé."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r412-niveau-diplome"/>
+      </reference>
+      <name value="Tre R412 Niveau Diplome"/>
+      <description value="Niveau de diplôme permettant d'indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r413-categorie-permis-conduire"/>
+      </reference>
+      <name value="Tre R413 Categorie Permis Conduire"/>
+      <description value="Catégorie de permis de conduire."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r414-niveau-scolaire"/>
+      </reference>
+      <name value="Tre R414 Niveau Scolaire"/>
+      <description value="Niveau scolaire de l'usager en France."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r415-utilisation-canal-communication"/>
+      </reference>
+      <name value="Tre R415 Utilisation Canal Communication"/>
+      <description value="Précise l'utilisation du canal de communication."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r416-type-courrier"/>
+      </reference>
+      <name value="Tre R416 Type Courrier"/>
+      <description value="Type de courrier en France."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r417-type-demande-compensation"/>
+      </reference>
+      <name value="Tre R417 Type Demande Compensation"/>
+      <description value="Type de la demande de compensation adressée à la CDAPH."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r418-nature-demande-compensation"/>
+      </reference>
+      <name value="Tre R418 Nature Demande Compensation"/>
+      <description value="Nature de la demande de compensation adressée à la CDAPH."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r419-motivation"/>
+      </reference>
+      <name value="Tre R419 Motivation"/>
+      <description value="Considération(s) de droit ou de fait qui constituent le fondement de la proposition et de la décision de la CDAPH."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r420-droit-prestation"/>
+      </reference>
+      <name value="Tre R420 Droit Prestation"/>
+      <description value=" Catégorie et type de droit et prestation caractérisant la décision d'orientation."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r421-motif-fin-pag"/>
+      </reference>
+      <name value="Tre R421 Motif Fin Pag"/>
+      <description value="Lorsque le plan d'accompagnement global (PAG) arrive à échéance ou si le coordonnateur de parcours l'estime nécessaire, un bilan est élaboré et la phase d'actualisation est lancée afin de déterminer s'il faut prolonger ce PAG, le modifier ou y mettre fin. La MDPH, les partenaires et l'usager peuvent définir ensemble que le PAG n'est plus nécessaire et donc y mettre fin. Le consentement de la personne ou de son représentant légal est recueilli et l'information sur la fin du PAG transmise à l'ensemble des parties-prenantes."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r422-qualification-orientation"/>
+      </reference>
+      <name value="Tre R422 Qualification Orientation"/>
+      <description value="La qualification de l'orientation peut être cible ou alternative."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r423-type-presence-absence"/>
+      </reference>
+      <name value="Tre R423 Type Presence Absence"/>
+      <description value="Déclaration du type de présence absence de l'usager lors d'un événement organisé par sa structure de rattachement."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r424-motif-absence"/>
+      </reference>
+      <name value="Tre R424 Motif Absence"/>
+      <description value="Motif pour lequel l'usager n'est pas présent lors d'un événement organisé par sa structure de rattachement."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r425-type-repas"/>
+      </reference>
+      <name value="Tre R425 Type Repas"/>
+      <description value="Type de repas."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r426-orientation"/>
+      </reference>
+      <name value="Tre R426 Orientation"/>
+      <description value="Orientation vers un Service d'éducation spéciale et de soins à domicile (SESSAD) ou vers un Service d'accompagnement familial et d'éducation précoce (SAFEP)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r427-type-adresse"/>
+      </reference>
+      <name value="Tre R427 Type Adresse"/>
+      <description value="Type d'adresse postale."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -29727,7 +30563,7 @@
         <reference value="CodeSystem/TRE-R327-TypeDecision"/>
       </reference>
       <name value="TRE_R327_TypeDecision"/>
-      <description value="Caractérise le type de décision prise par la CDAPH en réponse à une demande de compensation d'un usager (individu ou représentant légal), à une demande de révision par un tiers ou à un recours administratif préalable obligatoire (RAPO) d'un usager"/>
+      <description value="Caractérise le type de décision prise par la CDAPH en réponse à une demande de compensation d'un usager (individu ou représentant légal), à une demande de révision par un tiers ou à un recours administratif préalable obligatoire (RAPO) d'un usager."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -30772,6 +31608,39 @@
       </reference>
       <name value="Vs Tre R362 Type Budget All"/>
       <description value="Jeu de valeurs ALL contenant les types de budget associés aux Entités Géographiques d'Exercice (EGE) dans FINESS+."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-tre-r370-role-relation-ege-all"/>
+      </reference>
+      <name value="Vs Tre R370 Role Relation Ege All"/>
+      <description value="Jeu de valeurs ALL contenant les types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-tre-r373-type-personne-morale-all"/>
+      </reference>
+      <name value="Vs Tre R373 Type Personne Morale All"/>
+      <description value="Jeu de valeurs ALL contenant les types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces  champs)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-tre-r374-nature-activite-smsse-regulee-all"/>
+      </reference>
+      <name value="Vs Tre R374 Nature Activite Smsse Regulee All"/>
+      <description value="Jeu de valeurs ALL contenant les grandes natures d'activité SMSSE exercées par les entités FINESS+."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

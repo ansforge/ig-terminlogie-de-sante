@@ -41,7 +41,7 @@ Traduction Française
     }]
   }],
   "content" : "supplement",
-  "supplements" : "http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution|4.0.0",
+  "supplements" : "http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution|2018-08-12",
   "concept" : [{
     "code" : "N",
     "designation" : [{

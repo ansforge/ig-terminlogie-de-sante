@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "Terminologies"] ; # 
   fhir:title [ fhir:v "Terminologies  de Santé"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2026-03-27T09:46:53+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-06-03T09:21:46+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -54382,6 +54382,27 @@
          ] ;
          fhir:value [
            a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-hl7-allergy-intolerance-category-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-hl7-allergy-intolerance-category-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "AllergyIntoleranceCategory" ] ;
+       fhir:description [ fhir:v "AllergyIntoleranceCategory" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
            fhir:v "CodeSystem"
          ]
        ] ) ;
@@ -55331,6 +55352,27 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-hl7-days-of-week-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-hl7-days-of-week-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "DaysOfWeek" ] ;
+       fhir:description [ fhir:v "DaysOfWeek" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-hl7-days-of-week> ;
          fhir:reference [ fhir:v "ValueSet/jdv-hl7-days-of-week" ]
        ] ;
@@ -55923,6 +55965,27 @@
        ] ;
        fhir:name [ fhir:v "JDV Age De Survenue CISIS" ] ;
        fhir:description [ fhir:v "JDV Age De Survenue CISIS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-age-gestationnel-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-age-gestationnel-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "JDV Age Gestationnel CISIS" ] ;
+       fhir:description [ fhir:v "JDV Age Gestationnel CISIS" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -56758,6 +56821,27 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-collectivite-sujets-a-risque-rougeole-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-collectivite-sujets-a-risque-rougeole-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv Collectivite Sujets A Risque Rougeole CISIS" ] ;
+       fhir:description [ fhir:v "Jdv Collectivite Sujets A Risque Rougeole CISIS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-completude-dispensation-cisis> ;
          fhir:reference [ fhir:v "ValueSet/jdv-completude-dispensation-cisis" ]
        ] ;
@@ -56868,6 +56952,27 @@
        ] ;
        fhir:name [ fhir:v "JDV Complication Pulmonaire CISIS" ] ;
        fhir:description [ fhir:v "JDV Complication Pulmonaire CISIS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-complication-rougeole-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-complication-rougeole-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv Complication Rougeole CISIS" ] ;
+       fhir:description [ fhir:v "Jdv Complication Rougeole CISIS" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -57120,6 +57225,27 @@
        ] ;
        fhir:name [ fhir:v "JDV Couverture Sociale CISIS" ] ;
        fhir:description [ fhir:v "JDV Couverture Sociale CISIS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-date-accouchement-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-date-accouchement-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "JDV Date Accouchement CISIS" ] ;
+       fhir:description [ fhir:v "JDV Date Accouchement CISIS" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -57850,6 +57976,27 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-evolution-rougeole-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-evolution-rougeole-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "JDV Evolution Rougeole CISIS" ] ;
+       fhir:description [ fhir:v "JDV Evolution Rougeole CISIS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-examen-biochimie-aunv-cisis> ;
          fhir:reference [ fhir:v "ValueSet/jdv-examen-biochimie-aunv-cisis" ]
        ] ;
@@ -58060,6 +58207,27 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-exposition-west-nile-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-exposition-west-nile-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv Exposition West Nile CISIS" ] ;
+       fhir:description [ fhir:v "Jdv Exposition West Nile CISIS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-facteur-de-risque-avc-cisis> ;
          fhir:reference [ fhir:v "ValueSet/jdv-facteur-de-risque-avc-cisis" ]
        ] ;
@@ -58107,6 +58275,27 @@
        ] ;
        fhir:name [ fhir:v "JDV Facteur De Risque Social CISIS" ] ;
        fhir:description [ fhir:v "JDV Facteur De Risque Social CISIS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-facteur-risque-rougeole-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-facteur-risque-rougeole-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "JDV Facteur Risque Rougeole CISIS" ] ;
+       fhir:description [ fhir:v "JDV Facteur Risque Rougeole CISIS" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -58443,6 +58632,27 @@
        ] ;
        fhir:name [ fhir:v "JDV Hemisphere Profond CISIS" ] ;
        fhir:description [ fhir:v "JDV Hemisphere Profond CISIS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-historique-grossesses-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-historique-grossesses-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "JDV Historique Grossesses CISIS" ] ;
+       fhir:description [ fhir:v "JDV Historique Grossesses CISIS" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -58821,6 +59031,27 @@
        ] ;
        fhir:name [ fhir:v "JDV J12 CiviliteTitre CISIS" ] ;
        fhir:description [ fhir:v "Titre civilité - CI-SIS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j240-activite-sanitaire-diverse-regulee-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j240-activite-sanitaire-diverse-regulee-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J240 Activite Sanitaire Diverse Regulee Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les activités sanitaires, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR)" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -59320,6 +59551,216 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J333 Activite Sanitaire Diverse Regulee Niv Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 1" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j334-activite-sanitaire-diverse-regulee-niv2-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j334-activite-sanitaire-diverse-regulee-niv2-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J334 Activite Sanitaire Diverse Regulee Niv2 Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs Finess contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 2" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j335-activite-sanitaire-diverse-regulee-niv3-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j335-activite-sanitaire-diverse-regulee-niv3-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J335 Activite Sanitaire Diverse Regulee Niv3 Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs Finess contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 3" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j351-appareil-amm-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j351-appareil-amm-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J351 Appareil Amm Finess" ] ;
+       fhir:description [ fhir:v "Liste des appareils AMM vus de FINESS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j352-nature-capacite-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j352-nature-capacite-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J352 Nature Capacite Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les capacités utilisées par FINESS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j353-type-statut-capacite-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j353-type-statut-capacite-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J353 Type Statut Capacite Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs FINESS permettant de préciser le statut des capacités concernées par FINESS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j354-habilitation-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j354-habilitation-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J354 Habilitation Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les habilitations associées aux capacités des structures FINESS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j357-genre-capacite-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j357-genre-capacite-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J357 Genre Capacite Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les genres de capacités utilisés par FINESS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j364-type-fermeture-pm-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j364-type-fermeture-pm-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J364 Type Fermeture Pm Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les types de fermeture dédiées aux personnes morales FINESS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j365-type-fermeture-ege-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j365-type-fermeture-ege-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J365 Type Fermeture Ege Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les types de fermeture dédiées aux entités géographiques FINESS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j366-statut-bilan-projet-personnalise-ms> ;
          fhir:reference [ fhir:v "ValueSet/jdv-j366-statut-bilan-projet-personnalise-ms" ]
        ] ;
@@ -59366,7 +59807,7 @@
          fhir:reference [ fhir:v "ValueSet/jdv-j368-categorie-etablissement-cisis" ]
        ] ;
        fhir:name [ fhir:v "Jdv J368 Categorie Etablissement Cisis" ] ;
-       fhir:description [ fhir:v "JDV à l'image de l'ensemble des valeurs actives de la terminologie TRE_R66-CategorieEtablissement" ] ;
+       fhir:description [ fhir:v "JDV pour le CISIS reprenant l'ensemble des valeurs actives et obsolètes de niveau 4 dans la TreR397CategorieEntiteGeographiqueExercice" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -59493,6 +59934,27 @@
        ] ;
        fhir:name [ fhir:v "Jdv J377 Categorie Entite Geographique Exercice Ror" ] ;
        fhir:description [ fhir:v "Ce JDV remplace le JDV_J55_CategorieEG_ROR" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j378-region-om-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j378-region-om-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J378 Region Om Finess" ] ;
+       fhir:description [ fhir:v "Liste des régions administratives couvertes par le périmètre géographique de FINESS" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -59640,6 +60102,468 @@
        ] ;
        fhir:name [ fhir:v "Jdv J387 Role Participant Ms" ] ;
        fhir:description [ fhir:v "Rôle du participant vis à vis de l'événement (mandataire judiciaire, structure en charge de l'événement)." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j391-niveau-diplome-ms> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j391-niveau-diplome-ms" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J391 Niveau Diplome Ms" ] ;
+       fhir:description [ fhir:v "Niveau de diplôme permettant d'indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j392-type-courrier-ms> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j392-type-courrier-ms" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J392 Type Courrier Ms" ] ;
+       fhir:description [ fhir:v "Type de courrier en France." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j393-utilisation-canal-communication-ms> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j393-utilisation-canal-communication-ms" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J393 Utilisation Canal Communication Ms" ] ;
+       fhir:description [ fhir:v "Précise l'utilisation du canal de communication." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j394-type-demande-compensation-ms> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j394-type-demande-compensation-ms" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J394 Type Demande Compensation Ms" ] ;
+       fhir:description [ fhir:v "Type demande de compensation adressée à la CDAPH." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j395-nature-demande-compensation-ms> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j395-nature-demande-compensation-ms" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J395 Nature Demande Compensation Ms" ] ;
+       fhir:description [ fhir:v "Nature de la demande de compensation adressée à la CDAPH." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j396-canal-communication-ms> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j396-canal-communication-ms" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J396 Canal Communication Ms" ] ;
+       fhir:description [ fhir:v "Canal de communication." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j397-type-messagerie-ms> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j397-type-messagerie-ms" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J397 Type Messagerie Ms" ] ;
+       fhir:description [ fhir:v "Type de messagerie électronique utilisée par le médico-social." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j398-type-decision-ms> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j398-type-decision-ms" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J398 Type Decision Ms" ] ;
+       fhir:description [ fhir:v "Type de décision transmise aux DUI(s) par la CDAPH en réponse à une demande de compensation d'un usager." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j399-motivation-ms> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j399-motivation-ms" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J399 Motivation Ms" ] ;
+       fhir:description [ fhir:v "L'énoncé des considérations de droit ou de fait qui constituent le fondement de la proposition et de la décision de la CDAPH." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j400-nature-droit-prestation-ms> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j400-nature-droit-prestation-ms" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J400 Nature Droit Prestation Ms" ] ;
+       fhir:description [ fhir:v "Nature du droit s’appliquant à tous les droits ou prestations ouverts par la CDAPH. Elle permet de gérer, le cas échéant, le lien entre la date d’ouverture du droit et la date de fin d’un droit précédent. Elle est déterminée par l’équipe pluridisciplinaire ou par la CDAPH." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j401-categorie-droit-prestation-ms> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j401-categorie-droit-prestation-ms" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J401 Categorie Droit Prestation Ms" ] ;
+       fhir:description [ fhir:v "Catégorie de droit et prestation caractérisant la décision d'orientation." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j402-type-droit-prestation-ms> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j402-type-droit-prestation-ms" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J402 Type Droit Prestation Ms" ] ;
+       fhir:description [ fhir:v "Type de droit et prestation caractérisant la décision d'orientation." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j403-motif-fin-pag-ms> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j403-motif-fin-pag-ms" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J403 Motif Fin Pag Ms" ] ;
+       fhir:description [ fhir:v "Motif pour l'arrêt du plan d'accompagnement global (PAG)." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j404-qualification-orientation-ms> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j404-qualification-orientation-ms" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J404 Qualification Orientation Ms" ] ;
+       fhir:description [ fhir:v "La qualification de l'orientation peut être cible ou alternative." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j405-type-presence-absence-ms> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j405-type-presence-absence-ms" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J405 Type Presence Absence Ms" ] ;
+       fhir:description [ fhir:v "Déclaration du type de présence absence de l'usager lors d'un événement organisé par sa structure de rattachement." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j406-motif-absence-ms> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j406-motif-absence-ms" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J406 Motif Absence Ms" ] ;
+       fhir:description [ fhir:v "Motif pour lequel l'usager n'est pas présent lors d'un événement organisé par sa structure de rattachement." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j407-type-repas-ms> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j407-type-repas-ms" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J407 Type Repas Ms" ] ;
+       fhir:description [ fhir:v "Type de repas." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j408-orientation-ms> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j408-orientation-ms" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J408 Orientation Ms" ] ;
+       fhir:description [ fhir:v "Ensemble des orientations vers un Service d'éducation spéciale et de soins à domicile (SESSAD), un Service d'accompagnement familial et d'éducation précoce (SAFEP), un enseignement adapté (SEGPA/EREA) ou une unité d'enseignement." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j409-type-adresse-ms> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j409-type-adresse-ms" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J409 Type Adresse Ms" ] ;
+       fhir:description [ fhir:v "Type d'adresse postale." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j410-categorie-permis-conduire-ms> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j410-categorie-permis-conduire-ms" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J410 Categorie Permis Conduire Ms" ] ;
+       fhir:description [ fhir:v "Catégorie de permis de conduire." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j411-niveau-scolaire-ms> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j411-niveau-scolaire-ms" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J411 Niveau Scolaire Ms" ] ;
+       fhir:description [ fhir:v "Niveau scolaire de l'usager en France." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j418-activite-sanitaire-diverse-regulee-active> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j418-activite-sanitaire-diverse-regulee-active" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J418 Activite Sanitaire Diverse Regulee Active" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs des activités sanitaires actives, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR)" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -59871,6 +60795,27 @@
        ] ;
        fhir:name [ fhir:v "JDV Lieu Accouchement CISIS" ] ;
        fhir:description [ fhir:v "JDV Lieu Accouchement CISIS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-lieu-contact-rougeole-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-lieu-contact-rougeole-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "JDV Lieu Contact Rougeole CISIS" ] ;
+       fhir:description [ fhir:v "JDV Lieu Contact Rougeole CISIS" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -60937,6 +61882,48 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-mso-resultat-qualitatif-3-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-mso-resultat-qualitatif-3-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv MSO Resultat Qualitatif 3 CISIS" ] ;
+       fhir:description [ fhir:v "Jdv MSO Resultat Qualitatif 3 CISIS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-mso-resultat-qualitatif-5-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-mso-resultat-qualitatif-5-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv MSO Resultat Qualitatif 5 CISIS" ] ;
+       fhir:description [ fhir:v "Jdv MSO Resultat Qualitatif 5 CISIS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-mso-resultat-qualitatif-cisis> ;
          fhir:reference [ fhir:v "ValueSet/jdv-mso-resultat-qualitatif-cisis" ]
        ] ;
@@ -61572,6 +62559,27 @@
        ] ;
        fhir:name [ fhir:v "JDV Origine Effet Indesirable CISIS" ] ;
        fhir:description [ fhir:v "JDV Origine Effet Indesirable CISIS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-origine-information-vaccin-rougeole-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-origine-information-vaccin-rougeole-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv Origine Information Vaccin Rougeole CISIS" ] ;
+       fhir:description [ fhir:v "Jdv Origine Information Vaccin Rougeole CISIS" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -63226,6 +64234,27 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-serotype-dengue-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-serotype-dengue-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "JDV Serotype Dengue CISIS" ] ;
+       fhir:description [ fhir:v "JDV Serotype Dengue CISIS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-severite-observation-cisis> ;
          fhir:reference [ fhir:v "ValueSet/jdv-severite-observation-cisis" ]
        ] ;
@@ -63457,11 +64486,116 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-specimen-type-chikungunya-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-specimen-type-chikungunya-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "jDV Specimen Type Chikungunya CISIS" ] ;
+       fhir:description [ fhir:v "jDV Specimen Type Chikungunya CISIS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-specimen-type-cisis> ;
          fhir:reference [ fhir:v "ValueSet/jdv-specimen-type-cisis" ]
        ] ;
        fhir:name [ fhir:v "JDV Specimen Type CISIS" ] ;
        fhir:description [ fhir:v "JDV Specimen Type CISIS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-specimen-type-dengue-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-specimen-type-dengue-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "jDV Specimen Type Dengue CISIS" ] ;
+       fhir:description [ fhir:v "jDV Specimen Type Dengue CISIS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-specimen-type-rougeole-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-specimen-type-rougeole-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "jDV Specimen Type Rougeole CISIS" ] ;
+       fhir:description [ fhir:v "jDV Specimen Type Rougeole CISIS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-specimen-type-westnile-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-specimen-type-westnile-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "jDV Specimen Type West Nile CISIS" ] ;
+       fhir:description [ fhir:v "jDV Specimen Type West Nile CISIS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-specimen-type-zika-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-specimen-type-zika-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "jDV Specimen Type Zika CISIS" ] ;
+       fhir:description [ fhir:v "jDV Specimen Type Zika CISIS" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -64738,6 +65872,27 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-type-event-indesirable-previsible-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-type-event-indesirable-previsible-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "JDV Type Event Indesirable Previsible CISIS" ] ;
+       fhir:description [ fhir:v "JDV Type Event Indesirable Previsible CISIS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-type-garde-cisis> ;
          fhir:reference [ fhir:v "ValueSet/jdv-type-garde-cisis" ]
        ] ;
@@ -65079,6 +66234,27 @@
        ] ;
        fhir:name [ fhir:v "JDV Type Resultat CISIS" ] ;
        fhir:description [ fhir:v "JDV Type Resultat CISIS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-resultat-type-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-resultat-type-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv Type Resultat Type CISIS" ] ;
+       fhir:description [ fhir:v "Jdv Type Resultat Type CISIS" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -71807,6 +72983,27 @@
          ] ;
          fhir:value [
            a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-ruim-eeprescription> ;
+         fhir:reference [ fhir:v "CodeSystem/terminologie-ruim-eeprescription" ]
+       ] ;
+       fhir:name [ fhir:v "RUIM - european eprescription" ] ;
+       fhir:description [ fhir:v "Composite CodeSystem grouping Brand Name + Package Size (+ optional properties).NB: dans cette version bêta, le Brand Name est remplacé par le libellé de la spécialité." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
            fhir:v "NamingSystem"
          ]
        ] ) ;
@@ -71848,27 +73045,6 @@
          ] ;
          fhir:value [
            a fhir:String ;
-           fhir:v "CodeSystem"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-esesali> ;
-         fhir:reference [ fhir:v "CodeSystem/terminologie-esesali" ]
-       ] ;
-       fhir:name [ fhir:v "SESALI" ] ;
-       fhir:description [ fhir:v "Composite CodeSystem grouping Brand Name + Package Size (+ optional properties).NB: dans cette version bêta, le Brand Name est remplacé par le libellé de la spécialité." ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
            fhir:v "ValueSet"
          ]
        ] ) ;
@@ -71894,8 +73070,8 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/900000000000207008-20260301> ;
-         fhir:reference [ fhir:v "CodeSystem/900000000000207008-20260301" ]
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/900000000000207008-20260601> ;
+         fhir:reference [ fhir:v "CodeSystem/900000000000207008-20260601" ]
        ] ;
        fhir:name [ fhir:v "SNOMED CT core" ] ;
        fhir:description [ fhir:v "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO)." ] ;
@@ -72208,6 +73384,27 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R347 Activite Sanitaire Diverse Regulee" ] ;
+       fhir:description [ fhir:v "Nomenclature des activités sanitaires utilisée pour décrire les Activités Sanitaires Diverses Régulées (ASDR)" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r360-type-role-entite-groupe> ;
          fhir:reference [ fhir:v "CodeSystem/tre-r360-type-role-entite-groupe" ]
        ] ;
@@ -72271,6 +73468,27 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r370-role-relation-ege> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r370-role-relation-ege" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R370 Role Relation Ege" ] ;
+       fhir:description [ fhir:v "Nomenclature des types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r371-type-groupe-gcc> ;
          fhir:reference [ fhir:v "CodeSystem/tre-r371-type-groupe-gcc" ]
        ] ;
@@ -72297,6 +73515,48 @@
        ] ;
        fhir:name [ fhir:v "Tre R372 Type Groupe Gco" ] ;
        fhir:description [ fhir:v "Nomenclature des types de Groupement de Coopération Organique (GCO)" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r373-type-personne-morale> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r373-type-personne-morale" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R373 Type Personne Morale" ] ;
+       fhir:description [ fhir:v "Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces champs).\nRemarque : Cette TRE est juste initialisée à minima et a vocation à porter d'autres valurs." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r374-nature-activite-smsse-regulee> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r374-nature-activite-smsse-regulee" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R374 Nature Activite Smsse Regulee" ] ;
+       fhir:description [ fhir:v "Nomenclature des grandes natures d'activité SMSSE exercées par les entités FINESS+" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -72780,6 +74040,342 @@
        ] ;
        fhir:name [ fhir:v "Tre R408 Type Enseignement Specialise" ] ;
        fhir:description [ fhir:v "Type d'enseignement spécialisé." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r412-niveau-diplome> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r412-niveau-diplome" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R412 Niveau Diplome" ] ;
+       fhir:description [ fhir:v "Niveau de diplôme permettant d'indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r413-categorie-permis-conduire> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r413-categorie-permis-conduire" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R413 Categorie Permis Conduire" ] ;
+       fhir:description [ fhir:v "Catégorie de permis de conduire." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r414-niveau-scolaire> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r414-niveau-scolaire" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R414 Niveau Scolaire" ] ;
+       fhir:description [ fhir:v "Niveau scolaire de l'usager en France." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r415-utilisation-canal-communication> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r415-utilisation-canal-communication" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R415 Utilisation Canal Communication" ] ;
+       fhir:description [ fhir:v "Précise l'utilisation du canal de communication." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r416-type-courrier> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r416-type-courrier" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R416 Type Courrier" ] ;
+       fhir:description [ fhir:v "Type de courrier en France." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r417-type-demande-compensation> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r417-type-demande-compensation" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R417 Type Demande Compensation" ] ;
+       fhir:description [ fhir:v "Type de la demande de compensation adressée à la CDAPH." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r418-nature-demande-compensation> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r418-nature-demande-compensation" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R418 Nature Demande Compensation" ] ;
+       fhir:description [ fhir:v "Nature de la demande de compensation adressée à la CDAPH." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r419-motivation> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r419-motivation" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R419 Motivation" ] ;
+       fhir:description [ fhir:v "Considération(s) de droit ou de fait qui constituent le fondement de la proposition et de la décision de la CDAPH." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r420-droit-prestation> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r420-droit-prestation" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R420 Droit Prestation" ] ;
+       fhir:description [ fhir:v " Catégorie et type de droit et prestation caractérisant la décision d'orientation." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r421-motif-fin-pag> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r421-motif-fin-pag" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R421 Motif Fin Pag" ] ;
+       fhir:description [ fhir:v "Lorsque le plan d'accompagnement global (PAG) arrive à échéance ou si le coordonnateur de parcours l'estime nécessaire, un bilan est élaboré et la phase d'actualisation est lancée afin de déterminer s'il faut prolonger ce PAG, le modifier ou y mettre fin. La MDPH, les partenaires et l'usager peuvent définir ensemble que le PAG n'est plus nécessaire et donc y mettre fin. Le consentement de la personne ou de son représentant légal est recueilli et l'information sur la fin du PAG transmise à l'ensemble des parties-prenantes." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r422-qualification-orientation> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r422-qualification-orientation" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R422 Qualification Orientation" ] ;
+       fhir:description [ fhir:v "La qualification de l'orientation peut être cible ou alternative." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r423-type-presence-absence> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r423-type-presence-absence" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R423 Type Presence Absence" ] ;
+       fhir:description [ fhir:v "Déclaration du type de présence absence de l'usager lors d'un événement organisé par sa structure de rattachement." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r424-motif-absence> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r424-motif-absence" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R424 Motif Absence" ] ;
+       fhir:description [ fhir:v "Motif pour lequel l'usager n'est pas présent lors d'un événement organisé par sa structure de rattachement." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r425-type-repas> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r425-type-repas" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R425 Type Repas" ] ;
+       fhir:description [ fhir:v "Type de repas." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r426-orientation> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r426-orientation" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R426 Orientation" ] ;
+       fhir:description [ fhir:v "Orientation vers un Service d'éducation spéciale et de soins à domicile (SESSAD) ou vers un Service d'accompagnement familial et d'éducation précoce (SAFEP)" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r427-type-adresse> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r427-type-adresse" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R427 Type Adresse" ] ;
+       fhir:description [ fhir:v "Type d'adresse postale." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -76285,7 +77881,7 @@
          fhir:reference [ fhir:v "CodeSystem/TRE-R327-TypeDecision" ]
        ] ;
        fhir:name [ fhir:v "TRE_R327_TypeDecision" ] ;
-       fhir:description [ fhir:v "Caractérise le type de décision prise par la CDAPH en réponse à une demande de compensation d'un usager (individu ou représentant légal), à une demande de révision par un tiers ou à un recours administratif préalable obligatoire (RAPO) d'un usager" ] ;
+       fhir:description [ fhir:v "Caractérise le type de décision prise par la CDAPH en réponse à une demande de compensation d'un usager (individu ou représentant légal), à une demande de révision par un tiers ou à un recours administratif préalable obligatoire (RAPO) d'un usager." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -78280,6 +79876,69 @@
        ] ;
        fhir:name [ fhir:v "Vs Tre R362 Type Budget All" ] ;
        fhir:description [ fhir:v "Jeu de valeurs ALL contenant les types de budget associés aux Entités Géographiques d'Exercice (EGE) dans FINESS+." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r370-role-relation-ege-all> ;
+         fhir:reference [ fhir:v "ValueSet/vs-tre-r370-role-relation-ege-all" ]
+       ] ;
+       fhir:name [ fhir:v "Vs Tre R370 Role Relation Ege All" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs ALL contenant les types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r373-type-personne-morale-all> ;
+         fhir:reference [ fhir:v "ValueSet/vs-tre-r373-type-personne-morale-all" ]
+       ] ;
+       fhir:name [ fhir:v "Vs Tre R373 Type Personne Morale All" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs ALL contenant les types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces  champs)." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r374-nature-activite-smsse-regulee-all> ;
+         fhir:reference [ fhir:v "ValueSet/vs-tre-r374-nature-activite-smsse-regulee-all" ]
+       ] ;
+       fhir:name [ fhir:v "Vs Tre R374 Nature Activite Smsse Regulee All" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs ALL contenant les grandes natures d'activité SMSSE exercées par les entités FINESS+." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false

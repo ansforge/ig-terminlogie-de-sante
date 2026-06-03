@@ -38,7 +38,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM"/>
-      <version value="20240628120000"/>
+      <version value="20260505120000"/>
       <concept>
         <code value="01"/>
         <display value="Ain (01)"/>

@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J198-FonctionLieu-ROR/FHIR/JDV-J198-FonctionLieu-ROR | *Version*:20251222120000 | |
-| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J198_FonctionLieu_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J198-FonctionLieu-ROR/FHIR/JDV-J198-FonctionLieu-ROR | *Version*:20260601120000 | |
+| Active as of 2026-06-01 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J198_FonctionLieu_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.30 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J198-FonctionLieu-ROR",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2025-12-18T16:47:45.966+01:00",
+    "versionId" : "11",
+    "lastUpdated" : "2026-06-02T15:19:02.126+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -71,11 +71,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.30"
   }],
-  "version" : "20251222120000",
+  "version" : "20260601120000",
   "name" : "JDV_J198_FonctionLieu_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-22T12:00:00+01:00",
+  "date" : "2026-06-01T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Destination d'usage du lieu pour le lieu de réalisation de l'offre.",
   "jurisdiction" : [{
@@ -87,7 +87,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R343-FonctionLieu/FHIR/TRE-R343-FonctionLieu",
-      "version" : "20251222120000",
+      "version" : "20260601120000",
       "concept" : [{
         "code" : "001",
         "display" : "Hébergement MCO"
@@ -199,6 +199,10 @@ Requête sur le SMT
       {
         "code" : "028",
         "display" : "Local de cabinet de ville de pneumologie"
+      },
+      {
+        "code" : "029",
+        "display" : "Plateau de médecine nucléaire"
       }]
     }]
   }

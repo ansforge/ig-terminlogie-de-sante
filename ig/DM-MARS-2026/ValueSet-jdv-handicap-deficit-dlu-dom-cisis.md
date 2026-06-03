@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-handicap-deficit-dlu-dom-cisis | *Version*:20260311144903 | |
-| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvHandicapDeficitDluDomCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-handicap-deficit-dlu-dom-cisis | *Version*:20260420150250 | |
+| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvHandicapDeficitDluDomCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.812 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-handicap-deficit-dlu-dom-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2026-03-11T15:28:21.971+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-04-20T16:58:09.263+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -71,12 +71,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.812"
   }],
-  "version" : "20260311144903",
+  "version" : "20260420150250",
   "name" : "JdvHandicapDeficitDluDomCisis",
   "title" : "JDV Handicap Deficit Dlu Dom CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-11T14:49:03+01:00",
+  "date" : "2026-04-20T15:02:50+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Handicap Deficit Dlu Dom CISIS",
   "jurisdiction" : [{
@@ -88,7 +88,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-      "version" : "202603110000",
+      "version" : "202604200000",
       "concept" : [{
         "code" : "GEN-092.01.23",
         "display" : "Autre handicap / déficit"
@@ -96,7 +96,6 @@ Requête sur le SMT
     },
     {
       "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20260301",
       "concept" : [{
         "code" : "397540003",
         "display" : "malvoyance"

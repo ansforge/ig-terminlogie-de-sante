@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-j323-activite-sociale-regulee-finess",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-02-24T10:32:20.185+01:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-05-05T19:02:13.807+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",

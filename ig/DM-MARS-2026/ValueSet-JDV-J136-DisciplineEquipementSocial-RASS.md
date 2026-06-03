@@ -57,8 +57,8 @@ Expansions are not generated for retired value sets
   "resourceType" : "ValueSet",
   "id" : "JDV-J136-DisciplineEquipementSocial-RASS",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2026-02-23T18:17:25.401+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-05-05T19:02:39.101+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",

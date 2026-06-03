@@ -10,8 +10,8 @@
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "terminologie-cim-10"] ; # 
   fhir:meta [
-     fhir:versionId [ fhir:v "8.1770199823535" ] ;
-     fhir:lastUpdated [ fhir:v "2026-02-04T11:10:23.535+01:00"^^xsd:dateTime ] ;
+     fhir:versionId [ fhir:v "10" ] ;
+     fhir:lastUpdated [ fhir:v "2026-04-07T16:50:05.247+02:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"^^xsd:anyURI ;
        fhir:l <http://hl7.org/fhir/StructureDefinition/shareablecodesystem?version=4.0.1>
@@ -63,7 +63,7 @@
      fhir:l <https://smt.esante.gouv.fr/terminologie-cim-10?vs>
   ] ; # 
   fhir:content [ fhir:v "not-present"] ; # 
-  fhir:count [ fhir:v "19161"^^xsd:nonNegativeInteger] ; # 
+  fhir:count [ fhir:v "19075"^^xsd:nonNegativeInteger] ; # 
   fhir:filter ( [
      fhir:code [ fhir:v "root" ] ;
      fhir:operator ( [ fhir:v "=" ] ) ;

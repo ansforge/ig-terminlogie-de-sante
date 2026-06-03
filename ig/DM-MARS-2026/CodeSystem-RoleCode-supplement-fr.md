@@ -41,7 +41,7 @@ Traduction Française
     }]
   }],
   "content" : "supplement",
-  "supplements" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode|4.0.0",
+  "supplements" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode|2018-08-12",
   "concept" : [{
     "code" : "C",
     "designation" : [{

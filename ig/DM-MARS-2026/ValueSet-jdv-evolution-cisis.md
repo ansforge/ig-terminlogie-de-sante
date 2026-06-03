@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-cisis | *Version*:20260311144903 | |
-| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvEvolutionCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-cisis | *Version*:20260420150249 | |
+| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvEvolutionCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.788 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-evolution-cisis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2026-03-11T15:28:16.585+01:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-04-20T16:58:02.204+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -71,12 +71,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.788"
   }],
-  "version" : "20260311144903",
+  "version" : "20260420150249",
   "name" : "JdvEvolutionCisis",
   "title" : "JDV Evolution CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-11T14:49:03+01:00",
+  "date" : "2026-04-20T15:02:49+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Evolution CISIS",
   "jurisdiction" : [{
@@ -88,7 +88,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-      "version" : "202603110000",
+      "version" : "202604200000",
       "concept" : [{
         "code" : "MED-1281",
         "display" : "décès auquel l’effet a pu contribuer"
@@ -100,7 +100,6 @@ Requête sur le SMT
     },
     {
       "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20260301",
       "concept" : [{
         "code" : "1352007006",
         "display" : "guérison sans séquelle"

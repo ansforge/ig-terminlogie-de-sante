@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-j321-activite-enseignement-regulee-niv3-finess",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-02-24T10:32:19.764+01:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-05-05T19:02:13.298+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",

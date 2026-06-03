@@ -10,8 +10,8 @@
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "terminologie-sms"] ; # 
   fhir:meta [
-     fhir:versionId [ fhir:v "27" ] ;
-     fhir:lastUpdated [ fhir:v "2026-03-05T13:50:00.411+01:00"^^xsd:dateTime ] ;
+     fhir:versionId [ fhir:v "29" ] ;
+     fhir:lastUpdated [ fhir:v "2026-05-05T18:57:34.545+02:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"^^xsd:anyURI ;
        fhir:l <http://hl7.org/fhir/StructureDefinition/shareablecodesystem?version=4.0.1>
@@ -40,12 +40,12 @@
      ] ;
      fhir:value [ fhir:v "terminologie-sms" ]
   ] ) ; # 
-  fhir:version [ fhir:v "2026-03"] ; # 
+  fhir:version [ fhir:v "2026-05"] ; # 
   fhir:name [ fhir:v "Dictionnaire_SMS_Substance_Management_Services_"] ; # 
   fhir:title [ fhir:v "Dictionnaire européen multilingue des substances entrant dans la composition de médicaments"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-03-05T10:00:00+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-05-05T10:00:00+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du numérique en santé"] ; # 
   fhir:description [ fhir:v "Le dictionnaire des substances ou SMS a été conçu par l’European Medicines Agency (EMA) dans le cadre d’une démarche qualité. Ce dictionnaire contient les substances entrant dans la composition de médicaments destinés à un humain et/ou vétérinaire."] ; # 
   fhir:jurisdiction ( [
@@ -63,7 +63,7 @@
      fhir:l <https://smt.esante.gouv.fr/terminologie-sms?vs>
   ] ; # 
   fhir:content [ fhir:v "not-present"] ; # 
-  fhir:count [ fhir:v "71486"^^xsd:nonNegativeInteger] ; # 
+  fhir:count [ fhir:v "71998"^^xsd:nonNegativeInteger] ; # 
   fhir:filter ( [
      fhir:code [ fhir:v "root" ] ;
      fhir:operator ( [ fhir:v "=" ] ) ;

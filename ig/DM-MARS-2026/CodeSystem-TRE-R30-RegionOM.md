@@ -20,6 +20,7 @@ Référentiel des codes régions et collectivités d’outre-mer provenant du CO
 * [JDV_J237_RegionOM_ROR](ValueSet-JDV-J237-RegionOM-ROR.md)
 * [JDV_J257_Region](ValueSet-JDV-J257-Region.md)
 * [JDV_J93_RegionOM_RASS](ValueSet-JDV-J93-RegionOM-RASS.md)
+* [JdvJ378RegionOmFiness](ValueSet-jdv-j378-region-om-finess.md)
 
 
 
@@ -30,8 +31,8 @@ Référentiel des codes régions et collectivités d’outre-mer provenant du CO
   "resourceType" : "CodeSystem",
   "id" : "TRE-R30-RegionOM",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-02-24T09:12:25.930+01:00",
+    "versionId" : "9",
+    "lastUpdated" : "2026-05-05T20:12:03.519+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
   "language" : "fr-FR",

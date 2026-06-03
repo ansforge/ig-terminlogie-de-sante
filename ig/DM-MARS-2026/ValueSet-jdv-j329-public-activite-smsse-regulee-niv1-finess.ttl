@@ -10,8 +10,8 @@
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "jdv-j329-public-activite-smsse-regulee-niv1-finess"] ; # 
   fhir:meta [
-     fhir:versionId [ fhir:v "2" ] ;
-     fhir:lastUpdated [ fhir:v "2026-02-23T18:17:32.604+01:00"^^xsd:dateTime ] ;
+     fhir:versionId [ fhir:v "3" ] ;
+     fhir:lastUpdated [ fhir:v "2026-05-05T19:02:16.140+02:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"^^xsd:anyURI ;
        fhir:l <http://hl7.org/fhir/StructureDefinition/shareablevalueset?version=4.0.1>
@@ -20,7 +20,7 @@
   fhir:language [ fhir:v "fr-FR"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j329-public-activite-smsse-regulee-niv1-finess</b></p><a name=\"jdv-j329-public-activite-smsse-regulee-niv1-finess\"> </a><a name=\"hcjdv-j329-public-activite-smsse-regulee-niv1-finess\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 2; Dernière mise à jour : 2026-02-23 18:17:32+0100; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSetversion : null4.0.1)</a></p></div><ul><li>Include codes provenant de<a href=\"CodeSystem-tre-r403-public-activite-smsse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee</code></a><span title=\"La version est explicitement indiquée comme étant 20260223120000\"> version ?20260223120000</span> où niveau  = 1</li></ul></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet jdv-j329-public-activite-smsse-regulee-niv1-finess</b></p><a name=\"jdv-j329-public-activite-smsse-regulee-niv1-finess\"> </a><a name=\"hcjdv-j329-public-activite-smsse-regulee-niv1-finess\"> </a><a name=\"jdv-j329-public-activite-smsse-regulee-niv1-finess-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 2; Last updated: 2026-02-23 18:17:32+0100; Language: fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSetversion: null4.0.1)</a></p></div><ul><li>Include codes provenant de<a href=\"CodeSystem-tre-r403-public-activite-smsse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee</code></a> où niveau  = 1</li></ul></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
      fhir:url [

@@ -16037,7 +16037,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "0814",
-    "display" : "Soutien et écoute à distance (par téléphone et/ou par messagerie) ",
+    "display" : "Soutien et écoute à distance (par téléphone et/ou par messagerie)",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-05-31T12:00:00+01:00"
@@ -29549,7 +29549,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1591",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en dermatologie ",
+    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en dermatologie",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
@@ -29645,7 +29645,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1597",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en maladies infectieuses et tropicales ",
+    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en maladies infectieuses et tropicales",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"

@@ -65,7 +65,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R329-NatureCapacite/FHIR/TRE-R329-NatureCapacite"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R329-NatureCapacite/FHIR/TRE-R329-NatureCapacite>
        ] ;
-       fhir:version [ fhir:v "20250328120000" ] ;
+       fhir:version [ fhir:v "20260505120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "01" ] ;
          fhir:display [ fhir:v "Lit" ]

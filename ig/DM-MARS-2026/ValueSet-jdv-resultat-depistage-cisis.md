@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-cisis | *Version*:20260311144902 | |
-| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvResultatDepistageCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-cisis | *Version*:20260420150249 | |
+| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvResultatDepistageCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.761 | | |
 
  
@@ -33,8 +33,6 @@ Requête sur le SMT
 
 ### Expansion
 
-No Expansion for this valueset (Unsupported Code System Version)
-
 -------
 
  Explanation of the columns that may appear on this page: 
@@ -57,8 +55,8 @@ No Expansion for this valueset (Unsupported Code System Version)
   "resourceType" : "ValueSet",
   "id" : "jdv-resultat-depistage-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2026-03-11T15:28:59.408+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-04-20T16:58:52.492+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -73,12 +71,12 @@ No Expansion for this valueset (Unsupported Code System Version)
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.761"
   }],
-  "version" : "20260311144902",
+  "version" : "20260420150249",
   "name" : "JdvResultatDepistageCisis",
   "title" : "JDV Resultat Depistage CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-11T14:49:02+01:00",
+  "date" : "2026-04-20T15:02:49+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Resultat Depistage CISIS",
   "jurisdiction" : [{
@@ -90,7 +88,6 @@ No Expansion for this valueset (Unsupported Code System Version)
   "compose" : {
     "include" : [{
       "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20260301",
       "concept" : [{
         "code" : "10828004",
         "display" : "positif(-ive)"
@@ -101,7 +98,7 @@ No Expansion for this valueset (Unsupported Code System Version)
       },
       {
         "code" : "373068000",
-        "display" : "non déterminé(e)"
+        "display" : "indéterminé(e)"
       },
       {
         "code" : "125154007",

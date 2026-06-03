@@ -86,7 +86,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM",
-      "version" : "20250328120000",
+      "version" : "20260505120000",
       "filter" : [{
         "property" : "dateFin",
         "op" : "exists",

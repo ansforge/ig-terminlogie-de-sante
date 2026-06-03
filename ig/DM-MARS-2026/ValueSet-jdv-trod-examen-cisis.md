@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-trod-examen-cisis | *Version*:20260311144903 | |
-| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTrodExamenCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-trod-examen-cisis | *Version*:20260420150250 | |
+| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTrodExamenCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.830 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-trod-examen-cisis",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2026-03-11T15:29:18.513+01:00",
+    "versionId" : "4",
+    "lastUpdated" : "2026-04-20T16:59:14.797+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -71,12 +71,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.830"
   }],
-  "version" : "20260311144903",
+  "version" : "20260420150250",
   "name" : "JdvTrodExamenCisis",
   "title" : "Jdv Trod Examen CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-11T14:49:03+01:00",
+  "date" : "2026-04-20T15:02:50+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Jdv Trod Examen CISIS",
   "jurisdiction" : [{
@@ -105,7 +105,7 @@ Requête sur le SMT
         "display" : "Cannabinoïdes [Présence/Seuil] Urine ; Qualitatif ; Dépistage"
       },
       {
-        "code" : "18725-2",
+        "code" : "72885-7",
         "display" : "Virus respiratoire syncytial Ag [Présence/Seuil] Nasopharynx ; Qualitatif ; Immunoanalyse rapide"
       },
       {
@@ -206,7 +206,7 @@ Requête sur le SMT
       },
       {
         "code" : "5803-2",
-        "display" : "pH [Log de concentration] Urine ; Numérique ; Bandelette réactive"
+        "display" : "pH [Log de concentration] Urine ; Semi-Quantitatif ; Bandelette réactive"
       },
       {
         "code" : "5804-0",
@@ -214,7 +214,7 @@ Requête sur le SMT
       },
       {
         "code" : "5811-5",
-        "display" : "Densité [Densité relative] Urine ; Semi-Quantitatif ; Bandelette réactive"
+        "display" : "Observation [Densité] Urine ; Semi-Quantitatif ; Bandelette réactive"
       },
       {
         "code" : "58941-6",
@@ -258,11 +258,11 @@ Requête sur le SMT
       },
       {
         "code" : "80382-5",
-        "display" : "Influenza virus A Ag [Présence/Seuil] Voies respiratoires supérieures ; Qualitatif ; Immunoanalyse rapide"
+        "display" : "Influenza virus A Ag [Présence/Seuil] Échantillon du système respiratoire supérieur ; Qualitatif ; Immunoanalyse rapide"
       },
       {
         "code" : "80383-3",
-        "display" : "Influenza virus B Ag [Présence/Seuil] Voies respiratoires supérieures ; Qualitatif ; Immunoanalyse rapide"
+        "display" : "Influenza virus B Ag [Présence/Seuil] Échantillon du système respiratoire supérieur ; Qualitatif ; Immunoanalyse rapide"
       },
       {
         "code" : "80387-4",
@@ -270,7 +270,7 @@ Requête sur le SMT
       },
       {
         "code" : "94558-4",
-        "display" : "Coronavirus SARS-CoV-2 Ag [Présence/Seuil] Respiratoire ; Qualitatif ; Immunoanalyse rapide"
+        "display" : "Coronavirus SARS-CoV-2 Ag [Présence/Seuil] Échantillon du système respiratoire ; Qualitatif ; Immunoanalyse rapide"
       }]
     }]
   }

@@ -41,7 +41,7 @@ Traduction Française
     }]
   }],
   "content" : "supplement",
-  "supplements" : "http://terminology.hl7.org/CodeSystem/v3-TimingEvent|4.0.0",
+  "supplements" : "http://terminology.hl7.org/CodeSystem/v3-TimingEvent|2018-08-12",
   "concept" : [{
     "code" : "AC",
     "designation" : [{

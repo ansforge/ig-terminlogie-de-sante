@@ -26,11 +26,13 @@ These define sets of codes used by systems conforming to this implementation gui
 | [AdministrativeGender](ValueSet-jdv-hl7-v3-AdministrativeGender-cisis.md) | AdministrativeGender |
 | [Allergy Intolerance Criticality](ValueSet-jdv-hl7-allergy-intolerance-criticality-cisis.md) | Allergy Intolerance Criticality |
 | [AllergyIntolerance Clinical Status Codes](ValueSet-jdv-hl7-allergyintolerance-clinical-cisis.md) | AllergyIntolerance Clinical Status Codes |
+| [AllergyIntoleranceCategory](ValueSet-jdv-hl7-allergy-intolerance-category-cisis.md) | AllergyIntoleranceCategory |
 | [Condition Clinical Status Codes](ValueSet-jdv-hl7-condition-clinical-cisis.md) | Condition Clinical Status Codes |
 | [Condition Verification Status](ValueSet-jdv-hl7-condition-ver-status-cisis.md) | Condition Verification Status |
 | [Confidentiality](ValueSet-jdv-hl7-v2-0952-cisis.md) | Confidentiality |
 | [CoverageRoleType](ValueSet-jdv-hl7-v3-CoverageRoleType-cisis.md) | CoverageRoleType |
 | [DaysOfWeek](ValueSet-jdv-hl7-days-of-week.md) | DaysOfWeek |
+| [DaysOfWeek](ValueSet-jdv-hl7-days-of-week-cisis.md) | DaysOfWeek |
 | [EmploymentStatusODH](ValueSet-jdv-hl7-v3-employmentStatusODH-cisis.md) | EmploymentStatusODH |
 | [JDV Abord Veineux Central CISIS](ValueSet-jdv-abord-veineux-central-cisis.md) | JDV Abord Veineux Central CISIS |
 | [JDV Abord Veineux Peripherique CISIS](ValueSet-jdv-abord-veineux-peripherique-cisis.md) | JDV Abord Veineux Peripherique CISIS |
@@ -49,6 +51,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [JDV Addition Grandeur CISIS](ValueSet-jdv-addition-grandeur-cisis.md) | JDV Addition Grandeur CISIS |
 | [JDV Age CISIS](ValueSet-jdv-age-cisis.md) | JDV Age CISIS |
 | [JDV Age De Survenue CISIS](ValueSet-jdv-age-de-survenue-cisis.md) | JDV Age De Survenue CISIS |
+| [JDV Age Gestationnel CISIS](ValueSet-jdv-age-gestationnel-cisis.md) | JDV Age Gestationnel CISIS |
 | [JDV Aide Au Deplacement CISIS](ValueSet-jdv-aide-au-deplacement-cisis.md) | JDV Aide Au Deplacement CISIS |
 | [JDV Allergie Vaccin CISIS](ValueSet-jdv-allergie-vaccin-cisis.md) | JDV Allergie Vaccin CISIS |
 | [JDV Anomalie Croissance CISIS](ValueSet-jdv-anomalie-croissance-cisis.md) | JDV Anomalie Croissance CISIS |
@@ -106,6 +109,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [JDV Contrindication CISIS](ValueSet-jdv-contre-indication-cisis.md) | JDV Contrindication CISIS |
 | [JDV Contrindication Thrombolyse CISIS](ValueSet-jdv-contreindication-thrombolyse-cisis.md) | JDV Contrindication Thrombolyse CISIS |
 | [JDV Couverture Sociale CISIS](ValueSet-jdv-couverture-sociale-cisis.md) | JDV Couverture Sociale CISIS |
+| [JDV Date Accouchement CISIS](ValueSet-jdv-date-accouchement-cisis.md) | JDV Date Accouchement CISIS |
 | [JDV Date Consultation CISIS](ValueSet-jdv-date-consultation-cisis.md) | JDV Date Consultation CISIS |
 | [JDV Defaillance Materielle CISIS](ValueSet-jdv-defaillance-materielle-cisis.md) | JDV Defaillance Materielle CISIS |
 | [JDV Deficience Physique CISIS](ValueSet-jdv-deficience-physique-cisis.md) | JDV Deficience Physique CISIS |
@@ -138,6 +142,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [JDV Evaluation Ssiad CISIS](ValueSet-jdv-evaluation-ssiad-cisis.md) | JDV Evaluation Ssiad CISIS |
 | [JDV Evenement Accouchement CISIS](ValueSet-jdv-evenement-accouchement-cisis.md) | JDV Evenement Accouchement CISIS |
 | [JDV Evolution CISIS](ValueSet-jdv-evolution-cisis.md) | JDV Evolution CISIS |
+| [JDV Evolution Rougeole CISIS](ValueSet-jdv-evolution-rougeole-cisis.md) | JDV Evolution Rougeole CISIS |
 | [JDV Examen Biochimie Aunv CISIS](ValueSet-jdv-examen-biochimie-aunv-cisis.md) | JDV Examen Biochimie Aunv CISIS |
 | [JDV Examen Biochimie Eunv CISIS](ValueSet-jdv-examen-biochimie-eunv-cisis.md) | JDV Examen Biochimie Eunv CISIS |
 | [JDV Examen Clinique CISIS](ValueSet-jdv-examen-clinique-cisis.md) | JDV Examen Clinique CISIS |
@@ -151,6 +156,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [JDV Facteur De Risque Avc CISIS](ValueSet-jdv-facteur-de-risque-avc-cisis.md) | JDV Facteur De Risque Avc CISIS |
 | [JDV Facteur De Risque Professionnel CISIS](ValueSet-jdv-facteur-de-risque-professionnel-cisis.md) | JDV Facteur De Risque Professionnel CISIS |
 | [JDV Facteur De Risque Social CISIS](ValueSet-jdv-facteur-de-risque-social-cisis.md) | JDV Facteur De Risque Social CISIS |
+| [JDV Facteur Risque Rougeole CISIS](ValueSet-jdv-facteur-risque-rougeole-cisis.md) | JDV Facteur Risque Rougeole CISIS |
 | [JDV Famille Femme CISIS](ValueSet-jdv-famille-femme-cisis.md) | JDV Famille Femme CISIS |
 | [JDV Famille Id CISIS](ValueSet-jdv-famille-id-cisis.md) | JDV Famille Id CISIS |
 | [JDV Fluide Route Code CISIS](ValueSet-jdv-fluide-route-code-cisis.md) | JDV Fluide Route Code CISIS |
@@ -167,6 +173,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [JDV Health Status Code CISIS](ValueSet-jdv-health-status-code-cisis.md) | JDV Health Status Code CISIS |
 | [JDV Hemisphere Lobaire CISIS](ValueSet-jdv-hemisphere-lobaire-cisis.md) | JDV Hemisphere Lobaire CISIS |
 | [JDV Hemisphere Profond CISIS](ValueSet-jdv-hemisphere-profond-cisis.md) | JDV Hemisphere Profond CISIS |
+| [JDV Historique Grossesses CISIS](ValueSet-jdv-historique-grossesses-cisis.md) | JDV Historique Grossesses CISIS |
 | [JDV Human Substance Administration Site CISIS](ValueSet-jdv-human-substance-administration-site-cisis.md) | JDV Human Substance Administration Site CISIS |
 | [JDV Imagerie Objectif Reference CISIS](ValueSet-jdv-imagerie-objectif-reference-cisis.md) | JDV Imagerie Objectif Reference CISIS |
 | [JDV Immunization Approach Site Code CISIS](ValueSet-jdv-immunization-approach-site-code-cisis.md) | JDV Immunization Approach Site Code CISIS |
@@ -196,6 +203,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [JDV Lesion Traumatique Obstetricale CISIS](ValueSet-jdv-lesion-traumatique-obstetricale-cisis.md) | JDV Lesion Traumatique Obstetricale CISIS |
 | [JDV Lien Assure Beneficiaire CISIS](ValueSet-jdv-lien-assure-beneficiaire-cisis.md) | JDV Lien Assure Beneficiaire CISIS |
 | [JDV Lieu Accouchement CISIS](ValueSet-jdv-lieu-accouchement-cisis.md) | JDV Lieu Accouchement CISIS |
+| [JDV Lieu Contact Rougeole CISIS](ValueSet-jdv-lieu-contact-rougeole-cisis.md) | JDV Lieu Contact Rougeole CISIS |
 | [JDV Lieu De Vie CISIS](ValueSet-jdv-lieu-de-vie-cisis.md) | JDV Lieu De Vie CISIS |
 | [JDV Localisation Anatomique CISIS](ValueSet-jdv-localisation-anatomique-cisis.md) | JDV Localisation Anatomique CISIS |
 | [JDV Localisation Anesthesie CISIS](ValueSet-jdv-localisation-anesthesie-cisis.md) | JDV Localisation Anesthesie CISIS |
@@ -348,6 +356,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [JDV Secteur Activite Employeur CISIS](ValueSet-jdv-secteur-activite-employeur-cisis.md) | JDV Secteur Activite Employeur CISIS |
 | [JDV Section Document CISIS](ValueSet-jdv-section-document-cisis.md) | JDV Section Document CISIS |
 | [JDV Sedentarite CISIS](ValueSet-jdv-sedentarite-cisis.md) | JDV Sedentarite CISIS |
+| [JDV Serotype Dengue CISIS](ValueSet-jdv-serotype-dengue-cisis.md) | JDV Serotype Dengue CISIS |
 | [JDV Severite Observation CISIS](ValueSet-jdv-severite-observation-cisis.md) | JDV Severite Observation CISIS |
 | [JDV Signe Vital CISIS](ValueSet-jdv-signe-vital-cisis.md) | JDV Signe Vital CISIS |
 | [JDV Signe Vital Cs24 CISIS](ValueSet-jdv-signe-vital-cs24-cisis.md) | JDV Signe Vital Cs24 CISIS |
@@ -417,6 +426,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [JDV Type Evaluation CISIS](ValueSet-jdv-type-evaluation-cisis.md) | JDV Type Evaluation CISIS |
 | [JDV Type Evenement Indesirable Previsible CISIS](ValueSet-jdv-type-evenement-indesirable-previsible-cisis.md) | JDV Type Evenement Indesirable Previsible CISIS |
 | [JDV Type Evenement Ssiad CISIS](ValueSet-jdv-type-evenement-ssiad-cisis.md) | JDV Type Evenement Ssiad CISIS |
+| [JDV Type Event Indesirable Previsible CISIS](ValueSet-jdv-type-event-indesirable-previsible-cisis.md) | JDV Type Event Indesirable Previsible CISIS |
 | [JDV Type Garde CISIS](ValueSet-jdv-type-garde-cisis.md) | JDV Type Garde CISIS |
 | [JDV Type Histo Etat Tumoral CISIS](ValueSet-jdv-type-histo-etat-tumoral-cisis.md) | JDV Type Histo Etat Tumoral CISIS |
 | [JDV Type Intervention CISIS](ValueSet-jdv-type-intervention-cisis.md) | JDV Type Intervention CISIS |
@@ -720,8 +730,12 @@ These define sets of codes used by systems conforming to this implementation gui
 | [JDV_J97_StatutProfessionnelSSA_RASS](ValueSet-JDV-J97-StatutProfessionnelSSA-RASS.md) | Statuts des professionnels du Service de Santé des Armées dans le RASS |
 | [JDV_J98_StatutHospitalier_RASS](ValueSet-JDV-J98-StatutHospitalier-RASS.md) | Statut des professionnels intervenant dans un hôpital dans le RASS |
 | [JDV_J99_InseeNAFrav2Niveau5_RASS](ValueSet-JDV-J99-InseeNAFrav2Niveau5-RASS.md) | Sous-classes de la Nomenclature Activités Française (INSEE) des prof du RASS |
+| [Jdv Collectivite Sujets A Risque Rougeole CISIS](ValueSet-jdv-collectivite-sujets-a-risque-rougeole-cisis.md) | Jdv Collectivite Sujets A Risque Rougeole CISIS |
+| [Jdv Complication Rougeole CISIS](ValueSet-jdv-complication-rougeole-cisis.md) | Jdv Complication Rougeole CISIS |
 | [Jdv Depistage Neonatal CISIS](ValueSet-jdv-depistage-neonatal-cisis.md) | Jdv Depistage Neonatal CISIS |
 | [Jdv Etat De Conscience CISIS](ValueSet-jdv-etat-de-conscience-cisis.md) | Jdv Etat De Conscience CISIS |
+| [Jdv Exposition West Nile CISIS](ValueSet-jdv-exposition-west-nile-cisis.md) | Jdv Exposition West Nile CISIS |
+| [Jdv J240 Activite Sanitaire Diverse Regulee Finess](ValueSet-jdv-j240-activite-sanitaire-diverse-regulee-finess.md) | Jeu de valeurs FINESS contenant les activités sanitaires, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR) |
 | [Jdv J289 Type Groupe Gco Finess](ValueSet-jdv-j289-type-groupe-gco-finess.md) | Jeu de valeurs Finess contenant les types de Groupement de Coopération Organique (GCO). |
 | [Jdv J296 Type Role Entite Groupe Finess](ValueSet-jdv-j296-type-role-entite-groupe-finess.md) | Jeu de valeurs FINESS contenant les types de rôles que peuvent exercer des entités participants à des groupements |
 | [Jdv J301 Finess Statut Juridique Niv1 Finess](ValueSet-jdv-j301-finess-statut-juridique-niv1-finess.md) | Ce JDV contient les agrégats Niv1 des statust juridiques (JDV créé à l’image de l’ancienne TRE_R70-FinessAgregatStatutJuridique) |
@@ -745,15 +759,26 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Jdv J328 Public Activite Smsse Regulee Finess](ValueSet-jdv-j328-public-activite-smsse-regulee-finess.md) | Ce JDV contient tous les publics hors agrégat (JDV créé à l’image de l’ancienne TRE_R279-Clientele) |
 | [Jdv J329 Public Activite Smsse Regulee Niv1 Finess](ValueSet-jdv-j329-public-activite-smsse-regulee-niv1-finess.md) | Ce JDV contient tous les agregats Niv 1 des publics (JDV créé à l’image de l’ancienne TRE_R293-AgregatClienteleNiv2) |
 | [Jdv J330 Public Activite Smsse Regulee Niv2 Finess](ValueSet-jdv-j330-public-activite-smsse-regulee-niv2-finess.md) | Ce JDV contient tous les agregats de publics de niveau 2 (JDV créé à l’image de l’ancienne TRE_R294-AgregatClienteleNiv3) |
+| [Jdv J333 Activite Sanitaire Diverse Regulee Niv Finess](ValueSet-jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess.md) | Jeu de valeurs FINESS contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 1 |
+| [Jdv J334 Activite Sanitaire Diverse Regulee Niv2 Finess](ValueSet-jdv-j334-activite-sanitaire-diverse-regulee-niv2-finess.md) | Jeu de valeurs Finess contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 2 |
+| [Jdv J335 Activite Sanitaire Diverse Regulee Niv3 Finess](ValueSet-jdv-j335-activite-sanitaire-diverse-regulee-niv3-finess.md) | Jeu de valeurs Finess contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 3 |
+| [Jdv J351 Appareil Amm Finess](ValueSet-jdv-j351-appareil-amm-finess.md) | Liste des appareils AMM vus de FINESS |
+| [Jdv J352 Nature Capacite Finess](ValueSet-jdv-j352-nature-capacite-finess.md) | Jeu de valeurs FINESS contenant les capacités utilisées par FINESS |
+| [Jdv J353 Type Statut Capacite Finess](ValueSet-jdv-j353-type-statut-capacite-finess.md) | Jeu de valeurs FINESS permettant de préciser le statut des capacités concernées par FINESS |
+| [Jdv J354 Habilitation Finess](ValueSet-jdv-j354-habilitation-finess.md) | Jeu de valeurs FINESS contenant les habilitations associées aux capacités des structures FINESS |
+| [Jdv J357 Genre Capacite Finess](ValueSet-jdv-j357-genre-capacite-finess.md) | Jeu de valeurs FINESS contenant les genres de capacités utilisés par FINESS |
+| [Jdv J364 Type Fermeture Pm Finess](ValueSet-jdv-j364-type-fermeture-pm-finess.md) | Jeu de valeurs FINESS contenant les types de fermeture dédiées aux personnes morales FINESS |
+| [Jdv J365 Type Fermeture Ege Finess](ValueSet-jdv-j365-type-fermeture-ege-finess.md) | Jeu de valeurs FINESS contenant les types de fermeture dédiées aux entités géographiques FINESS |
 | [Jdv J366 Statut Bilan Projet Personnalise Ms](ValueSet-jdv-j366-statut-bilan-projet-personnalise-ms.md) | Statut du bilan du projet personnalisé. |
 | [Jdv J367 Type Projet Personnalise Ms](ValueSet-jdv-j367-type-projet-personnalise-ms.md) | Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l’usager, son entourage familial et professionnel du médico-social. |
-| [Jdv J368 Categorie Etablissement Cisis](ValueSet-jdv-j368-categorie-etablissement-cisis.md) | JDV à l’image de l’ensemble des valeurs actives de la terminologie TRE_R66-CategorieEtablissement |
+| [Jdv J368 Categorie Etablissement Cisis](ValueSet-jdv-j368-categorie-etablissement-cisis.md) | JDV pour le CISIS reprenant l’ensemble des valeurs actives et obsolètes de niveau 4 dans la TreR397CategorieEntiteGeographiqueExercice |
 | [Jdv J370 Type Contrat Sejour Ms](ValueSet-jdv-j370-type-contrat-sejour-ms.md) | Type de contrat conclu entre l’établissement/service et la personne/son représentant légal. |
 | [Jdv J373 Type Autorite](ValueSet-jdv-j373-type-autorite.md) | Jeu de valeurs contenant les différents types d’autorité (actifs ou inactifs) |
 | [Jdv J374 Autorite](ValueSet-jdv-j374-autorite.md) | Jeu de valeurs contenant la liste des autorités quelque soit la catégorie d’autorité et quelque soir l’état de l’autorité active ou inactive) |
 | [Jdv J375 Autorite Ordre](ValueSet-jdv-j375-autorite-ordre.md) | Jeu de valeurs comportant uniquement les autorités de type Ordre. |
 | [Jdv J376 Public Activite Smsse Regulee Rass](ValueSet-jdv-j376-public-activite-smsse-regulee-rass.md) | Ce JDV remplace le JDV_J137_Clientele_RASS |
 | [Jdv J377 Categorie Entite Geographique Exercice Ror](ValueSet-jdv-j377-categorie-entite-geographique-exercice-ror.md) | Ce JDV remplace le JDV_J55_CategorieEG_ROR |
+| [Jdv J378 Region Om Finess](ValueSet-jdv-j378-region-om-finess.md) | Liste des régions administratives couvertes par le périmètre géographique de FINESS |
 | [Jdv J379 Activite Sociale Regulee Rass](ValueSet-jdv-j379-activite-sociale-regulee-rass.md) | Ce JDV remplace le JDV_J136_DisciplineEquipementSocial_RASS |
 | [Jdv J380 Categorie Entite Geographique Exercice Rass](ValueSet-jdv-j380-categorie-entite-geographique-exercice-rass.md) | Ce JDV remplace le JDV-J129-CategorieEtablissement-RASS |
 | [Jdv J383 Motif Cloture Exercice Professionnel Epars](ValueSet-jdv-j383-motif-cloture-exercice-professionnel-epars.md) | Ce jeu de valeur liste les différents motifs qui peuvent justifier la clôture d’un exercice professionnel. |
@@ -761,16 +786,42 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Jdv J385 Composition Foyer Ms](ValueSet-jdv-j385-composition-foyer-ms.md) | Désigne avec qui vit l’usager dans son logement. |
 | [Jdv J386 Type Enseignement Specialise Ms](ValueSet-jdv-j386-type-enseignement-specialise-ms.md) | Type d’enseignement spécialisé. |
 | [Jdv J387 Role Participant Ms](ValueSet-jdv-j387-role-participant-ms.md) | Rôle du participant vis à vis de l’événement (mandataire judiciaire, structure en charge de l’événement). |
+| [Jdv J391 Niveau Diplome Ms](ValueSet-jdv-j391-niveau-diplome-ms.md) | Niveau de diplôme permettant d’indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel. |
+| [Jdv J392 Type Courrier Ms](ValueSet-jdv-j392-type-courrier-ms.md) | Type de courrier en France. |
+| [Jdv J393 Utilisation Canal Communication Ms](ValueSet-jdv-j393-utilisation-canal-communication-ms.md) | Précise l’utilisation du canal de communication. |
+| [Jdv J394 Type Demande Compensation Ms](ValueSet-jdv-j394-type-demande-compensation-ms.md) | Type demande de compensation adressée à la CDAPH. |
+| [Jdv J395 Nature Demande Compensation Ms](ValueSet-jdv-j395-nature-demande-compensation-ms.md) | Nature de la demande de compensation adressée à la CDAPH. |
+| [Jdv J396 Canal Communication Ms](ValueSet-jdv-j396-canal-communication-ms.md) | Canal de communication. |
+| [Jdv J397 Type Messagerie Ms](ValueSet-jdv-j397-type-messagerie-ms.md) | Type de messagerie électronique utilisée par le médico-social. |
+| [Jdv J398 Type Decision Ms](ValueSet-jdv-j398-type-decision-ms.md) | Type de décision transmise aux DUI(s) par la CDAPH en réponse à une demande de compensation d’un usager. |
+| [Jdv J399 Motivation Ms](ValueSet-jdv-j399-motivation-ms.md) | L’énoncé des considérations de droit ou de fait qui constituent le fondement de la proposition et de la décision de la CDAPH. |
+| [Jdv J400 Nature Droit Prestation Ms](ValueSet-jdv-j400-nature-droit-prestation-ms.md) | Nature du droit s’appliquant à tous les droits ou prestations ouverts par la CDAPH. Elle permet de gérer, le cas échéant, le lien entre la date d’ouverture du droit et la date de fin d’un droit précédent. Elle est déterminée par l’équipe pluridisciplinaire ou par la CDAPH. |
+| [Jdv J401 Categorie Droit Prestation Ms](ValueSet-jdv-j401-categorie-droit-prestation-ms.md) | Catégorie de droit et prestation caractérisant la décision d’orientation. |
+| [Jdv J402 Type Droit Prestation Ms](ValueSet-jdv-j402-type-droit-prestation-ms.md) | Type de droit et prestation caractérisant la décision d’orientation. |
+| [Jdv J403 Motif Fin Pag Ms](ValueSet-jdv-j403-motif-fin-pag-ms.md) | Motif pour l’arrêt du plan d’accompagnement global (PAG). |
+| [Jdv J404 Qualification Orientation Ms](ValueSet-jdv-j404-qualification-orientation-ms.md) | La qualification de l’orientation peut être cible ou alternative. |
+| [Jdv J405 Type Presence Absence Ms](ValueSet-jdv-j405-type-presence-absence-ms.md) | Déclaration du type de présence absence de l’usager lors d’un événement organisé par sa structure de rattachement. |
+| [Jdv J406 Motif Absence Ms](ValueSet-jdv-j406-motif-absence-ms.md) | Motif pour lequel l’usager n’est pas présent lors d’un événement organisé par sa structure de rattachement. |
+| [Jdv J407 Type Repas Ms](ValueSet-jdv-j407-type-repas-ms.md) | Type de repas. |
+| [Jdv J408 Orientation Ms](ValueSet-jdv-j408-orientation-ms.md) | Ensemble des orientations vers un Service d’éducation spéciale et de soins à domicile (SESSAD), un Service d’accompagnement familial et d’éducation précoce (SAFEP), un enseignement adapté (SEGPA/EREA) ou une unité d’enseignement. |
+| [Jdv J409 Type Adresse Ms](ValueSet-jdv-j409-type-adresse-ms.md) | Type d’adresse postale. |
+| [Jdv J410 Categorie Permis Conduire Ms](ValueSet-jdv-j410-categorie-permis-conduire-ms.md) | Catégorie de permis de conduire. |
+| [Jdv J411 Niveau Scolaire Ms](ValueSet-jdv-j411-niveau-scolaire-ms.md) | Niveau scolaire de l’usager en France. |
+| [Jdv J418 Activite Sanitaire Diverse Regulee Active](ValueSet-jdv-j418-activite-sanitaire-diverse-regulee-active.md) | Jeu de valeurs des activités sanitaires actives, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR) |
+| [Jdv MSO Resultat Qualitatif 3 CISIS](ValueSet-jdv-mso-resultat-qualitatif-3-cisis.md) | Jdv MSO Resultat Qualitatif 3 CISIS |
+| [Jdv MSO Resultat Qualitatif 5 CISIS](ValueSet-jdv-mso-resultat-qualitatif-5-cisis.md) | Jdv MSO Resultat Qualitatif 5 CISIS |
 | [Jdv MSO Resultat Qualitatif CISIS](ValueSet-jdv-mso-resultat-qualitatif-cisis.md) | Jdv MSO Resultat Qualitatif CISIS |
 | [Jdv Mediatype Corps Cda Non Structure CISIS](ValueSet-jdv-mediatype-corps-cda-non-structure-cisis.md) | Jdv Mediatype Corps Cda Non Structure CISIS |
 | [Jdv Modele Document CDA CISIS](ValueSet-jdv-modele-document-cda-cisis.md) | Jdv Modele Document CDA CISIS |
 | [Jdv Modele Document CDA Non Structure CISIS](ValueSet-jdv-modele-document-cda-non-structure-cisis.md) | Jdv Modele Document CDA Non Structure CISIS |
 | [Jdv Modele Document Cda](ValueSet-jdv-modele-document-cda.md) | JDV avec l’ensemble des codes de la TRE_R220_ModeleDocumentCDAStructure et TRE_R221_ModeleDocumentCDANonStructure |
+| [Jdv Origine Information Vaccin Rougeole CISIS](ValueSet-jdv-origine-information-vaccin-rougeole-cisis.md) | Jdv Origine Information Vaccin Rougeole CISIS |
 | [Jdv Resultat Qualitatif CISIS](ValueSet-jdv-resultat-qualitatif-cisis.md) | Jdv Resultat Qualitatif CISIS |
 | [Jdv Role Informateur CISIS](ValueSet-jdv-role-informateur-cisis.md) | Jdv Role Informateur CISIS |
 | [Jdv Situation Matrimoniale CISIS](ValueSet-jdv-situation-matrimoniale-cisis.md) | Jdv Situation Matrimoniale CISIS |
 | [Jdv Tre R221 Modele Document Cda Non Structure All](ValueSet-jdv-tre-r221-modele-document-cda-non-structure-all.md) | JDV avec l’ensemble des codes actifs de la TRE_R221_ModeleDocumentCDANonStructure |
 | [Jdv Trod Examen CISIS](ValueSet-jdv-trod-examen-cisis.md) | Jdv Trod Examen CISIS |
+| [Jdv Type Resultat Type CISIS](ValueSet-jdv-resultat-type-cisis.md) | Jdv Type Resultat Type CISIS |
 | [Jdv Type Systeme CISIS](ValueSet-jdv-type-systeme-cisis.md) | Jdv Type Systeme CISIS |
 | [MediaType](ValueSet-jdv-hl7-v3-MediaType-cisis.md) | MediaType |
 | [ObservationInterpretation](ValueSet-jdv-hl7-v3-ObservationInterpretation-cisis.md) | ObservationInterpretation |
@@ -795,6 +846,9 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Vs Tre R274 Activite Sanitaire Regulee All](ValueSet-vs-tre-r274-activite-sanitaire-regulee-all.md) | Jeu de valeurs FINESS contenant les activités sanitaires soumises à une régulation de la part de l’ARS. |
 | [Vs Tre R361 Fonction Publique All](ValueSet-vs-tre-r361-fonction-publique-all.md) | Jeu de valeurs ALL contenant les versants de la fonction publique. |
 | [Vs Tre R362 Type Budget All](ValueSet-vs-tre-r362-type-budget-all.md) | Jeu de valeurs ALL contenant les types de budget associés aux Entités Géographiques d’Exercice (EGE) dans FINESS+. |
+| [Vs Tre R370 Role Relation Ege All](ValueSet-vs-tre-r370-role-relation-ege-all.md) | Jeu de valeurs ALL contenant les types de rôle existant entre les Entités Géographiques d’Exercice (EGE) au sein d’une PM-SMSSE. |
+| [Vs Tre R373 Type Personne Morale All](ValueSet-vs-tre-r373-type-personne-morale-all.md) | Jeu de valeurs ALL contenant les types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces champs). |
+| [Vs Tre R374 Nature Activite Smsse Regulee All](ValueSet-vs-tre-r374-nature-activite-smsse-regulee-all.md) | Jeu de valeurs ALL contenant les grandes natures d’activité SMSSE exercées par les entités FINESS+. |
 | [Vs Tre R375 Mode Financement All](ValueSet-vs-tre-r375-mode-financement-all.md) | Jeu de valeurs ALL contenant les modes de financement associés aux capacités de certaines activitées SMSSE. |
 | [Vs Tre R381 Activite Amm All](ValueSet-vs-tre-r381-activite-amm-all.md) | Jeu de valeurs ALL contenant les activités de soin AMM |
 | [Vs Tre R382 Modalite Act De Soin Amm All](ValueSet-vs-tre-r382-modalite-act-de-soin-amm-all.md) | Jeu de valeurs ALL contenant les modalités pour les activités de soin AMM |
@@ -811,6 +865,11 @@ These define sets of codes used by systems conforming to this implementation gui
 | [WorkScheduleODH](ValueSet-jdv-hl7-v3-WorkScheduleODH-cisis.md) | WorkScheduleODH |
 | [hl7VS-employmentStatus](ValueSet-jdv-hl7-v2-0066-cisis.md) | hl7VS-employmentStatus |
 | [hl7VS-specimenCollectionMethod](ValueSet-jdv-hl7-v2-0488-cisis.md) | hl7VS-specimenCollectionMethod |
+| [jDV Specimen Type Chikungunya CISIS](ValueSet-jdv-specimen-type-chikungunya-cisis.md) | jDV Specimen Type Chikungunya CISIS |
+| [jDV Specimen Type Dengue CISIS](ValueSet-jdv-specimen-type-dengue-cisis.md) | jDV Specimen Type Dengue CISIS |
+| [jDV Specimen Type Rougeole CISIS](ValueSet-jdv-specimen-type-rougeole-cisis.md) | jDV Specimen Type Rougeole CISIS |
+| [jDV Specimen Type West Nile CISIS](ValueSet-jdv-specimen-type-westnile-cisis.md) | jDV Specimen Type West Nile CISIS |
+| [jDV Specimen Type Zika CISIS](ValueSet-jdv-specimen-type-zika-cisis.md) | jDV Specimen Type Zika CISIS |
 | [x_ActMoodDocumentObservation](ValueSet-jdv-hl7-v3-xActMoodDocumentObservation.md) | x_ActMoodDocumentObservation |
 | [x_BasicConfidentialityKind](ValueSet-jdv-hl7-v3-xBasicConfidentialityKind-cisis.md) | x_BasicConfidentialityKind |
 
@@ -872,11 +931,11 @@ These define new code systems used by systems conforming to this implementation 
 | [ParticipationFunctionSupplementFr](CodeSystem-ParticipationFunction-supplement-fr.md) | Traduction Française |
 | [ParticipationType](CodeSystem-v3-ParticipationType.md) | A code specifying the meaning and purpose of every Participation instance. Each of its values implies specific constraints on the Roles undertaking the participation. |
 | [ParticipationTypeSupplementFr](CodeSystem-ParticipationType-supplement-fr.md) | Traduction Française |
+| [RUIM - european eprescription](CodeSystem-terminologie-ruim-eeprescription.md) | Composite CodeSystem grouping Brand Name + Package Size (+ optional properties).NB: dans cette version bêta, le Brand Name est remplacé par le libellé de la spécialité. |
 | [RoleClassSupplementFr](CodeSystem-RoleClass-supplement-fr.md) | Traduction Française |
 | [RoleCode](CodeSystem-v3-RoleCode.md) | A set of codes further specifying the kind of Role; specific classification codes for further qualifying RoleClass codes. |
 | [RoleCodeSupplementFr](CodeSystem-RoleCode-supplement-fr.md) | Traduction Française |
-| [SESALI](CodeSystem-terminologie-esesali.md) | Composite CodeSystem grouping Brand Name + Package Size (+ optional properties).NB: dans cette version bêta, le Brand Name est remplacé par le libellé de la spécialité. |
-| [SNOMED CT core](CodeSystem-900000000000207008-20260301.md) | SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO). |
+| [SNOMED CT core](CodeSystem-900000000000207008-20260601.md) | SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO). |
 | [Service type](CodeSystem-service-type.md) | This value set defines an example set of codes of service-types. |
 | [SpecimenType](CodeSystem-v3-SpecimenType.md) | **** MISSING DESCRIPTION **** |
 | [SpecimenTypeSupplementFr](CodeSystem-specimenType-supplement-fr.md) | Traduction Française |
@@ -1049,7 +1108,7 @@ These define new code systems used by systems conforming to this implementation 
 | [TRE_R324_BesoinSoutienProjetProfessionnel](CodeSystem-TRE-R324-BesoinSoutienProjetProfessionnel.md) | Cette nomenclature permet de préciser le besoin du demandeur quant à l’établissement de son ou ses projet(s) professionnel(s) |
 | [TRE_R325_SituationProfessionnelle](CodeSystem-TRE-R325-SituationProfessionnelle.md) | Caractérise la situation professionnelle de la personne |
 | [TRE_R326_SituationSansEmploi](CodeSystem-TRE-R326-SituationSansEmploi.md) | Caractérise la situation de la personne lorsqu’elle est sans emploi |
-| [TRE_R327_TypeDecision](CodeSystem-TRE-R327-TypeDecision.md) | Caractérise le type de décision prise par la CDAPH en réponse à une demande de compensation d’un usager (individu ou représentant légal), à une demande de révision par un tiers ou à un recours administratif préalable obligatoire (RAPO) d’un usager |
+| [TRE_R327_TypeDecision](CodeSystem-TRE-R327-TypeDecision.md) | Caractérise le type de décision prise par la CDAPH en réponse à une demande de compensation d’un usager (individu ou représentant légal), à une demande de révision par un tiers ou à un recours administratif préalable obligatoire (RAPO) d’un usager. |
 | [TRE_R328_TypeScolarisation](CodeSystem-TRE-R328-TypeScolarisation.md) | Caractérise la situation scolaire de la personne |
 | [TRE_R329_NatureCapacite](CodeSystem-TRE-R329-NatureCapacite.md) | Permet d’indiquer si la capacité est exprimée en lits ou en places |
 | [TRE_R32_StatutHospitalier](CodeSystem-TRE-R32-StatutHospitalier.md) | Statut hospitalier |
@@ -1136,11 +1195,15 @@ These define new code systems used by systems conforming to this implementation 
 | [TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies](CodeSystem-terminologie-cisis.md) | Terminologie multi-domaines créée et maintenue par l’ANS contenant les termes non trouvés dans les autres terminologies internationales ou nationales. |
 | [TimingEvent](CodeSystem-v3-TimingEvent.md) | **** MISSING DESCRIPTION **** |
 | [TimingEventSupplementFr](CodeSystem-TimingEvent-supplement-fr.md) | Traduction Française |
+| [Tre R347 Activite Sanitaire Diverse Regulee](CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.md) | Nomenclature des activités sanitaires utilisée pour décrire les Activités Sanitaires Diverses Régulées (ASDR) |
 | [Tre R360 Type Role Entite Groupe](CodeSystem-tre-r360-type-role-entite-groupe.md) | Nomenclature des types de rôles que peuvent exercer des entités participants à des groupements |
 | [Tre R361 Fonction Publique](CodeSystem-tre-r361-fonction-publique.md) | Nomenclature des versants de la fonction publique |
 | [Tre R362 Type Budget](CodeSystem-tre-r362-type-budget.md) | Nomenclature des types de budget associés aux Entités Géographiques d’Exercice (EGE) dans FINESS+ |
+| [Tre R370 Role Relation Ege](CodeSystem-tre-r370-role-relation-ege.md) | Nomenclature des types de rôle existant entre les Entités Géographiques d’Exercice (EGE) au sein d’une PM-SMSSE |
 | [Tre R371 Type Groupe Gcc](CodeSystem-tre-r371-type-groupe-gcc.md) | Nomenclature des types de groupement Concernant les groupement de structure on a 2 catégories de regroupement : les Groupement de Coopération Conventionnelle, les Groupement de Coopération Organique |
 | [Tre R372 Type Groupe Gco](CodeSystem-tre-r372-type-groupe-gco.md) | Nomenclature des types de Groupement de Coopération Organique (GCO) |
+| [Tre R373 Type Personne Morale](CodeSystem-tre-r373-type-personne-morale.md) | Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces champs). Remarque : Cette TRE est juste initialisée à minima et a vocation à porter d’autres valurs. |
+| [Tre R374 Nature Activite Smsse Regulee](CodeSystem-tre-r374-nature-activite-smsse-regulee.md) | Nomenclature des grandes natures d’activité SMSSE exercées par les entités FINESS+ |
 | [Tre R375 Mode Financement](CodeSystem-tre-r375-mode-financement.md) | Nomenclature des modes de financement associés aux capacités de certaines activitées SMSSE |
 | [Tre R381 Activite Amm](CodeSystem-tre-r381-activite-amm.md) | Nomenclature des activités de soin AMM |
 | [Tre R382 Modalite Act De Soin Amm](CodeSystem-tre-r382-modalite-act-de-soin-amm.md) | Nomenclature des modalités pour les activités de soin AMM |
@@ -1164,6 +1227,22 @@ These define new code systems used by systems conforming to this implementation 
 | [Tre R406 Forme Activite Smsse Regulee](CodeSystem-tre-r406-forme-activite-smsse-regulee.md) | Formes des activites smsse régulées, remplace la TRE_R276-FormeActivite |
 | [Tre R407 Composition Foyer](CodeSystem-tre-r407-composition-foyer.md) | Désigne avec qui vit l’usager dans son logement. |
 | [Tre R408 Type Enseignement Specialise](CodeSystem-tre-r408-type-enseignement-specialise.md) | Type d’enseignement spécialisé. |
+| [Tre R412 Niveau Diplome](CodeSystem-tre-r412-niveau-diplome.md) | Niveau de diplôme permettant d’indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel. |
+| [Tre R413 Categorie Permis Conduire](CodeSystem-tre-r413-categorie-permis-conduire.md) | Catégorie de permis de conduire. |
+| [Tre R414 Niveau Scolaire](CodeSystem-tre-r414-niveau-scolaire.md) | Niveau scolaire de l’usager en France. |
+| [Tre R415 Utilisation Canal Communication](CodeSystem-tre-r415-utilisation-canal-communication.md) | Précise l’utilisation du canal de communication. |
+| [Tre R416 Type Courrier](CodeSystem-tre-r416-type-courrier.md) | Type de courrier en France. |
+| [Tre R417 Type Demande Compensation](CodeSystem-tre-r417-type-demande-compensation.md) | Type de la demande de compensation adressée à la CDAPH. |
+| [Tre R418 Nature Demande Compensation](CodeSystem-tre-r418-nature-demande-compensation.md) | Nature de la demande de compensation adressée à la CDAPH. |
+| [Tre R419 Motivation](CodeSystem-tre-r419-motivation.md) | Considération(s) de droit ou de fait qui constituent le fondement de la proposition et de la décision de la CDAPH. |
+| [Tre R420 Droit Prestation](CodeSystem-tre-r420-droit-prestation.md) | Catégorie et type de droit et prestation caractérisant la décision d’orientation. |
+| [Tre R421 Motif Fin Pag](CodeSystem-tre-r421-motif-fin-pag.md) | Lorsque le plan d’accompagnement global (PAG) arrive à échéance ou si le coordonnateur de parcours l’estime nécessaire, un bilan est élaboré et la phase d’actualisation est lancée afin de déterminer s’il faut prolonger ce PAG, le modifier ou y mettre fin. La MDPH, les partenaires et l’usager peuvent définir ensemble que le PAG n’est plus nécessaire et donc y mettre fin. Le consentement de la personne ou de son représentant légal est recueilli et l’information sur la fin du PAG transmise à l’ensemble des parties-prenantes. |
+| [Tre R422 Qualification Orientation](CodeSystem-tre-r422-qualification-orientation.md) | La qualification de l’orientation peut être cible ou alternative. |
+| [Tre R423 Type Presence Absence](CodeSystem-tre-r423-type-presence-absence.md) | Déclaration du type de présence absence de l’usager lors d’un événement organisé par sa structure de rattachement. |
+| [Tre R424 Motif Absence](CodeSystem-tre-r424-motif-absence.md) | Motif pour lequel l’usager n’est pas présent lors d’un événement organisé par sa structure de rattachement. |
+| [Tre R425 Type Repas](CodeSystem-tre-r425-type-repas.md) | Type de repas. |
+| [Tre R426 Orientation](CodeSystem-tre-r426-orientation.md) | Orientation vers un Service d’éducation spéciale et de soins à domicile (SESSAD) ou vers un Service d’accompagnement familial et d’éducation précoce (SAFEP) |
+| [Tre R427 Type Adresse](CodeSystem-tre-r427-type-adresse.md) | Type d’adresse postale. |
 | [V3SpecimenTypeSupplementFr](CodeSystem-v3-SpecimenType-supplement-fr.md) | Traduction Française |
 | [employmentStatus](CodeSystem-v2-0066.md) | HL7-defined code system of concepts which specify an employment status of a person. Used in HL7 Version 2 messaging in the GT1 segment. |
 | [specimenCollectionMethod](CodeSystem-v2-0488.md) | HL7-defined code system of concepts specifying the specimen collection method. Used in HL7 Version 2.x messaging in the SPM segment. |

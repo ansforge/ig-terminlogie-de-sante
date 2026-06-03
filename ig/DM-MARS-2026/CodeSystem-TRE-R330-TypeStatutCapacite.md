@@ -18,6 +18,7 @@ Permet de préciser le statut des capacités concernées
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J188_TypeStatutCapacite_ROR](ValueSet-JDV-J188-TypeStatutCapacite-ROR.md)
+* [JdvJ353TypeStatutCapaciteFiness](ValueSet-jdv-j353-type-statut-capacite-finess.md)
 
 
 
@@ -28,10 +29,11 @@ Permet de préciser le statut des capacités concernées
   "resourceType" : "CodeSystem",
   "id" : "TRE-R330-TypeStatutCapacite",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2025-07-02T18:17:36.165+00:00",
+    "versionId" : "11",
+    "lastUpdated" : "2026-05-05T20:12:05.141+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
+  "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
@@ -58,18 +60,22 @@ Permet de préciser le statut des capacités concernées
   }],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 9,
   "property" : [{
     "code" : "dateValid",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
     "description" : "date de validité d'un code concept",
     "type" : "dateTime"
   },
   {
     "code" : "dateMaj",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
     "description" : "Date de mise à jour d'un code concept",
     "type" : "dateTime"
   },
   {
     "code" : "dateFin",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
     "description" : "Date de fin d'exploitation d'un code concept",
     "type" : "dateTime"
   },
@@ -90,6 +96,12 @@ Permet de préciser le statut des capacités concernées
     "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
     "description" : "Date Concept was retired",
     "type" : "dateTime"
+  },
+  {
+    "code" : "finess",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#finess",
+    "description" : "Permet de définir les codes à inclure dans le JdvJ353TypeStatutCapaciteFiness",
+    "type" : "boolean"
   }],
   "concept" : [{
     "code" : "01",
@@ -232,6 +244,10 @@ Permet de préciser le statut des capacités concernées
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
     }]
   },
   {
@@ -248,6 +264,10 @@ Permet de préciser le statut des capacités concernées
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
     }]
   }]
 }

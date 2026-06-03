@@ -90,7 +90,7 @@ Expansions are not generated for retired value sets
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement",
-      "version" : "20251222120000",
+      "version" : "20260601120000",
       "concept" : [{
         "code" : "003",
         "display" : "Angioscope"

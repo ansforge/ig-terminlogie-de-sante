@@ -90,7 +90,7 @@ Expansions are not generated for retired value sets
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM",
-      "version" : "20240628120000",
+      "version" : "20260505120000",
       "concept" : [{
         "code" : "01",
         "display" : "Ain (01)"

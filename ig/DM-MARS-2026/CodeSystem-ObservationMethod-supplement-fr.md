@@ -41,7 +41,7 @@ Traduction Française
     }]
   }],
   "content" : "supplement",
-  "supplements" : "http://terminology.hl7.org/CodeSystem/v3-ObservationMethod|4.0.0",
+  "supplements" : "http://terminology.hl7.org/CodeSystem/v3-ObservationMethod|2018-08-12",
   "concept" : [{
     "code" : "0001",
     "designation" : [{

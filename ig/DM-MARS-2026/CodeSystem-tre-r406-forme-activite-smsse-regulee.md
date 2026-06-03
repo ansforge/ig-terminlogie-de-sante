@@ -96,6 +96,18 @@ Formes des activites smsse régulées, remplace la TRE_R276-FormeActivite
     "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
     "description" : "Date Concept was retired",
     "type" : "dateTime"
+  },
+  {
+    "code" : "rass",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#rass",
+    "description" : "Permet de définir les codes concepts uilisés par le RASS",
+    "type" : "boolean"
+  },
+  {
+    "code" : "cisis",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#cisis",
+    "description" : "Permet de définir les codes concepts uilisés par le CISIS",
+    "type" : "boolean"
   }],
   "concept" : [{
     "code" : "00",

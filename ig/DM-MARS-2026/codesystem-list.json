@@ -10,7 +10,7 @@
   },
   {
     "url" : "http://snomed.info/sct",
-    "version" : "http://snomed.info/sct/900000000000207008/version/20260301",
+    "version" : "http://snomed.info/sct/900000000000207008/version/20260601",
     "status" : "active",
     "name" : "SNOMED_CT",
     "title" : "SNOMED CT core",
@@ -433,7 +433,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM",
-    "version" : "20240628120000",
+    "version" : "20260505120000",
     "status" : "active",
     "name" : "TRE_G09_DepartementOM",
     "title" : null,
@@ -604,7 +604,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM",
-    "version" : "20250328120000",
+    "version" : "20260505120000",
     "status" : "active",
     "name" : "TRE_R13_CommuneOM",
     "title" : null,
@@ -775,7 +775,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement",
-    "version" : "20251222120000",
+    "version" : "20260601120000",
     "status" : "active",
     "name" : "TRE_R212_Equipement",
     "title" : null,
@@ -1405,7 +1405,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R283-NiveauConfidentialite/FHIR/TRE-R283-NiveauConfidentialite",
-    "version" : "20231215120000",
+    "version" : "20260505120000",
     "status" : "active",
     "name" : "TRE_R283_NiveauConfidentialite",
     "title" : null,
@@ -1432,7 +1432,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture",
-    "version" : "20251016120000",
+    "version" : "20260505120000",
     "status" : "active",
     "name" : "TRE_R286_TypeFermeture",
     "title" : null,
@@ -1747,11 +1747,11 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R327-TypeDecision/FHIR/TRE-R327-TypeDecision",
-    "version" : "20240329120000",
+    "version" : "20260505120000",
     "status" : "active",
     "name" : "TRE_R327_TypeDecision",
     "title" : null,
-    "description" : "Caractérise le type de décision prise par la CDAPH en réponse à une demande de compensation d'un usager (individu ou représentant légal), à une demande de révision par un tiers ou à un recours administratif préalable obligatoire (RAPO) d'un usager",
+    "description" : "Caractérise le type de décision prise par la CDAPH en réponse à une demande de compensation d'un usager (individu ou représentant légal), à une demande de révision par un tiers ou à un recours administratif préalable obligatoire (RAPO) d'un usager.",
     "oids" : ["1.2.250.1.213.3.3.82"]
   },
   {
@@ -1765,7 +1765,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R329-NatureCapacite/FHIR/TRE-R329-NatureCapacite",
-    "version" : "20250328120000",
+    "version" : "20260505120000",
     "status" : "active",
     "name" : "TRE_R329_NatureCapacite",
     "title" : null,
@@ -1900,7 +1900,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R343-FonctionLieu/FHIR/TRE-R343-FonctionLieu",
-    "version" : "20251222120000",
+    "version" : "20260601120000",
     "status" : "active",
     "name" : "TRE_R343_FonctionLieu",
     "title" : null,
@@ -2035,7 +2035,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R368-StatutRessource/FHIR/TRE-R368-StatutRessource",
-    "version" : "20251222120000",
+    "version" : "20260505120000",
     "status" : "active",
     "name" : "TRE_R368_StatutRessource",
     "title" : null,
@@ -2269,7 +2269,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R64-AgregatCategorieEtablissementNiv2/FHIR/TRE-R64-AgregatCategorieEtablissementNiv2",
-    "version" : "20231215120000",
+    "version" : "20260601120000",
     "status" : "active",
     "name" : "TRE_R64_AgregatCategorieEtablissementNiv2",
     "title" : null,
@@ -2662,7 +2662,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-    "version" : "202603110000",
+    "version" : "202604200000",
     "status" : "active",
     "name" : "TerminologieCISIS",
     "title" : "TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies",
@@ -2676,6 +2676,15 @@
     "name" : "TimingEventSupplementFr",
     "title" : "TimingEventSupplementFr",
     "description" : "Traduction Française"
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+    "version" : "20260601120000",
+    "status" : "active",
+    "name" : "TreR347ActiviteSanitaireDiverseRegulee",
+    "title" : "Tre R347 Activite Sanitaire Diverse Regulee",
+    "description" : "Nomenclature des activités sanitaires utilisée pour décrire les Activités Sanitaires Diverses Régulées (ASDR)",
+    "oids" : ["1.2.250.1.213.1.6.1.248"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe",
@@ -2705,6 +2714,15 @@
     "oids" : ["1.2.250.1.213.1.6.1.256"]
   },
   {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege",
+    "version" : "20260505120000",
+    "status" : "active",
+    "name" : "TreR370RoleRelationEge",
+    "title" : "Tre R370 Role Relation Ege",
+    "description" : "Nomenclature des types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE",
+    "oids" : ["1.2.250.1.213.1.6.1.286"]
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r371-type-groupe-gcc",
     "version" : "20260330120000",
     "status" : "active",
@@ -2721,6 +2739,24 @@
     "title" : "Tre R372 Type Groupe Gco",
     "description" : "Nomenclature des types de Groupement de Coopération Organique (GCO)",
     "oids" : ["1.2.250.1.213.1.6.1.288"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r373-type-personne-morale",
+    "version" : "20260505120000",
+    "status" : "active",
+    "name" : "TreR373TypePersonneMorale",
+    "title" : "Tre R373 Type Personne Morale",
+    "description" : "Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces champs).\nRemarque : Cette TRE est juste initialisée à minima et a vocation à porter d'autres valurs.",
+    "oids" : ["1.2.250.1.213.1.6.1.253"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee",
+    "version" : "20260505120000",
+    "status" : "active",
+    "name" : "TreR374NatureActiviteSmsseRegulee",
+    "title" : "Tre R374 Nature Activite Smsse Regulee",
+    "description" : "Nomenclature des grandes natures d'activité SMSSE exercées par les entités FINESS+",
+    "oids" : ["1.2.250.1.213.1.6.1.289"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r375-mode-financement",
@@ -2930,6 +2966,150 @@
     "oids" : ["1.2.250.1.213.3.3.262"]
   },
   {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome",
+    "version" : "20260601120000",
+    "status" : "draft",
+    "name" : "TreR412NiveauDiplome",
+    "title" : "Tre R412 Niveau Diplome",
+    "description" : "Niveau de diplôme permettant d'indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel.",
+    "oids" : ["1.2.250.1.213.3.3.263"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r413-categorie-permis-conduire",
+    "version" : "20260601120000",
+    "status" : "draft",
+    "name" : "TreR413CategoriePermisConduire",
+    "title" : "Tre R413 Categorie Permis Conduire",
+    "description" : "Catégorie de permis de conduire.",
+    "oids" : ["1.2.250.1.213.3.3.264"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r414-niveau-scolaire",
+    "version" : "20260601120000",
+    "status" : "draft",
+    "name" : "TreR414NiveauScolaire",
+    "title" : "Tre R414 Niveau Scolaire",
+    "description" : "Niveau scolaire de l'usager en France.",
+    "oids" : ["1.2.250.1.213.3.3.265"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r415-utilisation-canal-communication",
+    "version" : "20260505120000",
+    "status" : "draft",
+    "name" : "TreR415UtilisationCanalCommunication",
+    "title" : "Tre R415 Utilisation Canal Communication",
+    "description" : "Précise l'utilisation du canal de communication.",
+    "oids" : ["1.2.250.1.213.3.3.266"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r416-type-courrier",
+    "version" : "20260505120000",
+    "status" : "draft",
+    "name" : "TreR416TypeCourrier",
+    "title" : "Tre R416 Type Courrier",
+    "description" : "Type de courrier en France.",
+    "oids" : ["1.2.250.1.213.3.3.267"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r417-type-demande-compensation",
+    "version" : "20260505120000",
+    "status" : "draft",
+    "name" : "TreR417TypeDemandeCompensation",
+    "title" : "Tre R417 Type Demande Compensation",
+    "description" : "Type de la demande de compensation adressée à la CDAPH.",
+    "oids" : ["1.2.250.1.213.3.3.268"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r418-nature-demande-compensation",
+    "version" : "20260505120000",
+    "status" : "draft",
+    "name" : "TreR418NatureDemandeCompensation",
+    "title" : "Tre R418 Nature Demande Compensation",
+    "description" : "Nature de la demande de compensation adressée à la CDAPH.",
+    "oids" : ["1.2.250.1.213.3.3.269"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r419-motivation",
+    "version" : "20260601120000",
+    "status" : "draft",
+    "name" : "TreR419Motivation",
+    "title" : "Tre R419 Motivation",
+    "description" : "Considération(s) de droit ou de fait qui constituent le fondement de la proposition et de la décision de la CDAPH.",
+    "oids" : ["1.2.250.1.213.3.3.270"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation",
+    "version" : "20260505120000",
+    "status" : "draft",
+    "name" : "TreR420DroitPrestation",
+    "title" : "Tre R420 Droit Prestation",
+    "description" : " Catégorie et type de droit et prestation caractérisant la décision d'orientation.",
+    "oids" : ["1.2.250.1.213.3.3.271"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag",
+    "version" : "20260505120000",
+    "status" : "draft",
+    "name" : "TreR421MotifFinPag",
+    "title" : "Tre R421 Motif Fin Pag",
+    "description" : "Lorsque le plan d'accompagnement global (PAG) arrive à échéance ou si le coordonnateur de parcours l'estime nécessaire, un bilan est élaboré et la phase d'actualisation est lancée afin de déterminer s'il faut prolonger ce PAG, le modifier ou y mettre fin. La MDPH, les partenaires et l'usager peuvent définir ensemble que le PAG n'est plus nécessaire et donc y mettre fin. Le consentement de la personne ou de son représentant légal est recueilli et l'information sur la fin du PAG transmise à l'ensemble des parties-prenantes.",
+    "oids" : ["1.2.250.1.213.3.3.272"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r422-qualification-orientation",
+    "version" : "20260505120000",
+    "status" : "draft",
+    "name" : "TreR422QualificationOrientation",
+    "title" : "Tre R422 Qualification Orientation",
+    "description" : "La qualification de l'orientation peut être cible ou alternative.",
+    "oids" : ["1.2.250.1.213.3.3.273"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r423-type-presence-absence",
+    "version" : "20260505120000",
+    "status" : "draft",
+    "name" : "TreR423TypePresenceAbsence",
+    "title" : "Tre R423 Type Presence Absence",
+    "description" : "Déclaration du type de présence absence de l'usager lors d'un événement organisé par sa structure de rattachement.",
+    "oids" : ["1.2.250.1.213.3.3.274"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r424-motif-absence",
+    "version" : "20260505120000",
+    "status" : "draft",
+    "name" : "TreR424MotifAbsence",
+    "title" : "Tre R424 Motif Absence",
+    "description" : "Motif pour lequel l'usager n'est pas présent lors d'un événement organisé par sa structure de rattachement.",
+    "oids" : ["1.2.250.1.213.3.3.275"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r425-type-repas",
+    "version" : "20260505120000",
+    "status" : "draft",
+    "name" : "TreR425TypeRepas",
+    "title" : "Tre R425 Type Repas",
+    "description" : "Type de repas.",
+    "oids" : ["1.2.250.1.213.3.3.276"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation",
+    "version" : "20260505120000",
+    "status" : "draft",
+    "name" : "TreR426Orientation",
+    "title" : "Tre R426 Orientation",
+    "description" : "Orientation vers un Service d'éducation spéciale et de soins à domicile (SESSAD) ou vers un Service d'accompagnement familial et d'éducation précoce (SAFEP)",
+    "oids" : ["1.2.250.1.213.3.3.277"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r427-type-adresse",
+    "version" : "20260505120000",
+    "status" : "draft",
+    "name" : "TreR427TypeAdresse",
+    "title" : "Tre R427 Type Adresse",
+    "description" : "Type d'adresse postale.",
+    "oids" : ["1.2.250.1.213.3.3.278"]
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/v2-0487-supplement-fr",
     "version" : "1.0",
     "status" : "draft",
@@ -2972,7 +3152,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-bdpm",
-    "version" : "2026-03-03",
+    "version" : "2026-06-01",
     "status" : "active",
     "name" : "BDPM",
     "title" : "Base de données publique du médicament",
@@ -3033,14 +3213,6 @@
     "oids" : ["1.2.250.1.213.2.68"]
   },
   {
-    "url" : "https://smt.esante.gouv.fr/terminologie-esesali",
-    "version" : "2026-01",
-    "status" : "active",
-    "name" : "SESALI",
-    "title" : "SESALI",
-    "description" : "Composite CodeSystem grouping Brand Name + Package Size (+ optional properties).NB: dans cette version bêta, le Brand Name est remplacé par le libellé de la spécialité."
-  },
-  {
     "url" : "https://smt.esante.gouv.fr/terminologie-lahn",
     "version" : "2026 v1.0",
     "status" : "active",
@@ -3051,7 +3223,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-nabm",
-    "version" : "V102",
+    "version" : "V103",
     "status" : "active",
     "name" : "NABM",
     "title" : "Nomenclature des actes de biologie médicale",
@@ -3060,7 +3232,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-nuva",
-    "version" : "1.0.1072",
+    "version" : "1.0.1096",
     "status" : "active",
     "name" : "NUVA",
     "title" : "Nomenclature Unifiée des Vaccins",
@@ -3068,8 +3240,16 @@
     "oids" : ["1.3.6.1.4.1.48601.1"]
   },
   {
+    "url" : "https://smt.esante.gouv.fr/terminologie-ruim-eeprescription",
+    "version" : "2026-01",
+    "status" : "active",
+    "name" : "RUIM eeprescription",
+    "title" : "RUIM - european eprescription",
+    "description" : "Composite CodeSystem grouping Brand Name + Package Size (+ optional properties).NB: dans cette version bêta, le Brand Name est remplacé par le libellé de la spécialité."
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/terminologie-sms",
-    "version" : "2026-03",
+    "version" : "2026-05",
     "status" : "active",
     "name" : "Dictionnaire_SMS_Substance_Management_Services_",
     "title" : "Dictionnaire européen multilingue des substances entrant dans la composition de médicaments",

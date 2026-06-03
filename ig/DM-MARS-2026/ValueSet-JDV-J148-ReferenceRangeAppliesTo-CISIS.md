@@ -102,7 +102,6 @@ Expansions are not generated for retired value sets
     },
     {
       "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20260301",
       "concept" : [{
         "code" : "77386006"
       }]

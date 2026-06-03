@@ -19,18 +19,8 @@ Catégorie d’établissements
 
 * [JDV_J129_CategorieEtablissement_RASS](ValueSet-JDV-J129-CategorieEtablissement-RASS.md)
 * [JDV_J254_CategorieEtablissementESSMSPH](ValueSet-JDV-J254-CategorieEtablissementESSMSPH.md)
-* [JDV_J264_ModeEtCentreDePriseEnCharge_MDPH](ValueSet-JDV-J264-ModeEtCentreDePriseEnCharge-MDPH.md)
 * [JDV_J55_CategorieEG_ROR](ValueSet-JDV-J55-CategorieEG-ROR.md)
-* [JdvDestinationTransfertCisis](ValueSet-jdv-destination-transfert-cisis.md)
-* [JdvJ368CategorieEtablissementCisis](ValueSet-jdv-j368-categorie-etablissement-cisis.md)
-* [JdvLieuDeVieCisis](ValueSet-jdv-lieu-de-vie-cisis.md)
-* [JdvModaliteEntreeEsmsCisis](ValueSet-jdv-modalite-entree-esms-cisis.md)
-* [JdvModaliteSortieCisis](ValueSet-jdv-modalite-sortie-cisis.md)
-* [JdvModeSortieCisis](ValueSet-jdv-mode-sortie-cisis.md)
-* [JdvPatientAdresseParCisis](ValueSet-jdv-patient-adresse-par-cisis.md)
 * [JdvStructureDeSoinsCisis](ValueSet-jdv-structure-de-soins-cisis.md)
-* [JdvTraitementSuiviCisis](ValueSet-jdv-traitement-suivi-cisis.md)
-* [JdvTypePriseEnChargeCisis](ValueSet-jdv-type-prise-en-charge-cisis.md)
 
 
 

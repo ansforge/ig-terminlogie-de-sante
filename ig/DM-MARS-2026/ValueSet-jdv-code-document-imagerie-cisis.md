@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-document-imagerie-cisis | *Version*:20260311144903 | |
-| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvCodeDocumentImagerieCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-document-imagerie-cisis | *Version*:20260420150249 | |
+| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvCodeDocumentImagerieCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.687 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-code-document-imagerie-cisis",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-03-11T15:28:03.759+01:00",
+    "versionId" : "9",
+    "lastUpdated" : "2026-04-20T16:57:46.477+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -71,12 +71,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.687"
   }],
-  "version" : "20260311144903",
+  "version" : "20260420150249",
   "name" : "JdvCodeDocumentImagerieCisis",
   "title" : "JDV Code Document Imagerie CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-11T14:49:03+01:00",
+  "date" : "2026-04-20T15:02:49+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Code Document Imagerie CISIS",
   "jurisdiction" : [{
@@ -198,7 +198,7 @@ Requête sur le SMT
       },
       {
         "code" : "24553-0",
-        "display" : "angiographie par fluoroscopie vaisseau intracrânial ; guide pour l'élimination d'un embol avec contraste IV"
+        "display" : "angiographie par fluoroscopie vaisseau intracrânien ; guide pour l'élimination d'un embol avec contraste IV"
       },
       {
         "code" : "24554-8",
@@ -10938,7 +10938,7 @@ Requête sur le SMT
       },
       {
         "code" : "37659-0",
-        "display" : "RX rachis dorsal et rachis lombaire ; incidences antéropostérieures pour scoliose en position debout"
+        "display" : "RX rachis dorsal et rachis lombaire ; incidence antéropostérieure pour scoliose en position debout"
       },
       {
         "code" : "37660-8",
@@ -13270,7 +13270,7 @@ Requête sur le SMT
       },
       {
         "code" : "39054-2",
-        "display" : "mammographie canal galactophore ; incidences avec contraste intracanalaire"
+        "display" : "mammograpgie canal galactophore ; incidences avec contraste intracanalaire"
       },
       {
         "code" : "39055-9",
@@ -20158,11 +20158,11 @@ Requête sur le SMT
       },
       {
         "code" : "79065-9",
-        "display" : "CT abdomen et pelvis post processing 3D sans contraste"
+        "display" : "CT abdomen et pelvis post-traitement 3D sans contraste"
       },
       {
         "code" : "79066-7",
-        "display" : "CT abdomen post processing 3D sans contraste"
+        "display" : "CT abdomen post-traitement 3D sans contraste"
       },
       {
         "code" : "79067-5",
@@ -20190,7 +20190,7 @@ Requête sur le SMT
       },
       {
         "code" : "79074-1",
-        "display" : "CT rein et uretère et vessie urinaire post processing 3D sans et avec contraste IV"
+        "display" : "CT rein et uretère et vessie urinaire post-traitement 3D sans et avec contraste IV"
       },
       {
         "code" : "79075-8",
@@ -20266,7 +20266,7 @@ Requête sur le SMT
       },
       {
         "code" : "79093-1",
-        "display" : "CT ; post traitement 3 dimensions dans une région du corps non spécifiée"
+        "display" : "CT ; post-traitement 3D dans une région du corps non spécifiée"
       },
       {
         "code" : "79094-9",
@@ -20278,19 +20278,19 @@ Requête sur le SMT
       },
       {
         "code" : "79096-4",
-        "display" : "CT thorax post processing 3D sans contraste"
+        "display" : "CT thorax post-traitement 3D sans contraste"
       },
       {
         "code" : "79097-2",
-        "display" : "CT thorax et abdomen post processing 3D sans contraste"
+        "display" : "CT thorax et abdomen post-traitement 3D sans contraste"
       },
       {
         "code" : "79098-0",
-        "display" : "CT thorax, abdomen et pelvis post processing 3D sans contraste"
+        "display" : "CT thorax, abdomen et pelvis post-traitement 3D sans contraste"
       },
       {
         "code" : "79099-8",
-        "display" : "CT pelvis post processing 3D sans contraste"
+        "display" : "CT pelvis post-traitement 3D sans contraste"
       },
       {
         "code" : "79101-2",
@@ -20410,7 +20410,7 @@ Requête sur le SMT
       },
       {
         "code" : "80496-3",
-        "display" : "résonance magnétique ; post traitement 3 dimensions"
+        "display" : "résonance magnétique ; post-traitement 3D"
       },
       {
         "code" : "80497-1",
@@ -21250,7 +21250,7 @@ Requête sur le SMT
       },
       {
         "code" : "82801-2",
-        "display" : "PET et CT coeur sans contraste"
+        "display" : "tomographie par émission de positons et CT coeur sans contraste"
       },
       {
         "code" : "82802-0",
@@ -21770,7 +21770,7 @@ Requête sur le SMT
       },
       {
         "code" : "86407-4",
-        "display" : "fluoroscopie conseil dans une région du corps non spécifiée"
+        "display" : "guidage par fluoroscopie d'une région du corps non spécifiée"
       },
       {
         "code" : "86408-2",
@@ -22842,7 +22842,7 @@ Requête sur le SMT
       },
       {
         "code" : "87182-2",
-        "display" : "guidage pour placement d'un guide"
+        "display" : "guidage pour placement d'un fil guide"
       },
       {
         "code" : "87183-0",
@@ -25478,7 +25478,7 @@ Requête sur le SMT
       },
       {
         "code" : "100853-1",
-        "display" : "médecine nucléaire épanchement péricardique dans l'espace péricardique"
+        "display" : "médecine nucléaire espace péricardique incidences pour épanchement"
       },
       {
         "code" : "100875-4",
@@ -27121,6 +27121,10 @@ Requête sur le SMT
         "display" : "échographie Doppler artère d'un membre inférieur - droit limitée"
       },
       {
+        "code" : "103943-7",
+        "display" : "échographie grossesse à haut risque"
+      },
+      {
         "code" : "103944-5",
         "display" : "CT cou et thorax et abdomen sans contraste"
       },
@@ -27179,6 +27183,10 @@ Requête sur le SMT
       {
         "code" : "104867-7",
         "display" : "tomographie par émission de positons et CT coeur métabolique"
+      },
+      {
+        "code" : "104868-5",
+        "display" : "tomographie par émission de positons et CT perfusion myocardique avec études multiples au repos et avec stress"
       },
       {
         "code" : "104869-3",
@@ -27393,6 +27401,10 @@ Requête sur le SMT
         "display" : "échographie poignet - droit et main - droite"
       },
       {
+        "code" : "106252-0",
+        "display" : "échographie articulation sous talienne"
+      },
+      {
         "code" : "106253-8",
         "display" : "guidage par échographie pour aspiration du pelvis et de la hanche - bilatérale"
       },
@@ -27443,6 +27455,14 @@ Requête sur le SMT
       {
         "code" : "106265-2",
         "display" : "guidage par échographie d'une biopsie du tibia et de la fibula - gauches"
+      },
+      {
+        "code" : "106266-0",
+        "display" : "guidage par échographie pour placement d'un marqueur mammaire - gauche"
+      },
+      {
+        "code" : "106267-8",
+        "display" : "guidage par échographie pour placement d'un marqueur mammaire - droit"
       },
       {
         "code" : "106268-6",
@@ -27521,6 +27541,14 @@ Requête sur le SMT
         "display" : "échographie articulation sacro-iliaque"
       },
       {
+        "code" : "106287-6",
+        "display" : "guidage par échographie pour biopsie tissu mou de la cuisse - gauche"
+      },
+      {
+        "code" : "106288-4",
+        "display" : "guidage par échographie pour biopsie tissu mou de la cuisse - droit"
+      },
+      {
         "code" : "106289-2",
         "display" : "guidage par échographie pour injection du tendon"
       },
@@ -27547,6 +27575,10 @@ Requête sur le SMT
       {
         "code" : "106302-3",
         "display" : "tomographie par émission de positons prostate"
+      },
+      {
+        "code" : "106303-1",
+        "display" : "médecine nucléaire région non spécifiée incidences pour destruction de synoviale avec radionucléide IV"
       },
       {
         "code" : "106304-9",
@@ -27591,6 +27623,10 @@ Requête sur le SMT
       {
         "code" : "106314-8",
         "display" : "échographie Doppler des veines du membre inférieur - bilatéral"
+      },
+      {
+        "code" : "106315-5",
+        "display" : "guidage par échographie pour retrait de cathéter de drainage région non spécifiée"
       },
       {
         "code" : "106318-9",
@@ -27677,12 +27713,136 @@ Requête sur le SMT
         "display" : "échographie main - droite"
       },
       {
+        "code" : "106814-7",
+        "display" : "guidage par fluoroscopie pour guidage estomac"
+      },
+      {
+        "code" : "106815-4",
+        "display" : "guidage par fluoroscopie pour guidage cheville - gauche"
+      },
+      {
+        "code" : "106816-2",
+        "display" : "guidage par fluoroscopie pour guidage cheville - droit"
+      },
+      {
+        "code" : "106817-0",
+        "display" : "guidage par fluoroscopie pour guidage membre inférieur - gauche"
+      },
+      {
+        "code" : "106818-8",
+        "display" : "guidage par fluoroscopie pour guidage membre inférieur - droit"
+      },
+      {
+        "code" : "106819-6",
+        "display" : "guidage par angiographie par fluoroscopie pour guidage vaisseau"
+      },
+      {
+        "code" : "106820-4",
+        "display" : "guidage par fluoroscopie pour guidage sinus"
+      },
+      {
+        "code" : "106821-2",
+        "display" : "guidage par fluoroscopie pour guidage crane"
+      },
+      {
+        "code" : "106823-8",
+        "display" : "guidage par fluoroscopie pour pyélographie antérograde du rein - droit"
+      },
+      {
+        "code" : "106824-6",
+        "display" : "guidage par fluoroscopie pour iléostomie du colon -- avec constraste"
+      },
+      {
+        "code" : "106825-3",
+        "display" : "guidage par fluoroscopie pour injection d'une région non spécifiée"
+      },
+      {
+        "code" : "106826-1",
+        "display" : "guidage par fluoroscopie pour placement d'un fil guide dans le système biliaire"
+      },
+      {
+        "code" : "106828-7",
+        "display" : "guidage par fluoroscopie pour réduction d'invagination intestinale du tractus gastrointestinal"
+      },
+      {
+        "code" : "106837-8",
+        "display" : "guidage par fluoroscopie du membre inférieur - bilatéral"
+      },
+      {
+        "code" : "106844-4",
+        "display" : "CT veine cérébrale avec contraste IV"
+      },
+      {
+        "code" : "106845-1",
+        "display" : "CT thorax sans contraste IV"
+      },
+      {
+        "code" : "106847-7",
+        "display" : "guidage par tomodensitométrie pour cryoablation d'une région non spécifiée"
+      },
+      {
+        "code" : "106848-5",
+        "display" : "CT rachis"
+      },
+      {
+        "code" : "106849-3",
+        "display" : "guidage par tomodensitométrie pour ablation par radiofréquence du rein"
+      },
+      {
+        "code" : "106850-1",
+        "display" : "guidage par tomodensitométrie pour ablation par micro-ondes du foie"
+      },
+      {
+        "code" : "106851-9",
+        "display" : "guidage par tomodensitométrie pour placement d'un marqueur fiduciaire dans les os pelviens"
+      },
+      {
+        "code" : "106852-7",
+        "display" : "guidage par tomodensitométrie pour injection dans l'espace épidural du rachis thoracique"
+      },
+      {
+        "code" : "106853-5",
+        "display" : "CT du canal lacrymal - droit sans et avec contraste IV"
+      },
+      {
+        "code" : "106854-3",
+        "display" : "CT du canal lacrymal - gauche sans et avec contraste IV"
+      },
+      {
+        "code" : "106856-8",
+        "display" : "CT du rachis cervical et reconstruction post-traitement 3D"
+      },
+      {
+        "code" : "106857-6",
+        "display" : "guidage par tomodensitométrie pour cryoablation percutanée de tumeur du foie"
+      },
+      {
+        "code" : "107258-6",
+        "display" : "guidage par fluoroscopie pour thrombolyse percutanée artère cérébrale"
+      },
+      {
+        "code" : "107259-4",
+        "display" : "guidage par fluoroscopie pour embolisation d'une malformation atério-veineuse région non spécifiée"
+      },
+      {
         "code" : "107262-8",
         "display" : "guidage par fluoroscopie pour thrombectomie mécanique percutanée artères pulmonaires droites"
       },
       {
+        "code" : "107263-6",
+        "display" : "guidage par fluoroscopie pour thrombolyse percutanée des artères pulmonaires droites"
+      },
+      {
         "code" : "107264-4",
         "display" : "guidage par fluoroscopie pour thrombectomie mécanique percutanée artère pulmonaire"
+      },
+      {
+        "code" : "107265-1",
+        "display" : "guidage par fluoroscopie pour thrombolyse percutanée artère pulmonaire"
+      },
+      {
+        "code" : "107266-9",
+        "display" : "guidage par fluoroscopie pour thrombolyse percutanée artère mésentérique"
       },
       {
         "code" : "107267-7",
@@ -27745,12 +27905,36 @@ Requête sur le SMT
         "display" : "guidage par fluoroscopie pour embolisation artère pulmonaire"
       },
       {
+        "code" : "107291-7",
+        "display" : "guidage par fluoroscopie du coeur pour insertion d'un stimulateur cardiaque"
+      },
+      {
+        "code" : "107292-5",
+        "display" : "guidage par fluoroscopie pour obstruction de fistule de l'espace pleural"
+      },
+      {
         "code" : "107294-1",
         "display" : "guidage par fluoroscopie pour ablation par radiofréquence nerf intercostal du rachis dorsal"
       },
       {
+        "code" : "107295-8",
+        "display" : "guidage par fluoroscopie pour thrombolyse percutanée d'un greffon du membre supérieur - droit"
+      },
+      {
+        "code" : "107296-6",
+        "display" : "guidage par fluoroscopie pour thrombolyse percutanée d'un greffon du membre supérieur - gauche"
+      },
+      {
         "code" : "107297-4",
         "display" : "guidage par fluoroscopie pour remplacement d'une sonde de gastrojéjunostomie dans tractus gastrointestinal supérieur"
+      },
+      {
+        "code" : "107298-2",
+        "display" : "guidage par fluoroscopie pour thrombolyse percutanée d'un greffon du membre inférieur - droit"
+      },
+      {
+        "code" : "107299-0",
+        "display" : "guidage par fluoroscopie pour thrombolyse percutanée d'un greffon du membre inférieur - gauche"
       },
       {
         "code" : "107300-6",
@@ -27769,12 +27953,164 @@ Requête sur le SMT
         "display" : "guidage par fluoroscopie pour embolisation d'une région du corps non spécifié"
       },
       {
+        "code" : "107304-8",
+        "display" : "guidage par fluoroscopie pour drainage endoscopique des voies billaires et vésicule billaire"
+      },
+      {
+        "code" : "107305-5",
+        "display" : "guidage par fluoroscopie pour ablation région non spécifiée"
+      },
+      {
         "code" : "107306-3",
         "display" : "guidage par fluoroscopie pour angioplastie percutanée transluminale artère iliaque"
       },
       {
         "code" : "107307-1",
         "display" : "guidage par fluoroscopie pour thrombectomie percutanée artère cérébrale"
+      },
+      {
+        "code" : "107379-0",
+        "display" : "tomographie par émission de positons incidences corps entier"
+      },
+      {
+        "code" : "107380-8",
+        "display" : "tomographie par émission de positons et CT incidences dans une région du corps non spécifiée"
+      },
+      {
+        "code" : "107381-6",
+        "display" : "médecine nucléaire SPECT et CT poumon ; incidences"
+      },
+      {
+        "code" : "107382-4",
+        "display" : "tomographie par émission de positons et CT incidences corps entier"
+      },
+      {
+        "code" : "107383-2",
+        "display" : "tomographie par émission de positons et CT coeur ; incidences"
+      },
+      {
+        "code" : "107384-0",
+        "display" : "tomographie par émission de positons et CT prostate ; incidences"
+      },
+      {
+        "code" : "107385-7",
+        "display" : "tomographie par émission de positons coeur ; incidences"
+      },
+      {
+        "code" : "107386-5",
+        "display" : "guidage par IRM pour localisation de lésion mammaire - droit"
+      },
+      {
+        "code" : "107387-3",
+        "display" : "guidage par IRM pour localisation de lésion mammaire - gauche"
+      },
+      {
+        "code" : "107388-1",
+        "display" : "IRM de vaisseau sans et avec contraste IV"
+      },
+      {
+        "code" : "107390-7",
+        "display" : "IRM du rachis thoracolombaire sans et avec contraste IV"
+      },
+      {
+        "code" : "107391-5",
+        "display" : "IRM de glande salivaire sans et avec contraste IV"
+      },
+      {
+        "code" : "107393-1",
+        "display" : "IRM des vaisseaux lymphatiques sans et avec contraste IV"
+      },
+      {
+        "code" : "107403-8",
+        "display" : "guidage par fluoroscopie pour placement percutané de stent dans la veine cave supérieure"
+      },
+      {
+        "code" : "107405-3",
+        "display" : "guidage par fluoroscopie du foie pour dilatation du stent du shunt portosystémique intrahépatique transjugulaire"
+      },
+      {
+        "code" : "107406-1",
+        "display" : "guidage par fluoroscopie pour obstruction au ballon de l'artère iliaque"
+      },
+      {
+        "code" : "107408-7",
+        "display" : "guidage par fluoroscopie pour embolisation d'un vaisseau intracrânien"
+      },
+      {
+        "code" : "107409-5",
+        "display" : "élastographie par IRM d'une région du corps non spécifiée sans et avec contraste IV"
+      },
+      {
+        "code" : "107410-3",
+        "display" : "guidage par fluoroscopie pour angioplastie de veine"
+      },
+      {
+        "code" : "107411-1",
+        "display" : "guidage par fluoroscopie pour sclérothérapie vasculaire de veine"
+      },
+      {
+        "code" : "107412-9",
+        "display" : "guidage par fluoroscopie pour dilatation de l'uretère"
+      },
+      {
+        "code" : "107413-7",
+        "display" : "guidage par échographie pour placement d'un marqueur axillaire - droit"
+      },
+      {
+        "code" : "107414-5",
+        "display" : "guidage par échographie pour placement d'un marqueur axillaire - gauche"
+      },
+      {
+        "code" : "107424-4",
+        "display" : "RX pénis ; incidences"
+      },
+      {
+        "code" : "107425-1",
+        "display" : "guidage par mammographie stéréotaxique pour mise en place d'un marqueur du sein - gauche"
+      },
+      {
+        "code" : "107426-9",
+        "display" : "guidage par mammographie stéréotaxique pour mise en place d'un marqueur du sein - bilatéral"
+      },
+      {
+        "code" : "107429-3",
+        "display" : "guidage par échographie pour biopsie du poignet - droit"
+      },
+      {
+        "code" : "107430-1",
+        "display" : "guidage par échographie pour biopsie du poignet - gauche"
+      },
+      {
+        "code" : "107432-7",
+        "display" : "échographie de l'urètre"
+      },
+      {
+        "code" : "107437-6",
+        "display" : "IRM coeur et foie sans et avec contraste IV"
+      },
+      {
+        "code" : "107439-2",
+        "display" : "RX incidences du corps entier"
+      },
+      {
+        "code" : "107440-0",
+        "display" : "guidage par fluoroscopie pour dilatation de l'uretère droit"
+      },
+      {
+        "code" : "107441-8",
+        "display" : "RX incidences du genou post-traitement 3D"
+      },
+      {
+        "code" : "107442-6",
+        "display" : "RX incidences du membre supérieur post-traitement 3D"
+      },
+      {
+        "code" : "108347-6",
+        "display" : "radiographie collimatée en fente incidences corps entier"
+      },
+      {
+        "code" : "108348-4",
+        "display" : "CT larynx sans et avec contraste IV"
       }]
     }]
   }

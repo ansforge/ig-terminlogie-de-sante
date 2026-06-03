@@ -29,8 +29,8 @@ Preferred value set for Condition Clinical Status.
   "resourceType" : "CodeSystem",
   "id" : "condition-clinical",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-01-07T10:12:48.016+01:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-04-10T10:27:43.449+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
   "extension" : [{

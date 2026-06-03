@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mode-sortie-cisis | *Version*:20260311144903 | |
-| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvModeSortieCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mode-sortie-cisis | *Version*:20260420150249 | |
+| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvModeSortieCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.204 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-mode-sortie-cisis",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-03-11T15:28:40.248+01:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-04-20T16:58:30.409+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -71,12 +71,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.204"
   }],
-  "version" : "20260311144903",
+  "version" : "20260420150249",
   "name" : "JdvModeSortieCisis",
   "title" : "JDV Mode Sortie CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-11T14:49:03+01:00",
+  "date" : "2026-04-20T15:02:49+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Mode Sortie CISIS",
   "jurisdiction" : [{
@@ -88,7 +88,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-      "version" : "202603110000",
+      "version" : "202604200000",
       "concept" : [{
         "code" : "ORG-102",
         "display" : "SSR spécialisé neuro"
@@ -115,7 +115,18 @@ Requête sur le SMT
       }]
     },
     {
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement",
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "160849004",
+        "display" : "retour au domicile"
+      },
+      {
+        "code" : "419620001",
+        "display" : "décès"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
       "version" : "20260330120000",
       "concept" : [{
         "code" : "127",
@@ -124,18 +135,6 @@ Requête sur le SMT
       {
         "code" : "500",
         "display" : "Etablissement d'hébergement pour personnes âgées dépendantes"
-      }]
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20260301",
-      "concept" : [{
-        "code" : "160849004",
-        "display" : "retour au domicile"
-      },
-      {
-        "code" : "419620001",
-        "display" : "décès"
       }]
     }]
   }

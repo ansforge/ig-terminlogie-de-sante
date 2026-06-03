@@ -66,12 +66,12 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | ParticipationFunctionSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/participationFunction-supplement-fr |  |
 | ParticipationType | http://terminology.hl7.org/CodeSystem/v3-ParticipationType | 2.16.840.1.113883.5.90 |
 | ParticipationTypeSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/participationType-supplement-fr |  |
+| RUIM eeprescription | https://smt.esante.gouv.fr/terminologie-ruim-eeprescription |  |
 | RoleClassSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/roleClass-supplement-fr |  |
 | RoleCode | http://terminology.hl7.org/CodeSystem/v3-RoleCode | 2.16.840.1.113883.5.111 |
 | RoleCodeSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/roleCode-supplement-fr |  |
 | SERAFIN | https://smt.esante.gouv.fr/terminologie-SERAFINPH |  |
 | SERAFIN_PH | https://smt.esante.gouv.fr/terminologie-SERAFINPH |  |
-| SESALI | https://smt.esante.gouv.fr/terminologie-esesali |  |
 | SNOMED_CT | http://snomed.info/sct | 2.16.840.1.113883.6.96 |
 | ServiceType | http://terminology.hl7.org/CodeSystem/service-type | 2.16.840.1.113883.4.642.1.1145 |
 | Snomed_CT_core_900000000000207008 | http://snomed.info/sct | 2.16.840.1.113883.6.96 |
@@ -335,11 +335,15 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | TerminologieCISIS | https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis | 1.2.250.1.213.1.1.4.322 |
 | TimingEvent | http://terminology.hl7.org/CodeSystem/v3-TimingEvent | 2.16.840.1.113883.5.139 |
 | TimingEventSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/timingEvent-supplement-fr |  |
+| TreR347ActiviteSanitaireDiverseRegulee | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee | 1.2.250.1.213.1.6.1.248 |
 | TreR360TypeRoleEntiteGroupe | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe | 1.2.250.1.213.1.6.1.254 |
 | TreR361FonctionPublique | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r361-fonction-publique | 1.2.250.1.213.1.6.1.255 |
 | TreR362TypeBudget | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r362-type-budget | 1.2.250.1.213.1.6.1.256 |
+| TreR370RoleRelationEge | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege | 1.2.250.1.213.1.6.1.286 |
 | TreR371TypeGroupeGcc | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r371-type-groupe-gcc | 1.2.250.1.213.1.6.1.287 |
 | TreR372TypeGroupeGco | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r372-type-groupe-gco | 1.2.250.1.213.1.6.1.288 |
+| TreR373TypePersonneMorale | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r373-type-personne-morale | 1.2.250.1.213.1.6.1.253 |
+| TreR374NatureActiviteSmsseRegulee | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee | 1.2.250.1.213.1.6.1.289 |
 | TreR375ModeFinancement | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r375-mode-financement | 1.2.250.1.213.1.6.1.290 |
 | TreR381ActiviteAmm | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm | 1.2.250.1.213.1.6.1.296 |
 | TreR382ModaliteActDeSoinAmm | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r382-modalite-act-de-soin-amm | 1.2.250.1.213.1.6.1.297 |
@@ -363,6 +367,22 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | TreR406FormeActiviteSmsseRegulee | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee | 1.2.250.1.213.1.6.1.385 |
 | TreR407CompositionFoyer | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r407-composition-foyer | 1.2.250.1.213.3.3.261 |
 | TreR408TypeEnseignementSpecialise | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise | 1.2.250.1.213.3.3.262 |
+| TreR412NiveauDiplome | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome | 1.2.250.1.213.3.3.263 |
+| TreR413CategoriePermisConduire | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r413-categorie-permis-conduire | 1.2.250.1.213.3.3.264 |
+| TreR414NiveauScolaire | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r414-niveau-scolaire | 1.2.250.1.213.3.3.265 |
+| TreR415UtilisationCanalCommunication | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r415-utilisation-canal-communication | 1.2.250.1.213.3.3.266 |
+| TreR416TypeCourrier | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r416-type-courrier | 1.2.250.1.213.3.3.267 |
+| TreR417TypeDemandeCompensation | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r417-type-demande-compensation | 1.2.250.1.213.3.3.268 |
+| TreR418NatureDemandeCompensation | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r418-nature-demande-compensation | 1.2.250.1.213.3.3.269 |
+| TreR419Motivation | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r419-motivation | 1.2.250.1.213.3.3.270 |
+| TreR420DroitPrestation | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation | 1.2.250.1.213.3.3.271 |
+| TreR421MotifFinPag | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag | 1.2.250.1.213.3.3.272 |
+| TreR422QualificationOrientation | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r422-qualification-orientation | 1.2.250.1.213.3.3.273 |
+| TreR423TypePresenceAbsence | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r423-type-presence-absence | 1.2.250.1.213.3.3.274 |
+| TreR424MotifAbsence | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r424-motif-absence | 1.2.250.1.213.3.3.275 |
+| TreR425TypeRepas | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r425-type-repas | 1.2.250.1.213.3.3.276 |
+| TreR426Orientation | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation | 1.2.250.1.213.3.3.277 |
+| TreR427TypeAdresse | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r427-type-adresse | 1.2.250.1.213.3.3.278 |
 | UCUM | http://unitsofmeasure.org | 2.16.840.1.113883.6.8 |
 | V3SpecimenTypeSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/v3-SpecimenType-supplement-fr |  |
 

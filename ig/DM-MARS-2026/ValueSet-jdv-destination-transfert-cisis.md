@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-destination-transfert-cisis | *Version*:20260220142104 | |
-| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvDestinationTransfertCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-destination-transfert-cisis | *Version*:20260420150251 | |
+| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvDestinationTransfertCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.70 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-destination-transfert-cisis",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2026-02-23T14:58:07.465+01:00",
+    "versionId" : "5",
+    "lastUpdated" : "2026-04-21T14:12:25.207+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -71,12 +71,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.70"
   }],
-  "version" : "20260220142104",
+  "version" : "20260420150251",
   "name" : "JdvDestinationTransfertCisis",
   "title" : "JDV Destination Transfert CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-20T14:21:04+01:00",
+  "date" : "2026-04-20T15:02:51+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Destination Transfert CISIS",
   "jurisdiction" : [{
@@ -88,26 +88,25 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-      "version" : "202603110000",
+      "version" : "202604200000",
       "concept" : [{
         "code" : "GEN-092.06.03",
         "display" : "Autre destination"
       }]
     },
     {
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement",
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "160849004",
+        "display" : "retour au domicile"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
       "version" : "20260330120000",
       "concept" : [{
         "code" : "500",
         "display" : "Etablissement d'hébergement pour personnes âgées dépendantes"
-      }]
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20260301",
-      "concept" : [{
-        "code" : "160849004",
-        "display" : "retour au domicile"
       }]
     }]
   }

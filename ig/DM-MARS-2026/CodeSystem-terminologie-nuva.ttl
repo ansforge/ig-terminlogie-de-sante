@@ -10,8 +10,8 @@
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "terminologie-nuva"] ; # 
   fhir:meta [
-     fhir:versionId [ fhir:v "26" ] ;
-     fhir:lastUpdated [ fhir:v "2026-03-04T11:59:33.958+01:00"^^xsd:dateTime ] ;
+     fhir:versionId [ fhir:v "28" ] ;
+     fhir:lastUpdated [ fhir:v "2026-05-07T10:56:05.585+02:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"^^xsd:anyURI ;
        fhir:l <http://hl7.org/fhir/StructureDefinition/shareablecodesystem?version=4.0.1>
@@ -40,12 +40,12 @@
      ] ;
      fhir:value [ fhir:v "terminologie-nuva" ]
   ] ) ; # 
-  fhir:version [ fhir:v "1.0.1072"] ; # 
+  fhir:version [ fhir:v "1.0.1096"] ; # 
   fhir:name [ fhir:v "NUVA"] ; # 
   fhir:title [ fhir:v "Nomenclature Unifiée des Vaccins"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-03-01T00:00:00+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-05-06T00:00:00+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du numérique en santé"] ; # 
   fhir:description [ fhir:v "La nomenclature unifiée des vaccins (NUVA) liste les spécialités vaccinales commercialisées ou ayant été commercialisées en France ou à l’étranger. Ces spécialités sont associées à une dénomination générique et à une description structurée notamment au niveau des valences et des pathologies cibles.Elle permet de constituer un historique vaccinal complet, aussi précis que le permettent les sources des données, interprétable par des systèmes d’information."] ; # 
   fhir:jurisdiction ( [
@@ -63,7 +63,7 @@
      fhir:l <https://smt.esante.gouv.fr/terminologie-nuva?vs>
   ] ; # 
   fhir:content [ fhir:v "not-present"] ; # 
-  fhir:count [ fhir:v "1927"^^xsd:nonNegativeInteger] ; # 
+  fhir:count [ fhir:v "1942"^^xsd:nonNegativeInteger] ; # 
   fhir:filter ( [
      fhir:code [ fhir:v "root" ] ;
      fhir:operator ( [ fhir:v "=" ] ) ;
@@ -92,33 +92,19 @@
      ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] [
-     fhir:code [ fhir:v "modified" ] ;
-     fhir:uri [
-       fhir:v "http://purl.org/dc/terms/modified"^^xsd:anyURI ;
-       fhir:l <http://purl.org/dc/terms/modified>
-     ] ;
-     fhir:type [ fhir:v "dateTime" ]
-  ] [
-     fhir:code [ fhir:v "containedInVaccine" ] ;
-     fhir:uri [
-       fhir:v "http://data.esante.gouv.fr/NUVA/nuvs#containedInVaccine"^^xsd:anyURI ;
-       fhir:l <http://data.esante.gouv.fr/NUVA/nuvs#containedInVaccine>
-     ] ;
-     fhir:type [ fhir:v "code" ]
-  ] [
-     fhir:code [ fhir:v "prevents" ] ;
-     fhir:uri [
-       fhir:v "http://data.esante.gouv.fr/NUVA/nuvs#prevents"^^xsd:anyURI ;
-       fhir:l <http://data.esante.gouv.fr/NUVA/nuvs#prevents>
-     ] ;
-     fhir:type [ fhir:v "code" ]
-  ] [
      fhir:code [ fhir:v "comment" ] ;
      fhir:uri [
        fhir:v "http://www.w3.org/2000/01/rdf-schema#comment"^^xsd:anyURI ;
        fhir:l <http://www.w3.org/2000/01/rdf-schema#comment>
      ] ;
      fhir:type [ fhir:v "string" ]
+  ] [
+     fhir:code [ fhir:v "modified" ] ;
+     fhir:uri [
+       fhir:v "http://purl.org/dc/terms/modified"^^xsd:anyURI ;
+       fhir:l <http://purl.org/dc/terms/modified>
+     ] ;
+     fhir:type [ fhir:v "dateTime" ]
   ] [
      fhir:code [ fhir:v "containsValence" ] ;
      fhir:uri [
@@ -133,6 +119,20 @@
        fhir:l <http://data.esante.gouv.fr/NUVA/nuvs#isAbstract>
      ] ;
      fhir:type [ fhir:v "boolean" ]
+  ] [
+     fhir:code [ fhir:v "containedInVaccine" ] ;
+     fhir:uri [
+       fhir:v "http://data.esante.gouv.fr/NUVA/nuvs#containedInVaccine"^^xsd:anyURI ;
+       fhir:l <http://data.esante.gouv.fr/NUVA/nuvs#containedInVaccine>
+     ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "prevents" ] ;
+     fhir:uri [
+       fhir:v "http://data.esante.gouv.fr/NUVA/nuvs#prevents"^^xsd:anyURI ;
+       fhir:l <http://data.esante.gouv.fr/NUVA/nuvs#prevents>
+     ] ;
+     fhir:type [ fhir:v "code" ]
   ] [
      fhir:code [ fhir:v "hiddenLabel" ] ;
      fhir:uri [

@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActSubstanceAdministrationImmunizationCode-cisis | *Version*:20260311144905 | |
-| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ActSubstanceAdministrationImmunizationCode |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActSubstanceAdministrationImmunizationCode-cisis | *Version*:20260420150251 | |
+| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ActSubstanceAdministrationImmunizationCode |
 | *Other Identifiers:*OID:2.16.840.1.113883.1.11.19709 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-hl7-v3-ActSubstanceAdministrationImmunizationCode-cisis",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-03-11T15:27:47.226+01:00",
+    "versionId" : "9",
+    "lastUpdated" : "2026-04-20T16:57:28.449+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -71,12 +71,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.840.1.113883.1.11.19709"
   }],
-  "version" : "20260311144905",
+  "version" : "20260420150251",
   "name" : "ActSubstanceAdministrationImmunizationCode",
   "title" : "ActSubstanceAdministrationImmunizationCode",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-11T14:49:05+01:00",
+  "date" : "2026-04-20T15:02:51+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "ActSubstanceAdministrationImmunizationCode",
   "jurisdiction" : [{
@@ -88,7 +88,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
-      "version" : "10.0.0",
+      "version" : "2018-08-12",
       "concept" : [{
         "code" : "BOOSTER",
         "display" : "Rappel de vaccin"

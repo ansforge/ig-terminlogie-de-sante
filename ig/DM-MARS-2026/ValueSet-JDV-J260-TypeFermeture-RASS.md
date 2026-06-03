@@ -87,7 +87,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture",
-      "version" : "20251016120000",
+      "version" : "20260505120000",
       "concept" : [{
         "code" : "DEF",
         "display" : "Définitive"

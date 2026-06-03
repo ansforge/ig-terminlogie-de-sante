@@ -19,7 +19,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs JDV-J120-CommuneHistorisee</b></p><a name=\"JDV-J120-CommuneHistorisee\"> </a><a name=\"hcJDV-J120-CommuneHistorisee\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 3; Dernière mise à jour : 2024-06-28 16:09:38+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSetversion : null4.0.1)</a></p></div><ul><li>Include tous les codes définis dans <a href=\"CodeSystem-TRE-R13-CommuneOM.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM</code></a><span title=\"La version est explicitement indiquée comme étant 20250328120000\"> version ?20250328120000</span></li></ul></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs JDV-J120-CommuneHistorisee</b></p><a name=\"JDV-J120-CommuneHistorisee\"> </a><a name=\"hcJDV-J120-CommuneHistorisee\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 3; Dernière mise à jour : 2024-06-28 16:09:38+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a> version : 4.0.1</p></div><ul><li>Include tous les codes définis dans <a href=\"CodeSystem-TRE-R13-CommuneOM.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM</code></a><span title=\"La version est explicitement indiquée comme étant 20260505120000\"> version ?20260505120000</span></li></ul></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
      fhir:url [
@@ -64,7 +64,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM>
        ] ;
-       fhir:version [ fhir:v "20250328120000" ]
+       fhir:version [ fhir:v "20260505120000" ]
      ] )
   ] . # 
 

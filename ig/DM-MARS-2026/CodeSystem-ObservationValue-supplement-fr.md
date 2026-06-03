@@ -41,7 +41,7 @@ Traduction Française
     }]
   }],
   "content" : "supplement",
-  "supplements" : "http://terminology.hl7.org/CodeSystem/v3-ObservationValue|5.0.0",
+  "supplements" : "http://terminology.hl7.org/CodeSystem/v3-ObservationValue|2018-08-12",
   "concept" : [{
     "code" : "DS",
     "designation" : [{

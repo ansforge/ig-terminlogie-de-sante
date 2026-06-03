@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J112-SexeAdministratif-ENREG/FHIR/JDV-J112-SexeAdministratif-ENREG | *Version*:20260330120000 | |
-| Retired as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J112_SexeAdministratif_ENREG |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J112-SexeAdministratif-ENREG/FHIR/JDV-J112-SexeAdministratif-ENREG | *Version*:20200529120000 | |
+| Active as of 2020-05-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J112_SexeAdministratif_ENREG |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.183 | | |
 
  
@@ -33,8 +33,6 @@ Requête sur le SMT
 
 ### Expansion
 
-Expansions are not generated for retired value sets
-
 -------
 
  Explanation of the columns that may appear on this page: 
@@ -57,15 +55,15 @@ Expansions are not generated for retired value sets
   "resourceType" : "ValueSet",
   "id" : "JDV-J112-SexeAdministratif-ENREG",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2026-03-30T17:04:47.747+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-03-27T12:18:01.483+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
-      "start" : "2026-03-30T12:00:00+01:00"
+      "start" : "2020-05-29T12:00:00+01:00"
     }
   }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J112-SexeAdministratif-ENREG/FHIR/JDV-J112-SexeAdministratif-ENREG",
@@ -73,11 +71,11 @@ Expansions are not generated for retired value sets
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.183"
   }],
-  "version" : "20260330120000",
+  "version" : "20200529120000",
   "name" : "JDV_J112_SexeAdministratif_ENREG",
-  "status" : "retired",
+  "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-30T12:00:00+01:00",
+  "date" : "2020-05-29T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Sexe administratif pour ENREG",
   "jurisdiction" : [{

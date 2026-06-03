@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J281-StatutsRessourcesMS/FHIR/JDV-J281-StatutsRessourcesMS | *Version*:20251222120000 | |
-| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J281_StatutsRessourcesMS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J281-StatutsRessourcesMS/FHIR/JDV-J281-StatutsRessourcesMS | *Version*:20260505120000 | |
+| Active as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J281_StatutsRessourcesMS |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.219 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J281-StatutsRessourcesMS",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2025-12-18T16:47:50.163+01:00",
+    "versionId" : "10",
+    "lastUpdated" : "2026-05-05T19:02:49.314+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -71,11 +71,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.219"
   }],
-  "version" : "20251222120000",
+  "version" : "20260505120000",
   "name" : "JDV_J281_StatutsRessourcesMS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-22T12:00:00+01:00",
+  "date" : "2026-05-05T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Caractérise le statut d’une ressource du médico-social au cours de son cycle de vie.",
   "jurisdiction" : [{
@@ -87,7 +87,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R368-StatutRessource/FHIR/TRE-R368-StatutRessource",
-      "version" : "20251222120000",
+      "version" : "20260505120000",
       "concept" : [{
         "code" : "TERMINE",
         "display" : "Terminé"
@@ -123,6 +123,10 @@ Requête sur le SMT
       {
         "code" : "ENPAUSE",
         "display" : "En pause"
+      },
+      {
+        "code" : "FACTURE",
+        "display" : "Facturé"
       }]
     }]
   }

@@ -3,8 +3,8 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="terminologie-nuva"/>
   <meta>
-    <versionId value="26"/>
-    <lastUpdated value="2026-03-04T11:59:33.958+01:00"/>
+    <versionId value="28"/>
+    <lastUpdated value="2026-05-07T10:56:05.585+02:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"/>
   </meta>
   <text>
@@ -21,12 +21,12 @@
     <system value="https://smt.esante.gouv.fr/"/>
     <value value="terminologie-nuva"/>
   </identifier>
-  <version value="1.0.1072"/>
+  <version value="1.0.1096"/>
   <name value="NUVA"/>
   <title value="Nomenclature Unifiée des Vaccins"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-03-01T00:00:00+00:00"/>
+  <date value="2026-05-06T00:00:00+00:00"/>
   <publisher value="Agence du numérique en santé"/>
   <description value="La nomenclature unifiée des vaccins (NUVA) liste les spécialités vaccinales commercialisées ou ayant été commercialisées en France ou à l’étranger. Ces spécialités sont associées à une dénomination générique et à une description structurée notamment au niveau des valences et des pathologies cibles.Elle permet de constituer un historique vaccinal complet, aussi précis que le permettent les sources des données, interprétable par des systèmes d’information."/>
   <jurisdiction>
@@ -38,7 +38,7 @@
   <copyright value="SYADEM"/>
   <valueSet value="https://smt.esante.gouv.fr/terminologie-nuva?vs"/>
   <content value="not-present"/>
-  <count value="1927"/>
+  <count value="1942"/>
   <filter>
     <code value="root"/>
     <operator value="="/>
@@ -65,24 +65,14 @@
     <type value="dateTime"/>
   </property>
   <property>
-    <code value="modified"/>
-    <uri value="http://purl.org/dc/terms/modified"/>
-    <type value="dateTime"/>
-  </property>
-  <property>
-    <code value="containedInVaccine"/>
-    <uri value="http://data.esante.gouv.fr/NUVA/nuvs#containedInVaccine"/>
-    <type value="code"/>
-  </property>
-  <property>
-    <code value="prevents"/>
-    <uri value="http://data.esante.gouv.fr/NUVA/nuvs#prevents"/>
-    <type value="code"/>
-  </property>
-  <property>
     <code value="comment"/>
     <uri value="http://www.w3.org/2000/01/rdf-schema#comment"/>
     <type value="string"/>
+  </property>
+  <property>
+    <code value="modified"/>
+    <uri value="http://purl.org/dc/terms/modified"/>
+    <type value="dateTime"/>
   </property>
   <property>
     <code value="containsValence"/>
@@ -93,6 +83,16 @@
     <code value="isAbstract"/>
     <uri value="http://data.esante.gouv.fr/NUVA/nuvs#isAbstract"/>
     <type value="boolean"/>
+  </property>
+  <property>
+    <code value="containedInVaccine"/>
+    <uri value="http://data.esante.gouv.fr/NUVA/nuvs#containedInVaccine"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="prevents"/>
+    <uri value="http://data.esante.gouv.fr/NUVA/nuvs#prevents"/>
+    <type value="code"/>
   </property>
   <property>
     <code value="hiddenLabel"/>

@@ -18,7 +18,10 @@
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
+* [JdvSpecimenTypeChikungunyaCisis](ValueSet-jdv-specimen-type-chikungunya-cisis.md)
 * [JdvSpecimenTypeCisis](ValueSet-jdv-specimen-type-cisis.md)
+* [JdvSpecimenTypeRougeoleCisis](ValueSet-jdv-specimen-type-rougeole-cisis.md)
+* [JdvSpecimenTypeZikaCisis](ValueSet-jdv-specimen-type-zika-cisis.md)
 
 
 

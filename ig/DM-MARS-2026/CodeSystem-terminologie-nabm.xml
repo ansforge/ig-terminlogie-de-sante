@@ -3,8 +3,8 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="terminologie-nabm"/>
   <meta>
-    <versionId value="14"/>
-    <lastUpdated value="2026-03-02T11:17:22.852+01:00"/>
+    <versionId value="15"/>
+    <lastUpdated value="2026-04-16T10:26:57.301+02:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"/>
   </meta>
   <text>
@@ -21,12 +21,12 @@
     <system value="https://smt.esante.gouv.fr/"/>
     <value value="terminologie-nabm"/>
   </identifier>
-  <version value="V102"/>
+  <version value="V103"/>
   <name value="NABM"/>
   <title value="Nomenclature des actes de biologie médicale"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-23T00:00:00+00:00"/>
+  <date value="2026-04-13T00:00:00+00:00"/>
   <publisher value="Agence du numérique en santé"/>
   <description value="La NABM est la terminologie de facturation des actes de biologie médicale. Elle décrit la liste des actes de biologie dans une arborescence en chapitres et sous-chapitres ainsi que des règles de facturation."/>
   <jurisdiction>
@@ -38,7 +38,7 @@
   <copyright value="[LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md)"/>
   <valueSet value="https://smt.esante.gouv.fr/terminologie-nabm?vs"/>
   <content value="complete"/>
-  <count value="1047"/>
+  <count value="1046"/>
   <filter>
     <code value="root"/>
     <operator value="="/>
@@ -1917,7 +1917,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="17/01/2019"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -1933,7 +1933,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -9113,7 +9113,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/01/2022"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -9129,7 +9129,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -11925,7 +11925,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -11941,7 +11941,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -12185,7 +12185,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -12201,7 +12201,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -12845,7 +12845,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="27/11/2009"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -12861,7 +12861,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -12969,7 +12969,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -12985,7 +12985,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -13089,7 +13089,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -13105,7 +13105,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -14205,7 +14205,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -14221,7 +14221,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -14401,7 +14401,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -14417,7 +14417,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -15037,7 +15037,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -15053,7 +15053,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -15454,7 +15454,7 @@
   </concept>
   <concept>
     <code value="4004"/>
-    <display value="DPN : TRISOMIE 21 FOETALE : DEPISTAGE 2E TRIMESTRE, MARQUEURS SERIQUES MATERNELS"/>
+    <display value="DPN:TRISOMIE 21 FOETALE : DEPISTAGE 2E TRIMESTRE,MARQUEURS SERIQUES MATERNELS"/>
     <property>
       <code value="parent"/>
       <valueCode value="17-06"/>
@@ -15465,7 +15465,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="14/04/2018"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -15481,7 +15481,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -16393,7 +16393,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -16409,7 +16409,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -16713,7 +16713,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -16729,7 +16729,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -16769,7 +16769,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -16785,7 +16785,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -17226,7 +17226,7 @@
   </concept>
   <concept>
     <code value="4046"/>
-    <display value="DPN PROPREMENT DIT  : MUCOVISCIDOSE : POLYMORPHISME DE L'ADN"/>
+    <display value="DPN PROPREMENT DIT : MUCOVISCIDOSE : POLYMORPHISME DE L'ADN"/>
     <property>
       <code value="parent"/>
       <valueCode value="17-02"/>
@@ -17237,7 +17237,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -17253,7 +17253,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -17481,7 +17481,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -17497,7 +17497,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -18494,7 +18494,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -18510,7 +18510,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -19223,7 +19223,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -19239,7 +19239,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -20140,7 +20140,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -20156,7 +20156,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -20252,7 +20252,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -20268,7 +20268,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -20805,7 +20805,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -20821,7 +20821,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -20933,7 +20933,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -20949,7 +20949,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -21750,7 +21750,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -21766,7 +21766,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -22643,7 +22643,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -22659,7 +22659,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -23071,7 +23071,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -23087,7 +23087,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -23127,7 +23127,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -23143,7 +23143,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -24052,7 +24052,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="11/03/2025"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -24068,7 +24068,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -24948,7 +24948,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="11/03/2025"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -24964,7 +24964,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -26016,7 +26016,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="11/03/2025"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -26032,7 +26032,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -26444,7 +26444,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="01/02/2019"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -26460,7 +26460,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -27088,7 +27088,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -27104,7 +27104,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -27200,7 +27200,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="04/04/2023"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -27216,7 +27216,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -27332,7 +27332,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -27348,7 +27348,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -28524,7 +28524,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -28540,7 +28540,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -30136,7 +30136,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="30/05/2025"/>
+      <valueString value="15/05/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -30164,7 +30164,7 @@
     </property>
     <property>
       <code value="coeffB"/>
-      <valueString value="16"/>
+      <valueString value="17"/>
     </property>
     <property>
       <code value="codeIncompatible"/>
@@ -30700,7 +30700,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -30716,7 +30716,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -31628,7 +31628,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="17/01/2019"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -31644,7 +31644,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -36068,10 +36068,6 @@
     </property>
     <property>
       <code value="child"/>
-      <valueCode value="1124"/>
-    </property>
-    <property>
-      <code value="child"/>
       <valueCode value="1118"/>
     </property>
     <property>
@@ -38413,62 +38409,6 @@
     <property>
       <code value="coeffB"/>
       <valueString value="25"/>
-    </property>
-    <property>
-      <code value="acteReserve"/>
-      <valueBoolean value="false"/>
-    </property>
-    <property>
-      <code value="rmo"/>
-      <valueBoolean value="false"/>
-    </property>
-    <property>
-      <code value="examenSanguin"/>
-      <valueBoolean value="true"/>
-    </property>
-  </concept>
-  <concept>
-    <code value="1124"/>
-    <display value="VITESSE DE SEDIMENTATION (VS)"/>
-    <property>
-      <code value="parent"/>
-      <valueCode value="05-01"/>
-    </property>
-    <property>
-      <code value="created"/>
-      <valueString value="01/01/1996"/>
-    </property>
-    <property>
-      <code value="modified"/>
-      <valueString value="11/03/2025"/>
-    </property>
-    <property>
-      <code value="type"/>
-      <valueString value="code"/>
-    </property>
-    <property>
-      <code value="initativeBiologistePossible"/>
-      <valueBoolean value="false"/>
-    </property>
-    <property>
-      <code value="indicationMédicale"/>
-      <valueBoolean value="false"/>
-    </property>
-    <property>
-      <code value="remboursementTotal"/>
-      <valueBoolean value="false"/>
-    </property>
-    <property>
-      <code value="ententePréalable"/>
-      <valueBoolean value="false"/>
-    </property>
-    <property>
-      <code value="nombreMaximumParFacturation"/>
-      <valueInteger value="1"/>
-    </property>
-    <property>
-      <code value="coeffB"/>
-      <valueString value="2"/>
     </property>
     <property>
       <code value="acteReserve"/>
@@ -44112,7 +44052,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -44128,7 +44068,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -48632,7 +48572,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -48648,7 +48588,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -49000,7 +48940,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -49016,7 +48956,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -49621,7 +49561,7 @@
   </concept>
   <concept>
     <code value="4058"/>
-    <display value="DPN : ALPHA-THALASSEMIE AVEC ANTECEDENTS FAMILIAUX CONNUS"/>
+    <display value="DPN:ALPHA-THALASSEMIE AVEC ANTECEDENTS FAMILIAUX CONNUS"/>
     <property>
       <code value="parent"/>
       <valueCode value="17-02"/>
@@ -49632,7 +49572,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -49648,7 +49588,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -49876,7 +49816,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -49892,7 +49832,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -49932,7 +49872,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -49948,7 +49888,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -50828,7 +50768,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -50844,7 +50784,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -51072,7 +51012,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -51088,7 +51028,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -52096,7 +52036,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -52112,7 +52052,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -53100,7 +53040,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -53116,7 +53056,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -53220,7 +53160,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -53236,7 +53176,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -53980,7 +53920,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -53996,7 +53936,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -54104,7 +54044,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -54120,7 +54060,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -54820,7 +54760,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -54836,7 +54776,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -54880,7 +54820,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -54896,7 +54836,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -56016,7 +55956,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -56032,7 +55972,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -56704,7 +56644,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -56720,7 +56660,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -57968,7 +57908,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -57984,7 +57924,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -59272,7 +59212,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -59288,7 +59228,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -59580,7 +59520,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -59596,7 +59536,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -60732,7 +60672,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -60748,7 +60688,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -61180,7 +61120,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -61196,7 +61136,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -64291,7 +64231,7 @@
   </concept>
   <concept>
     <code value="4095"/>
-    <display value="DPN : DEFICIT CONGENITAL EN FACTEUR DE L'HEMOSTASE (VIII , IX , W, PROT C, S..)"/>
+    <display value="DPN:DEFICIT CONGENITAL EN FACTEUR DE L'HEMOSTASE(VIII , IX , W, PROT C, S..)"/>
     <property>
       <code value="parent"/>
       <valueCode value="17-05"/>
@@ -64302,7 +64242,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -64318,7 +64258,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -64414,7 +64354,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -64430,7 +64370,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
@@ -65694,7 +65634,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="05/04/1996"/>
+      <valueString value="16/04/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -65710,7 +65650,7 @@
     </property>
     <property>
       <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="ententePréalable"/>
