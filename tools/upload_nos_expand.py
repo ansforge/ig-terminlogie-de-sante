@@ -79,18 +79,6 @@ def is_allowed_codesystem(url):
         or "https://smt.esante.gouv.fr/fhir/CodeSystem/tre" in url
     )
 
-def is_allowed_valueset(url):
-
-    if not url:
-        return False
-    
-    return (
-        "https://mos.esante.gouv.fr" in url
-        or "https://smt.esante.gouv.fr/fhir/CodeSystem/tre" in url
-        or re.search(r"^https://smt\.esante\.gouv\.fr/fhir/ValueSet/jdv-j\d+", url, re.IGNORECASE)
-        or re.search(r"^https://smt\.esante\.gouv\.fr/fhir/ValueSet/vs-tre", url, re.IGNORECASE)
-    )
-
 
 def is_allowed_valueset(url):
 
