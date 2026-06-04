@@ -1,7 +1,7 @@
 ValueSet: JdvJ409TypeAdresseMs
 Id: jdv-j409-type-adresse-ms
 Title: "Jdv J409 Type Adresse Ms"
-Description: "Type d'adresse postale."
+Description: "Type d'adresse postale tel que \"Adresse du domicile\", \"Adresse de livraison\" pour une personne physique."
 * ^meta.versionId = "1"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR

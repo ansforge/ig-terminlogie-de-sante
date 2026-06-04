@@ -1,7 +1,7 @@
 CodeSystem: TreR427TypeAdresse
 Id: tre-r427-type-adresse
 Title: "Tre R427 Type Adresse"
-Description: "Type d'adresse postale."
+Description: "Type d'adresse postale tel que \"Adresse du domicile\", \"Adresse de livraison\" pour une personne physique."
 * ^meta.versionId = "1"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
