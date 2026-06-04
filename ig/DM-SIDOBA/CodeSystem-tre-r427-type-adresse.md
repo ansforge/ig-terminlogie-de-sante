@@ -13,7 +13,7 @@
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.278 | | |
 
  
-Type d’adresse postale. 
+Type d’adresse postale tel que “Adresse du domicile”, “Adresse de livraison” pour une personne physique. 
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
@@ -50,7 +50,7 @@ Type d’adresse postale.
   "experimental" : false,
   "date" : "2026-05-05T12:00:00.000+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Type d'adresse postale.",
+  "description" : "Type d'adresse postale tel que \"Adresse du domicile\", \"Adresse de livraison\" pour une personne physique.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

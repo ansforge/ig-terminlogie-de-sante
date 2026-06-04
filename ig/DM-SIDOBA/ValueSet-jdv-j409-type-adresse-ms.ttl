@@ -49,7 +49,7 @@
   fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2026-05-05T12:00:00.000+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
-  fhir:description [ fhir:v "Type d'adresse postale."] ; # 
+  fhir:description [ fhir:v "Type d'adresse postale tel que \"Adresse du domicile\", \"Adresse de livraison\" pour une personne physique."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [

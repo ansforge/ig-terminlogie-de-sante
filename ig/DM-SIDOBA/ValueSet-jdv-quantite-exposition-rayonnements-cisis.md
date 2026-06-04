@@ -88,7 +88,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "version" : "2022.4.20221006",
+      "version" : "01",
       "concept" : [{
         "code" : "111636",
         "display" : "Dose dans l'air à l'entrée du patient (Kerma dans l'air)"

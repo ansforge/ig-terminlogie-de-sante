@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique | *Version*:20260330120000 | |
-| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R210_ActeSpecifique |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique | *Version*:20260601120000 | |
+| Active as of 2026-06-01 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R210_ActeSpecifique |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.11 | | |
 
  
@@ -29,8 +29,8 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   "resourceType" : "CodeSystem",
   "id" : "TRE-R210-ActeSpecifique",
   "meta" : {
-    "versionId" : "31",
-    "lastUpdated" : "2026-05-05T20:11:53.920+02:00",
+    "versionId" : "32",
+    "lastUpdated" : "2026-05-29T13:13:06.392+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -45,11 +45,11 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.11"
   }],
-  "version" : "20260330120000",
+  "version" : "20260601120000",
   "name" : "TRE_R210_ActeSpecifique",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-30T12:00:00+01:00",
+  "date" : "2026-06-01T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Action menée par un ou plusieurs acteur(s) de santé dans le cadre d'une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé.",
   "jurisdiction" : [{
@@ -60,7 +60,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 1614,
+  "count" : 1630,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -2663,14 +2663,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "0131",
-    "display" : "Circulation extracorporelle (CEC) pour assistance circulatoire-respiratoire (ECMO)",
+    "display" : "Circulation extracorporelle (CEC) pour assistance circulatoire/respiratoire (ECMO)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Circulation extracorporelle pour assistance circulatoire-respiratoire (ECMO)"
+      "value" : "Circulation extracorporelle pour assistance circulatoire/respiratoire (ECMO)"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -2695,14 +2695,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "0132",
-    "display" : "Circulation extracorporelle (CEC) pour assistance circulatoire-respiratoire (ECMO) pédiatrique",
+    "display" : "Circulation extracorporelle (CEC) pour assistance circulatoire/respiratoire (ECMO) pédiatrique",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Circulation extracorporelle pour assistance circulatoire-respiratoire (ECMO) péd"
+      "value" : "Circulation extracorporelle pour assistance circulatoire/respiratoire (ECMO) péd"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -10846,14 +10846,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "0538",
-    "display" : "Thérapie de groupe ou atelier à médiation orale et-ou écrite (groupe de parole, d'écriture)",
+    "display" : "Thérapie de groupe ou atelier à médiation orale et/ou écrite (groupe de parole, d'écriture)",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Thérapie de groupe ou atelier à médiation orale et-ou écrite"
+      "value" : "Thérapie de groupe ou atelier à médiation orale et/ou écrite"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -10861,7 +10861,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2017-07-07T10:00:00+01:00"
+      "valueDateTime" : "2016-05-05T10:00:00+01:00"
     },
     {
       "code" : "status",
@@ -11150,7 +11150,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Evaluation et traitement des brûlures associées à d'autes pathologies vvvermcato"
+      "value" : "Evaluation et traitement des brûlures associées à d'autres pathologies dermatolo"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -11158,7 +11158,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -11279,7 +11279,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Confection, ajustement d'orthèses, prothèses, vêtements cifs sur mesure"
+      "value" : "Confection, ajustement d'orthèses, prothèses, vêtements compressifs sur mesure"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -16601,13 +16601,21 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "0849",
     "display" : "Coordination pour assurer le suivi cardiologique avec organisation de la prise en charge",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Coordination pour assurer le suivi cardiologique avec orga de la prise en charge"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-12-14T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-12-22T12:00:00+01:00"
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -16617,13 +16625,21 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "0850",
     "display" : "Coordination pour assurer le suivi gynécologique avec organisation de la prise en charge",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Coordination pour assurer le suivi gynécologique avec orga de la prise en charge"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-12-14T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-12-22T12:00:00+01:00"
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -19632,15 +19648,23 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1014",
-    "display" : "Fourniture de matériel d'hygiène, de prévention et de RdRD",
+    "display" : "Fourniture de matériel d’hygiène, de prévention et de Réduction des Risques et des Dommages (RdRD)",
     "definition" : "Distribution de matériel de prévention (préservatifs, gel, digues dentaires, documentations, brochures…)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Fourniture de matériel d'hygiène, de prévention et de RdRD"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2021-06-25T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2022-04-29T12:00:00+01:00"
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -27210,7 +27234,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1453",
-    "display" : "Suivi, repérage précoce et accompagnement du développement psychomoteur, des troubles de comportement et des Troubles Neuro Développementaux",
+    "display" : "Suivi, repérage précoce et accompagnement du développement psychomoteur, des troubles de comportement et des Troubles Neuro Développementaux",
     "definition" : "Prévention, évaluation et accompagnement visant à repérer précocement les troubles du développement psychomoteur, du comportement et les Troubles du Neuro-Développement (TND), afin de favoriser le développement harmonieux de l’enfant et son autonomie.",
     "designation" : [{
       "language" : "fr-FR",
@@ -27984,7 +28008,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1498",
-    "display" : "Accompagnement ergothérapique auprès des proches aidants (proches et professionnels) : apprentissage de techniques d’accompagnement en Accompagnement ergothérapique auprès des proches aidants",
+    "display" : "Accompagnement ergothérapique auprès des proches aidants (proches et professionnels) : apprentissage de techniques d’accompagnement",
     "definition" : "Apprentissage de techniques d’accompagnement ergothérapique qui vise à améliorer la compréhension de l’impact de la pathologie dans le quotidien et à mettre en place des stratégies d’adaptation visant l’amélioration de la qualité de vie et la participation.  Cet accompagnement inclut l’évaluation des compétences, l’orientation professionnelle, la formation, l’adaptation des postes de travail et la coordination avec les acteurs médico-sociaux, afin de favoriser une intégration professionnelle durable et adaptée aux capacités de la personne.Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle",
     "designation" : [{
       "language" : "fr-FR",
@@ -27992,7 +28016,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Accompagnement ergothérapique auprès des proches aidants (proches et professionnels) : apprentissage de techniques d'accompagnement"
+      "value" : "Accompagnement ergothérapique auprès des proches aidants"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -28000,7 +28024,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-07-23T12:00:00+01:00"
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -28028,13 +28052,21 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
     "code" : "1500",
     "display" : "Accompagnement ergothérapique dans le cadre de maladies neuro-évolutives (SLA, SEP, Parkinson, Alzheimer, PNM)",
     "definition" : "Accompagnement ergothérapeutique qui vise à maintenir l’autonomie et la qualité de vie des patients en adaptant leur environnement, en proposant des aides techniques et en compensant les déficits fonctionnels. Cet accompagnement inclut l’évaluation des compétences, l’orientation professionnelle, la formation, l’adaptation des postes de travail et la coordination avec les acteurs médico-sociaux, afin de favoriser une intégration professionnelle durable et adaptée aux capacités de la personne.",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Accompagnement ergothérapique dans le cadre de maladies neuro-évolutives"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2025-03-28T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-07-23T12:00:00+01:00"
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -28062,13 +28094,21 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
     "code" : "1502",
     "display" : "Accompagnement ergothérapique dans le cadre de pathologies neurologiques (AVC, TCE)",
     "definition" : "Intervention de l’ergothérapeute visant à restaurer l’autonomie et la qualité de vie des patients atteints d’affections neurologiques (AVC, traumatisme crânien). Il évalue les déficits moteurs, cognitifs et sensoriels, met en place des stratégies de compensation, adapte l’environnement et préconise des aides techniques pour optimiser la réadaptation et la réinsertion sociale et professionnelle.Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Accompagnement ergothérapique dans le cadre de pathologies neurologiques"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2025-03-28T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-07-23T12:00:00+01:00"
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -28079,13 +28119,21 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
     "code" : "1503",
     "display" : "Accompagnement ergothérapique de rééducation/réadaptation en situation de vie quotidienne post-hospitalisation (RAD)",
     "definition" : "Intervention d’un ergothérapeute visant à favoriser l’autonomie et la sécurité du patient dans ses activités quotidiennes après une hospitalisation. Il inclut l’évaluation des capacités et besoins, l’adaptation de l’environnement, la rééducation fonctionnelle et l’apprentissage de stratégies compensatoires, en concertation avec l’entourage et les professionnels de santé.Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Accomp ergothérapique de rééduc/réadap en situation de vie quotidienne post-hosp"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2025-03-28T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-07-23T12:00:00+01:00"
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -28113,13 +28161,21 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
     "code" : "1505",
     "display" : "Accompagnement ergothérapique pour la prévention de la chute et ses conséquences : désadaptation psychomotrice",
     "definition" : "Dans le cadre de la prévention secondaire ou tertiaire des chutes, le facteur “peur de chuter” est systématiquement pris en compte par l’ergothérapeute. L’accompagnement ergothérapique de la Désadaptation PsychoMotrice (DPM) inclue les dimensions psychologiques (dont la peur) ; motrices et posturales. Cet accompagnement vise la prévention des risques de perte d’autonomie, les risques de grabatisation et les risques de l’alitement prolongé (risques d’escarres, prévention des déformations par le positionnement au lit, etc).",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Accomp ergothérapique pour prévention de chute et conséquences : désadap psychom"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2025-03-28T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-07-23T12:00:00+01:00"
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -28130,13 +28186,21 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
     "code" : "1506",
     "display" : "Evaluation et accompagnement à la mise en place de communication augmentative-alternative",
     "definition" : "Consiste à identifier les besoins de communication des personnes ayant des troubles de la communication et à mettre en place des outils et stratégies adaptés pour améliorer leur capacité à interagir. Cela inclut l'utilisation de supports visuels, de technologies d'assistance, et de méthodes gestuelles ou symboliques. Cette démarche est encadrée par des professionnels, et vise à favoriser l'autonomie et la participation sociale des personnes concernées",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Eval et accomp à la mise en place de communication augmentative-alternative"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2025-03-28T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-07-23T12:00:00+01:00"
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -28198,13 +28262,21 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
     "code" : "1510",
     "display" : "Evaluation et accompagnement ergothérapique au positionnement au fauteuil roulant (MCPAA) et positionnement au lit",
     "definition" : "Consiste à analyser et ajuster la posture des personnes en situation de handicap pour prévenir les complications liées à une mauvaise position. Cela inclut l'utilisation de fauteuils roulants adaptés et de dispositifs de positionnement au lit pour assurer confort, sécurité et autonomie. Cette démarche est réalisée par des ergothérapeutes et est encadrée par des recommandations professionnelles. Le positionnement au fauteuil roulant au travers de la MCPAA nécessite l’acquisition de compétences spécifiques en ergothérapie par des formations complémentaires, cela est également valable concernant le positionnement au lit à visée préventive (douleurs, inconfort, risque de déformation, risques d’escarres)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Eval et accomp ergo au positionnement fauteuil roulant et positionnement au lit"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2025-03-28T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-07-23T12:00:00+01:00"
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29054,13 +29126,21 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1560",
     "display" : "Evaluation et suivi des addictions liées aux psychostimulants (cocaïne, crack, dérivés des amphétamines, ecstasy, MDMA, cathinones de synthèse…)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Evaluation et suivi des addictions liées aux psychostimulants"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2025-12-22T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-12-22T12:00:00+01:00"
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29086,13 +29166,21 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1562",
     "display" : "Evaluation et suivi des addictions liées aux autres substances (hallucinogènes, champignons, LSD, kétamine)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Evaluation et suivi des addictions liées aux autres substances"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2025-12-22T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-12-22T12:00:00+01:00"
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29118,13 +29206,21 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1564",
     "display" : "Evaluation et suivi des addictions liées au chemsex (cathinones de synthèse, poppers, etc)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Evaluation et suivi des addictions liées au chemsex"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2025-12-22T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-12-22T12:00:00+01:00"
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29166,13 +29262,21 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1567",
     "display" : "Autodétermination par la participation des adhérents à la gestion de la structure",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Autodétermination par participation des adhérents à la gestion de la structure"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29310,13 +29414,21 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   {
     "code" : "1576",
     "display" : "Centre de référence du Trouble Déficit de l’Attention avec ou sans Hyperactivité (CRTDAH)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Centre de référence du Trouble Déficit de l’Attention avec ou sans Hyperactivité"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2025-12-22T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-12-22T12:00:00+01:00"
+      "valueDateTime" : "2026-05-05T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29405,14 +29517,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1582",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en cardiologie",
+    "display" : "Prise en charge spécialisée et continue en cardiologie",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29421,14 +29533,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1583",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie cardiaque et gros vaisseaux",
+    "display" : "Prise en charge spécialisée et continue en chirurgie cardiaque et gros vaisseaux",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29437,14 +29549,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1584",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie digestive et viscérale",
+    "display" : "Prise en charge spécialisée et continue en chirurgie digestive et viscérale",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29453,14 +29565,22 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1585",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie maxillo-faciale et stomatologie",
+    "display" : "Prise en charge spécialisée et continue en chirurgie maxillo-faciale et stomatologie",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et continue en chir. maxillo-faciale et stomatologie"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29469,14 +29589,22 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1586",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie orthopédique et traumatologie",
+    "display" : "Prise en charge spécialisée et continue en chirurgie orthopédique et traumatologie",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Prise en charge spécialisée et continue en chir. orthopédique et traumatologie"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29485,14 +29613,22 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1587",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie pédiatrique orthopédique et traumatologie",
+    "display" : "Prise en charge spécialisée et continue en chirurgie pédiatrique orthopédique et traumatologie",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et continue en chir. pédiatrique orthopédique et traumatologie"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29501,14 +29637,22 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1588",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie pédiatrique viscérale et digestive",
+    "display" : "Prise en charge spécialisée et continue en chirurgie pédiatrique viscérale et digestive",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et continue en chir. pédiatrique viscérale et digestive"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29517,14 +29661,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1589",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie thoracique et pulmonaire",
+    "display" : "Prise en charge spécialisée et continue en chirurgie thoracique et pulmonaire",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29533,14 +29677,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1590",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie vasculaire",
+    "display" : "Prise en charge spécialisée et continue en chirurgie vasculaire",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29549,14 +29693,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1591",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en dermatologie",
+    "display" : "Prise en charge spécialisée et continue en dermatologie",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29565,14 +29709,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1592",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en endocrinologie",
+    "display" : "Prise en charge spécialisée et continue en endocrinologie",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29581,14 +29725,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1593",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en gériatrie (gérontologie)",
+    "display" : "Prise en charge spécialisée et continue en gériatrie (gérontologie)",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29597,14 +29741,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1594",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en gynécologie",
+    "display" : "Prise en charge spécialisée et continue en gynécologie",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29613,14 +29757,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1595",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en hématologie",
+    "display" : "Prise en charge spécialisée et continue en hématologie",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29629,14 +29773,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1596",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en hépato-gastro-entérologie",
+    "display" : "Prise en charge spécialisée et continue en hépato-gastro-entérologie",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29645,14 +29789,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1597",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en maladies infectieuses et tropicales",
+    "display" : "Prise en charge spécialisée et continue en maladies infectieuses et tropicales",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29661,14 +29805,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1598",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en médecine interne",
+    "display" : "Prise en charge spécialisée et continue en médecine interne",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29677,14 +29821,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1599",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en médecine vasculaire",
+    "display" : "Prise en charge spécialisée et continue en médecine vasculaire",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29693,14 +29837,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1600",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en néphrologie (dont dialyse)",
+    "display" : "Prise en charge spécialisée et continue en néphrologie (dont dialyse)",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29709,14 +29853,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1601",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en neurochirurgie",
+    "display" : "Prise en charge spécialisée et continue en neurochirurgie",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29725,14 +29869,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1602",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en neurologie",
+    "display" : "Prise en charge spécialisée et continue en neurologie",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29741,14 +29885,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1603",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en oncologie",
+    "display" : "Prise en charge spécialisée et continue en oncologie",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29757,14 +29901,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1604",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en ophtalmologie",
+    "display" : "Prise en charge spécialisée et continue en ophtalmologie",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29773,14 +29917,22 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1605",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en oto-rhino-laryngologie (ORL) et chirurgie cervico-faciale",
+    "display" : "Prise en charge spécialisée et continue en oto-rhino-laryngologie (ORL) et chirurgie cervico-faciale",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et continue en ORL et chir. cervico-faciale"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29789,14 +29941,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1606",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en pédiatrie",
+    "display" : "Prise en charge spécialisée et continue en pédiatrie",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29805,14 +29957,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1607",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en pneumologie",
+    "display" : "Prise en charge spécialisée et continue en pneumologie",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29821,14 +29973,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1608",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en rhumatologie",
+    "display" : "Prise en charge spécialisée et continue en rhumatologie",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29837,14 +29989,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1609",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en urologie",
+    "display" : "Prise en charge spécialisée et continue en urologie",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29853,14 +30005,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1610",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en caisson oxygène hyperbare",
+    "display" : "Prise en charge spécialisée et continue en caisson oxygène hyperbare",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29869,14 +30021,22 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1611",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie de la main SOS main",
+    "display" : "Prise en charge spécialisée et continue en chirurgie de la main SOS main",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et continue en chirurgie de la main"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29885,14 +30045,22 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1612",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en odontologie",
+    "display" : "Prise en charge spécialisée et continue en odontologie",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et continue en odontologie"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29901,14 +30069,22 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1613",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en psychiatrie (dont équipe de liaison)",
+    "display" : "Prise en charge spécialisée et continue en psychiatrie (dont équipe de liaison)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et continue en psychiatrie (dont équipe de liaison)"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29917,14 +30093,22 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1614",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en radiologie interventionnelle",
+    "display" : "Prise en charge spécialisée et continue en radiologie interventionnelle",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et continue en radiologie interventionnelle"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -29933,14 +30117,310 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1615",
-    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) rachis",
+    "display" : "Prise en charge spécialisée et continue rachis",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et continue en chirurgie du rachis"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1616",
+    "display" : "Pédicurie-podologie conventionnée du pied diabétique de grade 2 et 3",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1617",
+    "display" : "Pédicurie-podologie conventionnée soins de support oncologie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1618",
+    "display" : "Orthoplastie (appareillage d’orteil)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1619",
+    "display" : "Orthonyxie (appareillage d’ongle)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1620",
+    "display" : "Onychoplastie (reconstruction de l’ongle)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1621",
+    "display" : "Orthèse plantaire (semelle orthopédique)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1622",
+    "display" : "Bilan diagnostique podologique de la prévention de la chute",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1623",
+    "display" : "Rééducation du pied (sous la cheville)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1624",
+    "display" : "Contention nocturne",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1625",
+    "display" : "Soin de pédicurie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1626",
+    "display" : "Traitement de la verrue plantaire par azote liquide",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1627",
+    "display" : "Traitement sans douleur de l’ongle incarné par phénolisation (protocole de coopération)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Traitement sans douleur de l’ongle incarné par phénolisation"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1628",
+    "display" : "Prélèvement unguéal pour analyse biologique (protocole de coopération)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1629",
+    "display" : "Confection de semelle de comblement en polyuréthane (PU) pour amputation partielle du pied",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Confection de semelle de comblement en PU pour amputation partielle du pied"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1630",
+    "display" : "Prise en charge spécialisée et continue en pédopsychiatrie (dont équipe de liaison)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et continue en pédopsychiatrie (dont équipe de liaison)"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1631",
+    "display" : "Prise en charge spécialisée et continue SOS main",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PEC spécialisée et continue SOS main"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",

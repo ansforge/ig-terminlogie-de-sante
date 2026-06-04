@@ -106,7 +106,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J07-XdsTypeCode-CISIS/FHIR/JDV-J07-XdsTypeCode-CISIS",
-    "version" : "20260505120000",
+    "version" : "20260601120000",
     "status" : "active",
     "name" : "JDV_J07_XdsTypeCode_CISIS",
     "title" : null,
@@ -879,7 +879,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J16-ActeSpecifique-ROR/FHIR/JDV-J16-ActeSpecifique-ROR",
-    "version" : "20260330120000",
+    "version" : "20260601120000",
     "status" : "active",
     "name" : "JDV_J16_ActeSpecifique_ROR",
     "title" : null,
@@ -991,7 +991,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J17-ActiviteOperationnelle-ROR/FHIR/JDV-J17-ActiviteOperationnelle-ROR",
-    "version" : "20260330120000",
+    "version" : "20260601120000",
     "status" : "active",
     "name" : "JDV_J17_ActiviteOperationnelle_ROR",
     "title" : null,
@@ -1094,7 +1094,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J18-EquipementSpecifique-ROR/FHIR/JDV-J18-EquipementSpecifique-ROR",
-    "version" : "20251222120000",
+    "version" : "20260601120000",
     "status" : "active",
     "name" : "JDV_J18_EquipementSpecifique_ROR",
     "title" : null,
@@ -1314,7 +1314,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J198-FonctionLieu-ROR/FHIR/JDV-J198-FonctionLieu-ROR",
-    "version" : "20251222120000",
+    "version" : "20260601120000",
     "status" : "active",
     "name" : "JDV_J198_FonctionLieu_ROR",
     "title" : null,
@@ -1645,12 +1645,13 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J225-CanalCommunication-ROR/FHIR/JDV-J225-CanalCommunication-ROR",
-    "version" : "20260330120000",
+    "version" : "20260601120000",
     "status" : "active",
     "name" : "JDV_J225_CanalCommunication_ROR",
     "title" : null,
     "description" : "Canal de communication",
-    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R200-CanalCommunication/FHIR/TRE-R200-CanalCommunication"],
+    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R256-TypeMessagerie/FHIR/TRE-R256-TypeMessagerie",
+    "https://mos.esante.gouv.fr/NOS/TRE_R200-CanalCommunication/FHIR/TRE-R200-CanalCommunication"],
     "oids" : ["1.2.250.1.213.3.4.57"],
     "sources" : ["1.2.250.1.213.3.4.57"]
   },
@@ -2073,13 +2074,12 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J264-ModeEtCentreDePriseEnCharge-MDPH/FHIR/JDV-J264-ModeEtCentreDePriseEnCharge-MDPH",
-    "version" : "20240628120000",
+    "version" : "20260601120000",
     "status" : "active",
     "name" : "JDV_J264_ModeEtCentreDePriseEnCharge_MDPH",
     "title" : null,
     "description" : "Les modes de prise en charge en établissements ESMS qui sont possibles pour l'usager est validées en commission par la CDAPH",
-    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R213-ModePriseEnCharge/FHIR/TRE-R213-ModePriseEnCharge",
-    "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement"],
+    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R213-ModePriseEnCharge/FHIR/TRE-R213-ModePriseEnCharge"],
     "oids" : ["1.2.250.1.213.3.4.105"],
     "sources" : ["1.2.250.1.213.3.4.105"]
   },
@@ -6258,7 +6258,7 @@
     "status" : "draft",
     "name" : "JdvJ409TypeAdresseMs",
     "title" : "Jdv J409 Type Adresse Ms",
-    "description" : "Type d'adresse postale.",
+    "description" : "Type d'adresse postale tel que \"Adresse du domicile\", \"Adresse de livraison\" pour une personne physique.",
     "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r427-type-adresse"],
     "oids" : ["1.2.250.1.213.3.4.249"],
     "sources" : ["1.2.250.1.213.3.4.249"]

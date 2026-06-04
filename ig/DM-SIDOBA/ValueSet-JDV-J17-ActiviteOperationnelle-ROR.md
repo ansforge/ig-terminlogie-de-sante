@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J17-ActiviteOperationnelle-ROR/FHIR/JDV-J17-ActiviteOperationnelle-ROR | *Version*:20260330120000 | |
-| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J17_ActiviteOperationnelle_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J17-ActiviteOperationnelle-ROR/FHIR/JDV-J17-ActiviteOperationnelle-ROR | *Version*:20260601120000 | |
+| Active as of 2026-06-01 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J17_ActiviteOperationnelle_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.5 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J17-ActiviteOperationnelle-ROR",
   "meta" : {
-    "versionId" : "27",
-    "lastUpdated" : "2026-05-05T19:02:43.361+02:00",
+    "versionId" : "29",
+    "lastUpdated" : "2026-06-02T15:19:00.544+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -71,11 +71,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.5"
   }],
-  "version" : "20260330120000",
+  "version" : "20260601120000",
   "name" : "JDV_J17_ActiviteOperationnelle_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-30T12:00:00+01:00",
+  "date" : "2026-06-01T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Activité Operationnelle - ROR",
   "jurisdiction" : [{
@@ -529,11 +529,11 @@ Requête sur le SMT
       },
       {
         "code" : "157",
-        "display" : "Urgences polyvalentes"
+        "display" : "Urgences polyvalentes hospitalières"
       },
       {
         "code" : "158",
-        "display" : "Urgences psychiatriques"
+        "display" : "Urgences psychiatriques hospitalières"
       },
       {
         "code" : "159",
@@ -669,7 +669,7 @@ Requête sur le SMT
       },
       {
         "code" : "201",
-        "display" : "Pédicure-Podologie"
+        "display" : "Pédicurie-Podologie (bilan diagnostic et mise en œuvre des activités thérapeutiques si nécessaire)"
       },
       {
         "code" : "202",
@@ -857,7 +857,7 @@ Requête sur le SMT
       },
       {
         "code" : "249",
-        "display" : "Urgences pédiatriques"
+        "display" : "Urgences pédiatriques hospitalières"
       },
       {
         "code" : "250",

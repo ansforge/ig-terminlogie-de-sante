@@ -10,7 +10,7 @@
   },
   {
     "url" : "http://snomed.info/sct",
-    "version" : "http://snomed.info/sct/900000000000207008/version/20260501",
+    "version" : "http://snomed.info/sct/900000000000207008/version/20260601",
     "status" : "active",
     "name" : "SNOMED_CT",
     "title" : "SNOMED CT core",
@@ -757,7 +757,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique",
-    "version" : "20260330120000",
+    "version" : "20260601120000",
     "status" : "active",
     "name" : "TRE_R210_ActeSpecifique",
     "title" : null,
@@ -766,7 +766,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
-    "version" : "20260330120000",
+    "version" : "20260601120000",
     "status" : "active",
     "name" : "TRE_R211_ActiviteOperationnelle",
     "title" : null,
@@ -775,7 +775,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement",
-    "version" : "20251222120000",
+    "version" : "20260601120000",
     "status" : "active",
     "name" : "TRE_R212_Equipement",
     "title" : null,
@@ -1378,7 +1378,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R280-DisciplineEquipementSocial/FHIR/TRE-R280-DisciplineEquipementSocial",
-    "version" : "20260330120000",
+    "version" : "20260601120000",
     "status" : "active",
     "name" : "TRE_R280_DisciplineEquipementSocial",
     "title" : null,
@@ -1900,7 +1900,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R343-FonctionLieu/FHIR/TRE-R343-FonctionLieu",
-    "version" : "20251222120000",
+    "version" : "20260601120000",
     "status" : "active",
     "name" : "TRE_R343_FonctionLieu",
     "title" : null,
@@ -2269,7 +2269,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R64-AgregatCategorieEtablissementNiv2/FHIR/TRE-R64-AgregatCategorieEtablissementNiv2",
-    "version" : "20231215120000",
+    "version" : "20260601120000",
     "status" : "active",
     "name" : "TRE_R64_AgregatCategorieEtablissementNiv2",
     "title" : null,
@@ -2679,7 +2679,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
-    "version" : "20260505120000",
+    "version" : "20260601120000",
     "status" : "active",
     "name" : "TreR347ActiviteSanitaireDiverseRegulee",
     "title" : "Tre R347 Activite Sanitaire Diverse Regulee",
@@ -2877,7 +2877,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
-    "version" : "20260505120000",
+    "version" : "20260601120000",
     "status" : "active",
     "name" : "TreR397CategorieEntiteGeographiqueExercice",
     "title" : "Tre R397 Categorie Entite Geographique Exercice",
@@ -2895,7 +2895,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-    "version" : "20260330120000",
+    "version" : "20260601120000",
     "status" : "active",
     "name" : "TreR401ActiviteSocialeRegulee",
     "title" : "Tre R401 Activite Sociale Regulee",
@@ -3106,7 +3106,7 @@
     "status" : "draft",
     "name" : "TreR427TypeAdresse",
     "title" : "Tre R427 Type Adresse",
-    "description" : "Type d'adresse postale.",
+    "description" : "Type d'adresse postale tel que \"Adresse du domicile\", \"Adresse de livraison\" pour une personne physique.",
     "oids" : ["1.2.250.1.213.3.3.278"]
   },
   {
@@ -3152,7 +3152,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-bdpm",
-    "version" : "2026-05-05",
+    "version" : "2026-06-01",
     "status" : "active",
     "name" : "BDPM",
     "title" : "Base de données publique du médicament",
@@ -3232,7 +3232,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-nuva",
-    "version" : "1.0.1096",
+    "version" : "1.0.1108",
     "status" : "active",
     "name" : "NUVA",
     "title" : "Nomenclature Unifiée des Vaccins",
@@ -3258,7 +3258,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-standardterms",
-    "version" : "2025-03-19",
+    "version" : "2026-01-30",
     "status" : "active",
     "name" : "Standard_terms_EDQM",
     "title" : "Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments",

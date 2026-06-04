@@ -88,7 +88,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "version" : "2022.4.20221006",
+      "version" : "01",
       "concept" : [{
         "code" : "AR",
         "display" : "Autoréfraction"

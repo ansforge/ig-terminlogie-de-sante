@@ -88,7 +88,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v3-ActStatus",
-      "version" : "4.0.0",
+      "version" : "2018-08-12",
       "concept" : [{
         "code" : "aborted",
         "display" : "Arrêté (après son lancement)"

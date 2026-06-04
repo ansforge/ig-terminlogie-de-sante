@@ -88,7 +88,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v2-0487",
-      "version" : "3.0.0",
+      "version" : "2.9",
       "concept" : [{
         "code" : "CSF",
         "display" : "Liquide céphalorachidien"

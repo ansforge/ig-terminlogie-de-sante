@@ -804,7 +804,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Jdv J406 Motif Absence Ms](ValueSet-jdv-j406-motif-absence-ms.md) | Motif pour lequel l’usager n’est pas présent lors d’un événement organisé par sa structure de rattachement. |
 | [Jdv J407 Type Repas Ms](ValueSet-jdv-j407-type-repas-ms.md) | Type de repas. |
 | [Jdv J408 Orientation Ms](ValueSet-jdv-j408-orientation-ms.md) | Ensemble des orientations vers un Service d’éducation spéciale et de soins à domicile (SESSAD), un Service d’accompagnement familial et d’éducation précoce (SAFEP), un enseignement adapté (SEGPA/EREA) ou une unité d’enseignement. |
-| [Jdv J409 Type Adresse Ms](ValueSet-jdv-j409-type-adresse-ms.md) | Type d’adresse postale. |
+| [Jdv J409 Type Adresse Ms](ValueSet-jdv-j409-type-adresse-ms.md) | Type d’adresse postale tel que “Adresse du domicile”, “Adresse de livraison” pour une personne physique. |
 | [Jdv J410 Categorie Permis Conduire Ms](ValueSet-jdv-j410-categorie-permis-conduire-ms.md) | Catégorie de permis de conduire. |
 | [Jdv J411 Niveau Scolaire Ms](ValueSet-jdv-j411-niveau-scolaire-ms.md) | Niveau scolaire de l’usager en France. |
 | [Jdv J418 Activite Sanitaire Diverse Regulee Active](ValueSet-jdv-j418-activite-sanitaire-diverse-regulee-active.md) | Jeu de valeurs des activités sanitaires actives, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR) |
@@ -935,7 +935,7 @@ These define new code systems used by systems conforming to this implementation 
 | [RoleClassSupplementFr](CodeSystem-RoleClass-supplement-fr.md) | Traduction Française |
 | [RoleCode](CodeSystem-v3-RoleCode.md) | A set of codes further specifying the kind of Role; specific classification codes for further qualifying RoleClass codes. |
 | [RoleCodeSupplementFr](CodeSystem-RoleCode-supplement-fr.md) | Traduction Française |
-| [SNOMED CT core](CodeSystem-900000000000207008-20260501.md) | SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO). |
+| [SNOMED CT core](CodeSystem-900000000000207008-20260601.md) | SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO). |
 | [Service type](CodeSystem-service-type.md) | This value set defines an example set of codes of service-types. |
 | [SpecimenType](CodeSystem-v3-SpecimenType.md) | **** MISSING DESCRIPTION **** |
 | [SpecimenTypeSupplementFr](CodeSystem-specimenType-supplement-fr.md) | Traduction Française |
@@ -1245,7 +1245,7 @@ These define new code systems used by systems conforming to this implementation 
 | [Tre R424 Motif Absence](CodeSystem-tre-r424-motif-absence.md) | Motif pour lequel l’usager n’est pas présent lors d’un événement organisé par sa structure de rattachement. |
 | [Tre R425 Type Repas](CodeSystem-tre-r425-type-repas.md) | Type de repas. |
 | [Tre R426 Orientation](CodeSystem-tre-r426-orientation.md) | Orientation vers un Service d’éducation spéciale et de soins à domicile (SESSAD) ou vers un Service d’accompagnement familial et d’éducation précoce (SAFEP) |
-| [Tre R427 Type Adresse](CodeSystem-tre-r427-type-adresse.md) | Type d’adresse postale. |
+| [Tre R427 Type Adresse](CodeSystem-tre-r427-type-adresse.md) | Type d’adresse postale tel que “Adresse du domicile”, “Adresse de livraison” pour une personne physique. |
 | [V3SpecimenTypeSupplementFr](CodeSystem-v3-SpecimenType-supplement-fr.md) | Traduction Française |
 | [employmentStatus](CodeSystem-v2-0066.md) | HL7-defined code system of concepts which specify an employment status of a person. Used in HL7 Version 2 messaging in the GT1 segment. |
 | [specimenCollectionMethod](CodeSystem-v2-0488.md) | HL7-defined code system of concepts specifying the specimen collection method. Used in HL7 Version 2.x messaging in the SPM segment. |

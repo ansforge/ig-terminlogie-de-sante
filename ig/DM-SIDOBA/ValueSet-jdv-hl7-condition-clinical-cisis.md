@@ -88,7 +88,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
-      "version" : "3.0.0",
+      "version" : "4.0.1",
       "concept" : [{
         "code" : "active",
         "display" : "Actif"

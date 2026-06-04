@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J264-ModeEtCentreDePriseEnCharge-MDPH/FHIR/JDV-J264-ModeEtCentreDePriseEnCharge-MDPH | *Version*:20240628120000 | |
-| Active as of 2024-06-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J264_ModeEtCentreDePriseEnCharge_MDPH |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J264-ModeEtCentreDePriseEnCharge-MDPH/FHIR/JDV-J264-ModeEtCentreDePriseEnCharge-MDPH | *Version*:20260601120000 | |
+| Active as of 2026-06-01 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J264_ModeEtCentreDePriseEnCharge_MDPH |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.105 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J264-ModeEtCentreDePriseEnCharge-MDPH",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2025-07-02T17:06:17.550+00:00",
+    "versionId" : "4",
+    "lastUpdated" : "2026-06-02T15:19:02.966+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -71,11 +71,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.105"
   }],
-  "version" : "20240628120000",
+  "version" : "20260601120000",
   "name" : "JDV_J264_ModeEtCentreDePriseEnCharge_MDPH",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-06-28T12:00:00+01:00",
+  "date" : "2026-06-01T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Les modes de prise en charge en établissements ESMS qui sont possibles pour l'usager est validées en commission par la CDAPH",
   "jurisdiction" : [{
@@ -98,13 +98,10 @@ Requête sur le SMT
       {
         "code" : "48",
         "display" : "Accueil de nuit"
-      }]
-    },
-    {
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement",
-      "concept" : [{
-        "code" : "238",
-        "display" : "Centre d'Accueil Familial Spécialisé"
+      },
+      {
+        "code" : "49",
+        "display" : "Sur les lieux de vie"
       }]
     }]
   }

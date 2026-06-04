@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J225-CanalCommunication-ROR/FHIR/JDV-J225-CanalCommunication-ROR | *Version*:20260330120000 | |
-| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J225_CanalCommunication_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J225-CanalCommunication-ROR/FHIR/JDV-J225-CanalCommunication-ROR | *Version*:20260601120000 | |
+| Active as of 2026-06-01 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J225_CanalCommunication_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.57 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J225-CanalCommunication-ROR",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2026-05-05T19:02:46.218+02:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-06-02T15:19:02.564+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -71,11 +71,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.57"
   }],
-  "version" : "20260330120000",
+  "version" : "20260601120000",
   "name" : "JDV_J225_CanalCommunication_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-30T12:00:00+01:00",
+  "date" : "2026-06-01T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Canal de communication",
   "jurisdiction" : [{
@@ -122,6 +122,13 @@ Requête sur le SMT
       {
         "code" : "9",
         "display" : "Mail d'alerte"
+      }]
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R256-TypeMessagerie/FHIR/TRE-R256-TypeMessagerie",
+      "concept" : [{
+        "code" : "MSSANTE",
+        "display" : "MSSANTE"
       }]
     }]
   }
