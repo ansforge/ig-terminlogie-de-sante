@@ -36,7 +36,7 @@ Pour cette association, seuls les fichiers sont disponibles :
   "title" : "ASS_X14_AgregatDisciplineEquipementSocial",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-05T10:10:06+00:00",
+  "date" : "2026-06-05T10:59:48+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
