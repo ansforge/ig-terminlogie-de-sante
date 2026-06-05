@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "Terminologies"] ; # 
   fhir:title [ fhir:v "Terminologies  de Santé"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2026-06-03T08:54:15+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-06-05T10:10:06+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -63764,7 +63764,7 @@
          fhir:reference [ fhir:v "ValueSet/jdv-j409-type-adresse-ms" ]
        ] ;
        fhir:name [ fhir:v "Jdv J409 Type Adresse Ms" ] ;
-       fhir:description [ fhir:v "Type d'adresse postale." ] ;
+       fhir:description [ fhir:v "Type d'adresse postale tel que \"Adresse du domicile\", \"Adresse de livraison\" pour une personne physique." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -75562,6 +75562,27 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-catalogue-vaccins> ;
+         fhir:reference [ fhir:v "CodeSystem/terminologie-catalogue-vaccins" ]
+       ] ;
+       fhir:name [ fhir:v "Jeux de valeurs pour la Note de Vaccination" ] ;
+       fhir:description [ fhir:v "Le Catalogue Vaccins permet de codifier les vaccins administrés à un patient pour produire une note de vaccination à des fins de partage dans le DMP/MES. Il permet de faire le lien entre une spécialité pharmaceutique vaccinale et une maladie. Il est construit à partir des standards sémantiques nationaux et internationaux interopérables dont les sources sont issues du RUIM-Référentiel Unique d'Interopérabilité du Médicament(ANSM), de l'ATC-Anatomique Thérapeutique Chimique(OMS (WHOCC)) et de NUVA-Nomenclature Unifiée des Vaccins(SYADEM). Il est destiné en particulier aux utilisateurs du secteur médico-social ou paramédical lorsqu’ils ne disposent pas d’un accès à une base de médicaments et d’un lecteur de datamatrix" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-lahn> ;
          fhir:reference [ fhir:v "CodeSystem/terminologie-lahn" ]
        ] ;
@@ -77639,7 +77660,7 @@
          fhir:reference [ fhir:v "CodeSystem/tre-r427-type-adresse" ]
        ] ;
        fhir:name [ fhir:v "Tre R427 Type Adresse" ] ;
-       fhir:description [ fhir:v "Type d'adresse postale." ] ;
+       fhir:description [ fhir:v "Type d'adresse postale tel que \"Adresse du domicile\", \"Adresse de livraison\" pour une personne physique." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false

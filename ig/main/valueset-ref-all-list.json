@@ -164,8 +164,8 @@
     "sources" : ["1.2.250.1.213.1.1.5.465"],
     "uses" : {
     },
-    "ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.html" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS",
-    "ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.html" : "ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS"
+    "ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.html" : "ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS",
+    "ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.html" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS"
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J100-FinessStatutJuridique-RASS/FHIR/JDV-J100-FinessStatutJuridique-RASS",
@@ -6315,7 +6315,7 @@
     "status" : "draft",
     "name" : "JdvJ409TypeAdresseMs",
     "title" : "Jdv J409 Type Adresse Ms",
-    "description" : "Type d'adresse postale.",
+    "description" : "Type d'adresse postale tel que \"Adresse du domicile\", \"Adresse de livraison\" pour une personne physique.",
     "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r427-type-adresse"],
     "oids" : ["1.2.250.1.213.3.4.249"],
     "sources" : ["1.2.250.1.213.3.4.249"]
@@ -9762,8 +9762,8 @@
     "systems" : ["https://smt.esante.gouv.fr/terminologie-nuva"],
     "uses" : {
     },
-    "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD",
-    "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM"
+    "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM",
+    "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD"
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-sms?vs",

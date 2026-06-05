@@ -10,8 +10,8 @@
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "jdv-j409-type-adresse-ms"] ; # 
   fhir:meta [
-     fhir:versionId [ fhir:v "1" ] ;
-     fhir:lastUpdated [ fhir:v "2026-05-12T10:17:42.094+02:00"^^xsd:dateTime ] ;
+     fhir:versionId [ fhir:v "2" ] ;
+     fhir:lastUpdated [ fhir:v "2026-06-05T11:48:02.842+02:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
        fhir:l <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
@@ -20,7 +20,7 @@
   fhir:language [ fhir:v "fr-FR"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j409-type-adresse-ms</b></p><a name=\"jdv-j409-type-adresse-ms\"> </a><a name=\"hcjdv-j409-type-adresse-ms\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 1; Dernière mise à jour : 2026-05-12 10:17:42+0200; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include codes provenant de<a href=\"CodeSystem-tre-r427-type-adresse.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r427-type-adresse</code></a><span title=\"La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\"> version ?20260505120000</span> où status  = active</li></ul></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j409-type-adresse-ms</b></p><a name=\"jdv-j409-type-adresse-ms\"> </a><a name=\"hcjdv-j409-type-adresse-ms\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 2; Dernière mise à jour : 2026-06-05 11:48:02+0200; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include codes provenant de<a href=\"CodeSystem-tre-r427-type-adresse.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r427-type-adresse</code></a><span title=\"La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\"> version ?20260505120000</span> où status  = active</li></ul></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
      fhir:url [
@@ -50,7 +50,7 @@
   fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2026-05-05T12:00:00.000+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
-  fhir:description [ fhir:v "Type d'adresse postale."] ; # 
+  fhir:description [ fhir:v "Type d'adresse postale tel que \"Adresse du domicile\", \"Adresse de livraison\" pour une personne physique."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [

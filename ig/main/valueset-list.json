@@ -6258,7 +6258,7 @@
     "status" : "draft",
     "name" : "JdvJ409TypeAdresseMs",
     "title" : "Jdv J409 Type Adresse Ms",
-    "description" : "Type d'adresse postale.",
+    "description" : "Type d'adresse postale tel que \"Adresse du domicile\", \"Adresse de livraison\" pour une personne physique.",
     "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r427-type-adresse"],
     "oids" : ["1.2.250.1.213.3.4.249"],
     "sources" : ["1.2.250.1.213.3.4.249"]

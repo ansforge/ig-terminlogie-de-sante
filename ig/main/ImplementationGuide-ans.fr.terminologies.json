@@ -10,7 +10,7 @@
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-06-03T08:54:15+00:00",
+  "date" : "2026-06-05T10:10:06+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -29996,7 +29996,7 @@
         "reference" : "ValueSet/jdv-j409-type-adresse-ms"
       },
       "name" : "Jdv J409 Type Adresse Ms",
-      "description" : "Type d'adresse postale.",
+      "description" : "Type d'adresse postale tel que \"Adresse du domicile\", \"Adresse de livraison\" pour une personne physique.",
       "exampleBoolean" : false
     },
     {
@@ -36737,6 +36737,18 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/terminologie-catalogue-vaccins"
+      },
+      "name" : "Jeux de valeurs pour la Note de Vaccination",
+      "description" : "Le Catalogue Vaccins permet de codifier les vaccins administrés à un patient pour produire une note de vaccination à des fins de partage dans le DMP/MES. Il permet de faire le lien entre une spécialité pharmaceutique vaccinale et une maladie. Il est construit à partir des standards sémantiques nationaux et internationaux interopérables dont les sources sont issues du RUIM-Référentiel Unique d'Interopérabilité du Médicament(ANSM), de l'ATC-Anatomique Thérapeutique Chimique(OMS (WHOCC)) et de NUVA-Nomenclature Unifiée des Vaccins(SYADEM). Il est destiné en particulier aux utilisateurs du secteur médico-social ou paramédical lorsqu’ils ne disposent pas d’un accès à une base de médicaments et d’un lecteur de datamatrix",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/terminologie-lahn"
       },
       "name" : "Liste des Actes Inovants Hors Nomenclature",
@@ -37922,7 +37934,7 @@
         "reference" : "CodeSystem/tre-r427-type-adresse"
       },
       "name" : "Tre R427 Type Adresse",
-      "description" : "Type d'adresse postale.",
+      "description" : "Type d'adresse postale tel que \"Adresse du domicile\", \"Adresse de livraison\" pour une personne physique.",
       "exampleBoolean" : false
     },
     {

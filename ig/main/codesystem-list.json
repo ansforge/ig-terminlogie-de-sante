@@ -3106,7 +3106,7 @@
     "status" : "draft",
     "name" : "TreR427TypeAdresse",
     "title" : "Tre R427 Type Adresse",
-    "description" : "Type d'adresse postale.",
+    "description" : "Type d'adresse postale tel que \"Adresse du domicile\", \"Adresse de livraison\" pour une personne physique.",
     "oids" : ["1.2.250.1.213.3.3.278"]
   },
   {
@@ -3157,6 +3157,14 @@
     "name" : "BDPM",
     "title" : "Base de données publique du médicament",
     "description" : "LA BDPM est un des référentiels du médicament gérée et distribuée par l’ANSM. Elle recense l’ensemble des spécialités et des présentations effectivement commercialisées durant les 5 dernières années. De ce fait, elle ne propose pas un historique exhaustif des codes de présentation et spécialités, celui-ci peut être obtenu grâce à la base RCP disponible sur le site de l’ANSM"
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/terminologie-catalogue-vaccins",
+    "version" : "2026-04",
+    "status" : "active",
+    "name" : "Catalogue_Vaccins",
+    "title" : "Jeux de valeurs pour la Note de Vaccination",
+    "description" : "Le Catalogue Vaccins permet de codifier les vaccins administrés à un patient pour produire une note de vaccination à des fins de partage dans le DMP/MES. Il permet de faire le lien entre une spécialité pharmaceutique vaccinale et une maladie. Il est construit à partir des standards sémantiques nationaux et internationaux interopérables dont les sources sont issues du RUIM-Référentiel Unique d'Interopérabilité du Médicament(ANSM), de l'ATC-Anatomique Thérapeutique Chimique(OMS (WHOCC)) et de NUVA-Nomenclature Unifiée des Vaccins(SYADEM). Il est destiné en particulier aux utilisateurs du secteur médico-social ou paramédical lorsqu’ils ne disposent pas d’un accès à une base de médicaments et d’un lecteur de datamatrix"
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-ccam",
@@ -3232,7 +3240,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-nuva",
-    "version" : "1.0.1096",
+    "version" : "1.0.1108",
     "status" : "active",
     "name" : "NUVA",
     "title" : "Nomenclature Unifiée des Vaccins",
@@ -3249,7 +3257,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-sms",
-    "version" : "2026-05",
+    "version" : "2026-06",
     "status" : "active",
     "name" : "Dictionnaire_SMS_Substance_Management_Services_",
     "title" : "Dictionnaire européen multilingue des substances entrant dans la composition de médicaments",
@@ -3258,7 +3266,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-standardterms",
-    "version" : "2025-03-19",
+    "version" : "2026-01-30",
     "status" : "active",
     "name" : "Standard_terms_EDQM",
     "title" : "Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments",

@@ -61,7 +61,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TreR424MotifAbsence](CodeSystem-tre-r424-motif-absence.md) | Motif pour lequel l'usager n'est pas présent lors d'un événement organisé par sa structure de rattachement. | 05/05/2026 | draft |
 | [TreR425TypeRepas](CodeSystem-tre-r425-type-repas.md) | Type de repas. | 05/05/2026 | draft |
 | [TreR426Orientation](CodeSystem-tre-r426-orientation.md) | Orientation vers un Service d'éducation spéciale et de soins à domicile (SESSAD) ou vers un Service d'accompagnement familial et d'éducation précoce (SAFEP) | 05/05/2026 | draft |
-| [TreR427TypeAdresse](CodeSystem-tre-r427-type-adresse.md) | Type d'adresse postale. | 05/05/2026 | draft |
+| [TreR427TypeAdresse](CodeSystem-tre-r427-type-adresse.md) | Type d'adresse postale tel que "Adresse du domicile", "Adresse de livraison" pour une personne physique. | 05/05/2026 | draft |
 | [TRE_A00_ProducteurDocNonPS](CodeSystem-TRE-A00-ProducteurDocNonPS.md) | Producteur de document non PS | 29/03/2024 | active |
 | [TRE_A01_CadreExercice](CodeSystem-TRE-A01-CadreExercice.md) | Cadre d'exercice | 27/09/2024 | active |
 | [TRE_A02_ProfessionSavFaire_CISIS](CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.md) | Profession et savoir-faire CI-SIS | 02/02/2026 | active |

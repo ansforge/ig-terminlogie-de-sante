@@ -11,7 +11,7 @@
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2026-06-03T08:54:15+00:00"/>
+  <date value="2026-06-05T10:10:06+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -22550,7 +22550,7 @@
         <reference value="ValueSet/jdv-j409-type-adresse-ms"/>
       </reference>
       <name value="Jdv J409 Type Adresse Ms"/>
-      <description value="Type d'adresse postale."/>
+      <description value="Type d'adresse postale tel que &quot;Adresse du domicile&quot;, &quot;Adresse de livraison&quot; pour une personne physique."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -28729,6 +28729,17 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/terminologie-catalogue-vaccins"/>
+      </reference>
+      <name value="Jeux de valeurs pour la Note de Vaccination"/>
+      <description value="Le Catalogue Vaccins permet de codifier les vaccins administrés à un patient pour produire une note de vaccination à des fins de partage dans le DMP/MES. Il permet de faire le lien entre une spécialité pharmaceutique vaccinale et une maladie. Il est construit à partir des standards sémantiques nationaux et internationaux interopérables dont les sources sont issues du RUIM-Référentiel Unique d'Interopérabilité du Médicament(ANSM), de l'ATC-Anatomique Thérapeutique Chimique(OMS (WHOCC)) et de NUVA-Nomenclature Unifiée des Vaccins(SYADEM). Il est destiné en particulier aux utilisateurs du secteur médico-social ou paramédical lorsqu’ils ne disposent pas d’un accès à une base de médicaments et d’un lecteur de datamatrix"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/terminologie-lahn"/>
       </reference>
       <name value="Liste des Actes Inovants Hors Nomenclature"/>
@@ -29815,7 +29826,7 @@
         <reference value="CodeSystem/tre-r427-type-adresse"/>
       </reference>
       <name value="Tre R427 Type Adresse"/>
-      <description value="Type d'adresse postale."/>
+      <description value="Type d'adresse postale tel que &quot;Adresse du domicile&quot;, &quot;Adresse de livraison&quot; pour une personne physique."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
