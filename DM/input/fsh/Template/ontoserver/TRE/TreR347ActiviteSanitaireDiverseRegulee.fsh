@@ -2,24 +2,24 @@ CodeSystem: TreR347ActiviteSanitaireDiverseRegulee
 Id: tre-r347-activite-sanitaire-diverse-regulee
 Title: "Tre R347 Activite Sanitaire Diverse Regulee"
 Description: "Nomenclature des activités sanitaires utilisée pour décrire les Activités Sanitaires Diverses Régulées (ASDR)"
-* ^meta.versionId = "7"
-* ^meta.lastUpdated = "2026-05-05T20:12:08.851+02:00"
+* ^meta.versionId = "10"
+* ^meta.lastUpdated = "2026-06-02T16:13:00.890+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "1979-01-01T00:00:00+01:00"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.248"
-* ^version = "20260505120000"
+* ^version = "20260601120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-05-05T12:00:00+01:00"
+* ^date = "2026-06-01T12:00:00.000+00:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^hierarchyMeaning = #is-a
 * ^content = #complete
-* ^count = 457
+* ^count = 461
 * ^property[0].code = #parent
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#parent"
 * ^property[=].description = "An immediate parent of the concept in the hierarchy"
@@ -7051,6 +7051,66 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #854 ^property[=].valueCode = #active
 * #854 ^property[+].code = #niveau
 * #854 ^property[=].valueInteger = 4
+* #855 "Maison médicale de garde" "Activités contribuant à la permanence des Soins Ambulatoires (PDSA) exercées dans le cadre d'une Maison Médicale de Garde"
+* #855 ^designation.language = #fr-FR
+* #855 ^designation.use.system = "http://snomed.info/sct"
+* #855 ^designation.use = $sct#900000000000013009
+* #855 ^designation.value = "M.M.G."
+* #855 ^property[0].code = #parent
+* #855 ^property[=].valueCode = #0343
+* #855 ^property[+].code = #dateValid
+* #855 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #855 ^property[+].code = #dateMaj
+* #855 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #855 ^property[+].code = #status
+* #855 ^property[=].valueCode = #active
+* #855 ^property[+].code = #niveau
+* #855 ^property[=].valueInteger = 4
+* #856 "Point fixe de garde" "Activités contribuant à la permanence des Soins Ambulatoires (PDSA) exercées dans le cadre d'un Point fixe de garde"
+* #856 ^designation.language = #fr-FR
+* #856 ^designation.use.system = "http://snomed.info/sct"
+* #856 ^designation.use = $sct#900000000000013009
+* #856 ^designation.value = "P.F.G."
+* #856 ^property[0].code = #parent
+* #856 ^property[=].valueCode = #0343
+* #856 ^property[+].code = #dateValid
+* #856 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #856 ^property[+].code = #dateMaj
+* #856 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #856 ^property[+].code = #status
+* #856 ^property[=].valueCode = #active
+* #856 ^property[+].code = #niveau
+* #856 ^property[=].valueInteger = 4
+* #857 "Point fixe de consultation" "Activités contribuant à la permanence des Soins Ambulatoires (PDSA) exercées dans le cadre d'un Point fixe de consultation"
+* #857 ^designation.language = #fr-FR
+* #857 ^designation.use.system = "http://snomed.info/sct"
+* #857 ^designation.use = $sct#900000000000013009
+* #857 ^designation.value = "P.F.C."
+* #857 ^property[0].code = #parent
+* #857 ^property[=].valueCode = #0343
+* #857 ^property[+].code = #dateValid
+* #857 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #857 ^property[+].code = #dateMaj
+* #857 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #857 ^property[+].code = #status
+* #857 ^property[=].valueCode = #active
+* #857 ^property[+].code = #niveau
+* #857 ^property[=].valueInteger = 4
+* #858 "Visite à domicile" "Activités contribuant à la permanence des Soins Ambulatoires (PDSA) exercées dans le cadre de visites à domicile"
+* #858 ^designation.language = #fr-FR
+* #858 ^designation.use.system = "http://snomed.info/sct"
+* #858 ^designation.use = $sct#900000000000013009
+* #858 ^designation.value = "V.A.D."
+* #858 ^property[0].code = #parent
+* #858 ^property[=].valueCode = #0343
+* #858 ^property[+].code = #dateValid
+* #858 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #858 ^property[+].code = #dateMaj
+* #858 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #858 ^property[+].code = #status
+* #858 ^property[=].valueCode = #active
+* #858 ^property[+].code = #niveau
+* #858 ^property[=].valueInteger = 4
 * #949 "Recherche Chirurgicale ou Chirurgie Expérimentale"
 * #949 ^designation.language = #fr-FR
 * #949 ^designation.use.system = "http://snomed.info/sct"
