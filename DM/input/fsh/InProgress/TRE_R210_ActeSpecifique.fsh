@@ -13628,3 +13628,115 @@ Id: TRE-R210-ActeSpecifique
 * #1658 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1658 ^property[+].code = #status
 * #1658 ^property[=].valueCode = #active
+* #1659 "Examen de la courbe d'adaptation à l'obscurité"
+* #1659 ^property[0].code = #dateValid
+* #1659 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1659 ^property[+].code = #dateMaj
+* #1659 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1659 ^property[+].code = #status
+* #1659 ^property[=].valueCode = #active
+* #1660 "Protocole de dépistage de la rétinopathie diabétique"
+* #1660 ^property[0].code = #dateValid
+* #1660 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1660 ^property[+].code = #dateMaj
+* #1660 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1660 ^property[+].code = #status
+* #1660 ^property[=].valueCode = #active
+* #1661 "Examen dépistage réfractif avec Photoscreener"
+* #1661 ^property[0].code = #dateValid
+* #1661 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1661 ^property[+].code = #dateMaj
+* #1661 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1661 ^property[+].code = #status
+* #1661 ^property[=].valueCode = #active
+* #1662 "Bilan visuel primo-prescription ou renouvellement de la correction optique (lunettes, lentilles, souples) pour les patients de 16 ans à 42 ans"
+* #1662 ^designation[0].language = #fr-FR
+* #1662 ^designation[=].use.system = "http://snomed.info/sct"
+* #1662 ^designation[=].use = $sct#900000000000013009
+* #1662 ^designation[=].value = "Bilan visuel de la correction optique (lunettes, lentilles, souples) 16 - 42 ans"
+* #1662 ^property[0].code = #dateValid
+* #1662 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1662 ^property[+].code = #dateMaj
+* #1662 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1662 ^property[+].code = #status
+* #1662 ^property[=].valueCode = #active
+* #1663 "Evaluation oculométrique par enregistrement – technique d'Eye tracking"
+* #1663 ^property[0].code = #dateValid
+* #1663 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1663 ^property[+].code = #dateMaj
+* #1663 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1663 ^property[+].code = #status
+* #1663 ^property[=].valueCode = #active
+* #1664 "Evaluation et/ou prise en soins dans le cadre de particularités sensorielles et perceptives (profil sensoriel de DUNN, BOGDASHINA)"
+* #1664 ^designation[0].language = #fr-FR
+* #1664 ^designation[=].use.system = "http://snomed.info/sct"
+* #1664 ^designation[=].use = $sct#900000000000013009
+* #1664 ^designation[=].value = "Evaluation / prise en soins pour les particularités sensorielles et perceptives"
+* #1664 ^property[0].code = #dateValid
+* #1664 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1664 ^property[+].code = #dateMaj
+* #1664 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1664 ^property[+].code = #status
+* #1664 ^property[=].valueCode = #active
+* #1665 "Evaluation orthoptique de la fonction visuelle et/ou prise en soins avec l'ajustement des aides optiques et nouvelles technologies dans le cadre d'handicap de la fonction visuelle (RV)"
+* #1665 ^property[0].code = #dateValid
+* #1665 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1665 ^property[+].code = #dateMaj
+* #1665 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1665 ^property[+].code = #status
+* #1665 ^property[=].valueCode = #active
+* #1666 "Evaluation et suivi dans le cadre de l'adaptation du logement lors d'un handicap de la fonction visuelle"
+* #1666 ^designation[0].language = #fr-FR
+* #1666 ^designation[=].use.system = "http://snomed.info/sct"
+* #1666 ^designation[=].use = $sct#900000000000013009
+* #1666 ^designation[=].value = "Eval et suivi dans le cadre de l'adaptat du logement à un handicap de la vision"
+* #1666 ^property[0].code = #dateValid
+* #1666 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1666 ^property[+].code = #dateMaj
+* #1666 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1666 ^property[+].code = #status
+* #1666 ^property[=].valueCode = #active
+* #1667 "Evaluation orthoptique de la fonction visuelle et/ou prise en soins dans le cadre de la conduite automobile"
+* #1667 ^designation[0].language = #fr-FR
+* #1667 ^designation[=].use.system = "http://snomed.info/sct"
+* #1667 ^designation[=].use = $sct#900000000000013009
+* #1667 ^designation[=].value = "Eval orthoptique de la fonct visuelle / prise en soins pour la conduite auto"
+* #1667 ^property[0].code = #dateValid
+* #1667 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1667 ^property[+].code = #dateMaj
+* #1667 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1667 ^property[+].code = #status
+* #1667 ^property[=].valueCode = #active
+* #1668 "Evaluation orthoptique de la fonction visuelle et/ou prise en soins dans le cadre de l'activité physique adaptée"
+* #1668 ^designation[0].language = #fr-FR
+* #1668 ^designation[=].use.system = "http://snomed.info/sct"
+* #1668 ^designation[=].use = $sct#900000000000013009
+* #1668 ^designation[=].value = "Eval orthoptique de la fonct visuelle / PES pour de l'act. physique adaptée"
+* #1668 ^property[0].code = #dateValid
+* #1668 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1668 ^property[+].code = #dateMaj
+* #1668 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1668 ^property[+].code = #status
+* #1668 ^property[=].valueCode = #active
+* #1669 "Evaluation et/ou prise en soins orthoptiques neurovisuels des troubles de la cognition visuelle"
+* #1669 ^designation[0].language = #fr-FR
+* #1669 ^designation[=].use.system = "http://snomed.info/sct"
+* #1669 ^designation[=].use = $sct#900000000000013009
+* #1669 ^designation[=].value = "Eval / prise en soins orthoptiques neurovisuels des troubles de cognition visu"
+* #1669 ^property[0].code = #dateValid
+* #1669 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1669 ^property[+].code = #dateMaj
+* #1669 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1669 ^property[+].code = #status
+* #1669 ^property[=].valueCode = #active
+* #1670 "Evaluation et/ou prise en soins de la rééducation neurovisuelle visuo-vestibulaire (vertiges)"
+* #1670 ^designation[0].language = #fr-FR
+* #1670 ^designation[=].use.system = "http://snomed.info/sct"
+* #1670 ^designation[=].use = $sct#900000000000013009
+* #1670 ^designation[=].value = "Eval / prise en soins de la rééducation neurovisuelle visuo-vestibulaire"
+* #1670 ^property[0].code = #dateValid
+* #1670 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1670 ^property[+].code = #dateMaj
+* #1670 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1670 ^property[+].code = #status
+* #1670 ^property[=].valueCode = #active
