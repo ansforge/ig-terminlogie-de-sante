@@ -11993,7 +11993,7 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1446 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #1446 ^property[+].code = #status
 * #1446 ^property[=].valueCode = #active
-* #1447 "Prescription de vaccination"
+* #1447 "Prescription de vaccin"
 * #1447 ^property[0].code = #dateValid
 * #1447 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #1447 ^property[+].code = #dateMaj
@@ -13741,3 +13741,156 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1670 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1670 ^property[+].code = #status
 * #1670 ^property[=].valueCode = #active
+* #1671 "Dispensation médicamenteuse à domicile en cas d’impossibilité du patient à se déplacer"
+* #1671 ^designation[0].language = #fr-FR
+* #1671 ^designation[=].use.system = "http://snomed.info/sct"
+* #1671 ^designation[=].use = $sct#900000000000013009
+* #1671 ^designation[=].value = "Dispense médicament à domicile en cas d’impossibilité du patient à se déplacer"
+* #1671 ^property[0].code = #dateValid
+* #1671 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1671 ^property[+].code = #dateMaj
+* #1671 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1671 ^property[+].code = #status
+* #1671 ^property[=].valueCode = #active
+* #1672 "Préparation des doses à administrer (PDA)"
+* #1672 ^property[0].code = #dateValid
+* #1672 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1672 ^property[+].code = #dateMaj
+* #1672 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1672 ^property[+].code = #status
+* #1672 ^property[=].valueCode = #active
+* #1673 "Entretien pharmaceutique de la femme enceinte"
+* #1673 ^property[0].code = #dateValid
+* #1673 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1673 ^property[+].code = #dateMaj
+* #1673 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1673 ^property[+].code = #status
+* #1673 ^property[=].valueCode = #active
+* #1674 "Entretien pharmaceutique du patient asthmatique sous corticostéroïdes inhalés (CSI)"
+* #1674 ^designation[0].language = #fr-FR
+* #1674 ^designation[=].use.system = "http://snomed.info/sct"
+* #1674 ^designation[=].use = $sct#900000000000013009
+* #1674 ^designation[=].value = "Entretien pharmaceutique du patient asthmatique sous CSI"
+* #1674 ^property[0].code = #dateValid
+* #1674 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1674 ^property[+].code = #dateMaj
+* #1674 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1674 ^property[+].code = #status
+* #1674 ^property[=].valueCode = #active
+* #1675 "Entretien pharmaceutique du patient sous anticoagulant oral (AOD/AVK)"
+* #1675 ^property[0].code = #dateValid
+* #1675 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1675 ^property[+].code = #dateMaj
+* #1675 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1675 ^property[+].code = #status
+* #1675 ^property[=].valueCode = #active
+* #1676 "Entretien pharmaceutique du patient sous anticancéreux oraux"
+* #1676 ^property[0].code = #dateValid
+* #1676 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1676 ^property[+].code = #dateMaj
+* #1676 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1676 ^property[+].code = #status
+* #1676 ^property[=].valueCode = #active
+* #1677 "Entretien pharmaceutique du patient sous antalgique opioïde de pallier 2"
+* #1677 ^property[0].code = #dateValid
+* #1677 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1677 ^property[+].code = #dateMaj
+* #1677 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1677 ^property[+].code = #status
+* #1677 ^property[=].valueCode = #active
+* #1678 "Entretien bilan partagé de médication"
+* #1678 ^property[0].code = #dateValid
+* #1678 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1678 ^property[+].code = #dateMaj
+* #1678 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1678 ^property[+].code = #status
+* #1678 ^property[=].valueCode = #active
+* #1679 "Réseau France Santé"
+* #1679 ^property[0].code = #dateValid
+* #1679 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1679 ^property[+].code = #dateMaj
+* #1679 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1679 ^property[+].code = #status
+* #1679 ^property[=].valueCode = #active
+* #1680 "Réseau France Santé"
+* #1680 ^property[0].code = #dateValid
+* #1680 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1680 ^property[+].code = #dateMaj
+* #1680 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1680 ^property[+].code = #status
+* #1680 ^property[=].valueCode = #active
+* #1681 "Autorisation par l’ARS pour la sous-traitance de préparation pharmaceutique"
+* #1681 ^property[0].code = #dateValid
+* #1681 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1681 ^property[+].code = #dateMaj
+* #1681 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1681 ^property[+].code = #status
+* #1681 ^property[=].valueCode = #active
+* #1682 "Orthèses et prothèses externes (orthopédie sur mesure)"
+* #1682 ^property[0].code = #dateValid
+* #1682 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1682 ^property[+].code = #dateMaj
+* #1682 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1682 ^property[+].code = #status
+* #1682 ^property[=].valueCode = #active
+* #1683 "Orthèses et prothèses externes (de série)"
+* #1683 ^property[0].code = #dateValid
+* #1683 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1683 ^property[+].code = #dateMaj
+* #1683 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1683 ^property[+].code = #status
+* #1683 ^property[=].valueCode = #active
+* #1683 "Optique lunetterie"
+* #1683 ^property[0].code = #dateValid
+* #1683 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1683 ^property[+].code = #dateMaj
+* #1683 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1683 ^property[+].code = #status
+* #1683 ^property[=].valueCode = #active
+* #1684 "Audioprothèse"
+* #1684 ^property[0].code = #dateValid
+* #1684 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1684 ^property[+].code = #dateMaj
+* #1684 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1684 ^property[+].code = #status
+* #1684 ^property[=].valueCode = #active
+* #1685 "Prise en charge de l’éruption cutanée vésiculeuse prurigineuse chez l’enfant (protocole de coopération)"
+* #1685 ^designation[0].language = #fr-FR
+* #1685 ^designation[=].use.system = "http://snomed.info/sct"
+* #1685 ^designation[=].use = $sct#900000000000013009
+* #1685 ^designation[=].value = "Prise en charge de l’éruption cutanée vésiculeuse prurigineuse chez l’enfant"
+* #1685 ^property[0].code = #dateValid
+* #1685 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1685 ^property[+].code = #dateMaj
+* #1685 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1685 ^property[+].code = #status
+* #1685 ^property[=].valueCode = #active
+* #1686 "Renouvellement du traitement de la rhino-conjonctivite allergique saisonnière (protocole de coopération)"
+* #1686 ^designation[0].language = #fr-FR
+* #1686 ^designation[=].use.system = "http://snomed.info/sct"
+* #1686 ^designation[=].use = $sct#900000000000013009
+* #1686 ^designation[=].value = "Renouvellement du traitement de la rhino-conjonctivite allergique saisonnière"
+* #1686 ^property[0].code = #dateValid
+* #1686 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1686 ^property[+].code = #dateMaj
+* #1686 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1686 ^property[+].code = #status
+* #1686 ^property[=].valueCode = #active
+* #1687 "Distribution de comprimés d’iode en application du Plan Particulier d’Intervention (PPI)"
+* #1687 ^designation[0].language = #fr-FR
+* #1687 ^designation[=].use.system = "http://snomed.info/sct"
+* #1687 ^designation[=].use = $sct#900000000000013009
+* #1687 ^designation[=].value = "Distribution de comprimés d’iode en application du PPI"
+* #1687 ^property[0].code = #dateValid
+* #1687 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1687 ^property[+].code = #dateMaj
+* #1687 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1687 ^property[+].code = #status
+* #1687 ^property[=].valueCode = #active
+* #1688 "Remise du kit de dépistage du cancer colorectal"
+* #1688 ^property[0].code = #dateValid
+* #1688 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1688 ^property[+].code = #dateMaj
+* #1688 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #1688 ^property[+].code = #status
+* #1688 ^property[=].valueCode = #active
