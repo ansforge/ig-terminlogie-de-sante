@@ -2222,3 +2222,10 @@ Description: "Equipement"
 * #255 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #255 ^property[+].code = #status
 * #255 ^property[=].valueCode = #active
+* #256 "Accompagnement à l’essai de fauteuil roulant"
+* #256 ^property[0].code = #dateValid
+* #256 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #256 ^property[+].code = #dateMaj
+* #256 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #256 ^property[+].code = #status
+* #256 ^property[=].valueCode = #active

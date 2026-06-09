@@ -2757,11 +2757,15 @@ Description: "Activite Operationnelle"
 * #333 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
 * #333 ^property[+].code = #status
 * #333 ^property[=].valueCode = #active
-* #334 "Activité de prévention" "Ensemble des activités et techniques visant à éviter ou réduire le nombre et la gravité des maladies, des accidents et des handicaps."
+* #334 "Activité de dépistage et de prévention" "Ensemble des activités et techniques visant à éviter ou réduire le nombre et la gravité des maladies, des accidents et des handicaps."
+* #334 ^designation.language = #fr-FR
+* #334 ^designation.use.system = "http://snomed.info/sct"
+* #334 ^designation.use = $sct#900000000000013009
+* #334 ^designation.value = "Activité de prévention"
 * #334 ^property[0].code = #dateValid
 * #334 ^property[=].valueDateTime = "2018-03-30T12:00:00+01:00"
 * #334 ^property[+].code = #dateMaj
-* #334 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #334 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #334 ^property[+].code = #status
 * #334 ^property[=].valueCode = #active
 * #335 "Coordination de parcours complexes" "Organisation et coordination des interventions des différents acteurs identifiés lorsqu'un risque de rupture de parcours est identifié ou que la rupture est avérée. Une accumulation de paramètres vient dessiner cette situation complexe : sur le plan social, économique, environnemental, culturel…"
@@ -3006,18 +3010,18 @@ Description: "Activite Operationnelle"
 * #368 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #368 ^property[+].code = #status
 * #368 ^property[=].valueCode = #active
-* #369 "Soins intensifs spécialisés néonatalogique"
+* #369 "Soins intensifs spécialisés néonatalogie"
 * #369 ^property[0].code = #dateValid
 * #369 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #369 ^property[+].code = #dateMaj
-* #369 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
+* #369 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #369 ^property[+].code = #status
 * #369 ^property[=].valueCode = #active
-* #370 "Soins intensifs spécialisés pédiatrique"
+* #370 "Dispensation de médicaments et autres produits de santé appartenant au monopole pharmaceutique"
 * #370 ^property[0].code = #dateValid
 * #370 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #370 ^property[+].code = #dateMaj
-* #370 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
+* #370 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #370 ^property[+].code = #status
 * #370 ^property[=].valueCode = #active
 * #371 "Soins intensifs spécialisés néphrologique"
@@ -4938,3 +4942,21 @@ Description: "Activite Operationnelle"
 * #627 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #627 ^property[+].code = #status
 * #627 ^property[=].valueCode = #active
+* #628 "Dispensation de médicaments et autres produits de santé appartenant au monopole pharmaceutique"
+* #628 ^designation[0].language = #fr-FR
+* #628 ^designation[=].use.system = "http://snomed.info/sct"
+* #628 ^designation[=].use = $sct#900000000000013009
+* #628 ^designation[=].value = "Dispense de médicaments et autres produits de santé du monopole pharma"
+* #628 ^property[0].code = #dateValid
+* #628 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #628 ^property[+].code = #dateMaj
+* #628 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #628 ^property[+].code = #status
+* #628 ^property[=].valueCode = #active
+* #629 "Conseil et accompagnement dans la gestion des traitements"
+* #629 ^property[0].code = #dateValid
+* #629 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #629 ^property[+].code = #dateMaj
+* #629 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #629 ^property[+].code = #status
+* #629 ^property[=].valueCode = #active

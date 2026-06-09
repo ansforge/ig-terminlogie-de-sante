@@ -13812,34 +13812,27 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1679 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1679 ^property[+].code = #status
 * #1679 ^property[=].valueCode = #active
-* #1680 "Réseau France Santé"
+* #1680 "Autorisation par l’ARS pour la sous-traitance de préparation pharmaceutique"
 * #1680 ^property[0].code = #dateValid
 * #1680 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1680 ^property[+].code = #dateMaj
 * #1680 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1680 ^property[+].code = #status
 * #1680 ^property[=].valueCode = #active
-* #1681 "Autorisation par l’ARS pour la sous-traitance de préparation pharmaceutique"
+* #1681 "Orthèses et prothèses externes (orthopédie sur mesure)"
 * #1681 ^property[0].code = #dateValid
 * #1681 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1681 ^property[+].code = #dateMaj
 * #1681 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1681 ^property[+].code = #status
 * #1681 ^property[=].valueCode = #active
-* #1682 "Orthèses et prothèses externes (orthopédie sur mesure)"
+* #1682 "Orthèses et prothèses externes (de série)"
 * #1682 ^property[0].code = #dateValid
 * #1682 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1682 ^property[+].code = #dateMaj
 * #1682 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1682 ^property[+].code = #status
 * #1682 ^property[=].valueCode = #active
-* #1683 "Orthèses et prothèses externes (de série)"
-* #1683 ^property[0].code = #dateValid
-* #1683 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
-* #1683 ^property[+].code = #dateMaj
-* #1683 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
-* #1683 ^property[+].code = #status
-* #1683 ^property[=].valueCode = #active
 * #1683 "Optique lunetterie"
 * #1683 ^property[0].code = #dateValid
 * #1683 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
@@ -13855,7 +13848,6 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1684 ^property[+].code = #status
 * #1684 ^property[=].valueCode = #active
 * #1685 "Prise en charge de l’éruption cutanée vésiculeuse prurigineuse chez l’enfant (protocole de coopération)"
-* #1685 ^designation[0].language = #fr-FR
 * #1685 ^designation[=].use.system = "http://snomed.info/sct"
 * #1685 ^designation[=].use = $sct#900000000000013009
 * #1685 ^designation[=].value = "Prise en charge de l’éruption cutanée vésiculeuse prurigineuse chez l’enfant"
@@ -13866,10 +13858,10 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1685 ^property[+].code = #status
 * #1685 ^property[=].valueCode = #active
 * #1686 "Renouvellement du traitement de la rhino-conjonctivite allergique saisonnière (protocole de coopération)"
-* #1686 ^designation[0].language = #fr-FR
 * #1686 ^designation[=].use.system = "http://snomed.info/sct"
 * #1686 ^designation[=].use = $sct#900000000000013009
 * #1686 ^designation[=].value = "Renouvellement du traitement de la rhino-conjonctivite allergique saisonnière"
+* #1686 ^designation[0].language = #fr-FR
 * #1686 ^property[0].code = #dateValid
 * #1686 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1686 ^property[+].code = #dateMaj
@@ -13877,7 +13869,6 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1686 ^property[+].code = #status
 * #1686 ^property[=].valueCode = #active
 * #1687 "Distribution de comprimés d’iode en application du Plan Particulier d’Intervention (PPI)"
-* #1687 ^designation[0].language = #fr-FR
 * #1687 ^designation[=].use.system = "http://snomed.info/sct"
 * #1687 ^designation[=].use = $sct#900000000000013009
 * #1687 ^designation[=].value = "Distribution de comprimés d’iode en application du PPI"
@@ -13888,6 +13879,7 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1687 ^property[+].code = #status
 * #1687 ^property[=].valueCode = #active
 * #1688 "Remise du kit de dépistage du cancer colorectal"
+* #1688 ^designation[0].language = #fr-FR
 * #1688 ^property[0].code = #dateValid
 * #1688 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1688 ^property[+].code = #dateMaj
