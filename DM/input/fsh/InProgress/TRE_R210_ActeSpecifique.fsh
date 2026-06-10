@@ -13848,6 +13848,7 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1684 ^property[+].code = #status
 * #1684 ^property[=].valueCode = #active
 * #1685 "Prise en charge de l’éruption cutanée vésiculeuse prurigineuse chez l’enfant (protocole de coopération)"
+* #1685 ^designation[0].language = #fr-FR
 * #1685 ^designation[=].use.system = "http://snomed.info/sct"
 * #1685 ^designation[=].use = $sct#900000000000013009
 * #1685 ^designation[=].value = "Prise en charge de l’éruption cutanée vésiculeuse prurigineuse chez l’enfant"
@@ -13858,6 +13859,7 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1685 ^property[+].code = #status
 * #1685 ^property[=].valueCode = #active
 * #1686 "Renouvellement du traitement de la rhino-conjonctivite allergique saisonnière (protocole de coopération)"
+* #1686 ^designation[0].language = #fr-FR
 * #1686 ^designation[=].use.system = "http://snomed.info/sct"
 * #1686 ^designation[=].use = $sct#900000000000013009
 * #1686 ^designation[=].value = "Renouvellement du traitement de la rhino-conjonctivite allergique saisonnière"
@@ -13869,6 +13871,7 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1686 ^property[+].code = #status
 * #1686 ^property[=].valueCode = #active
 * #1687 "Distribution de comprimés d’iode en application du Plan Particulier d’Intervention (PPI)"
+* #1687 ^designation[0].language = #fr-FR
 * #1687 ^designation[=].use.system = "http://snomed.info/sct"
 * #1687 ^designation[=].use = $sct#900000000000013009
 * #1687 ^designation[=].value = "Distribution de comprimés d’iode en application du PPI"
