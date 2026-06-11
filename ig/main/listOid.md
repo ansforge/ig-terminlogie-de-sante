@@ -32,6 +32,7 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | CISP_2 | https://smt.esante.gouv.fr/terminologie-cisp | 2.16.840.1.113883.6.139 |
 | Catalogue_Vaccins | https://smt.esante.gouv.fr/terminologie-catalogue-vaccins |  |
 | ClaDiMed | https://smt.esante.gouv.fr/terminologie-cladimed | 1.2.250.1.213.2.65 |
+| Classification_internationale_du_fonctionnement_du_handicap_et_de_la_sante_ICF | https://smt.esante.gouv.fr/terminologie-icf |  |
 | ConceptProperties | https://smt.esante.gouv.fr/fhir/concept-properties |  |
 | ConditionClinicalStatusCodes | http://terminology.hl7.org/CodeSystem/condition-clinical | 2.16.840.1.113883.4.642.1.1074 |
 | ConditionClinicalSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/condition-clinical-supplement-fr |  |

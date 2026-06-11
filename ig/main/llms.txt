@@ -333,6 +333,7 @@
 * [Classification internationale des soins primaires - 2ème version](CodeSystem-terminologie-cisp.md)
 * [Classification des dispositifs médicaux](CodeSystem-terminologie-cladimed.md)
 * [European Medical device nomenclature](CodeSystem-terminologie-emdn.md)
+* [Classification internationale du fonctionnement, du handicap et de la santé](CodeSystem-terminologie-icf.md)
 * [Liste des Actes Inovants Hors Nomenclature](CodeSystem-terminologie-lahn.md)
 * [Nomenclature des actes de biologie médicale](CodeSystem-terminologie-nabm.md)
 * [Nomenclature Unifiée des Vaccins](CodeSystem-terminologie-nuva.md)

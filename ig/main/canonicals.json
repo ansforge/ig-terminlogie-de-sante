@@ -9939,6 +9939,13 @@
   "oids" : ["1.2.250.1.213.2.68"]
 },
 {
+  "id" : "terminologie-icf",
+  "type" : "CodeSystem",
+  "url" : "https://smt.esante.gouv.fr/terminologie-icf",
+  "version" : "2026-01",
+  "name" : "Classification_internationale_du_fonctionnement_du_handicap_et_de_la_sante_ICF"
+},
+{
   "id" : "terminologie-lahn",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/terminologie-lahn",

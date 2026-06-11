@@ -3221,6 +3221,14 @@
     "oids" : ["1.2.250.1.213.2.68"]
   },
   {
+    "url" : "https://smt.esante.gouv.fr/terminologie-icf",
+    "version" : "2026-01",
+    "status" : "active",
+    "name" : "Classification_internationale_du_fonctionnement_du_handicap_et_de_la_sante_ICF",
+    "title" : "Classification internationale du fonctionnement, du handicap et de la santé",
+    "description" : "Classification internationale du fonctionnement, du handicap et de la santé."
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/terminologie-lahn",
     "version" : "2026 v1.0",
     "status" : "active",
