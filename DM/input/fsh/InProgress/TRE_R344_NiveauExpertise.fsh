@@ -468,3 +468,34 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * #48 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #48 ^property[+].code = #status
 * #48 ^property[=].valueCode = #active
+* #49 "Agrément Fédération Européenne des Services d'Urgence de la Main (FESUM) - SOS mains"
+* #49 ^designation[0].language = #fr-FR
+* #49 ^designation[=].use = $sct#900000000000013009
+* #49 ^designation[=].value = "Agrément Fédération Européenne des Services d'Urgence de la Main - SOS mains"
+* #49 ^property[0].code = #dateValid
+* #49 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #49 ^property[+].code = #dateMaj
+* #49 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #49 ^property[+].code = #status
+* #49 ^property[=].valueCode = #active
+* #50 "Centre de Traitement des Brûlés (CTB)"
+* #50 ^property[0].code = #dateValid
+* #50 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #50 ^property[+].code = #dateMaj
+* #50 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #50 ^property[+].code = #status
+* #50 ^property[=].valueCode = #active
+* #51 "Réseau France Santé"
+* #51 ^property[0].code = #dateValid
+* #51 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #51 ^property[+].code = #dateMaj
+* #51 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #51 ^property[+].code = #status
+* #51 ^property[=].valueCode = #active
+* #51 "Autorisation par l’ARS pour la sous-traitance de préparation pharmaceutique"
+* #51 ^property[0].code = #dateValid
+* #51 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #51 ^property[+].code = #dateMaj
+* #51 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #51 ^property[+].code = #status
+* #51 ^property[=].valueCode = #active
