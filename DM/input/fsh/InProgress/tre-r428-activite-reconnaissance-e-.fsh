@@ -1,7 +1,7 @@
 CodeSystem: TreR428ActiviteReconnaissanceECars
 Id: tre-r428-activite-reconnaissance-e-cars
 Title: "Tre R428 Ativite Reconnaissance E CARS"
-Description: "Nomenclature E-CARS des activites autorisees/exercées à reconnaissance"
+Description: "Nomenclature E-CARS des activites autorisées/exercées à reconnaissance"
 * ^meta.versionId = "8"
 * ^meta.lastUpdated = "2026-06-11T18:18:27.409+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
