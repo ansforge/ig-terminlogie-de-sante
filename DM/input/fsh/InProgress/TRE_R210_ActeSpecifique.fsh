@@ -13679,7 +13679,11 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1664 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1664 ^property[+].code = #status
 * #1664 ^property[=].valueCode = #active
-* #1665 "Evaluation orthoptique de la fonction visuelle et/ou prise en soins avec l'ajustement des aides optiques et nouvelles technologies dans le cadre d'handicap de la fonction visuelle (RV)"
+* #1665 "Evaluation orthoptique et/ou prise en soins avec ajustement d'aide optique et nouvelle technologie associé à un handicap de la fonction visuelle (RV)"
+* #1665 ^designation[0].language = #fr-FR
+* #1665 ^designation[=].use.system = "http://snomed.info/sct"
+* #1665 ^designation[=].use = $sct#900000000000013009
+* #1665 ^designation[=].value = "Eval orthopt / prise en soins d'un handicap visuel. avec d'aide optique et tech."
 * #1665 ^property[0].code = #dateValid
 * #1665 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #1665 ^property[+].code = #dateMaj
