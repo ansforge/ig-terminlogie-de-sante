@@ -492,10 +492,10 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * #51 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #51 ^property[+].code = #status
 * #51 ^property[=].valueCode = #active
-* #51 "Autorisation par l’ARS pour la sous-traitance de préparation pharmaceutique"
-* #51 ^property[0].code = #dateValid
-* #51 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
-* #51 ^property[+].code = #dateMaj
-* #51 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
-* #51 ^property[+].code = #status
-* #51 ^property[=].valueCode = #active
+* #52 "Autorisation par l’ARS pour la sous-traitance de préparation pharmaceutique"
+* #52 ^property[0].code = #dateValid
+* #52 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #52 ^property[+].code = #dateMaj
+* #52 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #52 ^property[+].code = #status
+* #52 ^property[=].valueCode = #active
