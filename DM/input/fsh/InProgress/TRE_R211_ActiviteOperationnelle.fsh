@@ -3017,7 +3017,7 @@ Description: "Activite Operationnelle"
 * #369 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #369 ^property[+].code = #status
 * #369 ^property[=].valueCode = #active
-* #370 "Dispensation de médicaments et autres produits de santé appartenant au monopole pharmaceutique"
+* #370 "Soins intensifs spécialisés pédiatrie"
 * #370 ^property[0].code = #dateValid
 * #370 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #370 ^property[+].code = #dateMaj
