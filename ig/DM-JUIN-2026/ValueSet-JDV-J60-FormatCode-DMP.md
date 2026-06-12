@@ -274,6 +274,10 @@ Requête sur le SMT
       {
         "code" : "urn:ans:ci-sis:trod:2024",
         "display" : "Test rapide d'orientation diagnostique"
+      },
+      {
+        "code" : "urn:asip#urn:ihe:iti-fr:xds-sd:jpeg:2010",
+        "display" : "Document à corps non structuré en format jpeg"
       }]
     },
     {
@@ -293,18 +297,6 @@ Requête sur le SMT
       {
         "code" : "urn:ihe:pharm:dis:2010",
         "display" : "Dispensation médicamenteuse"
-      },
-      {
-        "code" : "urn:ihe:iti-fr:xds-sd:jpeg:2010",
-        "display" : "Document à corps non structuré en format jpeg"
-      },
-      {
-        "code" : "urn:ihe:iti-fr:xds-sd:rtf:2010",
-        "display" : "Document à corps non structuré en format rtf"
-      },
-      {
-        "code" : "urn:ihe:iti-fr:xds-sd:tiff:2010",
-        "display" : "Document à corps non structuré en format tiff"
       },
       {
         "code" : "urn:ihe:lab:xd-lab:2008",
@@ -335,7 +327,7 @@ Requête sur le SMT
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_A09-DICOMuidRegistry/FHIR/TRE-A09-DICOMuidRegistry",
       "concept" : [{
         "code" : "1.2.840.10008.5.1.4.1.1.88.59",
-        "display" : "Document Références d'objets d'un examen d'imagerie selon profil IHE RAD XDS-I"
+        "display" : "Key Object Selection Document Storage"
       }]
     },
     {
