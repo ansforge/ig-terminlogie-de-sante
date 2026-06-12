@@ -3336,9 +3336,9 @@
                   dateFin=""
                   dateMaj="20260629120000"
                   dateValid="20190329120000"
-                  displayName="Dispensation de médicaments et autres produits de santé appartenant au monopole pharmaceutique"
-                  longDesignation="Dispensation de médicaments et autres produits de santé appartenant au monopole pharmaceutique"
-                  shortDesignation="Dispensation de médicaments et autres produits de santé appartenant au monopole pharmaceutique"
+                  displayName="Soins intensifs spécialisés pédiatrie"
+                  longDesignation="Soins intensifs spécialisés pédiatrie"
+                  shortDesignation="Soins intensifs spécialisés pédiatrie"
                   descriptionMetier=""/>
          <Concept code="371"
                   codeSystem="1.2.250.1.213.3.3.12"

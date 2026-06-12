@@ -6873,7 +6873,7 @@ Activite Operationnelle
   },
   {
     "code" : "370",
-    "display" : "Dispensation de médicaments et autres produits de santé appartenant au monopole pharmaceutique",
+    "display" : "Soins intensifs spécialisés pédiatrie",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"

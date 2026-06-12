@@ -164,8 +164,8 @@
     "sources" : ["1.2.250.1.213.1.1.5.465"],
     "uses" : {
     },
-    "ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.html" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS",
-    "ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.html" : "ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS"
+    "ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.html" : "ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS",
+    "ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.html" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS"
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J100-FinessStatutJuridique-RASS/FHIR/JDV-J100-FinessStatutJuridique-RASS",
@@ -1709,8 +1709,7 @@
     "name" : "JDV_J227_NiveauExpertise_ROR",
     "title" : null,
     "description" : "Niveau de ressources humaines et matérielles utiles pour la réalisation de l'offre",
-    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique",
-    "https://mos.esante.gouv.fr/NOS/TRE_R253-TypeMaternite/FHIR/TRE-R253-TypeMaternite",
+    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R253-TypeMaternite/FHIR/TRE-R253-TypeMaternite",
     "https://mos.esante.gouv.fr/NOS/TRE_R344-NiveauExpertise/FHIR/TRE-R344-NiveauExpertise"],
     "oids" : ["1.2.250.1.213.3.4.59"],
     "sources" : ["1.2.250.1.213.3.4.59"]
@@ -9737,8 +9736,8 @@
     "systems" : ["https://smt.esante.gouv.fr/terminologie-bdpm"],
     "uses" : {
     },
-    "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM",
-    "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD"
+    "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD",
+    "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM"
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-cip_ucd?vs",
@@ -9763,8 +9762,8 @@
     "systems" : ["https://smt.esante.gouv.fr/terminologie-nuva"],
     "uses" : {
     },
-    "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM",
-    "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD"
+    "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD",
+    "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM"
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-sms?vs",

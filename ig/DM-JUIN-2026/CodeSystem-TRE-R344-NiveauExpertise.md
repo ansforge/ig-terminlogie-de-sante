@@ -58,7 +58,7 @@ Le niveau d’expertise atteste du niveau de ressources humaines et matérielles
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 39,
+  "count" : 43,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -1026,6 +1026,78 @@ Le niveau d’expertise atteste du niveau de ressources humaines et matérielles
     {
       "code" : "dateMaj",
       "valueDateTime" : "2025-12-22T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "49",
+    "display" : "Agrément Fédération Européenne des Services d'Urgence de la Main (FESUM) - SOS mains",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Agrément Fédération Européenne des Services d'Urgence de la Main - SOS mains"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "50",
+    "display" : "Centre de Traitement des Brûlés (CTB)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "51",
+    "display" : "Réseau France Santé",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "52",
+    "display" : "Autorisation par l’ARS pour la sous-traitance de préparation pharmaceutique",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
     },
     {
       "code" : "status",

@@ -261,24 +261,21 @@ Requête sur le SMT
       {
         "code" : "48",
         "display" : "Centre de ressources et de compétences sclérose en plaques (SEP)"
-      }]
-    },
-    {
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique",
-      "concept" : [{
-        "code" : "0068",
-        "display" : "Chirurgie SOS main (Agrément FESUM Fédération européenne des services d'urgence de la main)"
       },
       {
-        "code" : "1641",
+        "code" : "49",
+        "display" : "Agrément Fédération Européenne des Services d'Urgence de la Main (FESUM) - SOS mains"
+      },
+      {
+        "code" : "50",
         "display" : "Centre de Traitement des Brûlés (CTB)"
       },
       {
-        "code" : "1679",
+        "code" : "51",
         "display" : "Réseau France Santé"
       },
       {
-        "code" : "1681",
+        "code" : "52",
         "display" : "Autorisation par l’ARS pour la sous-traitance de préparation pharmaceutique"
       }]
     }]

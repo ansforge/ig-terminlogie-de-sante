@@ -3642,7 +3642,7 @@
                   displayName="Centre de compétence centre mémoire ressources et recherche (CMRR)"/>
          <Concept code="1578"
                   codeSystem="1.2.250.1.213.3.3.11"
-                  displayName="Centre expert maladie de Parkinson"/>
+                  displayName="Centre expert en maladie de Parkinson"/>
          <Concept code="1579"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Centre de ressources et de compétences sclérose en plaques (SEP)"/>

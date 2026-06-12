@@ -18,7 +18,6 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J16_ActeSpecifique_ROR](ValueSet-JDV-J16-ActeSpecifique-ROR.md)
-* [JDV_J227_NiveauExpertise_ROR](ValueSet-JDV-J227-NiveauExpertise-ROR.md)
 * [JDV_J69_ActiviteOperationnelle_Santefr](ValueSet-JDV-J69-ActiviteOperationnelle-Santefr.md)
 
 
@@ -29463,7 +29462,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1578",
-    "display" : "Centre expert maladie de Parkinson",
+    "display" : "Centre expert en maladie de Parkinson",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2025-12-22T12:00:00+01:00"
@@ -31015,7 +31014,15 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1665",
-    "display" : "Evaluation orthoptique de la fonction visuelle et/ou prise en soins avec l'ajustement des aides optiques et nouvelles technologies dans le cadre d'handicap de la fonction visuelle (RV)",
+    "display" : "Evaluation orthoptique et/ou prise en soins avec ajustement d'aide optique et nouvelle technologie associé à un handicap de la fonction visuelle (RV)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Eval orthopt / prise en soins d'un handicap visuel. avec d'aide optique et tech."
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-06-29T12:00:00+01:00"

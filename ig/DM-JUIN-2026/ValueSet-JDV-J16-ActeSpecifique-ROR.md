@@ -4929,7 +4929,7 @@ Requête sur le SMT
       },
       {
         "code" : "1578",
-        "display" : "Centre expert maladie de Parkinson"
+        "display" : "Centre expert en maladie de Parkinson"
       },
       {
         "code" : "1579",

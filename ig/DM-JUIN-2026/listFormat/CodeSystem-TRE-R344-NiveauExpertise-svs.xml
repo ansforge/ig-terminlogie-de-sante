@@ -361,6 +361,42 @@
                   longDesignation="Centre de ressources et de compétences sclérose en plaques (SEP)"
                   shortDesignation="Centre de ressources SEP"
                   descriptionMetier=""/>
+         <Concept code="49"
+                  codeSystem="1.2.250.1.213.3.3.228"
+                  dateFin=""
+                  dateMaj="20260629120000"
+                  dateValid="20260629120000"
+                  displayName="Agrément Fédération Européenne des Services d'Urgence de la Main (FESUM) - SOS mains"
+                  longDesignation="Agrément Fédération Européenne des Services d'Urgence de la Main - SOS mains"
+                  shortDesignation="Agrément Fédération Européenne des Services d'Urgence de la Main (FESUM) - SOS mains"
+                  descriptionMetier=""/>
+         <Concept code="50"
+                  codeSystem="1.2.250.1.213.3.3.228"
+                  dateFin=""
+                  dateMaj="20260629120000"
+                  dateValid="20260629120000"
+                  displayName="Centre de Traitement des Brûlés (CTB)"
+                  longDesignation="Centre de Traitement des Brûlés (CTB)"
+                  shortDesignation="Centre de Traitement des Brûlés (CTB)"
+                  descriptionMetier=""/>
+         <Concept code="51"
+                  codeSystem="1.2.250.1.213.3.3.228"
+                  dateFin=""
+                  dateMaj="20260629120000"
+                  dateValid="20260629120000"
+                  displayName="Réseau France Santé"
+                  longDesignation="Réseau France Santé"
+                  shortDesignation="Réseau France Santé"
+                  descriptionMetier=""/>
+         <Concept code="52"
+                  codeSystem="1.2.250.1.213.3.3.228"
+                  dateFin=""
+                  dateMaj="20260629120000"
+                  dateValid="20260629120000"
+                  displayName="Autorisation par l’ARS pour la sous-traitance de préparation pharmaceutique"
+                  longDesignation="Autorisation par l’ARS pour la sous-traitance de préparation pharmaceutique"
+                  shortDesignation="Autorisation par l’ARS pour la sous-traitance de préparation pharmaceutique"
+                  descriptionMetier=""/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

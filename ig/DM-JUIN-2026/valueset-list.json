@@ -1673,8 +1673,7 @@
     "name" : "JDV_J227_NiveauExpertise_ROR",
     "title" : null,
     "description" : "Niveau de ressources humaines et matérielles utiles pour la réalisation de l'offre",
-    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique",
-    "https://mos.esante.gouv.fr/NOS/TRE_R253-TypeMaternite/FHIR/TRE-R253-TypeMaternite",
+    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R253-TypeMaternite/FHIR/TRE-R253-TypeMaternite",
     "https://mos.esante.gouv.fr/NOS/TRE_R344-NiveauExpertise/FHIR/TRE-R344-NiveauExpertise"],
     "oids" : ["1.2.250.1.213.3.4.59"],
     "sources" : ["1.2.250.1.213.3.4.59"]

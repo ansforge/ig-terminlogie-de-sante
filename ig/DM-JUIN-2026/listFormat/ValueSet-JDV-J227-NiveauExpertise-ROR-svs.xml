@@ -139,17 +139,17 @@
          <Concept code="48"
                   codeSystem="1.2.250.1.213.3.3.228"
                   displayName="Centre de ressources et de compétences sclérose en plaques (SEP)"/>
-         <Concept code="0068"
-                  codeSystem="1.2.250.1.213.3.3.11"
-                  displayName="Chirurgie SOS main (Agrément FESUM Fédération européenne des services d'urgence de la main)"/>
-         <Concept code="1641"
-                  codeSystem="1.2.250.1.213.3.3.11"
+         <Concept code="49"
+                  codeSystem="1.2.250.1.213.3.3.228"
+                  displayName="Agrément Fédération Européenne des Services d'Urgence de la Main (FESUM) - SOS mains"/>
+         <Concept code="50"
+                  codeSystem="1.2.250.1.213.3.3.228"
                   displayName="Centre de Traitement des Brûlés (CTB)"/>
-         <Concept code="1679"
-                  codeSystem="1.2.250.1.213.3.3.11"
+         <Concept code="51"
+                  codeSystem="1.2.250.1.213.3.3.228"
                   displayName="Réseau France Santé"/>
-         <Concept code="1681"
-                  codeSystem="1.2.250.1.213.3.3.11"
+         <Concept code="52"
+                  codeSystem="1.2.250.1.213.3.3.228"
                   displayName="Autorisation par l’ARS pour la sous-traitance de préparation pharmaceutique"/>
       </ConceptList>
    </ValueSet>
