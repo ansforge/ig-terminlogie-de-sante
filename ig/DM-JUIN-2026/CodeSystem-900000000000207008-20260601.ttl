@@ -21,16 +21,12 @@
      a fhir:Provenance ;
      fhir:id [ fhir:v "7895a2a8-0c60-4e73-a082-58e4a466a5a9" ] ;
      fhir:target ( [
-       fhir:l fhir:900000000000207008-20260601 ;
        fhir:reference [ fhir:v "900000000000207008-20260601" ]
      ] ) ;
      fhir:recorded [ fhir:v "2026-06-02T11:19:42.775+02:00"^^xsd:dateTime ] ;
      fhir:activity [
        fhir:coding ( [
-         fhir:system [
-           fhir:v "http://hl7.org/fhir/w3c-provenance-activity-type"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/w3c-provenance-activity-type>
-         ] ;
+         fhir:system [ fhir:v "http://hl7.org/fhir/w3c-provenance-activity-type"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "Derivation" ] ;
          fhir:display [ fhir:v "wasDerivedFrom" ]
        ] )
@@ -38,22 +34,17 @@
      fhir:agent ( [
        fhir:role ( [
          fhir:coding ( [
-           fhir:system [
-             fhir:v "http://terminology.hl7.org/CodeSystem/extra-security-role-type"^^xsd:anyURI ;
-             fhir:l <http://terminology.hl7.org/CodeSystem/extra-security-role-type>
-           ] ;
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/extra-security-role-type"^^xsd:anyURI ] ;
            fhir:code [ fhir:v "dataprocessor" ]
          ] )
        ] ) ;
        fhir:who [
-         fhir:l <#3fb0503f-29bf-4f46-be6d-2eba4efd8f08> ;
          fhir:reference [ fhir:v "#3fb0503f-29bf-4f46-be6d-2eba4efd8f08" ]
        ]
      ] ) ;
      fhir:entity ( [
        fhir:role [ fhir:v "source" ] ;
        fhir:what [
-         fhir:l <#80555359-2dd5-4447-bfff-5e042dd0093a> ;
          fhir:reference [ fhir:v "#80555359-2dd5-4447-bfff-5e042dd0093a" ]
        ]
      ] )
@@ -61,10 +52,7 @@
      a fhir:Device ;
      fhir:id [ fhir:v "3fb0503f-29bf-4f46-be6d-2eba4efd8f08" ] ;
      fhir:identifier ( [
-       fhir:system [
-         fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
-         fhir:l <urn:ietf:rfc:3986>
-       ] ;
+       fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
        fhir:value [ fhir:v "http://ontoserver.csiro.au" ]
      ] ) ;
      fhir:version ( [
@@ -76,53 +64,31 @@
      fhir:status [ fhir:v "current" ] ;
      fhir:content ( [
        fhir:attachment [
-         fhir:url [
-           fhir:v "file:/tmp/rawdata-7840854850701799640.zip"^^xsd:anyURI ;
-           fhir:l <https://interop.esante.gouv.fr/terminologies/file:/tmp/rawdata-7840854850701799640.zip>
-         ] ;
+         fhir:url [ fhir:v "file:/tmp/rawdata-7840854850701799640.zip"^^xsd:anyURI ] ;
          fhir:title [ fhir:v "RF2_SOURCE_SNAPSHOT" ]
        ]
      ] )
   ] ) ; # 
   fhir:extension ( [
      fhir:extension ( [
-       fhir:url [
-         fhir:v "provenance"^^xsd:anyURI ;
-         fhir:l fhir:provenance
-       ] ;
+       fhir:url [ fhir:v "provenance"^^xsd:anyURI ] ;
        fhir:value [
          a fhir:Reference ;
-         fhir:l <#7895a2a8-0c60-4e73-a082-58e4a466a5a9> ;
          fhir:reference [ fhir:v "#7895a2a8-0c60-4e73-a082-58e4a466a5a9" ]
        ]
      ] [
-       fhir:url [
-         fhir:v "source"^^xsd:anyURI ;
-         fhir:l fhir:source
-       ] ;
+       fhir:url [ fhir:v "source"^^xsd:anyURI ] ;
        fhir:value [
          a fhir:Attachment ;
-         fhir:url [
-           fhir:v "file:/tmp/rawdata-7840854850701799640.zip"^^xsd:anyURI ;
-           fhir:l <https://interop.esante.gouv.fr/terminologies/file:/tmp/rawdata-7840854850701799640.zip>
-         ] ;
+         fhir:url [ fhir:v "file:/tmp/rawdata-7840854850701799640.zip"^^xsd:anyURI ] ;
          fhir:title [ fhir:v "RF2_SOURCE_SNAPSHOT" ]
        ]
      ] ) ;
-     fhir:url [
-       fhir:v "http://ontoserver.csiro.au/profiles/cs-provenance"^^xsd:anyURI ;
-       fhir:l <http://ontoserver.csiro.au/profiles/cs-provenance>
-     ]
+     fhir:url [ fhir:v "http://ontoserver.csiro.au/profiles/cs-provenance"^^xsd:anyURI ]
   ] ) ; # 
-  fhir:url [
-     fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-     fhir:l <http://snomed.info/sct>
-  ] ; # 
+  fhir:url [ fhir:v "http://snomed.info/sct"^^xsd:anyURI] ; # 
   fhir:identifier ( [
-     fhir:system [
-       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
-       fhir:l <urn:ietf:rfc:3986>
-     ] ;
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.96" ]
   ] ) ; # 
   fhir:version [ fhir:v "http://snomed.info/sct/900000000000207008/version/20260601"] ; # 
@@ -135,10 +101,7 @@
   fhir:description [ fhir:v "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO)."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
-       fhir:system [
-         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
-         fhir:l <urn:iso:std:iso:3166>
-       ] ;
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "FRA" ]
      ] )
   ] ) ; # 
@@ -146,7 +109,7 @@
   fhir:caseSensitive [ fhir:v true] ; # 
   fhir:valueSet [
      fhir:v "http://snomed.info/sct/900000000000207008/version/20260601?fhir_vs"^^xsd:anyURI ;
-     fhir:l <http://snomed.info/sct/900000000000207008/version/20260601?fhir_vs>
+     fhir:link <http://snomed.info/sct/900000000000207008/version/20260601?fhir_vs>
   ] ; # 
   fhir:hierarchyMeaning [ fhir:v "is-a"] ; # 
   fhir:compositional [ fhir:v true] ; # 

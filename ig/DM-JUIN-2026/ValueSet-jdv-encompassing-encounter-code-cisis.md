@@ -46,7 +46,20 @@ Requête sur le SMT
 | Definition | An explanation of the meaning of the concept |
 | Comments | Additional notes about how to use the code |
 
+| | | |
+| :--- | :--- | :--- |
+|  [<prev](ValueSet-jdv-duree-allaitement-cisis.demande.md) | [top](#top) |  [next>](ValueSet-jdv-encompassing-encounter-code-cisis-testing.md) |
 
+IG © 2020+
+[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.10.0 based on
+[FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
+2026-06-15
+
+Liens:
+[Table des matières ](toc.md)|
+[QA ](qa.md)|
+[Historique des versions ](https://interop.esante.gouv.fr/terminologies/history.html)|
+[New Issue](https://github.com/ansforge/IG-terminologie-de-sante/issues/new/choose?title=)
 
 ## Resource Content
 
@@ -88,7 +101,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
-      "version" : "2018-08-12",
+      "version" : "10.0.0",
       "concept" : [{
         "code" : "AMB",
         "display" : "Ambulatoire (hors établissement)"

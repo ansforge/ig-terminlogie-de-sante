@@ -9949,7 +9949,7 @@
   "id" : "terminologie-lahn",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/terminologie-lahn",
-  "version" : "2026 v1.0",
+  "version" : "2026-04",
   "name" : "LAHN",
   "oids" : ["1.2.250.1.213.2.79"]
 },

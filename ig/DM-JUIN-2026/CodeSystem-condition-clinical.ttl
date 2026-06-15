@@ -14,7 +14,7 @@
      fhir:lastUpdated [ fhir:v "2026-04-10T10:27:43.449+02:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
      ] )
   ] ; # 
   fhir:text [
@@ -22,33 +22,21 @@
      fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem condition-clinical</b></p><a name=\"condition-clinical\"> </a><a name=\"hccondition-clinical\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 2; Dernière mise à jour : 2026-04-10 10:27:43+0200</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p>This case-sensitive code system <code>http://terminology.hl7.org/CodeSystem/condition-clinical</code> defines the following codes dans une hiérarchie non définie:</p><table class=\"codes\"><tr><td><b>Niv</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td>1</td><td style=\"white-space:nowrap\">active<a name=\"condition-clinical-active\"> </a></td><td>Active</td><td>The subject is currently experiencing the condition or situation, there is evidence of the condition or situation, or considered to be a significant risk.</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  recurrence<a name=\"condition-clinical-recurrence\"> </a></td><td>Recurrence</td><td>The subject is experiencing a reoccurence or repeating of a previously resolved condition or situation, e.g. urinary tract infection, food insecurity.</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  relapse<a name=\"condition-clinical-relapse\"> </a></td><td>Relapse</td><td>The subject is experiencing a return of a condition or situation after a period of improvement or remission, e.g. relapse of cancer, alcoholism.</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">inactive<a name=\"condition-clinical-inactive\"> </a></td><td>Inactive</td><td>The subject is no longer experiencing the condition or situation and there is no longer evidence or appreciable risk of the condition or situation.</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  remission<a name=\"condition-clinical-remission\"> </a></td><td>Remission</td><td>The subject is not presently experiencing the condition or situation, but there is a risk of the condition or situation returning.</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  resolved<a name=\"condition-clinical-resolved\"> </a></td><td>Resolved</td><td>The subject is not presently experiencing the condition or situation and there is a negligible perceived risk of the condition or situation returning.</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">unknown<a name=\"condition-clinical-unknown\"> </a></td><td>Unknown</td><td>The authoring/source system does not know which of the status values currently applies for this condition. Note: This concept is not to be used for \"other\" - one of the listed statuses is presumed to apply, but the authoring/source system does not know which.</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
-     fhir:url [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
-     ] ;
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ] ;
      fhir:value [
-       a fhir:Code ;
+       a fhir:code ;
        fhir:v "pc"
      ]
   ] [
-     fhir:url [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
-     ] ;
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
      fhir:value [
-       a fhir:Integer ;
+       a fhir:integer ;
        fhir:v 3
      ]
   ] ) ; # 
-  fhir:url [
-     fhir:v "http://terminology.hl7.org/CodeSystem/condition-clinical"^^xsd:anyURI ;
-     fhir:l <http://terminology.hl7.org/CodeSystem/condition-clinical>
-  ] ; # 
+  fhir:url [ fhir:v "http://terminology.hl7.org/CodeSystem/condition-clinical"^^xsd:anyURI] ; # 
   fhir:identifier ( [
-     fhir:system [
-       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
-       fhir:l <urn:ietf:rfc:3986>
-     ] ;
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.4.642.1.1074" ]
   ] ) ; # 
   fhir:version [ fhir:v "3.0.0"] ; # 
@@ -70,10 +58,7 @@
   fhir:description [ fhir:v "Preferred value set for Condition Clinical Status."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
-       fhir:system [
-         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
-         fhir:l <urn:iso:std:iso:3166>
-       ] ;
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "FRA" ]
      ] )
   ] ) ; # 
@@ -81,7 +66,7 @@
   fhir:caseSensitive [ fhir:v true] ; # 
   fhir:valueSet [
      fhir:v "http://terminology.hl7.org/ValueSet/condition-clinical"^^xsd:anyURI ;
-     fhir:l <http://terminology.hl7.org/ValueSet/condition-clinical>
+     fhir:link <http://terminology.hl7.org/ValueSet/condition-clinical>
   ] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:concept ( [

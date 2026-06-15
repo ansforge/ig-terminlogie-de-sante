@@ -15,19 +15,13 @@
      fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem ObservationValue-supplement-fr</b></p><a name=\"ObservationValue-supplement-fr\"> </a><a name=\"hcObservationValue-supplement-fr\"> </a><p>This code system supplement <code>https://smt.esante.gouv.fr/fhir/CodeSystem/ObservationValue-supplement-fr</code> defines labels on the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>French (France) (fr)</b></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-ObservationValue.html#v3-ObservationValue-DS\">DS</a><a name=\"ObservationValue-supplement-fr-DS\"> </a></td><td>Journée (par exemple : entre 6h et 18h)</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-ObservationValue.html#v3-ObservationValue-EMS\">EMS</a><a name=\"ObservationValue-supplement-fr-EMS\"> </a></td><td>Matin (entre 2h et 14h)</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-ObservationValue.html#v3-ObservationValue-ES\">ES</a><a name=\"ObservationValue-supplement-fr-ES\"> </a></td><td>Après-midi (entre 14h et minuit)</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-ObservationValue.html#v3-ObservationValue-NS\">NS</a><a name=\"ObservationValue-supplement-fr-NS\"> </a></td><td>Nuit (entre 21h et 8h)</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-ObservationValue.html#v3-ObservationValue-RSWN\">RSWN</a><a name=\"ObservationValue-supplement-fr-RSWN\"> </a></td><td>Variable (journées, soirées, avec parfois des nuits)</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-ObservationValue.html#v3-ObservationValue-RSWON\">RSWON</a><a name=\"ObservationValue-supplement-fr-RSWON\"> </a></td><td>Variable (journées, soirées, sans nuits ni soirées)</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-ObservationValue.html#v3-ObservationValue-SS\">SS</a><a name=\"ObservationValue-supplement-fr-SS\"> </a></td><td>Journée avec coupure de 2 à 4 heures.</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-ObservationValue.html#v3-ObservationValue-VLS\">VLS</a><a name=\"ObservationValue-supplement-fr-VLS\"> </a></td><td>Horaires de longue durée (17h ou plus)</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-ObservationValue.html#v3-ObservationValue-VS\">VS</a><a name=\"ObservationValue-supplement-fr-VS\"> </a></td><td>Irrégulier avec information à court terme</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-ObservationValue.html#v3-ObservationValue-Employed\">Employed</a><a name=\"ObservationValue-supplement-fr-Employed\"> </a></td><td>En activité</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-ObservationValue.html#v3-ObservationValue-NotInLaborForce\">NotInLaborForce</a><a name=\"ObservationValue-supplement-fr-NotInLaborForce\"> </a></td><td>Inactif</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-ObservationValue.html#v3-ObservationValue-Unemployed\">Unemployed</a><a name=\"ObservationValue-supplement-fr-Unemployed\"> </a></td><td>Sans activité</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
-     fhir:url [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type>
-     ] ;
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"^^xsd:anyURI ] ;
      fhir:value [
-       a fhir:Code ;
+       a fhir:code ;
        fhir:v "lang-pack"
      ]
   ] ) ; # 
-  fhir:url [
-     fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/ObservationValue-supplement-fr"^^xsd:anyURI ;
-     fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/ObservationValue-supplement-fr>
-  ] ; # 
+  fhir:url [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/ObservationValue-supplement-fr"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "1.0"] ; # 
   fhir:name [ fhir:v "ObservationValueSupplementFr"] ; # 
   fhir:title [ fhir:v "ObservationValueSupplementFr"] ; # 
@@ -37,17 +31,14 @@
   fhir:description [ fhir:v "Traduction Française"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
-       fhir:system [
-         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
-         fhir:l <urn:iso:std:iso:3166>
-       ] ;
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "FRA" ]
      ] )
   ] ) ; # 
   fhir:content [ fhir:v "supplement"] ; # 
   fhir:supplements [
      fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationValue"^^xsd:anyURI ;
-     fhir:l <http://terminology.hl7.org/CodeSystem/v3-ObservationValue>
+     fhir:link <http://terminology.hl7.org/CodeSystem/v3-ObservationValue>
   ] ; # 
   fhir:concept ( [
      fhir:code [ fhir:v "DS" ] ;
@@ -55,10 +46,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Journée (par exemple : entre 6h et 18h)" ]
@@ -69,10 +57,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Matin (entre 2h et 14h)" ]
@@ -83,10 +68,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Après-midi (entre 14h et minuit)" ]
@@ -97,10 +79,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Nuit (entre 21h et 8h)" ]
@@ -111,10 +90,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Variable (journées, soirées, avec parfois des nuits)" ]
@@ -125,10 +101,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Variable (journées, soirées, sans nuits ni soirées)" ]
@@ -139,10 +112,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Journée avec coupure de 2 à 4 heures." ]
@@ -153,10 +123,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Horaires de longue durée (17h ou plus)" ]
@@ -167,10 +134,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Irrégulier avec information à court terme" ]
@@ -181,10 +145,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "En activité" ]
@@ -195,10 +156,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Inactif" ]
@@ -209,10 +167,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Sans activité" ]

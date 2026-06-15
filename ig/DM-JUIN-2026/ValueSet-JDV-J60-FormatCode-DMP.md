@@ -9,7 +9,7 @@
 | | | |
 | :--- | :--- | :--- |
 | *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J60-FormatCode-DMP/FHIR/JDV-J60-FormatCode-DMP | *Version*:20240927120000 | |
-| Active as of 2024-09-27 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J60_FormatCode_DMP |
+| Active as of 2026-06-15 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J60_FormatCode_DMP |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.8 | | |
 
  
@@ -46,7 +46,20 @@ Requête sur le SMT
 | Definition | An explanation of the meaning of the concept |
 | Comments | Additional notes about how to use the code |
 
+| | | |
+| :--- | :--- | :--- |
+|  [<prev](ValueSet-JDV-J59-ContentTypeCode-DMP.demande.md) | [top](#top) |  [next>](ValueSet-JDV-J60-FormatCode-DMP-testing.md) |
 
+IG © 2020+
+[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.10.0 based on
+[FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
+2026-06-15
+
+Liens:
+[Table des matières ](toc.md)|
+[QA ](qa.md)|
+[Historique des versions ](https://interop.esante.gouv.fr/terminologies/history.html)|
+[New Issue](https://github.com/ansforge/IG-terminologie-de-sante/issues/new/choose?title=)
 
 ## Resource Content
 
@@ -75,7 +88,7 @@ Requête sur le SMT
   "name" : "JDV_J60_FormatCode_DMP",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-09-27T12:00:00+01:00",
+  "date" : "2026-06-15T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Jeu de valeurs pour métadonnée formatCode",
   "jurisdiction" : [{

@@ -135,7 +135,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J57_ClassCode_DMP](ValueSet-JDV-J57-ClassCode-DMP.md) | Jeu de valeurs pour métadonnée classCode | 22/09/2023 | active |
 | [JDV_J58_ConfidentialityCode_DMP](ValueSet-JDV-J58-ConfidentialityCode-DMP.md) | Jeu de valeurs pour métadonnée confidentialityCode | 24/04/2020 | active |
 | [JDV_J59_ContentTypeCode_DMP](ValueSet-JDV-J59-ContentTypeCode-DMP.md) | Jeu de valeurs pour contentTypeCode | 27/09/2024 | active |
-| [JDV_J60_FormatCode_DMP](ValueSet-JDV-J60-FormatCode-DMP.md) | Jeu de valeurs pour métadonnée formatCode | 27/09/2024 | active |
+| [JDV_J60_FormatCode_DMP](ValueSet-JDV-J60-FormatCode-DMP.md) | Jeu de valeurs pour métadonnée formatCode | 15/06/2026 | active |
 | [JDV_J61_HealthcareFacilityTypeCode_DMP](ValueSet-JDV-J61-HealthcareFacilityTypeCode-DMP.md) | Jeu de valeurs pour healthcareFacilityTypeCode | 27/09/2024 | active |
 | [JDV_J62_PracticeSettingCode_DMP](ValueSet-JDV-J62-PracticeSettingCode-DMP.md) | Jeu de valeurs pour practiceSettingCode | 22/09/2023 | active |
 | [JDV_J64_RestrictionAudienceVIHF_DMP](ValueSet-JDV-J64-RestrictionAudienceVIHF-DMP.md) | Restriction d'audience pour les traces des VIHF | 24/04/2020 | active |
