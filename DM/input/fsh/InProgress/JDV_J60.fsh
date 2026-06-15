@@ -13,7 +13,7 @@ Description: "Jeu de valeurs pour métadonnée formatCode"
 * ^version = "20240927120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-09-27T12:00:00+01:00"
+* ^date = "2026-06-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-A06-FormatCodeComplementaire#urn:ans:ci-sis:bio-ep-bio:2022 "Prescription d'actes de biologie médicale"
