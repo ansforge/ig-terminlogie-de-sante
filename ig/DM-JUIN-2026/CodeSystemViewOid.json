@@ -255,6 +255,94 @@
   "status" : "draft"
 },
 {
+  "id" : "tre-r364-type-document-administratif",
+  "name" : "TreR364TypeDocumentAdministratif",
+  "title" : "Tre R364 Type Document Administratif",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r364-type-document-administratif",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.258",
+  "status" : "active"
+},
+{
+  "id" : "tre-r365-etat-objet",
+  "name" : "TreR365EtatObjet",
+  "title" : "Tre R365 Etat Objet",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.259",
+  "status" : "active"
+},
+{
+  "id" : "tre-r366-type-objet",
+  "name" : "TreR366TypeObjet",
+  "title" : "Tre R366 Type Objet",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r366-type-objet",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.260",
+  "status" : "active"
+},
+{
+  "id" : "tre-r376-type-evenement-administratif",
+  "name" : "TreR376TypeEvenementAdministratif",
+  "title" : "Tre R376 Type Evenement Administratif",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r376-type-evenement-administratif",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.291",
+  "status" : "active"
+},
+{
+  "id" : "tre-r377-usage-adresse",
+  "name" : "TreR377UsageAdresse",
+  "title" : "Tre R377 Usage Adresse",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r377-usage-adresse",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.292",
+  "status" : "active"
+},
+{
+  "id" : "tre-r378-motif-arrete",
+  "name" : "TreR378MotifArrete",
+  "title" : "Tre R378 Motif Arrete",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r378-motif-arrete",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.293",
+  "status" : "active"
+},
+{
+  "id" : "tre-r379-systeme-information",
+  "name" : "TreR379SystemeInformation",
+  "title" : "Tre R379 Systeme Information",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r379-systeme-information",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.294",
+  "status" : "active"
+},
+{
+  "id" : "tre-r386-macro-etat-objet-administratif",
+  "name" : "TreR386MacroEtatObjetAdministratif",
+  "title" : "Tre R386 Macro Etat Objet Administratif",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.301",
+  "status" : "active"
+},
+{
+  "id" : "tre-r392-type-act-smsse-regulee",
+  "name" : "TreR392TypeActSmsseRegulee",
+  "title" : "Tre R392 Type Act Smsse Regulee",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.374",
+  "status" : "active"
+},
+{
+  "id" : "tre-r395-engagement",
+  "name" : "TreR395Engagement",
+  "title" : "Tre R395 Engagement",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.376",
+  "status" : "active"
+},
+{
+  "id" : "tre-r396-autorite",
+  "name" : "TreR396Autorite",
+  "title" : "Tre R396 Autorite",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.377",
+  "status" : "active"
+},
+{
   "id" : "v3-SpecimenType-supplement-fr",
   "name" : "V3SpecimenTypeSupplementFr",
   "title" : "V3SpecimenTypeSupplementFr",
@@ -548,22 +636,6 @@
   "title" : "Nomenclature des besoins et des prestations",
   "url" : "https://smt.esante.gouv.fr/terminologie-SERAFINPH",
   "identifier" : null,
-  "status" : "active"
-},
-{
-  "id" : "11000315107-20250621",
-  "name" : "SNOMED_CT",
-  "title" : "French module",
-  "url" : "http://snomed.info/sct",
-  "identifier" : "urn:oid:2.16.840.1.113883.6.96",
-  "status" : "active"
-},
-{
-  "id" : "900000000000207008-20260601",
-  "name" : "SNOMED_CT",
-  "title" : "SNOMED CT core",
-  "url" : "http://snomed.info/sct",
-  "identifier" : "urn:oid:2.16.840.1.113883.6.96",
   "status" : "active"
 },
 {
@@ -2724,14 +2796,6 @@
   "title" : "Tre R394 Competence Metier",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r394-competence-metier",
   "identifier" : "urn:oid:1.2.250.1.213.1.6.1.375",
-  "status" : "active"
-},
-{
-  "id" : "tre-r396-autorite",
-  "name" : "TreR396Autorite",
-  "title" : "Tre R396 Autorite",
-  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.377",
   "status" : "active"
 },
 {

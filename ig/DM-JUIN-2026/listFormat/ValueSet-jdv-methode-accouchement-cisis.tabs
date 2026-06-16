@@ -3,5 +3,5 @@
 <OID>;<Code>;<Libellé>
 1.2.250.1.213.1.1.4.322;MED-1273;Césarienne programmée
 1.2.250.1.213.1.1.4.322;MED-1253;Césarienne pendant travail
-2.16.840.1.113883.6.96;700000006;accouchement par voie basse
-2.16.840.1.113883.6.96;236974004;accouchement instrumental
+http://snomed.info/sct;700000006;accouchement par voie basse
+http://snomed.info/sct;236974004;accouchement instrumental

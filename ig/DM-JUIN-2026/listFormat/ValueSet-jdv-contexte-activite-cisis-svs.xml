@@ -35,13 +35,13 @@
                   codeSystem="1.2.250.1.213.3.3.13"
                   displayName="Hospitalisation de jour (HJ)"/>
          <Concept code="448337001"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="téléconsultation"/>
          <Concept code="11429006"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="consultation"/>
          <Concept code="1268903003"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="consultation pluridisciplinaire"/>
       </ConceptList>
    </ValueSet>

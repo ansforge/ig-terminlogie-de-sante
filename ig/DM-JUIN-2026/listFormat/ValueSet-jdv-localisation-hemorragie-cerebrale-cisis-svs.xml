@@ -20,13 +20,13 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Hémisphère topographie intraventriculaire pure"/>
          <Concept code="113305005"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="cervelet"/>
          <Concept code="15926001"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="tronc de l'encéphale"/>
          <Concept code="35764002"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="ventricule cérébral"/>
       </ConceptList>
    </ValueSet>

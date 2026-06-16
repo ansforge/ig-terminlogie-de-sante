@@ -1,23 +1,5 @@
 {
   "codeSystems" : [{
-    "url" : "http://snomed.info/sct",
-    "version" : "http://snomed.info/sct/11000315107/version/20250621",
-    "status" : "active",
-    "name" : "SNOMED_CT",
-    "title" : "French module",
-    "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
-    "oids" : ["2.16.840.1.113883.6.96"]
-  },
-  {
-    "url" : "http://snomed.info/sct",
-    "version" : "http://snomed.info/sct/900000000000207008/version/20260601",
-    "status" : "active",
-    "name" : "SNOMED_CT",
-    "title" : "SNOMED CT core",
-    "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
-    "oids" : ["2.16.840.1.113883.6.96"]
-  },
-  {
     "url" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
     "version" : "3.0.0",
     "status" : "active",
@@ -2714,6 +2696,33 @@
     "oids" : ["1.2.250.1.213.1.6.1.256"]
   },
   {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r364-type-document-administratif",
+    "version" : "20260629120000",
+    "status" : "active",
+    "name" : "TreR364TypeDocumentAdministratif",
+    "title" : "Tre R364 Type Document Administratif",
+    "description" : "Nomenclature des types de documents administratif ( exemple : agrément, convention...) Remarque : Cette nomenclature est initialisée avec les types de documents informatifs et justificatifs pouvant être associés à une entité FINESS",
+    "oids" : ["1.2.250.1.213.1.6.1.258"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet",
+    "version" : "20260629120000",
+    "status" : "active",
+    "name" : "TreR365EtatObjet",
+    "title" : "Tre R365 Etat Objet",
+    "description" : "Nomenclature des états élémentaires d'un objet du MOS organisés en etat actifs et en etats inactifs. Remarque : Cette nomenclature est initialisée avec les états que peuvent porter les entités et activités FINESS+",
+    "oids" : ["1.2.250.1.213.1.6.1.259"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r366-type-objet",
+    "version" : "20260629120000",
+    "status" : "active",
+    "name" : "TreR366TypeObjet",
+    "title" : "Tre R366 Type Objet",
+    "description" : "Nomenclature des types d’objets du MOS. \nRemarque : Cette nomenclature est juste initialisée avec les types d’objet FINESS+",
+    "oids" : ["1.2.250.1.213.1.6.1.260"]
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege",
     "version" : "20260505120000",
     "status" : "active",
@@ -2768,6 +2777,42 @@
     "oids" : ["1.2.250.1.213.1.6.1.290"]
   },
   {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r376-type-evenement-administratif",
+    "version" : "20260629120000",
+    "status" : "active",
+    "name" : "TreR376TypeEvenementAdministratif",
+    "title" : "Tre R376 Type Evenement Administratif",
+    "description" : "Nomenclature des événements administratifs pertinents pour un cycle de vie d'un Objet de Santé (du MOS) Remarque : Cette nomenclature est initialisée avec les évenements affectant le cycle de vie des entités et activités enregistrées dans FINESS+",
+    "oids" : ["1.2.250.1.213.1.6.1.291"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r377-usage-adresse",
+    "version" : "20260629120000",
+    "status" : "active",
+    "name" : "TreR377UsageAdresse",
+    "title" : "Tre R377 Usage Adresse",
+    "description" : "Nomenclature des types des adresses\nRemarque : Cette TRE est juste intialisée avec les codes FINESS.",
+    "oids" : ["1.2.250.1.213.1.6.1.292"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r378-motif-arrete",
+    "version" : "20260629120000",
+    "status" : "active",
+    "name" : "TreR378MotifArrete",
+    "title" : "Tre R378 Motif Arrete",
+    "description" : "Nomenclature des motifs des arrêtés\nRemarque : Cette TRE est juste initialisée avec les codes FINESS+",
+    "oids" : ["1.2.250.1.213.1.6.1.293"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r379-systeme-information",
+    "version" : "20260629120000",
+    "status" : "active",
+    "name" : "TreR379SystemeInformation",
+    "title" : "Tre R379 Systeme Information",
+    "description" : "Nomenclature des systemes d’information généralement déclarés pour définir les caractéristiques des identifiants ou des événements\nRemarque : Cette TRE est initialisée avec les codes FINESS",
+    "oids" : ["1.2.250.1.213.1.6.1.294"]
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm",
     "version" : "20260330120000",
     "status" : "active",
@@ -2813,6 +2858,15 @@
     "oids" : ["1.2.250.1.213.1.6.1.300"]
   },
   {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+    "version" : "20260629120000",
+    "status" : "active",
+    "name" : "TreR386MacroEtatObjetAdministratif",
+    "title" : "Tre R386 Macro Etat Objet Administratif",
+    "description" : "Nomenclature des macro-etat des structures FINESS qui dérivent de l'état de l'objet. Permet de distinguer les structures actives de celles inactives.",
+    "oids" : ["1.2.250.1.213.1.6.1.301"]
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement",
     "version" : "20260330120000",
     "status" : "active",
@@ -2849,6 +2903,15 @@
     "oids" : ["1.2.250.1.213.3.3.258"]
   },
   {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee",
+    "version" : "20260629120000",
+    "status" : "active",
+    "name" : "TreR392TypeActSmsseRegulee",
+    "title" : "Tre R392 Type Act Smsse Regulee",
+    "description" : "Type activité SMSSE régulée",
+    "oids" : ["1.2.250.1.213.1.6.1.374"]
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour",
     "version" : "20250521120000",
     "status" : "active",
@@ -2867,12 +2930,21 @@
     "oids" : ["1.2.250.1.213.1.6.1.375"]
   },
   {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement",
+    "version" : "20260629120000",
+    "status" : "active",
+    "name" : "TreR395Engagement",
+    "title" : "Tre R395 Engagement",
+    "description" : "Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités. Cette TRE remplace la TRE-R278-Convention",
+    "oids" : ["1.2.250.1.213.1.6.1.376"]
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-    "version" : "20260330120000",
+    "version" : "20260629120000",
     "status" : "active",
     "name" : "TreR396Autorite",
     "title" : "Tre R396 Autorite",
-    "description" : "liste des autorités structurée en plusieurs types d'autorités : Ordres, ARS, ...",
+    "description" : "liste des autorités (autorités Ordres, autorités ARS, ...)",
     "oids" : ["1.2.250.1.213.1.6.1.377"]
   },
   {
@@ -3239,7 +3311,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-nabm",
-    "version" : "V103",
+    "version" : "V104",
     "status" : "active",
     "name" : "NABM",
     "title" : "Nomenclature des actes de biologie médicale",

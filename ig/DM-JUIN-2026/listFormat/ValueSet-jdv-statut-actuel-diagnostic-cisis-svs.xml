@@ -14,19 +14,19 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Apparenté non porteur"/>
          <Concept code="2931005"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="diagnostic probable"/>
          <Concept code="385651009"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="en cours d'exécution"/>
          <Concept code="42425007"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="équivoque"/>
          <Concept code="255545003"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="diagnostic définitif"/>
          <Concept code="723511001"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="réfuté(e)"/>
       </ConceptList>
    </ValueSet>

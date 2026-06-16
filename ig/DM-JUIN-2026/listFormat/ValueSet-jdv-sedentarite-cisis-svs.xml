@@ -11,16 +11,16 @@
              urlFichier="">
       <ConceptList>
          <Concept code="415510005"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="mode de vie sédentaire"/>
          <Concept code="228446001"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="activité physique peu importante"/>
          <Concept code="228447005"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="physiquement actif(-ve)"/>
          <Concept code="228448000"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="fait de l'exercice régulièrement"/>
       </ConceptList>
    </ValueSet>

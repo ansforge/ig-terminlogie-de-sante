@@ -11,28 +11,28 @@
              urlFichier="">
       <ConceptList>
          <Concept code="278147001"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="groupe sanguin O Rh(D) positif"/>
          <Concept code="278148006"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="groupe sanguin O Rh(D) négatif"/>
          <Concept code="278149003"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="groupe sanguin A Rh(D) positif"/>
          <Concept code="278152006"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="groupe sanguin A Rh(D) négatif"/>
          <Concept code="278150003"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="groupe sanguin B Rh(D) positif"/>
          <Concept code="278153001"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="groupe sanguin B Rh(D) négatif"/>
          <Concept code="278151004"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="groupe sanguin AB Rh(D) positif"/>
          <Concept code="278154007"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="groupe sanguin AB Rh(D) négatif"/>
       </ConceptList>
    </ValueSet>

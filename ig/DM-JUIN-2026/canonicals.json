@@ -1,20 +1,4 @@
 [{
-  "id" : "11000315107-20250621",
-  "type" : "CodeSystem",
-  "url" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/11000315107/version/20250621",
-  "name" : "SNOMED_CT",
-  "oids" : ["2.16.840.1.113883.6.96"]
-},
-{
-  "id" : "900000000000207008-20260601",
-  "type" : "CodeSystem",
-  "url" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/900000000000207008/version/20260601",
-  "name" : "SNOMED_CT",
-  "oids" : ["2.16.840.1.113883.6.96"]
-},
-{
   "id" : "condition-clinical",
   "type" : "CodeSystem",
   "url" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
@@ -2721,6 +2705,13 @@
   "oids" : ["1.2.250.1.71.1.2.16"]
 },
 {
+  "id" : "vs-tre-g09-departement-om-all",
+  "type" : "ValueSet",
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM?vs",
+  "version" : "20260629120000",
+  "name" : "VsTreG09DepartementOmAll"
+},
+{
   "id" : "TRE-G100-Specialite-AM",
   "type" : "CodeSystem",
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_G100-Specialite-AM/FHIR/TRE-G100-Specialite-AM",
@@ -3740,6 +3731,13 @@
   "version" : "20240628120000",
   "name" : "TRE_R30_RegionOM",
   "oids" : ["1.2.250.1.213.2.25"]
+},
+{
+  "id" : "vs-tre-r30-region-om-all",
+  "type" : "ValueSet",
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM?vs",
+  "version" : "20260629120000",
+  "name" : "VsTreR30RegionOmAll"
 },
 {
   "id" : "TRE-R300-AgregatDisciplineEquipSocNiv3",
@@ -4796,6 +4794,30 @@
   "name" : "VsTreR362TypeBudgetAll"
 },
 {
+  "id" : "tre-r364-type-document-administratif",
+  "type" : "CodeSystem",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r364-type-document-administratif",
+  "version" : "20260629120000",
+  "name" : "TreR364TypeDocumentAdministratif",
+  "oids" : ["1.2.250.1.213.1.6.1.258"]
+},
+{
+  "id" : "tre-r365-etat-objet",
+  "type" : "CodeSystem",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet",
+  "version" : "20260629120000",
+  "name" : "TreR365EtatObjet",
+  "oids" : ["1.2.250.1.213.1.6.1.259"]
+},
+{
+  "id" : "tre-r366-type-objet",
+  "type" : "CodeSystem",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r366-type-objet",
+  "version" : "20260629120000",
+  "name" : "TreR366TypeObjet",
+  "oids" : ["1.2.250.1.213.1.6.1.260"]
+},
+{
   "id" : "tre-r370-role-relation-ege",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege",
@@ -4870,6 +4892,45 @@
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r375-mode-financement?vs",
   "version" : "20260330120000",
   "name" : "VsTreR375ModeFinancementAll"
+},
+{
+  "id" : "tre-r376-type-evenement-administratif",
+  "type" : "CodeSystem",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r376-type-evenement-administratif",
+  "version" : "20260629120000",
+  "name" : "TreR376TypeEvenementAdministratif",
+  "oids" : ["1.2.250.1.213.1.6.1.291"]
+},
+{
+  "id" : "tre-r377-usage-adresse",
+  "type" : "CodeSystem",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r377-usage-adresse",
+  "version" : "20260629120000",
+  "name" : "TreR377UsageAdresse",
+  "oids" : ["1.2.250.1.213.1.6.1.292"]
+},
+{
+  "id" : "tre-r378-motif-arrete",
+  "type" : "CodeSystem",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r378-motif-arrete",
+  "version" : "20260629120000",
+  "name" : "TreR378MotifArrete",
+  "oids" : ["1.2.250.1.213.1.6.1.293"]
+},
+{
+  "id" : "vs-tre-r378-motif-arrete-all",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r378-motif-arrete?vs",
+  "version" : "20260629120000",
+  "name" : "VsTreR378MotifArreteAll"
+},
+{
+  "id" : "tre-r379-systeme-information",
+  "type" : "CodeSystem",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r379-systeme-information",
+  "version" : "20260629120000",
+  "name" : "TreR379SystemeInformation",
+  "oids" : ["1.2.250.1.213.1.6.1.294"]
 },
 {
   "id" : "tre-r381-activite-amm",
@@ -4947,6 +5008,14 @@
   "name" : "VsTreR385DeclarationActDeSoinAmmAll"
 },
 {
+  "id" : "tre-r386-macro-etat-objet-administratif",
+  "type" : "CodeSystem",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+  "version" : "20260629120000",
+  "name" : "TreR386MacroEtatObjetAdministratif",
+  "oids" : ["1.2.250.1.213.1.6.1.301"]
+},
+{
   "id" : "tre-r387-type-groupement",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement",
@@ -4986,6 +5055,21 @@
   "oids" : ["1.2.250.1.213.3.3.258"]
 },
 {
+  "id" : "tre-r392-type-act-smsse-regulee",
+  "type" : "CodeSystem",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee",
+  "version" : "20260629120000",
+  "name" : "TreR392TypeActSmsseRegulee",
+  "oids" : ["1.2.250.1.213.1.6.1.374"]
+},
+{
+  "id" : "vs-tre-r392-type-act-smsse-regulee-all",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee?vs",
+  "version" : "20260629120000",
+  "name" : "VsTreR392TypeActSmsseReguleeAll"
+},
+{
   "id" : "tre-r393-type-contrat-sejour",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour",
@@ -5002,10 +5086,18 @@
   "oids" : ["1.2.250.1.213.1.6.1.375"]
 },
 {
+  "id" : "tre-r395-engagement",
+  "type" : "CodeSystem",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement",
+  "version" : "20260629120000",
+  "name" : "TreR395Engagement",
+  "oids" : ["1.2.250.1.213.1.6.1.376"]
+},
+{
   "id" : "tre-r396-autorite",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-  "version" : "20260330120000",
+  "version" : "20260629120000",
   "name" : "TreR396Autorite",
   "oids" : ["1.2.250.1.213.1.6.1.377"]
 },
@@ -6890,6 +6982,14 @@
   "oids" : ["1.2.250.1.213.1.6.1.250"]
 },
 {
+  "id" : "jdv-j287-type-autorite-regulation-finess",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j287-type-autorite-regulation-finess",
+  "version" : "20260629120000",
+  "name" : "JdvJ287TypeAutoriteRegulationFiness",
+  "oids" : ["1.2.250.1.213.1.6.1.249"]
+},
+{
   "id" : "jdv-j289-type-groupe-gco-finess",
   "type" : "ValueSet",
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j289-type-groupe-gco-finess",
@@ -6898,12 +6998,68 @@
   "oids" : ["1.2.250.1.213.1.6.1.262"]
 },
 {
+  "id" : "jdv-j293-type-engagement-finess",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j293-type-engagement-finess",
+  "version" : "20260629120000",
+  "name" : "JdvJ293TypeEngagementFiness",
+  "oids" : ["1.2.250.1.213.1.6.1.267"]
+},
+{
+  "id" : "jdv-j294-document-justificatif-finess",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j294-document-justificatif-finess",
+  "version" : "20260629120000",
+  "name" : "JdvJ294DocumentJustificatifFiness",
+  "oids" : ["1.2.250.1.213.1.6.1.268"]
+},
+{
+  "id" : "jdv-j295-document-informatif-finess",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j295-document-informatif-finess",
+  "version" : "20260629120000",
+  "name" : "JdvJ295DocumentInformatifFiness",
+  "oids" : ["1.2.250.1.213.1.6.1.269"]
+},
+{
   "id" : "jdv-j296-type-role-entite-groupe-finess",
   "type" : "ValueSet",
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j296-type-role-entite-groupe-finess",
   "version" : "20260330120000",
   "name" : "JdvJ296TypeRoleEntiteGroupeFiness",
   "oids" : ["1.2.250.1.213.1.6.1.263"]
+},
+{
+  "id" : "jdv-j297-type-evenement-administratif-finess",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j297-type-evenement-administratif-finess",
+  "version" : "20260629120000",
+  "name" : "JdvJ297TypeEvenementAdministratifFiness",
+  "oids" : ["1.2.250.1.213.1.6.1.304"]
+},
+{
+  "id" : "jdv-j298-macro-etat-objet-administratif-finess",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j298-macro-etat-objet-administratif-finess",
+  "version" : "20260629120000",
+  "name" : "JdvJ298MacroEtatObjetAdministratifFiness",
+  "oids" : ["1.2.250.1.213.1.6.1.306"]
+},
+{
+  "id" : "jdv-j299-systeme-information-finess",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j299-systeme-information-finess",
+  "version" : "20260629120000",
+  "name" : "JdvJ299SystemeInformationFiness",
+  "oids" : ["1.2.250.1.213.1.6.1.307"]
+},
+{
+  "id" : "jdv-j300-type-objet-finess",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j300-type-objet-finess",
+  "version" : "20260629120000",
+  "name" : "JdvJ300TypeObjetFiness",
+  "oids" : ["1.2.250.1.213.1.6.1.308"]
 },
 {
   "id" : "jdv-j301-finess-statut-juridique-niv1-finess",
@@ -6986,6 +7142,22 @@
   "oids" : ["1.2.250.1.213.1.6.1.318"]
 },
 {
+  "id" : "jdv-j313-usage-adresse-finess",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j313-usage-adresse-finess",
+  "version" : "20260629120000",
+  "name" : "JdvJ313UsageAdresseFiness",
+  "oids" : ["1.2.250.1.213.1.6.1.321"]
+},
+{
+  "id" : "jdv-j314-engagement-finess",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j314-engagement-finess",
+  "version" : "20260629120000",
+  "name" : "JdvJ314EngagementFiness",
+  "oids" : ["OID:1.2.250.1.213.1.6.1.322"]
+},
+{
   "id" : "jdv-j318-activite-enseignement-regulee-finess",
   "type" : "ValueSet",
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j318-activite-enseignement-regulee-finess",
@@ -7016,6 +7188,14 @@
   "version" : "20260223120000",
   "name" : "JdvJ321ActiviteEnseignementReguleeNiv3Finess",
   "oids" : ["1.2.250.1.213.1.6.1.329"]
+},
+{
+  "id" : "jdv-j322-type-act-enseignement-regulee-finess",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j322-type-act-enseignement-regulee-finess",
+  "version" : "20260629120000",
+  "name" : "JdvJ322TypeActEnseignementReguleeFiness",
+  "oids" : ["1.2.250.1.213.1.6.1.330"]
 },
 {
   "id" : "jdv-j323-activite-sociale-regulee-finess",
@@ -7074,6 +7254,22 @@
   "oids" : ["1.2.250.1.213.1.6.1.338"]
 },
 {
+  "id" : "jdv-j331-type-act-sociale-regulee-finess",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j331-type-act-sociale-regulee-finess",
+  "version" : "20260629120000",
+  "name" : "JdvJ331TypeActSocialeReguleeFiness",
+  "oids" : ["1.2.250.1.213.1.6.1.339"]
+},
+{
+  "id" : "jdv-j332-type-act-medico-sociale-regulee-finess",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j332-type-act-medico-sociale-regulee-finess",
+  "version" : "20260629120000",
+  "name" : "JdvJ332TypeActMedicoSocialeReguleeFiness",
+  "oids" : ["1.2.250.1.213.1.6.1.340"]
+},
+{
   "id" : "jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess",
   "type" : "ValueSet",
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess",
@@ -7096,6 +7292,54 @@
   "version" : "20260505120000",
   "name" : "JdvJ335ActiviteSanitaireDiverseReguleeNiv3Finess",
   "oids" : ["1.2.250.1.213.1.6.1.343"]
+},
+{
+  "id" : "jdv-j336-type-act-sanitaire-diverse-regulee-finess",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j336-type-act-sanitaire-diverse-regulee-finess",
+  "version" : "20260629120000",
+  "name" : "JdvJ336TypeActSanitaireDiverseReguleeFiness",
+  "oids" : ["1.2.250.1.213.1.6.1.344"]
+},
+{
+  "id" : "jdv-j340-type-act-de-soin-amf-finess",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j340-type-act-de-soin-amf-finess",
+  "version" : "20260629120000",
+  "name" : "JdvJ340TypeActDeSoinAmfFiness",
+  "oids" : ["1.2.250.1.213.1.6.1.348"]
+},
+{
+  "id" : "jdv-j341-type-act-autre-acte-soin-finess",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j341-type-act-autre-acte-soin-finess",
+  "version" : "20260629120000",
+  "name" : "JdvJ341TypeActAutreActeSoinFiness",
+  "oids" : ["1.2.250.1.213.1.6.1.349"]
+},
+{
+  "id" : "jdv-j342-type-act-soumise-a-reconnaissance-finess",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j342-type-act-soumise-a-reconnaissance-finess",
+  "version" : "20260629120000",
+  "name" : "JdvJ342TypeActSoumiseAReconnaissanceFiness",
+  "oids" : ["1.2.250.1.213.1.6.1.350"]
+},
+{
+  "id" : "jdv-j344-type-act-equipement-materiel-lourd-finess",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j344-type-act-equipement-materiel-lourd-finess",
+  "version" : "20260629120000",
+  "name" : "JdvJ344TypeActEquipementMaterielLourdFiness",
+  "oids" : ["1.2.250.1.213.1.6.1.352"]
+},
+{
+  "id" : "jdv-j350-type-act-de-soin-amm-finess",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j350-type-act-de-soin-amm-finess",
+  "version" : "20260629120000",
+  "name" : "JdvJ350TypeActDeSoinAmmFiness",
+  "oids" : ["1.2.250.1.213.1.6.1.358"]
 },
 {
   "id" : "jdv-j351-appareil-amm-finess",
@@ -7136,6 +7380,30 @@
   "version" : "20260505120000",
   "name" : "JdvJ357GenreCapaciteFiness",
   "oids" : ["1.2.250.1.213.1.6.1.365"]
+},
+{
+  "id" : "jdv-j358-type-autorite-enregistrement-finess",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j358-type-autorite-enregistrement-finess",
+  "version" : "20260629120000",
+  "name" : "JdvJ358TypeAutoriteEnregistrementFiness",
+  "oids" : ["1.2.250.1.213.1.6.1.366"]
+},
+{
+  "id" : "jdv-j359-autorite-enregistrement-finess",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j359-autorite-enregistrement-finess",
+  "version" : "20260629120000",
+  "name" : "JdvJ359AutoriteEnregistrementFiness",
+  "oids" : ["1.2.250.1.213.1.6.1.367"]
+},
+{
+  "id" : "jdv-j360-autorite-regulation-finess",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j360-autorite-regulation-finess",
+  "version" : "20260629120000",
+  "name" : "JdvJ360AutoriteRegulationFiness",
+  "oids" : ["1.2.250.1.213.1.6.1.368"]
 },
 {
   "id" : "jdv-j364-type-fermeture-pm-finess",
@@ -7184,6 +7452,14 @@
   "version" : "20250521120000",
   "name" : "JdvJ370TypeContratSejourMs",
   "oids" : ["1.2.250.1.213.3.4.223"]
+},
+{
+  "id" : "jdv-j371-etat-objet-administratif-finess",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j371-etat-objet-administratif-finess",
+  "version" : "20260629120000",
+  "name" : "JdvJ371EtatObjetAdministratifFiness",
+  "oids" : ["1.2.250.1.213.1.6.1.305"]
 },
 {
   "id" : "jdv-j373-type-autorite",
@@ -9957,7 +10233,7 @@
   "id" : "terminologie-nabm",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/terminologie-nabm",
-  "version" : "V103",
+  "version" : "V104",
   "name" : "NABM",
   "oids" : ["1.2.250.1.215.300.2"]
 },

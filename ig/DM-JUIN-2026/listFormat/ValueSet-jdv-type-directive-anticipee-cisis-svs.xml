@@ -32,10 +32,10 @@
                   codeSystem="2.16.840.1.113883.6.1"
                   displayName="Autre directive"/>
          <Concept code="387713003"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="intervention chirurgicale"/>
          <Concept code="265764009"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="dialyse rénale"/>
       </ConceptList>
    </ValueSet>

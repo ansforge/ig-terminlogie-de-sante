@@ -21,5 +21,5 @@ http://hl7.org/fhir/sid/icd-10;I50.9;Insuffisance cardiaque, sans précision
 1.2.250.1.213.1.1.4.322;MED-1120;Patient porteur d’un stent ou un filtre cave
 1.2.250.1.213.1.1.4.322;MED-1122;Hypersensibilité au produit de contraste gadoliné
 1.2.250.1.213.1.1.4.322;GEN-092.01.20;Autre contre-indication connue
-2.16.840.1.113883.6.96;77386006;enceinte
-2.16.840.1.113883.6.96;1260078007;allaitement maternel
+http://snomed.info/sct;77386006;enceinte
+http://snomed.info/sct;1260078007;allaitement maternel

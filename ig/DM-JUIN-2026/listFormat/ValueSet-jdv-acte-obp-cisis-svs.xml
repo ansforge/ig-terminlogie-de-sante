@@ -23,13 +23,13 @@
                   codeSystem="2.16.840.1.113883.6.1"
                   displayName="Caractéristiques du travail"/>
          <Concept code="236958009"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="induction du travail"/>
          <Concept code="116859006"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="transfusion de produit sanguin"/>
          <Concept code="236945008"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="intervention obstétricale ante partum"/>
       </ConceptList>
    </ValueSet>

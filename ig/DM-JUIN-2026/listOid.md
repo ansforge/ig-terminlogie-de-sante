@@ -74,7 +74,6 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | RoleCodeSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/roleCode-supplement-fr |  |
 | SERAFIN | https://smt.esante.gouv.fr/terminologie-SERAFINPH |  |
 | SERAFIN_PH | https://smt.esante.gouv.fr/terminologie-SERAFINPH |  |
-| SNOMED_CT | http://snomed.info/sct | 2.16.840.1.113883.6.96 |
 | ServiceType | http://terminology.hl7.org/CodeSystem/service-type | 2.16.840.1.113883.4.642.1.1145 |
 | Snomed_CT_core_900000000000207008 | http://snomed.info/sct | 2.16.840.1.113883.6.96 |
 | SpecimenCollectionMethod | http://terminology.hl7.org/CodeSystem/v2-0488 | 2.16.840.1.113883.18.312 |
@@ -341,23 +340,33 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | TreR360TypeRoleEntiteGroupe | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-type-role-entite-groupe | 1.2.250.1.213.1.6.1.254 |
 | TreR361FonctionPublique | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r361-fonction-publique | 1.2.250.1.213.1.6.1.255 |
 | TreR362TypeBudget | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r362-type-budget | 1.2.250.1.213.1.6.1.256 |
+| TreR364TypeDocumentAdministratif | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r364-type-document-administratif | 1.2.250.1.213.1.6.1.258 |
+| TreR365EtatObjet | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet | 1.2.250.1.213.1.6.1.259 |
+| TreR366TypeObjet | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r366-type-objet | 1.2.250.1.213.1.6.1.260 |
 | TreR370RoleRelationEge | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege | 1.2.250.1.213.1.6.1.286 |
 | TreR371TypeGroupeGcc | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r371-type-groupe-gcc | 1.2.250.1.213.1.6.1.287 |
 | TreR372TypeGroupeGco | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r372-type-groupe-gco | 1.2.250.1.213.1.6.1.288 |
 | TreR373TypePersonneMorale | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r373-type-personne-morale | 1.2.250.1.213.1.6.1.253 |
 | TreR374NatureActiviteSmsseRegulee | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee | 1.2.250.1.213.1.6.1.289 |
 | TreR375ModeFinancement | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r375-mode-financement | 1.2.250.1.213.1.6.1.290 |
+| TreR376TypeEvenementAdministratif | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r376-type-evenement-administratif | 1.2.250.1.213.1.6.1.291 |
+| TreR377UsageAdresse | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r377-usage-adresse | 1.2.250.1.213.1.6.1.292 |
+| TreR378MotifArrete | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r378-motif-arrete | 1.2.250.1.213.1.6.1.293 |
+| TreR379SystemeInformation | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r379-systeme-information | 1.2.250.1.213.1.6.1.294 |
 | TreR381ActiviteAmm | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm | 1.2.250.1.213.1.6.1.296 |
 | TreR382ModaliteActDeSoinAmm | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r382-modalite-act-de-soin-amm | 1.2.250.1.213.1.6.1.297 |
 | TreR383MentionActDeSoinAmm | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r383-mention-act-de-soin-amm | 1.2.250.1.213.1.6.1.298 |
 | TreR384PratiqueTherapeutiqueSpecifiqueActDeSoinAmm | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r384-pratique-therapeutique-specifique-act-de-soin-amm | 1.2.250.1.213.1.6.1.299 |
 | TreR385DeclarationActDeSoinAmm | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r385-declaration-act-de-soin-amm | 1.2.250.1.213.1.6.1.300 |
+| TreR386MacroEtatObjetAdministratif | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif | 1.2.250.1.213.1.6.1.301 |
 | TreR387TypeGroupement | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement | 1.2.250.1.213.1.6.1.302 |
 | TreR388TypeLogement | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement | 1.2.250.1.213.1.6.1.303 |
 | TreR389StatutBilanProjetPersonnalise | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise | 1.2.250.1.213.3.3.257 |
 | TreR390TypeProjetPersonnalise | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise | 1.2.250.1.213.3.3.258 |
+| TreR392TypeActSmsseRegulee | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee | 1.2.250.1.213.1.6.1.374 |
 | TreR393TypeContratSejour | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour | 1.2.250.1.213.3.3.260 |
 | TreR394CompetenceMetier | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r394-competence-metier | 1.2.250.1.213.1.6.1.375 |
+| TreR395Engagement | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement | 1.2.250.1.213.1.6.1.376 |
 | TreR396Autorite | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite | 1.2.250.1.213.1.6.1.377 |
 | TreR397CategorieEntiteGeographiqueExercice | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice | 1.2.250.1.213.1.6.1.378 |
 | TreR400FinessStatutJuridique | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique | 1.2.250.1.213.1.6.1.379 |

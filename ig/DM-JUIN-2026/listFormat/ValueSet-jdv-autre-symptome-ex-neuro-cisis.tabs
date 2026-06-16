@@ -17,5 +17,5 @@ http://hl7.org/fhir/sid/icd-10;J39.2;Paralysie du pharynx
 http://hl7.org/fhir/sid/icd-10;K13.7;Paralysie du voile du palais
 1.2.250.1.213.1.1.4.322;MED-380;Déficit moteur de la main
 1.2.250.1.213.1.1.4.322;MED-484;Latéropulsion
-2.16.840.1.113883.6.96;37125009;mydriase
-2.16.840.1.113883.6.96;301939004;myosis
+http://snomed.info/sct;37125009;mydriase
+http://snomed.info/sct;301939004;myosis

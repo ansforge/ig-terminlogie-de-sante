@@ -3,4 +3,4 @@
 <OID>;<Code>;<Libellé>
 http://hl7.org/fhir/sid/icd-10;I51.6;Maladie cardiovasculaire, sans précision
 http://hl7.org/fhir/sid/icd-10;D75.9;Maladie du sang et des organes hématopoïétiques, sans précision
-2.16.840.1.113883.6.96;782964007;maladie génétique
+http://snomed.info/sct;782964007;maladie génétique

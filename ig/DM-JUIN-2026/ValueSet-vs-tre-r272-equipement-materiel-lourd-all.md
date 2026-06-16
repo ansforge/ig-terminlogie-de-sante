@@ -47,12 +47,12 @@ Requête sur le SMT
 
 | | | |
 | :--- | :--- | :--- |
-|  [<prev](ValueSet-vs-sms-all.demande.md) | [top](#top) |  [next>](ValueSet-vs-tre-r272-equipement-materiel-lourd-all-testing.md) |
+|  [<prev](ValueSet-vs-tre-g09-departement-om-all.demande.md) | [top](#top) |  [next>](ValueSet-vs-tre-r272-equipement-materiel-lourd-all-testing.md) |
 
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.10.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-06-15
+2026-06-16
 
 Liens:
 [Table des matières ](toc.md)|

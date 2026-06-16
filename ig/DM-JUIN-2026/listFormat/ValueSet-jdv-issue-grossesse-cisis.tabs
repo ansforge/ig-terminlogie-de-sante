@@ -7,4 +7,4 @@ http://hl7.org/fhir/sid/icd-10;O03;Avortement spontané
 http://hl7.org/fhir/sid/icd-10;O04.-0;Interruption médicale volontaire de grossesse [IVG dans le cadre légal]
 http://hl7.org/fhir/sid/icd-10;O04;Avortement médical
 http://hl7.org/fhir/sid/icd-10;P95;Mort fœtale (de cause non précisée)
-2.16.840.1.113883.6.96;3950001;naissance
+http://snomed.info/sct;3950001;naissance

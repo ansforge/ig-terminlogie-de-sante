@@ -11,16 +11,16 @@
              urlFichier="">
       <ConceptList>
          <Concept code="161898004"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="chutes"/>
          <Concept code="50239007"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="errance"/>
          <Concept code="248046000"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="en fugue"/>
          <Concept code="386423001"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="contention physique"/>
       </ConceptList>
    </ValueSet>

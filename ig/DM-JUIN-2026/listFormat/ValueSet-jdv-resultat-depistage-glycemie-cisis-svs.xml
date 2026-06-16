@@ -11,13 +11,13 @@
              urlFichier="">
       <ConceptList>
          <Concept code="17621005"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="normal"/>
          <Concept code="80394007"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="hyperglycémie"/>
          <Concept code="302866003"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="hypoglycémie"/>
       </ConceptList>
    </ValueSet>

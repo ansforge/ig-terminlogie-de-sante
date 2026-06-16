@@ -11,10 +11,10 @@
              urlFichier="">
       <ConceptList>
          <Concept code="405672008"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="interrogation directe"/>
          <Concept code="312853008"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="revue de dossier médical"/>
       </ConceptList>
    </ValueSet>

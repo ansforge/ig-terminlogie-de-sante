@@ -11,10 +11,10 @@
              urlFichier="">
       <ConceptList>
          <Concept code="303300008"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="protéine d'œuf"/>
          <Concept code="373531009"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="gélatine"/>
          <Concept code="J01GB05"
                   codeSystem="http://www.whocc.no/atc"

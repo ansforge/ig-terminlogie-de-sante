@@ -23,7 +23,7 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Autre technique"/>
          <Concept code="73735000"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="technique cytogénétique"/>
       </ConceptList>
    </ValueSet>

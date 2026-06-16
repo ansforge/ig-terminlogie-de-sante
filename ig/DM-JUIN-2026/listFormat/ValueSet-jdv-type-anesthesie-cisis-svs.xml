@@ -29,10 +29,10 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Surveillance simple"/>
          <Concept code="50697003"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="administration d'un anesthésique général"/>
          <Concept code="72641008"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="sédation"/>
       </ConceptList>
    </ValueSet>

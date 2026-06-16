@@ -48,12 +48,12 @@ Requête sur le SMT
 
 | | | |
 | :--- | :--- | :--- |
-|  [<prev](ValueSet-jdv-j335-activite-sanitaire-diverse-regulee-niv3-finess.demande.md) | [top](#top) |  [next>](ValueSet-jdv-j351-appareil-amm-finess-testing.md) |
+|  [<prev](ValueSet-jdv-j350-type-act-de-soin-amm-finess.demande.md) | [top](#top) |  [next>](ValueSet-jdv-j351-appareil-amm-finess-testing.md) |
 
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.10.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-06-15
+2026-06-16
 
 Liens:
 [Table des matières ](toc.md)|

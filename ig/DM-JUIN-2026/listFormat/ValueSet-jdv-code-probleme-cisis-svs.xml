@@ -11,19 +11,19 @@
              urlFichier="">
       <ConceptList>
          <Concept code="404684003"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="constatation clinique"/>
          <Concept code="55607006"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="problème"/>
          <Concept code="64572001"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="maladie"/>
          <Concept code="418799008"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="symptôme rapporté par le patient ou le répondant"/>
          <Concept code="282291009"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="interprétation diagnostique"/>
       </ConceptList>
    </ValueSet>

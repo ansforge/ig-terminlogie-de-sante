@@ -19,42 +19,42 @@ http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl;C12664;Péritoine-rétropéri
 1.2.250.1.213.1.1.4.322;MED-237;Fosses nasales, sinus, oreille moy/int
 1.2.250.1.213.1.1.4.322;MED-251;Colon-Rectum-Anus
 1.2.250.1.213.1.1.4.322;MED-255;Trachée, Bronches, Poumon
-2.16.840.1.113883.6.96;57171008;système hématopoïétique
-2.16.840.1.113883.6.96;119253004;voies aérodigestives supérieures
-2.16.840.1.113883.6.96;303270005;foie et/ou voies biliaires
-2.16.840.1.113883.6.96;39937001;peau
-2.16.840.1.113883.6.96;76752008;sein
-2.16.840.1.113883.6.96;306721000;os et/ou articulation
-2.16.840.1.113883.6.96;87784001;tissus mous
-2.16.840.1.113883.6.96;312419003;appareil respiratoire et/ou cavité thoracique
-2.16.840.1.113883.6.96;4596009;larynx
-2.16.840.1.113883.6.96;3120008;plèvre
-2.16.840.1.113883.6.96;86762007;système digestif
-2.16.840.1.113883.6.96;74262004;cavité orale
-2.16.840.1.113883.6.96;48477009;lèvre
-2.16.840.1.113883.6.96;21974007;langue
-2.16.840.1.113883.6.96;54066008;pharynx
-2.16.840.1.113883.6.96;32849002;œsophage
-2.16.840.1.113883.6.96;69695003;estomac
-2.16.840.1.113883.6.96;30315005;intestin grêle
-2.16.840.1.113883.6.96;385294005;glande salivaire
-2.16.840.1.113883.6.96;15776009;pancréas
-2.16.840.1.113883.6.96;122489005;système urinaire
-2.16.840.1.113883.6.96;431491007;voies urinaires supérieures proprement dites
-2.16.840.1.113883.6.96;64033007;rein
-2.16.840.1.113883.6.96;89837001;vessie
-2.16.840.1.113883.6.96;53065001;appareil génital féminin
-2.16.840.1.113883.6.96;23952005;corps de l'utérus
-2.16.840.1.113883.6.96;71252005;col utérin
-2.16.840.1.113883.6.96;15497006;ovaire
-2.16.840.1.113883.6.96;90264002;appareil génital masculin
-2.16.840.1.113883.6.96;18911002;pénis
-2.16.840.1.113883.6.96;41216001;prostate
-2.16.840.1.113883.6.96;40689003;testicule
-2.16.840.1.113883.6.96;21483005;système nerveux central
-2.16.840.1.113883.6.96;84782009;nerf périphérique
-2.16.840.1.113883.6.96;81745001;œil
-2.16.840.1.113883.6.96;387910009;glande endocrine
-2.16.840.1.113883.6.96;23451007;glande suprarénale
-2.16.840.1.113883.6.96;69748006;thyroïde
-2.16.840.1.113883.6.96;72410000;médiastin
+http://snomed.info/sct;57171008;système hématopoïétique
+http://snomed.info/sct;119253004;voies aérodigestives supérieures
+http://snomed.info/sct;303270005;foie et/ou voies biliaires
+http://snomed.info/sct;39937001;peau
+http://snomed.info/sct;76752008;sein
+http://snomed.info/sct;306721000;os et/ou articulation
+http://snomed.info/sct;87784001;tissus mous
+http://snomed.info/sct;312419003;appareil respiratoire et/ou cavité thoracique
+http://snomed.info/sct;4596009;larynx
+http://snomed.info/sct;3120008;plèvre
+http://snomed.info/sct;86762007;système digestif
+http://snomed.info/sct;74262004;cavité orale
+http://snomed.info/sct;48477009;lèvre
+http://snomed.info/sct;21974007;langue
+http://snomed.info/sct;54066008;pharynx
+http://snomed.info/sct;32849002;œsophage
+http://snomed.info/sct;69695003;estomac
+http://snomed.info/sct;30315005;intestin grêle
+http://snomed.info/sct;385294005;glande salivaire
+http://snomed.info/sct;15776009;pancréas
+http://snomed.info/sct;122489005;système urinaire
+http://snomed.info/sct;431491007;voies urinaires supérieures proprement dites
+http://snomed.info/sct;64033007;rein
+http://snomed.info/sct;89837001;vessie
+http://snomed.info/sct;53065001;appareil génital féminin
+http://snomed.info/sct;23952005;corps de l'utérus
+http://snomed.info/sct;71252005;col utérin
+http://snomed.info/sct;15497006;ovaire
+http://snomed.info/sct;90264002;appareil génital masculin
+http://snomed.info/sct;18911002;pénis
+http://snomed.info/sct;41216001;prostate
+http://snomed.info/sct;40689003;testicule
+http://snomed.info/sct;21483005;système nerveux central
+http://snomed.info/sct;84782009;nerf périphérique
+http://snomed.info/sct;81745001;œil
+http://snomed.info/sct;387910009;glande endocrine
+http://snomed.info/sct;23451007;glande suprarénale
+http://snomed.info/sct;69748006;thyroïde
+http://snomed.info/sct;72410000;médiastin

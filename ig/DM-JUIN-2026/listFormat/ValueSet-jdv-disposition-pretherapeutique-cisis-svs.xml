@@ -29,10 +29,10 @@
                   codeSystem="2.16.840.1.113883.6.1"
                   displayName="Nom du protocole d'essai clinique"/>
          <Concept code="233428003"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="thrombolyse veineuse"/>
          <Concept code="43810009"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="thrombectomie"/>
          <Concept code="B01AC04"
                   codeSystem="http://www.whocc.no/atc"

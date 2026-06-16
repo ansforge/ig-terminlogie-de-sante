@@ -10,10 +10,10 @@
              typeFichier="JDV"
              urlFichier="https://mos.esante.gouv.fr/NOS/JDV_J161-Lateralite-CISIS">
       <ConceptList>
-         <Concept code="24028007" codeSystem="2.16.840.1.113883.6.96" displayName=""/>
-         <Concept code="7771000" codeSystem="2.16.840.1.113883.6.96" displayName=""/>
-         <Concept code="51440002" codeSystem="2.16.840.1.113883.6.96" displayName=""/>
-         <Concept code="385432009" codeSystem="2.16.840.1.113883.6.96" displayName=""/>
+         <Concept code="24028007" codeSystem="http://snomed.info/sct" displayName=""/>
+         <Concept code="7771000" codeSystem="http://snomed.info/sct" displayName=""/>
+         <Concept code="51440002" codeSystem="http://snomed.info/sct" displayName=""/>
+         <Concept code="385432009" codeSystem="http://snomed.info/sct" displayName=""/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

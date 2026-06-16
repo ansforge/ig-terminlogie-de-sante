@@ -10,7 +10,7 @@
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-06-15T12:52:07+00:00",
+  "date" : "2026-06-16T11:18:28+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -27159,18 +27159,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/11000315107-20250621"
-      },
-      "name" : "French module",
-      "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -29189,6 +29177,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-j287-type-autorite-regulation-finess"
+      },
+      "name" : "Jdv J287 Type Autorite Regulation Finess",
+      "description" : "Jeu de valeurs FINESS contenant les types d'autorité de régulation pour Finess",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-j289-type-groupe-gco-finess"
       },
       "name" : "Jdv J289 Type Groupe Gco Finess",
@@ -29201,10 +29201,94 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-j293-type-engagement-finess"
+      },
+      "name" : "Jdv J293 Type Engagement Finess",
+      "description" : "Jeu de valeurs FINESS contenant les grands types d'engagement pouvant être associés dans FINESS+ à des structures ou des activités.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j294-document-justificatif-finess"
+      },
+      "name" : "Jdv J294 Document Justificatif Finess",
+      "description" : "Jeu de valeurs FINESS contenant les types de documents justificatifs pouvant être associés à une entité FINESS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j295-document-informatif-finess"
+      },
+      "name" : "Jdv J295 Document Informatif Finess",
+      "description" : "Jeu de valeurs FINESS contenant les types de documents informatifs pouvant être associés à une entité FINESS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-j296-type-role-entite-groupe-finess"
       },
       "name" : "Jdv J296 Type Role Entite Groupe Finess",
       "description" : "Jeu de valeurs FINESS contenant les types de rôles que peuvent exercer des entités participants à des groupements",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j297-type-evenement-administratif-finess"
+      },
+      "name" : "Jdv J297 Type Evenement Administratif Finess",
+      "description" : "Jeu de valeurs FINESS contenant les événements affectant le cycle de vie des entités et activités enrgeistrées dans FINESS+",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j298-macro-etat-objet-administratif-finess"
+      },
+      "name" : "Jdv J298 Macro Etat Objet Administratif Finess",
+      "description" : "Jeu de valeurs FINESS contenant les macro-etat des structures FINESS qui dérivent de l'état de l'objet. Permet de distinguer les structures actives de celles inactives.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j299-systeme-information-finess"
+      },
+      "name" : "Jdv J299 Systeme Information Finess",
+      "description" : "Jeu de valeurs FINESS contenant les systemes d'information en relation avec FINESS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j300-type-objet-finess"
+      },
+      "name" : "Jdv J300 Type Objet Finess",
+      "description" : "Jeu de valeurs FINESS contenant les types d'objet enregistrés et manipulés dans FINESS+.",
       "exampleBoolean" : false
     },
     {
@@ -29333,6 +29417,30 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-j313-usage-adresse-finess"
+      },
+      "name" : "Jdv J313 Usage Adresse Finess",
+      "description" : "Jeu de valeurs FINESS contenant les usages des adresses associées aux entités enregistrés dans FINESS+",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j314-engagement-finess"
+      },
+      "name" : "Jdv J314 Engagement Finess",
+      "description" : "Jeu de valeurs FINESS contenant les engagements, de tous les types d'engagement confondus, pouvant être associés dans FINESS+ à des structures ou des activités.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-j318-activite-enseignement-regulee-finess"
       },
       "name" : "Jdv J318 Activite Enseignement Regulee Finess",
@@ -29373,6 +29481,18 @@
       },
       "name" : "Jdv J321 Activite Enseignement Regulee Niv3 Finess",
       "description" : "Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 3",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j322-type-act-enseignement-regulee-finess"
+      },
+      "name" : "Jdv J322 Type Act Enseignement Regulee Finess",
+      "description" : "Jeu de valeurs FINESS reprenant les types d'activité d'enseignement régulée",
       "exampleBoolean" : false
     },
     {
@@ -29465,6 +29585,30 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-j331-type-act-sociale-regulee-finess"
+      },
+      "name" : "Jdv J331 Type Act Sociale Regulee Finess",
+      "description" : "Jeu de valeurs FINESS reprenant les types d'activité sociale régulée",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j332-type-act-medico-sociale-regulee-finess"
+      },
+      "name" : "Jdv J332 Type Act Medico Sociale Regulee Finess",
+      "description" : "Jeu de valeurs FINESS reprenant les types d'activité médico sociale régulée",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess"
       },
       "name" : "Jdv J333 Activite Sanitaire Diverse Regulee Niv Finess",
@@ -29493,6 +29637,78 @@
       },
       "name" : "Jdv J335 Activite Sanitaire Diverse Regulee Niv3 Finess",
       "description" : "Jeu de valeurs Finess contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 3",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j336-type-act-sanitaire-diverse-regulee-finess"
+      },
+      "name" : "Jdv J336 Type Act Sanitaire Diverse Regulee Finess",
+      "description" : "Jeu de valeurs FINESS reprenant les types d'activité sanitaire régulée",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j340-type-act-de-soin-amf-finess"
+      },
+      "name" : "Jdv J340 Type Act De Soin Amf Finess",
+      "description" : "Jeu de valeurs FINESS reprenant les types d'activité de soin AMF",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j341-type-act-autre-acte-soin-finess"
+      },
+      "name" : "Jdv J341 Type Act Autre Acte Soin Finess",
+      "description" : "Jeu de valeurs FINESS reprenant les types d'activité pour les autres actes de soin",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j342-type-act-soumise-a-reconnaissance-finess"
+      },
+      "name" : "Jdv J342 Type Act Soumise A Reconnaissance Finess",
+      "description" : "Jeu de valeurs FINESS reprenant les types d'activité soumise à reconnaissance",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j344-type-act-equipement-materiel-lourd-finess"
+      },
+      "name" : "Jdv J344 Type Act Equipement Materiel Lourd Finess",
+      "description" : "Jeu de valeurs FINESS reprenant les types d'activité associés aux équipements matériel lourds",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j350-type-act-de-soin-amm-finess"
+      },
+      "name" : "Jdv J350 Type Act De Soin Amm Finess",
+      "description" : "Jeu de valeurs FINESS reprenant les types d'activité de soin AMM",
       "exampleBoolean" : false
     },
     {
@@ -29553,6 +29769,42 @@
       },
       "name" : "Jdv J357 Genre Capacite Finess",
       "description" : "Jeu de valeurs FINESS contenant les genres de capacités utilisés par FINESS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j358-type-autorite-enregistrement-finess"
+      },
+      "name" : "Jdv J358 Type Autorite Enregistrement Finess",
+      "description" : "Jeu de valeurs FINESS contenant les types d'autorité d'enregistrement pour Finess",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j359-autorite-enregistrement-finess"
+      },
+      "name" : "Jdv J359 Autorite Enregistrement Finess",
+      "description" : "Jeu de valeurs FINESS contenant les autorité d'enregistrement pour Finess",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j360-autorite-regulation-finess"
+      },
+      "name" : "Jdv J360 Autorite Regulation Finess",
+      "description" : "Jeu de valeurs FINESS contenant les autorités de régulation pour Finess",
       "exampleBoolean" : false
     },
     {
@@ -29625,6 +29877,18 @@
       },
       "name" : "Jdv J370 Type Contrat Sejour Ms",
       "description" : "Type de contrat conclu entre l’établissement/service et la personne/son représentant légal.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j371-etat-objet-administratif-finess"
+      },
+      "name" : "Jdv J371 Etat Objet Administratif Finess",
+      "description" : "Jeu de valeurs FINESS contenant les états élémentaires que peuvent porter les entités et activités FINESS+",
       "exampleBoolean" : false
     },
     {
@@ -37197,18 +37461,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/900000000000207008-20260601"
-      },
-      "name" : "SNOMED CT core",
-      "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "NamingSystem"
       }],
       "reference" : {
@@ -37427,6 +37679,42 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/tre-r364-type-document-administratif"
+      },
+      "name" : "Tre R364 Type Document Administratif",
+      "description" : "Nomenclature des types de documents administratif ( exemple : agrément, convention...) Remarque : Cette nomenclature est initialisée avec les types de documents informatifs et justificatifs pouvant être associés à une entité FINESS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r365-etat-objet"
+      },
+      "name" : "Tre R365 Etat Objet",
+      "description" : "Nomenclature des états élémentaires d'un objet du MOS organisés en etat actifs et en etats inactifs. Remarque : Cette nomenclature est initialisée avec les états que peuvent porter les entités et activités FINESS+",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r366-type-objet"
+      },
+      "name" : "Tre R366 Type Objet",
+      "description" : "Nomenclature des types d’objets du MOS. \nRemarque : Cette nomenclature est juste initialisée avec les types d’objet FINESS+",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/tre-r370-role-relation-ege"
       },
       "name" : "Tre R370 Role Relation Ege",
@@ -37499,6 +37787,54 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/tre-r376-type-evenement-administratif"
+      },
+      "name" : "Tre R376 Type Evenement Administratif",
+      "description" : "Nomenclature des événements administratifs pertinents pour un cycle de vie d'un Objet de Santé (du MOS) Remarque : Cette nomenclature est initialisée avec les évenements affectant le cycle de vie des entités et activités enregistrées dans FINESS+",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r377-usage-adresse"
+      },
+      "name" : "Tre R377 Usage Adresse",
+      "description" : "Nomenclature des types des adresses\nRemarque : Cette TRE est juste intialisée avec les codes FINESS.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r378-motif-arrete"
+      },
+      "name" : "Tre R378 Motif Arrete",
+      "description" : "Nomenclature des motifs des arrêtés\nRemarque : Cette TRE est juste initialisée avec les codes FINESS+",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r379-systeme-information"
+      },
+      "name" : "Tre R379 Systeme Information",
+      "description" : "Nomenclature des systemes d’information généralement déclarés pour définir les caractéristiques des identifiants ou des événements\nRemarque : Cette TRE est initialisée avec les codes FINESS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/tre-r381-activite-amm"
       },
       "name" : "Tre R381 Activite Amm",
@@ -37559,6 +37895,18 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/tre-r386-macro-etat-objet-administratif"
+      },
+      "name" : "Tre R386 Macro Etat Objet Administratif",
+      "description" : "Nomenclature des macro-etat des structures FINESS qui dérivent de l'état de l'objet. Permet de distinguer les structures actives de celles inactives.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/tre-r387-type-groupement"
       },
       "name" : "Tre R387 Type Groupement",
@@ -37607,6 +37955,18 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/tre-r392-type-act-smsse-regulee"
+      },
+      "name" : "Tre R392 Type Act Smsse Regulee",
+      "description" : "Type activité SMSSE régulée",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/tre-r393-type-contrat-sejour"
       },
       "name" : "Tre R393 Type Contrat Sejour",
@@ -37631,10 +37991,22 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/tre-r395-engagement"
+      },
+      "name" : "Tre R395 Engagement",
+      "description" : "Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités. Cette TRE remplace la TRE-R278-Convention",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/tre-r396-autorite"
       },
       "name" : "Tre R396 Autorite",
-      "description" : "liste des autorités structurée en plusieurs types d'autorités : Ordres, ARS, ...",
+      "description" : "liste des autorités (autorités Ordres, autorités ARS, ...)",
       "exampleBoolean" : false
     },
     {
@@ -41049,6 +41421,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/vs-tre-g09-departement-om-all"
+      },
+      "name" : "Vs Tre G09 Departement Om All",
+      "description" : "Jeu de valeurs ALL contenant le référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/vs-tre-r272-equipement-materiel-lourd-all"
       },
       "name" : "Vs Tre R272 Equipement Materiel Lourd All",
@@ -41065,6 +41449,18 @@
       },
       "name" : "Vs Tre R274 Activite Sanitaire Regulee All",
       "description" : "Jeu de valeurs FINESS contenant les activités sanitaires soumises à une régulation de la part de l'ARS.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r30-region-om-all"
+      },
+      "name" : "Vs Tre R30 Region Om All",
+      "description" : "Jeu de valeurs ALL contenant le référentiel des codes régions et collectivités d'outre-mer provenant du COG INSEE + Monaco",
       "exampleBoolean" : false
     },
     {
@@ -41145,6 +41541,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/vs-tre-r378-motif-arrete-all"
+      },
+      "name" : "Vs Tre R378 Motif Arrete All",
+      "description" : "Jeu de valeurs ALL contenant les motifs des arrêtés enregsitrées dans FINESS+",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/vs-tre-r381-activite-amm-all"
       },
       "name" : "Vs Tre R381 Activite Amm All",
@@ -41209,6 +41617,18 @@
       },
       "name" : "Vs Tre R388 Type Logement All",
       "description" : "Jeu de valeurs ALL contenant les types de logement associés aux capacités des structures FINESS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r392-type-act-smsse-regulee-all"
+      },
+      "name" : "Vs Tre R392 Type Act Smsse Regulee All",
+      "description" : "Jeu de valeurs ALL contenant l'ensemble des codes pour les types d'activitées SMSSE régulées",
       "exampleBoolean" : false
     },
     {

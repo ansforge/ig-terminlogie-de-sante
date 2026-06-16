@@ -17,7 +17,7 @@
                   codeSystem="http://hl7.org/fhir/sid/icd-10"
                   displayName="Maladie du sang et des organes hématopoïétiques, sans précision"/>
          <Concept code="782964007"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="maladie génétique"/>
       </ConceptList>
    </ValueSet>

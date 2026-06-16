@@ -17,10 +17,10 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Autre mode de sortie"/>
          <Concept code="419620001"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="décès"/>
          <Concept code="107724000"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="transfert d'un(e) patient(e)"/>
       </ConceptList>
    </ValueSet>

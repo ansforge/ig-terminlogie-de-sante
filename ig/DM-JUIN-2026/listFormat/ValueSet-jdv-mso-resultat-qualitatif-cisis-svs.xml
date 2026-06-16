@@ -11,22 +11,22 @@
              urlFichier="">
       <ConceptList>
          <Concept code="10828004"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="positif(-ive)"/>
          <Concept code="en attente"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="positif – séroconversion"/>
          <Concept code="en attente"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="positif - multiplication par 4"/>
          <Concept code="260385009"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="négatif(-ive)"/>
          <Concept code="en attente"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="douteux"/>
          <Concept code="373121007"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="test non effectué"/>
       </ConceptList>
    </ValueSet>
