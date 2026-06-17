@@ -11,13 +11,13 @@
              urlFichier="">
       <ConceptList>
          <Concept code="260597006"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="par la veine céphalique"/>
          <Concept code="260598001"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="par la veine subclavière"/>
          <Concept code="1290464007"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="voie épicardique"/>
       </ConceptList>
    </ValueSet>

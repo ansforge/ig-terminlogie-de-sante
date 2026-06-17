@@ -32,13 +32,13 @@
                   codeSystem="http://hl7.org/fhir/sid/icd-10"
                   displayName="Affection du système nerveux autonome, sans précision"/>
          <Concept code="61683000"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="drop attack"/>
          <Concept code="399090003"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="vertige subjectif"/>
          <Concept code="88052002"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="mutisme"/>
       </ConceptList>
    </ValueSet>

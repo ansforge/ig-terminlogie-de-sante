@@ -4,5 +4,5 @@
 2.16.840.1.113883.5.4;IMP;Hospitalisation (établissement, y compris HAD)
 1.2.250.1.213.1.1.4.322;ORG-228;Etablissement médico-social
 1.2.250.1.213.1.1.4.322;GEN-092.06.03;Autre destination
-2.16.840.1.113883.6.96;160849004;retour au domicile
-2.16.840.1.113883.6.96;419620001;décès
+http://snomed.info/sct;160849004;retour au domicile
+http://snomed.info/sct;419620001;décès

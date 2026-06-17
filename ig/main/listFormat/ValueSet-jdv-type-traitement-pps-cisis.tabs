@@ -6,13 +6,13 @@
 1.2.250.1.213.1.1.4.322;MED-232;Irathérapie
 1.2.250.1.213.1.1.4.322;MED-126;Allogreffe / Autogreffe
 1.2.250.1.213.1.1.4.322;GEN-092.03.01;Autre(s) traitement(s)
-2.16.840.1.113883.6.96;387713003;intervention chirurgicale
-2.16.840.1.113883.6.96;1287742003;radiothérapie
-2.16.840.1.113883.6.96;152198000;curiethérapie
-2.16.840.1.113883.6.96;367336001;chimiothérapie
-2.16.840.1.113883.6.96;1255831008;thérapie ciblée
-2.16.840.1.113883.6.96;169413002;hormonothérapie
-2.16.840.1.113883.6.96;76334006;immunothérapie
-2.16.840.1.113883.6.96;258174001;imagerie interventionnelle
-2.16.840.1.113883.6.96;424313000;surveillance active
-2.16.840.1.113883.6.96;363687006;endoscopie interventionnelle
+http://snomed.info/sct;387713003;intervention chirurgicale
+http://snomed.info/sct;1287742003;radiothérapie
+http://snomed.info/sct;152198000;curiethérapie
+http://snomed.info/sct;367336001;chimiothérapie
+http://snomed.info/sct;1255831008;thérapie ciblée
+http://snomed.info/sct;169413002;hormonothérapie
+http://snomed.info/sct;76334006;immunothérapie
+http://snomed.info/sct;258174001;imagerie interventionnelle
+http://snomed.info/sct;424313000;surveillance active
+http://snomed.info/sct;363687006;endoscopie interventionnelle

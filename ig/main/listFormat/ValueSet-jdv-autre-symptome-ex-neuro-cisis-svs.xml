@@ -59,10 +59,10 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Latéropulsion"/>
          <Concept code="37125009"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="mydriase"/>
          <Concept code="301939004"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="myosis"/>
       </ConceptList>
    </ValueSet>

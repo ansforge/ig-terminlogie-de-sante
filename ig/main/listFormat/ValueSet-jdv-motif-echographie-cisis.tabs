@@ -2,6 +2,6 @@
 1.2.250.1.213.1.1.5.88;JDV;JdvMotifEchographieCisis.tabs;JDV Motif Echographie CISIS;;20100101000000;;20260420150251
 <OID>;<Code>;<Libellé>
 1.2.250.1.213.1.1.4.322;GEN-092.01.07;Autre motif d'échographie
-2.16.840.1.113883.6.96;129793001;densité du sein à la mammographie
-2.16.840.1.113883.6.96;2282003;prothèse mammaire
-2.16.840.1.113883.6.96;161615003;antécédent d'intervention chirurgicale
+http://snomed.info/sct;129793001;densité du sein à la mammographie
+http://snomed.info/sct;2282003;prothèse mammaire
+http://snomed.info/sct;161615003;antécédent d'intervention chirurgicale

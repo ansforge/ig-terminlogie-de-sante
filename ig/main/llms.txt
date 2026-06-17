@@ -3,13 +3,9 @@
 ## Pages
 
 * [Accueil](index.md)
-* [French module - XML Representation](CodeSystem-11000315107-20250621.xml.md)
-* [French module - TTL Representation](CodeSystem-11000315107-20250621.ttl.md)
-* [French module - histoire](CodeSystem-11000315107-20250621.histoire.md)
 * [Terminologies   du NOS](tre-nos.md)
 * [Téléchargements et usages](downloads.md)
 * [Jeux de valeurs (Deprecated)](jdv-deprecated.md)
-* [French module](CodeSystem-11000315107-20250621.md)
 * [Terminologies (Téléchargement)](tre-telechargement.md)
 * [Autres Ressources](autres_ressources.md)
 * [Terminologies  (Deprecated)](tre-deprecated.md)
@@ -22,28 +18,21 @@
 * [Identifiants externes](namingSystem.md)
 * [téléchargement (NOS)](telechargementNos.md)
 * [Identifiants](identifiants.md)
-* [French module - JSON Representation](CodeSystem-11000315107-20250621.json.md)
 * [Jeux de valeurs du SMT](jdv-smt.md)
-* [French module - demande](CodeSystem-11000315107-20250621.demande.md)
 * [Jeux de valeurs du CI-SIS](jdv-cisis.md)
 * [Terminologies  (Retired)](tre-retired.md)
-* [French module -  telechargement](CodeSystem-11000315107-20250621.tel.md)
 * [Supplement  (Traduction)](tre-supplement.md)
-* [](CodeSystem-11000315107-20250621.change.history.md)
 * [Listes des OID](listOid.md)
 * [Jeux de valeurs du NOS](jdv-nos.md)
 * [Jeux de valeurs (Téléchargement)](jdv-telechargement.md)
 * [Jeux de valeurs (Retired)](jdv-retired.md)
 * [Association](ass-telechargement.md)
-* [French module - Testing](CodeSystem-11000315107-20250621-testing.md)
 * [Terminologies   du SMT](tre-smt.md)
 
 ## Resources
 
 ### CodeSystems
 
-* [French module](CodeSystem-900000000000207008-20260601.md)
-* [SNOMED CT core](CodeSystem-900000000000207008-20260601.md)
 * [ActMoodSupplementFr](CodeSystem-ActMood-supplement-fr.md)
 * [ActPrioritySupplementFr](CodeSystem-ActPriority-supplement-fr.md)
 * [ActStatusSupplementFr](CodeSystem-ActStatus-supplement-fr.md)

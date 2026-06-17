@@ -15,7 +15,7 @@
      fhir:lastUpdated [ fhir:v "2026-05-05T20:12:26.273+02:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablecodesystem?version=4.0.1>
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1>
      ] )
   ] ; # 
   fhir:text [
@@ -23,24 +23,15 @@
      fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem TRE-R58-AutreTypeDiplome</b></p><a name=\"TRE-R58-AutreTypeDiplome\"> </a><a name=\"hcTRE-R58-AutreTypeDiplome\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 15; Dernière mise à jour : 2026-05-05 20:12:26+0200</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a> version : 4.0.1</p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>Date de Validité</td><td>dateValid</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>Date de mise à jour</td><td>dateMaj</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>Date de fin</td><td>dateFin</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr><tr><td>deprecationDate</td><td>deprecationDate</td><td>http://hl7.org/fhir/concept-properties#deprecationDate</td><td>dateTime</td><td>Date Concept was deprecated</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>A property that indicates the status of the concept.</td></tr><tr><td>retirementDate</td><td>retirementDate</td><td>http://hl7.org/fhir/concept-properties#retirementDate</td><td>dateTime</td><td>Date Concept was retired</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td><td><b>Déprécié</b></td><td><b>Date de Validité</b></td><td><b>Date de mise à jour</b></td><td><b>Date de fin</b></td><td><b>deprecationDate</b></td><td><b>status</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">DIP03<a name=\"TRE-R58-AutreTypeDiplome-DIP03\"> </a></td><td>Diplôme d'habilitation à diriger des recherches</td><td/><td/><td>2008-03-20T10:49:18+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Dip habil diriger recherches</td></tr><tr><td style=\"white-space:nowrap\">DIP04<a name=\"TRE-R58-AutreTypeDiplome-DIP04\"> </a></td><td>Maîtrise de Biologie humaine</td><td/><td/><td>2008-03-20T10:49:19+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">DIP05<a name=\"TRE-R58-AutreTypeDiplome-DIP05\"> </a></td><td>Maîtrise de Sciences biologiques et médicales</td><td/><td/><td>2008-03-20T10:49:20+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Maîtrise Sciences biolog, méd</td></tr><tr><td style=\"white-space:nowrap\">DIP06<a name=\"TRE-R58-AutreTypeDiplome-DIP06\"> </a></td><td>Maîtrise de Sciences dentaires</td><td/><td/><td>2008-03-20T10:49:20+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Maîtrise Sciences dentaires</td></tr><tr><td style=\"white-space:nowrap\">DIP07<a name=\"TRE-R58-AutreTypeDiplome-DIP07\"> </a></td><td>Diplôme d'études et de Recherche biologie humaine</td><td/><td/><td>2008-03-20T10:49:16+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Dip étu Rech biologie humaine</td></tr><tr><td style=\"white-space:nowrap\">DIP30<a name=\"TRE-R58-AutreTypeDiplome-DIP30\"> </a></td><td>Diplôme d'Appareillage des handicapés moteurs</td><td/><td/><td>2008-03-20T10:49:24+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Dip Appareil handicapés moteur</td></tr><tr><td style=\"white-space:nowrap\">DIP31<a name=\"TRE-R58-AutreTypeDiplome-DIP31\"> </a></td><td>Diplôme de la Marine marchande</td><td/><td/><td>2008-03-20T10:49:25+01:00</td><td>2008-03-20T10:49:25+01:00</td><td/><td/><td>active</td><td>Dip Marine marchande</td></tr><tr><td style=\"white-space:nowrap\">DIP32<a name=\"TRE-R58-AutreTypeDiplome-DIP32\"> </a></td><td>Diplôme de Podologie</td><td/><td/><td>2008-03-20T10:49:26+01:00</td><td>2008-03-20T10:49:26+01:00</td><td/><td/><td>active</td><td>Dip Podologie</td></tr><tr><td style=\"white-space:nowrap\">DIP33<a name=\"TRE-R58-AutreTypeDiplome-DIP33\"> </a></td><td>Diplôme de Sexologie</td><td/><td/><td>2008-03-20T10:49:26+01:00</td><td>2008-03-20T10:49:26+01:00</td><td/><td/><td>active</td><td>Dip Sexologie</td></tr><tr><td style=\"white-space:nowrap\">DIP34<a name=\"TRE-R58-AutreTypeDiplome-DIP34\"> </a></td><td>Diplôme de Thérapeutiques manuelles</td><td/><td/><td>2008-03-20T10:49:27+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Dip Thérapeutiques manuelles</td></tr><tr><td style=\"white-space:nowrap\">DIP35<a name=\"TRE-R58-AutreTypeDiplome-DIP35\"> </a></td><td>Diplôme relatif à la Réparation juridique du dommage corporel</td><td/><td/><td>2008-03-20T10:49:27+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Dip relat Répar jur domm corp</td></tr><tr><td style=\"white-space:nowrap\">DIP36<a name=\"TRE-R58-AutreTypeDiplome-DIP36\"> </a></td><td>Diplôme études médicales relatives à la Réparation juridique du dommage corporel</td><td/><td/><td>2008-03-20T10:49:28+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>DEM relat Répar jur domm corp</td></tr><tr><td style=\"white-space:nowrap\">DIP37<a name=\"TRE-R58-AutreTypeDiplome-DIP37\"> </a></td><td>CA ou DU Expertise du Dommage corporel</td><td/><td/><td>2008-03-20T10:49:29+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>CA, DU Expertise domm corporel</td></tr><tr><td style=\"white-space:nowrap\">DIP73<a name=\"TRE-R58-AutreTypeDiplome-DIP73\"> </a></td><td>Diplôme de Médecine agricole</td><td/><td/><td>2008-03-20T10:49:54+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Dip de Médecine agricole</td></tr><tr><td style=\"white-space:nowrap\">DIP74<a name=\"TRE-R58-AutreTypeDiplome-DIP74\"> </a></td><td>Diplôme d'études et de recherche science Odontologique</td><td/><td/><td>2008-03-20T10:49:55+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Dip étu recherche Odontologiq</td></tr><tr><td style=\"white-space:nowrap\">DIP173<a name=\"TRE-R58-AutreTypeDiplome-DIP173\"> </a></td><td>Diplôme de Gérontologie clinique</td><td/><td/><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Dip Gérontologie clinique</td></tr><tr><td style=\"white-space:nowrap\">DIP174<a name=\"TRE-R58-AutreTypeDiplome-DIP174\"> </a></td><td>DEC de Gérontologie et Gériatrie</td><td/><td/><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>DEC Gérontologie et Gériatrie</td></tr><tr><td style=\"white-space:nowrap\">DIP175<a name=\"TRE-R58-AutreTypeDiplome-DIP175\"> </a></td><td>Diplome d'Implantologie</td><td/><td/><td>2007-07-25T00:00:00+01:00</td><td>2009-02-02T00:00:00+01:00</td><td/><td/><td>active</td><td>Dip Implantologie</td></tr><tr><td style=\"white-space:nowrap\">DIP176<a name=\"TRE-R58-AutreTypeDiplome-DIP176\"> </a></td><td>Maladies sexuellement transmissibles</td><td/><td/><td>2007-07-25T00:00:00+01:00</td><td>2009-02-02T00:00:00+01:00</td><td/><td/><td>active</td><td>MST</td></tr><tr><td style=\"white-space:nowrap\">DIP177<a name=\"TRE-R58-AutreTypeDiplome-DIP177\"> </a></td><td>Ostéopathie par arrêté préfectoral</td><td/><td/><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Ostéopathie par arrêté préf</td></tr><tr><td style=\"white-space:nowrap\">DIP178<a name=\"TRE-R58-AutreTypeDiplome-DIP178\"> </a></td><td>CU Application de l'écho à l'obstétrique et à la gynécologie</td><td/><td/><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>CU Appl écho obstétriq, gynéco</td></tr><tr><td style=\"white-space:nowrap\">DIP179<a name=\"TRE-R58-AutreTypeDiplome-DIP179\"> </a></td><td>CE Enseignement spécial écho gynécologie et obstétrique</td><td/><td/><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>CE Ens spécial écho gyn, obst</td></tr><tr><td style=\"white-space:nowrap\">DIP203<a name=\"TRE-R58-AutreTypeDiplome-DIP203\"> </a></td><td>CU de Proctologie médico-chirurgicale</td><td/><td/><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>CU Proctologie médico-chir</td></tr><tr><td style=\"white-space:nowrap\">DIP204<a name=\"TRE-R58-AutreTypeDiplome-DIP204\"> </a></td><td>Diplôme (ou Attest d'étude) Electro-encephalographie clinique</td><td/><td/><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Dip Electro-encephalograp clin</td></tr><tr><td style=\"white-space:nowrap\">DIP212<a name=\"TRE-R58-AutreTypeDiplome-DIP212\"> </a></td><td>CU d'Echographie clinique</td><td/><td/><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>CU Echographie clinique</td></tr><tr><td style=\"white-space:nowrap\">DIP213<a name=\"TRE-R58-AutreTypeDiplome-DIP213\"> </a></td><td>Généraliste qualifié</td><td/><td/><td>2008-03-20T00:00:00+01:00</td><td>2011-01-17T11:47:08+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">DIP214<a name=\"TRE-R58-AutreTypeDiplome-DIP214\"> </a></td><td>CU d'Echographie clinique (ancien diplôme autorisé)</td><td/><td/><td>2008-03-20T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>CU Echographie cliniq (ancien)</td></tr><tr><td style=\"white-space:nowrap\">DIP215<a name=\"TRE-R58-AutreTypeDiplome-DIP215\"> </a></td><td>Diplôme de Médecine agricole de Tours</td><td/><td/><td>2008-03-20T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Dip Médecine agricole Tours</td></tr><tr><td style=\"white-space:nowrap\">DIP220<a name=\"TRE-R58-AutreTypeDiplome-DIP220\"> </a></td><td>Diplôme d'études complémentaires, option Ultrasonologie</td><td/><td/><td>2008-03-20T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>DEC opt Ultrasonologie</td></tr><tr><td style=\"white-space:nowrap\">DIP223<a name=\"TRE-R58-AutreTypeDiplome-DIP223\"> </a></td><td>Diplôme d'indemnisation du dommage corporel</td><td/><td/><td>2013-11-06T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Dip indemnisation domm corpor</td></tr><tr><td style=\"white-space:nowrap\">DIP230<a name=\"TRE-R58-AutreTypeDiplome-DIP230\"> </a></td><td>AUEC Plaies et cicatrisation</td><td/><td/><td>2016-05-03T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">DIP231<a name=\"TRE-R58-AutreTypeDiplome-DIP231\"> </a></td><td>AUEC Podologie médicale et du sport</td><td/><td/><td>2016-05-03T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>AUEC Podologie médic et sport</td></tr><tr><td style=\"white-space:nowrap\">DIP232<a name=\"TRE-R58-AutreTypeDiplome-DIP232\"> </a></td><td>CEU Biomécanique de l'appareil locomoteur</td><td/><td/><td>2016-05-03T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>CEU Bioméca app locomoteur</td></tr><tr><td style=\"white-space:nowrap\">DIP233<a name=\"TRE-R58-AutreTypeDiplome-DIP233\"> </a></td><td>CEU Pédagogie dans les professions de santé</td><td/><td/><td>2016-05-03T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>CEU Pédagogie dans prof santé</td></tr><tr><td style=\"white-space:nowrap\">DIP299<a name=\"TRE-R58-AutreTypeDiplome-DIP299\"> </a></td><td>Doctorat ès science, option Immunologie</td><td/><td/><td>2016-05-03T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Doct ès science opt Immunolog</td></tr><tr><td style=\"white-space:nowrap\">DIP302<a name=\"TRE-R58-AutreTypeDiplome-DIP302\"> </a></td><td>CU d'Ultrasonologie Médicale</td><td/><td/><td>2017-10-23T00:00:00+01:00</td><td>2017-10-23T00:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">DIP303<a name=\"TRE-R58-AutreTypeDiplome-DIP303\"> </a></td><td>Diplôme infirmier non reconnu pays EEE ou hors EEE</td><td/><td/><td>2019-10-25T12:00:00+01:00</td><td>2020-07-31T12:00:00+01:00</td><td/><td/><td>active</td><td>Dip infirmierhorsEEE</td></tr><tr><td style=\"white-space:nowrap\">DIP304<a name=\"TRE-R58-AutreTypeDiplome-DIP304\"> </a></td><td>Diplôme infirmier du secteur psychiatrique</td><td/><td/><td>2019-10-25T12:00:00+01:00</td><td>2020-07-31T12:00:00+01:00</td><td/><td/><td>active</td><td>Dip infirmier psy</td></tr><tr><td style=\"white-space:nowrap\">DIP305<a name=\"TRE-R58-AutreTypeDiplome-DIP305\"> </a></td><td>Formation de directeur de soins de l'EHESP</td><td/><td/><td>2019-10-25T12:00:00+01:00</td><td>2019-10-25T12:00:00+01:00</td><td/><td/><td>active</td><td>Dir. de soins EHESP</td></tr><tr><td style=\"white-space:nowrap\">DIP306<a name=\"TRE-R58-AutreTypeDiplome-DIP306\"> </a></td><td>Titre militaire autorisant la profession infirmier</td><td>Titre militaire autorisant la profession d'infirmier (arrêté du 11 septembre 1984 modifié par l'arrêté du 2 novembre 1995) ; cf. https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000493998&amp;fastPos=1&amp;fastReqId=2074838824&amp;categorieLien=cid&amp;oldAction=rechTexte</td><td/><td>2020-01-31T12:00:00+01:00</td><td>2020-07-31T12:00:00+01:00</td><td/><td/><td>active</td><td>Titre mil. infirmier</td></tr><tr><td style=\"white-space:nowrap\">DIP314<a name=\"TRE-R58-AutreTypeDiplome-DIP314\"> </a></td><td>Formation exceptionnelle en médecine du travail</td><td/><td/><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Forma excep méd trav</td></tr><tr><td style=\"white-space:nowrap\">DIP315<a name=\"TRE-R58-AutreTypeDiplome-DIP315\"> </a></td><td>Psychothérapeute par autorisation ARS</td><td/><td/><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Psychothér autor ARS</td></tr><tr><td style=\"white-space:nowrap\">DIP316<a name=\"TRE-R58-AutreTypeDiplome-DIP316\"> </a></td><td>Validation d'un DPC Prescription de dispositif PPC</td><td/><td/><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Valid DPC Prescr PPC</td></tr><tr><td style=\"white-space:nowrap\">DIP317<a name=\"TRE-R58-AutreTypeDiplome-DIP317\"> </a></td><td>Validation d'un DPC Otologie médicale</td><td/><td/><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Valid DPC Otolog méd</td></tr><tr><td style=\"white-space:nowrap\">DIP319<a name=\"TRE-R58-AutreTypeDiplome-DIP319\"> </a></td><td>Titre d'assistant dentaire</td><td/><td/><td>2021-11-26T12:00:00+01:00</td><td>2021-11-26T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">DIP398<a name=\"TRE-R58-AutreTypeDiplome-DIP398\"> </a></td><td>Lauréat de l'Académie Nationale de Médecine</td><td/><td/><td>2022-07-29T12:00:00+01:00</td><td>2022-07-29T12:00:00+01:00</td><td/><td/><td>active</td><td>Lauréat Académie Nat. Médecine</td></tr><tr><td style=\"white-space:nowrap\">DSCD01<a name=\"TRE-R58-AutreTypeDiplome-DSCD01\"> </a></td><td>Certificat d'études cliniques, mention Orthodontie</td><td/><td/><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>CEC mention Orthodontie</td></tr><tr><td style=\"white-space:nowrap\">DSCD02<a name=\"TRE-R58-AutreTypeDiplome-DSCD02\"> </a></td><td>Diplôme d'études supérieures de Chirurgie buccale</td><td/><td/><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>DES Chirurgie buccale</td></tr><tr><td style=\"white-space:nowrap\">DIP321<a name=\"TRE-R58-AutreTypeDiplome-DIP321\"> </a></td><td>Diplôme d'Ostéopathe d'un établissement agréé</td><td>2° de l'article 4 du décret n° 2007-435 du 25 mars 2007 relatif aux actes et aux conditions d'exercice de l'ostéopathie</td><td/><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/><td/><td>active</td><td>Diplôme Ostéopathe agréé</td></tr><tr><td style=\"white-space:nowrap\">DIP322<a name=\"TRE-R58-AutreTypeDiplome-DIP322\"> </a></td><td>Master en Psychologie ou Psychanalyse</td><td>Article 52 de la Loi n° 2004-806 du 9 août 2004 relative à la politique de santé publique ; article 1 du Décret n° 2010-534 du 20 mai 2010 relatif à l'usage du titre de psychothérapeute</td><td/><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/><td/><td>active</td><td>Master Psychologie ou Psychan</td></tr><tr><td style=\"white-space:nowrap\">DIP323<a name=\"TRE-R58-AutreTypeDiplome-DIP323\"> </a></td><td>Licence + Master mention psychologie + Attest stage</td><td>Article 52 de la loi n° 2004-806 du 9 août 2004 relative à la politique de santé publique ; article 1 du décret n° 2010-534 du 20 mai 2010 relatif à l'usage du titre de psychothérapeute ; article 1er, 2° et 3° du décret n°90-255 du 22 mars 1990</td><td/><td>2023-03-31T12:00:00+01:00</td><td>2024-05-31T12:00:00+01:00</td><td/><td/><td>active</td><td>Master mention psychologie</td></tr><tr><td style=\"white-space:nowrap\">DIP324<a name=\"TRE-R58-AutreTypeDiplome-DIP324\"> </a></td><td>Licence + Master mention psychologie clinique, psychopatho et psycho santé + Attest stage</td><td>Article 52 de la loi n° 2004-806 du 9 août 2004 relative à la politique de santé publique ; article 1 du décret n° 2010-534 du 20 mai 2010 relatif à l'usage du titre de psychothérapeute ; article 1er, 2° et 3° du décret n°90-255 du 22 mars 1990</td><td/><td>2023-03-31T12:00:00+01:00</td><td>2025-12-22T12:00:00+01:00</td><td/><td/><td>active</td><td>Master psy clin,psychop,santé</td></tr><tr><td style=\"white-space:nowrap\">DIP325<a name=\"TRE-R58-AutreTypeDiplome-DIP325\"> </a></td><td>Licence + Master mention psychologie sociale, du travail et des organisations + Attest stage</td><td>Article 52 de la loi n° 2004-806 du 9 août 2004 relative à la politique de santé publique ; article 1 du décret n° 2010-534 du 20 mai 2010 relatif à l'usage du titre de psychothérapeute ; article 1er, 2° et 3° du décret n°90-255 du 22 mars 1990</td><td/><td>2023-03-31T12:00:00+01:00</td><td>2025-12-22T12:00:00+01:00</td><td/><td/><td>active</td><td>Master psy social,travail,orga</td></tr><tr><td style=\"white-space:nowrap\">DIP326<a name=\"TRE-R58-AutreTypeDiplome-DIP326\"> </a></td><td>Licence + Master mention psychologie de l'éducation et de la formation + Attest stage</td><td>Article 52 de la loi n° 2004-806 du 9 août 2004 relative à la politique de santé publique ; article 1 du décret n° 2010-534 du 20 mai 2010 relatif à l'usage du titre de psychothérapeute ; article 1er, 2° et 3° du décret n°90-255 du 22 mars 1990</td><td/><td>2023-03-31T12:00:00+01:00</td><td>2025-12-22T12:00:00+01:00</td><td/><td/><td>active</td><td>Master psy éducation formation</td></tr><tr><td style=\"white-space:nowrap\">DIP327<a name=\"TRE-R58-AutreTypeDiplome-DIP327\"> </a></td><td>Licence + Master mention psychologie: psychopatho clinique psychanalytique + Attest stage</td><td>Article 52 de la loi n° 2004-806 du 9 août 2004 relative à la politique de santé publique ; article 1 du décret n° 2010-534 du 20 mai 2010 relatif à l'usage du titre de psychothérapeute ; article 1er, 2° et 3° du décret n°90-255 du 22 mars 1990</td><td/><td>2023-03-31T12:00:00+01:00</td><td>2025-12-22T12:00:00+01:00</td><td/><td/><td>active</td><td>Master psychopatho clin psycha</td></tr><tr><td style=\"white-space:nowrap\">DIP328<a name=\"TRE-R58-AutreTypeDiplome-DIP328\"> </a></td><td>Diplôme de niveau Master en psychanalyse</td><td>Article 52 de la Loi n° 2004-806 du 9 août 2004 relative à la politique de santé publique ; article 1 du Décret n° 2010-534 du 20 mai 2010 relatif à l'usage du titre de psychothérapeute</td><td/><td>2023-03-31T12:00:00+01:00</td><td>2025-12-22T12:00:00+01:00</td><td/><td/><td>active</td><td>Master Psychanalyse</td></tr><tr><td style=\"white-space:nowrap\">DIP329<a name=\"TRE-R58-AutreTypeDiplome-DIP329\"> </a></td><td>Diplôme de Chiropraxie</td><td>1° de l'article 4 du Décret n° 2011-32 du 7 janvier 2011 relatif aux actes et aux conditions d'exercice de la chiropraxie</td><td/><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/><td/><td>active</td><td>Diplôme Chiropraxie</td></tr><tr><td style=\"white-space:nowrap\">DIP331<a name=\"TRE-R58-AutreTypeDiplome-DIP331\"> </a></td><td>Certificat d'études acoustique prothèse auditive</td><td>Article L4361-5 du code de la santé publique (CSP)</td><td/><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/><td/><td>active</td><td>Certificat études acoustiques</td></tr><tr><td style=\"white-space:nowrap\">DIP332<a name=\"TRE-R58-AutreTypeDiplome-DIP332\"> </a></td><td>Examen professionnel d'Audio-Prothésiste</td><td>Article L4361-5 du code de la santé publique (CSP)</td><td/><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/><td/><td>active</td><td>Examen pro Audio-Prothésiste</td></tr><tr><td style=\"white-space:nowrap\">DIP333<a name=\"TRE-R58-AutreTypeDiplome-DIP333\"> </a></td><td>Diplôme d'Opticien-Lunetier</td><td>Articles L4362-2 et L4362-4 du code de la santé publique (CSP)</td><td/><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/><td/><td>active</td><td>Diplôme Opticien-Lunetier</td></tr><tr><td style=\"white-space:nowrap\">DIP334<a name=\"TRE-R58-AutreTypeDiplome-DIP334\"> </a></td><td>BTS Opticien-Lunetier</td><td>Article L4362-2 du code de la santé publique (CSP)</td><td/><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/><td/><td>active</td><td>Brevet de technicien supérieur d'Opticien-Lunetier</td></tr><tr><td style=\"white-space:nowrap\">DIP335<a name=\"TRE-R58-AutreTypeDiplome-DIP335\"> </a></td><td>Brevet professionnel d'Opticien-Lunetier</td><td>Article L.4362-2 du code de la santé publique (CSP)</td><td/><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/><td/><td>active</td><td>BP Opticien-Lunetier</td></tr><tr><td style=\"white-space:nowrap\">DIP336<a name=\"TRE-R58-AutreTypeDiplome-DIP336\"> </a></td><td>Certificat d'études Ecole des métiers d'optique</td><td>Article L.4362-4 du code de la santé publique (CSP)</td><td/><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/><td/><td>active</td><td>Diplôme école métiers optique</td></tr><tr><td style=\"white-space:nowrap\">DIP337<a name=\"TRE-R58-AutreTypeDiplome-DIP337\"> </a></td><td>Diplôme écoles nat prof section Optique-lunetterie</td><td>Article L.4362-4 du code de la santé publique (CSP)</td><td/><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/><td/><td>active</td><td>Diplôme écoles nationales prof</td></tr><tr><td style=\"white-space:nowrap\">DIP338<a name=\"TRE-R58-AutreTypeDiplome-DIP338\"> </a></td><td>Titre ministres du commerce, économie et finances, enseignement sup et santé</td><td>Article L.4362-2 du code de la santé publique (CSP)</td><td/><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/><td/><td>active</td><td>Titre arrêté ministres</td></tr><tr><td style=\"white-space:nowrap\">DIP339<a name=\"TRE-R58-AutreTypeDiplome-DIP339\"> </a></td><td>BTS Orthoprothésiste</td><td>1° de l'article D4364-8 du code de la santé publique (CSP) ; article 3 de l'arrêté du 1er février 2011 relatif aux professions de prothésiste et orthésiste</td><td/><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/><td/><td>active</td><td>Brevet de technicien supérieur d'Orthoprothésiste</td></tr><tr><td style=\"white-space:nowrap\">DIP340<a name=\"TRE-R58-AutreTypeDiplome-DIP340\"> </a></td><td>BTS Prothésiste-Orthésiste</td><td>Articles D4364-8 et D4364-10 du code de la santé publique (CSP) ; Articles 3 et 7 de l'arrêté du 1er février 2011 relatif aux professions de prothésiste et orthésiste.</td><td/><td>2023-03-31T12:00:00+01:00</td><td>2024-07-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Brevet de technicien supérieur de Prothésiste-Orthésiste</td></tr><tr><td style=\"white-space:nowrap\">DIP341<a name=\"TRE-R58-AutreTypeDiplome-DIP341\"> </a></td><td>BTS Podo-Orthésiste</td><td>Article D4364-8 du code de la santé publique (CSP) ; article 4 de l'arrêté du 1er février 2011 relatif aux professions de prothésiste et orthésiste</td><td/><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/><td/><td>active</td><td>Brevet de technicien supérieur de Podo-Orthésiste</td></tr><tr><td style=\"white-space:nowrap\">DIP342<a name=\"TRE-R58-AutreTypeDiplome-DIP342\"> </a></td><td>Titre d'Orthopédiste-Orthésiste obtenu avant 2007</td><td>Article D4364-10-1 du code de la santé publique (CSP) et article 7 de l'arrêté du 1er février 2011 relatif aux professions de prothésiste et orthésiste</td><td/><td>2023-03-31T12:00:00+01:00</td><td>2024-09-27T12:00:00+01:00</td><td/><td/><td>active</td><td>Titre Orthop-Orthés avant 2007</td></tr><tr><td style=\"white-space:nowrap\">DIP343<a name=\"TRE-R58-AutreTypeDiplome-DIP343\"> </a></td><td>Titre RNCP de Technicien Supérieur Orthopédiste-Orthésiste obtenu après 2007</td><td>Article D4364-10-1 du code de la santé publique (CSP) et article 7 de l'arrêté du 1er février 2011 relatif aux professions de prothésiste et orthésiste</td><td/><td>2023-03-31T12:00:00+01:00</td><td>2024-09-27T12:00:00+01:00</td><td/><td/><td>active</td><td>Titre TS Orthop-Orthés ap 2007</td></tr><tr><td style=\"white-space:nowrap\">DIP345<a name=\"TRE-R58-AutreTypeDiplome-DIP345\"> </a></td><td>Titre RNCP d'Orthopédiste-Orthésiste obtenu après 2007</td><td>Article D4364-10-1 du code de la santé publique (CSP) et article 7 de l'arrêté du 1er février 2011 relatif aux professions de prothésiste et orthésiste</td><td/><td>2023-03-31T12:00:00+01:00</td><td>2024-09-27T12:00:00+01:00</td><td/><td/><td>active</td><td>Titre Orthop-Orthés après 2007</td></tr><tr><td style=\"white-space:nowrap\">DIP348<a name=\"TRE-R58-AutreTypeDiplome-DIP348\"> </a></td><td>Diplôme Technicien Laboratoire arrêté 21/10/1992</td><td>Article L4352-2 2° du code de la santé publique (CSP) ; Arrêté du 21 octobre 1992</td><td/><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/><td/><td>active</td><td>Dip Tech Lab arrêté 21/10/92</td></tr><tr><td style=\"white-space:nowrap\">DIP349<a name=\"TRE-R58-AutreTypeDiplome-DIP349\"> </a></td><td>Diplôme Technicien Laboratoire arrêté 04/11/1976</td><td>Article L4352-3 du code de la santé publique (CSP) + article 2. de l'Arrêté du 21 octobre 1992</td><td/><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/><td/><td>active</td><td>Dip Tech Lab arrêté 04/11/76</td></tr><tr><td style=\"white-space:nowrap\">DIP350<a name=\"TRE-R58-AutreTypeDiplome-DIP350\"> </a></td><td>BTS/BTSA de technicien de laboratoire listé dans l'arrêté du 21/10/1992</td><td>Article L4352-2 2° du code de la santé publique (CSP) ; Arrêté du 21 octobre 1992</td><td/><td>2023-03-31T12:00:00+01:00</td><td>2025-08-28T12:00:00+01:00</td><td/><td/><td>active</td><td>BTS/BTSA tech lab arrêté 21/10/92</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">DIP352<a name=\"TRE-R58-AutreTypeDiplome-DIP352\"> </a></td><td>Diplôme de Technicien de Laboratoire arrêté du 21/10/92 sauf DETLM/DETAB,DUT,BTS</td><td>Article L4352-2 2° du code de la santé publique (CSP) ; Arrêté du 21 octobre 1992</td><td>Déprécié</td><td>2023-03-31T12:00:00+01:00</td><td>2024-07-26T12:00:00+01:00</td><td>2024-07-26T12:00:00+01:00</td><td>2024-07-26T12:00:00+01:00</td><td>deprecated</td><td>Dip Tech Lab arrêté 21/10/92</td></tr><tr><td style=\"white-space:nowrap\">DIP353<a name=\"TRE-R58-AutreTypeDiplome-DIP353\"> </a></td><td>Certificat de Capacité d'Orthophoniste</td><td>Article L4341-3 du code de la santé publique (CSP)</td><td/><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/><td/><td>active</td><td>Certif Capacité Orthophoniste</td></tr><tr><td style=\"white-space:nowrap\">DIP354<a name=\"TRE-R58-AutreTypeDiplome-DIP354\"> </a></td><td>Diplôme ou attestation MEN</td><td>Article L4341-3 du code de la santé publique (CSP)</td><td/><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">DIP355<a name=\"TRE-R58-AutreTypeDiplome-DIP355\"> </a></td><td>Certificat de Capacité d'Orthoptiste</td><td>Article L4342-3 du code de la santé publique (CSP)</td><td/><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/><td/><td>active</td><td>Certif Capacité Orthoptiste</td></tr><tr><td style=\"white-space:nowrap\">DIP356<a name=\"TRE-R58-AutreTypeDiplome-DIP356\"> </a></td><td>Licence psychologie + Maîtrise psychologie + DESS en psychologie</td><td>Article 44 de la Loi n° 85-772 du 25 juillet 1985 et article 1er du décret n°90-255 du 22 mars 1990</td><td/><td>2023-03-31T12:00:00+01:00</td><td>2026-02-23T12:00:00+01:00</td><td/><td/><td>active</td><td>Lic Maîtrise DESS psychologie</td></tr><tr><td style=\"white-space:nowrap\">DIP357<a name=\"TRE-R58-AutreTypeDiplome-DIP357\"> </a></td><td>Licence psychologie + Maîtrise psychologie + diplôme annexe Décret 90-255</td><td>Article 44 de la Loi n° 85-772 du 25 juillet 1985 et article 1er du décret n°90-255 du 22 mars 1990</td><td/><td>2023-03-31T12:00:00+01:00</td><td>2026-02-23T12:00:00+01:00</td><td/><td/><td>active</td><td>Lic Maîtrise diplôme annexe</td></tr><tr><td style=\"white-space:nowrap\">DIP358<a name=\"TRE-R58-AutreTypeDiplome-DIP358\"> </a></td><td>Licence psychologie + Maîtrise psychologie + DEA psychologie + Attestation Stage</td><td>Article 44 de la Loi n° 85-772 du 25 juillet 1985 et article 1er du décret n°90-255 du 22 mars 1990</td><td/><td>2023-03-31T12:00:00+01:00</td><td>2026-02-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Lic Maîtrise DEA psychologie</td></tr><tr><td style=\"white-space:nowrap\">DIP359<a name=\"TRE-R58-AutreTypeDiplome-DIP359\"> </a></td><td>Diplôme pour usage du titre de psychologue (alinéa 6 à 9 art 1 décret 90-255)</td><td>Article 44 de la loi n° 85-772 du 25 juillet 1985 et article 1er du décret n°90-255 du 22 mars 1990</td><td/><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/><td/><td>active</td><td>Dip alinéa 6-9 décret 90-255</td></tr><tr><td style=\"white-space:nowrap\">DIP360<a name=\"TRE-R58-AutreTypeDiplome-DIP360\"> </a></td><td>Usage restreint du titre de Psychologue (arrêté du 14/01/1993)</td><td>Arrêté du 14 janvier 1993 désignant les fonctions dans lesquelles les fonctionnaires et agents publics peuvent faire usage du titre de psychologue</td><td/><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/><td/><td>active</td><td>Titre de Psychologue</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">DIP361<a name=\"TRE-R58-AutreTypeDiplome-DIP361\"> </a></td><td>Licence + Master psychologie + Attest stage</td><td>Article 1er, 2° et 3° du décret n°90-255 du 22 mars 1990 (Ancien code)</td><td>Déprécié</td><td>2023-03-31T12:00:00+01:00</td><td>2024-05-31T12:00:00+01:00</td><td>2024-05-31T12:00:00+01:00</td><td>2024-05-31T12:00:00+01:00</td><td>deprecated</td><td>Lic Master Stage Psychologie</td></tr><tr><td style=\"white-space:nowrap\">DIP362<a name=\"TRE-R58-AutreTypeDiplome-DIP362\"> </a></td><td>Décision de Validation des Acquis de l'Expérience de Psychologue</td><td>Absence de base juridique</td><td/><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/><td/><td>active</td><td>Décision de VAE Psychologue</td></tr><tr><td style=\"white-space:nowrap\">DIP364<a name=\"TRE-R58-AutreTypeDiplome-DIP364\"> </a></td><td>BT ou BTS de Diététique</td><td>Article L4371-6 3° du code de la santé publique (CSP)</td><td/><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/><td/><td>active</td><td>BT ou BTS Diététique</td></tr><tr><td style=\"white-space:nowrap\">DIP367<a name=\"TRE-R58-AutreTypeDiplome-DIP367\"> </a></td><td>DTS/BTS Manipulateur d'Electro-Radiologie médicale</td><td>Articles L4351-2, L4351-3, L4351-4 et L4351-5 du code de la santé publique (CSP)</td><td/><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/><td/><td>active</td><td>DTS ou BTS MER</td></tr><tr><td style=\"white-space:nowrap\">DIP368<a name=\"TRE-R58-AutreTypeDiplome-DIP368\"> </a></td><td>DTS imagerie médicale et radiologie thérapeutique</td><td>Articles L4351-3, D4351-13-1 du code de la santé publique (CSP)</td><td/><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/><td/><td>active</td><td>DTS IMRT</td></tr><tr><td style=\"white-space:nowrap\">DIP409<a name=\"TRE-R58-AutreTypeDiplome-DIP409\"> </a></td><td>Diplôme de Qualification en Physique Radiologique et Médicale INSTN (dès 1996)</td><td>Diplôme de Qualification en Physique Radiologique et Médicale</td><td/><td>2024-03-29T12:00:00+01:00</td><td>2024-03-29T12:00:00+01:00</td><td/><td/><td>active</td><td>DQPRM-Dip qualif phys rad méd</td></tr><tr><td style=\"white-space:nowrap\">DIP412<a name=\"TRE-R58-AutreTypeDiplome-DIP412\"> </a></td><td>Diplôme ou titre ou certification délivré par le CNAM</td><td>Article L4352-2 2° du code de la santé publique (CSP) ; Arrêté du 21 octobre 1992</td><td/><td>2024-06-28T12:00:00+01:00</td><td>2025-08-28T12:00:00+01:00</td><td/><td/><td>active</td><td>Dip Bioch. Biol. titre et certif CNAM</td></tr><tr><td style=\"white-space:nowrap\">DIP414<a name=\"TRE-R58-AutreTypeDiplome-DIP414\"> </a></td><td>Diplôme ou titre délivré par l'AFPICL de Lyon (UCLy - ESTBB)</td><td>Article L4352-2 2° du code de la santé publique (CSP) ; Arrêté du 21 octobre 1992</td><td/><td>2024-06-28T12:00:00+01:00</td><td>2025-08-28T12:00:00+01:00</td><td/><td/><td>active</td><td>Diplôme et titre AFPICL Lyon</td></tr><tr><td style=\"white-space:nowrap\">DIP415<a name=\"TRE-R58-AutreTypeDiplome-DIP415\"> </a></td><td>Certificat de formation tech supérieur Physicien chimiste ministère travail</td><td/><td/><td>2024-06-28T12:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td>Certif phys chimiste ministère</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
-     fhir:url [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod>
-     ] ;
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
      fhir:value [
        a fhir:Period ;
        fhir:start [ fhir:v "2013-06-28T00:00:00+01:00"^^xsd:dateTime ]
      ]
   ] ) ; # 
-  fhir:url [
-     fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome"^^xsd:anyURI ;
-     fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome>
-  ] ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome"^^xsd:anyURI] ; # 
   fhir:identifier ( [
-     fhir:system [
-       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
-       fhir:l <urn:ietf:rfc:3986>
-     ] ;
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.53" ]
   ] ) ; # 
   fhir:version [ fhir:v "20260223120000"] ; # 
@@ -52,10 +43,7 @@
   fhir:description [ fhir:v "Autre type de diplôme"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
-       fhir:system [
-         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
-         fhir:l <urn:iso:std:iso:3166>
-       ] ;
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "FRA" ]
      ] )
   ] ) ; # 
@@ -64,50 +52,32 @@
   fhir:count [ fhir:v "92"^^xsd:nonNegativeInteger] ; # 
   fhir:property ( [
      fhir:code [ fhir:v "dateValid" ] ;
-     fhir:uri [
-       fhir:v "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"^^xsd:anyURI ;
-       fhir:l <https://smt.esante.gouv.fr/fhir/concept-properties#dateValid>
-     ] ;
+     fhir:uri [ fhir:v "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"^^xsd:anyURI ] ;
      fhir:description [ fhir:v "date de validité d'un code concept" ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] [
      fhir:code [ fhir:v "dateMaj" ] ;
-     fhir:uri [
-       fhir:v "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj"^^xsd:anyURI ;
-       fhir:l <https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj>
-     ] ;
+     fhir:uri [ fhir:v "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj"^^xsd:anyURI ] ;
      fhir:description [ fhir:v "Date de mise à jour d'un code concept" ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] [
      fhir:code [ fhir:v "dateFin" ] ;
-     fhir:uri [
-       fhir:v "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin"^^xsd:anyURI ;
-       fhir:l <https://smt.esante.gouv.fr/fhir/concept-properties#dateFin>
-     ] ;
+     fhir:uri [ fhir:v "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin"^^xsd:anyURI ] ;
      fhir:description [ fhir:v "Date de fin d'exploitation d'un code concept" ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] [
      fhir:code [ fhir:v "deprecationDate" ] ;
-     fhir:uri [
-       fhir:v "http://hl7.org/fhir/concept-properties#deprecationDate"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/concept-properties#deprecationDate>
-     ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#deprecationDate"^^xsd:anyURI ] ;
      fhir:description [ fhir:v "Date Concept was deprecated" ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] [
      fhir:code [ fhir:v "status" ] ;
-     fhir:uri [
-       fhir:v "http://hl7.org/fhir/concept-properties#status"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/concept-properties#status>
-     ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#status"^^xsd:anyURI ] ;
      fhir:description [ fhir:v "A property that indicates the status of the concept." ] ;
      fhir:type [ fhir:v "code" ]
   ] [
      fhir:code [ fhir:v "retirementDate" ] ;
-     fhir:uri [
-       fhir:v "http://hl7.org/fhir/concept-properties#retirementDate"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/concept-properties#retirementDate>
-     ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#retirementDate"^^xsd:anyURI ] ;
      fhir:description [ fhir:v "Date Concept was retired" ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] ) ; # 
@@ -118,10 +88,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Dip habil diriger recherches" ]
@@ -129,19 +96,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-03-20T10:49:18+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -151,19 +118,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-03-20T10:49:19+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -174,10 +141,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Maîtrise Sciences biolog, méd" ]
@@ -185,19 +149,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-03-20T10:49:20+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -208,10 +172,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Maîtrise Sciences dentaires" ]
@@ -219,19 +180,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-03-20T10:49:20+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -242,10 +203,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Dip étu Rech biologie humaine" ]
@@ -253,19 +211,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-03-20T10:49:16+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -276,10 +234,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Dip Appareil handicapés moteur" ]
@@ -287,19 +242,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-03-20T10:49:24+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -310,10 +265,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Dip Marine marchande" ]
@@ -321,19 +273,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-03-20T10:49:25+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-03-20T10:49:25+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -344,10 +296,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Dip Podologie" ]
@@ -355,19 +304,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-03-20T10:49:26+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-03-20T10:49:26+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -378,10 +327,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Dip Sexologie" ]
@@ -389,19 +335,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-03-20T10:49:26+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-03-20T10:49:26+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -412,10 +358,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Dip Thérapeutiques manuelles" ]
@@ -423,19 +366,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-03-20T10:49:27+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -446,10 +389,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Dip relat Répar jur domm corp" ]
@@ -457,19 +397,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-03-20T10:49:27+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -480,10 +420,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "DEM relat Répar jur domm corp" ]
@@ -491,10 +428,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Diplôme d'études médicales relatives à la Réparation juridique du dommage corporel" ]
@@ -502,19 +436,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-03-20T10:49:28+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -525,10 +459,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "CA, DU Expertise domm corporel" ]
@@ -536,19 +467,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-03-20T10:49:29+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -559,10 +490,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Dip de Médecine agricole" ]
@@ -570,19 +498,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-03-20T10:49:54+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -593,10 +521,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Dip étu recherche Odontologiq" ]
@@ -604,19 +529,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-03-20T10:49:55+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -627,10 +552,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Dip Gérontologie clinique" ]
@@ -638,19 +560,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -661,10 +583,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "DEC Gérontologie et Gériatrie" ]
@@ -672,19 +591,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -695,10 +614,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Dip Implantologie" ]
@@ -706,19 +622,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2009-02-02T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -729,10 +645,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "MST" ]
@@ -740,19 +653,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2009-02-02T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -763,10 +676,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Ostéopathie par arrêté préf" ]
@@ -774,19 +684,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -797,10 +707,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "CU Appl écho obstétriq, gynéco" ]
@@ -808,19 +715,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -831,10 +738,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "CE Ens spécial écho gyn, obst" ]
@@ -842,19 +746,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -865,10 +769,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "CU Proctologie médico-chir" ]
@@ -876,19 +777,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -899,10 +800,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Dip Electro-encephalograp clin" ]
@@ -910,19 +808,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -933,10 +831,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "CU Echographie clinique" ]
@@ -944,19 +839,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -966,19 +861,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-03-20T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2011-01-17T11:47:08+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -989,10 +884,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "CU Echographie cliniq (ancien)" ]
@@ -1000,19 +892,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-03-20T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -1023,10 +915,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Dip Médecine agricole Tours" ]
@@ -1034,19 +923,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-03-20T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -1057,10 +946,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "DEC opt Ultrasonologie" ]
@@ -1068,19 +954,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-03-20T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -1091,10 +977,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Dip indemnisation domm corpor" ]
@@ -1102,19 +985,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2013-11-06T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -1124,19 +1007,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-05-03T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -1147,10 +1030,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "AUEC Podologie médic et sport" ]
@@ -1158,19 +1038,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-05-03T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -1181,10 +1061,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "CEU Bioméca app locomoteur" ]
@@ -1192,19 +1069,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-05-03T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -1215,10 +1092,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "CEU Pédagogie dans prof santé" ]
@@ -1226,19 +1100,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-05-03T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -1249,10 +1123,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Doct ès science opt Immunolog" ]
@@ -1260,19 +1131,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-05-03T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -1282,19 +1153,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2017-10-23T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2017-10-23T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -1305,10 +1176,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Dip infirmierhorsEEE" ]
@@ -1316,10 +1184,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Diplôme infirmier non reconnu d'un pays EEE ou hors EEE" ]
@@ -1327,19 +1192,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2019-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2020-07-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -1350,10 +1215,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Dip infirmier psy" ]
@@ -1361,19 +1223,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2019-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2020-07-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -1384,10 +1246,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Dir. de soins EHESP" ]
@@ -1395,19 +1254,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2019-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2019-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -1419,10 +1278,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Titre mil. infirmier" ]
@@ -1430,10 +1286,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Titre militaire autorisant la profession d'infirmier" ]
@@ -1441,19 +1294,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2020-07-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -1464,10 +1317,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Forma excep méd trav" ]
@@ -1475,19 +1325,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -1498,10 +1348,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Psychothér autor ARS" ]
@@ -1509,10 +1356,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Psychothérapeute par autorisation de l'Agence Régionale de Santé (ARS)" ]
@@ -1520,19 +1364,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -1543,10 +1387,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Valid DPC Prescr PPC" ]
@@ -1554,10 +1395,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Validation d'un développement professionnel continu (DPC) en prescription de dispositif médical à pression positive continue (PPC)" ]
@@ -1565,19 +1403,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -1588,10 +1426,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Valid DPC Otolog méd" ]
@@ -1599,10 +1434,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Validation d'un développement professionnel continu (DPC) en otologie médicale" ]
@@ -1610,19 +1442,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -1632,19 +1464,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2021-11-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2021-11-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -1655,10 +1487,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Lauréat Académie Nat. Médecine" ]
@@ -1666,19 +1495,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2022-07-29T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2022-07-29T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -1689,10 +1518,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "CEC mention Orthodontie" ]
@@ -1700,19 +1526,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -1723,10 +1549,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "DES Chirurgie buccale" ]
@@ -1734,19 +1557,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -1758,10 +1581,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Diplôme Ostéopathe agréé" ]
@@ -1769,10 +1589,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Diplôme d'Ostéopathe d'un établissement agréé pour la formation en Ostéopathie" ]
@@ -1780,19 +1597,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -1804,10 +1621,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Master Psychologie ou Psychan" ]
@@ -1815,19 +1629,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -1839,10 +1653,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Master mention psychologie" ]
@@ -1850,19 +1661,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2024-05-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -1874,10 +1685,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Master psy clin,psychop,santé" ]
@@ -1885,10 +1693,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Master mention psychologie clinique, psychopathologie et psychologie de la santé" ]
@@ -1896,19 +1701,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2025-12-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -1920,10 +1725,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Master psy social,travail,orga" ]
@@ -1931,10 +1733,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Master mention psychologie sociale, du travail et des organisations" ]
@@ -1942,19 +1741,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2025-12-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -1966,10 +1765,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Master psy éducation formation" ]
@@ -1977,10 +1773,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Master mention psychologie de l'éducation et de la formation" ]
@@ -1988,19 +1781,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2025-12-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -2012,10 +1805,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Master psychopatho clin psycha" ]
@@ -2023,10 +1813,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Master mention psychopathologie clinique psychanalytique" ]
@@ -2034,19 +1821,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2025-12-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -2058,10 +1845,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Master Psychanalyse" ]
@@ -2069,19 +1853,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2025-12-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -2093,10 +1877,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Diplôme Chiropraxie" ]
@@ -2104,19 +1885,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -2128,10 +1909,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Certificat études acoustiques" ]
@@ -2139,10 +1917,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Certificat d'études techniques d'acoustique appareillage de prothèse auditive" ]
@@ -2150,19 +1925,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -2174,10 +1949,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Examen pro Audio-Prothésiste" ]
@@ -2185,19 +1957,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -2209,10 +1981,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Diplôme Opticien-Lunetier" ]
@@ -2220,19 +1989,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -2244,10 +2013,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Brevet de technicien supérieur d'Opticien-Lunetier" ]
@@ -2255,19 +2021,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -2279,10 +2045,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "BP Opticien-Lunetier" ]
@@ -2290,19 +2053,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -2314,10 +2077,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Diplôme école métiers optique" ]
@@ -2325,10 +2085,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Certificat d'études de l'Ecole des métiers d'optique" ]
@@ -2336,19 +2093,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -2360,10 +2117,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Diplôme écoles nationales prof" ]
@@ -2371,10 +2125,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Diplôme d'élève breveté des écoles nationales professionnelles, section d'optique-lunetterie" ]
@@ -2382,19 +2133,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -2406,10 +2157,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Titre arrêté ministres" ]
@@ -2417,10 +2165,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Titre désigné par arrêté des ministres du commerce, économie et finances, enseignement sup et santé permettant d'exercer comme Opticien-Lunetier" ]
@@ -2428,19 +2173,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -2452,10 +2197,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Brevet de technicien supérieur d'Orthoprothésiste" ]
@@ -2463,19 +2205,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -2487,10 +2229,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Brevet de technicien supérieur de Prothésiste-Orthésiste" ]
@@ -2498,19 +2237,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2024-07-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -2522,10 +2261,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Brevet de technicien supérieur de Podo-Orthésiste" ]
@@ -2533,19 +2269,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -2557,10 +2293,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Titre Orthop-Orthés avant 2007" ]
@@ -2568,19 +2301,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2024-09-27T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -2592,10 +2325,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Titre TS Orthop-Orthés ap 2007" ]
@@ -2603,19 +2333,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2024-09-27T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -2627,10 +2357,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Titre Orthop-Orthés après 2007" ]
@@ -2638,19 +2365,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2024-09-27T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -2662,10 +2389,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Dip Tech Lab arrêté 21/10/92" ]
@@ -2673,10 +2397,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Diplôme de Technicien de Laboratoire de l'arrêté du 21/10/1992" ]
@@ -2684,19 +2405,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -2708,10 +2429,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Dip Tech Lab arrêté 04/11/76" ]
@@ -2719,10 +2437,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Diplôme de Technicien de Laboratoire de l'arrêté du 04/11/1976" ]
@@ -2730,19 +2445,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -2754,10 +2469,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "BTS/BTSA tech lab arrêté 21/10/92" ]
@@ -2765,19 +2477,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2025-08-28T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -2789,10 +2501,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Dip Tech Lab arrêté 21/10/92" ]
@@ -2800,10 +2509,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Diplôme de l'arrêté du 21/10/1992 autre que DETLM/DETAB, DUT, BTS permettant d'exercer comme Technicien de Laboratoire" ]
@@ -2811,31 +2517,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2024-07-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2024-07-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2024-07-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -2847,10 +2553,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Certif Capacité Orthophoniste" ]
@@ -2858,19 +2561,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -2881,19 +2584,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -2905,10 +2608,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Certif Capacité Orthoptiste" ]
@@ -2916,19 +2616,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -2940,10 +2640,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Lic Maîtrise DESS psychologie" ]
@@ -2951,19 +2648,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2026-02-23T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -2975,10 +2672,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Lic Maîtrise diplôme annexe" ]
@@ -2986,10 +2680,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Licence + Maîtrise + un des diplômes cités en annexe du décret 90-255" ]
@@ -2997,19 +2688,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2026-02-23T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -3021,10 +2712,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Lic Maîtrise DEA psychologie" ]
@@ -3032,19 +2720,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2026-02-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -3056,10 +2744,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Dip alinéa 6-9 décret 90-255" ]
@@ -3067,10 +2752,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Diplôme permettant l'usage du titre de psychologue (alinéa 6 à 9 de l'article 1 du décret 90-255)" ]
@@ -3078,19 +2760,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -3102,10 +2784,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Titre de Psychologue" ]
@@ -3113,19 +2792,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -3137,10 +2816,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Lic Master Stage Psychologie" ]
@@ -3148,10 +2824,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Licence psychologie + Master psychologie + Stage psychologie" ]
@@ -3159,31 +2832,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2024-05-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2024-05-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2024-05-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -3195,10 +2868,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Décision de VAE Psychologue" ]
@@ -3206,19 +2876,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -3230,10 +2900,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "BT ou BTS Diététique" ]
@@ -3241,10 +2908,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Brevet de technicien ou brevet de technicien supérieur Diététique" ]
@@ -3252,19 +2916,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -3276,10 +2940,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "DTS ou BTS MER" ]
@@ -3287,10 +2948,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Diplôme de technicien supérieur ou brevet de technicien supérieur Manipulateur d'Electro-Radiologie médicale" ]
@@ -3298,19 +2956,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -3322,10 +2980,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "DTS IMRT" ]
@@ -3333,10 +2988,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Diplôme de technicien supérieur imagerie médicale et radiologie thérapeutique" ]
@@ -3344,19 +2996,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -3368,10 +3020,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "DQPRM-Dip qualif phys rad méd" ]
@@ -3379,19 +3028,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2024-03-29T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -3403,10 +3052,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Dip Bioch. Biol. titre et certif CNAM" ]
@@ -3414,19 +3060,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2024-06-28T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2025-08-28T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -3438,10 +3084,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Diplôme et titre AFPICL Lyon" ]
@@ -3449,19 +3092,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2024-06-28T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2025-08-28T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -3472,10 +3115,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Certif phys chimiste ministère" ]
@@ -3483,19 +3123,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2024-06-28T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2024-06-28T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )

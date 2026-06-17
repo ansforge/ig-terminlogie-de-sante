@@ -14,10 +14,10 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Abord trachéal direct"/>
          <Concept code="232674004"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="intubation orotrachéale"/>
          <Concept code="232679009"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="intubation nasotrachéale"/>
       </ConceptList>
    </ValueSet>

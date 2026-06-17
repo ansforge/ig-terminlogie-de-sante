@@ -11,16 +11,16 @@
              urlFichier="">
       <ConceptList>
          <Concept code="83581005"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="silice colloidale"/>
          <Concept code="16369005"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="amiante"/>
          <Concept code="61010005"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="solvant"/>
          <Concept code="59545008"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="pesticide"/>
       </ConceptList>
    </ValueSet>

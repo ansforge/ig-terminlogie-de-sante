@@ -14,13 +14,13 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Autre motif d'échographie"/>
          <Concept code="129793001"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="densité du sein à la mammographie"/>
          <Concept code="2282003"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="prothèse mammaire"/>
          <Concept code="161615003"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="antécédent d'intervention chirurgicale"/>
       </ConceptList>
    </ValueSet>

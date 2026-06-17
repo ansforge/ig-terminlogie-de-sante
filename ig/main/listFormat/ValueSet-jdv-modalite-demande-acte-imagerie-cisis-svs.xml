@@ -39,7 +39,7 @@
                   codeSystem="1.2.840.10008.2.16.4"
                   displayName="TEP : Tomographie par émission de positons"/>
          <Concept code="258174001"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="imagerie interventionnelle"/>
       </ConceptList>
    </ValueSet>

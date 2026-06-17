@@ -33,6 +33,8 @@ Requête sur le SMT
 
 ### Expansion
 
+No Expansion for this valueset (Unknown Code System)
+
 -------
 
  Explanation of the columns that may appear on this page: 
@@ -46,7 +48,20 @@ Requête sur le SMT
 | Definition | An explanation of the meaning of the concept |
 | Comments | Additional notes about how to use the code |
 
+| | | |
+| :--- | :--- | :--- |
+|  [<prev](ValueSet-jdv-impact-mutation-cisis.demande.md) | [top](#top) |  [next>](ValueSet-jdv-importance-clinique-cisis-testing.md) |
 
+IG © 2020+
+[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.10.0 based on
+[FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
+2026-06-17
+
+Liens:
+[Table des matières ](toc.md)|
+[QA ](qa.md)|
+[Historique des versions ](https://interop.esante.gouv.fr/terminologies/history.html)|
+[New Issue](https://github.com/ansforge/IG-terminologie-de-sante/issues/new/choose?title=)
 
 ## Resource Content
 

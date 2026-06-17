@@ -11,10 +11,10 @@
              urlFichier="">
       <ConceptList>
          <Concept code="285304000"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="à risque d'escarre"/>
          <Concept code="249492002"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="fausse route alimentaire"/>
       </ConceptList>
    </ValueSet>

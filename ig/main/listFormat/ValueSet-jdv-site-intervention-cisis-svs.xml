@@ -11,28 +11,28 @@
              urlFichier="">
       <ConceptList>
          <Concept code="15825003"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="aorte"/>
          <Concept code="41801008"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="artère coronaire"/>
          <Concept code="22286001"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="artère carotide externe"/>
          <Concept code="85234005"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="artère vertébrale"/>
          <Concept code="36765005"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="artère subclavière"/>
          <Concept code="10293006"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="artère iliaque"/>
          <Concept code="127955005"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="artère intracrânienne"/>
          <Concept code="61685007"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="membre inférieur"/>
       </ConceptList>
    </ValueSet>

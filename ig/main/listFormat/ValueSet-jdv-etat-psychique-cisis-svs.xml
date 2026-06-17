@@ -11,22 +11,22 @@
              urlFichier="">
       <ConceptList>
          <Concept code="288575003"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="capable de communiquer"/>
          <Concept code="247663003"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="bien orienté"/>
          <Concept code="62476001"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="désorienté(e)"/>
          <Concept code="24199005"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="sensation d'agitation"/>
          <Concept code="248043008"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="comportement non-conciliant"/>
          <Concept code="425104003"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="comportement suicidaire"/>
       </ConceptList>
    </ValueSet>

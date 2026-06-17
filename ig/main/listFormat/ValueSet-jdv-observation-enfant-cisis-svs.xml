@@ -20,7 +20,7 @@
                   codeSystem="2.16.840.1.113883.6.1"
                   displayName="Méthode d'accouchement"/>
          <Concept code="107724000"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem="http://snomed.info/sct"
                   displayName="transfert d'un(e) patient(e)"/>
       </ConceptList>
    </ValueSet>

@@ -15,19 +15,13 @@
      fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem ActPriority-supplement-fr</b></p><a name=\"ActPriority-supplement-fr\"> </a><a name=\"hcActPriority-supplement-fr\"> </a><p>This code system supplement <code>https://smt.esante.gouv.fr/fhir/CodeSystem/actPriority-supplement-fr</code> defines labels on the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>French (France) (fr)</b></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-ActPriority.html#v3-ActPriority-A\">A</a><a name=\"ActPriority-supplement-fr-A\"> </a></td><td>Aussi vite que possible</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-ActPriority.html#v3-ActPriority-CR\">CR</a><a name=\"ActPriority-supplement-fr-CR\"> </a></td><td>A contacter dès que les résultats sont disponibles</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-ActPriority.html#v3-ActPriority-EL\">EL</a><a name=\"ActPriority-supplement-fr-EL\"> </a></td><td>Bénéfique pour le patient mais pas essentiel pour sa survie</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-ActPriority.html#v3-ActPriority-EM\">EM</a><a name=\"ActPriority-supplement-fr-EM\"> </a></td><td>Très urgent</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-ActPriority.html#v3-ActPriority-P\">P</a><a name=\"ActPriority-supplement-fr-P\"> </a></td><td>A réaliser avant l'intervention</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-ActPriority.html#v3-ActPriority-PRN\">PRN</a><a name=\"ActPriority-supplement-fr-PRN\"> </a></td><td>Si nécessaire</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-ActPriority.html#v3-ActPriority-R\">R</a><a name=\"ActPriority-supplement-fr-R\"> </a></td><td>A réaliser aux heures ouvrées</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-ActPriority.html#v3-ActPriority-RR\">RR</a><a name=\"ActPriority-supplement-fr-RR\"> </a></td><td>Compte-rendu urgent</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-ActPriority.html#v3-ActPriority-S\">S</a><a name=\"ActPriority-supplement-fr-S\"> </a></td><td>Immédiatement</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-ActPriority.html#v3-ActPriority-T\">T</a><a name=\"ActPriority-supplement-fr-T\"> </a></td><td>Plannification à respecter</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-ActPriority.html#v3-ActPriority-UD\">UD</a><a name=\"ActPriority-supplement-fr-UD\"> </a></td><td>Médicament à utiliser selon les directives du prescripteur</td></tr><tr><td><a style=\"white-space:nowrap\" href=\"CodeSystem-v3-ActPriority.html#v3-ActPriority-UR\">UR</a><a name=\"ActPriority-supplement-fr-UR\"> </a></td><td>Urgent</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
-     fhir:url [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type>
-     ] ;
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type"^^xsd:anyURI ] ;
      fhir:value [
-       a fhir:Code ;
+       a fhir:code ;
        fhir:v "lang-pack"
      ]
   ] ) ; # 
-  fhir:url [
-     fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/actPriority-supplement-fr"^^xsd:anyURI ;
-     fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/actPriority-supplement-fr>
-  ] ; # 
+  fhir:url [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/actPriority-supplement-fr"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "1.0"] ; # 
   fhir:name [ fhir:v "ActPrioritySupplementFr"] ; # 
   fhir:title [ fhir:v "ActPrioritySupplementFr"] ; # 
@@ -37,17 +31,14 @@
   fhir:description [ fhir:v "Traduction Française"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
-       fhir:system [
-         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
-         fhir:l <urn:iso:std:iso:3166>
-       ] ;
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "FRA" ]
      ] )
   ] ) ; # 
   fhir:content [ fhir:v "supplement"] ; # 
   fhir:supplements [
      fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActPriority"^^xsd:anyURI ;
-     fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActPriority>
+     fhir:link <http://terminology.hl7.org/CodeSystem/v3-ActPriority>
   ] ; # 
   fhir:concept ( [
      fhir:code [ fhir:v "A" ] ;
@@ -55,10 +46,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Aussi vite que possible" ]
@@ -69,10 +57,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "A contacter dès que les résultats sont disponibles" ]
@@ -83,10 +68,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Bénéfique pour le patient mais pas essentiel pour sa survie" ]
@@ -97,10 +79,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Très urgent" ]
@@ -111,10 +90,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "A réaliser avant l'intervention" ]
@@ -125,10 +101,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Si nécessaire" ]
@@ -139,10 +112,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "A réaliser aux heures ouvrées" ]
@@ -153,10 +123,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Compte-rendu urgent" ]
@@ -167,10 +134,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Immédiatement" ]
@@ -181,10 +145,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Plannification à respecter" ]
@@ -195,10 +156,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Médicament à utiliser selon les directives du prescripteur" ]
@@ -209,10 +167,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Urgent" ]

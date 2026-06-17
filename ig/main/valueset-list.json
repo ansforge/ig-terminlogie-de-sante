@@ -7009,7 +7009,7 @@
   {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mso-resultat-qualitatif-cisis",
     "version" : "20260311144903",
-    "status" : "active",
+    "status" : "retired",
     "name" : "JdvMsoResultatQualitatifCisis",
     "title" : "Jdv MSO Resultat Qualitatif CISIS",
     "description" : "Jdv MSO Resultat Qualitatif CISIS",
