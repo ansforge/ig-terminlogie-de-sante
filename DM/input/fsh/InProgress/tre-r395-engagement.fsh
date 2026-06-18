@@ -115,9 +115,9 @@ Description: "Nomenclature hiérarchique des engagements associés dans FINESS+ 
 * #ARR ^property[0].code = #parent
 * #ARR ^property[=].valueCode = #ARRT
 * #ARR ^property[+].code = #dateValid
-* #ARR ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #ARR ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #ARR ^property[+].code = #dateMaj
-* #ARR ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #ARR ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #ARR ^property[+].code = #niveau
 * #ARR ^property[=].valueInteger = 2
 * #ASD "Convention aide sociale départementale"
@@ -304,9 +304,9 @@ Description: "Nomenclature hiérarchique des engagements associés dans FINESS+ 
 * #MDI ^property[0].code = #parent
 * #MDI ^property[=].valueCode = #DISP
 * #MDI ^property[+].code = #dateValid
-* #MDI ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
+* #MDI ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #MDI ^property[+].code = #dateMaj
-* #MDI ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
+* #MDI ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #MDI ^property[+].code = #niveau
 * #MDI ^property[=].valueInteger = 2
 * #MIL "Conv hôpitaux militaires"
@@ -399,9 +399,9 @@ Description: "Nomenclature hiérarchique des engagements associés dans FINESS+ 
 * #PDI ^property[0].code = #parent
 * #PDI ^property[=].valueCode = #DISP
 * #PDI ^property[+].code = #dateValid
-* #PDI ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
+* #PDI ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #PDI ^property[+].code = #dateMaj
-* #PDI ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
+* #PDI ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #PDI ^property[+].code = #niveau
 * #PDI ^property[=].valueInteger = 2
 * #QAL "Agrément Qualité"
@@ -454,9 +454,9 @@ Description: "Nomenclature hiérarchique des engagements associés dans FINESS+ 
 * #SAD ^property[0].code = #parent
 * #SAD ^property[=].valueCode = #CONV
 * #SAD ^property[+].code = #dateValid
-* #SAD ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #SAD ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #SAD ^property[+].code = #dateMaj
-* #SAD ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #SAD ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #SAD ^property[+].code = #niveau
 * #SAD ^property[=].valueInteger = 2
 * #SID "Signature d'une convention de médicalisation avec un SSIAD"

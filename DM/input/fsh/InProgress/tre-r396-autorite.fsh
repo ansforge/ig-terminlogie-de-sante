@@ -1055,9 +1055,9 @@ Description: "liste des autorités (autorités Ordres, autorités ARS, ...)"
 * #DREETS-01 ^designation[=].use = $sct#900000000000003001
 * #DREETS-01 ^designation[=].value = "DEETS Guadeloupe"
 * #DREETS-01 ^property[0].code = #dateValid
-* #DREETS-01 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DREETS-01 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DREETS-01 ^property[+].code = #dateMaj
-* #DREETS-01 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DREETS-01 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DREETS-01 ^property[+].code = #status
 * #DREETS-01 ^property[=].valueCode = #active
 * #DREETS-01 ^property[+].code = #niveau
@@ -1072,9 +1072,9 @@ Description: "liste des autorités (autorités Ordres, autorités ARS, ...)"
 * #DREETS-02 ^designation[=].use = $sct#900000000000003001
 * #DREETS-02 ^designation[=].value = "DEETS Martinique"
 * #DREETS-02 ^property[0].code = #dateValid
-* #DREETS-02 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DREETS-02 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DREETS-02 ^property[+].code = #dateMaj
-* #DREETS-02 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DREETS-02 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DREETS-02 ^property[+].code = #status
 * #DREETS-02 ^property[=].valueCode = #active
 * #DREETS-02 ^property[+].code = #niveau
@@ -1089,9 +1089,9 @@ Description: "liste des autorités (autorités Ordres, autorités ARS, ...)"
 * #DREETS-03 ^designation[=].use = $sct#900000000000003001
 * #DREETS-03 ^designation[=].value = "DGCOPOP Guyanee"
 * #DREETS-03 ^property[0].code = #dateValid
-* #DREETS-03 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DREETS-03 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DREETS-03 ^property[+].code = #dateMaj
-* #DREETS-03 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DREETS-03 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DREETS-03 ^property[+].code = #status
 * #DREETS-03 ^property[=].valueCode = #active
 * #DREETS-03 ^property[+].code = #niveau
@@ -1106,9 +1106,9 @@ Description: "liste des autorités (autorités Ordres, autorités ARS, ...)"
 * #DREETS-05 ^designation[=].use = $sct#900000000000003001
 * #DREETS-05 ^designation[=].value = "DEETS Réunion"
 * #DREETS-05 ^property[0].code = #dateValid
-* #DREETS-05 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DREETS-05 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DREETS-05 ^property[+].code = #dateMaj
-* #DREETS-05 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DREETS-05 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DREETS-05 ^property[+].code = #status
 * #DREETS-05 ^property[=].valueCode = #active
 * #DREETS-05 ^property[+].code = #niveau
@@ -1123,9 +1123,9 @@ Description: "liste des autorités (autorités Ordres, autorités ARS, ...)"
 * #DREETS-06 ^designation[=].use = $sct#900000000000003001
 * #DREETS-06 ^designation[=].value = "DREETS Mayotte"
 * #DREETS-06 ^property[0].code = #dateValid
-* #DREETS-06 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DREETS-06 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DREETS-06 ^property[+].code = #dateMaj
-* #DREETS-06 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DREETS-06 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DREETS-06 ^property[+].code = #status
 * #DREETS-06 ^property[=].valueCode = #active
 * #DREETS-06 ^property[+].code = #niveau
@@ -1140,9 +1140,9 @@ Description: "liste des autorités (autorités Ordres, autorités ARS, ...)"
 * #DREETS-11 ^designation[=].use = $sct#900000000000003001
 * #DREETS-11 ^designation[=].value = "DREETS Ile de France"
 * #DREETS-11 ^property[0].code = #dateValid
-* #DREETS-11 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DREETS-11 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DREETS-11 ^property[+].code = #dateMaj
-* #DREETS-11 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DREETS-11 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DREETS-11 ^property[+].code = #status
 * #DREETS-11 ^property[=].valueCode = #active
 * #DREETS-11 ^property[+].code = #niveau
@@ -1157,9 +1157,9 @@ Description: "liste des autorités (autorités Ordres, autorités ARS, ...)"
 * #DREETS-24 ^designation[=].use = $sct#900000000000003001
 * #DREETS-24 ^designation[=].value = "DREETS Centre-Val de Loire"
 * #DREETS-24 ^property[0].code = #dateValid
-* #DREETS-24 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DREETS-24 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DREETS-24 ^property[+].code = #dateMaj
-* #DREETS-24 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DREETS-24 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DREETS-24 ^property[+].code = #status
 * #DREETS-24 ^property[=].valueCode = #active
 * #DREETS-24 ^property[+].code = #niveau
@@ -1174,9 +1174,9 @@ Description: "liste des autorités (autorités Ordres, autorités ARS, ...)"
 * #DREETS-27 ^designation[=].use = $sct#900000000000003001
 * #DREETS-27 ^designation[=].value = "DREETS Bourgogne-Franche-Comté"
 * #DREETS-27 ^property[0].code = #dateValid
-* #DREETS-27 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DREETS-27 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DREETS-27 ^property[+].code = #dateMaj
-* #DREETS-27 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DREETS-27 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DREETS-27 ^property[+].code = #status
 * #DREETS-27 ^property[=].valueCode = #active
 * #DREETS-27 ^property[+].code = #niveau
@@ -1191,9 +1191,9 @@ Description: "liste des autorités (autorités Ordres, autorités ARS, ...)"
 * #DREETS-28 ^designation[=].use = $sct#900000000000003001
 * #DREETS-28 ^designation[=].value = "DREETS Normandie"
 * #DREETS-28 ^property[0].code = #dateValid
-* #DREETS-28 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DREETS-28 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DREETS-28 ^property[+].code = #dateMaj
-* #DREETS-28 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DREETS-28 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DREETS-28 ^property[+].code = #status
 * #DREETS-28 ^property[=].valueCode = #active
 * #DREETS-28 ^property[+].code = #niveau
@@ -1208,9 +1208,9 @@ Description: "liste des autorités (autorités Ordres, autorités ARS, ...)"
 * #DREETS-32 ^designation[=].use = $sct#900000000000003001
 * #DREETS-32 ^designation[=].value = "DREETS Hauts-de-France"
 * #DREETS-32 ^property[0].code = #dateValid
-* #DREETS-32 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DREETS-32 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DREETS-32 ^property[+].code = #dateMaj
-* #DREETS-32 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DREETS-32 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DREETS-32 ^property[+].code = #status
 * #DREETS-32 ^property[=].valueCode = #active
 * #DREETS-32 ^property[+].code = #niveau
@@ -1225,9 +1225,9 @@ Description: "liste des autorités (autorités Ordres, autorités ARS, ...)"
 * #DREETS-44 ^designation[=].use = $sct#900000000000003001
 * #DREETS-44 ^designation[=].value = "DREETS Grand Est"
 * #DREETS-44 ^property[0].code = #dateValid
-* #DREETS-44 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DREETS-44 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DREETS-44 ^property[+].code = #dateMaj
-* #DREETS-44 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DREETS-44 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DREETS-44 ^property[+].code = #status
 * #DREETS-44 ^property[=].valueCode = #active
 * #DREETS-44 ^property[+].code = #niveau
@@ -1242,9 +1242,9 @@ Description: "liste des autorités (autorités Ordres, autorités ARS, ...)"
 * #DREETS-52 ^designation[=].use = $sct#900000000000003001
 * #DREETS-52 ^designation[=].value = "DREETS Pays de la Loire"
 * #DREETS-52 ^property[0].code = #dateValid
-* #DREETS-52 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DREETS-52 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DREETS-52 ^property[+].code = #dateMaj
-* #DREETS-52 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DREETS-52 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DREETS-52 ^property[+].code = #status
 * #DREETS-52 ^property[=].valueCode = #active
 * #DREETS-52 ^property[+].code = #niveau
@@ -1259,9 +1259,9 @@ Description: "liste des autorités (autorités Ordres, autorités ARS, ...)"
 * #DREETS-53 ^designation[=].use = $sct#900000000000003001
 * #DREETS-53 ^designation[=].value = "DREETS Bretagne"
 * #DREETS-53 ^property[0].code = #dateValid
-* #DREETS-53 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DREETS-53 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DREETS-53 ^property[+].code = #dateMaj
-* #DREETS-53 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DREETS-53 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DREETS-53 ^property[+].code = #status
 * #DREETS-53 ^property[=].valueCode = #active
 * #DREETS-53 ^property[+].code = #niveau
@@ -1276,9 +1276,9 @@ Description: "liste des autorités (autorités Ordres, autorités ARS, ...)"
 * #DREETS-75 ^designation[=].use = $sct#900000000000003001
 * #DREETS-75 ^designation[=].value = "DREETS Nouvelle-Aquitaine"
 * #DREETS-75 ^property[0].code = #dateValid
-* #DREETS-75 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DREETS-75 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DREETS-75 ^property[+].code = #dateMaj
-* #DREETS-75 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DREETS-75 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DREETS-75 ^property[+].code = #status
 * #DREETS-75 ^property[=].valueCode = #active
 * #DREETS-75 ^property[+].code = #niveau
@@ -1293,9 +1293,9 @@ Description: "liste des autorités (autorités Ordres, autorités ARS, ...)"
 * #DREETS-76 ^designation[=].use = $sct#900000000000003001
 * #DREETS-76 ^designation[=].value = "DREETS Occitanie"
 * #DREETS-76 ^property[0].code = #dateValid
-* #DREETS-76 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DREETS-76 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DREETS-76 ^property[+].code = #dateMaj
-* #DREETS-76 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DREETS-76 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DREETS-76 ^property[+].code = #status
 * #DREETS-76 ^property[=].valueCode = #active
 * #DREETS-76 ^property[+].code = #niveau
@@ -1310,9 +1310,9 @@ Description: "liste des autorités (autorités Ordres, autorités ARS, ...)"
 * #DREETS-84 ^designation[=].use = $sct#900000000000003001
 * #DREETS-84 ^designation[=].value = "DREETS Auvergne-Rhône-Alpes"
 * #DREETS-84 ^property[0].code = #dateValid
-* #DREETS-84 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DREETS-84 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DREETS-84 ^property[+].code = #dateMaj
-* #DREETS-84 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DREETS-84 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DREETS-84 ^property[+].code = #status
 * #DREETS-84 ^property[=].valueCode = #active
 * #DREETS-84 ^property[+].code = #niveau
@@ -1327,9 +1327,9 @@ Description: "liste des autorités (autorités Ordres, autorités ARS, ...)"
 * #DREETS-93 ^designation[=].use = $sct#900000000000003001
 * #DREETS-93 ^designation[=].value = "DREETS PACA"
 * #DREETS-93 ^property[0].code = #dateValid
-* #DREETS-93 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DREETS-93 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DREETS-93 ^property[+].code = #dateMaj
-* #DREETS-93 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DREETS-93 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DREETS-93 ^property[+].code = #status
 * #DREETS-93 ^property[=].valueCode = #active
 * #DREETS-93 ^property[+].code = #niveau
@@ -1344,9 +1344,9 @@ Description: "liste des autorités (autorités Ordres, autorités ARS, ...)"
 * #DREETS-94 ^designation[=].use = $sct#900000000000003001
 * #DREETS-94 ^designation[=].value = "DREETS de Corse"
 * #DREETS-94 ^property[0].code = #dateValid
-* #DREETS-94 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DREETS-94 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DREETS-94 ^property[+].code = #dateMaj
-* #DREETS-94 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DREETS-94 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DREETS-94 ^property[+].code = #status
 * #DREETS-94 ^property[=].valueCode = #active
 * #DREETS-94 ^property[+].code = #niveau
@@ -1361,9 +1361,9 @@ Description: "liste des autorités (autorités Ordres, autorités ARS, ...)"
 * #DRHIL-11 ^designation[=].use = $sct#900000000000003001
 * #DRHIL-11 ^designation[=].value = "DRHIL Ile de France"
 * #DRHIL-11 ^property[0].code = #dateValid
-* #DRHIL-11 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DRHIL-11 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DRHIL-11 ^property[+].code = #dateMaj
-* #DRHIL-11 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DRHIL-11 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DRHIL-11 ^property[+].code = #status
 * #DRHIL-11 ^property[=].valueCode = #active
 * #DRHIL-11 ^property[+].code = #niveau
@@ -1378,9 +1378,9 @@ Description: "liste des autorités (autorités Ordres, autorités ARS, ...)"
 * #CD-01 ^designation[=].use = $sct#900000000000003001
 * #CD-01 ^designation[=].value = "CD Ain"
 * #CD-01 ^property[0].code = #dateValid
-* #CD-01 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #CD-01 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #CD-01 ^property[+].code = #dateMaj
-* #CD-01 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #CD-01 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #CD-01 ^property[+].code = #status
 * #CD-01 ^property[=].valueCode = #active
 * #CD-01 ^property[+].code = #niveau
@@ -1395,9 +1395,9 @@ Description: "liste des autorités (autorités Ordres, autorités ARS, ...)"
 * #CD-02 ^designation[=].use = $sct#900000000000003001
 * #CD-02 ^designation[=].value = "CD Aisne"
 * #CD-02 ^property[0].code = #dateValid
-* #CD-02 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #CD-02 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #CD-02 ^property[+].code = #dateMaj
-* #CD-02 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #CD-02 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #CD-02 ^property[+].code = #status
 * #CD-02 ^property[=].valueCode = #active
 * #CD-02 ^property[+].code = #niveau
@@ -1412,9 +1412,9 @@ Description: "liste des autorités (autorités Ordres, autorités ARS, ...)"
 * #CD-03 ^designation[=].use = $sct#900000000000003001
 * #CD-03 ^designation[=].value = "CD Allier"
 * #CD-03 ^property[0].code = #dateValid
-* #CD-03 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #CD-03 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #CD-03 ^property[+].code = #dateMaj
-* #CD-03 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #CD-03 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #CD-03 ^property[+].code = #status
 * #CD-03 ^property[=].valueCode = #active
 * #CD-03 ^property[+].code = #niveau
@@ -1429,9 +1429,9 @@ Description: "liste des autorités (autorités Ordres, autorités ARS, ...)"
 * #CD-15 ^designation[=].use = $sct#900000000000003001
 * #CD-15 ^designation[=].value = "CD Cantal"
 * #CD-15 ^property[0].code = #dateValid
-* #CD-15 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #CD-15 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #CD-15 ^property[+].code = #dateMaj
-* #CD-15 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #CD-15 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #CD-15 ^property[+].code = #status
 * #CD-15 ^property[=].valueCode = #active
 * #CD-15 ^property[+].code = #niveau
@@ -1446,9 +1446,9 @@ Description: "liste des autorités (autorités Ordres, autorités ARS, ...)"
 * #CD-54 ^designation[=].use = $sct#900000000000003001
 * #CD-54 ^designation[=].value = "CD Meurthe et Moselle"
 * #CD-54 ^property[0].code = #dateValid
-* #CD-54 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #CD-54 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #CD-54 ^property[+].code = #dateMaj
-* #CD-54 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #CD-54 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #CD-54 ^property[+].code = #status
 * #CD-54 ^property[=].valueCode = #active
 * #CD-54 ^property[+].code = #niveau
@@ -1463,9 +1463,9 @@ Description: "liste des autorités (autorités Ordres, autorités ARS, ...)"
 * #CD-58 ^designation[=].use = $sct#900000000000003001
 * #CD-58 ^designation[=].value = "CD Nièvre"
 * #CD-58 ^property[0].code = #dateValid
-* #CD-58 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #CD-58 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #CD-58 ^property[+].code = #dateMaj
-* #CD-58 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #CD-58 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #CD-58 ^property[+].code = #status
 * #CD-58 ^property[=].valueCode = #active
 * #CD-58 ^property[+].code = #niveau
@@ -1480,9 +1480,9 @@ Description: "liste des autorités (autorités Ordres, autorités ARS, ...)"
 * #CD-94 ^designation[=].use = $sct#900000000000003001
 * #CD-94 ^designation[=].value = "CD Val de Marne"
 * #CD-94 ^property[0].code = #dateValid
-* #CD-94 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #CD-94 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #CD-94 ^property[+].code = #dateMaj
-* #CD-94 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #CD-94 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #CD-94 ^property[+].code = #status
 * #CD-94 ^property[=].valueCode = #active
 * #CD-94 ^property[+].code = #niveau
@@ -1497,9 +1497,9 @@ Description: "liste des autorités (autorités Ordres, autorités ARS, ...)"
 * #CD-95 ^designation[=].use = $sct#900000000000003001
 * #CD-95 ^designation[=].value = "CD Val d'Oise"
 * #CD-95 ^property[0].code = #dateValid
-* #CD-95 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #CD-95 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #CD-95 ^property[+].code = #dateMaj
-* #CD-95 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #CD-95 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #CD-95 ^property[+].code = #status
 * #CD-95 ^property[=].valueCode = #active
 * #CD-95 ^property[+].code = #niveau
@@ -1514,9 +1514,9 @@ Description: "liste des autorités (autorités Ordres, autorités ARS, ...)"
 * #DDETS-01 ^designation[=].use = $sct#900000000000003001
 * #DDETS-01 ^designation[=].value = "DDETS Ain"
 * #DDETS-01 ^property[0].code = #dateValid
-* #DDETS-01 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DDETS-01 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DDETS-01 ^property[+].code = #dateMaj
-* #DDETS-01 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DDETS-01 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DDETS-01 ^property[+].code = #status
 * #DDETS-01 ^property[=].valueCode = #active
 * #DDETS-01 ^property[+].code = #niveau
@@ -1531,9 +1531,9 @@ Description: "liste des autorités (autorités Ordres, autorités ARS, ...)"
 * #DDETS-02 ^designation[=].use = $sct#900000000000003001
 * #DDETS-02 ^designation[=].value = "DDETS Aisne"
 * #DDETS-02 ^property[0].code = #dateValid
-* #DDETS-02 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DDETS-02 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DDETS-02 ^property[+].code = #dateMaj
-* #DDETS-02 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DDETS-02 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DDETS-02 ^property[+].code = #status
 * #DDETS-02 ^property[=].valueCode = #active
 * #DDETS-02 ^property[+].code = #niveau
@@ -1548,9 +1548,9 @@ Description: "liste des autorités (autorités Ordres, autorités ARS, ...)"
 * #DDETS-03 ^designation[=].use = $sct#900000000000003001
 * #DDETS-03 ^designation[=].value = "DDETS Allier"
 * #DDETS-03 ^property[0].code = #dateValid
-* #DDETS-03 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DDETS-03 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DDETS-03 ^property[+].code = #dateMaj
-* #DDETS-03 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DDETS-03 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DDETS-03 ^property[+].code = #status
 * #DDETS-03 ^property[=].valueCode = #active
 * #DDETS-03 ^property[+].code = #niveau
@@ -1565,9 +1565,9 @@ Description: "liste des autorités (autorités Ordres, autorités ARS, ...)"
 * #DDETS-95 ^designation[=].use = $sct#900000000000003001
 * #DDETS-95 ^designation[=].value = "DEETS Val d'Oise"
 * #DDETS-95 ^property[0].code = #dateValid
-* #DDETS-95 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DDETS-95 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DDETS-95 ^property[+].code = #dateMaj
-* #DDETS-95 ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #DDETS-95 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #DDETS-95 ^property[+].code = #status
 * #DDETS-95 ^property[=].valueCode = #active
 * #DDETS-95 ^property[+].code = #niveau
