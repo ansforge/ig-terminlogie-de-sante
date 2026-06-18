@@ -19,7 +19,7 @@
   fhir:title [ fhir:v "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-06-16T11:18:28+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-06-18T08:54:40+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;

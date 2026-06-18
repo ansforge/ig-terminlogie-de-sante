@@ -266,7 +266,6 @@ Vous touverez ici la liste des JDV du CI-SIS.
 | [JdvMotifNonRealisationEvenementCisis](ValueSet-jdv-motif-non-realisation-evenement-cisis.md) | JDV Motif Non Realisation Evenement CISIS | 20/04/2026 | active |
 | [JdvMsoResultatQualitatif3Cisis](ValueSet-jdv-mso-resultat-qualitatif-3-cisis.md) | Jdv MSO Resultat Qualitatif 3 CISIS | 20/04/2026 | active |
 | [JdvMsoResultatQualitatif5Cisis](ValueSet-jdv-mso-resultat-qualitatif-5-cisis.md) | Jdv MSO Resultat Qualitatif 5 CISIS | 20/04/2026 | active |
-| [JdvMsoResultatQualitatifCisis](ValueSet-jdv-mso-resultat-qualitatif-cisis.md) | Jdv MSO Resultat Qualitatif CISIS | 11/03/2026 | active |
 | [JdvNatureDiscussionCisis](ValueSet-jdv-nature-discussion-cisis.md) | JDV Nature Discussion CISIS | 20/04/2026 | active |
 | [JdvNatureFractionCisis](ValueSet-jdv-nature-fraction-cisis.md) | JDV Nature Fraction CISIS | 20/04/2026 | active |
 | [JdvNatureMaterielEtudieCisis](ValueSet-jdv-nature-materiel-etudie-cisis.md) | JDV Nature Materiel Etudie CISIS | 20/04/2026 | active |

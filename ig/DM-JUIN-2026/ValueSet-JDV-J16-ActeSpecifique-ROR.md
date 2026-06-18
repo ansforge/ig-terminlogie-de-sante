@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.10.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-06-16
+2026-06-18
 
 Liens:
 [Table des matières ](toc.md)|
@@ -5226,7 +5226,7 @@ Liens:
       },
       {
         "code" : "1665",
-        "display" : "Evaluation orthoptique de la fonction visuelle et/ou prise en soins avec l'ajustement des aides optiques et nouvelles technologies dans le cadre d'handicap de la fonction visuelle (RV)"
+        "display" : "Evaluation orthoptique et/ou prise en soins avec ajustement d'aide optique et nouvelle technologie associé à un handicap de la fonction visuelle (RV)"
       },
       {
         "code" : "1666",
