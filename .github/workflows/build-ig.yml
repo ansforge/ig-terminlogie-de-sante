@@ -128,6 +128,7 @@ jobs:
       - name:  Suppression des fichiers trop volumineux
         run : |
               rm -f ./igSource/output/qa-ipreview.html
+              rm -f ./igSource/output/qa-tx.html
 
               
       - name: Get branch names
