@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement | *Version*:20251222120000 | |
-| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R212_Equipement |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement | *Version*:20260601120000 | |
+| Active as of 2026-06-01 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R212_Equipement |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.10 | | |
 
  
@@ -30,10 +30,11 @@ Equipement
   "resourceType" : "CodeSystem",
   "id" : "TRE-R212-Equipement",
   "meta" : {
-    "versionId" : "23",
-    "lastUpdated" : "2025-12-22T10:46:41.590+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
+    "versionId" : "24",
+    "lastUpdated" : "2026-05-29T14:43:05.017+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
+  "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
@@ -45,11 +46,11 @@ Equipement
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.10"
   }],
-  "version" : "20251222120000",
+  "version" : "20260601120000",
   "name" : "TRE_R212_Equipement",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-22T12:00:00+01:00",
+  "date" : "2026-06-01T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Equipement",
   "jurisdiction" : [{
@@ -60,7 +61,7 @@ Equipement
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 235,
+  "count" : 245,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -101,6 +102,12 @@ Equipement
     "code" : "finess",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#finess",
     "description" : "Permet de définir les codes concepts utilisés par FINESS+",
+    "type" : "boolean"
+  },
+  {
+    "code" : "specialisationFiness",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#specialisationFiness",
+    "description" : "Propriété permettant de spécifier les codes exclusifs appartenant à FINESS",
     "type" : "boolean"
   }],
   "concept" : [{
@@ -4634,6 +4641,192 @@ Equipement
     {
       "code" : "status",
       "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "236",
+    "display" : "Appareil de thermoformage",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "237",
+    "display" : "Appareil de thermosoudage",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "238",
+    "display" : "Plateforme de force (étude de la posture)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "239",
+    "display" : "Plateforme de pression (étude de la marche)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "240",
+    "display" : "Piste de marche",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "241",
+    "display" : "Tapis de course",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "242",
+    "display" : "Système vidéo d'analyse de la marche et de la course",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "243",
+    "display" : "Semelles avec capteurs embarqués",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "244",
+    "display" : "Caisson hyperbare",
+    "definition" : "Code créé spécifiquement pour les besoins de FINESS.\n\nCaisson hyperbare soumis à autorisation\"",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "specialisationFiness",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "245",
+    "display" : "Cyclotron à usage médical",
+    "definition" : "Code créé spécifiquement pour les besoins de FINESS.\n\nCyclotron à usage médical soumis à autorisation dans le cadre d'une activité AMM de médecine nucléaire.",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Cyclotron"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "specialisationFiness",
+      "valueBoolean" : true
     }]
   }]
 }

@@ -13,18 +13,10 @@
          <concept code="MED-492"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Carrefour"/>
-         <concept code="83251001"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="lobe frontal"/>
-         <concept code="16630005"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="lobe pariétal"/>
-         <concept code="31065004"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="lobe occipital"/>
-         <concept code="78277001"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="lobe temporal"/>
+         <concept code="83251001" codeSystem="" displayName="lobe frontal"/>
+         <concept code="16630005" codeSystem="" displayName="lobe pariétal"/>
+         <concept code="31065004" codeSystem="" displayName="lobe occipital"/>
+         <concept code="78277001" codeSystem="" displayName="lobe temporal"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

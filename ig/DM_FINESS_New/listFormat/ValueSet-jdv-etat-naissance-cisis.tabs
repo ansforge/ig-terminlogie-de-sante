@@ -2,6 +2,6 @@
 1.2.250.1.213.1.1.5.736;JDV;JdvEtatNaissanceCisis;JDV Etat Naissance CISIS;;20230201000000;;20260420150250
 <system>;<Code>;<Libellé> 
 ;P95;Mort fœtale (de cause non précisée)
-2.16.840.1.113883.6.96;281050002;naissance vivante
-2.16.840.1.113883.6.96;391181005;mort néonatale précoce
-2.16.840.1.113883.6.96;240297000;mort infantile
+;281050002;naissance vivante
+;391181005;mort néonatale précoce
+;240297000;mort infantile

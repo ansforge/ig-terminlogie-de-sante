@@ -18,24 +18,15 @@
      fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem v2-0066</b></p><a name=\"v2-0066\"> </a><a name=\"hcv2-0066\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>Status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>A code that indicates the status of the concept</td></tr><tr><td>deprecated</td><td>v2-table-deprecated</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-table-deprecated</td><td>code</td><td>Version of HL7 in which the code was deprecated</td></tr></table><p><b>Concepts</b></p><p>This case-sensitive code system <code>http://terminology.hl7.org/CodeSystem/v2-0066</code> defines the following codes in a Is-A hierarchy:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>Status</b></td><td><b>deprecated</b></td><td><b>Deutsch (German, de)</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"v2-0066-1\"> </a></td><td>Full time employed</td><td>Full time employed</td><td>active</td><td/><td>Vollzeit</td></tr><tr><td style=\"white-space:nowrap\">F<a name=\"v2-0066-F\"> </a></td><td>Full Time</td><td>Full Time</td><td>active</td><td>2.9</td><td/></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">...<a name=\"v2-0066-.46.46.46\"> </a></td><td>see chapter 6</td><td>see chapter 6</td><td>deprecated</td><td>2.9</td><td/></tr><tr><td style=\"white-space:nowrap\">2<a name=\"v2-0066-2\"> </a></td><td>Part time employed</td><td>Part time employed</td><td>active</td><td/><td>Teilzeit</td></tr><tr><td style=\"white-space:nowrap\">P<a name=\"v2-0066-P\"> </a></td><td>Part Time</td><td>Part Time</td><td>active</td><td>2.9</td><td/></tr><tr><td style=\"white-space:nowrap\">4<a name=\"v2-0066-4\"> </a></td><td>Self-employed</td><td>Self-employed,</td><td>active</td><td/><td>Selbständig</td></tr><tr><td style=\"white-space:nowrap\">D<a name=\"v2-0066-D\"> </a></td><td>Per Diem</td><td>Per Diem</td><td>active</td><td>2.9</td><td/></tr><tr><td style=\"white-space:nowrap\">C<a name=\"v2-0066-C\"> </a></td><td>Contract, per diem</td><td>Contract, per diem</td><td>active</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">L<a name=\"v2-0066-L\"> </a></td><td>Leave of absence (e.g., family leave, sabbatical, etc.)</td><td>Leave of absence (e.g., family leave, sabbatical, etc.)</td><td>active</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">T<a name=\"v2-0066-T\"> </a></td><td>Temporarily unemployed</td><td>Temporarily unemployed</td><td>active</td><td/><td>zeitweise ohne Anstellung</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"v2-0066-3\"> </a></td><td>Unemployed</td><td>Unemployed</td><td>active</td><td/><td>Nicht erwerbstätig</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"v2-0066-5\"> </a></td><td>Retired</td><td>Retired</td><td>active</td><td/><td>Pensioniert</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"v2-0066-6\"> </a></td><td>On active military duty</td><td>On active military duty</td><td>active</td><td/><td>Militärdienst</td></tr><tr><td style=\"white-space:nowrap\">O<a name=\"v2-0066-O\"> </a></td><td>Other</td><td>Other</td><td>active</td><td/><td>Andere</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"v2-0066-9\"> </a></td><td>Unknown</td><td>Unknown</td><td>active</td><td/><td>unbekannt</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
-     fhir:url [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
-     ] ;
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ] ;
      fhir:value [
-       a fhir:Code ;
+       a fhir:code ;
        fhir:v "fm"
      ]
   ] ) ; # 
-  fhir:url [
-     fhir:v "http://terminology.hl7.org/CodeSystem/v2-0066"^^xsd:anyURI ;
-     fhir:l <http://terminology.hl7.org/CodeSystem/v2-0066>
-  ] ; # 
+  fhir:url [ fhir:v "http://terminology.hl7.org/CodeSystem/v2-0066"^^xsd:anyURI] ; # 
   fhir:identifier ( [
-     fhir:system [
-       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
-       fhir:l <urn:ietf:rfc:3986>
-     ] ;
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.18.26" ]
   ] ) ; # 
   fhir:version [ fhir:v "3.0.0"] ; # 
@@ -60,7 +51,7 @@
   fhir:caseSensitive [ fhir:v true] ; # 
   fhir:valueSet [
      fhir:v "http://terminology.hl7.org/ValueSet/v2-0066"^^xsd:anyURI ;
-     fhir:l <http://terminology.hl7.org/ValueSet/v2-0066>
+     fhir:link <http://terminology.hl7.org/ValueSet/v2-0066>
   ] ; # 
   fhir:hierarchyMeaning [ fhir:v "is-a"] ; # 
   fhir:compositional [ fhir:v false] ; # 
@@ -68,18 +59,12 @@
   fhir:content [ fhir:v "complete"] ; # 
   fhir:property ( [
      fhir:code [ fhir:v "status" ] ;
-     fhir:uri [
-       fhir:v "http://hl7.org/fhir/concept-properties#status"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/concept-properties#status>
-     ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#status"^^xsd:anyURI ] ;
      fhir:description [ fhir:v "A code that indicates the status of the concept" ] ;
      fhir:type [ fhir:v "code" ]
   ] [
      fhir:code [ fhir:v "v2-table-deprecated" ] ;
-     fhir:uri [
-       fhir:v "http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-table-deprecated"^^xsd:anyURI ;
-       fhir:l <http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-table-deprecated>
-     ] ;
+     fhir:uri [ fhir:v "http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-table-deprecated"^^xsd:anyURI ] ;
      fhir:description [ fhir:v "Version of HL7 in which the code was deprecated" ] ;
      fhir:type [ fhir:v "code" ]
   ] ) ; # 
@@ -91,10 +76,7 @@
      fhir:designation ( [
        fhir:language [ fhir:v "de" ] ;
        fhir:use [
-         fhir:system [
-           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
-           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
-         ] ;
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "preferredForLanguage" ]
        ] ;
        fhir:value [ fhir:v "Vollzeit" ]
@@ -102,7 +84,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -114,13 +96,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "v2-table-deprecated" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "2.9"
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -132,13 +114,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "v2-table-deprecated" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "2.9"
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -150,10 +132,7 @@
      fhir:designation ( [
        fhir:language [ fhir:v "de" ] ;
        fhir:use [
-         fhir:system [
-           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
-           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
-         ] ;
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "preferredForLanguage" ]
        ] ;
        fhir:value [ fhir:v "Teilzeit" ]
@@ -161,7 +140,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -173,13 +152,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "v2-table-deprecated" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "2.9"
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -191,10 +170,7 @@
      fhir:designation ( [
        fhir:language [ fhir:v "de" ] ;
        fhir:use [
-         fhir:system [
-           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
-           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
-         ] ;
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "preferredForLanguage" ]
        ] ;
        fhir:value [ fhir:v "Selbständig" ]
@@ -202,7 +178,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -214,13 +190,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "v2-table-deprecated" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "2.9"
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -232,7 +208,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -244,7 +220,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -256,10 +232,7 @@
      fhir:designation ( [
        fhir:language [ fhir:v "de" ] ;
        fhir:use [
-         fhir:system [
-           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
-           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
-         ] ;
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "preferredForLanguage" ]
        ] ;
        fhir:value [ fhir:v "zeitweise ohne Anstellung" ]
@@ -267,7 +240,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -279,10 +252,7 @@
      fhir:designation ( [
        fhir:language [ fhir:v "de" ] ;
        fhir:use [
-         fhir:system [
-           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
-           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
-         ] ;
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "preferredForLanguage" ]
        ] ;
        fhir:value [ fhir:v "Nicht erwerbstätig" ]
@@ -290,7 +260,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -302,10 +272,7 @@
      fhir:designation ( [
        fhir:language [ fhir:v "de" ] ;
        fhir:use [
-         fhir:system [
-           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
-           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
-         ] ;
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "preferredForLanguage" ]
        ] ;
        fhir:value [ fhir:v "Pensioniert" ]
@@ -313,7 +280,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -325,10 +292,7 @@
      fhir:designation ( [
        fhir:language [ fhir:v "de" ] ;
        fhir:use [
-         fhir:system [
-           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
-           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
-         ] ;
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "preferredForLanguage" ]
        ] ;
        fhir:value [ fhir:v "Militärdienst" ]
@@ -336,7 +300,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -348,10 +312,7 @@
      fhir:designation ( [
        fhir:language [ fhir:v "de" ] ;
        fhir:use [
-         fhir:system [
-           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
-           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
-         ] ;
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "preferredForLanguage" ]
        ] ;
        fhir:value [ fhir:v "Andere" ]
@@ -359,7 +320,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -371,10 +332,7 @@
      fhir:designation ( [
        fhir:language [ fhir:v "de" ] ;
        fhir:use [
-         fhir:system [
-           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
-           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
-         ] ;
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "preferredForLanguage" ]
        ] ;
        fhir:value [ fhir:v "unbekannt" ]
@@ -382,7 +340,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )

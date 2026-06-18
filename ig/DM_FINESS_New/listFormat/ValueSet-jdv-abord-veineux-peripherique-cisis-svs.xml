@@ -11,14 +11,12 @@
              urlFichier="">
       <ConceptList>
          <concept code="181387000"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="veine entière du membre supérieur"/>
          <concept code="244412003"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="veine entière du membre inférieur"/>
-         <concept code="82121006"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="veine cervicale"/>
+         <concept code="82121006" codeSystem="" displayName="veine cervicale"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

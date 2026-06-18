@@ -20,9 +20,7 @@
          <concept code="P95"
                   codeSystem=""
                   displayName="Mort fœtale (de cause non précisée)"/>
-         <concept code="3950001"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="naissance"/>
+         <concept code="3950001" codeSystem="" displayName="naissance"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J07-XdsTypeCode-CISIS/FHIR/JDV-J07-XdsTypeCode-CISIS | *Version*:20260505120000 | |
-| Active as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J07_XdsTypeCode_CISIS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J07-XdsTypeCode-CISIS/FHIR/JDV-J07-XdsTypeCode-CISIS | *Version*:20260601120000 | |
+| Active as of 2026-06-01 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J07_XdsTypeCode_CISIS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.471 | | |
 
  
@@ -46,7 +46,20 @@ Requête sur le SMT
 | Definition | An explanation of the meaning of the concept |
 | Comments | Additional notes about how to use the code |
 
+| | | |
+| :--- | :--- | :--- |
+|  [<prev](ValueSet-JDV-J06-XdsClassCode-CISIS.demande.md) | [top](#top) |  [next>](ValueSet-JDV-J07-XdsTypeCode-CISIS-testing.md) |
 
+IG © 2020+
+[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#0.1.0 based on
+[FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
+2026-06-18
+
+Liens:
+[Table des matières ](toc.md)|
+[QA ](qa.md)|
+[Historique des versions ](https://interop.esante.gouv.fr/terminologies/history.html)|
+[New Issue](https://github.com/ansforge/IG-terminologie-de-sante/issues/new/choose?title=)
 
 ## Resource Content
 
@@ -55,8 +68,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J07-XdsTypeCode-CISIS",
   "meta" : {
-    "versionId" : "18",
-    "lastUpdated" : "2026-05-05T19:02:30.247+02:00",
+    "versionId" : "20",
+    "lastUpdated" : "2026-06-02T15:18:57.384+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -71,11 +84,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.471"
   }],
-  "version" : "20260505120000",
+  "version" : "20260601120000",
   "name" : "JDV_J07_XdsTypeCode_CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-05T12:00:00+01:00",
+  "date" : "2026-06-01T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "XDS typeCode CI-SIS",
   "jurisdiction" : [{
@@ -243,10 +256,6 @@ Requête sur le SMT
         "display" : "Lettre de liaison à la sortie d'un établissement de soins"
       },
       {
-        "code" : "34112-3",
-        "display" : "CR hospitalier (séjour)"
-      },
-      {
         "code" : "11502-2",
         "display" : "CR d'examens biologiques"
       },
@@ -289,6 +298,10 @@ Requête sur le SMT
       {
         "code" : "29274-8",
         "display" : "Mesures de signes vitaux"
+      },
+      {
+        "code" : "34112-3",
+        "display" : "CR hospitalier (séjour)"
       },
       {
         "code" : "34120-6",
@@ -353,6 +366,18 @@ Requête sur le SMT
       {
         "code" : "56446-8",
         "display" : "Notification de rendez-vous"
+      },
+      {
+        "code" : "57055-6",
+        "display" : "Synthèse antepartum"
+      },
+      {
+        "code" : "57057-2",
+        "display" : "Synthèse Salle de Naissance Mère"
+      },
+      {
+        "code" : "57075-4",
+        "display" : "Synthèse Salle de Naissance Enfant"
       },
       {
         "code" : "57828-6",
@@ -451,6 +476,10 @@ Requête sur le SMT
         "display" : "Planification thérapeutique"
       },
       {
+        "code" : "78489-2",
+        "display" : "Synthèse Enfant en Maternité"
+      },
+      {
         "code" : "78513-9",
         "display" : "CR de consultation en ophtalmologie"
       },
@@ -495,6 +524,10 @@ Requête sur le SMT
         "display" : "Lettre de liaison à la sortie d'une structure sociale ou médico-sociale"
       },
       {
+        "code" : "84067-8",
+        "display" : "Synthèse transfusionnelle"
+      },
+      {
         "code" : "85208-7",
         "display" : "CR de télémédecine"
       },
@@ -511,12 +544,28 @@ Requête sur le SMT
         "display" : "Lettre de liaison d'entrée en structure sociale ou médico-sociale"
       },
       {
+        "code" : "89233-1",
+        "display" : "CR de grossesse"
+      },
+      {
+        "code" : "89235-6",
+        "display" : "Synthèse Suites de Couches Mère"
+      },
+      {
         "code" : "89601-9",
         "display" : "Certificat médical"
       },
       {
         "code" : "93024-8",
         "display" : "CR de consultation pharmaceutique"
+      },
+      {
+        "code" : "96163-1",
+        "display" : "Bilan de soins infirmiers"
+      },
+      {
+        "code" : "96173-0",
+        "display" : "Test rapide d'orientation diagnostique"
       },
       {
         "code" : "96349-6",
@@ -527,48 +576,16 @@ Requête sur le SMT
         "display" : "COVID-19 Attestation de vaccination"
       },
       {
-        "code" : "96173-0",
-        "display" : "Test rapide d'orientation diagnostique"
-      },
-      {
-        "code" : "57055-6",
-        "display" : "Synthèse antepartum"
-      },
-      {
-        "code" : "57057-2",
-        "display" : "Synthèse Salle de Naissance Mère"
-      },
-      {
-        "code" : "57075-4",
-        "display" : "Synthèse Salle de Naissance Enfant"
-      },
-      {
-        "code" : "84067-8",
-        "display" : "Synthèse transfusionnelle"
-      },
-      {
-        "code" : "89235-6",
-        "display" : "Synthèse Suites de Couches Mère"
-      },
-      {
-        "code" : "78489-2",
-        "display" : "Synthèse Enfant en Maternité"
-      },
-      {
-        "code" : "89233-1",
-        "display" : "CR de grossesse"
-      },
-      {
-        "code" : "101881-1",
-        "display" : "Carte d'implant"
-      },
-      {
         "code" : "97694-4",
         "display" : "Note d'évaluation en médecine maternelle et fœtale"
       },
       {
         "code" : "100967-9",
         "display" : "Rythme cardiaque fœtal"
+      },
+      {
+        "code" : "101881-1",
+        "display" : "Carte d'implant"
       }]
     },
     {

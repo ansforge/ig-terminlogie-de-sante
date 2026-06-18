@@ -11,31 +11,22 @@
   fhir:id [ fhir:v "ASS-A15-SexeProvenanceISO-Sexe"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CarteDeConcepts ASS-A15-SexeProvenanceISO-Sexe</b></p><a name=\"ASS-A15-SexeProvenanceISO-Sexe\"> </a><a name=\"hcASS-A15-SexeProvenanceISO-Sexe\"> </a><p>Mapping de (non spécifié) vers (non spécifié)</p><br/><p><b>Groupe 1 </b>Mapping de <a href=\"CodeSystem-TRE-R267-SexeProvenanceISO.html\">TRE_R267_SexeProvenanceISO</a> to <a href=\"CodeSystem-TRE-R249-Sexe.html\">TRE_R249_Sexe</a></p><table class=\"grid\"><tr><td><b>Code source</b></td><td><b>relation</b></td><td><b>Code cible</b></td></tr><tr><td>0 (Inconnu)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>UN (Inconnu)</td></tr><tr><td>1 (Masculin)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>M (Masculin)</td></tr><tr><td>2 (Féminin)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>F (Féminin)</td></tr><tr><td>9 (Autre (sexe ni masculin, ni féminin))</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>O (Autre sexe (ni masculin, ni féminin))</td></tr></table></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CarteDeConcepts ASS-A15-SexeProvenanceISO-Sexe</b></p><a name=\"ASS-A15-SexeProvenanceISO-Sexe\"> </a><a name=\"hcASS-A15-SexeProvenanceISO-Sexe\"> </a><p>This mapping does not specify any particular context of use.</p><br/><p>Mapping de <a href=\"CodeSystem-TRE-R267-SexeProvenanceISO.html\">TRE_R267_SexeProvenanceISO</a> to <a href=\"CodeSystem-TRE-R249-Sexe.html\">TRE_R249_Sexe</a></p><table class=\"grid\"><tr><td><b>Code source</b></td><td><b>relation</b></td><td><b>Code cible</b></td></tr><tr><td>0 (Inconnu)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>UN (Inconnu)</td></tr><tr><td>1 (Masculin)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>M (Masculin)</td></tr><tr><td>2 (Féminin)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>F (Féminin)</td></tr><tr><td>9 (Autre (sexe ni masculin, ni féminin))</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>O (Autre sexe (ni masculin, ni féminin))</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
-     fhir:url [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod>
-     ] ;
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
      fhir:value [
        a fhir:Period ;
        fhir:start [ fhir:v "2018-06-29T12:00:00+01:00"^^xsd:dateTime ]
      ]
   ] [
-     fhir:url [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/concept-bidirectional"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/concept-bidirectional>
-     ] ;
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/concept-bidirectional"^^xsd:anyURI ] ;
      fhir:value [
-       a fhir:Boolean ;
+       a fhir:boolean ;
        fhir:v true
      ]
   ] ) ; # 
-  fhir:url [
-     fhir:v "https://mos.esante.gouv.fr/NOS/ASS_A15-SexeProvenanceISO-Sexe/FHIR/ASS-A15-SexeProvenanceISO-Sexe"^^xsd:anyURI ;
-     fhir:l <https://mos.esante.gouv.fr/NOS/ASS_A15-SexeProvenanceISO-Sexe/FHIR/ASS-A15-SexeProvenanceISO-Sexe>
-  ] ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/ASS_A15-SexeProvenanceISO-Sexe/FHIR/ASS-A15-SexeProvenanceISO-Sexe"^^xsd:anyURI] ; # 
   fhir:identifier [
      fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.56" ]
   ] ; # 
@@ -47,14 +38,8 @@
   fhir:date [ fhir:v "2023-12-15T12:00:00+01:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Correspondance codes TRE_R267-SexeProvenanceISO / codes TRE_R249-Sexe"] ; # 
   fhir:group ( [
-     fhir:source [
-       fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R267-SexeProvenanceISO/FHIR/TRE-R267-SexeProvenanceISO"^^xsd:anyURI ;
-       fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R267-SexeProvenanceISO/FHIR/TRE-R267-SexeProvenanceISO>
-     ] ;
-     fhir:target [
-       fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R249-Sexe/FHIR/TRE-R249-Sexe"^^xsd:anyURI ;
-       fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R249-Sexe/FHIR/TRE-R249-Sexe>
-     ] ;
+     fhir:source [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R267-SexeProvenanceISO/FHIR/TRE-R267-SexeProvenanceISO"^^xsd:anyURI ] ;
+     fhir:target [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R249-Sexe/FHIR/TRE-R249-Sexe"^^xsd:anyURI ] ;
      fhir:element ( [
        fhir:code [ fhir:v "0" ] ;
        fhir:target ( [

@@ -13,18 +13,10 @@
          <concept code="GEN-092.01.27"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Autre facteur de risque"/>
-         <concept code="373067005"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="non"/>
-         <concept code="77386006"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="enceinte"/>
-         <concept code="370388006"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="immunodépression"/>
-         <concept code="133931009"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="nourrisson"/>
+         <concept code="373067005" codeSystem="" displayName="non"/>
+         <concept code="77386006" codeSystem="" displayName="enceinte"/>
+         <concept code="370388006" codeSystem="" displayName="immunodépression"/>
+         <concept code="133931009" codeSystem="" displayName="nourrisson"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

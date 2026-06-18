@@ -18,7 +18,7 @@ Vous touverez ici la liste des JDV du CI-SIS.
 | [JDV_J04_XdsPracticeSettingCode_CISIS](ValueSet-JDV-J04-XdsPracticeSettingCode-CISIS.md) | XDS practiceSettingCode CI-SIS | 27/09/2024 |
 | [JDV_J05_SubjectRole_CISIS](ValueSet-JDV-J05-SubjectRole-CISIS.md) | subjectRole CI-SIS | 05/05/2026 |
 | [JDV_J06_XdsClassCode_CISIS](ValueSet-JDV-J06-XdsClassCode-CISIS.md) | XDS classCode CI-SIS | 22/09/2023 |
-| [JDV_J07_XdsTypeCode_CISIS](ValueSet-JDV-J07-XdsTypeCode-CISIS.md) | XDS typeCode CI-SIS | 05/05/2026 |
+| [JDV_J07_XdsTypeCode_CISIS](ValueSet-JDV-J07-XdsTypeCode-CISIS.md) | XDS typeCode CI-SIS | 01/06/2026 |
 | [JDV_J08_XdsConfidentialityCode_CISIS](ValueSet-JDV-J08-XdsConfidentialityCode-CISIS.md) | XDS confidentialityCode - CI-SIS | 24/04/2020 |
 | [JDV_J10_XdsFormatCode_CISIS](ValueSet-JDV-J10-XdsFormatCode-CISIS.md) | XDS formatCode documents CI-SIS | 29/10/2025 |
 | [JDV_J110_StatutVisibiliteDocument_CISIS](ValueSet-JDV-J110-StatutVisibiliteDocument-CISIS.md) | Restriction d'audience applicable aux objets référencés liste - CISIS | 24/04/2020 |
@@ -266,7 +266,6 @@ Vous touverez ici la liste des JDV du CI-SIS.
 | [JdvMotifNonRealisationEvenementCisis](ValueSet-jdv-motif-non-realisation-evenement-cisis.md) | JDV Motif Non Realisation Evenement CISIS | 20/04/2026 |
 | [JdvMsoResultatQualitatif3Cisis](ValueSet-jdv-mso-resultat-qualitatif-3-cisis.md) | Jdv MSO Resultat Qualitatif 3 CISIS | 20/04/2026 |
 | [JdvMsoResultatQualitatif5Cisis](ValueSet-jdv-mso-resultat-qualitatif-5-cisis.md) | Jdv MSO Resultat Qualitatif 5 CISIS | 20/04/2026 |
-| [JdvMsoResultatQualitatifCisis](ValueSet-jdv-mso-resultat-qualitatif-cisis.md) | Jdv MSO Resultat Qualitatif CISIS | 11/03/2026 |
 | [JdvNatureDiscussionCisis](ValueSet-jdv-nature-discussion-cisis.md) | JDV Nature Discussion CISIS | 20/04/2026 |
 | [JdvNatureFractionCisis](ValueSet-jdv-nature-fraction-cisis.md) | JDV Nature Fraction CISIS | 20/04/2026 |
 | [JdvNatureMaterielEtudieCisis](ValueSet-jdv-nature-materiel-etudie-cisis.md) | JDV Nature Materiel Etudie CISIS | 20/04/2026 |

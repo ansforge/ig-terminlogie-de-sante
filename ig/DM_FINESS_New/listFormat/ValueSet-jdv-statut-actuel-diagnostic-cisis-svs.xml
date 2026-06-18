@@ -13,21 +13,11 @@
          <concept code="MED-1313"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Apparenté non porteur"/>
-         <concept code="2931005"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="diagnostic probable"/>
-         <concept code="385651009"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="en cours d'exécution"/>
-         <concept code="42425007"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="équivoque"/>
-         <concept code="255545003"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="diagnostic définitif"/>
-         <concept code="723511001"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="réfuté(e)"/>
+         <concept code="2931005" codeSystem="" displayName="diagnostic probable"/>
+         <concept code="385651009" codeSystem="" displayName="en cours d'exécution"/>
+         <concept code="42425007" codeSystem="" displayName="équivoque"/>
+         <concept code="255545003" codeSystem="" displayName="diagnostic définitif"/>
+         <concept code="723511001" codeSystem="" displayName="réfuté(e)"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

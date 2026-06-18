@@ -29,15 +29,9 @@
          <concept code="G90.9"
                   codeSystem=""
                   displayName="Affection du système nerveux autonome, sans précision"/>
-         <concept code="61683000"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="drop attack"/>
-         <concept code="399090003"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="vertige subjectif"/>
-         <concept code="88052002"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="mutisme"/>
+         <concept code="61683000" codeSystem="" displayName="drop attack"/>
+         <concept code="399090003" codeSystem="" displayName="vertige subjectif"/>
+         <concept code="88052002" codeSystem="" displayName="mutisme"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -20,13 +20,13 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Artère cérébrale postérieure territoire superficiel"/>
          <concept code="70382005"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="Artère cérébrale postérieure"/>
          <concept code="43119007"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="Artère communicante postérieure"/>
          <concept code="7736000"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="Artère choroïdienne postérieure"/>
       </ConceptList>
    </ValueSet>

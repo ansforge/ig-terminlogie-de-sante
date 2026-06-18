@@ -10,26 +10,24 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="260385009"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="négatif(-ive)"/>
+         <concept code="260385009" codeSystem="" displayName="négatif(-ive)"/>
          <concept code="167298001"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="trace de sang non-hémolysé détectée par bandelette urinaire"/>
          <concept code="1348270000"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="quantité moyenne de sang non-hémolysé détectée par bandelette urinaire"/>
          <concept code="167299009"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="trace de sang hémolysé détectée par bandelette urinaire"/>
          <concept code="1348319007"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="faible quantité de sang hémolysé détectée par bandelette urinaire"/>
          <concept code="1348318004"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="quantité moyenne de sang hémolysé détectée par bandelette urinaire"/>
          <concept code="1348320001"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="forte quantité de sang hémolysé détectée par bandelette urinaire"/>
       </ConceptList>
    </ValueSet>

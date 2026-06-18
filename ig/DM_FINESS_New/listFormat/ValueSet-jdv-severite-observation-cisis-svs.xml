@@ -11,23 +11,17 @@
              urlFichier="">
       <ConceptList>
          <concept code="442452003"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="mise en jeu du pronostic vital"/>
-         <concept code="24484000"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="gravité sévère"/>
+         <concept code="24484000" codeSystem="" displayName="gravité sévère"/>
          <concept code="371924009"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="gravité modérée à sévère"/>
-         <concept code="6736007"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="gravité modérée"/>
+         <concept code="6736007" codeSystem="" displayName="gravité modérée"/>
          <concept code="371923003"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="gravité légère à modérée"/>
-         <concept code="255604002"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="gravité légère"/>
+         <concept code="255604002" codeSystem="" displayName="gravité légère"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -11,10 +11,10 @@
              urlFichier="">
       <ConceptList>
          <concept code="164854000"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="électrocardiogramme normal"/>
          <concept code="102594003"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="électrocardiogramme anormal"/>
       </ConceptList>
    </ValueSet>

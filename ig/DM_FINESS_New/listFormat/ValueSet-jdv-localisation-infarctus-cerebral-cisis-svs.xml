@@ -11,23 +11,15 @@
              urlFichier="">
       <ConceptList>
          <concept code="60176003"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="ACA - artère cérébrale antérieure"/>
-         <concept code="55438003"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="centre semi-ovale"/>
+         <concept code="55438003" codeSystem="" displayName="centre semi-ovale"/>
          <concept code="70382005"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="artère cérébrale postérieure"/>
-         <concept code="50974003"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="jonctionnel(le)"/>
-         <concept code="15926001"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="tronc de l'encéphale"/>
-         <concept code="113305005"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="cervelet"/>
+         <concept code="50974003" codeSystem="" displayName="jonctionnel(le)"/>
+         <concept code="15926001" codeSystem="" displayName="tronc de l'encéphale"/>
+         <concept code="113305005" codeSystem="" displayName="cervelet"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

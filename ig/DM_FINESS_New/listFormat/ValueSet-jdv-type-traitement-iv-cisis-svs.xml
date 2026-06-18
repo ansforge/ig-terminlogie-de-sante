@@ -10,12 +10,8 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="233428003"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="thrombolyse veineuse"/>
-         <concept code="397028007"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="thrombectomie veineuse"/>
+         <concept code="233428003" codeSystem="" displayName="thrombolyse veineuse"/>
+         <concept code="397028007" codeSystem="" displayName="thrombectomie veineuse"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

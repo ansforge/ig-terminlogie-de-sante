@@ -17,7 +17,7 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Assistance maternelle"/>
          <concept code="312385000"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="service de garde d'enfants à domicile"/>
       </ConceptList>
    </ValueSet>

@@ -112,6 +112,7 @@ Vous touverez ici la liste des JDV du smt .
 | [JdvJ385CompositionFoyerMs](ValueSet-jdv-j385-composition-foyer-ms.md) | Désigne avec qui vit l’usager dans son logement. | 02/02/2026 |
 | [JdvJ386TypeEnseignementSpecialiseMs](ValueSet-jdv-j386-type-enseignement-specialise-ms.md) | Type d'enseignement spécialisé. | 02/02/2026 |
 | [JdvJ387RoleParticipantMs](ValueSet-jdv-j387-role-participant-ms.md) | Rôle du participant vis à vis de l'événement (mandataire judiciaire, structure en charge de l'événement). | 02/02/2026 |
+| [JdvJ391NiveauDiplomeMs](ValueSet-jdv-j391-niveau-diplome-ms.md) | Niveau de diplôme permettant d'indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel. | 01/06/2026 |
 | [JdvJ392TypeCourrierMs](ValueSet-jdv-j392-type-courrier-ms.md) | Type de courrier en France. | 05/05/2026 |
 | [JdvJ393UtilisationCanalCommunicationMs](ValueSet-jdv-j393-utilisation-canal-communication-ms.md) | Précise l'utilisation du canal de communication. | 05/05/2026 |
 | [JdvJ394TypeDemandeCompensationMs](ValueSet-jdv-j394-type-demande-compensation-ms.md) | Type demande de compensation adressée à la CDAPH. | 05/05/2026 |
@@ -119,6 +120,7 @@ Vous touverez ici la liste des JDV du smt .
 | [JdvJ396CanalCommunicationMs](ValueSet-jdv-j396-canal-communication-ms.md) | Canal de communication. | 05/05/2026 |
 | [JdvJ397TypeMessagerieMs](ValueSet-jdv-j397-type-messagerie-ms.md) | Type de messagerie électronique utilisée par le médico-social. | 05/05/2026 |
 | [JdvJ398TypeDecisionMs](ValueSet-jdv-j398-type-decision-ms.md) | Type de décision transmise aux DUI(s) par la CDAPH en réponse à une demande de compensation d'un usager. | 05/05/2026 |
+| [JdvJ399MotivationMs](ValueSet-jdv-j399-motivation-ms.md) | L'énoncé des considérations de droit ou de fait qui constituent le fondement de la proposition et de la décision de la CDAPH. | 01/06/2026 |
 | [JdvJ400NatureDroitPrestationMs](ValueSet-jdv-j400-nature-droit-prestation-ms.md) | Nature du droit s’appliquant à tous les droits ou prestations ouverts par la CDAPH. Elle permet de gérer, le cas échéant, le lien entre la date d’ouverture du droit et la date de fin d’un droit précédent. Elle est déterminée par l’équipe pluridisciplinaire ou par la CDAPH. | 05/05/2026 |
 | [JdvJ401CategorieDroitPrestationMs](ValueSet-jdv-j401-categorie-droit-prestation-ms.md) | Catégorie de droit et prestation caractérisant la décision d'orientation. | 05/05/2026 |
 | [JdvJ402TypeDroitPrestationMs](ValueSet-jdv-j402-type-droit-prestation-ms.md) | Type de droit et prestation caractérisant la décision d'orientation. | 05/05/2026 |
@@ -127,7 +129,10 @@ Vous touverez ici la liste des JDV du smt .
 | [JdvJ405TypePresenceAbsenceMs](ValueSet-jdv-j405-type-presence-absence-ms.md) | Déclaration du type de présence absence de l'usager lors d'un événement organisé par sa structure de rattachement. | 05/05/2026 |
 | [JdvJ406MotifAbsenceMs](ValueSet-jdv-j406-motif-absence-ms.md) | Motif pour lequel l'usager n'est pas présent lors d'un événement organisé par sa structure de rattachement. | 05/05/2026 |
 | [JdvJ407TypeRepasMs](ValueSet-jdv-j407-type-repas-ms.md) | Type de repas. | 05/05/2026 |
-| [JdvJ409TypeAdresseMs](ValueSet-jdv-j409-type-adresse-ms.md) | Type d'adresse postale. | 05/05/2026 |
+| [JdvJ408OrientationMs](ValueSet-jdv-j408-orientation-ms.md) | Ensemble des orientations vers un Service d'éducation spéciale et de soins à domicile (SESSAD), un Service d'accompagnement familial et d'éducation précoce (SAFEP), un enseignement adapté (SEGPA/EREA) ou une unité d'enseignement. | 01/06/2026 |
+| [JdvJ409TypeAdresseMs](ValueSet-jdv-j409-type-adresse-ms.md) | Type d'adresse postale tel que "Adresse du domicile", "Adresse de livraison" pour une personne physique. | 05/05/2026 |
+| [JdvJ410CategoriePermisConduireMs](ValueSet-jdv-j410-categorie-permis-conduire-ms.md) | Catégorie de permis de conduire. | 01/06/2026 |
+| [JdvJ411NiveauScolaireMs](ValueSet-jdv-j411-niveau-scolaire-ms.md) | Niveau scolaire de l'usager en France. | 01/06/2026 |
 | [JdvJ418ActiviteSanitaireDiverseReguleeActive](ValueSet-jdv-j418-activite-sanitaire-diverse-regulee-active.md) | Jeu de valeurs des activités sanitaires actives, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR) | 05/05/2026 |
 | [MediaType](ValueSet-jdv-hl7-v3-MediaType-cisis.md) | MediaType | 16/12/2025 |
 | [ObservationInterpretation](ValueSet-jdv-hl7-v3-ObservationInterpretation-cisis.md) | ObservationInterpretation | 20/04/2026 |
@@ -142,12 +147,12 @@ Vous touverez ici la liste des JDV du smt .
 | [SpecimenRoleType](ValueSet-jdv-hl7-v3-SpecimenRoleType-cisis.md) | SpecimenRoleType | 20/04/2026 |
 | [TimingEvent](ValueSet-jdv-hl7-v3-TimingEvent-cisis.md) | TimingEvent | 20/04/2026 |
 | [VS_test](ValueSet-VS-test.md) | VS-test | 31/12/2020 |
-| [ValueSet_ATC_All](ValueSet-vs-atc-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC | 18/05/2026 |
-| [ValueSet_BDPM_All](ValueSet-vs-bdpm-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie BDPM | 18/05/2026 |
-| [ValueSet_CIPUCD_All](ValueSet-vs-cipucd-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie CIP-UCD | 18/05/2026 |
-| [ValueSet_EDQM_All](ValueSet-vs-edqm-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie EDQM | 18/05/2026 |
-| [ValueSet_NUVA_All](ValueSet-vs-nuva-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA | 18/05/2026 |
-| [ValueSet_SMS_All](ValueSet-vs-sms-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie SMS, Dictionnaire des substances médicamenteuses | 18/05/2026 |
+| [ValueSet_ATC_All](ValueSet-vs-atc-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC | 18/06/2026 |
+| [ValueSet_BDPM_All](ValueSet-vs-bdpm-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie BDPM | 18/06/2026 |
+| [ValueSet_CIPUCD_All](ValueSet-vs-cipucd-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie CIP-UCD | 18/06/2026 |
+| [ValueSet_EDQM_All](ValueSet-vs-edqm-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie EDQM | 18/06/2026 |
+| [ValueSet_NUVA_All](ValueSet-vs-nuva-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA | 18/06/2026 |
+| [ValueSet_SMS_All](ValueSet-vs-sms-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie SMS, Dictionnaire des substances médicamenteuses | 18/06/2026 |
 | [VsTreR361FonctionPubliqueAll](ValueSet-vs-tre-r361-fonction-publique-all.md) | Jeu de valeurs ALL contenant les versants de la fonction publique. | 30/03/2026 |
 | [VsTreR362TypeBudgetAll](ValueSet-vs-tre-r362-type-budget-all.md) | Jeu de valeurs ALL contenant les types de budget associés aux Entités Géographiques d'Exercice (EGE) dans FINESS+. | 30/03/2026 |
 | [VsTreR370RoleRelationEgeAll](ValueSet-vs-tre-r370-role-relation-ege-all.md) | Jeu de valeurs ALL contenant les types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE. | 05/05/2026 |

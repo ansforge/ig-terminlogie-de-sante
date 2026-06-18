@@ -10,26 +10,20 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="449868002"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="fume quotidiennement"/>
+         <concept code="449868002" codeSystem="" displayName="fume quotidiennement"/>
          <concept code="428041000124106"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="fume occasionnellement"/>
-         <concept code="8517006"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="ne fume plus"/>
-         <concept code="266919005"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="n'a jamais fumé"/>
+         <concept code="8517006" codeSystem="" displayName="ne fume plus"/>
+         <concept code="266919005" codeSystem="" displayName="n'a jamais fumé"/>
          <concept code="266927001"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="consommation de tabac inconnue"/>
          <concept code="56771006"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="fume plus de 20 fois par jour"/>
          <concept code="56578002"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="fume 20 fois ou moins par jour"/>
       </ConceptList>
    </ValueSet>

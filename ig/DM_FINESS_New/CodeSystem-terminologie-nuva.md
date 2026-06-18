@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/terminologie-nuva | *Version*:1.0.1096 | |
-| Active as of 2026-05-06 | *Responsible:*Agence du numérique en santé | *Computable Name*:NUVA |
+| *Official URL*:https://smt.esante.gouv.fr/terminologie-nuva | *Version*:1.0.1108 | |
+| Active as of 2026-05-27 | *Responsible:*Agence du numérique en santé | *Computable Name*:NUVA |
 | *Other Identifiers:*OID:1.3.6.1.4.1.48601.1 (use: usual, ), https://smt.esante.gouv.fr/#terminologie-nuva (use: secondary, ) | | |
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
@@ -25,8 +25,8 @@
   "resourceType" : "CodeSystem",
   "id" : "terminologie-nuva",
   "meta" : {
-    "versionId" : "28",
-    "lastUpdated" : "2026-05-07T10:56:05.585+02:00",
+    "versionId" : "30",
+    "lastUpdated" : "2026-06-04T09:59:59.993+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"],
     "tag" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
@@ -45,12 +45,12 @@
     "system" : "https://smt.esante.gouv.fr/",
     "value" : "terminologie-nuva"
   }],
-  "version" : "1.0.1096",
+  "version" : "1.0.1108",
   "name" : "NUVA",
   "title" : "Nomenclature Unifiée des Vaccins",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-06T00:00:00+00:00",
+  "date" : "2026-05-27T00:00:00+00:00",
   "publisher" : "Agence du numérique en santé",
   "valueSet" : "https://smt.esante.gouv.fr/terminologie-nuva?vs",
   "content" : "not-present",

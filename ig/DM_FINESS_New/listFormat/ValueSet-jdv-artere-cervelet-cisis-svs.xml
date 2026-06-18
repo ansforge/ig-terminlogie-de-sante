@@ -14,14 +14,12 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Artère cérébelleuse inférieure (ACI)"/>
          <concept code="17232002"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="artère cérébrale moyenne"/>
          <concept code="51691006"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="artère cérébelleuse supérieure"/>
-         <concept code="38608005"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="artère cérébelleuse"/>
+         <concept code="38608005" codeSystem="" displayName="artère cérébelleuse"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -13,15 +13,9 @@
          <concept code="P95"
                   codeSystem=""
                   displayName="Mort fœtale (de cause non précisée)"/>
-         <concept code="281050002"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="naissance vivante"/>
-         <concept code="391181005"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="mort néonatale précoce"/>
-         <concept code="240297000"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="mort infantile"/>
+         <concept code="281050002" codeSystem="" displayName="naissance vivante"/>
+         <concept code="391181005" codeSystem="" displayName="mort néonatale précoce"/>
+         <concept code="240297000" codeSystem="" displayName="mort infantile"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

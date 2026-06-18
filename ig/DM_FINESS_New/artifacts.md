@@ -814,6 +814,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Jdv J386 Type Enseignement Specialise Ms](ValueSet-jdv-j386-type-enseignement-specialise-ms.md) | Type d’enseignement spécialisé. |
 | [Jdv J387 Role Participant Ms](ValueSet-jdv-j387-role-participant-ms.md) | Rôle du participant vis à vis de l’événement (mandataire judiciaire, structure en charge de l’événement). |
 | [Jdv J388 Mode Fonctionnement Activite Smsse Regulee Rass](ValueSet-jdv-j388-mode-fonctionnement-activite-smsse-regulee-rass.md) | Ce JDV remplace le JDV_J138_TypeActivite_RASS |
+| [Jdv J391 Niveau Diplome Ms](ValueSet-jdv-j391-niveau-diplome-ms.md) | Niveau de diplôme permettant d’indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel. |
 | [Jdv J392 Type Courrier Ms](ValueSet-jdv-j392-type-courrier-ms.md) | Type de courrier en France. |
 | [Jdv J393 Utilisation Canal Communication Ms](ValueSet-jdv-j393-utilisation-canal-communication-ms.md) | Précise l’utilisation du canal de communication. |
 | [Jdv J394 Type Demande Compensation Ms](ValueSet-jdv-j394-type-demande-compensation-ms.md) | Type demande de compensation adressée à la CDAPH. |
@@ -821,6 +822,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Jdv J396 Canal Communication Ms](ValueSet-jdv-j396-canal-communication-ms.md) | Canal de communication. |
 | [Jdv J397 Type Messagerie Ms](ValueSet-jdv-j397-type-messagerie-ms.md) | Type de messagerie électronique utilisée par le médico-social. |
 | [Jdv J398 Type Decision Ms](ValueSet-jdv-j398-type-decision-ms.md) | Type de décision transmise aux DUI(s) par la CDAPH en réponse à une demande de compensation d’un usager. |
+| [Jdv J399 Motivation Ms](ValueSet-jdv-j399-motivation-ms.md) | L’énoncé des considérations de droit ou de fait qui constituent le fondement de la proposition et de la décision de la CDAPH. |
 | [Jdv J400 Nature Droit Prestation Ms](ValueSet-jdv-j400-nature-droit-prestation-ms.md) | Nature du droit s’appliquant à tous les droits ou prestations ouverts par la CDAPH. Elle permet de gérer, le cas échéant, le lien entre la date d’ouverture du droit et la date de fin d’un droit précédent. Elle est déterminée par l’équipe pluridisciplinaire ou par la CDAPH. |
 | [Jdv J401 Categorie Droit Prestation Ms](ValueSet-jdv-j401-categorie-droit-prestation-ms.md) | Catégorie de droit et prestation caractérisant la décision d’orientation. |
 | [Jdv J402 Type Droit Prestation Ms](ValueSet-jdv-j402-type-droit-prestation-ms.md) | Type de droit et prestation caractérisant la décision d’orientation. |
@@ -829,7 +831,10 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Jdv J405 Type Presence Absence Ms](ValueSet-jdv-j405-type-presence-absence-ms.md) | Déclaration du type de présence absence de l’usager lors d’un événement organisé par sa structure de rattachement. |
 | [Jdv J406 Motif Absence Ms](ValueSet-jdv-j406-motif-absence-ms.md) | Motif pour lequel l’usager n’est pas présent lors d’un événement organisé par sa structure de rattachement. |
 | [Jdv J407 Type Repas Ms](ValueSet-jdv-j407-type-repas-ms.md) | Type de repas. |
-| [Jdv J409 Type Adresse Ms](ValueSet-jdv-j409-type-adresse-ms.md) | Type d’adresse postale. |
+| [Jdv J408 Orientation Ms](ValueSet-jdv-j408-orientation-ms.md) | Ensemble des orientations vers un Service d’éducation spéciale et de soins à domicile (SESSAD), un Service d’accompagnement familial et d’éducation précoce (SAFEP), un enseignement adapté (SEGPA/EREA) ou une unité d’enseignement. |
+| [Jdv J409 Type Adresse Ms](ValueSet-jdv-j409-type-adresse-ms.md) | Type d’adresse postale tel que “Adresse du domicile”, “Adresse de livraison” pour une personne physique. |
+| [Jdv J410 Categorie Permis Conduire Ms](ValueSet-jdv-j410-categorie-permis-conduire-ms.md) | Catégorie de permis de conduire. |
+| [Jdv J411 Niveau Scolaire Ms](ValueSet-jdv-j411-niveau-scolaire-ms.md) | Niveau scolaire de l’usager en France. |
 | [Jdv J418 Activite Sanitaire Diverse Regulee Active](ValueSet-jdv-j418-activite-sanitaire-diverse-regulee-active.md) | Jeu de valeurs des activités sanitaires actives, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR) |
 | [Jdv MSO Resultat Qualitatif 3 CISIS](ValueSet-jdv-mso-resultat-qualitatif-3-cisis.md) | Jdv MSO Resultat Qualitatif 3 CISIS |
 | [Jdv MSO Resultat Qualitatif 5 CISIS](ValueSet-jdv-mso-resultat-qualitatif-5-cisis.md) | Jdv MSO Resultat Qualitatif 5 CISIS |
@@ -916,6 +921,7 @@ These define new code systems used by systems conforming to this implementation 
 | [Classification internationale des maladies et des problèmes de santé connexes - 10ème révision - Version française à usage PMSI (Programme Médicalisé des Systèmes d'Information)](CodeSystem-terminologie-cim-10.md) |  |
 | [Classification internationale des maladies et des problèmes de santé connexes - 11ème révision](CodeSystem-terminologie-cim11-mms.md) |  |
 | [Classification internationale des soins primaires - 2ème version](CodeSystem-terminologie-cisp.md) |  |
+| [Classification internationale du fonctionnement, du handicap et de la santé](CodeSystem-terminologie-icf.md) |  |
 | [Concept Properties](CodeSystem-concept-properties.md) | CodeSystem permettant définir les propriétés NOS utilisées dans les CodeSystem NOS |
 | [Condition Clinical Status Codes](CodeSystem-condition-clinical.md) | Preferred value set for Condition Clinical Status. |
 | [ConditionVerificationStatus](CodeSystem-condition-ver-status.md) | The verification status to support or decline the clinical status of the condition or diagnosis. |
@@ -924,6 +930,7 @@ These define new code systems used by systems conforming to this implementation 
 | [EntityCode](CodeSystem-v3-EntityCode.md) | **OpenIssue:** Missing description. |
 | [European Medical device nomenclature](CodeSystem-terminologie-emdn.md) |  |
 | [International Classification of Diseases for Oncology, version 3.](CodeSystem-icd-o-3.md) | International Classification of Diseases for Oncology, version 3. For more information see http://www.who.int/classifications/icd/adaptations/oncology/en/. |
+| [Jeux de valeurs pour la Note de Vaccination](CodeSystem-terminologie-catalogue-vaccins.md) | Le Catalogue Vaccins permet de codifier les vaccins administrés à un patient pour produire une note de vaccination à des fins de partage dans le DMP/MES. Il permet de faire le lien entre une spécialité pharmaceutique vaccinale et une maladie. Il est construit à partir des standards sémantiques nationaux et internationaux interopérables dont les sources sont issues du RUIM-Référentiel Unique d’Interopérabilité du Médicament(ANSM), de l’ATC-Anatomique Thérapeutique Chimique(OMS (WHOCC)) et de NUVA-Nomenclature Unifiée des Vaccins(SYADEM). Il est destiné en particulier aux utilisateurs du secteur médico-social ou paramédical lorsqu’ils ne disposent pas d’un accès à une base de médicaments et d’un lecteur de datamatrix |
 | [Liste des Actes Inovants Hors Nomenclature](CodeSystem-terminologie-lahn.md) | La liste des actes innovants hors nomenclature (LAHN) a été mise en place par la direction générale de l’offre de soins (DGOS) en 2024, dans le cadre du développement de l’innovation en santé. Elle est la fusion du RIHN et de la Liste Complémentaire (LC). L’objectif est de soutenir l’innovation et de la dynamiser par une prise en charge et une évaluation rapide des actes innovants. La LAHN contient une liste d’actes innovants (biologie et anatomocytopathologie) pris en charge à titre transitoire moyennant un recueil de données pour leur évaluation. |
 | [Media Type](CodeSystem-v3-mediaType.md) | Internet Assigned Numbers Authority (IANA) Mime Media Types. Identifies the type of the encapsulated data and identifies a method to interpret or render the data. The IANA defined domain of media types is established by the Internet standard RFC 2045 [http://www.ietf.org/rfc/rfc2045.txt] and 2046 [http://www.ietf.org/rfc/rfc2046.txt]. RFC 2046 defines the media type to consist of two parts: 1. top level media type, and
 1. media subtype However, this HL7 datatypes specification treats the entire media type as one atomic code symbol in the form defined by IANA, i.e., top level type followed by a slash “/” followed by media subtype. Currently defined media types are registered in a database [http://www.iana.org/assignments/media-types/index.html] maintained by IANA. Currently several hundred different MIME media types are defined, with the list growing rapidly. In general, all those types defined by the IANA MAY be used.
@@ -939,7 +946,6 @@ These define new code systems used by systems conforming to this implementation 
 | [ParticipationType](CodeSystem-v3-ParticipationType.md) | A code specifying the meaning and purpose of every Participation instance. Each of its values implies specific constraints on the Roles undertaking the participation. |
 | [RUIM - european eprescription](CodeSystem-terminologie-ruim-eeprescription.md) |  |
 | [RoleCode](CodeSystem-v3-RoleCode.md) | A set of codes further specifying the kind of Role; specific classification codes for further qualifying RoleClass codes. |
-| [SNOMED CT core](CodeSystem-900000000000207008-20260501.md) | SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO). |
 | [Service type](CodeSystem-service-type.md) | This value set defines an example set of codes of service-types. |
 | [Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments](CodeSystem-terminologie-standardterms.md) |  |
 | [Substance Admin Substitution](CodeSystem-v3-substanceAdminSubstitution.md) | Identifies what sort of change is permitted or has occurred between the therapy that was ordered and the therapy that was/will be provided. |
@@ -1244,10 +1250,14 @@ These define new code systems used by systems conforming to this implementation 
 | [Tre R406 Forme Activite Smsse Regulee](CodeSystem-tre-r406-forme-activite-smsse-regulee.md) | Formes des activites smsse régulées, remplace la TRE_R276-FormeActivite |
 | [Tre R407 Composition Foyer](CodeSystem-tre-r407-composition-foyer.md) | Désigne avec qui vit l’usager dans son logement. |
 | [Tre R408 Type Enseignement Specialise](CodeSystem-tre-r408-type-enseignement-specialise.md) | Type d’enseignement spécialisé. |
+| [Tre R412 Niveau Diplome](CodeSystem-tre-r412-niveau-diplome.md) | Niveau de diplôme permettant d’indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel. |
+| [Tre R413 Categorie Permis Conduire](CodeSystem-tre-r413-categorie-permis-conduire.md) | Catégorie de permis de conduire. |
+| [Tre R414 Niveau Scolaire](CodeSystem-tre-r414-niveau-scolaire.md) | Niveau scolaire de l’usager en France. |
 | [Tre R415 Utilisation Canal Communication](CodeSystem-tre-r415-utilisation-canal-communication.md) | Précise l’utilisation du canal de communication. |
 | [Tre R416 Type Courrier](CodeSystem-tre-r416-type-courrier.md) | Type de courrier en France. |
 | [Tre R417 Type Demande Compensation](CodeSystem-tre-r417-type-demande-compensation.md) | Type de la demande de compensation adressée à la CDAPH. |
 | [Tre R418 Nature Demande Compensation](CodeSystem-tre-r418-nature-demande-compensation.md) | Nature de la demande de compensation adressée à la CDAPH. |
+| [Tre R419 Motivation](CodeSystem-tre-r419-motivation.md) | Considération(s) de droit ou de fait qui constituent le fondement de la proposition et de la décision de la CDAPH. |
 | [Tre R420 Droit Prestation](CodeSystem-tre-r420-droit-prestation.md) | Catégorie et type de droit et prestation caractérisant la décision d’orientation. |
 | [Tre R421 Motif Fin Pag](CodeSystem-tre-r421-motif-fin-pag.md) | Lorsque le plan d’accompagnement global (PAG) arrive à échéance ou si le coordonnateur de parcours l’estime nécessaire, un bilan est élaboré et la phase d’actualisation est lancée afin de déterminer s’il faut prolonger ce PAG, le modifier ou y mettre fin. La MDPH, les partenaires et l’usager peuvent définir ensemble que le PAG n’est plus nécessaire et donc y mettre fin. Le consentement de la personne ou de son représentant légal est recueilli et l’information sur la fin du PAG transmise à l’ensemble des parties-prenantes. |
 | [Tre R422 Qualification Orientation](CodeSystem-tre-r422-qualification-orientation.md) | La qualification de l’orientation peut être cible ou alternative. |
@@ -1255,7 +1265,7 @@ These define new code systems used by systems conforming to this implementation 
 | [Tre R424 Motif Absence](CodeSystem-tre-r424-motif-absence.md) | Motif pour lequel l’usager n’est pas présent lors d’un événement organisé par sa structure de rattachement. |
 | [Tre R425 Type Repas](CodeSystem-tre-r425-type-repas.md) | Type de repas. |
 | [Tre R426 Orientation](CodeSystem-tre-r426-orientation.md) | Orientation vers un Service d’éducation spéciale et de soins à domicile (SESSAD) ou vers un Service d’accompagnement familial et d’éducation précoce (SAFEP) |
-| [Tre R427 Type Adresse](CodeSystem-tre-r427-type-adresse.md) | Type d’adresse postale. |
+| [Tre R427 Type Adresse](CodeSystem-tre-r427-type-adresse.md) | Type d’adresse postale tel que “Adresse du domicile”, “Adresse de livraison” pour une personne physique. |
 | [Tre R435 Type Groupement Structure](CodeSystem-tre-r435-type-groupement-structure.md) | Nomenclature des types de groupement des ressources Structures. Groupement de coopération conventionnelle ou Groupement de coopération organique |
 | [employmentStatus](CodeSystem-v2-0066.md) | HL7-defined code system of concepts which specify an employment status of a person. Used in HL7 Version 2 messaging in the GT1 segment. |
 | [specimenCollectionMethod](CodeSystem-v2-0488.md) | HL7-defined code system of concepts specifying the specimen collection method. Used in HL7 Version 2.x messaging in the SPM segment. |

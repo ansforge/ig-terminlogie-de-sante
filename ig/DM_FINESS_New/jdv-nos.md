@@ -87,6 +87,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JdvJ385CompositionFoyerMs](ValueSet-jdv-j385-composition-foyer-ms.md) | Désigne avec qui vit l’usager dans son logement. | 02/02/2026 |
 | [JdvJ386TypeEnseignementSpecialiseMs](ValueSet-jdv-j386-type-enseignement-specialise-ms.md) | Type d'enseignement spécialisé. | 02/02/2026 |
 | [JdvJ387RoleParticipantMs](ValueSet-jdv-j387-role-participant-ms.md) | Rôle du participant vis à vis de l'événement (mandataire judiciaire, structure en charge de l'événement). | 02/02/2026 |
+| [JdvJ391NiveauDiplomeMs](ValueSet-jdv-j391-niveau-diplome-ms.md) | Niveau de diplôme permettant d'indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel. | 01/06/2026 |
 | [JdvJ392TypeCourrierMs](ValueSet-jdv-j392-type-courrier-ms.md) | Type de courrier en France. | 05/05/2026 |
 | [JdvJ393UtilisationCanalCommunicationMs](ValueSet-jdv-j393-utilisation-canal-communication-ms.md) | Précise l'utilisation du canal de communication. | 05/05/2026 |
 | [JdvJ394TypeDemandeCompensationMs](ValueSet-jdv-j394-type-demande-compensation-ms.md) | Type demande de compensation adressée à la CDAPH. | 05/05/2026 |
@@ -94,6 +95,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JdvJ396CanalCommunicationMs](ValueSet-jdv-j396-canal-communication-ms.md) | Canal de communication. | 05/05/2026 |
 | [JdvJ397TypeMessagerieMs](ValueSet-jdv-j397-type-messagerie-ms.md) | Type de messagerie électronique utilisée par le médico-social. | 05/05/2026 |
 | [JdvJ398TypeDecisionMs](ValueSet-jdv-j398-type-decision-ms.md) | Type de décision transmise aux DUI(s) par la CDAPH en réponse à une demande de compensation d'un usager. | 05/05/2026 |
+| [JdvJ399MotivationMs](ValueSet-jdv-j399-motivation-ms.md) | L'énoncé des considérations de droit ou de fait qui constituent le fondement de la proposition et de la décision de la CDAPH. | 01/06/2026 |
 | [JdvJ400NatureDroitPrestationMs](ValueSet-jdv-j400-nature-droit-prestation-ms.md) | Nature du droit s’appliquant à tous les droits ou prestations ouverts par la CDAPH. Elle permet de gérer, le cas échéant, le lien entre la date d’ouverture du droit et la date de fin d’un droit précédent. Elle est déterminée par l’équipe pluridisciplinaire ou par la CDAPH. | 05/05/2026 |
 | [JdvJ401CategorieDroitPrestationMs](ValueSet-jdv-j401-categorie-droit-prestation-ms.md) | Catégorie de droit et prestation caractérisant la décision d'orientation. | 05/05/2026 |
 | [JdvJ402TypeDroitPrestationMs](ValueSet-jdv-j402-type-droit-prestation-ms.md) | Type de droit et prestation caractérisant la décision d'orientation. | 05/05/2026 |
@@ -102,7 +104,10 @@ Vous touverez ici la liste des JDV du NOS.
 | [JdvJ405TypePresenceAbsenceMs](ValueSet-jdv-j405-type-presence-absence-ms.md) | Déclaration du type de présence absence de l'usager lors d'un événement organisé par sa structure de rattachement. | 05/05/2026 |
 | [JdvJ406MotifAbsenceMs](ValueSet-jdv-j406-motif-absence-ms.md) | Motif pour lequel l'usager n'est pas présent lors d'un événement organisé par sa structure de rattachement. | 05/05/2026 |
 | [JdvJ407TypeRepasMs](ValueSet-jdv-j407-type-repas-ms.md) | Type de repas. | 05/05/2026 |
-| [JdvJ409TypeAdresseMs](ValueSet-jdv-j409-type-adresse-ms.md) | Type d'adresse postale. | 05/05/2026 |
+| [JdvJ408OrientationMs](ValueSet-jdv-j408-orientation-ms.md) | Ensemble des orientations vers un Service d'éducation spéciale et de soins à domicile (SESSAD), un Service d'accompagnement familial et d'éducation précoce (SAFEP), un enseignement adapté (SEGPA/EREA) ou une unité d'enseignement. | 01/06/2026 |
+| [JdvJ409TypeAdresseMs](ValueSet-jdv-j409-type-adresse-ms.md) | Type d'adresse postale tel que "Adresse du domicile", "Adresse de livraison" pour une personne physique. | 05/05/2026 |
+| [JdvJ410CategoriePermisConduireMs](ValueSet-jdv-j410-categorie-permis-conduire-ms.md) | Catégorie de permis de conduire. | 01/06/2026 |
+| [JdvJ411NiveauScolaireMs](ValueSet-jdv-j411-niveau-scolaire-ms.md) | Niveau scolaire de l'usager en France. | 01/06/2026 |
 | [JdvJ418ActiviteSanitaireDiverseReguleeActive](ValueSet-jdv-j418-activite-sanitaire-diverse-regulee-active.md) | Jeu de valeurs des activités sanitaires actives, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR) | 05/05/2026 |
 | [JDV_J01_XdsAuthorSpecialty_CISIS](ValueSet-JDV-J01-XdsAuthorSpecialty-CISIS.md) | XDS authorSpecialty CI-SIS | 05/05/2026 |
 | [JDV_J02_XdsHealthcareFacilityTypeCode_CISIS](ValueSet-JDV-J02-XdsHealthcareFacilityTypeCode-CISIS.md) | XDS healthcareFacilityTypeCode CI-SIS | 23/02/2026 |
@@ -110,16 +115,16 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J04_XdsPracticeSettingCode_CISIS](ValueSet-JDV-J04-XdsPracticeSettingCode-CISIS.md) | XDS practiceSettingCode CI-SIS | 27/09/2024 |
 | [JDV_J05_SubjectRole_CISIS](ValueSet-JDV-J05-SubjectRole-CISIS.md) | subjectRole CI-SIS | 05/05/2026 |
 | [JDV_J06_XdsClassCode_CISIS](ValueSet-JDV-J06-XdsClassCode-CISIS.md) | XDS classCode CI-SIS | 22/09/2023 |
-| [JDV_J07_XdsTypeCode_CISIS](ValueSet-JDV-J07-XdsTypeCode-CISIS.md) | XDS typeCode CI-SIS | 05/05/2026 |
+| [JDV_J07_XdsTypeCode_CISIS](ValueSet-JDV-J07-XdsTypeCode-CISIS.md) | XDS typeCode CI-SIS | 01/06/2026 |
 | [JDV_J08_XdsConfidentialityCode_CISIS](ValueSet-JDV-J08-XdsConfidentialityCode-CISIS.md) | XDS confidentialityCode - CI-SIS | 24/04/2020 |
 | [JDV_J10_XdsFormatCode_CISIS](ValueSet-JDV-J10-XdsFormatCode-CISIS.md) | XDS formatCode documents CI-SIS | 29/10/2025 |
 | [JDV_J11_RelationPatient_CISIS](ValueSet-JDV-J11-RelationPatient-CISIS.md) | Relation par rapport au patient - CI-SIS | 24/04/2020 |
 | [JDV_J13_ResponsableConsent_CISIS](ValueSet-JDV-J13-ResponsableConsent-CISIS.md) | Responsable consentement - CI-SIS | 24/04/2020 |
 | [JDV_J14_QualiteRepresentantLegal_CISIS](ValueSet-JDV-J14-QualiteRepresentantLegal-CISIS.md) | Qualité représentant légal - CI-SIS | 13/12/2024 |
 | [JDV_J15_ClasseAge_ROR](ValueSet-JDV-J15-ClasseAge-ROR.md) | Classe d'âge - ROR | 24/04/2020 |
-| [JDV_J16_ActeSpecifique_ROR](ValueSet-JDV-J16-ActeSpecifique-ROR.md) | Acte spécifique - ROR | 30/03/2026 |
-| [JDV_J17_ActiviteOperationnelle_ROR](ValueSet-JDV-J17-ActiviteOperationnelle-ROR.md) | Activité Operationnelle - ROR | 30/03/2026 |
-| [JDV_J18_EquipementSpecifique_ROR](ValueSet-JDV-J18-EquipementSpecifique-ROR.md) | Equipement spécifique - ROR | 22/12/2025 |
+| [JDV_J16_ActeSpecifique_ROR](ValueSet-JDV-J16-ActeSpecifique-ROR.md) | Acte spécifique - ROR | 01/06/2026 |
+| [JDV_J17_ActiviteOperationnelle_ROR](ValueSet-JDV-J17-ActiviteOperationnelle-ROR.md) | Activité Operationnelle - ROR | 01/06/2026 |
+| [JDV_J18_EquipementSpecifique_ROR](ValueSet-JDV-J18-EquipementSpecifique-ROR.md) | Equipement spécifique - ROR | 01/06/2026 |
 | [JDV_J19_ModePriseEnCharge_ROR](ValueSet-JDV-J19-ModePriseEnCharge-ROR.md) | Mode de la prise en charge - ROR | 30/03/2026 |
 | [JDV_J20_ChampActivite_ROR](ValueSet-JDV-J20-ChampActivite-ROR.md) | Champ d'activité - ROR | 30/03/2026 |
 | [JDV_J21_PalierAuthentificationActeurPP](ValueSet-JDV-J21-PalierAuthentificationActeurPP.md) | Palier du référentiel PGSSI-S d'authentification des professionnels | 24/04/2020 |
@@ -268,7 +273,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J195_AffectationTemporaire_ROR](ValueSet-JDV-J195-AffectationTemporaire-ROR.md) | Permet d'indiquer dans le ROR la réservation de tout ou partie des lits d'une zone d'hébergement pour des patients selon qu'ils soient -ou non- concernés par une pathologie (Covid+, Covid-, …) ou un évènement (catastrophe naturelle, attentat, …) | 27/05/2022 |
 | [JDV_J196_StatutCommunication_ROR](ValueSet-JDV-J196-StatutCommunication-ROR.md) | Permet de donner une indication dans le ROR pour savoir une action doit être menée ou de son résultat lorsqu'elle a été menée | 27/05/2022 |
 | [JDV_J197_XdsTypesIdentifiantsReferenceId_CISIS](ValueSet-JDV-J197-XdsTypesIdentifiantsReferenceId-CISIS.md) | Types d'identifiants utilisés dans la métadonnée XDS referenceIdList de la fiche du document dans le cadre du CISIS | 24/06/2022 |
-| [JDV_J198_FonctionLieu_ROR](ValueSet-JDV-J198-FonctionLieu-ROR.md) | Destination d'usage du lieu pour le lieu de réalisation de l'offre. | 22/12/2025 |
+| [JDV_J198_FonctionLieu_ROR](ValueSet-JDV-J198-FonctionLieu-ROR.md) | Destination d'usage du lieu pour le lieu de réalisation de l'offre. | 01/06/2026 |
 | [JDV_J199_StatutJuridique_ROR](ValueSet-JDV-J199-StatutJuridique-ROR.md) | Statuts juridiques provenant de FINESS et RPPS | 26/08/2022 |
 | [JDV_J200_SousEnsembleAgregatStatutJuridique_ROR](ValueSet-JDV-J200-SousEnsembleAgregatStatutJuridique-ROR.md) | Agrégats de statuts juridiques FINESS niveau 2 | 26/01/2024 |
 | [JDV_J201_TypeFermeture_ROR](ValueSet-JDV-J201-TypeFermeture-ROR.md) | Différentes valeurs de type de fermeture que peuvent envoyer FINESS au ROR (il en existe davantage) | 23/09/2025 |
@@ -295,7 +300,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J222_NiveauConfidentialite_ROR](ValueSet-JDV-J222-NiveauConfidentialite-ROR.md) | Niveau de restriction d'accès | 05/05/2026 |
 | [JDV_J223_TypeDivisionTerritoriale_ROR](ValueSet-JDV-J223-TypeDivisionTerritoriale-ROR.md) | Type de division territoriale | 26/08/2022 |
 | [JDV_J224_StatutLieu_ROR](ValueSet-JDV-J224-StatutLieu-ROR.md) | Statut lieu | 26/08/2022 |
-| [JDV_J225_CanalCommunication_ROR](ValueSet-JDV-J225-CanalCommunication-ROR.md) | Canal de communication | 30/03/2026 |
+| [JDV_J225_CanalCommunication_ROR](ValueSet-JDV-J225-CanalCommunication-ROR.md) | Canal de communication | 01/06/2026 |
 | [JDV_J226_ModaliteAccueil_ROR](ValueSet-JDV-J226-ModaliteAccueil-ROR.md) | Modalité d'accueil | 30/03/2026 |
 | [JDV_J227_NiveauExpertise_ROR](ValueSet-JDV-J227-NiveauExpertise-ROR.md) | Niveau de ressources humaines et matérielles utiles pour la réalisation de l'offre | 22/12/2025 |
 | [JDV_J228_TypeCaracteristiqueEquipement_ROR](ValueSet-JDV-J228-TypeCaracteristiqueEquipement-ROR.md) | Type de caractéristique équipement | 26/08/2022 |

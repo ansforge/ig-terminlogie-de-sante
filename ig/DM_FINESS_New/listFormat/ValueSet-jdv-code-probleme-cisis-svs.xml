@@ -10,20 +10,14 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="404684003"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="constatation clinique"/>
-         <concept code="55607006"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="problème"/>
-         <concept code="64572001"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="maladie"/>
+         <concept code="404684003" codeSystem="" displayName="constatation clinique"/>
+         <concept code="55607006" codeSystem="" displayName="problème"/>
+         <concept code="64572001" codeSystem="" displayName="maladie"/>
          <concept code="418799008"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="symptôme rapporté par le patient ou le répondant"/>
          <concept code="282291009"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="interprétation diagnostique"/>
       </ConceptList>
    </ValueSet>

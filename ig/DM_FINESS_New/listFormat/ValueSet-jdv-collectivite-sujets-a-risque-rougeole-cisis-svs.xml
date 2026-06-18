@@ -14,11 +14,9 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Autre collectivité"/>
          <concept code="285084006"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="lieu d'accueil petite enfance"/>
-         <concept code="43741000"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="site de soins"/>
+         <concept code="43741000" codeSystem="" displayName="site de soins"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

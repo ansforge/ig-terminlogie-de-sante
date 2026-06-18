@@ -10,12 +10,12 @@
              typeFichier="JDV"
              urlFichier="https://mos.esante.gouv.fr/NOS/JDV_J151-BodySiteBodyTemperature-ENS">
       <ConceptList>
-         <concept code="34402009" codeSystem="2.16.840.1.113883.6.96" displayName=""/>
-         <concept code="52795006" codeSystem="2.16.840.1.113883.6.96" displayName=""/>
-         <concept code="91470000" codeSystem="2.16.840.1.113883.6.96" displayName=""/>
-         <concept code="117590005" codeSystem="2.16.840.1.113883.6.96" displayName=""/>
-         <concept code="123851003" codeSystem="2.16.840.1.113883.6.96" displayName=""/>
-         <concept code="450721000" codeSystem="2.16.840.1.113883.6.96" displayName=""/>
+         <concept code="34402009" codeSystem="" displayName=""/>
+         <concept code="52795006" codeSystem="" displayName=""/>
+         <concept code="91470000" codeSystem="" displayName=""/>
+         <concept code="117590005" codeSystem="" displayName=""/>
+         <concept code="123851003" codeSystem="" displayName=""/>
+         <concept code="450721000" codeSystem="" displayName=""/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

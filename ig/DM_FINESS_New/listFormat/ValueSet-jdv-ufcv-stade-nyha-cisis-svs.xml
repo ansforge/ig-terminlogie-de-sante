@@ -11,16 +11,16 @@
              urlFichier="">
       <ConceptList>
          <concept code="420300004"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="classe I de la New York Heart Association Classification"/>
          <concept code="421704003"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="classe II de la New York Heart Association Classification"/>
          <concept code="420913000"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="classe III de la New York Heart Association Classification"/>
          <concept code="422293003"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="classe IV de la New York Heart Association Classification"/>
       </ConceptList>
    </ValueSet>

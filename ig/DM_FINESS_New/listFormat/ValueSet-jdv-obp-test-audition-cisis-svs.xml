@@ -11,19 +11,19 @@
              urlFichier="">
       <ConceptList>
          <concept code="275727004"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="examen auditif ou vestibulaire normal"/>
          <concept code="134376008"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="examen auditif ou vestibulaire anormal à droite"/>
          <concept code="134375007"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="examen auditif ou vestibulaire anormal à gauche"/>
          <concept code="134374006"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="examen auditif ou vestibulaire anormal des deux côtés"/>
          <concept code="164746007"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="examen auditif ou vestibulaire non effectué"/>
       </ConceptList>
    </ValueSet>

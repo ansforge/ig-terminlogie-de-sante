@@ -34,12 +34,8 @@
          <concept code="MED-335"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Trouble de la sexualité"/>
-         <concept code="44695005"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="paralysie"/>
-         <concept code="33653009"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="absence de sensation"/>
+         <concept code="44695005" codeSystem="" displayName="paralysie"/>
+         <concept code="33653009" codeSystem="" displayName="absence de sensation"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

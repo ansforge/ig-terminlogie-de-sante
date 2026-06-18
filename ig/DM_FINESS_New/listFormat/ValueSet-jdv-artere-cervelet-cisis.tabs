@@ -2,6 +2,6 @@
 1.2.250.1.213.1.1.5.210;JDV;JdvArtereCerveletCisis;JDV Artere Cervelet CISIS;;20100101000000;;20260420150249
 <system>;<Code>;<Libellé> 
 1.2.250.1.213.1.1.4.322;MED-489;Artère cérébelleuse inférieure (ACI)
-2.16.840.1.113883.6.96;17232002;artère cérébrale moyenne
-2.16.840.1.113883.6.96;51691006;artère cérébelleuse supérieure
-2.16.840.1.113883.6.96;38608005;artère cérébelleuse
+;17232002;artère cérébrale moyenne
+;51691006;artère cérébelleuse supérieure
+;38608005;artère cérébelleuse

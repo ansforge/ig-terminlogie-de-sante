@@ -40,7 +40,7 @@ Les jeux de valeurs (JDV) sont des nomenclatures constituées de codes extraits 
 | [JDV_J04_XdsPracticeSettingCode_CISIS](ValueSet-JDV-J04-XdsPracticeSettingCode-CISIS.md) | XDS practiceSettingCode CI-SIS | 27/09/2024 |
 | [JDV_J05_SubjectRole_CISIS](ValueSet-JDV-J05-SubjectRole-CISIS.md) | subjectRole CI-SIS | 05/05/2026 |
 | [JDV_J06_XdsClassCode_CISIS](ValueSet-JDV-J06-XdsClassCode-CISIS.md) | XDS classCode CI-SIS | 22/09/2023 |
-| [JDV_J07_XdsTypeCode_CISIS](ValueSet-JDV-J07-XdsTypeCode-CISIS.md) | XDS typeCode CI-SIS | 05/05/2026 |
+| [JDV_J07_XdsTypeCode_CISIS](ValueSet-JDV-J07-XdsTypeCode-CISIS.md) | XDS typeCode CI-SIS | 01/06/2026 |
 | [JDV_J08_XdsConfidentialityCode_CISIS](ValueSet-JDV-J08-XdsConfidentialityCode-CISIS.md) | XDS confidentialityCode - CI-SIS | 24/04/2020 |
 | [JDV_J100_FinessStatutJuridique_RASS](ValueSet-JDV-J100-FinessStatutJuridique-RASS.md) | Statut juridique FINESS dans le RASS | 22/12/2025 |
 | [JDV_J101_SecteurActivite_RASS](ValueSet-JDV-J101-SecteurActivite-RASS.md) | Secteurs d'activité des établissements avec la même activité dans le RASS | 23/02/2026 |
@@ -104,7 +104,7 @@ Les jeux de valeurs (JDV) sont des nomenclatures constituées de codes extraits 
 | [JDV_J165_TypeCreneau_SAS](ValueSet-JDV-J165-TypeCreneau-SAS.md) | Type de créneaux de soins définis par un professionnel de santé ou son délégataire dans son logiciel de prise de RDV selon la visibilité associée | 26/07/2024 |
 | [JDV_J166_Profession_EPARS](ValueSet-JDV-J166-Profession-EPARS.md) | Profession pour EPARS | 31/01/2025 |
 | [JDV_J169_MotifFinActivite_EPARS](ValueSet-JDV-J169-MotifFinActivite-EPARS.md) | Motifs de fin d'activités pour EPARS | 25/06/2021 |
-| [JDV_J16_ActeSpecifique_ROR](ValueSet-JDV-J16-ActeSpecifique-ROR.md) | Acte spécifique - ROR | 30/03/2026 |
+| [JDV_J16_ActeSpecifique_ROR](ValueSet-JDV-J16-ActeSpecifique-ROR.md) | Acte spécifique - ROR | 01/06/2026 |
 | [JDV_J170_AutoriteEnregistrement_EPARS](ValueSet-JDV-J170-AutoriteEnregistrement-EPARS.md) | Liste des autorités d'enregistrement pour EPARS | 31/01/2025 |
 | [JDV_J171_TypeAutorisation_EPARS](ValueSet-JDV-J171-TypeAutorisation-EPARS.md) | Types d'autorisation d'exercice pour EPARS | 23/05/2025 |
 | [JDV_J172_SecteurActivite_EPARS](ValueSet-JDV-J172-SecteurActivite-EPARS.md) | Secteur d'activité pour EPARS | 23/02/2026 |
@@ -113,7 +113,7 @@ Les jeux de valeurs (JDV) sont des nomenclatures constituées de codes extraits 
 | [JDV_J177_BesoinAideMobilite_MDPH](ValueSet-JDV-J177-BesoinAideMobilite-MDPH.md) | La personne a besoin d'aide pour se déplacer à l'intérieur de son domicile | 24/09/2021 |
 | [JDV_J178_BesoinAideVieSociale_MDPH](ValueSet-JDV-J178-BesoinAideVieSociale-MDPH.md) | Caractérise les besoins d'aide de la personne en matière de vie sociale | 24/09/2021 |
 | [JDV_J179_BesoinCommunication_MDPH](ValueSet-JDV-J179-BesoinCommunication-MDPH.md) | Caractérise les besoins d'aide de la personne en matière de scolarité, en lien avec la communication | 24/09/2021 |
-| [JDV_J17_ActiviteOperationnelle_ROR](ValueSet-JDV-J17-ActiviteOperationnelle-ROR.md) | Activité Operationnelle - ROR | 30/03/2026 |
+| [JDV_J17_ActiviteOperationnelle_ROR](ValueSet-JDV-J17-ActiviteOperationnelle-ROR.md) | Activité Operationnelle - ROR | 01/06/2026 |
 | [JDV_J180_BesoinEntretienPersonnel_MDPH](ValueSet-JDV-J180-BesoinEntretienPersonnel-MDPH.md) | Caractérise les besoins d'aide de la personne en matière de scolarité, en lien avec l'entretien personnel | 24/09/2021 |
 | [JDV_J181_BesoinMobilite_MDPH](ValueSet-JDV-J181-BesoinMobilite-MDPH.md) | Caractérise les besoins d'aide de la personne en matière de scolarité, en lien avec la mobilité | 24/09/2021 |
 | [JDV_J182_BesoinScolarite_MDPH](ValueSet-JDV-J182-BesoinScolarite-MDPH.md) | Caractérise les besoins d'aide de la personne en matière de scolarité, en lien avec les apprentissages | 24/09/2021 |
@@ -123,7 +123,7 @@ Les jeux de valeurs (JDV) sont des nomenclatures constituées de codes extraits 
 | [JDV_J187_NatureCapacite_ROR](ValueSet-JDV-J187-NatureCapacite-ROR.md) | Permet d'indiquer dans le ROR si la capacité est exprimée en lits ou en places | 27/05/2022 |
 | [JDV_J188_TypeStatutCapacite_ROR](ValueSet-JDV-J188-TypeStatutCapacite-ROR.md) | Permet de préciser dans le ROR le statut des lits décrits | 31/01/2025 |
 | [JDV_J189_TemporaliteCapacite_ROR](ValueSet-JDV-J189-TemporaliteCapacite-ROR.md) | Sert à indiquer le moment où une capacité sera effective. Il est ainsi possible de décrire la situation immédiate ou de fournir une information prospective de capacités, prenant notamment en compte les entrées et sorties déjà identifiés de patients | 22/09/2023 |
-| [JDV_J18_EquipementSpecifique_ROR](ValueSet-JDV-J18-EquipementSpecifique-ROR.md) | Equipement spécifique - ROR | 22/12/2025 |
+| [JDV_J18_EquipementSpecifique_ROR](ValueSet-JDV-J18-EquipementSpecifique-ROR.md) | Equipement spécifique - ROR | 01/06/2026 |
 | [JDV_J190_GenreCapacite_ROR](ValueSet-JDV-J190-GenreCapacite-ROR.md) | Permet d'indiquer dans le ROR le genre des patients qui peuvent être installés dans des lits disponibles | 28/08/2025 |
 | [JDV_J191_TypeFermetureCapacite_ROR](ValueSet-JDV-J191-TypeFermetureCapacite-ROR.md) | Permet d'indiquer dans le ROR le statut de lits fermés, afin d'identifier le nombre de lits fermés qui peuvent être réactivés en cas de besoin et le nombre de ceux qui ne peuvent pas l'être | 27/05/2022 |
 | [JDV_J192_TypeLitSupplementaire_ROR](ValueSet-JDV-J192-TypeLitSupplementaire-ROR.md) | Permet d'indiquer dans le ROR le statut de lits supplémentaires, pour identifier le nombre de lits supplémentaires déjà mobilisés et, par typologie de mobilisation possible, le nombre de lits qui ne le sont pas encore | 27/05/2022 |
@@ -132,7 +132,7 @@ Les jeux de valeurs (JDV) sont des nomenclatures constituées de codes extraits 
 | [JDV_J195_AffectationTemporaire_ROR](ValueSet-JDV-J195-AffectationTemporaire-ROR.md) | Permet d'indiquer dans le ROR la réservation de tout ou partie des lits d'une zone d'hébergement pour des patients selon qu'ils soient -ou non- concernés par une pathologie (Covid+, Covid-, …) ou un évènement (catastrophe naturelle, attentat, …) | 27/05/2022 |
 | [JDV_J196_StatutCommunication_ROR](ValueSet-JDV-J196-StatutCommunication-ROR.md) | Permet de donner une indication dans le ROR pour savoir une action doit être menée ou de son résultat lorsqu'elle a été menée | 27/05/2022 |
 | [JDV_J197_XdsTypesIdentifiantsReferenceId_CISIS](ValueSet-JDV-J197-XdsTypesIdentifiantsReferenceId-CISIS.md) | Types d'identifiants utilisés dans la métadonnée XDS referenceIdList de la fiche du document dans le cadre du CISIS | 24/06/2022 |
-| [JDV_J198_FonctionLieu_ROR](ValueSet-JDV-J198-FonctionLieu-ROR.md) | Destination d'usage du lieu pour le lieu de réalisation de l'offre. | 22/12/2025 |
+| [JDV_J198_FonctionLieu_ROR](ValueSet-JDV-J198-FonctionLieu-ROR.md) | Destination d'usage du lieu pour le lieu de réalisation de l'offre. | 01/06/2026 |
 | [JDV_J199_StatutJuridique_ROR](ValueSet-JDV-J199-StatutJuridique-ROR.md) | Statuts juridiques provenant de FINESS et RPPS | 26/08/2022 |
 | [JDV_J19_ModePriseEnCharge_ROR](ValueSet-JDV-J19-ModePriseEnCharge-ROR.md) | Mode de la prise en charge - ROR | 30/03/2026 |
 | [JDV_J200_SousEnsembleAgregatStatutJuridique_ROR](ValueSet-JDV-J200-SousEnsembleAgregatStatutJuridique-ROR.md) | Agrégats de statuts juridiques FINESS niveau 2 | 26/01/2024 |
@@ -162,7 +162,7 @@ Les jeux de valeurs (JDV) sont des nomenclatures constituées de codes extraits 
 | [JDV_J222_NiveauConfidentialite_ROR](ValueSet-JDV-J222-NiveauConfidentialite-ROR.md) | Niveau de restriction d'accès | 05/05/2026 |
 | [JDV_J223_TypeDivisionTerritoriale_ROR](ValueSet-JDV-J223-TypeDivisionTerritoriale-ROR.md) | Type de division territoriale | 26/08/2022 |
 | [JDV_J224_StatutLieu_ROR](ValueSet-JDV-J224-StatutLieu-ROR.md) | Statut lieu | 26/08/2022 |
-| [JDV_J225_CanalCommunication_ROR](ValueSet-JDV-J225-CanalCommunication-ROR.md) | Canal de communication | 30/03/2026 |
+| [JDV_J225_CanalCommunication_ROR](ValueSet-JDV-J225-CanalCommunication-ROR.md) | Canal de communication | 01/06/2026 |
 | [JDV_J226_ModaliteAccueil_ROR](ValueSet-JDV-J226-ModaliteAccueil-ROR.md) | Modalité d'accueil | 30/03/2026 |
 | [JDV_J227_NiveauExpertise_ROR](ValueSet-JDV-J227-NiveauExpertise-ROR.md) | Niveau de ressources humaines et matérielles utiles pour la réalisation de l'offre | 22/12/2025 |
 | [JDV_J228_TypeCaracteristiqueEquipement_ROR](ValueSet-JDV-J228-TypeCaracteristiqueEquipement-ROR.md) | Type de caractéristique équipement | 26/08/2022 |
@@ -269,9 +269,9 @@ Les jeux de valeurs (JDV) sont des nomenclatures constituées de codes extraits 
 | [JDV_J96_TypeActiviteLiberale_RASS](ValueSet-JDV-J96-TypeActiviteLiberale-RASS.md) | Types d'activité libérale des professionnels du RASS | 24/04/2020 |
 | [JDV_J97_StatutProfessionnelSSA_RASS](ValueSet-JDV-J97-StatutProfessionnelSSA-RASS.md) | Statuts des professionnels du Service de Santé des Armées dans le RASS | 24/04/2020 |
 | [JDV_J98_StatutHospitalier_RASS](ValueSet-JDV-J98-StatutHospitalier-RASS.md) | Statut des professionnels intervenant dans un hôpital dans le RASS | 23/02/2026 |
-| [JDV_ModeleDocumentCDA](ValueSet-JDV-ModeleDocumentCDA.md) | JDV avec l'ensemble des codes de la TRE_R220_ModeleDocumentCDAStructure et TRE_R221_ModeleDocumentCDANonStructure | 18/05/2026 |
-| [JDV_TRE_R221_ModeleDocumentCDANonStructure](ValueSet-JDV-TRE-R221-ModeleDocumentCDANonStructure-all.md) | JDV avec l'ensemble des codes actifs de la TRE_R221_ModeleDocumentCDANonStructure | 18/05/2026 |
-| [JDV_TRE_R222_MediaTypeCorpsCDANonStructure](ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.md) | JDV avec l'ensemble des codes actifs de la TRE_R222_MediaTypeCorpsCDANonStructure | 18/05/2026 |
+| [JDV_ModeleDocumentCDA](ValueSet-JDV-ModeleDocumentCDA.md) | JDV avec l'ensemble des codes de la TRE_R220_ModeleDocumentCDAStructure et TRE_R221_ModeleDocumentCDANonStructure | 18/06/2026 |
+| [JDV_TRE_R221_ModeleDocumentCDANonStructure](ValueSet-JDV-TRE-R221-ModeleDocumentCDANonStructure-all.md) | JDV avec l'ensemble des codes actifs de la TRE_R221_ModeleDocumentCDANonStructure | 18/06/2026 |
+| [JDV_TRE_R222_MediaTypeCorpsCDANonStructure](ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.md) | JDV avec l'ensemble des codes actifs de la TRE_R222_MediaTypeCorpsCDANonStructure | 18/06/2026 |
 | [JdvAbordVeineuxCentralCisis](ValueSet-jdv-abord-veineux-central-cisis.md) | JDV Abord Veineux Central CISIS | 20/04/2026 |
 | [JdvAbordVeineuxPeripheriqueCisis](ValueSet-jdv-abord-veineux-peripherique-cisis.md) | JDV Abord Veineux Peripherique CISIS | 20/04/2026 |
 | [JdvAbsentOrUnknownAllergyCisis](ValueSet-jdv-absent-or-unknown-allergy-cisis.md) | JDV Absent Or Unknown Allergy CISIS | 20/04/2026 |
@@ -508,6 +508,7 @@ Les jeux de valeurs (JDV) sont des nomenclatures constituées de codes extraits 
 | [JdvJ386TypeEnseignementSpecialiseMs](ValueSet-jdv-j386-type-enseignement-specialise-ms.md) | Type d'enseignement spécialisé. | 02/02/2026 |
 | [JdvJ387RoleParticipantMs](ValueSet-jdv-j387-role-participant-ms.md) | Rôle du participant vis à vis de l'événement (mandataire judiciaire, structure en charge de l'événement). | 02/02/2026 |
 | [JdvJ388ModeFonctionnementActiviteSmsseReguleeRass](ValueSet-jdv-j388-mode-fonctionnement-activite-smsse-regulee-rass.md) | Ce JDV remplace le JDV_J138_TypeActivite_RASS | 23/02/2026 |
+| [JdvJ391NiveauDiplomeMs](ValueSet-jdv-j391-niveau-diplome-ms.md) | Niveau de diplôme permettant d'indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel. | 01/06/2026 |
 | [JdvJ392TypeCourrierMs](ValueSet-jdv-j392-type-courrier-ms.md) | Type de courrier en France. | 05/05/2026 |
 | [JdvJ393UtilisationCanalCommunicationMs](ValueSet-jdv-j393-utilisation-canal-communication-ms.md) | Précise l'utilisation du canal de communication. | 05/05/2026 |
 | [JdvJ394TypeDemandeCompensationMs](ValueSet-jdv-j394-type-demande-compensation-ms.md) | Type demande de compensation adressée à la CDAPH. | 05/05/2026 |
@@ -515,6 +516,7 @@ Les jeux de valeurs (JDV) sont des nomenclatures constituées de codes extraits 
 | [JdvJ396CanalCommunicationMs](ValueSet-jdv-j396-canal-communication-ms.md) | Canal de communication. | 05/05/2026 |
 | [JdvJ397TypeMessagerieMs](ValueSet-jdv-j397-type-messagerie-ms.md) | Type de messagerie électronique utilisée par le médico-social. | 05/05/2026 |
 | [JdvJ398TypeDecisionMs](ValueSet-jdv-j398-type-decision-ms.md) | Type de décision transmise aux DUI(s) par la CDAPH en réponse à une demande de compensation d'un usager. | 05/05/2026 |
+| [JdvJ399MotivationMs](ValueSet-jdv-j399-motivation-ms.md) | L'énoncé des considérations de droit ou de fait qui constituent le fondement de la proposition et de la décision de la CDAPH. | 01/06/2026 |
 | [JdvJ400NatureDroitPrestationMs](ValueSet-jdv-j400-nature-droit-prestation-ms.md) | Nature du droit s’appliquant à tous les droits ou prestations ouverts par la CDAPH. Elle permet de gérer, le cas échéant, le lien entre la date d’ouverture du droit et la date de fin d’un droit précédent. Elle est déterminée par l’équipe pluridisciplinaire ou par la CDAPH. | 05/05/2026 |
 | [JdvJ401CategorieDroitPrestationMs](ValueSet-jdv-j401-categorie-droit-prestation-ms.md) | Catégorie de droit et prestation caractérisant la décision d'orientation. | 05/05/2026 |
 | [JdvJ402TypeDroitPrestationMs](ValueSet-jdv-j402-type-droit-prestation-ms.md) | Type de droit et prestation caractérisant la décision d'orientation. | 05/05/2026 |
@@ -523,7 +525,10 @@ Les jeux de valeurs (JDV) sont des nomenclatures constituées de codes extraits 
 | [JdvJ405TypePresenceAbsenceMs](ValueSet-jdv-j405-type-presence-absence-ms.md) | Déclaration du type de présence absence de l'usager lors d'un événement organisé par sa structure de rattachement. | 05/05/2026 |
 | [JdvJ406MotifAbsenceMs](ValueSet-jdv-j406-motif-absence-ms.md) | Motif pour lequel l'usager n'est pas présent lors d'un événement organisé par sa structure de rattachement. | 05/05/2026 |
 | [JdvJ407TypeRepasMs](ValueSet-jdv-j407-type-repas-ms.md) | Type de repas. | 05/05/2026 |
-| [JdvJ409TypeAdresseMs](ValueSet-jdv-j409-type-adresse-ms.md) | Type d'adresse postale. | 05/05/2026 |
+| [JdvJ408OrientationMs](ValueSet-jdv-j408-orientation-ms.md) | Ensemble des orientations vers un Service d'éducation spéciale et de soins à domicile (SESSAD), un Service d'accompagnement familial et d'éducation précoce (SAFEP), un enseignement adapté (SEGPA/EREA) ou une unité d'enseignement. | 01/06/2026 |
+| [JdvJ409TypeAdresseMs](ValueSet-jdv-j409-type-adresse-ms.md) | Type d'adresse postale tel que "Adresse du domicile", "Adresse de livraison" pour une personne physique. | 05/05/2026 |
+| [JdvJ410CategoriePermisConduireMs](ValueSet-jdv-j410-categorie-permis-conduire-ms.md) | Catégorie de permis de conduire. | 01/06/2026 |
+| [JdvJ411NiveauScolaireMs](ValueSet-jdv-j411-niveau-scolaire-ms.md) | Niveau scolaire de l'usager en France. | 01/06/2026 |
 | [JdvJ418ActiviteSanitaireDiverseReguleeActive](ValueSet-jdv-j418-activite-sanitaire-diverse-regulee-active.md) | Jeu de valeurs des activités sanitaires actives, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR) | 05/05/2026 |
 | [JdvJourSemaineCisis](ValueSet-jdv-jour-semaine-cisis.md) | JDV Jour Semaine CISIS | 24/06/2025 |
 | [JdvJuridiqueCisis](ValueSet-jdv-juridique-cisis.md) | JDV Juridique CISIS | 20/04/2026 |
@@ -586,7 +591,6 @@ Les jeux de valeurs (JDV) sont des nomenclatures constituées de codes extraits 
 | [JdvMotifNonRealisationEvenementCisis](ValueSet-jdv-motif-non-realisation-evenement-cisis.md) | JDV Motif Non Realisation Evenement CISIS | 20/04/2026 |
 | [JdvMsoResultatQualitatif3Cisis](ValueSet-jdv-mso-resultat-qualitatif-3-cisis.md) | Jdv MSO Resultat Qualitatif 3 CISIS | 20/04/2026 |
 | [JdvMsoResultatQualitatif5Cisis](ValueSet-jdv-mso-resultat-qualitatif-5-cisis.md) | Jdv MSO Resultat Qualitatif 5 CISIS | 20/04/2026 |
-| [JdvMsoResultatQualitatifCisis](ValueSet-jdv-mso-resultat-qualitatif-cisis.md) | Jdv MSO Resultat Qualitatif CISIS | 11/03/2026 |
 | [JdvNatureDiscussionCisis](ValueSet-jdv-nature-discussion-cisis.md) | JDV Nature Discussion CISIS | 20/04/2026 |
 | [JdvNatureFractionCisis](ValueSet-jdv-nature-fraction-cisis.md) | JDV Nature Fraction CISIS | 20/04/2026 |
 | [JdvNatureMaterielEtudieCisis](ValueSet-jdv-nature-materiel-etudie-cisis.md) | JDV Nature Materiel Etudie CISIS | 20/04/2026 |
@@ -833,12 +837,12 @@ Les jeux de valeurs (JDV) sont des nomenclatures constituées de codes extraits 
 | [SpecimenRoleType](ValueSet-jdv-hl7-v3-SpecimenRoleType-cisis.md) | SpecimenRoleType | 20/04/2026 |
 | [TimingEvent](ValueSet-jdv-hl7-v3-TimingEvent-cisis.md) | TimingEvent | 20/04/2026 |
 | [VS_test](ValueSet-VS-test.md) | VS-test | 31/12/2020 |
-| [ValueSet_ATC_All](ValueSet-vs-atc-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC | 18/05/2026 |
-| [ValueSet_BDPM_All](ValueSet-vs-bdpm-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie BDPM | 18/05/2026 |
-| [ValueSet_CIPUCD_All](ValueSet-vs-cipucd-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie CIP-UCD | 18/05/2026 |
-| [ValueSet_EDQM_All](ValueSet-vs-edqm-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie EDQM | 18/05/2026 |
-| [ValueSet_NUVA_All](ValueSet-vs-nuva-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA | 18/05/2026 |
-| [ValueSet_SMS_All](ValueSet-vs-sms-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie SMS, Dictionnaire des substances médicamenteuses | 18/05/2026 |
+| [ValueSet_ATC_All](ValueSet-vs-atc-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC | 18/06/2026 |
+| [ValueSet_BDPM_All](ValueSet-vs-bdpm-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie BDPM | 18/06/2026 |
+| [ValueSet_CIPUCD_All](ValueSet-vs-cipucd-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie CIP-UCD | 18/06/2026 |
+| [ValueSet_EDQM_All](ValueSet-vs-edqm-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie EDQM | 18/06/2026 |
+| [ValueSet_NUVA_All](ValueSet-vs-nuva-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA | 18/06/2026 |
+| [ValueSet_SMS_All](ValueSet-vs-sms-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie SMS, Dictionnaire des substances médicamenteuses | 18/06/2026 |
 | [VsTreG09DepartementOmAll](ValueSet-vs-tre-g09-departement-om-all.md) | Jeu de valeurs ALL contenant le référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco | 22/02/2025 |
 | [VsTreR272EquipementMaterielLourdAll](ValueSet-vs-tre-r272-equipement-materiel-lourd-all.md) | Jeu de valeurs ALL contenant les équipements matériels lourds | 30/03/2026 |
 | [VsTreR274ActiviteSanitaireReguleeAll](ValueSet-vs-tre-r274-activite-sanitaire-regulee-all.md) | Jeu de valeurs FINESS contenant les activités sanitaires soumises à une régulation de la part de l'ARS. | 30/03/2026 |

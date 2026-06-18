@@ -15,14 +15,6 @@
   "oids" : ["1.2.250.1.213.1.6.1.313"]
 },
 {
-  "id" : "900000000000207008-20260501",
-  "type" : "CodeSystem",
-  "url" : "http://snomed.info/sct",
-  "version" : "http://snomed.info/sct/900000000000207008/version/20260501",
-  "name" : "SNOMED_CT",
-  "oids" : ["2.16.840.1.113883.6.96"]
-},
-{
   "id" : "condition-clinical",
   "type" : "CodeSystem",
   "url" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
@@ -537,7 +529,7 @@
   "id" : "JDV-J07-XdsTypeCode-CISIS",
   "type" : "ValueSet",
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J07-XdsTypeCode-CISIS/FHIR/JDV-J07-XdsTypeCode-CISIS",
-  "version" : "20260505120000",
+  "version" : "20260601120000",
   "name" : "JDV_J07_XdsTypeCode_CISIS",
   "oids" : ["1.2.250.1.213.1.1.5.471"]
 },
@@ -1065,7 +1057,7 @@
   "id" : "JDV-J16-ActeSpecifique-ROR",
   "type" : "ValueSet",
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J16-ActeSpecifique-ROR/FHIR/JDV-J16-ActeSpecifique-ROR",
-  "version" : "20260330120000",
+  "version" : "20260601120000",
   "name" : "JDV_J16_ActeSpecifique_ROR",
   "oids" : ["1.2.250.1.213.3.4.4"]
 },
@@ -1145,7 +1137,7 @@
   "id" : "JDV-J17-ActiviteOperationnelle-ROR",
   "type" : "ValueSet",
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J17-ActiviteOperationnelle-ROR/FHIR/JDV-J17-ActiviteOperationnelle-ROR",
-  "version" : "20260330120000",
+  "version" : "20260601120000",
   "name" : "JDV_J17_ActiviteOperationnelle_ROR",
   "oids" : ["1.2.250.1.213.3.4.5"]
 },
@@ -1217,7 +1209,7 @@
   "id" : "JDV-J18-EquipementSpecifique-ROR",
   "type" : "ValueSet",
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J18-EquipementSpecifique-ROR/FHIR/JDV-J18-EquipementSpecifique-ROR",
-  "version" : "20251222120000",
+  "version" : "20260601120000",
   "name" : "JDV_J18_EquipementSpecifique_ROR",
   "oids" : ["1.2.250.1.213.3.4.6"]
 },
@@ -1369,7 +1361,7 @@
   "id" : "JDV-J198-FonctionLieu-ROR",
   "type" : "ValueSet",
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J198-FonctionLieu-ROR/FHIR/JDV-J198-FonctionLieu-ROR",
-  "version" : "20251222120000",
+  "version" : "20260601120000",
   "name" : "JDV_J198_FonctionLieu_ROR",
   "oids" : ["1.2.250.1.213.3.4.30"]
 },
@@ -1609,7 +1601,7 @@
   "id" : "JDV-J225-CanalCommunication-ROR",
   "type" : "ValueSet",
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J225-CanalCommunication-ROR/FHIR/JDV-J225-CanalCommunication-ROR",
-  "version" : "20260330120000",
+  "version" : "20260601120000",
   "name" : "JDV_J225_CanalCommunication_ROR",
   "oids" : ["1.2.250.1.213.3.4.57"]
 },
@@ -3032,7 +3024,7 @@
   "id" : "TRE-R210-ActeSpecifique",
   "type" : "CodeSystem",
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique",
-  "version" : "20260330120000",
+  "version" : "20260601120000",
   "name" : "TRE_R210_ActeSpecifique",
   "oids" : ["1.2.250.1.213.3.3.11"]
 },
@@ -3040,7 +3032,7 @@
   "id" : "TRE-R211-ActiviteOperationnelle",
   "type" : "CodeSystem",
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
-  "version" : "20260330120000",
+  "version" : "20260601120000",
   "name" : "TRE_R211_ActiviteOperationnelle",
   "oids" : ["1.2.250.1.213.3.3.12"]
 },
@@ -3048,7 +3040,7 @@
   "id" : "TRE-R212-Equipement",
   "type" : "CodeSystem",
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement",
-  "version" : "20251222120000",
+  "version" : "20260601120000",
   "name" : "TRE_R212_Equipement",
   "oids" : ["1.2.250.1.213.3.3.10"]
 },
@@ -3605,7 +3597,7 @@
   "id" : "TRE-R280-DisciplineEquipementSocial",
   "type" : "CodeSystem",
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R280-DisciplineEquipementSocial/FHIR/TRE-R280-DisciplineEquipementSocial",
-  "version" : "20260330120000",
+  "version" : "20260601120000",
   "name" : "TRE_R280_DisciplineEquipementSocial",
   "oids" : ["1.2.250.1.213.1.6.1.133"]
 },
@@ -4076,7 +4068,7 @@
   "id" : "TRE-R343-FonctionLieu",
   "type" : "CodeSystem",
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R343-FonctionLieu/FHIR/TRE-R343-FonctionLieu",
-  "version" : "20251222120000",
+  "version" : "20260601120000",
   "name" : "TRE_R343_FonctionLieu",
   "oids" : ["1.2.250.1.213.3.3.227"]
 },
@@ -4411,7 +4403,7 @@
   "id" : "TRE-R64-AgregatCategorieEtablissementNiv2",
   "type" : "CodeSystem",
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R64-AgregatCategorieEtablissementNiv2/FHIR/TRE-R64-AgregatCategorieEtablissementNiv2",
-  "version" : "20231215120000",
+  "version" : "20260601120000",
   "name" : "TRE_R64_AgregatCategorieEtablissementNiv2",
   "oids" : ["1.2.250.1.213.1.6.1.6"]
 },
@@ -4634,7 +4626,7 @@
   "id" : "tre-r347-activite-sanitaire-diverse-regulee",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
-  "version" : "20260505120000",
+  "version" : "20260601120000",
   "name" : "TreR347ActiviteSanitaireDiverseRegulee",
   "oids" : ["1.2.250.1.213.1.6.1.248"]
 },
@@ -4996,7 +4988,7 @@
   "id" : "tre-r397-categorie-entite-geographique-exercice",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
-  "version" : "20260505120000",
+  "version" : "20260601120000",
   "name" : "TreR397CategorieEntiteGeographiqueExercice",
   "oids" : ["1.2.250.1.213.1.6.1.378"]
 },
@@ -5012,7 +5004,7 @@
   "id" : "tre-r401-activite-sociale-regulee",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-  "version" : "20260330120000",
+  "version" : "20260601120000",
   "name" : "TreR401ActiviteSocialeRegulee",
   "oids" : ["1.2.250.1.213.1.6.1.380"]
 },
@@ -5094,6 +5086,30 @@
   "oids" : ["1.2.250.1.213.3.3.262"]
 },
 {
+  "id" : "tre-r412-niveau-diplome",
+  "type" : "CodeSystem",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome",
+  "version" : "20260601120000",
+  "name" : "TreR412NiveauDiplome",
+  "oids" : ["1.2.250.1.213.3.3.263"]
+},
+{
+  "id" : "tre-r413-categorie-permis-conduire",
+  "type" : "CodeSystem",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r413-categorie-permis-conduire",
+  "version" : "20260601120000",
+  "name" : "TreR413CategoriePermisConduire",
+  "oids" : ["1.2.250.1.213.3.3.264"]
+},
+{
+  "id" : "tre-r414-niveau-scolaire",
+  "type" : "CodeSystem",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r414-niveau-scolaire",
+  "version" : "20260601120000",
+  "name" : "TreR414NiveauScolaire",
+  "oids" : ["1.2.250.1.213.3.3.265"]
+},
+{
   "id" : "tre-r415-utilisation-canal-communication",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r415-utilisation-canal-communication",
@@ -5124,6 +5140,14 @@
   "version" : "20260505120000",
   "name" : "TreR418NatureDemandeCompensation",
   "oids" : ["1.2.250.1.213.3.3.269"]
+},
+{
+  "id" : "tre-r419-motivation",
+  "type" : "CodeSystem",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r419-motivation",
+  "version" : "20260601120000",
+  "name" : "TreR419Motivation",
+  "oids" : ["1.2.250.1.213.3.3.270"]
 },
 {
   "id" : "tre-r420-droit-prestation",
@@ -5201,21 +5225,21 @@
   "id" : "alignement-bdpm-cipucd",
   "type" : "ConceptMap",
   "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-bdpm-cipucd",
-  "version" : "2026-05",
+  "version" : "2026-06",
   "name" : "Alignement_Codes_Presentation_BDPM_CIPUCD"
 },
 {
   "id" : "alignement-nuva-bdpm",
   "type" : "ConceptMap",
   "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-bdpm",
-  "version" : "1.0.1096",
+  "version" : "1.0.1108",
   "name" : "Alignement_Codes_NUVA_CIS_CIP_BDMP"
 },
 {
   "id" : "alignement-nuva-cipucd",
   "type" : "ConceptMap",
   "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-cipucd",
-  "version" : "1.0.1096",
+  "version" : "1.0.1108",
   "name" : "Alignement_Codes_NUVA_CIP_CIPUCD"
 },
 {
@@ -7427,6 +7451,14 @@
   "oids" : ["1.2.250.1.213.1.6.1.395"]
 },
 {
+  "id" : "jdv-j391-niveau-diplome-ms",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j391-niveau-diplome-ms",
+  "version" : "20260601120000",
+  "name" : "JdvJ391NiveauDiplomeMs",
+  "oids" : ["1.2.250.1.213.3.4.231"]
+},
+{
   "id" : "jdv-j392-type-courrier-ms",
   "type" : "ValueSet",
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j392-type-courrier-ms",
@@ -7481,6 +7513,14 @@
   "version" : "20260505120000",
   "name" : "JdvJ398TypeDecisionMs",
   "oids" : ["1.2.250.1.213.3.4.238"]
+},
+{
+  "id" : "jdv-j399-motivation-ms",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j399-motivation-ms",
+  "version" : "20260601120000",
+  "name" : "JdvJ399MotivationMs",
+  "oids" : ["1.2.250.1.213.3.4.239"]
 },
 {
   "id" : "jdv-j400-nature-droit-prestation-ms",
@@ -7547,12 +7587,36 @@
   "oids" : ["1.2.250.1.213.3.4.247"]
 },
 {
+  "id" : "jdv-j408-orientation-ms",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j408-orientation-ms",
+  "version" : "20260601120000",
+  "name" : "JdvJ408OrientationMs",
+  "oids" : ["1.2.250.1.213.3.4.248"]
+},
+{
   "id" : "jdv-j409-type-adresse-ms",
   "type" : "ValueSet",
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j409-type-adresse-ms",
   "version" : "20260505120000",
   "name" : "JdvJ409TypeAdresseMs",
   "oids" : ["1.2.250.1.213.3.4.249"]
+},
+{
+  "id" : "jdv-j410-categorie-permis-conduire-ms",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j410-categorie-permis-conduire-ms",
+  "version" : "20260601120000",
+  "name" : "JdvJ410CategoriePermisConduireMs",
+  "oids" : ["1.2.250.1.213.3.4.250"]
+},
+{
+  "id" : "jdv-j411-niveau-scolaire-ms",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j411-niveau-scolaire-ms",
+  "version" : "20260601120000",
+  "name" : "JdvJ411NiveauScolaireMs",
+  "oids" : ["1.2.250.1.213.3.4.251"]
 },
 {
   "id" : "jdv-j418-activite-sanitaire-diverse-regulee-active",
@@ -9963,7 +10027,7 @@
   "id" : "terminologie-bdpm",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/terminologie-bdpm",
-  "version" : "2026-05-05",
+  "version" : "2026-06-01",
   "name" : "BDPM"
 },
 {
@@ -9972,6 +10036,13 @@
   "url" : "https://smt.esante.gouv.fr/terminologie-bdpm?vs",
   "version" : "20241106120000",
   "name" : "ValueSet_BDPM_All"
+},
+{
+  "id" : "terminologie-catalogue-vaccins",
+  "type" : "CodeSystem",
+  "url" : "https://smt.esante.gouv.fr/terminologie-catalogue-vaccins",
+  "version" : "2026-04",
+  "name" : "Catalogue_Vaccins"
 },
 {
   "id" : "terminologie-ccam",
@@ -10029,10 +10100,17 @@
   "oids" : ["1.2.250.1.213.2.68"]
 },
 {
+  "id" : "terminologie-icf",
+  "type" : "CodeSystem",
+  "url" : "https://smt.esante.gouv.fr/terminologie-icf",
+  "version" : "2026-01",
+  "name" : "Classification_internationale_du_fonctionnement_du_handicap_et_de_la_sante_ICF"
+},
+{
   "id" : "terminologie-lahn",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/terminologie-lahn",
-  "version" : "2026 v1.0",
+  "version" : "2026-04",
   "name" : "LAHN",
   "oids" : ["1.2.250.1.213.2.79"]
 },
@@ -10040,7 +10118,7 @@
   "id" : "terminologie-nabm",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/terminologie-nabm",
-  "version" : "V103",
+  "version" : "V104",
   "name" : "NABM",
   "oids" : ["1.2.250.1.215.300.2"]
 },
@@ -10048,7 +10126,7 @@
   "id" : "terminologie-nuva",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/terminologie-nuva",
-  "version" : "1.0.1096",
+  "version" : "1.0.1108",
   "name" : "NUVA",
   "oids" : ["1.3.6.1.4.1.48601.1"]
 },
@@ -10070,7 +10148,7 @@
   "id" : "terminologie-sms",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/terminologie-sms",
-  "version" : "2026-05",
+  "version" : "2026-06",
   "name" : "Dictionnaire_SMS_Substance_Management_Services_",
   "oids" : ["2.16.840.1.113883.3.6905.2"]
 },
@@ -10085,7 +10163,7 @@
   "id" : "terminologie-standardterms",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/terminologie-standardterms",
-  "version" : "2025-03-19",
+  "version" : "2026-01-30",
   "name" : "Standard_terms_EDQM",
   "oids" : ["0.4.0.127.0.16.1.1.2.1"]
 },

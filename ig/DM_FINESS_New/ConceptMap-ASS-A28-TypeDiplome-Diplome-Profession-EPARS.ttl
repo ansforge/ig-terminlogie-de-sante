@@ -14,28 +14,19 @@
      fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CarteDeConcepts ASS-A28-TypeDiplome-Diplome-Profession-EPARS</b></p><a name=\"ASS-A28-TypeDiplome-Diplome-Profession-EPARS\"> </a><a name=\"hcASS-A28-TypeDiplome-Diplome-Profession-EPARS\"> </a><p>Mapping de (non spécifié) vers <a href=\"ValueSet-JDV-J183-Diplome-EPARS.html\">JDV_J183_Diplome_EPARS</a></p><br/><p><b>Groupe 1 </b>Mapping de <a href=\"CodeSystem-TRE-R14-TypeDiplome.html\">TRE_R14_TypeDiplome</a> to <a href=\"CodeSystem-TRE-R48-DiplomeEtatFrancais.html\">TRE_R48_DiplomeEtatFrancais</a></p><table class=\"grid\"><tr><td colspan=\"3\"><b>Détails du concept source</b></td><td><b>relation</b></td><td colspan=\"2\"><b>Détails du concept cible</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> de <a href=\"CodeSystem-TRE-R14-TypeDiplome.html\" title=\"https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome\">TRE_R14_TypeDiplome</a></td><td><b>JDVJ166ProfessionEPARS</b></td><td/><td colspan=\"2\"><b>Codes</b> de <a href=\"CodeSystem-TRE-R48-DiplomeEtatFrancais.html\" title=\"https://mos.esante.gouv.fr/NOS/TRE_R48-DiplomeEtatFrancais/FHIR/TRE-R48-DiplomeEtatFrancais\">TRE_R48_DiplomeEtatFrancais</a></td></tr><tr><td style=\"border-right-width: 0px\">DE</td><td style=\"border-left-width: 0px\">Diplôme d'Etat français</td><td>26</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DE29</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">DE</td><td style=\"border-left-width: 0px\">Diplôme d'Etat français</td><td>41</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DE28</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">DE</td><td style=\"border-left-width: 0px\">Diplôme d'Etat français</td><td>96</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DE32</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">DE</td><td style=\"border-left-width: 0px\">Diplôme d'Etat français</td><td>98</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DE39</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">DE</td><td style=\"border-left-width: 0px\">Diplôme d'Etat français</td><td>86</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DE38</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">DE</td><td style=\"border-left-width: 0px\">Diplôme d'Etat français</td><td>94</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DE30</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">DU</td><td style=\"border-left-width: 0px\">Diplôme d'université (DU) ou inter-universitaire (DIU)</td><td>86</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP410</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">DU</td><td style=\"border-left-width: 0px\">Diplôme d'université (DU) ou inter-universitaire (DIU)</td><td>86</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP411</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">DU</td><td style=\"border-left-width: 0px\">Diplôme d'université (DU) ou inter-universitaire (DIU)</td><td>95</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP416</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">DU</td><td style=\"border-left-width: 0px\">Diplôme d'université (DU) ou inter-universitaire (DIU)</td><td>71</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP320</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">DU</td><td style=\"border-left-width: 0px\">Diplôme d'université (DU) ou inter-universitaire (DIU)</td><td>86</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP413</td><td style=\"border-left-width: 0px\"/></tr></table><hr/><p><b>Groupe 2 </b>Mapping de <a href=\"CodeSystem-TRE-R14-TypeDiplome.html\">TRE_R14_TypeDiplome</a> to <a href=\"CodeSystem-TRE-R58-AutreTypeDiplome.html\">TRE_R58_AutreTypeDiplome</a></p><table class=\"grid\"><tr><td colspan=\"3\"><b>Détails du concept source</b></td><td><b>relation</b></td><td colspan=\"2\"><b>Détails du concept cible</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> de <a href=\"CodeSystem-TRE-R14-TypeDiplome.html\" title=\"https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome\">TRE_R14_TypeDiplome</a></td><td><b>JDVJ166ProfessionEPARS</b></td><td/><td colspan=\"2\"><b>Codes</b> de <a href=\"CodeSystem-TRE-R58-AutreTypeDiplome.html\" title=\"https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome\">TRE_R58_AutreTypeDiplome</a></td></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>26</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP331</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>26</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP332</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>28</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP333</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>28</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP334</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>28</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP335</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>28</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP336</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>28</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP337</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>28</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP338</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>31</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP319</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>71</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP321</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>72</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP322</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>72</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP323</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>72</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP324</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>72</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP325</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>72</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP326</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>72</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP327</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>72</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP328</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>73</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP329</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>81</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP339</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>81</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP340</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>82</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP341</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>83</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP340</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>83</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP342</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>83</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP343</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>83</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP345</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>86</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP348</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>86</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP349</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>86</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP350</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>91</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP353</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>91</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP354</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>92</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP355</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>93</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP323</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>93</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP324</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>93</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP325</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>93</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP326</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>93</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP327</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>93</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP356</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>93</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP357</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>93</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP358</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>93</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP359</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>93</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP360</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>93</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP361</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>93</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP362</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>95</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP364</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>98</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP367</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>98</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP368</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>32</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP409</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>86</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP414</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>86</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP415</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">AU</td><td style=\"border-left-width: 0px\">Autre type de diplôme</td><td>86</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP412</td><td style=\"border-left-width: 0px\"/></tr></table><hr/><p><b>Groupe 3 </b>Mapping de <a href=\"CodeSystem-TRE-R14-TypeDiplome.html\">TRE_R14_TypeDiplome</a> to <a href=\"CodeSystem-TRE-R56-Attestation.html\">TRE_R56_Attestation</a></p><table class=\"grid\"><tr><td colspan=\"3\"><b>Détails du concept source</b></td><td><b>relation</b></td><td colspan=\"2\"><b>Détails du concept cible</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> de <a href=\"CodeSystem-TRE-R14-TypeDiplome.html\" title=\"https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome\">TRE_R14_TypeDiplome</a></td><td><b>JDVJ166ProfessionEPARS</b></td><td/><td colspan=\"2\"><b>Codes</b> de <a href=\"CodeSystem-TRE-R56-Attestation.html\" title=\"https://mos.esante.gouv.fr/NOS/TRE_R56-Attestation/FHIR/TRE-R56-Attestation\">TRE_R56_Attestation</a></td></tr><tr><td style=\"border-right-width: 0px\">ATT</td><td style=\"border-left-width: 0px\">Attestation</td><td>98</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP370</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">ATT</td><td style=\"border-left-width: 0px\">Attestation</td><td>96</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP366</td><td style=\"border-left-width: 0px\"/></tr></table><hr/><p><b>Groupe 4 </b>Mapping de <a href=\"CodeSystem-TRE-R14-TypeDiplome.html\">TRE_R14_TypeDiplome</a> to <a href=\"CodeSystem-TRE-R54-DiplomeUniversiteInterUniversitaire.html\">TRE_R54_DiplomeUniversiteInterUniversitaire</a></p><table class=\"grid\"><tr><td colspan=\"3\"><b>Détails du concept source</b></td><td><b>relation</b></td><td colspan=\"2\"><b>Détails du concept cible</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> de <a href=\"CodeSystem-TRE-R14-TypeDiplome.html\" title=\"https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome\">TRE_R14_TypeDiplome</a></td><td><b>JDVJ166ProfessionEPARS</b></td><td/><td colspan=\"2\"><b>Codes</b> de <a href=\"CodeSystem-TRE-R54-DiplomeUniversiteInterUniversitaire.html\" title=\"https://mos.esante.gouv.fr/NOS/TRE_R54-DiplomeUniversiteInterUniversitaire/FHIR/TRE-R54-DiplomeUniversiteInterUniversitaire\">TRE_R54_DiplomeUniversiteInterUniversitaire</a></td></tr><tr><td style=\"border-right-width: 0px\">DU</td><td style=\"border-left-width: 0px\">Diplôme d'université (DU) ou inter-universitaire (DIU)</td><td>86</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP351</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">DU</td><td style=\"border-left-width: 0px\">Diplôme d'université (DU) ou inter-universitaire (DIU)</td><td>83</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP344</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">DU</td><td style=\"border-left-width: 0px\">Diplôme d'université (DU) ou inter-universitaire (DIU)</td><td>95</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP369</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">DU</td><td style=\"border-left-width: 0px\">Diplôme d'université (DU) ou inter-universitaire (DIU)</td><td>95</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP365</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">DU</td><td style=\"border-left-width: 0px\">Diplôme d'université (DU) ou inter-universitaire (DIU)</td><td>73</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP330</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">DU</td><td style=\"border-left-width: 0px\">Diplôme d'université (DU) ou inter-universitaire (DIU)</td><td>85</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP347</td><td style=\"border-left-width: 0px\"/></tr><tr><td style=\"border-right-width: 0px\">DU</td><td style=\"border-left-width: 0px\">Diplôme d'université (DU) ou inter-universitaire (DIU)</td><td>84</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DIP346</td><td style=\"border-left-width: 0px\"/></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
-     fhir:url [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod>
-     ] ;
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
      fhir:value [
        a fhir:Period ;
        fhir:start [ fhir:v "2021-11-26T12:00:00+01:00"^^xsd:dateTime ]
      ]
   ] [
-     fhir:url [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/concept-bidirectional"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/concept-bidirectional>
-     ] ;
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/concept-bidirectional"^^xsd:anyURI ] ;
      fhir:value [
-       a fhir:Boolean ;
+       a fhir:boolean ;
        fhir:v false
      ]
   ] ) ; # 
-  fhir:url [
-     fhir:v "https://mos.esante.gouv.fr/NOS/ASS_A28-TypeDiplome-Diplome-Profession-EPARS/FHIR/ASS-A28-TypeDiplome-Diplome-Profession-EPARS"^^xsd:anyURI ;
-     fhir:l <https://mos.esante.gouv.fr/NOS/ASS_A28-TypeDiplome-Diplome-Profession-EPARS/FHIR/ASS-A28-TypeDiplome-Diplome-Profession-EPARS>
-  ] ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/ASS_A28-TypeDiplome-Diplome-Profession-EPARS/FHIR/ASS-A28-TypeDiplome-Diplome-Profession-EPARS"^^xsd:anyURI] ; # 
   fhir:identifier [
      fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.241" ]
   ] ; # 
@@ -47,29 +38,19 @@
   fhir:date [ fhir:v "2024-07-26T12:00:00+01:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Table d'association entre les types de diplômes, les diplômes et les professions de santé, médico-sociales ou sociales"] ; # 
   fhir:target [
-     a fhir:Uri ;
-     fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J183-Diplome-EPARS/FHIR/JDV-J183-Diplome-EPARS"^^xsd:anyURI ;
-     fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J183-Diplome-EPARS/FHIR/JDV-J183-Diplome-EPARS>
+     a fhir:uri ;
+     fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J183-Diplome-EPARS/FHIR/JDV-J183-Diplome-EPARS"^^xsd:anyURI
   ] ; # 
   fhir:group ( [
-     fhir:source [
-       fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome"^^xsd:anyURI ;
-       fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome>
-     ] ;
-     fhir:target [
-       fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R48-DiplomeEtatFrancais/FHIR/TRE-R48-DiplomeEtatFrancais"^^xsd:anyURI ;
-       fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R48-DiplomeEtatFrancais/FHIR/TRE-R48-DiplomeEtatFrancais>
-     ] ;
+     fhir:source [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome"^^xsd:anyURI ] ;
+     fhir:target [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R48-DiplomeEtatFrancais/FHIR/TRE-R48-DiplomeEtatFrancais"^^xsd:anyURI ] ;
      fhir:element ( [
        fhir:code [ fhir:v "DE" ] ;
        fhir:target ( [
          fhir:code [ fhir:v "DE29" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "26" ]
          ] )
        ] )
@@ -79,10 +60,7 @@
          fhir:code [ fhir:v "DE28" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "41" ]
          ] )
        ] )
@@ -92,10 +70,7 @@
          fhir:code [ fhir:v "DE32" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "96" ]
          ] )
        ] )
@@ -105,10 +80,7 @@
          fhir:code [ fhir:v "DE39" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "98" ]
          ] )
        ] )
@@ -118,10 +90,7 @@
          fhir:code [ fhir:v "DE38" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "86" ]
          ] )
        ] )
@@ -131,10 +100,7 @@
          fhir:code [ fhir:v "DE30" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "94" ]
          ] )
        ] )
@@ -144,10 +110,7 @@
          fhir:code [ fhir:v "DIP410" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "86" ]
          ] )
        ] )
@@ -157,10 +120,7 @@
          fhir:code [ fhir:v "DIP411" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "86" ]
          ] )
        ] )
@@ -170,10 +130,7 @@
          fhir:code [ fhir:v "DIP416" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "95" ]
          ] )
        ] )
@@ -183,10 +140,7 @@
          fhir:code [ fhir:v "DIP320" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "71" ]
          ] )
        ] )
@@ -196,10 +150,7 @@
          fhir:code [ fhir:v "DIP413" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "86" ]
          ] )
        ] )
@@ -207,24 +158,15 @@
        fhir:code [ fhir:v "ATT" ]
      ] )
   ] [
-     fhir:source [
-       fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome"^^xsd:anyURI ;
-       fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome>
-     ] ;
-     fhir:target [
-       fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome"^^xsd:anyURI ;
-       fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome>
-     ] ;
+     fhir:source [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome"^^xsd:anyURI ] ;
+     fhir:target [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome"^^xsd:anyURI ] ;
      fhir:element ( [
        fhir:code [ fhir:v "AU" ] ;
        fhir:target ( [
          fhir:code [ fhir:v "DIP331" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "26" ]
          ] )
        ] )
@@ -234,10 +176,7 @@
          fhir:code [ fhir:v "DIP332" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "26" ]
          ] )
        ] )
@@ -247,10 +186,7 @@
          fhir:code [ fhir:v "DIP333" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "28" ]
          ] )
        ] )
@@ -260,10 +196,7 @@
          fhir:code [ fhir:v "DIP334" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "28" ]
          ] )
        ] )
@@ -273,10 +206,7 @@
          fhir:code [ fhir:v "DIP335" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "28" ]
          ] )
        ] )
@@ -286,10 +216,7 @@
          fhir:code [ fhir:v "DIP336" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "28" ]
          ] )
        ] )
@@ -299,10 +226,7 @@
          fhir:code [ fhir:v "DIP337" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "28" ]
          ] )
        ] )
@@ -312,10 +236,7 @@
          fhir:code [ fhir:v "DIP338" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "28" ]
          ] )
        ] )
@@ -325,10 +246,7 @@
          fhir:code [ fhir:v "DIP319" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "31" ]
          ] )
        ] )
@@ -338,10 +256,7 @@
          fhir:code [ fhir:v "DIP321" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "71" ]
          ] )
        ] )
@@ -351,10 +266,7 @@
          fhir:code [ fhir:v "DIP322" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "72" ]
          ] )
        ] )
@@ -364,10 +276,7 @@
          fhir:code [ fhir:v "DIP323" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "72" ]
          ] )
        ] )
@@ -377,10 +286,7 @@
          fhir:code [ fhir:v "DIP324" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "72" ]
          ] )
        ] )
@@ -390,10 +296,7 @@
          fhir:code [ fhir:v "DIP325" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "72" ]
          ] )
        ] )
@@ -403,10 +306,7 @@
          fhir:code [ fhir:v "DIP326" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "72" ]
          ] )
        ] )
@@ -416,10 +316,7 @@
          fhir:code [ fhir:v "DIP327" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "72" ]
          ] )
        ] )
@@ -429,10 +326,7 @@
          fhir:code [ fhir:v "DIP328" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "72" ]
          ] )
        ] )
@@ -442,10 +336,7 @@
          fhir:code [ fhir:v "DIP329" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "73" ]
          ] )
        ] )
@@ -455,10 +346,7 @@
          fhir:code [ fhir:v "DIP339" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "81" ]
          ] )
        ] )
@@ -468,10 +356,7 @@
          fhir:code [ fhir:v "DIP340" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "81" ]
          ] )
        ] )
@@ -481,10 +366,7 @@
          fhir:code [ fhir:v "DIP341" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "82" ]
          ] )
        ] )
@@ -494,10 +376,7 @@
          fhir:code [ fhir:v "DIP340" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "83" ]
          ] )
        ] )
@@ -507,10 +386,7 @@
          fhir:code [ fhir:v "DIP342" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "83" ]
          ] )
        ] )
@@ -520,10 +396,7 @@
          fhir:code [ fhir:v "DIP343" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "83" ]
          ] )
        ] )
@@ -533,10 +406,7 @@
          fhir:code [ fhir:v "DIP345" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "83" ]
          ] )
        ] )
@@ -546,10 +416,7 @@
          fhir:code [ fhir:v "DIP348" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "86" ]
          ] )
        ] )
@@ -559,10 +426,7 @@
          fhir:code [ fhir:v "DIP349" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "86" ]
          ] )
        ] )
@@ -572,10 +436,7 @@
          fhir:code [ fhir:v "DIP350" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "86" ]
          ] )
        ] )
@@ -585,10 +446,7 @@
          fhir:code [ fhir:v "DIP353" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "91" ]
          ] )
        ] )
@@ -598,10 +456,7 @@
          fhir:code [ fhir:v "DIP354" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "91" ]
          ] )
        ] )
@@ -611,10 +466,7 @@
          fhir:code [ fhir:v "DIP355" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "92" ]
          ] )
        ] )
@@ -624,10 +476,7 @@
          fhir:code [ fhir:v "DIP323" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "93" ]
          ] )
        ] )
@@ -637,10 +486,7 @@
          fhir:code [ fhir:v "DIP324" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "93" ]
          ] )
        ] )
@@ -650,10 +496,7 @@
          fhir:code [ fhir:v "DIP325" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "93" ]
          ] )
        ] )
@@ -663,10 +506,7 @@
          fhir:code [ fhir:v "DIP326" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "93" ]
          ] )
        ] )
@@ -676,10 +516,7 @@
          fhir:code [ fhir:v "DIP327" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "93" ]
          ] )
        ] )
@@ -689,10 +526,7 @@
          fhir:code [ fhir:v "DIP356" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "93" ]
          ] )
        ] )
@@ -702,10 +536,7 @@
          fhir:code [ fhir:v "DIP357" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "93" ]
          ] )
        ] )
@@ -715,10 +546,7 @@
          fhir:code [ fhir:v "DIP358" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "93" ]
          ] )
        ] )
@@ -728,10 +556,7 @@
          fhir:code [ fhir:v "DIP359" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "93" ]
          ] )
        ] )
@@ -741,10 +566,7 @@
          fhir:code [ fhir:v "DIP360" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "93" ]
          ] )
        ] )
@@ -754,10 +576,7 @@
          fhir:code [ fhir:v "DIP361" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "93" ]
          ] )
        ] )
@@ -767,10 +586,7 @@
          fhir:code [ fhir:v "DIP362" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "93" ]
          ] )
        ] )
@@ -780,10 +596,7 @@
          fhir:code [ fhir:v "DIP364" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "95" ]
          ] )
        ] )
@@ -793,10 +606,7 @@
          fhir:code [ fhir:v "DIP367" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "98" ]
          ] )
        ] )
@@ -806,10 +616,7 @@
          fhir:code [ fhir:v "DIP368" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "98" ]
          ] )
        ] )
@@ -819,10 +626,7 @@
          fhir:code [ fhir:v "DIP409" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "32" ]
          ] )
        ] )
@@ -832,10 +636,7 @@
          fhir:code [ fhir:v "DIP414" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "86" ]
          ] )
        ] )
@@ -845,10 +646,7 @@
          fhir:code [ fhir:v "DIP415" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "86" ]
          ] )
        ] )
@@ -858,33 +656,21 @@
          fhir:code [ fhir:v "DIP412" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "86" ]
          ] )
        ] )
      ] )
   ] [
-     fhir:source [
-       fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome"^^xsd:anyURI ;
-       fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome>
-     ] ;
-     fhir:target [
-       fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R56-Attestation/FHIR/TRE-R56-Attestation"^^xsd:anyURI ;
-       fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R56-Attestation/FHIR/TRE-R56-Attestation>
-     ] ;
+     fhir:source [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome"^^xsd:anyURI ] ;
+     fhir:target [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R56-Attestation/FHIR/TRE-R56-Attestation"^^xsd:anyURI ] ;
      fhir:element ( [
        fhir:code [ fhir:v "ATT" ] ;
        fhir:target ( [
          fhir:code [ fhir:v "DIP370" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "98" ]
          ] )
        ] )
@@ -894,33 +680,21 @@
          fhir:code [ fhir:v "DIP366" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "96" ]
          ] )
        ] )
      ] )
   ] [
-     fhir:source [
-       fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome"^^xsd:anyURI ;
-       fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome>
-     ] ;
-     fhir:target [
-       fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R54-DiplomeUniversiteInterUniversitaire/FHIR/TRE-R54-DiplomeUniversiteInterUniversitaire"^^xsd:anyURI ;
-       fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R54-DiplomeUniversiteInterUniversitaire/FHIR/TRE-R54-DiplomeUniversiteInterUniversitaire>
-     ] ;
+     fhir:source [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome"^^xsd:anyURI ] ;
+     fhir:target [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R54-DiplomeUniversiteInterUniversitaire/FHIR/TRE-R54-DiplomeUniversiteInterUniversitaire"^^xsd:anyURI ] ;
      fhir:element ( [
        fhir:code [ fhir:v "DU" ] ;
        fhir:target ( [
          fhir:code [ fhir:v "DIP351" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "86" ]
          ] )
        ] )
@@ -930,10 +704,7 @@
          fhir:code [ fhir:v "DIP344" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "83" ]
          ] )
        ] )
@@ -943,10 +714,7 @@
          fhir:code [ fhir:v "DIP369" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "95" ]
          ] )
        ] )
@@ -956,10 +724,7 @@
          fhir:code [ fhir:v "DIP365" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "95" ]
          ] )
        ] )
@@ -969,10 +734,7 @@
          fhir:code [ fhir:v "DIP330" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "73" ]
          ] )
        ] )
@@ -982,10 +744,7 @@
          fhir:code [ fhir:v "DIP347" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "85" ]
          ] )
        ] )
@@ -995,10 +754,7 @@
          fhir:code [ fhir:v "DIP346" ] ;
          fhir:equivalence [ fhir:v "equivalent" ] ;
          fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ;
-             fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS>
-           ] ;
+           fhir:property [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "84" ]
          ] )
        ] )

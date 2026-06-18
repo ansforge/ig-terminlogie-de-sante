@@ -15,17 +15,15 @@
                   codeSystem=""
                   displayName="Tumeur à évolution imprévisible et inconnue du sein"/>
          <concept code="443508001"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="pas d'antécédent médical personnel"/>
          <concept code="118445002"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="ablation d'un néoplasme bénin"/>
          <concept code="370611004"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="excision d'un néoplasme malin"/>
-         <concept code="56306000"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="chirurgie esthétique"/>
+         <concept code="56306000" codeSystem="" displayName="chirurgie esthétique"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

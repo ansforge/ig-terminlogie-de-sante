@@ -19,15 +19,9 @@
          <concept code="MED-448"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Hémisphère topographie intraventriculaire pure"/>
-         <concept code="113305005"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="cervelet"/>
-         <concept code="15926001"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="tronc de l'encéphale"/>
-         <concept code="35764002"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="ventricule cérébral"/>
+         <concept code="113305005" codeSystem="" displayName="cervelet"/>
+         <concept code="15926001" codeSystem="" displayName="tronc de l'encéphale"/>
+         <concept code="35764002" codeSystem="" displayName="ventricule cérébral"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

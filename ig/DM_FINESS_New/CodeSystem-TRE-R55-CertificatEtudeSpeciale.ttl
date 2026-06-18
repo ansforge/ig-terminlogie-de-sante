@@ -15,7 +15,7 @@
      fhir:lastUpdated [ fhir:v "2025-07-02T18:18:21.237+00:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
      ] )
   ] ; # 
   fhir:text [
@@ -23,24 +23,15 @@
      fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem TRE-R55-CertificatEtudeSpeciale</b></p><a name=\"TRE-R55-CertificatEtudeSpeciale\"> </a><a name=\"hcTRE-R55-CertificatEtudeSpeciale\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 4; Dernière mise à jour : 2024-08-28 05:13:59+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R55-CertificatEtudeSpeciale/FHIR/TRE-R55-CertificatEtudeSpeciale</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">CESC01<a name=\"TRE-R55-CertificatEtudeSpeciale-CESC01\"> </a></td><td>CES Biologie de la bouche, option Histo-embryologique</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>CES Bio bouche, opt Histo-embr</td></tr><tr><td style=\"white-space:nowrap\">CESC02<a name=\"TRE-R55-CertificatEtudeSpeciale-CESC02\"> </a></td><td>CES Biologie de la bouche, option Anatomo-physiologue</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>CES Bio bouche, opt Ana-physio</td></tr><tr><td style=\"white-space:nowrap\">CESC03<a name=\"TRE-R55-CertificatEtudeSpeciale-CESC03\"> </a></td><td>CES Technologie des matériaux employés art dentaire</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>CES Techno matér art dentaire</td></tr><tr><td style=\"white-space:nowrap\">CESC04<a name=\"TRE-R55-CertificatEtudeSpeciale-CESC04\"> </a></td><td>CES Odontologie chirurgicale</td><td>2007-07-25T15:04:42+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CESC05<a name=\"TRE-R55-CertificatEtudeSpeciale-CESC05\"> </a></td><td>CES Odontologie conservatrice</td><td>2007-07-25T15:04:42+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CESC06<a name=\"TRE-R55-CertificatEtudeSpeciale-CESC06\"> </a></td><td>CES Odontologie légale</td><td>2007-07-25T15:04:42+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CESC07<a name=\"TRE-R55-CertificatEtudeSpeciale-CESC07\"> </a></td><td>CES Orthopédie dento-faciale</td><td>2007-07-25T15:04:42+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CESC08<a name=\"TRE-R55-CertificatEtudeSpeciale-CESC08\"> </a></td><td>CES Pédodontie-prévention</td><td>2007-07-25T15:04:42+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CESC09<a name=\"TRE-R55-CertificatEtudeSpeciale-CESC09\"> </a></td><td>CES Prothèse adjointe partielle</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>CES Prothèse adj partielle</td></tr><tr><td style=\"white-space:nowrap\">CESC10<a name=\"TRE-R55-CertificatEtudeSpeciale-CESC10\"> </a></td><td>CES Prothèse adjointe complète</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>CES Prothèse adj complète</td></tr><tr><td style=\"white-space:nowrap\">CESC11<a name=\"TRE-R55-CertificatEtudeSpeciale-CESC11\"> </a></td><td>CES Prothèse adjointe maxillo-faciale</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>CES Prothèse adj maxillo-fac</td></tr><tr><td style=\"white-space:nowrap\">CESC12<a name=\"TRE-R55-CertificatEtudeSpeciale-CESC12\"> </a></td><td>CES Prothèse scellée</td><td>2007-07-25T15:04:42+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CESM01<a name=\"TRE-R55-CertificatEtudeSpeciale-CESM01\"> </a></td><td>CES Médecine aéronautique</td><td>2007-07-25T15:04:42+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CESM02<a name=\"TRE-R55-CertificatEtudeSpeciale-CESM02\"> </a></td><td>CES Anatomie et Cytologie pathologiques</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>CES Anatomie, Cytologie patho</td></tr><tr><td style=\"white-space:nowrap\">CESM03<a name=\"TRE-R55-CertificatEtudeSpeciale-CESM03\"> </a></td><td>CES Anesthésie-réanimation</td><td>2007-07-25T15:04:42+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CESM04<a name=\"TRE-R55-CertificatEtudeSpeciale-CESM04\"> </a></td><td>CES Cardiologie et Maladies vasculaires</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>CES Cardiologie, Mal vascul</td></tr><tr><td style=\"white-space:nowrap\">CESM05<a name=\"TRE-R55-CertificatEtudeSpeciale-CESM05\"> </a></td><td>CES Chirurgie générale</td><td>2007-07-25T15:04:42+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CESM06<a name=\"TRE-R55-CertificatEtudeSpeciale-CESM06\"> </a></td><td>CES Dermato-vénéréologie</td><td>2007-07-25T15:04:42+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CESM07<a name=\"TRE-R55-CertificatEtudeSpeciale-CESM07\"> </a></td><td>CES Electro-radiologie</td><td>2007-07-25T15:04:42+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CESM09<a name=\"TRE-R55-CertificatEtudeSpeciale-CESM09\"> </a></td><td>CES Gynécologie médicale</td><td>2007-07-25T15:04:42+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CESM10<a name=\"TRE-R55-CertificatEtudeSpeciale-CESM10\"> </a></td><td>CES Maladies de l'appareil digestif</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>CES Maladies appareil digestif</td></tr><tr><td style=\"white-space:nowrap\">CESM13<a name=\"TRE-R55-CertificatEtudeSpeciale-CESM13\"> </a></td><td>CES Néphrologie</td><td>2007-07-25T15:04:42+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CESM14<a name=\"TRE-R55-CertificatEtudeSpeciale-CESM14\"> </a></td><td>CES Neuro-chirurgie</td><td>2007-07-25T15:04:42+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CESM15<a name=\"TRE-R55-CertificatEtudeSpeciale-CESM15\"> </a></td><td>CES Neurologie</td><td>2007-07-25T15:04:42+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CESM16<a name=\"TRE-R55-CertificatEtudeSpeciale-CESM16\"> </a></td><td>CES Pédiatrie</td><td>2007-07-25T15:04:42+01:00</td><td>2011-01-17T11:47:08+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CESM17<a name=\"TRE-R55-CertificatEtudeSpeciale-CESM17\"> </a></td><td>CES Pneumologie</td><td>2007-07-25T15:04:42+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CESM18<a name=\"TRE-R55-CertificatEtudeSpeciale-CESM18\"> </a></td><td>CES Psychiatrie</td><td>2007-07-25T15:04:42+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CESM19<a name=\"TRE-R55-CertificatEtudeSpeciale-CESM19\"> </a></td><td>CES Psychiatrie, option enfant et adolescent</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>CES Psychiatrie opt enfant ado</td></tr><tr><td style=\"white-space:nowrap\">CESM20<a name=\"TRE-R55-CertificatEtudeSpeciale-CESM20\"> </a></td><td>CES Radio-diagnostic</td><td>2007-07-25T15:04:42+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CESM21<a name=\"TRE-R55-CertificatEtudeSpeciale-CESM21\"> </a></td><td>CES Radio-thérapie</td><td>2007-07-25T15:04:42+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CESM22<a name=\"TRE-R55-CertificatEtudeSpeciale-CESM22\"> </a></td><td>CES Médecine physique et réadaptation fonctionnelle</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>CES Médecine phys, réadap fonc</td></tr><tr><td style=\"white-space:nowrap\">CESM23<a name=\"TRE-R55-CertificatEtudeSpeciale-CESM23\"> </a></td><td>CES Rhumatologie</td><td>2007-07-25T15:04:42+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CESM24<a name=\"TRE-R55-CertificatEtudeSpeciale-CESM24\"> </a></td><td>CES Médecine Nucléaire</td><td>2007-07-25T15:04:42+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CESM25<a name=\"TRE-R55-CertificatEtudeSpeciale-CESM25\"> </a></td><td>CES Endocrinologie, diabète, Maladies métaboliques</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>CES Endocrin, diab, Mal métab</td></tr><tr><td style=\"white-space:nowrap\">CESM26<a name=\"TRE-R55-CertificatEtudeSpeciale-CESM26\"> </a></td><td>CES Gynécologie médicale et Obstétrique</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>CES Gynéco-méd, Obstétrique</td></tr><tr><td style=\"white-space:nowrap\">CESM27<a name=\"TRE-R55-CertificatEtudeSpeciale-CESM27\"> </a></td><td>CES Médecine appliquée aux sports</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>CES Médecine appliquée sports</td></tr><tr><td style=\"white-space:nowrap\">CESM28<a name=\"TRE-R55-CertificatEtudeSpeciale-CESM28\"> </a></td><td>CES Médecine légale</td><td>2007-07-25T15:04:42+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CESM29<a name=\"TRE-R55-CertificatEtudeSpeciale-CESM29\"> </a></td><td>CES Maladies du sang</td><td>2007-07-25T15:04:42+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CESM30<a name=\"TRE-R55-CertificatEtudeSpeciale-CESM30\"> </a></td><td>CES Obstétrique</td><td>2007-07-25T15:04:42+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CESM31<a name=\"TRE-R55-CertificatEtudeSpeciale-CESM31\"> </a></td><td>CES Ophtalmologie</td><td>2007-07-25T15:04:42+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CESM32<a name=\"TRE-R55-CertificatEtudeSpeciale-CESM32\"> </a></td><td>CES Otho-rhino-laryngologie</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>CES ORL</td></tr><tr><td style=\"white-space:nowrap\">CESM33<a name=\"TRE-R55-CertificatEtudeSpeciale-CESM33\"> </a></td><td>CES Stomatologie</td><td>2007-07-25T00:00:00+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CESM34<a name=\"TRE-R55-CertificatEtudeSpeciale-CESM34\"> </a></td><td>CES Médecine du travail</td><td>2007-07-25T00:00:00+01:00</td><td>2011-01-17T11:47:08+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CESM35<a name=\"TRE-R55-CertificatEtudeSpeciale-CESM35\"> </a></td><td>CES Orthopédie dento-maxillo-faciale</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>CES Orthopédie dento-maxil-fac</td></tr><tr><td style=\"white-space:nowrap\">CESM36<a name=\"TRE-R55-CertificatEtudeSpeciale-CESM36\"> </a></td><td>CES Neuro psychiatrie</td><td>2007-07-25T00:00:00+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CESM37<a name=\"TRE-R55-CertificatEtudeSpeciale-CESM37\"> </a></td><td>CES Radio-diagnostic et thérapie</td><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>CES Radio-diagnosti, thérapie</td></tr><tr><td style=\"white-space:nowrap\">CESP01<a name=\"TRE-R55-CertificatEtudeSpeciale-CESP01\"> </a></td><td>Bactérologie et Virologie clinique</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Bactérologie, Virologie cliniq</td></tr><tr><td style=\"white-space:nowrap\">CESP02<a name=\"TRE-R55-CertificatEtudeSpeciale-CESP02\"> </a></td><td>Biochimie</td><td>2007-07-25T15:04:42+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CESP06<a name=\"TRE-R55-CertificatEtudeSpeciale-CESP06\"> </a></td><td>Diagnostic biologiste parasitaire</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Diag biologiste parasitaire</td></tr><tr><td style=\"white-space:nowrap\">CESP07<a name=\"TRE-R55-CertificatEtudeSpeciale-CESP07\"> </a></td><td>Hématologie</td><td>2007-07-25T15:04:42+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">CESP08<a name=\"TRE-R55-CertificatEtudeSpeciale-CESP08\"> </a></td><td>Immunologie générale et appliquée</td><td>2007-07-25T15:04:42+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Immunologie géné, appliquée</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
-     fhir:url [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod>
-     ] ;
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
      fhir:value [
        a fhir:Period ;
        fhir:start [ fhir:v "2013-06-28T00:00:00+01:00"^^xsd:dateTime ]
      ]
   ] ) ; # 
-  fhir:url [
-     fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R55-CertificatEtudeSpeciale/FHIR/TRE-R55-CertificatEtudeSpeciale"^^xsd:anyURI ;
-     fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R55-CertificatEtudeSpeciale/FHIR/TRE-R55-CertificatEtudeSpeciale>
-  ] ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R55-CertificatEtudeSpeciale/FHIR/TRE-R55-CertificatEtudeSpeciale"^^xsd:anyURI] ; # 
   fhir:identifier ( [
-     fhir:system [
-       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
-       fhir:l <urn:ietf:rfc:3986>
-     ] ;
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.52" ]
   ] ) ; # 
   fhir:version [ fhir:v "20231215120000"] ; # 
@@ -52,10 +43,7 @@
   fhir:description [ fhir:v "Certificat d'Etude Spéciale"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
-       fhir:system [
-         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
-         fhir:l <urn:iso:std:iso:3166>
-       ] ;
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "FR" ]
      ] )
   ] ) ; # 
@@ -75,26 +63,17 @@
      fhir:type [ fhir:v "dateTime" ]
   ] [
      fhir:code [ fhir:v "deprecationDate" ] ;
-     fhir:uri [
-       fhir:v "http://hl7.org/fhir/concept-properties#deprecationDate"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/concept-properties#deprecationDate>
-     ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#deprecationDate"^^xsd:anyURI ] ;
      fhir:description [ fhir:v "Date Concept was deprecated" ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] [
      fhir:code [ fhir:v "status" ] ;
-     fhir:uri [
-       fhir:v "http://hl7.org/fhir/concept-properties#status"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/concept-properties#status>
-     ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#status"^^xsd:anyURI ] ;
      fhir:description [ fhir:v "A property that indicates the status of the concept." ] ;
      fhir:type [ fhir:v "code" ]
   ] [
      fhir:code [ fhir:v "retirementDate" ] ;
-     fhir:uri [
-       fhir:v "http://hl7.org/fhir/concept-properties#retirementDate"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/concept-properties#retirementDate>
-     ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#retirementDate"^^xsd:anyURI ] ;
      fhir:description [ fhir:v "Date Concept was retired" ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] ) ; # 
@@ -105,10 +84,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "CES Bio bouche, opt Histo-embr" ]
@@ -116,19 +92,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -139,10 +115,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "CES Bio bouche, opt Ana-physio" ]
@@ -150,19 +123,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -173,10 +146,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "CES Techno matér art dentaire" ]
@@ -184,19 +154,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -206,19 +176,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -228,19 +198,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -250,19 +220,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -272,19 +242,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -294,19 +264,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -317,10 +287,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "CES Prothèse adj partielle" ]
@@ -328,19 +295,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -351,10 +318,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "CES Prothèse adj complète" ]
@@ -362,19 +326,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -385,10 +349,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "CES Prothèse adj maxillo-fac" ]
@@ -396,19 +357,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -418,19 +379,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -440,19 +401,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -463,10 +424,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "CES Anatomie, Cytologie patho" ]
@@ -474,19 +432,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -496,19 +454,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -519,10 +477,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "CES Cardiologie, Mal vascul" ]
@@ -530,19 +485,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -552,19 +507,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -574,19 +529,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -596,19 +551,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -618,19 +573,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -641,10 +596,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "CES Maladies appareil digestif" ]
@@ -652,19 +604,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -674,19 +626,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -696,19 +648,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -718,19 +670,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -740,19 +692,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2011-01-17T11:47:08+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -762,19 +714,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -784,19 +736,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -807,10 +759,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "CES Psychiatrie opt enfant ado" ]
@@ -818,19 +767,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -840,19 +789,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -862,19 +811,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -885,10 +834,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "CES Médecine phys, réadap fonc" ]
@@ -896,19 +842,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -918,19 +864,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -940,19 +886,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -963,10 +909,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "CES Endocrin, diab, Mal métab" ]
@@ -974,19 +917,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -997,10 +940,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "CES Gynéco-méd, Obstétrique" ]
@@ -1008,19 +948,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -1031,10 +971,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "CES Médecine appliquée sports" ]
@@ -1042,19 +979,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -1064,19 +1001,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -1086,19 +1023,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -1108,19 +1045,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -1130,19 +1067,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -1153,10 +1090,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "CES ORL" ]
@@ -1164,10 +1098,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "CES Otho-rhino-laryngologie (ORL)" ]
@@ -1175,19 +1106,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -1197,19 +1128,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -1219,19 +1150,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2011-01-17T11:47:08+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -1242,10 +1173,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "CES Orthopédie dento-maxil-fac" ]
@@ -1253,19 +1181,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -1275,19 +1203,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -1298,10 +1226,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "CES Radio-diagnosti, thérapie" ]
@@ -1309,19 +1234,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -1332,10 +1257,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Bactérologie, Virologie cliniq" ]
@@ -1343,19 +1265,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -1365,19 +1287,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -1388,10 +1310,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Diag biologiste parasitaire" ]
@@ -1399,19 +1318,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -1421,19 +1340,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -1444,10 +1363,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Immunologie géné, appliquée" ]
@@ -1455,19 +1371,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2007-07-25T15:04:42+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )

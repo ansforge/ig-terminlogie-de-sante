@@ -37,7 +37,7 @@
     </extension>
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="7.1.0"/>
+    <version value="7.2.0"/>
   </dependsOn>
   <dependsOn id="hl7ext">
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
@@ -24400,6 +24400,16 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/terminologie-icf"/>
+      </reference>
+      <name value="Classification internationale du fonctionnement, du handicap et de la santé"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/concept-properties"/>
       </reference>
       <name value="Concept Properties"/>
@@ -27246,6 +27256,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-j391-niveau-diplome-ms"/>
+      </reference>
+      <name value="Jdv J391 Niveau Diplome Ms"/>
+      <description value="Niveau de diplôme permettant d'indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-j392-type-courrier-ms"/>
       </reference>
       <name value="Jdv J392 Type Courrier Ms"/>
@@ -27316,6 +27337,17 @@
       </reference>
       <name value="Jdv J398 Type Decision Ms"/>
       <description value="Type de décision transmise aux DUI(s) par la CDAPH en réponse à une demande de compensation d'un usager."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j399-motivation-ms"/>
+      </reference>
+      <name value="Jdv J399 Motivation Ms"/>
+      <description value="L'énoncé des considérations de droit ou de fait qui constituent le fondement de la proposition et de la décision de la CDAPH."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -27411,10 +27443,43 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-j408-orientation-ms"/>
+      </reference>
+      <name value="Jdv J408 Orientation Ms"/>
+      <description value="Ensemble des orientations vers un Service d'éducation spéciale et de soins à domicile (SESSAD), un Service d'accompagnement familial et d'éducation précoce (SAFEP), un enseignement adapté (SEGPA/EREA) ou une unité d'enseignement."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-j409-type-adresse-ms"/>
       </reference>
       <name value="Jdv J409 Type Adresse Ms"/>
-      <description value="Type d'adresse postale."/>
+      <description value="Type d'adresse postale tel que &quot;Adresse du domicile&quot;, &quot;Adresse de livraison&quot; pour une personne physique."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j410-categorie-permis-conduire-ms"/>
+      </reference>
+      <name value="Jdv J410 Categorie Permis Conduire Ms"/>
+      <description value="Catégorie de permis de conduire."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j411-niveau-scolaire-ms"/>
+      </reference>
+      <name value="Jdv J411 Niveau Scolaire Ms"/>
+      <description value="Niveau scolaire de l'usager en France."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -33571,6 +33636,17 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/terminologie-catalogue-vaccins"/>
+      </reference>
+      <name value="Jeux de valeurs pour la Note de Vaccination"/>
+      <description value="Le Catalogue Vaccins permet de codifier les vaccins administrés à un patient pour produire une note de vaccination à des fins de partage dans le DMP/MES. Il permet de faire le lien entre une spécialité pharmaceutique vaccinale et une maladie. Il est construit à partir des standards sémantiques nationaux et internationaux interopérables dont les sources sont issues du RUIM-Référentiel Unique d'Interopérabilité du Médicament(ANSM), de l'ATC-Anatomique Thérapeutique Chimique(OMS (WHOCC)) et de NUVA-Nomenclature Unifiée des Vaccins(SYADEM). Il est destiné en particulier aux utilisateurs du secteur médico-social ou paramédical lorsqu’ils ne disposent pas d’un accès à une base de médicaments et d’un lecteur de datamatrix"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/terminologie-lahn"/>
       </reference>
       <name value="Liste des Actes Inovants Hors Nomenclature"/>
@@ -33864,17 +33940,6 @@
       </reference>
       <name value="SeverityObservationCode"/>
       <description value="SeverityObservationCode"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/900000000000207008-20260501"/>
-      </reference>
-      <name value="SNOMED CT core"/>
-      <description value="SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO)."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -34463,6 +34528,39 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/tre-r412-niveau-diplome"/>
+      </reference>
+      <name value="Tre R412 Niveau Diplome"/>
+      <description value="Niveau de diplôme permettant d'indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r413-categorie-permis-conduire"/>
+      </reference>
+      <name value="Tre R413 Categorie Permis Conduire"/>
+      <description value="Catégorie de permis de conduire."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r414-niveau-scolaire"/>
+      </reference>
+      <name value="Tre R414 Niveau Scolaire"/>
+      <description value="Niveau scolaire de l'usager en France."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/tre-r415-utilisation-canal-communication"/>
       </reference>
       <name value="Tre R415 Utilisation Canal Communication"/>
@@ -34500,6 +34598,17 @@
       </reference>
       <name value="Tre R418 Nature Demande Compensation"/>
       <description value="Nature de la demande de compensation adressée à la CDAPH."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r419-motivation"/>
+      </reference>
+      <name value="Tre R419 Motivation"/>
+      <description value="Considération(s) de droit ou de fait qui constituent le fondement de la proposition et de la décision de la CDAPH."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -34587,7 +34696,7 @@
         <reference value="CodeSystem/tre-r427-type-adresse"/>
       </reference>
       <name value="Tre R427 Type Adresse"/>
-      <description value="Type d'adresse postale."/>
+      <description value="Type d'adresse postale tel que &quot;Adresse du domicile&quot;, &quot;Adresse de livraison&quot; pour une personne physique."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

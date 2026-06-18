@@ -15,7 +15,7 @@
                   displayName="Avis spécialisé"/>
          <concept code="MR" codeSystem="" displayName="IRM"/>
          <concept code="17636008"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="prélèvement d'échantillon"/>
       </ConceptList>
    </ValueSet>

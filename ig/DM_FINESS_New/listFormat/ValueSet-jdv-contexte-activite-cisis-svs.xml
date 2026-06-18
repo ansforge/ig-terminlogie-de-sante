@@ -34,14 +34,10 @@
          <concept code="29"
                   codeSystem="1.2.250.1.213.3.3.13"
                   displayName="Hospitalisation de jour (HJ)"/>
-         <concept code="448337001"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="téléconsultation"/>
-         <concept code="11429006"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="consultation"/>
+         <concept code="448337001" codeSystem="" displayName="téléconsultation"/>
+         <concept code="11429006" codeSystem="" displayName="consultation"/>
          <concept code="1268903003"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="consultation pluridisciplinaire"/>
       </ConceptList>
    </ValueSet>

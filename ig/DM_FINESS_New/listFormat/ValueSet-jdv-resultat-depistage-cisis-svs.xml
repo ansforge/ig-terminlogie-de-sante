@@ -10,17 +10,11 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="10828004"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="positif(-ive)"/>
-         <concept code="260385009"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="négatif(-ive)"/>
-         <concept code="373068000"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="indéterminé(e)"/>
+         <concept code="10828004" codeSystem="" displayName="positif(-ive)"/>
+         <concept code="260385009" codeSystem="" displayName="négatif(-ive)"/>
+         <concept code="373068000" codeSystem="" displayName="indéterminé(e)"/>
          <concept code="125154007"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="échantillon insatisfaisant pour l'évaluation"/>
       </ConceptList>
    </ValueSet>

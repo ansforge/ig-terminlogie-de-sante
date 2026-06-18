@@ -8,6 +8,6 @@
 ;R47.02;Aphasie, autre et sans précision
 ;R47.1;Dysarthrie et anarthrie
 ;G90.9;Affection du système nerveux autonome, sans précision
-2.16.840.1.113883.6.96;61683000;drop attack
-2.16.840.1.113883.6.96;399090003;vertige subjectif
-2.16.840.1.113883.6.96;88052002;mutisme
+;61683000;drop attack
+;399090003;vertige subjectif
+;88052002;mutisme

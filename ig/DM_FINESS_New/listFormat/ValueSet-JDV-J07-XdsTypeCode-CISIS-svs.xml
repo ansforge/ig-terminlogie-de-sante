@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20260505120000"
+             dateMaj="20260601120000"
              dateValid="20130123000000"
              description="XDS typeCode CI-SIS"
              displayName="JDV_J07_XdsTypeCode_CISIS"
@@ -124,7 +124,6 @@
          <concept code="11490-0"
                   codeSystem=""
                   displayName="Lettre de liaison à la sortie d'un établissement de soins"/>
-         <concept code="34112-3" codeSystem="" displayName="CR hospitalier (séjour)"/>
          <concept code="11502-2" codeSystem="" displayName="CR d'examens biologiques"/>
          <concept code="11505-5"
                   codeSystem=""
@@ -148,6 +147,7 @@
                   codeSystem=""
                   displayName="Document du secteur social / médico-social"/>
          <concept code="29274-8" codeSystem="" displayName="Mesures de signes vitaux"/>
+         <concept code="34112-3" codeSystem="" displayName="CR hospitalier (séjour)"/>
          <concept code="34120-6"
                   codeSystem=""
                   displayName="Bilan par professionnel de santé"/>
@@ -190,6 +190,13 @@
          <concept code="56446-8"
                   codeSystem=""
                   displayName="Notification de rendez-vous"/>
+         <concept code="57055-6" codeSystem="" displayName="Synthèse antepartum"/>
+         <concept code="57057-2"
+                  codeSystem=""
+                  displayName="Synthèse Salle de Naissance Mère"/>
+         <concept code="57075-4"
+                  codeSystem=""
+                  displayName="Synthèse Salle de Naissance Enfant"/>
          <concept code="57828-6" codeSystem="" displayName="Prescription (autre)"/>
          <concept code="57832-8" codeSystem="" displayName="Prescription de soins"/>
          <concept code="57833-6"
@@ -246,6 +253,9 @@
          <concept code="77604-7"
                   codeSystem=""
                   displayName="Planification thérapeutique"/>
+         <concept code="78489-2"
+                  codeSystem=""
+                  displayName="Synthèse Enfant en Maternité"/>
          <concept code="78513-9"
                   codeSystem=""
                   displayName="CR de consultation en ophtalmologie"/>
@@ -275,45 +285,38 @@
          <concept code="83981-1"
                   codeSystem=""
                   displayName="Lettre de liaison à la sortie d'une structure sociale ou médico-sociale"/>
+         <concept code="84067-8"
+                  codeSystem=""
+                  displayName="Synthèse transfusionnelle"/>
          <concept code="85208-7" codeSystem="" displayName="CR de télémédecine"/>
          <concept code="86531-1" codeSystem="" displayName="Attestation de sortie"/>
          <concept code="87273-9" codeSystem="" displayName="Note de vaccination"/>
          <concept code="88348-8"
                   codeSystem=""
                   displayName="Lettre de liaison d'entrée en structure sociale ou médico-sociale"/>
+         <concept code="89233-1" codeSystem="" displayName="CR de grossesse"/>
+         <concept code="89235-6"
+                  codeSystem=""
+                  displayName="Synthèse Suites de Couches Mère"/>
          <concept code="89601-9" codeSystem="" displayName="Certificat médical"/>
          <concept code="93024-8"
                   codeSystem=""
                   displayName="CR de consultation pharmaceutique"/>
+         <concept code="96163-1"
+                  codeSystem=""
+                  displayName="Bilan de soins infirmiers"/>
+         <concept code="96173-0"
+                  codeSystem=""
+                  displayName="Test rapide d'orientation diagnostique"/>
          <concept code="96349-6" codeSystem="" displayName="Lettre d'adressage"/>
          <concept code="96874-3"
                   codeSystem=""
                   displayName="COVID-19 Attestation de vaccination"/>
-         <concept code="96173-0"
-                  codeSystem=""
-                  displayName="Test rapide d'orientation diagnostique"/>
-         <concept code="57055-6" codeSystem="" displayName="Synthèse antepartum"/>
-         <concept code="57057-2"
-                  codeSystem=""
-                  displayName="Synthèse Salle de Naissance Mère"/>
-         <concept code="57075-4"
-                  codeSystem=""
-                  displayName="Synthèse Salle de Naissance Enfant"/>
-         <concept code="84067-8"
-                  codeSystem=""
-                  displayName="Synthèse transfusionnelle"/>
-         <concept code="89235-6"
-                  codeSystem=""
-                  displayName="Synthèse Suites de Couches Mère"/>
-         <concept code="78489-2"
-                  codeSystem=""
-                  displayName="Synthèse Enfant en Maternité"/>
-         <concept code="89233-1" codeSystem="" displayName="CR de grossesse"/>
-         <concept code="101881-1" codeSystem="" displayName="Carte d'implant"/>
          <concept code="97694-4"
                   codeSystem=""
                   displayName="Note d'évaluation en médecine maternelle et fœtale"/>
          <concept code="100967-9" codeSystem="" displayName="Rythme cardiaque fœtal"/>
+         <concept code="101881-1" codeSystem="" displayName="Carte d'implant"/>
          <concept code="E1762" codeSystem="ASTM" displayName="Full Document"/>
       </ConceptList>
    </ValueSet>

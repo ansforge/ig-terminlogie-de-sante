@@ -26,10 +26,10 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Autre acte réalisé en postpartum immédiat"/>
          <concept code="49149002"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="exploration manuelle post-partum de l'utérus"/>
          <concept code="57238002"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="embolisation artérielle sélective"/>
       </ConceptList>
    </ValueSet>

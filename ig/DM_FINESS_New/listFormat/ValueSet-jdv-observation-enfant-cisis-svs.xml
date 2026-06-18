@@ -14,7 +14,7 @@
          <concept code="92276-5" codeSystem="" displayName="Statut du nouveau né"/>
          <concept code="57071-3" codeSystem="" displayName="Méthode d'accouchement"/>
          <concept code="107724000"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="transfert d'un(e) patient(e)"/>
       </ConceptList>
    </ValueSet>

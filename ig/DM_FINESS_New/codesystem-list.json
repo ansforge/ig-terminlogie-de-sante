@@ -1,14 +1,5 @@
 {
   "codeSystems" : [{
-    "url" : "http://snomed.info/sct",
-    "version" : "http://snomed.info/sct/900000000000207008/version/20260501",
-    "status" : "active",
-    "name" : "SNOMED_CT",
-    "title" : "SNOMED CT core",
-    "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
-    "oids" : ["2.16.840.1.113883.6.96"]
-  },
-  {
     "url" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
     "version" : "3.0.0",
     "status" : "active",
@@ -739,7 +730,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique",
-    "version" : "20260330120000",
+    "version" : "20260601120000",
     "status" : "active",
     "name" : "TRE_R210_ActeSpecifique",
     "title" : null,
@@ -748,7 +739,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
-    "version" : "20260330120000",
+    "version" : "20260601120000",
     "status" : "active",
     "name" : "TRE_R211_ActiviteOperationnelle",
     "title" : null,
@@ -757,7 +748,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement",
-    "version" : "20251222120000",
+    "version" : "20260601120000",
     "status" : "active",
     "name" : "TRE_R212_Equipement",
     "title" : null,
@@ -1360,7 +1351,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R280-DisciplineEquipementSocial/FHIR/TRE-R280-DisciplineEquipementSocial",
-    "version" : "20260330120000",
+    "version" : "20260601120000",
     "status" : "active",
     "name" : "TRE_R280_DisciplineEquipementSocial",
     "title" : null,
@@ -1882,7 +1873,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R343-FonctionLieu/FHIR/TRE-R343-FonctionLieu",
-    "version" : "20251222120000",
+    "version" : "20260601120000",
     "status" : "active",
     "name" : "TRE_R343_FonctionLieu",
     "title" : null,
@@ -2251,7 +2242,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R64-AgregatCategorieEtablissementNiv2/FHIR/TRE-R64-AgregatCategorieEtablissementNiv2",
-    "version" : "20231215120000",
+    "version" : "20260601120000",
     "status" : "active",
     "name" : "TRE_R64_AgregatCategorieEtablissementNiv2",
     "title" : null,
@@ -2485,7 +2476,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
-    "version" : "20260505120000",
+    "version" : "20260601120000",
     "status" : "active",
     "name" : "TreR347ActiviteSanitaireDiverseRegulee",
     "title" : "Tre R347 Activite Sanitaire Diverse Regulee",
@@ -2782,7 +2773,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
-    "version" : "20260505120000",
+    "version" : "20260601120000",
     "status" : "active",
     "name" : "TreR397CategorieEntiteGeographiqueExercice",
     "title" : "Tre R397 Categorie Entite Geographique Exercice",
@@ -2800,7 +2791,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-    "version" : "20260330120000",
+    "version" : "20260601120000",
     "status" : "active",
     "name" : "TreR401ActiviteSocialeRegulee",
     "title" : "Tre R401 Activite Sociale Regulee",
@@ -2871,6 +2862,33 @@
     "oids" : ["1.2.250.1.213.3.3.262"]
   },
   {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome",
+    "version" : "20260601120000",
+    "status" : "draft",
+    "name" : "TreR412NiveauDiplome",
+    "title" : "Tre R412 Niveau Diplome",
+    "description" : "Niveau de diplôme permettant d'indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel.",
+    "oids" : ["1.2.250.1.213.3.3.263"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r413-categorie-permis-conduire",
+    "version" : "20260601120000",
+    "status" : "draft",
+    "name" : "TreR413CategoriePermisConduire",
+    "title" : "Tre R413 Categorie Permis Conduire",
+    "description" : "Catégorie de permis de conduire.",
+    "oids" : ["1.2.250.1.213.3.3.264"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r414-niveau-scolaire",
+    "version" : "20260601120000",
+    "status" : "draft",
+    "name" : "TreR414NiveauScolaire",
+    "title" : "Tre R414 Niveau Scolaire",
+    "description" : "Niveau scolaire de l'usager en France.",
+    "oids" : ["1.2.250.1.213.3.3.265"]
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r415-utilisation-canal-communication",
     "version" : "20260505120000",
     "status" : "draft",
@@ -2905,6 +2923,15 @@
     "title" : "Tre R418 Nature Demande Compensation",
     "description" : "Nature de la demande de compensation adressée à la CDAPH.",
     "oids" : ["1.2.250.1.213.3.3.269"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r419-motivation",
+    "version" : "20260601120000",
+    "status" : "draft",
+    "name" : "TreR419Motivation",
+    "title" : "Tre R419 Motivation",
+    "description" : "Considération(s) de droit ou de fait qui constituent le fondement de la proposition et de la décision de la CDAPH.",
+    "oids" : ["1.2.250.1.213.3.3.270"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation",
@@ -2975,7 +3002,7 @@
     "status" : "draft",
     "name" : "TreR427TypeAdresse",
     "title" : "Tre R427 Type Adresse",
-    "description" : "Type d'adresse postale.",
+    "description" : "Type d'adresse postale tel que \"Adresse du domicile\", \"Adresse de livraison\" pour une personne physique.",
     "oids" : ["1.2.250.1.213.3.3.278"]
   },
   {
@@ -3014,11 +3041,19 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-bdpm",
-    "version" : "2026-05-05",
+    "version" : "2026-06-01",
     "status" : "active",
     "name" : "BDPM",
     "title" : "Base de données publique du médicament",
     "description" : ""
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/terminologie-catalogue-vaccins",
+    "version" : "2026-04",
+    "status" : "active",
+    "name" : "Catalogue_Vaccins",
+    "title" : "Jeux de valeurs pour la Note de Vaccination",
+    "description" : "Le Catalogue Vaccins permet de codifier les vaccins administrés à un patient pour produire une note de vaccination à des fins de partage dans le DMP/MES. Il permet de faire le lien entre une spécialité pharmaceutique vaccinale et une maladie. Il est construit à partir des standards sémantiques nationaux et internationaux interopérables dont les sources sont issues du RUIM-Référentiel Unique d'Interopérabilité du Médicament(ANSM), de l'ATC-Anatomique Thérapeutique Chimique(OMS (WHOCC)) et de NUVA-Nomenclature Unifiée des Vaccins(SYADEM). Il est destiné en particulier aux utilisateurs du secteur médico-social ou paramédical lorsqu’ils ne disposent pas d’un accès à une base de médicaments et d’un lecteur de datamatrix"
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-ccam",
@@ -3075,8 +3110,16 @@
     "oids" : ["1.2.250.1.213.2.68"]
   },
   {
+    "url" : "https://smt.esante.gouv.fr/terminologie-icf",
+    "version" : "2026-01",
+    "status" : "active",
+    "name" : "Classification_internationale_du_fonctionnement_du_handicap_et_de_la_sante_ICF",
+    "title" : "Classification internationale du fonctionnement, du handicap et de la santé",
+    "description" : ""
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/terminologie-lahn",
-    "version" : "2026 v1.0",
+    "version" : "2026-04",
     "status" : "active",
     "name" : "LAHN",
     "title" : "Liste des Actes Inovants Hors Nomenclature",
@@ -3085,7 +3128,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-nabm",
-    "version" : "V103",
+    "version" : "V104",
     "status" : "active",
     "name" : "NABM",
     "title" : "Nomenclature des actes de biologie médicale",
@@ -3094,7 +3137,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-nuva",
-    "version" : "1.0.1096",
+    "version" : "1.0.1108",
     "status" : "active",
     "name" : "NUVA",
     "title" : "Nomenclature Unifiée des Vaccins",
@@ -3111,7 +3154,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-sms",
-    "version" : "2026-05",
+    "version" : "2026-06",
     "status" : "active",
     "name" : "Dictionnaire_SMS_Substance_Management_Services_",
     "title" : "Dictionnaire européen multilingue des substances entrant dans la composition de médicaments",
@@ -3120,7 +3163,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-standardterms",
-    "version" : "2025-03-19",
+    "version" : "2026-01-30",
     "status" : "active",
     "name" : "Standard_terms_EDQM",
     "title" : "Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments",

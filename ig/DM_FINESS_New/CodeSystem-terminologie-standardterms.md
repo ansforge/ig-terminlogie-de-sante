@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/terminologie-standardterms | *Version*:2025-03-19 | |
-| Active as of 2025-07-11 | *Responsible:*Agence du numérique en santé | *Computable Name*:Standard_terms_EDQM |
+| *Official URL*:https://smt.esante.gouv.fr/terminologie-standardterms | *Version*:2026-01-30 | |
+| Active as of 2026-01-30 | *Responsible:*Agence du numérique en santé | *Computable Name*:Standard_terms_EDQM |
 | *Other Identifiers:*OID:0.4.0.127.0.16.1.1.2.1 (use: usual, ), https://smt.esante.gouv.fr/#terminologie-standardterms (use: secondary, ) | | |
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
@@ -30,8 +30,8 @@
   "resourceType" : "CodeSystem",
   "id" : "terminologie-standardterms",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2025-07-11T12:01:41.851+00:00",
+    "versionId" : "9",
+    "lastUpdated" : "2026-06-04T10:00:28.844+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"],
     "tag" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
@@ -50,16 +50,16 @@
     "system" : "https://smt.esante.gouv.fr/",
     "value" : "terminologie-standardterms"
   }],
-  "version" : "2025-03-19",
+  "version" : "2026-01-30",
   "name" : "Standard_terms_EDQM",
   "title" : "Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-07-11T00:00:00+00:00",
+  "date" : "2026-01-30T00:00:00+00:00",
   "publisher" : "Agence du numérique en santé",
   "valueSet" : "https://smt.esante.gouv.fr/terminologie-standardterms?vs",
   "content" : "not-present",
-  "count" : 1297,
+  "count" : 1305,
   "filter" : [{
     "code" : "root",
     "operator" : ["="],

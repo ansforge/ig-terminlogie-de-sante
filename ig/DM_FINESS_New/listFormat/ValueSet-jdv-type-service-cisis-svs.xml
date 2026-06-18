@@ -17,13 +17,13 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Autre type de service"/>
          <concept code="309904001"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="unité de soins intensifs"/>
          <concept code="1279968000"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="service de néonatalogie"/>
          <concept code="405269005"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="unité de soins intensifs néonatals"/>
       </ConceptList>
    </ValueSet>

@@ -11,22 +11,22 @@
              urlFichier="">
       <ConceptList>
          <concept code="413495001"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="classe I du système de classification de l'état physique de l'American Society of Anesthesiologists"/>
          <concept code="413496000"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="classe II du système de classification de l'état physique de l'American Society of Anesthesiologists"/>
          <concept code="413497009"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="classe III du système de classification de l'état physique de l'American Society of Anesthesiologists"/>
          <concept code="413498004"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="classe IV du système de classification de l'état physique de l'American Society of Anesthesiologists"/>
          <concept code="413499007"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="classe V du système de classification de l'état physique de l'American Society of Anesthesiologists"/>
          <concept code="413500003"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="classe VI du système de classification de l'état physique de l'American Society of Anesthesiologists"/>
       </ConceptList>
    </ValueSet>

@@ -10,18 +10,10 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="371926006"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="extrêmement important"/>
-         <concept code="386134007"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="important"/>
-         <concept code="371927002"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="modérément important"/>
-         <concept code="371928007"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="non important"/>
+         <concept code="371926006" codeSystem="" displayName="extrêmement important"/>
+         <concept code="386134007" codeSystem="" displayName="important"/>
+         <concept code="371927002" codeSystem="" displayName="modérément important"/>
+         <concept code="371928007" codeSystem="" displayName="non important"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

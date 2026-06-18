@@ -16,9 +16,7 @@
          <concept code="GEN-092.06.04"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Autre lieu d'accouchement"/>
-         <concept code="169813005"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="naissance à domicile"/>
+         <concept code="169813005" codeSystem="" displayName="naissance à domicile"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -18,24 +18,15 @@
      fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem v2-0488</b></p><a name=\"v2-0488\"> </a><a name=\"hcv2-0488\"> </a><p><b>Properties</b></p><p><b>This code system defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Name</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>Status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>A code that indicates the status of the concept</td></tr><tr><td>deprecated</td><td>v2-table-deprecated</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-table-deprecated</td><td>code</td><td>Version of HL7 in which the code was deprecated</td></tr></table><p><b>Concepts</b></p><p>This case-sensitive code system <code>http://terminology.hl7.org/CodeSystem/v2-0488</code> defines the following codes in a Is-A hierarchy:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>Status</b></td></tr><tr><td style=\"white-space:nowrap\">FNA<a name=\"v2-0488-FNA\"> </a></td><td>Aspiration, Fine Needle</td><td>Aspiration, Fine Needle</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">PNA<a name=\"v2-0488-PNA\"> </a></td><td>Arterial puncture</td><td>Arterial puncture</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">BIO<a name=\"v2-0488-BIO\"> </a></td><td>Biopsy</td><td>Biopsy</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">BCAE<a name=\"v2-0488-BCAE\"> </a></td><td>Blood Culture, Aerobic Bottle</td><td>Blood Culture, Aerobic Bottle</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">BCAN<a name=\"v2-0488-BCAN\"> </a></td><td>Blood Culture, Anaerobic Bottle</td><td>Blood Culture, Anaerobic Bottle</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">BCPD<a name=\"v2-0488-BCPD\"> </a></td><td>Blood Culture, Pediatric Bottle</td><td>Blood Culture, Pediatric Bottle</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">CAP<a name=\"v2-0488-CAP\"> </a></td><td>Capillary Specimen</td><td>Capillary Specimen</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">CATH<a name=\"v2-0488-CATH\"> </a></td><td>Catheterized</td><td>Catheterized</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">EPLA<a name=\"v2-0488-EPLA\"> </a></td><td>Environmental, Plate</td><td>Environmental, Plate</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ESWA<a name=\"v2-0488-ESWA\"> </a></td><td>Environmental, Swab</td><td>Environmental, Swab</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">LNA<a name=\"v2-0488-LNA\"> </a></td><td>Line, Arterial</td><td>Line, Arterial</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">CVP<a name=\"v2-0488-CVP\"> </a></td><td>Line, CVP</td><td>Line, CVP</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">LNV<a name=\"v2-0488-LNV\"> </a></td><td>Line, Venous</td><td>Line, Venous</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">MARTL<a name=\"v2-0488-MARTL\"> </a></td><td>Martin-Lewis Agar</td><td>Martin-Lewis Agar</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ML11<a name=\"v2-0488-ML11\"> </a></td><td>Mod. Martin-Lewis Agar</td><td>Mod. Martin-Lewis Agar</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">PACE<a name=\"v2-0488-PACE\"> </a></td><td>Pace, Gen-Probe</td><td>Pace, Gen-Probe</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">PIN<a name=\"v2-0488-PIN\"> </a></td><td>Pinworm Prep</td><td>Pinworm Prep</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">KOFFP<a name=\"v2-0488-KOFFP\"> </a></td><td>Plate, Cough</td><td>Plate, Cough</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">MLP<a name=\"v2-0488-MLP\"> </a></td><td>Plate, Martin-Lewis</td><td>Plate, Martin-Lewis</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">NYP<a name=\"v2-0488-NYP\"> </a></td><td>Plate, New York City</td><td>Plate, New York City</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">TMP<a name=\"v2-0488-TMP\"> </a></td><td>Plate, Thayer-Martin</td><td>Plate, Thayer-Martin</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">ANP<a name=\"v2-0488-ANP\"> </a></td><td>Plates, Anaerobic</td><td>Plates, Anaerobic</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">BAP<a name=\"v2-0488-BAP\"> </a></td><td>Plates, Blood Agar</td><td>Plates, Blood Agar</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">PRIME<a name=\"v2-0488-PRIME\"> </a></td><td>Pump Prime</td><td>Pump Prime</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">PUMP<a name=\"v2-0488-PUMP\"> </a></td><td>Pump Specimen</td><td>Pump Specimen</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">QC5<a name=\"v2-0488-QC5\"> </a></td><td>Quality Control For Micro</td><td>Quality Control For Micro</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">SCLP<a name=\"v2-0488-SCLP\"> </a></td><td>Scalp, Fetal Vein</td><td>Scalp, Fetal Vein</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">SCRAPS<a name=\"v2-0488-SCRAPS\"> </a></td><td>Scrapings</td><td>Scrapings</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">SHA<a name=\"v2-0488-SHA\"> </a></td><td>Shaving</td><td>Shaving</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">SWA<a name=\"v2-0488-SWA\"> </a></td><td>Swab</td><td>Swab</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">SWD<a name=\"v2-0488-SWD\"> </a></td><td>Swab, Dacron tipped</td><td>Swab, Dacron tipped</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">WOOD<a name=\"v2-0488-WOOD\"> </a></td><td>Swab, Wooden Shaft</td><td>Swab, Wooden Shaft</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">TMOT<a name=\"v2-0488-TMOT\"> </a></td><td>Transport Media,</td><td>Transport Media,</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">TMAN<a name=\"v2-0488-TMAN\"> </a></td><td>Transport Media, Anaerobic</td><td>Transport Media, Anaerobic</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">TMCH<a name=\"v2-0488-TMCH\"> </a></td><td>Transport Media, Chalamydia</td><td>Transport Media, Chalamydia</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">TMM4<a name=\"v2-0488-TMM4\"> </a></td><td>Transport Media, M4</td><td>Transport Media, M4</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">TMMY<a name=\"v2-0488-TMMY\"> </a></td><td>Transport Media, Mycoplasma</td><td>Transport Media, Mycoplasma</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">TMPV<a name=\"v2-0488-TMPV\"> </a></td><td>Transport Media, PVA</td><td>Transport Media, PVA</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">TMSC<a name=\"v2-0488-TMSC\"> </a></td><td>Transport Media, Stool Culture</td><td>Transport Media, Stool Culture</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">TMUP<a name=\"v2-0488-TMUP\"> </a></td><td>Transport Media, Ureaplasma</td><td>Transport Media, Ureaplasma</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">TMVI<a name=\"v2-0488-TMVI\"> </a></td><td>Transport Media, Viral</td><td>Transport Media, Viral</td><td>active</td></tr><tr><td style=\"white-space:nowrap\">VENIP<a name=\"v2-0488-VENIP\"> </a></td><td>Venipuncture</td><td>Venipuncture</td><td>active</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
-     fhir:url [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
-     ] ;
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ] ;
      fhir:value [
-       a fhir:Code ;
+       a fhir:code ;
        fhir:v "oo"
      ]
   ] ) ; # 
-  fhir:url [
-     fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI ;
-     fhir:l <http://terminology.hl7.org/CodeSystem/v2-0488>
-  ] ; # 
+  fhir:url [ fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI] ; # 
   fhir:identifier ( [
-     fhir:system [
-       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
-       fhir:l <urn:ietf:rfc:3986>
-     ] ;
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.18.312" ]
   ] ) ; # 
   fhir:version [ fhir:v "3.0.0"] ; # 
@@ -60,7 +51,7 @@
   fhir:caseSensitive [ fhir:v true] ; # 
   fhir:valueSet [
      fhir:v "http://terminology.hl7.org/ValueSet/v2-0488"^^xsd:anyURI ;
-     fhir:l <http://terminology.hl7.org/ValueSet/v2-0488>
+     fhir:link <http://terminology.hl7.org/ValueSet/v2-0488>
   ] ; # 
   fhir:hierarchyMeaning [ fhir:v "is-a"] ; # 
   fhir:compositional [ fhir:v false] ; # 
@@ -68,18 +59,12 @@
   fhir:content [ fhir:v "complete"] ; # 
   fhir:property ( [
      fhir:code [ fhir:v "status" ] ;
-     fhir:uri [
-       fhir:v "http://hl7.org/fhir/concept-properties#status"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/concept-properties#status>
-     ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#status"^^xsd:anyURI ] ;
      fhir:description [ fhir:v "A code that indicates the status of the concept" ] ;
      fhir:type [ fhir:v "code" ]
   ] [
      fhir:code [ fhir:v "v2-table-deprecated" ] ;
-     fhir:uri [
-       fhir:v "http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-table-deprecated"^^xsd:anyURI ;
-       fhir:l <http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-table-deprecated>
-     ] ;
+     fhir:uri [ fhir:v "http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-table-deprecated"^^xsd:anyURI ] ;
      fhir:description [ fhir:v "Version of HL7 in which the code was deprecated" ] ;
      fhir:type [ fhir:v "code" ]
   ] ) ; # 
@@ -91,7 +76,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -103,7 +88,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -115,7 +100,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -127,7 +112,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -139,7 +124,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -151,7 +136,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -163,7 +148,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -175,7 +160,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -187,7 +172,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -199,7 +184,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -211,7 +196,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -223,7 +208,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -235,7 +220,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -247,7 +232,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -259,7 +244,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -271,7 +256,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -283,7 +268,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -295,7 +280,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -307,7 +292,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -319,7 +304,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -331,7 +316,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -343,7 +328,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -355,7 +340,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -367,7 +352,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -379,7 +364,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -391,7 +376,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -403,7 +388,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -415,7 +400,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -427,7 +412,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -439,7 +424,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -451,7 +436,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -463,7 +448,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -475,7 +460,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -487,7 +472,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -499,7 +484,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -511,7 +496,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -523,7 +508,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -535,7 +520,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -547,7 +532,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -559,7 +544,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -571,7 +556,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -583,7 +568,7 @@
      fhir:property ( [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )

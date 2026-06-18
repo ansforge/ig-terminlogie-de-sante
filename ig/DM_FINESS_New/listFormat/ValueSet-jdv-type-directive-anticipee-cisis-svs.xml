@@ -26,11 +26,9 @@
                   displayName="Alimentation et hydratation artificielles"/>
          <concept code="75793-0" codeSystem="" displayName="Autre directive"/>
          <concept code="387713003"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="intervention chirurgicale"/>
-         <concept code="265764009"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="dialyse rénale"/>
+         <concept code="265764009" codeSystem="" displayName="dialyse rénale"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

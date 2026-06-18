@@ -13,9 +13,7 @@
          <concept code="GEN-092.06.03"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Autre destination"/>
-         <concept code="160849004"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="retour au domicile"/>
+         <concept code="160849004" codeSystem="" displayName="retour au domicile"/>
          <concept code="500"
                   codeSystem="1.2.250.1.213.1.6.1.378"
                   displayName="Etablissement d'hébergement pour personnes âgées dépendantes"/>

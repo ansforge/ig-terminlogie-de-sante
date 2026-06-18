@@ -15,7 +15,7 @@
      fhir:lastUpdated [ fhir:v "2025-07-02T18:11:39.010+00:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
      ] )
   ] ; # 
   fhir:text [
@@ -23,24 +23,15 @@
      fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem TRE-G08-TypeIdentifiantPersonne</b></p><a name=\"TRE-G08-TypeIdentifiantPersonne\"> </a><a name=\"hcTRE-G08-TypeIdentifiantPersonne\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 5; Dernière mise à jour : 2024-08-28 05:10:49+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_G08-TypeIdentifiantPersonne/FHIR/TRE-G08-TypeIdentifiantPersonne</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Définition</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">0<a name=\"TRE-G08-TypeIdentifiantPersonne-0\"> </a></td><td>N° ADELI</td><td/><td>2010-11-04T00:00:00+01:00</td><td>2010-11-04T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">1<a name=\"TRE-G08-TypeIdentifiantPersonne-1\"> </a></td><td>Id Cabinet ADELI / N° de registre</td><td/><td>2010-11-04T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>Id Cabinet ADELI / N° registre</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"TRE-G08-TypeIdentifiantPersonne-2\"> </a></td><td>N° DRASS</td><td>Identifiant des internes dans l'ancien système de gestion des internes SIRIUS, géré par les ARS (anciennement DRASS); il était utilisé pour fabriquer des cartes (CPF)  à la demande ; désormais tous les internes sont enregistrés au RPPS et disposent automatiquement d'une carte CPF avec un identifiant RPPS ; les dernières cartes avec un id SIRIUS encore actives arrivent à expiration en juillet 2020 et ne seront pas renouvelées.</td><td>2010-11-04T00:00:00+01:00</td><td>2020-05-29T12:00:00+01:00</td><td>2020-05-29T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">3<a name=\"TRE-G08-TypeIdentifiantPersonne-3\"> </a></td><td>FINESS / N° de registre</td><td/><td>2010-11-04T00:00:00+01:00</td><td>2010-11-04T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">4<a name=\"TRE-G08-TypeIdentifiantPersonne-4\"> </a></td><td>SIREN / N° de registre</td><td/><td>2010-11-04T00:00:00+01:00</td><td>2010-11-04T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">5<a name=\"TRE-G08-TypeIdentifiantPersonne-5\"> </a></td><td>SIRET / N° de registre</td><td/><td>2010-11-04T00:00:00+01:00</td><td>2010-11-04T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">6<a name=\"TRE-G08-TypeIdentifiantPersonne-6\"> </a></td><td>Id Cabinet RPPS / N° de registre</td><td/><td>2010-11-04T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>Id Cabinet RPPS / N° registre</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"TRE-G08-TypeIdentifiantPersonne-8\"> </a></td><td>N° RPPS</td><td/><td>2010-11-04T00:00:00+01:00</td><td>2010-11-04T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">9<a name=\"TRE-G08-TypeIdentifiantPersonne-9\"> </a></td><td>N° Etudiant</td><td>Numéro fourni par l'ordre des pharmaciens pour identifier les étudiants autorisés à exercer par l'ordre comme remplaçants ou adjoints. Ce n° était utilisé dans le SI de l'ordre et dans les demandes de CPF.  Depuis mars 2020 tous les étudiants autorisés à exercer sont dans le RPPS ; aucune carte n'est plus produite avec ce type d'identifiant ; toutefois les remplaçants qui avaient une carte « ordinale » et un certificat de remplacement valide, conservent leur carte ; celle-ci n'est pas renouvelable. La fin de validité des dernières cartes ordinales est en 2022, mais une partie d'entre elles sera opposée avant (personnes inscrites à l'ordre, certificats de remplacement expirés et non renouvelés).</td><td>2010-11-04T00:00:00+01:00</td><td>2020-05-29T12:00:00+01:00</td><td>2020-05-29T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">10<a name=\"TRE-G08-TypeIdentifiantPersonne-10\"> </a></td><td>Adresse MSSante</td><td/><td>2013-07-22T00:00:00+01:00</td><td>2013-07-22T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">30<a name=\"TRE-G08-TypeIdentifiantPersonne-30\"> </a></td><td>Identifiant de la situation opérationnelle connu par l'instance ROR</td><td/><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td/><td>RORN_SITUOPE_ID</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
-     fhir:url [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod>
-     ] ;
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
      fhir:value [
        a fhir:Period ;
        fhir:start [ fhir:v "2010-11-04T00:00:00+01:00"^^xsd:dateTime ]
      ]
   ] ) ; # 
-  fhir:url [
-     fhir:v "https://mos.esante.gouv.fr/NOS/TRE_G08-TypeIdentifiantPersonne/FHIR/TRE-G08-TypeIdentifiantPersonne"^^xsd:anyURI ;
-     fhir:l <https://mos.esante.gouv.fr/NOS/TRE_G08-TypeIdentifiantPersonne/FHIR/TRE-G08-TypeIdentifiantPersonne>
-  ] ; # 
+  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_G08-TypeIdentifiantPersonne/FHIR/TRE-G08-TypeIdentifiantPersonne"^^xsd:anyURI] ; # 
   fhir:identifier ( [
-     fhir:system [
-       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
-       fhir:l <urn:ietf:rfc:3986>
-     ] ;
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "urn:oid:1.2.250.1.71.1.2.15" ]
   ] ) ; # 
   fhir:version [ fhir:v "20240329120000"] ; # 
@@ -52,10 +43,7 @@
   fhir:description [ fhir:v "Type d'identifiant de personne"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
-       fhir:system [
-         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
-         fhir:l <urn:iso:std:iso:3166>
-       ] ;
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "FR" ]
      ] )
   ] ) ; # 
@@ -75,26 +63,17 @@
      fhir:type [ fhir:v "dateTime" ]
   ] [
      fhir:code [ fhir:v "deprecationDate" ] ;
-     fhir:uri [
-       fhir:v "http://hl7.org/fhir/concept-properties#deprecationDate"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/concept-properties#deprecationDate>
-     ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#deprecationDate"^^xsd:anyURI ] ;
      fhir:description [ fhir:v "Date Concept was deprecated" ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] [
      fhir:code [ fhir:v "status" ] ;
-     fhir:uri [
-       fhir:v "http://hl7.org/fhir/concept-properties#status"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/concept-properties#status>
-     ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#status"^^xsd:anyURI ] ;
      fhir:description [ fhir:v "A property that indicates the status of the concept." ] ;
      fhir:type [ fhir:v "code" ]
   ] [
      fhir:code [ fhir:v "retirementDate" ] ;
-     fhir:uri [
-       fhir:v "http://hl7.org/fhir/concept-properties#retirementDate"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/concept-properties#retirementDate>
-     ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#retirementDate"^^xsd:anyURI ] ;
      fhir:description [ fhir:v "Date Concept was retired" ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] ) ; # 
@@ -104,19 +83,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2010-11-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2010-11-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -127,10 +106,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Id Cabinet ADELI / N° registre" ]
@@ -138,19 +114,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2010-11-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -161,31 +137,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2010-11-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2020-05-29T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2020-05-29T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2020-05-29T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -195,19 +171,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2010-11-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2010-11-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -217,19 +193,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2010-11-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2010-11-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -239,19 +215,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2010-11-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2010-11-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -262,10 +238,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Id Cabinet RPPS / N° registre" ]
@@ -273,19 +246,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2010-11-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -295,19 +268,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2010-11-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2010-11-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -318,31 +291,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2010-11-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2020-05-29T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2020-05-29T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2020-05-29T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -352,19 +325,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2013-07-22T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2013-07-22T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )
@@ -375,10 +348,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "RORN_SITUOPE_ID" ]
@@ -386,19 +356,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] )

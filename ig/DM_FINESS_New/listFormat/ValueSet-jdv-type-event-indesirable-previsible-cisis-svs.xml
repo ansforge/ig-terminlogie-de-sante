@@ -11,20 +11,18 @@
              urlFichier="">
       <ConceptList>
          <concept code="420134006"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="propension aux effets indésirables"/>
          <concept code="609328004"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="prédisposition aux allergies"/>
          <concept code="609396006"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="terrain d'hypersensibilité non allergique"/>
          <concept code="782197009"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="intolérance à une substance"/>
-         <concept code="56840009"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="idiosyncrasie"/>
+         <concept code="56840009" codeSystem="" displayName="idiosyncrasie"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

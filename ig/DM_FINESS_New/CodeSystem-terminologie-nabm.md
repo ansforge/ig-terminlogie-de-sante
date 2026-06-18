@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/terminologie-nabm | *Version*:V103 | |
-| Active as of 2026-04-13 | *Responsible:*Agence du numérique en santé | *Computable Name*:NABM |
+| *Official URL*:https://smt.esante.gouv.fr/terminologie-nabm | *Version*:V104 | |
+| Active as of 2026-05-26 | *Responsible:*Agence du numérique en santé | *Computable Name*:NABM |
 | *Other Identifiers:*OID:1.2.250.1.215.300.2 (use: usual, ), https://smt.esante.gouv.fr/#terminologie-nabm (use: secondary, ) | | |
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
@@ -25,8 +25,8 @@
   "resourceType" : "CodeSystem",
   "id" : "terminologie-nabm",
   "meta" : {
-    "versionId" : "15",
-    "lastUpdated" : "2026-04-16T10:26:57.301+02:00",
+    "versionId" : "16",
+    "lastUpdated" : "2026-06-16T10:35:27.673+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"],
     "tag" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
@@ -45,12 +45,12 @@
     "system" : "https://smt.esante.gouv.fr/",
     "value" : "terminologie-nabm"
   }],
-  "version" : "V103",
+  "version" : "V104",
   "name" : "NABM",
   "title" : "Nomenclature des actes de biologie médicale",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-13T00:00:00+00:00",
+  "date" : "2026-05-26T00:00:00+00:00",
   "publisher" : "Agence du numérique en santé",
   "valueSet" : "https://smt.esante.gouv.fr/terminologie-nabm?vs",
   "content" : "not-present",
@@ -73,12 +73,12 @@
   "property" : [{
     "code" : "created",
     "uri" : "http://purl.org/dc/terms/created",
-    "type" : "string"
+    "type" : "dateTime"
   },
   {
     "code" : "modified",
     "uri" : "http://purl.org/dc/terms/modified",
-    "type" : "string"
+    "type" : "dateTime"
   },
   {
     "code" : "type",
@@ -87,63 +87,63 @@
     "type" : "string"
   },
   {
-    "code" : "initativeBiologistePossible",
-    "uri" : "https://www.data.esante.gouv.fr/DGOS/NABM/initativeBiologistePossible",
-    "type" : "boolean"
-  },
-  {
-    "code" : "indicationMédicale",
-    "uri" : "https://www.data.esante.gouv.fr/DGOS/NABM/indicationMédicale",
-    "type" : "boolean"
-  },
-  {
-    "code" : "remboursementTotal",
-    "uri" : "https://www.data.esante.gouv.fr/DGOS/NABM/remboursementTotal",
-    "type" : "boolean"
-  },
-  {
-    "code" : "ententePréalable",
-    "uri" : "https://www.data.esante.gouv.fr/DGOS/NABM/ententePréalable",
+    "code" : "examenSanguin",
+    "uri" : "http://www.data.esante.gouv.fr/dgos/nabm#examenSanguin",
     "type" : "boolean"
   },
   {
     "code" : "aPourContingenceTechnique",
-    "uri" : "https://www.data.esante.gouv.fr/DGOS/NABM/aPourContingenceTechnique",
+    "uri" : "http://www.data.esante.gouv.fr/dgos/nabm#aPourContingenceTechnique",
     "type" : "code"
-  },
-  {
-    "code" : "coeffB",
-    "uri" : "https://www.data.esante.gouv.fr/DGOS/NABM/coeffB",
-    "type" : "string"
-  },
-  {
-    "code" : "acteReserve",
-    "uri" : "https://www.data.esante.gouv.fr/DGOS/NABM/acteReserve",
-    "type" : "boolean"
-  },
-  {
-    "code" : "rmo",
-    "uri" : "https://www.data.esante.gouv.fr/DGOS/NABM/rmo",
-    "type" : "boolean"
-  },
-  {
-    "code" : "examenSanguin",
-    "uri" : "https://www.data.esante.gouv.fr/DGOS/NABM/examenSanguin",
-    "type" : "boolean"
   },
   {
     "code" : "nombreMaximumParFacturation",
-    "uri" : "https://www.data.esante.gouv.fr/DGOS/NABM/nombreMaximumParFacturation",
+    "uri" : "http://www.data.esante.gouv.fr/dgos/nabm#nombreMaximumParFacturation",
     "type" : "integer"
   },
   {
+    "code" : "ententePrealable",
+    "uri" : "http://www.data.esante.gouv.fr/dgos/nabm#ententePrealable",
+    "type" : "boolean"
+  },
+  {
+    "code" : "coeffB",
+    "uri" : "http://www.data.esante.gouv.fr/dgos/nabm#coeffB",
+    "type" : "string"
+  },
+  {
+    "code" : "rmo",
+    "uri" : "http://www.data.esante.gouv.fr/dgos/nabm#rmo",
+    "type" : "boolean"
+  },
+  {
+    "code" : "initativeBiologistePossible",
+    "uri" : "http://www.data.esante.gouv.fr/dgos/nabm#initativeBiologistePossible",
+    "type" : "boolean"
+  },
+  {
+    "code" : "indicationMedicale",
+    "uri" : "http://www.data.esante.gouv.fr/dgos/nabm#indicationMedicale",
+    "type" : "boolean"
+  },
+  {
+    "code" : "remboursementTotal",
+    "uri" : "http://www.data.esante.gouv.fr/dgos/nabm#remboursementTotal",
+    "type" : "boolean"
+  },
+  {
+    "code" : "acteReserve",
+    "uri" : "http://www.data.esante.gouv.fr/dgos/nabm#acteReserve",
+    "type" : "boolean"
+  },
+  {
     "code" : "codeIncompatible",
-    "uri" : "https://www.data.esante.gouv.fr/DGOS/NABM/codeIncompatible",
+    "uri" : "http://www.data.esante.gouv.fr/dgos/nabm#codeIncompatible",
     "type" : "code"
   },
   {
-    "code" : "règleApplicable",
-    "uri" : "https://www.data.esante.gouv.fr/DGOS/NABM/règleApplicable",
+    "code" : "regleApplicable",
+    "uri" : "http://www.data.esante.gouv.fr/dgos/nabm#regleApplicable",
     "type" : "code"
   },
   {

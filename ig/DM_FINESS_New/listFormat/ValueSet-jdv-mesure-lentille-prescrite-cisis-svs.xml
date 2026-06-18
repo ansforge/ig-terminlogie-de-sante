@@ -65,7 +65,7 @@
          <concept code="28814-2" codeSystem="" displayName="Addition – grandeur"/>
          <concept code="28815-9" codeSystem="" displayName="Addition – valeur"/>
          <concept code="103742009"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="renouvellement d'ordonnance"/>
       </ConceptList>
    </ValueSet>

@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20251222120000"
+             dateMaj="20260601120000"
              dateValid="20160901000000"
              description="Equipement spécifique - ROR"
              displayName="JDV_J18_EquipementSpecifique_ROR"
@@ -473,6 +473,30 @@
          <concept code="235"
                   codeSystem="1.2.250.1.213.3.3.10"
                   displayName="Espace de consommation de drogues à fumer"/>
+         <concept code="236"
+                  codeSystem="1.2.250.1.213.3.3.10"
+                  displayName="Appareil de thermoformage"/>
+         <concept code="237"
+                  codeSystem="1.2.250.1.213.3.3.10"
+                  displayName="Appareil de thermosoudage"/>
+         <concept code="238"
+                  codeSystem="1.2.250.1.213.3.3.10"
+                  displayName="Plateforme de force (étude de la posture)"/>
+         <concept code="239"
+                  codeSystem="1.2.250.1.213.3.3.10"
+                  displayName="Plateforme de pression (étude de la marche)"/>
+         <concept code="240"
+                  codeSystem="1.2.250.1.213.3.3.10"
+                  displayName="Piste de marche"/>
+         <concept code="241"
+                  codeSystem="1.2.250.1.213.3.3.10"
+                  displayName="Tapis de course"/>
+         <concept code="242"
+                  codeSystem="1.2.250.1.213.3.3.10"
+                  displayName="Système vidéo d'analyse de la marche et de la course"/>
+         <concept code="243"
+                  codeSystem="1.2.250.1.213.3.3.10"
+                  displayName="Semelles avec capteurs embarqués"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

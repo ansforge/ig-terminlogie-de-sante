@@ -38,7 +38,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "7.1.0"
+    "version" : "7.2.0"
   },
   {
     "id" : "hl7ext",
@@ -33356,6 +33356,17 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/terminologie-icf"
+      },
+      "name" : "Classification internationale du fonctionnement, du handicap et de la santé",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/concept-properties"
       },
       "name" : "Concept Properties",
@@ -36461,6 +36472,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-j391-niveau-diplome-ms"
+      },
+      "name" : "Jdv J391 Niveau Diplome Ms",
+      "description" : "Niveau de diplôme permettant d'indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-j392-type-courrier-ms"
       },
       "name" : "Jdv J392 Type Courrier Ms",
@@ -36537,6 +36560,18 @@
       },
       "name" : "Jdv J398 Type Decision Ms",
       "description" : "Type de décision transmise aux DUI(s) par la CDAPH en réponse à une demande de compensation d'un usager.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j399-motivation-ms"
+      },
+      "name" : "Jdv J399 Motivation Ms",
+      "description" : "L'énoncé des considérations de droit ou de fait qui constituent le fondement de la proposition et de la décision de la CDAPH.",
       "exampleBoolean" : false
     },
     {
@@ -36641,10 +36676,46 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-j408-orientation-ms"
+      },
+      "name" : "Jdv J408 Orientation Ms",
+      "description" : "Ensemble des orientations vers un Service d'éducation spéciale et de soins à domicile (SESSAD), un Service d'accompagnement familial et d'éducation précoce (SAFEP), un enseignement adapté (SEGPA/EREA) ou une unité d'enseignement.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-j409-type-adresse-ms"
       },
       "name" : "Jdv J409 Type Adresse Ms",
-      "description" : "Type d'adresse postale.",
+      "description" : "Type d'adresse postale tel que \"Adresse du domicile\", \"Adresse de livraison\" pour une personne physique.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j410-categorie-permis-conduire-ms"
+      },
+      "name" : "Jdv J410 Categorie Permis Conduire Ms",
+      "description" : "Catégorie de permis de conduire.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j411-niveau-scolaire-ms"
+      },
+      "name" : "Jdv J411 Niveau Scolaire Ms",
+      "description" : "Niveau scolaire de l'usager en France.",
       "exampleBoolean" : false
     },
     {
@@ -43361,6 +43432,18 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/terminologie-catalogue-vaccins"
+      },
+      "name" : "Jeux de valeurs pour la Note de Vaccination",
+      "description" : "Le Catalogue Vaccins permet de codifier les vaccins administrés à un patient pour produire une note de vaccination à des fins de partage dans le DMP/MES. Il permet de faire le lien entre une spécialité pharmaceutique vaccinale et une maladie. Il est construit à partir des standards sémantiques nationaux et internationaux interopérables dont les sources sont issues du RUIM-Référentiel Unique d'Interopérabilité du Médicament(ANSM), de l'ATC-Anatomique Thérapeutique Chimique(OMS (WHOCC)) et de NUVA-Nomenclature Unifiée des Vaccins(SYADEM). Il est destiné en particulier aux utilisateurs du secteur médico-social ou paramédical lorsqu’ils ne disposent pas d’un accès à une base de médicaments et d’un lecteur de datamatrix",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/terminologie-lahn"
       },
       "name" : "Liste des Actes Inovants Hors Nomenclature",
@@ -43681,18 +43764,6 @@
       },
       "name" : "SeverityObservationCode",
       "description" : "SeverityObservationCode",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/900000000000207008-20260501"
-      },
-      "name" : "SNOMED CT core",
-      "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
       "exampleBoolean" : false
     },
     {
@@ -44335,6 +44406,42 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/tre-r412-niveau-diplome"
+      },
+      "name" : "Tre R412 Niveau Diplome",
+      "description" : "Niveau de diplôme permettant d'indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r413-categorie-permis-conduire"
+      },
+      "name" : "Tre R413 Categorie Permis Conduire",
+      "description" : "Catégorie de permis de conduire.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r414-niveau-scolaire"
+      },
+      "name" : "Tre R414 Niveau Scolaire",
+      "description" : "Niveau scolaire de l'usager en France.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/tre-r415-utilisation-canal-communication"
       },
       "name" : "Tre R415 Utilisation Canal Communication",
@@ -44375,6 +44482,18 @@
       },
       "name" : "Tre R418 Nature Demande Compensation",
       "description" : "Nature de la demande de compensation adressée à la CDAPH.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r419-motivation"
+      },
+      "name" : "Tre R419 Motivation",
+      "description" : "Considération(s) de droit ou de fait qui constituent le fondement de la proposition et de la décision de la CDAPH.",
       "exampleBoolean" : false
     },
     {
@@ -44470,7 +44589,7 @@
         "reference" : "CodeSystem/tre-r427-type-adresse"
       },
       "name" : "Tre R427 Type Adresse",
-      "description" : "Type d'adresse postale.",
+      "description" : "Type d'adresse postale tel que \"Adresse du domicile\", \"Adresse de livraison\" pour une personne physique.",
       "exampleBoolean" : false
     },
     {

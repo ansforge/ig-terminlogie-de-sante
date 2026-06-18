@@ -11,16 +11,16 @@
              urlFichier="">
       <ConceptList>
          <concept code="17766007"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="mort fœtale par asphyxie et/ou anoxie, pas clair si noté avant ou après le début du travail"/>
          <concept code="44174001"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="mort fœtale par asphyxie et/ou anoxie avant le début du travail"/>
          <concept code="1762004"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="mort fœtale par asphyxie et/ou anoxie pendant le travail"/>
          <concept code="67313008"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="mort fœtale due à une interruption de grossesse"/>
       </ConceptList>
    </ValueSet>

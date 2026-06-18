@@ -29,11 +29,9 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Surveillance simple"/>
          <concept code="50697003"
-                  codeSystem="2.16.840.1.113883.6.96"
+                  codeSystem=""
                   displayName="administration d'un anesthésique général"/>
-         <concept code="72641008"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="sédation"/>
+         <concept code="72641008" codeSystem="" displayName="sédation"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -17,9 +17,7 @@
          <concept code="H53.9"
                   codeSystem=""
                   displayName="Trouble de la vision, sans précision"/>
-         <concept code="85972008"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="trouble sensoriel"/>
+         <concept code="85972008" codeSystem="" displayName="trouble sensoriel"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

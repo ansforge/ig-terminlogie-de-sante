@@ -10,12 +10,8 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="17621005"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="normal"/>
-         <concept code="10828004"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="positif(-ive)"/>
+         <concept code="17621005" codeSystem="" displayName="normal"/>
+         <concept code="10828004" codeSystem="" displayName="positif(-ive)"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

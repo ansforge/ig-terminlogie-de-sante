@@ -128,7 +128,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J07-XdsTypeCode-CISIS/FHIR/JDV-J07-XdsTypeCode-CISIS",
-    "version" : "20260505120000",
+    "version" : "20260601120000",
     "status" : "active",
     "name" : "JDV_J07_XdsTypeCode_CISIS",
     "title" : null,
@@ -901,7 +901,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J16-ActeSpecifique-ROR/FHIR/JDV-J16-ActeSpecifique-ROR",
-    "version" : "20260330120000",
+    "version" : "20260601120000",
     "status" : "active",
     "name" : "JDV_J16_ActeSpecifique_ROR",
     "title" : null,
@@ -1013,7 +1013,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J17-ActiviteOperationnelle-ROR/FHIR/JDV-J17-ActiviteOperationnelle-ROR",
-    "version" : "20260330120000",
+    "version" : "20260601120000",
     "status" : "active",
     "name" : "JDV_J17_ActiviteOperationnelle_ROR",
     "title" : null,
@@ -1116,7 +1116,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J18-EquipementSpecifique-ROR/FHIR/JDV-J18-EquipementSpecifique-ROR",
-    "version" : "20251222120000",
+    "version" : "20260601120000",
     "status" : "active",
     "name" : "JDV_J18_EquipementSpecifique_ROR",
     "title" : null,
@@ -1336,7 +1336,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J198-FonctionLieu-ROR/FHIR/JDV-J198-FonctionLieu-ROR",
-    "version" : "20251222120000",
+    "version" : "20260601120000",
     "status" : "active",
     "name" : "JDV_J198_FonctionLieu_ROR",
     "title" : null,
@@ -1667,12 +1667,13 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J225-CanalCommunication-ROR/FHIR/JDV-J225-CanalCommunication-ROR",
-    "version" : "20260330120000",
+    "version" : "20260601120000",
     "status" : "active",
     "name" : "JDV_J225_CanalCommunication_ROR",
     "title" : null,
     "description" : "Canal de communication",
-    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R200-CanalCommunication/FHIR/TRE-R200-CanalCommunication"],
+    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R256-TypeMessagerie/FHIR/TRE-R256-TypeMessagerie",
+    "https://mos.esante.gouv.fr/NOS/TRE_R200-CanalCommunication/FHIR/TRE-R200-CanalCommunication"],
     "oids" : ["1.2.250.1.213.3.4.57"],
     "sources" : ["1.2.250.1.213.3.4.57"]
   },
@@ -6375,6 +6376,17 @@
     "sources" : ["1.2.250.1.213.1.6.1.395"]
   },
   {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j391-niveau-diplome-ms",
+    "version" : "20260601120000",
+    "status" : "draft",
+    "name" : "JdvJ391NiveauDiplomeMs",
+    "title" : "Jdv J391 Niveau Diplome Ms",
+    "description" : "Niveau de diplôme permettant d'indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel.",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome"],
+    "oids" : ["1.2.250.1.213.3.4.231"],
+    "sources" : ["1.2.250.1.213.3.4.231"]
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j392-type-courrier-ms",
     "version" : "20260505120000",
     "status" : "draft",
@@ -6450,6 +6462,17 @@
     "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R327-TypeDecision/FHIR/TRE-R327-TypeDecision"],
     "oids" : ["1.2.250.1.213.3.4.238"],
     "sources" : ["1.2.250.1.213.3.4.238"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j399-motivation-ms",
+    "version" : "20260601120000",
+    "status" : "draft",
+    "name" : "JdvJ399MotivationMs",
+    "title" : "Jdv J399 Motivation Ms",
+    "description" : "L'énoncé des considérations de droit ou de fait qui constituent le fondement de la proposition et de la décision de la CDAPH.",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r419-motivation"],
+    "oids" : ["1.2.250.1.213.3.4.239"],
+    "sources" : ["1.2.250.1.213.3.4.239"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j400-nature-droit-prestation-ms",
@@ -6540,15 +6563,50 @@
     "sources" : ["1.2.250.1.213.3.4.247"]
   },
   {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j408-orientation-ms",
+    "version" : "20260601120000",
+    "status" : "draft",
+    "name" : "JdvJ408OrientationMs",
+    "title" : "Jdv J408 Orientation Ms",
+    "description" : "Ensemble des orientations vers un Service d'éducation spéciale et de soins à domicile (SESSAD), un Service d'accompagnement familial et d'éducation précoce (SAFEP), un enseignement adapté (SEGPA/EREA) ou une unité d'enseignement.",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation",
+    "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise",
+    "https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention"],
+    "oids" : ["1.2.250.1.213.3.4.248"],
+    "sources" : ["1.2.250.1.213.3.4.248"]
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j409-type-adresse-ms",
     "version" : "20260505120000",
     "status" : "draft",
     "name" : "JdvJ409TypeAdresseMs",
     "title" : "Jdv J409 Type Adresse Ms",
-    "description" : "Type d'adresse postale.",
+    "description" : "Type d'adresse postale tel que \"Adresse du domicile\", \"Adresse de livraison\" pour une personne physique.",
     "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r427-type-adresse"],
     "oids" : ["1.2.250.1.213.3.4.249"],
     "sources" : ["1.2.250.1.213.3.4.249"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j410-categorie-permis-conduire-ms",
+    "version" : "20260601120000",
+    "status" : "draft",
+    "name" : "JdvJ410CategoriePermisConduireMs",
+    "title" : "Jdv J410 Categorie Permis Conduire Ms",
+    "description" : "Catégorie de permis de conduire.",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r413-categorie-permis-conduire"],
+    "oids" : ["1.2.250.1.213.3.4.250"],
+    "sources" : ["1.2.250.1.213.3.4.250"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j411-niveau-scolaire-ms",
+    "version" : "20260601120000",
+    "status" : "draft",
+    "name" : "JdvJ411NiveauScolaireMs",
+    "title" : "Jdv J411 Niveau Scolaire Ms",
+    "description" : "Niveau scolaire de l'usager en France.",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r414-niveau-scolaire"],
+    "oids" : ["1.2.250.1.213.3.4.251"],
+    "sources" : ["1.2.250.1.213.3.4.251"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j418-activite-sanitaire-diverse-regulee-active",
@@ -7274,7 +7332,7 @@
   {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mso-resultat-qualitatif-cisis",
     "version" : "20260311144903",
-    "status" : "active",
+    "status" : "retired",
     "name" : "JdvMsoResultatQualitatifCisis",
     "title" : "Jdv MSO Resultat Qualitatif CISIS",
     "description" : "Jdv MSO Resultat Qualitatif CISIS",

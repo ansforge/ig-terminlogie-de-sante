@@ -3,7 +3,7 @@
 <system>;<Code>;<Libellé> 
 ;C81;Lymphome de Hodgkin
 ;D48.6;Tumeur à évolution imprévisible et inconnue du sein
-2.16.840.1.113883.6.96;443508001;pas d'antécédent médical personnel
-2.16.840.1.113883.6.96;118445002;ablation d'un néoplasme bénin
-2.16.840.1.113883.6.96;370611004;excision d'un néoplasme malin
-2.16.840.1.113883.6.96;56306000;chirurgie esthétique
+;443508001;pas d'antécédent médical personnel
+;118445002;ablation d'un néoplasme bénin
+;370611004;excision d'un néoplasme malin
+;56306000;chirurgie esthétique

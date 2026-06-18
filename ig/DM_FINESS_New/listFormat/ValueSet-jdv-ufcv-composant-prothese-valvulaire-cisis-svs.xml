@@ -10,12 +10,8 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="7970006"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="allogreffe"/>
-         <concept code="15879007"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="autogreffe"/>
+         <concept code="7970006" codeSystem="" displayName="allogreffe"/>
+         <concept code="15879007" codeSystem="" displayName="autogreffe"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

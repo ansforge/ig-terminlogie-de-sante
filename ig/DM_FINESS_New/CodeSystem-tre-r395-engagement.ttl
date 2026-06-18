@@ -15,7 +15,7 @@
      fhir:lastUpdated [ fhir:v "2025-07-16T16:01:18.884+00:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
      ] )
   ] ; # 
   fhir:language [ fhir:v "fr-FR"] ; # 
@@ -24,24 +24,15 @@
      fhir:div [ fhir:v "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem tre-r395-engagement</b></p><a name=\"tre-r395-engagement\"> </a><a name=\"hctre-r395-engagement\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 1; Dernière mise à jour : 2025-07-16 16:01:18+0000; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>Parent</td><td>parent</td><td>http://hl7.org/fhir/concept-properties#parent</td><td>code</td><td>An immediate parent of the concept in the hierarchy</td></tr><tr><td>Date de Validité</td><td>dateValid</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>Date de mise à jour</td><td>dateMaj</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>Date de fin</td><td>dateFin</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired</td></tr><tr><td>deprecationDate</td><td>deprecationDate</td><td>http://hl7.org/fhir/concept-properties#deprecationDate</td><td>dateTime</td><td>The date at which a concept was deprecated. Concepts that are deprecated but not inactive can still be used, but their use is discouraged, and they should be expected to be made inactive in a future release. Property type is dateTime. Note that the status property may also be used to indicate that a concept is deprecated</td></tr><tr><td>retirementDate</td><td>retirementDate</td><td>http://hl7.org/fhir/concept-properties#retirementDate</td><td>dateTime</td><td>The date at which a concept was retired</td></tr><tr><td>Niveau</td><td>niveau</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#niveau</td><td>integer</td><td>Permet d'indiquer le niveau hiérarchique du code</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement</code> defines the following codes dans une hiérarchie Is-A:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td><td><b>Parent</b></td><td><b>Date de Validité</b></td><td><b>Date de mise à jour</b></td><td><b>Date de fin</b></td><td><b>status</b></td><td><b>Niveau</b></td></tr><tr><td style=\"white-space:nowrap\">ARRT<a name=\"tre-r395-engagement-ARRT\"> </a></td><td>Arrêté</td><td/><td/><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td/><td>active</td><td>1</td></tr><tr><td style=\"white-space:nowrap\">CONV<a name=\"tre-r395-engagement-CONV\"> </a></td><td>Convention</td><td/><td/><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td/><td>active</td><td>1</td></tr><tr><td style=\"white-space:nowrap\">DISP<a name=\"tre-r395-engagement-DISP\"> </a></td><td>Dispositif</td><td/><td/><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td/><td>active</td><td>1</td></tr><tr><td style=\"white-space:nowrap\">LABL<a name=\"tre-r395-engagement-LABL\"> </a></td><td>Label</td><td/><td/><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td/><td>active</td><td>1</td></tr><tr><td style=\"white-space:nowrap\">ACI<a name=\"tre-r395-engagement-ACI\"> </a></td><td>Contrat tripartie CPTS/AM/ARS pour rémunération ACI</td><td>ACI pour Accord Conventionnel Interprofessionnel. Cette convention est associée aux établissements Communauté Professionnelle Territoriale de Santé (CPTS) ayant signé un contrat tripartite avec l'Assurance Maladie (AM) et l'Agence Régionale de Santé (ARS).</td><td>CONV</td><td>2020-05-29T12:00:00+01:00</td><td>2020-05-29T12:00:00+01:00</td><td/><td/><td>2</td></tr><tr><td style=\"white-space:nowrap\">APL<a name=\"tre-r395-engagement-APL\"> </a></td><td>Aide Personalisée au Logement</td><td/><td>CONV</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>2</td></tr><tr><td style=\"white-space:nowrap\">ARR<a name=\"tre-r395-engagement-ARR\"> </a></td><td>Arrêté</td><td/><td>ARRT</td><td>2024-01-01T12:00:00+01:00</td><td>2024-01-01T12:00:00+01:00</td><td/><td/><td>2</td></tr><tr><td style=\"white-space:nowrap\">ASD<a name=\"tre-r395-engagement-ASD\"> </a></td><td>Convention aide sociale départementale</td><td/><td>CONV</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>2</td></tr><tr><td style=\"white-space:nowrap\">ASE<a name=\"tre-r395-engagement-ASE\"> </a></td><td>Convention aide sociale Etat</td><td/><td>CONV</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>2</td></tr><tr><td style=\"white-space:nowrap\">CPM<a name=\"tre-r395-engagement-CPM\"> </a></td><td>Signature d'une Convention d'Objectifs et de Moyens (CPOM)</td><td/><td>CONV</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>2</td></tr><tr><td style=\"white-space:nowrap\">CPP<a name=\"tre-r395-engagement-CPP\"> </a></td><td>PFR Plateforme de répit financée par plusieurs financeurs</td><td/><td>CONV</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>2</td></tr><tr><td style=\"white-space:nowrap\">CPU<a name=\"tre-r395-engagement-CPU\"> </a></td><td>PFR Plateforme de répit financée par l'ARS uniquement</td><td/><td>CONV</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>2</td></tr><tr><td style=\"white-space:nowrap\">DEA<a name=\"tre-r395-engagement-DEA\"> </a></td><td>Dispositif d'emploi accompagné</td><td/><td>DISP</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>2</td></tr><tr><td style=\"white-space:nowrap\">DIS<a name=\"tre-r395-engagement-DIS\"> </a></td><td>Dispositif Article 51</td><td/><td>DISP</td><td>2023-01-27T12:00:00+01:00</td><td>2023-01-27T12:00:00+01:00</td><td/><td/><td>2</td></tr><tr><td style=\"white-space:nowrap\">DIT<a name=\"tre-r395-engagement-DIT\"> </a></td><td>Dispositif Intégré</td><td>Cette convention identifie soit les ESMS ex-DITEP soit les ESMS fonctionnant en Dispositif Intégré mais n'entrant pas dans un \"dispositif partenarial\"</td><td>DISP</td><td>2018-10-26T12:00:00+01:00</td><td>2025-01-31T12:00:00+01:00</td><td/><td/><td>2</td></tr><tr><td style=\"white-space:nowrap\">EMA<a name=\"tre-r395-engagement-EMA\"> </a></td><td>Equipe mobile d'appui pour la scolarisation jeunes handicap</td><td/><td>DISP</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/><td>2</td></tr><tr><td style=\"white-space:nowrap\">EX1<a name=\"tre-r395-engagement-EX1\"> </a></td><td>Entrée dans l expérimentation de SPASAD seul</td><td/><td>CONV</td><td>2021-11-26T12:00:00+01:00</td><td>2021-11-26T12:00:00+01:00</td><td/><td/><td>2</td></tr><tr><td style=\"white-space:nowrap\">EX2<a name=\"tre-r395-engagement-EX2\"> </a></td><td>Expérimentation SSIAD et/ou SAAD + SPASAD si GCSMS</td><td/><td>CONV</td><td>2021-11-26T12:00:00+01:00</td><td>2021-11-26T12:00:00+01:00</td><td/><td/><td>2</td></tr><tr><td style=\"white-space:nowrap\">EX3<a name=\"tre-r395-engagement-EX3\"> </a></td><td>Expériment. SSIAD et/ou SAAD + SPASAD si conv. Coopé.</td><td/><td>CONV</td><td>2021-11-26T12:00:00+01:00</td><td>2021-11-26T12:00:00+01:00</td><td/><td/><td>2</td></tr><tr><td style=\"white-space:nowrap\">HPR<a name=\"tre-r395-engagement-HPR\"> </a></td><td>Hôpitaux de proximité</td><td/><td>LABL</td><td>2019-07-05T12:00:00+01:00</td><td>2021-11-26T12:00:00+01:00</td><td>2021-11-26T12:00:00+01:00</td><td/><td>2</td></tr><tr><td style=\"white-space:nowrap\">JUS<a name=\"tre-r395-engagement-JUS\"> </a></td><td>Habilitation justice</td><td/><td>CONV</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>2</td></tr><tr><td style=\"white-space:nowrap\">MDI<a name=\"tre-r395-engagement-MDI\"> </a></td><td>Membre du Dispositif Intégré</td><td>Cette convention identifie un membre simple (non porteur) du Dispositif Intégré dans le cas d'un dispositif partenarial\"</td><td>DISP</td><td>2025-01-31T12:00:00+01:00</td><td>2025-01-31T12:00:00+01:00</td><td/><td/><td>2</td></tr><tr><td style=\"white-space:nowrap\">MIL<a name=\"tre-r395-engagement-MIL\"> </a></td><td>Conv hôpitaux militaires</td><td/><td>CONV</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>2</td></tr><tr><td style=\"white-space:nowrap\">PAD<a name=\"tre-r395-engagement-PAD\"> </a></td><td>Convention tripartite étab personnes âgées dépendantes</td><td/><td>CONV</td><td>2021-11-26T12:00:00+01:00</td><td>2021-11-26T12:00:00+01:00</td><td>2021-11-26T12:00:00+01:00</td><td/><td>2</td></tr><tr><td style=\"white-space:nowrap\">PAP<a name=\"tre-r395-engagement-PAP\"> </a></td><td>Convention tripartie partielle étab pers âgées dépendantes</td><td/><td>CONV</td><td>2021-11-26T12:00:00+01:00</td><td>2021-11-26T12:00:00+01:00</td><td>2021-11-26T12:00:00+01:00</td><td/><td>2</td></tr><tr><td style=\"white-space:nowrap\">PCO<a name=\"tre-r395-engagement-PCO\"> </a></td><td>Plateforme coord. &amp; orientation pour enfants atteints de TND</td><td/><td>CONV</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/><td>2</td></tr><tr><td style=\"white-space:nowrap\">PCP<a name=\"tre-r395-engagement-PCP\"> </a></td><td>Pôle de compétences et de prestations externalisées</td><td/><td>DISP</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>2</td></tr><tr><td style=\"white-space:nowrap\">PEN<a name=\"tre-r395-engagement-PEN\"> </a></td><td>Convention établissement pénitentiaire</td><td/><td>CONV</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>2</td></tr><tr><td style=\"white-space:nowrap\">PDI<a name=\"tre-r395-engagement-PDI\"> </a></td><td>Porteur du Dispositif Intégré</td><td>Cette convention identifie le porteur du Dispositif Intégré dans le cas d'un dispositif partenarial\"</td><td>DISP</td><td>2025-01-31T12:00:00+01:00</td><td>2025-01-31T12:00:00+01:00</td><td/><td/><td>2</td></tr><tr><td style=\"white-space:nowrap\">QAL<a name=\"tre-r395-engagement-QAL\"> </a></td><td>Agrément Qualité</td><td/><td>CONV</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>2</td></tr><tr><td style=\"white-space:nowrap\">REL<a name=\"tre-r395-engagement-REL\"> </a></td><td>Equipe relais</td><td/><td>DISP</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>2</td></tr><tr><td style=\"white-space:nowrap\">RSE<a name=\"tre-r395-engagement-RSE\"> </a></td><td>SAAD intervenant uniquement au sein de la résidence services</td><td/><td>DISP</td><td>2019-04-26T12:00:00+01:00</td><td>2019-04-26T12:00:00+01:00</td><td/><td/><td>2</td></tr><tr><td style=\"white-space:nowrap\">RUR<a name=\"tre-r395-engagement-RUR\"> </a></td><td>Maison d'Accueil Rurale pour Personnes Âgées (MARPA)</td><td/><td>LABL</td><td>2021-11-26T12:00:00+01:00</td><td>2021-11-26T12:00:00+01:00</td><td>2021-11-26T12:00:00+01:00</td><td/><td>2</td></tr><tr><td style=\"white-space:nowrap\">SAD<a name=\"tre-r395-engagement-SAD\"> </a></td><td>Convention SSIAD/SAAD (SAD)</td><td>Indique que l'établissement (ex-SSIAD ou ex-SAAD) a signé une convention avec un SAAS ou un SAA</td><td>CONV</td><td>2024-01-26T12:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>2</td></tr><tr><td style=\"white-space:nowrap\">SID<a name=\"tre-r395-engagement-SID\"> </a></td><td>Signature d'une convention de médicalisation avec un SSIAD</td><td/><td>CONV</td><td>2021-11-26T12:00:00+01:00</td><td>2021-11-26T12:00:00+01:00</td><td>2021-11-26T12:00:00+01:00</td><td/><td>2</td></tr><tr><td style=\"white-space:nowrap\">UEA<a name=\"tre-r395-engagement-UEA\"> </a></td><td>Unité d'enseignement élémentaire autisme</td><td/><td>DISP</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/><td>2</td></tr><tr><td style=\"white-space:nowrap\">UEE<a name=\"tre-r395-engagement-UEE\"> </a></td><td>Unité d'enseignement externe hors UEM</td><td/><td>DISP</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>2</td></tr><tr><td style=\"white-space:nowrap\">UEM<a name=\"tre-r395-engagement-UEM\"> </a></td><td>Unité d'enseignement en maternelle plan autisme</td><td/><td>DISP</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>2</td></tr><tr><td style=\"white-space:nowrap\">UNI<a name=\"tre-r395-engagement-UNI\"> </a></td><td>Convention d'un CHR avec une Université</td><td/><td>CONV</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>2</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
-     fhir:url [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod>
-     ] ;
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
      fhir:value [
        a fhir:Period ;
        fhir:start [ fhir:v "2025-07-16T12:00:00+01:00"^^xsd:dateTime ]
      ]
   ] ) ; # 
-  fhir:url [
-     fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement"^^xsd:anyURI ;
-     fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement>
-  ] ; # 
+  fhir:url [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement"^^xsd:anyURI] ; # 
   fhir:identifier ( [
-     fhir:system [
-       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
-       fhir:l <urn:ietf:rfc:3986>
-     ] ;
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.376" ]
   ] ) ; # 
   fhir:version [ fhir:v "20250716120000"] ; # 
@@ -58,66 +49,42 @@
   fhir:count [ fhir:v "39"^^xsd:nonNegativeInteger] ; # 
   fhir:property ( [
      fhir:code [ fhir:v "parent" ] ;
-     fhir:uri [
-       fhir:v "http://hl7.org/fhir/concept-properties#parent"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/concept-properties#parent>
-     ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#parent"^^xsd:anyURI ] ;
      fhir:description [ fhir:v "An immediate parent of the concept in the hierarchy" ] ;
      fhir:type [ fhir:v "code" ]
   ] [
      fhir:code [ fhir:v "dateValid" ] ;
-     fhir:uri [
-       fhir:v "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"^^xsd:anyURI ;
-       fhir:l <https://smt.esante.gouv.fr/fhir/concept-properties#dateValid>
-     ] ;
+     fhir:uri [ fhir:v "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"^^xsd:anyURI ] ;
      fhir:description [ fhir:v "date de validité d'un code concept" ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] [
      fhir:code [ fhir:v "dateMaj" ] ;
-     fhir:uri [
-       fhir:v "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj"^^xsd:anyURI ;
-       fhir:l <https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj>
-     ] ;
+     fhir:uri [ fhir:v "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj"^^xsd:anyURI ] ;
      fhir:description [ fhir:v "Date de mise à jour d'un code concept" ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] [
      fhir:code [ fhir:v "dateFin" ] ;
-     fhir:uri [
-       fhir:v "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin"^^xsd:anyURI ;
-       fhir:l <https://smt.esante.gouv.fr/fhir/concept-properties#dateFin>
-     ] ;
+     fhir:uri [ fhir:v "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin"^^xsd:anyURI ] ;
      fhir:description [ fhir:v "Date de fin d'exploitation d'un code concept" ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] [
      fhir:code [ fhir:v "status" ] ;
-     fhir:uri [
-       fhir:v "http://hl7.org/fhir/concept-properties#status"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/concept-properties#status>
-     ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#status"^^xsd:anyURI ] ;
      fhir:description [ fhir:v "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired" ] ;
      fhir:type [ fhir:v "code" ]
   ] [
      fhir:code [ fhir:v "deprecationDate" ] ;
-     fhir:uri [
-       fhir:v "http://hl7.org/fhir/concept-properties#deprecationDate"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/concept-properties#deprecationDate>
-     ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#deprecationDate"^^xsd:anyURI ] ;
      fhir:description [ fhir:v "The date at which a concept was deprecated. Concepts that are deprecated but not inactive can still be used, but their use is discouraged, and they should be expected to be made inactive in a future release. Property type is dateTime. Note that the status property may also be used to indicate that a concept is deprecated" ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] [
      fhir:code [ fhir:v "retirementDate" ] ;
-     fhir:uri [
-       fhir:v "http://hl7.org/fhir/concept-properties#retirementDate"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/concept-properties#retirementDate>
-     ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#retirementDate"^^xsd:anyURI ] ;
      fhir:description [ fhir:v "The date at which a concept was retired" ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] [
      fhir:code [ fhir:v "niveau" ] ;
-     fhir:uri [
-       fhir:v "https://smt.esante.gouv.fr/fhir/concept-properties#niveau"^^xsd:anyURI ;
-       fhir:l <https://smt.esante.gouv.fr/fhir/concept-properties#niveau>
-     ] ;
+     fhir:uri [ fhir:v "https://smt.esante.gouv.fr/fhir/concept-properties#niveau"^^xsd:anyURI ] ;
      fhir:description [ fhir:v "Permet d'indiquer le niveau hiérarchique du code" ] ;
      fhir:type [ fhir:v "integer" ]
   ] ) ; # 
@@ -127,25 +94,25 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] [
        fhir:code [ fhir:v "niveau" ] ;
        fhir:value [
-         a fhir:Integer ;
+         a fhir:integer ;
          fhir:v 1
        ]
      ] )
@@ -155,25 +122,25 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] [
        fhir:code [ fhir:v "niveau" ] ;
        fhir:value [
-         a fhir:Integer ;
+         a fhir:integer ;
          fhir:v 1
        ]
      ] )
@@ -183,25 +150,25 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] [
        fhir:code [ fhir:v "niveau" ] ;
        fhir:value [
-         a fhir:Integer ;
+         a fhir:integer ;
          fhir:v 1
        ]
      ] )
@@ -211,25 +178,25 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "active"
        ]
      ] [
        fhir:code [ fhir:v "niveau" ] ;
        fhir:value [
-         a fhir:Integer ;
+         a fhir:integer ;
          fhir:v 1
        ]
      ] )
@@ -241,10 +208,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Contrat ACI" ]
@@ -252,25 +216,25 @@
      fhir:property ( [
        fhir:code [ fhir:v "parent" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "CONV"
        ]
      ] [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2020-05-29T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2020-05-29T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "niveau" ] ;
        fhir:value [
-         a fhir:Integer ;
+         a fhir:integer ;
          fhir:v 2
        ]
      ] )
@@ -280,25 +244,25 @@
      fhir:property ( [
        fhir:code [ fhir:v "parent" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "CONV"
        ]
      ] [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2018-10-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2018-10-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "niveau" ] ;
        fhir:value [
-         a fhir:Integer ;
+         a fhir:integer ;
          fhir:v 2
        ]
      ] )
@@ -308,25 +272,25 @@
      fhir:property ( [
        fhir:code [ fhir:v "parent" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "ARRT"
        ]
      ] [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2024-01-01T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "niveau" ] ;
        fhir:value [
-         a fhir:Integer ;
+         a fhir:integer ;
          fhir:v 2
        ]
      ] )
@@ -337,10 +301,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Aide sociale Dépt." ]
@@ -348,25 +309,25 @@
      fhir:property ( [
        fhir:code [ fhir:v "parent" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "CONV"
        ]
      ] [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2018-10-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2018-10-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "niveau" ] ;
        fhir:value [
-         a fhir:Integer ;
+         a fhir:integer ;
          fhir:v 2
        ]
      ] )
@@ -377,10 +338,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Aide sociale Etat" ]
@@ -388,25 +346,25 @@
      fhir:property ( [
        fhir:code [ fhir:v "parent" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "CONV"
        ]
      ] [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2018-10-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2018-10-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "niveau" ] ;
        fhir:value [
-         a fhir:Integer ;
+         a fhir:integer ;
          fhir:v 2
        ]
      ] )
@@ -417,10 +375,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "CPOM" ]
@@ -428,25 +383,25 @@
      fhir:property ( [
        fhir:code [ fhir:v "parent" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "CONV"
        ]
      ] [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2018-10-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2018-10-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "niveau" ] ;
        fhir:value [
-         a fhir:Integer ;
+         a fhir:integer ;
          fhir:v 2
        ]
      ] )
@@ -457,10 +412,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "PFR financée multi" ]
@@ -468,25 +420,25 @@
      fhir:property ( [
        fhir:code [ fhir:v "parent" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "CONV"
        ]
      ] [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2018-10-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2018-10-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "niveau" ] ;
        fhir:value [
-         a fhir:Integer ;
+         a fhir:integer ;
          fhir:v 2
        ]
      ] )
@@ -497,10 +449,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "PFR financée ARS" ]
@@ -508,25 +457,25 @@
      fhir:property ( [
        fhir:code [ fhir:v "parent" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "CONV"
        ]
      ] [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2018-10-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2018-10-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "niveau" ] ;
        fhir:value [
-         a fhir:Integer ;
+         a fhir:integer ;
          fhir:v 2
        ]
      ] )
@@ -537,10 +486,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Emploi accompagné" ]
@@ -548,25 +494,25 @@
      fhir:property ( [
        fhir:code [ fhir:v "parent" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "DISP"
        ]
      ] [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2018-10-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2018-10-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "niveau" ] ;
        fhir:value [
-         a fhir:Integer ;
+         a fhir:integer ;
          fhir:v 2
        ]
      ] )
@@ -577,10 +523,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Dispositif Art. 51" ]
@@ -588,25 +531,25 @@
      fhir:property ( [
        fhir:code [ fhir:v "parent" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "DISP"
        ]
      ] [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2023-01-27T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "niveau" ] ;
        fhir:value [
-         a fhir:Integer ;
+         a fhir:integer ;
          fhir:v 2
        ]
      ] )
@@ -618,10 +561,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Disp. Int." ]
@@ -629,25 +569,25 @@
      fhir:property ( [
        fhir:code [ fhir:v "parent" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "DISP"
        ]
      ] [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2018-10-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2025-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "niveau" ] ;
        fhir:value [
-         a fhir:Integer ;
+         a fhir:integer ;
          fhir:v 2
        ]
      ] )
@@ -657,25 +597,25 @@
      fhir:property ( [
        fhir:code [ fhir:v "parent" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "DISP"
        ]
      ] [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "niveau" ] ;
        fhir:value [
-         a fhir:Integer ;
+         a fhir:integer ;
          fhir:v 2
        ]
      ] )
@@ -686,10 +626,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Expé SPASAD seul" ]
@@ -697,25 +634,25 @@
      fhir:property ( [
        fhir:code [ fhir:v "parent" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "CONV"
        ]
      ] [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2021-11-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2021-11-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "niveau" ] ;
        fhir:value [
-         a fhir:Integer ;
+         a fhir:integer ;
          fhir:v 2
        ]
      ] )
@@ -726,10 +663,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Expé Soins Aide GSMS" ]
@@ -737,25 +671,25 @@
      fhir:property ( [
        fhir:code [ fhir:v "parent" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "CONV"
        ]
      ] [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2021-11-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2021-11-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "niveau" ] ;
        fhir:value [
-         a fhir:Integer ;
+         a fhir:integer ;
          fhir:v 2
        ]
      ] )
@@ -766,10 +700,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Exp Soins Aide Ccoop" ]
@@ -777,25 +708,25 @@
      fhir:property ( [
        fhir:code [ fhir:v "parent" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "CONV"
        ]
      ] [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2021-11-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2021-11-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "niveau" ] ;
        fhir:value [
-         a fhir:Integer ;
+         a fhir:integer ;
          fhir:v 2
        ]
      ] )
@@ -806,10 +737,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Hôpitaux de prox." ]
@@ -817,31 +745,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "parent" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "LABL"
        ]
      ] [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2019-07-05T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2021-11-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2021-11-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "niveau" ] ;
        fhir:value [
-         a fhir:Integer ;
+         a fhir:integer ;
          fhir:v 2
        ]
      ] )
@@ -851,25 +779,25 @@
      fhir:property ( [
        fhir:code [ fhir:v "parent" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "CONV"
        ]
      ] [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2018-10-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2018-10-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "niveau" ] ;
        fhir:value [
-         a fhir:Integer ;
+         a fhir:integer ;
          fhir:v 2
        ]
      ] )
@@ -881,10 +809,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Membre Disp. Int." ]
@@ -892,25 +817,25 @@
      fhir:property ( [
        fhir:code [ fhir:v "parent" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "DISP"
        ]
      ] [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2025-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2025-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "niveau" ] ;
        fhir:value [
-         a fhir:Integer ;
+         a fhir:integer ;
          fhir:v 2
        ]
      ] )
@@ -921,10 +846,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Conv. Hôp. militaire" ]
@@ -932,25 +854,25 @@
      fhir:property ( [
        fhir:code [ fhir:v "parent" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "CONV"
        ]
      ] [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2018-10-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2018-10-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "niveau" ] ;
        fhir:value [
-         a fhir:Integer ;
+         a fhir:integer ;
          fhir:v 2
        ]
      ] )
@@ -961,10 +883,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "conv.EHPAD" ]
@@ -972,31 +891,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "parent" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "CONV"
        ]
      ] [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2021-11-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2021-11-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2021-11-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "niveau" ] ;
        fhir:value [
-         a fhir:Integer ;
+         a fhir:integer ;
          fhir:v 2
        ]
      ] )
@@ -1007,10 +926,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "conv.EHPAD part." ]
@@ -1018,31 +934,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "parent" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "CONV"
        ]
      ] [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2021-11-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2021-11-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2021-11-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "niveau" ] ;
        fhir:value [
-         a fhir:Integer ;
+         a fhir:integer ;
          fhir:v 2
        ]
      ] )
@@ -1053,10 +969,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "PCO TND" ]
@@ -1064,25 +977,25 @@
      fhir:property ( [
        fhir:code [ fhir:v "parent" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "CONV"
        ]
      ] [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "niveau" ] ;
        fhir:value [
-         a fhir:Integer ;
+         a fhir:integer ;
          fhir:v 2
        ]
      ] )
@@ -1093,10 +1006,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "PCPE" ]
@@ -1104,25 +1014,25 @@
      fhir:property ( [
        fhir:code [ fhir:v "parent" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "DISP"
        ]
      ] [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2018-10-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2018-10-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "niveau" ] ;
        fhir:value [
-         a fhir:Integer ;
+         a fhir:integer ;
          fhir:v 2
        ]
      ] )
@@ -1133,10 +1043,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Etab. Pénitentiaire" ]
@@ -1144,25 +1051,25 @@
      fhir:property ( [
        fhir:code [ fhir:v "parent" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "CONV"
        ]
      ] [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2018-10-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2018-10-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "niveau" ] ;
        fhir:value [
-         a fhir:Integer ;
+         a fhir:integer ;
          fhir:v 2
        ]
      ] )
@@ -1174,10 +1081,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Porteur Disp. Int." ]
@@ -1185,25 +1089,25 @@
      fhir:property ( [
        fhir:code [ fhir:v "parent" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "DISP"
        ]
      ] [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2025-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2025-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "niveau" ] ;
        fhir:value [
-         a fhir:Integer ;
+         a fhir:integer ;
          fhir:v 2
        ]
      ] )
@@ -1213,25 +1117,25 @@
      fhir:property ( [
        fhir:code [ fhir:v "parent" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "CONV"
        ]
      ] [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2018-10-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2018-10-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "niveau" ] ;
        fhir:value [
-         a fhir:Integer ;
+         a fhir:integer ;
          fhir:v 2
        ]
      ] )
@@ -1241,25 +1145,25 @@
      fhir:property ( [
        fhir:code [ fhir:v "parent" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "DISP"
        ]
      ] [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2018-10-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2018-10-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "niveau" ] ;
        fhir:value [
-         a fhir:Integer ;
+         a fhir:integer ;
          fhir:v 2
        ]
      ] )
@@ -1270,10 +1174,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Résidences services" ]
@@ -1281,25 +1182,25 @@
      fhir:property ( [
        fhir:code [ fhir:v "parent" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "DISP"
        ]
      ] [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2019-04-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2019-04-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "niveau" ] ;
        fhir:value [
-         a fhir:Integer ;
+         a fhir:integer ;
          fhir:v 2
        ]
      ] )
@@ -1310,10 +1211,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "MARPA" ]
@@ -1321,31 +1219,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "parent" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "LABL"
        ]
      ] [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2021-11-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2021-11-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2021-11-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "niveau" ] ;
        fhir:value [
-         a fhir:Integer ;
+         a fhir:integer ;
          fhir:v 2
        ]
      ] )
@@ -1356,25 +1254,25 @@
      fhir:property ( [
        fhir:code [ fhir:v "parent" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "CONV"
        ]
      ] [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2024-01-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2024-01-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "niveau" ] ;
        fhir:value [
-         a fhir:Integer ;
+         a fhir:integer ;
          fhir:v 2
        ]
      ] )
@@ -1385,10 +1283,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Convention SSIAD" ]
@@ -1396,31 +1291,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "parent" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "CONV"
        ]
      ] [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2021-11-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2021-11-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2021-11-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "niveau" ] ;
        fhir:value [
-         a fhir:Integer ;
+         a fhir:integer ;
          fhir:v 2
        ]
      ] )
@@ -1431,10 +1326,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "UEEA" ]
@@ -1442,25 +1334,25 @@
      fhir:property ( [
        fhir:code [ fhir:v "parent" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "DISP"
        ]
      ] [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "niveau" ] ;
        fhir:value [
-         a fhir:Integer ;
+         a fhir:integer ;
          fhir:v 2
        ]
      ] )
@@ -1470,25 +1362,25 @@
      fhir:property ( [
        fhir:code [ fhir:v "parent" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "DISP"
        ]
      ] [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2018-10-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2018-10-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "niveau" ] ;
        fhir:value [
-         a fhir:Integer ;
+         a fhir:integer ;
          fhir:v 2
        ]
      ] )
@@ -1499,10 +1391,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "UEM Plan Autisme" ]
@@ -1510,25 +1399,25 @@
      fhir:property ( [
        fhir:code [ fhir:v "parent" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "DISP"
        ]
      ] [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2018-10-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2018-10-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "niveau" ] ;
        fhir:value [
-         a fhir:Integer ;
+         a fhir:integer ;
          fhir:v 2
        ]
      ] )
@@ -1539,10 +1428,7 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Conv. CHR-Université" ]
@@ -1550,25 +1436,25 @@
      fhir:property ( [
        fhir:code [ fhir:v "parent" ] ;
        fhir:value [
-         a fhir:Code ;
+         a fhir:code ;
          fhir:v "CONV"
        ]
      ] [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2018-10-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:DateTime ;
+         a fhir:dateTime ;
          fhir:v "2018-10-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "niveau" ] ;
        fhir:value [
-         a fhir:Integer ;
+         a fhir:integer ;
          fhir:v 2
        ]
      ] )
