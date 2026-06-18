@@ -125,6 +125,11 @@ jobs:
        
 
 
+      - name:  Suppression des fichiers trop volumineux
+        run : |
+              rm -f ./igSource/output/qa-ipreview.html
+
+              
       - name: Get branch names
         id: branch-name
         uses: tj-actions/branch-names@v4.3
