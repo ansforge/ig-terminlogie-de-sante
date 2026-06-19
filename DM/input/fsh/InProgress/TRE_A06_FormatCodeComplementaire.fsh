@@ -796,3 +796,58 @@ Description: "formatCode en complément des nomenclatures internationales"
 * #urn:ans:ci-sis:trod:2024 ^property[=].valueDateTime = "2024-07-26T12:00:00+01:00"
 * #urn:ans:ci-sis:trod:2024 ^property[+].code = #status
 * #urn:ans:ci-sis:trod:2024 ^property[=].valueCode = #active
+* #urn:ans:ci-sis:mso-rougeole:2026 "Déclaration de maladie à signalement obligatoire : Rougeole"
+* #urn:ans:ci-sis:mso-rougeole:2026 ^designation[0].language = #fr-FR
+* #urn:ans:ci-sis:mso-rougeole:2026 ^designation[=].use.system = "http://snomed.info/sct"
+* #urn:ans:ci-sis:mso-rougeole:2026 ^designation[=].use = $sct#900000000000013009
+* #urn:ans:ci-sis:mso-rougeole:2026 ^designation[=].value = "PSIG-MSO-ROUGEOLE"
+* #urn:ans:ci-sis:mso-rougeole:2026 ^property[0].code = #dateValid
+* #urn:ans:ci-sis:mso-rougeole:2026 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #urn:ans:ci-sis:mso-rougeole:2026 ^property[+].code = #dateMaj
+* #urn:ans:ci-sis:mso-rougeole:2026 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #urn:ans:ci-sis:mso-rougeole:2026 ^property[+].code = #status
+* #urn:ans:ci-sis:mso-rougeole:2026 ^property[=].valueCode = #active
+* #urn:ans:ci-sis:mso-dengue:2026 "Déclaration de maladie à signalement obligatoire : Dengue"
+* #urn:ans:ci-sis:mso-dengue:2026 ^designation[0].language = #fr-FR
+* #urn:ans:ci-sis:mso-dengue:2026 ^designation[=].use.system = "http://snomed.info/sct"
+* #urn:ans:ci-sis:mso-dengue:2026 ^designation[=].use = $sct#900000000000013009
+* #urn:ans:ci-sis:mso-dengue:2026 ^designation[=].value = "PSIG-MSO-DENGUE"
+* #urn:ans:ci-sis:mso-dengue:2026 ^property[0].code = #dateValid
+* #urn:ans:ci-sis:mso-dengue:2026 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #urn:ans:ci-sis:mso-dengue:2026 ^property[+].code = #dateMaj
+* #urn:ans:ci-sis:mso-dengue:2026 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #urn:ans:ci-sis:mso-dengue:2026 ^property[+].code = #status
+* #urn:ans:ci-sis:mso-dengue:2026 ^property[=].valueCode = #active
+* #urn:ans:ci-sis:mso-chikungunya:2026  "Déclaration de maladie à signalement obligatoire : Chikungunya"
+* #urn:ans:ci-sis:mso-chikungunya:2026  ^designation[0].language = #fr-FR
+* #urn:ans:ci-sis:mso-chikungunya:2026  ^designation[=].use.system = "http://snomed.info/sct"
+* #urn:ans:ci-sis:mso-chikungunya:2026  ^designation[=].use = $sct#900000000000013009
+* #urn:ans:ci-sis:mso-chikungunya:2026  ^designation[=].value = "PSIG-MSO-CHIKUNG"
+* #urn:ans:ci-sis:mso-chikungunya:2026  ^property[0].code = #dateValid
+* #urn:ans:ci-sis:mso-chikungunya:2026  ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #urn:ans:ci-sis:mso-chikungunya:2026  ^property[+].code = #dateMaj
+* #urn:ans:ci-sis:mso-chikungunya:2026  ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #urn:ans:ci-sis:mso-chikungunya:2026  ^property[+].code = #status
+* #urn:ans:ci-sis:mso-chikungunya:2026  ^property[=].valueCode = #active
+* #urn:ans:ci-sis:mso-zika:2026  "Déclaration de maladie à signalement obligatoire : Zika"
+* #urn:ans:ci-sis:mso-zika:2026  ^designation[0].language = #fr-FR
+* #urn:ans:ci-sis:mso-zika:2026  ^designation[=].use.system = "http://snomed.info/sct"
+* #urn:ans:ci-sis:mso-zika:2026  ^designation[=].use = $sct#900000000000013009
+* #urn:ans:ci-sis:mso-zika:2026  ^designation[=].value = "PSIG-MSO-ZIKA"
+* #urn:ans:ci-sis:mso-zika:2026  ^property[0].code = #dateValid
+* #urn:ans:ci-sis:mso-zika:2026  ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #urn:ans:ci-sis:mso-zika:2026  ^property[+].code = #dateMaj
+* #urn:ans:ci-sis:mso-zika:2026  ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #urn:ans:ci-sis:mso-zika:2026  ^property[+].code = #status
+* #urn:ans:ci-sis:mso-zika:2026  ^property[=].valueCode = #active
+* #urn:ans:ci-sis:mso-westnile:2026 "Déclaration de maladie à signalement obligatoire : West Nile"
+* #urn:ans:ci-sis:mso-westnile:2026 ^designation[0].language = #fr-FR
+* #urn:ans:ci-sis:mso-westnile:2026 ^designation[=].use.system = "http://snomed.info/sct"
+* #urn:ans:ci-sis:mso-westnile:2026 ^designation[=].use = $sct#900000000000013009
+* #urn:ans:ci-sis:mso-westnile:2026 ^designation[=].value = "PSIG-MSO-WESTNILE"
+* #urn:ans:ci-sis:mso-westnile:2026 ^property[0].code = #dateValid
+* #urn:ans:ci-sis:mso-westnile:2026 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #urn:ans:ci-sis:mso-westnile:2026 ^property[+].code = #dateMaj
+* #urn:ans:ci-sis:mso-westnile:2026 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #urn:ans:ci-sis:mso-westnile:2026 ^property[+].code = #status
+* #urn:ans:ci-sis:mso-westnile:2026 ^property[=].valueCode = #active
