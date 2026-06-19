@@ -9,7 +9,7 @@
 | | | |
 | :--- | :--- | :--- |
 | *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J60-FormatCode-DMP/FHIR/JDV-J60-FormatCode-DMP | *Version*:20240927120000 | |
-| Active as of 2026-06-15 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J60_FormatCode_DMP |
+| Active as of 2024-09-27 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J60_FormatCode_DMP |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.8 | | |
 
  
@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.10.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-06-18
+2026-06-19
 
 Liens:
 [Table des matières ](toc.md)|
@@ -88,7 +88,7 @@ Liens:
   "name" : "JDV_J60_FormatCode_DMP",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-15T12:00:00+01:00",
+  "date" : "2024-09-27T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Jeu de valeurs pour métadonnée formatCode",
   "jurisdiction" : [{
@@ -287,10 +287,6 @@ Liens:
       {
         "code" : "urn:ans:ci-sis:trod:2024",
         "display" : "Test rapide d'orientation diagnostique"
-      },
-      {
-        "code" : "urn:asip#urn:ihe:iti-fr:xds-sd:jpeg:2010",
-        "display" : "Document à corps non structuré en format jpeg"
       }]
     },
     {
@@ -310,6 +306,18 @@ Liens:
       {
         "code" : "urn:ihe:pharm:dis:2010",
         "display" : "Dispensation médicamenteuse"
+      },
+      {
+        "code" : "urn:ihe:iti-fr:xds-sd:jpeg:2010",
+        "display" : "Document à corps non structuré en format jpeg"
+      },
+      {
+        "code" : "urn:ihe:iti-fr:xds-sd:rtf:2010",
+        "display" : "Document à corps non structuré en format rtf"
+      },
+      {
+        "code" : "urn:ihe:iti-fr:xds-sd:tiff:2010",
+        "display" : "Document à corps non structuré en format tiff"
       },
       {
         "code" : "urn:ihe:lab:xd-lab:2008",
@@ -340,7 +348,7 @@ Liens:
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_A09-DICOMuidRegistry/FHIR/TRE-A09-DICOMuidRegistry",
       "concept" : [{
         "code" : "1.2.840.10008.5.1.4.1.1.88.59",
-        "display" : "Key Object Selection Document Storage"
+        "display" : "Document Références d'objets d'un examen d'imagerie selon profil IHE RAD XDS-I"
       }]
     },
     {

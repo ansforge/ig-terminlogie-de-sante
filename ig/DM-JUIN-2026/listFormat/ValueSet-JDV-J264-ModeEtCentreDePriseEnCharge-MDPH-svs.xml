@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20260629120000"
+             dateMaj="20260601120000"
              dateValid="20240628120000"
              description="Les modes de prise en charge en établissements ESMS qui sont possibles pour l'usager est validées en commission par la CDAPH"
              displayName="JDV_J264_ModeEtCentreDePriseEnCharge_MDPH"
@@ -22,9 +22,6 @@
          <Concept code="49"
                   codeSystem="1.2.250.1.213.3.3.13"
                   displayName="Sur les lieux de vie"/>
-         <Concept code="60"
-                  codeSystem="1.2.250.1.213.3.3.13"
-                  displayName="Dispositif expérimental"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

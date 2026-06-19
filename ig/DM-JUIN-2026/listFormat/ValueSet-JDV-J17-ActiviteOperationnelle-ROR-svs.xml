@@ -328,9 +328,6 @@
          <Concept code="147"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Urgences Médico-Psychologiques (CUMP)"/>
-         <Concept code="148"
-                  codeSystem="1.2.250.1.213.3.3.12"
-                  displayName="Urgences spécialisées cardiologiques"/>
          <Concept code="152"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Evaluation Médico-Judiciaire (UMJ)"/>
