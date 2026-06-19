@@ -209,7 +209,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-06-19T10:20:09+00:00",
+  "date" : "2026-06-19T14:33:59+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -26740,7 +26740,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
         "reference" : "ConceptMap/ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS"
       },
       "name" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS",
-      "description" : "Pour le document CDA, la métadonnée XDS 'formatCode' est calculé à partir de l'élement CDA 'templateId'. La correspondance entre templateId et formatCode est assurée par cette table d'association.",
+      "description" : "Lorsque le corps du CDA est structuré, la métadonnée 'formatCode' provient de l'élément 'templateId' (modèle du document CDA). La correspondance entre templateId et formatCode est assurée par cette table d'association",
       "exampleBoolean" : false
     },
     {

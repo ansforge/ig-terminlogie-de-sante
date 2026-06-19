@@ -1310,7 +1310,7 @@ These define transformations to convert between codes by systems conforming with
 
 | | |
 | :--- | :--- |
-| [ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS](ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.md) | Pour le document CDA, la métadonnée XDS ‘formatCode’ est calculé à partir de l’élement CDA ‘templateId’. La correspondance entre templateId et formatCode est assurée par cette table d’association. |
+| [ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS](ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.md) | Lorsque le corps du CDA est structuré, la métadonnée ‘formatCode’ provient de l’élément ‘templateId’ (modèle du document CDA). La correspondance entre templateId et formatCode est assurée par cette table d’association |
 | [ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS](ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.md) | Association qui permet de deduire l’attribut XDS ‘formatCode’ à partir de l’attribut ‘component/nonXMLBody/text@mediaType’ du CDA N1 |
 | [ASS_A13_TypeEvenement_FluxStandardise](ConceptMap-ASS-A13-TypeEvenement-FluxStandardise.md) | Correspondance entre un type d’évènement et le flux standardisé correspondant |
 | [ASS_A14_FamilleActivite_ActiviteOperationnelle](ConceptMap-ASS-A14-FamilleActivite-ActiviteOperationnelle.md) | Association Famille activité - Activité opérationnelle |
