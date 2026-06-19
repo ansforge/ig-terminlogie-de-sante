@@ -8,6 +8,7 @@ Usage: #definition
 * name = "ASS_A11_CorresModeleCDA_XdsFormatCode_CISIS"
 * title = "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS"
 * status = #active
+* date = "2026-06-29T12:00:00+01:00"
 * experimental = false
 * description = "Lorsque le corps du CDA est structuré, la métadonnée 'formatCode' provient de l'élément 'templateId' (modèle du document CDA). La correspondance entre templateId et formatCode est assurée par cette table d'association"
 * useContext.code = $usage-context-type#task
@@ -161,6 +162,21 @@ Usage: #definition
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #1.2.250.1.213.1.1.1.56
 * group[=].element[=].target.code = #urn:asip:ci-sis:ppp:2023
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #1.2.250.1.213.1.11.1.19.1
+* group[=].element[=].target.code = #urn:ans:ci-sis:mso-rougeole:2026
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #1.2.250.1.213.1.11.1.19.2
+* group[=].element[=].target.code = #urn:ans:ci-sis:mso-dengue:2026
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #1.2.250.1.213.1.11.1.19.3
+* group[=].element[=].target.code = #urn:ans:ci-sis:mso-chikungunya:2026
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #1.2.250.1.213.1.11.1.19.4
+* group[=].element[=].target.code = #urn:ans:ci-sis:mso-zika:2026
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #1.2.250.1.213.1.11.1.19.5
+* group[=].element[=].target.code = #urn:ans:ci-sis:mso-westnile:2026
 * group[=].element[=].target.equivalence = #equivalent
 * group[+].source = "https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure"
 * group[=].target = "https://mos.esante.gouv.fr/NOS/TRE_A11-IheFormatCode/FHIR/TRE-A11-IheFormatCode"
