@@ -11,16 +11,16 @@
              urlFichier="">
       <ConceptList>
          <Concept code="10828004"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="positif(-ive)"/>
          <Concept code="260385009"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="négatif(-ive)"/>
          <Concept code="373068000"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="indéterminé(e)"/>
          <Concept code="125154007"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="échantillon insatisfaisant pour l'évaluation"/>
       </ConceptList>
    </ValueSet>

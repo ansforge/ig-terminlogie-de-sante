@@ -14,13 +14,13 @@
                   codeSystem="http://hl7.org/fhir/sid/icd-10"
                   displayName="Mort fœtale (de cause non précisée)"/>
          <Concept code="281050002"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="naissance vivante"/>
          <Concept code="391181005"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="mort néonatale précoce"/>
          <Concept code="240297000"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="mort infantile"/>
       </ConceptList>
    </ValueSet>

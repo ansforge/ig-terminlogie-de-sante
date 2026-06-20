@@ -2,6 +2,6 @@
 1.2.250.1.213.1.1.5.698;JDV;JdvModeSortieObpSnmCisis.tabs;JDV Mode Sortie Obp Snm CISIS;;20220804000000;;20260420150249
 <OID>;<Code>;<Libellé>
 1.2.250.1.213.1.1.4.322;MED-1176;Suites de couches
-http://snomed.info/sct;419620001;décès
-http://snomed.info/sct;107724000;transfert d'un(e) patient(e)
-http://snomed.info/sct;385432009;non applicable
+2.16.840.1.113883.6.96;419620001;décès
+2.16.840.1.113883.6.96;107724000;transfert d'un(e) patient(e)
+2.16.840.1.113883.6.96;385432009;non applicable

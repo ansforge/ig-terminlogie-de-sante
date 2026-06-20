@@ -4,4 +4,4 @@
 http://hl7.org/fhir/sid/icd-10;G25.9;Syndrome extrapyramidal et trouble de la motricité, sans précision
 http://hl7.org/fhir/sid/icd-10;R27.0;Ataxie, sans précision
 http://hl7.org/fhir/sid/icd-10;H53.9;Trouble de la vision, sans précision
-http://snomed.info/sct;85972008;trouble sensoriel
+2.16.840.1.113883.6.96;85972008;trouble sensoriel

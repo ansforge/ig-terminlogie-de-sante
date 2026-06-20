@@ -3,7 +3,7 @@
 <OID>;<Code>;<Libellé>
 http://hl7.org/fhir/sid/icd-10;C81;Lymphome de Hodgkin
 http://hl7.org/fhir/sid/icd-10;D48.6;Tumeur à évolution imprévisible et inconnue du sein
-http://snomed.info/sct;443508001;pas d'antécédent médical personnel
-http://snomed.info/sct;118445002;ablation d'un néoplasme bénin
-http://snomed.info/sct;370611004;excision d'un néoplasme malin
-http://snomed.info/sct;56306000;chirurgie esthétique
+2.16.840.1.113883.6.96;443508001;pas d'antécédent médical personnel
+2.16.840.1.113883.6.96;118445002;ablation d'un néoplasme bénin
+2.16.840.1.113883.6.96;370611004;excision d'un néoplasme malin
+2.16.840.1.113883.6.96;56306000;chirurgie esthétique

@@ -4,4 +4,4 @@
 2.16.840.1.113883.6.1;8339-4;Poids à la naissance
 2.16.840.1.113883.6.1;92276-5;Statut du nouveau né
 2.16.840.1.113883.6.1;57071-3;Méthode d'accouchement
-http://snomed.info/sct;107724000;transfert d'un(e) patient(e)
+2.16.840.1.113883.6.96;107724000;transfert d'un(e) patient(e)

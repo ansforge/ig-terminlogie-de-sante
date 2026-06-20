@@ -11,22 +11,22 @@
              urlFichier="">
       <ConceptList>
          <Concept code="60176003"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="ACA - artère cérébrale antérieure"/>
          <Concept code="55438003"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="centre semi-ovale"/>
          <Concept code="70382005"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="artère cérébrale postérieure"/>
          <Concept code="50974003"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="jonctionnel(le)"/>
          <Concept code="15926001"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="tronc de l'encéphale"/>
          <Concept code="113305005"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="cervelet"/>
       </ConceptList>
    </ValueSet>

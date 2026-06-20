@@ -11,16 +11,16 @@
              urlFichier="">
       <ConceptList>
          <Concept code="24028007"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="côté droit"/>
          <Concept code="7771000"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="côté gauche"/>
          <Concept code="51440002"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="bilatéral(e)"/>
          <Concept code="385432009"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="non applicable"/>
       </ConceptList>
    </ValueSet>

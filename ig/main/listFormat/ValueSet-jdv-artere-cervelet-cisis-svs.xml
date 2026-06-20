@@ -14,13 +14,13 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Artère cérébelleuse inférieure (ACI)"/>
          <Concept code="17232002"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="artère cérébrale moyenne"/>
          <Concept code="51691006"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="artère cérébelleuse supérieure"/>
          <Concept code="38608005"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="artère cérébelleuse"/>
       </ConceptList>
    </ValueSet>

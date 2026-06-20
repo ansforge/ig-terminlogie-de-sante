@@ -20,7 +20,7 @@
                   codeSystem="http://hl7.org/fhir/sid/icd-10"
                   displayName="Trouble de la vision, sans précision"/>
          <Concept code="85972008"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="trouble sensoriel"/>
       </ConceptList>
    </ValueSet>

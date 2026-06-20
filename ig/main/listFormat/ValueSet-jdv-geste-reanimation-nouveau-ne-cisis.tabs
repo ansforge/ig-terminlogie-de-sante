@@ -4,9 +4,9 @@
 1.2.250.1.213.1.1.4.322;MED-1259;PPC nasale
 1.2.250.1.213.1.1.4.322;MED-1260;Ventilation sur tube endotrachéal
 1.2.250.1.213.1.1.4.322;MED-174;Geste technique spécialisé
-http://snomed.info/sct;112798008;insertion d'un tube endotrachéal
-http://snomed.info/sct;83099006;massage cardiaque externe manuel à thorax fermé
-http://snomed.info/sct;1217591002;injection de médicament
-http://snomed.info/sct;427391006;clairance des sécrétions des voies respiratoires
-http://snomed.info/sct;425696007;assistance respiratoire manuelle par un ballon et un masque
-http://snomed.info/sct;5447007;transfusion
+2.16.840.1.113883.6.96;112798008;insertion d'un tube endotrachéal
+2.16.840.1.113883.6.96;83099006;massage cardiaque externe manuel à thorax fermé
+2.16.840.1.113883.6.96;1217591002;injection de médicament
+2.16.840.1.113883.6.96;427391006;clairance des sécrétions des voies respiratoires
+2.16.840.1.113883.6.96;425696007;assistance respiratoire manuelle par un ballon et un masque
+2.16.840.1.113883.6.96;5447007;transfusion

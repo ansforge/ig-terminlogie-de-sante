@@ -14,10 +14,10 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Agrandissement"/>
          <Concept code="387736007"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="biopsie à l'aiguille fine du sein"/>
          <Concept code="16310003"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="échographie"/>
       </ConceptList>
    </ValueSet>

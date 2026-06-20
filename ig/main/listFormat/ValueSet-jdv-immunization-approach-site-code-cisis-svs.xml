@@ -11,34 +11,34 @@
              urlFichier="">
       <ConceptList>
          <Concept code="64262003"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="avant-bras droit"/>
          <Concept code="66480008"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="avant-bras gauche"/>
          <Concept code="16217661000119109"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="deltoïde droit"/>
          <Concept code="16217701000119102"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="deltoïde gauche"/>
          <Concept code="91774008"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="épaule droite"/>
          <Concept code="91775009"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="épaule gauche"/>
          <Concept code="11207009"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="cuisse droite"/>
          <Concept code="61396006"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="cuisse gauche"/>
          <Concept code="723980000"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="fesse droite"/>
          <Concept code="723979003"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="fesse gauche"/>
       </ConceptList>
    </ValueSet>

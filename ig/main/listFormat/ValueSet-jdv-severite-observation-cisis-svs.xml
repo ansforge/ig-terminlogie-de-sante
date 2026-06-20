@@ -11,22 +11,22 @@
              urlFichier="">
       <ConceptList>
          <Concept code="442452003"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="mise en jeu du pronostic vital"/>
          <Concept code="24484000"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="gravité sévère"/>
          <Concept code="371924009"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="gravité modérée à sévère"/>
          <Concept code="6736007"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="gravité modérée"/>
          <Concept code="371923003"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="gravité légère à modérée"/>
          <Concept code="255604002"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="gravité légère"/>
       </ConceptList>
    </ValueSet>

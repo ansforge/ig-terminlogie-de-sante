@@ -11,10 +11,10 @@
              urlFichier="">
       <ConceptList>
          <Concept code="17621005"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="normal"/>
          <Concept code="274783007"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="cétonurie"/>
       </ConceptList>
    </ValueSet>

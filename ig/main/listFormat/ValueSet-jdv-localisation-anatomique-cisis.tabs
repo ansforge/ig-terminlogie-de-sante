@@ -1,360 +1,360 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>  
 1.2.250.1.213.1.1.5.694;JDV;JdvLocalisationAnatomiqueCisis.tabs;JDV Localisation Anatomique CISIS;;20230601000000;;20251028115832
 <OID>;<Code>;<Libellé>
-http://snomed.info/sct;302553009;abdomen entier
-http://snomed.info/sct;244231007;aorte abdominale entière
-http://snomed.info/sct;897132006;segment transverse abdominal entier du tronc
-http://snomed.info/sct;822978001;cavité abdominopelvienne entière
-http://snomed.info/sct;182166001;articulation acromioclaviculaire entière
-http://snomed.info/sct;181127006;glande suprarénale entière
-http://snomed.info/sct;361292008;région entière de la cheville
-http://snomed.info/sct;399978003;veine cubitale antérieure entière
-http://snomed.info/sct;43967001;veine cardiaque antérieure entière
-http://snomed.info/sct;181309000;artère cérébrale antérieure entière
-http://snomed.info/sct;181311009;artère communicante antérieure entière
-http://snomed.info/sct;181329004;artère vertébrale antérieure entière
-http://snomed.info/sct;181357006;artère tibiale antérieure entière
-http://snomed.info/sct;181262009;anus entier
-http://snomed.info/sct;181298001;aorte entière
-http://snomed.info/sct;181300001;arc aortique entier
-http://snomed.info/sct;264843009;apex entier du ventricule gauche
-http://snomed.info/sct;314790003;apex pulmonaire entier
-http://snomed.info/sct;264913008;apex entier du ventricule droit
-http://snomed.info/sct;181255000;appendice entier
-http://snomed.info/sct;730364005;zone entière du méat acoustique interne
-http://snomed.info/sct;362877004;artère entière
-http://snomed.info/sct;244324006;artère entière d'un membre inférieur
-http://snomed.info/sct;244310007;artère entière d'un membre supérieur
-http://snomed.info/sct;181299009;aorte ascendante entière
-http://snomed.info/sct;362162009;côlon ascendant entier
-http://snomed.info/sct;261405004;oreillette cardiaque entière
-http://snomed.info/sct;181321001;artère axillaire entière
-http://snomed.info/sct;362732006;région axillaire entière
-http://snomed.info/sct;181389002;veine axillaire entière
-http://snomed.info/sct;244407004;veine azygos entière
-http://snomed.info/sct;244215004;artère basilaire entière
-http://snomed.info/sct;276157007;conduit biliaire entier
-http://snomed.info/sct;181267003;voies biliaires entières
-http://snomed.info/sct;361097006;vaisseau sanguin entier
-http://snomed.info/sct;38266002;corps entier
-http://snomed.info/sct;346902003;conduit corporel entier
-http://snomed.info/sct;731691008;coccyx entier
-http://snomed.info/sct;731717004;crâne entier
-http://snomed.info/sct;731698002;fémur entier
-http://snomed.info/sct;731660002;ilion entier
-http://snomed.info/sct;361370006;os entier du membre inférieur
-http://snomed.info/sct;731690009;patella entière
-http://snomed.info/sct;368532003;os entier du membre supérieur
-http://snomed.info/sct;731684005;sacrum entier
-http://snomed.info/sct;730852007;veine perforante de Boyd entière
-http://snomed.info/sct;181322008;artère brachiale entière
-http://snomed.info/sct;181002002;plexus brachial entier
-http://snomed.info/sct;181390006;veine brachiale entière
-http://snomed.info/sct;244244002;tronc artériel brachiocéphalique entier
-http://snomed.info/sct;181371003;veine brachiocéphalique entière
-http://snomed.info/sct;258335003;encéphale entier
-http://snomed.info/sct;181131000;sein entier
-http://snomed.info/sct;362723009;ligament large entier
-http://snomed.info/sct;181215002;bronche entière
-http://snomed.info/sct;244247009;artère bronchique entière
-http://snomed.info/sct;362677002;fesse entière
-http://snomed.info/sct;182099002;calcanéum entier
-http://snomed.info/sct;244015008;mollet entier
-http://snomed.info/sct;276832000;calice rénal entier
-http://snomed.info/sct;277699000;ventricule cardiaque entier
-http://snomed.info/sct;362040006;artère carotide entière
-http://snomed.info/sct;281137000;sinus carotidien entier
-http://snomed.info/sct;897047000;cavité entière du grand bassin
-http://snomed.info/sct;818953007;cavité entière du petit bassin
-http://snomed.info/sct;181340007;tronc cœliaque entier
-http://snomed.info/sct;181391005;veine céphalique entière
-http://snomed.info/sct;180924008;cervelet entier
-http://snomed.info/sct;181308008;artère cérébrale entière
-http://snomed.info/sct;278251007;hémisphère cérébral entier
-http://snomed.info/sct;870632003;artère cervicale entière
-http://snomed.info/sct;361684008;colonne vertébrale cervicale entière
-http://snomed.info/sct;1145015006;jonction cervicothoracique vertébrale entière
-http://snomed.info/sct;181453009;col utérin entier
-http://snomed.info/sct;182325008;joue entière
-http://snomed.info/sct;181608004;paroi thoracique entière
-http://snomed.info/sct;264450003;plexus choroïde entier
-http://snomed.info/sct;362047009;cercle de Willis entier
-http://snomed.info/sct;181910004;clavicule entière
-http://snomed.info/sct;302508007;côlon entier
-http://snomed.info/sct;362199009;conduit biliaire commun entier
-http://snomed.info/sct;362041005;artère carotide commune entière
-http://snomed.info/sct;727608008;artère fémorale commune entière
-http://snomed.info/sct;732146000;veine fémorale commune entière
-http://snomed.info/sct;362050007;artère iliaque commune entière
-http://snomed.info/sct;181398004;veine iliaque commune entière
-http://snomed.info/sct;181162001;cornée entière
-http://snomed.info/sct;181294004;artère coronaire entière
-http://snomed.info/sct;244386006;sinus coronaire entier
-http://snomed.info/sct;264452006;cavité crânienne entière
-http://snomed.info/sct;728315009;denture entière
-http://snomed.info/sct;362165006;côlon descendant entier
-http://snomed.info/sct;181301002;aorte thoracique descendante entière
-http://snomed.info/sct;731977000;tube digestif entier
-http://snomed.info/sct;730855009;veine perforante de Dodd entière
-http://snomed.info/sct;181247007;duodénum entier
-http://snomed.info/sct;1910005;oreille entière
-http://snomed.info/sct;76248009;région entière du coude
-http://snomed.info/sct;362257002;cavité utérine entière
-http://snomed.info/sct;278867007;endomètre entier
-http://snomed.info/sct;181432000;épididyme entier
-http://snomed.info/sct;362693006;région épigastrique entière
-http://snomed.info/sct;181245004;œsophage entier
-http://snomed.info/sct;181178004;méat acoustique externe entier
-http://snomed.info/sct;362044002;artère carotide externe entière
-http://snomed.info/sct;181352000;artère iliaque externe entière
-http://snomed.info/sct;181400000;veine iliaque externe entière
-http://snomed.info/sct;181373000;veine jugulaire externe entière
-http://snomed.info/sct;81745001;œil
-http://snomed.info/sct;732141005;région oculaire entière
-http://snomed.info/sct;265782007;paupière entière
-http://snomed.info/sct;302549007;face entière
-http://snomed.info/sct;181328007;artère faciale entière
-http://snomed.info/sct;181799005;ossature entière de la face
-http://snomed.info/sct;181463001;salpinx entier
-http://snomed.info/sct;244332003;artère fémorale entière
-http://snomed.info/sct;362071002;veine fémorale entière
-http://snomed.info/sct;302529003;fibula entière
-http://snomed.info/sct;302541005;doigt entier de la main excepté le pouce
-http://snomed.info/sct;362673003;flanc entier
-http://snomed.info/sct;272681004;fontanelle crânienne entière
-http://snomed.info/sct;302545001;pied entier
-http://snomed.info/sct;362741001;avant-bras entier
-http://snomed.info/sct;180932000;quatrième ventricule cérébral entier
-http://snomed.info/sct;181269000;vésicule biliaire entière
-http://snomed.info/sct;281060006;veine gastrique entière
-http://snomed.info/sct;244333008;artère géniculée entière
-http://snomed.info/sct;277728005;grande veine cardiaque entière
-http://snomed.info/sct;302546000;hallux entier
-http://snomed.info/sct;302539009;main entière
-http://snomed.info/sct;302548004;tête entière
-http://snomed.info/sct;302509004;cœur entier
-http://snomed.info/sct;727223007;artère entière du foie
-http://snomed.info/sct;278191001;veine hépatique entière
-http://snomed.info/sct;302543008;région entière de la hanche
-http://snomed.info/sct;181923006;humérus entier
-http://snomed.info/sct;730856005;veine perforante hunterienne entière
-http://snomed.info/sct;182339008;région entière de l'hypochondre
-http://snomed.info/sct;182348003;région hypogastrique entière
-http://snomed.info/sct;281490009;hypopharynx entier
-http://snomed.info/sct;181249005;iléon entier
-http://snomed.info/sct;244330006;artère iliaque entière
-http://snomed.info/sct;732003000;veine iliaque entière
-http://snomed.info/sct;278013002;veine pulmonaire inférieure gauche entière
-http://snomed.info/sct;181341006;artère mésentérique inférieure entière
-http://snomed.info/sct;278012007;veine pulmonaire inférieure droite entière
-http://snomed.info/sct;181369003;veine cave inférieure entière
-http://snomed.info/sct;278960008;voie afférente entière du ventricule gauche
-http://snomed.info/sct;278950004;voie afférente entière du ventricule droit
-http://snomed.info/sct;204747008;angle infrasternal entier
-http://snomed.info/sct;243962005;région inguinale entière
-http://snomed.info/sct;181189006;oreille interne entière
-http://snomed.info/sct;182176003;articulation entière du carpe
-http://snomed.info/sct;361734005;méat acoustique interne entier de l'os temporal
-http://snomed.info/sct;362045001;artère carotide interne entière
-http://snomed.info/sct;181346001;artère iliaque interne entière
-http://snomed.info/sct;181372005;veine jugulaire interne entière
-http://snomed.info/sct;361929003;partie interne entière du nez
-http://snomed.info/sct;244239009;artère thoracique interne entière
-http://snomed.info/sct;182221001;articulation entière du tarse
-http://snomed.info/sct;244391007;veine intracrânienne entière
-http://snomed.info/sct;181811001;région entière de la mâchoire
-http://snomed.info/sct;181248002;jéjunum entier
-http://snomed.info/sct;302536002;articulation entière
-http://snomed.info/sct;279160004;incisure jugulaire du sternum entière
-http://snomed.info/sct;181414000;rein entier
-http://snomed.info/sct;361291001;région entière du genou
-http://snomed.info/sct;369324002;artère lacrymale entière
-http://snomed.info/sct;181254001;gros intestin entier
-http://snomed.info/sct;181212004;larynx entier
-http://snomed.info/sct;180930008;ventricule latéral entier
-http://snomed.info/sct;244387002;oreillette gauche entière
-http://snomed.info/sct;277930000;appendice auriculaire gauche entier
-http://snomed.info/sct;244385005;ventricule cardiaque gauche entier
-http://snomed.info/sct;55188000;veine hépatique gauche entière
-http://snomed.info/sct;304374005;branche principale gauche entière de la veine porte
-http://snomed.info/sct;243972008;bourse omentale entière
-http://snomed.info/sct;243996003;membre entier
-http://snomed.info/sct;181327002;artère linguale entière
-http://snomed.info/sct;181268008;foie entier
-http://snomed.info/sct;181402008;veine saphène interne entière
-http://snomed.info/sct;243406001;quadrant abdominal inférieur entier
-http://snomed.info/sct;181135009;quadrant mammaire inféro-interne entier
-http://snomed.info/sct;362793004;partie inférieure entière du membre inférieur
-http://snomed.info/sct;182281004;membre inférieur entier
-http://snomed.info/sct;181136005;quadrant mammaire inféroexterne entier
-http://snomed.info/sct;181420004;voies urinaires inférieures entières
-http://snomed.info/sct;244285007;artère lombaire entière
-http://snomed.info/sct;1017226003;région lombaire entière
-http://snomed.info/sct;302506006;plexus lombaire entier
-http://snomed.info/sct;361686005;colonne vertébrale lombaire entière
-http://snomed.info/sct;1145016007;jonction lombosacrée vertébrale entière
-http://snomed.info/sct;727322004;lumière entière d'un vaisseau sanguin
-http://snomed.info/sct;181216001;poumon entier
-http://snomed.info/sct;181756000;nœud lymphatique entier
-http://snomed.info/sct;362715007;grand bassin entier
-http://snomed.info/sct;181812008;mandibule entière
-http://snomed.info/sct;265784008;mastoïde entier
-http://snomed.info/sct;181813003;maxillaire entier
-http://snomed.info/sct;181217005;médiastin entier
-http://snomed.info/sct;281084003;artère mésentérique entière
-http://snomed.info/sct;304045008;veine mésentérique entière
-http://snomed.info/sct;280995004;articulation métacarpophalangienne entière
-http://snomed.info/sct;302535003;articulation métatarsophalangienne entière
-http://snomed.info/sct;181312002;artère cérébrale moyenne entière
-http://snomed.info/sct;54895000;veine hépatique moyenne entière
-http://snomed.info/sct;362717004;petit bassin entier
-http://snomed.info/sct;21082005;région entière de la bouche
-http://snomed.info/sct;770866008;matrice entière de l'ongle
-http://snomed.info/sct;770803002;ongle entier
-http://snomed.info/sct;181801008;os nasal entier
-http://snomed.info/sct;181203001;sinus paranasal entier
-http://snomed.info/sct;179072008;cavité nasopharyngée entière
-http://snomed.info/sct;181200003;nasopharynx entier
-http://snomed.info/sct;302550007;cou entier
-http://snomed.info/sct;256864008;nerf entier
-http://snomed.info/sct;181195007;nez entier
-http://snomed.info/sct;244219005;artère occipitale entière
-http://snomed.info/sct;150289003;veine occipitale entière
-http://snomed.info/sct;362710002;omentum entier
-http://snomed.info/sct;181310005;artère ophtalmique entière
-http://snomed.info/sct;361732009;canal optique entier
-http://snomed.info/sct;363657000;orbite entière proprement dite
-http://snomed.info/sct;272683001;os zygomatique entier
-http://snomed.info/sct;264070001;voie efférente entière du ventricule gauche
-http://snomed.info/sct;264183003;voie efférente entière du ventricule droit
-http://snomed.info/sct;181464007;ovaire entier
-http://snomed.info/sct;181277001;pancréas entier
-http://snomed.info/sct;181278006;conduit pancréatique entier
-http://snomed.info/sct;279232005;région parasternale entière
-http://snomed.info/sct;181121007;glande parathyroïde entière
-http://snomed.info/sct;181234002;glande parotide entière
-http://snomed.info/sct;816977005;segment transverse pelvien entier du tronc
-http://snomed.info/sct;229765004;pelvis entier
-http://snomed.info/sct;731160001;artère pénienne entière
-http://snomed.info/sct;265793009;pénis entier
-http://snomed.info/sct;243990009;périnée entier
-http://snomed.info/sct;181359009;artère péronière entière
-http://snomed.info/sct;181211006;pharynx entier
-http://snomed.info/sct;264194004;fosse hypophysaire entière
-http://snomed.info/sct;181125003;hypophyse entière
-http://snomed.info/sct;181455002;placenta entier
-http://snomed.info/sct;181350008;artère poplitée entière
-http://snomed.info/sct;731976009;fosse poplitée entière
-http://snomed.info/sct;281065001;veine poplitée entière
-http://snomed.info/sct;362064007;veine porte entière
-http://snomed.info/sct;181313007;artère cérébrale postérieure entière
-http://snomed.info/sct;181314001;artère communicante postérieure entière
-http://snomed.info/sct;727505000;affluent médial postérieur entier du système veineux superficiel du membre inférieur
-http://snomed.info/sct;181358001;artère tibiale postérieure entière
-http://snomed.info/sct;60477001;veine postérieure entière du ventricule gauche
-http://snomed.info/sct;361317000;aorte primitive entière
-http://snomed.info/sct;198813007;artère pulmonaire primitive entière
-http://snomed.info/sct;181348000;artère fémorale profonde entière
-http://snomed.info/sct;302640003;veine fémorale profonde entière
-http://snomed.info/sct;181422007;prostate entière
-http://snomed.info/sct;181380003;artère pulmonaire entière
-http://snomed.info/sct;181332001;artère radiale entière
-http://snomed.info/sct;182178002;articulation radiocarpienne entière
-http://snomed.info/sct;181940002;radius entier
-http://snomed.info/sct;181447009;cul-de-sac recto-utérin entier
-http://snomed.info/sct;181261002;rectum entier
-http://snomed.info/sct;243984005;région de l'espace rétropéritonéal en entier
-http://snomed.info/sct;181339005;artère rénale entière
-http://snomed.info/sct;362221007;pelvis rénal entier
-http://snomed.info/sct;181370002;veine rénale entière
-http://snomed.info/sct;302523002;côte entière
-http://snomed.info/sct;244383003;oreillette droite entière
-http://snomed.info/sct;277713005;appendice auriculaire droit entier
-http://snomed.info/sct;244384009;ventricule cardiaque droit entier
-http://snomed.info/sct;18135006;veine hépatique droite entière
-http://snomed.info/sct;304375006;branche principale droite entière de la veine porte
-http://snomed.info/sct;730859003;poche de Rutherford Morison entière
-http://snomed.info/sct;182199004;articulation sacro-iliaque entière
-http://snomed.info/sct;244414002;jonction saphénofémorale entière
-http://snomed.info/sct;732135003;veine saphène entière
-http://snomed.info/sct;181480002;cuir chevelu entier
-http://snomed.info/sct;302517007;scapula entière
-http://snomed.info/sct;181163006;sclère entière
-http://snomed.info/sct;265794003;scrotum entier
-http://snomed.info/sct;181434004;vésicule séminale entière
-http://snomed.info/sct;1163304004;ganglion sentinelle entier
-http://snomed.info/sct;244675002;os sésamoïde entier du pied
-http://snomed.info/sct;361103004;région entière de l'épaule
-http://snomed.info/sct;362166007;côlon sigmoïde entier
-http://snomed.info/sct;245012000;muscle squelettique entier du membre inférieur
-http://snomed.info/sct;244978002;muscle squelettique entier du membre supérieur
-http://snomed.info/sct;361378004;squelette entier
-http://snomed.info/sct;181250005;intestin grêle entier
-http://snomed.info/sct;180959008;moelle spinale entière
-http://snomed.info/sct;181279003;rate entière
-http://snomed.info/sct;244266009;artère splénique entière
-http://snomed.info/sct;278029005;veine splénique entière
-http://snomed.info/sct;182165002;articulation sternoclaviculaire entière
-http://snomed.info/sct;302522007;sternum entier
-http://snomed.info/sct;181246003;estomac entier
-http://snomed.info/sct;265790007;artère subclavière entière
-http://snomed.info/sct;181388005;veine subclavière entière
-http://snomed.info/sct;361357002;zone sous-mandibulaire entière
-http://snomed.info/sct;727093009;appareil salivaire sous-maxillaire entier
-http://snomed.info/sct;362635002;trigone submental entier
-http://snomed.info/sct;727609000;artère fémorale superficielle entière
-http://snomed.info/sct;732147009;veine fémorale superficielle entière
-http://snomed.info/sct;181325005;artère temporale superficielle entière
-http://snomed.info/sct;278014008;veine pulmonaire supérieure gauche entière
-http://snomed.info/sct;362048004;artère mésentérique supérieure entière
-http://snomed.info/sct;278011000;veine pulmonaire supérieure droite entière
-http://snomed.info/sct;244218002;artère thyroïdienne supérieure entière
-http://snomed.info/sct;181368006;veine cave supérieure entière
-http://snomed.info/sct;362656000;région supraclaviculaire entière du cou
-http://snomed.info/sct;181795004;os temporal entier
-http://snomed.info/sct;181814009;articulation temporomandibulaire entière
-http://snomed.info/sct;181431007;testicule entier
-http://snomed.info/sct;244433007;thalamus entier
-http://snomed.info/sct;302544002;cuisse entière
-http://snomed.info/sct;180931007;troisième ventricule cérébral entier
-http://snomed.info/sct;302510009;aorte thoracique entière
-http://snomed.info/sct;243949006;cavité thoracique entière
-http://snomed.info/sct;243931006;colonne vertébrale thoracique entière
-http://snomed.info/sct;1145018008;jonction thoracolombaire vertébrale entière
-http://snomed.info/sct;302551006;thorax entier
-http://snomed.info/sct;302540006;pouce entier
-http://snomed.info/sct;118507000;thymus entier
-http://snomed.info/sct;181117000;glande thyroïde entière
-http://snomed.info/sct;182061009;tibia entier
-http://snomed.info/sct;302547009;orteil entier
-http://snomed.info/sct;181226008;langue entière
-http://snomed.info/sct;302214001;dent entière
-http://snomed.info/sct;181213009;trachée entière
-http://snomed.info/sct;362163004;côlon transverse entier
-http://snomed.info/sct;181948009;ulna entier
-http://snomed.info/sct;181333006;artère ulnaire entière
-http://snomed.info/sct;261404000;artère ombilicale entière
-http://snomed.info/sct;61660003;partie ombilicale entière de la veine porte
-http://snomed.info/sct;243961003;région ombilicale entière
-http://snomed.info/sct;243382001;quadrant abdominal supérieur entier
-http://snomed.info/sct;302538001;partie supérieure entière du membre supérieur
-http://snomed.info/sct;181132007;quadrant mammaire supéro-interne entier
-http://snomed.info/sct;182245002;membre supérieur entier
-http://snomed.info/sct;181134008;quadrant mammaire supéroexterne entier
-http://snomed.info/sct;731430002;voies urinaires supérieures entières proprement dites
-http://snomed.info/sct;302511008;uretère entier
-http://snomed.info/sct;302513006;urètre entier
-http://snomed.info/sct;302512001;vessie entière
-http://snomed.info/sct;279405003;cavité entière de la vessie
-http://snomed.info/sct;181452004;utérus entier
-http://snomed.info/sct;181441005;vagin entier
-http://snomed.info/sct;181367001;veine entière
-http://snomed.info/sct;430160002;veine pulmonaire entière
-http://snomed.info/sct;322151008;réseau veineux entier
-http://snomed.info/sct;181323003;artère vertébrale entière
-http://snomed.info/sct;44300000;colonne vertébrale entière
-http://snomed.info/sct;265796001;vulve entière
-http://snomed.info/sct;822993002;paroi abdominale entière
-http://snomed.info/sct;361289009;région entière du poignet
-http://snomed.info/sct;127962001;diverticule de l'iléon
-http://snomed.info/sct;39937001;peau
+2.16.840.1.113883.6.96;302553009;abdomen entier
+2.16.840.1.113883.6.96;244231007;aorte abdominale entière
+2.16.840.1.113883.6.96;897132006;segment transverse abdominal entier du tronc
+2.16.840.1.113883.6.96;822978001;cavité abdominopelvienne entière
+2.16.840.1.113883.6.96;182166001;articulation acromioclaviculaire entière
+2.16.840.1.113883.6.96;181127006;glande suprarénale entière
+2.16.840.1.113883.6.96;361292008;région entière de la cheville
+2.16.840.1.113883.6.96;399978003;veine cubitale antérieure entière
+2.16.840.1.113883.6.96;43967001;veine cardiaque antérieure entière
+2.16.840.1.113883.6.96;181309000;artère cérébrale antérieure entière
+2.16.840.1.113883.6.96;181311009;artère communicante antérieure entière
+2.16.840.1.113883.6.96;181329004;artère vertébrale antérieure entière
+2.16.840.1.113883.6.96;181357006;artère tibiale antérieure entière
+2.16.840.1.113883.6.96;181262009;anus entier
+2.16.840.1.113883.6.96;181298001;aorte entière
+2.16.840.1.113883.6.96;181300001;arc aortique entier
+2.16.840.1.113883.6.96;264843009;apex entier du ventricule gauche
+2.16.840.1.113883.6.96;314790003;apex pulmonaire entier
+2.16.840.1.113883.6.96;264913008;apex entier du ventricule droit
+2.16.840.1.113883.6.96;181255000;appendice entier
+2.16.840.1.113883.6.96;730364005;zone entière du méat acoustique interne
+2.16.840.1.113883.6.96;362877004;artère entière
+2.16.840.1.113883.6.96;244324006;artère entière d'un membre inférieur
+2.16.840.1.113883.6.96;244310007;artère entière d'un membre supérieur
+2.16.840.1.113883.6.96;181299009;aorte ascendante entière
+2.16.840.1.113883.6.96;362162009;côlon ascendant entier
+2.16.840.1.113883.6.96;261405004;oreillette cardiaque entière
+2.16.840.1.113883.6.96;181321001;artère axillaire entière
+2.16.840.1.113883.6.96;362732006;région axillaire entière
+2.16.840.1.113883.6.96;181389002;veine axillaire entière
+2.16.840.1.113883.6.96;244407004;veine azygos entière
+2.16.840.1.113883.6.96;244215004;artère basilaire entière
+2.16.840.1.113883.6.96;276157007;conduit biliaire entier
+2.16.840.1.113883.6.96;181267003;voies biliaires entières
+2.16.840.1.113883.6.96;361097006;vaisseau sanguin entier
+2.16.840.1.113883.6.96;38266002;corps entier
+2.16.840.1.113883.6.96;346902003;conduit corporel entier
+2.16.840.1.113883.6.96;731691008;coccyx entier
+2.16.840.1.113883.6.96;731717004;crâne entier
+2.16.840.1.113883.6.96;731698002;fémur entier
+2.16.840.1.113883.6.96;731660002;ilion entier
+2.16.840.1.113883.6.96;361370006;os entier du membre inférieur
+2.16.840.1.113883.6.96;731690009;patella entière
+2.16.840.1.113883.6.96;368532003;os entier du membre supérieur
+2.16.840.1.113883.6.96;731684005;sacrum entier
+2.16.840.1.113883.6.96;730852007;veine perforante de Boyd entière
+2.16.840.1.113883.6.96;181322008;artère brachiale entière
+2.16.840.1.113883.6.96;181002002;plexus brachial entier
+2.16.840.1.113883.6.96;181390006;veine brachiale entière
+2.16.840.1.113883.6.96;244244002;tronc artériel brachiocéphalique entier
+2.16.840.1.113883.6.96;181371003;veine brachiocéphalique entière
+2.16.840.1.113883.6.96;258335003;encéphale entier
+2.16.840.1.113883.6.96;181131000;sein entier
+2.16.840.1.113883.6.96;362723009;ligament large entier
+2.16.840.1.113883.6.96;181215002;bronche entière
+2.16.840.1.113883.6.96;244247009;artère bronchique entière
+2.16.840.1.113883.6.96;362677002;fesse entière
+2.16.840.1.113883.6.96;182099002;calcanéum entier
+2.16.840.1.113883.6.96;244015008;mollet entier
+2.16.840.1.113883.6.96;276832000;calice rénal entier
+2.16.840.1.113883.6.96;277699000;ventricule cardiaque entier
+2.16.840.1.113883.6.96;362040006;artère carotide entière
+2.16.840.1.113883.6.96;281137000;sinus carotidien entier
+2.16.840.1.113883.6.96;897047000;cavité entière du grand bassin
+2.16.840.1.113883.6.96;818953007;cavité entière du petit bassin
+2.16.840.1.113883.6.96;181340007;tronc cœliaque entier
+2.16.840.1.113883.6.96;181391005;veine céphalique entière
+2.16.840.1.113883.6.96;180924008;cervelet entier
+2.16.840.1.113883.6.96;181308008;artère cérébrale entière
+2.16.840.1.113883.6.96;278251007;hémisphère cérébral entier
+2.16.840.1.113883.6.96;870632003;artère cervicale entière
+2.16.840.1.113883.6.96;361684008;colonne vertébrale cervicale entière
+2.16.840.1.113883.6.96;1145015006;jonction cervicothoracique vertébrale entière
+2.16.840.1.113883.6.96;181453009;col utérin entier
+2.16.840.1.113883.6.96;182325008;joue entière
+2.16.840.1.113883.6.96;181608004;paroi thoracique entière
+2.16.840.1.113883.6.96;264450003;plexus choroïde entier
+2.16.840.1.113883.6.96;362047009;cercle de Willis entier
+2.16.840.1.113883.6.96;181910004;clavicule entière
+2.16.840.1.113883.6.96;302508007;côlon entier
+2.16.840.1.113883.6.96;362199009;conduit biliaire commun entier
+2.16.840.1.113883.6.96;362041005;artère carotide commune entière
+2.16.840.1.113883.6.96;727608008;artère fémorale commune entière
+2.16.840.1.113883.6.96;732146000;veine fémorale commune entière
+2.16.840.1.113883.6.96;362050007;artère iliaque commune entière
+2.16.840.1.113883.6.96;181398004;veine iliaque commune entière
+2.16.840.1.113883.6.96;181162001;cornée entière
+2.16.840.1.113883.6.96;181294004;artère coronaire entière
+2.16.840.1.113883.6.96;244386006;sinus coronaire entier
+2.16.840.1.113883.6.96;264452006;cavité crânienne entière
+2.16.840.1.113883.6.96;728315009;denture entière
+2.16.840.1.113883.6.96;362165006;côlon descendant entier
+2.16.840.1.113883.6.96;181301002;aorte thoracique descendante entière
+2.16.840.1.113883.6.96;731977000;tube digestif entier
+2.16.840.1.113883.6.96;730855009;veine perforante de Dodd entière
+2.16.840.1.113883.6.96;181247007;duodénum entier
+2.16.840.1.113883.6.96;1910005;oreille entière
+2.16.840.1.113883.6.96;76248009;région entière du coude
+2.16.840.1.113883.6.96;362257002;cavité utérine entière
+2.16.840.1.113883.6.96;278867007;endomètre entier
+2.16.840.1.113883.6.96;181432000;épididyme entier
+2.16.840.1.113883.6.96;362693006;région épigastrique entière
+2.16.840.1.113883.6.96;181245004;œsophage entier
+2.16.840.1.113883.6.96;181178004;méat acoustique externe entier
+2.16.840.1.113883.6.96;362044002;artère carotide externe entière
+2.16.840.1.113883.6.96;181352000;artère iliaque externe entière
+2.16.840.1.113883.6.96;181400000;veine iliaque externe entière
+2.16.840.1.113883.6.96;181373000;veine jugulaire externe entière
+2.16.840.1.113883.6.96;81745001;œil
+2.16.840.1.113883.6.96;732141005;région oculaire entière
+2.16.840.1.113883.6.96;265782007;paupière entière
+2.16.840.1.113883.6.96;302549007;face entière
+2.16.840.1.113883.6.96;181328007;artère faciale entière
+2.16.840.1.113883.6.96;181799005;ossature entière de la face
+2.16.840.1.113883.6.96;181463001;salpinx entier
+2.16.840.1.113883.6.96;244332003;artère fémorale entière
+2.16.840.1.113883.6.96;362071002;veine fémorale entière
+2.16.840.1.113883.6.96;302529003;fibula entière
+2.16.840.1.113883.6.96;302541005;doigt entier de la main excepté le pouce
+2.16.840.1.113883.6.96;362673003;flanc entier
+2.16.840.1.113883.6.96;272681004;fontanelle crânienne entière
+2.16.840.1.113883.6.96;302545001;pied entier
+2.16.840.1.113883.6.96;362741001;avant-bras entier
+2.16.840.1.113883.6.96;180932000;quatrième ventricule cérébral entier
+2.16.840.1.113883.6.96;181269000;vésicule biliaire entière
+2.16.840.1.113883.6.96;281060006;veine gastrique entière
+2.16.840.1.113883.6.96;244333008;artère géniculée entière
+2.16.840.1.113883.6.96;277728005;grande veine cardiaque entière
+2.16.840.1.113883.6.96;302546000;hallux entier
+2.16.840.1.113883.6.96;302539009;main entière
+2.16.840.1.113883.6.96;302548004;tête entière
+2.16.840.1.113883.6.96;302509004;cœur entier
+2.16.840.1.113883.6.96;727223007;artère entière du foie
+2.16.840.1.113883.6.96;278191001;veine hépatique entière
+2.16.840.1.113883.6.96;302543008;région entière de la hanche
+2.16.840.1.113883.6.96;181923006;humérus entier
+2.16.840.1.113883.6.96;730856005;veine perforante hunterienne entière
+2.16.840.1.113883.6.96;182339008;région entière de l'hypochondre
+2.16.840.1.113883.6.96;182348003;région hypogastrique entière
+2.16.840.1.113883.6.96;281490009;hypopharynx entier
+2.16.840.1.113883.6.96;181249005;iléon entier
+2.16.840.1.113883.6.96;244330006;artère iliaque entière
+2.16.840.1.113883.6.96;732003000;veine iliaque entière
+2.16.840.1.113883.6.96;278013002;veine pulmonaire inférieure gauche entière
+2.16.840.1.113883.6.96;181341006;artère mésentérique inférieure entière
+2.16.840.1.113883.6.96;278012007;veine pulmonaire inférieure droite entière
+2.16.840.1.113883.6.96;181369003;veine cave inférieure entière
+2.16.840.1.113883.6.96;278960008;voie afférente entière du ventricule gauche
+2.16.840.1.113883.6.96;278950004;voie afférente entière du ventricule droit
+2.16.840.1.113883.6.96;204747008;angle infrasternal entier
+2.16.840.1.113883.6.96;243962005;région inguinale entière
+2.16.840.1.113883.6.96;181189006;oreille interne entière
+2.16.840.1.113883.6.96;182176003;articulation entière du carpe
+2.16.840.1.113883.6.96;361734005;méat acoustique interne entier de l'os temporal
+2.16.840.1.113883.6.96;362045001;artère carotide interne entière
+2.16.840.1.113883.6.96;181346001;artère iliaque interne entière
+2.16.840.1.113883.6.96;181372005;veine jugulaire interne entière
+2.16.840.1.113883.6.96;361929003;partie interne entière du nez
+2.16.840.1.113883.6.96;244239009;artère thoracique interne entière
+2.16.840.1.113883.6.96;182221001;articulation entière du tarse
+2.16.840.1.113883.6.96;244391007;veine intracrânienne entière
+2.16.840.1.113883.6.96;181811001;région entière de la mâchoire
+2.16.840.1.113883.6.96;181248002;jéjunum entier
+2.16.840.1.113883.6.96;302536002;articulation entière
+2.16.840.1.113883.6.96;279160004;incisure jugulaire du sternum entière
+2.16.840.1.113883.6.96;181414000;rein entier
+2.16.840.1.113883.6.96;361291001;région entière du genou
+2.16.840.1.113883.6.96;369324002;artère lacrymale entière
+2.16.840.1.113883.6.96;181254001;gros intestin entier
+2.16.840.1.113883.6.96;181212004;larynx entier
+2.16.840.1.113883.6.96;180930008;ventricule latéral entier
+2.16.840.1.113883.6.96;244387002;oreillette gauche entière
+2.16.840.1.113883.6.96;277930000;appendice auriculaire gauche entier
+2.16.840.1.113883.6.96;244385005;ventricule cardiaque gauche entier
+2.16.840.1.113883.6.96;55188000;veine hépatique gauche entière
+2.16.840.1.113883.6.96;304374005;branche principale gauche entière de la veine porte
+2.16.840.1.113883.6.96;243972008;bourse omentale entière
+2.16.840.1.113883.6.96;243996003;membre entier
+2.16.840.1.113883.6.96;181327002;artère linguale entière
+2.16.840.1.113883.6.96;181268008;foie entier
+2.16.840.1.113883.6.96;181402008;veine saphène interne entière
+2.16.840.1.113883.6.96;243406001;quadrant abdominal inférieur entier
+2.16.840.1.113883.6.96;181135009;quadrant mammaire inféro-interne entier
+2.16.840.1.113883.6.96;362793004;partie inférieure entière du membre inférieur
+2.16.840.1.113883.6.96;182281004;membre inférieur entier
+2.16.840.1.113883.6.96;181136005;quadrant mammaire inféroexterne entier
+2.16.840.1.113883.6.96;181420004;voies urinaires inférieures entières
+2.16.840.1.113883.6.96;244285007;artère lombaire entière
+2.16.840.1.113883.6.96;1017226003;région lombaire entière
+2.16.840.1.113883.6.96;302506006;plexus lombaire entier
+2.16.840.1.113883.6.96;361686005;colonne vertébrale lombaire entière
+2.16.840.1.113883.6.96;1145016007;jonction lombosacrée vertébrale entière
+2.16.840.1.113883.6.96;727322004;lumière entière d'un vaisseau sanguin
+2.16.840.1.113883.6.96;181216001;poumon entier
+2.16.840.1.113883.6.96;181756000;nœud lymphatique entier
+2.16.840.1.113883.6.96;362715007;grand bassin entier
+2.16.840.1.113883.6.96;181812008;mandibule entière
+2.16.840.1.113883.6.96;265784008;mastoïde entier
+2.16.840.1.113883.6.96;181813003;maxillaire entier
+2.16.840.1.113883.6.96;181217005;médiastin entier
+2.16.840.1.113883.6.96;281084003;artère mésentérique entière
+2.16.840.1.113883.6.96;304045008;veine mésentérique entière
+2.16.840.1.113883.6.96;280995004;articulation métacarpophalangienne entière
+2.16.840.1.113883.6.96;302535003;articulation métatarsophalangienne entière
+2.16.840.1.113883.6.96;181312002;artère cérébrale moyenne entière
+2.16.840.1.113883.6.96;54895000;veine hépatique moyenne entière
+2.16.840.1.113883.6.96;362717004;petit bassin entier
+2.16.840.1.113883.6.96;21082005;région entière de la bouche
+2.16.840.1.113883.6.96;770866008;matrice entière de l'ongle
+2.16.840.1.113883.6.96;770803002;ongle entier
+2.16.840.1.113883.6.96;181801008;os nasal entier
+2.16.840.1.113883.6.96;181203001;sinus paranasal entier
+2.16.840.1.113883.6.96;179072008;cavité nasopharyngée entière
+2.16.840.1.113883.6.96;181200003;nasopharynx entier
+2.16.840.1.113883.6.96;302550007;cou entier
+2.16.840.1.113883.6.96;256864008;nerf entier
+2.16.840.1.113883.6.96;181195007;nez entier
+2.16.840.1.113883.6.96;244219005;artère occipitale entière
+2.16.840.1.113883.6.96;150289003;veine occipitale entière
+2.16.840.1.113883.6.96;362710002;omentum entier
+2.16.840.1.113883.6.96;181310005;artère ophtalmique entière
+2.16.840.1.113883.6.96;361732009;canal optique entier
+2.16.840.1.113883.6.96;363657000;orbite entière proprement dite
+2.16.840.1.113883.6.96;272683001;os zygomatique entier
+2.16.840.1.113883.6.96;264070001;voie efférente entière du ventricule gauche
+2.16.840.1.113883.6.96;264183003;voie efférente entière du ventricule droit
+2.16.840.1.113883.6.96;181464007;ovaire entier
+2.16.840.1.113883.6.96;181277001;pancréas entier
+2.16.840.1.113883.6.96;181278006;conduit pancréatique entier
+2.16.840.1.113883.6.96;279232005;région parasternale entière
+2.16.840.1.113883.6.96;181121007;glande parathyroïde entière
+2.16.840.1.113883.6.96;181234002;glande parotide entière
+2.16.840.1.113883.6.96;816977005;segment transverse pelvien entier du tronc
+2.16.840.1.113883.6.96;229765004;pelvis entier
+2.16.840.1.113883.6.96;731160001;artère pénienne entière
+2.16.840.1.113883.6.96;265793009;pénis entier
+2.16.840.1.113883.6.96;243990009;périnée entier
+2.16.840.1.113883.6.96;181359009;artère péronière entière
+2.16.840.1.113883.6.96;181211006;pharynx entier
+2.16.840.1.113883.6.96;264194004;fosse hypophysaire entière
+2.16.840.1.113883.6.96;181125003;hypophyse entière
+2.16.840.1.113883.6.96;181455002;placenta entier
+2.16.840.1.113883.6.96;181350008;artère poplitée entière
+2.16.840.1.113883.6.96;731976009;fosse poplitée entière
+2.16.840.1.113883.6.96;281065001;veine poplitée entière
+2.16.840.1.113883.6.96;362064007;veine porte entière
+2.16.840.1.113883.6.96;181313007;artère cérébrale postérieure entière
+2.16.840.1.113883.6.96;181314001;artère communicante postérieure entière
+2.16.840.1.113883.6.96;727505000;affluent médial postérieur entier du système veineux superficiel du membre inférieur
+2.16.840.1.113883.6.96;181358001;artère tibiale postérieure entière
+2.16.840.1.113883.6.96;60477001;veine postérieure entière du ventricule gauche
+2.16.840.1.113883.6.96;361317000;aorte primitive entière
+2.16.840.1.113883.6.96;198813007;artère pulmonaire primitive entière
+2.16.840.1.113883.6.96;181348000;artère fémorale profonde entière
+2.16.840.1.113883.6.96;302640003;veine fémorale profonde entière
+2.16.840.1.113883.6.96;181422007;prostate entière
+2.16.840.1.113883.6.96;181380003;artère pulmonaire entière
+2.16.840.1.113883.6.96;181332001;artère radiale entière
+2.16.840.1.113883.6.96;182178002;articulation radiocarpienne entière
+2.16.840.1.113883.6.96;181940002;radius entier
+2.16.840.1.113883.6.96;181447009;cul-de-sac recto-utérin entier
+2.16.840.1.113883.6.96;181261002;rectum entier
+2.16.840.1.113883.6.96;243984005;région de l'espace rétropéritonéal en entier
+2.16.840.1.113883.6.96;181339005;artère rénale entière
+2.16.840.1.113883.6.96;362221007;pelvis rénal entier
+2.16.840.1.113883.6.96;181370002;veine rénale entière
+2.16.840.1.113883.6.96;302523002;côte entière
+2.16.840.1.113883.6.96;244383003;oreillette droite entière
+2.16.840.1.113883.6.96;277713005;appendice auriculaire droit entier
+2.16.840.1.113883.6.96;244384009;ventricule cardiaque droit entier
+2.16.840.1.113883.6.96;18135006;veine hépatique droite entière
+2.16.840.1.113883.6.96;304375006;branche principale droite entière de la veine porte
+2.16.840.1.113883.6.96;730859003;poche de Rutherford Morison entière
+2.16.840.1.113883.6.96;182199004;articulation sacro-iliaque entière
+2.16.840.1.113883.6.96;244414002;jonction saphénofémorale entière
+2.16.840.1.113883.6.96;732135003;veine saphène entière
+2.16.840.1.113883.6.96;181480002;cuir chevelu entier
+2.16.840.1.113883.6.96;302517007;scapula entière
+2.16.840.1.113883.6.96;181163006;sclère entière
+2.16.840.1.113883.6.96;265794003;scrotum entier
+2.16.840.1.113883.6.96;181434004;vésicule séminale entière
+2.16.840.1.113883.6.96;1163304004;ganglion sentinelle entier
+2.16.840.1.113883.6.96;244675002;os sésamoïde entier du pied
+2.16.840.1.113883.6.96;361103004;région entière de l'épaule
+2.16.840.1.113883.6.96;362166007;côlon sigmoïde entier
+2.16.840.1.113883.6.96;245012000;muscle squelettique entier du membre inférieur
+2.16.840.1.113883.6.96;244978002;muscle squelettique entier du membre supérieur
+2.16.840.1.113883.6.96;361378004;squelette entier
+2.16.840.1.113883.6.96;181250005;intestin grêle entier
+2.16.840.1.113883.6.96;180959008;moelle spinale entière
+2.16.840.1.113883.6.96;181279003;rate entière
+2.16.840.1.113883.6.96;244266009;artère splénique entière
+2.16.840.1.113883.6.96;278029005;veine splénique entière
+2.16.840.1.113883.6.96;182165002;articulation sternoclaviculaire entière
+2.16.840.1.113883.6.96;302522007;sternum entier
+2.16.840.1.113883.6.96;181246003;estomac entier
+2.16.840.1.113883.6.96;265790007;artère subclavière entière
+2.16.840.1.113883.6.96;181388005;veine subclavière entière
+2.16.840.1.113883.6.96;361357002;zone sous-mandibulaire entière
+2.16.840.1.113883.6.96;727093009;appareil salivaire sous-maxillaire entier
+2.16.840.1.113883.6.96;362635002;trigone submental entier
+2.16.840.1.113883.6.96;727609000;artère fémorale superficielle entière
+2.16.840.1.113883.6.96;732147009;veine fémorale superficielle entière
+2.16.840.1.113883.6.96;181325005;artère temporale superficielle entière
+2.16.840.1.113883.6.96;278014008;veine pulmonaire supérieure gauche entière
+2.16.840.1.113883.6.96;362048004;artère mésentérique supérieure entière
+2.16.840.1.113883.6.96;278011000;veine pulmonaire supérieure droite entière
+2.16.840.1.113883.6.96;244218002;artère thyroïdienne supérieure entière
+2.16.840.1.113883.6.96;181368006;veine cave supérieure entière
+2.16.840.1.113883.6.96;362656000;région supraclaviculaire entière du cou
+2.16.840.1.113883.6.96;181795004;os temporal entier
+2.16.840.1.113883.6.96;181814009;articulation temporomandibulaire entière
+2.16.840.1.113883.6.96;181431007;testicule entier
+2.16.840.1.113883.6.96;244433007;thalamus entier
+2.16.840.1.113883.6.96;302544002;cuisse entière
+2.16.840.1.113883.6.96;180931007;troisième ventricule cérébral entier
+2.16.840.1.113883.6.96;302510009;aorte thoracique entière
+2.16.840.1.113883.6.96;243949006;cavité thoracique entière
+2.16.840.1.113883.6.96;243931006;colonne vertébrale thoracique entière
+2.16.840.1.113883.6.96;1145018008;jonction thoracolombaire vertébrale entière
+2.16.840.1.113883.6.96;302551006;thorax entier
+2.16.840.1.113883.6.96;302540006;pouce entier
+2.16.840.1.113883.6.96;118507000;thymus entier
+2.16.840.1.113883.6.96;181117000;glande thyroïde entière
+2.16.840.1.113883.6.96;182061009;tibia entier
+2.16.840.1.113883.6.96;302547009;orteil entier
+2.16.840.1.113883.6.96;181226008;langue entière
+2.16.840.1.113883.6.96;302214001;dent entière
+2.16.840.1.113883.6.96;181213009;trachée entière
+2.16.840.1.113883.6.96;362163004;côlon transverse entier
+2.16.840.1.113883.6.96;181948009;ulna entier
+2.16.840.1.113883.6.96;181333006;artère ulnaire entière
+2.16.840.1.113883.6.96;261404000;artère ombilicale entière
+2.16.840.1.113883.6.96;61660003;partie ombilicale entière de la veine porte
+2.16.840.1.113883.6.96;243961003;région ombilicale entière
+2.16.840.1.113883.6.96;243382001;quadrant abdominal supérieur entier
+2.16.840.1.113883.6.96;302538001;partie supérieure entière du membre supérieur
+2.16.840.1.113883.6.96;181132007;quadrant mammaire supéro-interne entier
+2.16.840.1.113883.6.96;182245002;membre supérieur entier
+2.16.840.1.113883.6.96;181134008;quadrant mammaire supéroexterne entier
+2.16.840.1.113883.6.96;731430002;voies urinaires supérieures entières proprement dites
+2.16.840.1.113883.6.96;302511008;uretère entier
+2.16.840.1.113883.6.96;302513006;urètre entier
+2.16.840.1.113883.6.96;302512001;vessie entière
+2.16.840.1.113883.6.96;279405003;cavité entière de la vessie
+2.16.840.1.113883.6.96;181452004;utérus entier
+2.16.840.1.113883.6.96;181441005;vagin entier
+2.16.840.1.113883.6.96;181367001;veine entière
+2.16.840.1.113883.6.96;430160002;veine pulmonaire entière
+2.16.840.1.113883.6.96;322151008;réseau veineux entier
+2.16.840.1.113883.6.96;181323003;artère vertébrale entière
+2.16.840.1.113883.6.96;44300000;colonne vertébrale entière
+2.16.840.1.113883.6.96;265796001;vulve entière
+2.16.840.1.113883.6.96;822993002;paroi abdominale entière
+2.16.840.1.113883.6.96;361289009;région entière du poignet
+2.16.840.1.113883.6.96;127962001;diverticule de l'iléon
+2.16.840.1.113883.6.96;39937001;peau

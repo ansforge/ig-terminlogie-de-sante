@@ -11,10 +11,10 @@
              urlFichier="">
       <ConceptList>
          <Concept code="83185005"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="sensibilité"/>
          <Concept code="30714006"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="résistance"/>
       </ConceptList>
    </ValueSet>

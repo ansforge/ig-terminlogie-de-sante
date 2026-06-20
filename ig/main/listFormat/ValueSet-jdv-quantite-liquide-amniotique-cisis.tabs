@@ -3,5 +3,5 @@
 <OID>;<Code>;<Libellé>
 http://hl7.org/fhir/sid/icd-10;O40;Hydramnios
 http://hl7.org/fhir/sid/icd-10;O41.0;Oligoamnios
-http://snomed.info/sct;278092006;volume de liquide amniotique dans l'intervalle de référence
-http://snomed.info/sct;289297007;liquide amniotique absent
+2.16.840.1.113883.6.96;278092006;volume de liquide amniotique dans l'intervalle de référence
+2.16.840.1.113883.6.96;289297007;liquide amniotique absent

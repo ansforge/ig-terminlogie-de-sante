@@ -11,19 +11,19 @@
              urlFichier="">
       <ConceptList>
          <Concept code="10828004"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="positif(-ive)"/>
          <Concept code="260385009"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="négatif(-ive)"/>
          <Concept code="385660001"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="non effectué"/>
          <Concept code="385432009"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="non applicable"/>
          <Concept code="261665006"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="inconnu(e)"/>
       </ConceptList>
    </ValueSet>

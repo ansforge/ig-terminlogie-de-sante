@@ -6,5 +6,5 @@
 1.2.250.1.215.300.1;JNED001;Réduction manuelle d’inversion utérine
 1.2.250.1.215.300.1;JNBD002;Ballonnets intra-utérin
 1.2.250.1.213.1.1.4.322;GEN-092.04.02;Autre acte réalisé en postpartum immédiat
-http://snomed.info/sct;49149002;exploration manuelle post-partum de l'utérus
-http://snomed.info/sct;57238002;embolisation artérielle sélective
+2.16.840.1.113883.6.96;49149002;exploration manuelle post-partum de l'utérus
+2.16.840.1.113883.6.96;57238002;embolisation artérielle sélective

@@ -11,34 +11,34 @@
              urlFichier="">
       <ConceptList>
          <Concept code="63337009"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="segment abdominopelvien du tronc"/>
          <Concept code="38266002"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="corps entier"/>
          <Concept code="53120007"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="membre supérieur"/>
          <Concept code="61685007"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="membre inférieur"/>
          <Concept code="67734004"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="segment thoracique du tronc"/>
          <Concept code="774007"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="tête et/ou cou"/>
          <Concept code="113257007"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="système cardiovasculaire"/>
          <Concept code="80891009"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="cœur"/>
          <Concept code="76752008"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="sein"/>
          <Concept code="737561001"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="colonne vertébrale et/ou moelle épinière"/>
       </ConceptList>
    </ValueSet>

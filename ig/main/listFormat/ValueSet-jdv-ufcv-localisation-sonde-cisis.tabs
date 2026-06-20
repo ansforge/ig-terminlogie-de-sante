@@ -4,11 +4,11 @@
 1.2.250.1.213.1.1.4.322;MED-1314;Paroi Libre de l’OD
 1.2.250.1.213.1.1.4.322;MED-1315;Plancher VD
 1.2.250.1.213.1.1.4.322;MED-1316;Veine cardiaque latérale gauche
-http://snomed.info/sct;13383001;apex du cœur
-http://snomed.info/sct;49082002;petite veine cardiaque
-http://snomed.info/sct;5928000;grande veine cardiaque
-http://snomed.info/sct;589001;septum interventriculaire
-http://snomed.info/sct;44627009;voie efférente du ventricule droit
-http://snomed.info/sct;6871001;péricarde viscéral
-http://snomed.info/sct;68300000;appendice atrial droite
-http://snomed.info/sct;195416006;veine postérieure du ventricule gauche
+2.16.840.1.113883.6.96;13383001;apex du cœur
+2.16.840.1.113883.6.96;49082002;petite veine cardiaque
+2.16.840.1.113883.6.96;5928000;grande veine cardiaque
+2.16.840.1.113883.6.96;589001;septum interventriculaire
+2.16.840.1.113883.6.96;44627009;voie efférente du ventricule droit
+2.16.840.1.113883.6.96;6871001;péricarde viscéral
+2.16.840.1.113883.6.96;68300000;appendice atrial droite
+2.16.840.1.113883.6.96;195416006;veine postérieure du ventricule gauche

@@ -14,19 +14,19 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Aucun signe à ce jour ou porteur sain"/>
          <Concept code="255407002"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="néonatal"/>
          <Concept code="767023003"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="période de la vie entre la naissance et la mort"/>
          <Concept code="373068000"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="indéterminé(e)"/>
          <Concept code="303112003"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="période fœtale"/>
          <Concept code="303113008"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="période postmortem"/>
       </ConceptList>
    </ValueSet>

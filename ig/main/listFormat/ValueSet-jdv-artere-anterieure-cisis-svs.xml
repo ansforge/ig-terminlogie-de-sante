@@ -23,16 +23,16 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Artère cérébrale moyenne territoire profond"/>
          <Concept code="8752000"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="partie caverneuse de l'artère carotide interne"/>
          <Concept code="60176003"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="ACA - artère cérébrale antérieure"/>
          <Concept code="17232002"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="artère cérébrale moyenne"/>
          <Concept code="59920002"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="artère choroïdienne antérieure"/>
       </ConceptList>
    </ValueSet>

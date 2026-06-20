@@ -17,10 +17,10 @@
                   codeSystem="http://hl7.org/fhir/sid/icd-10"
                   displayName="Oligoamnios"/>
          <Concept code="278092006"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="volume de liquide amniotique dans l'intervalle de référence"/>
          <Concept code="289297007"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="liquide amniotique absent"/>
       </ConceptList>
    </ValueSet>

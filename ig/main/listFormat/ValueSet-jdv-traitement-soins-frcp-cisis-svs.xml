@@ -23,22 +23,22 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="RCP Cancers rares"/>
          <Concept code="410240006"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="prise en charge du traitement de la douleur"/>
          <Concept code="103735009"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="soin palliatif"/>
          <Concept code="258174001"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="imagerie interventionnelle"/>
          <Concept code="243114000"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="soin de support"/>
          <Concept code="394593009"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="oncologie médicale"/>
          <Concept code="702596005"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="procédure de préservation de la fertilité"/>
       </ConceptList>
    </ValueSet>

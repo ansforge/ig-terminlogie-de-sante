@@ -23,10 +23,10 @@
                   codeSystem="http://hl7.org/fhir/sid/icd-10"
                   displayName="Déchirure obstétricale du périnée, du quatrième degré"/>
          <Concept code="289854007"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="périnée intact"/>
          <Concept code="860603002"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="plaie d'épisiotomie"/>
       </ConceptList>
    </ValueSet>

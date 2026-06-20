@@ -3,4 +3,4 @@
 <OID>;<Code>;<Libellé>
 1.2.250.1.213.1.1.4.322;MED-493;Hémisphérique médial (noyaux)
 1.2.250.1.213.1.1.4.322;MED-494;Hémisphérique latéral
-http://snomed.info/sct;58501004;vermis cérébelleux
+2.16.840.1.113883.6.96;58501004;vermis cérébelleux
