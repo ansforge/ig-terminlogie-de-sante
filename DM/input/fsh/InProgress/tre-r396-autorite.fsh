@@ -144,7 +144,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #06 ^designation[0].language = #fr-FR
 * #06 ^designation[=].use.system = "http://snomed.info/sct"
 * #06 ^designation[=].use = $sct#900000000000013009
-* #06 ^designation[=].value = "CD"
+* #06 ^designation[=].value = "Conseil Départemental"
 * #06 ^property[0].code = #dateValid
 * #06 ^property[=].valueDateTime = "2016-03-22T00:00:00+01:00"
 * #06 ^property[+].code = #dateMaj
@@ -200,7 +200,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #09 ^property[=].valueBoolean = true
 * #09 ^property[+].code = #autoriteEnregistrementFiness
 * #09 ^property[=].valueBoolean = false
-* #10 "CR"
+* #10 "Conseil Régional"
 * #10 ^designation[0].language = #fr-FR
 * #10 ^designation[=].use.system = "http://snomed.info/sct"
 * #10 ^designation[=].use = $sct#900000000000013009
@@ -5248,7 +5248,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DREETS-11 ^property[=].valueBoolean = false
 * #DREETS-11 ^property[+].code = #autoriteEnregistrementFiness
 * #DREETS-11 ^property[=].valueBoolean = true
-* #DREETS-24 "DREETS-24 : Direction régionale de l'économie de l'emploi du travail et des solidarités Centre-Val de Loire"
+* #DREETS-24 "DREETS-24 : DREETS Centre-Val de Loire"
 * #DREETS-24 ^designation[0].language = #fr-FR
 * #DREETS-24 ^designation[=].use.system = "http://snomed.info/sct"
 * #DREETS-24 ^designation[=].use = $sct#900000000000013009
