@@ -10,10 +10,18 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="161898004" codeSystem="" displayName="chutes"/>
-         <concept code="50239007" codeSystem="" displayName="errance"/>
-         <concept code="248046000" codeSystem="" displayName="en fugue"/>
-         <concept code="386423001" codeSystem="" displayName="contention physique"/>
+         <concept code="161898004"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="chutes"/>
+         <concept code="50239007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="errance"/>
+         <concept code="248046000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="en fugue"/>
+         <concept code="386423001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="contention physique"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

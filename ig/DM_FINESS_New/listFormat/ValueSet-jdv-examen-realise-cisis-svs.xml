@@ -14,9 +14,11 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Agrandissement"/>
          <concept code="387736007"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="biopsie à l'aiguille fine du sein"/>
-         <concept code="16310003" codeSystem="" displayName="échographie"/>
+         <concept code="16310003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="échographie"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

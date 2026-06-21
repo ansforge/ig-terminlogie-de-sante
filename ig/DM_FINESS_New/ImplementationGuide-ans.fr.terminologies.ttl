@@ -45885,6 +45885,24 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/11000315107-20250621> ;
+         fhir:reference [ fhir:v "CodeSystem/11000315107-20250621" ]
+       ] ;
+       fhir:name [ fhir:v "French module" ] ;
+       fhir:description [ fhir:v "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO)." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
            fhir:v "ValueSet"
          ]
        ] ) ;
@@ -61974,7 +61992,7 @@
          fhir:reference [ fhir:v "CodeSystem/tre-r396-autorite" ]
        ] ;
        fhir:name [ fhir:v "Tre R396 Autorite" ] ;
-       fhir:description [ fhir:v "liste des autorités (autorités Ordres, autorités ARS, ...)" ] ;
+       fhir:description [ fhir:v "liste des autorités structurée en plusieurs types d'autorités : Ordres, ARS, ..." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

@@ -58,16 +58,6 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
 * [Nomenclature des besoins et des prestations](CodeSystem-terminologie-SERAFINPH.md): [JDV_J282_TransportsLiesAuProjetIndividuel_SERAFIN](ValueSet-JDV-J282-TransportsLiesAuProjetIndividuel-SERAFIN.md), [JDV_J283_PrestationsIndirects_SERAFIN](ValueSet-JDV-J283-PrestationsIndirects-SERAFIN.md), [JDV_J284_PrestationsDirects_SERAFIN](ValueSet-JDV-J284-PrestationsDirects-SERAFIN.md) and [JDV_J285_Besoins_SERAFIN](ValueSet-JDV-J285-Besoins-SERAFIN.md)
 
 
-* Produced by HL7 under the terms of HL7® Governance and Operations Manual relating to Intellectual Property (Section 16), specifically its copyright, trademark and patent provisions. This document is licensed under Creative Commons "No Rights Reserved" (CC0).
-
-* [Absent and Unknown Data - IPS](http://tx.hl7europe.eu/r4/ValueSet/absent-unknown-uv-ips): [JdvAbsentOrUnknownAllergyCisis](ValueSet-jdv-absent-or-unknown-allergy-cisis.md), [JdvAbsentOrUnknownDevicesCisis](ValueSet-jdv-absent-or-unknown-devices-cisis.md)... Show 4 more, [JdvAbsentOrUnknownImmunizationCisis](ValueSet-jdv-absent-or-unknown-immunization-cisis.md), [JdvAbsentOrUnknownMedicationCisis](ValueSet-jdv-absent-or-unknown-medication-cisis.md), [JdvAbsentOrUnknownProblemCisis](ValueSet-jdv-absent-or-unknown-problem-cisis.md) and [JdvAbsentOrUnknownProcedureCisis](ValueSet-jdv-absent-or-unknown-procedure-cisis.md)
-
-
-* The WHO grants a license for "commercial and non-commercial use" of ICD-11CC BY-ND 3.0 IGODetailed information can be found here: [[https://icd.who.int/en/docs/icd11-license.pdf](https://icd.who.int/en/docs/icd11-license.pdf)](https://icd.who.int/en/docs/icd11-license.pdf) Contact licensing@who.int to obtain further information.
-
-* [International Classification of Diseases, 11th Revision Mortality and Morbidity Statistics (MMS)](https://tx-nordics.fhir.org/fhir/r4/ValueSet/398b8f74-822b-4822-8a7a-1b3c40dd0f7b): [JdvCauseAccidentDomestiqueCisis](ValueSet-jdv-cause-accident-domestique-cisis.md)
-
-
 * These codes are excerpted from Digital Imaging and Communications in Medicine (DICOM) Standard, Part 16: Content Mapping Resource, Copyright © 2011 by the National Electrical Manufacturers Association.
 
 * [DICOM Controlled Terminology Definitions](http://hl7.org/fhir/R4/codesystem-dicom-dcim.html): [JdvAxamenComplementaireCisis](ValueSet-jdv-examen-complementaire-cisis.md), [JdvBilanTechniqueCisis](ValueSet-jdv-bilan-technique-cisis.md)... Show 8 more, [JdvConduiteATenir1Cisis](ValueSet-jdv-conduite-a-tenir-1-cisis.md), [JdvConduiteATenir3Cisis](ValueSet-jdv-conduite-a-tenir-3-cisis.md), [JdvImagerieObjectifReferenceCisis](ValueSet-jdv-imagerie-objectif-reference-cisis.md), [JdvModaliteAcquisitionCisis](ValueSet-jdv-modalite-acquisition-cisis.md), [JdvModaliteDemandeActeImagerieCisis](ValueSet-jdv-modalite-demande-acte-imagerie-cisis.md), [JdvQuantiteExpositionRayonnementsCisis](ValueSet-jdv-quantite-exposition-rayonnements-cisis.md), [JdvSectionDocumentCisis](ValueSet-jdv-section-document-cisis.md) and [JdvTechniqueImagerieD2lmCisis](ValueSet-jdv-technique-imagerie-d2lm-cisis.md)
@@ -88,6 +78,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
 * [AllergyIntolerance Clinical Status Codes](http://terminology.hl7.org/7.2.0/CodeSystem-allergyintolerance-clinical.html): [AllergyIntoleranceClinicalStatusCodes](ValueSet-jdv-hl7-allergyintolerance-clinical-cisis.md)
 * [Condition Clinical Status Codes](CodeSystem-condition-clinical.md): [ConditionClinicalStatusCodes](ValueSet-jdv-hl7-condition-clinical-cisis.md)
 * [ConditionVerificationStatus](CodeSystem-condition-ver-status.md): [ConditionVerificationStatus](ValueSet-jdv-hl7-condition-ver-status-cisis.md)
+* [Security Role Type](http://terminology.hl7.org/7.2.0/CodeSystem-extra-security-role-type.html): [SNOMED_CT](CodeSystem-11000315107-20250621.md)
 * [HL7 Terminology Maintenance Infrastructure Vocabulary](http://terminology.hl7.org/7.2.0/CodeSystem-hl7TermMaintInfra.html): [EmploymentStatus](CodeSystem-v2-0066.md) and [SpecimenType](CodeSystem-v2-0487.md)
 * [UsageContextType](http://terminology.hl7.org/7.2.0/CodeSystem-usage-context-type.html): [ASS_12_CorresMediaTypeCDANonStructure_XdsFormatCode_CISIS](ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.md), [ASS_A11_CorresModeleCDA_XdsFormatCode_CISIS](ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.md), [Alignement_Codes_NUVA_CIP_CIPUCD](ConceptMap-alignement-nuva-cipucd.md), [Alignement_Codes_NUVA_CIS_CIP_BDMP](ConceptMap-alignement-nuva-bdpm.md) and [Alignement_Codes_Presentation_BDPM_CIPUCD](ConceptMap-alignement-bdpm-cipucd.md)
 * [employmentStatus](CodeSystem-v2-0066.md): [Hl7VSEmploymentStatus](ValueSet-jdv-hl7-v2-0066-cisis.md)
@@ -33695,6 +33686,18 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/11000315107-20250621"
+      },
+      "name" : "French module",
+      "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -44418,7 +44421,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
         "reference" : "CodeSystem/tre-r396-autorite"
       },
       "name" : "Tre R396 Autorite",
-      "description" : "liste des autorités (autorités Ordres, autorités ARS, ...)",
+      "description" : "liste des autorités structurée en plusieurs types d'autorités : Ordres, ARS, ...",
       "exampleBoolean" : false
     },
     {

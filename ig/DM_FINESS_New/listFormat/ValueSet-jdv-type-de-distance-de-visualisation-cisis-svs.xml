@@ -11,13 +11,13 @@
              urlFichier="">
       <ConceptList>
          <concept code="251743004"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="acuité visuelle de près"/>
          <concept code="251739003"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="acuité visuelle à distance"/>
          <concept code="418553009"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="acuité visuelle intermédiaire"/>
       </ConceptList>
    </ValueSet>

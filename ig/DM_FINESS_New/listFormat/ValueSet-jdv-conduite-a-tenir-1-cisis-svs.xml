@@ -18,10 +18,10 @@
                   displayName="Avis spécialisé"/>
          <concept code="MR" codeSystem="" displayName="IRM"/>
          <concept code="17636008"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="prélèvement d'échantillon"/>
          <concept code="268547008"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="dépistage du cancer du sein"/>
       </ConceptList>
    </ValueSet>

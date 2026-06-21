@@ -16,14 +16,18 @@
          <concept code="GEN-092.03.03"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Autre analgésie"/>
-         <concept code="241717009" codeSystem="" displayName="analgésie inhalatoire"/>
+         <concept code="241717009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="analgésie inhalatoire"/>
          <concept code="50697003"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="administration d'un anesthésique général"/>
          <concept code="27372005"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="anesthésie locorégionale"/>
-         <concept code="386761002" codeSystem="" displayName="anesthésie locale"/>
+         <concept code="386761002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="anesthésie locale"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

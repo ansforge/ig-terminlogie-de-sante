@@ -23,7 +23,7 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Autre mesure"/>
          <concept code="408969000"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="prise en charge d'une contraception"/>
       </ConceptList>
    </ValueSet>

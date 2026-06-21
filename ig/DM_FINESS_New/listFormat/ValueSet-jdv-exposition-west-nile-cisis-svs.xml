@@ -13,8 +13,12 @@
          <concept code="GEN-092.01.25"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Autre exposition"/>
-         <concept code="5447007" codeSystem="" displayName="transfusion"/>
-         <concept code="77465005" codeSystem="" displayName="transplantation"/>
+         <concept code="5447007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="transfusion"/>
+         <concept code="77465005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="transplantation"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -11,17 +11,29 @@
              urlFichier="">
       <ConceptList>
          <concept code="81323004"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="fonction corporelle générale : normale"/>
          <concept code="765205004"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="pathologie en rémission"/>
-         <concept code="27624003" codeSystem="" displayName="maladie chronique"/>
-         <concept code="271593001" codeSystem="" displayName="moribond"/>
-         <concept code="161045001" codeSystem="" displayName="incapacité : sévère"/>
-         <concept code="419099009" codeSystem="" displayName="décédé"/>
-         <concept code="21134002" codeSystem="" displayName="incapacité"/>
-         <concept code="162467007" codeSystem="" displayName="asymptomatique"/>
+         <concept code="27624003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="maladie chronique"/>
+         <concept code="271593001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="moribond"/>
+         <concept code="161045001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="incapacité : sévère"/>
+         <concept code="419099009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="décédé"/>
+         <concept code="21134002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="incapacité"/>
+         <concept code="162467007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="asymptomatique"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

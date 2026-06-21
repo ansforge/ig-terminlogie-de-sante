@@ -10,11 +10,21 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="10828004" codeSystem="" displayName="positif(-ive)"/>
-         <concept code="260385009" codeSystem="" displayName="négatif(-ive)"/>
-         <concept code="385660001" codeSystem="" displayName="non effectué"/>
-         <concept code="385432009" codeSystem="" displayName="non applicable"/>
-         <concept code="261665006" codeSystem="" displayName="inconnu(e)"/>
+         <concept code="10828004"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="positif(-ive)"/>
+         <concept code="260385009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="négatif(-ive)"/>
+         <concept code="385660001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="non effectué"/>
+         <concept code="385432009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="non applicable"/>
+         <concept code="261665006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="inconnu(e)"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

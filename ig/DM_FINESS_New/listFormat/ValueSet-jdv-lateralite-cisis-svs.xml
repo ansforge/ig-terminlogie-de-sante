@@ -10,10 +10,18 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="24028007" codeSystem="" displayName="côté droit"/>
-         <concept code="7771000" codeSystem="" displayName="côté gauche"/>
-         <concept code="51440002" codeSystem="" displayName="bilatéral(e)"/>
-         <concept code="385432009" codeSystem="" displayName="non applicable"/>
+         <concept code="24028007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="côté droit"/>
+         <concept code="7771000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="côté gauche"/>
+         <concept code="51440002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="bilatéral(e)"/>
+         <concept code="385432009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="non applicable"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

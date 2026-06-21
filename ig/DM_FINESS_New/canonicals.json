@@ -7,12 +7,28 @@
   "oids" : ["2.16.840.1.113883.4.642.3.264"]
 },
 {
+  "id" : "tre-r396-autorite",
+  "type" : "CodeSystem",
+  "url" : "http://hl7.org/fhir/us/example/CodeSystem/tre-r396-autorite",
+  "version" : "20260330120000",
+  "name" : "TreR396Autorite",
+  "oids" : ["1.2.250.1.213.1.6.1.377"]
+},
+{
   "id" : "jdv-j305-type-groupement-finess",
   "type" : "ValueSet",
   "url" : "http://hl7.org/fhir/us/example/ValueSet/jdv-j305-type-groupement-finess",
   "version" : "20260330120000",
   "name" : "JdvJ305TypeGroupementFiness",
   "oids" : ["1.2.250.1.213.1.6.1.313"]
+},
+{
+  "id" : "11000315107-20250621",
+  "type" : "CodeSystem",
+  "url" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/11000315107/version/20250621",
+  "name" : "SNOMED_CT",
+  "oids" : ["2.16.840.1.113883.6.96"]
 },
 {
   "id" : "condition-clinical",
@@ -4618,7 +4634,7 @@
   "id" : "terminologie-cisis",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-  "version" : "202604200000",
+  "version" : "202606190000",
   "name" : "TerminologieCISIS",
   "oids" : ["1.2.250.1.213.1.1.4.322"]
 },
@@ -4975,14 +4991,6 @@
   "version" : "20250716120000",
   "name" : "TreR395Engagement",
   "oids" : ["1.2.250.1.213.1.6.1.376"]
-},
-{
-  "id" : "tre-r396-autorite",
-  "type" : "CodeSystem",
-  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-  "version" : "20250825120000",
-  "name" : "TreR396Autorite",
-  "oids" : ["1.2.250.1.213.1.6.1.377"]
 },
 {
   "id" : "tre-r397-categorie-entite-geographique-exercice",

@@ -10,9 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="422650009" codeSystem="" displayName="isolement social"/>
-         <concept code="224226001" codeSystem="" displayName="sans domicile fixe"/>
-         <concept code="424860001" codeSystem="" displayName="faible revenu"/>
+         <concept code="422650009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="isolement social"/>
+         <concept code="224226001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="sans domicile fixe"/>
+         <concept code="424860001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="faible revenu"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

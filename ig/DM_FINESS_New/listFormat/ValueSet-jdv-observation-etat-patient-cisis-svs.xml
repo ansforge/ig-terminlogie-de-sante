@@ -10,26 +10,50 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="288575003" codeSystem="" displayName="capable de communiquer"/>
-         <concept code="247663003" codeSystem="" displayName="bien orienté"/>
-         <concept code="62476001" codeSystem="" displayName="désorienté(e)"/>
-         <concept code="24199005" codeSystem="" displayName="sensation d'agitation"/>
+         <concept code="288575003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="capable de communiquer"/>
+         <concept code="247663003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="bien orienté"/>
+         <concept code="62476001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="désorienté(e)"/>
+         <concept code="24199005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="sensation d'agitation"/>
          <concept code="248043008"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="comportement non-conciliant"/>
          <concept code="425104003"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="comportement suicidaire"/>
-         <concept code="397540003" codeSystem="" displayName="malvoyance"/>
-         <concept code="15188001" codeSystem="" displayName="perte auditive"/>
-         <concept code="62305002" codeSystem="" displayName="trouble du langage"/>
-         <concept code="161898004" codeSystem="" displayName="chutes"/>
-         <concept code="50239007" codeSystem="" displayName="errance"/>
-         <concept code="248046000" codeSystem="" displayName="en fugue"/>
-         <concept code="386423001" codeSystem="" displayName="contention physique"/>
-         <concept code="285304000" codeSystem="" displayName="à risque d'escarre"/>
+         <concept code="397540003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="malvoyance"/>
+         <concept code="15188001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="perte auditive"/>
+         <concept code="62305002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="trouble du langage"/>
+         <concept code="161898004"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="chutes"/>
+         <concept code="50239007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="errance"/>
+         <concept code="248046000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="en fugue"/>
+         <concept code="386423001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="contention physique"/>
+         <concept code="285304000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="à risque d'escarre"/>
          <concept code="249492002"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="fausse route alimentaire"/>
       </ConceptList>
    </ValueSet>

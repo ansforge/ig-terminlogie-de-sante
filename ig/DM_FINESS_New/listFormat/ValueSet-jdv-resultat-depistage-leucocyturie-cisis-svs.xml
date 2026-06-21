@@ -10,10 +10,18 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="260385009" codeSystem="" displayName="négatif(-ive)"/>
-         <concept code="441614007" codeSystem="" displayName="présence + sur +++"/>
-         <concept code="441517005" codeSystem="" displayName="présence ++ sur +++"/>
-         <concept code="441521003" codeSystem="" displayName="présence +++ sur +++"/>
+         <concept code="260385009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="négatif(-ive)"/>
+         <concept code="441614007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="présence + sur +++"/>
+         <concept code="441517005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="présence ++ sur +++"/>
+         <concept code="441521003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="présence +++ sur +++"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

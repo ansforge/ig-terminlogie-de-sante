@@ -3,9 +3,9 @@
 <system>;<Code>;<Libellé> 
 1.2.250.1.213.1.1.4.322;GEN-417;Pacsé(e)
 1.2.250.1.213.1.1.4.322;GEN-418;Union libre/Concubinage
-;125681006;célibataire
-;87915002;marié(e)
-;20295000;divorcé(e)
-;33553000;veuf(-ve)
-;13184001;séparé(e)
-;160504008;situation matrimoniale inconnue
+2.16.840.1.113883.6.96;125681006;célibataire
+2.16.840.1.113883.6.96;87915002;marié(e)
+2.16.840.1.113883.6.96;20295000;divorcé(e)
+2.16.840.1.113883.6.96;33553000;veuf(-ve)
+2.16.840.1.113883.6.96;13184001;séparé(e)
+2.16.840.1.113883.6.96;160504008;situation matrimoniale inconnue

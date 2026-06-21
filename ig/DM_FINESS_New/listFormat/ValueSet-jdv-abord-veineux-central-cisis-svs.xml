@@ -11,17 +11,19 @@
              urlFichier="">
       <ConceptList>
          <concept code="181372005"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="veine jugulaire interne entière"/>
          <concept code="181371003"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="veine brachiocéphalique entière"/>
          <concept code="181388005"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="veine subclavière entière"/>
-         <concept code="362071002" codeSystem="" displayName="veine fémorale entière"/>
+         <concept code="362071002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="veine fémorale entière"/>
          <concept code="181387000"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="veine entière du membre supérieur"/>
       </ConceptList>
    </ValueSet>

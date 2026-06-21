@@ -11,10 +11,14 @@
              urlFichier="">
       <ConceptList>
          <concept code="408821002"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="vit avec son/sa partenaire"/>
-         <concept code="224133007" codeSystem="" displayName="vit avec de la famille"/>
-         <concept code="105529008" codeSystem="" displayName="vit seul"/>
+         <concept code="224133007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="vit avec de la famille"/>
+         <concept code="105529008"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="vit seul"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

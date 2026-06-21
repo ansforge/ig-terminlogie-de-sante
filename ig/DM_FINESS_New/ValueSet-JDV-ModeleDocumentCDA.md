@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://mos.esante.gouv.fr/NOS/JDV-ModeleDocumentCDA | *Version*:1.1.0 |
-| Active as of 2026-06-18 | *Computable Name*:JDV_ModeleDocumentCDA |
+| Active as of 2026-06-21 | *Computable Name*:JDV_ModeleDocumentCDA |
 
  
 JDV avec l’ensemble des codes de la TRE_R220_ModeleDocumentCDAStructure et TRE_R221_ModeleDocumentCDANonStructure 
@@ -52,7 +52,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#0.1.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-06-18
+2026-06-21
 
 Liens:
 [Table des matières ](toc.md)|
@@ -81,7 +81,7 @@ Liens:
   "title" : "JDV-ModeleDocumentCDA",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-18T15:03:25+00:00",
+  "date" : "2026-06-21T11:24:04+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",

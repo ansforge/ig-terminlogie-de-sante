@@ -20,20 +20,26 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="exposition paternelle (altération potentielle des spermatozoïdes)"/>
          <concept code="1156699004"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="respecte le traitement médicamenteux"/>
-         <concept code="1149222004" codeSystem="" displayName="surdosage"/>
-         <concept code="398240004" codeSystem="" displayName="erreur médicamenteuse"/>
+         <concept code="1149222004"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="surdosage"/>
+         <concept code="398240004"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="erreur médicamenteuse"/>
          <concept code="16090731000119102"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="exposition professionnelle à un facteur de risque"/>
          <concept code="79899007"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="interaction médicamenteuse"/>
          <concept code="95606005"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="exposition maternelle à un médicament"/>
-         <concept code="1260078007" codeSystem="" displayName="allaitement maternel"/>
+         <concept code="1260078007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="allaitement maternel"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

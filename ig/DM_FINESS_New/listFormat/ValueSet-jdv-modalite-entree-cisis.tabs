@@ -2,6 +2,6 @@
 1.2.250.1.213.1.1.5.73;JDV;JdvModaliteEntreeCisis;JDV Modalite Entree CISIS;;20100101000000;;20260420150251
 <system>;<Code>;<Libellé> 
 1.2.250.1.213.1.1.4.322;GEN-092.06.07;Autre modalité d'entrée
-;183452005;hospitalisation en urgence
-;8715000;hospitalisation programmée
-;107724000;transfert d'un(e) patient(e)
+2.16.840.1.113883.6.96;183452005;hospitalisation en urgence
+2.16.840.1.113883.6.96;8715000;hospitalisation programmée
+2.16.840.1.113883.6.96;107724000;transfert d'un(e) patient(e)

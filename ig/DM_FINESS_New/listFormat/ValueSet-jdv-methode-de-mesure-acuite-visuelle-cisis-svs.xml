@@ -21,10 +21,10 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Réfracteur"/>
          <concept code="252973004"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="évaluation par échelle de Snellen"/>
          <concept code="252872008"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="test du double prisme Maddox"/>
       </ConceptList>
    </ValueSet>

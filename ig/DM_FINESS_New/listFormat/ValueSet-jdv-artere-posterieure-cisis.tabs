@@ -4,6 +4,6 @@
 1.2.250.1.213.1.1.4.322;MED-486;Artère cérébrale postérieure (ACP) territoire profond branches thalamoperforées
 1.2.250.1.213.1.1.4.322;MED-487;Artère cérébrale postérieure (ACP) territoire profond branches thalamogéniculées
 1.2.250.1.213.1.1.4.322;MED-465;Artère cérébrale postérieure territoire superficiel
-;70382005;Artère cérébrale postérieure
-;43119007;Artère communicante postérieure
-;7736000;Artère choroïdienne postérieure
+2.16.840.1.113883.6.96;70382005;Artère cérébrale postérieure
+2.16.840.1.113883.6.96;43119007;Artère communicante postérieure
+2.16.840.1.113883.6.96;7736000;Artère choroïdienne postérieure

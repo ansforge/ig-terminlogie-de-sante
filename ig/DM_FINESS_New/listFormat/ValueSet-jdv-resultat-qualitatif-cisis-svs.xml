@@ -10,25 +10,51 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="10828004" codeSystem="" displayName="positif(-ive)"/>
-         <concept code="1290194006" codeSystem="" displayName="séroconversion"/>
+         <concept code="10828004"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="positif(-ive)"/>
+         <concept code="1290194006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="séroconversion"/>
          <concept code="1396170002"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="multiplication par 4 des IgG"/>
-         <concept code="260385009" codeSystem="" displayName="négatif(-ive)"/>
-         <concept code="373068000" codeSystem="" displayName="indéterminé(e)"/>
+         <concept code="260385009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="négatif(-ive)"/>
+         <concept code="373068000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="indéterminé(e)"/>
          <concept code="125154007"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="échantillon insatisfaisant pour l'évaluation"/>
-         <concept code="17621005" codeSystem="" displayName="normal"/>
-         <concept code="260405006" codeSystem="" displayName="trace"/>
-         <concept code="371879000" codeSystem="" displayName="anormalement haut(e)"/>
-         <concept code="1345200000" codeSystem="" displayName="présence + sur ++"/>
-         <concept code="1345201001" codeSystem="" displayName="présence ++ sur ++"/>
-         <concept code="441614007" codeSystem="" displayName="présence + sur +++"/>
-         <concept code="441517005" codeSystem="" displayName="présence ++ sur +++"/>
-         <concept code="441521003" codeSystem="" displayName="présence +++ sur +++"/>
-         <concept code="373121007" codeSystem="" displayName="test non effectué"/>
+         <concept code="17621005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="normal"/>
+         <concept code="260405006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="trace"/>
+         <concept code="371879000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="anormalement haut(e)"/>
+         <concept code="1345200000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="présence + sur ++"/>
+         <concept code="1345201001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="présence ++ sur ++"/>
+         <concept code="441614007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="présence + sur +++"/>
+         <concept code="441517005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="présence ++ sur +++"/>
+         <concept code="441521003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="présence +++ sur +++"/>
+         <concept code="373121007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="test non effectué"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

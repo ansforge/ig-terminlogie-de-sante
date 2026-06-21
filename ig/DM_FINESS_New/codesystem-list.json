@@ -1,5 +1,23 @@
 {
   "codeSystems" : [{
+    "url" : "http://hl7.org/fhir/us/example/CodeSystem/tre-r396-autorite",
+    "version" : "20260330120000",
+    "status" : "active",
+    "name" : "TreR396Autorite",
+    "title" : "Tre R396 Autorite",
+    "description" : "liste des autorités structurée en plusieurs types d'autorités : Ordres, ARS, ...",
+    "oids" : ["1.2.250.1.213.1.6.1.377"]
+  },
+  {
+    "url" : "http://snomed.info/sct",
+    "version" : "http://snomed.info/sct/11000315107/version/20250621",
+    "status" : "active",
+    "name" : "SNOMED_CT",
+    "title" : "French module",
+    "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
+    "oids" : ["2.16.840.1.113883.6.96"]
+  },
+  {
     "url" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
     "version" : "3.0.0",
     "status" : "active",
@@ -2467,7 +2485,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-    "version" : "202604200000",
+    "version" : "202606190000",
     "status" : "active",
     "name" : "TerminologieCISIS",
     "title" : "TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies",
@@ -2761,15 +2779,6 @@
     "title" : "Tre R395 Engagement",
     "description" : "Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités. Cette TRE remplace la TRE-R278-Convention",
     "oids" : ["1.2.250.1.213.1.6.1.376"]
-  },
-  {
-    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-    "version" : "20250825120000",
-    "status" : "active",
-    "name" : "TreR396Autorite",
-    "title" : "Tre R396 Autorite",
-    "description" : "liste des autorités (autorités Ordres, autorités ARS, ...)",
-    "oids" : ["1.2.250.1.213.1.6.1.377"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",

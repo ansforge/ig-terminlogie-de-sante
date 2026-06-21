@@ -13,18 +13,24 @@
          <concept code="GEN-092.01.22"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Autre situation médicale grave"/>
-         <concept code="255604002" codeSystem="" displayName="gravité légère"/>
+         <concept code="255604002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="gravité légère"/>
          <concept code="266938001"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="patient(e) hospitalisé(e)"/>
-         <concept code="2655002" codeSystem="" displayName="invalidité"/>
+         <concept code="2655002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="invalidité"/>
          <concept code="276654001"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="malformation congénitale"/>
          <concept code="442452003"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="mise en jeu du pronostic vital"/>
-         <concept code="419620001" codeSystem="" displayName="décès"/>
+         <concept code="419620001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="décès"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

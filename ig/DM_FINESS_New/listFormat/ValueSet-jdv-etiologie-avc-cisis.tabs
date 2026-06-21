@@ -3,4 +3,4 @@
 <system>;<Code>;<Libellé> 
 ;I51.6;Maladie cardiovasculaire, sans précision
 ;D75.9;Maladie du sang et des organes hématopoïétiques, sans précision
-;782964007;maladie génétique
+2.16.840.1.113883.6.96;782964007;maladie génétique

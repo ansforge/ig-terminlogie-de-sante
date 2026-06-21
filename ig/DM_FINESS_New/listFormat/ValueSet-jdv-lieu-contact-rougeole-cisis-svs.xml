@@ -10,11 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="264362003" codeSystem="" displayName="domicile"/>
+         <concept code="264362003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="domicile"/>
          <concept code="285202004"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="environnement en collectivité"/>
-         <concept code="43741000" codeSystem="" displayName="site de soins"/>
+         <concept code="43741000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="site de soins"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

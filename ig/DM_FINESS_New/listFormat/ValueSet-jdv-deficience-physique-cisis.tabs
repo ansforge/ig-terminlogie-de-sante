@@ -9,5 +9,5 @@
 1.2.250.1.213.1.1.4.322;MED-333;Trouble de l'élimination urinaire
 1.2.250.1.213.1.1.4.322;MED-334;Trouble de l'élimination fécale
 1.2.250.1.213.1.1.4.322;MED-335;Trouble de la sexualité
-;44695005;paralysie
-;33653009;absence de sensation
+2.16.840.1.113883.6.96;44695005;paralysie
+2.16.840.1.113883.6.96;33653009;absence de sensation

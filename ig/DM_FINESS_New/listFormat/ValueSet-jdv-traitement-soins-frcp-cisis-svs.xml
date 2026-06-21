@@ -23,16 +23,22 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="RCP Cancers rares"/>
          <concept code="410240006"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="prise en charge du traitement de la douleur"/>
-         <concept code="103735009" codeSystem="" displayName="soin palliatif"/>
+         <concept code="103735009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="soin palliatif"/>
          <concept code="258174001"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="imagerie interventionnelle"/>
-         <concept code="243114000" codeSystem="" displayName="soin de support"/>
-         <concept code="394593009" codeSystem="" displayName="oncologie médicale"/>
+         <concept code="243114000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="soin de support"/>
+         <concept code="394593009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="oncologie médicale"/>
          <concept code="702596005"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="procédure de préservation de la fertilité"/>
       </ConceptList>
    </ValueSet>

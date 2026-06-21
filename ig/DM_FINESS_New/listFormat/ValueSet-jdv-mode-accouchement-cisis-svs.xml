@@ -17,10 +17,10 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Césarienne avant travail"/>
          <concept code="302383004"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="accouchement par forceps"/>
          <concept code="700000006"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="accouchement par voie basse"/>
       </ConceptList>
    </ValueSet>

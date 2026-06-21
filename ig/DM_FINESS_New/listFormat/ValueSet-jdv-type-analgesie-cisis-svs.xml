@@ -20,10 +20,14 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Autre anesthésie"/>
          <concept code="50697003"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="administration d'un anesthésique général"/>
-         <concept code="231249005" codeSystem="" displayName="analgésie rachidienne"/>
-         <concept code="18946005" codeSystem="" displayName="anesthésie épidurale"/>
+         <concept code="231249005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="analgésie rachidienne"/>
+         <concept code="18946005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="anesthésie épidurale"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

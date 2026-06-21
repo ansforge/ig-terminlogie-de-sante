@@ -5,4 +5,4 @@
 ;G96.9;Affection du système nerveux central, sans précision
 1.2.250.1.213.1.1.4.322;MED-276;Antibiothérapie (de plus de 48 heures)
 1.2.250.1.213.1.1.4.322;GEN-092.01.11;Autres pathologies de la 1ère semaine
-;73994005;intervention chirurgicale d'urgence
+2.16.840.1.113883.6.96;73994005;intervention chirurgicale d'urgence

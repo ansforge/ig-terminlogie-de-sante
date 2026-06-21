@@ -13,7 +13,7 @@
          <concept code="Z1204011501"
                   codeSystem="1.2.250.1.213.2.68"
                   displayName="SYSTÈMES DE SURVEILLANCE NON INVASIVE DE LA GLYCÉMIE"/>
-         <concept code="82078001" codeSystem="" displayName=""/>
+         <concept code="82078001" codeSystem="2.16.840.1.113883.6.96" displayName=""/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

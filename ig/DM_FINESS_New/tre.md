@@ -45,6 +45,7 @@ Les terminologies sont des nomenclatures officielles créées et maintenues :
 * [RUIM - european eprescription](CodeSystem-terminologie-ruim-eeprescription.md)
 * [RoleCode](CodeSystem-v3-RoleCode.md)
 * [Nomenclature des besoins et des prestations](CodeSystem-terminologie-SERAFINPH.md)
+* [French module](CodeSystem-11000315107-20250621.md)
 * [Service type](CodeSystem-service-type.md)
 * [specimenCollectionMethod](CodeSystem-v2-0488.md)
 * [specimenType](CodeSystem-v2-0487.md)

@@ -24581,6 +24581,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/11000315107-20250621"/>
+      </reference>
+      <name value="French module"/>
+      <description value="SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -34410,7 +34421,7 @@
         <reference value="CodeSystem/tre-r396-autorite"/>
       </reference>
       <name value="Tre R396 Autorite"/>
-      <description value="liste des autorités (autorités Ordres, autorités ARS, ...)"/>
+      <description value="liste des autorités structurée en plusieurs types d'autorités : Ordres, ARS, ..."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

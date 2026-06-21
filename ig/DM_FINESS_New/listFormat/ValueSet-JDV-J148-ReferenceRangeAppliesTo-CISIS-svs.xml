@@ -12,7 +12,7 @@
       <ConceptList>
          <concept code="F" codeSystem="2.16.840.1.113883.5.1" displayName="Féminin"/>
          <concept code="M" codeSystem="2.16.840.1.113883.5.1" displayName="Masculin"/>
-         <concept code="77386006" codeSystem="" displayName=""/>
+         <concept code="77386006" codeSystem="2.16.840.1.113883.6.96" displayName=""/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

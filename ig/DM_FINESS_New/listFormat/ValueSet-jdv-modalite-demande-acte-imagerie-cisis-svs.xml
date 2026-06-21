@@ -31,7 +31,7 @@
                   codeSystem=""
                   displayName="TEP : Tomographie par émission de positons"/>
          <concept code="258174001"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="imagerie interventionnelle"/>
       </ConceptList>
    </ValueSet>

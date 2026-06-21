@@ -14,12 +14,20 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Non évaluable"/>
          <concept code="301379001"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="aucune présence de douleur"/>
-         <concept code="40196000" codeSystem="" displayName="douleur légère"/>
-         <concept code="50415004" codeSystem="" displayName="douleur modérée"/>
-         <concept code="76948002" codeSystem="" displayName="douleur sévère"/>
-         <concept code="67849003" codeSystem="" displayName="douleur atroce"/>
+         <concept code="40196000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="douleur légère"/>
+         <concept code="50415004"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="douleur modérée"/>
+         <concept code="76948002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="douleur sévère"/>
+         <concept code="67849003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="douleur atroce"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>
