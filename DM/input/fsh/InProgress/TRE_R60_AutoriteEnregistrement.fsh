@@ -42,9 +42,9 @@ Description: "Autorité d'enregistrement"
 * ^property[=].type = #dateTime
 * #ANS "ANS : Agence du numérique en santé"
 * #ANS ^property[0].code = #dateValid
-* #ANS ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #ANS ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #ANS ^property[0].code = #dateValid
-* #ANS ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #ANS ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #ANS ^property[+].code = #status
 * #ANS ^property[=].valueCode = #active
 * #ARS-01 "ARS-01 : Guadeloupe"
@@ -552,135 +552,135 @@ Description: "Autorité d'enregistrement"
 * #CNOSF ^property[=].valueCode = #active
 * #DEETS-01 "DEETS-01 :DEETS Guadeloupe"
 * #DEETS-01 ^property[0].code = #dateValid
-* #DEETS-01 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DEETS-01 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DEETS-01 ^property[0].code = #dateMaj
-* #DEETS-01 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DEETS-01 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DEETS-01 ^property[+].code = #status
 * #DEETS-01 ^property[=].valueCode = #active
 * #DEETS-02 "DEETS-02 :  DEETS Martinique"
 * #DEETS-02 ^property[0].code = #dateValid
-* #DEETS-02 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DEETS-02 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DEETS-02 ^property[0].code = #dateMaj
-* #DEETS-02 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DEETS-02 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DEETS-02 ^property[+].code = #status
 * #DEETS-02 ^property[=].valueCode = #active
 * #DEETS-03 "DEETS-03 :  DEETS  Guyane"
 * #DEETS-03 ^property[0].code = #dateValid
-* #DEETS-03 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DEETS-03 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DEETS-03 ^property[0].code = #dateMaj
-* #DEETS-03 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DEETS-03 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DEETS-03 ^property[+].code = #status
 * #DEETS-03 ^property[=].valueCode = #active
 * #DEETS-05 "DEETS-05 :  DEETS de La Réunion"
 * #DEETS-05 ^property[0].code = #dateValid
-* #DEETS-05 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DEETS-05 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DEETS-05 ^property[0].code = #dateMaj
-* #DEETS-05 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DEETS-05 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DEETS-05 ^property[+].code = #status
 * #DEETS-05 ^property[=].valueCode = #active
 * #DEETS-06 "DEETS-06 : DEETS Mayotte"
 * #DEETS-06 ^property[0].code = #dateValid
-* #DEETS-06 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DEETS-06 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DEETS-06 ^property[0].code = #dateMaj
-* #DEETS-06 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DEETS-06 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DEETS-06 ^property[+].code = #status
 * #DEETS-06 ^property[=].valueCode = #active
 * #DREETS-11 "DREETS-11 : DREETS d'Ile de France"
 * #DREETS-11 ^property[0].code = #dateValid
-* #DREETS-11 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-11 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-11 ^property[0].code = #dateMaj
-* #DREETS-11 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-11 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-11 ^property[+].code = #status
 * #DREETS-11 ^property[=].valueCode = #active
 * #DREETS-24 "DREETS-24 : DREETS Centre-Val de Loire"
 * #DREETS-24 ^property[0].code = #dateValid
-* #DREETS-24 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-24 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-24 ^property[0].code = #dateMaj
-* #DREETS-24 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-24 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-24 ^property[+].code = #status
 * #DREETS-24 ^property[=].valueCode = #active
 * #DREETS-27 "DREETS-27 :DREETS Bourgogne-Franche-Comté"
 * #DREETS-27 ^property[0].code = #dateValid
-* #DREETS-27 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-27 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-27 ^property[0].code = #dateMaj
-* #DREETS-27 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-27 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-27 ^property[+].code = #status
 * #DREETS-27 ^property[=].valueCode = #active
 * #DREETS-28 "DREETS-28 : DREETS Normandie"
 * #DREETS-28 ^property[0].code = #dateValid
-* #DREETS-28 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-28 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-28 ^property[0].code = #dateMaj
-* #DREETS-28 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-28 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-28 ^property[+].code = #status
 * #DREETS-28 ^property[=].valueCode = #active
 * #DREETS-32 "DREETS-32 : DREETS Hauts-de-France"
 * #DREETS-32 ^property[0].code = #dateValid
-* #DREETS-32 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-32 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-32 ^property[0].code = #dateMaj
-* #DREETS-32 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-32 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-32 ^property[+].code = #status
 * #DREETS-32 ^property[=].valueCode = #active
 * #DREETS-44 "DREETS-44 : DREETS Grand Est"
 * #DREETS-44 ^property[0].code = #dateValid
-* #DREETS-44 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-44 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-44 ^property[0].code = #dateMaj
-* #DREETS-44 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-44 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-44 ^property[+].code = #status
 * #DREETS-44 ^property[=].valueCode = #active
 * #DREETS-52 "DREETS-52 : DREETS Pays de la Loire"
 * #DREETS-52 ^property[0].code = #dateValid
-* #DREETS-52 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-52 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-52 ^property[0].code = #dateMaj
-* #DREETS-52 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-52 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-52 ^property[+].code = #status
 * #DREETS-52 ^property[=].valueCode = #active
 * #DREETS-53 "DREETS-53 : DREETS Bretagne"
 * #DREETS-53 ^property[0].code = #dateValid
-* #DREETS-53 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-53 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-53 ^property[0].code = #dateMaj
-* #DREETS-53 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-53 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-53 ^property[+].code = #status
 * #DREETS-53 ^property[=].valueCode = #active
 * #DREETS-75 "DREETS-75 : DREETS Nouvelle-Aquitaine"
 * #DREETS-75 ^property[0].code = #dateValid
-* #DREETS-75 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-75 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-75 ^property[0].code = #dateMaj
-* #DREETS-75 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-75 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-75 ^property[+].code = #status
 * #DREETS-75 ^property[=].valueCode = #active
 * #DREETS-76 "DREETS-76 : DREETS Occitanie"
 * #DREETS-76 ^property[0].code = #dateValid
-* #DREETS-76 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-76 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-76 ^property[0].code = #dateMaj
-* #DREETS-76 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-76 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-76 ^property[+].code = #status
 * #DREETS-76 ^property[=].valueCode = #active
 * #DREETS-84 "DREETS-84 : DREETS Auvergne-Rhône-Alpes"
 * #DREETS-84 ^property[0].code = #dateValid
-* #DREETS-84 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-84 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-84 ^property[0].code = #dateMaj
-* #DREETS-84 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-84 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-84 ^property[+].code = #status
 * #DREETS-84 ^property[=].valueCode = #active
 * #DREETS-93 "DREETS-93 : DREETS Provence-Alpes-Côte d'Azur"
 * #DREETS-93 ^property[0].code = #dateValid
-* #DREETS-93 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-93 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-93 ^property[0].code = #dateMaj
-* #DREETS-93 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-93 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-93 ^property[+].code = #status
 * #DREETS-93 ^property[=].valueCode = #active
 * #DREETS-94 "DREETS-94 : DREETS de Corse"
 * #DREETS-94 ^property[0].code = #dateValid
-* #DREETS-94 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-94 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-94 ^property[0].code = #dateMaj
-* #DREETS-94 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-94 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-94 ^property[+].code = #status
 * #DREETS-94 ^property[=].valueCode = #active
 * #DRHIL-11 "DRHIL-11 : DRHIL Ile de France"
 * #DRHIL-11 ^property[0].code = #dateValid
-* #DRHIL-11 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DRHIL-11 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DRHIL-11 ^property[0].code = #dateMaj
-* #DRHIL-11 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DRHIL-11 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DRHIL-11 ^property[+].code = #status
 * #DRHIL-11 ^property[=].valueCode = #active
 * #ENREG "Enregistrement par les AE locales (Structures)" "Code et libellé pour l'application ENREG en tant que application  déléguée pour l'enregistrement des professionnels à rôle par les  autorités d'enregistrement locales"

@@ -61,22 +61,22 @@ Description: "Type Autorité d'enregistrement"
 * #03 ^property[=].valueCode = #active
 * #04 "Directions régionales de l'économie de l'emploi du travail et des solidarités"
 * #04 ^property[0].code = #dateValid
-* #04 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #04 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #04 ^property[+].code = #dateMaj
-* #04 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #04 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #04 ^property[+].code = #status
 * #04 ^property[=].valueCode = #active
 * #05 "Direction régionale et de l'Hébergement et du Logement"
 * #05 ^property[0].code = #dateValid
-* #05 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #05 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #05 ^property[+].code = #dateMaj
-* #05 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #05 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #05 ^property[+].code = #status
 * #05 ^property[=].valueCode = #active
 * #11 "Agence nationales"
 * #11 ^property[0].code = #dateValid
-* #11 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #11 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #11 ^property[+].code = #dateMaj
-* #11 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #11 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #11 ^property[+].code = #status
 * #11 ^property[=].valueCode = #active

@@ -266,9 +266,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #ANS ^designation[=].use = $sct#900000000000013009
 * #ANS ^designation[=].value = "ANS"
 * #ANS ^property[0].code = #dateValid
-* #ANS ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #ANS ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #ANS ^property[+].code = #dateMaj
-* #ANS ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #ANS ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #ANS ^property[+].code = #status
 * #ANS ^property[=].valueCode = #active
 * #ANS ^property[+].code = #niveau
@@ -1164,9 +1164,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-01 ^designation[=].use = $sct#900000000000013009
 * #CD-01 ^designation[=].value = "CD de l’Ain"
 * #CD-01 ^property[0].code = #dateValid
-* #CD-01 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-01 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-01 ^property[+].code = #dateMaj
-* #CD-01 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-01 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-01 ^property[+].code = #status
 * #CD-01 ^property[=].valueCode = #active
 * #CD-01 ^property[+].code = #niveau
@@ -1183,9 +1183,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-02 ^designation[=].use = $sct#900000000000013009
 * #CD-02 ^designation[=].value = "CD de l’Aisne"
 * #CD-02 ^property[0].code = #dateValid
-* #CD-02 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-02 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-02 ^property[+].code = #dateMaj
-* #CD-02 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-02 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-02 ^property[+].code = #status
 * #CD-02 ^property[=].valueCode = #active
 * #CD-02 ^property[+].code = #niveau
@@ -1202,9 +1202,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-03 ^designation[=].use = $sct#900000000000013009
 * #CD-03 ^designation[=].value = "CD de l’Allier"
 * #CD-03 ^property[0].code = #dateValid
-* #CD-03 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-03 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-03 ^property[+].code = #dateMaj
-* #CD-03 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-03 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-03 ^property[+].code = #status
 * #CD-03 ^property[=].valueCode = #active
 * #CD-03 ^property[+].code = #niveau
@@ -1221,9 +1221,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-04 ^designation[=].use = $sct#900000000000013009
 * #CD-04 ^designation[=].value = "CD des Alpes-de-Haute-Provence"
 * #CD-04 ^property[0].code = #dateValid
-* #CD-04 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-04 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-04 ^property[+].code = #dateMaj
-* #CD-04 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-04 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-04 ^property[+].code = #status
 * #CD-04 ^property[=].valueCode = #active
 * #CD-04 ^property[+].code = #niveau
@@ -1240,9 +1240,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-05 ^designation[=].use = $sct#900000000000013009
 * #CD-05 ^designation[=].value = "CD des Hautes-Alpes"
 * #CD-05 ^property[0].code = #dateValid
-* #CD-05 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-05 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-05 ^property[+].code = #dateMaj
-* #CD-05 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-05 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-05 ^property[+].code = #status
 * #CD-05 ^property[=].valueCode = #active
 * #CD-05 ^property[+].code = #niveau
@@ -1259,9 +1259,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-06 ^designation[=].use = $sct#900000000000013009
 * #CD-06 ^designation[=].value = "CD des Alpes-Maritimes"
 * #CD-06 ^property[0].code = #dateValid
-* #CD-06 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-06 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-06 ^property[+].code = #dateMaj
-* #CD-06 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-06 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-06 ^property[+].code = #status
 * #CD-06 ^property[=].valueCode = #active
 * #CD-06 ^property[+].code = #niveau
@@ -1278,9 +1278,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-07 ^designation[=].use = $sct#900000000000013009
 * #CD-07 ^designation[=].value = "CD de l’Ardèche"
 * #CD-07 ^property[0].code = #dateValid
-* #CD-07 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-07 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-07 ^property[+].code = #dateMaj
-* #CD-07 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-07 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-07 ^property[+].code = #status
 * #CD-07 ^property[=].valueCode = #active
 * #CD-07 ^property[+].code = #niveau
@@ -1297,9 +1297,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-08 ^designation[=].use = $sct#900000000000013009
 * #CD-08 ^designation[=].value = "CD des Ardennes"
 * #CD-08 ^property[0].code = #dateValid
-* #CD-08 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-08 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-08 ^property[+].code = #dateMaj
-* #CD-08 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-08 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-08 ^property[+].code = #status
 * #CD-08 ^property[=].valueCode = #active
 * #CD-08 ^property[+].code = #niveau
@@ -1316,9 +1316,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-09 ^designation[=].use = $sct#900000000000013009
 * #CD-09 ^designation[=].value = "CD de l’Ariège"
 * #CD-09 ^property[0].code = #dateValid
-* #CD-09 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-09 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-09 ^property[+].code = #dateMaj
-* #CD-09 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-09 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-09 ^property[+].code = #status
 * #CD-09 ^property[=].valueCode = #active
 * #CD-09 ^property[+].code = #niveau
@@ -1335,9 +1335,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-10 ^designation[=].use = $sct#900000000000013009
 * #CD-10 ^designation[=].value = "CD de l’Aube"
 * #CD-10 ^property[0].code = #dateValid
-* #CD-10 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-10 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-10 ^property[+].code = #dateMaj
-* #CD-10 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-10 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-10 ^property[+].code = #status
 * #CD-10 ^property[=].valueCode = #active
 * #CD-10 ^property[+].code = #niveau
@@ -1354,9 +1354,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-11 ^designation[=].use = $sct#900000000000013009
 * #CD-11 ^designation[=].value = "CD de l’Aude"
 * #CD-11 ^property[0].code = #dateValid
-* #CD-11 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-11 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-11 ^property[+].code = #dateMaj
-* #CD-11 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-11 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-11 ^property[+].code = #status
 * #CD-11 ^property[=].valueCode = #active
 * #CD-11 ^property[+].code = #niveau
@@ -1373,9 +1373,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-12 ^designation[=].use = $sct#900000000000013009
 * #CD-12 ^designation[=].value = "CD de l’Aveyron"
 * #CD-12 ^property[0].code = #dateValid
-* #CD-12 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-12 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-12 ^property[+].code = #dateMaj
-* #CD-12 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-12 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-12 ^property[+].code = #status
 * #CD-12 ^property[=].valueCode = #active
 * #CD-12 ^property[+].code = #niveau
@@ -1392,9 +1392,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-13 ^designation[=].use = $sct#900000000000013009
 * #CD-13 ^designation[=].value = "CD des Bouches-du-Rhône"
 * #CD-13 ^property[0].code = #dateValid
-* #CD-13 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-13 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-13 ^property[+].code = #dateMaj
-* #CD-13 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-13 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-13 ^property[+].code = #status
 * #CD-13 ^property[=].valueCode = #active
 * #CD-13 ^property[+].code = #niveau
@@ -1411,9 +1411,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-14 ^designation[=].use = $sct#900000000000013009
 * #CD-14 ^designation[=].value = "CD du Calvados"
 * #CD-14 ^property[0].code = #dateValid
-* #CD-14 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-14 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-14 ^property[+].code = #dateMaj
-* #CD-14 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-14 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-14 ^property[+].code = #status
 * #CD-14 ^property[=].valueCode = #active
 * #CD-14 ^property[+].code = #niveau
@@ -1430,9 +1430,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-15 ^designation[=].use = $sct#900000000000013009
 * #CD-15 ^designation[=].value = "CD du Cantal"
 * #CD-15 ^property[0].code = #dateValid
-* #CD-15 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-15 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-15 ^property[+].code = #dateMaj
-* #CD-15 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-15 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-15 ^property[+].code = #status
 * #CD-15 ^property[=].valueCode = #active
 * #CD-15 ^property[+].code = #niveau
@@ -1449,9 +1449,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-16 ^designation[=].use = $sct#900000000000013009
 * #CD-16 ^designation[=].value = "CD de la Charente"
 * #CD-16 ^property[0].code = #dateValid
-* #CD-16 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-16 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-16 ^property[+].code = #dateMaj
-* #CD-16 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-16 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-16 ^property[+].code = #status
 * #CD-16 ^property[=].valueCode = #active
 * #CD-16 ^property[+].code = #niveau
@@ -1468,9 +1468,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-17 ^designation[=].use = $sct#900000000000013009
 * #CD-17 ^designation[=].value = "CD de la Charente-Maritime"
 * #CD-17 ^property[0].code = #dateValid
-* #CD-17 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-17 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-17 ^property[+].code = #dateMaj
-* #CD-17 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-17 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-17 ^property[+].code = #status
 * #CD-17 ^property[=].valueCode = #active
 * #CD-17 ^property[+].code = #niveau
@@ -1487,9 +1487,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-18 ^designation[=].use = $sct#900000000000013009
 * #CD-18 ^designation[=].value = "CD du Cher"
 * #CD-18 ^property[0].code = #dateValid
-* #CD-18 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-18 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-18 ^property[+].code = #dateMaj
-* #CD-18 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-18 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-18 ^property[+].code = #status
 * #CD-18 ^property[=].valueCode = #active
 * #CD-18 ^property[+].code = #niveau
@@ -1506,9 +1506,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-19 ^designation[=].use = $sct#900000000000013009
 * #CD-19 ^designation[=].value = "CD de la Corrèze"
 * #CD-19 ^property[0].code = #dateValid
-* #CD-19 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-19 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-19 ^property[+].code = #dateMaj
-* #CD-19 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-19 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-19 ^property[+].code = #status
 * #CD-19 ^property[=].valueCode = #active
 * #CD-19 ^property[+].code = #niveau
@@ -1525,9 +1525,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-21 ^designation[=].use = $sct#900000000000013009
 * #CD-21 ^designation[=].value = "CD de la Côte-d’Or"
 * #CD-21 ^property[0].code = #dateValid
-* #CD-21 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-21 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-21 ^property[+].code = #dateMaj
-* #CD-21 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-21 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-21 ^property[+].code = #status
 * #CD-21 ^property[=].valueCode = #active
 * #CD-21 ^property[+].code = #niveau
@@ -1544,9 +1544,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-22 ^designation[=].use = $sct#900000000000013009
 * #CD-22 ^designation[=].value = "CD des Côtes-d’Armor"
 * #CD-22 ^property[0].code = #dateValid
-* #CD-22 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-22 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-22 ^property[+].code = #dateMaj
-* #CD-22 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-22 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-22 ^property[+].code = #status
 * #CD-22 ^property[=].valueCode = #active
 * #CD-22 ^property[+].code = #niveau
@@ -1563,9 +1563,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-23 ^designation[=].use = $sct#900000000000013009
 * #CD-23 ^designation[=].value = "CD de la Creuse"
 * #CD-23 ^property[0].code = #dateValid
-* #CD-23 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-23 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-23 ^property[+].code = #dateMaj
-* #CD-23 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-23 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-23 ^property[+].code = #status
 * #CD-23 ^property[=].valueCode = #active
 * #CD-23 ^property[+].code = #niveau
@@ -1582,9 +1582,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-24 ^designation[=].use = $sct#900000000000013009
 * #CD-24 ^designation[=].value = "CD de la Dordogne"
 * #CD-24 ^property[0].code = #dateValid
-* #CD-24 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-24 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-24 ^property[+].code = #dateMaj
-* #CD-24 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-24 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-24 ^property[+].code = #status
 * #CD-24 ^property[=].valueCode = #active
 * #CD-24 ^property[+].code = #niveau
@@ -1601,9 +1601,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-25 ^designation[=].use = $sct#900000000000013009
 * #CD-25 ^designation[=].value = "CD du Doubs"
 * #CD-25 ^property[0].code = #dateValid
-* #CD-25 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-25 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-25 ^property[+].code = #dateMaj
-* #CD-25 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-25 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-25 ^property[+].code = #status
 * #CD-25 ^property[=].valueCode = #active
 * #CD-25 ^property[+].code = #niveau
@@ -1620,9 +1620,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-26 ^designation[=].use = $sct#900000000000013009
 * #CD-26 ^designation[=].value = "CD de la Drôme"
 * #CD-26 ^property[0].code = #dateValid
-* #CD-26 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-26 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-26 ^property[+].code = #dateMaj
-* #CD-26 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-26 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-26 ^property[+].code = #status
 * #CD-26 ^property[=].valueCode = #active
 * #CD-26 ^property[+].code = #niveau
@@ -1639,9 +1639,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-27 ^designation[=].use = $sct#900000000000013009
 * #CD-27 ^designation[=].value = "CD de l’Eure"
 * #CD-27 ^property[0].code = #dateValid
-* #CD-27 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-27 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-27 ^property[+].code = #dateMaj
-* #CD-27 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-27 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-27 ^property[+].code = #status
 * #CD-27 ^property[=].valueCode = #active
 * #CD-27 ^property[+].code = #niveau
@@ -1658,9 +1658,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-28 ^designation[=].use = $sct#900000000000013009
 * #CD-28 ^designation[=].value = "CD d’Eure-et-Loir"
 * #CD-28 ^property[0].code = #dateValid
-* #CD-28 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-28 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-28 ^property[+].code = #dateMaj
-* #CD-28 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-28 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-28 ^property[+].code = #status
 * #CD-28 ^property[=].valueCode = #active
 * #CD-28 ^property[+].code = #niveau
@@ -1677,9 +1677,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-29 ^designation[=].use = $sct#900000000000013009
 * #CD-29 ^designation[=].value = "CD du Finistère"
 * #CD-29 ^property[0].code = #dateValid
-* #CD-29 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-29 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-29 ^property[+].code = #dateMaj
-* #CD-29 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-29 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-29 ^property[+].code = #status
 * #CD-29 ^property[=].valueCode = #active
 * #CD-29 ^property[+].code = #niveau
@@ -1696,9 +1696,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-30 ^designation[=].use = $sct#900000000000013009
 * #CD-30 ^designation[=].value = "CD du Gard"
 * #CD-30 ^property[0].code = #dateValid
-* #CD-30 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-30 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-30 ^property[+].code = #dateMaj
-* #CD-30 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-30 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-30 ^property[+].code = #status
 * #CD-30 ^property[=].valueCode = #active
 * #CD-30 ^property[+].code = #niveau
@@ -1715,9 +1715,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-31 ^designation[=].use = $sct#900000000000013009
 * #CD-31 ^designation[=].value = "CD de la Haute-Garonne"
 * #CD-31 ^property[0].code = #dateValid
-* #CD-31 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-31 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-31 ^property[+].code = #dateMaj
-* #CD-31 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-31 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-31 ^property[+].code = #status
 * #CD-31 ^property[=].valueCode = #active
 * #CD-31 ^property[+].code = #niveau
@@ -1734,9 +1734,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-32 ^designation[=].use = $sct#900000000000013009
 * #CD-32 ^designation[=].value = "CD du Gers"
 * #CD-32 ^property[0].code = #dateValid
-* #CD-32 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-32 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-32 ^property[+].code = #dateMaj
-* #CD-32 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-32 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-32 ^property[+].code = #status
 * #CD-32 ^property[=].valueCode = #active
 * #CD-32 ^property[+].code = #niveau
@@ -1753,9 +1753,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-33 ^designation[=].use = $sct#900000000000013009
 * #CD-33 ^designation[=].value = "CD de la Gironde"
 * #CD-33 ^property[0].code = #dateValid
-* #CD-33 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-33 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-33 ^property[+].code = #dateMaj
-* #CD-33 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-33 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-33 ^property[+].code = #status
 * #CD-33 ^property[=].valueCode = #active
 * #CD-33 ^property[+].code = #niveau
@@ -1772,9 +1772,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-34 ^designation[=].use = $sct#900000000000013009
 * #CD-34 ^designation[=].value = "CD de l’Hérault"
 * #CD-34 ^property[0].code = #dateValid
-* #CD-34 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-34 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-34 ^property[+].code = #dateMaj
-* #CD-34 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-34 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-34 ^property[+].code = #status
 * #CD-34 ^property[=].valueCode = #active
 * #CD-34 ^property[+].code = #niveau
@@ -1791,9 +1791,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-35 ^designation[=].use = $sct#900000000000013009
 * #CD-35 ^designation[=].value = "CD d’Ille-et-Vilaine"
 * #CD-35 ^property[0].code = #dateValid
-* #CD-35 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-35 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-35 ^property[+].code = #dateMaj
-* #CD-35 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-35 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-35 ^property[+].code = #status
 * #CD-35 ^property[=].valueCode = #active
 * #CD-35 ^property[+].code = #niveau
@@ -1810,9 +1810,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-36 ^designation[=].use = $sct#900000000000013009
 * #CD-36 ^designation[=].value = "CD de l’Indre"
 * #CD-36 ^property[0].code = #dateValid
-* #CD-36 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-36 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-36 ^property[+].code = #dateMaj
-* #CD-36 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-36 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-36 ^property[+].code = #status
 * #CD-36 ^property[=].valueCode = #active
 * #CD-36 ^property[+].code = #niveau
@@ -1829,9 +1829,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-37 ^designation[=].use = $sct#900000000000013009
 * #CD-37 ^designation[=].value = "CD d’Indre-et-Loire"
 * #CD-37 ^property[0].code = #dateValid
-* #CD-37 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-37 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-37 ^property[+].code = #dateMaj
-* #CD-37 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-37 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-37 ^property[+].code = #status
 * #CD-37 ^property[=].valueCode = #active
 * #CD-37 ^property[+].code = #niveau
@@ -1848,9 +1848,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-38 ^designation[=].use = $sct#900000000000013009
 * #CD-38 ^designation[=].value = "CD de l’Isère"
 * #CD-38 ^property[0].code = #dateValid
-* #CD-38 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-38 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-38 ^property[+].code = #dateMaj
-* #CD-38 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-38 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-38 ^property[+].code = #status
 * #CD-38 ^property[=].valueCode = #active
 * #CD-38 ^property[+].code = #niveau
@@ -1867,9 +1867,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-39 ^designation[=].use = $sct#900000000000013009
 * #CD-39 ^designation[=].value = "CD du Jura"
 * #CD-39 ^property[0].code = #dateValid
-* #CD-39 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-39 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-39 ^property[+].code = #dateMaj
-* #CD-39 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-39 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-39 ^property[+].code = #status
 * #CD-39 ^property[=].valueCode = #active
 * #CD-39 ^property[+].code = #niveau
@@ -1886,9 +1886,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-40 ^designation[=].use = $sct#900000000000013009
 * #CD-40 ^designation[=].value = "CD des Landes"
 * #CD-40 ^property[0].code = #dateValid
-* #CD-40 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-40 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-40 ^property[+].code = #dateMaj
-* #CD-40 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-40 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-40 ^property[+].code = #status
 * #CD-40 ^property[=].valueCode = #active
 * #CD-40 ^property[+].code = #niveau
@@ -1905,9 +1905,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-41 ^designation[=].use = $sct#900000000000013009
 * #CD-41 ^designation[=].value = "CD de Loir-et-Cher"
 * #CD-41 ^property[0].code = #dateValid
-* #CD-41 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-41 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-41 ^property[+].code = #dateMaj
-* #CD-41 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-41 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-41 ^property[+].code = #status
 * #CD-41 ^property[=].valueCode = #active
 * #CD-41 ^property[+].code = #niveau
@@ -1924,9 +1924,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-42 ^designation[=].use = $sct#900000000000013009
 * #CD-42 ^designation[=].value = "CD de la Loire"
 * #CD-42 ^property[0].code = #dateValid
-* #CD-42 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-42 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-42 ^property[+].code = #dateMaj
-* #CD-42 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-42 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-42 ^property[+].code = #status
 * #CD-42 ^property[=].valueCode = #active
 * #CD-42 ^property[+].code = #niveau
@@ -1943,9 +1943,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-43 ^designation[=].use = $sct#900000000000013009
 * #CD-43 ^designation[=].value = "CD de la Haute-Loire"
 * #CD-43 ^property[0].code = #dateValid
-* #CD-43 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-43 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-43 ^property[+].code = #dateMaj
-* #CD-43 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-43 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-43 ^property[+].code = #status
 * #CD-43 ^property[=].valueCode = #active
 * #CD-43 ^property[+].code = #niveau
@@ -1962,9 +1962,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-44 ^designation[=].use = $sct#900000000000013009
 * #CD-44 ^designation[=].value = "CD de la Loire-Atlantique"
 * #CD-44 ^property[0].code = #dateValid
-* #CD-44 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-44 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-44 ^property[+].code = #dateMaj
-* #CD-44 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-44 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-44 ^property[+].code = #status
 * #CD-44 ^property[=].valueCode = #active
 * #CD-44 ^property[+].code = #niveau
@@ -1981,9 +1981,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-45 ^designation[=].use = $sct#900000000000013009
 * #CD-45 ^designation[=].value = "CD du Loiret"
 * #CD-45 ^property[0].code = #dateValid
-* #CD-45 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-45 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-45 ^property[+].code = #dateMaj
-* #CD-45 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-45 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-45 ^property[+].code = #status
 * #CD-45 ^property[=].valueCode = #active
 * #CD-45 ^property[+].code = #niveau
@@ -2000,9 +2000,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-46 ^designation[=].use = $sct#900000000000013009
 * #CD-46 ^designation[=].value = "CD du Lot"
 * #CD-46 ^property[0].code = #dateValid
-* #CD-46 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-46 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-46 ^property[+].code = #dateMaj
-* #CD-46 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-46 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-46 ^property[+].code = #status
 * #CD-46 ^property[=].valueCode = #active
 * #CD-46 ^property[+].code = #niveau
@@ -2019,9 +2019,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-47 ^designation[=].use = $sct#900000000000013009
 * #CD-47 ^designation[=].value = "CD de Lot-et-Garonne"
 * #CD-47 ^property[0].code = #dateValid
-* #CD-47 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-47 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-47 ^property[+].code = #dateMaj
-* #CD-47 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-47 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-47 ^property[+].code = #status
 * #CD-47 ^property[=].valueCode = #active
 * #CD-47 ^property[+].code = #niveau
@@ -2038,9 +2038,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-48 ^designation[=].use = $sct#900000000000013009
 * #CD-48 ^designation[=].value = "CD de la Lozère"
 * #CD-48 ^property[0].code = #dateValid
-* #CD-48 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-48 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-48 ^property[+].code = #dateMaj
-* #CD-48 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-48 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-48 ^property[+].code = #status
 * #CD-48 ^property[=].valueCode = #active
 * #CD-48 ^property[+].code = #niveau
@@ -2057,9 +2057,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-49 ^designation[=].use = $sct#900000000000013009
 * #CD-49 ^designation[=].value = "CD de Maine-et-Loire"
 * #CD-49 ^property[0].code = #dateValid
-* #CD-49 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-49 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-49 ^property[+].code = #dateMaj
-* #CD-49 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-49 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-49 ^property[+].code = #status
 * #CD-49 ^property[=].valueCode = #active
 * #CD-49 ^property[+].code = #niveau
@@ -2076,9 +2076,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-50 ^designation[=].use = $sct#900000000000013009
 * #CD-50 ^designation[=].value = "CD de la Manche"
 * #CD-50 ^property[0].code = #dateValid
-* #CD-50 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-50 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-50 ^property[+].code = #dateMaj
-* #CD-50 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-50 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-50 ^property[+].code = #status
 * #CD-50 ^property[=].valueCode = #active
 * #CD-50 ^property[+].code = #niveau
@@ -2095,9 +2095,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-51 ^designation[=].use = $sct#900000000000013009
 * #CD-51 ^designation[=].value = "CD de la Marne"
 * #CD-51 ^property[0].code = #dateValid
-* #CD-51 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-51 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-51 ^property[+].code = #dateMaj
-* #CD-51 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-51 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-51 ^property[+].code = #status
 * #CD-51 ^property[=].valueCode = #active
 * #CD-51 ^property[+].code = #niveau
@@ -2114,9 +2114,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-52 ^designation[=].use = $sct#900000000000013009
 * #CD-52 ^designation[=].value = "CD de la Haute-Marne"
 * #CD-52 ^property[0].code = #dateValid
-* #CD-52 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-52 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-52 ^property[+].code = #dateMaj
-* #CD-52 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-52 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-52 ^property[+].code = #status
 * #CD-52 ^property[=].valueCode = #active
 * #CD-52 ^property[+].code = #niveau
@@ -2133,9 +2133,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-53 ^designation[=].use = $sct#900000000000013009
 * #CD-53 ^designation[=].value = "CD de la Mayenne"
 * #CD-53 ^property[0].code = #dateValid
-* #CD-53 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-53 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-53 ^property[+].code = #dateMaj
-* #CD-53 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-53 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-53 ^property[+].code = #status
 * #CD-53 ^property[=].valueCode = #active
 * #CD-53 ^property[+].code = #niveau
@@ -2152,9 +2152,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-54 ^designation[=].use = $sct#900000000000013009
 * #CD-54 ^designation[=].value = "CD de Meurthe-et-Moselle"
 * #CD-54 ^property[0].code = #dateValid
-* #CD-54 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-54 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-54 ^property[+].code = #dateMaj
-* #CD-54 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-54 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-54 ^property[+].code = #status
 * #CD-54 ^property[=].valueCode = #active
 * #CD-54 ^property[+].code = #niveau
@@ -2171,9 +2171,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-55 ^designation[=].use = $sct#900000000000013009
 * #CD-55 ^designation[=].value = "CD de la Meuse"
 * #CD-55 ^property[0].code = #dateValid
-* #CD-55 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-55 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-55 ^property[+].code = #dateMaj
-* #CD-55 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-55 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-55 ^property[+].code = #status
 * #CD-55 ^property[=].valueCode = #active
 * #CD-55 ^property[+].code = #niveau
@@ -2190,9 +2190,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-56 ^designation[=].use = $sct#900000000000013009
 * #CD-56 ^designation[=].value = "CD du Morbihan"
 * #CD-56 ^property[0].code = #dateValid
-* #CD-56 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-56 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-56 ^property[+].code = #dateMaj
-* #CD-56 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-56 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-56 ^property[+].code = #status
 * #CD-56 ^property[=].valueCode = #active
 * #CD-56 ^property[+].code = #niveau
@@ -2209,9 +2209,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-57 ^designation[=].use = $sct#900000000000013009
 * #CD-57 ^designation[=].value = "CD de la Moselle"
 * #CD-57 ^property[0].code = #dateValid
-* #CD-57 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-57 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-57 ^property[+].code = #dateMaj
-* #CD-57 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-57 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-57 ^property[+].code = #status
 * #CD-57 ^property[=].valueCode = #active
 * #CD-57 ^property[+].code = #niveau
@@ -2228,9 +2228,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-58 ^designation[=].use = $sct#900000000000013009
 * #CD-58 ^designation[=].value = "CD de la Nièvre"
 * #CD-58 ^property[0].code = #dateValid
-* #CD-58 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-58 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-58 ^property[+].code = #dateMaj
-* #CD-58 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-58 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-58 ^property[+].code = #status
 * #CD-58 ^property[=].valueCode = #active
 * #CD-58 ^property[+].code = #niveau
@@ -2247,9 +2247,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-59 ^designation[=].use = $sct#900000000000013009
 * #CD-59 ^designation[=].value = "CD du Nord"
 * #CD-59 ^property[0].code = #dateValid
-* #CD-59 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-59 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-59 ^property[+].code = #dateMaj
-* #CD-59 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-59 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-59 ^property[+].code = #status
 * #CD-59 ^property[=].valueCode = #active
 * #CD-59 ^property[+].code = #niveau
@@ -2266,9 +2266,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-60 ^designation[=].use = $sct#900000000000013009
 * #CD-60 ^designation[=].value = "CD de l’Oise"
 * #CD-60 ^property[0].code = #dateValid
-* #CD-60 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-60 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-60 ^property[+].code = #dateMaj
-* #CD-60 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-60 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-60 ^property[+].code = #status
 * #CD-60 ^property[=].valueCode = #active
 * #CD-60 ^property[+].code = #niveau
@@ -2285,9 +2285,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-61 ^designation[=].use = $sct#900000000000013009
 * #CD-61 ^designation[=].value = "CD de l’Orne"
 * #CD-61 ^property[0].code = #dateValid
-* #CD-61 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-61 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-61 ^property[+].code = #dateMaj
-* #CD-61 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-61 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-61 ^property[+].code = #status
 * #CD-61 ^property[=].valueCode = #active
 * #CD-61 ^property[+].code = #niveau
@@ -2304,9 +2304,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-62 ^designation[=].use = $sct#900000000000013009
 * #CD-62 ^designation[=].value = "CD du Pas-de-Calais"
 * #CD-62 ^property[0].code = #dateValid
-* #CD-62 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-62 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-62 ^property[+].code = #dateMaj
-* #CD-62 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-62 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-62 ^property[+].code = #status
 * #CD-62 ^property[=].valueCode = #active
 * #CD-62 ^property[+].code = #niveau
@@ -2323,9 +2323,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-63 ^designation[=].use = $sct#900000000000013009
 * #CD-63 ^designation[=].value = "CD du Puy-de-Dôme"
 * #CD-63 ^property[0].code = #dateValid
-* #CD-63 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-63 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-63 ^property[+].code = #dateMaj
-* #CD-63 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-63 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-63 ^property[+].code = #status
 * #CD-63 ^property[=].valueCode = #active
 * #CD-63 ^property[+].code = #niveau
@@ -2342,9 +2342,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-64 ^designation[=].use = $sct#900000000000013009
 * #CD-64 ^designation[=].value = "CD des Pyrénées-Atlantiques"
 * #CD-64 ^property[0].code = #dateValid
-* #CD-64 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-64 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-64 ^property[+].code = #dateMaj
-* #CD-64 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-64 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-64 ^property[+].code = #status
 * #CD-64 ^property[=].valueCode = #active
 * #CD-64 ^property[+].code = #niveau
@@ -2361,9 +2361,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-65 ^designation[=].use = $sct#900000000000013009
 * #CD-65 ^designation[=].value = "CD des Hautes-Pyrénées"
 * #CD-65 ^property[0].code = #dateValid
-* #CD-65 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-65 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-65 ^property[+].code = #dateMaj
-* #CD-65 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-65 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-65 ^property[+].code = #status
 * #CD-65 ^property[=].valueCode = #active
 * #CD-65 ^property[+].code = #niveau
@@ -2380,9 +2380,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-66 ^designation[=].use = $sct#900000000000013009
 * #CD-66 ^designation[=].value = "CD des Pyrénées-Orientales"
 * #CD-66 ^property[0].code = #dateValid
-* #CD-66 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-66 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-66 ^property[+].code = #dateMaj
-* #CD-66 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-66 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-66 ^property[+].code = #status
 * #CD-66 ^property[=].valueCode = #active
 * #CD-66 ^property[+].code = #niveau
@@ -2399,9 +2399,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-69 ^designation[=].use = $sct#900000000000013009
 * #CD-69 ^designation[=].value = "CD du Rhône"
 * #CD-69 ^property[0].code = #dateValid
-* #CD-69 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-69 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-69 ^property[+].code = #dateMaj
-* #CD-69 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-69 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-69 ^property[+].code = #status
 * #CD-69 ^property[=].valueCode = #active
 * #CD-69 ^property[+].code = #niveau
@@ -2418,9 +2418,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-70 ^designation[=].use = $sct#900000000000013009
 * #CD-70 ^designation[=].value = "CD de la Haute-Saône"
 * #CD-70 ^property[0].code = #dateValid
-* #CD-70 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-70 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-70 ^property[+].code = #dateMaj
-* #CD-70 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-70 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-70 ^property[+].code = #status
 * #CD-70 ^property[=].valueCode = #active
 * #CD-70 ^property[+].code = #niveau
@@ -2437,9 +2437,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-71 ^designation[=].use = $sct#900000000000013009
 * #CD-71 ^designation[=].value = "CD de Saône-et-Loire"
 * #CD-71 ^property[0].code = #dateValid
-* #CD-71 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-71 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-71 ^property[+].code = #dateMaj
-* #CD-71 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-71 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-71 ^property[+].code = #status
 * #CD-71 ^property[=].valueCode = #active
 * #CD-71 ^property[+].code = #niveau
@@ -2456,9 +2456,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-72 ^designation[=].use = $sct#900000000000013009
 * #CD-72 ^designation[=].value = "CD de la Sarthe"
 * #CD-72 ^property[0].code = #dateValid
-* #CD-72 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-72 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-72 ^property[+].code = #dateMaj
-* #CD-72 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-72 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-72 ^property[+].code = #status
 * #CD-72 ^property[=].valueCode = #active
 * #CD-72 ^property[+].code = #niveau
@@ -2475,9 +2475,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-73 ^designation[=].use = $sct#900000000000013009
 * #CD-73 ^designation[=].value = "CD de la Savoie"
 * #CD-73 ^property[0].code = #dateValid
-* #CD-73 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-73 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-73 ^property[+].code = #dateMaj
-* #CD-73 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-73 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-73 ^property[+].code = #status
 * #CD-73 ^property[=].valueCode = #active
 * #CD-73 ^property[+].code = #niveau
@@ -2494,9 +2494,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-74 ^designation[=].use = $sct#900000000000013009
 * #CD-74 ^designation[=].value = "CD de la Haute-Savoie"
 * #CD-74 ^property[0].code = #dateValid
-* #CD-74 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-74 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-74 ^property[+].code = #dateMaj
-* #CD-74 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-74 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-74 ^property[+].code = #status
 * #CD-74 ^property[=].valueCode = #active
 * #CD-74 ^property[+].code = #niveau
@@ -2513,9 +2513,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-75 ^designation[=].use = $sct#900000000000013009
 * #CD-75 ^designation[=].value = "CD de Paris"
 * #CD-75 ^property[0].code = #dateValid
-* #CD-75 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-75 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-75 ^property[+].code = #dateMaj
-* #CD-75 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-75 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-75 ^property[+].code = #status
 * #CD-75 ^property[=].valueCode = #active
 * #CD-75 ^property[+].code = #niveau
@@ -2532,9 +2532,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-76 ^designation[=].use = $sct#900000000000013009
 * #CD-76 ^designation[=].value = "CD de la Seine-Maritime"
 * #CD-76 ^property[0].code = #dateValid
-* #CD-76 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-76 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-76 ^property[+].code = #dateMaj
-* #CD-76 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-76 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-76 ^property[+].code = #status
 * #CD-76 ^property[=].valueCode = #active
 * #CD-76 ^property[+].code = #niveau
@@ -2551,9 +2551,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-77 ^designation[=].use = $sct#900000000000013009
 * #CD-77 ^designation[=].value = "CD de Seine-et-Marne"
 * #CD-77 ^property[0].code = #dateValid
-* #CD-77 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-77 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-77 ^property[+].code = #dateMaj
-* #CD-77 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-77 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-77 ^property[+].code = #status
 * #CD-77 ^property[=].valueCode = #active
 * #CD-77 ^property[+].code = #niveau
@@ -2570,9 +2570,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-78 ^designation[=].use = $sct#900000000000013009
 * #CD-78 ^designation[=].value = "CD des Yvelines"
 * #CD-78 ^property[0].code = #dateValid
-* #CD-78 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-78 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-78 ^property[+].code = #dateMaj
-* #CD-78 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-78 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-78 ^property[+].code = #status
 * #CD-78 ^property[=].valueCode = #active
 * #CD-78 ^property[+].code = #niveau
@@ -2589,9 +2589,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-79 ^designation[=].use = $sct#900000000000013009
 * #CD-79 ^designation[=].value = "CD des Deux-Sèvres"
 * #CD-79 ^property[0].code = #dateValid
-* #CD-79 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-79 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-79 ^property[+].code = #dateMaj
-* #CD-79 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-79 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-79 ^property[+].code = #status
 * #CD-79 ^property[=].valueCode = #active
 * #CD-79 ^property[+].code = #niveau
@@ -2608,9 +2608,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-80 ^designation[=].use = $sct#900000000000013009
 * #CD-80 ^designation[=].value = "CD de la Somme"
 * #CD-80 ^property[0].code = #dateValid
-* #CD-80 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-80 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-80 ^property[+].code = #dateMaj
-* #CD-80 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-80 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-80 ^property[+].code = #status
 * #CD-80 ^property[=].valueCode = #active
 * #CD-80 ^property[+].code = #niveau
@@ -2627,9 +2627,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-81 ^designation[=].use = $sct#900000000000013009
 * #CD-81 ^designation[=].value = "CD du Tarn"
 * #CD-81 ^property[0].code = #dateValid
-* #CD-81 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-81 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-81 ^property[+].code = #dateMaj
-* #CD-81 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-81 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-81 ^property[+].code = #status
 * #CD-81 ^property[=].valueCode = #active
 * #CD-81 ^property[+].code = #niveau
@@ -2646,9 +2646,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-82 ^designation[=].use = $sct#900000000000013009
 * #CD-82 ^designation[=].value = "CD de Tarn-et-Garonne"
 * #CD-82 ^property[0].code = #dateValid
-* #CD-82 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-82 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-82 ^property[+].code = #dateMaj
-* #CD-82 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-82 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-82 ^property[+].code = #status
 * #CD-82 ^property[=].valueCode = #active
 * #CD-82 ^property[+].code = #niveau
@@ -2665,9 +2665,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-83 ^designation[=].use = $sct#900000000000013009
 * #CD-83 ^designation[=].value = "CD du Var"
 * #CD-83 ^property[0].code = #dateValid
-* #CD-83 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-83 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-83 ^property[+].code = #dateMaj
-* #CD-83 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-83 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-83 ^property[+].code = #status
 * #CD-83 ^property[=].valueCode = #active
 * #CD-83 ^property[+].code = #niveau
@@ -2684,9 +2684,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-84 ^designation[=].use = $sct#900000000000013009
 * #CD-84 ^designation[=].value = "CD du Vaucluse"
 * #CD-84 ^property[0].code = #dateValid
-* #CD-84 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-84 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-84 ^property[+].code = #dateMaj
-* #CD-84 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-84 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-84 ^property[+].code = #status
 * #CD-84 ^property[=].valueCode = #active
 * #CD-84 ^property[+].code = #niveau
@@ -2703,9 +2703,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-85 ^designation[=].use = $sct#900000000000013009
 * #CD-85 ^designation[=].value = "CD de la Vendée"
 * #CD-85 ^property[0].code = #dateValid
-* #CD-85 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-85 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-85 ^property[+].code = #dateMaj
-* #CD-85 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-85 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-85 ^property[+].code = #status
 * #CD-85 ^property[=].valueCode = #active
 * #CD-85 ^property[+].code = #niveau
@@ -2722,9 +2722,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-86 ^designation[=].use = $sct#900000000000013009
 * #CD-86 ^designation[=].value = "CD de la Vienne"
 * #CD-86 ^property[0].code = #dateValid
-* #CD-86 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-86 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-86 ^property[+].code = #dateMaj
-* #CD-86 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-86 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-86 ^property[+].code = #status
 * #CD-86 ^property[=].valueCode = #active
 * #CD-86 ^property[+].code = #niveau
@@ -2741,9 +2741,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-87 ^designation[=].use = $sct#900000000000013009
 * #CD-87 ^designation[=].value = "CD de la Haute-Vienne"
 * #CD-87 ^property[0].code = #dateValid
-* #CD-87 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-87 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-87 ^property[+].code = #dateMaj
-* #CD-87 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-87 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-87 ^property[+].code = #status
 * #CD-87 ^property[=].valueCode = #active
 * #CD-87 ^property[+].code = #niveau
@@ -2760,9 +2760,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-88 ^designation[=].use = $sct#900000000000013009
 * #CD-88 ^designation[=].value = "CD des Vosges"
 * #CD-88 ^property[0].code = #dateValid
-* #CD-88 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-88 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-88 ^property[+].code = #dateMaj
-* #CD-88 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-88 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-88 ^property[+].code = #status
 * #CD-88 ^property[=].valueCode = #active
 * #CD-88 ^property[+].code = #niveau
@@ -2779,9 +2779,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-89 ^designation[=].use = $sct#900000000000013009
 * #CD-89 ^designation[=].value = "CD de l’Yonne"
 * #CD-89 ^property[0].code = #dateValid
-* #CD-89 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-89 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-89 ^property[+].code = #dateMaj
-* #CD-89 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-89 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-89 ^property[+].code = #status
 * #CD-89 ^property[=].valueCode = #active
 * #CD-89 ^property[+].code = #niveau
@@ -2798,9 +2798,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-90 ^designation[=].use = $sct#900000000000013009
 * #CD-90 ^designation[=].value = "CD du Territoire de Belfort"
 * #CD-90 ^property[0].code = #dateValid
-* #CD-90 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-90 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-90 ^property[+].code = #dateMaj
-* #CD-90 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-90 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-90 ^property[+].code = #status
 * #CD-90 ^property[=].valueCode = #active
 * #CD-90 ^property[+].code = #niveau
@@ -2817,9 +2817,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-91 ^designation[=].use = $sct#900000000000013009
 * #CD-91 ^designation[=].value = "CD de l’Essonne"
 * #CD-91 ^property[0].code = #dateValid
-* #CD-91 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-91 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-91 ^property[+].code = #dateMaj
-* #CD-91 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-91 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-91 ^property[+].code = #status
 * #CD-91 ^property[=].valueCode = #active
 * #CD-91 ^property[+].code = #niveau
@@ -2836,9 +2836,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-92 ^designation[=].use = $sct#900000000000013009
 * #CD-92 ^designation[=].value = "CD des Hauts-de-Seine"
 * #CD-92 ^property[0].code = #dateValid
-* #CD-92 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-92 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-92 ^property[+].code = #dateMaj
-* #CD-92 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-92 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-92 ^property[+].code = #status
 * #CD-92 ^property[=].valueCode = #active
 * #CD-92 ^property[+].code = #niveau
@@ -2855,9 +2855,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-93 ^designation[=].use = $sct#900000000000013009
 * #CD-93 ^designation[=].value = "CD de la Seine-Saint-Denis"
 * #CD-93 ^property[0].code = #dateValid
-* #CD-93 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-93 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-93 ^property[+].code = #dateMaj
-* #CD-93 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-93 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-93 ^property[+].code = #status
 * #CD-93 ^property[=].valueCode = #active
 * #CD-93 ^property[+].code = #niveau
@@ -2874,9 +2874,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-94 ^designation[=].use = $sct#900000000000013009
 * #CD-94 ^designation[=].value = "CD du Val-de-Marne"
 * #CD-94 ^property[0].code = #dateValid
-* #CD-94 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-94 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-94 ^property[+].code = #dateMaj
-* #CD-94 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-94 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-94 ^property[+].code = #status
 * #CD-94 ^property[=].valueCode = #active
 * #CD-94 ^property[+].code = #niveau
@@ -2893,9 +2893,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-95 ^designation[=].use = $sct#900000000000013009
 * #CD-95 ^designation[=].value = "CD du Val-d’Oise"
 * #CD-95 ^property[0].code = #dateValid
-* #CD-95 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-95 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-95 ^property[+].code = #dateMaj
-* #CD-95 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-95 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-95 ^property[+].code = #status
 * #CD-95 ^property[=].valueCode = #active
 * #CD-95 ^property[+].code = #niveau
@@ -2912,9 +2912,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-971 ^designation[=].use = $sct#900000000000013009
 * #CD-971 ^designation[=].value = "CD de la Guadeloupe"
 * #CD-971 ^property[0].code = #dateValid
-* #CD-971 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-971 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-971 ^property[+].code = #dateMaj
-* #CD-971 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-971 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-971 ^property[+].code = #status
 * #CD-971 ^property[=].valueCode = #active
 * #CD-971 ^property[+].code = #niveau
@@ -2931,9 +2931,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-974 ^designation[=].use = $sct#900000000000013009
 * #CD-974 ^designation[=].value = "CD de La Réunion"
 * #CD-974 ^property[0].code = #dateValid
-* #CD-974 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-974 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-974 ^property[+].code = #dateMaj
-* #CD-974 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-974 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-974 ^property[+].code = #status
 * #CD-974 ^property[=].valueCode = #active
 * #CD-974 ^property[+].code = #niveau
@@ -2950,9 +2950,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CD-976 ^designation[=].use = $sct#900000000000013009
 * #CD-976 ^designation[=].value = "CD de Mayotte"
 * #CD-976 ^property[0].code = #dateValid
-* #CD-976 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-976 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-976 ^property[+].code = #dateMaj
-* #CD-976 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CD-976 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CD-976 ^property[+].code = #status
 * #CD-976 ^property[=].valueCode = #active
 * #CD-976 ^property[+].code = #niveau
@@ -2969,9 +2969,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CEA ^designation[=].use = $sct#900000000000013009
 * #CEA ^designation[=].value = "Collectivité Européenne d'Alsace"
 * #CEA ^property[0].code = #dateValid
-* #CEA ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CEA ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CEA ^property[+].code = #dateMaj
-* #CEA ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CEA ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CEA ^property[+].code = #status
 * #CEA ^property[=].valueCode = #active
 * #CEA ^property[+].code = #niveau
@@ -2988,9 +2988,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CR-01 ^designation[=].use = $sct#900000000000013009
 * #CR-01 ^designation[=].value = "Conseil régional Guadeloupe"
 * #CR-01 ^property[0].code = #dateValid
-* #CR-01 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-01 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CR-01 ^property[+].code = #dateMaj
-* #CR-01 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-01 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CR-01 ^property[+].code = #status
 * #CR-01 ^property[=].valueCode = #active
 * #CR-01 ^property[+].code = #niveau
@@ -3007,9 +3007,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CR-04 ^designation[=].use = $sct#900000000000013009
 * #CR-04 ^designation[=].value = "Conseil régional La Réunion"
 * #CR-04 ^property[0].code = #dateValid
-* #CR-04 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-04 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CR-04 ^property[+].code = #dateMaj
-* #CR-04 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-04 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CR-04 ^property[+].code = #status
 * #CR-04 ^property[=].valueCode = #active
 * #CR-04 ^property[+].code = #niveau
@@ -3026,9 +3026,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CR-11 ^designation[=].use = $sct#900000000000013009
 * #CR-11 ^designation[=].value = "CR Île-de-France"
 * #CR-11 ^property[0].code = #dateValid
-* #CR-11 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-11 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CR-11 ^property[+].code = #dateMaj
-* #CR-11 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-11 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CR-11 ^property[+].code = #status
 * #CR-11 ^property[=].valueCode = #active
 * #CR-11 ^property[+].code = #niveau
@@ -3045,9 +3045,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CR-24 ^designation[=].use = $sct#900000000000013009
 * #CR-24 ^designation[=].value = "CR Normandie"
 * #CR-24 ^property[0].code = #dateValid
-* #CR-24 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-24 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CR-24 ^property[+].code = #dateMaj
-* #CR-24 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-24 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CR-24 ^property[+].code = #status
 * #CR-24 ^property[=].valueCode = #active
 * #CR-24 ^property[+].code = #niveau
@@ -3064,9 +3064,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CR-27 ^designation[=].use = $sct#900000000000013009
 * #CR-27 ^designation[=].value = "CR Bourgogne-Franche-Comté"
 * #CR-27 ^property[0].code = #dateValid
-* #CR-27 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-27 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CR-27 ^property[+].code = #dateMaj
-* #CR-27 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-27 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CR-27 ^property[+].code = #status
 * #CR-27 ^property[=].valueCode = #active
 * #CR-27 ^property[+].code = #niveau
@@ -3083,9 +3083,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CR-28 ^designation[=].use = $sct#900000000000013009
 * #CR-28 ^designation[=].value = "CR Normandie"
 * #CR-28 ^property[0].code = #dateValid
-* #CR-28 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-28 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CR-28 ^property[+].code = #dateMaj
-* #CR-28 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-28 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CR-28 ^property[+].code = #status
 * #CR-28 ^property[=].valueCode = #active
 * #CR-28 ^property[+].code = #niveau
@@ -3102,9 +3102,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CR-32 ^designation[=].use = $sct#900000000000013009
 * #CR-32 ^designation[=].value = "CR Hauts-de-France"
 * #CR-32 ^property[0].code = #dateValid
-* #CR-32 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-32 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CR-32 ^property[+].code = #dateMaj
-* #CR-32 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-32 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CR-32 ^property[+].code = #status
 * #CR-32 ^property[=].valueCode = #active
 * #CR-32 ^property[+].code = #niveau
@@ -3121,9 +3121,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CR-44 ^designation[=].use = $sct#900000000000013009
 * #CR-44 ^designation[=].value = "CR Grand Est"
 * #CR-44 ^property[0].code = #dateValid
-* #CR-44 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-44 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CR-44 ^property[+].code = #dateMaj
-* #CR-44 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-44 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CR-44 ^property[+].code = #status
 * #CR-44 ^property[=].valueCode = #active
 * #CR-44 ^property[+].code = #niveau
@@ -3140,9 +3140,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CR-52 ^designation[=].use = $sct#900000000000013009
 * #CR-52 ^designation[=].value = "CR Pays de la Loire"
 * #CR-52 ^property[0].code = #dateValid
-* #CR-52 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-52 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CR-52 ^property[+].code = #dateMaj
-* #CR-52 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-52 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CR-52 ^property[+].code = #status
 * #CR-52 ^property[=].valueCode = #active
 * #CR-52 ^property[+].code = #niveau
@@ -3159,9 +3159,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CR-53 ^designation[=].use = $sct#900000000000013009
 * #CR-53 ^designation[=].value = "CR Bretagne"
 * #CR-53 ^property[0].code = #dateValid
-* #CR-53 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-53 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CR-53 ^property[+].code = #dateMaj
-* #CR-53 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-53 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CR-53 ^property[+].code = #status
 * #CR-53 ^property[=].valueCode = #active
 * #CR-53 ^property[+].code = #niveau
@@ -3178,9 +3178,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CR-75 ^designation[=].use = $sct#900000000000013009
 * #CR-75 ^designation[=].value = "CR Nouvelle-Aquitaine"
 * #CR-75 ^property[0].code = #dateValid
-* #CR-75 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-75 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CR-75 ^property[+].code = #dateMaj
-* #CR-75 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-75 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CR-75 ^property[+].code = #status
 * #CR-75 ^property[=].valueCode = #active
 * #CR-75 ^property[+].code = #niveau
@@ -3197,9 +3197,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CR-76 ^designation[=].use = $sct#900000000000013009
 * #CR-76 ^designation[=].value = "CR Occitanie"
 * #CR-76 ^property[0].code = #dateValid
-* #CR-76 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-76 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CR-76 ^property[+].code = #dateMaj
-* #CR-76 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-76 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CR-76 ^property[+].code = #status
 * #CR-76 ^property[=].valueCode = #active
 * #CR-76 ^property[+].code = #niveau
@@ -3216,9 +3216,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CR-84 ^designation[=].use = $sct#900000000000013009
 * #CR-84 ^designation[=].value = "CR Auvergne-Rhône-Alpes"
 * #CR-84 ^property[0].code = #dateValid
-* #CR-84 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-84 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CR-84 ^property[+].code = #dateMaj
-* #CR-84 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-84 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CR-84 ^property[+].code = #status
 * #CR-84 ^property[=].valueCode = #active
 * #CR-84 ^property[+].code = #niveau
@@ -3235,9 +3235,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CR-93 ^designation[=].use = $sct#900000000000013009
 * #CR-93 ^designation[=].value = "CR Provence-Alpes-Côte d'Azur"
 * #CR-93 ^property[0].code = #dateValid
-* #CR-93 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-93 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CR-93 ^property[+].code = #dateMaj
-* #CR-93 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-93 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CR-93 ^property[+].code = #status
 * #CR-93 ^property[=].valueCode = #active
 * #CR-93 ^property[+].code = #niveau
@@ -3254,9 +3254,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CT-02 ^designation[=].use = $sct#900000000000013009
 * #CT-02 ^designation[=].value = "Collectivité Territoriale de Martinique"
 * #CT-02 ^property[0].code = #dateValid
-* #CT-02 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CT-02 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CT-02 ^property[+].code = #dateMaj
-* #CT-02 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CT-02 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CT-02 ^property[+].code = #status
 * #CT-02 ^property[=].valueCode = #active
 * #CT-02 ^property[+].code = #niveau
@@ -3273,9 +3273,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CT-03 ^designation[=].use = $sct#900000000000013009
 * #CT-03 ^designation[=].value = "Collectivité Territoriale de Guyane"
 * #CT-03 ^property[0].code = #dateValid
-* #CT-03 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CT-03 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CT-03 ^property[+].code = #dateMaj
-* #CT-03 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CT-03 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CT-03 ^property[+].code = #status
 * #CT-03 ^property[=].valueCode = #active
 * #CT-03 ^property[+].code = #niveau
@@ -3292,9 +3292,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CT-94 ^designation[=].use = $sct#900000000000013009
 * #CT-94 ^designation[=].value = "Collectivité de Corse"
 * #CT-94 ^property[0].code = #dateValid
-* #CT-94 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CT-94 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CT-94 ^property[+].code = #dateMaj
-* #CT-94 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CT-94 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #CT-94 ^property[+].code = #status
 * #CT-94 ^property[=].valueCode = #active
 * #CT-94 ^property[+].code = #niveau
@@ -3311,9 +3311,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-01 ^designation[=].use = $sct#900000000000013009
 * #DDETS-01 ^designation[=].value = "DDETS Ain"
 * #DDETS-01 ^property[0].code = #dateValid
-* #DDETS-01 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-01 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-01 ^property[+].code = #dateMaj
-* #DDETS-01 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-01 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-01 ^property[+].code = #status
 * #DDETS-01 ^property[=].valueCode = #active
 * #DDETS-01 ^property[+].code = #niveau
@@ -3330,9 +3330,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-02 ^designation[=].use = $sct#900000000000013009
 * #DDETS-02 ^designation[=].value = "DDETS Aisne"
 * #DDETS-02 ^property[0].code = #dateValid
-* #DDETS-02 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-02 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-02 ^property[+].code = #dateMaj
-* #DDETS-02 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-02 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-02 ^property[+].code = #status
 * #DDETS-02 ^property[=].valueCode = #active
 * #DDETS-02 ^property[+].code = #niveau
@@ -3349,9 +3349,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-03 ^designation[=].use = $sct#900000000000013009
 * #DDETS-03 ^designation[=].value = "DDETSPP Allier"
 * #DDETS-03 ^property[0].code = #dateValid
-* #DDETS-03 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-03 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-03 ^property[+].code = #dateMaj
-* #DDETS-03 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-03 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-03 ^property[+].code = #status
 * #DDETS-03 ^property[=].valueCode = #active
 * #DDETS-03 ^property[+].code = #niveau
@@ -3368,9 +3368,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-04 ^designation[=].use = $sct#900000000000013009
 * #DDETS-04 ^designation[=].value = "DDETSPP Alpes-de-Haute-Provence"
 * #DDETS-04 ^property[0].code = #dateValid
-* #DDETS-04 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-04 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-04 ^property[+].code = #dateMaj
-* #DDETS-04 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-04 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-04 ^property[+].code = #status
 * #DDETS-04 ^property[=].valueCode = #active
 * #DDETS-04 ^property[+].code = #niveau
@@ -3387,9 +3387,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-05 ^designation[=].use = $sct#900000000000013009
 * #DDETS-05 ^designation[=].value = "DDETSPP Hautes-Alpes"
 * #DDETS-05 ^property[0].code = #dateValid
-* #DDETS-05 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-05 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-05 ^property[+].code = #dateMaj
-* #DDETS-05 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-05 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-05 ^property[+].code = #status
 * #DDETS-05 ^property[=].valueCode = #active
 * #DDETS-05 ^property[+].code = #niveau
@@ -3406,9 +3406,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-06 ^designation[=].use = $sct#900000000000013009
 * #DDETS-06 ^designation[=].value = "DDETS Alpes-Maritimes"
 * #DDETS-06 ^property[0].code = #dateValid
-* #DDETS-06 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-06 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-06 ^property[+].code = #dateMaj
-* #DDETS-06 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-06 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-06 ^property[+].code = #status
 * #DDETS-06 ^property[=].valueCode = #active
 * #DDETS-06 ^property[+].code = #niveau
@@ -3425,9 +3425,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-07 ^designation[=].use = $sct#900000000000013009
 * #DDETS-07 ^designation[=].value = "DDETSPP Ardèche"
 * #DDETS-07 ^property[0].code = #dateValid
-* #DDETS-07 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-07 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-07 ^property[+].code = #dateMaj
-* #DDETS-07 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-07 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-07 ^property[+].code = #status
 * #DDETS-07 ^property[=].valueCode = #active
 * #DDETS-07 ^property[+].code = #niveau
@@ -3444,9 +3444,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-08 ^designation[=].use = $sct#900000000000013009
 * #DDETS-08 ^designation[=].value = "DDETSPP Ardennes"
 * #DDETS-08 ^property[0].code = #dateValid
-* #DDETS-08 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-08 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-08 ^property[+].code = #dateMaj
-* #DDETS-08 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-08 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-08 ^property[+].code = #status
 * #DDETS-08 ^property[=].valueCode = #active
 * #DDETS-08 ^property[+].code = #niveau
@@ -3463,9 +3463,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-09 ^designation[=].use = $sct#900000000000013009
 * #DDETS-09 ^designation[=].value = "DDETSPP Ariège"
 * #DDETS-09 ^property[0].code = #dateValid
-* #DDETS-09 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-09 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-09 ^property[+].code = #dateMaj
-* #DDETS-09 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-09 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-09 ^property[+].code = #status
 * #DDETS-09 ^property[=].valueCode = #active
 * #DDETS-09 ^property[+].code = #niveau
@@ -3482,9 +3482,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-10 ^designation[=].use = $sct#900000000000013009
 * #DDETS-10 ^designation[=].value = "DDETSPP Aube"
 * #DDETS-10 ^property[0].code = #dateValid
-* #DDETS-10 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-10 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-10 ^property[+].code = #dateMaj
-* #DDETS-10 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-10 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-10 ^property[+].code = #status
 * #DDETS-10 ^property[=].valueCode = #active
 * #DDETS-10 ^property[+].code = #niveau
@@ -3501,9 +3501,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-11 ^designation[=].use = $sct#900000000000013009
 * #DDETS-11 ^designation[=].value = "DDETSPP Aude"
 * #DDETS-11 ^property[0].code = #dateValid
-* #DDETS-11 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-11 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-11 ^property[+].code = #dateMaj
-* #DDETS-11 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-11 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-11 ^property[+].code = #status
 * #DDETS-11 ^property[=].valueCode = #active
 * #DDETS-11 ^property[+].code = #niveau
@@ -3520,9 +3520,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-12 ^designation[=].use = $sct#900000000000013009
 * #DDETS-12 ^designation[=].value = "DDETSPP Aveyron"
 * #DDETS-12 ^property[0].code = #dateValid
-* #DDETS-12 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-12 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-12 ^property[+].code = #dateMaj
-* #DDETS-12 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-12 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-12 ^property[+].code = #status
 * #DDETS-12 ^property[=].valueCode = #active
 * #DDETS-12 ^property[+].code = #niveau
@@ -3539,9 +3539,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-13 ^designation[=].use = $sct#900000000000013009
 * #DDETS-13 ^designation[=].value = "DDETS Bouches-du-Rhône"
 * #DDETS-13 ^property[0].code = #dateValid
-* #DDETS-13 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-13 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-13 ^property[+].code = #dateMaj
-* #DDETS-13 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-13 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-13 ^property[+].code = #status
 * #DDETS-13 ^property[=].valueCode = #active
 * #DDETS-13 ^property[+].code = #niveau
@@ -3558,9 +3558,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-14 ^designation[=].use = $sct#900000000000013009
 * #DDETS-14 ^designation[=].value = "DDETS Calvados"
 * #DDETS-14 ^property[0].code = #dateValid
-* #DDETS-14 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-14 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-14 ^property[+].code = #dateMaj
-* #DDETS-14 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-14 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-14 ^property[+].code = #status
 * #DDETS-14 ^property[=].valueCode = #active
 * #DDETS-14 ^property[+].code = #niveau
@@ -3577,9 +3577,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-15 ^designation[=].use = $sct#900000000000013009
 * #DDETS-15 ^designation[=].value = "DDETSPP Cantal"
 * #DDETS-15 ^property[0].code = #dateValid
-* #DDETS-15 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-15 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-15 ^property[+].code = #dateMaj
-* #DDETS-15 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-15 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-15 ^property[+].code = #status
 * #DDETS-15 ^property[=].valueCode = #active
 * #DDETS-15 ^property[+].code = #niveau
@@ -3596,9 +3596,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-16 ^designation[=].use = $sct#900000000000013009
 * #DDETS-16 ^designation[=].value = "DDETSPP Charente"
 * #DDETS-16 ^property[0].code = #dateValid
-* #DDETS-16 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-16 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-16 ^property[+].code = #dateMaj
-* #DDETS-16 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-16 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-16 ^property[+].code = #status
 * #DDETS-16 ^property[=].valueCode = #active
 * #DDETS-16 ^property[+].code = #niveau
@@ -3615,9 +3615,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-17 ^designation[=].use = $sct#900000000000013009
 * #DDETS-17 ^designation[=].value = "DDETS Charente-Maritime"
 * #DDETS-17 ^property[0].code = #dateValid
-* #DDETS-17 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-17 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-17 ^property[+].code = #dateMaj
-* #DDETS-17 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-17 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-17 ^property[+].code = #status
 * #DDETS-17 ^property[=].valueCode = #active
 * #DDETS-17 ^property[+].code = #niveau
@@ -3634,9 +3634,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-18 ^designation[=].use = $sct#900000000000013009
 * #DDETS-18 ^designation[=].value = "DDETSPP Cher"
 * #DDETS-18 ^property[0].code = #dateValid
-* #DDETS-18 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-18 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-18 ^property[+].code = #dateMaj
-* #DDETS-18 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-18 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-18 ^property[+].code = #status
 * #DDETS-18 ^property[=].valueCode = #active
 * #DDETS-18 ^property[+].code = #niveau
@@ -3653,9 +3653,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-19 ^designation[=].use = $sct#900000000000013009
 * #DDETS-19 ^designation[=].value = "DDETSPP Corrèze"
 * #DDETS-19 ^property[0].code = #dateValid
-* #DDETS-19 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-19 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-19 ^property[+].code = #dateMaj
-* #DDETS-19 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-19 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-19 ^property[+].code = #status
 * #DDETS-19 ^property[=].valueCode = #active
 * #DDETS-19 ^property[+].code = #niveau
@@ -3672,9 +3672,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-21 ^designation[=].use = $sct#900000000000013009
 * #DDETS-21 ^designation[=].value = "DDETS Côte-d'Or"
 * #DDETS-21 ^property[0].code = #dateValid
-* #DDETS-21 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-21 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-21 ^property[+].code = #dateMaj
-* #DDETS-21 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-21 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-21 ^property[+].code = #status
 * #DDETS-21 ^property[=].valueCode = #active
 * #DDETS-21 ^property[+].code = #niveau
@@ -3691,9 +3691,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-22 ^designation[=].use = $sct#900000000000013009
 * #DDETS-22 ^designation[=].value = "DDETS Côtes-d'Armor"
 * #DDETS-22 ^property[0].code = #dateValid
-* #DDETS-22 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-22 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-22 ^property[+].code = #dateMaj
-* #DDETS-22 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-22 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-22 ^property[+].code = #status
 * #DDETS-22 ^property[=].valueCode = #active
 * #DDETS-22 ^property[+].code = #niveau
@@ -3710,9 +3710,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-23 ^designation[=].use = $sct#900000000000013009
 * #DDETS-23 ^designation[=].value = "DDETSPP Creuse"
 * #DDETS-23 ^property[0].code = #dateValid
-* #DDETS-23 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-23 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-23 ^property[+].code = #dateMaj
-* #DDETS-23 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-23 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-23 ^property[+].code = #status
 * #DDETS-23 ^property[=].valueCode = #active
 * #DDETS-23 ^property[+].code = #niveau
@@ -3729,9 +3729,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-24 ^designation[=].use = $sct#900000000000013009
 * #DDETS-24 ^designation[=].value = "DDETSPP Dordogne"
 * #DDETS-24 ^property[0].code = #dateValid
-* #DDETS-24 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-24 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-24 ^property[+].code = #dateMaj
-* #DDETS-24 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-24 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-24 ^property[+].code = #status
 * #DDETS-24 ^property[=].valueCode = #active
 * #DDETS-24 ^property[+].code = #niveau
@@ -3748,9 +3748,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-25 ^designation[=].use = $sct#900000000000013009
 * #DDETS-25 ^designation[=].value = "DDETS Doubs"
 * #DDETS-25 ^property[0].code = #dateValid
-* #DDETS-25 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-25 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-25 ^property[+].code = #dateMaj
-* #DDETS-25 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-25 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-25 ^property[+].code = #status
 * #DDETS-25 ^property[=].valueCode = #active
 * #DDETS-25 ^property[+].code = #niveau
@@ -3767,9 +3767,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-26 ^designation[=].use = $sct#900000000000013009
 * #DDETS-26 ^designation[=].value = "DDETS Drôme"
 * #DDETS-26 ^property[0].code = #dateValid
-* #DDETS-26 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-26 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-26 ^property[+].code = #dateMaj
-* #DDETS-26 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-26 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-26 ^property[+].code = #status
 * #DDETS-26 ^property[=].valueCode = #active
 * #DDETS-26 ^property[+].code = #niveau
@@ -3786,9 +3786,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-27 ^designation[=].use = $sct#900000000000013009
 * #DDETS-27 ^designation[=].value = "DDETS Eure"
 * #DDETS-27 ^property[0].code = #dateValid
-* #DDETS-27 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-27 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-27 ^property[+].code = #dateMaj
-* #DDETS-27 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-27 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-27 ^property[+].code = #status
 * #DDETS-27 ^property[=].valueCode = #active
 * #DDETS-27 ^property[+].code = #niveau
@@ -3805,9 +3805,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-28 ^designation[=].use = $sct#900000000000013009
 * #DDETS-28 ^designation[=].value = "DDETS Eure-et-Loir"
 * #DDETS-28 ^property[0].code = #dateValid
-* #DDETS-28 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-28 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-28 ^property[+].code = #dateMaj
-* #DDETS-28 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-28 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-28 ^property[+].code = #status
 * #DDETS-28 ^property[=].valueCode = #active
 * #DDETS-28 ^property[+].code = #niveau
@@ -3824,9 +3824,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-29 ^designation[=].use = $sct#900000000000013009
 * #DDETS-29 ^designation[=].value = "DDETS Finistère"
 * #DDETS-29 ^property[0].code = #dateValid
-* #DDETS-29 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-29 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-29 ^property[+].code = #dateMaj
-* #DDETS-29 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-29 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-29 ^property[+].code = #status
 * #DDETS-29 ^property[=].valueCode = #active
 * #DDETS-29 ^property[+].code = #niveau
@@ -3843,9 +3843,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-2A ^designation[=].use = $sct#900000000000013009
 * #DDETS-2A ^designation[=].value = "DDETSPP Corse-du-Sud"
 * #DDETS-2A ^property[0].code = #dateValid
-* #DDETS-2A ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-2A ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-2A ^property[+].code = #dateMaj
-* #DDETS-2A ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-2A ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-2A ^property[+].code = #status
 * #DDETS-2A ^property[=].valueCode = #active
 * #DDETS-2A ^property[+].code = #niveau
@@ -3862,9 +3862,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-2B ^designation[=].use = $sct#900000000000013009
 * #DDETS-2B ^designation[=].value = "DDETSPP Haute-Corse"
 * #DDETS-2B ^property[0].code = #dateValid
-* #DDETS-2B ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-2B ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-2B ^property[+].code = #dateMaj
-* #DDETS-2B ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-2B ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-2B ^property[+].code = #status
 * #DDETS-2B ^property[=].valueCode = #active
 * #DDETS-2B ^property[+].code = #niveau
@@ -3881,9 +3881,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-30 ^designation[=].use = $sct#900000000000013009
 * #DDETS-30 ^designation[=].value = "DDETS Gard"
 * #DDETS-30 ^property[0].code = #dateValid
-* #DDETS-30 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-30 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-30 ^property[+].code = #dateMaj
-* #DDETS-30 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-30 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-30 ^property[+].code = #status
 * #DDETS-30 ^property[=].valueCode = #active
 * #DDETS-30 ^property[+].code = #niveau
@@ -3900,9 +3900,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-31 ^designation[=].use = $sct#900000000000013009
 * #DDETS-31 ^designation[=].value = "DDETS Haute-Garonne"
 * #DDETS-31 ^property[0].code = #dateValid
-* #DDETS-31 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-31 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-31 ^property[+].code = #dateMaj
-* #DDETS-31 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-31 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-31 ^property[+].code = #status
 * #DDETS-31 ^property[=].valueCode = #active
 * #DDETS-31 ^property[+].code = #niveau
@@ -3919,9 +3919,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-32 ^designation[=].use = $sct#900000000000013009
 * #DDETS-32 ^designation[=].value = "DDETSPP Gers"
 * #DDETS-32 ^property[0].code = #dateValid
-* #DDETS-32 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-32 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-32 ^property[+].code = #dateMaj
-* #DDETS-32 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-32 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-32 ^property[+].code = #status
 * #DDETS-32 ^property[=].valueCode = #active
 * #DDETS-32 ^property[+].code = #niveau
@@ -3938,9 +3938,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-33 ^designation[=].use = $sct#900000000000013009
 * #DDETS-33 ^designation[=].value = "DDETS Gironde"
 * #DDETS-33 ^property[0].code = #dateValid
-* #DDETS-33 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-33 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-33 ^property[+].code = #dateMaj
-* #DDETS-33 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-33 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-33 ^property[+].code = #status
 * #DDETS-33 ^property[=].valueCode = #active
 * #DDETS-33 ^property[+].code = #niveau
@@ -3957,9 +3957,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-34 ^designation[=].use = $sct#900000000000013009
 * #DDETS-34 ^designation[=].value = "DDETS Hérault"
 * #DDETS-34 ^property[0].code = #dateValid
-* #DDETS-34 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-34 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-34 ^property[+].code = #dateMaj
-* #DDETS-34 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-34 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-34 ^property[+].code = #status
 * #DDETS-34 ^property[=].valueCode = #active
 * #DDETS-34 ^property[+].code = #niveau
@@ -3976,9 +3976,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-35 ^designation[=].use = $sct#900000000000013009
 * #DDETS-35 ^designation[=].value = "DDETS Ille-et-Vilaine"
 * #DDETS-35 ^property[0].code = #dateValid
-* #DDETS-35 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-35 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-35 ^property[+].code = #dateMaj
-* #DDETS-35 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-35 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-35 ^property[+].code = #status
 * #DDETS-35 ^property[=].valueCode = #active
 * #DDETS-35 ^property[+].code = #niveau
@@ -3995,9 +3995,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-36 ^designation[=].use = $sct#900000000000013009
 * #DDETS-36 ^designation[=].value = "DDETSPP Indre"
 * #DDETS-36 ^property[0].code = #dateValid
-* #DDETS-36 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-36 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-36 ^property[+].code = #dateMaj
-* #DDETS-36 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-36 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-36 ^property[+].code = #status
 * #DDETS-36 ^property[=].valueCode = #active
 * #DDETS-36 ^property[+].code = #niveau
@@ -4014,9 +4014,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-37 ^designation[=].use = $sct#900000000000013009
 * #DDETS-37 ^designation[=].value = "DDETS Indre-et-Loire"
 * #DDETS-37 ^property[0].code = #dateValid
-* #DDETS-37 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-37 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-37 ^property[+].code = #dateMaj
-* #DDETS-37 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-37 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-37 ^property[+].code = #status
 * #DDETS-37 ^property[=].valueCode = #active
 * #DDETS-37 ^property[+].code = #niveau
@@ -4033,9 +4033,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-38 ^designation[=].use = $sct#900000000000013009
 * #DDETS-38 ^designation[=].value = "DDETS Isère"
 * #DDETS-38 ^property[0].code = #dateValid
-* #DDETS-38 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-38 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-38 ^property[+].code = #dateMaj
-* #DDETS-38 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-38 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-38 ^property[+].code = #status
 * #DDETS-38 ^property[=].valueCode = #active
 * #DDETS-38 ^property[+].code = #niveau
@@ -4052,9 +4052,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-39 ^designation[=].use = $sct#900000000000013009
 * #DDETS-39 ^designation[=].value = "DDETSPP Jura"
 * #DDETS-39 ^property[0].code = #dateValid
-* #DDETS-39 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-39 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-39 ^property[+].code = #dateMaj
-* #DDETS-39 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-39 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-39 ^property[+].code = #status
 * #DDETS-39 ^property[=].valueCode = #active
 * #DDETS-39 ^property[+].code = #niveau
@@ -4071,9 +4071,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-40 ^designation[=].use = $sct#900000000000013009
 * #DDETS-40 ^designation[=].value = "DDETSPP Landes"
 * #DDETS-40 ^property[0].code = #dateValid
-* #DDETS-40 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-40 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-40 ^property[+].code = #dateMaj
-* #DDETS-40 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-40 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-40 ^property[+].code = #status
 * #DDETS-40 ^property[=].valueCode = #active
 * #DDETS-40 ^property[+].code = #niveau
@@ -4090,9 +4090,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-41 ^designation[=].use = $sct#900000000000013009
 * #DDETS-41 ^designation[=].value = "DDETSPP Loir-et-Cher"
 * #DDETS-41 ^property[0].code = #dateValid
-* #DDETS-41 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-41 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-41 ^property[+].code = #dateMaj
-* #DDETS-41 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-41 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-41 ^property[+].code = #status
 * #DDETS-41 ^property[=].valueCode = #active
 * #DDETS-41 ^property[+].code = #niveau
@@ -4109,9 +4109,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-42 ^designation[=].use = $sct#900000000000013009
 * #DDETS-42 ^designation[=].value = "DDETS Loire"
 * #DDETS-42 ^property[0].code = #dateValid
-* #DDETS-42 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-42 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-42 ^property[+].code = #dateMaj
-* #DDETS-42 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-42 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-42 ^property[+].code = #status
 * #DDETS-42 ^property[=].valueCode = #active
 * #DDETS-42 ^property[+].code = #niveau
@@ -4128,9 +4128,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-43 ^designation[=].use = $sct#900000000000013009
 * #DDETS-43 ^designation[=].value = "DDETSPP Haute-Loire"
 * #DDETS-43 ^property[0].code = #dateValid
-* #DDETS-43 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-43 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-43 ^property[+].code = #dateMaj
-* #DDETS-43 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-43 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-43 ^property[+].code = #status
 * #DDETS-43 ^property[=].valueCode = #active
 * #DDETS-43 ^property[+].code = #niveau
@@ -4147,9 +4147,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-44 ^designation[=].use = $sct#900000000000013009
 * #DDETS-44 ^designation[=].value = "DDETS Loire-Atlantique"
 * #DDETS-44 ^property[0].code = #dateValid
-* #DDETS-44 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-44 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-44 ^property[+].code = #dateMaj
-* #DDETS-44 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-44 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-44 ^property[+].code = #status
 * #DDETS-44 ^property[=].valueCode = #active
 * #DDETS-44 ^property[+].code = #niveau
@@ -4166,9 +4166,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-45 ^designation[=].use = $sct#900000000000013009
 * #DDETS-45 ^designation[=].value = "DDETS Loiret"
 * #DDETS-45 ^property[0].code = #dateValid
-* #DDETS-45 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-45 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-45 ^property[+].code = #dateMaj
-* #DDETS-45 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-45 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-45 ^property[+].code = #status
 * #DDETS-45 ^property[=].valueCode = #active
 * #DDETS-45 ^property[+].code = #niveau
@@ -4185,9 +4185,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-46 ^designation[=].use = $sct#900000000000013009
 * #DDETS-46 ^designation[=].value = "DDETSPP Lot"
 * #DDETS-46 ^property[0].code = #dateValid
-* #DDETS-46 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-46 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-46 ^property[+].code = #dateMaj
-* #DDETS-46 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-46 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-46 ^property[+].code = #status
 * #DDETS-46 ^property[=].valueCode = #active
 * #DDETS-46 ^property[+].code = #niveau
@@ -4204,9 +4204,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-47 ^designation[=].use = $sct#900000000000013009
 * #DDETS-47 ^designation[=].value = "DDETSPP Lot-et-Garonne"
 * #DDETS-47 ^property[0].code = #dateValid
-* #DDETS-47 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-47 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-47 ^property[+].code = #dateMaj
-* #DDETS-47 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-47 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-47 ^property[+].code = #status
 * #DDETS-47 ^property[=].valueCode = #active
 * #DDETS-47 ^property[+].code = #niveau
@@ -4223,9 +4223,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-48 ^designation[=].use = $sct#900000000000013009
 * #DDETS-48 ^designation[=].value = "DDETSPP Lozère"
 * #DDETS-48 ^property[0].code = #dateValid
-* #DDETS-48 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-48 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-48 ^property[+].code = #dateMaj
-* #DDETS-48 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-48 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-48 ^property[+].code = #status
 * #DDETS-48 ^property[=].valueCode = #active
 * #DDETS-48 ^property[+].code = #niveau
@@ -4242,9 +4242,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-49 ^designation[=].use = $sct#900000000000013009
 * #DDETS-49 ^designation[=].value = "DDETS Maine-et-Loire"
 * #DDETS-49 ^property[0].code = #dateValid
-* #DDETS-49 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-49 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-49 ^property[+].code = #dateMaj
-* #DDETS-49 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-49 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-49 ^property[+].code = #status
 * #DDETS-49 ^property[=].valueCode = #active
 * #DDETS-49 ^property[+].code = #niveau
@@ -4261,9 +4261,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-50 ^designation[=].use = $sct#900000000000013009
 * #DDETS-50 ^designation[=].value = "DDETS Manche"
 * #DDETS-50 ^property[0].code = #dateValid
-* #DDETS-50 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-50 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-50 ^property[+].code = #dateMaj
-* #DDETS-50 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-50 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-50 ^property[+].code = #status
 * #DDETS-50 ^property[=].valueCode = #active
 * #DDETS-50 ^property[+].code = #niveau
@@ -4280,9 +4280,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-51 ^designation[=].use = $sct#900000000000013009
 * #DDETS-51 ^designation[=].value = "DDETS Marne"
 * #DDETS-51 ^property[0].code = #dateValid
-* #DDETS-51 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-51 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-51 ^property[+].code = #dateMaj
-* #DDETS-51 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-51 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-51 ^property[+].code = #status
 * #DDETS-51 ^property[=].valueCode = #active
 * #DDETS-51 ^property[+].code = #niveau
@@ -4299,9 +4299,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-52 ^designation[=].use = $sct#900000000000013009
 * #DDETS-52 ^designation[=].value = "DDETSPP Haute-Marne"
 * #DDETS-52 ^property[0].code = #dateValid
-* #DDETS-52 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-52 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-52 ^property[+].code = #dateMaj
-* #DDETS-52 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-52 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-52 ^property[+].code = #status
 * #DDETS-52 ^property[=].valueCode = #active
 * #DDETS-52 ^property[+].code = #niveau
@@ -4318,9 +4318,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-53 ^designation[=].use = $sct#900000000000013009
 * #DDETS-53 ^designation[=].value = "DDETSPP Mayenne"
 * #DDETS-53 ^property[0].code = #dateValid
-* #DDETS-53 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-53 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-53 ^property[+].code = #dateMaj
-* #DDETS-53 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-53 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-53 ^property[+].code = #status
 * #DDETS-53 ^property[=].valueCode = #active
 * #DDETS-53 ^property[+].code = #niveau
@@ -4337,9 +4337,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-54 ^designation[=].use = $sct#900000000000013009
 * #DDETS-54 ^designation[=].value = "DDETS Meurthe-et-Moselle"
 * #DDETS-54 ^property[0].code = #dateValid
-* #DDETS-54 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-54 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-54 ^property[+].code = #dateMaj
-* #DDETS-54 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-54 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-54 ^property[+].code = #status
 * #DDETS-54 ^property[=].valueCode = #active
 * #DDETS-54 ^property[+].code = #niveau
@@ -4356,9 +4356,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-55 ^designation[=].use = $sct#900000000000013009
 * #DDETS-55 ^designation[=].value = "DDETSPP Meuse"
 * #DDETS-55 ^property[0].code = #dateValid
-* #DDETS-55 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-55 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-55 ^property[+].code = #dateMaj
-* #DDETS-55 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-55 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-55 ^property[+].code = #status
 * #DDETS-55 ^property[=].valueCode = #active
 * #DDETS-55 ^property[+].code = #niveau
@@ -4375,9 +4375,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-57 ^designation[=].use = $sct#900000000000013009
 * #DDETS-57 ^designation[=].value = "DDETS Moselle"
 * #DDETS-57 ^property[0].code = #dateValid
-* #DDETS-57 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-57 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-57 ^property[+].code = #dateMaj
-* #DDETS-57 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-57 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-57 ^property[+].code = #status
 * #DDETS-57 ^property[=].valueCode = #active
 * #DDETS-57 ^property[+].code = #niveau
@@ -4394,9 +4394,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-58 ^designation[=].use = $sct#900000000000013009
 * #DDETS-58 ^designation[=].value = "DDETSPP Nièvre"
 * #DDETS-58 ^property[0].code = #dateValid
-* #DDETS-58 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-58 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-58 ^property[+].code = #dateMaj
-* #DDETS-58 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-58 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-58 ^property[+].code = #status
 * #DDETS-58 ^property[=].valueCode = #active
 * #DDETS-58 ^property[+].code = #niveau
@@ -4413,9 +4413,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-59 ^designation[=].use = $sct#900000000000013009
 * #DDETS-59 ^designation[=].value = "DDETS Nord"
 * #DDETS-59 ^property[0].code = #dateValid
-* #DDETS-59 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-59 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-59 ^property[+].code = #dateMaj
-* #DDETS-59 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-59 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-59 ^property[+].code = #status
 * #DDETS-59 ^property[=].valueCode = #active
 * #DDETS-59 ^property[+].code = #niveau
@@ -4432,9 +4432,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-60 ^designation[=].use = $sct#900000000000013009
 * #DDETS-60 ^designation[=].value = "DDETS Oise"
 * #DDETS-60 ^property[0].code = #dateValid
-* #DDETS-60 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-60 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-60 ^property[+].code = #dateMaj
-* #DDETS-60 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-60 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-60 ^property[+].code = #status
 * #DDETS-60 ^property[=].valueCode = #active
 * #DDETS-60 ^property[+].code = #niveau
@@ -4451,9 +4451,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-61 ^designation[=].use = $sct#900000000000013009
 * #DDETS-61 ^designation[=].value = "DDETSPP Orne"
 * #DDETS-61 ^property[0].code = #dateValid
-* #DDETS-61 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-61 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-61 ^property[+].code = #dateMaj
-* #DDETS-61 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-61 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-61 ^property[+].code = #status
 * #DDETS-61 ^property[=].valueCode = #active
 * #DDETS-61 ^property[+].code = #niveau
@@ -4470,9 +4470,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-62 ^designation[=].use = $sct#900000000000013009
 * #DDETS-62 ^designation[=].value = "DDETS Pas-de-Calais"
 * #DDETS-62 ^property[0].code = #dateValid
-* #DDETS-62 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-62 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-62 ^property[+].code = #dateMaj
-* #DDETS-62 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-62 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-62 ^property[+].code = #status
 * #DDETS-62 ^property[=].valueCode = #active
 * #DDETS-62 ^property[+].code = #niveau
@@ -4489,9 +4489,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-63 ^designation[=].use = $sct#900000000000013009
 * #DDETS-63 ^designation[=].value = "DDETS Puy-de-Dôme"
 * #DDETS-63 ^property[0].code = #dateValid
-* #DDETS-63 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-63 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-63 ^property[+].code = #dateMaj
-* #DDETS-63 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-63 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-63 ^property[+].code = #status
 * #DDETS-63 ^property[=].valueCode = #active
 * #DDETS-63 ^property[+].code = #niveau
@@ -4508,9 +4508,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-64 ^designation[=].use = $sct#900000000000013009
 * #DDETS-64 ^designation[=].value = "DDETS Pyrénées-Atlantiques"
 * #DDETS-64 ^property[0].code = #dateValid
-* #DDETS-64 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-64 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-64 ^property[+].code = #dateMaj
-* #DDETS-64 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-64 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-64 ^property[+].code = #status
 * #DDETS-64 ^property[=].valueCode = #active
 * #DDETS-64 ^property[+].code = #niveau
@@ -4527,9 +4527,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-65 ^designation[=].use = $sct#900000000000013009
 * #DDETS-65 ^designation[=].value = "DDETSPP Hautes-Pyrénées"
 * #DDETS-65 ^property[0].code = #dateValid
-* #DDETS-65 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-65 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-65 ^property[+].code = #dateMaj
-* #DDETS-65 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-65 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-65 ^property[+].code = #status
 * #DDETS-65 ^property[=].valueCode = #active
 * #DDETS-65 ^property[+].code = #niveau
@@ -4546,9 +4546,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-66 ^designation[=].use = $sct#900000000000013009
 * #DDETS-66 ^designation[=].value = "DDETS Pyrénées-Orientales"
 * #DDETS-66 ^property[0].code = #dateValid
-* #DDETS-66 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-66 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-66 ^property[+].code = #dateMaj
-* #DDETS-66 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-66 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-66 ^property[+].code = #status
 * #DDETS-66 ^property[=].valueCode = #active
 * #DDETS-66 ^property[+].code = #niveau
@@ -4565,9 +4565,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-67 ^designation[=].use = $sct#900000000000013009
 * #DDETS-67 ^designation[=].value = "DDETS Bas-Rhin"
 * #DDETS-67 ^property[0].code = #dateValid
-* #DDETS-67 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-67 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-67 ^property[+].code = #dateMaj
-* #DDETS-67 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-67 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-67 ^property[+].code = #status
 * #DDETS-67 ^property[=].valueCode = #active
 * #DDETS-67 ^property[+].code = #niveau
@@ -4584,9 +4584,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-68 ^designation[=].use = $sct#900000000000013009
 * #DDETS-68 ^designation[=].value = "DDETS Haut-Rhin"
 * #DDETS-68 ^property[0].code = #dateValid
-* #DDETS-68 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-68 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-68 ^property[+].code = #dateMaj
-* #DDETS-68 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-68 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-68 ^property[+].code = #status
 * #DDETS-68 ^property[=].valueCode = #active
 * #DDETS-68 ^property[+].code = #niveau
@@ -4603,9 +4603,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-69 ^designation[=].use = $sct#900000000000013009
 * #DDETS-69 ^designation[=].value = "DDETS Rhône"
 * #DDETS-69 ^property[0].code = #dateValid
-* #DDETS-69 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-69 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-69 ^property[+].code = #dateMaj
-* #DDETS-69 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-69 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-69 ^property[+].code = #status
 * #DDETS-69 ^property[=].valueCode = #active
 * #DDETS-69 ^property[+].code = #niveau
@@ -4622,9 +4622,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-70 ^designation[=].use = $sct#900000000000013009
 * #DDETS-70 ^designation[=].value = "DDETSPP Haute-Saône"
 * #DDETS-70 ^property[0].code = #dateValid
-* #DDETS-70 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-70 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-70 ^property[+].code = #dateMaj
-* #DDETS-70 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-70 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-70 ^property[+].code = #status
 * #DDETS-70 ^property[=].valueCode = #active
 * #DDETS-70 ^property[+].code = #niveau
@@ -4641,9 +4641,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-71 ^designation[=].use = $sct#900000000000013009
 * #DDETS-71 ^designation[=].value = "DDETS Saône-et-Loire"
 * #DDETS-71 ^property[0].code = #dateValid
-* #DDETS-71 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-71 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-71 ^property[+].code = #dateMaj
-* #DDETS-71 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-71 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-71 ^property[+].code = #status
 * #DDETS-71 ^property[=].valueCode = #active
 * #DDETS-71 ^property[+].code = #niveau
@@ -4660,9 +4660,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-72 ^designation[=].use = $sct#900000000000013009
 * #DDETS-72 ^designation[=].value = "DDETS Sarthe"
 * #DDETS-72 ^property[0].code = #dateValid
-* #DDETS-72 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-72 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-72 ^property[+].code = #dateMaj
-* #DDETS-72 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-72 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-72 ^property[+].code = #status
 * #DDETS-72 ^property[=].valueCode = #active
 * #DDETS-72 ^property[+].code = #niveau
@@ -4679,9 +4679,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-73 ^designation[=].use = $sct#900000000000013009
 * #DDETS-73 ^designation[=].value = "DDETS Savoie"
 * #DDETS-73 ^property[0].code = #dateValid
-* #DDETS-73 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-73 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-73 ^property[+].code = #dateMaj
-* #DDETS-73 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-73 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-73 ^property[+].code = #status
 * #DDETS-73 ^property[=].valueCode = #active
 * #DDETS-73 ^property[+].code = #niveau
@@ -4698,9 +4698,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-74 ^designation[=].use = $sct#900000000000013009
 * #DDETS-74 ^designation[=].value = "DDETS Haute-Savoie"
 * #DDETS-74 ^property[0].code = #dateValid
-* #DDETS-74 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-74 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-74 ^property[+].code = #dateMaj
-* #DDETS-74 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-74 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-74 ^property[+].code = #status
 * #DDETS-74 ^property[=].valueCode = #active
 * #DDETS-74 ^property[+].code = #niveau
@@ -4717,9 +4717,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-75 ^designation[=].use = $sct#900000000000013009
 * #DDETS-75 ^designation[=].value = "UD DRIEETS Paris"
 * #DDETS-75 ^property[0].code = #dateValid
-* #DDETS-75 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-75 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-75 ^property[+].code = #dateMaj
-* #DDETS-75 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-75 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-75 ^property[+].code = #status
 * #DDETS-75 ^property[=].valueCode = #active
 * #DDETS-75 ^property[+].code = #niveau
@@ -4736,9 +4736,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-76 ^designation[=].use = $sct#900000000000013009
 * #DDETS-76 ^designation[=].value = "DDETS Seine-Maritime"
 * #DDETS-76 ^property[0].code = #dateValid
-* #DDETS-76 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-76 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-76 ^property[+].code = #dateMaj
-* #DDETS-76 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-76 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-76 ^property[+].code = #status
 * #DDETS-76 ^property[=].valueCode = #active
 * #DDETS-76 ^property[+].code = #niveau
@@ -4755,9 +4755,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-77 ^designation[=].use = $sct#900000000000013009
 * #DDETS-77 ^designation[=].value = "DDETS Seine-et-Marne"
 * #DDETS-77 ^property[0].code = #dateValid
-* #DDETS-77 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-77 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-77 ^property[+].code = #dateMaj
-* #DDETS-77 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-77 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-77 ^property[+].code = #status
 * #DDETS-77 ^property[=].valueCode = #active
 * #DDETS-77 ^property[+].code = #niveau
@@ -4774,9 +4774,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-78 ^designation[=].use = $sct#900000000000013009
 * #DDETS-78 ^designation[=].value = "DDETS Yvelines"
 * #DDETS-78 ^property[0].code = #dateValid
-* #DDETS-78 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-78 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-78 ^property[+].code = #dateMaj
-* #DDETS-78 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-78 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-78 ^property[+].code = #status
 * #DDETS-78 ^property[=].valueCode = #active
 * #DDETS-78 ^property[+].code = #niveau
@@ -4793,9 +4793,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-79 ^designation[=].use = $sct#900000000000013009
 * #DDETS-79 ^designation[=].value = "DDETSPP Deux-Sèvres"
 * #DDETS-79 ^property[0].code = #dateValid
-* #DDETS-79 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-79 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-79 ^property[+].code = #dateMaj
-* #DDETS-79 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-79 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-79 ^property[+].code = #status
 * #DDETS-79 ^property[=].valueCode = #active
 * #DDETS-79 ^property[+].code = #niveau
@@ -4812,9 +4812,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-80 ^designation[=].use = $sct#900000000000013009
 * #DDETS-80 ^designation[=].value = "DDETS Somme"
 * #DDETS-80 ^property[0].code = #dateValid
-* #DDETS-80 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-80 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-80 ^property[+].code = #dateMaj
-* #DDETS-80 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-80 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-80 ^property[+].code = #status
 * #DDETS-80 ^property[=].valueCode = #active
 * #DDETS-80 ^property[+].code = #niveau
@@ -4831,9 +4831,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-81 ^designation[=].use = $sct#900000000000013009
 * #DDETS-81 ^designation[=].value = "DDETSPP Tarn"
 * #DDETS-81 ^property[0].code = #dateValid
-* #DDETS-81 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-81 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-81 ^property[+].code = #dateMaj
-* #DDETS-81 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-81 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-81 ^property[+].code = #status
 * #DDETS-81 ^property[=].valueCode = #active
 * #DDETS-81 ^property[+].code = #niveau
@@ -4850,9 +4850,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-82 ^designation[=].use = $sct#900000000000013009
 * #DDETS-82 ^designation[=].value = "DDETSPP Tarn-et-Garonne"
 * #DDETS-82 ^property[0].code = #dateValid
-* #DDETS-82 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-82 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-82 ^property[+].code = #dateMaj
-* #DDETS-82 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-82 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-82 ^property[+].code = #status
 * #DDETS-82 ^property[=].valueCode = #active
 * #DDETS-82 ^property[+].code = #niveau
@@ -4869,9 +4869,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-83 ^designation[=].use = $sct#900000000000013009
 * #DDETS-83 ^designation[=].value = "DDETS Var"
 * #DDETS-83 ^property[0].code = #dateValid
-* #DDETS-83 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-83 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-83 ^property[+].code = #dateMaj
-* #DDETS-83 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-83 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-83 ^property[+].code = #status
 * #DDETS-83 ^property[=].valueCode = #active
 * #DDETS-83 ^property[+].code = #niveau
@@ -4888,9 +4888,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-84 ^designation[=].use = $sct#900000000000013009
 * #DDETS-84 ^designation[=].value = "DDETS Vaucluse"
 * #DDETS-84 ^property[0].code = #dateValid
-* #DDETS-84 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-84 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-84 ^property[+].code = #dateMaj
-* #DDETS-84 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-84 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-84 ^property[+].code = #status
 * #DDETS-84 ^property[=].valueCode = #active
 * #DDETS-84 ^property[+].code = #niveau
@@ -4907,9 +4907,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-85 ^designation[=].use = $sct#900000000000013009
 * #DDETS-85 ^designation[=].value = "DDETS Vendée"
 * #DDETS-85 ^property[0].code = #dateValid
-* #DDETS-85 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-85 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-85 ^property[+].code = #dateMaj
-* #DDETS-85 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-85 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-85 ^property[+].code = #status
 * #DDETS-85 ^property[=].valueCode = #active
 * #DDETS-85 ^property[+].code = #niveau
@@ -4926,9 +4926,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-86 ^designation[=].use = $sct#900000000000013009
 * #DDETS-86 ^designation[=].value = "DDETSPP Vienne"
 * #DDETS-86 ^property[0].code = #dateValid
-* #DDETS-86 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-86 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-86 ^property[+].code = #dateMaj
-* #DDETS-86 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-86 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-86 ^property[+].code = #status
 * #DDETS-86 ^property[=].valueCode = #active
 * #DDETS-86 ^property[+].code = #niveau
@@ -4945,9 +4945,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-87 ^designation[=].use = $sct#900000000000013009
 * #DDETS-87 ^designation[=].value = "DDETSPP Haute-Vienne"
 * #DDETS-87 ^property[0].code = #dateValid
-* #DDETS-87 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-87 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-87 ^property[+].code = #dateMaj
-* #DDETS-87 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-87 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-87 ^property[+].code = #status
 * #DDETS-87 ^property[=].valueCode = #active
 * #DDETS-87 ^property[+].code = #niveau
@@ -4964,9 +4964,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-88 ^designation[=].use = $sct#900000000000013009
 * #DDETS-88 ^designation[=].value = "DDETSPP Vosges"
 * #DDETS-88 ^property[0].code = #dateValid
-* #DDETS-88 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-88 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-88 ^property[+].code = #dateMaj
-* #DDETS-88 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-88 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-88 ^property[+].code = #status
 * #DDETS-88 ^property[=].valueCode = #active
 * #DDETS-88 ^property[+].code = #niveau
@@ -4983,9 +4983,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-89 ^designation[=].use = $sct#900000000000013009
 * #DDETS-89 ^designation[=].value = "DDETSPP Yonne"
 * #DDETS-89 ^property[0].code = #dateValid
-* #DDETS-89 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-89 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-89 ^property[+].code = #dateMaj
-* #DDETS-89 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-89 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-89 ^property[+].code = #status
 * #DDETS-89 ^property[=].valueCode = #active
 * #DDETS-89 ^property[+].code = #niveau
@@ -5002,9 +5002,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-90 ^designation[=].use = $sct#900000000000013009
 * #DDETS-90 ^designation[=].value = "DDETSPP Territoire de Belfort"
 * #DDETS-90 ^property[0].code = #dateValid
-* #DDETS-90 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-90 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-90 ^property[+].code = #dateMaj
-* #DDETS-90 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-90 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-90 ^property[+].code = #status
 * #DDETS-90 ^property[=].valueCode = #active
 * #DDETS-90 ^property[+].code = #niveau
@@ -5021,9 +5021,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-91 ^designation[=].use = $sct#900000000000013009
 * #DDETS-91 ^designation[=].value = "DDETS Essonne"
 * #DDETS-91 ^property[0].code = #dateValid
-* #DDETS-91 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-91 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-91 ^property[+].code = #dateMaj
-* #DDETS-91 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-91 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-91 ^property[+].code = #status
 * #DDETS-91 ^property[=].valueCode = #active
 * #DDETS-91 ^property[+].code = #niveau
@@ -5040,9 +5040,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-92 ^designation[=].use = $sct#900000000000013009
 * #DDETS-92 ^designation[=].value = "UD DRIEETS Hauts-de-Seine"
 * #DDETS-92 ^property[0].code = #dateValid
-* #DDETS-92 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-92 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-92 ^property[+].code = #dateMaj
-* #DDETS-92 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-92 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-92 ^property[+].code = #status
 * #DDETS-92 ^property[=].valueCode = #active
 * #DDETS-92 ^property[+].code = #niveau
@@ -5059,9 +5059,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-93 ^designation[=].use = $sct#900000000000013009
 * #DDETS-93 ^designation[=].value = "UD DRIEETS Seine-Saint-Denis"
 * #DDETS-93 ^property[0].code = #dateValid
-* #DDETS-93 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-93 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-93 ^property[+].code = #dateMaj
-* #DDETS-93 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-93 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-93 ^property[+].code = #status
 * #DDETS-93 ^property[=].valueCode = #active
 * #DDETS-93 ^property[+].code = #niveau
@@ -5078,9 +5078,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-94 ^designation[=].use = $sct#900000000000013009
 * #DDETS-94 ^designation[=].value = "UD DRIEETS Val-de-Marne"
 * #DDETS-94 ^property[0].code = #dateValid
-* #DDETS-94 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-94 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-94 ^property[+].code = #dateMaj
-* #DDETS-94 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-94 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-94 ^property[+].code = #status
 * #DDETS-94 ^property[=].valueCode = #active
 * #DDETS-94 ^property[+].code = #niveau
@@ -5097,9 +5097,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DDETS-95 ^designation[=].use = $sct#900000000000013009
 * #DDETS-95 ^designation[=].value = "DDETS Val-d'Oise"
 * #DDETS-95 ^property[0].code = #dateValid
-* #DDETS-95 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-95 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-95 ^property[+].code = #dateMaj
-* #DDETS-95 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-95 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DDETS-95 ^property[+].code = #status
 * #DDETS-95 ^property[=].valueCode = #active
 * #DDETS-95 ^property[+].code = #niveau
@@ -5120,9 +5120,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DEETS-01 ^designation[=].use = $sct#900000000000013009
 * #DEETS-01 ^designation[=].value = "DEETS-01 : Direction de l'économie de l'emploi du travail et des solidarités Guadeloupe"
 * #DEETS-01 ^property[0].code = #dateValid
-* #DEETS-01 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DEETS-01 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DEETS-01 ^property[+].code = #dateMaj
-* #DEETS-01 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DEETS-01 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DEETS-01 ^property[+].code = #status
 * #DEETS-01 ^property[=].valueCode = #active
 * #DEETS-01 ^property[+].code = #niveau
@@ -5143,9 +5143,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DEETS-02 ^designation[=].use = $sct#900000000000013009
 * #DEETS-02 ^designation[=].value = "DEETS-02 :  Direction de l'économie de l'emploi du travail et des solidarités Martinique"
 * #DEETS-02 ^property[0].code = #dateValid
-* #DEETS-02 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DEETS-02 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DEETS-02 ^property[+].code = #dateMaj
-* #DEETS-02 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DEETS-02 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DEETS-02 ^property[+].code = #status
 * #DEETS-02 ^property[=].valueCode = #active
 * #DEETS-02 ^property[+].code = #niveau
@@ -5166,9 +5166,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DEETS-03 ^designation[=].use = $sct#900000000000013009
 * #DEETS-03 ^designation[=].value = "DEETS-03 :  Direction générale cohésion et population Guyane"
 * #DEETS-03 ^property[0].code = #dateValid
-* #DEETS-03 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DEETS-03 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DEETS-03 ^property[+].code = #dateMaj
-* #DEETS-03 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DEETS-03 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DEETS-03 ^property[+].code = #status
 * #DEETS-03 ^property[=].valueCode = #active
 * #DEETS-03 ^property[+].code = #niveau
@@ -5189,9 +5189,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DEETS-05 ^designation[=].use = $sct#900000000000013009
 * #DEETS-05 ^designation[=].value = " DEETS-05 : Direction de l'économie de l'emploi du travail et des solidarités de La Réunion"
 * #DEETS-05 ^property[0].code = #dateValid
-* #DEETS-05 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DEETS-05 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DEETS-05 ^property[+].code = #dateMaj
-* #DEETS-05 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DEETS-05 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DEETS-05 ^property[+].code = #status
 * #DEETS-05 ^property[=].valueCode = #active
 * #DEETS-05 ^property[+].code = #niveau
@@ -5212,9 +5212,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DEETS-06 ^designation[=].use = $sct#900000000000013009
 * #DEETS-06 ^designation[=].value = "DEETS-06 : Direction de l'économie de l'emploi du travail et des solidarités Mayotte"
 * #DEETS-06 ^property[0].code = #dateValid
-* #DEETS-06 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DEETS-06 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DEETS-06 ^property[+].code = #dateMaj
-* #DEETS-06 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DEETS-06 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DEETS-06 ^property[+].code = #status
 * #DEETS-06 ^property[=].valueCode = #active
 * #DEETS-06 ^property[+].code = #niveau
@@ -5235,9 +5235,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DREETS-11 ^designation[=].use = $sct#900000000000013009
 * #DREETS-11 ^designation[=].value = "DREETS-11 : Direction régionale de l'économie de l'emploi du travail et des solidarités d'Ile de France"
 * #DREETS-11 ^property[0].code = #dateValid
-* #DREETS-11 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-11 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-11 ^property[+].code = #dateMaj
-* #DREETS-11 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-11 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-11 ^property[+].code = #status
 * #DREETS-11 ^property[=].valueCode = #active
 * #DREETS-11 ^property[+].code = #niveau
@@ -5258,9 +5258,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DREETS-24 ^designation[=].use = $sct#900000000000013009
 * #DREETS-24 ^designation[=].value = "DREETS-24 : Direction régionale de l'économie de l'emploi du travail et des solidarités Centre-Val de Loire"
 * #DREETS-24 ^property[0].code = #dateValid
-* #DREETS-24 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-24 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-24 ^property[+].code = #dateMaj
-* #DREETS-24 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-24 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-24 ^property[+].code = #status
 * #DREETS-24 ^property[=].valueCode = #active
 * #DREETS-24 ^property[+].code = #niveau
@@ -5281,9 +5281,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DREETS-27 ^designation[=].use = $sct#900000000000013009
 * #DREETS-27 ^designation[=].value = "DREETS-27 : Direction régionale de l'économie de l'emploi du travail et des solidarités Bourgogne-Franche-Comté"
 * #DREETS-27 ^property[0].code = #dateValid
-* #DREETS-27 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-27 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-27 ^property[+].code = #dateMaj
-* #DREETS-27 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-27 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-27 ^property[+].code = #status
 * #DREETS-27 ^property[=].valueCode = #active
 * #DREETS-27 ^property[+].code = #niveau
@@ -5304,9 +5304,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DREETS-28 ^designation[=].use = $sct#900000000000013009
 * #DREETS-28 ^designation[=].value = "DREETS-28 : Direction régionale de l'économie de l'emploi du travail et des solidarités Normandie"
 * #DREETS-28 ^property[0].code = #dateValid
-* #DREETS-28 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-28 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-28 ^property[+].code = #dateMaj
-* #DREETS-28 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-28 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-28 ^property[+].code = #status
 * #DREETS-28 ^property[=].valueCode = #active
 * #DREETS-28 ^property[+].code = #niveau
@@ -5327,9 +5327,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DREETS-32 ^designation[=].use = $sct#900000000000013009
 * #DREETS-32 ^designation[=].value = "DREETS-32 : Direction régionale de l'économie de l'emploi du travail et des solidarités Hauts-de-France"
 * #DREETS-32 ^property[0].code = #dateValid
-* #DREETS-32 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-32 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-32 ^property[+].code = #dateMaj
-* #DREETS-32 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-32 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-32 ^property[+].code = #status
 * #DREETS-32 ^property[=].valueCode = #active
 * #DREETS-32 ^property[+].code = #niveau
@@ -5350,9 +5350,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DREETS-44 ^designation[=].use = $sct#900000000000013009
 * #DREETS-44 ^designation[=].value = "DREETS-44 : Direction régionale de l'économie de l'emploi du travail et des solidarités Grand Est"
 * #DREETS-44 ^property[0].code = #dateValid
-* #DREETS-44 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-44 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-44 ^property[+].code = #dateMaj
-* #DREETS-44 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-44 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-44 ^property[+].code = #status
 * #DREETS-44 ^property[=].valueCode = #active
 * #DREETS-44 ^property[+].code = #niveau
@@ -5373,9 +5373,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DREETS-52 ^designation[=].use = $sct#900000000000013009
 * #DREETS-52 ^designation[=].value = "DREETS-52 : Direction régionale de l'économie de l'emploi du travail et des solidarités Pays de la Loire"
 * #DREETS-52 ^property[0].code = #dateValid
-* #DREETS-52 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-52 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-52 ^property[+].code = #dateMaj
-* #DREETS-52 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-52 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-52 ^property[+].code = #status
 * #DREETS-52 ^property[=].valueCode = #active
 * #DREETS-52 ^property[+].code = #niveau
@@ -5396,9 +5396,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DREETS-53 ^designation[=].use = $sct#900000000000013009
 * #DREETS-53 ^designation[=].value = "DREETS-53 : Direction régionale de l'économie de l'emploi du travail et des solidarités Bretagne"
 * #DREETS-53 ^property[0].code = #dateValid
-* #DREETS-53 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-53 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-53 ^property[+].code = #dateMaj
-* #DREETS-53 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-53 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-53 ^property[+].code = #status
 * #DREETS-53 ^property[=].valueCode = #active
 * #DREETS-53 ^property[+].code = #niveau
@@ -5419,9 +5419,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DREETS-75 ^designation[=].use = $sct#900000000000013009
 * #DREETS-75 ^designation[=].value = "DREETS-75 : Direction régionale de l'économie de l'emploi du travail et des solidarités Nouvelle-Aquitaine"
 * #DREETS-75 ^property[0].code = #dateValid
-* #DREETS-75 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-75 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-75 ^property[+].code = #dateMaj
-* #DREETS-75 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-75 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-75 ^property[+].code = #status
 * #DREETS-75 ^property[=].valueCode = #active
 * #DREETS-75 ^property[+].code = #niveau
@@ -5442,9 +5442,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DREETS-76 ^designation[=].use = $sct#900000000000013009
 * #DREETS-76 ^designation[=].value = "DREETS-76 : Direction régionale de l'économie de l'emploi du travail et des solidarités Occitanie"
 * #DREETS-76 ^property[0].code = #dateValid
-* #DREETS-76 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-76 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-76 ^property[+].code = #dateMaj
-* #DREETS-76 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-76 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-76 ^property[+].code = #status
 * #DREETS-76 ^property[=].valueCode = #active
 * #DREETS-76 ^property[+].code = #niveau
@@ -5465,9 +5465,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DREETS-84 ^designation[=].use = $sct#900000000000013009
 * #DREETS-84 ^designation[=].value = "DREETS-84 : Direction régionale de l'économie de l'emploi du travail et des solidarités Auvergne-Rhône-Alpes"
 * #DREETS-84 ^property[0].code = #dateValid
-* #DREETS-84 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-84 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-84 ^property[+].code = #dateMaj
-* #DREETS-84 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-84 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-84 ^property[+].code = #status
 * #DREETS-84 ^property[=].valueCode = #active
 * #DREETS-84 ^property[+].code = #niveau
@@ -5488,9 +5488,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DREETS-93 ^designation[=].use = $sct#900000000000013009
 * #DREETS-93 ^designation[=].value = "DREETS-93 : Direction régionale de l'économie de l'emploi du travail et des solidarités Provence-Alpes-Côte d'Azur"
 * #DREETS-93 ^property[0].code = #dateValid
-* #DREETS-93 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-93 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-93 ^property[+].code = #dateMaj
-* #DREETS-93 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-93 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-93 ^property[+].code = #status
 * #DREETS-93 ^property[=].valueCode = #active
 * #DREETS-93 ^property[+].code = #niveau
@@ -5511,9 +5511,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DREETS-94 ^designation[=].use = $sct#900000000000013009
 * #DREETS-94 ^designation[=].value = "DREETS-94 : Direction régionale de l'économie de l'emploi du travail et des solidarités de Corse"
 * #DREETS-94 ^property[0].code = #dateValid
-* #DREETS-94 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-94 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-94 ^property[+].code = #dateMaj
-* #DREETS-94 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-94 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DREETS-94 ^property[+].code = #status
 * #DREETS-94 ^property[=].valueCode = #active
 * #DREETS-94 ^property[+].code = #niveau
@@ -5534,9 +5534,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DRHIL-11 ^designation[=].use = $sct#900000000000013009
 * #DRHIL-11 ^designation[=].value = "DRHIL-11 : Direction régionale et interdépartementale de l'Hébergement et du Logement Ile de France"
 * #DRHIL-11 ^property[0].code = #dateValid
-* #DRHIL-11 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DRHIL-11 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DRHIL-11 ^property[+].code = #dateMaj
-* #DRHIL-11 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DRHIL-11 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #DRHIL-11 ^property[+].code = #status
 * #DRHIL-11 ^property[=].valueCode = #active
 * #DRHIL-11 ^property[+].code = #niveau
@@ -5553,9 +5553,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #MET-LYO ^designation[=].use = $sct#900000000000013009
 * #MET-LYO ^designation[=].value = "Métropole de Lyon"
 * #MET-LYO ^property[0].code = #dateValid
-* #MET-LYO ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #MET-LYO ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #MET-LYO ^property[+].code = #dateMaj
-* #MET-LYO ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #MET-LYO ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #MET-LYO ^property[+].code = #status
 * #MET-LYO ^property[=].valueCode = #active
 * #MET-LYO ^property[+].code = #niveau
@@ -5572,9 +5572,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-01 ^designation[=].use = $sct#900000000000013009
 * #PREF-01 ^designation[=].value = "Préfecture de l’Ain"
 * #PREF-01 ^property[0].code = #dateValid
-* #PREF-01 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-01 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-01 ^property[+].code = #dateMaj
-* #PREF-01 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-01 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-01 ^property[+].code = #status
 * #PREF-01 ^property[=].valueCode = #active
 * #PREF-01 ^property[+].code = #niveau
@@ -5591,9 +5591,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-02 ^designation[=].use = $sct#900000000000013009
 * #PREF-02 ^designation[=].value = "Préfecture de l’Aisne"
 * #PREF-02 ^property[0].code = #dateValid
-* #PREF-02 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-02 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-02 ^property[+].code = #dateMaj
-* #PREF-02 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-02 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-02 ^property[+].code = #status
 * #PREF-02 ^property[=].valueCode = #active
 * #PREF-02 ^property[+].code = #niveau
@@ -5610,9 +5610,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-03 ^designation[=].use = $sct#900000000000013009
 * #PREF-03 ^designation[=].value = "Préfecture de l’Allier"
 * #PREF-03 ^property[0].code = #dateValid
-* #PREF-03 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-03 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-03 ^property[+].code = #dateMaj
-* #PREF-03 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-03 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-03 ^property[+].code = #status
 * #PREF-03 ^property[=].valueCode = #active
 * #PREF-03 ^property[+].code = #niveau
@@ -5629,9 +5629,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-04 ^designation[=].use = $sct#900000000000013009
 * #PREF-04 ^designation[=].value = "Préfecture des Alpes-de-Haute-Provence"
 * #PREF-04 ^property[0].code = #dateValid
-* #PREF-04 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-04 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-04 ^property[+].code = #dateMaj
-* #PREF-04 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-04 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-04 ^property[+].code = #status
 * #PREF-04 ^property[=].valueCode = #active
 * #PREF-04 ^property[+].code = #niveau
@@ -5648,9 +5648,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-05 ^designation[=].use = $sct#900000000000013009
 * #PREF-05 ^designation[=].value = "Préfecture des Hautes-Alpes"
 * #PREF-05 ^property[0].code = #dateValid
-* #PREF-05 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-05 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-05 ^property[+].code = #dateMaj
-* #PREF-05 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-05 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-05 ^property[+].code = #status
 * #PREF-05 ^property[=].valueCode = #active
 * #PREF-05 ^property[+].code = #niveau
@@ -5667,9 +5667,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-06 ^designation[=].use = $sct#900000000000013009
 * #PREF-06 ^designation[=].value = "Préfecture des Alpes-Maritimes"
 * #PREF-06 ^property[0].code = #dateValid
-* #PREF-06 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-06 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-06 ^property[+].code = #dateMaj
-* #PREF-06 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-06 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-06 ^property[+].code = #status
 * #PREF-06 ^property[=].valueCode = #active
 * #PREF-06 ^property[+].code = #niveau
@@ -5686,9 +5686,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-07 ^designation[=].use = $sct#900000000000013009
 * #PREF-07 ^designation[=].value = "Préfecture de l’Ardèche"
 * #PREF-07 ^property[0].code = #dateValid
-* #PREF-07 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-07 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-07 ^property[+].code = #dateMaj
-* #PREF-07 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-07 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-07 ^property[+].code = #status
 * #PREF-07 ^property[=].valueCode = #active
 * #PREF-07 ^property[+].code = #niveau
@@ -5705,9 +5705,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-08 ^designation[=].use = $sct#900000000000013009
 * #PREF-08 ^designation[=].value = "Préfecture des Ardennes"
 * #PREF-08 ^property[0].code = #dateValid
-* #PREF-08 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-08 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-08 ^property[+].code = #dateMaj
-* #PREF-08 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-08 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-08 ^property[+].code = #status
 * #PREF-08 ^property[=].valueCode = #active
 * #PREF-08 ^property[+].code = #niveau
@@ -5724,9 +5724,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-09 ^designation[=].use = $sct#900000000000013009
 * #PREF-09 ^designation[=].value = "Préfecture de l’Ariège"
 * #PREF-09 ^property[0].code = #dateValid
-* #PREF-09 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-09 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-09 ^property[+].code = #dateMaj
-* #PREF-09 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-09 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-09 ^property[+].code = #status
 * #PREF-09 ^property[=].valueCode = #active
 * #PREF-09 ^property[+].code = #niveau
@@ -5743,9 +5743,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-10 ^designation[=].use = $sct#900000000000013009
 * #PREF-10 ^designation[=].value = "Préfecture de l’Aube"
 * #PREF-10 ^property[0].code = #dateValid
-* #PREF-10 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-10 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-10 ^property[+].code = #dateMaj
-* #PREF-10 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-10 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-10 ^property[+].code = #status
 * #PREF-10 ^property[=].valueCode = #active
 * #PREF-10 ^property[+].code = #niveau
@@ -5762,9 +5762,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-11 ^designation[=].use = $sct#900000000000013009
 * #PREF-11 ^designation[=].value = "Préfecture de l’Aude"
 * #PREF-11 ^property[0].code = #dateValid
-* #PREF-11 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-11 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-11 ^property[+].code = #dateMaj
-* #PREF-11 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-11 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-11 ^property[+].code = #status
 * #PREF-11 ^property[=].valueCode = #active
 * #PREF-11 ^property[+].code = #niveau
@@ -5781,9 +5781,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-12 ^designation[=].use = $sct#900000000000013009
 * #PREF-12 ^designation[=].value = "Préfecture de l’Aveyron"
 * #PREF-12 ^property[0].code = #dateValid
-* #PREF-12 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-12 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-12 ^property[+].code = #dateMaj
-* #PREF-12 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-12 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-12 ^property[+].code = #status
 * #PREF-12 ^property[=].valueCode = #active
 * #PREF-12 ^property[+].code = #niveau
@@ -5800,9 +5800,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-13 ^designation[=].use = $sct#900000000000013009
 * #PREF-13 ^designation[=].value = "Préfecture des Bouches-du-Rhône"
 * #PREF-13 ^property[0].code = #dateValid
-* #PREF-13 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-13 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-13 ^property[+].code = #dateMaj
-* #PREF-13 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-13 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-13 ^property[+].code = #status
 * #PREF-13 ^property[=].valueCode = #active
 * #PREF-13 ^property[+].code = #niveau
@@ -5819,9 +5819,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-14 ^designation[=].use = $sct#900000000000013009
 * #PREF-14 ^designation[=].value = "Préfecture du Calvados"
 * #PREF-14 ^property[0].code = #dateValid
-* #PREF-14 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-14 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-14 ^property[+].code = #dateMaj
-* #PREF-14 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-14 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-14 ^property[+].code = #status
 * #PREF-14 ^property[=].valueCode = #active
 * #PREF-14 ^property[+].code = #niveau
@@ -5838,9 +5838,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-15 ^designation[=].use = $sct#900000000000013009
 * #PREF-15 ^designation[=].value = "Préfecture du Cantal"
 * #PREF-15 ^property[0].code = #dateValid
-* #PREF-15 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-15 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-15 ^property[+].code = #dateMaj
-* #PREF-15 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-15 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-15 ^property[+].code = #status
 * #PREF-15 ^property[=].valueCode = #active
 * #PREF-15 ^property[+].code = #niveau
@@ -5857,9 +5857,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-16 ^designation[=].use = $sct#900000000000013009
 * #PREF-16 ^designation[=].value = "Préfecture de la Charente"
 * #PREF-16 ^property[0].code = #dateValid
-* #PREF-16 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-16 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-16 ^property[+].code = #dateMaj
-* #PREF-16 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-16 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-16 ^property[+].code = #status
 * #PREF-16 ^property[=].valueCode = #active
 * #PREF-16 ^property[+].code = #niveau
@@ -5876,9 +5876,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-17 ^designation[=].use = $sct#900000000000013009
 * #PREF-17 ^designation[=].value = "Préfecture de la Charente-Maritime"
 * #PREF-17 ^property[0].code = #dateValid
-* #PREF-17 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-17 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-17 ^property[+].code = #dateMaj
-* #PREF-17 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-17 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-17 ^property[+].code = #status
 * #PREF-17 ^property[=].valueCode = #active
 * #PREF-17 ^property[+].code = #niveau
@@ -5895,9 +5895,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-18 ^designation[=].use = $sct#900000000000013009
 * #PREF-18 ^designation[=].value = "Préfecture du Cher"
 * #PREF-18 ^property[0].code = #dateValid
-* #PREF-18 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-18 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-18 ^property[+].code = #dateMaj
-* #PREF-18 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-18 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-18 ^property[+].code = #status
 * #PREF-18 ^property[=].valueCode = #active
 * #PREF-18 ^property[+].code = #niveau
@@ -5914,9 +5914,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-19 ^designation[=].use = $sct#900000000000013009
 * #PREF-19 ^designation[=].value = "Préfecture de la Corrèze"
 * #PREF-19 ^property[0].code = #dateValid
-* #PREF-19 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-19 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-19 ^property[+].code = #dateMaj
-* #PREF-19 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-19 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-19 ^property[+].code = #status
 * #PREF-19 ^property[=].valueCode = #active
 * #PREF-19 ^property[+].code = #niveau
@@ -5933,9 +5933,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-21 ^designation[=].use = $sct#900000000000013009
 * #PREF-21 ^designation[=].value = "Préfecture de la Côte-d’Or"
 * #PREF-21 ^property[0].code = #dateValid
-* #PREF-21 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-21 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-21 ^property[+].code = #dateMaj
-* #PREF-21 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-21 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-21 ^property[+].code = #status
 * #PREF-21 ^property[=].valueCode = #active
 * #PREF-21 ^property[+].code = #niveau
@@ -5952,9 +5952,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-22 ^designation[=].use = $sct#900000000000013009
 * #PREF-22 ^designation[=].value = "Préfecture des Côtes-d’Armor"
 * #PREF-22 ^property[0].code = #dateValid
-* #PREF-22 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-22 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-22 ^property[+].code = #dateMaj
-* #PREF-22 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-22 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-22 ^property[+].code = #status
 * #PREF-22 ^property[=].valueCode = #active
 * #PREF-22 ^property[+].code = #niveau
@@ -5971,9 +5971,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-23 ^designation[=].use = $sct#900000000000013009
 * #PREF-23 ^designation[=].value = "Préfecture de la Creuse"
 * #PREF-23 ^property[0].code = #dateValid
-* #PREF-23 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-23 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-23 ^property[+].code = #dateMaj
-* #PREF-23 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-23 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-23 ^property[+].code = #status
 * #PREF-23 ^property[=].valueCode = #active
 * #PREF-23 ^property[+].code = #niveau
@@ -5990,9 +5990,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-24 ^designation[=].use = $sct#900000000000013009
 * #PREF-24 ^designation[=].value = "Préfecture de la Dordogne"
 * #PREF-24 ^property[0].code = #dateValid
-* #PREF-24 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-24 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-24 ^property[+].code = #dateMaj
-* #PREF-24 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-24 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-24 ^property[+].code = #status
 * #PREF-24 ^property[=].valueCode = #active
 * #PREF-24 ^property[+].code = #niveau
@@ -6009,9 +6009,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-25 ^designation[=].use = $sct#900000000000013009
 * #PREF-25 ^designation[=].value = "Préfecture du Doubs"
 * #PREF-25 ^property[0].code = #dateValid
-* #PREF-25 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-25 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-25 ^property[+].code = #dateMaj
-* #PREF-25 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-25 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-25 ^property[+].code = #status
 * #PREF-25 ^property[=].valueCode = #active
 * #PREF-25 ^property[+].code = #niveau
@@ -6028,9 +6028,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-26 ^designation[=].use = $sct#900000000000013009
 * #PREF-26 ^designation[=].value = "Préfecture de la Drôme"
 * #PREF-26 ^property[0].code = #dateValid
-* #PREF-26 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-26 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-26 ^property[+].code = #dateMaj
-* #PREF-26 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-26 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-26 ^property[+].code = #status
 * #PREF-26 ^property[=].valueCode = #active
 * #PREF-26 ^property[+].code = #niveau
@@ -6047,9 +6047,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-27 ^designation[=].use = $sct#900000000000013009
 * #PREF-27 ^designation[=].value = "Préfecture de l’Eure"
 * #PREF-27 ^property[0].code = #dateValid
-* #PREF-27 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-27 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-27 ^property[+].code = #dateMaj
-* #PREF-27 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-27 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-27 ^property[+].code = #status
 * #PREF-27 ^property[=].valueCode = #active
 * #PREF-27 ^property[+].code = #niveau
@@ -6066,9 +6066,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-28 ^designation[=].use = $sct#900000000000013009
 * #PREF-28 ^designation[=].value = "Préfecture d’Eure-et-Loir"
 * #PREF-28 ^property[0].code = #dateValid
-* #PREF-28 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-28 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-28 ^property[+].code = #dateMaj
-* #PREF-28 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-28 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-28 ^property[+].code = #status
 * #PREF-28 ^property[=].valueCode = #active
 * #PREF-28 ^property[+].code = #niveau
@@ -6085,9 +6085,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-29 ^designation[=].use = $sct#900000000000013009
 * #PREF-29 ^designation[=].value = "Préfecture du Finistère"
 * #PREF-29 ^property[0].code = #dateValid
-* #PREF-29 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-29 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-29 ^property[+].code = #dateMaj
-* #PREF-29 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-29 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-29 ^property[+].code = #status
 * #PREF-29 ^property[=].valueCode = #active
 * #PREF-29 ^property[+].code = #niveau
@@ -6104,9 +6104,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-2A ^designation[=].use = $sct#900000000000013009
 * #PREF-2A ^designation[=].value = "Préfecture de la Corse-du-Sud"
 * #PREF-2A ^property[0].code = #dateValid
-* #PREF-2A ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-2A ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-2A ^property[+].code = #dateMaj
-* #PREF-2A ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-2A ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-2A ^property[+].code = #status
 * #PREF-2A ^property[=].valueCode = #active
 * #PREF-2A ^property[+].code = #niveau
@@ -6123,9 +6123,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-2B ^designation[=].use = $sct#900000000000013009
 * #PREF-2B ^designation[=].value = "Préfecture de la Haute-Corse"
 * #PREF-2B ^property[0].code = #dateValid
-* #PREF-2B ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-2B ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-2B ^property[+].code = #dateMaj
-* #PREF-2B ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-2B ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-2B ^property[+].code = #status
 * #PREF-2B ^property[=].valueCode = #active
 * #PREF-2B ^property[+].code = #niveau
@@ -6142,9 +6142,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-30 ^designation[=].use = $sct#900000000000013009
 * #PREF-30 ^designation[=].value = "Préfecture du Gard"
 * #PREF-30 ^property[0].code = #dateValid
-* #PREF-30 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-30 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-30 ^property[+].code = #dateMaj
-* #PREF-30 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-30 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-30 ^property[+].code = #status
 * #PREF-30 ^property[=].valueCode = #active
 * #PREF-30 ^property[+].code = #niveau
@@ -6161,9 +6161,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-31 ^designation[=].use = $sct#900000000000013009
 * #PREF-31 ^designation[=].value = "Préfecture de la Haute-Garonne"
 * #PREF-31 ^property[0].code = #dateValid
-* #PREF-31 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-31 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-31 ^property[+].code = #dateMaj
-* #PREF-31 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-31 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-31 ^property[+].code = #status
 * #PREF-31 ^property[=].valueCode = #active
 * #PREF-31 ^property[+].code = #niveau
@@ -6180,9 +6180,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-32 ^designation[=].use = $sct#900000000000013009
 * #PREF-32 ^designation[=].value = "Préfecture du Gers"
 * #PREF-32 ^property[0].code = #dateValid
-* #PREF-32 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-32 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-32 ^property[+].code = #dateMaj
-* #PREF-32 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-32 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-32 ^property[+].code = #status
 * #PREF-32 ^property[=].valueCode = #active
 * #PREF-32 ^property[+].code = #niveau
@@ -6199,9 +6199,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-33 ^designation[=].use = $sct#900000000000013009
 * #PREF-33 ^designation[=].value = "Préfecture de la Gironde"
 * #PREF-33 ^property[0].code = #dateValid
-* #PREF-33 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-33 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-33 ^property[+].code = #dateMaj
-* #PREF-33 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-33 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-33 ^property[+].code = #status
 * #PREF-33 ^property[=].valueCode = #active
 * #PREF-33 ^property[+].code = #niveau
@@ -6218,9 +6218,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-34 ^designation[=].use = $sct#900000000000013009
 * #PREF-34 ^designation[=].value = "Préfecture de l’Hérault"
 * #PREF-34 ^property[0].code = #dateValid
-* #PREF-34 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-34 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-34 ^property[+].code = #dateMaj
-* #PREF-34 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-34 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-34 ^property[+].code = #status
 * #PREF-34 ^property[=].valueCode = #active
 * #PREF-34 ^property[+].code = #niveau
@@ -6237,9 +6237,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-35 ^designation[=].use = $sct#900000000000013009
 * #PREF-35 ^designation[=].value = "Préfecture d’Ille-et-Vilaine"
 * #PREF-35 ^property[0].code = #dateValid
-* #PREF-35 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-35 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-35 ^property[+].code = #dateMaj
-* #PREF-35 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-35 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-35 ^property[+].code = #status
 * #PREF-35 ^property[=].valueCode = #active
 * #PREF-35 ^property[+].code = #niveau
@@ -6256,9 +6256,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-36 ^designation[=].use = $sct#900000000000013009
 * #PREF-36 ^designation[=].value = "Préfecture de l’Indre"
 * #PREF-36 ^property[0].code = #dateValid
-* #PREF-36 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-36 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-36 ^property[+].code = #dateMaj
-* #PREF-36 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-36 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-36 ^property[+].code = #status
 * #PREF-36 ^property[=].valueCode = #active
 * #PREF-36 ^property[+].code = #niveau
@@ -6275,9 +6275,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-37 ^designation[=].use = $sct#900000000000013009
 * #PREF-37 ^designation[=].value = "Préfecture d’Indre-et-Loire"
 * #PREF-37 ^property[0].code = #dateValid
-* #PREF-37 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-37 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-37 ^property[+].code = #dateMaj
-* #PREF-37 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-37 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-37 ^property[+].code = #status
 * #PREF-37 ^property[=].valueCode = #active
 * #PREF-37 ^property[+].code = #niveau
@@ -6294,9 +6294,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-38 ^designation[=].use = $sct#900000000000013009
 * #PREF-38 ^designation[=].value = "Préfecture de l’Isère"
 * #PREF-38 ^property[0].code = #dateValid
-* #PREF-38 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-38 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-38 ^property[+].code = #dateMaj
-* #PREF-38 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-38 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-38 ^property[+].code = #status
 * #PREF-38 ^property[=].valueCode = #active
 * #PREF-38 ^property[+].code = #niveau
@@ -6313,9 +6313,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-39 ^designation[=].use = $sct#900000000000013009
 * #PREF-39 ^designation[=].value = "Préfecture du Jura"
 * #PREF-39 ^property[0].code = #dateValid
-* #PREF-39 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-39 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-39 ^property[+].code = #dateMaj
-* #PREF-39 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-39 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-39 ^property[+].code = #status
 * #PREF-39 ^property[=].valueCode = #active
 * #PREF-39 ^property[+].code = #niveau
@@ -6332,9 +6332,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-40 ^designation[=].use = $sct#900000000000013009
 * #PREF-40 ^designation[=].value = "Préfecture des Landes"
 * #PREF-40 ^property[0].code = #dateValid
-* #PREF-40 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-40 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-40 ^property[+].code = #dateMaj
-* #PREF-40 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-40 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-40 ^property[+].code = #status
 * #PREF-40 ^property[=].valueCode = #active
 * #PREF-40 ^property[+].code = #niveau
@@ -6351,9 +6351,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-41 ^designation[=].use = $sct#900000000000013009
 * #PREF-41 ^designation[=].value = "Préfecture du Loir-et-Cher"
 * #PREF-41 ^property[0].code = #dateValid
-* #PREF-41 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-41 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-41 ^property[+].code = #dateMaj
-* #PREF-41 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-41 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-41 ^property[+].code = #status
 * #PREF-41 ^property[=].valueCode = #active
 * #PREF-41 ^property[+].code = #niveau
@@ -6370,9 +6370,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-42 ^designation[=].use = $sct#900000000000013009
 * #PREF-42 ^designation[=].value = "Préfecture de la Loire"
 * #PREF-42 ^property[0].code = #dateValid
-* #PREF-42 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-42 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-42 ^property[+].code = #dateMaj
-* #PREF-42 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-42 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-42 ^property[+].code = #status
 * #PREF-42 ^property[=].valueCode = #active
 * #PREF-42 ^property[+].code = #niveau
@@ -6389,9 +6389,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-43 ^designation[=].use = $sct#900000000000013009
 * #PREF-43 ^designation[=].value = "Préfecture de la Haute-Loire"
 * #PREF-43 ^property[0].code = #dateValid
-* #PREF-43 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-43 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-43 ^property[+].code = #dateMaj
-* #PREF-43 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-43 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-43 ^property[+].code = #status
 * #PREF-43 ^property[=].valueCode = #active
 * #PREF-43 ^property[+].code = #niveau
@@ -6408,9 +6408,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-44 ^designation[=].use = $sct#900000000000013009
 * #PREF-44 ^designation[=].value = "Préfecture de la Loire-Atlantique"
 * #PREF-44 ^property[0].code = #dateValid
-* #PREF-44 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-44 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-44 ^property[+].code = #dateMaj
-* #PREF-44 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-44 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-44 ^property[+].code = #status
 * #PREF-44 ^property[=].valueCode = #active
 * #PREF-44 ^property[+].code = #niveau
@@ -6427,9 +6427,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-45 ^designation[=].use = $sct#900000000000013009
 * #PREF-45 ^designation[=].value = "Préfecture du Loiret"
 * #PREF-45 ^property[0].code = #dateValid
-* #PREF-45 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-45 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-45 ^property[+].code = #dateMaj
-* #PREF-45 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-45 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-45 ^property[+].code = #status
 * #PREF-45 ^property[=].valueCode = #active
 * #PREF-45 ^property[+].code = #niveau
@@ -6446,9 +6446,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-46 ^designation[=].use = $sct#900000000000013009
 * #PREF-46 ^designation[=].value = "Préfecture du Lot"
 * #PREF-46 ^property[0].code = #dateValid
-* #PREF-46 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-46 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-46 ^property[+].code = #dateMaj
-* #PREF-46 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-46 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-46 ^property[+].code = #status
 * #PREF-46 ^property[=].valueCode = #active
 * #PREF-46 ^property[+].code = #niveau
@@ -6465,9 +6465,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-47 ^designation[=].use = $sct#900000000000013009
 * #PREF-47 ^designation[=].value = "Préfecture du Lot-et-Garonne"
 * #PREF-47 ^property[0].code = #dateValid
-* #PREF-47 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-47 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-47 ^property[+].code = #dateMaj
-* #PREF-47 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-47 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-47 ^property[+].code = #status
 * #PREF-47 ^property[=].valueCode = #active
 * #PREF-47 ^property[+].code = #niveau
@@ -6484,9 +6484,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-48 ^designation[=].use = $sct#900000000000013009
 * #PREF-48 ^designation[=].value = "Préfecture de la Lozère"
 * #PREF-48 ^property[0].code = #dateValid
-* #PREF-48 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-48 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-48 ^property[+].code = #dateMaj
-* #PREF-48 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-48 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-48 ^property[+].code = #status
 * #PREF-48 ^property[=].valueCode = #active
 * #PREF-48 ^property[+].code = #niveau
@@ -6503,9 +6503,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-49 ^designation[=].use = $sct#900000000000013009
 * #PREF-49 ^designation[=].value = "Préfecture de Maine-et-Loire"
 * #PREF-49 ^property[0].code = #dateValid
-* #PREF-49 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-49 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-49 ^property[+].code = #dateMaj
-* #PREF-49 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-49 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-49 ^property[+].code = #status
 * #PREF-49 ^property[=].valueCode = #active
 * #PREF-49 ^property[+].code = #niveau
@@ -6522,9 +6522,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-50 ^designation[=].use = $sct#900000000000013009
 * #PREF-50 ^designation[=].value = "Préfecture de la Manche"
 * #PREF-50 ^property[0].code = #dateValid
-* #PREF-50 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-50 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-50 ^property[+].code = #dateMaj
-* #PREF-50 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-50 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-50 ^property[+].code = #status
 * #PREF-50 ^property[=].valueCode = #active
 * #PREF-50 ^property[+].code = #niveau
@@ -6541,9 +6541,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-51 ^designation[=].use = $sct#900000000000013009
 * #PREF-51 ^designation[=].value = "Préfecture de la Marne"
 * #PREF-51 ^property[0].code = #dateValid
-* #PREF-51 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-51 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-51 ^property[+].code = #dateMaj
-* #PREF-51 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-51 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-51 ^property[+].code = #status
 * #PREF-51 ^property[=].valueCode = #active
 * #PREF-51 ^property[+].code = #niveau
@@ -6560,9 +6560,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-52 ^designation[=].use = $sct#900000000000013009
 * #PREF-52 ^designation[=].value = "Préfecture de la Haute-Marne"
 * #PREF-52 ^property[0].code = #dateValid
-* #PREF-52 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-52 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-52 ^property[+].code = #dateMaj
-* #PREF-52 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-52 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-52 ^property[+].code = #status
 * #PREF-52 ^property[=].valueCode = #active
 * #PREF-52 ^property[+].code = #niveau
@@ -6579,9 +6579,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-53 ^designation[=].use = $sct#900000000000013009
 * #PREF-53 ^designation[=].value = "Préfecture de la Mayenne"
 * #PREF-53 ^property[0].code = #dateValid
-* #PREF-53 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-53 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-53 ^property[+].code = #dateMaj
-* #PREF-53 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-53 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-53 ^property[+].code = #status
 * #PREF-53 ^property[=].valueCode = #active
 * #PREF-53 ^property[+].code = #niveau
@@ -6598,9 +6598,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-54 ^designation[=].use = $sct#900000000000013009
 * #PREF-54 ^designation[=].value = "Préfecture de Meurthe-et-Moselle"
 * #PREF-54 ^property[0].code = #dateValid
-* #PREF-54 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-54 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-54 ^property[+].code = #dateMaj
-* #PREF-54 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-54 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-54 ^property[+].code = #status
 * #PREF-54 ^property[=].valueCode = #active
 * #PREF-54 ^property[+].code = #niveau
@@ -6617,9 +6617,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-55 ^designation[=].use = $sct#900000000000013009
 * #PREF-55 ^designation[=].value = "Préfecture de la Meuse"
 * #PREF-55 ^property[0].code = #dateValid
-* #PREF-55 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-55 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-55 ^property[+].code = #dateMaj
-* #PREF-55 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-55 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-55 ^property[+].code = #status
 * #PREF-55 ^property[=].valueCode = #active
 * #PREF-55 ^property[+].code = #niveau
@@ -6636,9 +6636,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-56 ^designation[=].use = $sct#900000000000013009
 * #PREF-56 ^designation[=].value = "Préfecture du Morbihan"
 * #PREF-56 ^property[0].code = #dateValid
-* #PREF-56 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-56 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-56 ^property[+].code = #dateMaj
-* #PREF-56 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-56 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-56 ^property[+].code = #status
 * #PREF-56 ^property[=].valueCode = #active
 * #PREF-56 ^property[+].code = #niveau
@@ -6655,9 +6655,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-57 ^designation[=].use = $sct#900000000000013009
 * #PREF-57 ^designation[=].value = "Préfecture de la Moselle"
 * #PREF-57 ^property[0].code = #dateValid
-* #PREF-57 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-57 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-57 ^property[+].code = #dateMaj
-* #PREF-57 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-57 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-57 ^property[+].code = #status
 * #PREF-57 ^property[=].valueCode = #active
 * #PREF-57 ^property[+].code = #niveau
@@ -6674,9 +6674,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-58 ^designation[=].use = $sct#900000000000013009
 * #PREF-58 ^designation[=].value = "Préfecture de la Nièvre"
 * #PREF-58 ^property[0].code = #dateValid
-* #PREF-58 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-58 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-58 ^property[+].code = #dateMaj
-* #PREF-58 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-58 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-58 ^property[+].code = #status
 * #PREF-58 ^property[=].valueCode = #active
 * #PREF-58 ^property[+].code = #niveau
@@ -6693,9 +6693,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-59 ^designation[=].use = $sct#900000000000013009
 * #PREF-59 ^designation[=].value = "Préfecture du Nord"
 * #PREF-59 ^property[0].code = #dateValid
-* #PREF-59 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-59 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-59 ^property[+].code = #dateMaj
-* #PREF-59 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-59 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-59 ^property[+].code = #status
 * #PREF-59 ^property[=].valueCode = #active
 * #PREF-59 ^property[+].code = #niveau
@@ -6712,9 +6712,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-60 ^designation[=].use = $sct#900000000000013009
 * #PREF-60 ^designation[=].value = "Préfecture de l’Oise"
 * #PREF-60 ^property[0].code = #dateValid
-* #PREF-60 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-60 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-60 ^property[+].code = #dateMaj
-* #PREF-60 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-60 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-60 ^property[+].code = #status
 * #PREF-60 ^property[=].valueCode = #active
 * #PREF-60 ^property[+].code = #niveau
@@ -6731,9 +6731,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-61 ^designation[=].use = $sct#900000000000013009
 * #PREF-61 ^designation[=].value = "Préfecture de l’Orne"
 * #PREF-61 ^property[0].code = #dateValid
-* #PREF-61 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-61 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-61 ^property[+].code = #dateMaj
-* #PREF-61 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-61 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-61 ^property[+].code = #status
 * #PREF-61 ^property[=].valueCode = #active
 * #PREF-61 ^property[+].code = #niveau
@@ -6750,9 +6750,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-62 ^designation[=].use = $sct#900000000000013009
 * #PREF-62 ^designation[=].value = "Préfecture du Pas-de-Calais"
 * #PREF-62 ^property[0].code = #dateValid
-* #PREF-62 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-62 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-62 ^property[+].code = #dateMaj
-* #PREF-62 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-62 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-62 ^property[+].code = #status
 * #PREF-62 ^property[=].valueCode = #active
 * #PREF-62 ^property[+].code = #niveau
@@ -6769,9 +6769,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-63 ^designation[=].use = $sct#900000000000013009
 * #PREF-63 ^designation[=].value = "Préfecture du Puy-de-Dôme"
 * #PREF-63 ^property[0].code = #dateValid
-* #PREF-63 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-63 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-63 ^property[+].code = #dateMaj
-* #PREF-63 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-63 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-63 ^property[+].code = #status
 * #PREF-63 ^property[=].valueCode = #active
 * #PREF-63 ^property[+].code = #niveau
@@ -6788,9 +6788,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-64 ^designation[=].use = $sct#900000000000013009
 * #PREF-64 ^designation[=].value = "Préfecture des Pyrénées-Atlantiques"
 * #PREF-64 ^property[0].code = #dateValid
-* #PREF-64 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-64 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-64 ^property[+].code = #dateMaj
-* #PREF-64 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-64 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-64 ^property[+].code = #status
 * #PREF-64 ^property[=].valueCode = #active
 * #PREF-64 ^property[+].code = #niveau
@@ -6807,9 +6807,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-65 ^designation[=].use = $sct#900000000000013009
 * #PREF-65 ^designation[=].value = "Préfecture des Hautes-Pyrénées"
 * #PREF-65 ^property[0].code = #dateValid
-* #PREF-65 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-65 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-65 ^property[+].code = #dateMaj
-* #PREF-65 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-65 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-65 ^property[+].code = #status
 * #PREF-65 ^property[=].valueCode = #active
 * #PREF-65 ^property[+].code = #niveau
@@ -6826,9 +6826,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-66 ^designation[=].use = $sct#900000000000013009
 * #PREF-66 ^designation[=].value = "Préfecture des Pyrénées-Orientales"
 * #PREF-66 ^property[0].code = #dateValid
-* #PREF-66 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-66 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-66 ^property[+].code = #dateMaj
-* #PREF-66 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-66 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-66 ^property[+].code = #status
 * #PREF-66 ^property[=].valueCode = #active
 * #PREF-66 ^property[+].code = #niveau
@@ -6845,9 +6845,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-67 ^designation[=].use = $sct#900000000000013009
 * #PREF-67 ^designation[=].value = "Préfecture du Bas-Rhin"
 * #PREF-67 ^property[0].code = #dateValid
-* #PREF-67 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-67 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-67 ^property[+].code = #dateMaj
-* #PREF-67 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-67 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-67 ^property[+].code = #status
 * #PREF-67 ^property[=].valueCode = #active
 * #PREF-67 ^property[+].code = #niveau
@@ -6864,9 +6864,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-68 ^designation[=].use = $sct#900000000000013009
 * #PREF-68 ^designation[=].value = "Préfecture du Haut-Rhin"
 * #PREF-68 ^property[0].code = #dateValid
-* #PREF-68 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-68 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-68 ^property[+].code = #dateMaj
-* #PREF-68 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-68 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-68 ^property[+].code = #status
 * #PREF-68 ^property[=].valueCode = #active
 * #PREF-68 ^property[+].code = #niveau
@@ -6883,9 +6883,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-69 ^designation[=].use = $sct#900000000000013009
 * #PREF-69 ^designation[=].value = "Préfecture du Rhône"
 * #PREF-69 ^property[0].code = #dateValid
-* #PREF-69 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-69 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-69 ^property[+].code = #dateMaj
-* #PREF-69 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-69 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-69 ^property[+].code = #status
 * #PREF-69 ^property[=].valueCode = #active
 * #PREF-69 ^property[+].code = #niveau
@@ -6902,9 +6902,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-70 ^designation[=].use = $sct#900000000000013009
 * #PREF-70 ^designation[=].value = "Préfecture de la Haute-Saône"
 * #PREF-70 ^property[0].code = #dateValid
-* #PREF-70 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-70 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-70 ^property[+].code = #dateMaj
-* #PREF-70 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-70 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-70 ^property[+].code = #status
 * #PREF-70 ^property[=].valueCode = #active
 * #PREF-70 ^property[+].code = #niveau
@@ -6921,9 +6921,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-71 ^designation[=].use = $sct#900000000000013009
 * #PREF-71 ^designation[=].value = "Préfecture de Saône-et-Loire"
 * #PREF-71 ^property[0].code = #dateValid
-* #PREF-71 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-71 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-71 ^property[+].code = #dateMaj
-* #PREF-71 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-71 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-71 ^property[+].code = #status
 * #PREF-71 ^property[=].valueCode = #active
 * #PREF-71 ^property[+].code = #niveau
@@ -6940,9 +6940,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-72 ^designation[=].use = $sct#900000000000013009
 * #PREF-72 ^designation[=].value = "Préfecture de la Sarthe"
 * #PREF-72 ^property[0].code = #dateValid
-* #PREF-72 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-72 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-72 ^property[+].code = #dateMaj
-* #PREF-72 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-72 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-72 ^property[+].code = #status
 * #PREF-72 ^property[=].valueCode = #active
 * #PREF-72 ^property[+].code = #niveau
@@ -6959,9 +6959,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-73 ^designation[=].use = $sct#900000000000013009
 * #PREF-73 ^designation[=].value = "Préfecture de la Savoie"
 * #PREF-73 ^property[0].code = #dateValid
-* #PREF-73 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-73 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-73 ^property[+].code = #dateMaj
-* #PREF-73 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-73 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-73 ^property[+].code = #status
 * #PREF-73 ^property[=].valueCode = #active
 * #PREF-73 ^property[+].code = #niveau
@@ -6978,9 +6978,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-74 ^designation[=].use = $sct#900000000000013009
 * #PREF-74 ^designation[=].value = "Préfecture de la Haute-Savoie"
 * #PREF-74 ^property[0].code = #dateValid
-* #PREF-74 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-74 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-74 ^property[+].code = #dateMaj
-* #PREF-74 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-74 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-74 ^property[+].code = #status
 * #PREF-74 ^property[=].valueCode = #active
 * #PREF-74 ^property[+].code = #niveau
@@ -6997,9 +6997,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-75 ^designation[=].use = $sct#900000000000013009
 * #PREF-75 ^designation[=].value = "Préfecture de Paris"
 * #PREF-75 ^property[0].code = #dateValid
-* #PREF-75 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-75 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-75 ^property[+].code = #dateMaj
-* #PREF-75 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-75 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-75 ^property[+].code = #status
 * #PREF-75 ^property[=].valueCode = #active
 * #PREF-75 ^property[+].code = #niveau
@@ -7016,9 +7016,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-76 ^designation[=].use = $sct#900000000000013009
 * #PREF-76 ^designation[=].value = "Préfecture de la Seine-Maritime"
 * #PREF-76 ^property[0].code = #dateValid
-* #PREF-76 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-76 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-76 ^property[+].code = #dateMaj
-* #PREF-76 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-76 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-76 ^property[+].code = #status
 * #PREF-76 ^property[=].valueCode = #active
 * #PREF-76 ^property[+].code = #niveau
@@ -7035,9 +7035,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-77 ^designation[=].use = $sct#900000000000013009
 * #PREF-77 ^designation[=].value = "Préfecture de Seine-et-Marne"
 * #PREF-77 ^property[0].code = #dateValid
-* #PREF-77 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-77 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-77 ^property[+].code = #dateMaj
-* #PREF-77 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-77 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-77 ^property[+].code = #status
 * #PREF-77 ^property[=].valueCode = #active
 * #PREF-77 ^property[+].code = #niveau
@@ -7054,9 +7054,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-78 ^designation[=].use = $sct#900000000000013009
 * #PREF-78 ^designation[=].value = "Préfecture des Yvelines"
 * #PREF-78 ^property[0].code = #dateValid
-* #PREF-78 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-78 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-78 ^property[+].code = #dateMaj
-* #PREF-78 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-78 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-78 ^property[+].code = #status
 * #PREF-78 ^property[=].valueCode = #active
 * #PREF-78 ^property[+].code = #niveau
@@ -7073,9 +7073,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-79 ^designation[=].use = $sct#900000000000013009
 * #PREF-79 ^designation[=].value = "Préfecture des Deux-Sèvres"
 * #PREF-79 ^property[0].code = #dateValid
-* #PREF-79 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-79 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-79 ^property[+].code = #dateMaj
-* #PREF-79 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-79 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-79 ^property[+].code = #status
 * #PREF-79 ^property[=].valueCode = #active
 * #PREF-79 ^property[+].code = #niveau
@@ -7092,9 +7092,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-80 ^designation[=].use = $sct#900000000000013009
 * #PREF-80 ^designation[=].value = "Préfecture de la Somme"
 * #PREF-80 ^property[0].code = #dateValid
-* #PREF-80 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-80 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-80 ^property[+].code = #dateMaj
-* #PREF-80 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-80 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-80 ^property[+].code = #status
 * #PREF-80 ^property[=].valueCode = #active
 * #PREF-80 ^property[+].code = #niveau
@@ -7111,9 +7111,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-81 ^designation[=].use = $sct#900000000000013009
 * #PREF-81 ^designation[=].value = "Préfecture du Tarn"
 * #PREF-81 ^property[0].code = #dateValid
-* #PREF-81 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-81 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-81 ^property[+].code = #dateMaj
-* #PREF-81 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-81 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-81 ^property[+].code = #status
 * #PREF-81 ^property[=].valueCode = #active
 * #PREF-81 ^property[+].code = #niveau
@@ -7130,9 +7130,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-82 ^designation[=].use = $sct#900000000000013009
 * #PREF-82 ^designation[=].value = "Préfecture du Tarn-et-Garonne"
 * #PREF-82 ^property[0].code = #dateValid
-* #PREF-82 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-82 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-82 ^property[+].code = #dateMaj
-* #PREF-82 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-82 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-82 ^property[+].code = #status
 * #PREF-82 ^property[=].valueCode = #active
 * #PREF-82 ^property[+].code = #niveau
@@ -7149,9 +7149,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-83 ^designation[=].use = $sct#900000000000013009
 * #PREF-83 ^designation[=].value = "Préfecture du Var"
 * #PREF-83 ^property[0].code = #dateValid
-* #PREF-83 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-83 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-83 ^property[+].code = #dateMaj
-* #PREF-83 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-83 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-83 ^property[+].code = #status
 * #PREF-83 ^property[=].valueCode = #active
 * #PREF-83 ^property[+].code = #niveau
@@ -7168,9 +7168,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-84 ^designation[=].use = $sct#900000000000013009
 * #PREF-84 ^designation[=].value = "Préfecture de Vaucluse"
 * #PREF-84 ^property[0].code = #dateValid
-* #PREF-84 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-84 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-84 ^property[+].code = #dateMaj
-* #PREF-84 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-84 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-84 ^property[+].code = #status
 * #PREF-84 ^property[=].valueCode = #active
 * #PREF-84 ^property[+].code = #niveau
@@ -7187,9 +7187,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-85 ^designation[=].use = $sct#900000000000013009
 * #PREF-85 ^designation[=].value = "Préfecture de la Vendée"
 * #PREF-85 ^property[0].code = #dateValid
-* #PREF-85 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-85 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-85 ^property[+].code = #dateMaj
-* #PREF-85 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-85 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-85 ^property[+].code = #status
 * #PREF-85 ^property[=].valueCode = #active
 * #PREF-85 ^property[+].code = #niveau
@@ -7206,9 +7206,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-86 ^designation[=].use = $sct#900000000000013009
 * #PREF-86 ^designation[=].value = "Préfecture de la Vienne"
 * #PREF-86 ^property[0].code = #dateValid
-* #PREF-86 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-86 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-86 ^property[+].code = #dateMaj
-* #PREF-86 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-86 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-86 ^property[+].code = #status
 * #PREF-86 ^property[=].valueCode = #active
 * #PREF-86 ^property[+].code = #niveau
@@ -7225,9 +7225,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-87 ^designation[=].use = $sct#900000000000013009
 * #PREF-87 ^designation[=].value = "Préfecture de la Haute-Vienne"
 * #PREF-87 ^property[0].code = #dateValid
-* #PREF-87 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-87 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-87 ^property[+].code = #dateMaj
-* #PREF-87 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-87 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-87 ^property[+].code = #status
 * #PREF-87 ^property[=].valueCode = #active
 * #PREF-87 ^property[+].code = #niveau
@@ -7244,9 +7244,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-88 ^designation[=].use = $sct#900000000000013009
 * #PREF-88 ^designation[=].value = "Préfecture des Vosges"
 * #PREF-88 ^property[0].code = #dateValid
-* #PREF-88 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-88 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-88 ^property[+].code = #dateMaj
-* #PREF-88 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-88 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-88 ^property[+].code = #status
 * #PREF-88 ^property[=].valueCode = #active
 * #PREF-88 ^property[+].code = #niveau
@@ -7263,9 +7263,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-89 ^designation[=].use = $sct#900000000000013009
 * #PREF-89 ^designation[=].value = "Préfecture de l’Yonne"
 * #PREF-89 ^property[0].code = #dateValid
-* #PREF-89 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-89 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-89 ^property[+].code = #dateMaj
-* #PREF-89 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-89 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-89 ^property[+].code = #status
 * #PREF-89 ^property[=].valueCode = #active
 * #PREF-89 ^property[+].code = #niveau
@@ -7282,9 +7282,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-90 ^designation[=].use = $sct#900000000000013009
 * #PREF-90 ^designation[=].value = "Préfecture du Territoire de Belfort"
 * #PREF-90 ^property[0].code = #dateValid
-* #PREF-90 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-90 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-90 ^property[+].code = #dateMaj
-* #PREF-90 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-90 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-90 ^property[+].code = #status
 * #PREF-90 ^property[=].valueCode = #active
 * #PREF-90 ^property[+].code = #niveau
@@ -7301,9 +7301,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-91 ^designation[=].use = $sct#900000000000013009
 * #PREF-91 ^designation[=].value = "Préfecture de l’Essonne"
 * #PREF-91 ^property[0].code = #dateValid
-* #PREF-91 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-91 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-91 ^property[+].code = #dateMaj
-* #PREF-91 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-91 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-91 ^property[+].code = #status
 * #PREF-91 ^property[=].valueCode = #active
 * #PREF-91 ^property[+].code = #niveau
@@ -7320,9 +7320,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-92 ^designation[=].use = $sct#900000000000013009
 * #PREF-92 ^designation[=].value = "Préfecture des Hauts-de-Seine"
 * #PREF-92 ^property[0].code = #dateValid
-* #PREF-92 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-92 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-92 ^property[+].code = #dateMaj
-* #PREF-92 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-92 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-92 ^property[+].code = #status
 * #PREF-92 ^property[=].valueCode = #active
 * #PREF-92 ^property[+].code = #niveau
@@ -7339,9 +7339,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-93 ^designation[=].use = $sct#900000000000013009
 * #PREF-93 ^designation[=].value = "Préfecture de la Seine-Saint-Denis"
 * #PREF-93 ^property[0].code = #dateValid
-* #PREF-93 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-93 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-93 ^property[+].code = #dateMaj
-* #PREF-93 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-93 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-93 ^property[+].code = #status
 * #PREF-93 ^property[=].valueCode = #active
 * #PREF-93 ^property[+].code = #niveau
@@ -7358,9 +7358,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-94 ^designation[=].use = $sct#900000000000013009
 * #PREF-94 ^designation[=].value = "Préfecture du Val-de-Marne"
 * #PREF-94 ^property[0].code = #dateValid
-* #PREF-94 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-94 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-94 ^property[+].code = #dateMaj
-* #PREF-94 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-94 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-94 ^property[+].code = #status
 * #PREF-94 ^property[=].valueCode = #active
 * #PREF-94 ^property[+].code = #niveau
@@ -7377,9 +7377,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-95 ^designation[=].use = $sct#900000000000013009
 * #PREF-95 ^designation[=].value = "Préfecture du Val-d’Oise"
 * #PREF-95 ^property[0].code = #dateValid
-* #PREF-95 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-95 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-95 ^property[+].code = #dateMaj
-* #PREF-95 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-95 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-95 ^property[+].code = #status
 * #PREF-95 ^property[=].valueCode = #active
 * #PREF-95 ^property[+].code = #niveau
@@ -7396,9 +7396,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-971 ^designation[=].use = $sct#900000000000013009
 * #PREF-971 ^designation[=].value = "Préfecture de la Guadeloupe"
 * #PREF-971 ^property[0].code = #dateValid
-* #PREF-971 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-971 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-971 ^property[+].code = #dateMaj
-* #PREF-971 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-971 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-971 ^property[+].code = #status
 * #PREF-971 ^property[=].valueCode = #active
 * #PREF-971 ^property[+].code = #niveau
@@ -7415,9 +7415,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-972 ^designation[=].use = $sct#900000000000013009
 * #PREF-972 ^designation[=].value = "Préfecture de la Martinique"
 * #PREF-972 ^property[0].code = #dateValid
-* #PREF-972 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-972 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-972 ^property[+].code = #dateMaj
-* #PREF-972 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-972 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-972 ^property[+].code = #status
 * #PREF-972 ^property[=].valueCode = #active
 * #PREF-972 ^property[+].code = #niveau
@@ -7434,9 +7434,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-973 ^designation[=].use = $sct#900000000000013009
 * #PREF-973 ^designation[=].value = "Préfecture de la Guyane"
 * #PREF-973 ^property[0].code = #dateValid
-* #PREF-973 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-973 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-973 ^property[+].code = #dateMaj
-* #PREF-973 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-973 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-973 ^property[+].code = #status
 * #PREF-973 ^property[=].valueCode = #active
 * #PREF-973 ^property[+].code = #niveau
@@ -7453,9 +7453,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-974 ^designation[=].use = $sct#900000000000013009
 * #PREF-974 ^designation[=].value = "Préfecture de La Réunion"
 * #PREF-974 ^property[0].code = #dateValid
-* #PREF-974 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-974 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-974 ^property[+].code = #dateMaj
-* #PREF-974 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-974 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-974 ^property[+].code = #status
 * #PREF-974 ^property[=].valueCode = #active
 * #PREF-974 ^property[+].code = #niveau
@@ -7472,9 +7472,9 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #PREF-976 ^designation[=].use = $sct#900000000000013009
 * #PREF-976 ^designation[=].value = "Préfecture de Mayotte"
 * #PREF-976 ^property[0].code = #dateValid
-* #PREF-976 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-976 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-976 ^property[+].code = #dateMaj
-* #PREF-976 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-976 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #PREF-976 ^property[+].code = #status
 * #PREF-976 ^property[=].valueCode = #active
 * #PREF-976 ^property[+].code = #niveau
