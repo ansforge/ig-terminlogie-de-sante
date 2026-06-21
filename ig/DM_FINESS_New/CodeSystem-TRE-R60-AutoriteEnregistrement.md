@@ -97,7 +97,7 @@ Autorité d’enregistrement
     "display" : "ANS : Agence du numérique en santé",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1197,7 +1197,7 @@ Autorité d’enregistrement
     "display" : "DEETS-01 :DEETS Guadeloupe",
     "property" : [{
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1209,7 +1209,7 @@ Autorité d’enregistrement
     "display" : "DEETS-02 :  DEETS Martinique",
     "property" : [{
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1221,7 +1221,7 @@ Autorité d’enregistrement
     "display" : "DEETS-03 :  DEETS  Guyane",
     "property" : [{
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1233,7 +1233,7 @@ Autorité d’enregistrement
     "display" : "DEETS-05 :  DEETS de La Réunion",
     "property" : [{
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1245,7 +1245,7 @@ Autorité d’enregistrement
     "display" : "DEETS-06 : DEETS Mayotte",
     "property" : [{
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1257,7 +1257,7 @@ Autorité d’enregistrement
     "display" : "DREETS-11 : DREETS d'Ile de France",
     "property" : [{
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1269,7 +1269,7 @@ Autorité d’enregistrement
     "display" : "DREETS-24 : DREETS Centre-Val de Loire",
     "property" : [{
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1281,7 +1281,7 @@ Autorité d’enregistrement
     "display" : "DREETS-27 :DREETS Bourgogne-Franche-Comté",
     "property" : [{
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1293,7 +1293,7 @@ Autorité d’enregistrement
     "display" : "DREETS-28 : DREETS Normandie",
     "property" : [{
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1305,7 +1305,7 @@ Autorité d’enregistrement
     "display" : "DREETS-32 : DREETS Hauts-de-France",
     "property" : [{
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1317,7 +1317,7 @@ Autorité d’enregistrement
     "display" : "DREETS-44 : DREETS Grand Est",
     "property" : [{
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1329,7 +1329,7 @@ Autorité d’enregistrement
     "display" : "DREETS-52 : DREETS Pays de la Loire",
     "property" : [{
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1341,7 +1341,7 @@ Autorité d’enregistrement
     "display" : "DREETS-53 : DREETS Bretagne",
     "property" : [{
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1353,7 +1353,7 @@ Autorité d’enregistrement
     "display" : "DREETS-75 : DREETS Nouvelle-Aquitaine",
     "property" : [{
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1365,7 +1365,7 @@ Autorité d’enregistrement
     "display" : "DREETS-76 : DREETS Occitanie",
     "property" : [{
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1377,7 +1377,7 @@ Autorité d’enregistrement
     "display" : "DREETS-84 : DREETS Auvergne-Rhône-Alpes",
     "property" : [{
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1389,7 +1389,7 @@ Autorité d’enregistrement
     "display" : "DREETS-93 : DREETS Provence-Alpes-Côte d'Azur",
     "property" : [{
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1401,7 +1401,7 @@ Autorité d’enregistrement
     "display" : "DREETS-94 : DREETS de Corse",
     "property" : [{
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1413,7 +1413,7 @@ Autorité d’enregistrement
     "display" : "DRHIL-11 : DRHIL Ile de France",
     "property" : [{
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",

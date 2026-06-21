@@ -145,11 +145,11 @@ Type Autorité d’enregistrement
     "display" : "Directions régionales de l'économie de l'emploi du travail et des solidarités",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -161,11 +161,11 @@ Type Autorité d’enregistrement
     "display" : "Direction régionale et de l'Hébergement et du Logement",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -177,11 +177,11 @@ Type Autorité d’enregistrement
     "display" : "Agence nationales",
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",

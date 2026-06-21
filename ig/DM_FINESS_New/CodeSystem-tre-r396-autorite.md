@@ -299,7 +299,7 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "CD"
+      "value" : "Conseil Départemental"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -420,7 +420,7 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
   },
   {
     "code" : "10",
-    "display" : "CR",
+    "display" : "Conseil Régional",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -559,11 +559,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -2448,11 +2448,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -2488,11 +2488,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -2528,11 +2528,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -2568,11 +2568,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -2608,11 +2608,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -2648,11 +2648,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -2688,11 +2688,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -2728,11 +2728,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -2768,11 +2768,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -2808,11 +2808,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -2848,11 +2848,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -2888,11 +2888,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -2928,11 +2928,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -2968,11 +2968,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -3008,11 +3008,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -3048,11 +3048,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -3088,11 +3088,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -3128,11 +3128,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -3168,11 +3168,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -3208,11 +3208,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -3248,11 +3248,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -3288,11 +3288,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -3328,11 +3328,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -3368,11 +3368,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -3408,11 +3408,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -3448,11 +3448,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -3488,11 +3488,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -3528,11 +3528,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -3568,11 +3568,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -3608,11 +3608,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -3648,11 +3648,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -3688,11 +3688,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -3728,11 +3728,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -3768,11 +3768,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -3808,11 +3808,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -3848,11 +3848,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -3888,11 +3888,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -3928,11 +3928,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -3968,11 +3968,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -4008,11 +4008,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -4048,11 +4048,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -4088,11 +4088,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -4128,11 +4128,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -4168,11 +4168,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -4208,11 +4208,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -4248,11 +4248,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -4288,11 +4288,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -4328,11 +4328,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -4368,11 +4368,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -4408,11 +4408,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -4448,11 +4448,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -4488,11 +4488,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -4528,11 +4528,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -4568,11 +4568,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -4608,11 +4608,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -4648,11 +4648,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -4688,11 +4688,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -4728,11 +4728,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -4768,11 +4768,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -4808,11 +4808,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -4848,11 +4848,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -4888,11 +4888,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -4928,11 +4928,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -4968,11 +4968,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -5008,11 +5008,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -5048,11 +5048,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -5088,11 +5088,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -5128,11 +5128,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -5168,11 +5168,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -5208,11 +5208,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -5248,11 +5248,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -5288,11 +5288,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -5328,11 +5328,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -5368,11 +5368,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -5408,11 +5408,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -5448,11 +5448,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -5488,11 +5488,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -5528,11 +5528,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -5568,11 +5568,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -5608,11 +5608,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -5648,11 +5648,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -5688,11 +5688,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -5728,11 +5728,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -5768,11 +5768,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -5808,11 +5808,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -5848,11 +5848,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -5888,11 +5888,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -5928,11 +5928,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -5968,11 +5968,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -6008,11 +6008,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -6048,11 +6048,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -6088,11 +6088,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -6128,11 +6128,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -6168,11 +6168,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -6208,11 +6208,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -6248,11 +6248,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -6288,11 +6288,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -6328,11 +6328,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -6368,11 +6368,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -6408,11 +6408,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -6448,11 +6448,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -6488,11 +6488,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -6528,11 +6528,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -6568,11 +6568,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -6608,11 +6608,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -6648,11 +6648,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -6688,11 +6688,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -6728,11 +6728,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -6768,11 +6768,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -6808,11 +6808,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -6848,11 +6848,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -6888,11 +6888,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -6928,11 +6928,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -6968,11 +6968,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -7008,11 +7008,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -7048,11 +7048,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -7088,11 +7088,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -7128,11 +7128,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -7168,11 +7168,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -7208,11 +7208,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -7248,11 +7248,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -7288,11 +7288,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -7328,11 +7328,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -7368,11 +7368,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -7408,11 +7408,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -7448,11 +7448,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -7488,11 +7488,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -7528,11 +7528,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -7568,11 +7568,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -7608,11 +7608,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -7648,11 +7648,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -7688,11 +7688,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -7728,11 +7728,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -7768,11 +7768,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -7808,11 +7808,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -7848,11 +7848,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -7888,11 +7888,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -7928,11 +7928,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -7968,11 +7968,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8008,11 +8008,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8048,11 +8048,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8088,11 +8088,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8128,11 +8128,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8168,11 +8168,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8208,11 +8208,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8248,11 +8248,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8288,11 +8288,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8328,11 +8328,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8368,11 +8368,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8408,11 +8408,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8448,11 +8448,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8488,11 +8488,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8528,11 +8528,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8568,11 +8568,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8608,11 +8608,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8648,11 +8648,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8688,11 +8688,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8728,11 +8728,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8768,11 +8768,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8808,11 +8808,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8848,11 +8848,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8888,11 +8888,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8928,11 +8928,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8968,11 +8968,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -9008,11 +9008,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -9048,11 +9048,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -9088,11 +9088,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -9128,11 +9128,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -9168,11 +9168,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -9208,11 +9208,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -9248,11 +9248,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -9288,11 +9288,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -9328,11 +9328,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -9368,11 +9368,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -9408,11 +9408,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -9448,11 +9448,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -9488,11 +9488,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -9528,11 +9528,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -9568,11 +9568,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -9608,11 +9608,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -9648,11 +9648,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -9688,11 +9688,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -9728,11 +9728,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -9768,11 +9768,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -9808,11 +9808,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -9848,11 +9848,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -9888,11 +9888,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -9928,11 +9928,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -9968,11 +9968,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -10008,11 +10008,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -10048,11 +10048,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -10088,11 +10088,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -10128,11 +10128,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -10168,11 +10168,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -10208,11 +10208,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -10248,11 +10248,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -10288,11 +10288,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -10328,11 +10328,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -10368,11 +10368,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -10408,11 +10408,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -10448,11 +10448,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -10488,11 +10488,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -10528,11 +10528,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -10568,11 +10568,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -10608,11 +10608,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -10648,11 +10648,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -10688,11 +10688,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -10728,11 +10728,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -10776,11 +10776,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -10824,11 +10824,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -10872,11 +10872,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -10920,11 +10920,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -10968,11 +10968,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -11016,11 +11016,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -11045,7 +11045,7 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
   },
   {
     "code" : "DREETS-24",
-    "display" : "DREETS-24 : Direction régionale de l'économie de l'emploi du travail et des solidarités Centre-Val de Loire",
+    "display" : "DREETS-24 : DREETS Centre-Val de Loire",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -11064,11 +11064,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -11112,11 +11112,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -11160,11 +11160,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -11208,11 +11208,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -11256,11 +11256,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -11304,11 +11304,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -11352,11 +11352,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -11400,11 +11400,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -11448,11 +11448,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -11496,11 +11496,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -11544,11 +11544,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -11592,11 +11592,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -11640,11 +11640,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -11680,11 +11680,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -11720,11 +11720,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -11760,11 +11760,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -11800,11 +11800,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -11840,11 +11840,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -11880,11 +11880,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -11920,11 +11920,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -11960,11 +11960,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -12000,11 +12000,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -12040,11 +12040,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -12080,11 +12080,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -12120,11 +12120,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -12160,11 +12160,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -12200,11 +12200,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -12240,11 +12240,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -12280,11 +12280,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -12320,11 +12320,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -12360,11 +12360,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -12400,11 +12400,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -12440,11 +12440,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -12480,11 +12480,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -12520,11 +12520,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -12560,11 +12560,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -12600,11 +12600,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -12640,11 +12640,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -12680,11 +12680,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -12720,11 +12720,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -12760,11 +12760,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -12800,11 +12800,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -12840,11 +12840,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -12880,11 +12880,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -12920,11 +12920,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -12960,11 +12960,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -13000,11 +13000,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -13040,11 +13040,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -13080,11 +13080,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -13120,11 +13120,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -13160,11 +13160,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -13200,11 +13200,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -13240,11 +13240,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -13280,11 +13280,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -13320,11 +13320,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -13360,11 +13360,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -13400,11 +13400,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -13440,11 +13440,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -13480,11 +13480,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -13520,11 +13520,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -13560,11 +13560,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -13600,11 +13600,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -13640,11 +13640,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -13680,11 +13680,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -13720,11 +13720,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -13760,11 +13760,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -13800,11 +13800,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -13840,11 +13840,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -13880,11 +13880,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -13920,11 +13920,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -13960,11 +13960,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -14000,11 +14000,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -14040,11 +14040,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -14080,11 +14080,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -14120,11 +14120,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -14160,11 +14160,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -14200,11 +14200,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -14240,11 +14240,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -14280,11 +14280,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -14320,11 +14320,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -14360,11 +14360,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -14400,11 +14400,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -14440,11 +14440,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -14480,11 +14480,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -14520,11 +14520,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -14560,11 +14560,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -14600,11 +14600,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -14640,11 +14640,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -14680,11 +14680,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -14720,11 +14720,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -14760,11 +14760,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -14800,11 +14800,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -14840,11 +14840,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -14880,11 +14880,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -14920,11 +14920,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -14960,11 +14960,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -15000,11 +15000,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -15040,11 +15040,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -15080,11 +15080,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -15120,11 +15120,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -15160,11 +15160,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -15200,11 +15200,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -15240,11 +15240,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -15280,11 +15280,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -15320,11 +15320,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -15360,11 +15360,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -15400,11 +15400,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -15440,11 +15440,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -15480,11 +15480,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -15520,11 +15520,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -15560,11 +15560,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -15600,11 +15600,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -15640,11 +15640,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -15680,11 +15680,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -15720,11 +15720,11 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }],
     "property" : [{
       "code" : "dateValid",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
