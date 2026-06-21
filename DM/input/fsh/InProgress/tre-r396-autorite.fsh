@@ -2982,3 +2982,2569 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #CEA ^property[=].valueBoolean = true
 * #CEA ^property[+].code = #autoriteEnregistrementFiness
 * #CEA ^property[=].valueBoolean = false
+* #CR-01 "CR-01 : Conseil régional Guadeloupe"
+* #CR-01 ^designation[0].language = #fr-FR
+* #CR-01 ^designation[=].use.system = "http://snomed.info/sct"
+* #CR-01 ^designation[=].use = $sct#900000000000013009
+* #CR-01 ^designation[=].value = "Conseil régional Guadeloupe"
+* #CR-01 ^property[0].code = #dateValid
+* #CR-01 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-01 ^property[+].code = #dateMaj
+* #CR-01 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-01 ^property[+].code = #status
+* #CR-01 ^property[=].valueCode = #active
+* #CR-01 ^property[+].code = #niveau
+* #CR-01 ^property[=].valueInteger = 2
+* #CR-01 ^property[+].code = #parent
+* #CR-01 ^property[=].valueCode = #10
+* #CR-01 ^property[+].code = #autoriteRegulationFiness
+* #CR-01 ^property[=].valueBoolean = true
+* #CR-01 ^property[+].code = #autoriteEnregistrementFiness
+* #CR-01 ^property[=].valueBoolean = false
+* #CR-04 "CR-04 : Conseil régional La Réunion"
+* #CR-04 ^designation[0].language = #fr-FR
+* #CR-04 ^designation[=].use.system = "http://snomed.info/sct"
+* #CR-04 ^designation[=].use = $sct#900000000000013009
+* #CR-04 ^designation[=].value = "Conseil régional La Réunion"
+* #CR-04 ^property[0].code = #dateValid
+* #CR-04 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-04 ^property[+].code = #dateMaj
+* #CR-04 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-04 ^property[+].code = #status
+* #CR-04 ^property[=].valueCode = #active
+* #CR-04 ^property[+].code = #niveau
+* #CR-04 ^property[=].valueInteger = 2
+* #CR-04 ^property[+].code = #parent
+* #CR-04 ^property[=].valueCode = #10
+* #CR-04 ^property[+].code = #autoriteRegulationFiness
+* #CR-04 ^property[=].valueBoolean = true
+* #CR-04 ^property[+].code = #autoriteEnregistrementFiness
+* #CR-04 ^property[=].valueBoolean = false
+* #CR-11 "CR-11 : Conseil régional Île-de-France"
+* #CR-11 ^designation[0].language = #fr-FR
+* #CR-11 ^designation[=].use.system = "http://snomed.info/sct"
+* #CR-11 ^designation[=].use = $sct#900000000000013009
+* #CR-11 ^designation[=].value = "CR Île-de-France"
+* #CR-11 ^property[0].code = #dateValid
+* #CR-11 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-11 ^property[+].code = #dateMaj
+* #CR-11 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-11 ^property[+].code = #status
+* #CR-11 ^property[=].valueCode = #active
+* #CR-11 ^property[+].code = #niveau
+* #CR-11 ^property[=].valueInteger = 2
+* #CR-11 ^property[+].code = #parent
+* #CR-11 ^property[=].valueCode = #10
+* #CR-11 ^property[+].code = #autoriteRegulationFiness
+* #CR-11 ^property[=].valueBoolean = true
+* #CR-11 ^property[+].code = #autoriteEnregistrementFiness
+* #CR-11 ^property[=].valueBoolean = false
+* #CR-24 "CR-24 : Conseil régional Normandie"
+* #CR-24 ^designation[0].language = #fr-FR
+* #CR-24 ^designation[=].use.system = "http://snomed.info/sct"
+* #CR-24 ^designation[=].use = $sct#900000000000013009
+* #CR-24 ^designation[=].value = "CR Normandie"
+* #CR-24 ^property[0].code = #dateValid
+* #CR-24 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-24 ^property[+].code = #dateMaj
+* #CR-24 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-24 ^property[+].code = #status
+* #CR-24 ^property[=].valueCode = #active
+* #CR-24 ^property[+].code = #niveau
+* #CR-24 ^property[=].valueInteger = 2
+* #CR-24 ^property[+].code = #parent
+* #CR-24 ^property[=].valueCode = #10
+* #CR-24 ^property[+].code = #autoriteRegulationFiness
+* #CR-24 ^property[=].valueBoolean = true
+* #CR-24 ^property[+].code = #autoriteEnregistrementFiness
+* #CR-24 ^property[=].valueBoolean = false
+* #CR-27 "CR-27 : Conseil régional Bourgogne-Franche-Comté"
+* #CR-27 ^designation[0].language = #fr-FR
+* #CR-27 ^designation[=].use.system = "http://snomed.info/sct"
+* #CR-27 ^designation[=].use = $sct#900000000000013009
+* #CR-27 ^designation[=].value = "CR Bourgogne-Franche-Comté"
+* #CR-27 ^property[0].code = #dateValid
+* #CR-27 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-27 ^property[+].code = #dateMaj
+* #CR-27 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-27 ^property[+].code = #status
+* #CR-27 ^property[=].valueCode = #active
+* #CR-27 ^property[+].code = #niveau
+* #CR-27 ^property[=].valueInteger = 2
+* #CR-27 ^property[+].code = #parent
+* #CR-27 ^property[=].valueCode = #10
+* #CR-27 ^property[+].code = #autoriteRegulationFiness
+* #CR-27 ^property[=].valueBoolean = true
+* #CR-27 ^property[+].code = #autoriteEnregistrementFiness
+* #CR-27 ^property[=].valueBoolean = false
+* #CR-28 "CR-28 :  Conseil régional Normandie"
+* #CR-28 ^designation[0].language = #fr-FR
+* #CR-28 ^designation[=].use.system = "http://snomed.info/sct"
+* #CR-28 ^designation[=].use = $sct#900000000000013009
+* #CR-28 ^designation[=].value = "CR Normandie"
+* #CR-28 ^property[0].code = #dateValid
+* #CR-28 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-28 ^property[+].code = #dateMaj
+* #CR-28 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-28 ^property[+].code = #status
+* #CR-28 ^property[=].valueCode = #active
+* #CR-28 ^property[+].code = #niveau
+* #CR-28 ^property[=].valueInteger = 2
+* #CR-28 ^property[+].code = #parent
+* #CR-28 ^property[=].valueCode = #10
+* #CR-28 ^property[+].code = #autoriteRegulationFiness
+* #CR-28 ^property[=].valueBoolean = true
+* #CR-28 ^property[+].code = #autoriteEnregistrementFiness
+* #CR-28 ^property[=].valueBoolean = false
+* #CR-32 "CR-32 :  Conseil régional Hauts-de-France"
+* #CR-32 ^designation[0].language = #fr-FR
+* #CR-32 ^designation[=].use.system = "http://snomed.info/sct"
+* #CR-32 ^designation[=].use = $sct#900000000000013009
+* #CR-32 ^designation[=].value = "CR Hauts-de-France"
+* #CR-32 ^property[0].code = #dateValid
+* #CR-32 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-32 ^property[+].code = #dateMaj
+* #CR-32 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-32 ^property[+].code = #status
+* #CR-32 ^property[=].valueCode = #active
+* #CR-32 ^property[+].code = #niveau
+* #CR-32 ^property[=].valueInteger = 2
+* #CR-32 ^property[+].code = #parent
+* #CR-32 ^property[=].valueCode = #10
+* #CR-32 ^property[+].code = #autoriteRegulationFiness
+* #CR-32 ^property[=].valueBoolean = true
+* #CR-32 ^property[+].code = #autoriteEnregistrementFiness
+* #CR-32 ^property[=].valueBoolean = false
+* #CR-44 "CR-44 :  Conseil régional Grand Est"
+* #CR-44 ^designation[0].language = #fr-FR
+* #CR-44 ^designation[=].use.system = "http://snomed.info/sct"
+* #CR-44 ^designation[=].use = $sct#900000000000013009
+* #CR-44 ^designation[=].value = "CR Grand Est"
+* #CR-44 ^property[0].code = #dateValid
+* #CR-44 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-44 ^property[+].code = #dateMaj
+* #CR-44 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-44 ^property[+].code = #status
+* #CR-44 ^property[=].valueCode = #active
+* #CR-44 ^property[+].code = #niveau
+* #CR-44 ^property[=].valueInteger = 2
+* #CR-44 ^property[+].code = #parent
+* #CR-44 ^property[=].valueCode = #10
+* #CR-44 ^property[+].code = #autoriteRegulationFiness
+* #CR-44 ^property[=].valueBoolean = true
+* #CR-44 ^property[+].code = #autoriteEnregistrementFiness
+* #CR-44 ^property[=].valueBoolean = false
+* #CR-52 "CR-52 :  Conseil régional Pays de la Loire"
+* #CR-52 ^designation[0].language = #fr-FR
+* #CR-52 ^designation[=].use.system = "http://snomed.info/sct"
+* #CR-52 ^designation[=].use = $sct#900000000000013009
+* #CR-52 ^designation[=].value = "CR Pays de la Loire"
+* #CR-52 ^property[0].code = #dateValid
+* #CR-52 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-52 ^property[+].code = #dateMaj
+* #CR-52 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-52 ^property[+].code = #status
+* #CR-52 ^property[=].valueCode = #active
+* #CR-52 ^property[+].code = #niveau
+* #CR-52 ^property[=].valueInteger = 2
+* #CR-52 ^property[+].code = #parent
+* #CR-52 ^property[=].valueCode = #10
+* #CR-52 ^property[+].code = #autoriteRegulationFiness
+* #CR-52 ^property[=].valueBoolean = true
+* #CR-52 ^property[+].code = #autoriteEnregistrementFiness
+* #CR-52 ^property[=].valueBoolean = false
+* #CR-53 "CR-53 :  Conseil régional Bretagne"
+* #CR-53 ^designation[0].language = #fr-FR
+* #CR-53 ^designation[=].use.system = "http://snomed.info/sct"
+* #CR-53 ^designation[=].use = $sct#900000000000013009
+* #CR-53 ^designation[=].value = "CR Bretagne"
+* #CR-53 ^property[0].code = #dateValid
+* #CR-53 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-53 ^property[+].code = #dateMaj
+* #CR-53 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-53 ^property[+].code = #status
+* #CR-53 ^property[=].valueCode = #active
+* #CR-53 ^property[+].code = #niveau
+* #CR-53 ^property[=].valueInteger = 2
+* #CR-53 ^property[+].code = #parent
+* #CR-53 ^property[=].valueCode = #10
+* #CR-53 ^property[+].code = #autoriteRegulationFiness
+* #CR-53 ^property[=].valueBoolean = true
+* #CR-53 ^property[+].code = #autoriteEnregistrementFiness
+* #CR-53 ^property[=].valueBoolean = false
+* #CR-75 "CR-75 :  Conseil régional Nouvelle-Aquitaine"
+* #CR-75 ^designation[0].language = #fr-FR
+* #CR-75 ^designation[=].use.system = "http://snomed.info/sct"
+* #CR-75 ^designation[=].use = $sct#900000000000013009
+* #CR-75 ^designation[=].value = "CR Nouvelle-Aquitaine"
+* #CR-75 ^property[0].code = #dateValid
+* #CR-75 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-75 ^property[+].code = #dateMaj
+* #CR-75 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-75 ^property[+].code = #status
+* #CR-75 ^property[=].valueCode = #active
+* #CR-75 ^property[+].code = #niveau
+* #CR-75 ^property[=].valueInteger = 2
+* #CR-75 ^property[+].code = #parent
+* #CR-75 ^property[=].valueCode = #10
+* #CR-75 ^property[+].code = #autoriteRegulationFiness
+* #CR-75 ^property[=].valueBoolean = true
+* #CR-75 ^property[+].code = #autoriteEnregistrementFiness
+* #CR-75 ^property[=].valueBoolean = false
+* #CR-76 "CR-76 :  Conseil régional Occitanie"
+* #CR-76 ^designation[0].language = #fr-FR
+* #CR-76 ^designation[=].use.system = "http://snomed.info/sct"
+* #CR-76 ^designation[=].use = $sct#900000000000013009
+* #CR-76 ^designation[=].value = "CR Occitanie"
+* #CR-76 ^property[0].code = #dateValid
+* #CR-76 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-76 ^property[+].code = #dateMaj
+* #CR-76 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-76 ^property[+].code = #status
+* #CR-76 ^property[=].valueCode = #active
+* #CR-76 ^property[+].code = #niveau
+* #CR-76 ^property[=].valueInteger = 2
+* #CR-76 ^property[+].code = #parent
+* #CR-76 ^property[=].valueCode = #10
+* #CR-76 ^property[+].code = #autoriteRegulationFiness
+* #CR-76 ^property[=].valueBoolean = true
+* #CR-76 ^property[+].code = #autoriteEnregistrementFiness
+* #CR-76 ^property[=].valueBoolean = false
+* #CR-84 "CR-84 :  Conseil régional Auvergne-Rhône-Alpes"
+* #CR-84 ^designation[0].language = #fr-FR
+* #CR-84 ^designation[=].use.system = "http://snomed.info/sct"
+* #CR-84 ^designation[=].use = $sct#900000000000013009
+* #CR-84 ^designation[=].value = "CR Auvergne-Rhône-Alpes"
+* #CR-84 ^property[0].code = #dateValid
+* #CR-84 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-84 ^property[+].code = #dateMaj
+* #CR-84 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-84 ^property[+].code = #status
+* #CR-84 ^property[=].valueCode = #active
+* #CR-84 ^property[+].code = #niveau
+* #CR-84 ^property[=].valueInteger = 2
+* #CR-84 ^property[+].code = #parent
+* #CR-84 ^property[=].valueCode = #10
+* #CR-84 ^property[+].code = #autoriteRegulationFiness
+* #CR-84 ^property[=].valueBoolean = true
+* #CR-84 ^property[+].code = #autoriteEnregistrementFiness
+* #CR-84 ^property[=].valueBoolean = false
+* #CR-93 "CR-93 :  Conseil régional Provence-Alpes-Côte d'Azur"
+* #CR-93 ^designation[0].language = #fr-FR
+* #CR-93 ^designation[=].use.system = "http://snomed.info/sct"
+* #CR-93 ^designation[=].use = $sct#900000000000013009
+* #CR-93 ^designation[=].value = "CR Provence-Alpes-Côte d'Azur"
+* #CR-93 ^property[0].code = #dateValid
+* #CR-93 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-93 ^property[+].code = #dateMaj
+* #CR-93 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CR-93 ^property[+].code = #status
+* #CR-93 ^property[=].valueCode = #active
+* #CR-93 ^property[+].code = #niveau
+* #CR-93 ^property[=].valueInteger = 2
+* #CR-93 ^property[+].code = #parent
+* #CR-93 ^property[=].valueCode = #10
+* #CR-93 ^property[+].code = #autoriteRegulationFiness
+* #CR-93 ^property[=].valueBoolean = true
+* #CR-93 ^property[+].code = #autoriteEnregistrementFiness
+* #CR-93 ^property[=].valueBoolean = false
+* #CT-02 "CT-02 : Collectivité Territoriale de Martinique"
+* #CT-02 ^designation[0].language = #fr-FR
+* #CT-02 ^designation[=].use.system = "http://snomed.info/sct"
+* #CT-02 ^designation[=].use = $sct#900000000000013009
+* #CT-02 ^designation[=].value = "Collectivité Territoriale de Martinique"
+* #CT-02 ^property[0].code = #dateValid
+* #CT-02 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CT-02 ^property[+].code = #dateMaj
+* #CT-02 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CT-02 ^property[+].code = #status
+* #CT-02 ^property[=].valueCode = #active
+* #CT-02 ^property[+].code = #niveau
+* #CT-02 ^property[=].valueInteger = 2
+* #CT-02 ^property[+].code = #parent
+* #CT-02 ^property[=].valueCode = #13
+* #CT-02 ^property[+].code = #autoriteRegulationFiness
+* #CT-02 ^property[=].valueBoolean = true
+* #CT-02 ^property[+].code = #autoriteEnregistrementFiness
+* #CT-02 ^property[=].valueBoolean = false
+* #CT-03 "CT-03  : Collectivité Territoriale de Guyane"
+* #CT-03 ^designation[0].language = #fr-FR
+* #CT-03 ^designation[=].use.system = "http://snomed.info/sct"
+* #CT-03 ^designation[=].use = $sct#900000000000013009
+* #CT-03 ^designation[=].value = "Collectivité Territoriale de Guyane"
+* #CT-03 ^property[0].code = #dateValid
+* #CT-03 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CT-03 ^property[+].code = #dateMaj
+* #CT-03 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CT-03 ^property[+].code = #status
+* #CT-03 ^property[=].valueCode = #active
+* #CT-03 ^property[+].code = #niveau
+* #CT-03 ^property[=].valueInteger = 2
+* #CT-03 ^property[+].code = #parent
+* #CT-03 ^property[=].valueCode = #13
+* #CT-03 ^property[+].code = #autoriteRegulationFiness
+* #CT-03 ^property[=].valueBoolean = true
+* #CT-03 ^property[+].code = #autoriteEnregistrementFiness
+* #CT-03 ^property[=].valueBoolean = false
+* #CT-94 "CT-94 :  Collectivité de Corse"
+* #CT-94 ^designation[0].language = #fr-FR
+* #CT-94 ^designation[=].use.system = "http://snomed.info/sct"
+* #CT-94 ^designation[=].use = $sct#900000000000013009
+* #CT-94 ^designation[=].value = "Collectivité de Corse"
+* #CT-94 ^property[0].code = #dateValid
+* #CT-94 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CT-94 ^property[+].code = #dateMaj
+* #CT-94 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #CT-94 ^property[+].code = #status
+* #CT-94 ^property[=].valueCode = #active
+* #CT-94 ^property[+].code = #niveau
+* #CT-94 ^property[=].valueInteger = 2
+* #CT-94 ^property[+].code = #parent
+* #CT-94 ^property[=].valueCode = #13
+* #CT-94 ^property[+].code = #autoriteRegulationFiness
+* #CT-94 ^property[=].valueBoolean = true
+* #CT-94 ^property[+].code = #autoriteEnregistrementFiness
+* #CT-94 ^property[=].valueBoolean = false
+* #DDETS-01 "DDETS-01 : DDETS Ain"
+* #DDETS-01 ^designation[0].language = #fr-FR
+* #DDETS-01 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-01 ^designation[=].use = $sct#900000000000013009
+* #DDETS-01 ^designation[=].value = "DDETS Ain"
+* #DDETS-01 ^property[0].code = #dateValid
+* #DDETS-01 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-01 ^property[+].code = #dateMaj
+* #DDETS-01 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-01 ^property[+].code = #status
+* #DDETS-01 ^property[=].valueCode = #active
+* #DDETS-01 ^property[+].code = #niveau
+* #DDETS-01 ^property[=].valueInteger = 2
+* #DDETS-01 ^property[+].code = #parent
+* #DDETS-01 ^property[=].valueCode = #07
+* #DDETS-01 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-01 ^property[=].valueBoolean = true
+* #DDETS-01 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-01 ^property[=].valueBoolean = false
+* #DDETS-02 "DDETS-02 : DDETS Aisne"
+* #DDETS-02 ^designation[0].language = #fr-FR
+* #DDETS-02 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-02 ^designation[=].use = $sct#900000000000013009
+* #DDETS-02 ^designation[=].value = "DDETS Aisne"
+* #DDETS-02 ^property[0].code = #dateValid
+* #DDETS-02 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-02 ^property[+].code = #dateMaj
+* #DDETS-02 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-02 ^property[+].code = #status
+* #DDETS-02 ^property[=].valueCode = #active
+* #DDETS-02 ^property[+].code = #niveau
+* #DDETS-02 ^property[=].valueInteger = 2
+* #DDETS-02 ^property[+].code = #parent
+* #DDETS-02 ^property[=].valueCode = #07
+* #DDETS-02 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-02 ^property[=].valueBoolean = true
+* #DDETS-02 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-02 ^property[=].valueBoolean = false
+* #DDETS-03 "DDETS-03 : DDETSPP Allier"
+* #DDETS-03 ^designation[0].language = #fr-FR
+* #DDETS-03 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-03 ^designation[=].use = $sct#900000000000013009
+* #DDETS-03 ^designation[=].value = "DDETSPP Allier"
+* #DDETS-03 ^property[0].code = #dateValid
+* #DDETS-03 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-03 ^property[+].code = #dateMaj
+* #DDETS-03 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-03 ^property[+].code = #status
+* #DDETS-03 ^property[=].valueCode = #active
+* #DDETS-03 ^property[+].code = #niveau
+* #DDETS-03 ^property[=].valueInteger = 2
+* #DDETS-03 ^property[+].code = #parent
+* #DDETS-03 ^property[=].valueCode = #07
+* #DDETS-03 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-03 ^property[=].valueBoolean = true
+* #DDETS-03 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-03 ^property[=].valueBoolean = false
+* #DDETS-04 "DDETS-04 : DDETSPP Alpes-de-Haute-Provence"
+* #DDETS-04 ^designation[0].language = #fr-FR
+* #DDETS-04 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-04 ^designation[=].use = $sct#900000000000013009
+* #DDETS-04 ^designation[=].value = "DDETSPP Alpes-de-Haute-Provence"
+* #DDETS-04 ^property[0].code = #dateValid
+* #DDETS-04 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-04 ^property[+].code = #dateMaj
+* #DDETS-04 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-04 ^property[+].code = #status
+* #DDETS-04 ^property[=].valueCode = #active
+* #DDETS-04 ^property[+].code = #niveau
+* #DDETS-04 ^property[=].valueInteger = 2
+* #DDETS-04 ^property[+].code = #parent
+* #DDETS-04 ^property[=].valueCode = #07
+* #DDETS-04 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-04 ^property[=].valueBoolean = true
+* #DDETS-04 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-04 ^property[=].valueBoolean = false
+* #DDETS-05 "DDETS-05 : DDETSPP Hautes-Alpes"
+* #DDETS-05 ^designation[0].language = #fr-FR
+* #DDETS-05 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-05 ^designation[=].use = $sct#900000000000013009
+* #DDETS-05 ^designation[=].value = "DDETSPP Hautes-Alpes"
+* #DDETS-05 ^property[0].code = #dateValid
+* #DDETS-05 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-05 ^property[+].code = #dateMaj
+* #DDETS-05 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-05 ^property[+].code = #status
+* #DDETS-05 ^property[=].valueCode = #active
+* #DDETS-05 ^property[+].code = #niveau
+* #DDETS-05 ^property[=].valueInteger = 2
+* #DDETS-05 ^property[+].code = #parent
+* #DDETS-05 ^property[=].valueCode = #07
+* #DDETS-05 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-05 ^property[=].valueBoolean = true
+* #DDETS-05 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-05 ^property[=].valueBoolean = false
+* #DDETS-06 "DDETS-06 : DDETS Alpes-Maritimes"
+* #DDETS-06 ^designation[0].language = #fr-FR
+* #DDETS-06 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-06 ^designation[=].use = $sct#900000000000013009
+* #DDETS-06 ^designation[=].value = "DDETS Alpes-Maritimes"
+* #DDETS-06 ^property[0].code = #dateValid
+* #DDETS-06 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-06 ^property[+].code = #dateMaj
+* #DDETS-06 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-06 ^property[+].code = #status
+* #DDETS-06 ^property[=].valueCode = #active
+* #DDETS-06 ^property[+].code = #niveau
+* #DDETS-06 ^property[=].valueInteger = 2
+* #DDETS-06 ^property[+].code = #parent
+* #DDETS-06 ^property[=].valueCode = #07
+* #DDETS-06 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-06 ^property[=].valueBoolean = true
+* #DDETS-06 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-06 ^property[=].valueBoolean = false
+* #DDETS-07 "DDETS-07 : DDETSPP Ardèche"
+* #DDETS-07 ^designation[0].language = #fr-FR
+* #DDETS-07 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-07 ^designation[=].use = $sct#900000000000013009
+* #DDETS-07 ^designation[=].value = "DDETSPP Ardèche"
+* #DDETS-07 ^property[0].code = #dateValid
+* #DDETS-07 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-07 ^property[+].code = #dateMaj
+* #DDETS-07 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-07 ^property[+].code = #status
+* #DDETS-07 ^property[=].valueCode = #active
+* #DDETS-07 ^property[+].code = #niveau
+* #DDETS-07 ^property[=].valueInteger = 2
+* #DDETS-07 ^property[+].code = #parent
+* #DDETS-07 ^property[=].valueCode = #07
+* #DDETS-07 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-07 ^property[=].valueBoolean = true
+* #DDETS-07 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-07 ^property[=].valueBoolean = false
+* #DDETS-08 "DDETS-08 : DDETSPP Ardennes"
+* #DDETS-08 ^designation[0].language = #fr-FR
+* #DDETS-08 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-08 ^designation[=].use = $sct#900000000000013009
+* #DDETS-08 ^designation[=].value = "DDETSPP Ardennes"
+* #DDETS-08 ^property[0].code = #dateValid
+* #DDETS-08 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-08 ^property[+].code = #dateMaj
+* #DDETS-08 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-08 ^property[+].code = #status
+* #DDETS-08 ^property[=].valueCode = #active
+* #DDETS-08 ^property[+].code = #niveau
+* #DDETS-08 ^property[=].valueInteger = 2
+* #DDETS-08 ^property[+].code = #parent
+* #DDETS-08 ^property[=].valueCode = #07
+* #DDETS-08 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-08 ^property[=].valueBoolean = true
+* #DDETS-08 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-08 ^property[=].valueBoolean = false
+* #DDETS-09 "DDETS-09 : DDETSPP Ariège"
+* #DDETS-09 ^designation[0].language = #fr-FR
+* #DDETS-09 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-09 ^designation[=].use = $sct#900000000000013009
+* #DDETS-09 ^designation[=].value = "DDETSPP Ariège"
+* #DDETS-09 ^property[0].code = #dateValid
+* #DDETS-09 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-09 ^property[+].code = #dateMaj
+* #DDETS-09 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-09 ^property[+].code = #status
+* #DDETS-09 ^property[=].valueCode = #active
+* #DDETS-09 ^property[+].code = #niveau
+* #DDETS-09 ^property[=].valueInteger = 2
+* #DDETS-09 ^property[+].code = #parent
+* #DDETS-09 ^property[=].valueCode = #07
+* #DDETS-09 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-09 ^property[=].valueBoolean = true
+* #DDETS-09 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-09 ^property[=].valueBoolean = false
+* #DDETS-10 "DDETS-10 : DDETSPP Aube"
+* #DDETS-10 ^designation[0].language = #fr-FR
+* #DDETS-10 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-10 ^designation[=].use = $sct#900000000000013009
+* #DDETS-10 ^designation[=].value = "DDETSPP Aube"
+* #DDETS-10 ^property[0].code = #dateValid
+* #DDETS-10 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-10 ^property[+].code = #dateMaj
+* #DDETS-10 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-10 ^property[+].code = #status
+* #DDETS-10 ^property[=].valueCode = #active
+* #DDETS-10 ^property[+].code = #niveau
+* #DDETS-10 ^property[=].valueInteger = 2
+* #DDETS-10 ^property[+].code = #parent
+* #DDETS-10 ^property[=].valueCode = #07
+* #DDETS-10 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-10 ^property[=].valueBoolean = true
+* #DDETS-10 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-10 ^property[=].valueBoolean = false
+* #DDETS-11 "DDETS-11 : DDETSPP Aude"
+* #DDETS-11 ^designation[0].language = #fr-FR
+* #DDETS-11 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-11 ^designation[=].use = $sct#900000000000013009
+* #DDETS-11 ^designation[=].value = "DDETSPP Aude"
+* #DDETS-11 ^property[0].code = #dateValid
+* #DDETS-11 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-11 ^property[+].code = #dateMaj
+* #DDETS-11 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-11 ^property[+].code = #status
+* #DDETS-11 ^property[=].valueCode = #active
+* #DDETS-11 ^property[+].code = #niveau
+* #DDETS-11 ^property[=].valueInteger = 2
+* #DDETS-11 ^property[+].code = #parent
+* #DDETS-11 ^property[=].valueCode = #07
+* #DDETS-11 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-11 ^property[=].valueBoolean = true
+* #DDETS-11 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-11 ^property[=].valueBoolean = false
+* #DDETS-12 "DDETS-12 : DDETSPP Aveyron"
+* #DDETS-12 ^designation[0].language = #fr-FR
+* #DDETS-12 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-12 ^designation[=].use = $sct#900000000000013009
+* #DDETS-12 ^designation[=].value = "DDETSPP Aveyron"
+* #DDETS-12 ^property[0].code = #dateValid
+* #DDETS-12 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-12 ^property[+].code = #dateMaj
+* #DDETS-12 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-12 ^property[+].code = #status
+* #DDETS-12 ^property[=].valueCode = #active
+* #DDETS-12 ^property[+].code = #niveau
+* #DDETS-12 ^property[=].valueInteger = 2
+* #DDETS-12 ^property[+].code = #parent
+* #DDETS-12 ^property[=].valueCode = #07
+* #DDETS-12 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-12 ^property[=].valueBoolean = true
+* #DDETS-12 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-12 ^property[=].valueBoolean = false
+* #DDETS-13 "DDETS-13 : DDETS Bouches-du-Rhône"
+* #DDETS-13 ^designation[0].language = #fr-FR
+* #DDETS-13 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-13 ^designation[=].use = $sct#900000000000013009
+* #DDETS-13 ^designation[=].value = "DDETS Bouches-du-Rhône"
+* #DDETS-13 ^property[0].code = #dateValid
+* #DDETS-13 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-13 ^property[+].code = #dateMaj
+* #DDETS-13 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-13 ^property[+].code = #status
+* #DDETS-13 ^property[=].valueCode = #active
+* #DDETS-13 ^property[+].code = #niveau
+* #DDETS-13 ^property[=].valueInteger = 2
+* #DDETS-13 ^property[+].code = #parent
+* #DDETS-13 ^property[=].valueCode = #07
+* #DDETS-13 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-13 ^property[=].valueBoolean = true
+* #DDETS-13 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-13 ^property[=].valueBoolean = false
+* #DDETS-14 "DDETS-14 : DDETS Calvados"
+* #DDETS-14 ^designation[0].language = #fr-FR
+* #DDETS-14 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-14 ^designation[=].use = $sct#900000000000013009
+* #DDETS-14 ^designation[=].value = "DDETS Calvados"
+* #DDETS-14 ^property[0].code = #dateValid
+* #DDETS-14 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-14 ^property[+].code = #dateMaj
+* #DDETS-14 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-14 ^property[+].code = #status
+* #DDETS-14 ^property[=].valueCode = #active
+* #DDETS-14 ^property[+].code = #niveau
+* #DDETS-14 ^property[=].valueInteger = 2
+* #DDETS-14 ^property[+].code = #parent
+* #DDETS-14 ^property[=].valueCode = #07
+* #DDETS-14 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-14 ^property[=].valueBoolean = true
+* #DDETS-14 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-14 ^property[=].valueBoolean = false
+* #DDETS-15 "DDETS-15 : DDETSPP Cantal"
+* #DDETS-15 ^designation[0].language = #fr-FR
+* #DDETS-15 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-15 ^designation[=].use = $sct#900000000000013009
+* #DDETS-15 ^designation[=].value = "DDETSPP Cantal"
+* #DDETS-15 ^property[0].code = #dateValid
+* #DDETS-15 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-15 ^property[+].code = #dateMaj
+* #DDETS-15 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-15 ^property[+].code = #status
+* #DDETS-15 ^property[=].valueCode = #active
+* #DDETS-15 ^property[+].code = #niveau
+* #DDETS-15 ^property[=].valueInteger = 2
+* #DDETS-15 ^property[+].code = #parent
+* #DDETS-15 ^property[=].valueCode = #07
+* #DDETS-15 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-15 ^property[=].valueBoolean = true
+* #DDETS-15 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-15 ^property[=].valueBoolean = false
+* #DDETS-16 "DDETS-16 : DDETSPP Charente"
+* #DDETS-16 ^designation[0].language = #fr-FR
+* #DDETS-16 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-16 ^designation[=].use = $sct#900000000000013009
+* #DDETS-16 ^designation[=].value = "DDETSPP Charente"
+* #DDETS-16 ^property[0].code = #dateValid
+* #DDETS-16 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-16 ^property[+].code = #dateMaj
+* #DDETS-16 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-16 ^property[+].code = #status
+* #DDETS-16 ^property[=].valueCode = #active
+* #DDETS-16 ^property[+].code = #niveau
+* #DDETS-16 ^property[=].valueInteger = 2
+* #DDETS-16 ^property[+].code = #parent
+* #DDETS-16 ^property[=].valueCode = #07
+* #DDETS-16 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-16 ^property[=].valueBoolean = true
+* #DDETS-16 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-16 ^property[=].valueBoolean = false
+* #DDETS-17 "DDETS-17 : DDETS Charente-Maritime"
+* #DDETS-17 ^designation[0].language = #fr-FR
+* #DDETS-17 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-17 ^designation[=].use = $sct#900000000000013009
+* #DDETS-17 ^designation[=].value = "DDETS Charente-Maritime"
+* #DDETS-17 ^property[0].code = #dateValid
+* #DDETS-17 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-17 ^property[+].code = #dateMaj
+* #DDETS-17 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-17 ^property[+].code = #status
+* #DDETS-17 ^property[=].valueCode = #active
+* #DDETS-17 ^property[+].code = #niveau
+* #DDETS-17 ^property[=].valueInteger = 2
+* #DDETS-17 ^property[+].code = #parent
+* #DDETS-17 ^property[=].valueCode = #07
+* #DDETS-17 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-17 ^property[=].valueBoolean = true
+* #DDETS-17 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-17 ^property[=].valueBoolean = false
+* #DDETS-18 "DDETS-18 : DDETSPP Cher"
+* #DDETS-18 ^designation[0].language = #fr-FR
+* #DDETS-18 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-18 ^designation[=].use = $sct#900000000000013009
+* #DDETS-18 ^designation[=].value = "DDETSPP Cher"
+* #DDETS-18 ^property[0].code = #dateValid
+* #DDETS-18 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-18 ^property[+].code = #dateMaj
+* #DDETS-18 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-18 ^property[+].code = #status
+* #DDETS-18 ^property[=].valueCode = #active
+* #DDETS-18 ^property[+].code = #niveau
+* #DDETS-18 ^property[=].valueInteger = 2
+* #DDETS-18 ^property[+].code = #parent
+* #DDETS-18 ^property[=].valueCode = #07
+* #DDETS-18 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-18 ^property[=].valueBoolean = true
+* #DDETS-18 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-18 ^property[=].valueBoolean = false
+* #DDETS-19 "DDETS-19 : DDETSPP Corrèze"
+* #DDETS-19 ^designation[0].language = #fr-FR
+* #DDETS-19 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-19 ^designation[=].use = $sct#900000000000013009
+* #DDETS-19 ^designation[=].value = "DDETSPP Corrèze"
+* #DDETS-19 ^property[0].code = #dateValid
+* #DDETS-19 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-19 ^property[+].code = #dateMaj
+* #DDETS-19 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-19 ^property[+].code = #status
+* #DDETS-19 ^property[=].valueCode = #active
+* #DDETS-19 ^property[+].code = #niveau
+* #DDETS-19 ^property[=].valueInteger = 2
+* #DDETS-19 ^property[+].code = #parent
+* #DDETS-19 ^property[=].valueCode = #07
+* #DDETS-19 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-19 ^property[=].valueBoolean = true
+* #DDETS-19 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-19 ^property[=].valueBoolean = false
+* #DDETS-21 "DDETS-21 : DDETS Côte-d'Or"
+* #DDETS-21 ^designation[0].language = #fr-FR
+* #DDETS-21 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-21 ^designation[=].use = $sct#900000000000013009
+* #DDETS-21 ^designation[=].value = "DDETS Côte-d'Or"
+* #DDETS-21 ^property[0].code = #dateValid
+* #DDETS-21 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-21 ^property[+].code = #dateMaj
+* #DDETS-21 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-21 ^property[+].code = #status
+* #DDETS-21 ^property[=].valueCode = #active
+* #DDETS-21 ^property[+].code = #niveau
+* #DDETS-21 ^property[=].valueInteger = 2
+* #DDETS-21 ^property[+].code = #parent
+* #DDETS-21 ^property[=].valueCode = #07
+* #DDETS-21 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-21 ^property[=].valueBoolean = true
+* #DDETS-21 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-21 ^property[=].valueBoolean = false
+* #DDETS-22 "DDETS-22 : DDETS Côtes-d'Armor"
+* #DDETS-22 ^designation[0].language = #fr-FR
+* #DDETS-22 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-22 ^designation[=].use = $sct#900000000000013009
+* #DDETS-22 ^designation[=].value = "DDETS Côtes-d'Armor"
+* #DDETS-22 ^property[0].code = #dateValid
+* #DDETS-22 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-22 ^property[+].code = #dateMaj
+* #DDETS-22 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-22 ^property[+].code = #status
+* #DDETS-22 ^property[=].valueCode = #active
+* #DDETS-22 ^property[+].code = #niveau
+* #DDETS-22 ^property[=].valueInteger = 2
+* #DDETS-22 ^property[+].code = #parent
+* #DDETS-22 ^property[=].valueCode = #07
+* #DDETS-22 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-22 ^property[=].valueBoolean = true
+* #DDETS-22 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-22 ^property[=].valueBoolean = false
+* #DDETS-23 "DDETS-23 : DDETSPP Creuse"
+* #DDETS-23 ^designation[0].language = #fr-FR
+* #DDETS-23 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-23 ^designation[=].use = $sct#900000000000013009
+* #DDETS-23 ^designation[=].value = "DDETSPP Creuse"
+* #DDETS-23 ^property[0].code = #dateValid
+* #DDETS-23 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-23 ^property[+].code = #dateMaj
+* #DDETS-23 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-23 ^property[+].code = #status
+* #DDETS-23 ^property[=].valueCode = #active
+* #DDETS-23 ^property[+].code = #niveau
+* #DDETS-23 ^property[=].valueInteger = 2
+* #DDETS-23 ^property[+].code = #parent
+* #DDETS-23 ^property[=].valueCode = #07
+* #DDETS-23 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-23 ^property[=].valueBoolean = true
+* #DDETS-23 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-23 ^property[=].valueBoolean = false
+* #DDETS-24 "DDETS-24 : DDETSPP Dordogne"
+* #DDETS-24 ^designation[0].language = #fr-FR
+* #DDETS-24 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-24 ^designation[=].use = $sct#900000000000013009
+* #DDETS-24 ^designation[=].value = "DDETSPP Dordogne"
+* #DDETS-24 ^property[0].code = #dateValid
+* #DDETS-24 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-24 ^property[+].code = #dateMaj
+* #DDETS-24 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-24 ^property[+].code = #status
+* #DDETS-24 ^property[=].valueCode = #active
+* #DDETS-24 ^property[+].code = #niveau
+* #DDETS-24 ^property[=].valueInteger = 2
+* #DDETS-24 ^property[+].code = #parent
+* #DDETS-24 ^property[=].valueCode = #07
+* #DDETS-24 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-24 ^property[=].valueBoolean = true
+* #DDETS-24 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-24 ^property[=].valueBoolean = false
+* #DDETS-25 "DDETS-25 : DDETS Doubs"
+* #DDETS-25 ^designation[0].language = #fr-FR
+* #DDETS-25 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-25 ^designation[=].use = $sct#900000000000013009
+* #DDETS-25 ^designation[=].value = "DDETS Doubs"
+* #DDETS-25 ^property[0].code = #dateValid
+* #DDETS-25 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-25 ^property[+].code = #dateMaj
+* #DDETS-25 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-25 ^property[+].code = #status
+* #DDETS-25 ^property[=].valueCode = #active
+* #DDETS-25 ^property[+].code = #niveau
+* #DDETS-25 ^property[=].valueInteger = 2
+* #DDETS-25 ^property[+].code = #parent
+* #DDETS-25 ^property[=].valueCode = #07
+* #DDETS-25 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-25 ^property[=].valueBoolean = true
+* #DDETS-25 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-25 ^property[=].valueBoolean = false
+* #DDETS-26 "DDETS-26 : DDETS Drôme"
+* #DDETS-26 ^designation[0].language = #fr-FR
+* #DDETS-26 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-26 ^designation[=].use = $sct#900000000000013009
+* #DDETS-26 ^designation[=].value = "DDETS Drôme"
+* #DDETS-26 ^property[0].code = #dateValid
+* #DDETS-26 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-26 ^property[+].code = #dateMaj
+* #DDETS-26 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-26 ^property[+].code = #status
+* #DDETS-26 ^property[=].valueCode = #active
+* #DDETS-26 ^property[+].code = #niveau
+* #DDETS-26 ^property[=].valueInteger = 2
+* #DDETS-26 ^property[+].code = #parent
+* #DDETS-26 ^property[=].valueCode = #07
+* #DDETS-26 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-26 ^property[=].valueBoolean = true
+* #DDETS-26 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-26 ^property[=].valueBoolean = false
+* #DDETS-27 "DDETS-27 : DDETS Eure"
+* #DDETS-27 ^designation[0].language = #fr-FR
+* #DDETS-27 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-27 ^designation[=].use = $sct#900000000000013009
+* #DDETS-27 ^designation[=].value = "DDETS Eure"
+* #DDETS-27 ^property[0].code = #dateValid
+* #DDETS-27 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-27 ^property[+].code = #dateMaj
+* #DDETS-27 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-27 ^property[+].code = #status
+* #DDETS-27 ^property[=].valueCode = #active
+* #DDETS-27 ^property[+].code = #niveau
+* #DDETS-27 ^property[=].valueInteger = 2
+* #DDETS-27 ^property[+].code = #parent
+* #DDETS-27 ^property[=].valueCode = #07
+* #DDETS-27 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-27 ^property[=].valueBoolean = true
+* #DDETS-27 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-27 ^property[=].valueBoolean = false
+* #DDETS-28 "DDETS-28 : DDETS Eure-et-Loir"
+* #DDETS-28 ^designation[0].language = #fr-FR
+* #DDETS-28 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-28 ^designation[=].use = $sct#900000000000013009
+* #DDETS-28 ^designation[=].value = "DDETS Eure-et-Loir"
+* #DDETS-28 ^property[0].code = #dateValid
+* #DDETS-28 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-28 ^property[+].code = #dateMaj
+* #DDETS-28 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-28 ^property[+].code = #status
+* #DDETS-28 ^property[=].valueCode = #active
+* #DDETS-28 ^property[+].code = #niveau
+* #DDETS-28 ^property[=].valueInteger = 2
+* #DDETS-28 ^property[+].code = #parent
+* #DDETS-28 ^property[=].valueCode = #07
+* #DDETS-28 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-28 ^property[=].valueBoolean = true
+* #DDETS-28 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-28 ^property[=].valueBoolean = false
+* #DDETS-29 "DDETS-29 : DDETS Finistère"
+* #DDETS-29 ^designation[0].language = #fr-FR
+* #DDETS-29 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-29 ^designation[=].use = $sct#900000000000013009
+* #DDETS-29 ^designation[=].value = "DDETS Finistère"
+* #DDETS-29 ^property[0].code = #dateValid
+* #DDETS-29 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-29 ^property[+].code = #dateMaj
+* #DDETS-29 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-29 ^property[+].code = #status
+* #DDETS-29 ^property[=].valueCode = #active
+* #DDETS-29 ^property[+].code = #niveau
+* #DDETS-29 ^property[=].valueInteger = 2
+* #DDETS-29 ^property[+].code = #parent
+* #DDETS-29 ^property[=].valueCode = #07
+* #DDETS-29 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-29 ^property[=].valueBoolean = true
+* #DDETS-29 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-29 ^property[=].valueBoolean = false
+* #DDETS-2A "DDETS-2A : DDETSPP Corse-du-Sud"
+* #DDETS-2A ^designation[0].language = #fr-FR
+* #DDETS-2A ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-2A ^designation[=].use = $sct#900000000000013009
+* #DDETS-2A ^designation[=].value = "DDETSPP Corse-du-Sud"
+* #DDETS-2A ^property[0].code = #dateValid
+* #DDETS-2A ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-2A ^property[+].code = #dateMaj
+* #DDETS-2A ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-2A ^property[+].code = #status
+* #DDETS-2A ^property[=].valueCode = #active
+* #DDETS-2A ^property[+].code = #niveau
+* #DDETS-2A ^property[=].valueInteger = 2
+* #DDETS-2A ^property[+].code = #parent
+* #DDETS-2A ^property[=].valueCode = #07
+* #DDETS-2A ^property[+].code = #autoriteRegulationFiness
+* #DDETS-2A ^property[=].valueBoolean = true
+* #DDETS-2A ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-2A ^property[=].valueBoolean = false
+* #DDETS-2B "DDETS-2B : DDETSPP Haute-Corse"
+* #DDETS-2B ^designation[0].language = #fr-FR
+* #DDETS-2B ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-2B ^designation[=].use = $sct#900000000000013009
+* #DDETS-2B ^designation[=].value = "DDETSPP Haute-Corse"
+* #DDETS-2B ^property[0].code = #dateValid
+* #DDETS-2B ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-2B ^property[+].code = #dateMaj
+* #DDETS-2B ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-2B ^property[+].code = #status
+* #DDETS-2B ^property[=].valueCode = #active
+* #DDETS-2B ^property[+].code = #niveau
+* #DDETS-2B ^property[=].valueInteger = 2
+* #DDETS-2B ^property[+].code = #parent
+* #DDETS-2B ^property[=].valueCode = #07
+* #DDETS-2B ^property[+].code = #autoriteRegulationFiness
+* #DDETS-2B ^property[=].valueBoolean = true
+* #DDETS-2B ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-2B ^property[=].valueBoolean = false
+* #DDETS-30 "DDETS-30 : DDETS Gard"
+* #DDETS-30 ^designation[0].language = #fr-FR
+* #DDETS-30 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-30 ^designation[=].use = $sct#900000000000013009
+* #DDETS-30 ^designation[=].value = "DDETS Gard"
+* #DDETS-30 ^property[0].code = #dateValid
+* #DDETS-30 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-30 ^property[+].code = #dateMaj
+* #DDETS-30 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-30 ^property[+].code = #status
+* #DDETS-30 ^property[=].valueCode = #active
+* #DDETS-30 ^property[+].code = #niveau
+* #DDETS-30 ^property[=].valueInteger = 2
+* #DDETS-30 ^property[+].code = #parent
+* #DDETS-30 ^property[=].valueCode = #07
+* #DDETS-30 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-30 ^property[=].valueBoolean = true
+* #DDETS-30 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-30 ^property[=].valueBoolean = false
+* #DDETS-31 "DDETS-31 : DDETS Haute-Garonne"
+* #DDETS-31 ^designation[0].language = #fr-FR
+* #DDETS-31 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-31 ^designation[=].use = $sct#900000000000013009
+* #DDETS-31 ^designation[=].value = "DDETS Haute-Garonne"
+* #DDETS-31 ^property[0].code = #dateValid
+* #DDETS-31 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-31 ^property[+].code = #dateMaj
+* #DDETS-31 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-31 ^property[+].code = #status
+* #DDETS-31 ^property[=].valueCode = #active
+* #DDETS-31 ^property[+].code = #niveau
+* #DDETS-31 ^property[=].valueInteger = 2
+* #DDETS-31 ^property[+].code = #parent
+* #DDETS-31 ^property[=].valueCode = #07
+* #DDETS-31 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-31 ^property[=].valueBoolean = true
+* #DDETS-31 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-31 ^property[=].valueBoolean = false
+* #DDETS-32 "DDETS-32 : DDETSPP Gers"
+* #DDETS-32 ^designation[0].language = #fr-FR
+* #DDETS-32 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-32 ^designation[=].use = $sct#900000000000013009
+* #DDETS-32 ^designation[=].value = "DDETSPP Gers"
+* #DDETS-32 ^property[0].code = #dateValid
+* #DDETS-32 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-32 ^property[+].code = #dateMaj
+* #DDETS-32 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-32 ^property[+].code = #status
+* #DDETS-32 ^property[=].valueCode = #active
+* #DDETS-32 ^property[+].code = #niveau
+* #DDETS-32 ^property[=].valueInteger = 2
+* #DDETS-32 ^property[+].code = #parent
+* #DDETS-32 ^property[=].valueCode = #07
+* #DDETS-32 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-32 ^property[=].valueBoolean = true
+* #DDETS-32 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-32 ^property[=].valueBoolean = false
+* #DDETS-33 "DDETS-33 : DDETS Gironde"
+* #DDETS-33 ^designation[0].language = #fr-FR
+* #DDETS-33 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-33 ^designation[=].use = $sct#900000000000013009
+* #DDETS-33 ^designation[=].value = "DDETS Gironde"
+* #DDETS-33 ^property[0].code = #dateValid
+* #DDETS-33 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-33 ^property[+].code = #dateMaj
+* #DDETS-33 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-33 ^property[+].code = #status
+* #DDETS-33 ^property[=].valueCode = #active
+* #DDETS-33 ^property[+].code = #niveau
+* #DDETS-33 ^property[=].valueInteger = 2
+* #DDETS-33 ^property[+].code = #parent
+* #DDETS-33 ^property[=].valueCode = #07
+* #DDETS-33 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-33 ^property[=].valueBoolean = true
+* #DDETS-33 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-33 ^property[=].valueBoolean = false
+* #DDETS-34 "DDETS-34 : DDETS Hérault"
+* #DDETS-34 ^designation[0].language = #fr-FR
+* #DDETS-34 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-34 ^designation[=].use = $sct#900000000000013009
+* #DDETS-34 ^designation[=].value = "DDETS Hérault"
+* #DDETS-34 ^property[0].code = #dateValid
+* #DDETS-34 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-34 ^property[+].code = #dateMaj
+* #DDETS-34 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-34 ^property[+].code = #status
+* #DDETS-34 ^property[=].valueCode = #active
+* #DDETS-34 ^property[+].code = #niveau
+* #DDETS-34 ^property[=].valueInteger = 2
+* #DDETS-34 ^property[+].code = #parent
+* #DDETS-34 ^property[=].valueCode = #07
+* #DDETS-34 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-34 ^property[=].valueBoolean = true
+* #DDETS-34 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-34 ^property[=].valueBoolean = false
+* #DDETS-35 "DDETS-35 : DDETS Ille-et-Vilaine"
+* #DDETS-35 ^designation[0].language = #fr-FR
+* #DDETS-35 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-35 ^designation[=].use = $sct#900000000000013009
+* #DDETS-35 ^designation[=].value = "DDETS Ille-et-Vilaine"
+* #DDETS-35 ^property[0].code = #dateValid
+* #DDETS-35 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-35 ^property[+].code = #dateMaj
+* #DDETS-35 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-35 ^property[+].code = #status
+* #DDETS-35 ^property[=].valueCode = #active
+* #DDETS-35 ^property[+].code = #niveau
+* #DDETS-35 ^property[=].valueInteger = 2
+* #DDETS-35 ^property[+].code = #parent
+* #DDETS-35 ^property[=].valueCode = #07
+* #DDETS-35 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-35 ^property[=].valueBoolean = true
+* #DDETS-35 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-35 ^property[=].valueBoolean = false
+* #DDETS-36 "DDETS-36 : DDETSPP Indre"
+* #DDETS-36 ^designation[0].language = #fr-FR
+* #DDETS-36 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-36 ^designation[=].use = $sct#900000000000013009
+* #DDETS-36 ^designation[=].value = "DDETSPP Indre"
+* #DDETS-36 ^property[0].code = #dateValid
+* #DDETS-36 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-36 ^property[+].code = #dateMaj
+* #DDETS-36 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-36 ^property[+].code = #status
+* #DDETS-36 ^property[=].valueCode = #active
+* #DDETS-36 ^property[+].code = #niveau
+* #DDETS-36 ^property[=].valueInteger = 2
+* #DDETS-36 ^property[+].code = #parent
+* #DDETS-36 ^property[=].valueCode = #07
+* #DDETS-36 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-36 ^property[=].valueBoolean = true
+* #DDETS-36 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-36 ^property[=].valueBoolean = false
+* #DDETS-37 "DDETS-37 : DDETS Indre-et-Loire"
+* #DDETS-37 ^designation[0].language = #fr-FR
+* #DDETS-37 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-37 ^designation[=].use = $sct#900000000000013009
+* #DDETS-37 ^designation[=].value = "DDETS Indre-et-Loire"
+* #DDETS-37 ^property[0].code = #dateValid
+* #DDETS-37 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-37 ^property[+].code = #dateMaj
+* #DDETS-37 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-37 ^property[+].code = #status
+* #DDETS-37 ^property[=].valueCode = #active
+* #DDETS-37 ^property[+].code = #niveau
+* #DDETS-37 ^property[=].valueInteger = 2
+* #DDETS-37 ^property[+].code = #parent
+* #DDETS-37 ^property[=].valueCode = #07
+* #DDETS-37 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-37 ^property[=].valueBoolean = true
+* #DDETS-37 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-37 ^property[=].valueBoolean = false
+* #DDETS-38 "DDETS-38 : DDETS Isère"
+* #DDETS-38 ^designation[0].language = #fr-FR
+* #DDETS-38 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-38 ^designation[=].use = $sct#900000000000013009
+* #DDETS-38 ^designation[=].value = "DDETS Isère"
+* #DDETS-38 ^property[0].code = #dateValid
+* #DDETS-38 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-38 ^property[+].code = #dateMaj
+* #DDETS-38 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-38 ^property[+].code = #status
+* #DDETS-38 ^property[=].valueCode = #active
+* #DDETS-38 ^property[+].code = #niveau
+* #DDETS-38 ^property[=].valueInteger = 2
+* #DDETS-38 ^property[+].code = #parent
+* #DDETS-38 ^property[=].valueCode = #07
+* #DDETS-38 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-38 ^property[=].valueBoolean = true
+* #DDETS-38 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-38 ^property[=].valueBoolean = false
+* #DDETS-39 "DDETS-39 : DDETSPP Jura"
+* #DDETS-39 ^designation[0].language = #fr-FR
+* #DDETS-39 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-39 ^designation[=].use = $sct#900000000000013009
+* #DDETS-39 ^designation[=].value = "DDETSPP Jura"
+* #DDETS-39 ^property[0].code = #dateValid
+* #DDETS-39 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-39 ^property[+].code = #dateMaj
+* #DDETS-39 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-39 ^property[+].code = #status
+* #DDETS-39 ^property[=].valueCode = #active
+* #DDETS-39 ^property[+].code = #niveau
+* #DDETS-39 ^property[=].valueInteger = 2
+* #DDETS-39 ^property[+].code = #parent
+* #DDETS-39 ^property[=].valueCode = #07
+* #DDETS-39 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-39 ^property[=].valueBoolean = true
+* #DDETS-39 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-39 ^property[=].valueBoolean = false
+* #DDETS-40 "DDETS-40 : DDETSPP Landes"
+* #DDETS-40 ^designation[0].language = #fr-FR
+* #DDETS-40 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-40 ^designation[=].use = $sct#900000000000013009
+* #DDETS-40 ^designation[=].value = "DDETSPP Landes"
+* #DDETS-40 ^property[0].code = #dateValid
+* #DDETS-40 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-40 ^property[+].code = #dateMaj
+* #DDETS-40 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-40 ^property[+].code = #status
+* #DDETS-40 ^property[=].valueCode = #active
+* #DDETS-40 ^property[+].code = #niveau
+* #DDETS-40 ^property[=].valueInteger = 2
+* #DDETS-40 ^property[+].code = #parent
+* #DDETS-40 ^property[=].valueCode = #07
+* #DDETS-40 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-40 ^property[=].valueBoolean = true
+* #DDETS-40 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-40 ^property[=].valueBoolean = false
+* #DDETS-41 "DDETS-41 : DDETSPP Loir-et-Cher"
+* #DDETS-41 ^designation[0].language = #fr-FR
+* #DDETS-41 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-41 ^designation[=].use = $sct#900000000000013009
+* #DDETS-41 ^designation[=].value = "DDETSPP Loir-et-Cher"
+* #DDETS-41 ^property[0].code = #dateValid
+* #DDETS-41 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-41 ^property[+].code = #dateMaj
+* #DDETS-41 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-41 ^property[+].code = #status
+* #DDETS-41 ^property[=].valueCode = #active
+* #DDETS-41 ^property[+].code = #niveau
+* #DDETS-41 ^property[=].valueInteger = 2
+* #DDETS-41 ^property[+].code = #parent
+* #DDETS-41 ^property[=].valueCode = #07
+* #DDETS-41 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-41 ^property[=].valueBoolean = true
+* #DDETS-41 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-41 ^property[=].valueBoolean = false
+* #DDETS-42 "DDETS-42 : DDETS Loire"
+* #DDETS-42 ^designation[0].language = #fr-FR
+* #DDETS-42 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-42 ^designation[=].use = $sct#900000000000013009
+* #DDETS-42 ^designation[=].value = "DDETS Loire"
+* #DDETS-42 ^property[0].code = #dateValid
+* #DDETS-42 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-42 ^property[+].code = #dateMaj
+* #DDETS-42 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-42 ^property[+].code = #status
+* #DDETS-42 ^property[=].valueCode = #active
+* #DDETS-42 ^property[+].code = #niveau
+* #DDETS-42 ^property[=].valueInteger = 2
+* #DDETS-42 ^property[+].code = #parent
+* #DDETS-42 ^property[=].valueCode = #07
+* #DDETS-42 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-42 ^property[=].valueBoolean = true
+* #DDETS-42 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-42 ^property[=].valueBoolean = false
+* #DDETS-43 "DDETS-43 : DDETSPP Haute-Loire"
+* #DDETS-43 ^designation[0].language = #fr-FR
+* #DDETS-43 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-43 ^designation[=].use = $sct#900000000000013009
+* #DDETS-43 ^designation[=].value = "DDETSPP Haute-Loire"
+* #DDETS-43 ^property[0].code = #dateValid
+* #DDETS-43 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-43 ^property[+].code = #dateMaj
+* #DDETS-43 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-43 ^property[+].code = #status
+* #DDETS-43 ^property[=].valueCode = #active
+* #DDETS-43 ^property[+].code = #niveau
+* #DDETS-43 ^property[=].valueInteger = 2
+* #DDETS-43 ^property[+].code = #parent
+* #DDETS-43 ^property[=].valueCode = #07
+* #DDETS-43 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-43 ^property[=].valueBoolean = true
+* #DDETS-43 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-43 ^property[=].valueBoolean = false
+* #DDETS-44 "DDETS-44 : DDETS Loire-Atlantique"
+* #DDETS-44 ^designation[0].language = #fr-FR
+* #DDETS-44 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-44 ^designation[=].use = $sct#900000000000013009
+* #DDETS-44 ^designation[=].value = "DDETS Loire-Atlantique"
+* #DDETS-44 ^property[0].code = #dateValid
+* #DDETS-44 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-44 ^property[+].code = #dateMaj
+* #DDETS-44 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-44 ^property[+].code = #status
+* #DDETS-44 ^property[=].valueCode = #active
+* #DDETS-44 ^property[+].code = #niveau
+* #DDETS-44 ^property[=].valueInteger = 2
+* #DDETS-44 ^property[+].code = #parent
+* #DDETS-44 ^property[=].valueCode = #07
+* #DDETS-44 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-44 ^property[=].valueBoolean = true
+* #DDETS-44 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-44 ^property[=].valueBoolean = false
+* #DDETS-45 "DDETS-45 : DDETS Loiret"
+* #DDETS-45 ^designation[0].language = #fr-FR
+* #DDETS-45 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-45 ^designation[=].use = $sct#900000000000013009
+* #DDETS-45 ^designation[=].value = "DDETS Loiret"
+* #DDETS-45 ^property[0].code = #dateValid
+* #DDETS-45 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-45 ^property[+].code = #dateMaj
+* #DDETS-45 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-45 ^property[+].code = #status
+* #DDETS-45 ^property[=].valueCode = #active
+* #DDETS-45 ^property[+].code = #niveau
+* #DDETS-45 ^property[=].valueInteger = 2
+* #DDETS-45 ^property[+].code = #parent
+* #DDETS-45 ^property[=].valueCode = #07
+* #DDETS-45 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-45 ^property[=].valueBoolean = true
+* #DDETS-45 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-45 ^property[=].valueBoolean = false
+* #DDETS-46 "DDETS-46 : DDETSPP Lot"
+* #DDETS-46 ^designation[0].language = #fr-FR
+* #DDETS-46 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-46 ^designation[=].use = $sct#900000000000013009
+* #DDETS-46 ^designation[=].value = "DDETSPP Lot"
+* #DDETS-46 ^property[0].code = #dateValid
+* #DDETS-46 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-46 ^property[+].code = #dateMaj
+* #DDETS-46 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-46 ^property[+].code = #status
+* #DDETS-46 ^property[=].valueCode = #active
+* #DDETS-46 ^property[+].code = #niveau
+* #DDETS-46 ^property[=].valueInteger = 2
+* #DDETS-46 ^property[+].code = #parent
+* #DDETS-46 ^property[=].valueCode = #07
+* #DDETS-46 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-46 ^property[=].valueBoolean = true
+* #DDETS-46 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-46 ^property[=].valueBoolean = false
+* #DDETS-47 "DDETS-47 : DDETSPP Lot-et-Garonne"
+* #DDETS-47 ^designation[0].language = #fr-FR
+* #DDETS-47 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-47 ^designation[=].use = $sct#900000000000013009
+* #DDETS-47 ^designation[=].value = "DDETSPP Lot-et-Garonne"
+* #DDETS-47 ^property[0].code = #dateValid
+* #DDETS-47 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-47 ^property[+].code = #dateMaj
+* #DDETS-47 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-47 ^property[+].code = #status
+* #DDETS-47 ^property[=].valueCode = #active
+* #DDETS-47 ^property[+].code = #niveau
+* #DDETS-47 ^property[=].valueInteger = 2
+* #DDETS-47 ^property[+].code = #parent
+* #DDETS-47 ^property[=].valueCode = #07
+* #DDETS-47 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-47 ^property[=].valueBoolean = true
+* #DDETS-47 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-47 ^property[=].valueBoolean = false
+* #DDETS-48 "DDETS-48 : DDETSPP Lozère"
+* #DDETS-48 ^designation[0].language = #fr-FR
+* #DDETS-48 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-48 ^designation[=].use = $sct#900000000000013009
+* #DDETS-48 ^designation[=].value = "DDETSPP Lozère"
+* #DDETS-48 ^property[0].code = #dateValid
+* #DDETS-48 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-48 ^property[+].code = #dateMaj
+* #DDETS-48 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-48 ^property[+].code = #status
+* #DDETS-48 ^property[=].valueCode = #active
+* #DDETS-48 ^property[+].code = #niveau
+* #DDETS-48 ^property[=].valueInteger = 2
+* #DDETS-48 ^property[+].code = #parent
+* #DDETS-48 ^property[=].valueCode = #07
+* #DDETS-48 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-48 ^property[=].valueBoolean = true
+* #DDETS-48 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-48 ^property[=].valueBoolean = false
+* #DDETS-49 "DDETS-49 : DDETS Maine-et-Loire"
+* #DDETS-49 ^designation[0].language = #fr-FR
+* #DDETS-49 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-49 ^designation[=].use = $sct#900000000000013009
+* #DDETS-49 ^designation[=].value = "DDETS Maine-et-Loire"
+* #DDETS-49 ^property[0].code = #dateValid
+* #DDETS-49 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-49 ^property[+].code = #dateMaj
+* #DDETS-49 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-49 ^property[+].code = #status
+* #DDETS-49 ^property[=].valueCode = #active
+* #DDETS-49 ^property[+].code = #niveau
+* #DDETS-49 ^property[=].valueInteger = 2
+* #DDETS-49 ^property[+].code = #parent
+* #DDETS-49 ^property[=].valueCode = #07
+* #DDETS-49 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-49 ^property[=].valueBoolean = true
+* #DDETS-49 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-49 ^property[=].valueBoolean = false
+* #DDETS-50 "DDETS-50 : DDETS Manche"
+* #DDETS-50 ^designation[0].language = #fr-FR
+* #DDETS-50 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-50 ^designation[=].use = $sct#900000000000013009
+* #DDETS-50 ^designation[=].value = "DDETS Manche"
+* #DDETS-50 ^property[0].code = #dateValid
+* #DDETS-50 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-50 ^property[+].code = #dateMaj
+* #DDETS-50 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-50 ^property[+].code = #status
+* #DDETS-50 ^property[=].valueCode = #active
+* #DDETS-50 ^property[+].code = #niveau
+* #DDETS-50 ^property[=].valueInteger = 2
+* #DDETS-50 ^property[+].code = #parent
+* #DDETS-50 ^property[=].valueCode = #07
+* #DDETS-50 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-50 ^property[=].valueBoolean = true
+* #DDETS-50 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-50 ^property[=].valueBoolean = false
+* #DDETS-51 "DDETS-51 : DDETS Marne"
+* #DDETS-51 ^designation[0].language = #fr-FR
+* #DDETS-51 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-51 ^designation[=].use = $sct#900000000000013009
+* #DDETS-51 ^designation[=].value = "DDETS Marne"
+* #DDETS-51 ^property[0].code = #dateValid
+* #DDETS-51 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-51 ^property[+].code = #dateMaj
+* #DDETS-51 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-51 ^property[+].code = #status
+* #DDETS-51 ^property[=].valueCode = #active
+* #DDETS-51 ^property[+].code = #niveau
+* #DDETS-51 ^property[=].valueInteger = 2
+* #DDETS-51 ^property[+].code = #parent
+* #DDETS-51 ^property[=].valueCode = #07
+* #DDETS-51 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-51 ^property[=].valueBoolean = true
+* #DDETS-51 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-51 ^property[=].valueBoolean = false
+* #DDETS-52 "DDETS-52 : DDETSPP Haute-Marne"
+* #DDETS-52 ^designation[0].language = #fr-FR
+* #DDETS-52 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-52 ^designation[=].use = $sct#900000000000013009
+* #DDETS-52 ^designation[=].value = "DDETSPP Haute-Marne"
+* #DDETS-52 ^property[0].code = #dateValid
+* #DDETS-52 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-52 ^property[+].code = #dateMaj
+* #DDETS-52 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-52 ^property[+].code = #status
+* #DDETS-52 ^property[=].valueCode = #active
+* #DDETS-52 ^property[+].code = #niveau
+* #DDETS-52 ^property[=].valueInteger = 2
+* #DDETS-52 ^property[+].code = #parent
+* #DDETS-52 ^property[=].valueCode = #07
+* #DDETS-52 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-52 ^property[=].valueBoolean = true
+* #DDETS-52 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-52 ^property[=].valueBoolean = false
+* #DDETS-53 "DDETS-53 : DDETSPP Mayenne"
+* #DDETS-53 ^designation[0].language = #fr-FR
+* #DDETS-53 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-53 ^designation[=].use = $sct#900000000000013009
+* #DDETS-53 ^designation[=].value = "DDETSPP Mayenne"
+* #DDETS-53 ^property[0].code = #dateValid
+* #DDETS-53 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-53 ^property[+].code = #dateMaj
+* #DDETS-53 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-53 ^property[+].code = #status
+* #DDETS-53 ^property[=].valueCode = #active
+* #DDETS-53 ^property[+].code = #niveau
+* #DDETS-53 ^property[=].valueInteger = 2
+* #DDETS-53 ^property[+].code = #parent
+* #DDETS-53 ^property[=].valueCode = #07
+* #DDETS-53 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-53 ^property[=].valueBoolean = true
+* #DDETS-53 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-53 ^property[=].valueBoolean = false
+* #DDETS-54 "DDETS-54 : DDETS Meurthe-et-Moselle"
+* #DDETS-54 ^designation[0].language = #fr-FR
+* #DDETS-54 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-54 ^designation[=].use = $sct#900000000000013009
+* #DDETS-54 ^designation[=].value = "DDETS Meurthe-et-Moselle"
+* #DDETS-54 ^property[0].code = #dateValid
+* #DDETS-54 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-54 ^property[+].code = #dateMaj
+* #DDETS-54 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-54 ^property[+].code = #status
+* #DDETS-54 ^property[=].valueCode = #active
+* #DDETS-54 ^property[+].code = #niveau
+* #DDETS-54 ^property[=].valueInteger = 2
+* #DDETS-54 ^property[+].code = #parent
+* #DDETS-54 ^property[=].valueCode = #07
+* #DDETS-54 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-54 ^property[=].valueBoolean = true
+* #DDETS-54 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-54 ^property[=].valueBoolean = false
+* #DDETS-55 "DDETS-55 : DDETSPP Meuse"
+* #DDETS-55 ^designation[0].language = #fr-FR
+* #DDETS-55 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-55 ^designation[=].use = $sct#900000000000013009
+* #DDETS-55 ^designation[=].value = "DDETSPP Meuse"
+* #DDETS-55 ^property[0].code = #dateValid
+* #DDETS-55 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-55 ^property[+].code = #dateMaj
+* #DDETS-55 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-55 ^property[+].code = #status
+* #DDETS-55 ^property[=].valueCode = #active
+* #DDETS-55 ^property[+].code = #niveau
+* #DDETS-55 ^property[=].valueInteger = 2
+* #DDETS-55 ^property[+].code = #parent
+* #DDETS-55 ^property[=].valueCode = #07
+* #DDETS-55 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-55 ^property[=].valueBoolean = true
+* #DDETS-55 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-55 ^property[=].valueBoolean = false
+* #DDETS-57 "DDETS-57 : DDETS Moselle"
+* #DDETS-57 ^designation[0].language = #fr-FR
+* #DDETS-57 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-57 ^designation[=].use = $sct#900000000000013009
+* #DDETS-57 ^designation[=].value = "DDETS Moselle"
+* #DDETS-57 ^property[0].code = #dateValid
+* #DDETS-57 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-57 ^property[+].code = #dateMaj
+* #DDETS-57 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-57 ^property[+].code = #status
+* #DDETS-57 ^property[=].valueCode = #active
+* #DDETS-57 ^property[+].code = #niveau
+* #DDETS-57 ^property[=].valueInteger = 2
+* #DDETS-57 ^property[+].code = #parent
+* #DDETS-57 ^property[=].valueCode = #07
+* #DDETS-57 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-57 ^property[=].valueBoolean = true
+* #DDETS-57 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-57 ^property[=].valueBoolean = false
+* #DDETS-58 "DDETS-58 : DDETSPP Nièvre"
+* #DDETS-58 ^designation[0].language = #fr-FR
+* #DDETS-58 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-58 ^designation[=].use = $sct#900000000000013009
+* #DDETS-58 ^designation[=].value = "DDETSPP Nièvre"
+* #DDETS-58 ^property[0].code = #dateValid
+* #DDETS-58 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-58 ^property[+].code = #dateMaj
+* #DDETS-58 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-58 ^property[+].code = #status
+* #DDETS-58 ^property[=].valueCode = #active
+* #DDETS-58 ^property[+].code = #niveau
+* #DDETS-58 ^property[=].valueInteger = 2
+* #DDETS-58 ^property[+].code = #parent
+* #DDETS-58 ^property[=].valueCode = #07
+* #DDETS-58 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-58 ^property[=].valueBoolean = true
+* #DDETS-58 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-58 ^property[=].valueBoolean = false
+* #DDETS-59 "DDETS-59 : DDETS Nord"
+* #DDETS-59 ^designation[0].language = #fr-FR
+* #DDETS-59 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-59 ^designation[=].use = $sct#900000000000013009
+* #DDETS-59 ^designation[=].value = "DDETS Nord"
+* #DDETS-59 ^property[0].code = #dateValid
+* #DDETS-59 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-59 ^property[+].code = #dateMaj
+* #DDETS-59 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-59 ^property[+].code = #status
+* #DDETS-59 ^property[=].valueCode = #active
+* #DDETS-59 ^property[+].code = #niveau
+* #DDETS-59 ^property[=].valueInteger = 2
+* #DDETS-59 ^property[+].code = #parent
+* #DDETS-59 ^property[=].valueCode = #07
+* #DDETS-59 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-59 ^property[=].valueBoolean = true
+* #DDETS-59 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-59 ^property[=].valueBoolean = false
+* #DDETS-60 "DDETS-60 : DDETS Oise"
+* #DDETS-60 ^designation[0].language = #fr-FR
+* #DDETS-60 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-60 ^designation[=].use = $sct#900000000000013009
+* #DDETS-60 ^designation[=].value = "DDETS Oise"
+* #DDETS-60 ^property[0].code = #dateValid
+* #DDETS-60 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-60 ^property[+].code = #dateMaj
+* #DDETS-60 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-60 ^property[+].code = #status
+* #DDETS-60 ^property[=].valueCode = #active
+* #DDETS-60 ^property[+].code = #niveau
+* #DDETS-60 ^property[=].valueInteger = 2
+* #DDETS-60 ^property[+].code = #parent
+* #DDETS-60 ^property[=].valueCode = #07
+* #DDETS-60 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-60 ^property[=].valueBoolean = true
+* #DDETS-60 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-60 ^property[=].valueBoolean = false
+* #DDETS-61 "DDETS-61 : DDETSPP Orne"
+* #DDETS-61 ^designation[0].language = #fr-FR
+* #DDETS-61 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-61 ^designation[=].use = $sct#900000000000013009
+* #DDETS-61 ^designation[=].value = "DDETSPP Orne"
+* #DDETS-61 ^property[0].code = #dateValid
+* #DDETS-61 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-61 ^property[+].code = #dateMaj
+* #DDETS-61 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-61 ^property[+].code = #status
+* #DDETS-61 ^property[=].valueCode = #active
+* #DDETS-61 ^property[+].code = #niveau
+* #DDETS-61 ^property[=].valueInteger = 2
+* #DDETS-61 ^property[+].code = #parent
+* #DDETS-61 ^property[=].valueCode = #07
+* #DDETS-61 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-61 ^property[=].valueBoolean = true
+* #DDETS-61 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-61 ^property[=].valueBoolean = false
+* #DDETS-62 "DDETS-62 : DDETS Pas-de-Calais"
+* #DDETS-62 ^designation[0].language = #fr-FR
+* #DDETS-62 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-62 ^designation[=].use = $sct#900000000000013009
+* #DDETS-62 ^designation[=].value = "DDETS Pas-de-Calais"
+* #DDETS-62 ^property[0].code = #dateValid
+* #DDETS-62 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-62 ^property[+].code = #dateMaj
+* #DDETS-62 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-62 ^property[+].code = #status
+* #DDETS-62 ^property[=].valueCode = #active
+* #DDETS-62 ^property[+].code = #niveau
+* #DDETS-62 ^property[=].valueInteger = 2
+* #DDETS-62 ^property[+].code = #parent
+* #DDETS-62 ^property[=].valueCode = #07
+* #DDETS-62 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-62 ^property[=].valueBoolean = true
+* #DDETS-62 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-62 ^property[=].valueBoolean = false
+* #DDETS-63 "DDETS-63 : DDETS Puy-de-Dôme"
+* #DDETS-63 ^designation[0].language = #fr-FR
+* #DDETS-63 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-63 ^designation[=].use = $sct#900000000000013009
+* #DDETS-63 ^designation[=].value = "DDETS Puy-de-Dôme"
+* #DDETS-63 ^property[0].code = #dateValid
+* #DDETS-63 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-63 ^property[+].code = #dateMaj
+* #DDETS-63 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-63 ^property[+].code = #status
+* #DDETS-63 ^property[=].valueCode = #active
+* #DDETS-63 ^property[+].code = #niveau
+* #DDETS-63 ^property[=].valueInteger = 2
+* #DDETS-63 ^property[+].code = #parent
+* #DDETS-63 ^property[=].valueCode = #07
+* #DDETS-63 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-63 ^property[=].valueBoolean = true
+* #DDETS-63 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-63 ^property[=].valueBoolean = false
+* #DDETS-64 "DDETS-64 : DDETS Pyrénées-Atlantiques"
+* #DDETS-64 ^designation[0].language = #fr-FR
+* #DDETS-64 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-64 ^designation[=].use = $sct#900000000000013009
+* #DDETS-64 ^designation[=].value = "DDETS Pyrénées-Atlantiques"
+* #DDETS-64 ^property[0].code = #dateValid
+* #DDETS-64 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-64 ^property[+].code = #dateMaj
+* #DDETS-64 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-64 ^property[+].code = #status
+* #DDETS-64 ^property[=].valueCode = #active
+* #DDETS-64 ^property[+].code = #niveau
+* #DDETS-64 ^property[=].valueInteger = 2
+* #DDETS-64 ^property[+].code = #parent
+* #DDETS-64 ^property[=].valueCode = #07
+* #DDETS-64 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-64 ^property[=].valueBoolean = true
+* #DDETS-64 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-64 ^property[=].valueBoolean = false
+* #DDETS-65 "DDETS-65 : DDETSPP Hautes-Pyrénées"
+* #DDETS-65 ^designation[0].language = #fr-FR
+* #DDETS-65 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-65 ^designation[=].use = $sct#900000000000013009
+* #DDETS-65 ^designation[=].value = "DDETSPP Hautes-Pyrénées"
+* #DDETS-65 ^property[0].code = #dateValid
+* #DDETS-65 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-65 ^property[+].code = #dateMaj
+* #DDETS-65 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-65 ^property[+].code = #status
+* #DDETS-65 ^property[=].valueCode = #active
+* #DDETS-65 ^property[+].code = #niveau
+* #DDETS-65 ^property[=].valueInteger = 2
+* #DDETS-65 ^property[+].code = #parent
+* #DDETS-65 ^property[=].valueCode = #07
+* #DDETS-65 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-65 ^property[=].valueBoolean = true
+* #DDETS-65 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-65 ^property[=].valueBoolean = false
+* #DDETS-66 "DDETS-66 : DDETS Pyrénées-Orientales"
+* #DDETS-66 ^designation[0].language = #fr-FR
+* #DDETS-66 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-66 ^designation[=].use = $sct#900000000000013009
+* #DDETS-66 ^designation[=].value = "DDETS Pyrénées-Orientales"
+* #DDETS-66 ^property[0].code = #dateValid
+* #DDETS-66 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-66 ^property[+].code = #dateMaj
+* #DDETS-66 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-66 ^property[+].code = #status
+* #DDETS-66 ^property[=].valueCode = #active
+* #DDETS-66 ^property[+].code = #niveau
+* #DDETS-66 ^property[=].valueInteger = 2
+* #DDETS-66 ^property[+].code = #parent
+* #DDETS-66 ^property[=].valueCode = #07
+* #DDETS-66 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-66 ^property[=].valueBoolean = true
+* #DDETS-66 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-66 ^property[=].valueBoolean = false
+* #DDETS-67 "DDETS-67 : DDETS Bas-Rhin"
+* #DDETS-67 ^designation[0].language = #fr-FR
+* #DDETS-67 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-67 ^designation[=].use = $sct#900000000000013009
+* #DDETS-67 ^designation[=].value = "DDETS Bas-Rhin"
+* #DDETS-67 ^property[0].code = #dateValid
+* #DDETS-67 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-67 ^property[+].code = #dateMaj
+* #DDETS-67 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-67 ^property[+].code = #status
+* #DDETS-67 ^property[=].valueCode = #active
+* #DDETS-67 ^property[+].code = #niveau
+* #DDETS-67 ^property[=].valueInteger = 2
+* #DDETS-67 ^property[+].code = #parent
+* #DDETS-67 ^property[=].valueCode = #07
+* #DDETS-67 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-67 ^property[=].valueBoolean = true
+* #DDETS-67 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-67 ^property[=].valueBoolean = false
+* #DDETS-68 "DDETS-68 : DDETS Haut-Rhin"
+* #DDETS-68 ^designation[0].language = #fr-FR
+* #DDETS-68 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-68 ^designation[=].use = $sct#900000000000013009
+* #DDETS-68 ^designation[=].value = "DDETS Haut-Rhin"
+* #DDETS-68 ^property[0].code = #dateValid
+* #DDETS-68 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-68 ^property[+].code = #dateMaj
+* #DDETS-68 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-68 ^property[+].code = #status
+* #DDETS-68 ^property[=].valueCode = #active
+* #DDETS-68 ^property[+].code = #niveau
+* #DDETS-68 ^property[=].valueInteger = 2
+* #DDETS-68 ^property[+].code = #parent
+* #DDETS-68 ^property[=].valueCode = #07
+* #DDETS-68 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-68 ^property[=].valueBoolean = true
+* #DDETS-68 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-68 ^property[=].valueBoolean = false
+* #DDETS-69 "DDETS-69 : DDETS Rhône"
+* #DDETS-69 ^designation[0].language = #fr-FR
+* #DDETS-69 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-69 ^designation[=].use = $sct#900000000000013009
+* #DDETS-69 ^designation[=].value = "DDETS Rhône"
+* #DDETS-69 ^property[0].code = #dateValid
+* #DDETS-69 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-69 ^property[+].code = #dateMaj
+* #DDETS-69 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-69 ^property[+].code = #status
+* #DDETS-69 ^property[=].valueCode = #active
+* #DDETS-69 ^property[+].code = #niveau
+* #DDETS-69 ^property[=].valueInteger = 2
+* #DDETS-69 ^property[+].code = #parent
+* #DDETS-69 ^property[=].valueCode = #07
+* #DDETS-69 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-69 ^property[=].valueBoolean = true
+* #DDETS-69 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-69 ^property[=].valueBoolean = false
+* #DDETS-70 "DDETS-70 : DDETSPP Haute-Saône"
+* #DDETS-70 ^designation[0].language = #fr-FR
+* #DDETS-70 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-70 ^designation[=].use = $sct#900000000000013009
+* #DDETS-70 ^designation[=].value = "DDETSPP Haute-Saône"
+* #DDETS-70 ^property[0].code = #dateValid
+* #DDETS-70 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-70 ^property[+].code = #dateMaj
+* #DDETS-70 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-70 ^property[+].code = #status
+* #DDETS-70 ^property[=].valueCode = #active
+* #DDETS-70 ^property[+].code = #niveau
+* #DDETS-70 ^property[=].valueInteger = 2
+* #DDETS-70 ^property[+].code = #parent
+* #DDETS-70 ^property[=].valueCode = #07
+* #DDETS-70 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-70 ^property[=].valueBoolean = true
+* #DDETS-70 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-70 ^property[=].valueBoolean = false
+* #DDETS-71 "DDETS-71 : DDETS Saône-et-Loire"
+* #DDETS-71 ^designation[0].language = #fr-FR
+* #DDETS-71 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-71 ^designation[=].use = $sct#900000000000013009
+* #DDETS-71 ^designation[=].value = "DDETS Saône-et-Loire"
+* #DDETS-71 ^property[0].code = #dateValid
+* #DDETS-71 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-71 ^property[+].code = #dateMaj
+* #DDETS-71 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-71 ^property[+].code = #status
+* #DDETS-71 ^property[=].valueCode = #active
+* #DDETS-71 ^property[+].code = #niveau
+* #DDETS-71 ^property[=].valueInteger = 2
+* #DDETS-71 ^property[+].code = #parent
+* #DDETS-71 ^property[=].valueCode = #07
+* #DDETS-71 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-71 ^property[=].valueBoolean = true
+* #DDETS-71 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-71 ^property[=].valueBoolean = false
+* #DDETS-72 "DDETS-72 : DDETS Sarthe"
+* #DDETS-72 ^designation[0].language = #fr-FR
+* #DDETS-72 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-72 ^designation[=].use = $sct#900000000000013009
+* #DDETS-72 ^designation[=].value = "DDETS Sarthe"
+* #DDETS-72 ^property[0].code = #dateValid
+* #DDETS-72 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-72 ^property[+].code = #dateMaj
+* #DDETS-72 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-72 ^property[+].code = #status
+* #DDETS-72 ^property[=].valueCode = #active
+* #DDETS-72 ^property[+].code = #niveau
+* #DDETS-72 ^property[=].valueInteger = 2
+* #DDETS-72 ^property[+].code = #parent
+* #DDETS-72 ^property[=].valueCode = #07
+* #DDETS-72 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-72 ^property[=].valueBoolean = true
+* #DDETS-72 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-72 ^property[=].valueBoolean = false
+* #DDETS-73 "DDETS-73 : DDETS Savoie"
+* #DDETS-73 ^designation[0].language = #fr-FR
+* #DDETS-73 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-73 ^designation[=].use = $sct#900000000000013009
+* #DDETS-73 ^designation[=].value = "DDETS Savoie"
+* #DDETS-73 ^property[0].code = #dateValid
+* #DDETS-73 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-73 ^property[+].code = #dateMaj
+* #DDETS-73 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-73 ^property[+].code = #status
+* #DDETS-73 ^property[=].valueCode = #active
+* #DDETS-73 ^property[+].code = #niveau
+* #DDETS-73 ^property[=].valueInteger = 2
+* #DDETS-73 ^property[+].code = #parent
+* #DDETS-73 ^property[=].valueCode = #07
+* #DDETS-73 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-73 ^property[=].valueBoolean = true
+* #DDETS-73 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-73 ^property[=].valueBoolean = false
+* #DDETS-74 "DDETS-74 : DDETS Haute-Savoie"
+* #DDETS-74 ^designation[0].language = #fr-FR
+* #DDETS-74 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-74 ^designation[=].use = $sct#900000000000013009
+* #DDETS-74 ^designation[=].value = "DDETS Haute-Savoie"
+* #DDETS-74 ^property[0].code = #dateValid
+* #DDETS-74 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-74 ^property[+].code = #dateMaj
+* #DDETS-74 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-74 ^property[+].code = #status
+* #DDETS-74 ^property[=].valueCode = #active
+* #DDETS-74 ^property[+].code = #niveau
+* #DDETS-74 ^property[=].valueInteger = 2
+* #DDETS-74 ^property[+].code = #parent
+* #DDETS-74 ^property[=].valueCode = #07
+* #DDETS-74 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-74 ^property[=].valueBoolean = true
+* #DDETS-74 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-74 ^property[=].valueBoolean = false
+* #DDETS-75 "DDETS-75 : UD DRIEETS Paris"
+* #DDETS-75 ^designation[0].language = #fr-FR
+* #DDETS-75 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-75 ^designation[=].use = $sct#900000000000013009
+* #DDETS-75 ^designation[=].value = "UD DRIEETS Paris"
+* #DDETS-75 ^property[0].code = #dateValid
+* #DDETS-75 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-75 ^property[+].code = #dateMaj
+* #DDETS-75 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-75 ^property[+].code = #status
+* #DDETS-75 ^property[=].valueCode = #active
+* #DDETS-75 ^property[+].code = #niveau
+* #DDETS-75 ^property[=].valueInteger = 2
+* #DDETS-75 ^property[+].code = #parent
+* #DDETS-75 ^property[=].valueCode = #07
+* #DDETS-75 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-75 ^property[=].valueBoolean = true
+* #DDETS-75 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-75 ^property[=].valueBoolean = false
+* #DDETS-76 "DDETS-76 : DDETS Seine-Maritime"
+* #DDETS-76 ^designation[0].language = #fr-FR
+* #DDETS-76 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-76 ^designation[=].use = $sct#900000000000013009
+* #DDETS-76 ^designation[=].value = "DDETS Seine-Maritime"
+* #DDETS-76 ^property[0].code = #dateValid
+* #DDETS-76 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-76 ^property[+].code = #dateMaj
+* #DDETS-76 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-76 ^property[+].code = #status
+* #DDETS-76 ^property[=].valueCode = #active
+* #DDETS-76 ^property[+].code = #niveau
+* #DDETS-76 ^property[=].valueInteger = 2
+* #DDETS-76 ^property[+].code = #parent
+* #DDETS-76 ^property[=].valueCode = #07
+* #DDETS-76 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-76 ^property[=].valueBoolean = true
+* #DDETS-76 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-76 ^property[=].valueBoolean = false
+* #DDETS-77 "DDETS-77 : DDETS Seine-et-Marne"
+* #DDETS-77 ^designation[0].language = #fr-FR
+* #DDETS-77 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-77 ^designation[=].use = $sct#900000000000013009
+* #DDETS-77 ^designation[=].value = "DDETS Seine-et-Marne"
+* #DDETS-77 ^property[0].code = #dateValid
+* #DDETS-77 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-77 ^property[+].code = #dateMaj
+* #DDETS-77 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-77 ^property[+].code = #status
+* #DDETS-77 ^property[=].valueCode = #active
+* #DDETS-77 ^property[+].code = #niveau
+* #DDETS-77 ^property[=].valueInteger = 2
+* #DDETS-77 ^property[+].code = #parent
+* #DDETS-77 ^property[=].valueCode = #07
+* #DDETS-77 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-77 ^property[=].valueBoolean = true
+* #DDETS-77 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-77 ^property[=].valueBoolean = false
+* #DDETS-78 "DDETS-78 : DDETS Yvelines"
+* #DDETS-78 ^designation[0].language = #fr-FR
+* #DDETS-78 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-78 ^designation[=].use = $sct#900000000000013009
+* #DDETS-78 ^designation[=].value = "DDETS Yvelines"
+* #DDETS-78 ^property[0].code = #dateValid
+* #DDETS-78 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-78 ^property[+].code = #dateMaj
+* #DDETS-78 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-78 ^property[+].code = #status
+* #DDETS-78 ^property[=].valueCode = #active
+* #DDETS-78 ^property[+].code = #niveau
+* #DDETS-78 ^property[=].valueInteger = 2
+* #DDETS-78 ^property[+].code = #parent
+* #DDETS-78 ^property[=].valueCode = #07
+* #DDETS-78 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-78 ^property[=].valueBoolean = true
+* #DDETS-78 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-78 ^property[=].valueBoolean = false
+* #DDETS-79 "DDETS-79 : DDETSPP Deux-Sèvres"
+* #DDETS-79 ^designation[0].language = #fr-FR
+* #DDETS-79 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-79 ^designation[=].use = $sct#900000000000013009
+* #DDETS-79 ^designation[=].value = "DDETSPP Deux-Sèvres"
+* #DDETS-79 ^property[0].code = #dateValid
+* #DDETS-79 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-79 ^property[+].code = #dateMaj
+* #DDETS-79 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-79 ^property[+].code = #status
+* #DDETS-79 ^property[=].valueCode = #active
+* #DDETS-79 ^property[+].code = #niveau
+* #DDETS-79 ^property[=].valueInteger = 2
+* #DDETS-79 ^property[+].code = #parent
+* #DDETS-79 ^property[=].valueCode = #07
+* #DDETS-79 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-79 ^property[=].valueBoolean = true
+* #DDETS-79 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-79 ^property[=].valueBoolean = false
+* #DDETS-80 "DDETS-80 : DDETS Somme"
+* #DDETS-80 ^designation[0].language = #fr-FR
+* #DDETS-80 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-80 ^designation[=].use = $sct#900000000000013009
+* #DDETS-80 ^designation[=].value = "DDETS Somme"
+* #DDETS-80 ^property[0].code = #dateValid
+* #DDETS-80 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-80 ^property[+].code = #dateMaj
+* #DDETS-80 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-80 ^property[+].code = #status
+* #DDETS-80 ^property[=].valueCode = #active
+* #DDETS-80 ^property[+].code = #niveau
+* #DDETS-80 ^property[=].valueInteger = 2
+* #DDETS-80 ^property[+].code = #parent
+* #DDETS-80 ^property[=].valueCode = #07
+* #DDETS-80 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-80 ^property[=].valueBoolean = true
+* #DDETS-80 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-80 ^property[=].valueBoolean = false
+* #DDETS-81 "DDETS-81 : DDETSPP Tarn"
+* #DDETS-81 ^designation[0].language = #fr-FR
+* #DDETS-81 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-81 ^designation[=].use = $sct#900000000000013009
+* #DDETS-81 ^designation[=].value = "DDETSPP Tarn"
+* #DDETS-81 ^property[0].code = #dateValid
+* #DDETS-81 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-81 ^property[+].code = #dateMaj
+* #DDETS-81 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-81 ^property[+].code = #status
+* #DDETS-81 ^property[=].valueCode = #active
+* #DDETS-81 ^property[+].code = #niveau
+* #DDETS-81 ^property[=].valueInteger = 2
+* #DDETS-81 ^property[+].code = #parent
+* #DDETS-81 ^property[=].valueCode = #07
+* #DDETS-81 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-81 ^property[=].valueBoolean = true
+* #DDETS-81 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-81 ^property[=].valueBoolean = false
+* #DDETS-82 "DDETS-82 : DDETSPP Tarn-et-Garonne"
+* #DDETS-82 ^designation[0].language = #fr-FR
+* #DDETS-82 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-82 ^designation[=].use = $sct#900000000000013009
+* #DDETS-82 ^designation[=].value = "DDETSPP Tarn-et-Garonne"
+* #DDETS-82 ^property[0].code = #dateValid
+* #DDETS-82 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-82 ^property[+].code = #dateMaj
+* #DDETS-82 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-82 ^property[+].code = #status
+* #DDETS-82 ^property[=].valueCode = #active
+* #DDETS-82 ^property[+].code = #niveau
+* #DDETS-82 ^property[=].valueInteger = 2
+* #DDETS-82 ^property[+].code = #parent
+* #DDETS-82 ^property[=].valueCode = #07
+* #DDETS-82 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-82 ^property[=].valueBoolean = true
+* #DDETS-82 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-82 ^property[=].valueBoolean = false
+* #DDETS-83 "DDETS-83 : DDETS Var"
+* #DDETS-83 ^designation[0].language = #fr-FR
+* #DDETS-83 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-83 ^designation[=].use = $sct#900000000000013009
+* #DDETS-83 ^designation[=].value = "DDETS Var"
+* #DDETS-83 ^property[0].code = #dateValid
+* #DDETS-83 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-83 ^property[+].code = #dateMaj
+* #DDETS-83 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-83 ^property[+].code = #status
+* #DDETS-83 ^property[=].valueCode = #active
+* #DDETS-83 ^property[+].code = #niveau
+* #DDETS-83 ^property[=].valueInteger = 2
+* #DDETS-83 ^property[+].code = #parent
+* #DDETS-83 ^property[=].valueCode = #07
+* #DDETS-83 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-83 ^property[=].valueBoolean = true
+* #DDETS-83 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-83 ^property[=].valueBoolean = false
+* #DDETS-84 "DDETS-84 : DDETS Vaucluse"
+* #DDETS-84 ^designation[0].language = #fr-FR
+* #DDETS-84 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-84 ^designation[=].use = $sct#900000000000013009
+* #DDETS-84 ^designation[=].value = "DDETS Vaucluse"
+* #DDETS-84 ^property[0].code = #dateValid
+* #DDETS-84 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-84 ^property[+].code = #dateMaj
+* #DDETS-84 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-84 ^property[+].code = #status
+* #DDETS-84 ^property[=].valueCode = #active
+* #DDETS-84 ^property[+].code = #niveau
+* #DDETS-84 ^property[=].valueInteger = 2
+* #DDETS-84 ^property[+].code = #parent
+* #DDETS-84 ^property[=].valueCode = #07
+* #DDETS-84 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-84 ^property[=].valueBoolean = true
+* #DDETS-84 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-84 ^property[=].valueBoolean = false
+* #DDETS-85 "DDETS-85 : DDETS Vendée"
+* #DDETS-85 ^designation[0].language = #fr-FR
+* #DDETS-85 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-85 ^designation[=].use = $sct#900000000000013009
+* #DDETS-85 ^designation[=].value = "DDETS Vendée"
+* #DDETS-85 ^property[0].code = #dateValid
+* #DDETS-85 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-85 ^property[+].code = #dateMaj
+* #DDETS-85 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-85 ^property[+].code = #status
+* #DDETS-85 ^property[=].valueCode = #active
+* #DDETS-85 ^property[+].code = #niveau
+* #DDETS-85 ^property[=].valueInteger = 2
+* #DDETS-85 ^property[+].code = #parent
+* #DDETS-85 ^property[=].valueCode = #07
+* #DDETS-85 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-85 ^property[=].valueBoolean = true
+* #DDETS-85 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-85 ^property[=].valueBoolean = false
+* #DDETS-86 "DDETS-86 : DDETSPP Vienne"
+* #DDETS-86 ^designation[0].language = #fr-FR
+* #DDETS-86 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-86 ^designation[=].use = $sct#900000000000013009
+* #DDETS-86 ^designation[=].value = "DDETSPP Vienne"
+* #DDETS-86 ^property[0].code = #dateValid
+* #DDETS-86 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-86 ^property[+].code = #dateMaj
+* #DDETS-86 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-86 ^property[+].code = #status
+* #DDETS-86 ^property[=].valueCode = #active
+* #DDETS-86 ^property[+].code = #niveau
+* #DDETS-86 ^property[=].valueInteger = 2
+* #DDETS-86 ^property[+].code = #parent
+* #DDETS-86 ^property[=].valueCode = #07
+* #DDETS-86 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-86 ^property[=].valueBoolean = true
+* #DDETS-86 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-86 ^property[=].valueBoolean = false
+* #DDETS-87 "DDETS-87 : DDETSPP Haute-Vienne"
+* #DDETS-87 ^designation[0].language = #fr-FR
+* #DDETS-87 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-87 ^designation[=].use = $sct#900000000000013009
+* #DDETS-87 ^designation[=].value = "DDETSPP Haute-Vienne"
+* #DDETS-87 ^property[0].code = #dateValid
+* #DDETS-87 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-87 ^property[+].code = #dateMaj
+* #DDETS-87 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-87 ^property[+].code = #status
+* #DDETS-87 ^property[=].valueCode = #active
+* #DDETS-87 ^property[+].code = #niveau
+* #DDETS-87 ^property[=].valueInteger = 2
+* #DDETS-87 ^property[+].code = #parent
+* #DDETS-87 ^property[=].valueCode = #07
+* #DDETS-87 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-87 ^property[=].valueBoolean = true
+* #DDETS-87 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-87 ^property[=].valueBoolean = false
+* #DDETS-88 "DDETS-88 : DDETSPP Vosges"
+* #DDETS-88 ^designation[0].language = #fr-FR
+* #DDETS-88 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-88 ^designation[=].use = $sct#900000000000013009
+* #DDETS-88 ^designation[=].value = "DDETSPP Vosges"
+* #DDETS-88 ^property[0].code = #dateValid
+* #DDETS-88 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-88 ^property[+].code = #dateMaj
+* #DDETS-88 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-88 ^property[+].code = #status
+* #DDETS-88 ^property[=].valueCode = #active
+* #DDETS-88 ^property[+].code = #niveau
+* #DDETS-88 ^property[=].valueInteger = 2
+* #DDETS-88 ^property[+].code = #parent
+* #DDETS-88 ^property[=].valueCode = #07
+* #DDETS-88 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-88 ^property[=].valueBoolean = true
+* #DDETS-88 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-88 ^property[=].valueBoolean = false
+* #DDETS-89 "DDETS-89 : DDETSPP Yonne"
+* #DDETS-89 ^designation[0].language = #fr-FR
+* #DDETS-89 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-89 ^designation[=].use = $sct#900000000000013009
+* #DDETS-89 ^designation[=].value = "DDETSPP Yonne"
+* #DDETS-89 ^property[0].code = #dateValid
+* #DDETS-89 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-89 ^property[+].code = #dateMaj
+* #DDETS-89 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-89 ^property[+].code = #status
+* #DDETS-89 ^property[=].valueCode = #active
+* #DDETS-89 ^property[+].code = #niveau
+* #DDETS-89 ^property[=].valueInteger = 2
+* #DDETS-89 ^property[+].code = #parent
+* #DDETS-89 ^property[=].valueCode = #07
+* #DDETS-89 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-89 ^property[=].valueBoolean = true
+* #DDETS-89 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-89 ^property[=].valueBoolean = false
+* #DDETS-90 "DDETS-90 : DDETSPP Territoire de Belfort"
+* #DDETS-90 ^designation[0].language = #fr-FR
+* #DDETS-90 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-90 ^designation[=].use = $sct#900000000000013009
+* #DDETS-90 ^designation[=].value = "DDETSPP Territoire de Belfort"
+* #DDETS-90 ^property[0].code = #dateValid
+* #DDETS-90 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-90 ^property[+].code = #dateMaj
+* #DDETS-90 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-90 ^property[+].code = #status
+* #DDETS-90 ^property[=].valueCode = #active
+* #DDETS-90 ^property[+].code = #niveau
+* #DDETS-90 ^property[=].valueInteger = 2
+* #DDETS-90 ^property[+].code = #parent
+* #DDETS-90 ^property[=].valueCode = #07
+* #DDETS-90 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-90 ^property[=].valueBoolean = true
+* #DDETS-90 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-90 ^property[=].valueBoolean = false
+* #DDETS-91 "DDETS-91 : DDETS Essonne"
+* #DDETS-91 ^designation[0].language = #fr-FR
+* #DDETS-91 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-91 ^designation[=].use = $sct#900000000000013009
+* #DDETS-91 ^designation[=].value = "DDETS Essonne"
+* #DDETS-91 ^property[0].code = #dateValid
+* #DDETS-91 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-91 ^property[+].code = #dateMaj
+* #DDETS-91 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-91 ^property[+].code = #status
+* #DDETS-91 ^property[=].valueCode = #active
+* #DDETS-91 ^property[+].code = #niveau
+* #DDETS-91 ^property[=].valueInteger = 2
+* #DDETS-91 ^property[+].code = #parent
+* #DDETS-91 ^property[=].valueCode = #07
+* #DDETS-91 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-91 ^property[=].valueBoolean = true
+* #DDETS-91 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-91 ^property[=].valueBoolean = false
+* #DDETS-92 "DDETS-92 : UD DRIEETS Hauts-de-Seine"
+* #DDETS-92 ^designation[0].language = #fr-FR
+* #DDETS-92 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-92 ^designation[=].use = $sct#900000000000013009
+* #DDETS-92 ^designation[=].value = "UD DRIEETS Hauts-de-Seine"
+* #DDETS-92 ^property[0].code = #dateValid
+* #DDETS-92 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-92 ^property[+].code = #dateMaj
+* #DDETS-92 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-92 ^property[+].code = #status
+* #DDETS-92 ^property[=].valueCode = #active
+* #DDETS-92 ^property[+].code = #niveau
+* #DDETS-92 ^property[=].valueInteger = 2
+* #DDETS-92 ^property[+].code = #parent
+* #DDETS-92 ^property[=].valueCode = #07
+* #DDETS-92 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-92 ^property[=].valueBoolean = true
+* #DDETS-92 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-92 ^property[=].valueBoolean = false
+* #DDETS-93 "DDETS-93 : UD DRIEETS Seine-Saint-Denis"
+* #DDETS-93 ^designation[0].language = #fr-FR
+* #DDETS-93 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-93 ^designation[=].use = $sct#900000000000013009
+* #DDETS-93 ^designation[=].value = "UD DRIEETS Seine-Saint-Denis"
+* #DDETS-93 ^property[0].code = #dateValid
+* #DDETS-93 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-93 ^property[+].code = #dateMaj
+* #DDETS-93 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-93 ^property[+].code = #status
+* #DDETS-93 ^property[=].valueCode = #active
+* #DDETS-93 ^property[+].code = #niveau
+* #DDETS-93 ^property[=].valueInteger = 2
+* #DDETS-93 ^property[+].code = #parent
+* #DDETS-93 ^property[=].valueCode = #07
+* #DDETS-93 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-93 ^property[=].valueBoolean = true
+* #DDETS-93 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-93 ^property[=].valueBoolean = false
+* #DDETS-94 "DDETS-94 : UD DRIEETS Val-de-Marne"
+* #DDETS-94 ^designation[0].language = #fr-FR
+* #DDETS-94 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-94 ^designation[=].use = $sct#900000000000013009
+* #DDETS-94 ^designation[=].value = "UD DRIEETS Val-de-Marne"
+* #DDETS-94 ^property[0].code = #dateValid
+* #DDETS-94 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-94 ^property[+].code = #dateMaj
+* #DDETS-94 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-94 ^property[+].code = #status
+* #DDETS-94 ^property[=].valueCode = #active
+* #DDETS-94 ^property[+].code = #niveau
+* #DDETS-94 ^property[=].valueInteger = 2
+* #DDETS-94 ^property[+].code = #parent
+* #DDETS-94 ^property[=].valueCode = #07
+* #DDETS-94 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-94 ^property[=].valueBoolean = true
+* #DDETS-94 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-94 ^property[=].valueBoolean = false
+* #DDETS-95 "DDETS-95 : DDETS Val-d'Oise"
+* #DDETS-95 ^designation[0].language = #fr-FR
+* #DDETS-95 ^designation[=].use.system = "http://snomed.info/sct"
+* #DDETS-95 ^designation[=].use = $sct#900000000000013009
+* #DDETS-95 ^designation[=].value = "DDETS Val-d'Oise"
+* #DDETS-95 ^property[0].code = #dateValid
+* #DDETS-95 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-95 ^property[+].code = #dateMaj
+* #DDETS-95 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DDETS-95 ^property[+].code = #status
+* #DDETS-95 ^property[=].valueCode = #active
+* #DDETS-95 ^property[+].code = #niveau
+* #DDETS-95 ^property[=].valueInteger = 2
+* #DDETS-95 ^property[+].code = #parent
+* #DDETS-95 ^property[=].valueCode = #07
+* #DDETS-95 ^property[+].code = #autoriteRegulationFiness
+* #DDETS-95 ^property[=].valueBoolean = true
+* #DDETS-95 ^property[+].code = #autoriteEnregistrementFiness
+* #DDETS-95 ^property[=].valueBoolean = false
+* #DEETS-01 "DEETS-01 : DEETS Guadeloupe"
+* #DEETS-01 ^designation[0].language = #fr-FR
+* #DEETS-01 ^designation[=].use.system = "http://snomed.info/sct"
+* #DEETS-01 ^designation[=].use = $sct#900000000000013009
+* #DEETS-01 ^designation[=].value = "DEETS Guadeloupe"
+* #DEETS-01 ^designation[+].language = #fr-FR
+* #DEETS-01 ^designation[=].use.system = "http://snomed.info/sct"
+* #DEETS-01 ^designation[=].use = $sct#900000000000013009
+* #DEETS-01 ^designation[=].value = "DEETS-01 : Direction de l'économie de l'emploi du travail et des solidarités Guadeloupe"
+* #DEETS-01 ^property[0].code = #dateValid
+* #DEETS-01 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DEETS-01 ^property[+].code = #dateMaj
+* #DEETS-01 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DEETS-01 ^property[+].code = #status
+* #DEETS-01 ^property[=].valueCode = #active
+* #DEETS-01 ^property[+].code = #niveau
+* #DEETS-01 ^property[=].valueInteger = 2
+* #DEETS-01 ^property[+].code = #parent
+* #DEETS-01 ^property[=].valueCode = #04
+* #DEETS-01 ^property[+].code = #autoriteRegulationFiness
+* #DEETS-01 ^property[=].valueBoolean = true
+* #DEETS-01 ^property[+].code = #autoriteEnregistrementFiness
+* #DEETS-01 ^property[=].valueBoolean = true
+* #DEETS-02 "DEETS-02 : DEETS Martinique"
+* #DEETS-02 ^designation[0].language = #fr-FR
+* #DEETS-02 ^designation[=].use.system = "http://snomed.info/sct"
+* #DEETS-02 ^designation[=].use = $sct#900000000000013009
+* #DEETS-02 ^designation[=].value = "DEETS Martinique"
+* #DEETS-02 ^designation[+].language = #fr-FR
+* #DEETS-02 ^designation[=].use.system = "http://snomed.info/sct"
+* #DEETS-02 ^designation[=].use = $sct#900000000000013009
+* #DEETS-02 ^designation[=].value = "DEETS-02 :  Direction de l'économie de l'emploi du travail et des solidarités Martinique"
+* #DEETS-02 ^property[0].code = #dateValid
+* #DEETS-02 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DEETS-02 ^property[+].code = #dateMaj
+* #DEETS-02 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DEETS-02 ^property[+].code = #status
+* #DEETS-02 ^property[=].valueCode = #active
+* #DEETS-02 ^property[+].code = #niveau
+* #DEETS-02 ^property[=].valueInteger = 2
+* #DEETS-02 ^property[+].code = #parent
+* #DEETS-02 ^property[=].valueCode = #04
+* #DEETS-02 ^property[+].code = #autoriteRegulationFiness
+* #DEETS-02 ^property[=].valueBoolean = true
+* #DEETS-02 ^property[+].code = #autoriteEnregistrementFiness
+* #DEETS-02 ^property[=].valueBoolean = true
+* #DEETS-03 "DEETS-03 :  DEETS Guyane"
+* #DEETS-03 ^designation[0].language = #fr-FR
+* #DEETS-03 ^designation[=].use.system = "http://snomed.info/sct"
+* #DEETS-03 ^designation[=].use = $sct#900000000000013009
+* #DEETS-03 ^designation[=].value = "DEETS Guyane"
+* #DEETS-03 ^designation[+].language = #fr-FR
+* #DEETS-03 ^designation[=].use.system = "http://snomed.info/sct"
+* #DEETS-03 ^designation[=].use = $sct#900000000000013009
+* #DEETS-03 ^designation[=].value = "DEETS-03 :  Direction générale cohésion et population Guyane"
+* #DEETS-03 ^property[0].code = #dateValid
+* #DEETS-03 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DEETS-03 ^property[+].code = #dateMaj
+* #DEETS-03 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DEETS-03 ^property[+].code = #status
+* #DEETS-03 ^property[=].valueCode = #active
+* #DEETS-03 ^property[+].code = #niveau
+* #DEETS-03 ^property[=].valueInteger = 2
+* #DEETS-03 ^property[+].code = #parent
+* #DEETS-03 ^property[=].valueCode = #04
+* #DEETS-03 ^property[+].code = #autoriteRegulationFiness
+* #DEETS-03 ^property[=].valueBoolean = true
+* #DEETS-03 ^property[+].code = #autoriteEnregistrementFiness
+* #DEETS-03 ^property[=].valueBoolean = true
+* #DEETS-05 "DEETS-05 : DEETS de La Réunion"
+* #DEETS-05 ^designation[0].language = #fr-FR
+* #DEETS-05 ^designation[=].use.system = "http://snomed.info/sct"
+* #DEETS-05 ^designation[=].use = $sct#900000000000013009
+* #DEETS-05 ^designation[=].value = "DEETS  La Réunion"
+* #DEETS-05 ^designation[+].language = #fr-FR
+* #DEETS-05 ^designation[=].use.system = "http://snomed.info/sct"
+* #DEETS-05 ^designation[=].use = $sct#900000000000013009
+* #DEETS-05 ^designation[=].value = " DEETS-05 : Direction de l'économie de l'emploi du travail et des solidarités de La Réunion"
+* #DEETS-05 ^property[0].code = #dateValid
+* #DEETS-05 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DEETS-05 ^property[+].code = #dateMaj
+* #DEETS-05 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DEETS-05 ^property[+].code = #status
+* #DEETS-05 ^property[=].valueCode = #active
+* #DEETS-05 ^property[+].code = #niveau
+* #DEETS-05 ^property[=].valueInteger = 2
+* #DEETS-05 ^property[+].code = #parent
+* #DEETS-05 ^property[=].valueCode = #04
+* #DEETS-05 ^property[+].code = #autoriteRegulationFiness
+* #DEETS-05 ^property[=].valueBoolean = true
+* #DEETS-05 ^property[+].code = #autoriteEnregistrementFiness
+* #DEETS-05 ^property[=].valueBoolean = true
+* #DEETS-06 "DEETS-06 :DEETS Mayotte"
+* #DEETS-06 ^designation[0].language = #fr-FR
+* #DEETS-06 ^designation[=].use.system = "http://snomed.info/sct"
+* #DEETS-06 ^designation[=].use = $sct#900000000000013009
+* #DEETS-06 ^designation[=].value = "DEETS Mayotte"
+* #DEETS-06 ^designation[+].language = #fr-FR
+* #DEETS-06 ^designation[=].use.system = "http://snomed.info/sct"
+* #DEETS-06 ^designation[=].use = $sct#900000000000013009
+* #DEETS-06 ^designation[=].value = "DEETS-06 : Direction de l'économie de l'emploi du travail et des solidarités Mayotte"
+* #DEETS-06 ^property[0].code = #dateValid
+* #DEETS-06 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DEETS-06 ^property[+].code = #dateMaj
+* #DEETS-06 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DEETS-06 ^property[+].code = #status
+* #DEETS-06 ^property[=].valueCode = #active
+* #DEETS-06 ^property[+].code = #niveau
+* #DEETS-06 ^property[=].valueInteger = 2
+* #DEETS-06 ^property[+].code = #parent
+* #DEETS-06 ^property[=].valueCode = #04
+* #DEETS-06 ^property[+].code = #autoriteRegulationFiness
+* #DEETS-06 ^property[=].valueBoolean = true
+* #DEETS-06 ^property[+].code = #autoriteEnregistrementFiness
+* #DEETS-06 ^property[=].valueBoolean = true
+* #DREETS-11 "DREETS-11 : DREETS  d'Ile de France"
+* #DREETS-11 ^designation[0].language = #fr-FR
+* #DREETS-11 ^designation[=].use.system = "http://snomed.info/sct"
+* #DREETS-11 ^designation[=].use = $sct#900000000000013009
+* #DREETS-11 ^designation[=].value = "DREETS Ile de France"
+* #DREETS-11 ^designation[+].language = #fr-FR
+* #DREETS-11 ^designation[=].use.system = "http://snomed.info/sct"
+* #DREETS-11 ^designation[=].use = $sct#900000000000013009
+* #DREETS-11 ^designation[=].value = "DREETS-11 : Direction régionale de l'économie de l'emploi du travail et des solidarités d'Ile de France"
+* #DREETS-11 ^property[0].code = #dateValid
+* #DREETS-11 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-11 ^property[+].code = #dateMaj
+* #DREETS-11 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-11 ^property[+].code = #status
+* #DREETS-11 ^property[=].valueCode = #active
+* #DREETS-11 ^property[+].code = #niveau
+* #DREETS-11 ^property[=].valueInteger = 2
+* #DREETS-11 ^property[+].code = #parent
+* #DREETS-11 ^property[=].valueCode = #04
+* #DREETS-11 ^property[+].code = #autoriteRegulationFiness
+* #DREETS-11 ^property[=].valueBoolean = false
+* #DREETS-11 ^property[+].code = #autoriteEnregistrementFiness
+* #DREETS-11 ^property[=].valueBoolean = true
+* #DREETS-24 "DREETS-24 : Direction régionale de l'économie de l'emploi du travail et des solidarités Centre-Val de Loire"
+* #DREETS-24 ^designation[0].language = #fr-FR
+* #DREETS-24 ^designation[=].use.system = "http://snomed.info/sct"
+* #DREETS-24 ^designation[=].use = $sct#900000000000013009
+* #DREETS-24 ^designation[=].value = "DREETS  Centre-Val de Loire"
+* #DREETS-24 ^designation[+].language = #fr-FR
+* #DREETS-24 ^designation[=].use.system = "http://snomed.info/sct"
+* #DREETS-24 ^designation[=].use = $sct#900000000000013009
+* #DREETS-24 ^designation[=].value = "DREETS-24 : Direction régionale de l'économie de l'emploi du travail et des solidarités Centre-Val de Loire"
+* #DREETS-24 ^property[0].code = #dateValid
+* #DREETS-24 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-24 ^property[+].code = #dateMaj
+* #DREETS-24 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-24 ^property[+].code = #status
+* #DREETS-24 ^property[=].valueCode = #active
+* #DREETS-24 ^property[+].code = #niveau
+* #DREETS-24 ^property[=].valueInteger = 2
+* #DREETS-24 ^property[+].code = #parent
+* #DREETS-24 ^property[=].valueCode = #04
+* #DREETS-24 ^property[+].code = #autoriteRegulationFiness
+* #DREETS-24 ^property[=].valueBoolean = false
+* #DREETS-24 ^property[+].code = #autoriteEnregistrementFiness
+* #DREETS-24 ^property[=].valueBoolean = true
+* #DREETS-27 "DREETS-27 : DREETS Bourgogne-Franche-Comté"
+* #DREETS-27 ^designation[0].language = #fr-FR
+* #DREETS-27 ^designation[=].use.system = "http://snomed.info/sct"
+* #DREETS-27 ^designation[=].use = $sct#900000000000013009
+* #DREETS-27 ^designation[=].value = "DREETS Bourgogne-Franche-Comté"
+* #DREETS-27 ^designation[+].language = #fr-FR
+* #DREETS-27 ^designation[=].use.system = "http://snomed.info/sct"
+* #DREETS-27 ^designation[=].use = $sct#900000000000013009
+* #DREETS-27 ^designation[=].value = "DREETS-27 : Direction régionale de l'économie de l'emploi du travail et des solidarités Bourgogne-Franche-Comté"
+* #DREETS-27 ^property[0].code = #dateValid
+* #DREETS-27 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-27 ^property[+].code = #dateMaj
+* #DREETS-27 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-27 ^property[+].code = #status
+* #DREETS-27 ^property[=].valueCode = #active
+* #DREETS-27 ^property[+].code = #niveau
+* #DREETS-27 ^property[=].valueInteger = 2
+* #DREETS-27 ^property[+].code = #parent
+* #DREETS-27 ^property[=].valueCode = #04
+* #DREETS-27 ^property[+].code = #autoriteRegulationFiness
+* #DREETS-27 ^property[=].valueBoolean = false
+* #DREETS-27 ^property[+].code = #autoriteEnregistrementFiness
+* #DREETS-27 ^property[=].valueBoolean = true
+* #DREETS-28 "DREETS-28 : DREETS  Normandie"
+* #DREETS-28 ^designation[0].language = #fr-FR
+* #DREETS-28 ^designation[=].use.system = "http://snomed.info/sct"
+* #DREETS-28 ^designation[=].use = $sct#900000000000013009
+* #DREETS-28 ^designation[=].value = "DREETS Normandie"
+* #DREETS-28 ^designation[+].language = #fr-FR
+* #DREETS-28 ^designation[=].use.system = "http://snomed.info/sct"
+* #DREETS-28 ^designation[=].use = $sct#900000000000013009
+* #DREETS-28 ^designation[=].value = "DREETS-28 : Direction régionale de l'économie de l'emploi du travail et des solidarités Normandie"
+* #DREETS-28 ^property[0].code = #dateValid
+* #DREETS-28 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-28 ^property[+].code = #dateMaj
+* #DREETS-28 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-28 ^property[+].code = #status
+* #DREETS-28 ^property[=].valueCode = #active
+* #DREETS-28 ^property[+].code = #niveau
+* #DREETS-28 ^property[=].valueInteger = 2
+* #DREETS-28 ^property[+].code = #parent
+* #DREETS-28 ^property[=].valueCode = #04
+* #DREETS-28 ^property[+].code = #autoriteRegulationFiness
+* #DREETS-28 ^property[=].valueBoolean = false
+* #DREETS-28 ^property[+].code = #autoriteEnregistrementFiness
+* #DREETS-28 ^property[=].valueBoolean = true
+* #DREETS-32 "DREETS-32 : DREETS Hauts-de-France"
+* #DREETS-32 ^designation[0].language = #fr-FR
+* #DREETS-32 ^designation[=].use.system = "http://snomed.info/sct"
+* #DREETS-32 ^designation[=].use = $sct#900000000000013009
+* #DREETS-32 ^designation[=].value = "DREETS  Hauts-de-France"
+* #DREETS-32 ^designation[+].language = #fr-FR
+* #DREETS-32 ^designation[=].use.system = "http://snomed.info/sct"
+* #DREETS-32 ^designation[=].use = $sct#900000000000013009
+* #DREETS-32 ^designation[=].value = "DREETS-32 : Direction régionale de l'économie de l'emploi du travail et des solidarités Hauts-de-France"
+* #DREETS-32 ^property[0].code = #dateValid
+* #DREETS-32 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-32 ^property[+].code = #dateMaj
+* #DREETS-32 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-32 ^property[+].code = #status
+* #DREETS-32 ^property[=].valueCode = #active
+* #DREETS-32 ^property[+].code = #niveau
+* #DREETS-32 ^property[=].valueInteger = 2
+* #DREETS-32 ^property[+].code = #parent
+* #DREETS-32 ^property[=].valueCode = #04
+* #DREETS-32 ^property[+].code = #autoriteRegulationFiness
+* #DREETS-32 ^property[=].valueBoolean = false
+* #DREETS-32 ^property[+].code = #autoriteEnregistrementFiness
+* #DREETS-32 ^property[=].valueBoolean = true
+* #DREETS-44 "DREETS-44 :DREETS Grand Est"
+* #DREETS-44 ^designation[0].language = #fr-FR
+* #DREETS-44 ^designation[=].use.system = "http://snomed.info/sct"
+* #DREETS-44 ^designation[=].use = $sct#900000000000013009
+* #DREETS-44 ^designation[=].value = "DREETS  Grand Est"
+* #DREETS-44 ^designation[+].language = #fr-FR
+* #DREETS-44 ^designation[=].use.system = "http://snomed.info/sct"
+* #DREETS-44 ^designation[=].use = $sct#900000000000013009
+* #DREETS-44 ^designation[=].value = "DREETS-44 : Direction régionale de l'économie de l'emploi du travail et des solidarités Grand Est"
+* #DREETS-44 ^property[0].code = #dateValid
+* #DREETS-44 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-44 ^property[+].code = #dateMaj
+* #DREETS-44 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-44 ^property[+].code = #status
+* #DREETS-44 ^property[=].valueCode = #active
+* #DREETS-44 ^property[+].code = #niveau
+* #DREETS-44 ^property[=].valueInteger = 2
+* #DREETS-44 ^property[+].code = #parent
+* #DREETS-44 ^property[=].valueCode = #04
+* #DREETS-44 ^property[+].code = #autoriteRegulationFiness
+* #DREETS-44 ^property[=].valueBoolean = false
+* #DREETS-44 ^property[+].code = #autoriteEnregistrementFiness
+* #DREETS-44 ^property[=].valueBoolean = true
+* #DREETS-52 "DREETS-52 :DREETS Pays de la Loire"
+* #DREETS-52 ^designation[0].language = #fr-FR
+* #DREETS-52 ^designation[=].use.system = "http://snomed.info/sct"
+* #DREETS-52 ^designation[=].use = $sct#900000000000013009
+* #DREETS-52 ^designation[=].value = "DREETS Pays de la Loire"
+* #DREETS-52 ^designation[+].language = #fr-FR
+* #DREETS-52 ^designation[=].use.system = "http://snomed.info/sct"
+* #DREETS-52 ^designation[=].use = $sct#900000000000013009
+* #DREETS-52 ^designation[=].value = "DREETS-52 : Direction régionale de l'économie de l'emploi du travail et des solidarités Pays de la Loire"
+* #DREETS-52 ^property[0].code = #dateValid
+* #DREETS-52 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-52 ^property[+].code = #dateMaj
+* #DREETS-52 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-52 ^property[+].code = #status
+* #DREETS-52 ^property[=].valueCode = #active
+* #DREETS-52 ^property[+].code = #niveau
+* #DREETS-52 ^property[=].valueInteger = 2
+* #DREETS-52 ^property[+].code = #parent
+* #DREETS-52 ^property[=].valueCode = #04
+* #DREETS-52 ^property[+].code = #autoriteRegulationFiness
+* #DREETS-52 ^property[=].valueBoolean = false
+* #DREETS-52 ^property[+].code = #autoriteEnregistrementFiness
+* #DREETS-52 ^property[=].valueBoolean = true
+* #DREETS-53 "DREETS-53 : DREETS Bretagne"
+* #DREETS-53 ^designation[0].language = #fr-FR
+* #DREETS-53 ^designation[=].use.system = "http://snomed.info/sct"
+* #DREETS-53 ^designation[=].use = $sct#900000000000013009
+* #DREETS-53 ^designation[=].value = "DREETS Bretagne"
+* #DREETS-53 ^designation[+].language = #fr-FR
+* #DREETS-53 ^designation[=].use.system = "http://snomed.info/sct"
+* #DREETS-53 ^designation[=].use = $sct#900000000000013009
+* #DREETS-53 ^designation[=].value = "DREETS-53 : Direction régionale de l'économie de l'emploi du travail et des solidarités Bretagne"
+* #DREETS-53 ^property[0].code = #dateValid
+* #DREETS-53 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-53 ^property[+].code = #dateMaj
+* #DREETS-53 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-53 ^property[+].code = #status
+* #DREETS-53 ^property[=].valueCode = #active
+* #DREETS-53 ^property[+].code = #niveau
+* #DREETS-53 ^property[=].valueInteger = 2
+* #DREETS-53 ^property[+].code = #parent
+* #DREETS-53 ^property[=].valueCode = #04
+* #DREETS-53 ^property[+].code = #autoriteRegulationFiness
+* #DREETS-53 ^property[=].valueBoolean = false
+* #DREETS-53 ^property[+].code = #autoriteEnregistrementFiness
+* #DREETS-53 ^property[=].valueBoolean = true
+* #DREETS-75 "DREETS-75 : DREETS Nouvelle-Aquitaine"
+* #DREETS-75 ^designation[0].language = #fr-FR
+* #DREETS-75 ^designation[=].use.system = "http://snomed.info/sct"
+* #DREETS-75 ^designation[=].use = $sct#900000000000013009
+* #DREETS-75 ^designation[=].value = "DREETS Nouvelle-Aquitaine"
+* #DREETS-75 ^designation[+].language = #fr-FR
+* #DREETS-75 ^designation[=].use.system = "http://snomed.info/sct"
+* #DREETS-75 ^designation[=].use = $sct#900000000000013009
+* #DREETS-75 ^designation[=].value = "DREETS-75 : Direction régionale de l'économie de l'emploi du travail et des solidarités Nouvelle-Aquitaine"
+* #DREETS-75 ^property[0].code = #dateValid
+* #DREETS-75 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-75 ^property[+].code = #dateMaj
+* #DREETS-75 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-75 ^property[+].code = #status
+* #DREETS-75 ^property[=].valueCode = #active
+* #DREETS-75 ^property[+].code = #niveau
+* #DREETS-75 ^property[=].valueInteger = 2
+* #DREETS-75 ^property[+].code = #parent
+* #DREETS-75 ^property[=].valueCode = #04
+* #DREETS-75 ^property[+].code = #autoriteRegulationFiness
+* #DREETS-75 ^property[=].valueBoolean = false
+* #DREETS-75 ^property[+].code = #autoriteEnregistrementFiness
+* #DREETS-75 ^property[=].valueBoolean = true
+* #DREETS-76 "DREETS-76 : DREETS Occitanie"
+* #DREETS-76 ^designation[0].language = #fr-FR
+* #DREETS-76 ^designation[=].use.system = "http://snomed.info/sct"
+* #DREETS-76 ^designation[=].use = $sct#900000000000013009
+* #DREETS-76 ^designation[=].value = "DREETS Occitanie"
+* #DREETS-76 ^designation[+].language = #fr-FR
+* #DREETS-76 ^designation[=].use.system = "http://snomed.info/sct"
+* #DREETS-76 ^designation[=].use = $sct#900000000000013009
+* #DREETS-76 ^designation[=].value = "DREETS-76 : Direction régionale de l'économie de l'emploi du travail et des solidarités Occitanie"
+* #DREETS-76 ^property[0].code = #dateValid
+* #DREETS-76 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-76 ^property[+].code = #dateMaj
+* #DREETS-76 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-76 ^property[+].code = #status
+* #DREETS-76 ^property[=].valueCode = #active
+* #DREETS-76 ^property[+].code = #niveau
+* #DREETS-76 ^property[=].valueInteger = 2
+* #DREETS-76 ^property[+].code = #parent
+* #DREETS-76 ^property[=].valueCode = #04
+* #DREETS-76 ^property[+].code = #autoriteRegulationFiness
+* #DREETS-76 ^property[=].valueBoolean = false
+* #DREETS-76 ^property[+].code = #autoriteEnregistrementFiness
+* #DREETS-76 ^property[=].valueBoolean = true
+* #DREETS-84 "DREETS-84 : DREETS Auvergne-Rhône-Alpes"
+* #DREETS-84 ^designation[0].language = #fr-FR
+* #DREETS-84 ^designation[=].use.system = "http://snomed.info/sct"
+* #DREETS-84 ^designation[=].use = $sct#900000000000013009
+* #DREETS-84 ^designation[=].value = "DREETS Auvergne-Rhône-Alpes"
+* #DREETS-84 ^designation[+].language = #fr-FR
+* #DREETS-84 ^designation[=].use.system = "http://snomed.info/sct"
+* #DREETS-84 ^designation[=].use = $sct#900000000000013009
+* #DREETS-84 ^designation[=].value = "DREETS-84 : Direction régionale de l'économie de l'emploi du travail et des solidarités Auvergne-Rhône-Alpes"
+* #DREETS-84 ^property[0].code = #dateValid
+* #DREETS-84 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-84 ^property[+].code = #dateMaj
+* #DREETS-84 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-84 ^property[+].code = #status
+* #DREETS-84 ^property[=].valueCode = #active
+* #DREETS-84 ^property[+].code = #niveau
+* #DREETS-84 ^property[=].valueInteger = 2
+* #DREETS-84 ^property[+].code = #parent
+* #DREETS-84 ^property[=].valueCode = #04
+* #DREETS-84 ^property[+].code = #autoriteRegulationFiness
+* #DREETS-84 ^property[=].valueBoolean = false
+* #DREETS-84 ^property[+].code = #autoriteEnregistrementFiness
+* #DREETS-84 ^property[=].valueBoolean = true
+* #DREETS-93 "DREETS-93 : DREETS Provence-Alpes-Côte d'Azur"
+* #DREETS-93 ^designation[0].language = #fr-FR
+* #DREETS-93 ^designation[=].use.system = "http://snomed.info/sct"
+* #DREETS-93 ^designation[=].use = $sct#900000000000013009
+* #DREETS-93 ^designation[=].value = " DREETS Provence-Alpes-Côte d'Azur"
+* #DREETS-93 ^designation[+].language = #fr-FR
+* #DREETS-93 ^designation[=].use.system = "http://snomed.info/sct"
+* #DREETS-93 ^designation[=].use = $sct#900000000000013009
+* #DREETS-93 ^designation[=].value = "DREETS-93 : Direction régionale de l'économie de l'emploi du travail et des solidarités Provence-Alpes-Côte d'Azur"
+* #DREETS-93 ^property[0].code = #dateValid
+* #DREETS-93 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-93 ^property[+].code = #dateMaj
+* #DREETS-93 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-93 ^property[+].code = #status
+* #DREETS-93 ^property[=].valueCode = #active
+* #DREETS-93 ^property[+].code = #niveau
+* #DREETS-93 ^property[=].valueInteger = 2
+* #DREETS-93 ^property[+].code = #parent
+* #DREETS-93 ^property[=].valueCode = #04
+* #DREETS-93 ^property[+].code = #autoriteRegulationFiness
+* #DREETS-93 ^property[=].valueBoolean = false
+* #DREETS-93 ^property[+].code = #autoriteEnregistrementFiness
+* #DREETS-93 ^property[=].valueBoolean = true
+* #DREETS-94 "DREETS-94 : Direction régionale de l'économie de l'emploi du travail et des solidarités de Corse"
+* #DREETS-94 ^designation[0].language = #fr-FR
+* #DREETS-94 ^designation[=].use.system = "http://snomed.info/sct"
+* #DREETS-94 ^designation[=].use = $sct#900000000000013009
+* #DREETS-94 ^designation[=].value = "DREETS  Corse"
+* #DREETS-94 ^designation[+].language = #fr-FR
+* #DREETS-94 ^designation[=].use.system = "http://snomed.info/sct"
+* #DREETS-94 ^designation[=].use = $sct#900000000000013009
+* #DREETS-94 ^designation[=].value = "DREETS-94 : Direction régionale de l'économie de l'emploi du travail et des solidarités de Corse"
+* #DREETS-94 ^property[0].code = #dateValid
+* #DREETS-94 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-94 ^property[+].code = #dateMaj
+* #DREETS-94 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DREETS-94 ^property[+].code = #status
+* #DREETS-94 ^property[=].valueCode = #active
+* #DREETS-94 ^property[+].code = #niveau
+* #DREETS-94 ^property[=].valueInteger = 2
+* #DREETS-94 ^property[+].code = #parent
+* #DREETS-94 ^property[=].valueCode = #04
+* #DREETS-94 ^property[+].code = #autoriteRegulationFiness
+* #DREETS-94 ^property[=].valueBoolean = false
+* #DREETS-94 ^property[+].code = #autoriteEnregistrementFiness
+* #DREETS-94 ^property[=].valueBoolean = true
+* #DRHIL-11 "DRHIL-11 :DRHIL Ile de France"
+* #DRHIL-11 ^designation[0].language = #fr-FR
+* #DRHIL-11 ^designation[=].use.system = "http://snomed.info/sct"
+* #DRHIL-11 ^designation[=].use = $sct#900000000000013009
+* #DRHIL-11 ^designation[=].value = "DRIHL Ile-deFrance"
+* #DRHIL-11 ^designation[+].language = #fr-FR
+* #DRHIL-11 ^designation[=].use.system = "http://snomed.info/sct"
+* #DRHIL-11 ^designation[=].use = $sct#900000000000013009
+* #DRHIL-11 ^designation[=].value = "DRHIL-11 : Direction régionale et interdépartementale de l'Hébergement et du Logement Ile de France"
+* #DRHIL-11 ^property[0].code = #dateValid
+* #DRHIL-11 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DRHIL-11 ^property[+].code = #dateMaj
+* #DRHIL-11 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #DRHIL-11 ^property[+].code = #status
+* #DRHIL-11 ^property[=].valueCode = #active
+* #DRHIL-11 ^property[+].code = #niveau
+* #DRHIL-11 ^property[=].valueInteger = 2
+* #DRHIL-11 ^property[+].code = #parent
+* #DRHIL-11 ^property[=].valueCode = #05
+* #DRHIL-11 ^property[+].code = #autoriteRegulationFiness
+* #DRHIL-11 ^property[=].valueBoolean = false
+* #DRHIL-11 ^property[+].code = #autoriteEnregistrementFiness
+* #DRHIL-11 ^property[=].valueBoolean = true
+
