@@ -61,7 +61,7 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
   "caseSensitive" : false,
   "hierarchyMeaning" : "is-a",
   "content" : "complete",
-  "count" : 155,
+  "count" : 286,
   "property" : [{
     "code" : "parent",
     "uri" : "http://hl7.org/fhir/concept-properties#parent",
@@ -6273,6 +6273,5398 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     {
       "code" : "autoriteEnregistrementFiness",
       "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CR-01",
+    "display" : "CR-01 : Conseil régional Guadeloupe",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Conseil régional Guadeloupe"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "10"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CR-04",
+    "display" : "CR-04 : Conseil régional La Réunion",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Conseil régional La Réunion"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "10"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CR-11",
+    "display" : "CR-11 : Conseil régional Île-de-France",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CR Île-de-France"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "10"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CR-24",
+    "display" : "CR-24 : Conseil régional Normandie",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CR Normandie"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "10"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CR-27",
+    "display" : "CR-27 : Conseil régional Bourgogne-Franche-Comté",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CR Bourgogne-Franche-Comté"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "10"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CR-28",
+    "display" : "CR-28 :  Conseil régional Normandie",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CR Normandie"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "10"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CR-32",
+    "display" : "CR-32 :  Conseil régional Hauts-de-France",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CR Hauts-de-France"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "10"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CR-44",
+    "display" : "CR-44 :  Conseil régional Grand Est",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CR Grand Est"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "10"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CR-52",
+    "display" : "CR-52 :  Conseil régional Pays de la Loire",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CR Pays de la Loire"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "10"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CR-53",
+    "display" : "CR-53 :  Conseil régional Bretagne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CR Bretagne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "10"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CR-75",
+    "display" : "CR-75 :  Conseil régional Nouvelle-Aquitaine",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CR Nouvelle-Aquitaine"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "10"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CR-76",
+    "display" : "CR-76 :  Conseil régional Occitanie",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CR Occitanie"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "10"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CR-84",
+    "display" : "CR-84 :  Conseil régional Auvergne-Rhône-Alpes",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CR Auvergne-Rhône-Alpes"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "10"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CR-93",
+    "display" : "CR-93 :  Conseil régional Provence-Alpes-Côte d'Azur",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CR Provence-Alpes-Côte d'Azur"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "10"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CT-02",
+    "display" : "CT-02 : Collectivité Territoriale de Martinique",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Collectivité Territoriale de Martinique"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "13"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CT-03",
+    "display" : "CT-03  : Collectivité Territoriale de Guyane",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Collectivité Territoriale de Guyane"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "13"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CT-94",
+    "display" : "CT-94 :  Collectivité de Corse",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Collectivité de Corse"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "13"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-01",
+    "display" : "DDETS-01 : DDETS Ain",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Ain"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-02",
+    "display" : "DDETS-02 : DDETS Aisne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Aisne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-03",
+    "display" : "DDETS-03 : DDETSPP Allier",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETSPP Allier"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-04",
+    "display" : "DDETS-04 : DDETSPP Alpes-de-Haute-Provence",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETSPP Alpes-de-Haute-Provence"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-05",
+    "display" : "DDETS-05 : DDETSPP Hautes-Alpes",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETSPP Hautes-Alpes"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-06",
+    "display" : "DDETS-06 : DDETS Alpes-Maritimes",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Alpes-Maritimes"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-07",
+    "display" : "DDETS-07 : DDETSPP Ardèche",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETSPP Ardèche"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-08",
+    "display" : "DDETS-08 : DDETSPP Ardennes",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETSPP Ardennes"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-09",
+    "display" : "DDETS-09 : DDETSPP Ariège",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETSPP Ariège"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-10",
+    "display" : "DDETS-10 : DDETSPP Aube",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETSPP Aube"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-11",
+    "display" : "DDETS-11 : DDETSPP Aude",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETSPP Aude"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-12",
+    "display" : "DDETS-12 : DDETSPP Aveyron",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETSPP Aveyron"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-13",
+    "display" : "DDETS-13 : DDETS Bouches-du-Rhône",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Bouches-du-Rhône"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-14",
+    "display" : "DDETS-14 : DDETS Calvados",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Calvados"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-15",
+    "display" : "DDETS-15 : DDETSPP Cantal",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETSPP Cantal"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-16",
+    "display" : "DDETS-16 : DDETSPP Charente",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETSPP Charente"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-17",
+    "display" : "DDETS-17 : DDETS Charente-Maritime",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Charente-Maritime"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-18",
+    "display" : "DDETS-18 : DDETSPP Cher",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETSPP Cher"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-19",
+    "display" : "DDETS-19 : DDETSPP Corrèze",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETSPP Corrèze"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-21",
+    "display" : "DDETS-21 : DDETS Côte-d'Or",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Côte-d'Or"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-22",
+    "display" : "DDETS-22 : DDETS Côtes-d'Armor",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Côtes-d'Armor"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-23",
+    "display" : "DDETS-23 : DDETSPP Creuse",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETSPP Creuse"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-24",
+    "display" : "DDETS-24 : DDETSPP Dordogne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETSPP Dordogne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-25",
+    "display" : "DDETS-25 : DDETS Doubs",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Doubs"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-26",
+    "display" : "DDETS-26 : DDETS Drôme",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Drôme"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-27",
+    "display" : "DDETS-27 : DDETS Eure",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Eure"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-28",
+    "display" : "DDETS-28 : DDETS Eure-et-Loir",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Eure-et-Loir"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-29",
+    "display" : "DDETS-29 : DDETS Finistère",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Finistère"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-2A",
+    "display" : "DDETS-2A : DDETSPP Corse-du-Sud",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETSPP Corse-du-Sud"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-2B",
+    "display" : "DDETS-2B : DDETSPP Haute-Corse",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETSPP Haute-Corse"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-30",
+    "display" : "DDETS-30 : DDETS Gard",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Gard"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-31",
+    "display" : "DDETS-31 : DDETS Haute-Garonne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Haute-Garonne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-32",
+    "display" : "DDETS-32 : DDETSPP Gers",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETSPP Gers"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-33",
+    "display" : "DDETS-33 : DDETS Gironde",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Gironde"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-34",
+    "display" : "DDETS-34 : DDETS Hérault",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Hérault"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-35",
+    "display" : "DDETS-35 : DDETS Ille-et-Vilaine",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Ille-et-Vilaine"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-36",
+    "display" : "DDETS-36 : DDETSPP Indre",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETSPP Indre"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-37",
+    "display" : "DDETS-37 : DDETS Indre-et-Loire",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Indre-et-Loire"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-38",
+    "display" : "DDETS-38 : DDETS Isère",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Isère"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-39",
+    "display" : "DDETS-39 : DDETSPP Jura",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETSPP Jura"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-40",
+    "display" : "DDETS-40 : DDETSPP Landes",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETSPP Landes"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-41",
+    "display" : "DDETS-41 : DDETSPP Loir-et-Cher",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETSPP Loir-et-Cher"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-42",
+    "display" : "DDETS-42 : DDETS Loire",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Loire"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-43",
+    "display" : "DDETS-43 : DDETSPP Haute-Loire",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETSPP Haute-Loire"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-44",
+    "display" : "DDETS-44 : DDETS Loire-Atlantique",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Loire-Atlantique"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-45",
+    "display" : "DDETS-45 : DDETS Loiret",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Loiret"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-46",
+    "display" : "DDETS-46 : DDETSPP Lot",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETSPP Lot"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-47",
+    "display" : "DDETS-47 : DDETSPP Lot-et-Garonne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETSPP Lot-et-Garonne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-48",
+    "display" : "DDETS-48 : DDETSPP Lozère",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETSPP Lozère"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-49",
+    "display" : "DDETS-49 : DDETS Maine-et-Loire",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Maine-et-Loire"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-50",
+    "display" : "DDETS-50 : DDETS Manche",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Manche"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-51",
+    "display" : "DDETS-51 : DDETS Marne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Marne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-52",
+    "display" : "DDETS-52 : DDETSPP Haute-Marne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETSPP Haute-Marne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-53",
+    "display" : "DDETS-53 : DDETSPP Mayenne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETSPP Mayenne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-54",
+    "display" : "DDETS-54 : DDETS Meurthe-et-Moselle",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Meurthe-et-Moselle"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-55",
+    "display" : "DDETS-55 : DDETSPP Meuse",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETSPP Meuse"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-57",
+    "display" : "DDETS-57 : DDETS Moselle",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Moselle"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-58",
+    "display" : "DDETS-58 : DDETSPP Nièvre",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETSPP Nièvre"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-59",
+    "display" : "DDETS-59 : DDETS Nord",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Nord"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-60",
+    "display" : "DDETS-60 : DDETS Oise",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Oise"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-61",
+    "display" : "DDETS-61 : DDETSPP Orne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETSPP Orne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-62",
+    "display" : "DDETS-62 : DDETS Pas-de-Calais",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Pas-de-Calais"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-63",
+    "display" : "DDETS-63 : DDETS Puy-de-Dôme",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Puy-de-Dôme"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-64",
+    "display" : "DDETS-64 : DDETS Pyrénées-Atlantiques",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Pyrénées-Atlantiques"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-65",
+    "display" : "DDETS-65 : DDETSPP Hautes-Pyrénées",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETSPP Hautes-Pyrénées"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-66",
+    "display" : "DDETS-66 : DDETS Pyrénées-Orientales",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Pyrénées-Orientales"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-67",
+    "display" : "DDETS-67 : DDETS Bas-Rhin",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Bas-Rhin"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-68",
+    "display" : "DDETS-68 : DDETS Haut-Rhin",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Haut-Rhin"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-69",
+    "display" : "DDETS-69 : DDETS Rhône",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Rhône"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-70",
+    "display" : "DDETS-70 : DDETSPP Haute-Saône",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETSPP Haute-Saône"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-71",
+    "display" : "DDETS-71 : DDETS Saône-et-Loire",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Saône-et-Loire"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-72",
+    "display" : "DDETS-72 : DDETS Sarthe",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Sarthe"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-73",
+    "display" : "DDETS-73 : DDETS Savoie",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Savoie"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-74",
+    "display" : "DDETS-74 : DDETS Haute-Savoie",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Haute-Savoie"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-75",
+    "display" : "DDETS-75 : UD DRIEETS Paris",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "UD DRIEETS Paris"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-76",
+    "display" : "DDETS-76 : DDETS Seine-Maritime",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Seine-Maritime"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-77",
+    "display" : "DDETS-77 : DDETS Seine-et-Marne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Seine-et-Marne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-78",
+    "display" : "DDETS-78 : DDETS Yvelines",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Yvelines"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-79",
+    "display" : "DDETS-79 : DDETSPP Deux-Sèvres",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETSPP Deux-Sèvres"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-80",
+    "display" : "DDETS-80 : DDETS Somme",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Somme"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-81",
+    "display" : "DDETS-81 : DDETSPP Tarn",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETSPP Tarn"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-82",
+    "display" : "DDETS-82 : DDETSPP Tarn-et-Garonne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETSPP Tarn-et-Garonne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-83",
+    "display" : "DDETS-83 : DDETS Var",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Var"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-84",
+    "display" : "DDETS-84 : DDETS Vaucluse",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Vaucluse"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-85",
+    "display" : "DDETS-85 : DDETS Vendée",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Vendée"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-86",
+    "display" : "DDETS-86 : DDETSPP Vienne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETSPP Vienne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-87",
+    "display" : "DDETS-87 : DDETSPP Haute-Vienne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETSPP Haute-Vienne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-88",
+    "display" : "DDETS-88 : DDETSPP Vosges",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETSPP Vosges"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-89",
+    "display" : "DDETS-89 : DDETSPP Yonne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETSPP Yonne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-90",
+    "display" : "DDETS-90 : DDETSPP Territoire de Belfort",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETSPP Territoire de Belfort"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-91",
+    "display" : "DDETS-91 : DDETS Essonne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Essonne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-92",
+    "display" : "DDETS-92 : UD DRIEETS Hauts-de-Seine",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "UD DRIEETS Hauts-de-Seine"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-93",
+    "display" : "DDETS-93 : UD DRIEETS Seine-Saint-Denis",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "UD DRIEETS Seine-Saint-Denis"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-94",
+    "display" : "DDETS-94 : UD DRIEETS Val-de-Marne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "UD DRIEETS Val-de-Marne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DDETS-95",
+    "display" : "DDETS-95 : DDETS Val-d'Oise",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS Val-d'Oise"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "07"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "DEETS-01",
+    "display" : "DEETS-01 : DEETS Guadeloupe",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DEETS Guadeloupe"
+    },
+    {
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DEETS-01 : Direction de l'économie de l'emploi du travail et des solidarités Guadeloupe"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "04"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "DEETS-02",
+    "display" : "DEETS-02 : DEETS Martinique",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DEETS Martinique"
+    },
+    {
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DEETS-02 :  Direction de l'économie de l'emploi du travail et des solidarités Martinique"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "04"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "DEETS-03",
+    "display" : "DEETS-03 :  DEETS Guyane",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DEETS Guyane"
+    },
+    {
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DEETS-03 :  Direction générale cohésion et population Guyane"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "04"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "DEETS-05",
+    "display" : "DEETS-05 : DEETS de La Réunion",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DEETS  La Réunion"
+    },
+    {
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : " DEETS-05 : Direction de l'économie de l'emploi du travail et des solidarités de La Réunion"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "04"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "DEETS-06",
+    "display" : "DEETS-06 :DEETS Mayotte",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DEETS Mayotte"
+    },
+    {
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DEETS-06 : Direction de l'économie de l'emploi du travail et des solidarités Mayotte"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "04"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "DREETS-11",
+    "display" : "DREETS-11 : DREETS  d'Ile de France",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DREETS Ile de France"
+    },
+    {
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DREETS-11 : Direction régionale de l'économie de l'emploi du travail et des solidarités d'Ile de France"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "04"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "DREETS-24",
+    "display" : "DREETS-24 : Direction régionale de l'économie de l'emploi du travail et des solidarités Centre-Val de Loire",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DREETS  Centre-Val de Loire"
+    },
+    {
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DREETS-24 : Direction régionale de l'économie de l'emploi du travail et des solidarités Centre-Val de Loire"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "04"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "DREETS-27",
+    "display" : "DREETS-27 : DREETS Bourgogne-Franche-Comté",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DREETS Bourgogne-Franche-Comté"
+    },
+    {
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DREETS-27 : Direction régionale de l'économie de l'emploi du travail et des solidarités Bourgogne-Franche-Comté"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "04"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "DREETS-28",
+    "display" : "DREETS-28 : DREETS  Normandie",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DREETS Normandie"
+    },
+    {
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DREETS-28 : Direction régionale de l'économie de l'emploi du travail et des solidarités Normandie"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "04"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "DREETS-32",
+    "display" : "DREETS-32 : DREETS Hauts-de-France",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DREETS  Hauts-de-France"
+    },
+    {
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DREETS-32 : Direction régionale de l'économie de l'emploi du travail et des solidarités Hauts-de-France"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "04"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "DREETS-44",
+    "display" : "DREETS-44 :DREETS Grand Est",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DREETS  Grand Est"
+    },
+    {
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DREETS-44 : Direction régionale de l'économie de l'emploi du travail et des solidarités Grand Est"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "04"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "DREETS-52",
+    "display" : "DREETS-52 :DREETS Pays de la Loire",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DREETS Pays de la Loire"
+    },
+    {
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DREETS-52 : Direction régionale de l'économie de l'emploi du travail et des solidarités Pays de la Loire"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "04"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "DREETS-53",
+    "display" : "DREETS-53 : DREETS Bretagne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DREETS Bretagne"
+    },
+    {
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DREETS-53 : Direction régionale de l'économie de l'emploi du travail et des solidarités Bretagne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "04"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "DREETS-75",
+    "display" : "DREETS-75 : DREETS Nouvelle-Aquitaine",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DREETS Nouvelle-Aquitaine"
+    },
+    {
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DREETS-75 : Direction régionale de l'économie de l'emploi du travail et des solidarités Nouvelle-Aquitaine"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "04"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "DREETS-76",
+    "display" : "DREETS-76 : DREETS Occitanie",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DREETS Occitanie"
+    },
+    {
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DREETS-76 : Direction régionale de l'économie de l'emploi du travail et des solidarités Occitanie"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "04"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "DREETS-84",
+    "display" : "DREETS-84 : DREETS Auvergne-Rhône-Alpes",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DREETS Auvergne-Rhône-Alpes"
+    },
+    {
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DREETS-84 : Direction régionale de l'économie de l'emploi du travail et des solidarités Auvergne-Rhône-Alpes"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "04"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "DREETS-93",
+    "display" : "DREETS-93 : DREETS Provence-Alpes-Côte d'Azur",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : " DREETS Provence-Alpes-Côte d'Azur"
+    },
+    {
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DREETS-93 : Direction régionale de l'économie de l'emploi du travail et des solidarités Provence-Alpes-Côte d'Azur"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "04"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "DREETS-94",
+    "display" : "DREETS-94 : Direction régionale de l'économie de l'emploi du travail et des solidarités de Corse",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DREETS  Corse"
+    },
+    {
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DREETS-94 : Direction régionale de l'économie de l'emploi du travail et des solidarités de Corse"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "04"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "DRHIL-11",
+    "display" : "DRHIL-11 :DRHIL Ile de France",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DRIHL Ile-deFrance"
+    },
+    {
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DRHIL-11 : Direction régionale et interdépartementale de l'Hébergement et du Logement Ile de France"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "05"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : true
     }]
   }]
 }
