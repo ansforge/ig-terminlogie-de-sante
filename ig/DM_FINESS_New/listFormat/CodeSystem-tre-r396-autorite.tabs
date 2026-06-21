@@ -14,6 +14,7 @@
 1.2.250.1.213.1.6.1.377;11;Agence nationale;Agence nationale;Agence nationale;20160322000000;;20160322000000
 1.2.250.1.213.1.6.1.377;12;Métropole;Métropole;Métropole;20160322000000;;20160322000000
 1.2.250.1.213.1.6.1.377;13;Collectivité territoriale;CT;Collectivité territoriale;20160322000000;;20160322000000
+1.2.250.1.213.1.6.1.377;ANS;ANS : Agence du numérique en santé;ANS;ANS : Agence du numérique en santé;20260701000000;;20260701000000
 1.2.250.1.213.1.6.1.377;ARS-01;ARS-01 : Guadeloupe;ARS Guadeloupe;ARS-01 : Guadeloupe;20150101000000;;20160901000000
 1.2.250.1.213.1.6.1.377;ARS-02;ARS-02 : Martinique;ARS Martinique;ARS-02 : Martinique;20150101000000;;20160901000000
 1.2.250.1.213.1.6.1.377;ARS-03;ARS-03 : Guyane;ARS Guyane;ARS-03 : Guyane;20150101000000;;20160901000000
@@ -59,3 +60,99 @@
 1.2.250.1.213.1.6.1.377;ONCD;Ordre des chirurgiens-dentistes;Ordre des chirurgiens-dentistes;Ordre des chirurgiens-dentistes;20070725150441;;20070725150441
 1.2.250.1.213.1.6.1.377;ONI;Ordre des infirmiers;Ordre des infirmiers;Ordre des infirmiers;20170707100000;;20170707100000
 1.2.250.1.213.1.6.1.377;SSA;Service de santé des armées;Service de santé des armées;Service de santé des armées;20190830120000;;20190830120000
+1.2.250.1.213.1.6.1.377;CD-01;CD-01 : Conseil départemental de l’Ain;CD de l’Ain;CD-01 : Conseil départemental de l’Ain;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-02;CD-02 : Conseil départemental de l’Aisne;CD de l’Aisne;CD-02 : Conseil départemental de l’Aisne;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-03;CD-03 : Conseil départemental de l’Allier;CD de l’Allier;CD-03 : Conseil départemental de l’Allier;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-04;CD-04 : Conseil départemental des Alpes-de-Haute-Provence;CD des Alpes-de-Haute-Provence;CD-04 : Conseil départemental des Alpes-de-Haute-Provence;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-05;CD-05 : Conseil départemental des Hautes-Alpes;CD des Hautes-Alpes;CD-05 : Conseil départemental des Hautes-Alpes;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-06;CD-06 : Conseil départemental des Alpes-Maritimes;CD des Alpes-Maritimes;CD-06 : Conseil départemental des Alpes-Maritimes;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-07;CD-07 : Conseil départemental de l’Ardèche;CD de l’Ardèche;CD-07 : Conseil départemental de l’Ardèche;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-08;CD-08 : Conseil départemental des Ardennes;CD des Ardennes;CD-08 : Conseil départemental des Ardennes;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-09;CD-09 : Conseil départemental de l’Ariège;CD de l’Ariège;CD-09 : Conseil départemental de l’Ariège;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-10;CD-10 : Conseil départemental de l’Aube;CD de l’Aube;CD-10 : Conseil départemental de l’Aube;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-11;CD-11 : Conseil départemental de l’Aude;CD de l’Aude;CD-11 : Conseil départemental de l’Aude;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-12;CD-12 : Conseil départemental de l’Aveyron;CD de l’Aveyron;CD-12 : Conseil départemental de l’Aveyron;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-13;CD-13 : Conseil départemental des Bouches-du-Rhône;CD des Bouches-du-Rhône;CD-13 : Conseil départemental des Bouches-du-Rhône;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-14;CD-14 : Conseil départemental du Calvados;CD du Calvados;CD-14 : Conseil départemental du Calvados;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-15;CD-15 : Conseil départemental du Cantal;CD du Cantal;CD-15 : Conseil départemental du Cantal;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-16;CD-16 : Conseil départemental de la Charente;CD de la Charente;CD-16 : Conseil départemental de la Charente;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-17;CD-17 : Conseil départemental de la Charente-Maritime;CD de la Charente-Maritime;CD-17 : Conseil départemental de la Charente-Maritime;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-18;CD-18 : Conseil départemental du Cher;CD du Cher;CD-18 : Conseil départemental du Cher;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-19;CD-19 : Conseil départemental de la Corrèze;CD de la Corrèze;CD-19 : Conseil départemental de la Corrèze;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-21;CD-21 : Conseil départemental de la Côte-d’Or;CD de la Côte-d’Or;CD-21 : Conseil départemental de la Côte-d’Or;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-22;CD-22 : Conseil départemental des Côtes-d’Armor;CD des Côtes-d’Armor;CD-22 : Conseil départemental des Côtes-d’Armor;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-23;CD-23 : Conseil départemental de la Creuse;CD de la Creuse;CD-23 : Conseil départemental de la Creuse;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-24;CD-24 : Conseil départemental de la Dordogne;CD de la Dordogne;CD-24 : Conseil départemental de la Dordogne;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-25;CD-25 : Conseil départemental du Doubs;CD du Doubs;CD-25 : Conseil départemental du Doubs;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-26;CD-26 : Conseil départemental de la Drôme;CD de la Drôme;CD-26 : Conseil départemental de la Drôme;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-27;CD-27 : Conseil départemental de l’Eure;CD de l’Eure;CD-27 : Conseil départemental de l’Eure;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-28;CD-28 : Conseil départemental d’Eure-et-Loir;CD d’Eure-et-Loir;CD-28 : Conseil départemental d’Eure-et-Loir;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-29;CD-29 : Conseil départemental du Finistère;CD du Finistère;CD-29 : Conseil départemental du Finistère;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-30;CD-30 : Conseil départemental du Gard;CD du Gard;CD-30 : Conseil départemental du Gard;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-31;CD-31 : Conseil départemental de la Haute-Garonne;CD de la Haute-Garonne;CD-31 : Conseil départemental de la Haute-Garonne;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-32;CD-32 : Conseil départemental du Gers;CD du Gers;CD-32 : Conseil départemental du Gers;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-33;CD-33 : Conseil départemental de la Gironde;CD de la Gironde;CD-33 : Conseil départemental de la Gironde;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-34;CD-34 : Conseil départemental de l’Hérault;CD de l’Hérault;CD-34 : Conseil départemental de l’Hérault;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-35;CD-35 : Conseil départemental d’Ille-et-Vilaine;CD d’Ille-et-Vilaine;CD-35 : Conseil départemental d’Ille-et-Vilaine;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-36;CD-36 : Conseil départemental de l’Indre;CD de l’Indre;CD-36 : Conseil départemental de l’Indre;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-37;CD-37 : Conseil départemental d’Indre-et-Loire;CD d’Indre-et-Loire;CD-37 : Conseil départemental d’Indre-et-Loire;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-38;CD-38 : Conseil départemental de l’Isère;CD de l’Isère;CD-38 : Conseil départemental de l’Isère;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-39;CD-39 : Conseil départemental du Jura;CD du Jura;CD-39 : Conseil départemental du Jura;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-40;CD-40 : Conseil départemental des Landes;CD des Landes;CD-40 : Conseil départemental des Landes;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-41;CD-41 : Conseil départemental de Loir-et-Cher;CD de Loir-et-Cher;CD-41 : Conseil départemental de Loir-et-Cher;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-42;CD-42 : Conseil départemental de la Loire;CD de la Loire;CD-42 : Conseil départemental de la Loire;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-43;CD-43 : Conseil départemental de la Haute-Loire;CD de la Haute-Loire;CD-43 : Conseil départemental de la Haute-Loire;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-44;CD-44 : Conseil départemental de la Loire-Atlantique;CD de la Loire-Atlantique;CD-44 : Conseil départemental de la Loire-Atlantique;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-45;CD-45 : Conseil départemental du Loiret;CD du Loiret;CD-45 : Conseil départemental du Loiret;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-46;CD-46 : Conseil départemental du Lot;CD du Lot;CD-46 : Conseil départemental du Lot;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-47;CD-47 : Conseil départemental de Lot-et-Garonne;CD de Lot-et-Garonne;CD-47 : Conseil départemental de Lot-et-Garonne;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-48;CD-48 : Conseil départemental de la Lozère;CD de la Lozère;CD-48 : Conseil départemental de la Lozère;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-49;CD-49 : Conseil départemental de Maine-et-Loire;CD de Maine-et-Loire;CD-49 : Conseil départemental de Maine-et-Loire;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-50;CD-50 : Conseil départemental de la Manche;CD de la Manche;CD-50 : Conseil départemental de la Manche;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-51;CD-51 : Conseil départemental de la Marne;CD de la Marne;CD-51 : Conseil départemental de la Marne;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-52;CD-52 : Conseil départemental de la Haute-Marne;CD de la Haute-Marne;CD-52 : Conseil départemental de la Haute-Marne;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-53;CD-53 : Conseil départemental de la Mayenne;CD de la Mayenne;CD-53 : Conseil départemental de la Mayenne;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-54;CD-54 : Conseil départemental de Meurthe-et-Moselle;CD de Meurthe-et-Moselle;CD-54 : Conseil départemental de Meurthe-et-Moselle;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-55;CD-55 : Conseil départemental de la Meuse;CD de la Meuse;CD-55 : Conseil départemental de la Meuse;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-56;CD-56 : Conseil départemental du Morbihan;CD du Morbihan;CD-56 : Conseil départemental du Morbihan;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-57;CD-57 : Conseil départemental de la Moselle;CD de la Moselle;CD-57 : Conseil départemental de la Moselle;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-58;CD-58 : Conseil départemental de la Nièvre;CD de la Nièvre;CD-58 : Conseil départemental de la Nièvre;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-59;CD-59 : Conseil départemental du Nord;CD du Nord;CD-59 : Conseil départemental du Nord;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-60;CD-60 : Conseil départemental de l’Oise;CD de l’Oise;CD-60 : Conseil départemental de l’Oise;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-61;CD-61 : Conseil départemental de l’Orne;CD de l’Orne;CD-61 : Conseil départemental de l’Orne;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-62;CD-62 : Conseil départemental du Pas-de-Calais;CD du Pas-de-Calais;CD-62 : Conseil départemental du Pas-de-Calais;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-63;CD-63 : Conseil départemental du Puy-de-Dôme;CD du Puy-de-Dôme;CD-63 : Conseil départemental du Puy-de-Dôme;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-64;CD-64 : Conseil départemental des Pyrénées-Atlantiques;CD des Pyrénées-Atlantiques;CD-64 : Conseil départemental des Pyrénées-Atlantiques;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-65;CD-65 : Conseil départemental des Hautes-Pyrénées;CD des Hautes-Pyrénées;CD-65 : Conseil départemental des Hautes-Pyrénées;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-66;CD-66 : Conseil départemental des Pyrénées-Orientales;CD des Pyrénées-Orientales;CD-66 : Conseil départemental des Pyrénées-Orientales;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-69;CD-69 : Conseil départemental du Rhône;CD du Rhône;CD-69 : Conseil départemental du Rhône;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-70;CD-70 : Conseil départemental de la Haute-Saône;CD de la Haute-Saône;CD-70 : Conseil départemental de la Haute-Saône;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-71;CD-71 : Conseil départemental de Saône-et-Loire;CD de Saône-et-Loire;CD-71 : Conseil départemental de Saône-et-Loire;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-72;CD-72 : Conseil départemental de la Sarthe;CD de la Sarthe;CD-72 : Conseil départemental de la Sarthe;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-73;CD-73 : Conseil départemental de la Savoie;CD de la Savoie;CD-73 : Conseil départemental de la Savoie;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-74;CD-74 : Conseil départemental de la Haute-Savoie;CD de la Haute-Savoie;CD-74 : Conseil départemental de la Haute-Savoie;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-75;CD-75 : Conseil départemental de Paris;CD de Paris;CD-75 : Conseil départemental de Paris;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-76;CD-76 : Conseil départemental de la Seine-Maritime;CD de la Seine-Maritime;CD-76 : Conseil départemental de la Seine-Maritime;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-77;CD-77 : Conseil départemental de Seine-et-Marne;CD de Seine-et-Marne;CD-77 : Conseil départemental de Seine-et-Marne;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-78;CD-78 : Conseil départemental des Yvelines;CD des Yvelines;CD-78 : Conseil départemental des Yvelines;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-79;CD-79 : Conseil départemental des Deux-Sèvres;CD des Deux-Sèvres;CD-79 : Conseil départemental des Deux-Sèvres;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-80;CD-80 : Conseil départemental de la Somme;CD de la Somme;CD-80 : Conseil départemental de la Somme;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-81;CD-81 : Conseil départemental du Tarn;CD du Tarn;CD-81 : Conseil départemental du Tarn;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-82;CD-82 : Conseil départemental de Tarn-et-Garonne;CD de Tarn-et-Garonne;CD-82 : Conseil départemental de Tarn-et-Garonne;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-83;CD-83 : Conseil départemental du Var;CD du Var;CD-83 : Conseil départemental du Var;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-84;CD-84 : Conseil départemental du Vaucluse;CD du Vaucluse;CD-84 : Conseil départemental du Vaucluse;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-85;CD-85 : Conseil départemental de la Vendée;CD de la Vendée;CD-85 : Conseil départemental de la Vendée;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-86;CD-86 : Conseil départemental de la Vienne;CD de la Vienne;CD-86 : Conseil départemental de la Vienne;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-87;CD-87 : Conseil départemental de la Haute-Vienne;CD de la Haute-Vienne;CD-87 : Conseil départemental de la Haute-Vienne;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-88;CD-88 : Conseil départemental des Vosges;CD des Vosges;CD-88 : Conseil départemental des Vosges;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-89;CD-89 : Conseil départemental de l’Yonne;CD de l’Yonne;CD-89 : Conseil départemental de l’Yonne;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-90;CD-90 : Conseil départemental du Territoire de Belfort;CD du Territoire de Belfort;CD-90 : Conseil départemental du Territoire de Belfort;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-91;CD-91 : Conseil départemental de l’Essonne;CD de l’Essonne;CD-91 : Conseil départemental de l’Essonne;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-92;CD-92 : Conseil départemental des Hauts-de-Seine;CD des Hauts-de-Seine;CD-92 : Conseil départemental des Hauts-de-Seine;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-93;CD-93 : Conseil départemental de la Seine-Saint-Denis;CD de la Seine-Saint-Denis;CD-93 : Conseil départemental de la Seine-Saint-Denis;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-94;CD-94 : Conseil départemental du Val-de-Marne;CD du Val-de-Marne;CD-94 : Conseil départemental du Val-de-Marne;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-95;CD-95 : Conseil départemental du Val-d’Oise;CD du Val-d’Oise;CD-95 : Conseil départemental du Val-d’Oise;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-971;CD-971 : Conseil départemental de la Guadeloupe;CD de la Guadeloupe;CD-971 : Conseil départemental de la Guadeloupe;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-974;CD-974 : Conseil départemental de La Réunion;CD de La Réunion;CD-974 : Conseil départemental de La Réunion;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CD-976;CD-976 : Conseil départemental de Mayotte;CD de Mayotte;CD-976 : Conseil départemental de Mayotte;20260701000000;;20260701000000
+1.2.250.1.213.1.6.1.377;CEA;CEA : Collectivité Européenne d'Alsace;CEA : Collectivité Européenne d'Alsace;Collectivité Européenne d'Alsace;20260701000000;;20260701000000

@@ -61,7 +61,7 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
   "caseSensitive" : false,
   "hierarchyMeaning" : "is-a",
   "content" : "complete",
-  "count" : 58,
+  "count" : 155,
   "property" : [{
     "code" : "parent",
     "uri" : "http://hl7.org/fhir/concept-properties#parent",
@@ -544,6 +544,46 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     {
       "code" : "autoriteEnregistrementFiness",
       "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "ANS",
+    "display" : "ANS : Agence du numérique en santé",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "ANS"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "11"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : true
     }]
   },
   {
@@ -2393,6 +2433,3846 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     {
       "code" : "autoriteEnregistrementRass",
       "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "CD-01",
+    "display" : "CD-01 : Conseil départemental de l’Ain",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de l’Ain"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-02",
+    "display" : "CD-02 : Conseil départemental de l’Aisne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de l’Aisne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-03",
+    "display" : "CD-03 : Conseil départemental de l’Allier",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de l’Allier"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-04",
+    "display" : "CD-04 : Conseil départemental des Alpes-de-Haute-Provence",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD des Alpes-de-Haute-Provence"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-05",
+    "display" : "CD-05 : Conseil départemental des Hautes-Alpes",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD des Hautes-Alpes"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-06",
+    "display" : "CD-06 : Conseil départemental des Alpes-Maritimes",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD des Alpes-Maritimes"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-07",
+    "display" : "CD-07 : Conseil départemental de l’Ardèche",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de l’Ardèche"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-08",
+    "display" : "CD-08 : Conseil départemental des Ardennes",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD des Ardennes"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-09",
+    "display" : "CD-09 : Conseil départemental de l’Ariège",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de l’Ariège"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-10",
+    "display" : "CD-10 : Conseil départemental de l’Aube",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de l’Aube"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-11",
+    "display" : "CD-11 : Conseil départemental de l’Aude",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de l’Aude"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-12",
+    "display" : "CD-12 : Conseil départemental de l’Aveyron",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de l’Aveyron"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-13",
+    "display" : "CD-13 : Conseil départemental des Bouches-du-Rhône",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD des Bouches-du-Rhône"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-14",
+    "display" : "CD-14 : Conseil départemental du Calvados",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD du Calvados"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-15",
+    "display" : "CD-15 : Conseil départemental du Cantal",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD du Cantal"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-16",
+    "display" : "CD-16 : Conseil départemental de la Charente",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de la Charente"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-17",
+    "display" : "CD-17 : Conseil départemental de la Charente-Maritime",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de la Charente-Maritime"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-18",
+    "display" : "CD-18 : Conseil départemental du Cher",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD du Cher"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-19",
+    "display" : "CD-19 : Conseil départemental de la Corrèze",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de la Corrèze"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-21",
+    "display" : "CD-21 : Conseil départemental de la Côte-d’Or",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de la Côte-d’Or"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-22",
+    "display" : "CD-22 : Conseil départemental des Côtes-d’Armor",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD des Côtes-d’Armor"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-23",
+    "display" : "CD-23 : Conseil départemental de la Creuse",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de la Creuse"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-24",
+    "display" : "CD-24 : Conseil départemental de la Dordogne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de la Dordogne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-25",
+    "display" : "CD-25 : Conseil départemental du Doubs",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD du Doubs"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-26",
+    "display" : "CD-26 : Conseil départemental de la Drôme",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de la Drôme"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-27",
+    "display" : "CD-27 : Conseil départemental de l’Eure",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de l’Eure"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-28",
+    "display" : "CD-28 : Conseil départemental d’Eure-et-Loir",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD d’Eure-et-Loir"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-29",
+    "display" : "CD-29 : Conseil départemental du Finistère",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD du Finistère"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-30",
+    "display" : "CD-30 : Conseil départemental du Gard",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD du Gard"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-31",
+    "display" : "CD-31 : Conseil départemental de la Haute-Garonne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de la Haute-Garonne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-32",
+    "display" : "CD-32 : Conseil départemental du Gers",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD du Gers"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-33",
+    "display" : "CD-33 : Conseil départemental de la Gironde",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de la Gironde"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-34",
+    "display" : "CD-34 : Conseil départemental de l’Hérault",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de l’Hérault"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-35",
+    "display" : "CD-35 : Conseil départemental d’Ille-et-Vilaine",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD d’Ille-et-Vilaine"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-36",
+    "display" : "CD-36 : Conseil départemental de l’Indre",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de l’Indre"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-37",
+    "display" : "CD-37 : Conseil départemental d’Indre-et-Loire",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD d’Indre-et-Loire"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-38",
+    "display" : "CD-38 : Conseil départemental de l’Isère",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de l’Isère"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-39",
+    "display" : "CD-39 : Conseil départemental du Jura",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD du Jura"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-40",
+    "display" : "CD-40 : Conseil départemental des Landes",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD des Landes"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-41",
+    "display" : "CD-41 : Conseil départemental de Loir-et-Cher",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de Loir-et-Cher"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-42",
+    "display" : "CD-42 : Conseil départemental de la Loire",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de la Loire"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-43",
+    "display" : "CD-43 : Conseil départemental de la Haute-Loire",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de la Haute-Loire"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-44",
+    "display" : "CD-44 : Conseil départemental de la Loire-Atlantique",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de la Loire-Atlantique"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-45",
+    "display" : "CD-45 : Conseil départemental du Loiret",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD du Loiret"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-46",
+    "display" : "CD-46 : Conseil départemental du Lot",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD du Lot"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-47",
+    "display" : "CD-47 : Conseil départemental de Lot-et-Garonne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de Lot-et-Garonne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-48",
+    "display" : "CD-48 : Conseil départemental de la Lozère",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de la Lozère"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-49",
+    "display" : "CD-49 : Conseil départemental de Maine-et-Loire",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de Maine-et-Loire"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-50",
+    "display" : "CD-50 : Conseil départemental de la Manche",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de la Manche"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-51",
+    "display" : "CD-51 : Conseil départemental de la Marne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de la Marne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-52",
+    "display" : "CD-52 : Conseil départemental de la Haute-Marne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de la Haute-Marne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-53",
+    "display" : "CD-53 : Conseil départemental de la Mayenne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de la Mayenne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-54",
+    "display" : "CD-54 : Conseil départemental de Meurthe-et-Moselle",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de Meurthe-et-Moselle"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-55",
+    "display" : "CD-55 : Conseil départemental de la Meuse",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de la Meuse"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-56",
+    "display" : "CD-56 : Conseil départemental du Morbihan",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD du Morbihan"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-57",
+    "display" : "CD-57 : Conseil départemental de la Moselle",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de la Moselle"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-58",
+    "display" : "CD-58 : Conseil départemental de la Nièvre",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de la Nièvre"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-59",
+    "display" : "CD-59 : Conseil départemental du Nord",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD du Nord"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-60",
+    "display" : "CD-60 : Conseil départemental de l’Oise",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de l’Oise"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-61",
+    "display" : "CD-61 : Conseil départemental de l’Orne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de l’Orne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-62",
+    "display" : "CD-62 : Conseil départemental du Pas-de-Calais",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD du Pas-de-Calais"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-63",
+    "display" : "CD-63 : Conseil départemental du Puy-de-Dôme",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD du Puy-de-Dôme"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-64",
+    "display" : "CD-64 : Conseil départemental des Pyrénées-Atlantiques",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD des Pyrénées-Atlantiques"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-65",
+    "display" : "CD-65 : Conseil départemental des Hautes-Pyrénées",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD des Hautes-Pyrénées"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-66",
+    "display" : "CD-66 : Conseil départemental des Pyrénées-Orientales",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD des Pyrénées-Orientales"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-69",
+    "display" : "CD-69 : Conseil départemental du Rhône",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD du Rhône"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-70",
+    "display" : "CD-70 : Conseil départemental de la Haute-Saône",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de la Haute-Saône"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-71",
+    "display" : "CD-71 : Conseil départemental de Saône-et-Loire",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de Saône-et-Loire"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-72",
+    "display" : "CD-72 : Conseil départemental de la Sarthe",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de la Sarthe"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-73",
+    "display" : "CD-73 : Conseil départemental de la Savoie",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de la Savoie"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-74",
+    "display" : "CD-74 : Conseil départemental de la Haute-Savoie",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de la Haute-Savoie"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-75",
+    "display" : "CD-75 : Conseil départemental de Paris",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de Paris"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-76",
+    "display" : "CD-76 : Conseil départemental de la Seine-Maritime",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de la Seine-Maritime"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-77",
+    "display" : "CD-77 : Conseil départemental de Seine-et-Marne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de Seine-et-Marne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-78",
+    "display" : "CD-78 : Conseil départemental des Yvelines",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD des Yvelines"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-79",
+    "display" : "CD-79 : Conseil départemental des Deux-Sèvres",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD des Deux-Sèvres"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-80",
+    "display" : "CD-80 : Conseil départemental de la Somme",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de la Somme"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-81",
+    "display" : "CD-81 : Conseil départemental du Tarn",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD du Tarn"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-82",
+    "display" : "CD-82 : Conseil départemental de Tarn-et-Garonne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de Tarn-et-Garonne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-83",
+    "display" : "CD-83 : Conseil départemental du Var",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD du Var"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-84",
+    "display" : "CD-84 : Conseil départemental du Vaucluse",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD du Vaucluse"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-85",
+    "display" : "CD-85 : Conseil départemental de la Vendée",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de la Vendée"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-86",
+    "display" : "CD-86 : Conseil départemental de la Vienne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de la Vienne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-87",
+    "display" : "CD-87 : Conseil départemental de la Haute-Vienne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de la Haute-Vienne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-88",
+    "display" : "CD-88 : Conseil départemental des Vosges",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD des Vosges"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-89",
+    "display" : "CD-89 : Conseil départemental de l’Yonne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de l’Yonne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-90",
+    "display" : "CD-90 : Conseil départemental du Territoire de Belfort",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD du Territoire de Belfort"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-91",
+    "display" : "CD-91 : Conseil départemental de l’Essonne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de l’Essonne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-92",
+    "display" : "CD-92 : Conseil départemental des Hauts-de-Seine",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD des Hauts-de-Seine"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-93",
+    "display" : "CD-93 : Conseil départemental de la Seine-Saint-Denis",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de la Seine-Saint-Denis"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-94",
+    "display" : "CD-94 : Conseil départemental du Val-de-Marne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD du Val-de-Marne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-95",
+    "display" : "CD-95 : Conseil départemental du Val-d’Oise",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD du Val-d’Oise"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-971",
+    "display" : "CD-971 : Conseil départemental de la Guadeloupe",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de la Guadeloupe"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-974",
+    "display" : "CD-974 : Conseil départemental de La Réunion",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de La Réunion"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CD-976",
+    "display" : "CD-976 : Conseil départemental de Mayotte",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD de Mayotte"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "CEA",
+    "display" : "CEA : Collectivité Européenne d'Alsace",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Collectivité Européenne d'Alsace"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "06"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
     }]
   }]
 }
