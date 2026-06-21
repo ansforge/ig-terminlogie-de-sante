@@ -58,6 +58,7 @@ Type Autorité d’enregistrement
   }],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 6,
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",
@@ -133,6 +134,54 @@ Type Autorité d’enregistrement
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-03-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "04",
+    "display" : "Directions régionales de l'économie de l'emploi du travail et des solidarités",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "05",
+    "display" : "Direction régionale et de l'Hébergement et du Logement",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "11",
+    "display" : "Agence nationales",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
     },
     {
       "code" : "status",

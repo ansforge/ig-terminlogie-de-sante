@@ -37,6 +37,33 @@
                   longDesignation="Structure"
                   shortDesignation="Structure"
                   descriptionMetier=""/>
+         <concept code="04"
+                  codeSystem="1.2.250.1.213.1.6.1.74"
+                  dateFin=""
+                  dateMaj="20260701000000"
+                  dateValid="20260701000000"
+                  displayName="Directions régionales de l'économie de l'emploi du travail et des solidarités"
+                  longDesignation="Directions régionales de l'économie de l'emploi du travail et des solidarités"
+                  shortDesignation="Directions régionales de l'économie de l'emploi du travail et des solidarités"
+                  descriptionMetier=""/>
+         <concept code="05"
+                  codeSystem="1.2.250.1.213.1.6.1.74"
+                  dateFin=""
+                  dateMaj="20260701000000"
+                  dateValid="20260701000000"
+                  displayName="Direction régionale et de l'Hébergement et du Logement"
+                  longDesignation="Direction régionale et de l'Hébergement et du Logement"
+                  shortDesignation="Direction régionale et de l'Hébergement et du Logement"
+                  descriptionMetier=""/>
+         <concept code="11"
+                  codeSystem="1.2.250.1.213.1.6.1.74"
+                  dateFin=""
+                  dateMaj="20260701000000"
+                  dateValid="20260701000000"
+                  displayName="Agence nationales"
+                  longDesignation="Agence nationales"
+                  shortDesignation="Agence nationales"
+                  descriptionMetier=""/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>
