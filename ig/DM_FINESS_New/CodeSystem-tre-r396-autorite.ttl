@@ -35,12 +35,12 @@
      fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.377" ]
   ] ) ; # 
-  fhir:version [ fhir:v "20260330120000"] ; # 
+  fhir:version [ fhir:v "20260629120000"] ; # 
   fhir:name [ fhir:v "TreR396Autorite"] ; # 
   fhir:title [ fhir:v "Tre R396 Autorite"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-03-30T12:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-06-29T12:00:00+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:description [ fhir:v "liste des autorités structurée en plusieurs types d'autorités : Ordres, ARS, ..."] ; # 
   fhir:jurisdiction ( [

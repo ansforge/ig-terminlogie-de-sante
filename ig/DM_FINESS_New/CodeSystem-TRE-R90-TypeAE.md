@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R90-TypeAE/FHIR/TRE-R90-TypeAE | *Version*:20231215120000 | |
-| Active as of 2023-12-15 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R90_TypeAE |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R90-TypeAE/FHIR/TRE-R90-TypeAE | *Version*:20260629120000 | |
+| Active as of 2026-06-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R90_TypeAE |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.74 | | |
 
  
@@ -43,11 +43,11 @@ Type Autorité d’enregistrement
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.74"
   }],
-  "version" : "20231215120000",
+  "version" : "20260629120000",
   "name" : "TRE_R90_TypeAE",
   "status" : "active",
   "experimental" : false,
-  "date" : "2023-12-15T12:00:00+01:00",
+  "date" : "2026-06-29T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Type Autorité d'enregistrement",
   "jurisdiction" : [{

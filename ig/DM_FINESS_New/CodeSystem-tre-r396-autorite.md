@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:http://hl7.org/fhir/us/example/CodeSystem/tre-r396-autorite | *Version*:20260330120000 | |
-| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR396Autorite |
+| *Official URL*:http://hl7.org/fhir/us/example/CodeSystem/tre-r396-autorite | *Version*:20260629120000 | |
+| Active as of 2026-06-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR396Autorite |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.377 | | |
 
  
@@ -44,12 +44,12 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.377"
   }],
-  "version" : "20260330120000",
+  "version" : "20260629120000",
   "name" : "TreR396Autorite",
   "title" : "Tre R396 Autorite",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-30T12:00:00+01:00",
+  "date" : "2026-06-29T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "liste des autorités structurée en plusieurs types d'autorités : Ordres, ARS, ...",
   "jurisdiction" : [{

@@ -20,11 +20,11 @@
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:1.2.250.1.213.1.6.1.74"/>
   </identifier>
-  <version value="20231215120000"/>
+  <version value="20260629120000"/>
   <name value="TRE_R90_TypeAE"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2023-12-15T12:00:00+01:00"/>
+  <date value="2026-06-29T12:00:00+01:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <description value="Type Autorité d'enregistrement"/>
   <jurisdiction>
