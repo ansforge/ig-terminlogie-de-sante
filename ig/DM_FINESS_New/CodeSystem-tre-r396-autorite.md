@@ -61,7 +61,7 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
   "caseSensitive" : false,
   "hierarchyMeaning" : "is-a",
   "content" : "complete",
-  "count" : 49,
+  "count" : 58,
   "property" : [{
     "code" : "parent",
     "uri" : "http://hl7.org/fhir/concept-properties#parent",
@@ -219,6 +219,150 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     }]
   },
   {
+    "code" : "04",
+    "display" : "Directions régionales de l'économie de l'emploi du travail et des solidarités",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DREETS"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-03-22T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-03-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 1
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "05",
+    "display" : "Direction régionale et de l'Hébergement et du Logement",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DRIHL"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-03-22T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-03-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 1
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "06",
+    "display" : "Conseil départemental",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CD"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-03-22T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-03-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 1
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "07",
+    "display" : "Direction Départementale de l'Emploi, du Travail et des Solidarités",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DDETS"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-03-22T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-03-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 1
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
     "code" : "08",
     "display" : "Services des Armées",
     "designation" : [{
@@ -244,6 +388,162 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     {
       "code" : "niveau",
       "valueInteger" : 1
+    }]
+  },
+  {
+    "code" : "09",
+    "display" : "Préfecture",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-03-22T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-03-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 1
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "10",
+    "display" : "CR",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CR"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-03-22T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-03-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 1
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "11",
+    "display" : "Agence nationale",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-03-22T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-03-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 1
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "12",
+    "display" : "Métropole",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-03-22T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-03-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 1
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "13",
+    "display" : "Collectivité territoriale",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "CT"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-03-22T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-03-22T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 1
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
     }]
   },
   {
