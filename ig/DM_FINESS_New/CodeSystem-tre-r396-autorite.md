@@ -61,7 +61,7 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
   "caseSensitive" : false,
   "hierarchyMeaning" : "is-a",
   "content" : "complete",
-  "count" : 286,
+  "count" : 388,
   "property" : [{
     "code" : "parent",
     "uri" : "http://hl7.org/fhir/concept-properties#parent",
@@ -11665,6 +11665,4086 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
     {
       "code" : "autoriteEnregistrementFiness",
       "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "MET-LYO",
+    "display" : "MET-LYO : Métropole de Lyon",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Métropole de Lyon"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "12"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-01",
+    "display" : "PREF-01 : Préfecture de l’Ain",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de l’Ain"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-02",
+    "display" : "PREF-02 : Préfecture de l’Aisne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de l’Aisne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-03",
+    "display" : "PREF-03 : Préfecture de l’Allier",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de l’Allier"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-04",
+    "display" : "PREF-04 : Préfecture des Alpes-de-Haute-Provence",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture des Alpes-de-Haute-Provence"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-05",
+    "display" : "PREF-05 : Préfecture des Hautes-Alpes",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture des Hautes-Alpes"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-06",
+    "display" : "PREF-06 : Préfecture des Alpes-Maritimes",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture des Alpes-Maritimes"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-07",
+    "display" : "PREF-07 : Préfecture de l’Ardèche",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de l’Ardèche"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-08",
+    "display" : "PREF-08 : Préfecture des Ardennes",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture des Ardennes"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-09",
+    "display" : "PREF-09 : Préfecture de l’Ariège",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de l’Ariège"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-10",
+    "display" : "PREF-10 : Préfecture de l’Aube",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de l’Aube"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-11",
+    "display" : "PREF-11 : Préfecture de l’Aude",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de l’Aude"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-12",
+    "display" : "PREF-12 : Préfecture de l’Aveyron",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de l’Aveyron"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-13",
+    "display" : "PREF-13 : Préfecture des Bouches-du-Rhône",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture des Bouches-du-Rhône"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-14",
+    "display" : "PREF-14 : Préfecture du Calvados",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture du Calvados"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-15",
+    "display" : "PREF-15 : Préfecture du Cantal",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture du Cantal"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-16",
+    "display" : "PREF-16 : Préfecture de la Charente",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de la Charente"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-17",
+    "display" : "PREF-17 : Préfecture de la Charente-Maritime",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de la Charente-Maritime"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-18",
+    "display" : "PREF-18 : Préfecture du Cher",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture du Cher"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-19",
+    "display" : "PREF-19 : Préfecture de la Corrèze",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de la Corrèze"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-21",
+    "display" : "PREF-21 : Préfecture de la Côte-d’Or",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de la Côte-d’Or"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-22",
+    "display" : "PREF-22 : Préfecture des Côtes-d’Armor",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture des Côtes-d’Armor"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-23",
+    "display" : "PREF-23 : Préfecture de la Creuse",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de la Creuse"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-24",
+    "display" : "PREF-24 : Préfecture de la Dordogne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de la Dordogne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-25",
+    "display" : "PREF-25 : Préfecture du Doubs",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture du Doubs"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-26",
+    "display" : "PREF-26 : Préfecture de la Drôme",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de la Drôme"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-27",
+    "display" : "PREF-27 : Préfecture de l’Eure",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de l’Eure"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-28",
+    "display" : "PREF-28 : Préfecture d’Eure-et-Loir",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture d’Eure-et-Loir"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-29",
+    "display" : "PREF-29 : Préfecture du Finistère",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture du Finistère"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-2A",
+    "display" : "PREF-2A : Préfecture de la Corse-du-Sud",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de la Corse-du-Sud"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-2B",
+    "display" : "PREF-2B : Préfecture de la Haute-Corse",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de la Haute-Corse"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-30",
+    "display" : "PREF-30 : Préfecture du Gard",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture du Gard"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-31",
+    "display" : "PREF-31 : Préfecture de la Haute-Garonne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de la Haute-Garonne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-32",
+    "display" : "PREF-32 : Préfecture du Gers",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture du Gers"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-33",
+    "display" : "PREF-33 : Préfecture de la Gironde",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de la Gironde"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-34",
+    "display" : "PREF-34 : Préfecture de l’Hérault",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de l’Hérault"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-35",
+    "display" : "PREF-35 : Préfecture d’Ille-et-Vilaine",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture d’Ille-et-Vilaine"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-36",
+    "display" : "PREF-36 : Préfecture de l’Indre",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de l’Indre"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-37",
+    "display" : "PREF-37 : Préfecture d’Indre-et-Loire",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture d’Indre-et-Loire"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-38",
+    "display" : "PREF-38 : Préfecture de l’Isère",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de l’Isère"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-39",
+    "display" : "PREF-39 : Préfecture du Jura",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture du Jura"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-40",
+    "display" : "PREF-40 : Préfecture des Landes",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture des Landes"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-41",
+    "display" : "PREF-41 : Préfecture du Loir-et-Cher",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture du Loir-et-Cher"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-42",
+    "display" : "PREF-42 : Préfecture de la Loire",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de la Loire"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-43",
+    "display" : "PREF-43 : Préfecture de la Haute-Loire",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de la Haute-Loire"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-44",
+    "display" : "PREF-44 : Préfecture de la Loire-Atlantique",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de la Loire-Atlantique"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-45",
+    "display" : "PREF-45 : Préfecture du Loiret",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture du Loiret"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-46",
+    "display" : "PREF-46 : Préfecture du Lot",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture du Lot"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-47",
+    "display" : "PREF-47 : Préfecture du Lot-et-Garonne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture du Lot-et-Garonne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-48",
+    "display" : "PREF-48 : Préfecture de la Lozère",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de la Lozère"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-49",
+    "display" : "PREF-49 : Préfecture de Maine-et-Loire",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de Maine-et-Loire"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-50",
+    "display" : "PREF-50 : Préfecture de la Manche",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de la Manche"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-51",
+    "display" : "PREF-51 : Préfecture de la Marne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de la Marne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-52",
+    "display" : "PREF-52 : Préfecture de la Haute-Marne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de la Haute-Marne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-53",
+    "display" : "PREF-53 : Préfecture de la Mayenne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de la Mayenne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-54",
+    "display" : "PREF-54 : Préfecture de Meurthe-et-Moselle",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de Meurthe-et-Moselle"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-55",
+    "display" : "PREF-55 : Préfecture de la Meuse",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de la Meuse"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-56",
+    "display" : "PREF-56 : Préfecture du Morbihan",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture du Morbihan"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-57",
+    "display" : "PREF-57 : Préfecture de la Moselle",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de la Moselle"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-58",
+    "display" : "PREF-58 : Préfecture de la Nièvre",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de la Nièvre"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-59",
+    "display" : "PREF-59 : Préfecture du Nord",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture du Nord"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-60",
+    "display" : "PREF-60 : Préfecture de l’Oise",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de l’Oise"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-61",
+    "display" : "PREF-61 : Préfecture de l’Orne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de l’Orne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-62",
+    "display" : "PREF-62 : Préfecture du Pas-de-Calais",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture du Pas-de-Calais"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-63",
+    "display" : "PREF-63 : Préfecture du Puy-de-Dôme",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture du Puy-de-Dôme"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-64",
+    "display" : "PREF-64 : Préfecture des Pyrénées-Atlantiques",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture des Pyrénées-Atlantiques"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-65",
+    "display" : "PREF-65 : Préfecture des Hautes-Pyrénées",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture des Hautes-Pyrénées"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-66",
+    "display" : "PREF-66 : Préfecture des Pyrénées-Orientales",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture des Pyrénées-Orientales"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-67",
+    "display" : "PREF-67 : Préfecture du Bas-Rhin",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture du Bas-Rhin"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-68",
+    "display" : "PREF-68 : Préfecture du Haut-Rhin",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture du Haut-Rhin"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-69",
+    "display" : "PREF-69 : Préfecture du Rhône",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture du Rhône"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-70",
+    "display" : "PREF-70 : Préfecture de la Haute-Saône",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de la Haute-Saône"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-71",
+    "display" : "PREF-71 : Préfecture de Saône-et-Loire",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de Saône-et-Loire"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-72",
+    "display" : "PREF-72 : Préfecture de la Sarthe",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de la Sarthe"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-73",
+    "display" : "PREF-73 : Préfecture de la Savoie",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de la Savoie"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-74",
+    "display" : "PREF-74 : Préfecture de la Haute-Savoie",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de la Haute-Savoie"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-75",
+    "display" : "PREF-75 : Préfecture de Paris",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de Paris"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-76",
+    "display" : "PREF-76 : Préfecture de la Seine-Maritime",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de la Seine-Maritime"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-77",
+    "display" : "PREF-77 : Préfecture de Seine-et-Marne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de Seine-et-Marne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-78",
+    "display" : "PREF-78 : Préfecture des Yvelines",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture des Yvelines"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-79",
+    "display" : "PREF-79 : Préfecture des Deux-Sèvres",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture des Deux-Sèvres"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-80",
+    "display" : "PREF-80 : Préfecture de la Somme",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de la Somme"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-81",
+    "display" : "PREF-81 : Préfecture du Tarn",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture du Tarn"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-82",
+    "display" : "PREF-82 : Préfecture du Tarn-et-Garonne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture du Tarn-et-Garonne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-83",
+    "display" : "PREF-83 : Préfecture du Var",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture du Var"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-84",
+    "display" : "PREF-84 : Préfecture de Vaucluse",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de Vaucluse"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-85",
+    "display" : "PREF-85 : Préfecture de la Vendée",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de la Vendée"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-86",
+    "display" : "PREF-86 : Préfecture de la Vienne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de la Vienne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-87",
+    "display" : "PREF-87 : Préfecture de la Haute-Vienne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de la Haute-Vienne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-88",
+    "display" : "PREF-88 : Préfecture des Vosges",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture des Vosges"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-89",
+    "display" : "PREF-89 : Préfecture de l’Yonne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de l’Yonne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-90",
+    "display" : "PREF-90 : Préfecture du Territoire de Belfort",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture du Territoire de Belfort"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-91",
+    "display" : "PREF-91 : Préfecture de l’Essonne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de l’Essonne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-92",
+    "display" : "PREF-92 : Préfecture des Hauts-de-Seine",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture des Hauts-de-Seine"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-93",
+    "display" : "PREF-93 : Préfecture de la Seine-Saint-Denis",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de la Seine-Saint-Denis"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-94",
+    "display" : "PREF-94 : Préfecture du Val-de-Marne",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture du Val-de-Marne"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-95",
+    "display" : "PREF-95 : Préfecture du Val-d’Oise",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture du Val-d’Oise"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-971",
+    "display" : "PREF-971 : Préfecture de la Guadeloupe",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de la Guadeloupe"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-972",
+    "display" : "PREF-972 : Préfecture de la Martinique",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de la Martinique"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-973",
+    "display" : "PREF-973 : Préfecture de la Guyane",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de la Guyane"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-974",
+    "display" : "PREF-974 : Préfecture de La Réunion",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de La Réunion"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "PREF-976",
+    "display" : "PREF-976 : Préfecture de Mayotte",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Préfecture de Mayotte"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-07-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "parent",
+      "valueCode" : "09"
+    },
+    {
+      "code" : "autoriteRegulationFiness",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "autoriteEnregistrementFiness",
+      "valueBoolean" : false
     }]
   }]
 }
