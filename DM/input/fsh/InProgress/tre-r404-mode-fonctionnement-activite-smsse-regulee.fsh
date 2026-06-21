@@ -821,6 +821,13 @@ Cette TRE remplace la TRE_R209-TypeActivite
 * #53 ^property[=].valueCode = #active
 * #53 ^property[+].code = #rass
 * #53 ^property[=].valueBoolean = true
+* #54 "Accueil familial"
+* #54 ^property[0].code = #dateValid
+* #54 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #54 ^property[+].code = #dateMaj
+* #54 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #54 ^property[+].code = #status
+* #54 ^property[=].valueCode = #active
 * #60 "Consultations et actes"
 * #60 ^designation[0].language = #fr-FR
 * #60 ^designation[=].use.system = "http://snomed.info/sct"
