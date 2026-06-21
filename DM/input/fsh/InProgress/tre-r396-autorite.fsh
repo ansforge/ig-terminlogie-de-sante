@@ -5547,4 +5547,1943 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #DRHIL-11 ^property[=].valueBoolean = false
 * #DRHIL-11 ^property[+].code = #autoriteEnregistrementFiness
 * #DRHIL-11 ^property[=].valueBoolean = true
+* #MET-LYO "MET-LYO : Métropole de Lyon"
+* #MET-LYO ^designation[0].language = #fr-FR
+* #MET-LYO ^designation[=].use.system = "http://snomed.info/sct"
+* #MET-LYO ^designation[=].use = $sct#900000000000013009
+* #MET-LYO ^designation[=].value = "Métropole de Lyon"
+* #MET-LYO ^property[0].code = #dateValid
+* #MET-LYO ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #MET-LYO ^property[+].code = #dateMaj
+* #MET-LYO ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #MET-LYO ^property[+].code = #status
+* #MET-LYO ^property[=].valueCode = #active
+* #MET-LYO ^property[+].code = #niveau
+* #MET-LYO ^property[=].valueInteger = 2
+* #MET-LYO ^property[+].code = #parent
+* #MET-LYO ^property[=].valueCode = #12
+* #MET-LYO ^property[+].code = #autoriteRegulationFiness
+* #MET-LYO ^property[=].valueBoolean = true
+* #MET-LYO ^property[+].code = #autoriteEnregistrementFiness
+* #MET-LYO ^property[=].valueBoolean = false
+* #PREF-01 "PREF-01 : Préfecture de l’Ain"
+* #PREF-01 ^designation[0].language = #fr-FR
+* #PREF-01 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-01 ^designation[=].use = $sct#900000000000013009
+* #PREF-01 ^designation[=].value = "Préfecture de l’Ain"
+* #PREF-01 ^property[0].code = #dateValid
+* #PREF-01 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-01 ^property[+].code = #dateMaj
+* #PREF-01 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-01 ^property[+].code = #status
+* #PREF-01 ^property[=].valueCode = #active
+* #PREF-01 ^property[+].code = #niveau
+* #PREF-01 ^property[=].valueInteger = 2
+* #PREF-01 ^property[+].code = #parent
+* #PREF-01 ^property[=].valueCode = #09
+* #PREF-01 ^property[+].code = #autoriteRegulationFiness
+* #PREF-01 ^property[=].valueBoolean = true
+* #PREF-01 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-01 ^property[=].valueBoolean = false
+* #PREF-02 "PREF-02 : Préfecture de l’Aisne"
+* #PREF-02 ^designation[0].language = #fr-FR
+* #PREF-02 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-02 ^designation[=].use = $sct#900000000000013009
+* #PREF-02 ^designation[=].value = "Préfecture de l’Aisne"
+* #PREF-02 ^property[0].code = #dateValid
+* #PREF-02 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-02 ^property[+].code = #dateMaj
+* #PREF-02 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-02 ^property[+].code = #status
+* #PREF-02 ^property[=].valueCode = #active
+* #PREF-02 ^property[+].code = #niveau
+* #PREF-02 ^property[=].valueInteger = 2
+* #PREF-02 ^property[+].code = #parent
+* #PREF-02 ^property[=].valueCode = #09
+* #PREF-02 ^property[+].code = #autoriteRegulationFiness
+* #PREF-02 ^property[=].valueBoolean = true
+* #PREF-02 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-02 ^property[=].valueBoolean = false
+* #PREF-03 "PREF-03 : Préfecture de l’Allier"
+* #PREF-03 ^designation[0].language = #fr-FR
+* #PREF-03 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-03 ^designation[=].use = $sct#900000000000013009
+* #PREF-03 ^designation[=].value = "Préfecture de l’Allier"
+* #PREF-03 ^property[0].code = #dateValid
+* #PREF-03 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-03 ^property[+].code = #dateMaj
+* #PREF-03 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-03 ^property[+].code = #status
+* #PREF-03 ^property[=].valueCode = #active
+* #PREF-03 ^property[+].code = #niveau
+* #PREF-03 ^property[=].valueInteger = 2
+* #PREF-03 ^property[+].code = #parent
+* #PREF-03 ^property[=].valueCode = #09
+* #PREF-03 ^property[+].code = #autoriteRegulationFiness
+* #PREF-03 ^property[=].valueBoolean = true
+* #PREF-03 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-03 ^property[=].valueBoolean = false
+* #PREF-04 "PREF-04 : Préfecture des Alpes-de-Haute-Provence"
+* #PREF-04 ^designation[0].language = #fr-FR
+* #PREF-04 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-04 ^designation[=].use = $sct#900000000000013009
+* #PREF-04 ^designation[=].value = "Préfecture des Alpes-de-Haute-Provence"
+* #PREF-04 ^property[0].code = #dateValid
+* #PREF-04 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-04 ^property[+].code = #dateMaj
+* #PREF-04 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-04 ^property[+].code = #status
+* #PREF-04 ^property[=].valueCode = #active
+* #PREF-04 ^property[+].code = #niveau
+* #PREF-04 ^property[=].valueInteger = 2
+* #PREF-04 ^property[+].code = #parent
+* #PREF-04 ^property[=].valueCode = #09
+* #PREF-04 ^property[+].code = #autoriteRegulationFiness
+* #PREF-04 ^property[=].valueBoolean = true
+* #PREF-04 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-04 ^property[=].valueBoolean = false
+* #PREF-05 "PREF-05 : Préfecture des Hautes-Alpes"
+* #PREF-05 ^designation[0].language = #fr-FR
+* #PREF-05 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-05 ^designation[=].use = $sct#900000000000013009
+* #PREF-05 ^designation[=].value = "Préfecture des Hautes-Alpes"
+* #PREF-05 ^property[0].code = #dateValid
+* #PREF-05 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-05 ^property[+].code = #dateMaj
+* #PREF-05 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-05 ^property[+].code = #status
+* #PREF-05 ^property[=].valueCode = #active
+* #PREF-05 ^property[+].code = #niveau
+* #PREF-05 ^property[=].valueInteger = 2
+* #PREF-05 ^property[+].code = #parent
+* #PREF-05 ^property[=].valueCode = #09
+* #PREF-05 ^property[+].code = #autoriteRegulationFiness
+* #PREF-05 ^property[=].valueBoolean = true
+* #PREF-05 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-05 ^property[=].valueBoolean = false
+* #PREF-06 "PREF-06 : Préfecture des Alpes-Maritimes"
+* #PREF-06 ^designation[0].language = #fr-FR
+* #PREF-06 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-06 ^designation[=].use = $sct#900000000000013009
+* #PREF-06 ^designation[=].value = "Préfecture des Alpes-Maritimes"
+* #PREF-06 ^property[0].code = #dateValid
+* #PREF-06 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-06 ^property[+].code = #dateMaj
+* #PREF-06 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-06 ^property[+].code = #status
+* #PREF-06 ^property[=].valueCode = #active
+* #PREF-06 ^property[+].code = #niveau
+* #PREF-06 ^property[=].valueInteger = 2
+* #PREF-06 ^property[+].code = #parent
+* #PREF-06 ^property[=].valueCode = #09
+* #PREF-06 ^property[+].code = #autoriteRegulationFiness
+* #PREF-06 ^property[=].valueBoolean = true
+* #PREF-06 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-06 ^property[=].valueBoolean = false
+* #PREF-07 "PREF-07 : Préfecture de l’Ardèche"
+* #PREF-07 ^designation[0].language = #fr-FR
+* #PREF-07 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-07 ^designation[=].use = $sct#900000000000013009
+* #PREF-07 ^designation[=].value = "Préfecture de l’Ardèche"
+* #PREF-07 ^property[0].code = #dateValid
+* #PREF-07 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-07 ^property[+].code = #dateMaj
+* #PREF-07 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-07 ^property[+].code = #status
+* #PREF-07 ^property[=].valueCode = #active
+* #PREF-07 ^property[+].code = #niveau
+* #PREF-07 ^property[=].valueInteger = 2
+* #PREF-07 ^property[+].code = #parent
+* #PREF-07 ^property[=].valueCode = #09
+* #PREF-07 ^property[+].code = #autoriteRegulationFiness
+* #PREF-07 ^property[=].valueBoolean = true
+* #PREF-07 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-07 ^property[=].valueBoolean = false
+* #PREF-08 "PREF-08 : Préfecture des Ardennes"
+* #PREF-08 ^designation[0].language = #fr-FR
+* #PREF-08 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-08 ^designation[=].use = $sct#900000000000013009
+* #PREF-08 ^designation[=].value = "Préfecture des Ardennes"
+* #PREF-08 ^property[0].code = #dateValid
+* #PREF-08 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-08 ^property[+].code = #dateMaj
+* #PREF-08 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-08 ^property[+].code = #status
+* #PREF-08 ^property[=].valueCode = #active
+* #PREF-08 ^property[+].code = #niveau
+* #PREF-08 ^property[=].valueInteger = 2
+* #PREF-08 ^property[+].code = #parent
+* #PREF-08 ^property[=].valueCode = #09
+* #PREF-08 ^property[+].code = #autoriteRegulationFiness
+* #PREF-08 ^property[=].valueBoolean = true
+* #PREF-08 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-08 ^property[=].valueBoolean = false
+* #PREF-09 "PREF-09 : Préfecture de l’Ariège"
+* #PREF-09 ^designation[0].language = #fr-FR
+* #PREF-09 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-09 ^designation[=].use = $sct#900000000000013009
+* #PREF-09 ^designation[=].value = "Préfecture de l’Ariège"
+* #PREF-09 ^property[0].code = #dateValid
+* #PREF-09 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-09 ^property[+].code = #dateMaj
+* #PREF-09 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-09 ^property[+].code = #status
+* #PREF-09 ^property[=].valueCode = #active
+* #PREF-09 ^property[+].code = #niveau
+* #PREF-09 ^property[=].valueInteger = 2
+* #PREF-09 ^property[+].code = #parent
+* #PREF-09 ^property[=].valueCode = #09
+* #PREF-09 ^property[+].code = #autoriteRegulationFiness
+* #PREF-09 ^property[=].valueBoolean = true
+* #PREF-09 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-09 ^property[=].valueBoolean = false
+* #PREF-10 "PREF-10 : Préfecture de l’Aube"
+* #PREF-10 ^designation[0].language = #fr-FR
+* #PREF-10 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-10 ^designation[=].use = $sct#900000000000013009
+* #PREF-10 ^designation[=].value = "Préfecture de l’Aube"
+* #PREF-10 ^property[0].code = #dateValid
+* #PREF-10 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-10 ^property[+].code = #dateMaj
+* #PREF-10 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-10 ^property[+].code = #status
+* #PREF-10 ^property[=].valueCode = #active
+* #PREF-10 ^property[+].code = #niveau
+* #PREF-10 ^property[=].valueInteger = 2
+* #PREF-10 ^property[+].code = #parent
+* #PREF-10 ^property[=].valueCode = #09
+* #PREF-10 ^property[+].code = #autoriteRegulationFiness
+* #PREF-10 ^property[=].valueBoolean = true
+* #PREF-10 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-10 ^property[=].valueBoolean = false
+* #PREF-11 "PREF-11 : Préfecture de l’Aude"
+* #PREF-11 ^designation[0].language = #fr-FR
+* #PREF-11 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-11 ^designation[=].use = $sct#900000000000013009
+* #PREF-11 ^designation[=].value = "Préfecture de l’Aude"
+* #PREF-11 ^property[0].code = #dateValid
+* #PREF-11 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-11 ^property[+].code = #dateMaj
+* #PREF-11 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-11 ^property[+].code = #status
+* #PREF-11 ^property[=].valueCode = #active
+* #PREF-11 ^property[+].code = #niveau
+* #PREF-11 ^property[=].valueInteger = 2
+* #PREF-11 ^property[+].code = #parent
+* #PREF-11 ^property[=].valueCode = #09
+* #PREF-11 ^property[+].code = #autoriteRegulationFiness
+* #PREF-11 ^property[=].valueBoolean = true
+* #PREF-11 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-11 ^property[=].valueBoolean = false
+* #PREF-12 "PREF-12 : Préfecture de l’Aveyron"
+* #PREF-12 ^designation[0].language = #fr-FR
+* #PREF-12 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-12 ^designation[=].use = $sct#900000000000013009
+* #PREF-12 ^designation[=].value = "Préfecture de l’Aveyron"
+* #PREF-12 ^property[0].code = #dateValid
+* #PREF-12 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-12 ^property[+].code = #dateMaj
+* #PREF-12 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-12 ^property[+].code = #status
+* #PREF-12 ^property[=].valueCode = #active
+* #PREF-12 ^property[+].code = #niveau
+* #PREF-12 ^property[=].valueInteger = 2
+* #PREF-12 ^property[+].code = #parent
+* #PREF-12 ^property[=].valueCode = #09
+* #PREF-12 ^property[+].code = #autoriteRegulationFiness
+* #PREF-12 ^property[=].valueBoolean = true
+* #PREF-12 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-12 ^property[=].valueBoolean = false
+* #PREF-13 "PREF-13 : Préfecture des Bouches-du-Rhône"
+* #PREF-13 ^designation[0].language = #fr-FR
+* #PREF-13 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-13 ^designation[=].use = $sct#900000000000013009
+* #PREF-13 ^designation[=].value = "Préfecture des Bouches-du-Rhône"
+* #PREF-13 ^property[0].code = #dateValid
+* #PREF-13 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-13 ^property[+].code = #dateMaj
+* #PREF-13 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-13 ^property[+].code = #status
+* #PREF-13 ^property[=].valueCode = #active
+* #PREF-13 ^property[+].code = #niveau
+* #PREF-13 ^property[=].valueInteger = 2
+* #PREF-13 ^property[+].code = #parent
+* #PREF-13 ^property[=].valueCode = #09
+* #PREF-13 ^property[+].code = #autoriteRegulationFiness
+* #PREF-13 ^property[=].valueBoolean = true
+* #PREF-13 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-13 ^property[=].valueBoolean = false
+* #PREF-14 "PREF-14 : Préfecture du Calvados"
+* #PREF-14 ^designation[0].language = #fr-FR
+* #PREF-14 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-14 ^designation[=].use = $sct#900000000000013009
+* #PREF-14 ^designation[=].value = "Préfecture du Calvados"
+* #PREF-14 ^property[0].code = #dateValid
+* #PREF-14 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-14 ^property[+].code = #dateMaj
+* #PREF-14 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-14 ^property[+].code = #status
+* #PREF-14 ^property[=].valueCode = #active
+* #PREF-14 ^property[+].code = #niveau
+* #PREF-14 ^property[=].valueInteger = 2
+* #PREF-14 ^property[+].code = #parent
+* #PREF-14 ^property[=].valueCode = #09
+* #PREF-14 ^property[+].code = #autoriteRegulationFiness
+* #PREF-14 ^property[=].valueBoolean = true
+* #PREF-14 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-14 ^property[=].valueBoolean = false
+* #PREF-15 "PREF-15 : Préfecture du Cantal"
+* #PREF-15 ^designation[0].language = #fr-FR
+* #PREF-15 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-15 ^designation[=].use = $sct#900000000000013009
+* #PREF-15 ^designation[=].value = "Préfecture du Cantal"
+* #PREF-15 ^property[0].code = #dateValid
+* #PREF-15 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-15 ^property[+].code = #dateMaj
+* #PREF-15 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-15 ^property[+].code = #status
+* #PREF-15 ^property[=].valueCode = #active
+* #PREF-15 ^property[+].code = #niveau
+* #PREF-15 ^property[=].valueInteger = 2
+* #PREF-15 ^property[+].code = #parent
+* #PREF-15 ^property[=].valueCode = #09
+* #PREF-15 ^property[+].code = #autoriteRegulationFiness
+* #PREF-15 ^property[=].valueBoolean = true
+* #PREF-15 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-15 ^property[=].valueBoolean = false
+* #PREF-16 "PREF-16 : Préfecture de la Charente"
+* #PREF-16 ^designation[0].language = #fr-FR
+* #PREF-16 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-16 ^designation[=].use = $sct#900000000000013009
+* #PREF-16 ^designation[=].value = "Préfecture de la Charente"
+* #PREF-16 ^property[0].code = #dateValid
+* #PREF-16 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-16 ^property[+].code = #dateMaj
+* #PREF-16 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-16 ^property[+].code = #status
+* #PREF-16 ^property[=].valueCode = #active
+* #PREF-16 ^property[+].code = #niveau
+* #PREF-16 ^property[=].valueInteger = 2
+* #PREF-16 ^property[+].code = #parent
+* #PREF-16 ^property[=].valueCode = #09
+* #PREF-16 ^property[+].code = #autoriteRegulationFiness
+* #PREF-16 ^property[=].valueBoolean = true
+* #PREF-16 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-16 ^property[=].valueBoolean = false
+* #PREF-17 "PREF-17 : Préfecture de la Charente-Maritime"
+* #PREF-17 ^designation[0].language = #fr-FR
+* #PREF-17 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-17 ^designation[=].use = $sct#900000000000013009
+* #PREF-17 ^designation[=].value = "Préfecture de la Charente-Maritime"
+* #PREF-17 ^property[0].code = #dateValid
+* #PREF-17 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-17 ^property[+].code = #dateMaj
+* #PREF-17 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-17 ^property[+].code = #status
+* #PREF-17 ^property[=].valueCode = #active
+* #PREF-17 ^property[+].code = #niveau
+* #PREF-17 ^property[=].valueInteger = 2
+* #PREF-17 ^property[+].code = #parent
+* #PREF-17 ^property[=].valueCode = #09
+* #PREF-17 ^property[+].code = #autoriteRegulationFiness
+* #PREF-17 ^property[=].valueBoolean = true
+* #PREF-17 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-17 ^property[=].valueBoolean = false
+* #PREF-18 "PREF-18 : Préfecture du Cher"
+* #PREF-18 ^designation[0].language = #fr-FR
+* #PREF-18 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-18 ^designation[=].use = $sct#900000000000013009
+* #PREF-18 ^designation[=].value = "Préfecture du Cher"
+* #PREF-18 ^property[0].code = #dateValid
+* #PREF-18 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-18 ^property[+].code = #dateMaj
+* #PREF-18 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-18 ^property[+].code = #status
+* #PREF-18 ^property[=].valueCode = #active
+* #PREF-18 ^property[+].code = #niveau
+* #PREF-18 ^property[=].valueInteger = 2
+* #PREF-18 ^property[+].code = #parent
+* #PREF-18 ^property[=].valueCode = #09
+* #PREF-18 ^property[+].code = #autoriteRegulationFiness
+* #PREF-18 ^property[=].valueBoolean = true
+* #PREF-18 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-18 ^property[=].valueBoolean = false
+* #PREF-19 "PREF-19 : Préfecture de la Corrèze"
+* #PREF-19 ^designation[0].language = #fr-FR
+* #PREF-19 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-19 ^designation[=].use = $sct#900000000000013009
+* #PREF-19 ^designation[=].value = "Préfecture de la Corrèze"
+* #PREF-19 ^property[0].code = #dateValid
+* #PREF-19 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-19 ^property[+].code = #dateMaj
+* #PREF-19 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-19 ^property[+].code = #status
+* #PREF-19 ^property[=].valueCode = #active
+* #PREF-19 ^property[+].code = #niveau
+* #PREF-19 ^property[=].valueInteger = 2
+* #PREF-19 ^property[+].code = #parent
+* #PREF-19 ^property[=].valueCode = #09
+* #PREF-19 ^property[+].code = #autoriteRegulationFiness
+* #PREF-19 ^property[=].valueBoolean = true
+* #PREF-19 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-19 ^property[=].valueBoolean = false
+* #PREF-21 "PREF-21 : Préfecture de la Côte-d’Or"
+* #PREF-21 ^designation[0].language = #fr-FR
+* #PREF-21 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-21 ^designation[=].use = $sct#900000000000013009
+* #PREF-21 ^designation[=].value = "Préfecture de la Côte-d’Or"
+* #PREF-21 ^property[0].code = #dateValid
+* #PREF-21 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-21 ^property[+].code = #dateMaj
+* #PREF-21 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-21 ^property[+].code = #status
+* #PREF-21 ^property[=].valueCode = #active
+* #PREF-21 ^property[+].code = #niveau
+* #PREF-21 ^property[=].valueInteger = 2
+* #PREF-21 ^property[+].code = #parent
+* #PREF-21 ^property[=].valueCode = #09
+* #PREF-21 ^property[+].code = #autoriteRegulationFiness
+* #PREF-21 ^property[=].valueBoolean = true
+* #PREF-21 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-21 ^property[=].valueBoolean = false
+* #PREF-22 "PREF-22 : Préfecture des Côtes-d’Armor"
+* #PREF-22 ^designation[0].language = #fr-FR
+* #PREF-22 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-22 ^designation[=].use = $sct#900000000000013009
+* #PREF-22 ^designation[=].value = "Préfecture des Côtes-d’Armor"
+* #PREF-22 ^property[0].code = #dateValid
+* #PREF-22 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-22 ^property[+].code = #dateMaj
+* #PREF-22 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-22 ^property[+].code = #status
+* #PREF-22 ^property[=].valueCode = #active
+* #PREF-22 ^property[+].code = #niveau
+* #PREF-22 ^property[=].valueInteger = 2
+* #PREF-22 ^property[+].code = #parent
+* #PREF-22 ^property[=].valueCode = #09
+* #PREF-22 ^property[+].code = #autoriteRegulationFiness
+* #PREF-22 ^property[=].valueBoolean = true
+* #PREF-22 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-22 ^property[=].valueBoolean = false
+* #PREF-23 "PREF-23 : Préfecture de la Creuse"
+* #PREF-23 ^designation[0].language = #fr-FR
+* #PREF-23 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-23 ^designation[=].use = $sct#900000000000013009
+* #PREF-23 ^designation[=].value = "Préfecture de la Creuse"
+* #PREF-23 ^property[0].code = #dateValid
+* #PREF-23 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-23 ^property[+].code = #dateMaj
+* #PREF-23 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-23 ^property[+].code = #status
+* #PREF-23 ^property[=].valueCode = #active
+* #PREF-23 ^property[+].code = #niveau
+* #PREF-23 ^property[=].valueInteger = 2
+* #PREF-23 ^property[+].code = #parent
+* #PREF-23 ^property[=].valueCode = #09
+* #PREF-23 ^property[+].code = #autoriteRegulationFiness
+* #PREF-23 ^property[=].valueBoolean = true
+* #PREF-23 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-23 ^property[=].valueBoolean = false
+* #PREF-24 "PREF-24 : Préfecture de la Dordogne"
+* #PREF-24 ^designation[0].language = #fr-FR
+* #PREF-24 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-24 ^designation[=].use = $sct#900000000000013009
+* #PREF-24 ^designation[=].value = "Préfecture de la Dordogne"
+* #PREF-24 ^property[0].code = #dateValid
+* #PREF-24 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-24 ^property[+].code = #dateMaj
+* #PREF-24 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-24 ^property[+].code = #status
+* #PREF-24 ^property[=].valueCode = #active
+* #PREF-24 ^property[+].code = #niveau
+* #PREF-24 ^property[=].valueInteger = 2
+* #PREF-24 ^property[+].code = #parent
+* #PREF-24 ^property[=].valueCode = #09
+* #PREF-24 ^property[+].code = #autoriteRegulationFiness
+* #PREF-24 ^property[=].valueBoolean = true
+* #PREF-24 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-24 ^property[=].valueBoolean = false
+* #PREF-25 "PREF-25 : Préfecture du Doubs"
+* #PREF-25 ^designation[0].language = #fr-FR
+* #PREF-25 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-25 ^designation[=].use = $sct#900000000000013009
+* #PREF-25 ^designation[=].value = "Préfecture du Doubs"
+* #PREF-25 ^property[0].code = #dateValid
+* #PREF-25 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-25 ^property[+].code = #dateMaj
+* #PREF-25 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-25 ^property[+].code = #status
+* #PREF-25 ^property[=].valueCode = #active
+* #PREF-25 ^property[+].code = #niveau
+* #PREF-25 ^property[=].valueInteger = 2
+* #PREF-25 ^property[+].code = #parent
+* #PREF-25 ^property[=].valueCode = #09
+* #PREF-25 ^property[+].code = #autoriteRegulationFiness
+* #PREF-25 ^property[=].valueBoolean = true
+* #PREF-25 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-25 ^property[=].valueBoolean = false
+* #PREF-26 "PREF-26 : Préfecture de la Drôme"
+* #PREF-26 ^designation[0].language = #fr-FR
+* #PREF-26 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-26 ^designation[=].use = $sct#900000000000013009
+* #PREF-26 ^designation[=].value = "Préfecture de la Drôme"
+* #PREF-26 ^property[0].code = #dateValid
+* #PREF-26 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-26 ^property[+].code = #dateMaj
+* #PREF-26 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-26 ^property[+].code = #status
+* #PREF-26 ^property[=].valueCode = #active
+* #PREF-26 ^property[+].code = #niveau
+* #PREF-26 ^property[=].valueInteger = 2
+* #PREF-26 ^property[+].code = #parent
+* #PREF-26 ^property[=].valueCode = #09
+* #PREF-26 ^property[+].code = #autoriteRegulationFiness
+* #PREF-26 ^property[=].valueBoolean = true
+* #PREF-26 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-26 ^property[=].valueBoolean = false
+* #PREF-27 "PREF-27 : Préfecture de l’Eure"
+* #PREF-27 ^designation[0].language = #fr-FR
+* #PREF-27 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-27 ^designation[=].use = $sct#900000000000013009
+* #PREF-27 ^designation[=].value = "Préfecture de l’Eure"
+* #PREF-27 ^property[0].code = #dateValid
+* #PREF-27 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-27 ^property[+].code = #dateMaj
+* #PREF-27 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-27 ^property[+].code = #status
+* #PREF-27 ^property[=].valueCode = #active
+* #PREF-27 ^property[+].code = #niveau
+* #PREF-27 ^property[=].valueInteger = 2
+* #PREF-27 ^property[+].code = #parent
+* #PREF-27 ^property[=].valueCode = #09
+* #PREF-27 ^property[+].code = #autoriteRegulationFiness
+* #PREF-27 ^property[=].valueBoolean = true
+* #PREF-27 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-27 ^property[=].valueBoolean = false
+* #PREF-28 "PREF-28 : Préfecture d’Eure-et-Loir"
+* #PREF-28 ^designation[0].language = #fr-FR
+* #PREF-28 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-28 ^designation[=].use = $sct#900000000000013009
+* #PREF-28 ^designation[=].value = "Préfecture d’Eure-et-Loir"
+* #PREF-28 ^property[0].code = #dateValid
+* #PREF-28 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-28 ^property[+].code = #dateMaj
+* #PREF-28 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-28 ^property[+].code = #status
+* #PREF-28 ^property[=].valueCode = #active
+* #PREF-28 ^property[+].code = #niveau
+* #PREF-28 ^property[=].valueInteger = 2
+* #PREF-28 ^property[+].code = #parent
+* #PREF-28 ^property[=].valueCode = #09
+* #PREF-28 ^property[+].code = #autoriteRegulationFiness
+* #PREF-28 ^property[=].valueBoolean = true
+* #PREF-28 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-28 ^property[=].valueBoolean = false
+* #PREF-29 "PREF-29 : Préfecture du Finistère"
+* #PREF-29 ^designation[0].language = #fr-FR
+* #PREF-29 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-29 ^designation[=].use = $sct#900000000000013009
+* #PREF-29 ^designation[=].value = "Préfecture du Finistère"
+* #PREF-29 ^property[0].code = #dateValid
+* #PREF-29 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-29 ^property[+].code = #dateMaj
+* #PREF-29 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-29 ^property[+].code = #status
+* #PREF-29 ^property[=].valueCode = #active
+* #PREF-29 ^property[+].code = #niveau
+* #PREF-29 ^property[=].valueInteger = 2
+* #PREF-29 ^property[+].code = #parent
+* #PREF-29 ^property[=].valueCode = #09
+* #PREF-29 ^property[+].code = #autoriteRegulationFiness
+* #PREF-29 ^property[=].valueBoolean = true
+* #PREF-29 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-29 ^property[=].valueBoolean = false
+* #PREF-2A "PREF-2A : Préfecture de la Corse-du-Sud"
+* #PREF-2A ^designation[0].language = #fr-FR
+* #PREF-2A ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-2A ^designation[=].use = $sct#900000000000013009
+* #PREF-2A ^designation[=].value = "Préfecture de la Corse-du-Sud"
+* #PREF-2A ^property[0].code = #dateValid
+* #PREF-2A ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-2A ^property[+].code = #dateMaj
+* #PREF-2A ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-2A ^property[+].code = #status
+* #PREF-2A ^property[=].valueCode = #active
+* #PREF-2A ^property[+].code = #niveau
+* #PREF-2A ^property[=].valueInteger = 2
+* #PREF-2A ^property[+].code = #parent
+* #PREF-2A ^property[=].valueCode = #09
+* #PREF-2A ^property[+].code = #autoriteRegulationFiness
+* #PREF-2A ^property[=].valueBoolean = true
+* #PREF-2A ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-2A ^property[=].valueBoolean = false
+* #PREF-2B "PREF-2B : Préfecture de la Haute-Corse"
+* #PREF-2B ^designation[0].language = #fr-FR
+* #PREF-2B ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-2B ^designation[=].use = $sct#900000000000013009
+* #PREF-2B ^designation[=].value = "Préfecture de la Haute-Corse"
+* #PREF-2B ^property[0].code = #dateValid
+* #PREF-2B ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-2B ^property[+].code = #dateMaj
+* #PREF-2B ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-2B ^property[+].code = #status
+* #PREF-2B ^property[=].valueCode = #active
+* #PREF-2B ^property[+].code = #niveau
+* #PREF-2B ^property[=].valueInteger = 2
+* #PREF-2B ^property[+].code = #parent
+* #PREF-2B ^property[=].valueCode = #09
+* #PREF-2B ^property[+].code = #autoriteRegulationFiness
+* #PREF-2B ^property[=].valueBoolean = true
+* #PREF-2B ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-2B ^property[=].valueBoolean = false
+* #PREF-30 "PREF-30 : Préfecture du Gard"
+* #PREF-30 ^designation[0].language = #fr-FR
+* #PREF-30 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-30 ^designation[=].use = $sct#900000000000013009
+* #PREF-30 ^designation[=].value = "Préfecture du Gard"
+* #PREF-30 ^property[0].code = #dateValid
+* #PREF-30 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-30 ^property[+].code = #dateMaj
+* #PREF-30 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-30 ^property[+].code = #status
+* #PREF-30 ^property[=].valueCode = #active
+* #PREF-30 ^property[+].code = #niveau
+* #PREF-30 ^property[=].valueInteger = 2
+* #PREF-30 ^property[+].code = #parent
+* #PREF-30 ^property[=].valueCode = #09
+* #PREF-30 ^property[+].code = #autoriteRegulationFiness
+* #PREF-30 ^property[=].valueBoolean = true
+* #PREF-30 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-30 ^property[=].valueBoolean = false
+* #PREF-31 "PREF-31 : Préfecture de la Haute-Garonne"
+* #PREF-31 ^designation[0].language = #fr-FR
+* #PREF-31 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-31 ^designation[=].use = $sct#900000000000013009
+* #PREF-31 ^designation[=].value = "Préfecture de la Haute-Garonne"
+* #PREF-31 ^property[0].code = #dateValid
+* #PREF-31 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-31 ^property[+].code = #dateMaj
+* #PREF-31 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-31 ^property[+].code = #status
+* #PREF-31 ^property[=].valueCode = #active
+* #PREF-31 ^property[+].code = #niveau
+* #PREF-31 ^property[=].valueInteger = 2
+* #PREF-31 ^property[+].code = #parent
+* #PREF-31 ^property[=].valueCode = #09
+* #PREF-31 ^property[+].code = #autoriteRegulationFiness
+* #PREF-31 ^property[=].valueBoolean = true
+* #PREF-31 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-31 ^property[=].valueBoolean = false
+* #PREF-32 "PREF-32 : Préfecture du Gers"
+* #PREF-32 ^designation[0].language = #fr-FR
+* #PREF-32 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-32 ^designation[=].use = $sct#900000000000013009
+* #PREF-32 ^designation[=].value = "Préfecture du Gers"
+* #PREF-32 ^property[0].code = #dateValid
+* #PREF-32 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-32 ^property[+].code = #dateMaj
+* #PREF-32 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-32 ^property[+].code = #status
+* #PREF-32 ^property[=].valueCode = #active
+* #PREF-32 ^property[+].code = #niveau
+* #PREF-32 ^property[=].valueInteger = 2
+* #PREF-32 ^property[+].code = #parent
+* #PREF-32 ^property[=].valueCode = #09
+* #PREF-32 ^property[+].code = #autoriteRegulationFiness
+* #PREF-32 ^property[=].valueBoolean = true
+* #PREF-32 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-32 ^property[=].valueBoolean = false
+* #PREF-33 "PREF-33 : Préfecture de la Gironde"
+* #PREF-33 ^designation[0].language = #fr-FR
+* #PREF-33 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-33 ^designation[=].use = $sct#900000000000013009
+* #PREF-33 ^designation[=].value = "Préfecture de la Gironde"
+* #PREF-33 ^property[0].code = #dateValid
+* #PREF-33 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-33 ^property[+].code = #dateMaj
+* #PREF-33 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-33 ^property[+].code = #status
+* #PREF-33 ^property[=].valueCode = #active
+* #PREF-33 ^property[+].code = #niveau
+* #PREF-33 ^property[=].valueInteger = 2
+* #PREF-33 ^property[+].code = #parent
+* #PREF-33 ^property[=].valueCode = #09
+* #PREF-33 ^property[+].code = #autoriteRegulationFiness
+* #PREF-33 ^property[=].valueBoolean = true
+* #PREF-33 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-33 ^property[=].valueBoolean = false
+* #PREF-34 "PREF-34 : Préfecture de l’Hérault"
+* #PREF-34 ^designation[0].language = #fr-FR
+* #PREF-34 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-34 ^designation[=].use = $sct#900000000000013009
+* #PREF-34 ^designation[=].value = "Préfecture de l’Hérault"
+* #PREF-34 ^property[0].code = #dateValid
+* #PREF-34 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-34 ^property[+].code = #dateMaj
+* #PREF-34 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-34 ^property[+].code = #status
+* #PREF-34 ^property[=].valueCode = #active
+* #PREF-34 ^property[+].code = #niveau
+* #PREF-34 ^property[=].valueInteger = 2
+* #PREF-34 ^property[+].code = #parent
+* #PREF-34 ^property[=].valueCode = #09
+* #PREF-34 ^property[+].code = #autoriteRegulationFiness
+* #PREF-34 ^property[=].valueBoolean = true
+* #PREF-34 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-34 ^property[=].valueBoolean = false
+* #PREF-35 "PREF-35 : Préfecture d’Ille-et-Vilaine"
+* #PREF-35 ^designation[0].language = #fr-FR
+* #PREF-35 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-35 ^designation[=].use = $sct#900000000000013009
+* #PREF-35 ^designation[=].value = "Préfecture d’Ille-et-Vilaine"
+* #PREF-35 ^property[0].code = #dateValid
+* #PREF-35 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-35 ^property[+].code = #dateMaj
+* #PREF-35 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-35 ^property[+].code = #status
+* #PREF-35 ^property[=].valueCode = #active
+* #PREF-35 ^property[+].code = #niveau
+* #PREF-35 ^property[=].valueInteger = 2
+* #PREF-35 ^property[+].code = #parent
+* #PREF-35 ^property[=].valueCode = #09
+* #PREF-35 ^property[+].code = #autoriteRegulationFiness
+* #PREF-35 ^property[=].valueBoolean = true
+* #PREF-35 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-35 ^property[=].valueBoolean = false
+* #PREF-36 "PREF-36 : Préfecture de l’Indre"
+* #PREF-36 ^designation[0].language = #fr-FR
+* #PREF-36 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-36 ^designation[=].use = $sct#900000000000013009
+* #PREF-36 ^designation[=].value = "Préfecture de l’Indre"
+* #PREF-36 ^property[0].code = #dateValid
+* #PREF-36 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-36 ^property[+].code = #dateMaj
+* #PREF-36 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-36 ^property[+].code = #status
+* #PREF-36 ^property[=].valueCode = #active
+* #PREF-36 ^property[+].code = #niveau
+* #PREF-36 ^property[=].valueInteger = 2
+* #PREF-36 ^property[+].code = #parent
+* #PREF-36 ^property[=].valueCode = #09
+* #PREF-36 ^property[+].code = #autoriteRegulationFiness
+* #PREF-36 ^property[=].valueBoolean = true
+* #PREF-36 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-36 ^property[=].valueBoolean = false
+* #PREF-37 "PREF-37 : Préfecture d’Indre-et-Loire"
+* #PREF-37 ^designation[0].language = #fr-FR
+* #PREF-37 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-37 ^designation[=].use = $sct#900000000000013009
+* #PREF-37 ^designation[=].value = "Préfecture d’Indre-et-Loire"
+* #PREF-37 ^property[0].code = #dateValid
+* #PREF-37 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-37 ^property[+].code = #dateMaj
+* #PREF-37 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-37 ^property[+].code = #status
+* #PREF-37 ^property[=].valueCode = #active
+* #PREF-37 ^property[+].code = #niveau
+* #PREF-37 ^property[=].valueInteger = 2
+* #PREF-37 ^property[+].code = #parent
+* #PREF-37 ^property[=].valueCode = #09
+* #PREF-37 ^property[+].code = #autoriteRegulationFiness
+* #PREF-37 ^property[=].valueBoolean = true
+* #PREF-37 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-37 ^property[=].valueBoolean = false
+* #PREF-38 "PREF-38 : Préfecture de l’Isère"
+* #PREF-38 ^designation[0].language = #fr-FR
+* #PREF-38 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-38 ^designation[=].use = $sct#900000000000013009
+* #PREF-38 ^designation[=].value = "Préfecture de l’Isère"
+* #PREF-38 ^property[0].code = #dateValid
+* #PREF-38 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-38 ^property[+].code = #dateMaj
+* #PREF-38 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-38 ^property[+].code = #status
+* #PREF-38 ^property[=].valueCode = #active
+* #PREF-38 ^property[+].code = #niveau
+* #PREF-38 ^property[=].valueInteger = 2
+* #PREF-38 ^property[+].code = #parent
+* #PREF-38 ^property[=].valueCode = #09
+* #PREF-38 ^property[+].code = #autoriteRegulationFiness
+* #PREF-38 ^property[=].valueBoolean = true
+* #PREF-38 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-38 ^property[=].valueBoolean = false
+* #PREF-39 "PREF-39 : Préfecture du Jura"
+* #PREF-39 ^designation[0].language = #fr-FR
+* #PREF-39 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-39 ^designation[=].use = $sct#900000000000013009
+* #PREF-39 ^designation[=].value = "Préfecture du Jura"
+* #PREF-39 ^property[0].code = #dateValid
+* #PREF-39 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-39 ^property[+].code = #dateMaj
+* #PREF-39 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-39 ^property[+].code = #status
+* #PREF-39 ^property[=].valueCode = #active
+* #PREF-39 ^property[+].code = #niveau
+* #PREF-39 ^property[=].valueInteger = 2
+* #PREF-39 ^property[+].code = #parent
+* #PREF-39 ^property[=].valueCode = #09
+* #PREF-39 ^property[+].code = #autoriteRegulationFiness
+* #PREF-39 ^property[=].valueBoolean = true
+* #PREF-39 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-39 ^property[=].valueBoolean = false
+* #PREF-40 "PREF-40 : Préfecture des Landes"
+* #PREF-40 ^designation[0].language = #fr-FR
+* #PREF-40 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-40 ^designation[=].use = $sct#900000000000013009
+* #PREF-40 ^designation[=].value = "Préfecture des Landes"
+* #PREF-40 ^property[0].code = #dateValid
+* #PREF-40 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-40 ^property[+].code = #dateMaj
+* #PREF-40 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-40 ^property[+].code = #status
+* #PREF-40 ^property[=].valueCode = #active
+* #PREF-40 ^property[+].code = #niveau
+* #PREF-40 ^property[=].valueInteger = 2
+* #PREF-40 ^property[+].code = #parent
+* #PREF-40 ^property[=].valueCode = #09
+* #PREF-40 ^property[+].code = #autoriteRegulationFiness
+* #PREF-40 ^property[=].valueBoolean = true
+* #PREF-40 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-40 ^property[=].valueBoolean = false
+* #PREF-41 "PREF-41 : Préfecture du Loir-et-Cher"
+* #PREF-41 ^designation[0].language = #fr-FR
+* #PREF-41 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-41 ^designation[=].use = $sct#900000000000013009
+* #PREF-41 ^designation[=].value = "Préfecture du Loir-et-Cher"
+* #PREF-41 ^property[0].code = #dateValid
+* #PREF-41 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-41 ^property[+].code = #dateMaj
+* #PREF-41 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-41 ^property[+].code = #status
+* #PREF-41 ^property[=].valueCode = #active
+* #PREF-41 ^property[+].code = #niveau
+* #PREF-41 ^property[=].valueInteger = 2
+* #PREF-41 ^property[+].code = #parent
+* #PREF-41 ^property[=].valueCode = #09
+* #PREF-41 ^property[+].code = #autoriteRegulationFiness
+* #PREF-41 ^property[=].valueBoolean = true
+* #PREF-41 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-41 ^property[=].valueBoolean = false
+* #PREF-42 "PREF-42 : Préfecture de la Loire"
+* #PREF-42 ^designation[0].language = #fr-FR
+* #PREF-42 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-42 ^designation[=].use = $sct#900000000000013009
+* #PREF-42 ^designation[=].value = "Préfecture de la Loire"
+* #PREF-42 ^property[0].code = #dateValid
+* #PREF-42 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-42 ^property[+].code = #dateMaj
+* #PREF-42 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-42 ^property[+].code = #status
+* #PREF-42 ^property[=].valueCode = #active
+* #PREF-42 ^property[+].code = #niveau
+* #PREF-42 ^property[=].valueInteger = 2
+* #PREF-42 ^property[+].code = #parent
+* #PREF-42 ^property[=].valueCode = #09
+* #PREF-42 ^property[+].code = #autoriteRegulationFiness
+* #PREF-42 ^property[=].valueBoolean = true
+* #PREF-42 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-42 ^property[=].valueBoolean = false
+* #PREF-43 "PREF-43 : Préfecture de la Haute-Loire"
+* #PREF-43 ^designation[0].language = #fr-FR
+* #PREF-43 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-43 ^designation[=].use = $sct#900000000000013009
+* #PREF-43 ^designation[=].value = "Préfecture de la Haute-Loire"
+* #PREF-43 ^property[0].code = #dateValid
+* #PREF-43 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-43 ^property[+].code = #dateMaj
+* #PREF-43 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-43 ^property[+].code = #status
+* #PREF-43 ^property[=].valueCode = #active
+* #PREF-43 ^property[+].code = #niveau
+* #PREF-43 ^property[=].valueInteger = 2
+* #PREF-43 ^property[+].code = #parent
+* #PREF-43 ^property[=].valueCode = #09
+* #PREF-43 ^property[+].code = #autoriteRegulationFiness
+* #PREF-43 ^property[=].valueBoolean = true
+* #PREF-43 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-43 ^property[=].valueBoolean = false
+* #PREF-44 "PREF-44 : Préfecture de la Loire-Atlantique"
+* #PREF-44 ^designation[0].language = #fr-FR
+* #PREF-44 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-44 ^designation[=].use = $sct#900000000000013009
+* #PREF-44 ^designation[=].value = "Préfecture de la Loire-Atlantique"
+* #PREF-44 ^property[0].code = #dateValid
+* #PREF-44 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-44 ^property[+].code = #dateMaj
+* #PREF-44 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-44 ^property[+].code = #status
+* #PREF-44 ^property[=].valueCode = #active
+* #PREF-44 ^property[+].code = #niveau
+* #PREF-44 ^property[=].valueInteger = 2
+* #PREF-44 ^property[+].code = #parent
+* #PREF-44 ^property[=].valueCode = #09
+* #PREF-44 ^property[+].code = #autoriteRegulationFiness
+* #PREF-44 ^property[=].valueBoolean = true
+* #PREF-44 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-44 ^property[=].valueBoolean = false
+* #PREF-45 "PREF-45 : Préfecture du Loiret"
+* #PREF-45 ^designation[0].language = #fr-FR
+* #PREF-45 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-45 ^designation[=].use = $sct#900000000000013009
+* #PREF-45 ^designation[=].value = "Préfecture du Loiret"
+* #PREF-45 ^property[0].code = #dateValid
+* #PREF-45 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-45 ^property[+].code = #dateMaj
+* #PREF-45 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-45 ^property[+].code = #status
+* #PREF-45 ^property[=].valueCode = #active
+* #PREF-45 ^property[+].code = #niveau
+* #PREF-45 ^property[=].valueInteger = 2
+* #PREF-45 ^property[+].code = #parent
+* #PREF-45 ^property[=].valueCode = #09
+* #PREF-45 ^property[+].code = #autoriteRegulationFiness
+* #PREF-45 ^property[=].valueBoolean = true
+* #PREF-45 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-45 ^property[=].valueBoolean = false
+* #PREF-46 "PREF-46 : Préfecture du Lot"
+* #PREF-46 ^designation[0].language = #fr-FR
+* #PREF-46 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-46 ^designation[=].use = $sct#900000000000013009
+* #PREF-46 ^designation[=].value = "Préfecture du Lot"
+* #PREF-46 ^property[0].code = #dateValid
+* #PREF-46 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-46 ^property[+].code = #dateMaj
+* #PREF-46 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-46 ^property[+].code = #status
+* #PREF-46 ^property[=].valueCode = #active
+* #PREF-46 ^property[+].code = #niveau
+* #PREF-46 ^property[=].valueInteger = 2
+* #PREF-46 ^property[+].code = #parent
+* #PREF-46 ^property[=].valueCode = #09
+* #PREF-46 ^property[+].code = #autoriteRegulationFiness
+* #PREF-46 ^property[=].valueBoolean = true
+* #PREF-46 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-46 ^property[=].valueBoolean = false
+* #PREF-47 "PREF-47 : Préfecture du Lot-et-Garonne"
+* #PREF-47 ^designation[0].language = #fr-FR
+* #PREF-47 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-47 ^designation[=].use = $sct#900000000000013009
+* #PREF-47 ^designation[=].value = "Préfecture du Lot-et-Garonne"
+* #PREF-47 ^property[0].code = #dateValid
+* #PREF-47 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-47 ^property[+].code = #dateMaj
+* #PREF-47 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-47 ^property[+].code = #status
+* #PREF-47 ^property[=].valueCode = #active
+* #PREF-47 ^property[+].code = #niveau
+* #PREF-47 ^property[=].valueInteger = 2
+* #PREF-47 ^property[+].code = #parent
+* #PREF-47 ^property[=].valueCode = #09
+* #PREF-47 ^property[+].code = #autoriteRegulationFiness
+* #PREF-47 ^property[=].valueBoolean = true
+* #PREF-47 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-47 ^property[=].valueBoolean = false
+* #PREF-48 "PREF-48 : Préfecture de la Lozère"
+* #PREF-48 ^designation[0].language = #fr-FR
+* #PREF-48 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-48 ^designation[=].use = $sct#900000000000013009
+* #PREF-48 ^designation[=].value = "Préfecture de la Lozère"
+* #PREF-48 ^property[0].code = #dateValid
+* #PREF-48 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-48 ^property[+].code = #dateMaj
+* #PREF-48 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-48 ^property[+].code = #status
+* #PREF-48 ^property[=].valueCode = #active
+* #PREF-48 ^property[+].code = #niveau
+* #PREF-48 ^property[=].valueInteger = 2
+* #PREF-48 ^property[+].code = #parent
+* #PREF-48 ^property[=].valueCode = #09
+* #PREF-48 ^property[+].code = #autoriteRegulationFiness
+* #PREF-48 ^property[=].valueBoolean = true
+* #PREF-48 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-48 ^property[=].valueBoolean = false
+* #PREF-49 "PREF-49 : Préfecture de Maine-et-Loire"
+* #PREF-49 ^designation[0].language = #fr-FR
+* #PREF-49 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-49 ^designation[=].use = $sct#900000000000013009
+* #PREF-49 ^designation[=].value = "Préfecture de Maine-et-Loire"
+* #PREF-49 ^property[0].code = #dateValid
+* #PREF-49 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-49 ^property[+].code = #dateMaj
+* #PREF-49 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-49 ^property[+].code = #status
+* #PREF-49 ^property[=].valueCode = #active
+* #PREF-49 ^property[+].code = #niveau
+* #PREF-49 ^property[=].valueInteger = 2
+* #PREF-49 ^property[+].code = #parent
+* #PREF-49 ^property[=].valueCode = #09
+* #PREF-49 ^property[+].code = #autoriteRegulationFiness
+* #PREF-49 ^property[=].valueBoolean = true
+* #PREF-49 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-49 ^property[=].valueBoolean = false
+* #PREF-50 "PREF-50 : Préfecture de la Manche"
+* #PREF-50 ^designation[0].language = #fr-FR
+* #PREF-50 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-50 ^designation[=].use = $sct#900000000000013009
+* #PREF-50 ^designation[=].value = "Préfecture de la Manche"
+* #PREF-50 ^property[0].code = #dateValid
+* #PREF-50 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-50 ^property[+].code = #dateMaj
+* #PREF-50 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-50 ^property[+].code = #status
+* #PREF-50 ^property[=].valueCode = #active
+* #PREF-50 ^property[+].code = #niveau
+* #PREF-50 ^property[=].valueInteger = 2
+* #PREF-50 ^property[+].code = #parent
+* #PREF-50 ^property[=].valueCode = #09
+* #PREF-50 ^property[+].code = #autoriteRegulationFiness
+* #PREF-50 ^property[=].valueBoolean = true
+* #PREF-50 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-50 ^property[=].valueBoolean = false
+* #PREF-51 "PREF-51 : Préfecture de la Marne"
+* #PREF-51 ^designation[0].language = #fr-FR
+* #PREF-51 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-51 ^designation[=].use = $sct#900000000000013009
+* #PREF-51 ^designation[=].value = "Préfecture de la Marne"
+* #PREF-51 ^property[0].code = #dateValid
+* #PREF-51 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-51 ^property[+].code = #dateMaj
+* #PREF-51 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-51 ^property[+].code = #status
+* #PREF-51 ^property[=].valueCode = #active
+* #PREF-51 ^property[+].code = #niveau
+* #PREF-51 ^property[=].valueInteger = 2
+* #PREF-51 ^property[+].code = #parent
+* #PREF-51 ^property[=].valueCode = #09
+* #PREF-51 ^property[+].code = #autoriteRegulationFiness
+* #PREF-51 ^property[=].valueBoolean = true
+* #PREF-51 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-51 ^property[=].valueBoolean = false
+* #PREF-52 "PREF-52 : Préfecture de la Haute-Marne"
+* #PREF-52 ^designation[0].language = #fr-FR
+* #PREF-52 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-52 ^designation[=].use = $sct#900000000000013009
+* #PREF-52 ^designation[=].value = "Préfecture de la Haute-Marne"
+* #PREF-52 ^property[0].code = #dateValid
+* #PREF-52 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-52 ^property[+].code = #dateMaj
+* #PREF-52 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-52 ^property[+].code = #status
+* #PREF-52 ^property[=].valueCode = #active
+* #PREF-52 ^property[+].code = #niveau
+* #PREF-52 ^property[=].valueInteger = 2
+* #PREF-52 ^property[+].code = #parent
+* #PREF-52 ^property[=].valueCode = #09
+* #PREF-52 ^property[+].code = #autoriteRegulationFiness
+* #PREF-52 ^property[=].valueBoolean = true
+* #PREF-52 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-52 ^property[=].valueBoolean = false
+* #PREF-53 "PREF-53 : Préfecture de la Mayenne"
+* #PREF-53 ^designation[0].language = #fr-FR
+* #PREF-53 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-53 ^designation[=].use = $sct#900000000000013009
+* #PREF-53 ^designation[=].value = "Préfecture de la Mayenne"
+* #PREF-53 ^property[0].code = #dateValid
+* #PREF-53 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-53 ^property[+].code = #dateMaj
+* #PREF-53 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-53 ^property[+].code = #status
+* #PREF-53 ^property[=].valueCode = #active
+* #PREF-53 ^property[+].code = #niveau
+* #PREF-53 ^property[=].valueInteger = 2
+* #PREF-53 ^property[+].code = #parent
+* #PREF-53 ^property[=].valueCode = #09
+* #PREF-53 ^property[+].code = #autoriteRegulationFiness
+* #PREF-53 ^property[=].valueBoolean = true
+* #PREF-53 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-53 ^property[=].valueBoolean = false
+* #PREF-54 "PREF-54 : Préfecture de Meurthe-et-Moselle"
+* #PREF-54 ^designation[0].language = #fr-FR
+* #PREF-54 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-54 ^designation[=].use = $sct#900000000000013009
+* #PREF-54 ^designation[=].value = "Préfecture de Meurthe-et-Moselle"
+* #PREF-54 ^property[0].code = #dateValid
+* #PREF-54 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-54 ^property[+].code = #dateMaj
+* #PREF-54 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-54 ^property[+].code = #status
+* #PREF-54 ^property[=].valueCode = #active
+* #PREF-54 ^property[+].code = #niveau
+* #PREF-54 ^property[=].valueInteger = 2
+* #PREF-54 ^property[+].code = #parent
+* #PREF-54 ^property[=].valueCode = #09
+* #PREF-54 ^property[+].code = #autoriteRegulationFiness
+* #PREF-54 ^property[=].valueBoolean = true
+* #PREF-54 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-54 ^property[=].valueBoolean = false
+* #PREF-55 "PREF-55 : Préfecture de la Meuse"
+* #PREF-55 ^designation[0].language = #fr-FR
+* #PREF-55 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-55 ^designation[=].use = $sct#900000000000013009
+* #PREF-55 ^designation[=].value = "Préfecture de la Meuse"
+* #PREF-55 ^property[0].code = #dateValid
+* #PREF-55 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-55 ^property[+].code = #dateMaj
+* #PREF-55 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-55 ^property[+].code = #status
+* #PREF-55 ^property[=].valueCode = #active
+* #PREF-55 ^property[+].code = #niveau
+* #PREF-55 ^property[=].valueInteger = 2
+* #PREF-55 ^property[+].code = #parent
+* #PREF-55 ^property[=].valueCode = #09
+* #PREF-55 ^property[+].code = #autoriteRegulationFiness
+* #PREF-55 ^property[=].valueBoolean = true
+* #PREF-55 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-55 ^property[=].valueBoolean = false
+* #PREF-56 "PREF-56 : Préfecture du Morbihan"
+* #PREF-56 ^designation[0].language = #fr-FR
+* #PREF-56 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-56 ^designation[=].use = $sct#900000000000013009
+* #PREF-56 ^designation[=].value = "Préfecture du Morbihan"
+* #PREF-56 ^property[0].code = #dateValid
+* #PREF-56 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-56 ^property[+].code = #dateMaj
+* #PREF-56 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-56 ^property[+].code = #status
+* #PREF-56 ^property[=].valueCode = #active
+* #PREF-56 ^property[+].code = #niveau
+* #PREF-56 ^property[=].valueInteger = 2
+* #PREF-56 ^property[+].code = #parent
+* #PREF-56 ^property[=].valueCode = #09
+* #PREF-56 ^property[+].code = #autoriteRegulationFiness
+* #PREF-56 ^property[=].valueBoolean = true
+* #PREF-56 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-56 ^property[=].valueBoolean = false
+* #PREF-57 "PREF-57 : Préfecture de la Moselle"
+* #PREF-57 ^designation[0].language = #fr-FR
+* #PREF-57 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-57 ^designation[=].use = $sct#900000000000013009
+* #PREF-57 ^designation[=].value = "Préfecture de la Moselle"
+* #PREF-57 ^property[0].code = #dateValid
+* #PREF-57 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-57 ^property[+].code = #dateMaj
+* #PREF-57 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-57 ^property[+].code = #status
+* #PREF-57 ^property[=].valueCode = #active
+* #PREF-57 ^property[+].code = #niveau
+* #PREF-57 ^property[=].valueInteger = 2
+* #PREF-57 ^property[+].code = #parent
+* #PREF-57 ^property[=].valueCode = #09
+* #PREF-57 ^property[+].code = #autoriteRegulationFiness
+* #PREF-57 ^property[=].valueBoolean = true
+* #PREF-57 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-57 ^property[=].valueBoolean = false
+* #PREF-58 "PREF-58 : Préfecture de la Nièvre"
+* #PREF-58 ^designation[0].language = #fr-FR
+* #PREF-58 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-58 ^designation[=].use = $sct#900000000000013009
+* #PREF-58 ^designation[=].value = "Préfecture de la Nièvre"
+* #PREF-58 ^property[0].code = #dateValid
+* #PREF-58 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-58 ^property[+].code = #dateMaj
+* #PREF-58 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-58 ^property[+].code = #status
+* #PREF-58 ^property[=].valueCode = #active
+* #PREF-58 ^property[+].code = #niveau
+* #PREF-58 ^property[=].valueInteger = 2
+* #PREF-58 ^property[+].code = #parent
+* #PREF-58 ^property[=].valueCode = #09
+* #PREF-58 ^property[+].code = #autoriteRegulationFiness
+* #PREF-58 ^property[=].valueBoolean = true
+* #PREF-58 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-58 ^property[=].valueBoolean = false
+* #PREF-59 "PREF-59 : Préfecture du Nord"
+* #PREF-59 ^designation[0].language = #fr-FR
+* #PREF-59 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-59 ^designation[=].use = $sct#900000000000013009
+* #PREF-59 ^designation[=].value = "Préfecture du Nord"
+* #PREF-59 ^property[0].code = #dateValid
+* #PREF-59 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-59 ^property[+].code = #dateMaj
+* #PREF-59 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-59 ^property[+].code = #status
+* #PREF-59 ^property[=].valueCode = #active
+* #PREF-59 ^property[+].code = #niveau
+* #PREF-59 ^property[=].valueInteger = 2
+* #PREF-59 ^property[+].code = #parent
+* #PREF-59 ^property[=].valueCode = #09
+* #PREF-59 ^property[+].code = #autoriteRegulationFiness
+* #PREF-59 ^property[=].valueBoolean = true
+* #PREF-59 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-59 ^property[=].valueBoolean = false
+* #PREF-60 "PREF-60 : Préfecture de l’Oise"
+* #PREF-60 ^designation[0].language = #fr-FR
+* #PREF-60 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-60 ^designation[=].use = $sct#900000000000013009
+* #PREF-60 ^designation[=].value = "Préfecture de l’Oise"
+* #PREF-60 ^property[0].code = #dateValid
+* #PREF-60 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-60 ^property[+].code = #dateMaj
+* #PREF-60 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-60 ^property[+].code = #status
+* #PREF-60 ^property[=].valueCode = #active
+* #PREF-60 ^property[+].code = #niveau
+* #PREF-60 ^property[=].valueInteger = 2
+* #PREF-60 ^property[+].code = #parent
+* #PREF-60 ^property[=].valueCode = #09
+* #PREF-60 ^property[+].code = #autoriteRegulationFiness
+* #PREF-60 ^property[=].valueBoolean = true
+* #PREF-60 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-60 ^property[=].valueBoolean = false
+* #PREF-61 "PREF-61 : Préfecture de l’Orne"
+* #PREF-61 ^designation[0].language = #fr-FR
+* #PREF-61 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-61 ^designation[=].use = $sct#900000000000013009
+* #PREF-61 ^designation[=].value = "Préfecture de l’Orne"
+* #PREF-61 ^property[0].code = #dateValid
+* #PREF-61 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-61 ^property[+].code = #dateMaj
+* #PREF-61 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-61 ^property[+].code = #status
+* #PREF-61 ^property[=].valueCode = #active
+* #PREF-61 ^property[+].code = #niveau
+* #PREF-61 ^property[=].valueInteger = 2
+* #PREF-61 ^property[+].code = #parent
+* #PREF-61 ^property[=].valueCode = #09
+* #PREF-61 ^property[+].code = #autoriteRegulationFiness
+* #PREF-61 ^property[=].valueBoolean = true
+* #PREF-61 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-61 ^property[=].valueBoolean = false
+* #PREF-62 "PREF-62 : Préfecture du Pas-de-Calais"
+* #PREF-62 ^designation[0].language = #fr-FR
+* #PREF-62 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-62 ^designation[=].use = $sct#900000000000013009
+* #PREF-62 ^designation[=].value = "Préfecture du Pas-de-Calais"
+* #PREF-62 ^property[0].code = #dateValid
+* #PREF-62 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-62 ^property[+].code = #dateMaj
+* #PREF-62 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-62 ^property[+].code = #status
+* #PREF-62 ^property[=].valueCode = #active
+* #PREF-62 ^property[+].code = #niveau
+* #PREF-62 ^property[=].valueInteger = 2
+* #PREF-62 ^property[+].code = #parent
+* #PREF-62 ^property[=].valueCode = #09
+* #PREF-62 ^property[+].code = #autoriteRegulationFiness
+* #PREF-62 ^property[=].valueBoolean = true
+* #PREF-62 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-62 ^property[=].valueBoolean = false
+* #PREF-63 "PREF-63 : Préfecture du Puy-de-Dôme"
+* #PREF-63 ^designation[0].language = #fr-FR
+* #PREF-63 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-63 ^designation[=].use = $sct#900000000000013009
+* #PREF-63 ^designation[=].value = "Préfecture du Puy-de-Dôme"
+* #PREF-63 ^property[0].code = #dateValid
+* #PREF-63 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-63 ^property[+].code = #dateMaj
+* #PREF-63 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-63 ^property[+].code = #status
+* #PREF-63 ^property[=].valueCode = #active
+* #PREF-63 ^property[+].code = #niveau
+* #PREF-63 ^property[=].valueInteger = 2
+* #PREF-63 ^property[+].code = #parent
+* #PREF-63 ^property[=].valueCode = #09
+* #PREF-63 ^property[+].code = #autoriteRegulationFiness
+* #PREF-63 ^property[=].valueBoolean = true
+* #PREF-63 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-63 ^property[=].valueBoolean = false
+* #PREF-64 "PREF-64 : Préfecture des Pyrénées-Atlantiques"
+* #PREF-64 ^designation[0].language = #fr-FR
+* #PREF-64 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-64 ^designation[=].use = $sct#900000000000013009
+* #PREF-64 ^designation[=].value = "Préfecture des Pyrénées-Atlantiques"
+* #PREF-64 ^property[0].code = #dateValid
+* #PREF-64 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-64 ^property[+].code = #dateMaj
+* #PREF-64 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-64 ^property[+].code = #status
+* #PREF-64 ^property[=].valueCode = #active
+* #PREF-64 ^property[+].code = #niveau
+* #PREF-64 ^property[=].valueInteger = 2
+* #PREF-64 ^property[+].code = #parent
+* #PREF-64 ^property[=].valueCode = #09
+* #PREF-64 ^property[+].code = #autoriteRegulationFiness
+* #PREF-64 ^property[=].valueBoolean = true
+* #PREF-64 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-64 ^property[=].valueBoolean = false
+* #PREF-65 "PREF-65 : Préfecture des Hautes-Pyrénées"
+* #PREF-65 ^designation[0].language = #fr-FR
+* #PREF-65 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-65 ^designation[=].use = $sct#900000000000013009
+* #PREF-65 ^designation[=].value = "Préfecture des Hautes-Pyrénées"
+* #PREF-65 ^property[0].code = #dateValid
+* #PREF-65 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-65 ^property[+].code = #dateMaj
+* #PREF-65 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-65 ^property[+].code = #status
+* #PREF-65 ^property[=].valueCode = #active
+* #PREF-65 ^property[+].code = #niveau
+* #PREF-65 ^property[=].valueInteger = 2
+* #PREF-65 ^property[+].code = #parent
+* #PREF-65 ^property[=].valueCode = #09
+* #PREF-65 ^property[+].code = #autoriteRegulationFiness
+* #PREF-65 ^property[=].valueBoolean = true
+* #PREF-65 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-65 ^property[=].valueBoolean = false
+* #PREF-66 "PREF-66 : Préfecture des Pyrénées-Orientales"
+* #PREF-66 ^designation[0].language = #fr-FR
+* #PREF-66 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-66 ^designation[=].use = $sct#900000000000013009
+* #PREF-66 ^designation[=].value = "Préfecture des Pyrénées-Orientales"
+* #PREF-66 ^property[0].code = #dateValid
+* #PREF-66 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-66 ^property[+].code = #dateMaj
+* #PREF-66 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-66 ^property[+].code = #status
+* #PREF-66 ^property[=].valueCode = #active
+* #PREF-66 ^property[+].code = #niveau
+* #PREF-66 ^property[=].valueInteger = 2
+* #PREF-66 ^property[+].code = #parent
+* #PREF-66 ^property[=].valueCode = #09
+* #PREF-66 ^property[+].code = #autoriteRegulationFiness
+* #PREF-66 ^property[=].valueBoolean = true
+* #PREF-66 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-66 ^property[=].valueBoolean = false
+* #PREF-67 "PREF-67 : Préfecture du Bas-Rhin"
+* #PREF-67 ^designation[0].language = #fr-FR
+* #PREF-67 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-67 ^designation[=].use = $sct#900000000000013009
+* #PREF-67 ^designation[=].value = "Préfecture du Bas-Rhin"
+* #PREF-67 ^property[0].code = #dateValid
+* #PREF-67 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-67 ^property[+].code = #dateMaj
+* #PREF-67 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-67 ^property[+].code = #status
+* #PREF-67 ^property[=].valueCode = #active
+* #PREF-67 ^property[+].code = #niveau
+* #PREF-67 ^property[=].valueInteger = 2
+* #PREF-67 ^property[+].code = #parent
+* #PREF-67 ^property[=].valueCode = #09
+* #PREF-67 ^property[+].code = #autoriteRegulationFiness
+* #PREF-67 ^property[=].valueBoolean = true
+* #PREF-67 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-67 ^property[=].valueBoolean = false
+* #PREF-68 "PREF-68 : Préfecture du Haut-Rhin"
+* #PREF-68 ^designation[0].language = #fr-FR
+* #PREF-68 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-68 ^designation[=].use = $sct#900000000000013009
+* #PREF-68 ^designation[=].value = "Préfecture du Haut-Rhin"
+* #PREF-68 ^property[0].code = #dateValid
+* #PREF-68 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-68 ^property[+].code = #dateMaj
+* #PREF-68 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-68 ^property[+].code = #status
+* #PREF-68 ^property[=].valueCode = #active
+* #PREF-68 ^property[+].code = #niveau
+* #PREF-68 ^property[=].valueInteger = 2
+* #PREF-68 ^property[+].code = #parent
+* #PREF-68 ^property[=].valueCode = #09
+* #PREF-68 ^property[+].code = #autoriteRegulationFiness
+* #PREF-68 ^property[=].valueBoolean = true
+* #PREF-68 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-68 ^property[=].valueBoolean = false
+* #PREF-69 "PREF-69 : Préfecture du Rhône"
+* #PREF-69 ^designation[0].language = #fr-FR
+* #PREF-69 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-69 ^designation[=].use = $sct#900000000000013009
+* #PREF-69 ^designation[=].value = "Préfecture du Rhône"
+* #PREF-69 ^property[0].code = #dateValid
+* #PREF-69 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-69 ^property[+].code = #dateMaj
+* #PREF-69 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-69 ^property[+].code = #status
+* #PREF-69 ^property[=].valueCode = #active
+* #PREF-69 ^property[+].code = #niveau
+* #PREF-69 ^property[=].valueInteger = 2
+* #PREF-69 ^property[+].code = #parent
+* #PREF-69 ^property[=].valueCode = #09
+* #PREF-69 ^property[+].code = #autoriteRegulationFiness
+* #PREF-69 ^property[=].valueBoolean = true
+* #PREF-69 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-69 ^property[=].valueBoolean = false
+* #PREF-70 "PREF-70 : Préfecture de la Haute-Saône"
+* #PREF-70 ^designation[0].language = #fr-FR
+* #PREF-70 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-70 ^designation[=].use = $sct#900000000000013009
+* #PREF-70 ^designation[=].value = "Préfecture de la Haute-Saône"
+* #PREF-70 ^property[0].code = #dateValid
+* #PREF-70 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-70 ^property[+].code = #dateMaj
+* #PREF-70 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-70 ^property[+].code = #status
+* #PREF-70 ^property[=].valueCode = #active
+* #PREF-70 ^property[+].code = #niveau
+* #PREF-70 ^property[=].valueInteger = 2
+* #PREF-70 ^property[+].code = #parent
+* #PREF-70 ^property[=].valueCode = #09
+* #PREF-70 ^property[+].code = #autoriteRegulationFiness
+* #PREF-70 ^property[=].valueBoolean = true
+* #PREF-70 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-70 ^property[=].valueBoolean = false
+* #PREF-71 "PREF-71 : Préfecture de Saône-et-Loire"
+* #PREF-71 ^designation[0].language = #fr-FR
+* #PREF-71 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-71 ^designation[=].use = $sct#900000000000013009
+* #PREF-71 ^designation[=].value = "Préfecture de Saône-et-Loire"
+* #PREF-71 ^property[0].code = #dateValid
+* #PREF-71 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-71 ^property[+].code = #dateMaj
+* #PREF-71 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-71 ^property[+].code = #status
+* #PREF-71 ^property[=].valueCode = #active
+* #PREF-71 ^property[+].code = #niveau
+* #PREF-71 ^property[=].valueInteger = 2
+* #PREF-71 ^property[+].code = #parent
+* #PREF-71 ^property[=].valueCode = #09
+* #PREF-71 ^property[+].code = #autoriteRegulationFiness
+* #PREF-71 ^property[=].valueBoolean = true
+* #PREF-71 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-71 ^property[=].valueBoolean = false
+* #PREF-72 "PREF-72 : Préfecture de la Sarthe"
+* #PREF-72 ^designation[0].language = #fr-FR
+* #PREF-72 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-72 ^designation[=].use = $sct#900000000000013009
+* #PREF-72 ^designation[=].value = "Préfecture de la Sarthe"
+* #PREF-72 ^property[0].code = #dateValid
+* #PREF-72 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-72 ^property[+].code = #dateMaj
+* #PREF-72 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-72 ^property[+].code = #status
+* #PREF-72 ^property[=].valueCode = #active
+* #PREF-72 ^property[+].code = #niveau
+* #PREF-72 ^property[=].valueInteger = 2
+* #PREF-72 ^property[+].code = #parent
+* #PREF-72 ^property[=].valueCode = #09
+* #PREF-72 ^property[+].code = #autoriteRegulationFiness
+* #PREF-72 ^property[=].valueBoolean = true
+* #PREF-72 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-72 ^property[=].valueBoolean = false
+* #PREF-73 "PREF-73 : Préfecture de la Savoie"
+* #PREF-73 ^designation[0].language = #fr-FR
+* #PREF-73 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-73 ^designation[=].use = $sct#900000000000013009
+* #PREF-73 ^designation[=].value = "Préfecture de la Savoie"
+* #PREF-73 ^property[0].code = #dateValid
+* #PREF-73 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-73 ^property[+].code = #dateMaj
+* #PREF-73 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-73 ^property[+].code = #status
+* #PREF-73 ^property[=].valueCode = #active
+* #PREF-73 ^property[+].code = #niveau
+* #PREF-73 ^property[=].valueInteger = 2
+* #PREF-73 ^property[+].code = #parent
+* #PREF-73 ^property[=].valueCode = #09
+* #PREF-73 ^property[+].code = #autoriteRegulationFiness
+* #PREF-73 ^property[=].valueBoolean = true
+* #PREF-73 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-73 ^property[=].valueBoolean = false
+* #PREF-74 "PREF-74 : Préfecture de la Haute-Savoie"
+* #PREF-74 ^designation[0].language = #fr-FR
+* #PREF-74 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-74 ^designation[=].use = $sct#900000000000013009
+* #PREF-74 ^designation[=].value = "Préfecture de la Haute-Savoie"
+* #PREF-74 ^property[0].code = #dateValid
+* #PREF-74 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-74 ^property[+].code = #dateMaj
+* #PREF-74 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-74 ^property[+].code = #status
+* #PREF-74 ^property[=].valueCode = #active
+* #PREF-74 ^property[+].code = #niveau
+* #PREF-74 ^property[=].valueInteger = 2
+* #PREF-74 ^property[+].code = #parent
+* #PREF-74 ^property[=].valueCode = #09
+* #PREF-74 ^property[+].code = #autoriteRegulationFiness
+* #PREF-74 ^property[=].valueBoolean = true
+* #PREF-74 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-74 ^property[=].valueBoolean = false
+* #PREF-75 "PREF-75 : Préfecture de Paris"
+* #PREF-75 ^designation[0].language = #fr-FR
+* #PREF-75 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-75 ^designation[=].use = $sct#900000000000013009
+* #PREF-75 ^designation[=].value = "Préfecture de Paris"
+* #PREF-75 ^property[0].code = #dateValid
+* #PREF-75 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-75 ^property[+].code = #dateMaj
+* #PREF-75 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-75 ^property[+].code = #status
+* #PREF-75 ^property[=].valueCode = #active
+* #PREF-75 ^property[+].code = #niveau
+* #PREF-75 ^property[=].valueInteger = 2
+* #PREF-75 ^property[+].code = #parent
+* #PREF-75 ^property[=].valueCode = #09
+* #PREF-75 ^property[+].code = #autoriteRegulationFiness
+* #PREF-75 ^property[=].valueBoolean = true
+* #PREF-75 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-75 ^property[=].valueBoolean = false
+* #PREF-76 "PREF-76 : Préfecture de la Seine-Maritime"
+* #PREF-76 ^designation[0].language = #fr-FR
+* #PREF-76 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-76 ^designation[=].use = $sct#900000000000013009
+* #PREF-76 ^designation[=].value = "Préfecture de la Seine-Maritime"
+* #PREF-76 ^property[0].code = #dateValid
+* #PREF-76 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-76 ^property[+].code = #dateMaj
+* #PREF-76 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-76 ^property[+].code = #status
+* #PREF-76 ^property[=].valueCode = #active
+* #PREF-76 ^property[+].code = #niveau
+* #PREF-76 ^property[=].valueInteger = 2
+* #PREF-76 ^property[+].code = #parent
+* #PREF-76 ^property[=].valueCode = #09
+* #PREF-76 ^property[+].code = #autoriteRegulationFiness
+* #PREF-76 ^property[=].valueBoolean = true
+* #PREF-76 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-76 ^property[=].valueBoolean = false
+* #PREF-77 "PREF-77 : Préfecture de Seine-et-Marne"
+* #PREF-77 ^designation[0].language = #fr-FR
+* #PREF-77 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-77 ^designation[=].use = $sct#900000000000013009
+* #PREF-77 ^designation[=].value = "Préfecture de Seine-et-Marne"
+* #PREF-77 ^property[0].code = #dateValid
+* #PREF-77 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-77 ^property[+].code = #dateMaj
+* #PREF-77 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-77 ^property[+].code = #status
+* #PREF-77 ^property[=].valueCode = #active
+* #PREF-77 ^property[+].code = #niveau
+* #PREF-77 ^property[=].valueInteger = 2
+* #PREF-77 ^property[+].code = #parent
+* #PREF-77 ^property[=].valueCode = #09
+* #PREF-77 ^property[+].code = #autoriteRegulationFiness
+* #PREF-77 ^property[=].valueBoolean = true
+* #PREF-77 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-77 ^property[=].valueBoolean = false
+* #PREF-78 "PREF-78 : Préfecture des Yvelines"
+* #PREF-78 ^designation[0].language = #fr-FR
+* #PREF-78 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-78 ^designation[=].use = $sct#900000000000013009
+* #PREF-78 ^designation[=].value = "Préfecture des Yvelines"
+* #PREF-78 ^property[0].code = #dateValid
+* #PREF-78 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-78 ^property[+].code = #dateMaj
+* #PREF-78 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-78 ^property[+].code = #status
+* #PREF-78 ^property[=].valueCode = #active
+* #PREF-78 ^property[+].code = #niveau
+* #PREF-78 ^property[=].valueInteger = 2
+* #PREF-78 ^property[+].code = #parent
+* #PREF-78 ^property[=].valueCode = #09
+* #PREF-78 ^property[+].code = #autoriteRegulationFiness
+* #PREF-78 ^property[=].valueBoolean = true
+* #PREF-78 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-78 ^property[=].valueBoolean = false
+* #PREF-79 "PREF-79 : Préfecture des Deux-Sèvres"
+* #PREF-79 ^designation[0].language = #fr-FR
+* #PREF-79 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-79 ^designation[=].use = $sct#900000000000013009
+* #PREF-79 ^designation[=].value = "Préfecture des Deux-Sèvres"
+* #PREF-79 ^property[0].code = #dateValid
+* #PREF-79 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-79 ^property[+].code = #dateMaj
+* #PREF-79 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-79 ^property[+].code = #status
+* #PREF-79 ^property[=].valueCode = #active
+* #PREF-79 ^property[+].code = #niveau
+* #PREF-79 ^property[=].valueInteger = 2
+* #PREF-79 ^property[+].code = #parent
+* #PREF-79 ^property[=].valueCode = #09
+* #PREF-79 ^property[+].code = #autoriteRegulationFiness
+* #PREF-79 ^property[=].valueBoolean = true
+* #PREF-79 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-79 ^property[=].valueBoolean = false
+* #PREF-80 "PREF-80 : Préfecture de la Somme"
+* #PREF-80 ^designation[0].language = #fr-FR
+* #PREF-80 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-80 ^designation[=].use = $sct#900000000000013009
+* #PREF-80 ^designation[=].value = "Préfecture de la Somme"
+* #PREF-80 ^property[0].code = #dateValid
+* #PREF-80 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-80 ^property[+].code = #dateMaj
+* #PREF-80 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-80 ^property[+].code = #status
+* #PREF-80 ^property[=].valueCode = #active
+* #PREF-80 ^property[+].code = #niveau
+* #PREF-80 ^property[=].valueInteger = 2
+* #PREF-80 ^property[+].code = #parent
+* #PREF-80 ^property[=].valueCode = #09
+* #PREF-80 ^property[+].code = #autoriteRegulationFiness
+* #PREF-80 ^property[=].valueBoolean = true
+* #PREF-80 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-80 ^property[=].valueBoolean = false
+* #PREF-81 "PREF-81 : Préfecture du Tarn"
+* #PREF-81 ^designation[0].language = #fr-FR
+* #PREF-81 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-81 ^designation[=].use = $sct#900000000000013009
+* #PREF-81 ^designation[=].value = "Préfecture du Tarn"
+* #PREF-81 ^property[0].code = #dateValid
+* #PREF-81 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-81 ^property[+].code = #dateMaj
+* #PREF-81 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-81 ^property[+].code = #status
+* #PREF-81 ^property[=].valueCode = #active
+* #PREF-81 ^property[+].code = #niveau
+* #PREF-81 ^property[=].valueInteger = 2
+* #PREF-81 ^property[+].code = #parent
+* #PREF-81 ^property[=].valueCode = #09
+* #PREF-81 ^property[+].code = #autoriteRegulationFiness
+* #PREF-81 ^property[=].valueBoolean = true
+* #PREF-81 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-81 ^property[=].valueBoolean = false
+* #PREF-82 "PREF-82 : Préfecture du Tarn-et-Garonne"
+* #PREF-82 ^designation[0].language = #fr-FR
+* #PREF-82 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-82 ^designation[=].use = $sct#900000000000013009
+* #PREF-82 ^designation[=].value = "Préfecture du Tarn-et-Garonne"
+* #PREF-82 ^property[0].code = #dateValid
+* #PREF-82 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-82 ^property[+].code = #dateMaj
+* #PREF-82 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-82 ^property[+].code = #status
+* #PREF-82 ^property[=].valueCode = #active
+* #PREF-82 ^property[+].code = #niveau
+* #PREF-82 ^property[=].valueInteger = 2
+* #PREF-82 ^property[+].code = #parent
+* #PREF-82 ^property[=].valueCode = #09
+* #PREF-82 ^property[+].code = #autoriteRegulationFiness
+* #PREF-82 ^property[=].valueBoolean = true
+* #PREF-82 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-82 ^property[=].valueBoolean = false
+* #PREF-83 "PREF-83 : Préfecture du Var"
+* #PREF-83 ^designation[0].language = #fr-FR
+* #PREF-83 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-83 ^designation[=].use = $sct#900000000000013009
+* #PREF-83 ^designation[=].value = "Préfecture du Var"
+* #PREF-83 ^property[0].code = #dateValid
+* #PREF-83 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-83 ^property[+].code = #dateMaj
+* #PREF-83 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-83 ^property[+].code = #status
+* #PREF-83 ^property[=].valueCode = #active
+* #PREF-83 ^property[+].code = #niveau
+* #PREF-83 ^property[=].valueInteger = 2
+* #PREF-83 ^property[+].code = #parent
+* #PREF-83 ^property[=].valueCode = #09
+* #PREF-83 ^property[+].code = #autoriteRegulationFiness
+* #PREF-83 ^property[=].valueBoolean = true
+* #PREF-83 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-83 ^property[=].valueBoolean = false
+* #PREF-84 "PREF-84 : Préfecture de Vaucluse"
+* #PREF-84 ^designation[0].language = #fr-FR
+* #PREF-84 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-84 ^designation[=].use = $sct#900000000000013009
+* #PREF-84 ^designation[=].value = "Préfecture de Vaucluse"
+* #PREF-84 ^property[0].code = #dateValid
+* #PREF-84 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-84 ^property[+].code = #dateMaj
+* #PREF-84 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-84 ^property[+].code = #status
+* #PREF-84 ^property[=].valueCode = #active
+* #PREF-84 ^property[+].code = #niveau
+* #PREF-84 ^property[=].valueInteger = 2
+* #PREF-84 ^property[+].code = #parent
+* #PREF-84 ^property[=].valueCode = #09
+* #PREF-84 ^property[+].code = #autoriteRegulationFiness
+* #PREF-84 ^property[=].valueBoolean = true
+* #PREF-84 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-84 ^property[=].valueBoolean = false
+* #PREF-85 "PREF-85 : Préfecture de la Vendée"
+* #PREF-85 ^designation[0].language = #fr-FR
+* #PREF-85 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-85 ^designation[=].use = $sct#900000000000013009
+* #PREF-85 ^designation[=].value = "Préfecture de la Vendée"
+* #PREF-85 ^property[0].code = #dateValid
+* #PREF-85 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-85 ^property[+].code = #dateMaj
+* #PREF-85 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-85 ^property[+].code = #status
+* #PREF-85 ^property[=].valueCode = #active
+* #PREF-85 ^property[+].code = #niveau
+* #PREF-85 ^property[=].valueInteger = 2
+* #PREF-85 ^property[+].code = #parent
+* #PREF-85 ^property[=].valueCode = #09
+* #PREF-85 ^property[+].code = #autoriteRegulationFiness
+* #PREF-85 ^property[=].valueBoolean = true
+* #PREF-85 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-85 ^property[=].valueBoolean = false
+* #PREF-86 "PREF-86 : Préfecture de la Vienne"
+* #PREF-86 ^designation[0].language = #fr-FR
+* #PREF-86 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-86 ^designation[=].use = $sct#900000000000013009
+* #PREF-86 ^designation[=].value = "Préfecture de la Vienne"
+* #PREF-86 ^property[0].code = #dateValid
+* #PREF-86 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-86 ^property[+].code = #dateMaj
+* #PREF-86 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-86 ^property[+].code = #status
+* #PREF-86 ^property[=].valueCode = #active
+* #PREF-86 ^property[+].code = #niveau
+* #PREF-86 ^property[=].valueInteger = 2
+* #PREF-86 ^property[+].code = #parent
+* #PREF-86 ^property[=].valueCode = #09
+* #PREF-86 ^property[+].code = #autoriteRegulationFiness
+* #PREF-86 ^property[=].valueBoolean = true
+* #PREF-86 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-86 ^property[=].valueBoolean = false
+* #PREF-87 "PREF-87 : Préfecture de la Haute-Vienne"
+* #PREF-87 ^designation[0].language = #fr-FR
+* #PREF-87 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-87 ^designation[=].use = $sct#900000000000013009
+* #PREF-87 ^designation[=].value = "Préfecture de la Haute-Vienne"
+* #PREF-87 ^property[0].code = #dateValid
+* #PREF-87 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-87 ^property[+].code = #dateMaj
+* #PREF-87 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-87 ^property[+].code = #status
+* #PREF-87 ^property[=].valueCode = #active
+* #PREF-87 ^property[+].code = #niveau
+* #PREF-87 ^property[=].valueInteger = 2
+* #PREF-87 ^property[+].code = #parent
+* #PREF-87 ^property[=].valueCode = #09
+* #PREF-87 ^property[+].code = #autoriteRegulationFiness
+* #PREF-87 ^property[=].valueBoolean = true
+* #PREF-87 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-87 ^property[=].valueBoolean = false
+* #PREF-88 "PREF-88 : Préfecture des Vosges"
+* #PREF-88 ^designation[0].language = #fr-FR
+* #PREF-88 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-88 ^designation[=].use = $sct#900000000000013009
+* #PREF-88 ^designation[=].value = "Préfecture des Vosges"
+* #PREF-88 ^property[0].code = #dateValid
+* #PREF-88 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-88 ^property[+].code = #dateMaj
+* #PREF-88 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-88 ^property[+].code = #status
+* #PREF-88 ^property[=].valueCode = #active
+* #PREF-88 ^property[+].code = #niveau
+* #PREF-88 ^property[=].valueInteger = 2
+* #PREF-88 ^property[+].code = #parent
+* #PREF-88 ^property[=].valueCode = #09
+* #PREF-88 ^property[+].code = #autoriteRegulationFiness
+* #PREF-88 ^property[=].valueBoolean = true
+* #PREF-88 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-88 ^property[=].valueBoolean = false
+* #PREF-89 "PREF-89 : Préfecture de l’Yonne"
+* #PREF-89 ^designation[0].language = #fr-FR
+* #PREF-89 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-89 ^designation[=].use = $sct#900000000000013009
+* #PREF-89 ^designation[=].value = "Préfecture de l’Yonne"
+* #PREF-89 ^property[0].code = #dateValid
+* #PREF-89 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-89 ^property[+].code = #dateMaj
+* #PREF-89 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-89 ^property[+].code = #status
+* #PREF-89 ^property[=].valueCode = #active
+* #PREF-89 ^property[+].code = #niveau
+* #PREF-89 ^property[=].valueInteger = 2
+* #PREF-89 ^property[+].code = #parent
+* #PREF-89 ^property[=].valueCode = #09
+* #PREF-89 ^property[+].code = #autoriteRegulationFiness
+* #PREF-89 ^property[=].valueBoolean = true
+* #PREF-89 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-89 ^property[=].valueBoolean = false
+* #PREF-90 "PREF-90 : Préfecture du Territoire de Belfort"
+* #PREF-90 ^designation[0].language = #fr-FR
+* #PREF-90 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-90 ^designation[=].use = $sct#900000000000013009
+* #PREF-90 ^designation[=].value = "Préfecture du Territoire de Belfort"
+* #PREF-90 ^property[0].code = #dateValid
+* #PREF-90 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-90 ^property[+].code = #dateMaj
+* #PREF-90 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-90 ^property[+].code = #status
+* #PREF-90 ^property[=].valueCode = #active
+* #PREF-90 ^property[+].code = #niveau
+* #PREF-90 ^property[=].valueInteger = 2
+* #PREF-90 ^property[+].code = #parent
+* #PREF-90 ^property[=].valueCode = #09
+* #PREF-90 ^property[+].code = #autoriteRegulationFiness
+* #PREF-90 ^property[=].valueBoolean = true
+* #PREF-90 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-90 ^property[=].valueBoolean = false
+* #PREF-91 "PREF-91 : Préfecture de l’Essonne"
+* #PREF-91 ^designation[0].language = #fr-FR
+* #PREF-91 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-91 ^designation[=].use = $sct#900000000000013009
+* #PREF-91 ^designation[=].value = "Préfecture de l’Essonne"
+* #PREF-91 ^property[0].code = #dateValid
+* #PREF-91 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-91 ^property[+].code = #dateMaj
+* #PREF-91 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-91 ^property[+].code = #status
+* #PREF-91 ^property[=].valueCode = #active
+* #PREF-91 ^property[+].code = #niveau
+* #PREF-91 ^property[=].valueInteger = 2
+* #PREF-91 ^property[+].code = #parent
+* #PREF-91 ^property[=].valueCode = #09
+* #PREF-91 ^property[+].code = #autoriteRegulationFiness
+* #PREF-91 ^property[=].valueBoolean = true
+* #PREF-91 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-91 ^property[=].valueBoolean = false
+* #PREF-92 "PREF-92 : Préfecture des Hauts-de-Seine"
+* #PREF-92 ^designation[0].language = #fr-FR
+* #PREF-92 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-92 ^designation[=].use = $sct#900000000000013009
+* #PREF-92 ^designation[=].value = "Préfecture des Hauts-de-Seine"
+* #PREF-92 ^property[0].code = #dateValid
+* #PREF-92 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-92 ^property[+].code = #dateMaj
+* #PREF-92 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-92 ^property[+].code = #status
+* #PREF-92 ^property[=].valueCode = #active
+* #PREF-92 ^property[+].code = #niveau
+* #PREF-92 ^property[=].valueInteger = 2
+* #PREF-92 ^property[+].code = #parent
+* #PREF-92 ^property[=].valueCode = #09
+* #PREF-92 ^property[+].code = #autoriteRegulationFiness
+* #PREF-92 ^property[=].valueBoolean = true
+* #PREF-92 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-92 ^property[=].valueBoolean = false
+* #PREF-93 "PREF-93 : Préfecture de la Seine-Saint-Denis"
+* #PREF-93 ^designation[0].language = #fr-FR
+* #PREF-93 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-93 ^designation[=].use = $sct#900000000000013009
+* #PREF-93 ^designation[=].value = "Préfecture de la Seine-Saint-Denis"
+* #PREF-93 ^property[0].code = #dateValid
+* #PREF-93 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-93 ^property[+].code = #dateMaj
+* #PREF-93 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-93 ^property[+].code = #status
+* #PREF-93 ^property[=].valueCode = #active
+* #PREF-93 ^property[+].code = #niveau
+* #PREF-93 ^property[=].valueInteger = 2
+* #PREF-93 ^property[+].code = #parent
+* #PREF-93 ^property[=].valueCode = #09
+* #PREF-93 ^property[+].code = #autoriteRegulationFiness
+* #PREF-93 ^property[=].valueBoolean = true
+* #PREF-93 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-93 ^property[=].valueBoolean = false
+* #PREF-94 "PREF-94 : Préfecture du Val-de-Marne"
+* #PREF-94 ^designation[0].language = #fr-FR
+* #PREF-94 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-94 ^designation[=].use = $sct#900000000000013009
+* #PREF-94 ^designation[=].value = "Préfecture du Val-de-Marne"
+* #PREF-94 ^property[0].code = #dateValid
+* #PREF-94 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-94 ^property[+].code = #dateMaj
+* #PREF-94 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-94 ^property[+].code = #status
+* #PREF-94 ^property[=].valueCode = #active
+* #PREF-94 ^property[+].code = #niveau
+* #PREF-94 ^property[=].valueInteger = 2
+* #PREF-94 ^property[+].code = #parent
+* #PREF-94 ^property[=].valueCode = #09
+* #PREF-94 ^property[+].code = #autoriteRegulationFiness
+* #PREF-94 ^property[=].valueBoolean = true
+* #PREF-94 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-94 ^property[=].valueBoolean = false
+* #PREF-95 "PREF-95 : Préfecture du Val-d’Oise"
+* #PREF-95 ^designation[0].language = #fr-FR
+* #PREF-95 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-95 ^designation[=].use = $sct#900000000000013009
+* #PREF-95 ^designation[=].value = "Préfecture du Val-d’Oise"
+* #PREF-95 ^property[0].code = #dateValid
+* #PREF-95 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-95 ^property[+].code = #dateMaj
+* #PREF-95 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-95 ^property[+].code = #status
+* #PREF-95 ^property[=].valueCode = #active
+* #PREF-95 ^property[+].code = #niveau
+* #PREF-95 ^property[=].valueInteger = 2
+* #PREF-95 ^property[+].code = #parent
+* #PREF-95 ^property[=].valueCode = #09
+* #PREF-95 ^property[+].code = #autoriteRegulationFiness
+* #PREF-95 ^property[=].valueBoolean = true
+* #PREF-95 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-95 ^property[=].valueBoolean = false
+* #PREF-971 "PREF-971 : Préfecture de la Guadeloupe"
+* #PREF-971 ^designation[0].language = #fr-FR
+* #PREF-971 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-971 ^designation[=].use = $sct#900000000000013009
+* #PREF-971 ^designation[=].value = "Préfecture de la Guadeloupe"
+* #PREF-971 ^property[0].code = #dateValid
+* #PREF-971 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-971 ^property[+].code = #dateMaj
+* #PREF-971 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-971 ^property[+].code = #status
+* #PREF-971 ^property[=].valueCode = #active
+* #PREF-971 ^property[+].code = #niveau
+* #PREF-971 ^property[=].valueInteger = 2
+* #PREF-971 ^property[+].code = #parent
+* #PREF-971 ^property[=].valueCode = #09
+* #PREF-971 ^property[+].code = #autoriteRegulationFiness
+* #PREF-971 ^property[=].valueBoolean = true
+* #PREF-971 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-971 ^property[=].valueBoolean = false
+* #PREF-972 "PREF-972 : Préfecture de la Martinique"
+* #PREF-972 ^designation[0].language = #fr-FR
+* #PREF-972 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-972 ^designation[=].use = $sct#900000000000013009
+* #PREF-972 ^designation[=].value = "Préfecture de la Martinique"
+* #PREF-972 ^property[0].code = #dateValid
+* #PREF-972 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-972 ^property[+].code = #dateMaj
+* #PREF-972 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-972 ^property[+].code = #status
+* #PREF-972 ^property[=].valueCode = #active
+* #PREF-972 ^property[+].code = #niveau
+* #PREF-972 ^property[=].valueInteger = 2
+* #PREF-972 ^property[+].code = #parent
+* #PREF-972 ^property[=].valueCode = #09
+* #PREF-972 ^property[+].code = #autoriteRegulationFiness
+* #PREF-972 ^property[=].valueBoolean = true
+* #PREF-972 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-972 ^property[=].valueBoolean = false
+* #PREF-973 "PREF-973 : Préfecture de la Guyane"
+* #PREF-973 ^designation[0].language = #fr-FR
+* #PREF-973 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-973 ^designation[=].use = $sct#900000000000013009
+* #PREF-973 ^designation[=].value = "Préfecture de la Guyane"
+* #PREF-973 ^property[0].code = #dateValid
+* #PREF-973 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-973 ^property[+].code = #dateMaj
+* #PREF-973 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-973 ^property[+].code = #status
+* #PREF-973 ^property[=].valueCode = #active
+* #PREF-973 ^property[+].code = #niveau
+* #PREF-973 ^property[=].valueInteger = 2
+* #PREF-973 ^property[+].code = #parent
+* #PREF-973 ^property[=].valueCode = #09
+* #PREF-973 ^property[+].code = #autoriteRegulationFiness
+* #PREF-973 ^property[=].valueBoolean = true
+* #PREF-973 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-973 ^property[=].valueBoolean = false
+* #PREF-974 "PREF-974 : Préfecture de La Réunion"
+* #PREF-974 ^designation[0].language = #fr-FR
+* #PREF-974 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-974 ^designation[=].use = $sct#900000000000013009
+* #PREF-974 ^designation[=].value = "Préfecture de La Réunion"
+* #PREF-974 ^property[0].code = #dateValid
+* #PREF-974 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-974 ^property[+].code = #dateMaj
+* #PREF-974 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-974 ^property[+].code = #status
+* #PREF-974 ^property[=].valueCode = #active
+* #PREF-974 ^property[+].code = #niveau
+* #PREF-974 ^property[=].valueInteger = 2
+* #PREF-974 ^property[+].code = #parent
+* #PREF-974 ^property[=].valueCode = #09
+* #PREF-974 ^property[+].code = #autoriteRegulationFiness
+* #PREF-974 ^property[=].valueBoolean = true
+* #PREF-974 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-974 ^property[=].valueBoolean = false
+* #PREF-976 "PREF-976 : Préfecture de Mayotte"
+* #PREF-976 ^designation[0].language = #fr-FR
+* #PREF-976 ^designation[=].use.system = "http://snomed.info/sct"
+* #PREF-976 ^designation[=].use = $sct#900000000000013009
+* #PREF-976 ^designation[=].value = "Préfecture de Mayotte"
+* #PREF-976 ^property[0].code = #dateValid
+* #PREF-976 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-976 ^property[+].code = #dateMaj
+* #PREF-976 ^property[=].valueDateTime = "2026-07-01T00:00:00+01:00"
+* #PREF-976 ^property[+].code = #status
+* #PREF-976 ^property[=].valueCode = #active
+* #PREF-976 ^property[+].code = #niveau
+* #PREF-976 ^property[=].valueInteger = 2
+* #PREF-976 ^property[+].code = #parent
+* #PREF-976 ^property[=].valueCode = #09
+* #PREF-976 ^property[+].code = #autoriteRegulationFiness
+* #PREF-976 ^property[=].valueBoolean = true
+* #PREF-976 ^property[+].code = #autoriteEnregistrementFiness
+* #PREF-976 ^property[=].valueBoolean = false
+
 
