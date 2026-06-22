@@ -64,7 +64,7 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
   "caseSensitive" : false,
   "valueSet" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee?vs",
   "content" : "complete",
-  "count" : 51,
+  "count" : 52,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -1737,6 +1737,22 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     {
       "code" : "rass",
       "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "54",
+    "display" : "Accueil familial",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {

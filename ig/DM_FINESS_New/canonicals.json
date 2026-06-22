@@ -7,12 +7,28 @@
   "oids" : ["2.16.840.1.113883.4.642.3.264"]
 },
 {
+  "id" : "tre-r347-activite-sanitaire-diverse-regulee",
+  "type" : "CodeSystem",
+  "url" : "http://hl7.org/fhir/us/example/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+  "version" : "20260629120000",
+  "name" : "TreR347ActiviteSanitaireDiverseRegulee",
+  "oids" : ["1.2.250.1.213.1.6.1.248"]
+},
+{
   "id" : "tre-r396-autorite",
   "type" : "CodeSystem",
   "url" : "http://hl7.org/fhir/us/example/CodeSystem/tre-r396-autorite",
   "version" : "20260629120000",
   "name" : "TreR396Autorite",
   "oids" : ["1.2.250.1.213.1.6.1.377"]
+},
+{
+  "id" : "tre-r403-public-activite-smsse-regulee",
+  "type" : "CodeSystem",
+  "url" : "http://hl7.org/fhir/us/example/CodeSystem/tre-r403-public-activite-smsse-regulee",
+  "version" : "20260629120000",
+  "name" : "TreR403PublicActiviteSmsseRegulee",
+  "oids" : ["1.2.250.1.213.1.6.1.382"]
 },
 {
   "id" : "jdv-j305-type-groupement-finess",
@@ -4639,14 +4655,6 @@
   "oids" : ["1.2.250.1.213.1.1.4.322"]
 },
 {
-  "id" : "tre-r347-activite-sanitaire-diverse-regulee",
-  "type" : "CodeSystem",
-  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
-  "version" : "20260601120000",
-  "name" : "TreR347ActiviteSanitaireDiverseRegulee",
-  "oids" : ["1.2.250.1.213.1.6.1.248"]
-},
-{
   "id" : "tre-r360-role-membre",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-role-membre",
@@ -5023,14 +5031,6 @@
   "version" : "20260223120000",
   "name" : "TreR402ActiviteEnseignementRegulee",
   "oids" : ["1.2.250.1.213.1.6.1.381"]
-},
-{
-  "id" : "tre-r403-public-activite-smsse-regulee",
-  "type" : "CodeSystem",
-  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-  "version" : "20260223120000",
-  "name" : "TreR403PublicActiviteSmsseRegulee",
-  "oids" : ["1.2.250.1.213.1.6.1.382"]
 },
 {
   "id" : "tre-r404-mode-fonctionnement-activite-smsse-regulee",

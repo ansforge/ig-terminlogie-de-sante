@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee | *Version*:20260601120000 | |
-| Active as of 2026-06-01 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR347ActiviteSanitaireDiverseRegulee |
+| *Official URL*:http://hl7.org/fhir/us/example/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee | *Version*:20260629120000 | |
+| Active as of 2026-06-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR347ActiviteSanitaireDiverseRegulee |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.248 | | |
 
  
@@ -17,11 +17,7 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvJ240ActiviteSanitaireDiverseReguleeFiness](ValueSet-jdv-j240-activite-sanitaire-diverse-regulee-finess.md)
-* [JdvJ333ActiviteSanitaireDiverseReguleeNiv1Finess](ValueSet-jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess.md)
-* [JdvJ334ActiviteSanitaireDiverseReguleeNiv2Finess](ValueSet-jdv-j334-activite-sanitaire-diverse-regulee-niv2-finess.md)
-* [JdvJ335ActiviteSanitaireDiverseReguleeNiv3Finess](ValueSet-jdv-j335-activite-sanitaire-diverse-regulee-niv3-finess.md)
-* [JdvJ418ActiviteSanitaireDiverseReguleeActive](ValueSet-jdv-j418-activite-sanitaire-diverse-regulee-active.md)
+* Cette terminologie de référence (CodeSystem) n'est pas utilisée ici; elle peut être utilisée ailleurs (par exemple spécifications et/ou implémentations qui utilisent ce contenu)
 
 
 
@@ -43,17 +39,17 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
       "start" : "1979-01-01T00:00:00+01:00"
     }
   }],
-  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+  "url" : "http://hl7.org/fhir/us/example/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
   "identifier" : [{
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.248"
   }],
-  "version" : "20260601120000",
+  "version" : "20260629120000",
   "name" : "TreR347ActiviteSanitaireDiverseRegulee",
   "title" : "Tre R347 Activite Sanitaire Diverse Regulee",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-01T12:00:00.000+00:00",
+  "date" : "2026-06-29T12:00:00.000+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Nomenclature des activités sanitaires utilisée pour décrire les Activités Sanitaires Diverses Régulées (ASDR)",
   "jurisdiction" : [{
@@ -65,7 +61,7 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
   "caseSensitive" : false,
   "hierarchyMeaning" : "is-a",
   "content" : "complete",
-  "count" : 461,
+  "count" : 478,
   "property" : [{
     "code" : "parent",
     "uri" : "http://hl7.org/fhir/concept-properties#parent",
@@ -2352,7 +2348,7 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
   },
   {
     "code" : "0371",
-    "display" : "structures de psychiatrie sans hébergement",
+    "display" : "structures de psychiatrie ambulatoire",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2371,7 +2367,7 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2001-10-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -3008,6 +3004,426 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
     {
       "code" : "niveau",
       "valueInteger" : 3
+    }]
+  },
+  {
+    "code" : "861",
+    "display" : "Accueil familial thérapeutique",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "0371"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 4
+    }]
+  },
+  {
+    "code" : "862",
+    "display" : "Appartement thérapeutique",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "A.T."
+    }],
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "0371"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 4
+    }]
+  },
+  {
+    "code" : "863",
+    "display" : "Accueil permanent",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "0371"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 4
+    }]
+  },
+  {
+    "code" : "864",
+    "display" : "Centre d'activités thérapeutiques et de temps de groupe",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "C.A.T.T.G."
+    }],
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "0371"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 4
+    }]
+  },
+  {
+    "code" : "865",
+    "display" : "Centre de crise",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "0371"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 4
+    }]
+  },
+  {
+    "code" : "866",
+    "display" : "Centre de soins post-aigus",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Ce.S.P.A."
+    }],
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "0371"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 4
+    }]
+  },
+  {
+    "code" : "867",
+    "display" : "Centre médico-psychologique",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "C.M.P."
+    }],
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "0371"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 4
+    }]
+  },
+  {
+    "code" : "868",
+    "display" : "Hôpital de jour",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "H.D.J."
+    }],
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "0371"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 4
+    }]
+  },
+  {
+    "code" : "869",
+    "display" : "Service médico-psychologique régional",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "S.M.P.R."
+    }],
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "0371"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 4
+    }]
+  },
+  {
+    "code" : "870",
+    "display" : "Soins à domicile",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "0371"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 4
+    }]
+  },
+  {
+    "code" : "871",
+    "display" : "Unité hospitalière spécialement aménagée",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "U.H.S.A."
+    }],
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "0371"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 4
+    }]
+  },
+  {
+    "code" : "872",
+    "display" : "Unité pour malades difficiles",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "U.M.D."
+    }],
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "0371"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 4
+    }]
+  },
+  {
+    "code" : "873",
+    "display" : "Unité sanitaire en milieu pénitentiaire",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "U.S.M.P."
+    }],
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "0371"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 4
+    }]
+  },
+  {
+    "code" : "874",
+    "display" : "Hôpital de nuit",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "0371"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 4
+    }]
+  },
+  {
+    "code" : "875",
+    "display" : "Centre de consultations",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "0371"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 4
+    }]
+  },
+  {
+    "code" : "876",
+    "display" : "Unité d’hospitalisation complète",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "0371"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 4
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "877",
+    "display" : "Centre d'accueil et de crise",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "C.A.C."
+    }],
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "0371"
+    },
+    {
+      "code" : "niveau",
+      "valueInteger" : 4
     }]
   },
   {
@@ -8531,7 +8947,11 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "niveau",
@@ -8563,7 +8983,11 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "niveau",
@@ -8595,7 +9019,11 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "niveau",
@@ -8627,7 +9055,11 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "niveau",
@@ -8731,7 +9163,11 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "niveau",
@@ -8763,7 +9199,11 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "niveau",
@@ -14007,7 +14447,11 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "niveau",
@@ -14039,7 +14483,11 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "niveau",

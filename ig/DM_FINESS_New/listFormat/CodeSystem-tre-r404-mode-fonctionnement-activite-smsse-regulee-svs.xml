@@ -442,6 +442,15 @@
                   longDesignation="Information des Tuteurs Familiaux"
                   shortDesignation="Inform. Tuteurs Fam."
                   descriptionMetier=""/>
+         <concept code="54"
+                  codeSystem="1.2.250.1.213.1.6.1.383"
+                  dateFin=""
+                  dateMaj="20260629000000"
+                  dateValid="20260629000000"
+                  displayName="Accueil familial"
+                  longDesignation="Accueil familial"
+                  shortDesignation="Accueil familial"
+                  descriptionMetier=""/>
          <concept code="60"
                   codeSystem="1.2.250.1.213.1.6.1.383"
                   dateFin=""
