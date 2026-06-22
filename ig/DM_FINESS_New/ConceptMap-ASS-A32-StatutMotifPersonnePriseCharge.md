@@ -36,7 +36,7 @@ Pour cette association, seuls les fichiers sont disponibles :
   "title" : "ASS_A32_StatutMotifPersonnePriseCharge",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-22T06:15:53+00:00",
+  "date" : "2026-06-22T09:45:10+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",

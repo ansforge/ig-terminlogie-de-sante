@@ -3022,6 +3022,10 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
       "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
       "code" : "niveau",
       "valueInteger" : 4
     }]
@@ -3050,6 +3054,10 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
       "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
       "code" : "niveau",
       "valueInteger" : 4
     }]
@@ -3068,6 +3076,10 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
     {
       "code" : "dateMaj",
       "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
       "code" : "niveau",
@@ -3098,6 +3110,10 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
       "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
       "code" : "niveau",
       "valueInteger" : 4
     }]
@@ -3116,6 +3132,10 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
     {
       "code" : "dateMaj",
       "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
       "code" : "niveau",
@@ -3146,6 +3166,10 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
       "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
       "code" : "niveau",
       "valueInteger" : 4
     }]
@@ -3172,6 +3196,10 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
     {
       "code" : "dateMaj",
       "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
       "code" : "niveau",
@@ -3202,6 +3230,10 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
       "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
       "code" : "niveau",
       "valueInteger" : 4
     }]
@@ -3230,6 +3262,10 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
       "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
       "code" : "niveau",
       "valueInteger" : 4
     }]
@@ -3248,6 +3284,10 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
     {
       "code" : "dateMaj",
       "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
       "code" : "niveau",
@@ -3278,6 +3318,10 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
       "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
       "code" : "niveau",
       "valueInteger" : 4
     }]
@@ -3304,6 +3348,10 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
     {
       "code" : "dateMaj",
       "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
       "code" : "niveau",
@@ -3334,6 +3382,10 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
       "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
       "code" : "niveau",
       "valueInteger" : 4
     }]
@@ -3352,6 +3404,10 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
     {
       "code" : "dateMaj",
       "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
       "code" : "niveau",
@@ -3374,6 +3430,10 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
       "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
       "code" : "niveau",
       "valueInteger" : 4
     }]
@@ -3394,16 +3454,12 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
       "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
       "code" : "niveau",
       "valueInteger" : 4
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T00:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     }]
   },
   {
@@ -3424,6 +3480,18 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
     {
       "code" : "niveau",
       "valueInteger" : 4
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
