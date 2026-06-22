@@ -1,23 +1,24 @@
 CodeSystem: TRE_R212_Equipement
 Id: TRE-R212-Equipement
 Description: "Equipement"
-* ^meta.versionId = "23"
-* ^meta.lastUpdated = "2025-12-22T10:46:41.590+01:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
+* ^meta.versionId = "24"
+* ^meta.lastUpdated = "2026-05-29T14:43:05.017+02:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2015-03-25T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.10"
-* ^version = "20251222120000"
+* ^version = "20260601120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-12-22T12:00:00+01:00"
+* ^date = "2026-06-01T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 235
+* ^count = 245
 * ^property[0].code = #dateValid
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
@@ -45,6 +46,10 @@ Description: "Equipement"
 * ^property[+].code = #finess
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#finess"
 * ^property[=].description = "Permet de définir les codes concepts utilisés par FINESS+"
+* ^property[=].type = #boolean
+* ^property[+].code = #specialisationFiness
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#specialisationFiness"
+* ^property[=].description = "Propriété permettant de spécifier les codes exclusifs appartenant à FINESS"
 * ^property[=].type = #boolean
 * #001 "Angiographie biplan rotationnelle (reconstruction scanner integrée)"
 * #001 ^property[0].code = #dateValid
@@ -2042,6 +2047,7 @@ Description: "Equipement"
 * #232 ^property[=].valueBoolean = true
 * #233 "Tomographie par Émission de Positons"
 * #233 ^designation.language = #fr-FR
+* #233 ^designation.use.system = "http://snomed.info/sct"
 * #233 ^designation.use = $sct#900000000000013009
 * #233 ^designation.value = "TEP"
 * #233 ^property[0].code = #dateValid
@@ -2066,3 +2072,84 @@ Description: "Equipement"
 * #235 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
 * #235 ^property[+].code = #status
 * #235 ^property[=].valueCode = #active
+* #236 "Appareil de thermoformage"
+* #236 ^property[0].code = #dateValid
+* #236 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #236 ^property[+].code = #dateMaj
+* #236 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #236 ^property[+].code = #status
+* #236 ^property[=].valueCode = #active
+* #237 "Appareil de thermosoudage"
+* #237 ^property[0].code = #dateValid
+* #237 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #237 ^property[+].code = #dateMaj
+* #237 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #237 ^property[+].code = #status
+* #237 ^property[=].valueCode = #active
+* #238 "Plateforme de force (étude de la posture)"
+* #238 ^property[0].code = #dateValid
+* #238 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #238 ^property[+].code = #dateMaj
+* #238 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #238 ^property[+].code = #status
+* #238 ^property[=].valueCode = #active
+* #239 "Plateforme de pression (étude de la marche)"
+* #239 ^property[0].code = #dateValid
+* #239 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #239 ^property[+].code = #dateMaj
+* #239 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #239 ^property[+].code = #status
+* #239 ^property[=].valueCode = #active
+* #240 "Piste de marche"
+* #240 ^property[0].code = #dateValid
+* #240 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #240 ^property[+].code = #dateMaj
+* #240 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #240 ^property[+].code = #status
+* #240 ^property[=].valueCode = #active
+* #241 "Tapis de course"
+* #241 ^property[0].code = #dateValid
+* #241 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #241 ^property[+].code = #dateMaj
+* #241 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #241 ^property[+].code = #status
+* #241 ^property[=].valueCode = #active
+* #242 "Système vidéo d'analyse de la marche et de la course"
+* #242 ^property[0].code = #dateValid
+* #242 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #242 ^property[+].code = #dateMaj
+* #242 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #242 ^property[+].code = #status
+* #242 ^property[=].valueCode = #active
+* #243 "Semelles avec capteurs embarqués"
+* #243 ^property[0].code = #dateValid
+* #243 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #243 ^property[+].code = #dateMaj
+* #243 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #243 ^property[+].code = #status
+* #243 ^property[=].valueCode = #active
+* #244 "Caisson hyperbare" "Code créé spécifiquement pour les besoins de FINESS.\n\nCaisson hyperbare soumis à autorisation\""
+* #244 ^property[0].code = #dateValid
+* #244 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #244 ^property[+].code = #dateMaj
+* #244 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #244 ^property[+].code = #status
+* #244 ^property[=].valueCode = #active
+* #244 ^property[+].code = #finess
+* #244 ^property[=].valueBoolean = true
+* #244 ^property[+].code = #specialisationFiness
+* #244 ^property[=].valueBoolean = true
+* #245 "Cyclotron à usage médical" "Code créé spécifiquement pour les besoins de FINESS.\n\nCyclotron à usage médical soumis à autorisation dans le cadre d'une activité AMM de médecine nucléaire."
+* #245 ^designation.language = #fr-FR
+* #245 ^designation.use = $sct#900000000000013009
+* #245 ^designation.value = "Cyclotron"
+* #245 ^property[0].code = #dateValid
+* #245 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #245 ^property[+].code = #dateMaj
+* #245 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
+* #245 ^property[+].code = #status
+* #245 ^property[=].valueCode = #active
+* #245 ^property[+].code = #finess
+* #245 ^property[=].valueBoolean = true
+* #245 ^property[+].code = #specialisationFiness
+* #245 ^property[=].valueBoolean = true
