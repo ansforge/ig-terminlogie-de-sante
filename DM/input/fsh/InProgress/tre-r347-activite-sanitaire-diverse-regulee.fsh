@@ -1417,6 +1417,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #861 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #861 ^property[+].code = #dateMaj
 * #861 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #861 ^property[+].code = #status
+* #861 ^property[=].valueCode = #active
 * #861 ^property[+].code = #niveau
 * #861 ^property[=].valueInteger = 4
 
@@ -1431,6 +1433,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #862 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #862 ^property[+].code = #dateMaj
 * #862 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #862 ^property[+].code = #status
+* #862 ^property[=].valueCode = #active
 * #862 ^property[+].code = #niveau
 * #862 ^property[=].valueInteger = 4
 
@@ -1441,6 +1445,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #863 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #863 ^property[+].code = #dateMaj
 * #863 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #863 ^property[+].code = #status
+* #863 ^property[=].valueCode = #active
 * #863 ^property[+].code = #niveau
 * #863 ^property[=].valueInteger = 4
 
@@ -1455,9 +1461,10 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #864 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #864 ^property[+].code = #dateMaj
 * #864 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #864 ^property[+].code = #status
+* #864 ^property[=].valueCode = #active
 * #864 ^property[+].code = #niveau
 * #864 ^property[=].valueInteger = 4
-
 
 * #865 "Centre de crise"
 * #865 ^property[0].code = #parent
@@ -1466,6 +1473,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #865 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #865 ^property[+].code = #dateMaj
 * #865 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #865 ^property[+].code = #status
+* #865 ^property[=].valueCode = #active
 * #865 ^property[+].code = #niveau
 * #865 ^property[=].valueInteger = 4
 
@@ -1480,6 +1489,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #866 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #866 ^property[+].code = #dateMaj
 * #866 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #866 ^property[+].code = #status
+* #866 ^property[=].valueCode = #active
 * #866 ^property[+].code = #niveau
 * #866 ^property[=].valueInteger = 4
 
@@ -1494,6 +1505,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #867 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #867 ^property[+].code = #dateMaj
 * #867 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #867 ^property[+].code = #status
+* #867 ^property[=].valueCode = #active
 * #867 ^property[+].code = #niveau
 * #867 ^property[=].valueInteger = 4
 
@@ -1508,6 +1521,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #868 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #868 ^property[+].code = #dateMaj
 * #868 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #868 ^property[+].code = #status
+* #868 ^property[=].valueCode = #active
 * #868 ^property[+].code = #niveau
 * #868 ^property[=].valueInteger = 4
 
@@ -1522,6 +1537,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #869 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #869 ^property[+].code = #dateMaj
 * #869 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #869 ^property[+].code = #status
+* #869 ^property[=].valueCode = #active
 * #869 ^property[+].code = #niveau
 * #869 ^property[=].valueInteger = 4
 
@@ -1532,6 +1549,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #870 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #870 ^property[+].code = #dateMaj
 * #870 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #870 ^property[+].code = #status
+* #870 ^property[=].valueCode = #active
 * #870 ^property[+].code = #niveau
 * #870 ^property[=].valueInteger = 4
 
@@ -1546,6 +1565,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #871 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #871 ^property[+].code = #dateMaj
 * #871 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #871 ^property[+].code = #status
+* #871 ^property[=].valueCode = #active
 * #871 ^property[+].code = #niveau
 * #871 ^property[=].valueInteger = 4
 
@@ -1560,6 +1581,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #872 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #872 ^property[+].code = #dateMaj
 * #872 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #872 ^property[+].code = #status
+* #872 ^property[=].valueCode = #active
 * #872 ^property[+].code = #niveau
 * #872 ^property[=].valueInteger = 4
 
@@ -1574,6 +1597,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #873 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #873 ^property[+].code = #dateMaj
 * #873 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #873 ^property[+].code = #status
+* #873 ^property[=].valueCode = #active
 * #873 ^property[+].code = #niveau
 * #873 ^property[=].valueInteger = 4
 
@@ -1584,6 +1609,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #874 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #874 ^property[+].code = #dateMaj
 * #874 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #874 ^property[+].code = #status
+* #874 ^property[=].valueCode = #active
 * #874 ^property[+].code = #niveau
 * #874 ^property[=].valueInteger = 4
 
@@ -1594,6 +1621,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #875 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #875 ^property[+].code = #dateMaj
 * #875 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #875 ^property[+].code = #status
+* #875 ^property[=].valueCode = #active
 * #875 ^property[+].code = #niveau
 * #875 ^property[=].valueInteger = 4
 
@@ -1604,6 +1633,8 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #876 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #876 ^property[+].code = #dateMaj
 * #876 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #876 ^property[+].code = #status
+* #876 ^property[=].valueCode = #active
 * #876 ^property[+].code = #niveau
 * #876 ^property[=].valueInteger = 4
 
@@ -1615,10 +1646,12 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #877 ^property[0].code = #parent
 * #877 ^property[=].valueCode = #0371
 * #877 ^property[+].code = #niveau
-* #876 ^property[+].code = #dateValid
-* #876 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
-* #876 ^property[+].code = #dateMaj
-* #876 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #877 ^property[+].code = #dateValid
+* #877 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #877 ^property[+].code = #dateMaj
+* #877 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
+* #877 ^property[+].code = #status
+* #877 ^property[=].valueCode = #active
 * #877 ^property[=].valueInteger = 4
 
 
