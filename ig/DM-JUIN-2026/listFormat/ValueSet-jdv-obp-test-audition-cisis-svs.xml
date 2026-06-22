@@ -11,19 +11,19 @@
              urlFichier="">
       <ConceptList>
          <Concept code="275727004"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="examen auditif ou vestibulaire normal"/>
          <Concept code="134376008"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="examen auditif ou vestibulaire anormal à droite"/>
          <Concept code="134375007"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="examen auditif ou vestibulaire anormal à gauche"/>
          <Concept code="134374006"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="examen auditif ou vestibulaire anormal des deux côtés"/>
          <Concept code="164746007"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="examen auditif ou vestibulaire non effectué"/>
       </ConceptList>
    </ValueSet>

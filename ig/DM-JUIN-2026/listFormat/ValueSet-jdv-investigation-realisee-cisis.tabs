@@ -2,11 +2,11 @@
 1.2.250.1.213.1.1.5.47;JDV;JdvInvestigationRealiseeCisis.tabs;JDV Investigation Realisee CISIS;;20100101000000;;20260420150251
 <OID>;<Code>;<Libellé>
 1.2.250.1.213.1.1.4.322;GEN-092.04.03;Autres investigations
-http://snomed.info/sct;58147004;clinique
-http://snomed.info/sct;12893009;biologique
-http://snomed.info/sct;80534008;biochimique
-http://snomed.info/sct;363679005;imagerie
-http://snomed.info/sct;116148004;procédé de génétique moléculaire
-http://snomed.info/sct;73735000;procédure cytogénétique
-http://snomed.info/sct;12894003;évaluation fonctionnelle
-http://snomed.info/sct;108257001;procédure d'anatomopathologie
+2.16.840.1.113883.6.96;58147004;clinique
+2.16.840.1.113883.6.96;12893009;biologique
+2.16.840.1.113883.6.96;80534008;biochimique
+2.16.840.1.113883.6.96;363679005;imagerie
+2.16.840.1.113883.6.96;116148004;procédé de génétique moléculaire
+2.16.840.1.113883.6.96;73735000;procédure cytogénétique
+2.16.840.1.113883.6.96;12894003;évaluation fonctionnelle
+2.16.840.1.113883.6.96;108257001;procédure d'anatomopathologie

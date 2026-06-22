@@ -46,6 +46,9 @@
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
     ],
+    "http://ontoserver.csiro.au/profiles/cs-provenance": [
+      "CodeSystem"
+    ],
     "http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-relationshipKind": [
       "CodeSystem.property"
     ]

@@ -14,16 +14,16 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Carrefour"/>
          <Concept code="83251001"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="lobe frontal"/>
          <Concept code="16630005"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="lobe pariétal"/>
          <Concept code="31065004"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="lobe occipital"/>
          <Concept code="78277001"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="lobe temporal"/>
       </ConceptList>
    </ValueSet>

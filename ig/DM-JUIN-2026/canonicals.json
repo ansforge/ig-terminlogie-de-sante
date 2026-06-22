@@ -1,4 +1,20 @@
 [{
+  "id" : "11000315107-20250621",
+  "type" : "CodeSystem",
+  "url" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/11000315107/version/20250621",
+  "name" : "SNOMED_CT",
+  "oids" : ["2.16.840.1.113883.6.96"]
+},
+{
+  "id" : "900000000000207008-20260601",
+  "type" : "CodeSystem",
+  "url" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20260601",
+  "name" : "SNOMED_CT",
+  "oids" : ["2.16.840.1.113883.6.96"]
+},
+{
   "id" : "condition-clinical",
   "type" : "CodeSystem",
   "url" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
@@ -5102,20 +5118,20 @@
   "oids" : ["1.2.250.1.213.1.6.1.377"]
 },
 {
+  "id" : "tre-r400-finess-statut-juridique",
+  "type" : "CodeSystem",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+  "version" : "20260223120000",
+  "name" : "TreR400FinessStatutJuridique",
+  "oids" : ["1.2.250.1.213.1.6.1.379"]
+},
+{
   "id" : "tre-r397-categorie-entite-geographique-exercice",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
   "version" : "20260601120000",
   "name" : "TreR397CategorieEntiteGeographiqueExercice",
   "oids" : ["1.2.250.1.213.1.6.1.378"]
-},
-{
-  "id" : "tre-r400-finess-statut-juridique",
-  "type" : "CodeSystem",
-  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
-  "version" : "20260223120000",
-  "name" : "TreR400FinessStatutJuridique",
-  "oids" : ["1.2.250.1.213.1.6.1.379"]
 },
 {
   "id" : "tre-r401-activite-sociale-regulee",
@@ -10113,7 +10129,7 @@
   "id" : "concept-properties",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/fhir/concept-properties",
-  "version" : "20260330120000",
+  "version" : "20260629120000",
   "name" : "ConceptProperties"
 },
 {

@@ -215,6 +215,14 @@
   "status" : "draft"
 },
 {
+  "id" : "concept-properties",
+  "name" : "ConceptProperties",
+  "title" : "Concept Properties",
+  "url" : "https://smt.esante.gouv.fr/fhir/concept-properties",
+  "identifier" : null,
+  "status" : "active"
+},
+{
   "id" : "condition-clinical-supplement-fr",
   "name" : "ConditionClinicalSupplementFr",
   "title" : "ConditionClinicalSupplementFr",
@@ -359,6 +367,14 @@
   "status" : "active"
 },
 {
+  "id" : "tre-r400-finess-statut-juridique",
+  "name" : "TreR400FinessStatutJuridique",
+  "title" : "Tre R400 Finess Statut Juridique",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.379",
+  "status" : "active"
+},
+{
   "id" : "v3-SpecimenType-supplement-fr",
   "name" : "V3SpecimenTypeSupplementFr",
   "title" : "V3SpecimenTypeSupplementFr",
@@ -475,14 +491,6 @@
   "name" : "Classification_internationale_du_fonctionnement_du_handicap_et_de_la_sante_ICF",
   "title" : "Classification internationale du fonctionnement, du handicap et de la santé",
   "url" : "https://smt.esante.gouv.fr/terminologie-icf",
-  "identifier" : null,
-  "status" : "active"
-},
-{
-  "id" : "concept-properties",
-  "name" : "ConceptProperties",
-  "title" : "Concept Properties",
-  "url" : "https://smt.esante.gouv.fr/fhir/concept-properties",
   "identifier" : null,
   "status" : "active"
 },
@@ -652,6 +660,22 @@
   "title" : "Nomenclature des besoins et des prestations",
   "url" : "https://smt.esante.gouv.fr/terminologie-SERAFINPH",
   "identifier" : null,
+  "status" : "active"
+},
+{
+  "id" : "11000315107-20250621",
+  "name" : "SNOMED_CT",
+  "title" : "French module",
+  "url" : "http://snomed.info/sct",
+  "identifier" : "urn:oid:2.16.840.1.113883.6.96",
+  "status" : "active"
+},
+{
+  "id" : "900000000000207008-20260601",
+  "name" : "SNOMED_CT",
+  "title" : "SNOMED CT core",
+  "url" : "http://snomed.info/sct",
+  "identifier" : "urn:oid:2.16.840.1.113883.6.96",
   "status" : "active"
 },
 {
@@ -2804,14 +2828,6 @@
   "title" : "Tre R397 Categorie Entite Geographique Exercice",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
   "identifier" : "urn:oid:1.2.250.1.213.1.6.1.378",
-  "status" : "active"
-},
-{
-  "id" : "tre-r400-finess-statut-juridique",
-  "name" : "TreR400FinessStatutJuridique",
-  "title" : "Tre R400 Finess Statut Juridique",
-  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
-  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.379",
   "status" : "active"
 },
 {

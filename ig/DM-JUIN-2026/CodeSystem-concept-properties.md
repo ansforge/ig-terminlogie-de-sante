@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/concept-properties | *Version*:20260330120000 | |
-| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ConceptProperties |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/concept-properties | *Version*:20260629120000 | |
+| Active as of 2026-06-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ConceptProperties |
 
  
 CodeSystem permettant définir les propriétés NOS utilisées dans les CodeSystem NOS 
@@ -28,7 +28,7 @@ CodeSystem permettant définir les propriétés NOS utilisées dans les CodeSyst
   "id" : "concept-properties",
   "meta" : {
     "versionId" : "1",
-    "lastUpdated" : "2026-03-27T11:13:04.161+01:00",
+    "lastUpdated" : "2026-06-29T12:00:00.000+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -39,12 +39,12 @@ CodeSystem permettant définir les propriétés NOS utilisées dans les CodeSyst
     }
   }],
   "url" : "https://smt.esante.gouv.fr/fhir/concept-properties",
-  "version" : "20260330120000",
+  "version" : "20260629120000",
   "name" : "ConceptProperties",
   "title" : "Concept Properties",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-30T12:00:00.000+00:00",
+  "date" : "2026-06-29T12:00:00.000+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "CodeSystem permettant définir les propriétés NOS utilisées dans les CodeSystem NOS",
   "jurisdiction" : [{
@@ -55,7 +55,7 @@ CodeSystem permettant définir les propriétés NOS utilisées dans les CodeSyst
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 36,
+  "count" : 37,
   "property" : [{
     "code" : "status",
     "uri" : "http://hl7.org/fhir/concept-properties#status",
@@ -126,6 +126,15 @@ CodeSystem permettant définir les propriétés NOS utilisées dans les CodeSyst
     }]
   },
   {
+    "code" : "specialisationFiness",
+    "display" : "Specialisation FINESS",
+    "definition" : "Propriété permettant de spécifier les codes exclusifs appartenant à FINESS",
+    "property" : [{
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
     "code" : "ror",
     "display" : "ROR",
     "definition" : "Permet de définir les codes concepts uilisés par le ROR",
@@ -163,8 +172,8 @@ CodeSystem permettant définir les propriétés NOS utilisées dans les CodeSyst
   },
   {
     "code" : "epars",
-    "display" : "ENREG",
-    "definition" : "Permet de définir les codes concepts utilisés par ENREG",
+    "display" : "EPARS",
+    "definition" : "Permet de définir les codes concepts utilisés par EPARS",
     "property" : [{
       "code" : "status",
       "valueCode" : "active"

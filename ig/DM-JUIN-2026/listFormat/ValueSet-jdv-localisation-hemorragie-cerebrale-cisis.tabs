@@ -4,6 +4,6 @@
 1.2.250.1.213.1.1.4.322;MED-446;Hémisphère topographie profonde
 1.2.250.1.213.1.1.4.322;MED-447;Hémisphère topographie lobaire
 1.2.250.1.213.1.1.4.322;MED-448;Hémisphère topographie intraventriculaire pure
-http://snomed.info/sct;113305005;cervelet
-http://snomed.info/sct;15926001;tronc de l'encéphale
-http://snomed.info/sct;35764002;ventricule cérébral
+2.16.840.1.113883.6.96;113305005;cervelet
+2.16.840.1.113883.6.96;15926001;tronc de l'encéphale
+2.16.840.1.113883.6.96;35764002;ventricule cérébral

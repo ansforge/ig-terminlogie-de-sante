@@ -11,16 +11,16 @@
              urlFichier="">
       <ConceptList>
          <Concept code="51728003"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="fibre thalamocorticale de la capsule interne"/>
          <Concept code="54728004"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="portion lenticulaire du bras postérieur de la capsule interne"/>
          <Concept code="35764002"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="ventricule cérébral"/>
          <Concept code="11000004"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="noyau caudé"/>
       </ConceptList>
    </ValueSet>

@@ -8,7 +8,7 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique | *Version*:20260223120000 | |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite | *Version*:20260223120000 | |
 | Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR400FinessStatutJuridique |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.379 | | |
 
@@ -17,10 +17,13 @@ Cette TRE hiérarchique remplace les TRE_R68-FinessAgregatStatutJuridiqueNiv1, T
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvJ301FinessStatutJuridiqueNiv1Finess](ValueSet-jdv-j301-finess-statut-juridique-niv1-finess.md)
-* [JdvJ302FinessStatutJuridiqueNiv2Finess](ValueSet-jdv-j302-finess-statut-juridique-niv2-finess.md)
-* [JdvJ303FinessStatutJuridiqueNiv3Finess](ValueSet-jdv-j303-finess-statut-juridique-niv3-finess.md)
-* [JdvJ304FinessStatutJuridiqueFiness](ValueSet-jdv-j304-finess-statut-juridique-finess.md)
+* [JdvJ287TypeAutoriteRegulationFiness](ValueSet-jdv-j287-type-autorite-regulation-finess.md)
+* [JdvJ358TypeAutoriteEnregistrementFiness](ValueSet-jdv-j358-type-autorite-enregistrement-finess.md)
+* [JdvJ359AutoriteEnregistrementFiness](ValueSet-jdv-j359-autorite-enregistrement-finess.md)
+* [JdvJ360AutoriteRegulationFiness](ValueSet-jdv-j360-autorite-regulation-finess.md)
+* [JdvJ373TypeAutorite](ValueSet-jdv-j373-type-autorite.md)
+* [JdvJ374Autorite](ValueSet-jdv-j374-autorite.md)
+* [JdvJ375AutoriteOrdre](ValueSet-jdv-j375-autorite-ordre.md)
 
 
 
@@ -33,7 +36,7 @@ Cette TRE hiérarchique remplace les TRE_R68-FinessAgregatStatutJuridiqueNiv1, T
   "meta" : {
     "versionId" : "3",
     "lastUpdated" : "2026-05-05T20:12:21.382+02:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -42,7 +45,7 @@ Cette TRE hiérarchique remplace les TRE_R68-FinessAgregatStatutJuridiqueNiv1, T
       "start" : "1979-01-01T00:00:00+01:00"
     }
   }],
-  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
   "identifier" : [{
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.379"

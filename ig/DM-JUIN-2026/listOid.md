@@ -74,6 +74,7 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | RoleCodeSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/roleCode-supplement-fr |  |
 | SERAFIN | https://smt.esante.gouv.fr/terminologie-SERAFINPH |  |
 | SERAFIN_PH | https://smt.esante.gouv.fr/terminologie-SERAFINPH |  |
+| SNOMED_CT | http://snomed.info/sct | 2.16.840.1.113883.6.96 |
 | ServiceType | http://terminology.hl7.org/CodeSystem/service-type | 2.16.840.1.113883.4.642.1.1145 |
 | Snomed_CT_core_900000000000207008 | http://snomed.info/sct | 2.16.840.1.113883.6.96 |
 | SpecimenCollectionMethod | http://terminology.hl7.org/CodeSystem/v2-0488 | 2.16.840.1.113883.18.312 |
@@ -369,7 +370,7 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | TreR395Engagement | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement | 1.2.250.1.213.1.6.1.376 |
 | TreR396Autorite | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite | 1.2.250.1.213.1.6.1.377 |
 | TreR397CategorieEntiteGeographiqueExercice | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice | 1.2.250.1.213.1.6.1.378 |
-| TreR400FinessStatutJuridique | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique | 1.2.250.1.213.1.6.1.379 |
+| TreR400FinessStatutJuridique | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite | 1.2.250.1.213.1.6.1.379 |
 | TreR401ActiviteSocialeRegulee | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee | 1.2.250.1.213.1.6.1.380 |
 | TreR402ActiviteEnseignementRegulee | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee | 1.2.250.1.213.1.6.1.381 |
 | TreR403PublicActiviteSmsseRegulee | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee | 1.2.250.1.213.1.6.1.382 |

@@ -11,10 +11,10 @@
              urlFichier="">
       <ConceptList>
          <Concept code="233428003"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="thrombolyse veineuse"/>
          <Concept code="397028007"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="thrombectomie veineuse"/>
       </ConceptList>
    </ValueSet>

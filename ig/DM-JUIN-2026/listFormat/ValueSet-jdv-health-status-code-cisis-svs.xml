@@ -11,28 +11,28 @@
              urlFichier="">
       <ConceptList>
          <Concept code="81323004"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="fonction corporelle générale : normale"/>
          <Concept code="765205004"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="pathologie en rémission"/>
          <Concept code="27624003"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="maladie chronique"/>
          <Concept code="271593001"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="moribond"/>
          <Concept code="161045001"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="incapacité : sévère"/>
          <Concept code="419099009"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="décédé"/>
          <Concept code="21134002"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="incapacité"/>
          <Concept code="162467007"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="asymptomatique"/>
       </ConceptList>
    </ValueSet>

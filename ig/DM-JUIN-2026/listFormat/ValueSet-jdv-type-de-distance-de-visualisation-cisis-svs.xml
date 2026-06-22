@@ -11,13 +11,13 @@
              urlFichier="">
       <ConceptList>
          <Concept code="251743004"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="acuité visuelle de près"/>
          <Concept code="251739003"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="acuité visuelle à distance"/>
          <Concept code="418553009"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="acuité visuelle intermédiaire"/>
       </ConceptList>
    </ValueSet>

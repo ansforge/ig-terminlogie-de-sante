@@ -20,22 +20,22 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Geste technique spécialisé"/>
          <Concept code="112798008"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="insertion d'un tube endotrachéal"/>
          <Concept code="83099006"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="massage cardiaque externe manuel à thorax fermé"/>
          <Concept code="1217591002"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="injection de médicament"/>
          <Concept code="427391006"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="clairance des sécrétions des voies respiratoires"/>
          <Concept code="425696007"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="assistance respiratoire manuelle par un ballon et un masque"/>
          <Concept code="5447007"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="transfusion"/>
       </ConceptList>
    </ValueSet>

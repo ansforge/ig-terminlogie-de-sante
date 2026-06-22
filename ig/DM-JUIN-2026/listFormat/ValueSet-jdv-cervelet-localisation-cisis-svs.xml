@@ -17,7 +17,7 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Hémisphérique latéral"/>
          <Concept code="58501004"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="vermis cérébelleux"/>
       </ConceptList>
    </ValueSet>

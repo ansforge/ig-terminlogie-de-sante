@@ -8,6 +8,6 @@ http://hl7.org/fhir/sid/icd-10;R41.0;Désorientation, sans précision
 http://hl7.org/fhir/sid/icd-10;R47.02;Aphasie, autre et sans précision
 http://hl7.org/fhir/sid/icd-10;R47.1;Dysarthrie et anarthrie
 http://hl7.org/fhir/sid/icd-10;G90.9;Affection du système nerveux autonome, sans précision
-http://snomed.info/sct;61683000;drop attack
-http://snomed.info/sct;399090003;vertige subjectif
-http://snomed.info/sct;88052002;mutisme
+2.16.840.1.113883.6.96;61683000;drop attack
+2.16.840.1.113883.6.96;399090003;vertige subjectif
+2.16.840.1.113883.6.96;88052002;mutisme

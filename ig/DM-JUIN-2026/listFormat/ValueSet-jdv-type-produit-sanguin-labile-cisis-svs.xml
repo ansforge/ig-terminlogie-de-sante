@@ -14,13 +14,13 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Autre type de produit sanguin labile"/>
          <Concept code="71493000"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="transfusion de concentré de globules rouges"/>
          <Concept code="12719002"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="transfusion plaquettaire"/>
          <Concept code="13569004"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="transfusion de plasma"/>
       </ConceptList>
    </ValueSet>

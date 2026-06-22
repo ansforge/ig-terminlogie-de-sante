@@ -7,7 +7,7 @@
 1.2.250.1.213.1.1.4.322;MED-500;Inclusion dans protocole
 1.2.250.1.213.1.1.4.322;MED-501;Date de consentement au protocole
 2.16.840.1.113883.6.1;42796-3;Nom du protocole d'essai clinique
-http://snomed.info/sct;233428003;thrombolyse veineuse
-http://snomed.info/sct;43810009;thrombectomie
+2.16.840.1.113883.6.96;233428003;thrombolyse veineuse
+2.16.840.1.113883.6.96;43810009;thrombectomie
 http://www.whocc.no/atc;B01AC04;clopidogrel
 http://www.whocc.no/atc;B01AB01;héparine

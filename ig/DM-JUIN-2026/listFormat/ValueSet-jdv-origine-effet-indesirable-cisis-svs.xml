@@ -20,25 +20,25 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="exposition paternelle (altération potentielle des spermatozoïdes)"/>
          <Concept code="1156699004"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="respecte le traitement médicamenteux"/>
          <Concept code="1149222004"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="surdosage"/>
          <Concept code="398240004"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="erreur médicamenteuse"/>
          <Concept code="16090731000119102"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="exposition professionnelle à un facteur de risque"/>
          <Concept code="79899007"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="interaction médicamenteuse"/>
          <Concept code="95606005"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="exposition maternelle à un médicament"/>
          <Concept code="1260078007"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="allaitement maternel"/>
       </ConceptList>
    </ValueSet>

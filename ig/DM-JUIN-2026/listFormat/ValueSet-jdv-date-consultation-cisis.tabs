@@ -2,6 +2,6 @@
 1.2.250.1.213.1.1.5.111;JDV;JdvDateConsultationCisis.tabs;JDV Date Consultation CISIS;;20100101000000;;20260420150251
 <OID>;<Code>;<Libellé>
 1.2.250.1.213.1.1.4.322;GEN-109;Non suivie
-http://snomed.info/sct;57630001;premier trimestre de la grossesse
-http://snomed.info/sct;59466002;deuxième trimestre de la grossesse
-http://snomed.info/sct;41587001;troisième trimestre de la grossesse
+2.16.840.1.113883.6.96;57630001;premier trimestre de la grossesse
+2.16.840.1.113883.6.96;59466002;deuxième trimestre de la grossesse
+2.16.840.1.113883.6.96;41587001;troisième trimestre de la grossesse

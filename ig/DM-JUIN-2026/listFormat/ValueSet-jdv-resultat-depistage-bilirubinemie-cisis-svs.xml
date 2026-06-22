@@ -11,13 +11,13 @@
              urlFichier="">
       <ConceptList>
          <Concept code="75976002"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="risque faible de"/>
          <Concept code="25594002"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="risque modéré de"/>
          <Concept code="15508007"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="risque élevé de"/>
       </ConceptList>
    </ValueSet>

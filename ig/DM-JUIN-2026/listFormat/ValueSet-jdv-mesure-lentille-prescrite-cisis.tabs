@@ -23,4 +23,4 @@
 2.16.840.1.113883.6.1;95325-7;Axe en degrés des lentilles
 2.16.840.1.113883.6.1;28814-2;Addition – grandeur
 2.16.840.1.113883.6.1;28815-9;Addition – valeur
-http://snomed.info/sct;103742009;renouvellement d'ordonnance
+2.16.840.1.113883.6.96;103742009;renouvellement d'ordonnance

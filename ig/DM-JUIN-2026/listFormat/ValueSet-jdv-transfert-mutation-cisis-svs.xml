@@ -14,10 +14,10 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Pas de transfert ni mutation"/>
          <Concept code="2603003"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="secondaire"/>
          <Concept code="88694003"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="immédiat"/>
       </ConceptList>
    </ValueSet>

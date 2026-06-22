@@ -2,8 +2,8 @@
 1.2.250.1.213.1.1.5.499;JDV;JdvEvaluationDouleurCisis.tabs;JDV Evaluation Douleur CISIS;;20200507000000;;20260420150251
 <OID>;<Code>;<Libellé>
 1.2.250.1.213.1.1.4.322;MED-659;Non évaluable
-http://snomed.info/sct;301379001;aucune présence de douleur
-http://snomed.info/sct;40196000;douleur légère
-http://snomed.info/sct;50415004;douleur modérée
-http://snomed.info/sct;76948002;douleur sévère
-http://snomed.info/sct;67849003;douleur atroce
+2.16.840.1.113883.6.96;301379001;aucune présence de douleur
+2.16.840.1.113883.6.96;40196000;douleur légère
+2.16.840.1.113883.6.96;50415004;douleur modérée
+2.16.840.1.113883.6.96;76948002;douleur sévère
+2.16.840.1.113883.6.96;67849003;douleur atroce

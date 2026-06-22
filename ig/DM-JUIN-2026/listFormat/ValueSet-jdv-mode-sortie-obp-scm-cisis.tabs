@@ -2,6 +2,6 @@
 1.2.250.1.213.1.1.5.700;JDV;JdvModeSortieObpScmCisis.tabs;JDV Mode Sortie Obp Scm CISIS;;20100101000000;;20260420150250
 <OID>;<Code>;<Libellé>
 1.2.250.1.213.1.1.4.322;GEN-092.06.09;Autre mode de sortie
-http://snomed.info/sct;419620001;décès
-http://snomed.info/sct;160849004;retour au domicile
-http://snomed.info/sct;107724000;transfert d'un(e) patient(e)
+2.16.840.1.113883.6.96;419620001;décès
+2.16.840.1.113883.6.96;160849004;retour au domicile
+2.16.840.1.113883.6.96;107724000;transfert d'un(e) patient(e)

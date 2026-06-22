@@ -2,7 +2,7 @@
 1.2.250.1.213.1.1.5.228;JDV;JdvTypeActeEunvCisis.tabs;JDV Type Acte Eunv CISIS;;20100101000000;;20260420150251
 <OID>;<Code>;<Libellé>
 1.2.250.1.213.1.1.4.322;MED-512;Pose d'une valve / d'une dérivation externe
-http://snomed.info/sct;392031002;endartériectomie
-http://snomed.info/sct;2119009;réparation d'un vaisseau sanguin
-http://snomed.info/sct;36910002;craniectomie
-http://snomed.info/sct;10458001;évacuation d'un hématome intracérébral
+2.16.840.1.113883.6.96;392031002;endartériectomie
+2.16.840.1.113883.6.96;2119009;réparation d'un vaisseau sanguin
+2.16.840.1.113883.6.96;36910002;craniectomie
+2.16.840.1.113883.6.96;10458001;évacuation d'un hématome intracérébral

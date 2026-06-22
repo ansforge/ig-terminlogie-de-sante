@@ -4,4 +4,4 @@
 1.2.250.1.213.1.1.4.322;MED-091;Examen de biologie
 1.2.250.1.213.1.1.4.322;MED-092;Examen d'imagerie médicale
 1.2.250.1.213.1.1.4.322;GEN-092.04.06;Autre type de suivi
-http://snomed.info/sct;11429006;consultation
+2.16.840.1.113883.6.96;11429006;consultation

@@ -17,10 +17,10 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Suivi rapproché (&lt; 2 ans)"/>
          <Concept code="17636008"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="prélèvement d'échantillon"/>
          <Concept code="268547008"
-                  codeSystem="http://snomed.info/sct"
+                  codeSystem="2.16.840.1.113883.6.96"
                   displayName="dépistage du cancer du sein"/>
       </ConceptList>
    </ValueSet>
