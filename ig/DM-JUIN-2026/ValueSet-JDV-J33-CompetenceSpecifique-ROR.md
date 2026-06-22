@@ -327,10 +327,6 @@ Liens:
       {
         "code" : "63",
         "display" : "Maitrise des outils informatisés à commande oculaire"
-      },
-      {
-        "code" : "64",
-        "display" : "Maitrise des outils informatisés à commande oculaire"
       }]
     }]
   }

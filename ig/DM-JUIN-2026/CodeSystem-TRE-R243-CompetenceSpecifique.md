@@ -59,7 +59,7 @@ Compétence spécifique
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 64,
+  "count" : 63,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -1394,22 +1394,6 @@ Compétence spécifique
   },
   {
     "code" : "63",
-    "display" : "Maitrise des outils informatisés à commande oculaire",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "64",
     "display" : "Maitrise des outils informatisés à commande oculaire",
     "property" : [{
       "code" : "dateValid",

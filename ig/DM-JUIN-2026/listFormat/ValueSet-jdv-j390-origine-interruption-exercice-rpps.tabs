@@ -1,0 +1,5 @@
+<OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>  
+1.2.250.1.213.1.6.1.399;JDV;JdvJ390OrigineInterruptionExerciceRpps.tabs;L’origine d’une interruption d’exercice correspond à l’autorité juridique ou administrative ayant prononcé la mesure. Cette information permet d’identifier le cadre dans lequel la décision a été prise et d’en comprendre le contexte. Elle facilite son interprétation, notamment pour apprécier les modalités d’application de la mesure (portée, exécution, éventuels recours).;;20260330180228;;20260629120000
+<OID>;<Code>;<Libellé>
+1.2.250.1.213.1.6.1.377;01;Conseil de l'Ordre
+1.2.250.1.213.1.6.1.377;02;Agence Régional de Santé

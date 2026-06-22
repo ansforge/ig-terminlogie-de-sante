@@ -10,6 +10,7 @@
 | :--- | :--- |
 | *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS | *Version*:20260629120000 |
 | Active as of 2026-06-29 | *Computable Name*:ASS_A11_CorresModeleCDA_XdsFormatCode_CISIS |
+| *Other Identifiers:*urn:oid:1.2.250.1.213.1.1.4.331 | |
 | **Usage:**Workflow Task:  | |
 
  
@@ -24,6 +25,9 @@ Lorsque le corps du CDA est structuré, la métadonnée ‘formatCode’ provien
   "resourceType" : "ConceptMap",
   "id" : "ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS",
   "url" : "https://mos.esante.gouv.fr/NOS/ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS",
+  "identifier" : {
+    "value" : "urn:oid:1.2.250.1.213.1.1.4.331"
+  },
   "version" : "20260629120000",
   "name" : "ASS_A11_CorresModeleCDA_XdsFormatCode_CISIS",
   "title" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS",

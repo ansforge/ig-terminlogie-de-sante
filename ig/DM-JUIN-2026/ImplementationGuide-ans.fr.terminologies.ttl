@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "Terminologies"] ; # 
   fhir:title [ fhir:v "Terminologies  de Santé"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2026-06-22T07:17:41+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-06-22T15:36:30+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -41530,6 +41530,24 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j390-origine-interruption-exercice-rpps> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j390-origine-interruption-exercice-rpps" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J390 Origine Interruption Exercice Rpps" ] ;
+       fhir:description [ fhir:v "L’origine d’une interruption d’exercice correspond à l’autorité juridique ou administrative ayant prononcé la mesure. Cette information permet d’identifier le cadre dans lequel la décision a été prise et d’en comprendre le contexte. Elle facilite son interprétation, notamment pour apprécier les modalités d’application de la mesure (portée, exécution, éventuels recours)." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j391-niveau-diplome-ms> ;
          fhir:reference [ fhir:v "ValueSet/jdv-j391-niveau-diplome-ms" ]
        ] ;
@@ -53661,6 +53679,42 @@
        ] ;
        fhir:name [ fhir:v "Tre R408 Type Enseignement Specialise" ] ;
        fhir:description [ fhir:v "Type d'enseignement spécialisé." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r409-type-duree-interruption-exercice> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r409-type-duree-interruption-exercice" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R409 Type Duree Interruption Exercice" ] ;
+       fhir:description [ fhir:v " Le type de durée d’une interruption d’exercice décrit le caractère temporel de la mesure appliquée au professionnel. Il permet de distinguer si l’interruption s’inscrit dans une durée limitée ou si elle s’applique sans limite de durée. Cette information précise le cadre temporel de la mesure et facilite son interprétation. Elle constitue un élément structurant pour l’analyse de la capacité d’exercice du professionnel et pour la gestion de ses effets dans les systèmes d’information, notamment en matière de publication des données et de gestion des accès." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r410-perimetre-interruption-exercice> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r410-perimetre-interruption-exercice" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R410 Perimetre Interruption Exercice" ] ;
+       fhir:description [ fhir:v " Le périmètre d’une interruption d’exercice décrit l’étendue de la restriction appliquée à l’activité du professionnel. Cette information permet d’apprécier concrètement les possibilités d’exercice du professionnel et contribue à la gestion des droits associés, notamment en matière d’accès aux services numériques en santé." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

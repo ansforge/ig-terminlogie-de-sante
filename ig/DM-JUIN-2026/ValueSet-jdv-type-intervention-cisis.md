@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-intervention-cisis | *Version*:20260420150251 | |
-| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTypeInterventionCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-intervention-cisis | *Version*:20260619134043 | |
+| Active as of 2026-06-19 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTypeInterventionCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.168 | | |
 
  
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-type-intervention-cisis",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-04-20T16:59:24.980+02:00",
+    "versionId" : "10",
+    "lastUpdated" : "2026-06-22T14:00:43.239+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,12 +84,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.168"
   }],
-  "version" : "20260420150251",
+  "version" : "20260619134043",
   "name" : "JdvTypeInterventionCisis",
   "title" : "JDV Type Intervention CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:51+01:00",
+  "date" : "2026-06-19T13:40:43+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Type Intervention CISIS",
   "jurisdiction" : [{

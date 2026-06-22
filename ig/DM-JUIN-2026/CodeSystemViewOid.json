@@ -375,6 +375,22 @@
   "status" : "active"
 },
 {
+  "id" : "tre-r409-type-duree-interruption-exercice",
+  "name" : "TreR409TypeDureeInterruptionExercice",
+  "title" : "Tre R409 Type Duree Interruption Exercice",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r409-type-duree-interruption-exercice",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.396",
+  "status" : "active"
+},
+{
+  "id" : "tre-r410-perimetre-interruption-exercice",
+  "name" : "TreR410PerimetreInterruptionExercice",
+  "title" : "Tre R410 Perimetre Interruption Exercice",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r410-perimetre-interruption-exercice",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.397",
+  "status" : "active"
+},
+{
   "id" : "v3-SpecimenType-supplement-fr",
   "name" : "V3SpecimenTypeSupplementFr",
   "title" : "V3SpecimenTypeSupplementFr",

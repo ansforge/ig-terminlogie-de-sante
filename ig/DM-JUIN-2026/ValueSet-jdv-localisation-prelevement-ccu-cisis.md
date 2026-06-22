@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-localisation-prelevement-ccu-cisis | *Version*:20260420150250 | |
-| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvLocalisationPrelevementCcuCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-localisation-prelevement-ccu-cisis | *Version*:20260619134042 | |
+| Active as of 2026-06-19 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvLocalisationPrelevementCcuCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.717 | | |
 
  
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-localisation-prelevement-ccu-cisis",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2026-04-20T16:58:21.462+02:00",
+    "versionId" : "11",
+    "lastUpdated" : "2026-06-22T13:59:14.941+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,12 +84,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.717"
   }],
-  "version" : "20260420150250",
+  "version" : "20260619134042",
   "name" : "JdvLocalisationPrelevementCcuCisis",
   "title" : "JDV Localisation Prelevement Ccu CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:50+01:00",
+  "date" : "2026-06-19T13:40:42+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Localisation Prelevement Ccu CISIS",
   "jurisdiction" : [{

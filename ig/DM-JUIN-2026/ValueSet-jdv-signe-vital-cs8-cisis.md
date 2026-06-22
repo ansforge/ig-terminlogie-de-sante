@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-signe-vital-cs8-cisis | *Version*:20260420150250 | |
-| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvSigneVitalCs8Cisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-signe-vital-cs8-cisis | *Version*:20260619134042 | |
+| Active as of 2026-06-19 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvSigneVitalCs8Cisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.703 | | |
 
  
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-signe-vital-cs8-cisis",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2026-04-20T16:59:02.885+02:00",
+    "versionId" : "11",
+    "lastUpdated" : "2026-06-22T14:00:10.581+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,12 +84,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.703"
   }],
-  "version" : "20260420150250",
+  "version" : "20260619134042",
   "name" : "JdvSigneVitalCs8Cisis",
   "title" : "JDV Signe Vital Cs8 CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:50+01:00",
+  "date" : "2026-06-19T13:40:42+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Signe Vital Cs8 CISIS",
   "jurisdiction" : [{

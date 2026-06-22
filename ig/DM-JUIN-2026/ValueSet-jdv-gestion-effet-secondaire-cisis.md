@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gestion-effet-secondaire-cisis | *Version*:20260420150251 | |
-| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvGestionEffetSecondaireCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gestion-effet-secondaire-cisis | *Version*:20260619134043 | |
+| Active as of 2026-06-19 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvGestionEffetSecondaireCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.477 | | |
 
  
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-gestion-effet-secondaire-cisis",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-04-20T16:58:08.214+02:00",
+    "versionId" : "10",
+    "lastUpdated" : "2026-06-22T13:58:58.830+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,12 +84,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.477"
   }],
-  "version" : "20260420150251",
+  "version" : "20260619134043",
   "name" : "JdvGestionEffetSecondaireCisis",
   "title" : "JDV Gestion Effet Secondaire CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:51+01:00",
+  "date" : "2026-06-19T13:40:43+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Gestion Effet Secondaire CISIS",
   "jurisdiction" : [{

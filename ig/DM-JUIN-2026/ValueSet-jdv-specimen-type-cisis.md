@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-specimen-type-cisis | *Version*:20260420150250 | |
-| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvSpecimenTypeCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-specimen-type-cisis | *Version*:20260619134042 | |
+| Active as of 2026-06-19 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvSpecimenTypeCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.819 | | |
 
  
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-specimen-type-cisis",
   "meta" : {
-    "versionId" : "10",
-    "lastUpdated" : "2026-04-21T11:57:25.239+02:00",
+    "versionId" : "11",
+    "lastUpdated" : "2026-06-22T14:00:15.618+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,12 +84,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.819"
   }],
-  "version" : "20260420150250",
+  "version" : "20260619134042",
   "name" : "JdvSpecimenTypeCisis",
   "title" : "JDV Specimen Type CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:50+01:00",
+  "date" : "2026-06-19T13:40:42+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Specimen Type CISIS",
   "jurisdiction" : [{

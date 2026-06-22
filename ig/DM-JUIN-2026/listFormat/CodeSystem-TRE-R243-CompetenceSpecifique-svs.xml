@@ -577,15 +577,6 @@
                   longDesignation="Maitrise des outils informatisés à commande oculaire"
                   shortDesignation="Maitrise des outils informatisés à commande oculaire"
                   descriptionMetier=""/>
-         <Concept code="64"
-                  codeSystem="1.2.250.1.213.3.3.37"
-                  dateFin=""
-                  dateMaj="20260629120000"
-                  dateValid="20260629120000"
-                  displayName="Maitrise des outils informatisés à commande oculaire"
-                  longDesignation="Maitrise des outils informatisés à commande oculaire"
-                  shortDesignation="Maitrise des outils informatisés à commande oculaire"
-                  descriptionMetier=""/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

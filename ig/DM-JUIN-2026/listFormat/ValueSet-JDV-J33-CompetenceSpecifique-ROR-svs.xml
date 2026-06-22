@@ -173,9 +173,6 @@
          <Concept code="63"
                   codeSystem="1.2.250.1.213.3.3.37"
                   displayName="Maitrise des outils informatisés à commande oculaire"/>
-         <Concept code="64"
-                  codeSystem="1.2.250.1.213.3.3.37"
-                  displayName="Maitrise des outils informatisés à commande oculaire"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

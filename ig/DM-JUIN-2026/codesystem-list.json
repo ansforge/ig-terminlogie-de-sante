@@ -3056,6 +3056,24 @@
     "oids" : ["1.2.250.1.213.3.3.262"]
   },
   {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r409-type-duree-interruption-exercice",
+    "version" : "20260629120000",
+    "status" : "active",
+    "name" : "TreR409TypeDureeInterruptionExercice",
+    "title" : "Tre R409 Type Duree Interruption Exercice",
+    "description" : " Le type de durée d’une interruption d’exercice décrit le caractère temporel de la mesure appliquée au professionnel. Il permet de distinguer si l’interruption s’inscrit dans une durée limitée ou si elle s’applique sans limite de durée. Cette information précise le cadre temporel de la mesure et facilite son interprétation. Elle constitue un élément structurant pour l’analyse de la capacité d’exercice du professionnel et pour la gestion de ses effets dans les systèmes d’information, notamment en matière de publication des données et de gestion des accès.",
+    "oids" : ["1.2.250.1.213.1.6.1.396"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r410-perimetre-interruption-exercice",
+    "version" : "20260629120000",
+    "status" : "active",
+    "name" : "TreR410PerimetreInterruptionExercice",
+    "title" : "Tre R410 Perimetre Interruption Exercice",
+    "description" : " Le périmètre d’une interruption d’exercice décrit l’étendue de la restriction appliquée à l’activité du professionnel. Cette information permet d’apprécier concrètement les possibilités d’exercice du professionnel et contribue à la gestion des droits associés, notamment en matière d’accès aux services numériques en santé.",
+    "oids" : ["1.2.250.1.213.1.6.1.397"]
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome",
     "version" : "20260601120000",
     "status" : "draft",

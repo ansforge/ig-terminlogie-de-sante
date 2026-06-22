@@ -69,7 +69,7 @@ Liens:
   "id" : "jdv-j418-activite-sanitaire-diverse-regulee-active",
   "meta" : {
     "versionId" : "1",
-    "lastUpdated" : "2026-05-07T10:32:43.945+02:00",
+    "lastUpdated" : "2026-05-05T18:02:28.249+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-detail-materiel-specialise-cisis | *Version*:20260420150250 | |
-| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvDetailMaterielSpecialiseCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-detail-materiel-specialise-cisis | *Version*:20260619134042 | |
+| Active as of 2026-06-19 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvDetailMaterielSpecialiseCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.808 | | |
 
  
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-detail-materiel-specialise-cisis",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-04-20T16:57:55.931+02:00",
+    "versionId" : "10",
+    "lastUpdated" : "2026-06-22T13:58:41.426+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,12 +84,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.808"
   }],
-  "version" : "20260420150250",
+  "version" : "20260619134042",
   "name" : "JdvDetailMaterielSpecialiseCisis",
   "title" : "JDV Detail Materiel Specialise CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:50+01:00",
+  "date" : "2026-06-19T13:40:42+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Detail Materiel Specialise CISIS",
   "jurisdiction" : [{
