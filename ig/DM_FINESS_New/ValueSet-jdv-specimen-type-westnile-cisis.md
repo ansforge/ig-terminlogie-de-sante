@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-specimen-type-westnile-cisis | *Version*:20260420150250 | |
-| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvSpecimenTypeWestNileCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-specimen-type-westnile-cisis | *Version*:20260619134042 | |
+| Active as of 2026-06-19 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvSpecimenTypeWestNileCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.839 | | |
 
  
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-specimen-type-westnile-cisis",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-04-21T11:57:26.064+02:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-06-22T14:00:16.751+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "extension" : [{
@@ -83,12 +83,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.839"
   }],
-  "version" : "20260420150250",
+  "version" : "20260619134042",
   "name" : "JdvSpecimenTypeWestNileCisis",
   "title" : "jDV Specimen Type West Nile CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:50+01:00",
+  "date" : "2026-06-19T13:40:42+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "jDV Specimen Type West Nile CISIS",
   "compose" : {

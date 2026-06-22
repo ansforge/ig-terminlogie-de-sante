@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-allergy-cisis | *Version*:20260420150250 | |
-| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvAbsentOrUnknownAllergyCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-allergy-cisis | *Version*:20260619134042 | |
+| Active as of 2026-06-19 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvAbsentOrUnknownAllergyCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.661 | | |
 
  
@@ -32,8 +32,6 @@ Requête sur le SMT
  
 
 ### Expansion
-
-No Expansion for this valueset (Unknown Code System)
 
 -------
 
@@ -70,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-absent-or-unknown-allergy-cisis",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2026-04-20T16:57:32.112+02:00",
+    "versionId" : "10",
+    "lastUpdated" : "2026-06-22T13:58:09.512+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "extension" : [{
@@ -85,12 +83,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.661"
   }],
-  "version" : "20260420150250",
+  "version" : "20260619134042",
   "name" : "JdvAbsentOrUnknownAllergyCisis",
   "title" : "JDV Absent Or Unknown Allergy CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:50+01:00",
+  "date" : "2026-06-19T13:40:42+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Absent Or Unknown Allergy CISIS",
   "compose" : {

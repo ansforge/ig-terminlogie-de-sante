@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-orientation-base-du-prisme-cisis | *Version*:20260420150249 | |
-| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvOrientationBaseDuPrismeCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-orientation-base-du-prisme-cisis | *Version*:20260619134041 | |
+| Active as of 2026-06-19 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvOrientationBaseDuPrismeCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.623 | | |
 
  
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-orientation-base-du-prisme-cisis",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-04-20T16:58:41.397+02:00",
+    "versionId" : "10",
+    "lastUpdated" : "2026-06-22T13:59:40.370+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "extension" : [{
@@ -83,12 +83,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.623"
   }],
-  "version" : "20260420150249",
+  "version" : "20260619134041",
   "name" : "JdvOrientationBaseDuPrismeCisis",
   "title" : "JDV Orientation Base Du Prisme CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:49+01:00",
+  "date" : "2026-06-19T13:40:41+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Orientation Base Du Prisme CISIS",
   "compose" : {

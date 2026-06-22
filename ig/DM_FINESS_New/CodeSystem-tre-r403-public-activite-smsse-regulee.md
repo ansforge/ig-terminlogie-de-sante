@@ -8,7 +8,7 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:http://hl7.org/fhir/us/example/CodeSystem/tre-r403-public-activite-smsse-regulee | *Version*:20260629120000 | |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee | *Version*:20260629120000 | |
 | Active as of 2026-06-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR403PublicActiviteSmsseRegulee |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.382 | | |
 
@@ -17,7 +17,10 @@ Cette TRE hiérarchique remplace les TRE actuelles TRE_R279-Clientele, TRE_R293-
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* Cette terminologie de référence (CodeSystem) n'est pas utilisée ici; elle peut être utilisée ailleurs (par exemple spécifications et/ou implémentations qui utilisent ce contenu)
+* [JdvJ328PublicActiviteSmsseReguleeFiness](ValueSet-jdv-j328-public-activite-smsse-regulee-finess.md)
+* [JdvJ329PublicActiviteSmsseReguleeNiv1Finess](ValueSet-jdv-j329-public-activite-smsse-regulee-niv1-finess.md)
+* [JdvJ330PublicActiviteSmsseReguleeNiv2Finess](ValueSet-jdv-j330-public-activite-smsse-regulee-niv2-finess.md)
+* [JdvJ376PublicActiviteSmsseReguleeRass](ValueSet-jdv-j376-public-activite-smsse-regulee-rass.md)
 
 
 
@@ -30,7 +33,7 @@ Cette TRE hiérarchique remplace les TRE actuelles TRE_R279-Clientele, TRE_R293-
   "meta" : {
     "versionId" : "3",
     "lastUpdated" : "2026-05-05T20:12:23.967+02:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -39,7 +42,7 @@ Cette TRE hiérarchique remplace les TRE actuelles TRE_R279-Clientele, TRE_R293-
       "start" : "2026-02-23T12:00:00.000+00:00"
     }
   }],
-  "url" : "http://hl7.org/fhir/us/example/CodeSystem/tre-r403-public-activite-smsse-regulee",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
   "identifier" : [{
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.382"

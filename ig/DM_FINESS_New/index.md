@@ -58,6 +58,11 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
 * [Nomenclature des besoins et des prestations](CodeSystem-terminologie-SERAFINPH.md): [JDV_J282_TransportsLiesAuProjetIndividuel_SERAFIN](ValueSet-JDV-J282-TransportsLiesAuProjetIndividuel-SERAFIN.md), [JDV_J283_PrestationsIndirects_SERAFIN](ValueSet-JDV-J283-PrestationsIndirects-SERAFIN.md), [JDV_J284_PrestationsDirects_SERAFIN](ValueSet-JDV-J284-PrestationsDirects-SERAFIN.md) and [JDV_J285_Besoins_SERAFIN](ValueSet-JDV-J285-Besoins-SERAFIN.md)
 
 
+* Produced by HL7 under the terms of HL7® Governance and Operations Manual relating to Intellectual Property (Section 16), specifically its copyright, trademark and patent provisions. This document is licensed under Creative Commons "No Rights Reserved" (CC0).
+
+* [Absent and Unknown Data - IPS](http://tx.hl7europe.eu/r4/ValueSet/absent-unknown-uv-ips): [JdvAbsentOrUnknownAllergyCisis](ValueSet-jdv-absent-or-unknown-allergy-cisis.md), [JdvAbsentOrUnknownDevicesCisis](ValueSet-jdv-absent-or-unknown-devices-cisis.md)... Show 4 more, [JdvAbsentOrUnknownImmunizationCisis](ValueSet-jdv-absent-or-unknown-immunization-cisis.md), [JdvAbsentOrUnknownMedicationCisis](ValueSet-jdv-absent-or-unknown-medication-cisis.md), [JdvAbsentOrUnknownProblemCisis](ValueSet-jdv-absent-or-unknown-problem-cisis.md) and [JdvAbsentOrUnknownProcedureCisis](ValueSet-jdv-absent-or-unknown-procedure-cisis.md)
+
+
 * These codes are excerpted from Digital Imaging and Communications in Medicine (DICOM) Standard, Part 16: Content Mapping Resource, Copyright © 2011 by the National Electrical Manufacturers Association.
 
 * [DICOM Controlled Terminology Definitions](http://hl7.org/fhir/R4/codesystem-dicom-dcim.html): [JdvAxamenComplementaireCisis](ValueSet-jdv-examen-complementaire-cisis.md), [JdvBilanTechniqueCisis](ValueSet-jdv-bilan-technique-cisis.md)... Show 8 more, [JdvConduiteATenir1Cisis](ValueSet-jdv-conduite-a-tenir-1-cisis.md), [JdvConduiteATenir3Cisis](ValueSet-jdv-conduite-a-tenir-3-cisis.md), [JdvImagerieObjectifReferenceCisis](ValueSet-jdv-imagerie-objectif-reference-cisis.md), [JdvModaliteAcquisitionCisis](ValueSet-jdv-modalite-acquisition-cisis.md), [JdvModaliteDemandeActeImagerieCisis](ValueSet-jdv-modalite-demande-acte-imagerie-cisis.md), [JdvQuantiteExpositionRayonnementsCisis](ValueSet-jdv-quantite-exposition-rayonnements-cisis.md), [JdvSectionDocumentCisis](ValueSet-jdv-section-document-cisis.md) and [JdvTechniqueImagerieD2lmCisis](ValueSet-jdv-technique-imagerie-d2lm-cisis.md)
@@ -109,7 +114,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
 
 * US government funded - content free to use by all
 
-* [NCI Thesaurus](http://tx.fhir.org/r4/ValueSet/v3-nciThesaurus): [JdvMethodeDeMesureAcuiteVisuelleCisis](ValueSet-jdv-methode-de-mesure-acuite-visuelle-cisis.md) and [JdvRcpOrganeCisis](ValueSet-jdv-rcp-organe-cisis.md)
+* [NCI Thesaurus](http://tx.fhir.org/r4/ValueSet/v3-nciThesaurus): [JdvMethodeDeMesureAcuiteVisuelleCisis](ValueSet-jdv-methode-de-mesure-acuite-visuelle-cisis.md)
 
 
 * WHO Collaborating Centre for Drug Statistics Methodology, Oslo, Norway. Use of all or parts of the material requires reference to the WHO Collaborating Centre for Drug Statistics Methodology. Copying and distribution for commercial purposes is not allowed. Changing or manipulating the material is not allowed.

@@ -171,7 +171,6 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
 * [JdvQualificationFractionCisis](ValueSet-jdv-qualification-fraction-cisis.md)
 * [JdvRaisonAbsenceEtiologieCisis](ValueSet-jdv-raison-absence-etiologie-cisis.md)
 * [JdvRaisonNonRealisationCisis](ValueSet-jdv-raison-non-realisation-cisis.md)
-* [JdvRcpOrganeCisis](ValueSet-jdv-rcp-organe-cisis.md)
 * [JdvRegistreErnCisis](ValueSet-jdv-registre-ern-cisis.md)
 * [JdvRencontreCs8Cisis](ValueSet-jdv-rencontre-cs8-cisis.md)
 * [JdvRencontreCs9Cs24Cisis](ValueSet-jdv-rencontre-cs9-cs24-cisis.md)

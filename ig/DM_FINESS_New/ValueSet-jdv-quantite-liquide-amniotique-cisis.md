@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-quantite-liquide-amniotique-cisis | *Version*:20260420150249 | |
-| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvQuantiteLiquideAmniotiqueCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-quantite-liquide-amniotique-cisis | *Version*:20260619134041 | |
+| Active as of 2026-06-19 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvQuantiteLiquideAmniotiqueCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.747 | | |
 
  
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-quantite-liquide-amniotique-cisis",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2026-04-20T16:58:46.736+02:00",
+    "versionId" : "10",
+    "lastUpdated" : "2026-06-22T13:59:49.370+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "extension" : [{
@@ -83,12 +83,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.747"
   }],
-  "version" : "20260420150249",
+  "version" : "20260619134041",
   "name" : "JdvQuantiteLiquideAmniotiqueCisis",
   "title" : "JDV Quantite Liquide Amniotique CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:49+01:00",
+  "date" : "2026-06-19T13:40:41+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Quantite Liquide Amniotique CISIS",
   "compose" : {

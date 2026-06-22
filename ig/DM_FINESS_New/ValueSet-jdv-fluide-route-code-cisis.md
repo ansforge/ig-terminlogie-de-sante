@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-fluide-route-code-cisis | *Version*:20260420150249 | |
-| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvFluideRouteCodeCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-fluide-route-code-cisis | *Version*:20260619134042 | |
+| Active as of 2026-06-19 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvFluideRouteCodeCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.684 | | |
 
  
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-fluide-route-code-cisis",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2026-04-20T16:58:06.810+02:00",
+    "versionId" : "11",
+    "lastUpdated" : "2026-06-22T13:58:56.961+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "extension" : [{
@@ -83,12 +83,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.684"
   }],
-  "version" : "20260420150249",
+  "version" : "20260619134042",
   "name" : "JdvFluideRouteCodeCisis",
   "title" : "JDV Fluide Route Code CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:49+01:00",
+  "date" : "2026-06-19T13:40:42+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Fluide Route Code CISIS",
   "compose" : {

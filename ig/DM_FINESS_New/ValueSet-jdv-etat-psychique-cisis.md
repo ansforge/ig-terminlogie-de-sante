@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-etat-psychique-cisis | *Version*:20260420150250 | |
-| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvEtatPsychiqueCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-etat-psychique-cisis | *Version*:20260619134042 | |
+| Active as of 2026-06-19 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvEtatPsychiqueCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.790 | | |
 
  
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-etat-psychique-cisis",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-04-20T16:57:59.136+02:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-06-22T13:58:46.772+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "extension" : [{
@@ -83,12 +83,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.790"
   }],
-  "version" : "20260420150250",
+  "version" : "20260619134042",
   "name" : "JdvEtatPsychiqueCisis",
   "title" : "JDV Etat Psychique CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:50+01:00",
+  "date" : "2026-06-19T13:40:42+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Etat Psychique CISIS",
   "compose" : {
@@ -104,7 +104,7 @@ Liens:
       },
       {
         "code" : "62476001",
-        "display" : "désorienté(e)"
+        "display" : "désorientation"
       },
       {
         "code" : "24199005",

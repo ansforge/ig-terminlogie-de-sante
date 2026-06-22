@@ -8,7 +8,7 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:http://hl7.org/fhir/us/example/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee | *Version*:20260629120000 | |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee | *Version*:20260629120000 | |
 | Active as of 2026-06-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR347ActiviteSanitaireDiverseRegulee |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.248 | | |
 
@@ -17,7 +17,11 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* Cette terminologie de référence (CodeSystem) n'est pas utilisée ici; elle peut être utilisée ailleurs (par exemple spécifications et/ou implémentations qui utilisent ce contenu)
+* [JdvJ240ActiviteSanitaireDiverseReguleeFiness](ValueSet-jdv-j240-activite-sanitaire-diverse-regulee-finess.md)
+* [JdvJ333ActiviteSanitaireDiverseReguleeNiv1Finess](ValueSet-jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess.md)
+* [JdvJ334ActiviteSanitaireDiverseReguleeNiv2Finess](ValueSet-jdv-j334-activite-sanitaire-diverse-regulee-niv2-finess.md)
+* [JdvJ335ActiviteSanitaireDiverseReguleeNiv3Finess](ValueSet-jdv-j335-activite-sanitaire-diverse-regulee-niv3-finess.md)
+* [JdvJ418ActiviteSanitaireDiverseReguleeActive](ValueSet-jdv-j418-activite-sanitaire-diverse-regulee-active.md)
 
 
 
@@ -39,7 +43,7 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
       "start" : "1979-01-01T00:00:00+01:00"
     }
   }],
-  "url" : "http://hl7.org/fhir/us/example/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
   "identifier" : [{
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.248"

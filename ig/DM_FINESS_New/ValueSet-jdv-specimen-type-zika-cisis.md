@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-specimen-type-zika-cisis | *Version*:20260420150250 | |
-| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvSpecimenTypeZikaCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-specimen-type-zika-cisis | *Version*:20260619134042 | |
+| Active as of 2026-06-19 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvSpecimenTypeZikaCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.840 | | |
 
  
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-specimen-type-zika-cisis",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-04-21T11:57:26.347+02:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-06-22T14:00:17.175+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "extension" : [{
@@ -83,12 +83,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.840"
   }],
-  "version" : "20260420150250",
+  "version" : "20260619134042",
   "name" : "JdvSpecimenTypeZikaCisis",
   "title" : "jDV Specimen Type Zika CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:50+01:00",
+  "date" : "2026-06-19T13:40:42+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "jDV Specimen Type Zika CISIS",
   "compose" : {

@@ -1,32 +1,5 @@
 {
   "codeSystems" : [{
-    "url" : "http://hl7.org/fhir/us/example/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
-    "version" : "20260629120000",
-    "status" : "active",
-    "name" : "TreR347ActiviteSanitaireDiverseRegulee",
-    "title" : "Tre R347 Activite Sanitaire Diverse Regulee",
-    "description" : "Nomenclature des activités sanitaires utilisée pour décrire les Activités Sanitaires Diverses Régulées (ASDR)",
-    "oids" : ["1.2.250.1.213.1.6.1.248"]
-  },
-  {
-    "url" : "http://hl7.org/fhir/us/example/CodeSystem/tre-r396-autorite",
-    "version" : "20260629120000",
-    "status" : "active",
-    "name" : "TreR396Autorite",
-    "title" : "Tre R396 Autorite",
-    "description" : "liste des autorités structurée en plusieurs types d'autorités : Ordres, ARS, ...",
-    "oids" : ["1.2.250.1.213.1.6.1.377"]
-  },
-  {
-    "url" : "http://hl7.org/fhir/us/example/CodeSystem/tre-r403-public-activite-smsse-regulee",
-    "version" : "20260629120000",
-    "status" : "active",
-    "name" : "TreR403PublicActiviteSmsseRegulee",
-    "title" : "Tre R403 Public Activite Smsse Regulee",
-    "description" : "Cette TRE hiérarchique remplace les TRE actuelles TRE_R279-Clientele, TRE_R293-AgregatClienteleNiv2, TRE_R294-AgregatClienteleNiv3 et l'association ASS_X13-AgregatClientele. Cette TRE possède de nouvelles propriétés : le niveau d'agrégat des publics de 1 à 3 (du plus large au plus fin), le parent d'un agrégat de publics ou d'un public ainsi que les relations nécessaires à la construction des JDV dynamiques associés",
-    "oids" : ["1.2.250.1.213.1.6.1.382"]
-  },
-  {
     "url" : "http://snomed.info/sct",
     "version" : "http://snomed.info/sct/11000315107/version/20250621",
     "status" : "active",
@@ -2511,6 +2484,15 @@
     "oids" : ["1.2.250.1.213.1.1.4.322"]
   },
   {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+    "version" : "20260629120000",
+    "status" : "active",
+    "name" : "TreR347ActiviteSanitaireDiverseRegulee",
+    "title" : "Tre R347 Activite Sanitaire Diverse Regulee",
+    "description" : "Nomenclature des activités sanitaires utilisée pour décrire les Activités Sanitaires Diverses Régulées (ASDR)",
+    "oids" : ["1.2.250.1.213.1.6.1.248"]
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r360-role-membre",
     "version" : "20260330120000",
     "status" : "active",
@@ -2790,6 +2772,15 @@
     "oids" : ["1.2.250.1.213.1.6.1.376"]
   },
   {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+    "version" : "20260629120000",
+    "status" : "active",
+    "name" : "TreR396Autorite",
+    "title" : "Tre R396 Autorite",
+    "description" : "liste des autorités structurée en plusieurs types d'autorités : Ordres, ARS, ...",
+    "oids" : ["1.2.250.1.213.1.6.1.377"]
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
     "version" : "20260601120000",
     "status" : "active",
@@ -2824,6 +2815,15 @@
     "title" : "Tre R402 Activite Enseignement Regulee",
     "description" : "Liste des activités d'enseignement régulées organisée en 3 niveaux d'agrégation. Annule et remplace les anciennes TRE xxxEnseignement",
     "oids" : ["1.2.250.1.213.1.6.1.381"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+    "version" : "20260629120000",
+    "status" : "active",
+    "name" : "TreR403PublicActiviteSmsseRegulee",
+    "title" : "Tre R403 Public Activite Smsse Regulee",
+    "description" : "Cette TRE hiérarchique remplace les TRE actuelles TRE_R279-Clientele, TRE_R293-AgregatClienteleNiv2, TRE_R294-AgregatClienteleNiv3 et l'association ASS_X13-AgregatClientele. Cette TRE possède de nouvelles propriétés : le niveau d'agrégat des publics de 1 à 3 (du plus large au plus fin), le parent d'un agrégat de publics ou d'un public ainsi que les relations nécessaires à la construction des JDV dynamiques associés",
+    "oids" : ["1.2.250.1.213.1.6.1.382"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee",

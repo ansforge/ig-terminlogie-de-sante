@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nature-discussion-cisis | *Version*:20260420150250 | |
-| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvNatureDiscussionCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nature-discussion-cisis | *Version*:20260619134042 | |
+| Active as of 2026-06-19 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvNatureDiscussionCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.4.2.281.8 | | |
 
  
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-nature-discussion-cisis",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-04-20T16:58:34.620+02:00",
+    "versionId" : "10",
+    "lastUpdated" : "2026-06-22T13:59:31.511+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "extension" : [{
@@ -83,12 +83,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.4.2.281.8"
   }],
-  "version" : "20260420150250",
+  "version" : "20260619134042",
   "name" : "JdvNatureDiscussionCisis",
   "title" : "JDV Nature Discussion CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:50+01:00",
+  "date" : "2026-06-19T13:40:42+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Nature Discussion CISIS",
   "compose" : {

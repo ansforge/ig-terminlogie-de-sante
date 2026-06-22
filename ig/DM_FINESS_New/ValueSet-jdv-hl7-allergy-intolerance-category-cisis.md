@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-allergy-intolerance-category-cisis | *Version*:20260420150249 | |
-| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:AllergyIntoleranceCategory |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-allergy-intolerance-category-cisis | *Version*:20260619134041 | |
+| Active as of 2026-06-19 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:AllergyIntoleranceCategory |
 | *Other Identifiers:*OID:2.16.840.1.113883.4.642.3.133 | | |
 
  
@@ -70,8 +70,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-hl7-allergy-intolerance-category-cisis",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-04-21T14:12:24.914+02:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-06-22T13:58:04.999+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "extension" : [{
@@ -85,17 +85,17 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.840.1.113883.4.642.3.133"
   }],
-  "version" : "20260420150249",
+  "version" : "20260619134041",
   "name" : "AllergyIntoleranceCategory",
   "title" : "AllergyIntoleranceCategory",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:49+01:00",
+  "date" : "2026-06-19T13:40:41+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "AllergyIntoleranceCategory",
   "compose" : {
     "include" : [{
-      "system" : "http://hl7.org/fhir/ValueSet/allergy-intolerance-category",
+      "system" : "http://hl7.org/fhir/codesystem-allergy-intolerance-category.html",
       "concept" : [{
         "code" : "food",
         "display" : "aliment"

@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-localisation-infarctus-cerebral-cisis | *Version*:20260420150249 | |
-| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvLocalisationInfarctusCerebralCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-localisation-infarctus-cerebral-cisis | *Version*:20260619134042 | |
+| Active as of 2026-06-19 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvLocalisationInfarctusCerebralCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.205 | | |
 
  
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-localisation-infarctus-cerebral-cisis",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-04-20T16:58:21.236+02:00",
+    "versionId" : "9",
+    "lastUpdated" : "2026-06-22T13:59:14.647+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "extension" : [{
@@ -83,12 +83,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.205"
   }],
-  "version" : "20260420150249",
+  "version" : "20260619134042",
   "name" : "JdvLocalisationInfarctusCerebralCisis",
   "title" : "JDV Localisation Infarctus Cerebral CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:49+01:00",
+  "date" : "2026-06-19T13:40:42+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Localisation Infarctus Cerebral CISIS",
   "compose" : {

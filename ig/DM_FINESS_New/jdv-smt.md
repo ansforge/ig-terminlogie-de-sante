@@ -39,30 +39,30 @@ Vous touverez ici la liste des JDV du smt .
 | [JdvJ388ModeFonctionnementActiviteSmsseReguleeRass](ValueSet-jdv-j388-mode-fonctionnement-activite-smsse-regulee-rass.md) | Ce JDV remplace le JDV_J138_TypeActivite_RASS | 23/02/2026 |
 | [VsTreR378MotifArreteAll](ValueSet-vs-tre-r378-motif-arrete-all.md) | Jeu de valeurs ALL contenant les motifs des arrêtés enregsitrées dans FINESS+ | 22/02/2025 |
 | [VsTreR392TypeActSmsseReguleeAll](ValueSet-vs-tre-r392-type-act-smsse-regulee-all.md) | Jeu de valeurs ALL contenant l'ensemble des codes pour les types d'activitées SMSSE régulées | 13/05/2025 |
-| [ActEncounterCode](ValueSet-jdv-hl7-v3-ActEncounterCode-cisis.md) | ActEncounterCode | 20/04/2026 |
-| [ActMoodIntent](ValueSet-jdv-hl7-v3-ActMoodIntent-cisis.md) | ActMoodIntent | 20/04/2026 |
-| [ActMood](ValueSet-jdv-hl7-v3-ActMood-cisis.md) | ActMood | 20/04/2026 |
-| [ActPharmacySupplyType](ValueSet-jdv-hl7-v3-ActPharmacySupplyType-cisis.md) | ActPharmacySupplyType | 20/04/2026 |
-| [ActPriority](ValueSet-jdv-hl7-v3-ActPriority-cisis.md) | ActPriority | 20/04/2026 |
-| [ActStatus](ValueSet-jdv-hl7-v3-ActStatus-cisis.md) | ActStatus | 20/04/2026 |
-| [ActSubstanceAdminSubstitutionCode](ValueSet-jdv-hl7-v3-ActSubstanceAdminSubstitutionCode-cisis.md) | ActSubstanceAdminSubstitutionCode | 20/04/2026 |
-| [ActSubstanceAdministrationCode](ValueSet-jdv-hl7-v3-ActSubstanceAdministrationCode-cisis.md) | ActSubstanceAdministrationCode | 20/04/2026 |
-| [ActSubstanceAdministrationImmunizationCode](ValueSet-jdv-hl7-v3-ActSubstanceAdministrationImmunizationCode-cisis.md) | ActSubstanceAdministrationImmunizationCode | 20/04/2026 |
-| [AdministrableDrugForm](ValueSet-jdv-hl7-v3-AdministrableDrugForm-cisis.md) | AdministrableDrugForm | 20/04/2026 |
-| [AdministrativeGender](ValueSet-jdv-hl7-v3-AdministrativeGender-cisis.md) | AdministrativeGender | 20/04/2026 |
-| [AllergyIntoleranceCategory](ValueSet-jdv-hl7-allergy-intolerance-category-cisis.md) | AllergyIntoleranceCategory | 20/04/2026 |
-| [AllergyIntoleranceClinicalStatusCodes](ValueSet-jdv-hl7-allergyintolerance-clinical-cisis.md) | AllergyIntolerance Clinical Status Codes | 20/04/2026 |
-| [AllergyIntoleranceCriticality](ValueSet-jdv-hl7-allergy-intolerance-criticality-cisis.md) | Allergy Intolerance Criticality | 20/04/2026 |
-| [ConditionClinicalStatusCodes](ValueSet-jdv-hl7-condition-clinical-cisis.md) | Condition Clinical Status Codes | 20/04/2026 |
-| [ConditionVerificationStatus](ValueSet-jdv-hl7-condition-ver-status-cisis.md) | Condition Verification Status | 20/04/2026 |
-| [Confidentiality](ValueSet-jdv-hl7-v2-0952-cisis.md) | Confidentiality | 20/04/2026 |
-| [CoverageRoleType](ValueSet-jdv-hl7-v3-CoverageRoleType-cisis.md) | CoverageRoleType | 20/04/2026 |
-| [DaysOfWeek](ValueSet-jdv-hl7-days-of-week-cisis.md) | DaysOfWeek | 20/04/2026 |
+| [ActEncounterCode](ValueSet-jdv-hl7-v3-ActEncounterCode-cisis.md) | ActEncounterCode | 19/06/2026 |
+| [ActMoodIntent](ValueSet-jdv-hl7-v3-ActMoodIntent-cisis.md) | ActMoodIntent | 19/06/2026 |
+| [ActMood](ValueSet-jdv-hl7-v3-ActMood-cisis.md) | ActMood | 19/06/2026 |
+| [ActPharmacySupplyType](ValueSet-jdv-hl7-v3-ActPharmacySupplyType-cisis.md) | ActPharmacySupplyType | 19/06/2026 |
+| [ActPriority](ValueSet-jdv-hl7-v3-ActPriority-cisis.md) | ActPriority | 19/06/2026 |
+| [ActStatus](ValueSet-jdv-hl7-v3-ActStatus-cisis.md) | ActStatus | 19/06/2026 |
+| [ActSubstanceAdminSubstitutionCode](ValueSet-jdv-hl7-v3-ActSubstanceAdminSubstitutionCode-cisis.md) | ActSubstanceAdminSubstitutionCode | 19/06/2026 |
+| [ActSubstanceAdministrationCode](ValueSet-jdv-hl7-v3-ActSubstanceAdministrationCode-cisis.md) | ActSubstanceAdministrationCode | 19/06/2026 |
+| [ActSubstanceAdministrationImmunizationCode](ValueSet-jdv-hl7-v3-ActSubstanceAdministrationImmunizationCode-cisis.md) | ActSubstanceAdministrationImmunizationCode | 19/06/2026 |
+| [AdministrableDrugForm](ValueSet-jdv-hl7-v3-AdministrableDrugForm-cisis.md) | AdministrableDrugForm | 19/06/2026 |
+| [AdministrativeGender](ValueSet-jdv-hl7-v3-AdministrativeGender-cisis.md) | AdministrativeGender | 19/06/2026 |
+| [AllergyIntoleranceCategory](ValueSet-jdv-hl7-allergy-intolerance-category-cisis.md) | AllergyIntoleranceCategory | 19/06/2026 |
+| [AllergyIntoleranceClinicalStatusCodes](ValueSet-jdv-hl7-allergyintolerance-clinical-cisis.md) | AllergyIntolerance Clinical Status Codes | 19/06/2026 |
+| [AllergyIntoleranceCriticality](ValueSet-jdv-hl7-allergy-intolerance-criticality-cisis.md) | Allergy Intolerance Criticality | 19/06/2026 |
+| [ConditionClinicalStatusCodes](ValueSet-jdv-hl7-condition-clinical-cisis.md) | Condition Clinical Status Codes | 19/06/2026 |
+| [ConditionVerificationStatus](ValueSet-jdv-hl7-condition-ver-status-cisis.md) | Condition Verification Status | 19/06/2026 |
+| [Confidentiality](ValueSet-jdv-hl7-v2-0952-cisis.md) | Confidentiality | 19/06/2026 |
+| [CoverageRoleType](ValueSet-jdv-hl7-v3-CoverageRoleType-cisis.md) | CoverageRoleType | 19/06/2026 |
+| [DaysOfWeek](ValueSet-jdv-hl7-days-of-week-cisis.md) | DaysOfWeek | 19/06/2026 |
 | [DaysOfWeek](ValueSet-jdv-hl7-days-of-week.md) | DaysOfWeek | 11/03/2026 |
 | [DesignationUse](ValueSet-designation-use.md) | Details of how a designation would be used | 31/10/2019 |
-| [EmploymentStatusODH](ValueSet-jdv-hl7-v3-employmentStatusODH-cisis.md) | EmploymentStatusODH | 20/04/2026 |
-| [Hl7VSEmploymentStatus](ValueSet-jdv-hl7-v2-0066-cisis.md) | hl7VS-employmentStatus | 20/04/2026 |
-| [Hl7VSSpecimenCollectionMethod](ValueSet-jdv-hl7-v2-0488-cisis.md) | hl7VS-specimenCollectionMethod | 20/04/2026 |
+| [EmploymentStatusODH](ValueSet-jdv-hl7-v3-employmentStatusODH-cisis.md) | EmploymentStatusODH | 19/06/2026 |
+| [Hl7VSEmploymentStatus](ValueSet-jdv-hl7-v2-0066-cisis.md) | hl7VS-employmentStatus | 19/06/2026 |
+| [Hl7VSSpecimenCollectionMethod](ValueSet-jdv-hl7-v2-0488-cisis.md) | hl7VS-specimenCollectionMethod | 19/06/2026 |
 | [JdvJ240ActiviteSanitaireDiverseReguleeFiness](ValueSet-jdv-j240-activite-sanitaire-diverse-regulee-finess.md) | Jeu de valeurs FINESS contenant les activités sanitaires, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR) | 05/05/2026 |
 | [JdvJ289TypeGroupeGcoFiness](ValueSet-jdv-j289-type-groupe-gco-finess.md) | Jeu de valeurs Finess contenant les types de Groupement de Coopération Organique (GCO). | 30/03/2026 |
 | [JdvJ296TypeRoleEntiteGroupeFiness](ValueSet-jdv-j296-type-role-entite-groupe-finess.md) | Jeu de valeurs FINESS contenant les types de rôles que peuvent exercer des entités participants à des groupements | 30/03/2026 |
@@ -135,17 +135,17 @@ Vous touverez ici la liste des JDV du smt .
 | [JdvJ411NiveauScolaireMs](ValueSet-jdv-j411-niveau-scolaire-ms.md) | Niveau scolaire de l'usager en France. | 01/06/2026 |
 | [JdvJ418ActiviteSanitaireDiverseReguleeActive](ValueSet-jdv-j418-activite-sanitaire-diverse-regulee-active.md) | Jeu de valeurs des activités sanitaires actives, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR) | 05/05/2026 |
 | [MediaType](ValueSet-jdv-hl7-v3-MediaType-cisis.md) | MediaType | 16/12/2025 |
-| [ObservationInterpretation](ValueSet-jdv-hl7-v3-ObservationInterpretation-cisis.md) | ObservationInterpretation | 20/04/2026 |
-| [ObservationMethod](ValueSet-jdv-hl7-v3-ObservationMethod-cisis.md) | ObservationMethod | 20/04/2026 |
-| [ParticipationFunction](ValueSet-jdv-hl7-v3-ParticipationFunction-cisis.md) | ParticipationFunction | 20/04/2026 |
+| [ObservationInterpretation](ValueSet-jdv-hl7-v3-ObservationInterpretation-cisis.md) | ObservationInterpretation | 19/06/2026 |
+| [ObservationMethod](ValueSet-jdv-hl7-v3-ObservationMethod-cisis.md) | ObservationMethod | 19/06/2026 |
+| [ParticipationFunction](ValueSet-jdv-hl7-v3-ParticipationFunction-cisis.md) | ParticipationFunction | 19/06/2026 |
 | [ParticipationType](ValueSet-jdv-hl7-v3-ParticipationType-cisis.md) | ParticipationType | 20/04/2026 |
-| [PersonalRelationshipRoleType](ValueSet-jdv-hl7-v3-PersonalRelationshipRoleType-cisis.md) | PersonalRelationshipRoleType | 20/04/2026 |
-| [ROIOverlayShape](ValueSet-jdv-hl7-v3-ROIOverlayShape-cisis.md) | ROIOverlayShape | 20/04/2026 |
-| [RoleClassIngredientEntity](ValueSet-jdv-hl7-v3-RoleClassIngredientEntity-cisis.md) | RoleClassIngredientEntity | 20/04/2026 |
-| [SeverityObservationCode](ValueSet-jdv-hl7-v3-SeverityObservationCode-cisis.md) | SeverityObservationCode | 20/04/2026 |
-| [SpecimenAdditiveEntity](ValueSet-jdv-hl7-v3-SpecimenAdditiveEntity-cisis.md) | SpecimenAdditiveEntity | 20/04/2026 |
-| [SpecimenRoleType](ValueSet-jdv-hl7-v3-SpecimenRoleType-cisis.md) | SpecimenRoleType | 20/04/2026 |
-| [TimingEvent](ValueSet-jdv-hl7-v3-TimingEvent-cisis.md) | TimingEvent | 20/04/2026 |
+| [PersonalRelationshipRoleType](ValueSet-jdv-hl7-v3-PersonalRelationshipRoleType-cisis.md) | PersonalRelationshipRoleType | 19/06/2026 |
+| [ROIOverlayShape](ValueSet-jdv-hl7-v3-ROIOverlayShape-cisis.md) | ROIOverlayShape | 19/06/2026 |
+| [RoleClassIngredientEntity](ValueSet-jdv-hl7-v3-RoleClassIngredientEntity-cisis.md) | RoleClassIngredientEntity | 19/06/2026 |
+| [SeverityObservationCode](ValueSet-jdv-hl7-v3-SeverityObservationCode-cisis.md) | SeverityObservationCode | 19/06/2026 |
+| [SpecimenAdditiveEntity](ValueSet-jdv-hl7-v3-SpecimenAdditiveEntity-cisis.md) | SpecimenAdditiveEntity | 19/06/2026 |
+| [SpecimenRoleType](ValueSet-jdv-hl7-v3-SpecimenRoleType-cisis.md) | SpecimenRoleType | 19/06/2026 |
+| [TimingEvent](ValueSet-jdv-hl7-v3-TimingEvent-cisis.md) | TimingEvent | 19/06/2026 |
 | [VS_test](ValueSet-VS-test.md) | VS-test | 31/12/2020 |
 | [ValueSet_ATC_All](ValueSet-vs-atc-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC | 22/06/2026 |
 | [ValueSet_BDPM_All](ValueSet-vs-bdpm-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie BDPM | 22/06/2026 |
@@ -168,7 +168,7 @@ Vous touverez ici la liste des JDV du smt .
 | [VsTreR404ModeFonctionnementActiviteSmsseReguleeAll](ValueSet-vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all.md) | Jeu de valeurs ALL contenant les modes de fonctinonemment des activités ssmsse régulées | 30/03/2026 |
 | [VsTreR405ModaliteActiviteSmsseReguleeAll](ValueSet-vs-tre-r405-modalite-activite-smsse-regulee-all.md) | Jeu de valeurs ALL contenant les modalités des activités SSMSE régulées | 30/03/2026 |
 | [VsTreR406FormeActiviteSmsseReguleeAll](ValueSet-vs-tre-r406-forme-activite-smsse-regulee-all.md) | Jeu de valeurs ALL contenant les formes des activites smsse régulées | 30/03/2026 |
-| [WorkScheduleODH](ValueSet-jdv-hl7-v3-WorkScheduleODH-cisis.md) | WorkScheduleODH | 20/04/2026 |
-| [XActMoodDocumentObservation](ValueSet-jdv-hl7-v3-xActMoodDocumentObservation.md) | x_ActMoodDocumentObservation | 20/04/2026 |
-| [XBasicConfidentialityKind](ValueSet-jdv-hl7-v3-xBasicConfidentialityKind-cisis.md) | x_BasicConfidentialityKind | 20/04/2026 |
+| [WorkScheduleODH](ValueSet-jdv-hl7-v3-WorkScheduleODH-cisis.md) | WorkScheduleODH | 19/06/2026 |
+| [XActMoodDocumentObservation](ValueSet-jdv-hl7-v3-xActMoodDocumentObservation.md) | x_ActMoodDocumentObservation | 19/06/2026 |
+| [XBasicConfidentialityKind](ValueSet-jdv-hl7-v3-xBasicConfidentialityKind-cisis.md) | x_BasicConfidentialityKind | 19/06/2026 |
 

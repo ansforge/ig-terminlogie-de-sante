@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-rcp-appareil-cisis | *Version*:20260420150251 | |
-| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvRcpAppareilCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-rcp-appareil-cisis | *Version*:20260619134043 | |
+| Active as of 2026-06-19 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvRcpAppareilCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.597 | | |
 
  
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-rcp-appareil-cisis",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-04-20T16:58:47.530+02:00",
+    "versionId" : "9",
+    "lastUpdated" : "2026-06-22T13:59:50.403+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "extension" : [{
@@ -83,28 +83,24 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.597"
   }],
-  "version" : "20260420150251",
+  "version" : "20260619134043",
   "name" : "JdvRcpAppareilCisis",
   "title" : "JDV RCP Appareil CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:51+01:00",
+  "date" : "2026-06-19T13:40:43+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV RCP Appareil CISIS",
   "compose" : {
     "include" : [{
       "system" : "http://snomed.info/sct",
       "concept" : [{
-        "code" : "387910009",
-        "display" : "glande endocrine"
-      },
-      {
         "code" : "57171008",
         "display" : "système hématopoïétique"
       },
       {
         "code" : "81745001",
-        "display" : "œil"
+        "display" : "œil proprement dit"
       },
       {
         "code" : "272673000",
@@ -120,7 +116,7 @@ Liens:
       },
       {
         "code" : "86762007",
-        "display" : "système digestif"
+        "display" : "appareil digestif"
       },
       {
         "code" : "53065001",
@@ -136,11 +132,7 @@ Liens:
       },
       {
         "code" : "122489005",
-        "display" : "système urinaire"
-      },
-      {
-        "code" : "312419003",
-        "display" : "appareil respiratoire et/ou cavité thoracique"
+        "display" : "appareil urinaire"
       },
       {
         "code" : "87784001",
@@ -149,6 +141,14 @@ Liens:
       {
         "code" : "119253004",
         "display" : "voies aérodigestives supérieures"
+      },
+      {
+        "code" : "699593001",
+        "display" : "cavité thoracique et/ou contenu intrathoracique"
+      },
+      {
+        "code" : "113331007",
+        "display" : "système endocrinien"
       }]
     }]
   }

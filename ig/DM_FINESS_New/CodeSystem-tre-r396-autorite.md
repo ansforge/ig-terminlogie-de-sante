@@ -8,7 +8,7 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:http://hl7.org/fhir/us/example/CodeSystem/tre-r396-autorite | *Version*:20260629120000 | |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite | *Version*:20260629120000 | |
 | Active as of 2026-06-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR396Autorite |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.377 | | |
 
@@ -17,7 +17,14 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* Cette terminologie de référence (CodeSystem) n'est pas utilisée ici; elle peut être utilisée ailleurs (par exemple spécifications et/ou implémentations qui utilisent ce contenu)
+* [JDV_J170_AutoriteEnregistrement_EPARS](ValueSet-JDV-J170-AutoriteEnregistrement-EPARS.md)
+* [JdvJ287TypeAutoriteRegulationFiness](ValueSet-jdv-j287-type-autorite-regulation-finess.md)
+* [JdvJ358TypeAutoriteEnregistrementFiness](ValueSet-jdv-j358-type-autorite-enregistrement-finess.md)
+* [JdvJ359AutoriteEnregistrementFiness](ValueSet-jdv-j359-autorite-enregistrement-finess.md)
+* [JdvJ360AutoriteRegulationFiness](ValueSet-jdv-j360-autorite-regulation-finess.md)
+* [JdvJ373TypeAutorite](ValueSet-jdv-j373-type-autorite.md)
+* [JdvJ374Autorite](ValueSet-jdv-j374-autorite.md)
+* [JdvJ375AutoriteOrdre](ValueSet-jdv-j375-autorite-ordre.md)
 
 
 
@@ -39,7 +46,7 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
       "start" : "2016-02-02T00:00:00+01:00"
     }
   }],
-  "url" : "http://hl7.org/fhir/us/example/CodeSystem/tre-r396-autorite",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
   "identifier" : [{
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.377"

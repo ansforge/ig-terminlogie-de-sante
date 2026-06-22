@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-score-rankin-cisis | *Version*:20260420150251 | |
-| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvScoreRankinCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-score-rankin-cisis | *Version*:20260619134043 | |
+| Active as of 2026-06-19 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvScoreRankinCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.176 | | |
 
  
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-score-rankin-cisis",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2026-04-20T16:59:01.263+02:00",
+    "versionId" : "11",
+    "lastUpdated" : "2026-06-22T14:00:08.462+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "extension" : [{
@@ -83,12 +83,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.176"
   }],
-  "version" : "20260420150251",
+  "version" : "20260619134043",
   "name" : "JdvScoreRankinCisis",
   "title" : "JDV Score Rankin CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:51+01:00",
+  "date" : "2026-06-19T13:40:43+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Score Rankin CISIS",
   "compose" : {
