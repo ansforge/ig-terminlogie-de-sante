@@ -1,3 +1,5 @@
+Alias: $tre-r411-sexe-insee = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r411-sexe-insee
+
 ValueSet: JdvJ389SexeProvenanceRnipp
 Id: jdv-j389-sexe-provenance-rnipp
 Title: "Jdv J389 Sexe Provenance Rnipp"

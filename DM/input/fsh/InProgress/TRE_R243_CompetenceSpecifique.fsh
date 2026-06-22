@@ -633,10 +633,3 @@ Description: "Compétence spécifique"
 * #63 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #63 ^property[+].code = #status
 * #63 ^property[=].valueCode = #active
-* #64 "Maitrise des outils informatisés à commande oculaire"
-* #64 ^property[0].code = #dateValid
-* #64 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
-* #64 ^property[+].code = #dateMaj
-* #64 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
-* #64 ^property[+].code = #status
-* #64 ^property[=].valueCode = #active
