@@ -6,10 +6,11 @@ Title: "Tre R403 Public Activite Smsse Regulee"
 Description: "Cette TRE hiérarchique remplace les TRE actuelles TRE_R279-Clientele, TRE_R293-AgregatClienteleNiv2, TRE_R294-AgregatClienteleNiv3 et l'association ASS_X13-AgregatClientele. Cette TRE possède de nouvelles propriétés : le niveau d'agrégat des publics de 1 à 3 (du plus large au plus fin), le parent d'un agrégat de publics ou d'un public ainsi que les relations nécessaires à la construction des JDV dynamiques associés"
 * ^meta.versionId = "3"
 * ^meta.lastUpdated = "2026-05-05T20:12:23.967+02:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2026-02-23T12:00:00.000+00:00"
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.382"
 * ^version = "20260629120000"
@@ -21,7 +22,6 @@ Description: "Cette TRE hiérarchique remplace les TRE actuelles TRE_R279-Client
 * ^caseSensitive = false
 * ^hierarchyMeaning = #is-a
 * ^content = #complete
-* ^count = 161
 * ^property[0].code = #niveau
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#niveau"
 * ^property[=].description = "Permet d'indiquer le niveau hiérarchique du code"
