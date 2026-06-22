@@ -1,5 +1,3 @@
-Alias: $sct = http://snomed.info/sct
-
 CodeSystem: TreR396Autorite
 Id: tre-r396-autorite
 Title: "Tre R396 Autorite"
