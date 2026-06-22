@@ -3016,7 +3016,7 @@
   "id" : "TRE-R209-TypeActivite",
   "type" : "CodeSystem",
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R209-TypeActivite/FHIR/TRE-R209-TypeActivite",
-  "version" : "20240223120000",
+  "version" : "20260629120000",
   "name" : "TRE_R209_TypeActivite",
   "oids" : ["1.2.250.1.213.2.2"]
 },
@@ -3597,7 +3597,7 @@
   "id" : "TRE-R279-Clientele",
   "type" : "CodeSystem",
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
-  "version" : "20240927120000",
+  "version" : "20260629120000",
   "name" : "TRE_R279_Clientele",
   "oids" : ["1.2.250.1.213.1.6.1.132"]
 },

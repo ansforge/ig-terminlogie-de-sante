@@ -721,7 +721,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R209-TypeActivite/FHIR/TRE-R209-TypeActivite",
-    "version" : "20240223120000",
+    "version" : "20260629120000",
     "status" : "active",
     "name" : "TRE_R209_TypeActivite",
     "title" : null,
@@ -1351,7 +1351,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
-    "version" : "20240927120000",
+    "version" : "20260629120000",
     "status" : "active",
     "name" : "TRE_R279_Clientele",
     "title" : null,
