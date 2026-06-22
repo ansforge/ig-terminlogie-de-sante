@@ -1409,7 +1409,6 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #0821 ^property[=].valueCode = #active
 * #0821 ^property[+].code = #niveau
 * #0821 ^property[=].valueInteger = 3
-
 * #861 "Accueil familial thérapeutique"
 * #861 ^property[0].code = #parent
 * #861 ^property[=].valueCode = #0371
@@ -1421,7 +1420,6 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #861 ^property[=].valueCode = #active
 * #861 ^property[+].code = #niveau
 * #861 ^property[=].valueInteger = 4
-
 * #862 "Appartement thérapeutique"
 * #862 ^designation.language = #fr-FR
 * #862 ^designation.use.system = "http://snomed.info/sct"
@@ -1437,7 +1435,6 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #862 ^property[=].valueCode = #active
 * #862 ^property[+].code = #niveau
 * #862 ^property[=].valueInteger = 4
-
 * #863 "Accueil permanent"
 * #863 ^property[0].code = #parent
 * #863 ^property[=].valueCode = #0371
@@ -1449,7 +1446,6 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #863 ^property[=].valueCode = #active
 * #863 ^property[+].code = #niveau
 * #863 ^property[=].valueInteger = 4
-
 * #864 "Centre d'activités thérapeutiques et de temps de groupe"
 * #864 ^designation.language = #fr-FR
 * #864 ^designation.use.system = "http://snomed.info/sct"
@@ -1465,7 +1461,6 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #864 ^property[=].valueCode = #active
 * #864 ^property[+].code = #niveau
 * #864 ^property[=].valueInteger = 4
-
 * #865 "Centre de crise"
 * #865 ^property[0].code = #parent
 * #865 ^property[=].valueCode = #0371
@@ -1477,7 +1472,6 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #865 ^property[=].valueCode = #active
 * #865 ^property[+].code = #niveau
 * #865 ^property[=].valueInteger = 4
-
 * #866 "Centre de soins post-aigus"
 * #866 ^designation.language = #fr-FR
 * #866 ^designation.use.system = "http://snomed.info/sct"
@@ -1493,7 +1487,6 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #866 ^property[=].valueCode = #active
 * #866 ^property[+].code = #niveau
 * #866 ^property[=].valueInteger = 4
-
 * #867 "Centre médico-psychologique"
 * #867 ^designation.language = #fr-FR
 * #867 ^designation.use.system = "http://snomed.info/sct"
@@ -1509,7 +1502,6 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #867 ^property[=].valueCode = #active
 * #867 ^property[+].code = #niveau
 * #867 ^property[=].valueInteger = 4
-
 * #868 "Hôpital de jour"
 * #868 ^designation.language = #fr-FR
 * #868 ^designation.use.system = "http://snomed.info/sct"
@@ -1525,7 +1517,6 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #868 ^property[=].valueCode = #active
 * #868 ^property[+].code = #niveau
 * #868 ^property[=].valueInteger = 4
-
 * #869 "Service médico-psychologique régional"
 * #869 ^designation.language = #fr-FR
 * #869 ^designation.use.system = "http://snomed.info/sct"
@@ -1541,7 +1532,6 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #869 ^property[=].valueCode = #active
 * #869 ^property[+].code = #niveau
 * #869 ^property[=].valueInteger = 4
-
 * #870 "Soins à domicile"
 * #870 ^property[0].code = #parent
 * #870 ^property[=].valueCode = #0371
@@ -1553,7 +1543,6 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #870 ^property[=].valueCode = #active
 * #870 ^property[+].code = #niveau
 * #870 ^property[=].valueInteger = 4
-
 * #871 "Unité hospitalière spécialement aménagée"
 * #871 ^designation.language = #fr-FR
 * #871 ^designation.use.system = "http://snomed.info/sct"
@@ -1569,7 +1558,6 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #871 ^property[=].valueCode = #active
 * #871 ^property[+].code = #niveau
 * #871 ^property[=].valueInteger = 4
-
 * #872 "Unité pour malades difficiles"
 * #872 ^designation.language = #fr-FR
 * #872 ^designation.use.system = "http://snomed.info/sct"
@@ -1585,7 +1573,6 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #872 ^property[=].valueCode = #active
 * #872 ^property[+].code = #niveau
 * #872 ^property[=].valueInteger = 4
-
 * #873 "Unité sanitaire en milieu pénitentiaire"
 * #873 ^designation.language = #fr-FR
 * #873 ^designation.use.system = "http://snomed.info/sct"
@@ -1613,7 +1600,6 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #874 ^property[=].valueCode = #active
 * #874 ^property[+].code = #niveau
 * #874 ^property[=].valueInteger = 4
-
 * #875 "Centre de consultations"
 * #875 ^property[0].code = #parent
 * #875 ^property[=].valueCode = #0371
@@ -1625,7 +1611,6 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #875 ^property[=].valueCode = #active
 * #875 ^property[+].code = #niveau
 * #875 ^property[=].valueInteger = 4
-
 * #876 "Unité d’hospitalisation complète"
 * #876 ^property[0].code = #parent
 * #876 ^property[=].valueCode = #0371
@@ -1637,7 +1622,6 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #876 ^property[=].valueCode = #active
 * #876 ^property[+].code = #niveau
 * #876 ^property[=].valueInteger = 4
-
 * #877 "Centre d'accueil et de crise"
 * #877 ^designation.language = #fr-FR
 * #877 ^designation.use.system = "http://snomed.info/sct"
@@ -1646,15 +1630,13 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #877 ^property[0].code = #parent
 * #877 ^property[=].valueCode = #0371
 * #877 ^property[+].code = #niveau
+* #877 ^property[=].valueInteger = 4
 * #877 ^property[+].code = #dateValid
 * #877 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #877 ^property[+].code = #dateMaj
 * #877 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #877 ^property[+].code = #status
 * #877 ^property[=].valueCode = #active
-* #877 ^property[=].valueInteger = 4
-
-
 * #023 "Stérilisation"
 * #023 ^property[0].code = #parent
 * #023 ^property[=].valueCode = #0661
