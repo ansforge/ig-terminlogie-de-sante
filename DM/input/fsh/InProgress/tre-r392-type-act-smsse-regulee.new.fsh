@@ -1,4 +1,4 @@
-﻿Alias: $tre-r374-nature-activite-smsse-regulee = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee
+Alias: $tre-r374-nature-activite-smsse-regulee = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee
 Alias: $tre-r272-equipement-materiel-lourd = https://mos.esante.gouv.fr/NOS/TRE_R272-EquipementMaterielLourd/FHIR/TRE-R272-EquipementMaterielLourd
 Alias: $tre-r274-activite-sanitaire-regulee = https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee
 Alias: $tre-r405-modalite-activite-smsse-regulee = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee
