@@ -1,9 +1,9 @@
 ValueSet: JdvJ409TypeAdresseMs
 Id: jdv-j409-type-adresse-ms
 Title: "Jdv J409 Type Adresse Ms"
-Description: "Type d'adresse postale."
-* ^meta.versionId = "1"
-* ^meta.lastUpdated = "2026-05-12T10:17:42.094+02:00"
+Description: "Type d'adresse postale tel que \"Adresse du domicile\", \"Adresse de livraison\" pour une personne physique."
+* ^meta.versionId = "2"
+* ^meta.lastUpdated = "2026-06-05T11:48:02.842+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

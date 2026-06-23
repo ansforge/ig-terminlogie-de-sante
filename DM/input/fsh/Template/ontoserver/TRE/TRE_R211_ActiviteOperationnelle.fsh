@@ -1,8 +1,8 @@
 CodeSystem: TRE_R211_ActiviteOperationnelle
 Id: TRE-R211-ActiviteOperationnelle
 Description: "Activite Operationnelle"
-* ^meta.versionId = "27"
-* ^meta.lastUpdated = "2026-05-05T20:11:55.520+02:00"
+* ^meta.versionId = "29"
+* ^meta.lastUpdated = "2026-06-01T20:12:09.761+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,10 +10,10 @@ Description: "Activite Operationnelle"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.12"
-* ^version = "20260330120000"
+* ^version = "20260601120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-03-30T12:00:00+01:00"
+* ^date = "2026-06-01T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
@@ -1319,18 +1319,18 @@ Description: "Activite Operationnelle"
 * #156 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #156 ^property[+].code = #status
 * #156 ^property[=].valueCode = #active
-* #157 "Urgences polyvalentes"
+* #157 "Urgences polyvalentes hospitalières"
 * #157 ^property[0].code = #dateValid
 * #157 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #157 ^property[+].code = #dateMaj
-* #157 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
+* #157 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #157 ^property[+].code = #status
 * #157 ^property[=].valueCode = #active
-* #158 "Urgences psychiatriques"
+* #158 "Urgences psychiatriques hospitalières"
 * #158 ^property[0].code = #dateValid
 * #158 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #158 ^property[+].code = #dateMaj
-* #158 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #158 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #158 ^property[+].code = #status
 * #158 ^property[=].valueCode = #active
 * #159 "Urgences spécialisées traumatologiques"
@@ -1671,11 +1671,15 @@ Description: "Activite Operationnelle"
 * #200 ^property[=].valueDateTime = "2023-05-26T12:00:00+01:00"
 * #200 ^property[+].code = #status
 * #200 ^property[=].valueCode = #active
-* #201 "Pédicure-Podologie" "Discipline paramédicale qualifiée pour traiter directement les affections épidermiques, limitées aux couches cornées et aux affections unguéales du pied, à l'exclusion de toute intervention chirurgicale, pour pratiquer les soins d'hygiène, pour confectionner et appliquer des semelles destinées à prévenir ou à soulager les affections épidermiques, pour analyser et évaluer les troubles morphostatiques et dynamiques du pied et élaborer un diagnostic de pédicurie-podologie en tenant compte de la statique et de la dynamique du pied, pour renouveler les prescriptions médicales initiales d'orthèses plantaires."
+* #201 "Pédicurie-Podologie (bilan diagnostic et mise en œuvre des activités thérapeutiques si nécessaire)" "Discipline paramédicale qualifiée pour traiter directement les affections épidermiques, limitées aux couches cornées et aux affections unguéales du pied, à l'exclusion de toute intervention chirurgicale, pour pratiquer les soins d'hygiène, pour confectionner et appliquer des semelles destinées à prévenir ou à soulager les affections épidermiques, pour analyser et évaluer les troubles morphostatiques et dynamiques du pied et élaborer un diagnostic de pédicurie-podologie en tenant compte de la statique et de la dynamique du pied, pour renouveler les prescriptions médicales initiales d'orthèses plantaires."
+* #201 ^designation.language = #fr-FR
+* #201 ^designation.use.system = "http://snomed.info/sct"
+* #201 ^designation.use = $sct#900000000000013009
+* #201 ^designation.value = "Pédicurie-Podologie"
 * #201 ^property[0].code = #dateValid
 * #201 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #201 ^property[+].code = #dateMaj
-* #201 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #201 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #201 ^property[+].code = #status
 * #201 ^property[=].valueCode = #active
 * #202 "Réunion de Concertation Pluridisciplinaire (RCP) Appareil Digestif"
@@ -2111,11 +2115,11 @@ Description: "Activite Operationnelle"
 * #248 ^property[=].valueDateTime = "2023-01-27T12:00:00+01:00"
 * #248 ^property[+].code = #status
 * #248 ^property[=].valueCode = #active
-* #249 "Urgences pédiatriques"
+* #249 "Urgences pédiatriques hospitalières"
 * #249 ^property[0].code = #dateValid
 * #249 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #249 ^property[+].code = #dateMaj
-* #249 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
+* #249 ^property[=].valueDateTime = "2026-06-01T12:00:00+01:00"
 * #249 ^property[+].code = #status
 * #249 ^property[=].valueCode = #active
 * #250 "Urgences spécialisées céphalées"
@@ -4542,10 +4546,14 @@ Description: "Activite Operationnelle"
 * #574 ^property[+].code = #status
 * #574 ^property[=].valueCode = #active
 * #575 "Ergothérapie orientation compensation matérielle dans l’environnement de la personne" "Accompagnement en ergothérapie de personnes dans l’accès à l'ensemble des aides techniques, équipements et aménagements destinés à compenser une perte de fonction, une limitation d’activité ou une situation de handicap. Cela inclus l’apprentissage d’utilisation des compensations matérielles et la prise en compte de l’environnement de la personne jusqu’à intervenir dans celui-ci."
+* #575 ^designation.language = #fr-FR
+* #575 ^designation.use.system = "http://snomed.info/sct"
+* #575 ^designation.use = $sct#900000000000013009
+* #575 ^designation.value = "Ergothérapie orientation compensation matérielle dans l’environnement de la pers"
 * #575 ^property[0].code = #dateValid
 * #575 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
 * #575 ^property[+].code = #dateMaj
-* #575 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
+* #575 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #575 ^property[+].code = #status
 * #575 ^property[=].valueCode = #active
 * #576 "Ergothérapie orientation Gériatrie" "Accompagnement en ergothérapie concerne la prise en charge des personnes âgées, notamment celles confrontées à des pertes d’autonomie, des pathologies chroniques ou neurodégénératives (comme la maladie d'Alzheimer, Parkinson, ou des troubles cognitifs), ainsi qu'à la prévention du vieillissement pathologique. Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle"
@@ -4577,10 +4585,14 @@ Description: "Activite Operationnelle"
 * #579 ^property[+].code = #status
 * #579 ^property[=].valueCode = #active
 * #580 "Evaluation en ergothérapie par l’analyse d’activité et accompagnement dans l’environnement de la personne" "Evaluation fonctionnelle et accompagnement en ergothérapie au travers de mises en situation d’activité réelles (via l’analyse d’activité) en milieu écologique (sur l’ensemble des lieux de vie ((domicile, établissements médico-sociaux, etc.) et d’activité de la personne (établissements scolaires, lieux de formation, milieu professionnel, milieu sportif, de loisirs, etc.)"
+* #580 ^designation.language = #fr-FR
+* #580 ^designation.use.system = "http://snomed.info/sct"
+* #580 ^designation.use = $sct#900000000000013009
+* #580 ^designation.value = "Eval en ergothérapie par analyse d’activité et accomp dans l’enviro de la person"
 * #580 ^property[0].code = #dateValid
 * #580 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
 * #580 ^property[+].code = #dateMaj
-* #580 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
+* #580 ^property[=].valueDateTime = "2026-05-05T12:00:00+01:00"
 * #580 ^property[+].code = #status
 * #580 ^property[=].valueCode = #active
 * #581 "Interventions éducatives pour renforcer l’autorégulation" "Consiste à mettre en place des stratégies et des activités visant à aider les personnes, notamment les enfants et les adolescents, à mieux gérer leurs émotions, leurs comportements et leurs pensées. Ces interventions sont particulièrement utiles pour les élèves présentant des troubles du spectre de l'autisme (TSA) et d'autres troubles du neurodéveloppement. Elles sont encadrées par des professionnels, et s'appuient sur des principes de métacognition et d'autodétermination. Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle"

@@ -1,9 +1,9 @@
 CodeSystem: TreR427TypeAdresse
 Id: tre-r427-type-adresse
 Title: "Tre R427 Type Adresse"
-Description: "Type d'adresse postale."
-* ^meta.versionId = "1"
-* ^meta.lastUpdated = "2026-05-12T10:12:43.949+02:00"
+Description: "Type d'adresse postale tel que \"Adresse du domicile\", \"Adresse de livraison\" pour une personne physique."
+* ^meta.versionId = "2"
+* ^meta.lastUpdated = "2026-06-05T11:58:05.447+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"

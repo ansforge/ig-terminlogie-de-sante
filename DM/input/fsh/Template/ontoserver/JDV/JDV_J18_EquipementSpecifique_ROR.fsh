@@ -1,8 +1,8 @@
 ValueSet: JDV_J18_EquipementSpecifique_ROR
 Id: JDV-J18-EquipementSpecifique-ROR
 Description: "Equipement spécifique - ROR"
-* ^meta.versionId = "18"
-* ^meta.lastUpdated = "2025-12-18T16:47:44.274+01:00"
+* ^meta.versionId = "20"
+* ^meta.lastUpdated = "2026-06-02T15:19:01.594+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,12 +10,12 @@ Description: "Equipement spécifique - ROR"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J18-EquipementSpecifique-ROR/FHIR/JDV-J18-EquipementSpecifique-ROR"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.4.6"
-* ^version = "20251222120000"
+* ^version = "20260601120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-12-22T12:00:00+01:00"
+* ^date = "2026-06-01T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R212-Equipement#003 "Angioscope"
 * $TRE-R212-Equipement#005 "Autotransfuseur"
 * $TRE-R212-Equipement#009 "Chambre à pression négative"
@@ -171,3 +171,11 @@ Description: "Equipement spécifique - ROR"
 * $TRE-R212-Equipement#229 "Douche accessible aux personnes en fauteuil roulant"
 * $TRE-R212-Equipement#234 "Espace de consommation de drogues injectables"
 * $TRE-R212-Equipement#235 "Espace de consommation de drogues à fumer"
+* $TRE-R212-Equipement#236 "Appareil de thermoformage"
+* $TRE-R212-Equipement#237 "Appareil de thermosoudage"
+* $TRE-R212-Equipement#238 "Plateforme de force (étude de la posture)"
+* $TRE-R212-Equipement#239 "Plateforme de pression (étude de la marche)"
+* $TRE-R212-Equipement#240 "Piste de marche"
+* $TRE-R212-Equipement#241 "Tapis de course"
+* $TRE-R212-Equipement#242 "Système vidéo d'analyse de la marche et de la course"
+* $TRE-R212-Equipement#243 "Semelles avec capteurs embarqués"
