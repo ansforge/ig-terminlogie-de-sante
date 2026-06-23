@@ -128,6 +128,30 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #007 ^property[=].valueCoding.code = #A
 * #007 ^property[+].code = #finess
 * #007 ^property[=].valueBoolean = true
+* #008 "Activité Etablissement Psychiatrique créée"
+* #008 ^property[0].code = #dateValid
+* #008 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
+* #008 ^property[+].code = #dateMaj
+* #008 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
+* #008 ^property[+].code = #status
+* #008 ^property[=].valueCode = #active
+* #008 ^property[+].code = #macroEtatAdministratif
+* #008 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #008 ^property[=].valueCoding.code = #A
+* #008 ^property[+].code = #finess
+* #008 ^property[=].valueBoolean = true
+* #009 "Activité Etablissement Psychiatrique supprimée"
+* #009 ^property[0].code = #dateValid
+* #009 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
+* #009 ^property[+].code = #dateMaj
+* #009 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
+* #009 ^property[+].code = #status
+* #009 ^property[=].valueCode = #active
+* #009 ^property[+].code = #macroEtatAdministratif
+* #009 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+* #009 ^property[=].valueCoding.code = #I
+* #009 ^property[+].code = #finess
+* #009 ^property[=].valueBoolean = true
 * #010 "Activité autorisée"
 * #010 ^property[0].code = #dateValid
 * #010 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"

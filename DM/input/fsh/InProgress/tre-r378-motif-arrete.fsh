@@ -95,3 +95,38 @@ Remarque : Cette TRE est juste initialisée avec les codes FINESS+
 * #X ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #X ^property[+].code = #status
 * #X ^property[=].valueCode = #active
+* #01 "Transformation"
+* #01 ^property[0].code = #dateValid
+* #01 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
+* #01 ^property[+].code = #dateMaj
+* #01 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
+* #01 ^property[+].code = #status
+* #01 ^property[=].valueCode = #active
+* #02 "Renouvellement"
+* #02 ^property[0].code = #dateValid
+* #02 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
+* #02 ^property[+].code = #dateMaj
+* #02 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
+* #02 ^property[+].code = #status
+* #02 ^property[=].valueCode = #active
+* #03 "Réorganisation"
+* #03 ^property[0].code = #dateValid
+* #03 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
+* #03 ^property[+].code = #dateMaj
+* #03 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
+* #03 ^property[+].code = #status
+* #03 ^property[=].valueCode = #active
+* #04 "Cession"
+* #04 ^property[0].code = #dateValid
+* #04 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
+* #04 ^property[+].code = #dateMaj
+* #04 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
+* #04 ^property[+].code = #status
+* #04 ^property[=].valueCode = #active
+* #05 "Cessation d’activité "
+* #05 ^property[0].code = #dateValid
+* #05 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
+* #05 ^property[+].code = #dateMaj
+* #05 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
+* #05 ^property[+].code = #status
+* #05 ^property[=].valueCode = #active

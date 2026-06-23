@@ -100,6 +100,24 @@ Description: "Nomenclature des événements administratifs pertinents pour un cy
 * #007 ^property[=].valueCode = #active
 * #007 ^property[+].code = #finess
 * #007 ^property[=].valueBoolean = true
+* #008 "Création Activité Etablissement Psychiatrique"
+* #008 ^property[0].code = #dateValid
+* #008 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
+* #008 ^property[+].code = #dateMaj
+* #008 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
+* #008 ^property[+].code = #status
+* #008 ^property[=].valueCode = #active
+* #008 ^property[+].code = #finess
+* #008 ^property[=].valueBoolean = true
+* #009 "Suppression Activité Etablissement Psychiatrique"
+* #009 ^property[0].code = #dateValid
+* #009 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
+* #009 ^property[+].code = #dateMaj
+* #009 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
+* #009 ^property[+].code = #status
+* #009 ^property[=].valueCode = #active
+* #009 ^property[+].code = #finess
+* #009 ^property[=].valueBoolean = true
 * #010 "Décision d'Autorisation/ Autorisation de l’activité – lien PM titulaire"
 * #010 ^property[0].code = #dateValid
 * #010 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
@@ -154,7 +172,7 @@ Description: "Nomenclature des événements administratifs pertinents pour un cy
 * #017 ^property[=].valueCode = #active
 * #017 ^property[+].code = #finess
 * #017 ^property[=].valueBoolean = true
-* #018 "Transfert / reprise d'une EGE"
+* #018 "Transfert / cession d'une EGE"
 * #018 ^property[0].code = #dateValid
 * #018 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #018 ^property[+].code = #dateMaj
@@ -163,7 +181,7 @@ Description: "Nomenclature des événements administratifs pertinents pour un cy
 * #018 ^property[=].valueCode = #active
 * #018 ^property[+].code = #finess
 * #018 ^property[=].valueBoolean = true
-* #019 "Transfert / cession d'une EGE"
+* #019 "Transfert / reprise d'une EGE"
 * #019 ^property[0].code = #dateValid
 * #019 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #019 ^property[+].code = #dateMaj
