@@ -15016,6 +15016,10 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
     {
       "code" : "niveau",
       "valueInteger" : 4
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -15074,8 +15078,8 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
     },
     {
-      "code" : "status",
-      "valueCode" : "active"
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "niveau",

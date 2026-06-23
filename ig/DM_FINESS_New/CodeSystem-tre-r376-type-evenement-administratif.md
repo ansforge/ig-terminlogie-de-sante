@@ -54,7 +54,7 @@ Nomenclature des événements administratifs pertinents pour un cycle de vie d�
   "description" : "Nomenclature des événements administratifs pertinents pour un cycle de vie d'un Objet de Santé (du MOS) Remarque : Cette nomenclature est initialisée avec les évenements affectant le cycle de vie des entités et activités enregistrées dans FINESS+",
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 36,
+  "count" : 38,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -218,6 +218,46 @@ Nomenclature des événements administratifs pertinents pour un cycle de vie d�
     }]
   },
   {
+    "code" : "008",
+    "display" : "Création Activité Etablissement Psychiatrique",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "009",
+    "display" : "Suppression Activité Etablissement Psychiatrique",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
     "code" : "010",
     "display" : "Décision d'Autorisation/ Autorisation de l’activité – lien PM titulaire",
     "property" : [{
@@ -339,7 +379,7 @@ Nomenclature des événements administratifs pertinents pour un cycle de vie d�
   },
   {
     "code" : "018",
-    "display" : "Transfert / reprise d'une EGE",
+    "display" : "Transfert / cession d'une EGE",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "1900-01-01T00:00:00+01:00"
@@ -359,7 +399,7 @@ Nomenclature des événements administratifs pertinents pour un cycle de vie d�
   },
   {
     "code" : "019",
-    "display" : "Transfert / cession d'une EGE",
+    "display" : "Transfert / reprise d'une EGE",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "1900-01-01T00:00:00+01:00"

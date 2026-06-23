@@ -55,7 +55,7 @@ Nomenclature des motifs des arrêtés Remarque : Cette TRE est juste initialisé
   "caseSensitive" : false,
   "valueSet" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r378-motif-arrete?vs",
   "content" : "complete",
-  "count" : 7,
+  "count" : 12,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -191,6 +191,86 @@ Nomenclature des motifs des arrêtés Remarque : Cette TRE est juste initialisé
   {
     "code" : "X",
     "display" : "Extension",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "01",
+    "display" : "Transformation",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "02",
+    "display" : "Renouvellement",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "03",
+    "display" : "Réorganisation",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "04",
+    "display" : "Cession",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "05",
+    "display" : "Cessation d’activité ",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "1900-01-01T00:00:00+01:00"

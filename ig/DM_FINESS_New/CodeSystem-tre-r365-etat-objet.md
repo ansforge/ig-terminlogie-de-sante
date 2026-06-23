@@ -54,7 +54,7 @@ Nomenclature des états élémentaires d’un objet du MOS organisés en etat ac
   "description" : "Nomenclature des états élémentaires d'un objet du MOS organisés en etat actifs et en etats inactifs. Remarque : Cette nomenclature est initialisée avec les états que peuvent porter les entités et activités FINESS+",
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 38,
+  "count" : 40,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -266,6 +266,60 @@ Nomenclature des états élémentaires d’un objet du MOS organisés en etat ac
       "valueCoding" : {
         "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
         "code" : "A"
+      }
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "008",
+    "display" : "Activité Etablissement Psychiatrique créée",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "macroEtatAdministratif",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "code" : "A"
+      }
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "009",
+    "display" : "Activité Etablissement Psychiatrique supprimée",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "macroEtatAdministratif",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "code" : "I"
       }
     },
     {

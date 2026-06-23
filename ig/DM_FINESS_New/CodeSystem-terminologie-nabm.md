@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/terminologie-nabm | *Version*:V104 | |
-| Active as of 2026-05-26 | *Responsible:*Agence du numérique en santé | *Computable Name*:NABM |
+| *Official URL*:https://smt.esante.gouv.fr/terminologie-nabm | *Version*:V105 | |
+| Active as of 2026-06-04 | *Responsible:*Agence du numérique en santé | *Computable Name*:NABM |
 | *Other Identifiers:*OID:1.2.250.1.215.300.2 (use: usual, ), https://smt.esante.gouv.fr/#terminologie-nabm (use: secondary, ) | | |
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
@@ -25,8 +25,9 @@
   "resourceType" : "CodeSystem",
   "id" : "terminologie-nabm",
   "meta" : {
-    "versionId" : "17",
-    "lastUpdated" : "2026-06-22T15:44:01.454+02:00",
+    "versionId" : "18",
+    "lastUpdated" : "2026-06-23T11:18:44.756+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"],
     "tag" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
       "code" : "SUBSETTED",
@@ -44,16 +45,16 @@
     "system" : "https://smt.esante.gouv.fr/",
     "value" : "terminologie-nabm"
   }],
-  "version" : "V104",
+  "version" : "V105",
   "name" : "NABM",
   "title" : "Nomenclature des actes de biologie médicale",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-26T00:00:00+00:00",
+  "date" : "2026-06-04T00:00:00+00:00",
   "publisher" : "Agence du numérique en santé",
   "valueSet" : "https://smt.esante.gouv.fr/terminologie-nabm?vs",
   "content" : "not-present",
-  "count" : 1046,
+  "count" : 1050,
   "filter" : [{
     "code" : "root",
     "operator" : ["="],
