@@ -107,7 +107,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_G20_Specialisation](CodeSystem-TRE-G20-Specialisation.md) | Spécialisation | 15/12/2023 | active |
 | [TRE_G100_Specialite_AM](CodeSystem-TRE-G100-Specialite-AM.md) | Spécialité Assurance Maladie | 25/10/2024 | active |
 | [TRE_R01_EnsembleSavoirFaire_CISIS](CodeSystem-TRE-R01-EnsembleSavoirFaire-CISIS.md) | Ensemble Savoir-faire CI-SIS (TRE provisoire) | 02/02/2026 | active |
-| [TRE_R02_SecteurActivite](CodeSystem-TRE-R02-SecteurActivite.md) | Le secteur d'activité de santé est une donnée RPPS et correspond au type de service fourni par une structure. Il sert principalement à déterminer les propriétés de facturation des professionnels de ces structures vis-à-vis de l'assurance maladie | 23/05/2025 | active |
+| [TRE_R02_SecteurActivite](CodeSystem-TRE-R02-SecteurActivite.md) | Le secteur d'activité de santé est une donnée RPPS et correspond au type de service fourni par une structure. Il sert principalement à déterminer les propriétés de facturation des professionnels de ces structures vis-à-vis de l'assurance maladie | 29/06/2026 | active |
 | [TRE_R03_AttributionParticuliere](CodeSystem-TRE-R03-AttributionParticuliere.md) | Attribution particulière | 15/12/2023 | active |
 | [TRE_R04_TypeSavoirFaire](CodeSystem-TRE-R04-TypeSavoirFaire.md) | Type de savoir-faire | 16/10/2025 | active |
 | [TRE_R06_SectionTableauCNOP](CodeSystem-TRE-R06-SectionTableauCNOP.md) | Section du tableau de l'Ordre des Pharmaciens | 15/12/2023 | active |

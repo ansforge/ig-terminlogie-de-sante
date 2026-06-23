@@ -109,8 +109,8 @@ Vous touverez ici la liste des JDV du NOS.
 | [JdvJ410CategoriePermisConduireMs](ValueSet-jdv-j410-categorie-permis-conduire-ms.md) | Catégorie de permis de conduire. | 01/06/2026 | draft |
 | [JdvJ411NiveauScolaireMs](ValueSet-jdv-j411-niveau-scolaire-ms.md) | Niveau scolaire de l'usager en France. | 01/06/2026 | draft |
 | [JDV_J01_XdsAuthorSpecialty_CISIS](ValueSet-JDV-J01-XdsAuthorSpecialty-CISIS.md) | XDS authorSpecialty CI-SIS | 05/05/2026 | active |
-| [JDV_J02_XdsHealthcareFacilityTypeCode_CISIS](ValueSet-JDV-J02-XdsHealthcareFacilityTypeCode-CISIS.md) | XDS healthcareFacilityTypeCode CI-SIS | 23/02/2026 | active |
-| [JDV_J03_XdsContentTypeCode_CISIS](ValueSet-JDV-J03-XdsContentTypeCode-CISIS.md) | XDS contentTypeCode CI-SIS | 23/02/2026 | active |
+| [JDV_J02_XdsHealthcareFacilityTypeCode_CISIS](ValueSet-JDV-J02-XdsHealthcareFacilityTypeCode-CISIS.md) | XDS healthcareFacilityTypeCode CI-SIS | 29/06/2026 | active |
+| [JDV_J03_XdsContentTypeCode_CISIS](ValueSet-JDV-J03-XdsContentTypeCode-CISIS.md) | XDS contentTypeCode CI-SIS | 29/06/2026 | active |
 | [JDV_J04_XdsPracticeSettingCode_CISIS](ValueSet-JDV-J04-XdsPracticeSettingCode-CISIS.md) | XDS practiceSettingCode CI-SIS | 27/09/2024 | active |
 | [JDV_J05_SubjectRole_CISIS](ValueSet-JDV-J05-SubjectRole-CISIS.md) | subjectRole CI-SIS | 05/05/2026 | active |
 | [JDV_J06_XdsClassCode_CISIS](ValueSet-JDV-J06-XdsClassCode-CISIS.md) | XDS classCode CI-SIS | 22/09/2023 | active |
@@ -167,7 +167,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J66_TypeCode_DMP](ValueSet-JDV-J66-TypeCode-DMP.md) | Jeu de valeurs pour métadonnée typeCode DMP | 27/09/2024 | active |
 | [JDV_J67_TraitementDocument_CISIS](ValueSet-JDV-J67-TraitementDocument-CISIS.md) | Traitement du document-CISIS | 24/04/2020 | active |
 | [JDV_J68_ProfilAccesReferentiel_ROR](ValueSet-JDV-J68-ProfilAccesReferentiel-ROR.md) | Liste des rôles métiers définis dans la politique d'accès au ROR | 23/05/2025 | active |
-| [JDV_J71_ProfessionFonction_MSSante](ValueSet-JDV-J71-ProfessionFonction-MSSante.md) | Professions et fonctions MSSanté | 30/10/2023 | active |
+| [JDV_J71_ProfessionFonction_MSSante](ValueSet-JDV-J71-ProfessionFonction-MSSante.md) | Professions et fonctions MSSanté | 29/06/2026 | active |
 | [JDV_J72_TypeProfessionFonction_MSSante](ValueSet-JDV-J72-TypeProfessionFonction-MSSante.md) | Type des fonctions et des professions acceptées dans MS Santé | 24/04/2020 | active |
 | [JDV_J73_MetierPharmacien_RASS](ValueSet-JDV-J73-MetierPharmacien-RASS.md) | Ensemble des sections et sous-sections du tableau du CNOP dans le RASS | 28/05/2021 | active |
 | [JDV_J75_TypeAutorisation_RASS](ValueSet-JDV-J75-TypeAutorisation-RASS.md) | Type d'autorisation d'exercice pour accès à l'exercice de la profession du RASS | 23/05/2025 | active |
@@ -193,7 +193,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J97_StatutProfessionnelSSA_RASS](ValueSet-JDV-J97-StatutProfessionnelSSA-RASS.md) | Statuts des professionnels du Service de Santé des Armées dans le RASS | 24/04/2020 | active |
 | [JDV_J98_StatutHospitalier_RASS](ValueSet-JDV-J98-StatutHospitalier-RASS.md) | Statut des professionnels intervenant dans un hôpital dans le RASS | 23/02/2026 | active |
 | [JDV_J100_FinessStatutJuridique_RASS](ValueSet-JDV-J100-FinessStatutJuridique-RASS.md) | Statut juridique FINESS dans le RASS | 24/04/2020 | active |
-| [JDV_J101_SecteurActivite_RASS](ValueSet-JDV-J101-SecteurActivite-RASS.md) | Secteurs d'activité des établissements avec la même activité dans le RASS | 23/02/2026 | active |
+| [JDV_J101_SecteurActivite_RASS](ValueSet-JDV-J101-SecteurActivite-RASS.md) | Secteurs d'activité des établissements avec la même activité dans le RASS | 29/06/2026 | active |
 | [JDV_J103_TypeVoie_RASS](ValueSet-JDV-J103-TypeVoie-RASS.md) | Type de voie du professionnel du RASS | 24/04/2020 | active |
 | [JDV_J104_TypeIdentifiantStructure_RASS](ValueSet-JDV-J104-TypeIdentifiantStructure-RASS.md) | Type d'identifiant national de structure dans le RASS | 24/04/2020 | active |
 | [JDV_J105_EnsembleDiplome_RASS](ValueSet-JDV-J105-EnsembleDiplome-RASS.md) | Ensemble des diplômes et qualifications du RASS | 23/02/2026 | active |
@@ -251,7 +251,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J169_MotifFinActivite_EPARS](ValueSet-JDV-J169-MotifFinActivite-EPARS.md) | Motifs de fin d'activités pour EPARS | 25/06/2021 | active |
 | [JDV_J170_AutoriteEnregistrement_EPARS](ValueSet-JDV-J170-AutoriteEnregistrement-EPARS.md) | Liste des autorités d'enregistrement pour EPARS | 31/01/2025 | active |
 | [JDV_J171_TypeAutorisation_EPARS](ValueSet-JDV-J171-TypeAutorisation-EPARS.md) | Types d'autorisation d'exercice pour EPARS | 23/05/2025 | active |
-| [JDV_J172_SecteurActivite_EPARS](ValueSet-JDV-J172-SecteurActivite-EPARS.md) | Secteur d'activité pour EPARS | 23/02/2026 | active |
+| [JDV_J172_SecteurActivite_EPARS](ValueSet-JDV-J172-SecteurActivite-EPARS.md) | Secteur d'activité pour EPARS | 29/06/2026 | active |
 | [JDV_J173_FinessStatutJuridique_EPARS](ValueSet-JDV-J173-FinessStatutJuridique-EPARS.md) | Statut juridique FINESS dans EPARS | 25/06/2021 | active |
 | [JDV_J176_SituationVieQuotidienne_MDPH](ValueSet-JDV-J176-SituationVieQuotidienne-MDPH.md) | Caractérise la situation de vie de la personne : vit seule ou avec d'autres | 24/09/2021 | active |
 | [JDV_J177_BesoinAideMobilite_MDPH](ValueSet-JDV-J177-BesoinAideMobilite-MDPH.md) | La personne a besoin d'aide pour se déplacer à l'intérieur de son domicile | 24/09/2021 | active |

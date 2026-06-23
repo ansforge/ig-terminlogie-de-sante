@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite | *Version*:20250523120000 | |
-| Active as of 2025-05-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R02_SecteurActivite |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite | *Version*:20260629120000 | |
+| Active as of 2026-06-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R02_SecteurActivite |
 | *Other Identifiers:*OID:1.2.250.1.71.4.2.4 | | |
 
  
@@ -36,9 +36,9 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
   "resourceType" : "CodeSystem",
   "id" : "TRE-R02-SecteurActivite",
   "meta" : {
-    "versionId" : "15",
-    "lastUpdated" : "2026-05-05T20:11:50.301+02:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
+    "versionId" : "13",
+    "lastUpdated" : "2025-07-02T18:12:02.978+00:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -52,11 +52,11 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.71.4.2.4"
   }],
-  "version" : "20250523120000",
+  "version" : "20260629120000",
   "name" : "TRE_R02_SecteurActivite",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-05-23T12:00:00+01:00",
+  "date" : "2026-06-29T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Le secteur d'activité de santé est une donnée RPPS et correspond au type de service fourni par une structure. Il sert principalement à déterminer les propriétés de facturation des professionnels de ces structures vis-à-vis de l'assurance maladie",
   "jurisdiction" : [{
@@ -922,14 +922,14 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
   },
   {
     "code" : "SA40",
-    "display" : "Secteur privé, praticien hospitalier temps plein",
+    "display" : "Secteur privé, praticien hospitalier",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
-      "value" : "Secteur privé, PH TP"
+      "value" : "Secteur privé, PH"
     }],
     "property" : [{
       "code" : "dateValid",
@@ -937,7 +937,7 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
     },
     {
       "code" : "status",

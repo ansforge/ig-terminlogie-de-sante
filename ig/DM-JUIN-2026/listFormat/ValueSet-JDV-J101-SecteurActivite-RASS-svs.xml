@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20260223120000"
+             dateMaj="20260629120000"
              dateValid="20190830120000"
              description="Secteurs d'activité des établissements avec la même activité dans le RASS"
              displayName="JDV_J101_SecteurActivite_RASS"

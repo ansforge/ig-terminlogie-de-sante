@@ -11,11 +11,11 @@ Vous touverez ici la liste des JDV du CI-SIS.
 | | | | |
 | :--- | :--- | :--- | :--- |
 | Name | Description | date_maj | Status |
+| [JDV_J02_XdsHealthcareFacilityTypeCode_CISIS](ValueSet-JDV-J02-XdsHealthcareFacilityTypeCode-CISIS.md) | XDS healthcareFacilityTypeCode CI-SIS | 29/06/2026 | active |
+| [JDV_J03_XdsContentTypeCode_CISIS](ValueSet-JDV-J03-XdsContentTypeCode-CISIS.md) | XDS contentTypeCode CI-SIS | 29/06/2026 | active |
 | [JDV_J07_XdsTypeCode_CISIS](ValueSet-JDV-J07-XdsTypeCode-CISIS.md) | XDS typeCode CI-SIS | 29/06/2026 | active |
 | [JDV_J10_XdsFormatCode_CISIS](ValueSet-JDV-J10-XdsFormatCode-CISIS.md) | XDS formatCode documents CI-SIS | 29/06/2026 | active |
 | [JDV_J01_XdsAuthorSpecialty_CISIS](ValueSet-JDV-J01-XdsAuthorSpecialty-CISIS.md) | XDS authorSpecialty CI-SIS | 05/05/2026 | active |
-| [JDV_J02_XdsHealthcareFacilityTypeCode_CISIS](ValueSet-JDV-J02-XdsHealthcareFacilityTypeCode-CISIS.md) | XDS healthcareFacilityTypeCode CI-SIS | 23/02/2026 | active |
-| [JDV_J03_XdsContentTypeCode_CISIS](ValueSet-JDV-J03-XdsContentTypeCode-CISIS.md) | XDS contentTypeCode CI-SIS | 23/02/2026 | active |
 | [JDV_J04_XdsPracticeSettingCode_CISIS](ValueSet-JDV-J04-XdsPracticeSettingCode-CISIS.md) | XDS practiceSettingCode CI-SIS | 27/09/2024 | active |
 | [JDV_J05_SubjectRole_CISIS](ValueSet-JDV-J05-SubjectRole-CISIS.md) | subjectRole CI-SIS | 05/05/2026 | active |
 | [JDV_J06_XdsClassCode_CISIS](ValueSet-JDV-J06-XdsClassCode-CISIS.md) | XDS classCode CI-SIS | 22/09/2023 | active |
@@ -130,7 +130,7 @@ Vous touverez ici la liste des JDV du CI-SIS.
 | [JdvDepistageNeonatalCisis](ValueSet-jdv-depistage-neonatal-cisis.md) | Jdv Depistage Neonatal CISIS | 19/06/2026 | active |
 | [JdvDeplacementCisis](ValueSet-jdv-deplacement-cisis.md) | JDV Deplacement CISIS | 19/06/2026 | active |
 | [JdvDestinationObpSneCisis](ValueSet-jdv-destination-obp-sne-cisis.md) | JDV Destination Obp Sne CISIS | 19/06/2026 | active |
-| [JdvDestinationTransfertCisis](ValueSet-jdv-destination-transfert-cisis.md) | JDV Destination Transfert CISIS | 20/04/2026 | active |
+| [JdvDestinationTransfertCisis](ValueSet-jdv-destination-transfert-cisis.md) | JDV Destination Transfert CISIS | 19/06/2026 | active |
 | [JdvDetailMaterielSpecialiseCisis](ValueSet-jdv-detail-materiel-specialise-cisis.md) | JDV Detail Materiel Specialise CISIS | 19/06/2026 | active |
 | [JdvDetailRessourceImmobiliereUtiliseeCisis](ValueSet-jdv-detail-ressource-immobiliere-utilisee-cisis.md) | JDV Detail Ressource Immobiliere Utilisee CISIS | 19/06/2026 | active |
 | [JdvDeveloppementPsychomoteurCs24Cisis](ValueSet-jdv-developpement-psychomoteur-cs24-cisis.md) | JDV Developpement Psychomoteur Cs24 CISIS | 19/06/2026 | active |
@@ -374,7 +374,7 @@ Vous touverez ici la liste des JDV du CI-SIS.
 | [JdvScorePerformanceEcogCisis](ValueSet-jdv-score-performance-ecog-cisis.md) | JDV Score Performance Ecog CISIS | 19/06/2026 | active |
 | [JdvScoreRankinCisis](ValueSet-jdv-score-rankin-cisis.md) | JDV Score Rankin CISIS | 19/06/2026 | active |
 | [JdvSecteurActiviteEmployeurCisis](ValueSet-jdv-secteur-activite-employeur-cisis.md) | JDV Secteur Activite Employeur CISIS | 19/06/2026 | active |
-| [JdvSectionDocumentCisis](ValueSet-jdv-section-document-cisis.md) | JDV Section Document CISIS | 20/04/2026 | active |
+| [JdvSectionDocumentCisis](ValueSet-jdv-section-document-cisis.md) | JDV Section Document CISIS | 19/06/2026 | active |
 | [JdvSedentariteCisis](ValueSet-jdv-sedentarite-cisis.md) | JDV Sedentarite CISIS | 19/06/2026 | active |
 | [JdvSerotypeDengueCisis](ValueSet-jdv-serotype-dengue-cisis.md) | JDV Serotype Dengue CISIS | 19/06/2026 | active |
 | [JdvSeveriteObservationCisis](ValueSet-jdv-severite-observation-cisis.md) | JDV Severite Observation CISIS | 19/06/2026 | active |

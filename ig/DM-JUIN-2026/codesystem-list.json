@@ -541,7 +541,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite",
-    "version" : "20250523120000",
+    "version" : "20260629120000",
     "status" : "active",
     "name" : "TRE_R02_SecteurActivite",
     "title" : null,
@@ -3347,7 +3347,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-nabm",
-    "version" : "V104",
+    "version" : "V105",
     "status" : "active",
     "name" : "NABM",
     "title" : "Nomenclature des actes de biologie médicale",

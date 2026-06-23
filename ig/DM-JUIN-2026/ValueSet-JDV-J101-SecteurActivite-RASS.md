@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J101-SecteurActivite-RASS/FHIR/JDV-J101-SecteurActivite-RASS | *Version*:20260223120000 | |
-| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J101_SecteurActivite_RASS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J101-SecteurActivite-RASS/FHIR/JDV-J101-SecteurActivite-RASS | *Version*:20260629120000 | |
+| Active as of 2026-06-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J101_SecteurActivite_RASS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.169 | | |
 
  
@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.10.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-06-22
+2026-06-23
 
 Liens:
 [Table des matières ](toc.md)|
@@ -68,9 +68,9 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "JDV-J101-SecteurActivite-RASS",
   "meta" : {
-    "versionId" : "16",
-    "lastUpdated" : "2026-05-05T19:02:30.896+02:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "versionId" : "13",
+    "lastUpdated" : "2025-10-02T19:01:53.430+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -84,11 +84,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.169"
   }],
-  "version" : "20260223120000",
+  "version" : "20260629120000",
   "name" : "JDV_J101_SecteurActivite_RASS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-23T12:00:00+01:00",
+  "date" : "2026-06-29T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Secteurs d'activité des établissements avec la même activité dans le RASS",
   "jurisdiction" : [{

@@ -1,5 +1,5 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>
-1.2.250.1.71.4.2.4;TRE;TRE_R02_SecteurActivite.tabs;Le secteur d'activité de santé est une donnée RPPS et correspond au type de service fourni par une structure. Il sert principalement à déterminer les propriétés de facturation des professionnels de ces structures vis-à-vis de l'assurance maladie;https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite;20070725150444;;20250523120000
+1.2.250.1.71.4.2.4;TRE;TRE_R02_SecteurActivite.tabs;Le secteur d'activité de santé est une donnée RPPS et correspond au type de service fourni par une structure. Il sert principalement à déterminer les propriétés de facturation des professionnels de ces structures vis-à-vis de l'assurance maladie;https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite;20070725150444;;20260629120000
 <OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MàJ> 
 1.2.250.1.71.4.2.4;SA01;Etablissement public de santé;Etablissement public de santé;Etablissement public de santé;20070725150444;;20160901000000
 1.2.250.1.71.4.2.4;SA02;Hôpital militaire du Service de santé des armées;Hôp militaire SSA;Hôpital militaire du Service de santé des armées;20070725150444;;20160428000000
@@ -40,7 +40,7 @@
 1.2.250.1.71.4.2.4;SA37;Centre de transfusion sanguine;Centre transfusion sanguine;Centre de transfusion sanguine;20070725150444;;20160901000000
 1.2.250.1.71.4.2.4;SA38;Pharmacie minière;Pharmacie minière;Pharmacie minière;20070725150444;;20160428000000
 1.2.250.1.71.4.2.4;SA39;Pharmacie mutualiste;Pharmacie mutualiste;Pharmacie mutualiste;20070725000000;;20160428000000
-1.2.250.1.71.4.2.4;SA40;Secteur privé, praticien hospitalier temps plein;Secteur privé, PH TP;Secteur privé, praticien hospitalier temps plein;20070725000000;;20160901000000
+1.2.250.1.71.4.2.4;SA40;Secteur privé, praticien hospitalier;Secteur privé, PH;Secteur privé, praticien hospitalier;20070725000000;;20260629120000
 1.2.250.1.71.4.2.4;SA41;Autre établissement du domaine social ou médico-social;Autre étab dom (médico-)social;Autre établissement du domaine social ou médico-social;20070725150444;;20161222120000
 1.2.250.1.71.4.2.4;SA42;Appareillage médical;Appareillage médical;Appareillage médical;20070725150444;;20160428000000
 1.2.250.1.71.4.2.4;SA43;Secteur non défini;Secteur non défini;Secteur non défini;20070725150444;;20160428000000

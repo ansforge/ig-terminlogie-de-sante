@@ -103,6 +103,14 @@
   "status" : "active"
 },
 {
+  "id" : "TRE-R02-SecteurActivite",
+  "name" : "TRE_R02_SecteurActivite",
+  "title" : null,
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite",
+  "identifier" : "urn:oid:1.2.250.1.71.4.2.4",
+  "status" : "active"
+},
+{
   "id" : "TRE-R210-ActeSpecifique",
   "name" : "TRE_R210_ActeSpecifique",
   "title" : null,
@@ -996,14 +1004,6 @@
   "title" : null,
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R01-EnsembleSavoirFaire-CISIS/FHIR/TRE-R01-EnsembleSavoirFaire-CISIS",
   "identifier" : "urn:oid:1.2.250.1.71.4.2.5",
-  "status" : "active"
-},
-{
-  "id" : "TRE-R02-SecteurActivite",
-  "name" : "TRE_R02_SecteurActivite",
-  "title" : null,
-  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite",
-  "identifier" : "urn:oid:1.2.250.1.71.4.2.4",
   "status" : "active"
 },
 {
