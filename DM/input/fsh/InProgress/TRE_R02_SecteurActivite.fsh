@@ -10,10 +10,10 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.71.4.2.4"
-* ^version = "20250523120000"
+* ^version = "20260629120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-05-23T12:00:00+01:00"
+* ^date = "2026-06-29T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
@@ -411,15 +411,15 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA39 ^property[=].valueDateTime = "2016-04-28T00:00:00+01:00"
 * #SA39 ^property[+].code = #status
 * #SA39 ^property[=].valueCode = #active
-* #SA40 "Secteur privé, praticien hospitalier temps plein"
+* #SA40 "Secteur privé, praticien hospitalier"
 * #SA40 ^designation[0].language = #fr-FR
 * #SA40 ^designation[=].use.system = "http://snomed.info/sct"
 * #SA40 ^designation[=].use = $sct#900000000000013009
-* #SA40 ^designation[=].value = "Secteur privé, PH TP"
+* #SA40 ^designation[=].value = "Secteur privé, PH"
 * #SA40 ^property[0].code = #dateValid
 * #SA40 ^property[=].valueDateTime = "2007-07-25T00:00:00+01:00"
 * #SA40 ^property[+].code = #dateMaj
-* #SA40 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
+* #SA40 ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #SA40 ^property[+].code = #status
 * #SA40 ^property[=].valueCode = #active
 * #SA41 "Autre établissement du domaine social ou médico-social"
