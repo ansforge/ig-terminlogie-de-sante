@@ -14,7 +14,7 @@
 * [Autres Ressources](autres_ressources.md)
 * [Terminologies  (Deprecated)](tre-deprecated.md)
 * [Terminologies](tre.md)
-* [Conventtion de nommage](convention.md)
+* [Convention de nommage](convention.md)
 * [Association](ass.md)
 * [Artifacts Summary](artifacts.md)
 * [Sécurité](securite.md)

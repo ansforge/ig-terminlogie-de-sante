@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-observation-etat-patient-cisis | *Version*:20260420150249 | |
-| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvObservationEtatPatientCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-observation-etat-patient-cisis | *Version*:20260619134041 | |
+| Active as of 2026-06-19 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvObservationEtatPatientCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.514 | | |
 
  
@@ -53,7 +53,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.10.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-06-22
+2026-06-23
 
 Liens:
 [Table des matières ](toc.md)|
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-observation-etat-patient-cisis",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-04-20T16:58:40.438+02:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-06-22T13:59:38.965+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,12 +84,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.514"
   }],
-  "version" : "20260420150249",
+  "version" : "20260619134041",
   "name" : "JdvObservationEtatPatientCisis",
   "title" : "JDV Observation Etat Patient CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-04-20T15:02:49+01:00",
+  "date" : "2026-06-19T13:40:41+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Observation Etat Patient CISIS",
   "jurisdiction" : [{
@@ -111,7 +111,7 @@ Liens:
       },
       {
         "code" : "62476001",
-        "display" : "désorienté(e)"
+        "display" : "désorientation"
       },
       {
         "code" : "24199005",
