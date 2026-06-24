@@ -67,11 +67,11 @@
          <concept code="ARR"
                   codeSystem="1.2.250.1.213.1.6.1.376"
                   dateFin=""
-                  dateMaj="20240101120000"
+                  dateMaj="20260629120000"
                   dateValid="20240101120000"
                   displayName="Arrêtés (sans autre indication)"
                   longDesignation="Arrêtés (sans autre indication)"
-                  shortDesignation="Arrêtés (sans autre indication)"
+                  shortDesignation="Arrêté (S.A.I.)"
                   descriptionMetier=""/>
          <concept code="ASD"
                   codeSystem="1.2.250.1.213.1.6.1.376"
