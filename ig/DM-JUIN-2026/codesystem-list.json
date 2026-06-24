@@ -1369,7 +1369,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
-    "version" : "20240927120000",
+    "version" : "20260629120000",
     "status" : "active",
     "name" : "TRE_R279_Clientele",
     "title" : null,
@@ -3003,7 +3003,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-    "version" : "20260223120000",
+    "version" : "20260629120000",
     "status" : "active",
     "name" : "TreR403PublicActiviteSmsseRegulee",
     "title" : "Tre R403 Public Activite Smsse Regulee",

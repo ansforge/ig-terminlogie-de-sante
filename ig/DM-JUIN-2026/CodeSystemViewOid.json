@@ -175,6 +175,14 @@
   "status" : "active"
 },
 {
+  "id" : "TRE-R279-Clientele",
+  "name" : "TRE_R279_Clientele",
+  "title" : null,
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.132",
+  "status" : "active"
+},
+{
   "id" : "TRE-R338-ModaliteAccueil",
   "name" : "TRE_R338_ModaliteAccueil",
   "title" : null,
@@ -380,6 +388,14 @@
   "title" : "Tre R400 Finess Statut Juridique",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
   "identifier" : "urn:oid:1.2.250.1.213.1.6.1.379",
+  "status" : "active"
+},
+{
+  "id" : "tre-r403-public-activite-smsse-regulee",
+  "name" : "TreR403PublicActiviteSmsseRegulee",
+  "title" : "Tre R403 Public Activite Smsse Regulee",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.382",
   "status" : "active"
 },
 {
@@ -1671,14 +1687,6 @@
   "status" : "active"
 },
 {
-  "id" : "TRE-R279-Clientele",
-  "name" : "TRE_R279_Clientele",
-  "title" : null,
-  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
-  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.132",
-  "status" : "active"
-},
-{
   "id" : "TRE-R280-DisciplineEquipementSocial",
   "name" : "TRE_R280_DisciplineEquipementSocial",
   "title" : null,
@@ -2860,14 +2868,6 @@
   "title" : "Tre R402 Activite Enseignement Regulee",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
   "identifier" : "urn:oid:1.2.250.1.213.1.6.1.381",
-  "status" : "active"
-},
-{
-  "id" : "tre-r403-public-activite-smsse-regulee",
-  "name" : "TreR403PublicActiviteSmsseRegulee",
-  "title" : "Tre R403 Public Activite Smsse Regulee",
-  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.382",
   "status" : "active"
 },
 {

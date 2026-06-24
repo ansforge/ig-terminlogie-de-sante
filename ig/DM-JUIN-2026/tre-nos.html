@@ -303,6 +303,9 @@ Remarque : Cette TRE est juste initialisée à minima et a vocation à porter d'
 </div></td></tr><tr><td><a href="CodeSystem-tre-r400-finess-statut-juridique.html">TreR400FinessStatutJuridique</a></td><td><div><p>Cette TRE hiérarchique remplace les TRE_R68-FinessAgregatStatutJuridiqueNiv1, TRE_R69-FinessAgregatStatutJuridiqueNiv2, TRE_R70-FinessAgregatStatutJuridique, TRE_R72-FinessStatutJuridique, et l'association ASS_X11_FinessAgregatStatutJuridique. Cette TRE possède des propriétés spécifiques : le niveau d'agrégat des statuts juridiques  de 1 à 4 ( du plus large au plus fin), le parent d'un agrégat de statuts juridiques ou d'un statut juridique, un indicateur pour les statuts juridiques  spécifiques à RPPS ( non finess) et les relations nécessaires à la construction des JDV dynamiques associés</p>
 </div></td><td><div><p>23/02/2026</p>
 </div></td><td><div><p>active</p>
+</div></td></tr><tr><td><a href="CodeSystem-tre-r403-public-activite-smsse-regulee.html">TreR403PublicActiviteSmsseRegulee</a></td><td><div><p>Cette TRE hiérarchique remplace les TRE actuelles TRE_R279-Clientele, TRE_R293-AgregatClienteleNiv2, TRE_R294-AgregatClienteleNiv3 et l'association ASS_X13-AgregatClientele. Cette TRE possède de nouvelles propriétés : le niveau d'agrégat des publics de 1 à 3 (du plus large au plus fin), le parent d'un agrégat de publics ou d'un public ainsi que les relations nécessaires à la construction des JDV dynamiques associés</p>
+</div></td><td><div><p>29/06/2026</p>
+</div></td><td><div><p>active</p>
 </div></td></tr><tr><td><a href="CodeSystem-tre-r409-type-duree-interruption-exercice.html">TreR409TypeDureeInterruptionExercice</a></td><td><div><p>Le type de durée d’une interruption d’exercice décrit le caractère temporel de la mesure appliquée au professionnel. Il permet de distinguer si l’interruption s’inscrit dans une durée limitée ou si elle s’applique sans limite de durée. Cette information précise le cadre temporel de la mesure et facilite son interprétation. Elle constitue un élément structurant pour l’analyse de la capacité d’exercice du professionnel et pour la gestion de ses effets dans les systèmes d’information, notamment en matière de publication des données et de gestion des accès.</p>
 </div></td><td><div><p>29/06/2026</p>
 </div></td><td><div><p>active</p>
@@ -320,9 +323,6 @@ TRE_R280-DisciplineEquipementSocial, TRE_R298-AgregatDisciplineEquipSocNiv1, TRE
 </div></td><td><div><p>01/06/2026</p>
 </div></td><td><div><p>active</p>
 </div></td></tr><tr><td><a href="CodeSystem-tre-r402-activite-enseignement-regulee.html">TreR402ActiviteEnseignementRegulee</a></td><td><div><p>Liste des activités d'enseignement régulées organisée en 3 niveaux d'agrégation. Annule et remplace les anciennes TRE xxxEnseignement</p>
-</div></td><td><div><p>23/02/2026</p>
-</div></td><td><div><p>active</p>
-</div></td></tr><tr><td><a href="CodeSystem-tre-r403-public-activite-smsse-regulee.html">TreR403PublicActiviteSmsseRegulee</a></td><td><div><p>Cette TRE hiérarchique remplace les TRE actuelles TRE_R279-Clientele, TRE_R293-AgregatClienteleNiv2, TRE_R294-AgregatClienteleNiv3 et l'association ASS_X13-AgregatClientele. Cette TRE possède de nouvelles propriétés : le niveau d'agrégat des publics de 1 à 3 (du plus large au plus fin), le parent d'un agrégat de publics ou d'un public ainsi que les relations nécessaires à la construction des JDV dynamiques associés</p>
 </div></td><td><div><p>23/02/2026</p>
 </div></td><td><div><p>active</p>
 </div></td></tr><tr><td><a href="CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html">TreR404ModeFonctionnemetActiviteSmsseRegulee</a></td><td><div><p>Mode de fonctinonemment des activités ssmsse régulées, remplace la TRE_R209-TypeActivite</p>
@@ -898,7 +898,7 @@ TRE_R280-DisciplineEquipementSocial, TRE_R298-AgregatDisciplineEquipSocNiv1, TRE
 </div></td><td><div><p>31/01/2025</p>
 </div></td><td><div><p>active</p>
 </div></td></tr><tr><td><a href="CodeSystem-TRE-R279-Clientele.html">TRE_R279_Clientele</a></td><td><div><p>Clientèles</p>
-</div></td><td><div><p>27/09/2024</p>
+</div></td><td><div><p>29/06/2026</p>
 </div></td><td><div><p>active</p>
 </div></td></tr><tr><td><a href="CodeSystem-TRE-R280-DisciplineEquipementSocial.html">TRE_R280_DisciplineEquipementSocial</a></td><td><div><p>Disciplines d'équipement pour le social</p>
 </div></td><td><div><p>01/06/2026</p>
@@ -1149,7 +1149,7 @@ TRE_R280-DisciplineEquipementSocial, TRE_R298-AgregatDisciplineEquipSocNiv1, TRE
 
 <div class="inner-wrapper">
   <p>
-    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.10.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Jun 23, 2026 15:08+0000">2026-06-23</span>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.10.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jun 24, 2026 09:29+0000">2026-06-24</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |
