@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R221-ModeleDocumentCDANonStructure/FHIR/TRE-R221-ModeleDocumentCDANonStructure?vs | *Version*:1.1.0 |
-| Active as of 2026-06-23 | *Computable Name*:JDV_TRE_R221_ModeleDocumentCDANonStructure |
+| Active as of 2026-06-24 | *Computable Name*:JDV_TRE_R221_ModeleDocumentCDANonStructure |
 
  
 JDV avec l’ensemble des codes actifs de la TRE_R221_ModeleDocumentCDANonStructure 
@@ -52,7 +52,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#0.1.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-06-23
+2026-06-24
 
 Liens:
 [Table des matières ](toc.md)|
@@ -81,7 +81,7 @@ Liens:
   "title" : "JDV-ModeleDocumentCDANonStructure",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-23T17:00:44+00:00",
+  "date" : "2026-06-24T07:19:56+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",

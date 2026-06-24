@@ -55,7 +55,7 @@ Requête sur le SMT
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#0.1.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-06-23
+2026-06-24
 
 Liens:
 [Table des matières ](toc.md)|

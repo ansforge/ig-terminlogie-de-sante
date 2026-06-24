@@ -427,7 +427,7 @@ Nomenclature des états élémentaires d’un objet du MOS organisés en etat ac
       "code" : "macroEtatAdministratif",
       "valueCoding" : {
         "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
-        "code" : "I"
+        "code" : "A"
       }
     },
     {
