@@ -50,7 +50,7 @@
   "title" : "Classification internationale des maladies et des problèmes de santé connexes - 11ème révision",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-24T11:43:48+00:00",
+  "date" : "2026-06-24T13:47:07+00:00",
   "publisher" : "Agence du numérique en santé",
   "valueSet" : "https://smt.esante.gouv.fr/terminologie-cim11-mms?vs",
   "content" : "not-present",

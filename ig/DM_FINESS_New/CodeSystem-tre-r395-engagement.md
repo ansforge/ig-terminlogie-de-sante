@@ -237,7 +237,7 @@ Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes 
   },
   {
     "code" : "ARR",
-    "display" : "Arrêté",
+    "display" : "Arrêtés (sans autre indication)",
     "property" : [{
       "code" : "parent",
       "valueCode" : "ARRT"
