@@ -278,14 +278,14 @@
 1.2.250.1.213.1.6.1.248;226;Accueil Orientation. des Malades.Tuberculo Pulmonaires;Acc.Orient.Tuberc.Pu;Accueil Orientation. des Malades.Tuberculo Pulmonaires;19790101000000;;20170607000000
 1.2.250.1.213.1.6.1.248;227;Postcure pour Tuberculeux;Postcure pour Tuber;Postcure pour Tuberculeux;19790101000000;;20170607000000
 1.2.250.1.213.1.6.1.248;230;Psychiatrie Générale;Psychiatrie Générale;Psychiatrie Générale;19790101000000;;20170607000000
-1.2.250.1.213.1.6.1.248;231;centre médico-psychologique adulte;CMP adulte;centre médico-psychologique adulte;20011001000000;;20011001000000
-1.2.250.1.213.1.6.1.248;232;centre médico-psychologique infanto-juvénile;CMP infanto-juv;centre médico-psychologique infanto-juvénile;20011001000000;;20011001000000
-1.2.250.1.213.1.6.1.248;233;Centre d'accueil thérapeutique à temps partiel adulte;CATTP adulte;Centre d'accueil thérapeutique à temps partiel adulte;20011001000000;;20011001000000
-1.2.250.1.213.1.6.1.248;234;Centre d'accueil thérapeutique à temps partiel infanto-juv;CATTP infanto-juv;Centre d'accueil thérapeutique à temps partiel infanto-juv;20011001000000;;20011001000000
+1.2.250.1.213.1.6.1.248;231;centre médico-psychologique adulte;CMP adulte;centre médico-psychologique adulte;20011001000000;;20260629000000
+1.2.250.1.213.1.6.1.248;232;centre médico-psychologique infanto-juvénile;CMP infanto-juv;centre médico-psychologique infanto-juvénile;20011001000000;;20260629000000
+1.2.250.1.213.1.6.1.248;233;Centre d'accueil thérapeutique à temps partiel adulte;CATTP adulte;Centre d'accueil thérapeutique à temps partiel adulte;20011001000000;;20260629000000
+1.2.250.1.213.1.6.1.248;234;Centre d'accueil thérapeutique à temps partiel infanto-juv;CATTP infanto-juv;Centre d'accueil thérapeutique à temps partiel infanto-juv;20011001000000;;20260629000000
 1.2.250.1.213.1.6.1.248;235;soins intensifs de néonatologie;soin intensif neonat;soins intensifs de néonatologie;19990617000000;;20170607000000
 1.2.250.1.213.1.6.1.248;236;Psychiatrie Infanto-Juvenile;Psychiatrie Inf.Juv.;Psychiatrie Infanto-Juvenile;19790101000000;;20170607000000
-1.2.250.1.213.1.6.1.248;237;centre d'accueil permanent adulte;ctre accueil perm A;centre d'accueil permanent adulte;20011001000000;;20011001000000
-1.2.250.1.213.1.6.1.248;238;centre d'accueil permanent infanto-juvénile;ctre accueil perm IJ;centre d'accueil permanent infanto-juvénile;20011001000000;;20011001000000
+1.2.250.1.213.1.6.1.248;237;centre d'accueil permanent adulte;ctre accueil perm A;centre d'accueil permanent adulte;20011001000000;;20260629000000
+1.2.250.1.213.1.6.1.248;238;centre d'accueil permanent infanto-juvénile;ctre accueil perm IJ;centre d'accueil permanent infanto-juvénile;20011001000000;;20260629000000
 1.2.250.1.213.1.6.1.248;240;POST-CURE POUR TOXICOMANES;POST-CURE POUR TOXIC;POST-CURE POUR TOXICOMANES;19790101000000;;20000728000000
 1.2.250.1.213.1.6.1.248;241;Hygiène Alimentaire;Hygiène Alimentaire;Hygiène Alimentaire;19790101000000;;19790101000000
 1.2.250.1.213.1.6.1.248;244;hospitalisation psychiatrique à domicile adulte;HAD psychiatrie A;hospitalisation psychiatrique à domicile adulte;20011001000000;;20170607000000
@@ -437,8 +437,8 @@
 1.2.250.1.213.1.6.1.248;801;Insulinothérapie;Insulinothérapie;Insulinothérapie;19790101000000;;20170607000000
 1.2.250.1.213.1.6.1.248;802;Autres Traitements Spécialisés à Domicile;Trait.Spéc.Domicile;Autres Traitements Spécialisés à Domicile;19790101000000;;20170607000000
 1.2.250.1.213.1.6.1.248;803;Psychiatrie arriérés profonds;Psychiatrie arriérés;Psychiatrie arriérés profonds;19790101000000;;19940606000000
-1.2.250.1.213.1.6.1.248;806;atelier thérapeutique adulte;Atelier thérapeut A;atelier thérapeutique adulte;20011001000000;;20011001000000
-1.2.250.1.213.1.6.1.248;807;atelier thérapeutique infanto-juvenile;Atelier thérapeut IJ;atelier thérapeutique infanto-juvenile;20011001000000;;20011001000000
+1.2.250.1.213.1.6.1.248;806;atelier thérapeutique adulte;Atelier thérapeut A;atelier thérapeutique adulte;20011001000000;;20260629000000
+1.2.250.1.213.1.6.1.248;807;atelier thérapeutique infanto-juvenile;Atelier thérapeut IJ;atelier thérapeutique infanto-juvenile;20011001000000;;20260629000000
 1.2.250.1.213.1.6.1.248;808;Psychiatrie en Milieu Pénitentiaire;Psychiatrie prison;Psychiatrie en Milieu Pénitentiaire;19790101000000;;20170607000000
 1.2.250.1.213.1.6.1.248;811;Immunologie Tissulaire Auto-Immunité;Imuno.Tiss.Auto.Immu;Immunologie Tissulaire Auto-Immunité;19790101000000;;20170607000000
 1.2.250.1.213.1.6.1.248;812;Sérologie Virale;Sérologie Virale;Sérologie Virale;19790101000000;;20170607000000

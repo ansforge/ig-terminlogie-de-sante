@@ -76,7 +76,7 @@ Liens:
   "name" : "ValueSet_BDPM_All",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-24T08:50:58+00:00",
+  "date" : "2026-06-24T10:14:00+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ce jeu de valeurs inclut tous les codes de la terminologie BDPM",
   "compose" : {

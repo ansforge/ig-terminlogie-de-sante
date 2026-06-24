@@ -81,7 +81,7 @@ Liens:
   "title" : "JDV-ModeleDocumentCDA",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-24T08:50:58+00:00",
+  "date" : "2026-06-24T10:14:00+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
