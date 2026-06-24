@@ -7081,7 +7081,7 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * #824 ^property[+].code = #dateValid
 * #824 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #824 ^property[+].code = #dateMaj
-* #824 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
+* #824 ^property[=].valueDateTime = "2026-06-29T00:00:00+01:00"
 * #824 ^property[+].code = #status
 * #824 ^property[=].valueCode = #deprecated
 * #824 ^property[+].code = #deprecationDate
