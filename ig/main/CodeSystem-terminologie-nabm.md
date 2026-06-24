@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/terminologie-nabm | *Version*:V104 | |
-| Active as of 2026-05-26 | *Responsible:*Agence du numérique en santé | *Computable Name*:NABM |
+| *Official URL*:https://smt.esante.gouv.fr/terminologie-nabm | *Version*:V105 | |
+| Active as of 2026-06-04 | *Responsible:*Agence du numérique en santé | *Computable Name*:NABM |
 | *Other Identifiers:*OID:1.2.250.1.215.300.2 (use: usual, ), https://smt.esante.gouv.fr/#terminologie-nabm (use: secondary, ) | | |
 | **Copyright/Legal**: [LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md) | | |
 
@@ -29,8 +29,9 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
   "resourceType" : "CodeSystem",
   "id" : "terminologie-nabm",
   "meta" : {
-    "versionId" : "17",
-    "lastUpdated" : "2026-06-22T15:44:01.454+02:00"
+    "versionId" : "18",
+    "lastUpdated" : "2026-06-23T11:18:44.756+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "url" : "https://smt.esante.gouv.fr/terminologie-nabm",
   "identifier" : [{
@@ -43,12 +44,12 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     "system" : "https://smt.esante.gouv.fr/",
     "value" : "terminologie-nabm"
   }],
-  "version" : "V104",
+  "version" : "V105",
   "name" : "NABM",
   "title" : "Nomenclature des actes de biologie médicale",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-26T00:00:00+00:00",
+  "date" : "2026-06-04T00:00:00+00:00",
   "publisher" : "Agence du numérique en santé",
   "description" : "La NABM est la terminologie de facturation des actes de biologie médicale. Elle décrit la liste des actes de biologie dans une arborescence en chapitres et sous-chapitres ainsi que des règles de facturation.",
   "jurisdiction" : [{
@@ -60,7 +61,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
   "copyright" : "[LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md)",
   "valueSet" : "https://smt.esante.gouv.fr/terminologie-nabm?vs",
   "content" : "complete",
-  "count" : 1046,
+  "count" : 1050,
   "filter" : [{
     "code" : "root",
     "operator" : ["="],
@@ -24816,6 +24817,66 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     }]
   },
   {
+    "code" : "4515",
+    "display" : "SHD DANS LE DIAGNOSTIC DES FORMES DIVERSES DE CARDIOMYOPATHIES",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "0"
+    },
+    {
+      "code" : "created",
+      "valueDateTime" : "2026-06-03T00:00:00+00:00"
+    },
+    {
+      "code" : "modified",
+      "valueDateTime" : "2026-06-16T00:00:00+00:00"
+    },
+    {
+      "code" : "type",
+      "valueString" : "code"
+    },
+    {
+      "code" : "examenSanguin",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "aPourContingenceTechnique",
+      "valueCode" : "CONTINGENCE_4"
+    },
+    {
+      "code" : "nombreMaximumParFacturation",
+      "valueInteger" : 1
+    },
+    {
+      "code" : "ententePrealable",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "coeffB",
+      "valueString" : "4400"
+    },
+    {
+      "code" : "rmo",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "initativeBiologistePossible",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "indicationMedicale",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "remboursementTotal",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "acteReserve",
+      "valueBoolean" : false
+    }]
+  },
+  {
     "code" : "0024",
     "display" : "DETECTION DES ACIDES NUCLEIQUES DES HPV ONCOGENES DI",
     "property" : [{
@@ -30821,6 +30882,66 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     {
       "code" : "coeffB",
       "valueString" : "30"
+    },
+    {
+      "code" : "rmo",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "initativeBiologistePossible",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "indicationMedicale",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "remboursementTotal",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "acteReserve",
+      "valueBoolean" : false
+    }]
+  },
+  {
+    "code" : "4514",
+    "display" : "SHD DANS LE DIAGNOSTIC DES CARDIOMYOPATHIES HYPERTROPHIQUES",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "0"
+    },
+    {
+      "code" : "created",
+      "valueDateTime" : "2026-06-03T00:00:00+00:00"
+    },
+    {
+      "code" : "modified",
+      "valueDateTime" : "2026-06-16T00:00:00+00:00"
+    },
+    {
+      "code" : "type",
+      "valueString" : "code"
+    },
+    {
+      "code" : "examenSanguin",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "aPourContingenceTechnique",
+      "valueCode" : "CONTINGENCE_4"
+    },
+    {
+      "code" : "nombreMaximumParFacturation",
+      "valueInteger" : 1
+    },
+    {
+      "code" : "ententePrealable",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "coeffB",
+      "valueString" : "3600"
     },
     {
       "code" : "rmo",
@@ -43969,6 +44090,14 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     {
       "code" : "child",
       "valueCode" : "4087"
+    },
+    {
+      "code" : "child",
+      "valueCode" : "4514"
+    },
+    {
+      "code" : "child",
+      "valueCode" : "4515"
     }]
   },
   {
@@ -62353,6 +62482,14 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     {
       "code" : "child",
       "valueCode" : "0534"
+    },
+    {
+      "code" : "child",
+      "valueCode" : "1692"
+    },
+    {
+      "code" : "child",
+      "valueCode" : "1693"
     }]
   },
   {
@@ -63364,6 +63501,66 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     }]
   },
   {
+    "code" : "1692",
+    "display" : "DOSAGE URINAIRE DU CADMIUM (CADMIURIE)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "14"
+    },
+    {
+      "code" : "created",
+      "valueDateTime" : "2026-06-03T00:00:00+00:00"
+    },
+    {
+      "code" : "modified",
+      "valueDateTime" : "2026-06-16T00:00:00+00:00"
+    },
+    {
+      "code" : "type",
+      "valueString" : "code"
+    },
+    {
+      "code" : "examenSanguin",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "aPourContingenceTechnique",
+      "valueCode" : "CONTINGENCE_4"
+    },
+    {
+      "code" : "nombreMaximumParFacturation",
+      "valueInteger" : 1
+    },
+    {
+      "code" : "ententePrealable",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "coeffB",
+      "valueString" : "110"
+    },
+    {
+      "code" : "rmo",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "initativeBiologistePossible",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "indicationMedicale",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "remboursementTotal",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "acteReserve",
+      "valueBoolean" : false
+    }]
+  },
+  {
     "code" : "1014",
     "display" : "FACTEUR II (PROTHROMBINE)- DOSAGE ACTIVITE COAGULANTE",
     "property" : [{
@@ -64273,6 +64470,66 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     {
       "code" : "codeIncompatible",
       "valueCode" : "1761"
+    }]
+  },
+  {
+    "code" : "1693",
+    "display" : "DOSAGE DANS LE SANG TOTAL DU CADMIUM (CADMIEMIE)",
+    "property" : [{
+      "code" : "parent",
+      "valueCode" : "14"
+    },
+    {
+      "code" : "created",
+      "valueDateTime" : "2026-06-03T00:00:00+00:00"
+    },
+    {
+      "code" : "modified",
+      "valueDateTime" : "2026-06-16T00:00:00+00:00"
+    },
+    {
+      "code" : "type",
+      "valueString" : "code"
+    },
+    {
+      "code" : "examenSanguin",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "aPourContingenceTechnique",
+      "valueCode" : "CONTINGENCE_4"
+    },
+    {
+      "code" : "nombreMaximumParFacturation",
+      "valueInteger" : 1
+    },
+    {
+      "code" : "ententePrealable",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "coeffB",
+      "valueString" : "110"
+    },
+    {
+      "code" : "rmo",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "initativeBiologistePossible",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "indicationMedicale",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "remboursementTotal",
+      "valueBoolean" : false
+    },
+    {
+      "code" : "acteReserve",
+      "valueBoolean" : false
     }]
   },
   {
