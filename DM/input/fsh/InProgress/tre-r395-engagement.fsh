@@ -111,7 +111,7 @@ Description: "Nomenclature hiérarchique des engagements associés dans FINESS+ 
 * #APL ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #APL ^property[+].code = #niveau
 * #APL ^property[=].valueInteger = 2
-* #ARR "Arrêté"
+* #ARR "Arrêtés (sans autre indication)"
 * #ARR ^property[0].code = #parent
 * #ARR ^property[=].valueCode = #ARRT
 * #ARR ^property[+].code = #dateValid
