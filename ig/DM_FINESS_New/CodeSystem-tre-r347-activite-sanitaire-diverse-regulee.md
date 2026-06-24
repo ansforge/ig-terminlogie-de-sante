@@ -15071,7 +15071,7 @@ Nomenclature des activités sanitaires utilisée pour décrire les Activités Sa
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
