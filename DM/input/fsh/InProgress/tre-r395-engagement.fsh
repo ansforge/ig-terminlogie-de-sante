@@ -112,12 +112,16 @@ Description: "Nomenclature hiérarchique des engagements associés dans FINESS+ 
 * #APL ^property[+].code = #niveau
 * #APL ^property[=].valueInteger = 2
 * #ARR "Arrêtés (sans autre indication)"
+* #ARR ^designation.language = #fr-FR
+* #ARR ^designation.use.system = "http://snomed.info/sct"
+* #ARR ^designation.use = $sct#900000000000013009
+* #ARR ^designation.value = "Arrêté (S.A.I.)"
 * #ARR ^property[0].code = #parent
 * #ARR ^property[=].valueCode = #ARRT
 * #ARR ^property[+].code = #dateValid
 * #ARR ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
 * #ARR ^property[+].code = #dateMaj
-* #ARR ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
+* #ARR ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #ARR ^property[+].code = #niveau
 * #ARR ^property[=].valueInteger = 2
 * #ASD "Convention aide sociale départementale"
