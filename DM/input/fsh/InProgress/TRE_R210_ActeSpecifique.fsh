@@ -11549,7 +11549,7 @@ Description: "Action menée par un ou plusieurs acteur(s) de santé dans le cadr
 * #1390 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #1390 ^property[+].code = #status
 * #1390 ^property[=].valueCode = #active
-* #1391 "Prise en charge de ùaladies vectorielles à tique (Lyme…)" "Prise en charge des maladies infectieuses transmises par tiques (vecteur) qui assurent une transmission active d'un agent infectieux (par exemple la borréliose, responsable de la maladie de Lyme)."
+* #1391 "Prise en charge de maladies vectorielles à tique (Lyme…)" "Prise en charge des maladies infectieuses transmises par tiques (vecteur) qui assurent une transmission active d'un agent infectieux (par exemple la borréliose, responsable de la maladie de Lyme)."
 * #1391 ^property[0].code = #dateValid
 * #1391 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #1391 ^property[+].code = #dateMaj
