@@ -100,6 +100,8 @@ Description: "Nomenclature hiérarchique des engagements associés dans FINESS+ 
 * #ACI ^property[=].valueDateTime = "2020-05-29T12:00:00+01:00"
 * #ACI ^property[+].code = #dateMaj
 * #ACI ^property[=].valueDateTime = "2020-05-29T12:00:00+01:00"
+* #ACI ^property[+].code = #status
+* #ACI ^property[=].valueCode = #active
 * #ACI ^property[+].code = #niveau
 * #ACI ^property[=].valueInteger = 2
 * #APL "Aide Personalisée au Logement"
@@ -109,6 +111,8 @@ Description: "Nomenclature hiérarchique des engagements associés dans FINESS+ 
 * #APL ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #APL ^property[+].code = #dateMaj
 * #APL ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #APL ^property[+].code = #status
+* #APL ^property[=].valueCode = #active
 * #APL ^property[+].code = #niveau
 * #APL ^property[=].valueInteger = 2
 * #ARR "Arrêtés (sans autre indication)"
@@ -122,6 +126,8 @@ Description: "Nomenclature hiérarchique des engagements associés dans FINESS+ 
 * #ARR ^property[=].valueDateTime = "2024-01-01T12:00:00+01:00"
 * #ARR ^property[+].code = #dateMaj
 * #ARR ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
+* #ARR ^property[+].code = #status
+* #ARR ^property[=].valueCode = #active
 * #ARR ^property[+].code = #niveau
 * #ARR ^property[=].valueInteger = 2
 * #ASD "Convention aide sociale départementale"
@@ -135,6 +141,8 @@ Description: "Nomenclature hiérarchique des engagements associés dans FINESS+ 
 * #ASD ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #ASD ^property[+].code = #dateMaj
 * #ASD ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #ASD ^property[+].code = #status
+* #ASD ^property[=].valueCode = #active
 * #ASD ^property[+].code = #niveau
 * #ASD ^property[=].valueInteger = 2
 * #ASE "Convention aide sociale Etat"
@@ -148,6 +156,8 @@ Description: "Nomenclature hiérarchique des engagements associés dans FINESS+ 
 * #ASE ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #ASE ^property[+].code = #dateMaj
 * #ASE ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #ASE ^property[+].code = #status
+* #ASE ^property[=].valueCode = #active
 * #ASE ^property[+].code = #niveau
 * #ASE ^property[=].valueInteger = 2
 * #CPM "Signature d'une Convention d'Objectifs et de Moyens (CPOM)"
@@ -161,6 +171,8 @@ Description: "Nomenclature hiérarchique des engagements associés dans FINESS+ 
 * #CPM ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #CPM ^property[+].code = #dateMaj
 * #CPM ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #CPM ^property[+].code = #status
+* #CPM ^property[=].valueCode = #active
 * #CPM ^property[+].code = #niveau
 * #CPM ^property[=].valueInteger = 2
 * #CPP "PFR Plateforme de répit financée par plusieurs financeurs"
@@ -174,6 +186,8 @@ Description: "Nomenclature hiérarchique des engagements associés dans FINESS+ 
 * #CPP ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #CPP ^property[+].code = #dateMaj
 * #CPP ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #CPP ^property[+].code = #status
+* #CPP ^property[=].valueCode = #active
 * #CPP ^property[+].code = #niveau
 * #CPP ^property[=].valueInteger = 2
 * #CPU "PFR Plateforme de répit financée par l'ARS uniquement"
@@ -187,6 +201,8 @@ Description: "Nomenclature hiérarchique des engagements associés dans FINESS+ 
 * #CPU ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #CPU ^property[+].code = #dateMaj
 * #CPU ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #CPU ^property[+].code = #status
+* #CPU ^property[=].valueCode = #active
 * #CPU ^property[+].code = #niveau
 * #CPU ^property[=].valueInteger = 2
 * #DEA "Dispositif d'emploi accompagné"
@@ -200,6 +216,8 @@ Description: "Nomenclature hiérarchique des engagements associés dans FINESS+ 
 * #DEA ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #DEA ^property[+].code = #dateMaj
 * #DEA ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #DEA ^property[+].code = #status
+* #DEA ^property[=].valueCode = #active
 * #DEA ^property[+].code = #niveau
 * #DEA ^property[=].valueInteger = 2
 * #DIS "Dispositif Article 51"
@@ -213,6 +231,8 @@ Description: "Nomenclature hiérarchique des engagements associés dans FINESS+ 
 * #DIS ^property[=].valueDateTime = "2023-01-27T12:00:00+01:00"
 * #DIS ^property[+].code = #dateMaj
 * #DIS ^property[=].valueDateTime = "2023-01-27T12:00:00+01:00"
+* #DIS ^property[+].code = #status
+* #DIS ^property[=].valueCode = #active
 * #DIS ^property[+].code = #niveau
 * #DIS ^property[=].valueInteger = 2
 * #DIT "Dispositif Intégré" "Cette convention identifie soit les ESMS ex-DITEP soit les ESMS fonctionnant en Dispositif Intégré mais n'entrant pas dans un \"dispositif partenarial\""
@@ -226,6 +246,8 @@ Description: "Nomenclature hiérarchique des engagements associés dans FINESS+ 
 * #DIT ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #DIT ^property[+].code = #dateMaj
 * #DIT ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
+* #DIT ^property[+].code = #status
+* #DIT ^property[=].valueCode = #active
 * #DIT ^property[+].code = #niveau
 * #DIT ^property[=].valueInteger = 2
 * #EMA "Equipe mobile d'appui pour la scolarisation jeunes handicap"
@@ -235,6 +257,8 @@ Description: "Nomenclature hiérarchique des engagements associés dans FINESS+ 
 * #EMA ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
 * #EMA ^property[+].code = #dateMaj
 * #EMA ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
+* #EMA ^property[+].code = #status
+* #EMA ^property[=].valueCode = #active
 * #EMA ^property[+].code = #niveau
 * #EMA ^property[=].valueInteger = 2
 * #EX1 "Entrée dans l expérimentation de SPASAD seul"
@@ -248,6 +272,8 @@ Description: "Nomenclature hiérarchique des engagements associés dans FINESS+ 
 * #EX1 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #EX1 ^property[+].code = #dateMaj
 * #EX1 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #EX1 ^property[+].code = #status
+* #EX1 ^property[=].valueCode = #active
 * #EX1 ^property[+].code = #niveau
 * #EX1 ^property[=].valueInteger = 2
 * #EX2 "Expérimentation SSIAD et/ou SAAD + SPASAD si GCSMS"
@@ -261,6 +287,8 @@ Description: "Nomenclature hiérarchique des engagements associés dans FINESS+ 
 * #EX2 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #EX2 ^property[+].code = #dateMaj
 * #EX2 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #EX2 ^property[+].code = #status
+* #EX2 ^property[=].valueCode = #active
 * #EX2 ^property[+].code = #niveau
 * #EX2 ^property[=].valueInteger = 2
 * #EX3 "Expériment. SSIAD et/ou SAAD + SPASAD si conv. Coopé."
@@ -274,6 +302,8 @@ Description: "Nomenclature hiérarchique des engagements associés dans FINESS+ 
 * #EX3 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #EX3 ^property[+].code = #dateMaj
 * #EX3 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #EX3 ^property[+].code = #status
+* #EX3 ^property[=].valueCode = #active
 * #EX3 ^property[+].code = #niveau
 * #EX3 ^property[=].valueInteger = 2
 * #HPR "Hôpitaux de proximité"
@@ -289,6 +319,8 @@ Description: "Nomenclature hiérarchique des engagements associés dans FINESS+ 
 * #HPR ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #HPR ^property[+].code = #dateMaj
 * #HPR ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #HPR ^property[+].code = #status
+* #HPR ^property[=].valueCode = #active
 * #HPR ^property[+].code = #niveau
 * #HPR ^property[=].valueInteger = 2
 * #JUS "Habilitation justice"
@@ -298,6 +330,8 @@ Description: "Nomenclature hiérarchique des engagements associés dans FINESS+ 
 * #JUS ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #JUS ^property[+].code = #dateMaj
 * #JUS ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #JUS ^property[+].code = #status
+* #JUS ^property[=].valueCode = #active
 * #JUS ^property[+].code = #niveau
 * #JUS ^property[=].valueInteger = 2
 * #MDI "Membre du Dispositif Intégré" "Cette convention identifie un membre simple (non porteur) du Dispositif Intégré dans le cas d'un dispositif partenarial\""
@@ -311,6 +345,8 @@ Description: "Nomenclature hiérarchique des engagements associés dans FINESS+ 
 * #MDI ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
 * #MDI ^property[+].code = #dateMaj
 * #MDI ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
+* #MDI ^property[+].code = #status
+* #MDI ^property[=].valueCode = #active
 * #MDI ^property[+].code = #niveau
 * #MDI ^property[=].valueInteger = 2
 * #MIL "Conv hôpitaux militaires"
@@ -324,6 +360,8 @@ Description: "Nomenclature hiérarchique des engagements associés dans FINESS+ 
 * #MIL ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #MIL ^property[+].code = #dateMaj
 * #MIL ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #MIL ^property[+].code = #status
+* #MIL ^property[=].valueCode = #active
 * #MIL ^property[+].code = #niveau
 * #MIL ^property[=].valueInteger = 2
 * #PAD "Convention tripartite étab personnes âgées dépendantes"
@@ -339,6 +377,10 @@ Description: "Nomenclature hiérarchique des engagements associés dans FINESS+ 
 * #PAD ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #PAD ^property[+].code = #dateMaj
 * #PAD ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #PAD ^property[+].code = #status
+* #PAD ^property[=].valueCode = #deprecated
+* #PAD ^property[+].code = #deprecationDate
+* #PAD ^property[=].valueDateTime = "2021-11-26T00:00:00+01:00"
 * #PAD ^property[+].code = #niveau
 * #PAD ^property[=].valueInteger = 2
 * #PAP "Convention tripartie partielle étab pers âgées dépendantes"
@@ -354,6 +396,10 @@ Description: "Nomenclature hiérarchique des engagements associés dans FINESS+ 
 * #PAP ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #PAP ^property[+].code = #dateMaj
 * #PAP ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #PAP ^property[+].code = #status
+* #PAP ^property[=].valueCode = #deprecated
+* #PAP ^property[+].code = #deprecationDate
+* #PAP ^property[=].valueDateTime = "2021-11-26T00:00:00+01:00"
 * #PAP ^property[+].code = #niveau
 * #PAP ^property[=].valueInteger = 2
 * #PCO "Plateforme coord. & orientation pour enfants atteints de TND"
@@ -367,6 +413,8 @@ Description: "Nomenclature hiérarchique des engagements associés dans FINESS+ 
 * #PCO ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
 * #PCO ^property[+].code = #dateMaj
 * #PCO ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
+* #PCO ^property[+].code = #status
+* #PCO ^property[=].valueCode = #active
 * #PCO ^property[+].code = #niveau
 * #PCO ^property[=].valueInteger = 2
 * #PCP "Pôle de compétences et de prestations externalisées"
@@ -380,6 +428,8 @@ Description: "Nomenclature hiérarchique des engagements associés dans FINESS+ 
 * #PCP ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #PCP ^property[+].code = #dateMaj
 * #PCP ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #PCP ^property[+].code = #status
+* #PCP ^property[=].valueCode = #active
 * #PCP ^property[+].code = #niveau
 * #PCP ^property[=].valueInteger = 2
 * #PEN "Convention établissement pénitentiaire"
@@ -393,6 +443,8 @@ Description: "Nomenclature hiérarchique des engagements associés dans FINESS+ 
 * #PEN ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #PEN ^property[+].code = #dateMaj
 * #PEN ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #PEN ^property[+].code = #status
+* #PEN ^property[=].valueCode = #active
 * #PEN ^property[+].code = #niveau
 * #PEN ^property[=].valueInteger = 2
 * #PDI "Porteur du Dispositif Intégré" "Cette convention identifie le porteur du Dispositif Intégré dans le cas d'un dispositif partenarial\""
@@ -406,6 +458,8 @@ Description: "Nomenclature hiérarchique des engagements associés dans FINESS+ 
 * #PDI ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
 * #PDI ^property[+].code = #dateMaj
 * #PDI ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
+* #PDI ^property[+].code = #status
+* #PDI ^property[=].valueCode = #active
 * #PDI ^property[+].code = #niveau
 * #PDI ^property[=].valueInteger = 2
 * #QAL "Agrément Qualité"
@@ -415,6 +469,8 @@ Description: "Nomenclature hiérarchique des engagements associés dans FINESS+ 
 * #QAL ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #QAL ^property[+].code = #dateMaj
 * #QAL ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #QAL ^property[+].code = #status
+* #QAL ^property[=].valueCode = #active
 * #QAL ^property[+].code = #niveau
 * #QAL ^property[=].valueInteger = 2
 * #REL "Equipe relais"
@@ -424,6 +480,8 @@ Description: "Nomenclature hiérarchique des engagements associés dans FINESS+ 
 * #REL ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #REL ^property[+].code = #dateMaj
 * #REL ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #REL ^property[+].code = #status
+* #REL ^property[=].valueCode = #active
 * #REL ^property[+].code = #niveau
 * #REL ^property[=].valueInteger = 2
 * #RSE "SAAD intervenant uniquement au sein de la résidence services"
@@ -437,6 +495,8 @@ Description: "Nomenclature hiérarchique des engagements associés dans FINESS+ 
 * #RSE ^property[=].valueDateTime = "2019-04-26T12:00:00+01:00"
 * #RSE ^property[+].code = #dateMaj
 * #RSE ^property[=].valueDateTime = "2019-04-26T12:00:00+01:00"
+* #RSE ^property[+].code = #status
+* #RSE ^property[=].valueCode = #active
 * #RSE ^property[+].code = #niveau
 * #RSE ^property[=].valueInteger = 2
 * #RUR "Maison d'Accueil Rurale pour Personnes Âgées (MARPA)"
@@ -452,6 +512,10 @@ Description: "Nomenclature hiérarchique des engagements associés dans FINESS+ 
 * #RUR ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #RUR ^property[+].code = #dateMaj
 * #RUR ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #RUR ^property[+].code = #status
+* #RUR ^property[=].valueCode = #deprecated
+* #RUR ^property[+].code = #deprecationDate
+* #RUR ^property[=].valueDateTime = "2021-11-26T00:00:00+01:00"
 * #RUR ^property[+].code = #niveau
 * #RUR ^property[=].valueInteger = 2
 * #SAD "Convention SSIAD/SAAD (SAD)" "Indique que l'établissement (ex-SSIAD ou ex-SAAD) a signé une convention avec un SAAS ou un SAA"
@@ -461,6 +525,8 @@ Description: "Nomenclature hiérarchique des engagements associés dans FINESS+ 
 * #SAD ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #SAD ^property[+].code = #dateMaj
 * #SAD ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
+* #SAD ^property[+].code = #status
+* #SAD ^property[=].valueCode = #active
 * #SAD ^property[+].code = #niveau
 * #SAD ^property[=].valueInteger = 2
 * #SID "Signature d'une convention de médicalisation avec un SSIAD"
@@ -476,6 +542,10 @@ Description: "Nomenclature hiérarchique des engagements associés dans FINESS+ 
 * #SID ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #SID ^property[+].code = #dateMaj
 * #SID ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #SID ^property[+].code = #status
+* #SID ^property[=].valueCode = #deprecated
+* #SID ^property[+].code = #deprecationDate
+* #SID ^property[=].valueDateTime = "2021-11-26T00:00:00+01:00"
 * #SID ^property[+].code = #niveau
 * #SID ^property[=].valueInteger = 2
 * #UEA "Unité d'enseignement élémentaire autisme"
@@ -489,6 +559,8 @@ Description: "Nomenclature hiérarchique des engagements associés dans FINESS+ 
 * #UEA ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
 * #UEA ^property[+].code = #dateMaj
 * #UEA ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
+* #UEA ^property[+].code = #status
+* #UEA ^property[=].valueCode = #active
 * #UEA ^property[+].code = #niveau
 * #UEA ^property[=].valueInteger = 2
 * #UEE "Unité d'enseignement externe hors UEM"
@@ -498,6 +570,8 @@ Description: "Nomenclature hiérarchique des engagements associés dans FINESS+ 
 * #UEE ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #UEE ^property[+].code = #dateMaj
 * #UEE ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #UEE ^property[+].code = #status
+* #UEE ^property[=].valueCode = #active
 * #UEE ^property[+].code = #niveau
 * #UEE ^property[=].valueInteger = 2
 * #UEM "Unité d'enseignement en maternelle plan autisme"
@@ -511,6 +585,8 @@ Description: "Nomenclature hiérarchique des engagements associés dans FINESS+ 
 * #UEM ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #UEM ^property[+].code = #dateMaj
 * #UEM ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #UEM ^property[+].code = #status
+* #UEM ^property[=].valueCode = #active
 * #UEM ^property[+].code = #niveau
 * #UEM ^property[=].valueInteger = 2
 * #UNI "Convention d'un CHR avec une Université"
@@ -523,5 +599,7 @@ Description: "Nomenclature hiérarchique des engagements associés dans FINESS+ 
 * #UNI ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #UNI ^property[+].code = #dateMaj
 * #UNI ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #UNI ^property[+].code = #status
+* #UNI ^property[=].valueCode = #active
 * #UNI ^property[+].code = #niveau
 * #UNI ^property[=].valueInteger = 2
