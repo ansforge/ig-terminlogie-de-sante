@@ -197,7 +197,7 @@ Description: "Nomenclature des états élémentaires d'un objet du MOS organisé
 * #015 ^property[=].valueCode = #active
 * #015 ^property[+].code = #macroEtatAdministratif
 * #015 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
-* #015 ^property[=].valueCoding.code = #I
+* #015 ^property[=].valueCoding.code = #A
 * #015 ^property[+].code = #finess
 * #015 ^property[=].valueBoolean = true
 * #016 "Devient membre du groupe"
