@@ -43,14 +43,14 @@ Description: " Le périmètre d’une interruption d’exercice décrit l’éte
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
 * ^property[=].description = "Date Concept was retired"
 * ^property[=].type = #dateTime
-* #T "Totale" "Interdiction d’exercer l’ensemble des activités de la profession concernée"
+* #T "Totale" "Interruption d’exercice concernant l’ensemble des activités de la profession concernée"
 * #T ^property[0].code = #dateValid
 * #T ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #T ^property[+].code = #dateMaj
 * #T ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #T ^property[+].code = #status
 * #T ^property[=].valueCode = #active
-* #P "Partielle" "Restriction limitée à certaines activités ou modalités d’exercice de la profession (par exemple, selon le type de patientèle), les autres activités ou modalités restant autorisées"
+* #P "Partielle" "Interruption d’exercice limitée à certaines activités ou modalités d’exercice de la profession concernée (par exemple, selon le type de patientèle) et n'impactant pas les autres activités ou modalités"
 * #P ^property[0].code = #dateValid
 * #P ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #P ^property[+].code = #dateMaj
