@@ -249,3 +249,4 @@ Alias: $tre-r404-mode-fonctionnement-activite-smsse-regulee = https://smt.esante
 Alias: $tre-r405-modalite-activite-smsse-regulee = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee
 Alias: $tre-r406-forme-activite-smsse-regulee = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee
 Alias: $TRE-R62-Domaine = https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine
+Alias: $tre-r411-sexe-insee = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r411-sexe-insee

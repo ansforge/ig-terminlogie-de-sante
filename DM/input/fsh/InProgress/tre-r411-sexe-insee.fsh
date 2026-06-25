@@ -11,10 +11,10 @@ Description: "Liste de valeurs du code Sexe pour l'INSEE - En attente de faire d
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r411-sexe-insee"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.2.82"
-* ^version = "20260330120000"
+* ^version = "20260629120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-03-30T12:00:00.000+00:00"
+* ^date = "2026-06-29T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
@@ -45,16 +45,16 @@ Description: "Liste de valeurs du code Sexe pour l'INSEE - En attente de faire d
 * ^property[=].type = #dateTime
 * #F "Féminin"
 * #F ^property[0].code = #dateValid
-* #F ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #F ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #F ^property[+].code = #dateMaj
-* #F ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #F ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #F ^property[+].code = #status
 * #F ^property[=].valueCode = #active
 * #M "Masculin"
 * #M ^property[0].code = #dateValid
-* #M ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #M ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #M ^property[+].code = #dateMaj
-* #M ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #M ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #M ^property[+].code = #status
 * #M ^property[=].valueCode = #active
 * #I "Indéterminé"
@@ -63,8 +63,8 @@ Description: "Liste de valeurs du code Sexe pour l'INSEE - En attente de faire d
 * #I ^designation[=].use = $sct#900000000000003001
 * #I ^designation[=].value = "Intersexe"
 * #I ^property[0].code = #dateValid
-* #I ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #I ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #I ^property[+].code = #dateMaj
-* #I ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #I ^property[=].valueDateTime = "2026-06-29T12:00:00+01:00"
 * #I ^property[+].code = #status
 * #I ^property[=].valueCode = #active
