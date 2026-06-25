@@ -1,5 +1,3 @@
-Alias: $sct = http://snomed.info/sct
-
 CodeSystem: TreR403PublicActiviteSmsseRegulee
 Id: tre-r403-public-activite-smsse-regulee
 Title: "Tre R403 Public Activite Smsse Regulee"

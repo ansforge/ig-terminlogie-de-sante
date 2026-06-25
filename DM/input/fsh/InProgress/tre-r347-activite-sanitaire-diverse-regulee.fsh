@@ -1,5 +1,3 @@
-Alias: $sct = http://snomed.info/sct
-
 CodeSystem: TreR347ActiviteSanitaireDiverseRegulee
 Id: tre-r347-activite-sanitaire-diverse-regulee
 Title: "Tre R347 Activite Sanitaire Diverse Regulee"

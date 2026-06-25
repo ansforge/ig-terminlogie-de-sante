@@ -1,5 +1,3 @@
-Alias: $sct = http://snomed.info/sct
-
 CodeSystem: TRE_R209_TypeActivite
 Id: TRE-R209-TypeActivite
 Description: "Type d'activité"

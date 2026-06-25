@@ -1,5 +1,3 @@
-Alias: $sct = http://snomed.info/sct
-
 CodeSystem: TRE_R60_AutoriteEnregistrement
 Id: TRE-R60-AutoriteEnregistrement
 Description: "Autorité d'enregistrement"
