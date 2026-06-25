@@ -1252,7 +1252,7 @@ pages:
     autres_ressources.md:
         title: Autres Ressources     
         convention.md : 
-          title : Conventtion de nommage        
+          title : Convention de nommage        
         telechargementNos.md:
             title :   téléchargement (NOS)           
         securite.md:
