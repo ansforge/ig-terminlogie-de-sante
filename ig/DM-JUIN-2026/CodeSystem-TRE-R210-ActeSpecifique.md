@@ -26133,7 +26133,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1391",
-    "display" : "Prise en charge de maladies vectorielles à tique (Lyme…)",
+    "display" : "Prise en charge de ùaladies vectorielles à tique (Lyme…)",
     "definition" : "Prise en charge des maladies infectieuses transmises par tiques (vecteur) qui assurent une transmission active d'un agent infectieux (par exemple la borréliose, responsable de la maladie de Lyme).",
     "property" : [{
       "code" : "dateValid",

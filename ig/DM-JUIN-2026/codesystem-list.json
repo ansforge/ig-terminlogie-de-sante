@@ -739,7 +739,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R209-TypeActivite/FHIR/TRE-R209-TypeActivite",
-    "version" : "20240223120000",
+    "version" : "20260629120000",
     "status" : "active",
     "name" : "TRE_R209_TypeActivite",
     "title" : null,
@@ -2242,7 +2242,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R60-AutoriteEnregistrement/FHIR/TRE-R60-AutoriteEnregistrement",
-    "version" : "20240628120000",
+    "version" : "20260629120000",
     "status" : "active",
     "name" : "TRE_R60_AutoriteEnregistrement",
     "title" : null,
@@ -2449,7 +2449,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R90-TypeAE/FHIR/TRE-R90-TypeAE",
-    "version" : "20231215120000",
+    "version" : "20260629120000",
     "status" : "active",
     "name" : "TRE_R90_TypeAE",
     "title" : null,
@@ -2679,7 +2679,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
-    "version" : "20260601120000",
+    "version" : "20260629120000",
     "status" : "active",
     "name" : "TreR347ActiviteSanitaireDiverseRegulee",
     "title" : "Tre R347 Activite Sanitaire Diverse Regulee",
@@ -3012,11 +3012,11 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee",
-    "version" : "20260223120000",
+    "version" : "20260629120000",
     "status" : "active",
-    "name" : "TreR404ModeFonctionnemetActiviteSmsseRegulee",
-    "title" : "Tre R404 Mode Fonctionnemet Activite Smsse Regulee",
-    "description" : "Mode de fonctinonemment des activités ssmsse régulées, remplace la TRE_R209-TypeActivite",
+    "name" : "TreR404ModeFonctionnementActiviteSmsseRegulee",
+    "title" : "Tre R404 Mode Fonctionnement Activite Smsse Regulee",
+    "description" : "Mode de fonctinonemment des activités ssmsse régulées.\nCette TRE remplace la TRE_R209-TypeActivite",
     "oids" : ["1.2.250.1.213.1.6.1.383"]
   },
   {
@@ -3072,6 +3072,15 @@
     "title" : "Tre R410 Perimetre Interruption Exercice",
     "description" : " Le périmètre d’une interruption d’exercice décrit l’étendue de la restriction appliquée à l’activité du professionnel. Cette information permet d’apprécier concrètement les possibilités d’exercice du professionnel et contribue à la gestion des droits associés, notamment en matière d’accès aux services numériques en santé.",
     "oids" : ["1.2.250.1.213.1.6.1.397"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r411-sexe-insee",
+    "version" : "20260629120000",
+    "status" : "active",
+    "name" : "TreR411SexeInsee",
+    "title" : "Tre R411 Sexe Insee",
+    "description" : "Liste de valeurs du code Sexe pour l'INSEE - En attente de faire directement référence aux Terminologies INSEE",
+    "oids" : ["1.2.250.1.213.2.82"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome",
@@ -3216,6 +3225,15 @@
     "title" : "Tre R427 Type Adresse",
     "description" : "Type d'adresse postale tel que \"Adresse du domicile\", \"Adresse de livraison\" pour une personne physique.",
     "oids" : ["1.2.250.1.213.3.3.278"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r436-origine-interruption-exercice",
+    "version" : "20260629120000",
+    "status" : "active",
+    "name" : "TreR436OrigineInterruptionExercice",
+    "title" : "Tre R436 Origine Interruption Exercice",
+    "description" : "L’origine d’une interruption d’exercice correspond à l’autorité juridique ou administrative ayant prononcé la mesure. Cette information permet d’identifier le cadre dans lequel la décision a été prise et d’en comprendre le contexte. Elle facilite son interprétation, notamment pour apprécier les modalités d’application de la mesure (portée, exécution, éventuels recours).",
+    "oids" : ["1.2.250.1.213.1.6.1.402"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/v2-0487-supplement-fr",

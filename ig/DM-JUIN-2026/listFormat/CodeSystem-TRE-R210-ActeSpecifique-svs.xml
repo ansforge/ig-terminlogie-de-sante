@@ -12525,9 +12525,9 @@
                   dateFin=""
                   dateMaj="20260330120000"
                   dateValid="20240126120000"
-                  displayName="Prise en charge de maladies vectorielles à tique (Lyme…)"
-                  longDesignation="Prise en charge de maladies vectorielles à tique (Lyme…)"
-                  shortDesignation="Prise en charge de maladies vectorielles à tique (Lyme…)"
+                  displayName="Prise en charge de ùaladies vectorielles à tique (Lyme…)"
+                  longDesignation="Prise en charge de ùaladies vectorielles à tique (Lyme…)"
+                  shortDesignation="Prise en charge de ùaladies vectorielles à tique (Lyme…)"
                   descriptionMetier="Prise en charge des maladies infectieuses transmises par tiques (vecteur) qui assurent une transmission active d'un agent infectieux (par exemple la borréliose, responsable de la maladie de Lyme)."/>
          <Concept code="1392"
                   codeSystem="1.2.250.1.213.3.3.11"

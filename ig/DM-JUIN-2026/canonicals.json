@@ -2721,13 +2721,6 @@
   "oids" : ["1.2.250.1.71.1.2.16"]
 },
 {
-  "id" : "vs-tre-g09-departement-om-all",
-  "type" : "ValueSet",
-  "url" : "https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM?vs",
-  "version" : "20260629120000",
-  "name" : "VsTreG09DepartementOmAll"
-},
-{
   "id" : "TRE-G100-Specialite-AM",
   "type" : "CodeSystem",
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_G100-Specialite-AM/FHIR/TRE-G100-Specialite-AM",
@@ -2995,7 +2988,7 @@
   "id" : "TRE-R209-TypeActivite",
   "type" : "CodeSystem",
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R209-TypeActivite/FHIR/TRE-R209-TypeActivite",
-  "version" : "20240223120000",
+  "version" : "20260629120000",
   "name" : "TRE_R209_TypeActivite",
   "oids" : ["1.2.250.1.213.2.2"]
 },
@@ -3749,13 +3742,6 @@
   "oids" : ["1.2.250.1.213.2.25"]
 },
 {
-  "id" : "vs-tre-r30-region-om-all",
-  "type" : "ValueSet",
-  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM?vs",
-  "version" : "20260629120000",
-  "name" : "VsTreR30RegionOmAll"
-},
-{
   "id" : "TRE-R300-AgregatDisciplineEquipSocNiv3",
   "type" : "CodeSystem",
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R300-AgregatDisciplineEquipSocNiv3/FHIR/TRE-R300-AgregatDisciplineEquipSocNiv3",
@@ -4359,7 +4345,7 @@
   "id" : "TRE-R60-AutoriteEnregistrement",
   "type" : "CodeSystem",
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R60-AutoriteEnregistrement/FHIR/TRE-R60-AutoriteEnregistrement",
-  "version" : "20240628120000",
+  "version" : "20260629120000",
   "name" : "TRE_R60_AutoriteEnregistrement",
   "oids" : ["1.2.250.1.213.1.6.1.57"]
 },
@@ -4565,7 +4551,7 @@
   "id" : "TRE-R90-TypeAE",
   "type" : "CodeSystem",
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R90-TypeAE/FHIR/TRE-R90-TypeAE",
-  "version" : "20231215120000",
+  "version" : "20260629120000",
   "name" : "TRE_R90_TypeAE",
   "oids" : ["1.2.250.1.213.1.6.1.74"]
 },
@@ -4767,7 +4753,7 @@
   "id" : "tre-r347-activite-sanitaire-diverse-regulee",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
-  "version" : "20260601120000",
+  "version" : "20260629120000",
   "name" : "TreR347ActiviteSanitaireDiverseRegulee",
   "oids" : ["1.2.250.1.213.1.6.1.248"]
 },
@@ -5161,8 +5147,8 @@
   "id" : "tre-r404-mode-fonctionnement-activite-smsse-regulee",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee",
-  "version" : "20260223120000",
-  "name" : "TreR404ModeFonctionnemetActiviteSmsseRegulee",
+  "version" : "20260629120000",
+  "name" : "TreR404ModeFonctionnementActiviteSmsseRegulee",
   "oids" : ["1.2.250.1.213.1.6.1.383"]
 },
 {
@@ -5233,6 +5219,14 @@
   "version" : "20260629120000",
   "name" : "TreR410PerimetreInterruptionExercice",
   "oids" : ["1.2.250.1.213.1.6.1.397"]
+},
+{
+  "id" : "tre-r411-sexe-insee",
+  "type" : "CodeSystem",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r411-sexe-insee",
+  "version" : "20260629120000",
+  "name" : "TreR411SexeInsee",
+  "oids" : ["1.2.250.1.213.2.82"]
 },
 {
   "id" : "tre-r412-niveau-diplome",
@@ -5361,6 +5355,14 @@
   "version" : "20260505120000",
   "name" : "TreR427TypeAdresse",
   "oids" : ["1.2.250.1.213.3.3.278"]
+},
+{
+  "id" : "tre-r436-origine-interruption-exercice",
+  "type" : "CodeSystem",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r436-origine-interruption-exercice",
+  "version" : "20260629120000",
+  "name" : "TreR436OrigineInterruptionExercice",
+  "oids" : ["1.2.250.1.213.1.6.1.402"]
 },
 {
   "id" : "specimenType-supplement-fr",
@@ -7596,6 +7598,14 @@
   "version" : "20260202120000",
   "name" : "JdvJ387RoleParticipantMs",
   "oids" : ["1.2.250.1.213.3.4.230"]
+},
+{
+  "id" : "jdv-j389-sexe-insee",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j389-sexe-insee",
+  "version" : "20260629120000",
+  "name" : "JdvJ389SexeInsee",
+  "oids" : ["1.2.250.1.213.1.6.1.398"]
 },
 {
   "id" : "jdv-j390-origine-interruption-exercice-rpps",

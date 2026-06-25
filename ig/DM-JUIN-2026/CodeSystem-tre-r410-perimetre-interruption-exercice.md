@@ -100,7 +100,7 @@ Le périmètre d’une interruption d’exercice décrit l’étendue de la rest
   "concept" : [{
     "code" : "T",
     "display" : "Totale",
-    "definition" : "Interdiction d’exercer l’ensemble des activités de la profession concernée",
+    "definition" : "Interruption d’exercice concernant l’ensemble des activités de la profession concernée",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-06-29T12:00:00+01:00"
@@ -117,7 +117,7 @@ Le périmètre d’une interruption d’exercice décrit l’étendue de la rest
   {
     "code" : "P",
     "display" : "Partielle",
-    "definition" : "Restriction limitée à certaines activités ou modalités d’exercice de la profession (par exemple, selon le type de patientèle), les autres activités ou modalités restant autorisées",
+    "definition" : "Interruption d’exercice limitée à certaines activités ou modalités d’exercice de la profession concernée (par exemple, selon le type de patientèle) et n'impactant pas les autres activités ou modalités",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-06-29T12:00:00+01:00"

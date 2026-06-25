@@ -13,7 +13,7 @@
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.399 | | |
 
  
-L’origine d’une interruption d’exercice correspond à l’autorité juridique ou administrative ayant prononcé la mesure. Cette information permet d’identifier le cadre dans lequel la décision a été prise et d’en comprendre le contexte. Elle facilite son interprétation, notamment pour apprécier les modalités d’application de la mesure (portée, exécution, éventuels recours). 
+Jeu de valeurs à destination du RPPS : L’origine d’une interruption d’exercice correspond à l’autorité juridique ou administrative ayant prononcé la mesure. Cette information permet d’identifier le cadre dans lequel la décision a été prise et d’en comprendre le contexte. Elle facilite son interprétation, notamment pour apprécier les modalités d’application de la mesure (portée, exécution, éventuels recours). 
 
  **References** 
 
@@ -48,12 +48,12 @@ Requête sur le SMT
 
 | | | |
 | :--- | :--- | :--- |
-|  [<prev](ValueSet-jdv-j387-role-participant-ms.demande.md) | [top](#top) |  [next>](ValueSet-jdv-j390-origine-interruption-exercice-rpps-testing.md) |
+|  [<prev](ValueSet-jdv-j389-sexe-insee.demande.md) | [top](#top) |  [next>](ValueSet-jdv-j390-origine-interruption-exercice-rpps-testing.md) |
 
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.10.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-06-24
+2026-06-25
 
 Liens:
 [Table des matières ](toc.md)|
@@ -69,14 +69,14 @@ Liens:
   "id" : "jdv-j390-origine-interruption-exercice-rpps",
   "meta" : {
     "versionId" : "1",
-    "lastUpdated" : "2026-03-30T18:02:28.249+00:00",
+    "lastUpdated" : "2026-06-29T18:02:28.249+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
-      "start" : "2026-03-30T18:02:28.249+00:00"
+      "start" : "2026-06-29T18:02:28.249+00:00"
     }
   }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j390-origine-interruption-exercice-rpps",
@@ -91,7 +91,7 @@ Liens:
   "experimental" : false,
   "date" : "2026-06-29T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "L’origine d’une interruption d’exercice correspond à l’autorité juridique ou administrative ayant prononcé la mesure. Cette information permet d’identifier le cadre dans lequel la décision a été prise et d’en comprendre le contexte. Elle facilite son interprétation, notamment pour apprécier les modalités d’application de la mesure (portée, exécution, éventuels recours).",
+  "description" : "Jeu de valeurs à destination du RPPS : L’origine d’une interruption d’exercice correspond à l’autorité juridique ou administrative ayant prononcé la mesure. Cette information permet d’identifier le cadre dans lequel la décision a été prise et d’en comprendre le contexte. Elle facilite son interprétation, notamment pour apprécier les modalités d’application de la mesure (portée, exécution, éventuels recours).",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -100,15 +100,26 @@ Liens:
   }],
   "compose" : {
     "include" : [{
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-      "version" : "20260629120000",
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r436-origine-interruption-exercice",
       "concept" : [{
-        "code" : "01",
-        "display" : "Conseil de l'Ordre"
+        "code" : "A",
+        "display" : "Agence régionale de santé"
       },
       {
-        "code" : "02",
-        "display" : "Agence Régional de Santé"
+        "code" : "D",
+        "display" : "Chambre disciplinaire de l’ordre"
+      },
+      {
+        "code" : "C",
+        "display" : "Conseil de l’ordre"
+      },
+      {
+        "code" : "S",
+        "display" : "Section des assurances sociales de l’ordre"
+      },
+      {
+        "code" : "T",
+        "display" : "Tribunal"
       }]
     }]
   }

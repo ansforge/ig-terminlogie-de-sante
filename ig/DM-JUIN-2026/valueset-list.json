@@ -3016,15 +3016,6 @@
     "sources" : ["1.2.250.1.213.1.6.1.167"]
   },
   {
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM?vs",
-    "version" : "20260629120000",
-    "status" : "active",
-    "name" : "VsTreG09DepartementOmAll",
-    "title" : "Vs Tre G09 Departement Om All",
-    "description" : "Jeu de valeurs ALL contenant le référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco",
-    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM"]
-  },
-  {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R221-ModeleDocumentCDANonStructure/FHIR/TRE-R221-ModeleDocumentCDANonStructure?vs",
     "version" : "1.1.0",
     "status" : "active",
@@ -3050,15 +3041,6 @@
     "title" : "Vs Tre R274 Activite Sanitaire Regulee All",
     "description" : "Jeu de valeurs FINESS contenant les activités sanitaires soumises à une régulation de la part de l'ARS.",
     "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee"]
-  },
-  {
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM?vs",
-    "version" : "20260629120000",
-    "status" : "active",
-    "name" : "VsTreR30RegionOmAll",
-    "title" : "Vs Tre R30 Region Om All",
-    "description" : "Jeu de valeurs ALL contenant le référentiel des codes régions et collectivités d'outre-mer provenant du COG INSEE + Monaco",
-    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"]
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine?vs",
@@ -6342,13 +6324,24 @@
     "sources" : ["1.2.250.1.213.3.4.230"]
   },
   {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j389-sexe-insee",
+    "version" : "20260629120000",
+    "status" : "active",
+    "name" : "JdvJ389SexeInsee",
+    "title" : "Jdv J389 Sexe Insee",
+    "description" : "Liste de valeurs du code Sexe issues de l'INSEE pour le RPPS",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r411-sexe-insee"],
+    "oids" : ["1.2.250.1.213.1.6.1.398"],
+    "sources" : ["1.2.250.1.213.1.6.1.398"]
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j390-origine-interruption-exercice-rpps",
     "version" : "20260629120000",
     "status" : "active",
     "name" : "JdvJ390OrigineInterruptionExerciceRpps",
     "title" : "Jdv J390 Origine Interruption Exercice Rpps",
-    "description" : "L’origine d’une interruption d’exercice correspond à l’autorité juridique ou administrative ayant prononcé la mesure. Cette information permet d’identifier le cadre dans lequel la décision a été prise et d’en comprendre le contexte. Elle facilite son interprétation, notamment pour apprécier les modalités d’application de la mesure (portée, exécution, éventuels recours).",
-    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"],
+    "description" : "Jeu de valeurs à destination du RPPS : L’origine d’une interruption d’exercice correspond à l’autorité juridique ou administrative ayant prononcé la mesure. Cette information permet d’identifier le cadre dans lequel la décision a été prise et d’en comprendre le contexte. Elle facilite son interprétation, notamment pour apprécier les modalités d’application de la mesure (portée, exécution, éventuels recours).",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r436-origine-interruption-exercice"],
     "oids" : ["1.2.250.1.213.1.6.1.399"],
     "sources" : ["1.2.250.1.213.1.6.1.399"]
   },

@@ -18,7 +18,7 @@
                   displayName="Totale"
                   longDesignation="Totale"
                   shortDesignation="Totale"
-                  descriptionMetier="Interdiction d’exercer l’ensemble des activités de la profession concernée"/>
+                  descriptionMetier="Interruption d’exercice concernant l’ensemble des activités de la profession concernée"/>
          <Concept code="P"
                   codeSystem="1.2.250.1.213.1.6.1.397"
                   dateFin=""
@@ -27,7 +27,7 @@
                   displayName="Partielle"
                   longDesignation="Partielle"
                   shortDesignation="Partielle"
-                  descriptionMetier="Restriction limitée à certaines activités ou modalités d’exercice de la profession (par exemple, selon le type de patientèle), les autres activités ou modalités restant autorisées"/>
+                  descriptionMetier="Interruption d’exercice limitée à certaines activités ou modalités d’exercice de la profession concernée (par exemple, selon le type de patientèle) et n'impactant pas les autres activités ou modalités"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

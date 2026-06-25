@@ -374,13 +374,14 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | TreR401ActiviteSocialeRegulee | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee | 1.2.250.1.213.1.6.1.380 |
 | TreR402ActiviteEnseignementRegulee | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee | 1.2.250.1.213.1.6.1.381 |
 | TreR403PublicActiviteSmsseRegulee | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee | 1.2.250.1.213.1.6.1.382 |
-| TreR404ModeFonctionnemetActiviteSmsseRegulee | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee | 1.2.250.1.213.1.6.1.383 |
+| TreR404ModeFonctionnementActiviteSmsseRegulee | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee | 1.2.250.1.213.1.6.1.383 |
 | TreR405ModaliteActiviteSmsseRegulee | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee | 1.2.250.1.213.1.6.1.384 |
 | TreR406FormeActiviteSmsseRegulee | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee | 1.2.250.1.213.1.6.1.385 |
 | TreR407CompositionFoyer | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r407-composition-foyer | 1.2.250.1.213.3.3.261 |
 | TreR408TypeEnseignementSpecialise | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise | 1.2.250.1.213.3.3.262 |
 | TreR409TypeDureeInterruptionExercice | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r409-type-duree-interruption-exercice | 1.2.250.1.213.1.6.1.396 |
 | TreR410PerimetreInterruptionExercice | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r410-perimetre-interruption-exercice | 1.2.250.1.213.1.6.1.397 |
+| TreR411SexeInsee | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r411-sexe-insee | 1.2.250.1.213.2.82 |
 | TreR412NiveauDiplome | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome | 1.2.250.1.213.3.3.263 |
 | TreR413CategoriePermisConduire | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r413-categorie-permis-conduire | 1.2.250.1.213.3.3.264 |
 | TreR414NiveauScolaire | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r414-niveau-scolaire | 1.2.250.1.213.3.3.265 |
@@ -397,6 +398,7 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | TreR425TypeRepas | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r425-type-repas | 1.2.250.1.213.3.3.276 |
 | TreR426Orientation | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation | 1.2.250.1.213.3.3.277 |
 | TreR427TypeAdresse | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r427-type-adresse | 1.2.250.1.213.3.3.278 |
+| TreR436OrigineInterruptionExercice | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r436-origine-interruption-exercice | 1.2.250.1.213.1.6.1.402 |
 | UCUM | http://unitsofmeasure.org | 2.16.840.1.113883.6.8 |
 | V3SpecimenTypeSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/v3-SpecimenType-supplement-fr |  |
 

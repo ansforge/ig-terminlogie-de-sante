@@ -11,7 +11,7 @@
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2026-06-24T09:29:27+00:00"/>
+  <date value="2026-06-25T16:03:31+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -22613,10 +22613,21 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-j389-sexe-insee"/>
+      </reference>
+      <name value="Jdv J389 Sexe Insee"/>
+      <description value="Liste de valeurs du code Sexe issues de l'INSEE pour le RPPS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-j390-origine-interruption-exercice-rpps"/>
       </reference>
       <name value="Jdv J390 Origine Interruption Exercice Rpps"/>
-      <description value="L’origine d’une interruption d’exercice correspond à l’autorité juridique ou administrative ayant prononcé la mesure. Cette information permet d’identifier le cadre dans lequel la décision a été prise et d’en comprendre le contexte. Elle facilite son interprétation, notamment pour apprécier les modalités d’application de la mesure (portée, exécution, éventuels recours)."/>
+      <description value="Jeu de valeurs à destination du RPPS : L’origine d’une interruption d’exercice correspond à l’autorité juridique ou administrative ayant prononcé la mesure. Cette information permet d’identifier le cadre dans lequel la décision a été prise et d’en comprendre le contexte. Elle facilite son interprétation, notamment pour apprécier les modalités d’application de la mesure (portée, exécution, éventuels recours)."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -29990,8 +30001,8 @@
       <reference>
         <reference value="CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"/>
       </reference>
-      <name value="Tre R404 Mode Fonctionnemet Activite Smsse Regulee"/>
-      <description value="Mode de fonctinonemment des activités ssmsse régulées, remplace la TRE_R209-TypeActivite"/>
+      <name value="Tre R404 Mode Fonctionnement Activite Smsse Regulee"/>
+      <description value="Mode de fonctinonemment des activités ssmsse régulées.&#xA;Cette TRE remplace la TRE_R209-TypeActivite"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -30058,6 +30069,17 @@
       </reference>
       <name value="Tre R410 Perimetre Interruption Exercice"/>
       <description value=" Le périmètre d’une interruption d’exercice décrit l’étendue de la restriction appliquée à l’activité du professionnel. Cette information permet d’apprécier concrètement les possibilités d’exercice du professionnel et contribue à la gestion des droits associés, notamment en matière d’accès aux services numériques en santé."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r411-sexe-insee"/>
+      </reference>
+      <name value="Tre R411 Sexe Insee"/>
+      <description value="Liste de valeurs du code Sexe pour l'INSEE - En attente de faire directement référence aux Terminologies INSEE"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -30234,6 +30256,17 @@
       </reference>
       <name value="Tre R427 Type Adresse"/>
       <description value="Type d'adresse postale tel que &quot;Adresse du domicile&quot;, &quot;Adresse de livraison&quot; pour une personne physique."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r436-origine-interruption-exercice"/>
+      </reference>
+      <name value="Tre R436 Origine Interruption Exercice"/>
+      <description value="L’origine d’une interruption d’exercice correspond à l’autorité juridique ou administrative ayant prononcé la mesure. Cette information permet d’identifier le cadre dans lequel la décision a été prise et d’en comprendre le contexte. Elle facilite son interprétation, notamment pour apprécier les modalités d’application de la mesure (portée, exécution, éventuels recours)."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -33077,17 +33110,6 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/vs-tre-g09-departement-om-all"/>
-      </reference>
-      <name value="Vs Tre G09 Departement Om All"/>
-      <description value="Jeu de valeurs ALL contenant le référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
         <reference value="ValueSet/vs-tre-r272-equipement-materiel-lourd-all"/>
       </reference>
       <name value="Vs Tre R272 Equipement Materiel Lourd All"/>
@@ -33103,17 +33125,6 @@
       </reference>
       <name value="Vs Tre R274 Activite Sanitaire Regulee All"/>
       <description value="Jeu de valeurs FINESS contenant les activités sanitaires soumises à une régulation de la part de l'ARS."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/vs-tre-r30-region-om-all"/>
-      </reference>
-      <name value="Vs Tre R30 Region Om All"/>
-      <description value="Jeu de valeurs ALL contenant le référentiel des codes régions et collectivités d'outre-mer provenant du COG INSEE + Monaco"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -33559,7 +33570,7 @@
             <valueUrl value="convention.html"/>
           </extension>
           <nameUrl value="convention.html"/>
-          <title value="Conventtion de nommage"/>
+          <title value="Convention de nommage"/>
           <generation value="markdown"/>
         </page>
         <page>

@@ -10,7 +10,7 @@
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-06-24T09:29:27+00:00",
+  "date" : "2026-06-25T16:03:31+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -30065,10 +30065,22 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-j389-sexe-insee"
+      },
+      "name" : "Jdv J389 Sexe Insee",
+      "description" : "Liste de valeurs du code Sexe issues de l'INSEE pour le RPPS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-j390-origine-interruption-exercice-rpps"
       },
       "name" : "Jdv J390 Origine Interruption Exercice Rpps",
-      "description" : "L’origine d’une interruption d’exercice correspond à l’autorité juridique ou administrative ayant prononcé la mesure. Cette information permet d’identifier le cadre dans lequel la décision a été prise et d’en comprendre le contexte. Elle facilite son interprétation, notamment pour apprécier les modalités d’application de la mesure (portée, exécution, éventuels recours).",
+      "description" : "Jeu de valeurs à destination du RPPS : L’origine d’une interruption d’exercice correspond à l’autorité juridique ou administrative ayant prononcé la mesure. Cette information permet d’identifier le cadre dans lequel la décision a été prise et d’en comprendre le contexte. Elle facilite son interprétation, notamment pour apprécier les modalités d’application de la mesure (portée, exécution, éventuels recours).",
       "exampleBoolean" : false
     },
     {
@@ -38113,8 +38125,8 @@
       "reference" : {
         "reference" : "CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"
       },
-      "name" : "Tre R404 Mode Fonctionnemet Activite Smsse Regulee",
-      "description" : "Mode de fonctinonemment des activités ssmsse régulées, remplace la TRE_R209-TypeActivite",
+      "name" : "Tre R404 Mode Fonctionnement Activite Smsse Regulee",
+      "description" : "Mode de fonctinonemment des activités ssmsse régulées.\nCette TRE remplace la TRE_R209-TypeActivite",
       "exampleBoolean" : false
     },
     {
@@ -38187,6 +38199,18 @@
       },
       "name" : "Tre R410 Perimetre Interruption Exercice",
       "description" : " Le périmètre d’une interruption d’exercice décrit l’étendue de la restriction appliquée à l’activité du professionnel. Cette information permet d’apprécier concrètement les possibilités d’exercice du professionnel et contribue à la gestion des droits associés, notamment en matière d’accès aux services numériques en santé.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r411-sexe-insee"
+      },
+      "name" : "Tre R411 Sexe Insee",
+      "description" : "Liste de valeurs du code Sexe pour l'INSEE - En attente de faire directement référence aux Terminologies INSEE",
       "exampleBoolean" : false
     },
     {
@@ -38379,6 +38403,18 @@
       },
       "name" : "Tre R427 Type Adresse",
       "description" : "Type d'adresse postale tel que \"Adresse du domicile\", \"Adresse de livraison\" pour une personne physique.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r436-origine-interruption-exercice"
+      },
+      "name" : "Tre R436 Origine Interruption Exercice",
+      "description" : "L’origine d’une interruption d’exercice correspond à l’autorité juridique ou administrative ayant prononcé la mesure. Cette information permet d’identifier le cadre dans lequel la décision a été prise et d’en comprendre le contexte. Elle facilite son interprétation, notamment pour apprécier les modalités d’application de la mesure (portée, exécution, éventuels recours).",
       "exampleBoolean" : false
     },
     {
@@ -41481,18 +41517,6 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/vs-tre-g09-departement-om-all"
-      },
-      "name" : "Vs Tre G09 Departement Om All",
-      "description" : "Jeu de valeurs ALL contenant le référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
         "reference" : "ValueSet/vs-tre-r272-equipement-materiel-lourd-all"
       },
       "name" : "Vs Tre R272 Equipement Materiel Lourd All",
@@ -41509,18 +41533,6 @@
       },
       "name" : "Vs Tre R274 Activite Sanitaire Regulee All",
       "description" : "Jeu de valeurs FINESS contenant les activités sanitaires soumises à une régulation de la part de l'ARS.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/vs-tre-r30-region-om-all"
-      },
-      "name" : "Vs Tre R30 Region Om All",
-      "description" : "Jeu de valeurs ALL contenant le référentiel des codes régions et collectivités d'outre-mer provenant du COG INSEE + Monaco",
       "exampleBoolean" : false
     },
     {
@@ -42013,7 +42025,7 @@
             "valueUrl" : "convention.html"
           }],
           "nameUrl" : "convention.html",
-          "title" : "Conventtion de nommage",
+          "title" : "Convention de nommage",
           "generation" : "markdown"
         },
         {

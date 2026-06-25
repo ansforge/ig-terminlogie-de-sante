@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "Terminologies"] ; # 
   fhir:title [ fhir:v "Terminologies  de Santé"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2026-06-24T09:29:27+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-06-25T16:03:31+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -41530,11 +41530,29 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j389-sexe-insee> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j389-sexe-insee" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J389 Sexe Insee" ] ;
+       fhir:description [ fhir:v "Liste de valeurs du code Sexe issues de l'INSEE pour le RPPS" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j390-origine-interruption-exercice-rpps> ;
          fhir:reference [ fhir:v "ValueSet/jdv-j390-origine-interruption-exercice-rpps" ]
        ] ;
        fhir:name [ fhir:v "Jdv J390 Origine Interruption Exercice Rpps" ] ;
-       fhir:description [ fhir:v "L’origine d’une interruption d’exercice correspond à l’autorité juridique ou administrative ayant prononcé la mesure. Cette information permet d’identifier le cadre dans lequel la décision a été prise et d’en comprendre le contexte. Elle facilite son interprétation, notamment pour apprécier les modalités d’application de la mesure (portée, exécution, éventuels recours)." ] ;
+       fhir:description [ fhir:v "Jeu de valeurs à destination du RPPS : L’origine d’une interruption d’exercice correspond à l’autorité juridique ou administrative ayant prononcé la mesure. Cette information permet d’identifier le cadre dans lequel la décision a été prise et d’en comprendre le contexte. Elle facilite son interprétation, notamment pour apprécier les modalités d’application de la mesure (portée, exécution, éventuels recours)." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -53605,8 +53623,8 @@
          fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee> ;
          fhir:reference [ fhir:v "CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee" ]
        ] ;
-       fhir:name [ fhir:v "Tre R404 Mode Fonctionnemet Activite Smsse Regulee" ] ;
-       fhir:description [ fhir:v "Mode de fonctinonemment des activités ssmsse régulées, remplace la TRE_R209-TypeActivite" ] ;
+       fhir:name [ fhir:v "Tre R404 Mode Fonctionnement Activite Smsse Regulee" ] ;
+       fhir:description [ fhir:v "Mode de fonctinonemment des activités ssmsse régulées.\nCette TRE remplace la TRE_R209-TypeActivite" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -53715,6 +53733,24 @@
        ] ;
        fhir:name [ fhir:v "Tre R410 Perimetre Interruption Exercice" ] ;
        fhir:description [ fhir:v " Le périmètre d’une interruption d’exercice décrit l’étendue de la restriction appliquée à l’activité du professionnel. Cette information permet d’apprécier concrètement les possibilités d’exercice du professionnel et contribue à la gestion des droits associés, notamment en matière d’accès aux services numériques en santé." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r411-sexe-insee> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r411-sexe-insee" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R411 Sexe Insee" ] ;
+       fhir:description [ fhir:v "Liste de valeurs du code Sexe pour l'INSEE - En attente de faire directement référence aux Terminologies INSEE" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -54003,6 +54039,24 @@
        ] ;
        fhir:name [ fhir:v "Tre R427 Type Adresse" ] ;
        fhir:description [ fhir:v "Type d'adresse postale tel que \"Adresse du domicile\", \"Adresse de livraison\" pour une personne physique." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r436-origine-interruption-exercice> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r436-origine-interruption-exercice" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R436 Origine Interruption Exercice" ] ;
+       fhir:description [ fhir:v "L’origine d’une interruption d’exercice correspond à l’autorité juridique ou administrative ayant prononcé la mesure. Cette information permet d’identifier le cadre dans lequel la décision a été prise et d’en comprendre le contexte. Elle facilite son interprétation, notamment pour apprécier les modalités d’application de la mesure (portée, exécution, éventuels recours)." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -58658,24 +58712,6 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-g09-departement-om-all> ;
-         fhir:reference [ fhir:v "ValueSet/vs-tre-g09-departement-om-all" ]
-       ] ;
-       fhir:name [ fhir:v "Vs Tre G09 Departement Om All" ] ;
-       fhir:description [ fhir:v "Jeu de valeurs ALL contenant le référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r272-equipement-materiel-lourd-all> ;
          fhir:reference [ fhir:v "ValueSet/vs-tre-r272-equipement-materiel-lourd-all" ]
        ] ;
@@ -58699,24 +58735,6 @@
        ] ;
        fhir:name [ fhir:v "Vs Tre R274 Activite Sanitaire Regulee All" ] ;
        fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les activités sanitaires soumises à une régulation de la part de l'ARS." ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r30-region-om-all> ;
-         fhir:reference [ fhir:v "ValueSet/vs-tre-r30-region-om-all" ]
-       ] ;
-       fhir:name [ fhir:v "Vs Tre R30 Region Om All" ] ;
-       fhir:description [ fhir:v "Jeu de valeurs ALL contenant le référentiel des codes régions et collectivités d'outre-mer provenant du COG INSEE + Monaco" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -59478,7 +59496,7 @@
              a fhir:url ;
              fhir:v "convention.html"^^xsd:anyURI
            ] ;
-           fhir:title [ fhir:v "Conventtion de nommage" ] ;
+           fhir:title [ fhir:v "Convention de nommage" ] ;
            fhir:generation [ fhir:v "markdown" ]
          ] [
            fhir:extension ( [

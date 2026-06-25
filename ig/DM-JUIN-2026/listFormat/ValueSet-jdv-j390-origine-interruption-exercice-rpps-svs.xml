@@ -3,19 +3,28 @@
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
              dateMaj="20260629120000"
-             dateValid="20260330180228"
-             description="L’origine d’une interruption d’exercice correspond à l’autorité juridique ou administrative ayant prononcé la mesure. Cette information permet d’identifier le cadre dans lequel la décision a été prise et d’en comprendre le contexte. Elle facilite son interprétation, notamment pour apprécier les modalités d’application de la mesure (portée, exécution, éventuels recours)."
+             dateValid="20260629180228"
+             description="Jeu de valeurs à destination du RPPS : L’origine d’une interruption d’exercice correspond à l’autorité juridique ou administrative ayant prononcé la mesure. Cette information permet d’identifier le cadre dans lequel la décision a été prise et d’en comprendre le contexte. Elle facilite son interprétation, notamment pour apprécier les modalités d’application de la mesure (portée, exécution, éventuels recours)."
              displayName="JdvJ390OrigineInterruptionExerciceRpps"
              id="1.2.250.1.213.1.6.1.399"
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="01"
-                  codeSystem="1.2.250.1.213.1.6.1.377"
-                  displayName="Conseil de l'Ordre"/>
-         <Concept code="02"
-                  codeSystem="1.2.250.1.213.1.6.1.377"
-                  displayName="Agence Régional de Santé"/>
+         <Concept code="A"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r436-origine-interruption-exercice"
+                  displayName="Agence régionale de santé"/>
+         <Concept code="D"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r436-origine-interruption-exercice"
+                  displayName="Chambre disciplinaire de l’ordre"/>
+         <Concept code="C"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r436-origine-interruption-exercice"
+                  displayName="Conseil de l’ordre"/>
+         <Concept code="S"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r436-origine-interruption-exercice"
+                  displayName="Section des assurances sociales de l’ordre"/>
+         <Concept code="T"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r436-origine-interruption-exercice"
+                  displayName="Tribunal"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>
