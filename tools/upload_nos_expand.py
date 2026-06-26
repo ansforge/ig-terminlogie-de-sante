@@ -18,9 +18,10 @@ def has_filter(valueset):
     for include in compose.get("include", []):
         if include.get("filter"):
             return True
-
+        if not include.get("concept") and include.get("system"):
+            return True
+        
     return False
-
 
 def expand_valueset(valueset):
     """
@@ -93,7 +94,6 @@ def is_allowed_valueset(url):
             re.IGNORECASE
         )
     )
-
 
 async def main():
 
@@ -231,8 +231,7 @@ async def main():
                     print(f"  [expand] {e_valueSet['name']}")
                     expanded = expand_valueset(ValueSet)
                     if expanded:
-                        expanded["id"] = e_valueSet["id"]
-                        ValueSet = expanded
+                        ValueSet["expansion"] = expanded.get("expansion")
                         
                 with open(
                     "../input/ontoserver/JDV/"
