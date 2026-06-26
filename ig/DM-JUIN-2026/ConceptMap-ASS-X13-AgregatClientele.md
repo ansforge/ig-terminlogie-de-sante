@@ -1273,18 +1273,6 @@ Association d’agrégats de clientèle
         "comment" : "TO DO",
         "dependsOn" : [{
           "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
-          "value" : "841"
-        }]
-      }]
-    },
-    {
-      "code" : "6000",
-      "target" : [{
-        "code" : "6100",
-        "equivalence" : "narrower",
-        "comment" : "TO DO",
-        "dependsOn" : [{
-          "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
           "value" : "833"
         }]
       }]
@@ -1298,6 +1286,54 @@ Association d’agrégats de clientèle
         "dependsOn" : [{
           "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
           "value" : "834"
+        }]
+      }]
+    },
+    {
+      "code" : "6000",
+      "target" : [{
+        "code" : "6100",
+        "equivalence" : "narrower",
+        "comment" : "TO DO",
+        "dependsOn" : [{
+          "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+          "value" : "841"
+        }]
+      }]
+    },
+    {
+      "code" : "6000",
+      "target" : [{
+        "code" : "6100",
+        "equivalence" : "narrower",
+        "comment" : "TO DO",
+        "dependsOn" : [{
+          "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+          "value" : "842"
+        }]
+      }]
+    },
+    {
+      "code" : "6000",
+      "target" : [{
+        "code" : "6100",
+        "equivalence" : "narrower",
+        "comment" : "TO DO",
+        "dependsOn" : [{
+          "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+          "value" : "843"
+        }]
+      }]
+    },
+    {
+      "code" : "6000",
+      "target" : [{
+        "code" : "6100",
+        "equivalence" : "narrower",
+        "comment" : "TO DO",
+        "dependsOn" : [{
+          "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
+          "value" : "844"
         }]
       }]
     },
