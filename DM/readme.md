@@ -75,4 +75,4 @@ Lancement du workflow ' Build IG"
 
 # Process de publication de l'IG
 
-![Process IG](input/images-source/processPublication.svg)
+![Process IG](../input/images/processPublication.svg)
