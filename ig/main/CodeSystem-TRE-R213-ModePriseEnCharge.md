@@ -1,4 +1,4 @@
-# TRE_R213_ModePriseEnCharge - Terminologies de Santé v1.10.0
+# TRE_R213_ModePriseEnCharge - Terminologies de Santé v1.11.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -19,9 +19,6 @@ Mode de la prise en charge
 
 * [JDV_J19_ModePriseEnCharge_ROR](ValueSet-JDV-J19-ModePriseEnCharge-ROR.md)
 * [JDV_J264_ModeEtCentreDePriseEnCharge_MDPH](ValueSet-JDV-J264-ModeEtCentreDePriseEnCharge-MDPH.md)
-* [JdvContexteActiviteCisis](ValueSet-jdv-contexte-activite-cisis.md)
-* [JdvTraitementSuiviCisis](ValueSet-jdv-traitement-suivi-cisis.md)
-* [JdvTypePriseEnChargeCisis](ValueSet-jdv-type-prise-en-charge-cisis.md)
 
 
 

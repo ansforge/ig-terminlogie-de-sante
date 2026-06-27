@@ -1,4 +1,4 @@
-# Jeux de valeurs (Retired) - Terminologies de Santé v1.10.0
+# Jeux de valeurs (Retired) - Terminologies de Santé v1.11.0
 
 * [**Table of Contents**](toc.md)
 * [**Jeux de valeurs**](jdv.md)
@@ -34,8 +34,4 @@ Vous touverez ici la liste des JDV à l'etat "retired".
 | [JDV_J84_DepartementOM_RASS](ValueSet-JDV-J84-DepartementOM-RASS.md) | Départements (outre-mer et Monaco inclus) pour le RASS |
 | [JDV_J93_RegionOM_RASS](ValueSet-JDV-J93-RegionOM-RASS.md) | Régions (outre-mer et Monaco inclus) dans le RASS |
 | [JDV_J99_InseeNAFrav2Niveau5_RASS](ValueSet-JDV-J99-InseeNAFrav2Niveau5-RASS.md) | Sous-classes de la Nomenclature Activités Française (INSEE) des prof du RASS |
-| [JdvAddictionCisis](ValueSet-jdv-addiction-cisis.md) | JDV Addiction CISIS |
-| [JdvIndicateurAnormaliteCisis](ValueSet-jdv-indicateur-anormalite-cisis.md) | JDV Indicateur Anormalite CISIS |
-| [JdvMsoResultatQualitatifCisis](ValueSet-jdv-mso-resultat-qualitatif-cisis.md) | Jdv MSO Resultat Qualitatif CISIS |
-| [JdvStructureDeSoinsCisis](ValueSet-jdv-structure-de-soins-cisis.md) | JDV Structure De Soins CISIS |
 

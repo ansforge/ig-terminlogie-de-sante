@@ -1,4 +1,4 @@
-# TRE_R305_TypeRencontre - Terminologies de Santé v1.10.0
+# TRE_R305_TypeRencontre - Terminologies de Santé v1.11.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -18,8 +18,6 @@ Type de rencontre
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J142_TypeRencontre_CISIS](ValueSet-JDV-J142-TypeRencontre-CISIS.md)
-* [JdvEncompassingEncounterCodeCisis](ValueSet-jdv-encompassing-encounter-code-cisis.md)
-* [JdvTypeRencontreCisis](ValueSet-jdv-type-rencontre-cisis.md)
 
 
 

@@ -1,4 +1,4 @@
-# TRE_A02_ProfessionSavFaire_CISIS - Terminologies de Santé v1.10.0
+# TRE_A02_ProfessionSavFaire_CISIS - Terminologies de Santé v1.11.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -19,10 +19,6 @@ Profession et savoir-faire CI-SIS
 
 * [JDV_J01_XdsAuthorSpecialty_CISIS](ValueSet-JDV-J01-XdsAuthorSpecialty-CISIS.md)
 * [JDV_J56_AuthorSpecialty_DMP](ValueSet-JDV-J56-AuthorSpecialty-DMP.md)
-* [JdvAvisMedicalComplementaireCisis](ValueSet-jdv-avis-medical-complementaire-cisis.md)
-* [JdvPatientAdresseParCisis](ValueSet-jdv-patient-adresse-par-cisis.md)
-* [JdvProfessionPersonnelActiviteCisis](ValueSet-jdv-profession-personnel-activite-cisis.md)
-* [JdvReadaptationCisis](ValueSet-jdv-readaptation-cisis.md)
 
 
 

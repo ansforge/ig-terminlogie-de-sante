@@ -1,4 +1,4 @@
-# JDV_J280_CIM10ATIH_UPNOS - Terminologies de Santé v1.10.0
+# JDV_J280_CIM10ATIH_UPNOS - Terminologies de Santé v1.11.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -53,9 +53,9 @@ Expansions are not generated for retired value sets
 |  [<prev](ValueSet-JDV-J27-GroupeTarifaireDependance-ROR.demande.md) | [top](#top) |  [next>](ValueSet-JDV-J280-CIM10ATIH-UPNOS-testing.md) |
 
 IG © 2020+
-[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.10.0 based on
+[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.0 based on
 [FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-06-26
+2026-06-27
 
 Liens:
 [Table des matières ](toc.md)|
@@ -74,7 +74,6 @@ Liens:
     "lastUpdated" : "2025-04-01T12:14:08.132+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {

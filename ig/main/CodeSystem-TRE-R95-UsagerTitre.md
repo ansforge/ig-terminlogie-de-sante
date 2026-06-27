@@ -1,4 +1,4 @@
-# TRE_R95_UsagerTitre - Terminologies de Santé v1.10.0
+# TRE_R95_UsagerTitre - Terminologies de Santé v1.11.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -26,7 +26,6 @@ Usager de titre professionnel
 * [JDV_J54_Profession_ROR](ValueSet-JDV-J54-Profession-ROR.md)
 * [JDV_J56_AuthorSpecialty_DMP](ValueSet-JDV-J56-AuthorSpecialty-DMP.md)
 * [JDV_J65_SubjectRole_DMP](ValueSet-JDV-J65-SubjectRole-DMP.md)
-* [JdvProfessionPersonnelActiviteCisis](ValueSet-jdv-profession-personnel-activite-cisis.md)
 
 
 

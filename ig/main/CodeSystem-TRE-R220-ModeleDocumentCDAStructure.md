@@ -1,4 +1,4 @@
-# TRE_R220_ModeleDocumentCDAStructure - Terminologies de Santé v1.10.0
+# TRE_R220_ModeleDocumentCDAStructure - Terminologies de Santé v1.11.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -18,7 +18,6 @@ Identifiant des modèles de CDA structurés
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JdvModeleDocumentCda](ValueSet-jdv-modele-document-cda.md)
-* [JdvModeleDocumentCdaCisis](ValueSet-jdv-modele-document-cda-cisis.md)
 
 
 
