@@ -58,8 +58,8 @@
       }],
       "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.property"
     }],
-    "identifier" : "urn:uuid:5e122ed2-b65a-453d-8ee7-321ad396ca31",
-    "timestamp" : "2026-06-27T08:50:47+02:00",
+    "identifier" : "urn:uuid:3c713596-44c5-4fe8-b5ab-b73bdf6ff073",
+    "timestamp" : "2026-06-28T09:48:34+02:00",
     "total" : 6,
     "parameter" : [{
       "name" : "used-codesystem",
