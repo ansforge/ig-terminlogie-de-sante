@@ -141,9 +141,6 @@ Description: "Public pris en charge"
 * #09 ^property[+].code = #status
 * #09 ^property[=].valueCode = #active
 * #10 "Victime de violence"
-* #10 ^designation[0].language = #fr-FR
-* #10 ^designation[=].use = $sct#900000000000013009
-* #10 ^designation[=].value = "Victime de violence"
 * #10 ^property[0].code = #dateValid
 * #10 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #10 ^property[+].code = #dateMaj
