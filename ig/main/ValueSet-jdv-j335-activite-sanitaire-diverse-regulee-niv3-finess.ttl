@@ -77,17 +77,17 @@
        ] ;
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.property" ]
      ] ;
-     fhir:ValueSet.expansion.identifier [ fhir:value "urn:uuid:58f3fbf8-989f-455e-81e8-6f1c9a805cc4" ] ;
-     fhir:ValueSet.expansion.timestamp [ fhir:value "2026-06-29T10:55:06+02:00"^^xsd:dateTime ] ;
+     fhir:ValueSet.expansion.identifier [ fhir:value "urn:uuid:73dcbcdf-1792-4741-b950-65ab8f007f29" ] ;
+     fhir:ValueSet.expansion.timestamp [ fhir:value "2026-06-29T15:27:37+02:00"^^xsd:dateTime ] ;
      fhir:ValueSet.expansion.total [ fhir:value "52"^^xsd:integer ] ;
      fhir:ValueSet.expansion.parameter [
        fhir:index 0 ;
        fhir:ValueSet.expansion.parameter.name [ fhir:value "used-codesystem" ] ;
-       fhir:ValueSet.expansion.parameter.valueUri [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee|20260601120000" ]
+       fhir:ValueSet.expansion.parameter.valueUri [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee|20260629120000" ]
      ], [
        fhir:index 1 ;
        fhir:ValueSet.expansion.parameter.name [ fhir:value "version" ] ;
-       fhir:ValueSet.expansion.parameter.valueUri [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee|20260601120000" ]
+       fhir:ValueSet.expansion.parameter.valueUri [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee|20260629120000" ]
      ] ;
      fhir:ValueSet.expansion.contains [
        fhir:index 0 ;
@@ -1044,7 +1044,7 @@
        fhir:index 45 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "0371" ] ;
-       fhir:ValueSet.expansion.contains.display [ fhir:value "structures de psychiatrie sans hébergement" ]
+       fhir:ValueSet.expansion.contains.display [ fhir:value "structures de psychiatrie ambulatoire" ]
      ], [
        fhir:index 46 ;
        fhir:Element.extension [

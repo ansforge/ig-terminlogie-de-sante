@@ -77,17 +77,17 @@
        ] ;
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.property" ]
      ] ;
-     fhir:ValueSet.expansion.identifier [ fhir:value "urn:uuid:ed1685f2-06c1-4794-b749-9bbdf0092e48" ] ;
-     fhir:ValueSet.expansion.timestamp [ fhir:value "2026-06-29T10:55:44+02:00"^^xsd:dateTime ] ;
-     fhir:ValueSet.expansion.total [ fhir:value "369"^^xsd:integer ] ;
+     fhir:ValueSet.expansion.identifier [ fhir:value "urn:uuid:f4849d65-9779-4ad9-8e81-bf12fde8e84e" ] ;
+     fhir:ValueSet.expansion.timestamp [ fhir:value "2026-06-29T15:28:08+02:00"^^xsd:dateTime ] ;
+     fhir:ValueSet.expansion.total [ fhir:value "386"^^xsd:integer ] ;
      fhir:ValueSet.expansion.parameter [
        fhir:index 0 ;
        fhir:ValueSet.expansion.parameter.name [ fhir:value "used-codesystem" ] ;
-       fhir:ValueSet.expansion.parameter.valueUri [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee|20260601120000" ]
+       fhir:ValueSet.expansion.parameter.valueUri [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee|20260629120000" ]
      ], [
        fhir:index 1 ;
        fhir:ValueSet.expansion.parameter.name [ fhir:value "version" ] ;
-       fhir:ValueSet.expansion.parameter.valueUri [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee|20260601120000" ]
+       fhir:ValueSet.expansion.parameter.valueUri [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee|20260629120000" ]
      ] ;
      fhir:ValueSet.expansion.contains [
        fhir:index 0 ;
@@ -145,6 +145,11 @@
        fhir:ValueSet.expansion.contains.display [ fhir:value "Accueil et Traitement des Urgences Médico-Chirurgicales" ]
      ], [
        fhir:index 2 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "861" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Accueil familial thérapeutique" ]
+     ], [
+       fhir:index 3 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -171,7 +176,12 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "226" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Accueil Orientation. des Malades.Tuberculo Pulmonaires" ]
      ], [
-       fhir:index 3 ;
+       fhir:index 4 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "863" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Accueil permanent" ]
+     ], [
+       fhir:index 5 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -198,7 +208,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "741" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Accueil Traitement Urgence Chirurgicale" ]
      ], [
-       fhir:index 4 ;
+       fhir:index 6 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -225,7 +235,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "740" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Accueil Traitement Urgence Médicale" ]
      ], [
-       fhir:index 5 ;
+       fhir:index 7 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -252,12 +262,12 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "742" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Accueil Traitement Urgence Spécialisé" ]
      ], [
-       fhir:index 6 ;
+       fhir:index 8 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "205" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Act inform dépistage diag infections sexuellmnt transmissibl" ]
      ], [
-       fhir:index 7 ;
+       fhir:index 9 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -284,17 +294,17 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "153" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Actes d'explantation de prothèses PIP" ]
      ], [
-       fhir:index 8 ;
+       fhir:index 10 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "218" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Activité de lutte anti tuberculose" ]
      ], [
-       fhir:index 9 ;
+       fhir:index 11 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "853" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Activité de lutte contre la lèpre" ]
      ], [
-       fhir:index 10 ;
+       fhir:index 12 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -321,42 +331,42 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "757" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Activité de Recherch.Expérim.ds Serv.Médico-Techn." ]
      ], [
-       fhir:index 11 ;
+       fhir:index 13 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "823" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Activité de Transfusion Sanguine" ]
      ], [
-       fhir:index 12 ;
+       fhir:index 14 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "086" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Activité de vaccination gratuite" ]
      ], [
-       fhir:index 13 ;
+       fhir:index 15 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "197" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Activité dentaire unique" ]
      ], [
-       fhir:index 14 ;
+       fhir:index 16 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "204" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Activité infirmière unique" ]
      ], [
-       fhir:index 15 ;
+       fhir:index 17 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "851" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Activité médicale autre que dentaire unique" ]
      ], [
-       fhir:index 16 ;
+       fhir:index 18 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "850" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Activité médicale et paramédicale" ]
      ], [
-       fhir:index 17 ;
+       fhir:index 19 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "852" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Activité paramédicale autre qu'activité infirmière unique" ]
      ], [
-       fhir:index 18 ;
+       fhir:index 20 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -383,12 +393,12 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "099" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Activité Pharmaco-Toxico-Vigilance" ]
      ], [
-       fhir:index 19 ;
+       fhir:index 21 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "854" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Activité sage-femme en maison de naissance" ]
      ], [
-       fhir:index 20 ;
+       fhir:index 22 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -415,7 +425,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "452" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Aide Aux Insuffisants Respiratoires" ]
      ], [
-       fhir:index 21 ;
+       fhir:index 23 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -442,12 +452,12 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "115" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "ALLERGOLOGIE" ]
      ], [
-       fhir:index 22 ;
+       fhir:index 24 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "209" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Ambulances" ]
      ], [
-       fhir:index 23 ;
+       fhir:index 25 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -474,7 +484,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "062" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Anatomie Cytologie Pathologiques" ]
      ], [
-       fhir:index 24 ;
+       fhir:index 26 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -501,7 +511,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "097" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Anesthésiologie" ]
      ], [
-       fhir:index 25 ;
+       fhir:index 27 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -528,7 +538,12 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "761" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Anesthésiologie & Salle Réveil" ]
      ], [
-       fhir:index 26 ;
+       fhir:index 28 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "862" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Appartement thérapeutique" ]
+     ], [
+       fhir:index 29 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -555,7 +570,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "647" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "assistance vent.Endotracheale" ]
      ], [
-       fhir:index 27 ;
+       fhir:index 30 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -582,7 +597,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "799" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Assistance Ventilatoire Avec Prothèse Extra-Thoracique" ]
      ], [
-       fhir:index 28 ;
+       fhir:index 31 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -609,7 +624,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "800" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Assistance ventilatoire Par Pres.Posit.Cont.ou Techn.Respir." ]
      ], [
-       fhir:index 29 ;
+       fhir:index 32 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -636,7 +651,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "646" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Assistance Ventilée Sans Trachéotomie" ]
      ], [
-       fhir:index 30 ;
+       fhir:index 33 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -663,17 +678,61 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "499" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Atelier thérapeutique" ]
      ], [
-       fhir:index 31 ;
+       fhir:index 34 ;
+       fhir:Element.extension [
+         fhir:index 0 ;
+         fhir:Element.extension [
+           fhir:index 0 ;
+           fhir:Extension.url [ fhir:value "inactive" ] ;
+           fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+         ] ;
+         fhir:Extension.url [ fhir:value "http://ontoserver.csiro.au/profiles/expansion" ]
+       ], [
+         fhir:index 1 ;
+         fhir:Element.extension [
+           fhir:index 0 ;
+           fhir:Extension.url [ fhir:value "code" ] ;
+           fhir:Extension.valueCode [ fhir:value "status" ]
+         ], [
+           fhir:index 1 ;
+           fhir:Extension.url [ fhir:value "value" ] ;
+           fhir:Extension.valueCode [ fhir:value "deprecated" ]
+         ] ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.property" ]
+       ] ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
+       fhir:ValueSet.expansion.contains.inactive [ fhir:value "true"^^xsd:boolean ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "806" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "atelier thérapeutique adulte" ]
      ], [
-       fhir:index 32 ;
+       fhir:index 35 ;
+       fhir:Element.extension [
+         fhir:index 0 ;
+         fhir:Element.extension [
+           fhir:index 0 ;
+           fhir:Extension.url [ fhir:value "inactive" ] ;
+           fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+         ] ;
+         fhir:Extension.url [ fhir:value "http://ontoserver.csiro.au/profiles/expansion" ]
+       ], [
+         fhir:index 1 ;
+         fhir:Element.extension [
+           fhir:index 0 ;
+           fhir:Extension.url [ fhir:value "code" ] ;
+           fhir:Extension.valueCode [ fhir:value "status" ]
+         ], [
+           fhir:index 1 ;
+           fhir:Extension.url [ fhir:value "value" ] ;
+           fhir:Extension.valueCode [ fhir:value "deprecated" ]
+         ] ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.property" ]
+       ] ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
+       fhir:ValueSet.expansion.contains.inactive [ fhir:value "true"^^xsd:boolean ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "807" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "atelier thérapeutique infanto-juvenile" ]
      ], [
-       fhir:index 33 ;
+       fhir:index 36 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -700,7 +759,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "723" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Auto dialyse" ]
      ], [
-       fhir:index 34 ;
+       fhir:index 37 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -727,7 +786,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "754" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Autre Activité Spécialisées Imagerie Médicale" ]
      ], [
-       fhir:index 35 ;
+       fhir:index 38 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -754,7 +813,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "085" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Autre discipline de biologie médicale spécialisée" ]
      ], [
-       fhir:index 36 ;
+       fhir:index 39 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -781,7 +840,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "409" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "autre pôle spécialisé urgence non dénommé ailleurs" ]
      ], [
-       fhir:index 37 ;
+       fhir:index 40 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -808,7 +867,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "044" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Autre Radiothérapie Spécialisée" ]
      ], [
-       fhir:index 38 ;
+       fhir:index 41 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -835,7 +894,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "061" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Autre Rééducation Spécialisée" ]
      ], [
-       fhir:index 39 ;
+       fhir:index 42 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -862,7 +921,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "090" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Autres Consultations Soins Externes" ]
      ], [
-       fhir:index 40 ;
+       fhir:index 43 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -889,7 +948,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "802" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Autres Traitements Spécialisés à Domicile" ]
      ], [
-       fhir:index 41 ;
+       fhir:index 44 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -916,7 +975,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "819" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Autres écographies" ]
      ], [
-       fhir:index 42 ;
+       fhir:index 45 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -943,7 +1002,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "063" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Bactériologie" ]
      ], [
-       fhir:index 43 ;
+       fhir:index 46 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -970,7 +1029,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "748" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Bactériologie & Virologie" ]
      ], [
-       fhir:index 44 ;
+       fhir:index 47 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -997,7 +1056,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "077" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Bactériologie-Vitro Parasitologie" ]
      ], [
-       fhir:index 45 ;
+       fhir:index 48 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1024,7 +1083,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "202" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Banque d'Organes" ]
      ], [
-       fhir:index 46 ;
+       fhir:index 49 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1051,7 +1110,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "201" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Banque de Sperme" ]
      ], [
-       fhir:index 47 ;
+       fhir:index 50 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1078,12 +1137,12 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "064" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Biochimie" ]
      ], [
-       fhir:index 48 ;
+       fhir:index 51 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "084" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Biologie Médicale" ]
      ], [
-       fhir:index 49 ;
+       fhir:index 52 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1110,7 +1169,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "065" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Biophysique" ]
      ], [
-       fhir:index 50 ;
+       fhir:index 53 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1137,7 +1196,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "762" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Bloc Opératoire et Stérilisation Indifférenciées" ]
      ], [
-       fhir:index 51 ;
+       fhir:index 54 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1164,7 +1223,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "728" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "cardiologie infantile" ]
      ], [
-       fhir:index 52 ;
+       fhir:index 55 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1191,27 +1250,125 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "103" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Centre AntiPoison" ]
      ], [
-       fhir:index 53 ;
+       fhir:index 56 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "877" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Centre d'accueil et de crise" ]
+     ], [
+       fhir:index 57 ;
+       fhir:Element.extension [
+         fhir:index 0 ;
+         fhir:Element.extension [
+           fhir:index 0 ;
+           fhir:Extension.url [ fhir:value "inactive" ] ;
+           fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+         ] ;
+         fhir:Extension.url [ fhir:value "http://ontoserver.csiro.au/profiles/expansion" ]
+       ], [
+         fhir:index 1 ;
+         fhir:Element.extension [
+           fhir:index 0 ;
+           fhir:Extension.url [ fhir:value "code" ] ;
+           fhir:Extension.valueCode [ fhir:value "status" ]
+         ], [
+           fhir:index 1 ;
+           fhir:Extension.url [ fhir:value "value" ] ;
+           fhir:Extension.valueCode [ fhir:value "deprecated" ]
+         ] ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.property" ]
+       ] ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
+       fhir:ValueSet.expansion.contains.inactive [ fhir:value "true"^^xsd:boolean ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "237" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "centre d'accueil permanent adulte" ]
      ], [
-       fhir:index 54 ;
+       fhir:index 58 ;
+       fhir:Element.extension [
+         fhir:index 0 ;
+         fhir:Element.extension [
+           fhir:index 0 ;
+           fhir:Extension.url [ fhir:value "inactive" ] ;
+           fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+         ] ;
+         fhir:Extension.url [ fhir:value "http://ontoserver.csiro.au/profiles/expansion" ]
+       ], [
+         fhir:index 1 ;
+         fhir:Element.extension [
+           fhir:index 0 ;
+           fhir:Extension.url [ fhir:value "code" ] ;
+           fhir:Extension.valueCode [ fhir:value "status" ]
+         ], [
+           fhir:index 1 ;
+           fhir:Extension.url [ fhir:value "value" ] ;
+           fhir:Extension.valueCode [ fhir:value "deprecated" ]
+         ] ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.property" ]
+       ] ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
+       fhir:ValueSet.expansion.contains.inactive [ fhir:value "true"^^xsd:boolean ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "238" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "centre d'accueil permanent infanto-juvénile" ]
      ], [
-       fhir:index 55 ;
+       fhir:index 59 ;
+       fhir:Element.extension [
+         fhir:index 0 ;
+         fhir:Element.extension [
+           fhir:index 0 ;
+           fhir:Extension.url [ fhir:value "inactive" ] ;
+           fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+         ] ;
+         fhir:Extension.url [ fhir:value "http://ontoserver.csiro.au/profiles/expansion" ]
+       ], [
+         fhir:index 1 ;
+         fhir:Element.extension [
+           fhir:index 0 ;
+           fhir:Extension.url [ fhir:value "code" ] ;
+           fhir:Extension.valueCode [ fhir:value "status" ]
+         ], [
+           fhir:index 1 ;
+           fhir:Extension.url [ fhir:value "value" ] ;
+           fhir:Extension.valueCode [ fhir:value "deprecated" ]
+         ] ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.property" ]
+       ] ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
+       fhir:ValueSet.expansion.contains.inactive [ fhir:value "true"^^xsd:boolean ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "233" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Centre d'accueil thérapeutique à temps partiel adulte" ]
      ], [
-       fhir:index 56 ;
+       fhir:index 60 ;
+       fhir:Element.extension [
+         fhir:index 0 ;
+         fhir:Element.extension [
+           fhir:index 0 ;
+           fhir:Extension.url [ fhir:value "inactive" ] ;
+           fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+         ] ;
+         fhir:Extension.url [ fhir:value "http://ontoserver.csiro.au/profiles/expansion" ]
+       ], [
+         fhir:index 1 ;
+         fhir:Element.extension [
+           fhir:index 0 ;
+           fhir:Extension.url [ fhir:value "code" ] ;
+           fhir:Extension.valueCode [ fhir:value "status" ]
+         ], [
+           fhir:index 1 ;
+           fhir:Extension.url [ fhir:value "value" ] ;
+           fhir:Extension.valueCode [ fhir:value "deprecated" ]
+         ] ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.property" ]
+       ] ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
+       fhir:ValueSet.expansion.contains.inactive [ fhir:value "true"^^xsd:boolean ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "234" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Centre d'accueil thérapeutique à temps partiel infanto-juv" ]
      ], [
-       fhir:index 57 ;
+       fhir:index 61 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "864" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Centre d'activités thérapeutiques et de temps de groupe" ]
+     ], [
+       fhir:index 62 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1238,17 +1395,81 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "759" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Centre d'Hémobiologie" ]
      ], [
-       fhir:index 58 ;
+       fhir:index 63 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "875" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Centre de consultations" ]
+     ], [
+       fhir:index 64 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "865" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Centre de crise" ]
+     ], [
+       fhir:index 65 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "866" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Centre de soins post-aigus" ]
+     ], [
+       fhir:index 66 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "867" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Centre médico-psychologique" ]
+     ], [
+       fhir:index 67 ;
+       fhir:Element.extension [
+         fhir:index 0 ;
+         fhir:Element.extension [
+           fhir:index 0 ;
+           fhir:Extension.url [ fhir:value "inactive" ] ;
+           fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+         ] ;
+         fhir:Extension.url [ fhir:value "http://ontoserver.csiro.au/profiles/expansion" ]
+       ], [
+         fhir:index 1 ;
+         fhir:Element.extension [
+           fhir:index 0 ;
+           fhir:Extension.url [ fhir:value "code" ] ;
+           fhir:Extension.valueCode [ fhir:value "status" ]
+         ], [
+           fhir:index 1 ;
+           fhir:Extension.url [ fhir:value "value" ] ;
+           fhir:Extension.valueCode [ fhir:value "deprecated" ]
+         ] ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.property" ]
+       ] ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
+       fhir:ValueSet.expansion.contains.inactive [ fhir:value "true"^^xsd:boolean ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "231" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "centre médico-psychologique adulte" ]
      ], [
-       fhir:index 59 ;
+       fhir:index 68 ;
+       fhir:Element.extension [
+         fhir:index 0 ;
+         fhir:Element.extension [
+           fhir:index 0 ;
+           fhir:Extension.url [ fhir:value "inactive" ] ;
+           fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+         ] ;
+         fhir:Extension.url [ fhir:value "http://ontoserver.csiro.au/profiles/expansion" ]
+       ], [
+         fhir:index 1 ;
+         fhir:Element.extension [
+           fhir:index 0 ;
+           fhir:Extension.url [ fhir:value "code" ] ;
+           fhir:Extension.valueCode [ fhir:value "status" ]
+         ], [
+           fhir:index 1 ;
+           fhir:Extension.url [ fhir:value "value" ] ;
+           fhir:Extension.valueCode [ fhir:value "deprecated" ]
+         ] ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.property" ]
+       ] ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
+       fhir:ValueSet.expansion.contains.inactive [ fhir:value "true"^^xsd:boolean ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "232" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "centre médico-psychologique infanto-juvénile" ]
      ], [
-       fhir:index 60 ;
+       fhir:index 69 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1275,7 +1496,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "747" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Chimie" ]
      ], [
-       fhir:index 61 ;
+       fhir:index 70 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1302,7 +1523,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "302" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "CHIMIOTHER.EN HEMATOL.& CANCER" ]
      ], [
-       fhir:index 62 ;
+       fhir:index 71 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1329,7 +1550,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "144" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Chirurgie Carcinologie" ]
      ], [
-       fhir:index 63 ;
+       fhir:index 72 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1356,7 +1577,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "150" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "CHIRURGIE CARDIO-VASCULAIRE" ]
      ], [
-       fhir:index 64 ;
+       fhir:index 73 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1383,7 +1604,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "146" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Chirurgie Digestive" ]
      ], [
-       fhir:index 65 ;
+       fhir:index 74 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1410,7 +1631,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "631" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Chirurgie Gynécologique" ]
      ], [
-       fhir:index 66 ;
+       fhir:index 75 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1437,7 +1658,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "137" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Chirurgie Générale" ]
      ], [
-       fhir:index 67 ;
+       fhir:index 76 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1464,7 +1685,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "181" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Chirurgie Générale Spécialités Chirurgicales" ]
      ], [
-       fhir:index 68 ;
+       fhir:index 77 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1491,7 +1712,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "138" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Chirurgie Infantile" ]
      ], [
-       fhir:index 69 ;
+       fhir:index 78 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1518,7 +1739,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "362" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Chirurgie Obstétrique Indifférenciées" ]
      ], [
-       fhir:index 70 ;
+       fhir:index 79 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1545,7 +1766,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "154" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Chirurgie Plastique Reconstructive" ]
      ], [
-       fhir:index 71 ;
+       fhir:index 80 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1572,7 +1793,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "147" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Chirurgie Thoracique Cardio-Vasculaire" ]
      ], [
-       fhir:index 72 ;
+       fhir:index 81 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1599,7 +1820,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "148" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "CHIRURGIE THORACO-PULMONAIRE" ]
      ], [
-       fhir:index 73 ;
+       fhir:index 82 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1626,7 +1847,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "149" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Chirurgie Vasculaire" ]
      ], [
-       fhir:index 74 ;
+       fhir:index 83 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1653,7 +1874,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "167" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Chroniques" ]
      ], [
-       fhir:index 75 ;
+       fhir:index 84 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1680,7 +1901,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "166" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Chroniques Convalescence Indifférencié" ]
      ], [
-       fhir:index 76 ;
+       fhir:index 85 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1707,7 +1928,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "820" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Collecte de Sang" ]
      ], [
-       fhir:index 77 ;
+       fhir:index 86 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1734,27 +1955,27 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "265" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "COLONIE A CARACTERE SANITAIRE" ]
      ], [
-       fhir:index 78 ;
+       fhir:index 87 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "087" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Consultation Anti-Tabac" ]
      ], [
-       fhir:index 79 ;
+       fhir:index 88 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "391" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Consultation de Planification ou Éducation Familiale" ]
      ], [
-       fhir:index 80 ;
+       fhir:index 89 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "390" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Consultation en Conseil Génétique" ]
      ], [
-       fhir:index 81 ;
+       fhir:index 90 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "727" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Consultation Externes Indifférenciées" ]
      ], [
-       fhir:index 82 ;
+       fhir:index 91 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1781,7 +2002,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "388" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Consultations de deuxième age" ]
      ], [
-       fhir:index 83 ;
+       fhir:index 92 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1808,22 +2029,22 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "387" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Consultations de Nourrissons" ]
      ], [
-       fhir:index 84 ;
+       fhir:index 93 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "726" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Consultations Multidisciplinaires" ]
      ], [
-       fhir:index 85 ;
+       fhir:index 94 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "386" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Consultations Protection Infantile" ]
      ], [
-       fhir:index 86 ;
+       fhir:index 95 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "385" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Consultations Prénuptiale Prénatale et Postnatale" ]
      ], [
-       fhir:index 87 ;
+       fhir:index 96 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1850,7 +2071,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "170" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Convalescence" ]
      ], [
-       fhir:index 88 ;
+       fhir:index 97 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1877,7 +2098,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "466" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Convalescence & Réadaptation Personnes Âgées" ]
      ], [
-       fhir:index 89 ;
+       fhir:index 98 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1904,7 +2125,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "737" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Convalescence et Réadaptation" ]
      ], [
-       fhir:index 90 ;
+       fhir:index 99 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1931,7 +2152,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "595" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Convalescence Postnatale" ]
      ], [
-       fhir:index 91 ;
+       fhir:index 100 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1958,7 +2179,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "067" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Coprologie" ]
      ], [
-       fhir:index 92 ;
+       fhir:index 101 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1985,7 +2206,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "221" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cure et Repos en Prévention" ]
      ], [
-       fhir:index 93 ;
+       fhir:index 102 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -2012,7 +2233,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "459" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cure Médic. Spécialisée Contre Tuberculose Extra-Pulmonaire" ]
      ], [
-       fhir:index 94 ;
+       fhir:index 103 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -2039,7 +2260,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "463" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cure Médic. Spécialisée Tous Ages" ]
      ], [
-       fhir:index 95 ;
+       fhir:index 104 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -2066,7 +2287,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "464" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cure Médic.Spéc.Pneumologique Pr Enfant" ]
      ], [
-       fhir:index 96 ;
+       fhir:index 105 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -2093,7 +2314,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "465" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cure Médic.Spéc.Pneumologique.Pr Tous Ages" ]
      ], [
-       fhir:index 97 ;
+       fhir:index 106 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -2120,7 +2341,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "457" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cure Médic.Spécialisée Contre Tuberculose Indifférenciée" ]
      ], [
-       fhir:index 98 ;
+       fhir:index 107 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -2147,7 +2368,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "458" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cure Médic.Spécialisée Contre Tuberculose Pulmonaire." ]
      ], [
-       fhir:index 99 ;
+       fhir:index 108 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -2174,7 +2395,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "460" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cure Médic.Spécialisée Contre Tuberculose(Préventorium)" ]
      ], [
-       fhir:index 100 ;
+       fhir:index 109 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -2201,7 +2422,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "604" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cure Médicale Non Spécialisée Pr Enfant (MECS)" ]
      ], [
-       fhir:index 101 ;
+       fhir:index 110 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -2228,7 +2449,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "609" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cure Médicale Pr Enfants Atteints d'Affect.Chroniques" ]
      ], [
-       fhir:index 102 ;
+       fhir:index 111 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -2255,7 +2476,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "610" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cure Médicale Pr Enfants Conval.En Rhumatismes Aigus" ]
      ], [
-       fhir:index 103 ;
+       fhir:index 112 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -2282,7 +2503,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "611" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cure Médicale Pr Enfants Convales.de Rhumatismes Aigus Tempo" ]
      ], [
-       fhir:index 104 ;
+       fhir:index 113 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -2309,7 +2530,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "612" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cure Médicale Pr Enfants Diabétiques (MECS Permanente)" ]
      ], [
-       fhir:index 105 ;
+       fhir:index 114 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -2336,7 +2557,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "613" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cure Médicale Pr Enfants Diabétiques (MECS Temporaire)" ]
      ], [
-       fhir:index 106 ;
+       fhir:index 115 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -2363,7 +2584,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "618" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cure Médicale Pr Enfants Hémophiles (MECS Permanente)" ]
      ], [
-       fhir:index 107 ;
+       fhir:index 116 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -2390,7 +2611,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "619" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cure Médicale Pr Enfants Hémophiles (MECS.Temporaire)" ]
      ], [
-       fhir:index 108 ;
+       fhir:index 117 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -2417,7 +2638,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "620" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cure Médicale Pr Enfants Infirmes Orthopédique (Permanente)" ]
      ], [
-       fhir:index 109 ;
+       fhir:index 118 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -2444,7 +2665,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "621" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cure Médicale Pr Enfants Infirmes Orthopédique (Temporaire)" ]
      ], [
-       fhir:index 110 ;
+       fhir:index 119 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -2471,7 +2692,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "616" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cure Médicale Pr Enfants Temp.Somat.Psycho" ]
      ], [
-       fhir:index 111 ;
+       fhir:index 120 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -2498,7 +2719,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "608" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cure Médicale Pr Enfants voies Resp.(Permanente)" ]
      ], [
-       fhir:index 112 ;
+       fhir:index 121 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -2525,7 +2746,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "622" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cure Médicale Pr Enfants Énurétiques (MECS Permanence)" ]
      ], [
-       fhir:index 113 ;
+       fhir:index 122 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -2552,7 +2773,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "623" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cure Médicale Pr Enfants Énurétiques (MECS Temporaire.)" ]
      ], [
-       fhir:index 114 ;
+       fhir:index 123 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -2579,7 +2800,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "614" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cure Médicale Pr Enfants Épileptiques (MECS Permanente)" ]
      ], [
-       fhir:index 115 ;
+       fhir:index 124 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -2606,7 +2827,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "615" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cure Médicale Pr Enfants Épileptiques (MECS Temporaire)" ]
      ], [
-       fhir:index 116 ;
+       fhir:index 125 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -2633,7 +2854,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "467" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cure Médicale Spécialisée Cardiologie Pr Enfant" ]
      ], [
-       fhir:index 117 ;
+       fhir:index 126 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -2660,7 +2881,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "468" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cure Médicale Spécialisée Cardiologie Tous ages" ]
      ], [
-       fhir:index 118 ;
+       fhir:index 127 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -2687,7 +2908,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "462" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cure Médicale Spécialisée Pour Enfants" ]
      ], [
-       fhir:index 119 ;
+       fhir:index 128 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -2714,7 +2935,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "625" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cure Médicale Spécialisée Pr Enfants (MECS .Temporaire)" ]
      ], [
-       fhir:index 120 ;
+       fhir:index 129 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -2741,7 +2962,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "624" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cure Médicale Spécialisée Pr Enfants (MECS Permanente)" ]
      ], [
-       fhir:index 121 ;
+       fhir:index 130 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -2768,7 +2989,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "191" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "CURE THERM.AFFECT.HEPATO-DIGES" ]
      ], [
-       fhir:index 122 ;
+       fhir:index 131 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -2795,12 +3016,12 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "192" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "CURE THERM.APPAREIL URINAIRE" ]
      ], [
-       fhir:index 123 ;
+       fhir:index 132 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "173" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cure Thermale" ]
      ], [
-       fhir:index 124 ;
+       fhir:index 133 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -2827,7 +3048,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "651" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cure Thermale des Affect.des Muqueuses Bucco-Linguales" ]
      ], [
-       fhir:index 125 ;
+       fhir:index 134 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -2854,7 +3075,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "830" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cure Thermale des Affections Psychosomatiques" ]
      ], [
-       fhir:index 126 ;
+       fhir:index 135 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -2881,7 +3102,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "189" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cure Thermale des Voies Respiratoires" ]
      ], [
-       fhir:index 127 ;
+       fhir:index 136 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -2908,7 +3129,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "194" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cure Thermale en Dermatologie" ]
      ], [
-       fhir:index 128 ;
+       fhir:index 137 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -2935,7 +3156,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "833" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cure Thermale en Gynécologie" ]
      ], [
-       fhir:index 129 ;
+       fhir:index 138 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -2962,7 +3183,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "829" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cure thermale en Neurologie" ]
      ], [
-       fhir:index 130 ;
+       fhir:index 139 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -2989,7 +3210,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "831" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cure Thermale en Phlébologie" ]
      ], [
-       fhir:index 131 ;
+       fhir:index 140 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -3016,7 +3237,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "828" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cure Thermale Maladies Cardio-artérielles" ]
      ], [
-       fhir:index 132 ;
+       fhir:index 141 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -3043,7 +3264,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "606" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cure Thermale Pr Enfants (MECS Ouv Permanence)" ]
      ], [
-       fhir:index 133 ;
+       fhir:index 142 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -3070,7 +3291,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "607" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cure Thermale Pr Enfants (MECS Ouv.de Façon Temporaire)" ]
      ], [
-       fhir:index 134 ;
+       fhir:index 143 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -3097,7 +3318,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "834" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cure Thermale Pr Maladies de l'Appar.Digest.Mal.Métabolques" ]
      ], [
-       fhir:index 135 ;
+       fhir:index 144 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -3124,7 +3345,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "835" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cure Thermale Pr Maladies de l'Appar.Urinaire Mal.Métabol." ]
      ], [
-       fhir:index 136 ;
+       fhir:index 145 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -3151,7 +3372,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "832" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cure Thermale Pr Troubles du Développement chez l'enfant" ]
      ], [
-       fhir:index 137 ;
+       fhir:index 146 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -3178,7 +3399,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "193" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cure Thermale Rhumatologie Séquel.Traum.Ostéo-articaires" ]
      ], [
-       fhir:index 138 ;
+       fhir:index 147 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -3205,7 +3426,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "043" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Curiethérapie" ]
      ], [
-       fhir:index 139 ;
+       fhir:index 148 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -3232,7 +3453,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "069" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cytogénétique" ]
      ], [
-       fhir:index 140 ;
+       fhir:index 149 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -3259,7 +3480,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "068" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cytologie" ]
      ], [
-       fhir:index 141 ;
+       fhir:index 150 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -3286,7 +3507,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "117" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Dermatologie-Vénérologie" ]
      ], [
-       fhir:index 142 ;
+       fhir:index 151 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -3313,7 +3534,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "555" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Dialyse Péritonéale" ]
      ], [
-       fhir:index 143 ;
+       fhir:index 152 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -3340,17 +3561,17 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "556" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Dialyse Péritonéale Continue" ]
      ], [
-       fhir:index 144 ;
+       fhir:index 153 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "203" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Dispensaire de Soins" ]
      ], [
-       fhir:index 145 ;
+       fhir:index 154 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "666" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Dispensation à Domicile d'Oxygène à usage médical" ]
      ], [
-       fhir:index 146 ;
+       fhir:index 155 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -3377,7 +3598,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "093" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Distribution autres Biens Médicaux" ]
      ], [
-       fhir:index 147 ;
+       fhir:index 156 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -3404,7 +3625,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "092" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Distribution de Produits Pharmaceutiques" ]
      ], [
-       fhir:index 148 ;
+       fhir:index 157 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -3431,7 +3652,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "758" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Département d'information médicale" ]
      ], [
-       fhir:index 149 ;
+       fhir:index 158 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -3458,7 +3679,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "070" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Embryologie" ]
      ], [
-       fhir:index 150 ;
+       fhir:index 159 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -3485,7 +3706,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "119" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Endocrino-Diabetologie" ]
      ], [
-       fhir:index 151 ;
+       fhir:index 160 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -3512,7 +3733,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "951" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Enseignement Autre (Ex:Éducation Sanitaire)" ]
      ], [
-       fhir:index 152 ;
+       fhir:index 161 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -3539,7 +3760,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "950" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Enseignement Médical" ]
      ], [
-       fhir:index 153 ;
+       fhir:index 162 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -3566,7 +3787,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "552" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Entraînement à l'Hémodialyse à Domicile" ]
      ], [
-       fhir:index 154 ;
+       fhir:index 163 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -3593,7 +3814,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "554" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Entraînement à la Dialyse Péritonéale Continue" ]
      ], [
-       fhir:index 155 ;
+       fhir:index 164 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -3620,7 +3841,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "553" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Entraînement à la Dialyse Péritonéale à Domicile" ]
      ], [
-       fhir:index 156 ;
+       fhir:index 165 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -3647,7 +3868,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "071" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Enzymologie" ]
      ], [
-       fhir:index 157 ;
+       fhir:index 166 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -3674,7 +3895,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "056" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Ergothérapie" ]
      ], [
-       fhir:index 158 ;
+       fhir:index 167 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -3701,7 +3922,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "310" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Examens de Santé et Bilans" ]
      ], [
-       fhir:index 159 ;
+       fhir:index 168 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -3728,7 +3949,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "045" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Exploration Fonctionnelle Cardiovasculaire" ]
      ], [
-       fhir:index 160 ;
+       fhir:index 169 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -3755,7 +3976,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "051" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Exploration Fonctionnelle Cardiovasculaire Néphrologique" ]
      ], [
-       fhir:index 161 ;
+       fhir:index 170 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -3782,7 +4003,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "052" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Exploration Fonctionnelle Cardiovasculaire Pneumologique." ]
      ], [
-       fhir:index 162 ;
+       fhir:index 171 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -3809,7 +4030,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "053" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Exploration Fonctionnelle Fonctionnelle Polyvalente" ]
      ], [
-       fhir:index 163 ;
+       fhir:index 172 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -3836,7 +4057,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "050" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Exploration Fonctionnelle Fonctionnelle Spécialisée" ]
      ], [
-       fhir:index 164 ;
+       fhir:index 173 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -3863,7 +4084,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "048" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Exploration Fonctionnelle Neurologique" ]
      ], [
-       fhir:index 165 ;
+       fhir:index 174 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -3890,7 +4111,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "046" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Exploration Fonctionnelle Néphrologique" ]
      ], [
-       fhir:index 166 ;
+       fhir:index 175 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -3917,7 +4138,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "047" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Exploration Fonctionnelle Pneumologique" ]
      ], [
-       fhir:index 167 ;
+       fhir:index 176 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -3944,7 +4165,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "049" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Exploration Fonctionnelle Tube Digestif" ]
      ], [
-       fhir:index 168 ;
+       fhir:index 177 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -3971,7 +4192,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "756" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Exploration Fonctionnelles en Ophtalmologie" ]
      ], [
-       fhir:index 169 ;
+       fhir:index 178 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -3998,7 +4219,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "755" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Explorations Fonctionnelles en O.R.L." ]
      ], [
-       fhir:index 170 ;
+       fhir:index 179 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -4025,7 +4246,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "095" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Fabrication Autres Biens Médicaux Prothèses" ]
      ], [
-       fhir:index 171 ;
+       fhir:index 180 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -4052,7 +4273,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "665" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Fabrication Distribution Produit Pharmaceutiques" ]
      ], [
-       fhir:index 172 ;
+       fhir:index 181 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -4079,17 +4300,17 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "091" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Fabrication Préparation Produits Pharmaceutiques" ]
      ], [
-       fhir:index 173 ;
+       fhir:index 182 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "396" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Guidance infantile" ]
      ], [
-       fhir:index 174 ;
+       fhir:index 183 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "395" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Guidance Parentale" ]
      ], [
-       fhir:index 175 ;
+       fhir:index 184 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -4116,7 +4337,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "163" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Gynéco.& Obstétrique" ]
      ], [
-       fhir:index 176 ;
+       fhir:index 185 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -4143,7 +4364,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "164" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Gynécologie Médicale" ]
      ], [
-       fhir:index 177 ;
+       fhir:index 186 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -4170,7 +4391,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "165" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Gynécologie Obstétrique" ]
      ], [
-       fhir:index 178 ;
+       fhir:index 187 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -4197,7 +4418,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "073" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Histologie" ]
      ], [
-       fhir:index 179 ;
+       fhir:index 188 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -4224,7 +4445,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "074" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Hormonologie" ]
      ], [
-       fhir:index 180 ;
+       fhir:index 189 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -4251,7 +4472,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "244" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "hospitalisation psychiatrique à domicile adulte" ]
      ], [
-       fhir:index 181 ;
+       fhir:index 190 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -4278,7 +4499,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "245" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "hospitalisation psychiatrique à domicile infanto-juv" ]
      ], [
-       fhir:index 182 ;
+       fhir:index 191 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -4305,12 +4526,12 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "057" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Hydrothérapie" ]
      ], [
-       fhir:index 183 ;
+       fhir:index 192 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "241" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Hygiène Alimentaire" ]
      ], [
-       fhir:index 184 ;
+       fhir:index 193 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -4337,7 +4558,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "072" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Hématologie" ]
      ], [
-       fhir:index 185 ;
+       fhir:index 194 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -4364,7 +4585,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "746" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Hématologie et Hémostase" ]
      ], [
-       fhir:index 186 ;
+       fhir:index 195 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -4391,7 +4612,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "123" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Hématologie Maladies du Sang" ]
      ], [
-       fhir:index 187 ;
+       fhir:index 196 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -4418,7 +4639,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "797" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Hémodialyse et Hémofiltration Pr Chroniques Adultes" ]
      ], [
-       fhir:index 188 ;
+       fhir:index 197 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -4445,7 +4666,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "798" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Hémodialyse et Hémofiltration Pr Chroniques Enfants" ]
      ], [
-       fhir:index 189 ;
+       fhir:index 198 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -4472,7 +4693,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "037" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Hémodynamique" ]
      ], [
-       fhir:index 190 ;
+       fhir:index 199 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -4499,7 +4720,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "745" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Hémostase" ]
      ], [
-       fhir:index 191 ;
+       fhir:index 200 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -4526,7 +4747,17 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "124" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Hépato-Gastro-Entérologie" ]
      ], [
-       fhir:index 192 ;
+       fhir:index 201 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "868" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Hôpital de jour" ]
+     ], [
+       fhir:index 202 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "874" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Hôpital de nuit" ]
+     ], [
+       fhir:index 203 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -4553,7 +4784,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "753" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Imagerie Par Résonance Magnétique (IRM)" ]
      ], [
-       fhir:index 193 ;
+       fhir:index 204 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -4580,7 +4811,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "743" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Immuno-Hématologie" ]
      ], [
-       fhir:index 194 ;
+       fhir:index 205 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -4607,7 +4838,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "744" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Immuno-Sérologie" ]
      ], [
-       fhir:index 195 ;
+       fhir:index 206 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -4634,7 +4865,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "076" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Immunologie" ]
      ], [
-       fhir:index 196 ;
+       fhir:index 207 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -4661,12 +4892,12 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "811" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Immunologie Tissulaire Auto-Immunité" ]
      ], [
-       fhir:index 197 ;
+       fhir:index 208 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "392" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Information Consultation ou Conseil familial" ]
      ], [
-       fhir:index 198 ;
+       fhir:index 209 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -4693,12 +4924,12 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "801" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Insulinothérapie" ]
      ], [
-       fhir:index 199 ;
+       fhir:index 210 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "309" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Interruption Volontaire de Grossesse" ]
      ], [
-       fhir:index 200 ;
+       fhir:index 211 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -4725,7 +4956,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "058" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Kinésithérapie" ]
      ], [
-       fhir:index 201 ;
+       fhir:index 212 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -4752,7 +4983,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "634" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Laboratoire de Radio-Isotopes" ]
      ], [
-       fhir:index 202 ;
+       fhir:index 213 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -4779,7 +5010,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "749" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Laboratoire de Radio-isotopes (Méd.Nucléaire)" ]
      ], [
-       fhir:index 203 ;
+       fhir:index 214 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -4806,7 +5037,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "394" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Lactarium" ]
      ], [
-       fhir:index 204 ;
+       fhir:index 215 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -4833,7 +5064,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "176" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Long Séjour Personnes Ayant Perdu Leur Autonomie de Vie" ]
      ], [
-       fhir:index 205 ;
+       fhir:index 216 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -4860,7 +5091,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "206" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Lutte Antihansénienne" ]
      ], [
-       fhir:index 206 ;
+       fhir:index 217 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -4887,7 +5118,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "196" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Lutte Contre l'Alcoolisme" ]
      ], [
-       fhir:index 207 ;
+       fhir:index 218 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -4914,7 +5145,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "389" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Lutte contre la Stérilité" ]
      ], [
-       fhir:index 208 ;
+       fhir:index 219 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -4941,7 +5172,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "217" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Lutte Contre La Tuberculose Indifférenciée" ]
      ], [
-       fhir:index 209 ;
+       fhir:index 220 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -4968,7 +5199,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "219" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Lutte Ctre la Tuberculose Pulmonaire" ]
      ], [
-       fhir:index 210 ;
+       fhir:index 221 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -4995,7 +5226,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "220" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Lutte Ctre Tuberculose Extra-Pulmonaire" ]
      ], [
-       fhir:index 211 ;
+       fhir:index 222 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -5022,12 +5253,12 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "605" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "M.E.C.S. Non spec. Temporaire" ]
      ], [
-       fhir:index 212 ;
+       fhir:index 223 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "855" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Maison médicale de garde" ]
      ], [
-       fhir:index 213 ;
+       fhir:index 224 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -5054,7 +5285,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "102" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Maladie Infectieuse et Parasitaire" ]
      ], [
-       fhir:index 214 ;
+       fhir:index 225 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -5081,7 +5312,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "722" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Maladies Infect.Tropic.Exotiq." ]
      ], [
-       fhir:index 215 ;
+       fhir:index 226 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -5108,7 +5339,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "122" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Maladies Métaboliques Nutrition" ]
      ], [
-       fhir:index 216 ;
+       fhir:index 227 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -5135,7 +5366,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "174" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "MEDEC.GEN. & SPECIALITE MEDIC." ]
      ], [
-       fhir:index 217 ;
+       fhir:index 228 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -5162,7 +5393,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "126" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "MEDECINE CARCINOLOGIQUE" ]
      ], [
-       fhir:index 218 ;
+       fhir:index 229 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -5189,7 +5420,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "627" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Moyen Séjour Indifférencié" ]
      ], [
-       fhir:index 219 ;
+       fhir:index 230 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -5216,7 +5447,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "078" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Mycologie" ]
      ], [
-       fhir:index 220 ;
+       fhir:index 231 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -5243,7 +5474,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "127" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Médecine Cardio-Vasculaire" ]
      ], [
-       fhir:index 221 ;
+       fhir:index 232 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -5270,7 +5501,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "109" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Médecine de l'Adolescent" ]
      ], [
-       fhir:index 222 ;
+       fhir:index 233 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -5297,7 +5528,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "472" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Médecine de la Reproduction (y c A.M.P.)" ]
      ], [
-       fhir:index 223 ;
+       fhir:index 234 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -5324,7 +5555,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "596" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Médecine du Travail" ]
      ], [
-       fhir:index 224 ;
+       fhir:index 235 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -5351,7 +5582,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "599" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "médecine générale (app.Respiratoire)" ]
      ], [
-       fhir:index 225 ;
+       fhir:index 236 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -5378,7 +5609,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "471" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Médecine Générale et Spécialités Médicales" ]
      ], [
-       fhir:index 226 ;
+       fhir:index 237 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -5405,7 +5636,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "101" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Médecine Générale ou Médecine Interne" ]
      ], [
-       fhir:index 227 ;
+       fhir:index 238 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -5432,7 +5663,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "223" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Médecine Générale ou Polyvalente" ]
      ], [
-       fhir:index 228 ;
+       fhir:index 239 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -5459,7 +5690,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "113" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Médecine Gériatrique" ]
      ], [
-       fhir:index 229 ;
+       fhir:index 240 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -5486,7 +5717,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "225" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Médecine Interne Spécialités Médicales" ]
      ], [
-       fhir:index 230 ;
+       fhir:index 241 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -5513,7 +5744,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "088" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Médecine Légale" ]
      ], [
-       fhir:index 231 ;
+       fhir:index 242 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -5540,27 +5771,27 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "136" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Médecine Nucléaire" ]
      ], [
-       fhir:index 232 ;
+       fhir:index 243 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "089" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Médecine Préventive Santé Publique" ]
      ], [
-       fhir:index 233 ;
+       fhir:index 244 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "446" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Médecine Scolaire" ]
      ], [
-       fhir:index 234 ;
+       fhir:index 245 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "448" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Médecine Sportive" ]
      ], [
-       fhir:index 235 ;
+       fhir:index 246 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "447" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Médecine Universitaire" ]
      ], [
-       fhir:index 236 ;
+       fhir:index 247 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -5587,7 +5818,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "151" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Neurochirurgie" ]
      ], [
-       fhir:index 237 ;
+       fhir:index 248 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -5614,7 +5845,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "129" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Neurologie" ]
      ], [
-       fhir:index 238 ;
+       fhir:index 249 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -5641,7 +5872,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "036" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Neuroradiologie" ]
      ], [
-       fhir:index 239 ;
+       fhir:index 250 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -5668,7 +5899,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "664" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Nutrition Parentale Adultes" ]
      ], [
-       fhir:index 240 ;
+       fhir:index 251 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -5695,7 +5926,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "663" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Nutrition Parentale Enfants" ]
      ], [
-       fhir:index 241 ;
+       fhir:index 252 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -5722,7 +5953,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "112" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Néonatalogie" ]
      ], [
-       fhir:index 242 ;
+       fhir:index 253 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -5749,7 +5980,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "312" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Néphrologie" ]
      ], [
-       fhir:index 243 ;
+       fhir:index 254 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -5776,7 +6007,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "224" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Observation et Traitement Pneumoconioses" ]
      ], [
-       fhir:index 244 ;
+       fhir:index 255 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -5803,7 +6034,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "183" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "OBSTETRIQUE SANS CHIRURGIE" ]
      ], [
-       fhir:index 245 ;
+       fhir:index 256 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -5830,7 +6061,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "198" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Oncologie" ]
      ], [
-       fhir:index 246 ;
+       fhir:index 257 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -5857,7 +6088,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "157" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Ophtalmologie" ]
      ], [
-       fhir:index 247 ;
+       fhir:index 258 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -5884,7 +6115,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "155" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "ORL ET OPHTALMOLOGIE" ]
      ], [
-       fhir:index 248 ;
+       fhir:index 259 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -5911,7 +6142,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "557" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "orl et stomatologie" ]
      ], [
-       fhir:index 249 ;
+       fhir:index 260 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -5938,7 +6169,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "162" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "ORL-OPHTALMOLOG.& STOMATOLOGIE" ]
      ], [
-       fhir:index 250 ;
+       fhir:index 261 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -5965,7 +6196,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "059" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Orthophonie" ]
      ], [
-       fhir:index 251 ;
+       fhir:index 262 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -5992,7 +6223,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "060" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Orthoptie" ]
      ], [
-       fhir:index 252 ;
+       fhir:index 263 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -6019,7 +6250,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "152" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Orthopédie-Traumatologie" ]
      ], [
-       fhir:index 253 ;
+       fhir:index 264 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -6046,7 +6277,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "156" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Oto-rhino-laryngologie" ]
      ], [
-       fhir:index 254 ;
+       fhir:index 265 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -6073,7 +6304,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "645" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Oxygénothérapie Isolée" ]
      ], [
-       fhir:index 255 ;
+       fhir:index 266 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -6100,7 +6331,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "079" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Parasitologie" ]
      ], [
-       fhir:index 256 ;
+       fhir:index 267 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -6127,7 +6358,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "098" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Parasitologie et Mycologie" ]
      ], [
-       fhir:index 257 ;
+       fhir:index 268 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -6154,7 +6385,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "111" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "PEDIATRIE NOURRISSONS" ]
      ], [
-       fhir:index 258 ;
+       fhir:index 269 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -6181,12 +6412,34 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "763" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Pharmacie & Stérilisation" ]
      ], [
-       fhir:index 259 ;
+       fhir:index 270 ;
+       fhir:Element.extension [
+         fhir:index 0 ;
+         fhir:Element.extension [
+           fhir:index 0 ;
+           fhir:Extension.url [ fhir:value "inactive" ] ;
+           fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+         ] ;
+         fhir:Extension.url [ fhir:value "http://ontoserver.csiro.au/profiles/expansion" ]
+       ], [
+         fhir:index 1 ;
+         fhir:Element.extension [
+           fhir:index 0 ;
+           fhir:Extension.url [ fhir:value "code" ] ;
+           fhir:Extension.valueCode [ fhir:value "status" ]
+         ], [
+           fhir:index 1 ;
+           fhir:Extension.url [ fhir:value "value" ] ;
+           fhir:Extension.valueCode [ fhir:value "deprecated" ]
+         ] ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.property" ]
+       ] ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
+       fhir:ValueSet.expansion.contains.inactive [ fhir:value "true"^^xsd:boolean ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "824" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Pharmacie d'Établissement" ]
      ], [
-       fhir:index 260 ;
+       fhir:index 271 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -6213,7 +6466,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "094" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Pharmacocinétique" ]
      ], [
-       fhir:index 261 ;
+       fhir:index 272 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -6240,7 +6493,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "080" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Pharmacologie" ]
      ], [
-       fhir:index 262 ;
+       fhir:index 273 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -6267,7 +6520,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "263" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Placement familial sanitaire" ]
      ], [
-       fhir:index 263 ;
+       fhir:index 274 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -6294,17 +6547,17 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "130" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Pneumologie" ]
      ], [
-       fhir:index 264 ;
+       fhir:index 275 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "857" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Point fixe de consultation" ]
      ], [
-       fhir:index 265 ;
+       fhir:index 276 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "856" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Point fixe de garde" ]
      ], [
-       fhir:index 266 ;
+       fhir:index 277 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -6331,7 +6584,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "240" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "POST-CURE POUR TOXICOMANES" ]
      ], [
-       fhir:index 267 ;
+       fhir:index 278 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -6358,7 +6611,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "214" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Postcure pour Alcooliques" ]
      ], [
-       fhir:index 268 ;
+       fhir:index 279 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -6385,7 +6638,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "227" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Postcure pour Tuberculeux" ]
      ], [
-       fhir:index 269 ;
+       fhir:index 280 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -6412,7 +6665,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "252" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Pouponnière à Caractère Sanitaire" ]
      ], [
-       fhir:index 270 ;
+       fhir:index 281 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -6439,12 +6692,12 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "822" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Production de Produits Sanguins" ]
      ], [
-       fhir:index 271 ;
+       fhir:index 282 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "384" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Protection Maternelle & Infantile" ]
      ], [
-       fhir:index 272 ;
+       fhir:index 283 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -6471,7 +6724,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "096" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Prélèvement Scientifique Vérification Diagnostic" ]
      ], [
-       fhir:index 273 ;
+       fhir:index 284 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -6498,7 +6751,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "803" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Psychiatrie arriérés profonds" ]
      ], [
-       fhir:index 274 ;
+       fhir:index 285 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -6525,7 +6778,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "808" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Psychiatrie en Milieu Pénitentiaire" ]
      ], [
-       fhir:index 275 ;
+       fhir:index 286 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -6552,7 +6805,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "230" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Psychiatrie Générale" ]
      ], [
-       fhir:index 276 ;
+       fhir:index 287 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -6579,7 +6832,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "236" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Psychiatrie Infanto-Juvenile" ]
      ], [
-       fhir:index 277 ;
+       fhir:index 288 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -6606,7 +6859,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "108" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Pédiatrie" ]
      ], [
-       fhir:index 278 ;
+       fhir:index 289 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -6633,7 +6886,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "405" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "pôle spécialisé urgence en cardiologie" ]
      ], [
-       fhir:index 279 ;
+       fhir:index 290 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -6660,7 +6913,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "408" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "pôle spécialisé urgence en neurochirurgie" ]
      ], [
-       fhir:index 280 ;
+       fhir:index 291 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -6687,7 +6940,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "404" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "pôle spécialisé urgence en ophtalmologie" ]
      ], [
-       fhir:index 281 ;
+       fhir:index 292 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -6714,7 +6967,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "403" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "pôle spécialisé urgence en pédiatrie" ]
      ], [
-       fhir:index 282 ;
+       fhir:index 293 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -6741,7 +6994,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "407" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "pôle spécialisé urgence en SOS main" ]
      ], [
-       fhir:index 283 ;
+       fhir:index 294 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -6768,7 +7021,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "406" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "pôle spécialisé urgence en traumatologie" ]
      ], [
-       fhir:index 284 ;
+       fhir:index 295 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -6795,7 +7048,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "100" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Radio-Immunologie" ]
      ], [
-       fhir:index 285 ;
+       fhir:index 296 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -6822,7 +7075,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "751" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Radiologie Vasculaire" ]
      ], [
-       fhir:index 286 ;
+       fhir:index 297 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -6849,7 +7102,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "034" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Radiostandard" ]
      ], [
-       fhir:index 287 ;
+       fhir:index 298 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -6876,7 +7129,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "134" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "RADIOTHER. & MEDEC. NUCLEAIRE" ]
      ], [
-       fhir:index 288 ;
+       fhir:index 299 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -6903,7 +7156,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "135" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "RADIOTHERAPIE" ]
      ], [
-       fhir:index 289 ;
+       fhir:index 300 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -6930,7 +7183,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "038" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Radiothérapie de Contact" ]
      ], [
-       fhir:index 290 ;
+       fhir:index 301 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -6957,7 +7210,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "039" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Radiothérapie Externe(Césium Cobalt)" ]
      ], [
-       fhir:index 291 ;
+       fhir:index 302 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -6984,7 +7237,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "041" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Radiothérapie Haute Énergie" ]
      ], [
-       fhir:index 292 ;
+       fhir:index 303 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -7011,7 +7264,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "721" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Radiothérapie Métabolique" ]
      ], [
-       fhir:index 293 ;
+       fhir:index 304 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -7038,7 +7291,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "949" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Recherche Chirurgicale ou Chirurgie Expérimentale" ]
      ], [
-       fhir:index 294 ;
+       fhir:index 305 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -7065,7 +7318,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "952" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Recherche Médicale" ]
      ], [
-       fhir:index 295 ;
+       fhir:index 306 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -7092,7 +7345,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "955" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Recherche Odontologique" ]
      ], [
-       fhir:index 296 ;
+       fhir:index 307 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -7119,7 +7372,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "954" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Recherche Pharmaceutique" ]
      ], [
-       fhir:index 297 ;
+       fhir:index 308 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -7146,7 +7399,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "953" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Recherche Pharmacologique" ]
      ], [
-       fhir:index 298 ;
+       fhir:index 309 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -7173,7 +7426,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "956" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Recherche Toxicologique" ]
      ], [
-       fhir:index 299 ;
+       fhir:index 310 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -7200,7 +7453,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "186" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "REEDUCATION PERSONNE AGEE" ]
      ], [
-       fhir:index 300 ;
+       fhir:index 311 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -7227,7 +7480,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "169" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Repos" ]
      ], [
-       fhir:index 301 ;
+       fhir:index 312 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -7254,7 +7507,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "594" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Repos Prénatal" ]
      ], [
-       fhir:index 302 ;
+       fhir:index 313 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -7281,7 +7534,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "185" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Repos-Convalescence Indifférenciés" ]
      ], [
-       fhir:index 303 ;
+       fhir:index 314 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -7308,7 +7561,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "168" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Repos-Convalescence Régime Indifférencié" ]
      ], [
-       fhir:index 304 ;
+       fhir:index 315 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -7335,7 +7588,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "133" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Rhumatologie" ]
      ], [
-       fhir:index 305 ;
+       fhir:index 316 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -7362,7 +7615,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "055" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Réadaption-Rééducation Fonctionnelle Polyvalente" ]
      ], [
-       fhir:index 306 ;
+       fhir:index 317 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -7389,7 +7642,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "141" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Réanimation Chirurgicale Adultes" ]
      ], [
-       fhir:index 307 ;
+       fhir:index 318 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -7416,7 +7669,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "641" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "réanimation en cardiologie" ]
      ], [
-       fhir:index 308 ;
+       fhir:index 319 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -7443,7 +7696,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "104" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Réanimation Médicale Adultes" ]
      ], [
-       fhir:index 309 ;
+       fhir:index 320 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -7470,7 +7723,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "720" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "réanimation néonatale" ]
      ], [
-       fhir:index 310 ;
+       fhir:index 321 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -7497,7 +7750,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "635" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Réanimation Néonatale" ]
      ], [
-       fhir:index 311 ;
+       fhir:index 322 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -7524,7 +7777,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "105" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Réanimation Polyvalente" ]
      ], [
-       fhir:index 312 ;
+       fhir:index 323 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -7551,7 +7804,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "636" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Réanimation Pédiatrique Polyvalente" ]
      ], [
-       fhir:index 313 ;
+       fhir:index 324 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -7578,7 +7831,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "171" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Régime" ]
      ], [
-       fhir:index 314 ;
+       fhir:index 325 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -7605,7 +7858,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "738" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Rééduc.Fonct.Réadapt.Motrice (Orient.Rhumatologie)" ]
      ], [
-       fhir:index 315 ;
+       fhir:index 326 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -7632,7 +7885,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "739" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Rééduc.Fonct.Réadapt.Motrice (Orient.Traumatologie)" ]
      ], [
-       fhir:index 316 ;
+       fhir:index 327 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -7659,7 +7912,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "182" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Rééducat. Maladies Cardio-Vasculaires" ]
      ], [
-       fhir:index 317 ;
+       fhir:index 328 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -7686,7 +7939,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "184" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Rééducation des Affections Hépato-Digestives" ]
      ], [
-       fhir:index 318 ;
+       fhir:index 329 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -7713,7 +7966,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "180" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Rééducation des Affections Respiratoires" ]
      ], [
-       fhir:index 319 ;
+       fhir:index 330 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -7740,7 +7993,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "187" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Rééducation Fonctionnelle Réadaptation" ]
      ], [
-       fhir:index 320 ;
+       fhir:index 331 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -7767,7 +8020,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "178" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Rééducation Fonctionnelle Réadaptation Motrice" ]
      ], [
-       fhir:index 321 ;
+       fhir:index 332 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -7794,7 +8047,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "179" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Rééducation Fonctionnelle Réadaptation Neurologique" ]
      ], [
-       fhir:index 322 ;
+       fhir:index 333 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -7821,7 +8074,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "172" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Rééducation Fonctionnelle Réadaptation Polyvalente" ]
      ], [
-       fhir:index 323 ;
+       fhir:index 334 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -7848,7 +8101,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "207" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "S.A.M.U Centre 15" ]
      ], [
-       fhir:index 324 ;
+       fhir:index 335 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -7875,7 +8128,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "208" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "S.M.U.R. U.M.H." ]
      ], [
-       fhir:index 325 ;
+       fhir:index 336 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -7902,7 +8155,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "760" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Salle de Réveil" ]
      ], [
-       fhir:index 326 ;
+       fhir:index 337 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -7929,7 +8182,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "035" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Scanographie X" ]
      ], [
-       fhir:index 327 ;
+       fhir:index 338 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -7956,7 +8209,12 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "402" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "service accueil et traitement urgences" ]
      ], [
-       fhir:index 328 ;
+       fhir:index 339 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "869" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Service médico-psychologique régional" ]
+     ], [
+       fhir:index 340 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -7983,7 +8241,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "195" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Soins aux Toxicomanes" ]
      ], [
-       fhir:index 329 ;
+       fhir:index 341 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -8010,7 +8268,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "718" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Soins Hautement Spécialisés en Chirurgie" ]
      ], [
-       fhir:index 330 ;
+       fhir:index 342 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -8037,7 +8295,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "719" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Soins Hautement Spécialisés en Gynécologie" ]
      ], [
-       fhir:index 331 ;
+       fhir:index 343 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -8064,7 +8322,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "717" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Soins Hautement Spécialisés en Médecine" ]
      ], [
-       fhir:index 332 ;
+       fhir:index 344 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -8091,7 +8349,12 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "235" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "soins intensifs de néonatologie" ]
      ], [
-       fhir:index 333 ;
+       fhir:index 345 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "870" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Soins à domicile" ]
+     ], [
+       fhir:index 346 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -8118,7 +8381,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "143" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "SPECIALITE CHIRURGICALE" ]
      ], [
-       fhir:index 334 ;
+       fhir:index 347 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -8145,7 +8408,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "731" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Spécialités Pédiatriques" ]
      ], [
-       fhir:index 335 ;
+       fhir:index 348 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -8172,7 +8435,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "821" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Stockage, Distribution de Sang" ]
      ], [
-       fhir:index 336 ;
+       fhir:index 349 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -8199,7 +8462,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "159" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Stomatologie" ]
      ], [
-       fhir:index 337 ;
+       fhir:index 350 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -8226,7 +8489,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "158" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Stomatologie Chirurgie Maxillo-faciale" ]
      ], [
-       fhir:index 338 ;
+       fhir:index 351 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -8253,7 +8516,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "023" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Stérilisation" ]
      ], [
-       fhir:index 339 ;
+       fhir:index 352 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -8280,7 +8543,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "724" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Suivi de Grossesse" ]
      ], [
-       fhir:index 340 ;
+       fhir:index 353 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -8307,7 +8570,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "725" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Suivi Pré et Post Opératoire" ]
      ], [
-       fhir:index 341 ;
+       fhir:index 354 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -8334,7 +8597,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "142" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Surveillance Continue Chirurgicale" ]
      ], [
-       fhir:index 342 ;
+       fhir:index 355 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -8361,7 +8624,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "106" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Surveillance Continue Médicale" ]
      ], [
-       fhir:index 343 ;
+       fhir:index 356 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -8388,7 +8651,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "639" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Surveillance Continue Néphrologie" ]
      ], [
-       fhir:index 344 ;
+       fhir:index 357 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -8415,7 +8678,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "107" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "SURVEILLANCE CONTINUE POLYV." ]
      ], [
-       fhir:index 345 ;
+       fhir:index 358 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -8442,7 +8705,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "638" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Surveillance Continue Pédiatrique" ]
      ], [
-       fhir:index 346 ;
+       fhir:index 359 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -8469,7 +8732,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "715" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Surveillance Par Monitorage (Mort Subite du Nourrisson)" ]
      ], [
-       fhir:index 347 ;
+       fhir:index 360 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -8496,7 +8759,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "081" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Sérologie" ]
      ], [
-       fhir:index 348 ;
+       fhir:index 361 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -8523,7 +8786,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "813" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Sérologie Bactérienne" ]
      ], [
-       fhir:index 349 ;
+       fhir:index 362 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -8550,7 +8813,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "814" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Sérologie Parasitaire et Mycologique." ]
      ], [
-       fhir:index 350 ;
+       fhir:index 363 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -8577,7 +8840,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "812" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Sérologie Virale" ]
      ], [
-       fhir:index 351 ;
+       fhir:index 364 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -8604,7 +8867,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "750" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Tomographie" ]
      ], [
-       fhir:index 352 ;
+       fhir:index 365 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -8631,7 +8894,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "082" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Toxicologie" ]
      ], [
-       fhir:index 353 ;
+       fhir:index 366 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -8658,7 +8921,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "648" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Trachéotomie Isolée" ]
      ], [
-       fhir:index 354 ;
+       fhir:index 367 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -8685,7 +8948,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "145" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Traitement des Grands Brûlés" ]
      ], [
-       fhir:index 355 ;
+       fhir:index 368 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -8712,12 +8975,12 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "222" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Traitements Préventifs de la Tuberculose" ]
      ], [
-       fhir:index 356 ;
+       fhir:index 369 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "200" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Transfusion Sanguine (Laboratoire)" ]
      ], [
-       fhir:index 357 ;
+       fhir:index 370 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -8744,7 +9007,27 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "401" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "unité de proximité accueil traitement orientation urgences" ]
      ], [
-       fhir:index 358 ;
+       fhir:index 371 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "876" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Unité d’hospitalisation complète" ]
+     ], [
+       fhir:index 372 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "871" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Unité hospitalière spécialement aménagée" ]
+     ], [
+       fhir:index 373 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "872" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Unité pour malades difficiles" ]
+     ], [
+       fhir:index 374 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "873" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Unité sanitaire en milieu pénitentiaire" ]
+     ], [
+       fhir:index 375 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -8771,7 +9054,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "307" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Urgence Chirurgicale (SERV.PORTE)" ]
      ], [
-       fhir:index 359 ;
+       fhir:index 376 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -8798,7 +9081,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "308" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Urgence Indifférenciée" ]
      ], [
-       fhir:index 360 ;
+       fhir:index 377 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -8825,7 +9108,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "303" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Urgence Médicale" ]
      ], [
-       fhir:index 361 ;
+       fhir:index 378 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -8852,7 +9135,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "161" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Urologie" ]
      ], [
-       fhir:index 362 ;
+       fhir:index 379 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -8879,12 +9162,12 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "083" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Virologie" ]
      ], [
-       fhir:index 363 ;
+       fhir:index 380 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "858" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Visite à domicile" ]
      ], [
-       fhir:index 364 ;
+       fhir:index 381 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -8911,7 +9194,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "815" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Échocardiologie" ]
      ], [
-       fhir:index 365 ;
+       fhir:index 382 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -8938,7 +9221,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "816" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Échographie Abdominale" ]
      ], [
-       fhir:index 366 ;
+       fhir:index 383 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -8965,7 +9248,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "817" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Échographie en Obstétrique" ]
      ], [
-       fhir:index 367 ;
+       fhir:index 384 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -8992,7 +9275,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "752" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Échographie sans Autre Indication" ]
      ], [
-       fhir:index 368 ;
+       fhir:index 385 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [

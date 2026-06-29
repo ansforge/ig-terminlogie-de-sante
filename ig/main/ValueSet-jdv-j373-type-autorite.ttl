@@ -64,17 +64,17 @@
      ]
   ] ;
   fhir:ValueSet.expansion [
-     fhir:ValueSet.expansion.identifier [ fhir:value "urn:uuid:bf4161d1-03b4-40c8-99e6-cb6907438ae5" ] ;
-     fhir:ValueSet.expansion.timestamp [ fhir:value "2026-06-29T10:55:37+02:00"^^xsd:dateTime ] ;
-     fhir:ValueSet.expansion.total [ fhir:value "4"^^xsd:integer ] ;
+     fhir:ValueSet.expansion.identifier [ fhir:value "urn:uuid:ee57e2ef-ff66-4c21-99d1-d8327d5407e8" ] ;
+     fhir:ValueSet.expansion.timestamp [ fhir:value "2026-06-29T15:28:01+02:00"^^xsd:dateTime ] ;
+     fhir:ValueSet.expansion.total [ fhir:value "8"^^xsd:integer ] ;
      fhir:ValueSet.expansion.parameter [
        fhir:index 0 ;
        fhir:ValueSet.expansion.parameter.name [ fhir:value "used-codesystem" ] ;
-       fhir:ValueSet.expansion.parameter.valueUri [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite|20260330120000" ]
+       fhir:ValueSet.expansion.parameter.valueUri [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite|20260629120000" ]
      ], [
        fhir:index 1 ;
        fhir:ValueSet.expansion.parameter.name [ fhir:value "version" ] ;
-       fhir:ValueSet.expansion.parameter.valueUri [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite|20260330120000" ]
+       fhir:ValueSet.expansion.parameter.valueUri [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite|20260629120000" ]
      ] ;
      fhir:ValueSet.expansion.contains [
        fhir:index 0 ;
@@ -89,10 +89,30 @@
      ], [
        fhir:index 2 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "06" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Conseil départemental" ]
+     ], [
+       fhir:index 3 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "07" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Direction Départementale de l'Emploi, du Travail et des Solidarités" ]
+     ], [
+       fhir:index 4 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "05" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Direction régionale et interdépartementale de l'Hébergement et du Logement" ]
+     ], [
+       fhir:index 5 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "04" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Directions régionales de l'économie de l'emploi du travail et des solidarités" ]
+     ], [
+       fhir:index 6 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "08" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Services des Armées" ]
      ], [
-       fhir:index 3 ;
+       fhir:index 7 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "03" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Structure" ]

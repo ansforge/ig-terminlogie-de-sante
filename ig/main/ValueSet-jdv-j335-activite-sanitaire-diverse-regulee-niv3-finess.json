@@ -58,16 +58,16 @@
       }],
       "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.property"
     }],
-    "identifier" : "urn:uuid:58f3fbf8-989f-455e-81e8-6f1c9a805cc4",
-    "timestamp" : "2026-06-29T10:55:06+02:00",
+    "identifier" : "urn:uuid:73dcbcdf-1792-4741-b950-65ab8f007f29",
+    "timestamp" : "2026-06-29T15:27:37+02:00",
     "total" : 52,
     "parameter" : [{
       "name" : "used-codesystem",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee|20260601120000"
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee|20260629120000"
     },
     {
       "name" : "version",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee|20260601120000"
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee|20260629120000"
     }],
     "contains" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
@@ -924,7 +924,7 @@
     {
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
       "code" : "0371",
-      "display" : "structures de psychiatrie sans hébergement"
+      "display" : "structures de psychiatrie ambulatoire"
     },
     {
       "extension" : [{

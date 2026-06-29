@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J226-ModaliteAccueil-ROR/FHIR/JDV-J226-ModaliteAccueil-ROR | *Version*:20260330120000 | |
-| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J226_ModaliteAccueil_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J226-ModaliteAccueil-ROR/FHIR/JDV-J226-ModaliteAccueil-ROR | *Version*:20260629120000 | |
+| Active as of 2026-06-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J226_ModaliteAccueil_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.58 | | |
 
  
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "JDV-J226-ModaliteAccueil-ROR",
   "meta" : {
-    "versionId" : "17",
-    "lastUpdated" : "2026-05-05T19:02:46.670+02:00",
+    "versionId" : "18",
+    "lastUpdated" : "2026-06-29T11:18:42.372+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,11 +84,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.58"
   }],
-  "version" : "20260330120000",
+  "version" : "20260629120000",
   "name" : "JDV_J226_ModaliteAccueil_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-30T12:00:00+01:00",
+  "date" : "2026-06-29T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Modalité d'accueil",
   "jurisdiction" : [{
@@ -203,6 +203,10 @@ Liens:
       {
         "code" : "26",
         "display" : "Relayage longue durée (sur plusieurs jours)"
+      },
+      {
+        "code" : "27",
+        "display" : "Soins à domicile"
       }]
     }]
   }

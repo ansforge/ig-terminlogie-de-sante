@@ -34,6 +34,9 @@
          <Concept code="38"
                   codeSystem="1.2.250.1.213.1.6.1.383"
                   displayName="Accueil et prise en charge en centre de postcure"/>
+         <Concept code="54"
+                  codeSystem="1.2.250.1.213.1.6.1.383"
+                  displayName="Accueil familial"/>
          <Concept code="24"
                   codeSystem="1.2.250.1.213.1.6.1.383"
                   displayName="Accueil familial Thérapeutique"/>

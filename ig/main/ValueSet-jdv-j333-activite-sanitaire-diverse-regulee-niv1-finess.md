@@ -48,7 +48,7 @@ Requête sur le SMT
 
 | | | |
 | :--- | :--- | :--- |
-|  [<prev](ValueSet-jdv-j330-public-activite-smsse-regulee-niv2-finess.demande.md) | [top](#top) |  [next>](ValueSet-jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess-testing.md) |
+|  [<prev](ValueSet-jdv-j332-type-act-medico-sociale-regulee-finess.demande.md) | [top](#top) |  [next>](ValueSet-jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess-testing.md) |
 
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.0 based on

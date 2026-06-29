@@ -52,16 +52,16 @@
     }]
   },
   "expansion" : {
-    "identifier" : "urn:uuid:cd5f4ba5-8427-446e-b3b9-bacb76ffd3d2",
-    "timestamp" : "2026-06-29T10:55:47+02:00",
-    "total" : 81,
+    "identifier" : "urn:uuid:41fa32d8-67e2-4179-936c-48eb312bec4a",
+    "timestamp" : "2026-06-29T15:28:10+02:00",
+    "total" : 85,
     "parameter" : [{
       "name" : "used-codesystem",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee|20260223120000"
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee|20260629120000"
     },
     {
       "name" : "version",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee|20260223120000"
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee|20260629120000"
     }],
     "contains" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
@@ -72,6 +72,11 @@
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
       "code" : "802",
       "display" : "Adolescents ASE (7-17 ans)"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+      "code" : "842",
+      "display" : "Adultes (sans autre indication)"
     },
     {
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
@@ -177,6 +182,11 @@
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
       "code" : "808",
       "display" : "Enfants d'Age Préscolaire"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+      "code" : "843",
+      "display" : "Enfants et adolescents (sans autre indication)"
     },
     {
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
@@ -292,6 +302,11 @@
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
       "code" : "835",
       "display" : "Parents en difficulté avec enfant"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+      "code" : "844",
+      "display" : "Patients de soins sans consentement"
     },
     {
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
@@ -412,6 +427,11 @@
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
       "code" : "816",
       "display" : "Prostituées avec ou sans Enfant"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+      "code" : "841",
+      "display" : "Périnatalité"
     },
     {
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",

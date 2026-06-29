@@ -58,16 +58,16 @@
       }],
       "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.property"
     }],
-    "identifier" : "urn:uuid:ed1685f2-06c1-4794-b749-9bbdf0092e48",
-    "timestamp" : "2026-06-29T10:55:44+02:00",
-    "total" : 369,
+    "identifier" : "urn:uuid:f4849d65-9779-4ad9-8e81-bf12fde8e84e",
+    "timestamp" : "2026-06-29T15:28:08+02:00",
+    "total" : 386,
     "parameter" : [{
       "name" : "used-codesystem",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee|20260601120000"
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee|20260629120000"
     },
     {
       "name" : "version",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee|20260601120000"
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee|20260629120000"
     }],
     "contains" : [{
       "extension" : [{
@@ -118,6 +118,11 @@
       "display" : "Accueil et Traitement des Urgences Médico-Chirurgicales"
     },
     {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "861",
+      "display" : "Accueil familial thérapeutique"
+    },
+    {
       "extension" : [{
         "extension" : [{
           "url" : "inactive",
@@ -140,6 +145,11 @@
       "inactive" : true,
       "code" : "226",
       "display" : "Accueil Orientation. des Malades.Tuberculo Pulmonaires"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "863",
+      "display" : "Accueil permanent"
     },
     {
       "extension" : [{
@@ -466,6 +476,11 @@
       "display" : "Anesthésiologie & Salle Réveil"
     },
     {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "862",
+      "display" : "Appartement thérapeutique"
+    },
+    {
       "extension" : [{
         "extension" : [{
           "url" : "inactive",
@@ -586,12 +601,50 @@
       "display" : "Atelier thérapeutique"
     },
     {
+      "extension" : [{
+        "extension" : [{
+          "url" : "inactive",
+          "valueBoolean" : true
+        }],
+        "url" : "http://ontoserver.csiro.au/profiles/expansion"
+      },
+      {
+        "extension" : [{
+          "url" : "code",
+          "valueCode" : "status"
+        },
+        {
+          "url" : "value",
+          "valueCode" : "deprecated"
+        }],
+        "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.property"
+      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "inactive" : true,
       "code" : "806",
       "display" : "atelier thérapeutique adulte"
     },
     {
+      "extension" : [{
+        "extension" : [{
+          "url" : "inactive",
+          "valueBoolean" : true
+        }],
+        "url" : "http://ontoserver.csiro.au/profiles/expansion"
+      },
+      {
+        "extension" : [{
+          "url" : "code",
+          "valueCode" : "status"
+        },
+        {
+          "url" : "value",
+          "valueCode" : "deprecated"
+        }],
+        "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.property"
+      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "inactive" : true,
       "code" : "807",
       "display" : "atelier thérapeutique infanto-juvenile"
     },
@@ -1058,23 +1111,109 @@
     },
     {
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "877",
+      "display" : "Centre d'accueil et de crise"
+    },
+    {
+      "extension" : [{
+        "extension" : [{
+          "url" : "inactive",
+          "valueBoolean" : true
+        }],
+        "url" : "http://ontoserver.csiro.au/profiles/expansion"
+      },
+      {
+        "extension" : [{
+          "url" : "code",
+          "valueCode" : "status"
+        },
+        {
+          "url" : "value",
+          "valueCode" : "deprecated"
+        }],
+        "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.property"
+      }],
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "inactive" : true,
       "code" : "237",
       "display" : "centre d'accueil permanent adulte"
     },
     {
+      "extension" : [{
+        "extension" : [{
+          "url" : "inactive",
+          "valueBoolean" : true
+        }],
+        "url" : "http://ontoserver.csiro.au/profiles/expansion"
+      },
+      {
+        "extension" : [{
+          "url" : "code",
+          "valueCode" : "status"
+        },
+        {
+          "url" : "value",
+          "valueCode" : "deprecated"
+        }],
+        "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.property"
+      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "inactive" : true,
       "code" : "238",
       "display" : "centre d'accueil permanent infanto-juvénile"
     },
     {
+      "extension" : [{
+        "extension" : [{
+          "url" : "inactive",
+          "valueBoolean" : true
+        }],
+        "url" : "http://ontoserver.csiro.au/profiles/expansion"
+      },
+      {
+        "extension" : [{
+          "url" : "code",
+          "valueCode" : "status"
+        },
+        {
+          "url" : "value",
+          "valueCode" : "deprecated"
+        }],
+        "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.property"
+      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "inactive" : true,
       "code" : "233",
       "display" : "Centre d'accueil thérapeutique à temps partiel adulte"
     },
     {
+      "extension" : [{
+        "extension" : [{
+          "url" : "inactive",
+          "valueBoolean" : true
+        }],
+        "url" : "http://ontoserver.csiro.au/profiles/expansion"
+      },
+      {
+        "extension" : [{
+          "url" : "code",
+          "valueCode" : "status"
+        },
+        {
+          "url" : "value",
+          "valueCode" : "deprecated"
+        }],
+        "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.property"
+      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "inactive" : true,
       "code" : "234",
       "display" : "Centre d'accueil thérapeutique à temps partiel infanto-juv"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "864",
+      "display" : "Centre d'activités thérapeutiques et de temps de groupe"
     },
     {
       "extension" : [{
@@ -1102,11 +1241,69 @@
     },
     {
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "875",
+      "display" : "Centre de consultations"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "865",
+      "display" : "Centre de crise"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "866",
+      "display" : "Centre de soins post-aigus"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "867",
+      "display" : "Centre médico-psychologique"
+    },
+    {
+      "extension" : [{
+        "extension" : [{
+          "url" : "inactive",
+          "valueBoolean" : true
+        }],
+        "url" : "http://ontoserver.csiro.au/profiles/expansion"
+      },
+      {
+        "extension" : [{
+          "url" : "code",
+          "valueCode" : "status"
+        },
+        {
+          "url" : "value",
+          "valueCode" : "deprecated"
+        }],
+        "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.property"
+      }],
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "inactive" : true,
       "code" : "231",
       "display" : "centre médico-psychologique adulte"
     },
     {
+      "extension" : [{
+        "extension" : [{
+          "url" : "inactive",
+          "valueBoolean" : true
+        }],
+        "url" : "http://ontoserver.csiro.au/profiles/expansion"
+      },
+      {
+        "extension" : [{
+          "url" : "code",
+          "valueCode" : "status"
+        },
+        {
+          "url" : "value",
+          "valueCode" : "deprecated"
+        }],
+        "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.property"
+      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "inactive" : true,
       "code" : "232",
       "display" : "centre médico-psychologique infanto-juvénile"
     },
@@ -4032,6 +4229,16 @@
       "display" : "Hépato-Gastro-Entérologie"
     },
     {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "868",
+      "display" : "Hôpital de jour"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "874",
+      "display" : "Hôpital de nuit"
+    },
+    {
       "extension" : [{
         "extension" : [{
           "url" : "inactive",
@@ -5507,7 +5714,26 @@
       "display" : "Pharmacie & Stérilisation"
     },
     {
+      "extension" : [{
+        "extension" : [{
+          "url" : "inactive",
+          "valueBoolean" : true
+        }],
+        "url" : "http://ontoserver.csiro.au/profiles/expansion"
+      },
+      {
+        "extension" : [{
+          "url" : "code",
+          "valueCode" : "status"
+        },
+        {
+          "url" : "value",
+          "valueCode" : "deprecated"
+        }],
+        "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.property"
+      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "inactive" : true,
       "code" : "824",
       "display" : "Pharmacie d'Établissement"
     },
@@ -7087,6 +7313,11 @@
       "display" : "service accueil et traitement urgences"
     },
     {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "869",
+      "display" : "Service médico-psychologique régional"
+    },
+    {
       "extension" : [{
         "extension" : [{
           "url" : "inactive",
@@ -7205,6 +7436,11 @@
       "inactive" : true,
       "code" : "235",
       "display" : "soins intensifs de néonatologie"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "870",
+      "display" : "Soins à domicile"
     },
     {
       "extension" : [{
@@ -7786,6 +8022,26 @@
       "inactive" : true,
       "code" : "401",
       "display" : "unité de proximité accueil traitement orientation urgences"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "876",
+      "display" : "Unité d’hospitalisation complète"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "871",
+      "display" : "Unité hospitalière spécialement aménagée"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "872",
+      "display" : "Unité pour malades difficiles"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
+      "code" : "873",
+      "display" : "Unité sanitaire en milieu pénitentiaire"
     },
     {
       "extension" : [{

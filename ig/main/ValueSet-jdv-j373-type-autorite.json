@@ -47,16 +47,16 @@
     }]
   },
   "expansion" : {
-    "identifier" : "urn:uuid:bf4161d1-03b4-40c8-99e6-cb6907438ae5",
-    "timestamp" : "2026-06-29T10:55:37+02:00",
-    "total" : 4,
+    "identifier" : "urn:uuid:ee57e2ef-ff66-4c21-99d1-d8327d5407e8",
+    "timestamp" : "2026-06-29T15:28:01+02:00",
+    "total" : 8,
     "parameter" : [{
       "name" : "used-codesystem",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite|20260330120000"
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite|20260629120000"
     },
     {
       "name" : "version",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite|20260330120000"
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite|20260629120000"
     }],
     "contains" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
@@ -67,6 +67,26 @@
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
       "code" : "01",
       "display" : "Conseil de l'Ordre"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+      "code" : "06",
+      "display" : "Conseil départemental"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+      "code" : "07",
+      "display" : "Direction Départementale de l'Emploi, du Travail et des Solidarités"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+      "code" : "05",
+      "display" : "Direction régionale et interdépartementale de l'Hébergement et du Logement"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+      "code" : "04",
+      "display" : "Directions régionales de l'économie de l'emploi du travail et des solidarités"
     },
     {
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",

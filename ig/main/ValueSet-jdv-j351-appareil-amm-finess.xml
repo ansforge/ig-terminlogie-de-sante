@@ -46,16 +46,16 @@
     </include>
   </compose>
   <expansion>
-    <identifier value="urn:uuid:f196e5e1-2449-4b41-bf95-c91e892f9aea"/>
-    <timestamp value="2026-06-29T10:54:54+02:00"/>
+    <identifier value="urn:uuid:7bfde77e-e9af-439f-959f-09e4812b8159"/>
+    <timestamp value="2026-06-29T15:27:29+02:00"/>
     <total value="6"/>
     <parameter>
       <name value="used-codesystem"/>
-      <valueUri value="https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement|20260601120000"/>
+      <valueUri value="https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement|20260629120000"/>
     </parameter>
     <parameter>
       <name value="version"/>
-      <valueUri value="https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement|20260601120000"/>
+      <valueUri value="https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement|20260629120000"/>
     </parameter>
     <contains>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement"/>

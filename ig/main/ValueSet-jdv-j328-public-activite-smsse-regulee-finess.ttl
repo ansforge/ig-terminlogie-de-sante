@@ -77,17 +77,17 @@
        ] ;
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.property" ]
      ] ;
-     fhir:ValueSet.expansion.identifier [ fhir:value "urn:uuid:a66256de-7012-4796-afde-6bf628530831" ] ;
-     fhir:ValueSet.expansion.timestamp [ fhir:value "2026-06-29T10:54:36+02:00"^^xsd:dateTime ] ;
-     fhir:ValueSet.expansion.total [ fhir:value "128"^^xsd:integer ] ;
+     fhir:ValueSet.expansion.identifier [ fhir:value "urn:uuid:b748d3ee-d735-40c0-8a5f-e597cdb2f539" ] ;
+     fhir:ValueSet.expansion.timestamp [ fhir:value "2026-06-29T15:27:15+02:00"^^xsd:dateTime ] ;
+     fhir:ValueSet.expansion.total [ fhir:value "132"^^xsd:integer ] ;
      fhir:ValueSet.expansion.parameter [
        fhir:index 0 ;
        fhir:ValueSet.expansion.parameter.name [ fhir:value "used-codesystem" ] ;
-       fhir:ValueSet.expansion.parameter.valueUri [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee|20260223120000" ]
+       fhir:ValueSet.expansion.parameter.valueUri [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee|20260629120000" ]
      ], [
        fhir:index 1 ;
        fhir:ValueSet.expansion.parameter.name [ fhir:value "version" ] ;
-       fhir:ValueSet.expansion.parameter.valueUri [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee|20260223120000" ]
+       fhir:ValueSet.expansion.parameter.valueUri [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee|20260629120000" ]
      ] ;
      fhir:ValueSet.expansion.contains [
        fhir:index 0 ;
@@ -102,60 +102,65 @@
      ], [
        fhir:index 2 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "842" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Adultes (sans autre indication)" ]
+     ], [
+       fhir:index 3 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "441" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Adultes autistes relevant des cas complexes" ]
      ], [
-       fhir:index 3 ;
+       fhir:index 4 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "861" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Adultes avec difficultés budgétaires" ]
      ], [
-       fhir:index 4 ;
+       fhir:index 5 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "810" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Adultes en Difficulté d'Insertion Sociale (SAI)" ]
      ], [
-       fhir:index 5 ;
+       fhir:index 6 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "431" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Affection Cardiaque" ]
      ], [
-       fhir:index 6 ;
+       fhir:index 7 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "433" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Affection Respiratoire" ]
      ], [
-       fhir:index 7 ;
+       fhir:index 8 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "041" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Aidants / aidés Maladies chroniques invalidantes" ]
      ], [
-       fhir:index 8 ;
+       fhir:index 9 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "040" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Aidants / aidés Personnes âgées" ]
      ], [
-       fhir:index 9 ;
+       fhir:index 10 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "042" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Aidants / aidés Tous types de handicap" ]
      ], [
-       fhir:index 10 ;
+       fhir:index 11 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "043" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Aidants / aidés Troubles du spectre de l'autisme" ]
      ], [
-       fhir:index 11 ;
+       fhir:index 12 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "819" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Autres Adultes en difficulté d'Insertion Sociale" ]
      ], [
-       fhir:index 12 ;
+       fhir:index 13 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "809" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Autres Enfants, Adolescents" ]
      ], [
-       fhir:index 13 ;
+       fhir:index 14 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -182,7 +187,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "321" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cécité" ]
      ], [
-       fhir:index 14 ;
+       fhir:index 15 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -209,22 +214,22 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "322" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cécité et Malvoyance" ]
      ], [
-       fhir:index 15 ;
+       fhir:index 16 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "438" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Cérébro lésés" ]
      ], [
-       fhir:index 16 ;
+       fhir:index 17 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "432" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Diabète" ]
      ], [
-       fhir:index 17 ;
+       fhir:index 18 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "200" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Difficultés psychologiques avec troubles du comportement" ]
      ], [
-       fhir:index 18 ;
+       fhir:index 19 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -251,7 +256,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "113" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Débilité Profonde" ]
      ], [
-       fhir:index 19 ;
+       fhir:index 20 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -278,7 +283,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "112" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Débilité Profonde & Arriéré Profond" ]
      ], [
-       fhir:index 20 ;
+       fhir:index 21 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -305,7 +310,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "512" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Défic.Visuelle.& Audit.Associées" ]
      ], [
-       fhir:index 21 ;
+       fhir:index 22 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -332,7 +337,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "310" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Déficience Auditive" ]
      ], [
-       fhir:index 22 ;
+       fhir:index 23 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -359,12 +364,12 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "510" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Déficience Auditive & Visuelle" ]
      ], [
-       fhir:index 23 ;
+       fhir:index 24 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "318" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Déficience auditive grave" ]
      ], [
-       fhir:index 24 ;
+       fhir:index 25 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -391,7 +396,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "205" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Déficience du Psychisme (Sans Autre Indication)" ]
      ], [
-       fhir:index 25 ;
+       fhir:index 26 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -418,7 +423,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "203" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Déficience Grave de la Communication" ]
      ], [
-       fhir:index 26 ;
+       fhir:index 27 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -445,7 +450,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "204" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Déficience Grave du Psychisme" ]
      ], [
-       fhir:index 27 ;
+       fhir:index 28 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -472,12 +477,12 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "202" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Déficience Grave du Psychisme consécutive à lésion cérébrale" ]
      ], [
-       fhir:index 28 ;
+       fhir:index 29 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "117" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Déficience intellectuelle" ]
      ], [
-       fhir:index 29 ;
+       fhir:index 30 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -504,17 +509,17 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "110" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Déficience Intellectuelle (sans autre indication)" ]
      ], [
-       fhir:index 30 ;
+       fhir:index 31 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "201" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Déficience Intermittente de la Conscience ycompris épilepsie" ]
      ], [
-       fhir:index 31 ;
+       fhir:index 32 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "414" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Déficience Motrice" ]
      ], [
-       fhir:index 32 ;
+       fhir:index 33 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -541,7 +546,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "420" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Déficience Motrice avec Troubles Associés" ]
      ], [
-       fhir:index 33 ;
+       fhir:index 34 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -568,7 +573,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "410" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Déficience Motrice sans Troubles Associés" ]
      ], [
-       fhir:index 34 ;
+       fhir:index 35 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -595,12 +600,12 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "320" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Déficience Visuelle (Sans Autre Indication)" ]
      ], [
-       fhir:index 35 ;
+       fhir:index 36 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "324" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Déficience visuelle grave" ]
      ], [
-       fhir:index 36 ;
+       fhir:index 37 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -627,7 +632,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "317" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Déficiences Auditives avec troubles associés" ]
      ], [
-       fhir:index 37 ;
+       fhir:index 38 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -654,7 +659,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "120" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Déficiences Intellectuelles (SAI) avec Troubles Associés" ]
      ], [
-       fhir:index 38 ;
+       fhir:index 39 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -681,92 +686,97 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "327" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Déficiences Visuelles avec troubles associés" ]
      ], [
-       fhir:index 39 ;
+       fhir:index 40 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "801" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Enfants ASE (0-6 ans)" ]
      ], [
-       fhir:index 40 ;
+       fhir:index 41 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "808" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Enfants d'Age Préscolaire" ]
      ], [
-       fhir:index 41 ;
+       fhir:index 42 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "843" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Enfants et adolescents (sans autre indication)" ]
+     ], [
+       fhir:index 43 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "807" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Enfants et Adolescents avec difficultés sociales" ]
      ], [
-       fhir:index 42 ;
+       fhir:index 44 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "800" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Enfants, adolescents et jeunes majeurs ASE" ]
      ], [
-       fhir:index 43 ;
+       fhir:index 45 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "804" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Enfants, adolescents et jeunes majeurs PJJ" ]
      ], [
-       fhir:index 44 ;
+       fhir:index 46 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "620" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Epilepsie" ]
      ], [
-       fhir:index 45 ;
+       fhir:index 47 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "829" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Familles en difficulté et-ou femmes isolées" ]
      ], [
-       fhir:index 46 ;
+       fhir:index 48 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "821" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Familles en Difficulté ou sans Logement" ]
      ], [
-       fhir:index 47 ;
+       fhir:index 49 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "823" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Familles Nomades" ]
      ], [
-       fhir:index 48 ;
+       fhir:index 50 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "812" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Femmes Seules en Difficulté" ]
      ], [
-       fhir:index 49 ;
+       fhir:index 51 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "831" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Femmes Victimes de Violence" ]
      ], [
-       fhir:index 50 ;
+       fhir:index 52 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "207" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Handicap cognitif spécifique" ]
      ], [
-       fhir:index 51 ;
+       fhir:index 53 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "206" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Handicap psychique" ]
      ], [
-       fhir:index 52 ;
+       fhir:index 54 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "011" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Handicap rare" ]
      ], [
-       fhir:index 53 ;
+       fhir:index 55 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "820" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Hommes seuls en difficulté" ]
      ], [
-       fhir:index 54 ;
+       fhir:index 56 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "434" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Hémophilie" ]
      ], [
-       fhir:index 55 ;
+       fhir:index 57 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "818" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Inculpés sous Contrôle judiciaire et Condamnés Libres" ]
      ], [
-       fhir:index 56 ;
+       fhir:index 58 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -793,7 +803,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "411" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Infirm.Mot.Cérébrale/non Cérébrale" ]
      ], [
-       fhir:index 57 ;
+       fhir:index 59 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -820,7 +830,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "412" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Infirmité Motrice Cérébrale" ]
      ], [
-       fhir:index 58 ;
+       fhir:index 60 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -847,37 +857,37 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "413" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Infirmité Motrice non Cérébrale" ]
      ], [
-       fhir:index 59 ;
+       fhir:index 61 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "435" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Insuffisance Rénale" ]
      ], [
-       fhir:index 60 ;
+       fhir:index 62 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "811" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Jeunes Adultes en Difficulté" ]
      ], [
-       fhir:index 61 ;
+       fhir:index 63 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "805" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Jeunes et familles en risque d'inadaptation sociale" ]
      ], [
-       fhir:index 62 ;
+       fhir:index 64 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "803" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Jeunes Majeurs ASE (18-21 ans)" ]
      ], [
-       fhir:index 63 ;
+       fhir:index 65 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "826" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Jeunes Travailleurs" ]
      ], [
-       fhir:index 64 ;
+       fhir:index 66 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "860" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Majeurs Protégés" ]
      ], [
-       fhir:index 65 ;
+       fhir:index 67 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -904,7 +914,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "312" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Malentendant" ]
      ], [
-       fhir:index 66 ;
+       fhir:index 68 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -931,32 +941,37 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "323" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Malvoyance" ]
      ], [
-       fhir:index 67 ;
+       fhir:index 69 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "440" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "MND autres que Maladie Alzheimer et Maladies Apparentées" ]
      ], [
-       fhir:index 68 ;
+       fhir:index 70 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "835" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Parents en difficulté avec enfant" ]
      ], [
-       fhir:index 69 ;
+       fhir:index 71 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "844" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Patients de soins sans consentement" ]
+     ], [
+       fhir:index 72 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "834" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Patients et accompagnants (ou aidants)" ]
      ], [
-       fhir:index 70 ;
+       fhir:index 73 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "833" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Pers.agée, Pers.handicapée, Etudiant, Jeune travailleur" ]
      ], [
-       fhir:index 71 ;
+       fhir:index 74 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "700" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Personnes Agées (Sans Autre Indication)" ]
      ], [
-       fhir:index 72 ;
+       fhir:index 75 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -983,17 +998,17 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "710" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Personnes Agées Auto et semi-Autonomes" ]
      ], [
-       fhir:index 73 ;
+       fhir:index 76 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "701" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Personnes Agées Autonomes" ]
      ], [
-       fhir:index 74 ;
+       fhir:index 77 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "711" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Personnes Agées dépendantes" ]
      ], [
-       fhir:index 75 ;
+       fhir:index 78 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1020,7 +1035,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "704" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Personnes Agées non Autonomes" ]
      ], [
-       fhir:index 76 ;
+       fhir:index 79 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1047,7 +1062,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "707" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Personnes Agées semi et non-Autonomes" ]
      ], [
-       fhir:index 77 ;
+       fhir:index 80 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1074,97 +1089,97 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "703" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Personnes Agées semi-Autonomes" ]
      ], [
-       fhir:index 78 ;
+       fhir:index 81 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "436" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Personnes Alzheimer ou maladies apparentées" ]
      ], [
-       fhir:index 79 ;
+       fhir:index 82 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "832" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Personnes avec Problèmes Psychiques" ]
      ], [
-       fhir:index 80 ;
+       fhir:index 83 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "814" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Personnes consommant des substances psychoactives illicites" ]
      ], [
-       fhir:index 81 ;
+       fhir:index 84 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "852" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Personnes en demande sevrage tabagique ou diminution tabac" ]
      ], [
-       fhir:index 82 ;
+       fhir:index 85 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "813" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Personnes en difficulté avec l'alcool" ]
      ], [
-       fhir:index 83 ;
+       fhir:index 86 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "830" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Personnes et Familles Demandeurs d'Asile" ]
      ], [
-       fhir:index 84 ;
+       fhir:index 87 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "822" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Personnes et Familles Rapatriées" ]
      ], [
-       fhir:index 85 ;
+       fhir:index 88 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "827" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Personnes et Familles Réfugiées" ]
      ], [
-       fhir:index 86 ;
+       fhir:index 89 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "702" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Personnes Handicapées vieillissantes" ]
      ], [
-       fhir:index 87 ;
+       fhir:index 90 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "851" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Personnes mésusant de médicaments" ]
      ], [
-       fhir:index 88 ;
+       fhir:index 91 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "430" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Personnes nécessitant prise en charge psycho soc et san SAI" ]
      ], [
-       fhir:index 89 ;
+       fhir:index 92 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "840" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Personnes sans Domicile" ]
      ], [
-       fhir:index 90 ;
+       fhir:index 93 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "806" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Personnes se présentant comme MNA en attente d'évaluation" ]
      ], [
-       fhir:index 91 ;
+       fhir:index 94 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "824" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Personnes seules en Difficulté avec Enfant" ]
      ], [
-       fhir:index 92 ;
+       fhir:index 95 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "853" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Personnes souffrant d'addictions (Sans Autre Indication)" ]
      ], [
-       fhir:index 93 ;
+       fhir:index 96 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "850" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Personnes souffrant d'addictions sans substances" ]
      ], [
-       fhir:index 94 ;
+       fhir:index 97 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "836" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Personnes victimes de la Traite des Etres Humains (T.E.H.)" ]
      ], [
-       fhir:index 95 ;
+       fhir:index 98 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "500" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Polyhandicap" ]
      ], [
-       fhir:index 96 ;
+       fhir:index 99 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1191,7 +1206,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "502" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Polyhandicap Auditif et Mental" ]
      ], [
-       fhir:index 97 ;
+       fhir:index 100 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1218,7 +1233,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "506" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Polyhandicap Mot.Mental & Sens" ]
      ], [
-       fhir:index 98 ;
+       fhir:index 101 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1245,7 +1260,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "501" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Polyhandicap Moteur et Mental." ]
      ], [
-       fhir:index 99 ;
+       fhir:index 102 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1272,12 +1287,17 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "503" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Polyhandicap Visuel et Mental" ]
      ], [
-       fhir:index 100 ;
+       fhir:index 103 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "816" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Prostituées avec ou sans Enfant" ]
      ], [
-       fhir:index 101 ;
+       fhir:index 104 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "841" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Périnatalité" ]
+     ], [
+       fhir:index 105 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1304,7 +1324,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "999" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Regroupement calculs (annexe xxiv)" ]
      ], [
-       fhir:index 102 ;
+       fhir:index 106 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1331,7 +1351,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "118" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Retard Mental Léger" ]
      ], [
-       fhir:index 103 ;
+       fhir:index 107 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1358,7 +1378,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "128" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Retard Mental Léger avec Troubles Associés" ]
      ], [
-       fhir:index 104 ;
+       fhir:index 108 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1385,7 +1405,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "115" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Retard Mental Moyen" ]
      ], [
-       fhir:index 105 ;
+       fhir:index 109 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1412,7 +1432,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "125" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Retard Mental Moyen avec Troubles Associés" ]
      ], [
-       fhir:index 106 ;
+       fhir:index 110 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1439,7 +1459,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "116" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Retard Mental Moyen et Léger" ]
      ], [
-       fhir:index 107 ;
+       fhir:index 111 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1466,7 +1486,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "121" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Retard Mental Profond et Sévère avec Troubles Associés" ]
      ], [
-       fhir:index 108 ;
+       fhir:index 112 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1493,7 +1513,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "111" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Retard Mental Profond ou Sévère" ]
      ], [
-       fhir:index 109 ;
+       fhir:index 113 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1520,12 +1540,12 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "114" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Retard Mental Profond/Sévère/Moyen" ]
      ], [
-       fhir:index 110 ;
+       fhir:index 114 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "815" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Sortants d'Etablissement Hospitalier ou médico-social yc psy" ]
      ], [
-       fhir:index 111 ;
+       fhir:index 115 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1552,12 +1572,12 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "313" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Sourd et Malentendant" ]
      ], [
-       fhir:index 112 ;
+       fhir:index 116 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "511" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Surdi-Cécité avec ou sans troubles associés" ]
      ], [
-       fhir:index 113 ;
+       fhir:index 117 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1584,22 +1604,22 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "311" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Surdité" ]
      ], [
-       fhir:index 114 ;
+       fhir:index 118 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "899" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Tous publics en difficulté" ]
      ], [
-       fhir:index 115 ;
+       fhir:index 119 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "010" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Tous Types de Déficiences Pers.Handicap.(sans autre indic.)" ]
      ], [
-       fhir:index 116 ;
+       fhir:index 120 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "990" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Toute Population" ]
      ], [
-       fhir:index 117 ;
+       fhir:index 121 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1626,7 +1646,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "030" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Toutes Déficiences Mentales (sans autre indication)" ]
      ], [
-       fhir:index 118 ;
+       fhir:index 122 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1653,22 +1673,22 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "020" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Toutes Déficiences Physiques (Sans autre indication)" ]
      ], [
-       fhir:index 119 ;
+       fhir:index 123 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "825" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Travailleurs Migrants" ]
      ], [
-       fhir:index 120 ;
+       fhir:index 124 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "442" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Troubles du neurodéveloppement" ]
      ], [
-       fhir:index 121 ;
+       fhir:index 125 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "437" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Troubles du spectre de l'autisme" ]
      ], [
-       fhir:index 122 ;
+       fhir:index 126 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1695,7 +1715,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "600" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Troubles Psychopathologiques (Sans Autre Indication)" ]
      ], [
-       fhir:index 123 ;
+       fhir:index 127 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1722,7 +1742,7 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "602" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Troubles Psychopathologiques Graves" ]
      ], [
-       fhir:index 124 ;
+       fhir:index 128 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Element.extension [
@@ -1749,17 +1769,17 @@
        fhir:ValueSet.expansion.contains.code [ fhir:value "601" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Troubles Psychopatologiques Légers" ]
      ], [
-       fhir:index 125 ;
+       fhir:index 129 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "862" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Tuteurs Familiaux" ]
      ], [
-       fhir:index 126 ;
+       fhir:index 130 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "817" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Vagabonds et ex-Détenus" ]
      ], [
-       fhir:index 127 ;
+       fhir:index 131 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "439" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "VIH VHC" ]

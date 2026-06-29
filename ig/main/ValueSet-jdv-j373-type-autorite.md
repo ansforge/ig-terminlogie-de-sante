@@ -48,7 +48,7 @@ Requête sur le SMT
 
 | | | |
 | :--- | :--- | :--- |
-|  [<prev](ValueSet-jdv-j370-type-contrat-sejour-ms.demande.md) | [top](#top) |  [next>](ValueSet-jdv-j373-type-autorite-testing.md) |
+|  [<prev](ValueSet-jdv-j371-etat-objet-administratif-finess.demande.md) | [top](#top) |  [next>](ValueSet-jdv-j373-type-autorite-testing.md) |
 
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.0 based on

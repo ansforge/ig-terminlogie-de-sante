@@ -47,7 +47,7 @@ Requête sur le SMT
 
 | | | |
 | :--- | :--- | :--- |
-|  [<prev](ValueSet-vs-tre-r375-mode-financement-all.demande.md) | [top](#top) |  [next>](ValueSet-vs-tre-r381-activite-amm-all-testing.md) |
+|  [<prev](ValueSet-vs-tre-r378-motif-arrete-all.demande.md) | [top](#top) |  [next>](ValueSet-vs-tre-r381-activite-amm-all-testing.md) |
 
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.0 based on

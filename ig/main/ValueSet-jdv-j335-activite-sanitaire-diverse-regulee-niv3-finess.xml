@@ -54,16 +54,16 @@
         <valueUri value="http://hl7.org/fhir/concept-properties#status"/>
       </extension>
     </extension>
-    <identifier value="urn:uuid:58f3fbf8-989f-455e-81e8-6f1c9a805cc4"/>
-    <timestamp value="2026-06-29T10:55:06+02:00"/>
+    <identifier value="urn:uuid:73dcbcdf-1792-4741-b950-65ab8f007f29"/>
+    <timestamp value="2026-06-29T15:27:37+02:00"/>
     <total value="52"/>
     <parameter>
       <name value="used-codesystem"/>
-      <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee|20260601120000"/>
+      <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee|20260629120000"/>
     </parameter>
     <parameter>
       <name value="version"/>
-      <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee|20260601120000"/>
+      <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee|20260629120000"/>
     </parameter>
     <contains>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
@@ -755,7 +755,7 @@
     <contains>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <code value="0371"/>
-      <display value="structures de psychiatrie sans hébergement"/>
+      <display value="structures de psychiatrie ambulatoire"/>
     </contains>
     <contains>
       <extension url="http://ontoserver.csiro.au/profiles/expansion">

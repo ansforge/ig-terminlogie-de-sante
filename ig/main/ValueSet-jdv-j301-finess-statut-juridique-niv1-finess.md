@@ -48,7 +48,7 @@ Requête sur le SMT
 
 | | | |
 | :--- | :--- | :--- |
-|  [<prev](ValueSet-jdv-j296-type-role-entite-groupe-finess.demande.md) | [top](#top) |  [next>](ValueSet-jdv-j301-finess-statut-juridique-niv1-finess-testing.md) |
+|  [<prev](ValueSet-jdv-j300-type-objet-finess.demande.md) | [top](#top) |  [next>](ValueSet-jdv-j301-finess-statut-juridique-niv1-finess-testing.md) |
 
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.0 based on

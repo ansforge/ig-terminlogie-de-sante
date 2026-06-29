@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS | *Version*:20251029120000 | |
-| Active as of 2025-10-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J10_XdsFormatCode_CISIS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS | *Version*:20260629120000 | |
+| Active as of 2026-06-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J10_XdsFormatCode_CISIS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.465 | | |
 
  
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "JDV-J10-XdsFormatCode-CISIS",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-11-04T19:01:58.541+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-06-29T11:18:27.787+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,11 +84,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.465"
   }],
-  "version" : "20251029120000",
+  "version" : "20260629120000",
   "name" : "JDV_J10_XdsFormatCode_CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-29T12:00:00+01:00",
+  "date" : "2026-06-29T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "XDS formatCode documents CI-SIS",
   "jurisdiction" : [{
@@ -287,6 +287,26 @@ Liens:
       {
         "code" : "urn:ans:ci-sis:trod:2024",
         "display" : "Test rapide d'orientation diagnostique"
+      },
+      {
+        "code" : "urn:ans:ci-sis:mso-rougeole:2026",
+        "display" : "Déclaration de maladie à signalement obligatoire : Rougeole"
+      },
+      {
+        "code" : "urn:ans:ci-sis:mso-dengue:2026",
+        "display" : "Déclaration de maladie à signalement obligatoire : Dengue"
+      },
+      {
+        "code" : "urn:ans:ci-sis:mso-chikungunya:2026",
+        "display" : "Déclaration de maladie à signalement obligatoire : Chikungunya"
+      },
+      {
+        "code" : "urn:ans:ci-sis:mso-zika:2026",
+        "display" : "Déclaration de maladie à signalement obligatoire : Zika"
+      },
+      {
+        "code" : "urn:ans:ci-sis:mso-westnile:2026",
+        "display" : "Déclaration de maladie à signalement obligatoire : West Nile"
       }]
     },
     {

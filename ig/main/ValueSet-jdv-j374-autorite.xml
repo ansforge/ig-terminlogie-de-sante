@@ -54,16 +54,16 @@
         <valueUri value="http://hl7.org/fhir/concept-properties#status"/>
       </extension>
     </extension>
-    <identifier value="urn:uuid:48c89d86-0f5d-43d6-9025-4e27aa2fc75f"/>
-    <timestamp value="2026-06-29T10:55:04+02:00"/>
-    <total value="45"/>
+    <identifier value="urn:uuid:a600ae8b-a8dc-4717-b6c1-3e7bb77bb37f"/>
+    <timestamp value="2026-06-29T15:27:36+02:00"/>
+    <total value="76"/>
     <parameter>
       <name value="used-codesystem"/>
-      <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite|20260330120000"/>
+      <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite|20260629120000"/>
     </parameter>
     <parameter>
       <name value="version"/>
-      <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite|20260330120000"/>
+      <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite|20260629120000"/>
     </parameter>
     <contains>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"/>
@@ -482,6 +482,161 @@
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"/>
       <code value="AT-975"/>
       <display value="AT-975 : ATS de Saint-Pierre-Et-Miquelon"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"/>
+      <code value="CD-01"/>
+      <display value="CD-01 : Conseil départemental de l'Ain"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"/>
+      <code value="CD-02"/>
+      <display value="CD-02 : Conseil départemental del'Aisne"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"/>
+      <code value="CD-03"/>
+      <display value="CD-03 : Conseil départemental de l'Allier"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"/>
+      <code value="CD-15"/>
+      <display value="CD-15 : Conseil départemental du Cantal"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"/>
+      <code value="CD-54"/>
+      <display value="CD-54 : Conseil départemental de Meurthe et Moselle"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"/>
+      <code value="CD-58"/>
+      <display value="CD-58 : Conseil départemental de la Nièvre"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"/>
+      <code value="CD-94"/>
+      <display value="CD-94 : Conseil départemental du Val de Marne"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"/>
+      <code value="CD-95"/>
+      <display value="CD-95 : Conseil départemental du Val d'Oise"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"/>
+      <code value="DDETS-01"/>
+      <display value="DDETS-01 : Direction départementale de l'emploi, du travail et des solidarités Ain"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"/>
+      <code value="DDETS-02"/>
+      <display value="DDETS-02 : Direction départementale de l'emploi, du travail et des solidarités Aisne"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"/>
+      <code value="DDETS-03"/>
+      <display value="DDETS-03 : Direction départementale de l'emploi, du travail et des solidarités Allier"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"/>
+      <code value="DDETS-95"/>
+      <display value="DDETS-95 :Direction départementale de l'emploi, du travail et des solidarités Val d'Oise"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"/>
+      <code value="DREETS-01"/>
+      <display value="DREETS-01 : Direction de l'économie de l'emploi du travail et des solidarités Guadeloupe"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"/>
+      <code value="DREETS-02"/>
+      <display value="DREETS-02 :  Direction de l'économie de l'emploi du travail et des solidarités Martinique"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"/>
+      <code value="DREETS-03"/>
+      <display value="DREETS-03 :  Direction générale cohésion et population Guyane"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"/>
+      <code value="DREETS-05"/>
+      <display value="DREETS-05 :  Direction de l'économie de l'emploi du travail et des solidarités de La Réunion"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"/>
+      <code value="DREETS-06"/>
+      <display value="DREETS-06 : Direction de l'économie de l'emploi du travail et des solidarités Mayotte"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"/>
+      <code value="DREETS-11"/>
+      <display value="DREETS-11 : Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités d'Ile de France"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"/>
+      <code value="DREETS-24"/>
+      <display value="DREETS-24 :  Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Centre-Val de Loire"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"/>
+      <code value="DREETS-27"/>
+      <display value="DREETS-27 :  Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Bourgogne-Franche-Comté"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"/>
+      <code value="DREETS-28"/>
+      <display value="DREETS-28 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Normandie"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"/>
+      <code value="DREETS-32"/>
+      <display value="DREETS-32 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Hauts-de-France"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"/>
+      <code value="DREETS-44"/>
+      <display value="DREETS-44 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Grand Est"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"/>
+      <code value="DREETS-52"/>
+      <display value="DREETS-52 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Pays de la Loire"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"/>
+      <code value="DREETS-53"/>
+      <display value="DREETS-53 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Bretagne"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"/>
+      <code value="DREETS-75"/>
+      <display value="DREETS-75 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Nouvelle-Aquitaine"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"/>
+      <code value="DREETS-76"/>
+      <display value="DREETS-76 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Occitanie"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"/>
+      <code value="DREETS-84"/>
+      <display value="DREETS-84 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Auvergne-Rhône-Alpes"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"/>
+      <code value="DREETS-93"/>
+      <display value="DREETS-93 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Provence-Alpes-Côte d'Azur"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"/>
+      <code value="DREETS-94"/>
+      <display value="DREETS-94 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités de Corse"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"/>
+      <code value="DRHIL-11"/>
+      <display value="DRHIL-11 : Direction régionale et interdépartementale de l'Hébergement et du Logement Ile de France"/>
     </contains>
     <contains>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"/>

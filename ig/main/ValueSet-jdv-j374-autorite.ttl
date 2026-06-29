@@ -77,17 +77,17 @@
        ] ;
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.property" ]
      ] ;
-     fhir:ValueSet.expansion.identifier [ fhir:value "urn:uuid:48c89d86-0f5d-43d6-9025-4e27aa2fc75f" ] ;
-     fhir:ValueSet.expansion.timestamp [ fhir:value "2026-06-29T10:55:04+02:00"^^xsd:dateTime ] ;
-     fhir:ValueSet.expansion.total [ fhir:value "45"^^xsd:integer ] ;
+     fhir:ValueSet.expansion.identifier [ fhir:value "urn:uuid:a600ae8b-a8dc-4717-b6c1-3e7bb77bb37f" ] ;
+     fhir:ValueSet.expansion.timestamp [ fhir:value "2026-06-29T15:27:36+02:00"^^xsd:dateTime ] ;
+     fhir:ValueSet.expansion.total [ fhir:value "76"^^xsd:integer ] ;
      fhir:ValueSet.expansion.parameter [
        fhir:index 0 ;
        fhir:ValueSet.expansion.parameter.name [ fhir:value "used-codesystem" ] ;
-       fhir:ValueSet.expansion.parameter.valueUri [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite|20260330120000" ]
+       fhir:ValueSet.expansion.parameter.valueUri [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite|20260629120000" ]
      ], [
        fhir:index 1 ;
        fhir:ValueSet.expansion.parameter.name [ fhir:value "version" ] ;
-       fhir:ValueSet.expansion.parameter.valueUri [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite|20260330120000" ]
+       fhir:ValueSet.expansion.parameter.valueUri [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite|20260629120000" ]
      ] ;
      fhir:ValueSet.expansion.contains [
        fhir:index 0 ;
@@ -646,45 +646,200 @@
      ], [
        fhir:index 36 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "CD-01" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "CD-01 : Conseil départemental de l'Ain" ]
+     ], [
+       fhir:index 37 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "CD-02" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "CD-02 : Conseil départemental del'Aisne" ]
+     ], [
+       fhir:index 38 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "CD-03" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "CD-03 : Conseil départemental de l'Allier" ]
+     ], [
+       fhir:index 39 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "CD-15" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "CD-15 : Conseil départemental du Cantal" ]
+     ], [
+       fhir:index 40 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "CD-54" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "CD-54 : Conseil départemental de Meurthe et Moselle" ]
+     ], [
+       fhir:index 41 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "CD-58" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "CD-58 : Conseil départemental de la Nièvre" ]
+     ], [
+       fhir:index 42 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "CD-94" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "CD-94 : Conseil départemental du Val de Marne" ]
+     ], [
+       fhir:index 43 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "CD-95" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "CD-95 : Conseil départemental du Val d'Oise" ]
+     ], [
+       fhir:index 44 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "DDETS-01" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "DDETS-01 : Direction départementale de l'emploi, du travail et des solidarités Ain" ]
+     ], [
+       fhir:index 45 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "DDETS-02" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "DDETS-02 : Direction départementale de l'emploi, du travail et des solidarités Aisne" ]
+     ], [
+       fhir:index 46 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "DDETS-03" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "DDETS-03 : Direction départementale de l'emploi, du travail et des solidarités Allier" ]
+     ], [
+       fhir:index 47 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "DDETS-95" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "DDETS-95 :Direction départementale de l'emploi, du travail et des solidarités Val d'Oise" ]
+     ], [
+       fhir:index 48 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "DREETS-01" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "DREETS-01 : Direction de l'économie de l'emploi du travail et des solidarités Guadeloupe" ]
+     ], [
+       fhir:index 49 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "DREETS-02" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "DREETS-02 :  Direction de l'économie de l'emploi du travail et des solidarités Martinique" ]
+     ], [
+       fhir:index 50 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "DREETS-03" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "DREETS-03 :  Direction générale cohésion et population Guyane" ]
+     ], [
+       fhir:index 51 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "DREETS-05" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "DREETS-05 :  Direction de l'économie de l'emploi du travail et des solidarités de La Réunion" ]
+     ], [
+       fhir:index 52 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "DREETS-06" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "DREETS-06 : Direction de l'économie de l'emploi du travail et des solidarités Mayotte" ]
+     ], [
+       fhir:index 53 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "DREETS-11" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "DREETS-11 : Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités d'Ile de France" ]
+     ], [
+       fhir:index 54 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "DREETS-24" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "DREETS-24 :  Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Centre-Val de Loire" ]
+     ], [
+       fhir:index 55 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "DREETS-27" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "DREETS-27 :  Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Bourgogne-Franche-Comté" ]
+     ], [
+       fhir:index 56 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "DREETS-28" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "DREETS-28 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Normandie" ]
+     ], [
+       fhir:index 57 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "DREETS-32" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "DREETS-32 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Hauts-de-France" ]
+     ], [
+       fhir:index 58 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "DREETS-44" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "DREETS-44 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Grand Est" ]
+     ], [
+       fhir:index 59 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "DREETS-52" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "DREETS-52 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Pays de la Loire" ]
+     ], [
+       fhir:index 60 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "DREETS-53" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "DREETS-53 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Bretagne" ]
+     ], [
+       fhir:index 61 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "DREETS-75" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "DREETS-75 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Nouvelle-Aquitaine" ]
+     ], [
+       fhir:index 62 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "DREETS-76" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "DREETS-76 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Occitanie" ]
+     ], [
+       fhir:index 63 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "DREETS-84" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "DREETS-84 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Auvergne-Rhône-Alpes" ]
+     ], [
+       fhir:index 64 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "DREETS-93" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "DREETS-93 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Provence-Alpes-Côte d'Azur" ]
+     ], [
+       fhir:index 65 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "DREETS-94" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "DREETS-94 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités de Corse" ]
+     ], [
+       fhir:index 66 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "DRHIL-11" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "DRHIL-11 : Direction régionale et interdépartementale de l'Hébergement et du Logement Ile de France" ]
+     ], [
+       fhir:index 67 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "ENREG" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Enregistrement par les AE locales (Structures)" ]
      ], [
-       fhir:index 37 ;
+       fhir:index 68 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "ONCD" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Ordre des chirurgiens-dentistes" ]
      ], [
-       fhir:index 38 ;
+       fhir:index 69 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "ONI" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Ordre des infirmiers" ]
      ], [
-       fhir:index 39 ;
+       fhir:index 70 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "CNOMK" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Ordre des masseurs-kinésithérapeutes" ]
      ], [
-       fhir:index 40 ;
+       fhir:index 71 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "CNOM" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Ordre des médecins" ]
      ], [
-       fhir:index 41 ;
+       fhir:index 72 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "CNOP" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Ordre des pharmaciens" ]
      ], [
-       fhir:index 42 ;
+       fhir:index 73 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "CNOPP" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Ordre des pédicures-podologues" ]
      ], [
-       fhir:index 43 ;
+       fhir:index 74 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "CNOSF" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Ordre des sages-femmes" ]
      ], [
-       fhir:index 44 ;
+       fhir:index 75 ;
        fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
        fhir:ValueSet.expansion.contains.code [ fhir:value "SSA" ] ;
        fhir:ValueSet.expansion.contains.display [ fhir:value "Service de santé des armées" ]

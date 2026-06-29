@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J17-ActiviteOperationnelle-ROR/FHIR/JDV-J17-ActiviteOperationnelle-ROR | *Version*:20260601120000 | |
-| Active as of 2026-06-01 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J17_ActiviteOperationnelle_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J17-ActiviteOperationnelle-ROR/FHIR/JDV-J17-ActiviteOperationnelle-ROR | *Version*:20260629120000 | |
+| Active as of 2026-06-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J17_ActiviteOperationnelle_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.5 | | |
 
  
@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "JDV-J17-ActiviteOperationnelle-ROR",
   "meta" : {
-    "versionId" : "29",
-    "lastUpdated" : "2026-06-02T15:19:00.544+02:00",
+    "versionId" : "30",
+    "lastUpdated" : "2026-06-29T11:18:39.787+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,11 +84,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.5"
   }],
-  "version" : "20260601120000",
+  "version" : "20260629120000",
   "name" : "JDV_J17_ActiviteOperationnelle_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-01T12:00:00+01:00",
+  "date" : "2026-06-29T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Activité Operationnelle - ROR",
   "jurisdiction" : [{
@@ -523,10 +523,6 @@ Liens:
       {
         "code" : "147",
         "display" : "Urgences Médico-Psychologiques (CUMP)"
-      },
-      {
-        "code" : "148",
-        "display" : "Urgences spécialisées cardiologiques"
       },
       {
         "code" : "152",
@@ -1186,7 +1182,7 @@ Liens:
       },
       {
         "code" : "334",
-        "display" : "Activité de prévention"
+        "display" : "Activité de dépistage et de prévention"
       },
       {
         "code" : "335",
@@ -1322,11 +1318,11 @@ Liens:
       },
       {
         "code" : "369",
-        "display" : "Soins intensifs spécialisés néonatalogique"
+        "display" : "Soins intensifs spécialisés néonatalogie"
       },
       {
         "code" : "370",
-        "display" : "Soins intensifs spécialisés pédiatrique"
+        "display" : "Soins intensifs spécialisés pédiatrie"
       },
       {
         "code" : "371",
@@ -2247,6 +2243,54 @@ Liens:
       {
         "code" : "617",
         "display" : "Soins infirmiers en pratique avancée en santé mentale"
+      },
+      {
+        "code" : "618",
+        "display" : "Collecte de don de lait maternel cru"
+      },
+      {
+        "code" : "619",
+        "display" : "Distribution de lait maternel pasteurisé"
+      },
+      {
+        "code" : "620",
+        "display" : "Bilan psychomoteur"
+      },
+      {
+        "code" : "621",
+        "display" : "Soin psychomoteur"
+      },
+      {
+        "code" : "622",
+        "display" : "Education psychomotrice (pédagogie du développement psychomoteur)"
+      },
+      {
+        "code" : "623",
+        "display" : "Stimulation psychomotrice (stimulation du fonctionnement psychomoteur à visée préventive)"
+      },
+      {
+        "code" : "624",
+        "display" : "Rééducation de la graphomotricité et de l’écriture (dysgraphie)"
+      },
+      {
+        "code" : "625",
+        "display" : "Orthoptie : orientation troubles neuro-visuels (pathologies neurologiques, maladies neurodégénératives)"
+      },
+      {
+        "code" : "626",
+        "display" : "Orthoptie orientation basse vision"
+      },
+      {
+        "code" : "627",
+        "display" : "Orthoptie orientation pédiatrique"
+      },
+      {
+        "code" : "628",
+        "display" : "Dispensation de médicaments et autres produits de santé appartenant au monopole pharmaceutique"
+      },
+      {
+        "code" : "629",
+        "display" : "Conseil et accompagnement dans la gestion des traitements"
       }]
     }]
   }

@@ -47,16 +47,16 @@
     }]
   },
   "expansion" : {
-    "identifier" : "urn:uuid:86692dd8-9066-462e-a46c-7fe5037062d4",
-    "timestamp" : "2026-06-29T10:55:38+02:00",
+    "identifier" : "urn:uuid:6ed0539c-7460-4f74-a50c-bd7c21c40fc3",
+    "timestamp" : "2026-06-29T15:28:02+02:00",
     "total" : 7,
     "parameter" : [{
       "name" : "used-codesystem",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite|20260330120000"
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite|20260629120000"
     },
     {
       "name" : "version",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite|20260330120000"
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite|20260629120000"
     }],
     "contains" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",

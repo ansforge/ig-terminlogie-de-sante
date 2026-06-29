@@ -68,8 +68,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-j409-type-adresse-ms",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-06-05T11:48:02.842+02:00",
+    "versionId" : "4",
+    "lastUpdated" : "2026-06-29T13:33:26.769+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
