@@ -11,7 +11,7 @@ Description: "Cette TRE hiérarchique remplace les TRE_R68-FinessAgregatStatutJu
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.379"
-* ^version = "20260223120000"
+* ^version = "20260629120000"
 * ^status = #active
 * ^experimental = false
 * ^date = "2026-02-23T12:00:00.000+00:00"
