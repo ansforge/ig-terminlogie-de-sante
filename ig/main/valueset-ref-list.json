@@ -30,7 +30,10 @@
     "title" : "Jdv Modele Document Cda",
     "description" : "JDV avec l'ensemble des codes  de la TRE_R220_ModeleDocumentCDAStructure et TRE_R221_ModeleDocumentCDANonStructure",
     "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R221-ModeleDocumentCDANonStructure/FHIR/TRE-R221-ModeleDocumentCDANonStructure",
-    "https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure"]
+    "https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure"],
+    "uses" : {
+    },
+    "ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.html" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS"
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS",
@@ -4080,20 +4083,5 @@
     "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"],
     "oids" : ["1.2.250.1.213.1.6.1.400"],
     "sources" : ["1.2.250.1.213.1.6.1.400"]
-  },
-  {
-    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modele-document-cda-cisis",
-    "version" : "20260420150250",
-    "status" : "active",
-    "name" : "JdvModeleDocumentCdaCisis",
-    "title" : "Jdv Modele Document CDA CISIS",
-    "description" : "Jdv Modele Document CDA CISIS",
-    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R221-ModeleDocumentCDANonStructure/FHIR/TRE-R221-ModeleDocumentCDANonStructure",
-    "https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure"],
-    "oids" : ["1.2.250.1.213.1.1.5.820"],
-    "sources" : ["1.2.250.1.213.1.1.5.820"],
-    "uses" : {
-    },
-    "ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.html" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS"
   }]
 }

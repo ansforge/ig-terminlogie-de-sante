@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies | *Version*:1.11.0 |
-| Active as of 2026-06-28 | *Computable Name*:Terminologies |
+| Active as of 2026-06-29 | *Computable Name*:Terminologies |
 
 Dans ce guide, nous retrouvons l’ensemble des terminologies de santé et jeux de valeurs plubliés par l’ANS :
 
@@ -175,7 +175,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-06-28T07:49:06+00:00",
+  "date" : "2026-06-29T08:56:16+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -26434,7 +26434,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
         "reference" : "ConceptMap/ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS"
       },
       "name" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS",
-      "description" : "Pour le document CDA, la métadonnée XDS 'formatCode' est calculé à partir de l'élement CDA 'templateId'. La correspondance entre templateId et formatCode est assurée par cette table d'association.",
+      "description" : "Lorsque le corps du CDA est structuré, la métadonnée 'formatCode' provient de l'élément 'templateId' (modèle du document CDA). La correspondance entre templateId et formatCode est assurée par cette table d'association",
       "exampleBoolean" : false
     },
     {

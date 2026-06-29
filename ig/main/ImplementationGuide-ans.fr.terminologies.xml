@@ -11,7 +11,7 @@
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2026-06-28T07:49:06+00:00"/>
+  <date value="2026-06-29T08:56:16+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -19134,7 +19134,7 @@
         <reference value="ConceptMap/ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS"/>
       </reference>
       <name value="ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS"/>
-      <description value="Pour le document CDA, la métadonnée XDS 'formatCode' est calculé à partir de l'élement CDA 'templateId'. La correspondance entre templateId et formatCode est assurée par cette table d'association."/>
+      <description value="Lorsque le corps du CDA est structuré, la métadonnée 'formatCode' provient de l'élément 'templateId' (modèle du document CDA). La correspondance entre templateId et formatCode est assurée par cette table d'association"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

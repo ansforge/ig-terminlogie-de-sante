@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "Terminologies"] ;
   fhir:ImplementationGuide.title [ fhir:value "Terminologies  de Santé"] ;
   fhir:ImplementationGuide.status [ fhir:value "active"] ;
-  fhir:ImplementationGuide.date [ fhir:value "2026-06-28T07:49:06+00:00"^^xsd:dateTime] ;
+  fhir:ImplementationGuide.date [ fhir:value "2026-06-29T08:56:16+00:00"^^xsd:dateTime] ;
   fhir:ImplementationGuide.publisher [ fhir:value "ANS"] ;
   fhir:ImplementationGuide.contact [
      fhir:index 0 ;
@@ -28687,7 +28687,7 @@
          fhir:Reference.reference [ fhir:value "ConceptMap/ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS" ] ;
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Pour le document CDA, la métadonnée XDS 'formatCode' est calculé à partir de l'élement CDA 'templateId'. La correspondance entre templateId et formatCode est assurée par cette table d'association." ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Lorsque le corps du CDA est structuré, la métadonnée 'formatCode' provient de l'élément 'templateId' (modèle du document CDA). La correspondance entre templateId et formatCode est assurée par cette table d'association" ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 8 ;
