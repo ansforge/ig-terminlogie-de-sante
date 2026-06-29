@@ -14,7 +14,7 @@ Description: "Cette TRE hiérarchique remplace les TRE_R68-FinessAgregatStatutJu
 * ^version = "20260629120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2026-02-23T12:00:00.000+00:00"
+* ^date = "2026-06-29T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
