@@ -54,8 +54,8 @@
         <valueUri value="http://hl7.org/fhir/concept-properties#status"/>
       </extension>
     </extension>
-    <identifier value="urn:uuid:b145edc0-f565-4cb6-9e0e-eb923f46a273"/>
-    <timestamp value="2026-06-30T13:54:56+02:00"/>
+    <identifier value="urn:uuid:489a9f27-58f1-4295-92de-1ec2d95c5ab2"/>
+    <timestamp value="2026-06-30T14:51:43+02:00"/>
     <total value="52"/>
     <parameter>
       <name value="used-codesystem"/>
