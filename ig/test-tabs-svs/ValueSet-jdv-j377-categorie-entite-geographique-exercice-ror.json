@@ -55,24 +55,35 @@
     }]
   },
   "expansion" : {
-    "identifier" : "urn:uuid:ec20c849-a547-4923-be84-5d16705cb59f",
-    "timestamp" : "2026-06-03T15:04:50+02:00",
+    "extension" : [{
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "status"
+      },
+      {
+        "url" : "uri",
+        "valueUri" : "http://hl7.org/fhir/concept-properties#status"
+      }],
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.property"
+    }],
+    "identifier" : "urn:uuid:82c8eb27-b745-49db-80f6-6c10ca6fc8b7",
+    "timestamp" : "2026-06-30T11:06:15+02:00",
     "total" : 181,
     "parameter" : [{
       "name" : "used-codesystem",
-      "valueUri" : "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite|20250523120000"
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice|20260601120000"
     },
     {
       "name" : "version",
-      "valueUri" : "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite|20250523120000"
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice|20260601120000"
     },
     {
       "name" : "used-codesystem",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice|20260601120000"
+      "valueUri" : "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite|20250523120000"
     },
     {
       "name" : "version",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice|20260601120000"
+      "valueUri" : "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite|20250523120000"
     }],
     "contains" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
@@ -237,16 +248,16 @@
       "display" : "Centre de Médecine Universitaire"
     },
     {
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite",
-      "version" : "20250523120000",
-      "code" : "SA05",
-      "display" : "Centre de santé"
-    },
-    {
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
       "version" : "20260601120000",
       "code" : "124",
       "display" : "Centre de Santé"
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite",
+      "version" : "20250523120000",
+      "code" : "SA05",
+      "display" : "Centre de santé"
     },
     {
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
@@ -267,13 +278,6 @@
       "display" : "Centre de soins et de prévention"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
       "inactive" : true,
       "version" : "20260601120000",
@@ -371,13 +375,6 @@
       "display" : "Centre Provisoire Hébergement (C.P.H.)"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
       "inactive" : true,
       "version" : "20260601120000",
@@ -625,13 +622,6 @@
       "display" : "Etablissement Expérimental Enfance Protégée"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
       "inactive" : true,
       "version" : "20260601120000",
@@ -639,13 +629,6 @@
       "display" : "Etablissement Expérimental pour Adultes Handicapés"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
       "inactive" : true,
       "version" : "20260601120000",
@@ -695,13 +678,6 @@
       "display" : "Exercice en société"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
       "inactive" : true,
       "version" : "20260601120000",
@@ -709,13 +685,6 @@
       "display" : "Foyer d'Accueil Médicalisé pour Adultes Handicapés (F.A.M.)"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
       "inactive" : true,
       "version" : "20260601120000",
@@ -729,13 +698,6 @@
       "display" : "Foyer de l'Enfance"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
       "inactive" : true,
       "version" : "20260601120000",
@@ -743,13 +705,6 @@
       "display" : "Foyer de Vie pour Adultes Handicapés"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
       "inactive" : true,
       "version" : "20260601120000",
@@ -835,13 +790,6 @@
       "display" : "Institut Médico-Educatif (I.M.E.)"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
       "inactive" : true,
       "version" : "20260601120000",

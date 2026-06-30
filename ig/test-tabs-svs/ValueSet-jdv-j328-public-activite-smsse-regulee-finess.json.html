@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Jdv J328 Public Activite Smsse Regulee Finess - JSON Representation - Terminologies  de Santé v1.9.3</title>
+    <title>Jdv J328 Public Activite Smsse Regulee Finess - JSON Representation - Terminologies  de Santé v1.11.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -43,8 +43,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"7.23"}
-    h3,h4,h5,h6{--heading-prefix:"7.23"}</style>
+    <style type="text/css">h2{--heading-prefix:"7.34"}
+    h3,h4,h5,h6{--heading-prefix:"7.34"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -58,7 +58,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Terminologies  de Santé</span>
             <br/>
-            <span style="display:inline-block;">1.9.3 - final-text
+            <span style="display:inline-block;">1.11.0 - final-text
 
 
 
@@ -169,7 +169,7 @@
         <div class="row">
           <div class="inner-wrapper">
 <div style="counter-reset: section 8" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">Terminologies  de Santé - version de développement local (intégration continue v1.9.3) construite par les outils de publication FHIR (HL7® FHIR® Standard). Voir le <a href='https://interop.esante.gouv.fr/terminologies/history.html'>répertoire des versions publiées</a></p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">Terminologies  de Santé - version de développement local (intégration continue v1.11.0) construite par les outils de publication FHIR (HL7® FHIR® Standard). Voir le <a href='https://interop.esante.gouv.fr/terminologies/history.html'>répertoire des versions publiées</a></p><!--EndReleaseHeader-->
 
 
 
@@ -330,17 +330,32 @@
     ]
   },
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion">expansion</a>" : {
-    "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.identifier">identifier</a>" : "urn:uuid:28fac3c0-c528-4904-b5e5-51b8146f2e87",
-    "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.timestamp">timestamp</a>" : "2026-06-03T15:05:30+02:00",
-    "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.total">total</a>" : 128,
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.extension">extension</a>" : [
+      {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCode</a>" : "status"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "uri",
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueUri</a>" : "http://hl7.org/fhir/concept-properties#status"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.property"
+      }
+    ],
+    "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.identifier">identifier</a>" : "urn:uuid:0079b44f-1643-4b3a-bed2-a951d9711528",
+    "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.timestamp">timestamp</a>" : "2026-06-30T11:05:39+02:00",
+    "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.total">total</a>" : 132,
     "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter">parameter</a>" : [
       {
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.name">name</a>" : "used-codesystem",
-        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.value_x_">valueUri</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee|20260223120000"
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.value_x_">valueUri</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee|20260629120000"
       },
       {
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.name">name</a>" : "version",
-        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.value_x_">valueUri</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee|20260223120000"
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.value_x_">valueUri</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee|20260629120000"
       }
     ],
     "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>" : [
@@ -353,6 +368,11 @@
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "802",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Adolescents ASE (7-17 ans)"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "842",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Adultes (sans autre indication)"
       },
       {
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
@@ -410,34 +430,12 @@
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Autres Enfants, Adolescents"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "321",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Cécité"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "322",
@@ -459,85 +457,30 @@
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Difficultés psychologiques avec troubles du comportement"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "113",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Débilité Profonde"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "112",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Débilité Profonde &amp; Arriéré Profond"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "512",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Défic.Visuelle.&amp; Audit.Associées"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Déficience Auditive"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "510",
@@ -549,68 +492,24 @@
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Déficience auditive grave"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "205",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Déficience du Psychisme (Sans Autre Indication)"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "203",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Déficience Grave de la Communication"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "204",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Déficience Grave du Psychisme"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "202",
@@ -622,17 +521,6 @@
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Déficience intellectuelle"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "110",
@@ -649,51 +537,18 @@
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Déficience Motrice"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "420",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Déficience Motrice avec Troubles Associés"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "410",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Déficience Motrice sans Troubles Associés"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "320",
@@ -705,51 +560,18 @@
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Déficience visuelle grave"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "317",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Déficiences Auditives avec troubles associés"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "120",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Déficiences Intellectuelles (SAI) avec Troubles Associés"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "327",
@@ -764,6 +586,11 @@
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "808",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Enfants d'Age Préscolaire"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "843",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Enfants et adolescents (sans autre indication)"
       },
       {
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
@@ -841,51 +668,18 @@
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Inculpés sous Contrôle judiciaire et Condamnés Libres"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "411",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Infirm.Mot.Cérébrale/non Cérébrale"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "412",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Infirmité Motrice Cérébrale"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "413",
@@ -922,34 +716,12 @@
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Majeurs Protégés"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "312",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Malentendant"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "323",
@@ -967,6 +739,11 @@
       },
       {
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "844",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Patients de soins sans consentement"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "834",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Patients et accompagnants (ou aidants)"
       },
@@ -981,17 +758,6 @@
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Personnes Agées (Sans Autre Indication)"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "710",
@@ -1008,51 +774,18 @@
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Personnes Agées dépendantes"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "704",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Personnes Agées non Autonomes"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "707",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Personnes Agées semi et non-Autonomes"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "703",
@@ -1149,68 +882,24 @@
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Polyhandicap"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "502",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Polyhandicap Auditif et Mental"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "506",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Polyhandicap Mot.Mental &amp; Sens"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "501",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Polyhandicap Moteur et Mental."
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "503",
@@ -1222,153 +911,59 @@
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Prostituées avec ou sans Enfant"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "841",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Périnatalité"
+      },
+      {
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "999",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Regroupement calculs (annexe xxiv)"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "118",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Retard Mental Léger"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Retard Mental Léger avec Troubles Associés"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "115",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Retard Mental Moyen"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "125",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Retard Mental Moyen avec Troubles Associés"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "116",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Retard Mental Moyen et Léger"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "121",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Retard Mental Profond et Sévère avec Troubles Associés"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "111",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Retard Mental Profond ou Sévère"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "114",
@@ -1380,17 +975,6 @@
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Sortants d'Etablissement Hospitalier ou médico-social yc psy"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "313",
@@ -1402,17 +986,6 @@
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Surdi-Cécité avec ou sans troubles associés"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "311",
@@ -1434,34 +1007,12 @@
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Toute Population"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "030",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Toutes Déficiences Mentales (sans autre indication)"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "020",
@@ -1483,51 +1034,18 @@
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Troubles du spectre de l'autisme"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "600",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Troubles Psychopathologiques (Sans Autre Indication)"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "602",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Troubles Psychopathologiques Graves"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "601",
@@ -1596,7 +1114,7 @@
 
 <div class="inner-wrapper">
   <p>
-    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.9.3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jun 3, 2026 13:06+0000">2026-06-03</span>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.11.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Jun 30, 2026 09:06+0000">2026-06-30</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

@@ -1,4 +1,4 @@
-# Jdv J409 Type Adresse Ms - Terminologies de Santé v1.9.3
+# Jdv J409 Type Adresse Ms - Terminologies de Santé v1.11.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -13,7 +13,7 @@
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.249 | | |
 
  
-Type d’adresse postale. 
+Type d’adresse postale tel que “Adresse du domicile”, “Adresse de livraison” pour une personne physique. 
 
  **References** 
 
@@ -46,7 +46,20 @@ Requête sur le SMT
 | Definition | An explanation of the meaning of the concept |
 | Comments | Additional notes about how to use the code |
 
+| | | |
+| :--- | :--- | :--- |
+|  [<prev](ValueSet-jdv-j408-orientation-ms.demande.md) | [top](#top) |  [next>](ValueSet-jdv-j409-type-adresse-ms-testing.md) |
 
+IG © 2020+
+[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.0 based on
+[FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
+2026-06-30
+
+Liens:
+[Table des matières ](toc.md)|
+[QA ](qa.md)|
+[Historique des versions ](https://interop.esante.gouv.fr/terminologies/history.html)|
+[New Issue](https://github.com/ansforge/IG-terminologie-de-sante/issues/new/choose?title=)
 
 ## Resource Content
 
@@ -55,8 +68,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-j409-type-adresse-ms",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2026-05-12T10:17:42.094+02:00",
+    "versionId" : "4",
+    "lastUpdated" : "2026-06-29T13:33:26.769+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -78,7 +91,7 @@ Requête sur le SMT
   "experimental" : false,
   "date" : "2026-05-05T12:00:00.000+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Type d'adresse postale.",
+  "description" : "Type d'adresse postale tel que \"Adresse du domicile\", \"Adresse de livraison\" pour une personne physique.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

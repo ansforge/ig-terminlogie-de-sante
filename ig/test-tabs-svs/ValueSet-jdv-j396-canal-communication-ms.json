@@ -54,8 +54,8 @@
     }]
   },
   "expansion" : {
-    "identifier" : "urn:uuid:95c90058-2a73-4b2a-a535-ea28f29c6dee",
-    "timestamp" : "2026-06-03T15:04:53+02:00",
+    "identifier" : "urn:uuid:9519a8eb-9bb5-4ee9-a12d-57543fcb7211",
+    "timestamp" : "2026-06-30T11:05:37+02:00",
     "total" : 8,
     "parameter" : [{
       "name" : "used-codesystem",
@@ -64,10 +64,6 @@
     {
       "name" : "version",
       "valueUri" : "https://mos.esante.gouv.fr/NOS/TRE_R200-CanalCommunication/FHIR/TRE-R200-CanalCommunication|20260330120000"
-    },
-    {
-      "name" : "warning-draft",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j396-canal-communication-ms|20260505120000"
     }],
     "contains" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R200-CanalCommunication/FHIR/TRE-R200-CanalCommunication",

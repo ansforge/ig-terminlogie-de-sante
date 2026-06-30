@@ -46,8 +46,8 @@
     </include>
   </compose>
   <expansion>
-    <identifier value="urn:uuid:c6b52143-deb5-44a8-a401-996cb972d836"/>
-    <timestamp value="2026-06-03T15:05:58+02:00"/>
+    <identifier value="urn:uuid:3daa7d41-01a0-4d50-9838-1918cb036280"/>
+    <timestamp value="2026-06-30T11:06:15+02:00"/>
     <total value="2"/>
     <parameter>
       <name value="used-codesystem"/>
@@ -56,10 +56,6 @@
     <parameter>
       <name value="version"/>
       <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r424-motif-absence|20260505120000"/>
-    </parameter>
-    <parameter>
-      <name value="warning-draft"/>
-      <valueUri value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j406-motif-absence-ms|20260505120000"/>
     </parameter>
     <parameter>
       <name value="warning-draft"/>

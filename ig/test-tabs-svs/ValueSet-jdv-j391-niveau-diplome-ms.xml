@@ -46,8 +46,8 @@
     </include>
   </compose>
   <expansion>
-    <identifier value="urn:uuid:8d938862-5882-4cf6-9216-6b548dbbf2d5"/>
-    <timestamp value="2026-06-03T15:05:38+02:00"/>
+    <identifier value="urn:uuid:35c17960-8d68-4aa9-ab09-415d8548faee"/>
+    <timestamp value="2026-06-30T11:05:33+02:00"/>
     <total value="9"/>
     <parameter>
       <name value="used-codesystem"/>
@@ -60,10 +60,6 @@
     <parameter>
       <name value="warning-draft"/>
       <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome|20260601120000"/>
-    </parameter>
-    <parameter>
-      <name value="warning-draft"/>
-      <valueUri value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j391-niveau-diplome-ms|20260601120000"/>
     </parameter>
     <contains>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome"/>

@@ -46,8 +46,16 @@
     </include>
   </compose>
   <expansion>
-    <identifier value="urn:uuid:5eb32570-5aeb-4ff5-a202-1bba9f7bdff6"/>
-    <timestamp value="2026-06-03T15:05:19+02:00"/>
+    <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.property">
+      <extension url="code">
+        <valueCode value="status"/>
+      </extension>
+      <extension url="uri">
+        <valueUri value="http://hl7.org/fhir/concept-properties#status"/>
+      </extension>
+    </extension>
+    <identifier value="urn:uuid:5dfe69a4-750e-461b-91bf-ef17888e8dca"/>
+    <timestamp value="2026-06-30T11:05:35+02:00"/>
     <total value="81"/>
     <parameter>
       <name value="used-codesystem"/>
@@ -58,11 +66,6 @@
       <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice|20260601120000"/>
     </parameter>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"/>
       <inactive value="true"/>
       <code value="6103"/>
@@ -94,44 +97,24 @@
       <display value="Autres structures d'exercice libéral"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"/>
       <inactive value="true"/>
       <code value="2105"/>
       <display value="Cabinet d'Auxiliaires Médicaux"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"/>
       <inactive value="true"/>
       <code value="2102"/>
       <display value="Cabinet de Groupe"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"/>
       <inactive value="true"/>
       <code value="2101"/>
       <display value="Cabinets Libéraux de Médecins"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"/>
       <inactive value="true"/>
       <code value="3403"/>
@@ -183,11 +166,6 @@
       <display value="Centres prestataires de services pr personnes cérébro-lésées"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"/>
       <inactive value="true"/>
       <code value="3202"/>
@@ -199,11 +177,6 @@
       <display value="Commerce de Biens à Usage Médicaux"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"/>
       <inactive value="true"/>
       <code value="3402"/>
@@ -275,11 +248,6 @@
       <display value="Etab.Expérimentaux en Faveur des Adultes Handicapés"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"/>
       <inactive value="true"/>
       <code value="0101"/>
@@ -291,33 +259,18 @@
       <display value="Etablissements d'Education Spéciale pour Handicapés Moteurs"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"/>
       <inactive value="true"/>
       <code value="1112"/>
       <display value="Etablissements d'Enfants à Caractère Sanitaire"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"/>
       <inactive value="true"/>
       <code value="4202"/>
       <display value="Etablissements d'Enseignement Secondaire"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"/>
       <inactive value="true"/>
       <code value="5102"/>
@@ -339,11 +292,6 @@
       <display value="Etablissements de Formation des Personnels Sociaux"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"/>
       <inactive value="true"/>
       <code value="6102"/>
@@ -360,11 +308,6 @@
       <display value="Etablissements de l'Aide Sociale à l'Enfance"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"/>
       <inactive value="true"/>
       <code value="1113"/>
@@ -391,11 +334,6 @@
       <display value="Etablissements de Soins de Longue Durée"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"/>
       <inactive value="true"/>
       <code value="2203"/>
@@ -427,11 +365,6 @@
       <display value="Etablissements Expérimentaux en Santé"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"/>
       <inactive value="true"/>
       <code value="5101"/>
@@ -443,11 +376,6 @@
       <display value="Etablissements ne relevant pas de la Loi Hospitalière"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"/>
       <inactive value="true"/>
       <code value="4201"/>
@@ -464,11 +392,6 @@
       <display value="Etablissements pour Adultes et Familles en Difficulté"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"/>
       <inactive value="true"/>
       <code value="5103"/>
@@ -510,11 +433,6 @@
       <display value="Santé Mentale"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"/>
       <inactive value="true"/>
       <code value="3404"/>
@@ -546,11 +464,6 @@
       <display value="Services de Prévention et de Santé au Travail (SPST)"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"/>
       <inactive value="true"/>
       <code value="4403"/>
@@ -572,11 +485,6 @@
       <display value="Transfusion Sanguine"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"/>
       <inactive value="true"/>
       <code value="1204"/>

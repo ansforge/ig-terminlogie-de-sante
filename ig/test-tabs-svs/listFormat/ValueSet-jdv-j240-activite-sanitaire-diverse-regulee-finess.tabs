@@ -3,7 +3,9 @@
 <OID>;<Code>;<Libellé>
 1.2.250.1.213.1.6.1.248;593;Accueil de l'Enfant Accomp.la Mère Convalescente
 1.2.250.1.213.1.6.1.248;211;Accueil et Traitement des Urgences Médico-Chirurgicales
+1.2.250.1.213.1.6.1.248;861;Accueil familial thérapeutique
 1.2.250.1.213.1.6.1.248;226;Accueil Orientation. des Malades.Tuberculo Pulmonaires
+1.2.250.1.213.1.6.1.248;863;Accueil permanent
 1.2.250.1.213.1.6.1.248;741;Accueil Traitement Urgence Chirurgicale
 1.2.250.1.213.1.6.1.248;740;Accueil Traitement Urgence Médicale
 1.2.250.1.213.1.6.1.248;742;Accueil Traitement Urgence Spécialisé
@@ -27,6 +29,7 @@
 1.2.250.1.213.1.6.1.248;062;Anatomie Cytologie Pathologiques
 1.2.250.1.213.1.6.1.248;097;Anesthésiologie
 1.2.250.1.213.1.6.1.248;761;Anesthésiologie & Salle Réveil
+1.2.250.1.213.1.6.1.248;862;Appartement thérapeutique
 1.2.250.1.213.1.6.1.248;647;assistance vent.Endotracheale
 1.2.250.1.213.1.6.1.248;799;Assistance Ventilatoire Avec Prothèse Extra-Thoracique
 1.2.250.1.213.1.6.1.248;800;Assistance ventilatoire Par Pres.Posit.Cont.ou Techn.Respir.
@@ -54,11 +57,17 @@
 1.2.250.1.213.1.6.1.248;762;Bloc Opératoire et Stérilisation Indifférenciées
 1.2.250.1.213.1.6.1.248;728;cardiologie infantile
 1.2.250.1.213.1.6.1.248;103;Centre AntiPoison
+1.2.250.1.213.1.6.1.248;877;Centre d'accueil et de crise
 1.2.250.1.213.1.6.1.248;237;centre d'accueil permanent adulte
 1.2.250.1.213.1.6.1.248;238;centre d'accueil permanent infanto-juvénile
 1.2.250.1.213.1.6.1.248;233;Centre d'accueil thérapeutique à temps partiel adulte
 1.2.250.1.213.1.6.1.248;234;Centre d'accueil thérapeutique à temps partiel infanto-juv
+1.2.250.1.213.1.6.1.248;864;Centre d'activités thérapeutiques et de temps de groupe
 1.2.250.1.213.1.6.1.248;759;Centre d'Hémobiologie
+1.2.250.1.213.1.6.1.248;875;Centre de consultations
+1.2.250.1.213.1.6.1.248;865;Centre de crise
+1.2.250.1.213.1.6.1.248;866;Centre de soins post-aigus
+1.2.250.1.213.1.6.1.248;867;Centre médico-psychologique
 1.2.250.1.213.1.6.1.248;231;centre médico-psychologique adulte
 1.2.250.1.213.1.6.1.248;232;centre médico-psychologique infanto-juvénile
 1.2.250.1.213.1.6.1.248;747;Chimie
@@ -193,6 +202,8 @@
 1.2.250.1.213.1.6.1.248;037;Hémodynamique
 1.2.250.1.213.1.6.1.248;745;Hémostase
 1.2.250.1.213.1.6.1.248;124;Hépato-Gastro-Entérologie
+1.2.250.1.213.1.6.1.248;868;Hôpital de jour
+1.2.250.1.213.1.6.1.248;874;Hôpital de nuit
 1.2.250.1.213.1.6.1.248;753;Imagerie Par Résonance Magnétique (IRM)
 1.2.250.1.213.1.6.1.248;743;Immuno-Hématologie
 1.2.250.1.213.1.6.1.248;744;Immuno-Sérologie
@@ -329,11 +340,13 @@
 1.2.250.1.213.1.6.1.248;760;Salle de Réveil
 1.2.250.1.213.1.6.1.248;035;Scanographie X
 1.2.250.1.213.1.6.1.248;402;service accueil et traitement urgences
+1.2.250.1.213.1.6.1.248;869;Service médico-psychologique régional
 1.2.250.1.213.1.6.1.248;195;Soins aux Toxicomanes
 1.2.250.1.213.1.6.1.248;718;Soins Hautement Spécialisés en Chirurgie
 1.2.250.1.213.1.6.1.248;719;Soins Hautement Spécialisés en Gynécologie
 1.2.250.1.213.1.6.1.248;717;Soins Hautement Spécialisés en Médecine
 1.2.250.1.213.1.6.1.248;235;soins intensifs de néonatologie
+1.2.250.1.213.1.6.1.248;870;Soins à domicile
 1.2.250.1.213.1.6.1.248;143;SPECIALITE CHIRURGICALE
 1.2.250.1.213.1.6.1.248;731;Spécialités Pédiatriques
 1.2.250.1.213.1.6.1.248;821;Stockage, Distribution de Sang
@@ -359,6 +372,10 @@
 1.2.250.1.213.1.6.1.248;222;Traitements Préventifs de la Tuberculose
 1.2.250.1.213.1.6.1.248;200;Transfusion Sanguine (Laboratoire)
 1.2.250.1.213.1.6.1.248;401;unité de proximité accueil traitement orientation urgences
+1.2.250.1.213.1.6.1.248;876;Unité d’hospitalisation complète
+1.2.250.1.213.1.6.1.248;871;Unité hospitalière spécialement aménagée
+1.2.250.1.213.1.6.1.248;872;Unité pour malades difficiles
+1.2.250.1.213.1.6.1.248;873;Unité sanitaire en milieu pénitentiaire
 1.2.250.1.213.1.6.1.248;307;Urgence Chirurgicale (SERV.PORTE)
 1.2.250.1.213.1.6.1.248;308;Urgence Indifférenciée
 1.2.250.1.213.1.6.1.248;303;Urgence Médicale

@@ -46,8 +46,8 @@
     </include>
   </compose>
   <expansion>
-    <identifier value="urn:uuid:b2611117-341b-4849-bea3-42fdc9e63c98"/>
-    <timestamp value="2026-06-03T15:04:55+02:00"/>
+    <identifier value="urn:uuid:1e457d51-f805-4e3c-9f50-79d5f0487572"/>
+    <timestamp value="2026-06-30T11:06:45+02:00"/>
     <total value="4"/>
     <parameter>
       <name value="used-codesystem"/>
@@ -56,10 +56,6 @@
     <parameter>
       <name value="version"/>
       <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r416-type-courrier|20260505120000"/>
-    </parameter>
-    <parameter>
-      <name value="warning-draft"/>
-      <valueUri value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j392-type-courrier-ms|20260505120000"/>
     </parameter>
     <parameter>
       <name value="warning-draft"/>

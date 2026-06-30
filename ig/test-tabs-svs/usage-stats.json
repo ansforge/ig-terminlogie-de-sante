@@ -1,11 +1,14 @@
 {
   "package": "ans.fr.terminologies",
-  "version": "1.9.3",
+  "version": "1.11.0",
   "fhirVersion": "4.0.1",
   "jurisdiction": "FRA",
   "extensions": [],
   "profiles": {},
   "usage": {
+    "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.property": [
+      "ValueSet.expansion"
+    ],
     "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type": [
       "CodeSystem"
     ],
@@ -36,9 +39,6 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
-    ],
-    "http://ontoserver.csiro.au/profiles/expansion": [
-      "ValueSet.expansion.contains"
     ]
   }
 }

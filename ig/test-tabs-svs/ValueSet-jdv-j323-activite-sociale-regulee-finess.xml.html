@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Jdv J323 Activite Sociale Regulee Finess - XML Representation - Terminologies  de Santé v1.9.3</title>
+    <title>Jdv J323 Activite Sociale Regulee Finess - XML Representation - Terminologies  de Santé v1.11.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -43,8 +43,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"7.19"}
-    h3,h4,h5,h6{--heading-prefix:"7.19"}</style>
+    <style type="text/css">h2{--heading-prefix:"7.30"}
+    h3,h4,h5,h6{--heading-prefix:"7.30"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -58,7 +58,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Terminologies  de Santé</span>
             <br/>
-            <span style="display:inline-block;">1.9.3 - final-text
+            <span style="display:inline-block;">1.11.0 - final-text
 
 
 
@@ -169,7 +169,7 @@
         <div class="row">
           <div class="inner-wrapper">
 <div style="counter-reset: section 7" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">Terminologies  de Santé - version de développement local (intégration continue v1.9.3) construite par les outils de publication FHIR (HL7® FHIR® Standard). Voir le <a href='https://interop.esante.gouv.fr/terminologies/history.html'>répertoire des versions publiées</a></p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">Terminologies  de Santé - version de développement local (intégration continue v1.11.0) construite par les outils de publication FHIR (HL7® FHIR® Standard). Voir le <a href='https://interop.esante.gouv.fr/terminologies/history.html'>répertoire des versions publiées</a></p><!--EndReleaseHeader-->
 
 
 
@@ -326,8 +326,17 @@
     &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include">include</a>&gt;
   &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose">compose</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion">expansion</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.identifier">identifier</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;urn:uuid:78ee563c-610b-461c-b0ae-1cc9d4ceaf34&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.timestamp">timestamp</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2026-06-03T15:05:44+02:00&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.extension">extension</a>
+               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.property&quot;&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;code&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;status&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;uri&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueUri</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/concept-properties#status&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.extension">extension</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.identifier">identifier</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;urn:uuid:37b4bc48-662c-46fa-bd2f-165401011226&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.timestamp">timestamp</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2026-06-30T11:06:44+02:00&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.total">total</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;134&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter">parameter</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;used-codesystem&quot;/&gt;
@@ -347,11 +356,6 @@
                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Acc. dans l'acquisition de l'autonomie et la scolarisation&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://ontoserver.csiro.au/profiles/expansion&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;inactive&quot;&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -366,11 +370,6 @@
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Accompagnement enseignement supérieur&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://ontoserver.csiro.au/profiles/expansion&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;inactive&quot;&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -384,11 +383,6 @@
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Accompagnement précoce de jeunes enfants&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://ontoserver.csiro.au/profiles/expansion&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;inactive&quot;&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -403,11 +397,6 @@
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Accueil au titre de la protection de l'enfance&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://ontoserver.csiro.au/profiles/expansion&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;inactive&quot;&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -416,11 +405,6 @@
                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Accueil collectif occasionnel d'enfants d'âge préscolaire&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://ontoserver.csiro.au/profiles/expansion&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;inactive&quot;&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -428,11 +412,6 @@
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Accueil collectif polyvalent regulier et occasionnel&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://ontoserver.csiro.au/profiles/expansion&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;inactive&quot;&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -447,11 +426,6 @@
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Accueil d'urgence protection de l'enfance&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://ontoserver.csiro.au/profiles/expansion&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;inactive&quot;&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -459,11 +433,6 @@
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Accueil en Foyer de Vie pour Adultes Handicapés&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://ontoserver.csiro.au/profiles/expansion&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;inactive&quot;&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -492,11 +461,6 @@
                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Accueil et accompagnement spécialisé personnes handicapés&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://ontoserver.csiro.au/profiles/expansion&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;inactive&quot;&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -505,11 +469,6 @@
                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Accueil familial occasionnel d'enfants d'âge préscolaire&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://ontoserver.csiro.au/profiles/expansion&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;inactive&quot;&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -517,11 +476,6 @@
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Accueil familial régulier d'enfants d'âge préscolaire&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://ontoserver.csiro.au/profiles/expansion&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;inactive&quot;&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -542,11 +496,6 @@
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Accueil pour Personnes Âgées&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://ontoserver.csiro.au/profiles/expansion&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;inactive&quot;&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -567,11 +516,6 @@
                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Accueil Temporaire d'Urgence Pr Adultes &amp;amp; Familles&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://ontoserver.csiro.au/profiles/expansion&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;inactive&quot;&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -579,11 +523,6 @@
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Accueil temporaire enfants handicapés&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://ontoserver.csiro.au/profiles/expansion&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;inactive&quot;&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -591,11 +530,6 @@
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Accueil temporaire pour adultes handicapés&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://ontoserver.csiro.au/profiles/expansion&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;inactive&quot;&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -616,11 +550,6 @@
                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Accueil temporaire saisonnier ou week-end protection de l'enfance&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://ontoserver.csiro.au/profiles/expansion&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;inactive&quot;&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -647,11 +576,6 @@
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Activité C.M.P.P.&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://ontoserver.csiro.au/profiles/expansion&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;inactive&quot;&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -659,11 +583,6 @@
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Activité des Centres de Jour pour Personnes Âgées&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://ontoserver.csiro.au/profiles/expansion&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;inactive&quot;&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -677,11 +596,6 @@
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Activité soins d'accompagnement et de réhabilitation&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://ontoserver.csiro.au/profiles/expansion&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;inactive&quot;&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -695,11 +609,6 @@
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Activités des Établissements Expérimentaux&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://ontoserver.csiro.au/profiles/expansion&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;inactive&quot;&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -713,11 +622,6 @@
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Adaptation à la vie active&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://ontoserver.csiro.au/profiles/expansion&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;inactive&quot;&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -767,11 +671,6 @@
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Animation de la Vie Sociale&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://ontoserver.csiro.au/profiles/expansion&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;inactive&quot;&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -797,11 +696,6 @@
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Centre de ressources territorial&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://ontoserver.csiro.au/profiles/expansion&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;inactive&quot;&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -815,11 +709,6 @@
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Consultation d'Orientation Pour Mineurs Justice&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://ontoserver.csiro.au/profiles/expansion&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;inactive&quot;&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -828,11 +717,6 @@
                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Education Spécialisée et Soins à domicile Enfants Handicapés&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://ontoserver.csiro.au/profiles/expansion&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;inactive&quot;&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -840,11 +724,6 @@
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Enseignement Général Spécialisé&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://ontoserver.csiro.au/profiles/expansion&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;inactive&quot;&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -871,11 +750,6 @@
                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Evaluat réentraînem orientat soc. et socioprof cérébro-lésés&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://ontoserver.csiro.au/profiles/expansion&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;inactive&quot;&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -889,11 +763,6 @@
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Evaluation des situations des personnes&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://ontoserver.csiro.au/profiles/expansion&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;inactive&quot;&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -947,11 +816,6 @@
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Hébergement en centre parental&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://ontoserver.csiro.au/profiles/expansion&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;inactive&quot;&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -972,11 +836,6 @@
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Hébergement Ouvert en Ets Pr Adultes &amp;amp; Familles&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://ontoserver.csiro.au/profiles/expansion&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;inactive&quot;&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -1011,11 +870,6 @@
                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Hébergement résidence autonomie personnes âgées seules F1&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://ontoserver.csiro.au/profiles/expansion&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;inactive&quot;&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -1097,11 +951,6 @@
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Permanence des Assistants de Service Social&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://ontoserver.csiro.au/profiles/expansion&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;inactive&quot;&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -1109,11 +958,6 @@
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Placement Familial pour Enfants Handicapés&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://ontoserver.csiro.au/profiles/expansion&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;inactive&quot;&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -1121,11 +965,6 @@
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Placement Familial Social&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://ontoserver.csiro.au/profiles/expansion&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;inactive&quot;&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -1152,11 +991,6 @@
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Préorientation pour Adultes handicapés&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://ontoserver.csiro.au/profiles/expansion&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;inactive&quot;&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -1170,11 +1004,6 @@
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Préparation à la vie professionnelle&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://ontoserver.csiro.au/profiles/expansion&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;inactive&quot;&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -1201,11 +1030,6 @@
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Recherche dans Domaine Social&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://ontoserver.csiro.au/profiles/expansion&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;inactive&quot;&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -1273,11 +1097,6 @@
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Section Cure Médicale (dont)&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://ontoserver.csiro.au/profiles/expansion&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;inactive&quot;&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -1347,11 +1166,6 @@
                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Tutelle curatelle mandat spécial sauvegarde justice pers maj&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://ontoserver.csiro.au/profiles/expansion&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;inactive&quot;&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -1377,11 +1191,6 @@
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Veille sociale&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://ontoserver.csiro.au/profiles/expansion&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;inactive&quot;&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -1390,11 +1199,6 @@
                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Éduc.Générale.Profession.&amp;amp; Soins Spécial.Enfants Handicapés&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://ontoserver.csiro.au/profiles/expansion&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;inactive&quot;&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -1403,11 +1207,6 @@
                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Éducation Générale et Soins Spécialisés Enfants Handicapés&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://ontoserver.csiro.au/profiles/expansion&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;inactive&quot;&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -1416,11 +1215,6 @@
                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Éducation Générale Soins Spéc. Enfants Hand.Troubles Assoc.&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://ontoserver.csiro.au/profiles/expansion&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;inactive&quot;&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -1429,11 +1223,6 @@
                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Éducation Prof. Soins Spéc. Enfants Hand. Troubles Associés&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://ontoserver.csiro.au/profiles/expansion&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;inactive&quot;&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>
               <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -1488,7 +1277,7 @@
 
 <div class="inner-wrapper">
   <p>
-    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.9.3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jun 3, 2026 13:06+0000">2026-06-03</span>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.11.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Jun 30, 2026 09:06+0000">2026-06-30</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

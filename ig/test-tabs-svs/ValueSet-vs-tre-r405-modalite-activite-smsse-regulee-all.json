@@ -38,8 +38,19 @@
     }]
   },
   "expansion" : {
-    "identifier" : "urn:uuid:e5adf7ce-8d55-4ddc-85e1-3a345eb31f5d",
-    "timestamp" : "2026-06-03T15:05:28+02:00",
+    "extension" : [{
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "status"
+      },
+      {
+        "url" : "uri",
+        "valueUri" : "http://hl7.org/fhir/concept-properties#status"
+      }],
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.property"
+    }],
+    "identifier" : "urn:uuid:007ab7eb-a72b-4ec4-ae2d-bda304df2b81",
+    "timestamp" : "2026-06-30T11:05:45+02:00",
     "total" : 183,
     "parameter" : [{
       "name" : "used-codesystem",
@@ -385,52 +396,24 @@
       "display" : "Dialyse péritonéale à domicile"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee",
       "inactive" : true,
       "code" : "63",
       "display" : "DPN : Analyse de biochimie, y compris analyse sur marqueurs sériques maternels"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee",
       "inactive" : true,
       "code" : "64",
       "display" : "DPN : Analyses d'hématologie"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee",
       "inactive" : true,
       "code" : "65",
       "display" : "DPN : Analyses d'immunologie"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee",
       "inactive" : true,
       "code" : "61",

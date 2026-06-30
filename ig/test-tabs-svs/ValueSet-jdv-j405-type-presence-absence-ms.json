@@ -47,8 +47,8 @@
     }]
   },
   "expansion" : {
-    "identifier" : "urn:uuid:6ef1463d-36f1-4989-aeb6-3834aabd9086",
-    "timestamp" : "2026-06-03T15:05:20+02:00",
+    "identifier" : "urn:uuid:5430fa96-5c03-429e-8b0e-6feba1211ade",
+    "timestamp" : "2026-06-30T11:06:18+02:00",
     "total" : 2,
     "parameter" : [{
       "name" : "used-codesystem",
@@ -61,10 +61,6 @@
     {
       "name" : "warning-draft",
       "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r423-type-presence-absence|20260505120000"
-    },
-    {
-      "name" : "warning-draft",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j405-type-presence-absence-ms|20260505120000"
     }],
     "contains" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r423-type-presence-absence",

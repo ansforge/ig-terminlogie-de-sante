@@ -47,16 +47,27 @@
     }]
   },
   "expansion" : {
-    "identifier" : "urn:uuid:3eb5d612-7368-4001-9e9e-23058264ac88",
-    "timestamp" : "2026-06-03T15:04:56+02:00",
+    "extension" : [{
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "status"
+      },
+      {
+        "url" : "uri",
+        "valueUri" : "http://hl7.org/fhir/concept-properties#status"
+      }],
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.property"
+    }],
+    "identifier" : "urn:uuid:2d136c4b-05af-4463-9054-1284b0fb7bc7",
+    "timestamp" : "2026-06-30T11:06:03+02:00",
     "total" : 52,
     "parameter" : [{
       "name" : "used-codesystem",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee|20260601120000"
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee|20260629120000"
     },
     {
       "name" : "version",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee|20260601120000"
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee|20260629120000"
     }],
     "contains" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
@@ -69,52 +80,24 @@
       "display" : "Analyses Médicales Biologiques"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
       "inactive" : true,
       "code" : "0421",
       "display" : "Anesthésiologie et Réveil"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
       "inactive" : true,
       "code" : "0661",
       "display" : "Autres Disciplines"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
       "inactive" : true,
       "code" : "0361",
       "display" : "Autres Traitements Spécialisés à Domicile"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
       "inactive" : true,
       "code" : "0411",
@@ -126,91 +109,42 @@
       "display" : "Chimiothérapie"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
       "inactive" : true,
       "code" : "0221",
       "display" : "Chirurgie Générale"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
       "inactive" : true,
       "code" : "0222",
       "display" : "Chirurgie Infantile"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
       "inactive" : true,
       "code" : "0262",
       "display" : "Convalescence, Repos, Régime"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
       "inactive" : true,
       "code" : "0266",
       "display" : "Cures Médicales"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
       "inactive" : true,
       "code" : "0267",
       "display" : "Cures Médicales pour Enfants"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
       "inactive" : true,
       "code" : "0265",
       "display" : "Cures Thermales"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
       "inactive" : true,
       "code" : "0311",
@@ -222,13 +156,6 @@
       "display" : "disciplines de cures thermales"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
       "inactive" : true,
       "code" : "0641",
@@ -240,26 +167,12 @@
       "display" : "Examens Systématique et Dépistage"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
       "inactive" : true,
       "code" : "0451",
       "display" : "Exploration Fonctionnelle"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
       "inactive" : true,
       "code" : "0231",
@@ -271,13 +184,6 @@
       "display" : "Hospitalisation de Jour en Gynéco-Obstétrique"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
       "inactive" : true,
       "code" : "0431",
@@ -289,13 +195,6 @@
       "display" : "Lutte contre l'Alcoolisme"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
       "inactive" : true,
       "code" : "0264",
@@ -307,39 +206,18 @@
       "display" : "Lutte contre les Toxicomanies"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
       "inactive" : true,
       "code" : "0261",
       "display" : "Maladie à Evolution Prolongée"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
       "inactive" : true,
       "code" : "0211",
       "display" : "Médecine Générale"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
       "inactive" : true,
       "code" : "0241",
@@ -351,13 +229,6 @@
       "display" : "Pharmacie et autres biens médicaux"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
       "inactive" : true,
       "code" : "0268",
@@ -369,143 +240,66 @@
       "display" : "Prévention et Conseil"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
       "inactive" : true,
       "code" : "0281",
       "display" : "Psychiatrie Adulte"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
       "inactive" : true,
       "code" : "0372",
       "display" : "psychiatrie en milieu pénitentiaire"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
       "inactive" : true,
       "code" : "0291",
       "display" : "Psychiatrie Infanto-juvénile"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
       "inactive" : true,
       "code" : "0212",
       "display" : "Pédiatrie"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
       "inactive" : true,
       "code" : "0441",
       "display" : "Radiothérapie"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
       "inactive" : true,
       "code" : "0642",
       "display" : "Recherche"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
       "inactive" : true,
       "code" : "0224",
       "display" : "Réanimation Chirurgicale"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
       "inactive" : true,
       "code" : "0214",
       "display" : "Réanimation Médicale"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
       "inactive" : true,
       "code" : "0263",
       "display" : "Rééducation Fonctionnelle et Réadaptation"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
       "inactive" : true,
       "code" : "0531",
       "display" : "SAMU - SMUR"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
       "inactive" : true,
       "code" : "0271",
@@ -517,26 +311,12 @@
       "display" : "Soins Divers"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
       "inactive" : true,
       "code" : "0223",
       "display" : "Spécialités Chirurgicales"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
       "inactive" : true,
       "code" : "0213",
@@ -550,42 +330,21 @@
     {
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
       "code" : "0371",
-      "display" : "structures de psychiatrie sans hébergement"
+      "display" : "structures de psychiatrie ambulatoire"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
       "inactive" : true,
       "code" : "0225",
       "display" : "Surveillance Continue Chirurgicale"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
       "inactive" : true,
       "code" : "0215",
       "display" : "Surveillance Continue Médicale"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
       "inactive" : true,
       "code" : "0461",
@@ -597,26 +356,12 @@
       "display" : "Transport des Malades"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
       "inactive" : true,
       "code" : "0511",
       "display" : "Urgence"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
       "inactive" : true,
       "code" : "0521",

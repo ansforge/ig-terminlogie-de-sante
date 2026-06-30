@@ -47,8 +47,8 @@
     }]
   },
   "expansion" : {
-    "identifier" : "urn:uuid:8d938862-5882-4cf6-9216-6b548dbbf2d5",
-    "timestamp" : "2026-06-03T15:05:38+02:00",
+    "identifier" : "urn:uuid:35c17960-8d68-4aa9-ab09-415d8548faee",
+    "timestamp" : "2026-06-30T11:05:33+02:00",
     "total" : 9,
     "parameter" : [{
       "name" : "used-codesystem",
@@ -61,10 +61,6 @@
     {
       "name" : "warning-draft",
       "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome|20260601120000"
-    },
-    {
-      "name" : "warning-draft",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j391-niveau-diplome-ms|20260601120000"
     }],
     "contains" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome",

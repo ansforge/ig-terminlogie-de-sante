@@ -54,16 +54,16 @@
     </exclude>
   </compose>
   <expansion>
-    <identifier value="urn:uuid:9e2de00d-48a1-4b01-8127-c92fc6a48a8c"/>
-    <timestamp value="2026-06-03T15:05:05+02:00"/>
+    <identifier value="urn:uuid:8fff3273-9c31-41a9-b68b-506d9018ba28"/>
+    <timestamp value="2026-06-30T11:06:06+02:00"/>
     <total value="5"/>
     <parameter>
       <name value="used-codesystem"/>
-      <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique|20260223120000"/>
+      <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique|20260629120000"/>
     </parameter>
     <parameter>
       <name value="version"/>
-      <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique|20260223120000"/>
+      <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique|20260629120000"/>
     </parameter>
     <contains>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique"/>

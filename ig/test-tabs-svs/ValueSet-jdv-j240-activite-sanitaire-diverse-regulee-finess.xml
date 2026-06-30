@@ -46,78 +46,66 @@
     </include>
   </compose>
   <expansion>
-    <identifier value="urn:uuid:9ad57a70-59b0-490f-9b58-57f850ca7cf1"/>
-    <timestamp value="2026-06-03T15:06:03+02:00"/>
-    <total value="369"/>
+    <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.property">
+      <extension url="code">
+        <valueCode value="status"/>
+      </extension>
+      <extension url="uri">
+        <valueUri value="http://hl7.org/fhir/concept-properties#status"/>
+      </extension>
+    </extension>
+    <identifier value="urn:uuid:f92168f2-9da8-47a8-b0b3-031228ab10f6"/>
+    <timestamp value="2026-06-30T11:06:35+02:00"/>
+    <total value="386"/>
     <parameter>
       <name value="used-codesystem"/>
-      <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee|20260601120000"/>
+      <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee|20260629120000"/>
     </parameter>
     <parameter>
       <name value="version"/>
-      <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee|20260601120000"/>
+      <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee|20260629120000"/>
     </parameter>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="593"/>
       <display value="Accueil de l'Enfant Accomp.la Mère Convalescente"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="211"/>
       <display value="Accueil et Traitement des Urgences Médico-Chirurgicales"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
+      <code value="861"/>
+      <display value="Accueil familial thérapeutique"/>
+    </contains>
+    <contains>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="226"/>
       <display value="Accueil Orientation. des Malades.Tuberculo Pulmonaires"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
+      <code value="863"/>
+      <display value="Accueil permanent"/>
+    </contains>
+    <contains>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="741"/>
       <display value="Accueil Traitement Urgence Chirurgicale"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="740"/>
       <display value="Accueil Traitement Urgence Médicale"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="742"/>
@@ -129,11 +117,6 @@
       <display value="Act inform dépistage diag infections sexuellmnt transmissibl"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="153"/>
@@ -150,11 +133,6 @@
       <display value="Activité de lutte contre la lèpre"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="757"/>
@@ -196,11 +174,6 @@
       <display value="Activité paramédicale autre qu'activité infirmière unique"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="099"/>
@@ -212,22 +185,12 @@
       <display value="Activité sage-femme en maison de naissance"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="452"/>
       <display value="Aide Aux Insuffisants Respiratoires"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="115"/>
@@ -239,88 +202,53 @@
       <display value="Ambulances"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="062"/>
       <display value="Anatomie Cytologie Pathologiques"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="097"/>
       <display value="Anesthésiologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="761"/>
       <display value="Anesthésiologie &amp; Salle Réveil"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
+      <code value="862"/>
+      <display value="Appartement thérapeutique"/>
+    </contains>
+    <contains>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="647"/>
       <display value="assistance vent.Endotracheale"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="799"/>
       <display value="Assistance Ventilatoire Avec Prothèse Extra-Thoracique"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="800"/>
       <display value="Assistance ventilatoire Par Pres.Posit.Cont.ou Techn.Respir."/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="646"/>
       <display value="Assistance Ventilée Sans Trachéotomie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="499"/>
@@ -328,174 +256,101 @@
     </contains>
     <contains>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
+      <inactive value="true"/>
       <code value="806"/>
       <display value="atelier thérapeutique adulte"/>
     </contains>
     <contains>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
+      <inactive value="true"/>
       <code value="807"/>
       <display value="atelier thérapeutique infanto-juvenile"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="723"/>
       <display value="Auto dialyse"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="754"/>
       <display value="Autre Activité Spécialisées Imagerie Médicale"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="085"/>
       <display value="Autre discipline de biologie médicale spécialisée"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="409"/>
       <display value="autre pôle spécialisé urgence non dénommé ailleurs"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="044"/>
       <display value="Autre Radiothérapie Spécialisée"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="061"/>
       <display value="Autre Rééducation Spécialisée"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="090"/>
       <display value="Autres Consultations Soins Externes"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="802"/>
       <display value="Autres Traitements Spécialisés à Domicile"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="819"/>
       <display value="Autres écographies"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="063"/>
       <display value="Bactériologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="748"/>
       <display value="Bactériologie &amp; Virologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="077"/>
       <display value="Bactériologie-Vitro Parasitologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="202"/>
       <display value="Banque d'Organes"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="201"/>
       <display value="Banque de Sperme"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="064"/>
@@ -507,44 +362,24 @@
       <display value="Biologie Médicale"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="065"/>
       <display value="Biophysique"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="762"/>
       <display value="Bloc Opératoire et Stérilisation Indifférenciées"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="728"/>
       <display value="cardiologie infantile"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="103"/>
@@ -552,30 +387,39 @@
     </contains>
     <contains>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
+      <code value="877"/>
+      <display value="Centre d'accueil et de crise"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
+      <inactive value="true"/>
       <code value="237"/>
       <display value="centre d'accueil permanent adulte"/>
     </contains>
     <contains>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
+      <inactive value="true"/>
       <code value="238"/>
       <display value="centre d'accueil permanent infanto-juvénile"/>
     </contains>
     <contains>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
+      <inactive value="true"/>
       <code value="233"/>
       <display value="Centre d'accueil thérapeutique à temps partiel adulte"/>
     </contains>
     <contains>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
+      <inactive value="true"/>
       <code value="234"/>
       <display value="Centre d'accueil thérapeutique à temps partiel infanto-juv"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
+      <code value="864"/>
+      <display value="Centre d'activités thérapeutiques et de temps de groupe"/>
+    </contains>
+    <contains>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="759"/>
@@ -583,207 +427,139 @@
     </contains>
     <contains>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
+      <code value="875"/>
+      <display value="Centre de consultations"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
+      <code value="865"/>
+      <display value="Centre de crise"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
+      <code value="866"/>
+      <display value="Centre de soins post-aigus"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
+      <code value="867"/>
+      <display value="Centre médico-psychologique"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
+      <inactive value="true"/>
       <code value="231"/>
       <display value="centre médico-psychologique adulte"/>
     </contains>
     <contains>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
+      <inactive value="true"/>
       <code value="232"/>
       <display value="centre médico-psychologique infanto-juvénile"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="747"/>
       <display value="Chimie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="302"/>
       <display value="CHIMIOTHER.EN HEMATOL.&amp; CANCER"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="144"/>
       <display value="Chirurgie Carcinologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="150"/>
       <display value="CHIRURGIE CARDIO-VASCULAIRE"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="146"/>
       <display value="Chirurgie Digestive"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="631"/>
       <display value="Chirurgie Gynécologique"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="137"/>
       <display value="Chirurgie Générale"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="181"/>
       <display value="Chirurgie Générale Spécialités Chirurgicales"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="138"/>
       <display value="Chirurgie Infantile"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="362"/>
       <display value="Chirurgie Obstétrique Indifférenciées"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="154"/>
       <display value="Chirurgie Plastique Reconstructive"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="147"/>
       <display value="Chirurgie Thoracique Cardio-Vasculaire"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="148"/>
       <display value="CHIRURGIE THORACO-PULMONAIRE"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="149"/>
       <display value="Chirurgie Vasculaire"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="167"/>
       <display value="Chroniques"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="166"/>
       <display value="Chroniques Convalescence Indifférencié"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="820"/>
       <display value="Collecte de Sang"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="265"/>
@@ -810,22 +586,12 @@
       <display value="Consultation Externes Indifférenciées"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="388"/>
       <display value="Consultations de deuxième age"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="387"/>
@@ -847,396 +613,216 @@
       <display value="Consultations Prénuptiale Prénatale et Postnatale"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="170"/>
       <display value="Convalescence"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="466"/>
       <display value="Convalescence &amp; Réadaptation Personnes Âgées"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="737"/>
       <display value="Convalescence et Réadaptation"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="595"/>
       <display value="Convalescence Postnatale"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="067"/>
       <display value="Coprologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="221"/>
       <display value="Cure et Repos en Prévention"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="459"/>
       <display value="Cure Médic. Spécialisée Contre Tuberculose Extra-Pulmonaire"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="463"/>
       <display value="Cure Médic. Spécialisée Tous Ages"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="464"/>
       <display value="Cure Médic.Spéc.Pneumologique Pr Enfant"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="465"/>
       <display value="Cure Médic.Spéc.Pneumologique.Pr Tous Ages"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="457"/>
       <display value="Cure Médic.Spécialisée Contre Tuberculose Indifférenciée"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="458"/>
       <display value="Cure Médic.Spécialisée Contre Tuberculose Pulmonaire."/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="460"/>
       <display value="Cure Médic.Spécialisée Contre Tuberculose(Préventorium)"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="604"/>
       <display value="Cure Médicale Non Spécialisée Pr Enfant (MECS)"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="609"/>
       <display value="Cure Médicale Pr Enfants Atteints d'Affect.Chroniques"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="610"/>
       <display value="Cure Médicale Pr Enfants Conval.En Rhumatismes Aigus"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="611"/>
       <display value="Cure Médicale Pr Enfants Convales.de Rhumatismes Aigus Tempo"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="612"/>
       <display value="Cure Médicale Pr Enfants Diabétiques (MECS Permanente)"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="613"/>
       <display value="Cure Médicale Pr Enfants Diabétiques (MECS Temporaire)"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="618"/>
       <display value="Cure Médicale Pr Enfants Hémophiles (MECS Permanente)"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="619"/>
       <display value="Cure Médicale Pr Enfants Hémophiles (MECS.Temporaire)"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="620"/>
       <display value="Cure Médicale Pr Enfants Infirmes Orthopédique (Permanente)"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="621"/>
       <display value="Cure Médicale Pr Enfants Infirmes Orthopédique (Temporaire)"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="616"/>
       <display value="Cure Médicale Pr Enfants Temp.Somat.Psycho"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="608"/>
       <display value="Cure Médicale Pr Enfants voies Resp.(Permanente)"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="622"/>
       <display value="Cure Médicale Pr Enfants Énurétiques (MECS Permanence)"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="623"/>
       <display value="Cure Médicale Pr Enfants Énurétiques (MECS Temporaire.)"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="614"/>
       <display value="Cure Médicale Pr Enfants Épileptiques (MECS Permanente)"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="615"/>
       <display value="Cure Médicale Pr Enfants Épileptiques (MECS Temporaire)"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="467"/>
       <display value="Cure Médicale Spécialisée Cardiologie Pr Enfant"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="468"/>
       <display value="Cure Médicale Spécialisée Cardiologie Tous ages"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="462"/>
       <display value="Cure Médicale Spécialisée Pour Enfants"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="625"/>
       <display value="Cure Médicale Spécialisée Pr Enfants (MECS .Temporaire)"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="624"/>
       <display value="Cure Médicale Spécialisée Pr Enfants (MECS Permanente)"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="191"/>
       <display value="CURE THERM.AFFECT.HEPATO-DIGES"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="192"/>
@@ -1248,220 +834,120 @@
       <display value="Cure Thermale"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="651"/>
       <display value="Cure Thermale des Affect.des Muqueuses Bucco-Linguales"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="830"/>
       <display value="Cure Thermale des Affections Psychosomatiques"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="189"/>
       <display value="Cure Thermale des Voies Respiratoires"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="194"/>
       <display value="Cure Thermale en Dermatologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="833"/>
       <display value="Cure Thermale en Gynécologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="829"/>
       <display value="Cure thermale en Neurologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="831"/>
       <display value="Cure Thermale en Phlébologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="828"/>
       <display value="Cure Thermale Maladies Cardio-artérielles"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="606"/>
       <display value="Cure Thermale Pr Enfants (MECS Ouv Permanence)"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="607"/>
       <display value="Cure Thermale Pr Enfants (MECS Ouv.de Façon Temporaire)"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="834"/>
       <display value="Cure Thermale Pr Maladies de l'Appar.Digest.Mal.Métabolques"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="835"/>
       <display value="Cure Thermale Pr Maladies de l'Appar.Urinaire Mal.Métabol."/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="832"/>
       <display value="Cure Thermale Pr Troubles du Développement chez l'enfant"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="193"/>
       <display value="Cure Thermale Rhumatologie Séquel.Traum.Ostéo-articaires"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="043"/>
       <display value="Curiethérapie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="069"/>
       <display value="Cytogénétique"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="068"/>
       <display value="Cytologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="117"/>
       <display value="Dermatologie-Vénérologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="555"/>
       <display value="Dialyse Péritonéale"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="556"/>
@@ -1478,297 +964,162 @@
       <display value="Dispensation à Domicile d'Oxygène à usage médical"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="093"/>
       <display value="Distribution autres Biens Médicaux"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="092"/>
       <display value="Distribution de Produits Pharmaceutiques"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="758"/>
       <display value="Département d'information médicale"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="070"/>
       <display value="Embryologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="119"/>
       <display value="Endocrino-Diabetologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="951"/>
       <display value="Enseignement Autre (Ex:Éducation Sanitaire)"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="950"/>
       <display value="Enseignement Médical"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="552"/>
       <display value="Entraînement à l'Hémodialyse à Domicile"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="554"/>
       <display value="Entraînement à la Dialyse Péritonéale Continue"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="553"/>
       <display value="Entraînement à la Dialyse Péritonéale à Domicile"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="071"/>
       <display value="Enzymologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="056"/>
       <display value="Ergothérapie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="310"/>
       <display value="Examens de Santé et Bilans"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="045"/>
       <display value="Exploration Fonctionnelle Cardiovasculaire"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="051"/>
       <display value="Exploration Fonctionnelle Cardiovasculaire Néphrologique"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="052"/>
       <display value="Exploration Fonctionnelle Cardiovasculaire Pneumologique."/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="053"/>
       <display value="Exploration Fonctionnelle Fonctionnelle Polyvalente"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="050"/>
       <display value="Exploration Fonctionnelle Fonctionnelle Spécialisée"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="048"/>
       <display value="Exploration Fonctionnelle Neurologique"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="046"/>
       <display value="Exploration Fonctionnelle Néphrologique"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="047"/>
       <display value="Exploration Fonctionnelle Pneumologique"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="049"/>
       <display value="Exploration Fonctionnelle Tube Digestif"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="756"/>
       <display value="Exploration Fonctionnelles en Ophtalmologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="755"/>
       <display value="Explorations Fonctionnelles en O.R.L."/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="095"/>
       <display value="Fabrication Autres Biens Médicaux Prothèses"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="665"/>
       <display value="Fabrication Distribution Produit Pharmaceutiques"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="091"/>
@@ -1785,88 +1136,48 @@
       <display value="Guidance Parentale"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="163"/>
       <display value="Gynéco.&amp; Obstétrique"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="164"/>
       <display value="Gynécologie Médicale"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="165"/>
       <display value="Gynécologie Obstétrique"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="073"/>
       <display value="Histologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="074"/>
       <display value="Hormonologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="244"/>
       <display value="hospitalisation psychiatrique à domicile adulte"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="245"/>
       <display value="hospitalisation psychiatrique à domicile infanto-juv"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="057"/>
@@ -1878,143 +1189,88 @@
       <display value="Hygiène Alimentaire"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="072"/>
       <display value="Hématologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="746"/>
       <display value="Hématologie et Hémostase"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="123"/>
       <display value="Hématologie Maladies du Sang"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="797"/>
       <display value="Hémodialyse et Hémofiltration Pr Chroniques Adultes"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="798"/>
       <display value="Hémodialyse et Hémofiltration Pr Chroniques Enfants"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="037"/>
       <display value="Hémodynamique"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="745"/>
       <display value="Hémostase"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="124"/>
       <display value="Hépato-Gastro-Entérologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
+      <code value="868"/>
+      <display value="Hôpital de jour"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
+      <code value="874"/>
+      <display value="Hôpital de nuit"/>
+    </contains>
+    <contains>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="753"/>
       <display value="Imagerie Par Résonance Magnétique (IRM)"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="743"/>
       <display value="Immuno-Hématologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="744"/>
       <display value="Immuno-Sérologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="076"/>
       <display value="Immunologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="811"/>
@@ -2026,11 +1282,6 @@
       <display value="Information Consultation ou Conseil familial"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="801"/>
@@ -2042,132 +1293,72 @@
       <display value="Interruption Volontaire de Grossesse"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="058"/>
       <display value="Kinésithérapie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="634"/>
       <display value="Laboratoire de Radio-Isotopes"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="749"/>
       <display value="Laboratoire de Radio-isotopes (Méd.Nucléaire)"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="394"/>
       <display value="Lactarium"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="176"/>
       <display value="Long Séjour Personnes Ayant Perdu Leur Autonomie de Vie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="206"/>
       <display value="Lutte Antihansénienne"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="196"/>
       <display value="Lutte Contre l'Alcoolisme"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="389"/>
       <display value="Lutte contre la Stérilité"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="217"/>
       <display value="Lutte Contre La Tuberculose Indifférenciée"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="219"/>
       <display value="Lutte Ctre la Tuberculose Pulmonaire"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="220"/>
       <display value="Lutte Ctre Tuberculose Extra-Pulmonaire"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="605"/>
@@ -2179,209 +1370,114 @@
       <display value="Maison médicale de garde"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="102"/>
       <display value="Maladie Infectieuse et Parasitaire"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="722"/>
       <display value="Maladies Infect.Tropic.Exotiq."/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="122"/>
       <display value="Maladies Métaboliques Nutrition"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="174"/>
       <display value="MEDEC.GEN. &amp; SPECIALITE MEDIC."/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="126"/>
       <display value="MEDECINE CARCINOLOGIQUE"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="627"/>
       <display value="Moyen Séjour Indifférencié"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="078"/>
       <display value="Mycologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="127"/>
       <display value="Médecine Cardio-Vasculaire"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="109"/>
       <display value="Médecine de l'Adolescent"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="472"/>
       <display value="Médecine de la Reproduction (y c A.M.P.)"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="596"/>
       <display value="Médecine du Travail"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="599"/>
       <display value="médecine générale (app.Respiratoire)"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="471"/>
       <display value="Médecine Générale et Spécialités Médicales"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="101"/>
       <display value="Médecine Générale ou Médecine Interne"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="223"/>
       <display value="Médecine Générale ou Polyvalente"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="113"/>
       <display value="Médecine Gériatrique"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="225"/>
       <display value="Médecine Interne Spécialités Médicales"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="088"/>
       <display value="Médecine Légale"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="136"/>
@@ -2408,253 +1504,138 @@
       <display value="Médecine Universitaire"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="151"/>
       <display value="Neurochirurgie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="129"/>
       <display value="Neurologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="036"/>
       <display value="Neuroradiologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="664"/>
       <display value="Nutrition Parentale Adultes"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="663"/>
       <display value="Nutrition Parentale Enfants"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="112"/>
       <display value="Néonatalogie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="312"/>
       <display value="Néphrologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="224"/>
       <display value="Observation et Traitement Pneumoconioses"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="183"/>
       <display value="OBSTETRIQUE SANS CHIRURGIE"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="198"/>
       <display value="Oncologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="157"/>
       <display value="Ophtalmologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="155"/>
       <display value="ORL ET OPHTALMOLOGIE"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="557"/>
       <display value="orl et stomatologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="162"/>
       <display value="ORL-OPHTALMOLOG.&amp; STOMATOLOGIE"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="059"/>
       <display value="Orthophonie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="060"/>
       <display value="Orthoptie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="152"/>
       <display value="Orthopédie-Traumatologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="156"/>
       <display value="Oto-rhino-laryngologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="645"/>
       <display value="Oxygénothérapie Isolée"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="079"/>
       <display value="Parasitologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="098"/>
       <display value="Parasitologie et Mycologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="111"/>
       <display value="PEDIATRIE NOURRISSONS"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="763"/>
@@ -2662,48 +1643,29 @@
     </contains>
     <contains>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
+      <inactive value="true"/>
       <code value="824"/>
       <display value="Pharmacie d'Établissement"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="094"/>
       <display value="Pharmacocinétique"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="080"/>
       <display value="Pharmacologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="263"/>
       <display value="Placement familial sanitaire"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="130"/>
@@ -2720,55 +1682,30 @@
       <display value="Point fixe de garde"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="240"/>
       <display value="POST-CURE POUR TOXICOMANES"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="214"/>
       <display value="Postcure pour Alcooliques"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="227"/>
       <display value="Postcure pour Tuberculeux"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="252"/>
       <display value="Pouponnière à Caractère Sanitaire"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="822"/>
@@ -2780,924 +1717,514 @@
       <display value="Protection Maternelle &amp; Infantile"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="096"/>
       <display value="Prélèvement Scientifique Vérification Diagnostic"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="803"/>
       <display value="Psychiatrie arriérés profonds"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="808"/>
       <display value="Psychiatrie en Milieu Pénitentiaire"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="230"/>
       <display value="Psychiatrie Générale"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="236"/>
       <display value="Psychiatrie Infanto-Juvenile"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="108"/>
       <display value="Pédiatrie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="405"/>
       <display value="pôle spécialisé urgence en cardiologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="408"/>
       <display value="pôle spécialisé urgence en neurochirurgie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="404"/>
       <display value="pôle spécialisé urgence en ophtalmologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="403"/>
       <display value="pôle spécialisé urgence en pédiatrie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="407"/>
       <display value="pôle spécialisé urgence en SOS main"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="406"/>
       <display value="pôle spécialisé urgence en traumatologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="100"/>
       <display value="Radio-Immunologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="751"/>
       <display value="Radiologie Vasculaire"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="034"/>
       <display value="Radiostandard"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="134"/>
       <display value="RADIOTHER. &amp; MEDEC. NUCLEAIRE"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="135"/>
       <display value="RADIOTHERAPIE"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="038"/>
       <display value="Radiothérapie de Contact"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="039"/>
       <display value="Radiothérapie Externe(Césium Cobalt)"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="041"/>
       <display value="Radiothérapie Haute Énergie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="721"/>
       <display value="Radiothérapie Métabolique"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="949"/>
       <display value="Recherche Chirurgicale ou Chirurgie Expérimentale"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="952"/>
       <display value="Recherche Médicale"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="955"/>
       <display value="Recherche Odontologique"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="954"/>
       <display value="Recherche Pharmaceutique"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="953"/>
       <display value="Recherche Pharmacologique"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="956"/>
       <display value="Recherche Toxicologique"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="186"/>
       <display value="REEDUCATION PERSONNE AGEE"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="169"/>
       <display value="Repos"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="594"/>
       <display value="Repos Prénatal"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="185"/>
       <display value="Repos-Convalescence Indifférenciés"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="168"/>
       <display value="Repos-Convalescence Régime Indifférencié"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="133"/>
       <display value="Rhumatologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="055"/>
       <display value="Réadaption-Rééducation Fonctionnelle Polyvalente"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="141"/>
       <display value="Réanimation Chirurgicale Adultes"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="641"/>
       <display value="réanimation en cardiologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="104"/>
       <display value="Réanimation Médicale Adultes"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="720"/>
       <display value="réanimation néonatale"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="635"/>
       <display value="Réanimation Néonatale"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="105"/>
       <display value="Réanimation Polyvalente"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="636"/>
       <display value="Réanimation Pédiatrique Polyvalente"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="171"/>
       <display value="Régime"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="738"/>
       <display value="Rééduc.Fonct.Réadapt.Motrice (Orient.Rhumatologie)"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="739"/>
       <display value="Rééduc.Fonct.Réadapt.Motrice (Orient.Traumatologie)"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="182"/>
       <display value="Rééducat. Maladies Cardio-Vasculaires"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="184"/>
       <display value="Rééducation des Affections Hépato-Digestives"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="180"/>
       <display value="Rééducation des Affections Respiratoires"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="187"/>
       <display value="Rééducation Fonctionnelle Réadaptation"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="178"/>
       <display value="Rééducation Fonctionnelle Réadaptation Motrice"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="179"/>
       <display value="Rééducation Fonctionnelle Réadaptation Neurologique"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="172"/>
       <display value="Rééducation Fonctionnelle Réadaptation Polyvalente"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="207"/>
       <display value="S.A.M.U Centre 15"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="208"/>
       <display value="S.M.U.R. U.M.H."/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="760"/>
       <display value="Salle de Réveil"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="035"/>
       <display value="Scanographie X"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="402"/>
       <display value="service accueil et traitement urgences"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
+      <code value="869"/>
+      <display value="Service médico-psychologique régional"/>
+    </contains>
+    <contains>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="195"/>
       <display value="Soins aux Toxicomanes"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="718"/>
       <display value="Soins Hautement Spécialisés en Chirurgie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="719"/>
       <display value="Soins Hautement Spécialisés en Gynécologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="717"/>
       <display value="Soins Hautement Spécialisés en Médecine"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="235"/>
       <display value="soins intensifs de néonatologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
+      <code value="870"/>
+      <display value="Soins à domicile"/>
+    </contains>
+    <contains>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="143"/>
       <display value="SPECIALITE CHIRURGICALE"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="731"/>
       <display value="Spécialités Pédiatriques"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="821"/>
       <display value="Stockage, Distribution de Sang"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="159"/>
       <display value="Stomatologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="158"/>
       <display value="Stomatologie Chirurgie Maxillo-faciale"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="023"/>
       <display value="Stérilisation"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="724"/>
       <display value="Suivi de Grossesse"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="725"/>
       <display value="Suivi Pré et Post Opératoire"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="142"/>
       <display value="Surveillance Continue Chirurgicale"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="106"/>
       <display value="Surveillance Continue Médicale"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="639"/>
       <display value="Surveillance Continue Néphrologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="107"/>
       <display value="SURVEILLANCE CONTINUE POLYV."/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="638"/>
       <display value="Surveillance Continue Pédiatrique"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="715"/>
       <display value="Surveillance Par Monitorage (Mort Subite du Nourrisson)"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="081"/>
       <display value="Sérologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="813"/>
       <display value="Sérologie Bactérienne"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="814"/>
       <display value="Sérologie Parasitaire et Mycologique."/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="812"/>
       <display value="Sérologie Virale"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="750"/>
       <display value="Tomographie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="082"/>
       <display value="Toxicologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="648"/>
       <display value="Trachéotomie Isolée"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="145"/>
       <display value="Traitement des Grands Brûlés"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="222"/>
@@ -3709,66 +2236,56 @@
       <display value="Transfusion Sanguine (Laboratoire)"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="401"/>
       <display value="unité de proximité accueil traitement orientation urgences"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
+      <code value="876"/>
+      <display value="Unité d’hospitalisation complète"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
+      <code value="871"/>
+      <display value="Unité hospitalière spécialement aménagée"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
+      <code value="872"/>
+      <display value="Unité pour malades difficiles"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
+      <code value="873"/>
+      <display value="Unité sanitaire en milieu pénitentiaire"/>
+    </contains>
+    <contains>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="307"/>
       <display value="Urgence Chirurgicale (SERV.PORTE)"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="308"/>
       <display value="Urgence Indifférenciée"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="303"/>
       <display value="Urgence Médicale"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="161"/>
       <display value="Urologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="083"/>
@@ -3780,55 +2297,30 @@
       <display value="Visite à domicile"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="815"/>
       <display value="Échocardiologie"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="816"/>
       <display value="Échographie Abdominale"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="817"/>
       <display value="Échographie en Obstétrique"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="752"/>
       <display value="Échographie sans Autre Indication"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="818"/>

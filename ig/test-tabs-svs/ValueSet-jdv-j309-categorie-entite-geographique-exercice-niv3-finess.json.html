@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Jdv J309 Categorie Entite Geographique Exercice Niv3 Finess - JSON Representation - Terminologies  de Santé v1.9.3</title>
+    <title>Jdv J309 Categorie Entite Geographique Exercice Niv3 Finess - JSON Representation - Terminologies  de Santé v1.11.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -43,8 +43,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"7.13"}
-    h3,h4,h5,h6{--heading-prefix:"7.13"}</style>
+    <style type="text/css">h2{--heading-prefix:"7.21"}
+    h3,h4,h5,h6{--heading-prefix:"7.21"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -58,7 +58,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Terminologies  de Santé</span>
             <br/>
-            <span style="display:inline-block;">1.9.3 - final-text
+            <span style="display:inline-block;">1.11.0 - final-text
 
 
 
@@ -169,7 +169,7 @@
         <div class="row">
           <div class="inner-wrapper">
 <div style="counter-reset: section 8" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">Terminologies  de Santé - version de développement local (intégration continue v1.9.3) construite par les outils de publication FHIR (HL7® FHIR® Standard). Voir le <a href='https://interop.esante.gouv.fr/terminologies/history.html'>répertoire des versions publiées</a></p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">Terminologies  de Santé - version de développement local (intégration continue v1.11.0) construite par les outils de publication FHIR (HL7® FHIR® Standard). Voir le <a href='https://interop.esante.gouv.fr/terminologies/history.html'>répertoire des versions publiées</a></p><!--EndReleaseHeader-->
 
 
 
@@ -330,8 +330,23 @@
     ]
   },
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion">expansion</a>" : {
-    "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.identifier">identifier</a>" : "urn:uuid:5eb32570-5aeb-4ff5-a202-1bba9f7bdff6",
-    "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.timestamp">timestamp</a>" : "2026-06-03T15:05:19+02:00",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.extension">extension</a>" : [
+      {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCode</a>" : "status"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "uri",
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueUri</a>" : "http://hl7.org/fhir/concept-properties#status"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.property"
+      }
+    ],
+    "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.identifier">identifier</a>" : "urn:uuid:5dfe69a4-750e-461b-91bf-ef17888e8dca",
+    "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.timestamp">timestamp</a>" : "2026-06-30T11:05:35+02:00",
     "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.total">total</a>" : 81,
     "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter">parameter</a>" : [
       {
@@ -345,17 +360,6 @@
     ],
     "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>" : [
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "6103",
@@ -387,68 +391,24 @@
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Autres structures d'exercice libéral"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "2105",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Cabinet d'Auxiliaires Médicaux"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "2102",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Cabinet de Groupe"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "2101",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Cabinets Libéraux de Médecins"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "3403",
@@ -500,17 +460,6 @@
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Centres prestataires de services pr personnes cérébro-lésées"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "3202",
@@ -522,17 +471,6 @@
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Commerce de Biens à Usage Médicaux"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "3402",
@@ -604,17 +542,6 @@
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Etab.Expérimentaux en Faveur des Adultes Handicapés"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "0101",
@@ -626,51 +553,18 @@
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Etablissements d'Education Spéciale pour Handicapés Moteurs"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "1112",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Etablissements d'Enfants à Caractère Sanitaire"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "4202",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Etablissements d'Enseignement Secondaire"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "5102",
@@ -692,17 +586,6 @@
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Etablissements de Formation des Personnels Sociaux"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "6102",
@@ -719,17 +602,6 @@
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Etablissements de l'Aide Sociale à l'Enfance"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "1113",
@@ -756,17 +628,6 @@
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Etablissements de Soins de Longue Durée"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "2203",
@@ -798,17 +659,6 @@
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Etablissements Expérimentaux en Santé"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "5101",
@@ -820,17 +670,6 @@
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Etablissements ne relevant pas de la Loi Hospitalière"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "4201",
@@ -847,17 +686,6 @@
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Etablissements pour Adultes et Familles en Difficulté"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "5103",
@@ -899,17 +727,6 @@
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Santé Mentale"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "3404",
@@ -941,17 +758,6 @@
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Services de Prévention et de Santé au Travail (SPST)"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "4403",
@@ -973,17 +779,6 @@
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Transfusion Sanguine"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "1204",
@@ -1037,7 +832,7 @@
 
 <div class="inner-wrapper">
   <p>
-    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.9.3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jun 3, 2026 13:06+0000">2026-06-03</span>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.11.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Jun 30, 2026 09:06+0000">2026-06-30</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

@@ -1,4 +1,4 @@
-# ASS_X04_CorrespondanceType_Classe_CISIS - Terminologies de Santé v1.9.3
+# ASS_X04_CorrespondanceType_Classe_CISIS - Terminologies de Santé v1.11.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_X04-CorrespondanceType-Classe-CISIS/FHIR/ASS-X04-CorrespondanceType-Classe-CISIS | *Version*:20260505120000 |
-| Active as of 2026-05-05 | *Computable Name*:ASS_X04_CorrespondanceType_Classe_CISIS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_X04-CorrespondanceType-Classe-CISIS/FHIR/ASS-X04-CorrespondanceType-Classe-CISIS | *Version*:20260629120000 |
+| Active as of 2026-06-29 | *Computable Name*:ASS_X04_CorrespondanceType_Classe_CISIS |
 | *Other Identifiers:*urn:oid:1.2.250.1.213.1.1.4.249 | |
 
  
@@ -37,12 +37,12 @@ Correspondance entre types et classes de documents CI-SIS
   "identifier" : {
     "value" : "urn:oid:1.2.250.1.213.1.1.4.249"
   },
-  "version" : "20260505120000",
+  "version" : "20260629120000",
   "name" : "ASS_X04_CorrespondanceType_Classe_CISIS",
   "title" : "ASS_X04_CorrespondanceType_Classe_CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-05T12:00:00+01:00",
+  "date" : "2026-06-29T12:00:00+01:00",
   "description" : "Correspondance entre types et classes de documents CI-SIS",
   "jurisdiction" : [{
     "coding" : [{
@@ -273,20 +273,6 @@ Correspondance entre types et classes de documents CI-SIS
       }]
     },
     {
-      "code" : "34876-3",
-      "target" : [{
-        "code" : "10",
-        "equivalence" : "equivalent"
-      }]
-    },
-    {
-      "code" : "34895-3",
-      "target" : [{
-        "code" : "44",
-        "equivalence" : "equivalent"
-      }]
-    },
-    {
       "code" : "39256-3",
       "target" : [{
         "code" : "10",
@@ -353,6 +339,13 @@ Correspondance entre types et classes de documents CI-SIS
       "code" : "56445-0",
       "target" : [{
         "code" : "11",
+        "equivalence" : "equivalent"
+      }]
+    },
+    {
+      "code" : "55751-2",
+      "target" : [{
+        "code" : "52",
         "equivalence" : "equivalent"
       }]
     },
@@ -455,20 +448,6 @@ Correspondance entre types et classes de documents CI-SIS
       }]
     },
     {
-      "code" : "61358-8",
-      "target" : [{
-        "code" : "95",
-        "equivalence" : "equivalent"
-      }]
-    },
-    {
-      "code" : "61359-6",
-      "target" : [{
-        "code" : "95",
-        "equivalence" : "equivalent"
-      }]
-    },
-    {
       "code" : "67851-6",
       "target" : [{
         "code" : "10",
@@ -479,13 +458,6 @@ Correspondance entre types et classes de documents CI-SIS
       "code" : "68599-0",
       "target" : [{
         "code" : "11",
-        "equivalence" : "equivalent"
-      }]
-    },
-    {
-      "code" : "68814-3",
-      "target" : [{
-        "code" : "10",
         "equivalence" : "equivalent"
       }]
     },
@@ -644,23 +616,9 @@ Correspondance entre types et classes de documents CI-SIS
       }]
     },
     {
-      "code" : "83963-9",
-      "target" : [{
-        "code" : "11",
-        "equivalence" : "equivalent"
-      }]
-    },
-    {
       "code" : "83981-1",
       "target" : [{
         "code" : "10",
-        "equivalence" : "equivalent"
-      }]
-    },
-    {
-      "code" : "84067-8",
-      "target" : [{
-        "code" : "11",
         "equivalence" : "equivalent"
       }]
     },
@@ -740,27 +698,6 @@ Correspondance entre types et classes de documents CI-SIS
         "code" : "52",
         "equivalence" : "equivalent"
       }]
-    },
-    {
-      "code" : "97694-4",
-      "target" : [{
-        "code" : "10",
-        "equivalence" : "equivalent"
-      }]
-    },
-    {
-      "code" : "100967-9",
-      "target" : [{
-        "code" : "10",
-        "equivalence" : "equivalent"
-      }]
-    },
-    {
-      "code" : "101881-1",
-      "target" : [{
-        "code" : "52",
-        "equivalence" : "equivalent"
-      }]
     }]
   },
   {
@@ -789,13 +726,6 @@ Correspondance entre types et classes de documents CI-SIS
     },
     {
       "code" : "ATTEST-DROITS-AM",
-      "target" : [{
-        "code" : "95",
-        "equivalence" : "equivalent"
-      }]
-    },
-    {
-      "code" : "ATTEST-VITALE",
       "target" : [{
         "code" : "95",
         "equivalence" : "equivalent"

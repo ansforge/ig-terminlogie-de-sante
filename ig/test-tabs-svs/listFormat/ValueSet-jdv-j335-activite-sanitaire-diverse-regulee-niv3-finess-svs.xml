@@ -147,7 +147,7 @@
                   displayName="Stockage d'Organes et de Produits Humains"/>
          <Concept code="0371"
                   codeSystem="1.2.250.1.213.1.6.1.248"
-                  displayName="structures de psychiatrie sans hébergement"/>
+                  displayName="structures de psychiatrie ambulatoire"/>
          <Concept code="0225"
                   codeSystem="1.2.250.1.213.1.6.1.248"
                   displayName="Surveillance Continue Chirurgicale"/>

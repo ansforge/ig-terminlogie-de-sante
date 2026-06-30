@@ -47,8 +47,8 @@
     }]
   },
   "expansion" : {
-    "identifier" : "urn:uuid:731336e7-82cb-4064-9317-f067697571bc",
-    "timestamp" : "2026-06-03T15:05:15+02:00",
+    "identifier" : "urn:uuid:43f57db3-79e9-440d-8342-179d8fcdd499",
+    "timestamp" : "2026-06-30T11:05:40+02:00",
     "total" : 2,
     "parameter" : [{
       "name" : "used-codesystem",
@@ -57,10 +57,6 @@
     {
       "name" : "version",
       "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r422-qualification-orientation|20260505120000"
-    },
-    {
-      "name" : "warning-draft",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j404-qualification-orientation-ms|20260505120000"
     },
     {
       "name" : "warning-draft",

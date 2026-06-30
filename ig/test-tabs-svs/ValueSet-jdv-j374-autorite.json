@@ -47,16 +47,27 @@
     }]
   },
   "expansion" : {
-    "identifier" : "urn:uuid:14e883ff-12e8-4016-ae29-13adc134c318",
-    "timestamp" : "2026-06-03T15:04:51+02:00",
-    "total" : 45,
+    "extension" : [{
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "status"
+      },
+      {
+        "url" : "uri",
+        "valueUri" : "http://hl7.org/fhir/concept-properties#status"
+      }],
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.property"
+    }],
+    "identifier" : "urn:uuid:f1586606-f9a5-442d-9bd6-30ff20f1070b",
+    "timestamp" : "2026-06-30T11:06:01+02:00",
+    "total" : 76,
     "parameter" : [{
       "name" : "used-codesystem",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite|20260330120000"
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite|20260629120000"
     },
     {
       "name" : "version",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite|20260330120000"
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite|20260629120000"
     }],
     "contains" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
@@ -74,13 +85,6 @@
       "display" : "ARS-03 : Guyane"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
       "inactive" : true,
       "code" : "ARS-04",
@@ -102,39 +106,18 @@
       "display" : "ARS-11 : Ile-de-France"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
       "inactive" : true,
       "code" : "ARS-21",
       "display" : "ARS-21 : Champagne-Ardenne"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
       "inactive" : true,
       "code" : "ARS-22",
       "display" : "ARS-22 : Picardie"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
       "inactive" : true,
       "code" : "ARS-23",
@@ -146,26 +129,12 @@
       "display" : "ARS-24 : Centre-Val de Loire"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
       "inactive" : true,
       "code" : "ARS-25",
       "display" : "ARS-25 : Basse-Normandie"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
       "inactive" : true,
       "code" : "ARS-26",
@@ -182,13 +151,6 @@
       "display" : "ARS-28 : Normandie"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
       "inactive" : true,
       "code" : "ARS-31",
@@ -200,39 +162,18 @@
       "display" : "ARS-32 : Hauts-de-France"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
       "inactive" : true,
       "code" : "ARS-41",
       "display" : "ARS-41 : Lorraine"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
       "inactive" : true,
       "code" : "ARS-42",
       "display" : "ARS-42 : Alsace"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
       "inactive" : true,
       "code" : "ARS-43",
@@ -254,52 +195,24 @@
       "display" : "ARS-53 : Bretagne"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
       "inactive" : true,
       "code" : "ARS-54",
       "display" : "ARS-54 : Poitou-Charentes"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
       "inactive" : true,
       "code" : "ARS-72",
       "display" : "ARS-72 : Aquitaine"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
       "inactive" : true,
       "code" : "ARS-73",
       "display" : "ARS-73 : Midi-Pyrénées"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
       "inactive" : true,
       "code" : "ARS-74",
@@ -316,26 +229,12 @@
       "display" : "ARS-76 : Occitanie"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
       "inactive" : true,
       "code" : "ARS-82",
       "display" : "ARS-82 : Rhône-Alpes"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
       "inactive" : true,
       "code" : "ARS-83",
@@ -347,13 +246,6 @@
       "display" : "ARS-84 : Auvergne-Rhône-Alpes"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
       "inactive" : true,
       "code" : "ARS-91",
@@ -373,6 +265,161 @@
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
       "code" : "AT-975",
       "display" : "AT-975 : ATS de Saint-Pierre-Et-Miquelon"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+      "code" : "CD-01",
+      "display" : "CD-01 : Conseil départemental de l'Ain"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+      "code" : "CD-02",
+      "display" : "CD-02 : Conseil départemental del'Aisne"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+      "code" : "CD-03",
+      "display" : "CD-03 : Conseil départemental de l'Allier"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+      "code" : "CD-15",
+      "display" : "CD-15 : Conseil départemental du Cantal"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+      "code" : "CD-54",
+      "display" : "CD-54 : Conseil départemental de Meurthe et Moselle"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+      "code" : "CD-58",
+      "display" : "CD-58 : Conseil départemental de la Nièvre"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+      "code" : "CD-94",
+      "display" : "CD-94 : Conseil départemental du Val de Marne"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+      "code" : "CD-95",
+      "display" : "CD-95 : Conseil départemental du Val d'Oise"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+      "code" : "DDETS-01",
+      "display" : "DDETS-01 : Direction départementale de l'emploi, du travail et des solidarités Ain"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+      "code" : "DDETS-02",
+      "display" : "DDETS-02 : Direction départementale de l'emploi, du travail et des solidarités Aisne"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+      "code" : "DDETS-03",
+      "display" : "DDETS-03 : Direction départementale de l'emploi, du travail et des solidarités Allier"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+      "code" : "DDETS-95",
+      "display" : "DDETS-95 :Direction départementale de l'emploi, du travail et des solidarités Val d'Oise"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+      "code" : "DREETS-01",
+      "display" : "DREETS-01 : Direction de l'économie de l'emploi du travail et des solidarités Guadeloupe"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+      "code" : "DREETS-02",
+      "display" : "DREETS-02 :  Direction de l'économie de l'emploi du travail et des solidarités Martinique"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+      "code" : "DREETS-03",
+      "display" : "DREETS-03 :  Direction générale cohésion et population Guyane"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+      "code" : "DREETS-05",
+      "display" : "DREETS-05 :  Direction de l'économie de l'emploi du travail et des solidarités de La Réunion"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+      "code" : "DREETS-06",
+      "display" : "DREETS-06 : Direction de l'économie de l'emploi du travail et des solidarités Mayotte"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+      "code" : "DREETS-11",
+      "display" : "DREETS-11 : Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités d'Ile de France"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+      "code" : "DREETS-24",
+      "display" : "DREETS-24 :  Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Centre-Val de Loire"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+      "code" : "DREETS-27",
+      "display" : "DREETS-27 :  Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Bourgogne-Franche-Comté"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+      "code" : "DREETS-28",
+      "display" : "DREETS-28 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Normandie"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+      "code" : "DREETS-32",
+      "display" : "DREETS-32 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Hauts-de-France"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+      "code" : "DREETS-44",
+      "display" : "DREETS-44 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Grand Est"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+      "code" : "DREETS-52",
+      "display" : "DREETS-52 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Pays de la Loire"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+      "code" : "DREETS-53",
+      "display" : "DREETS-53 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Bretagne"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+      "code" : "DREETS-75",
+      "display" : "DREETS-75 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Nouvelle-Aquitaine"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+      "code" : "DREETS-76",
+      "display" : "DREETS-76 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Occitanie"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+      "code" : "DREETS-84",
+      "display" : "DREETS-84 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Auvergne-Rhône-Alpes"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+      "code" : "DREETS-93",
+      "display" : "DREETS-93 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités Provence-Alpes-Côte d'Azur"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+      "code" : "DREETS-94",
+      "display" : "DREETS-94 Direction régionale interdépartementale de l'économie de l'emploi du travail et des solidarités de Corse"
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+      "code" : "DRHIL-11",
+      "display" : "DRHIL-11 : Direction régionale et interdépartementale de l'Hébergement et du Logement Ile de France"
     },
     {
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",

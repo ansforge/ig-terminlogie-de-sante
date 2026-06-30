@@ -47,8 +47,8 @@
     }]
   },
   "expansion" : {
-    "identifier" : "urn:uuid:ad0b1bc6-533f-46f8-b309-926c40196e7d",
-    "timestamp" : "2026-06-03T15:06:10+02:00",
+    "identifier" : "urn:uuid:61663e00-bcb3-4664-a6cb-117d088ca852",
+    "timestamp" : "2026-06-30T11:05:41+02:00",
     "total" : 2,
     "parameter" : [{
       "name" : "used-codesystem",
@@ -57,10 +57,6 @@
     {
       "name" : "version",
       "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r418-nature-demande-compensation|20260505120000"
-    },
-    {
-      "name" : "warning-draft",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j395-nature-demande-compensation-ms|20260505120000"
     },
     {
       "name" : "warning-draft",

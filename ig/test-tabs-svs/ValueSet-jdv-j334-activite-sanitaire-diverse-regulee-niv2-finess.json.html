@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Jdv J334 Activite Sanitaire Diverse Regulee Niv2 Finess - JSON Representation - Terminologies  de Santé v1.9.3</title>
+    <title>Jdv J334 Activite Sanitaire Diverse Regulee Niv2 Finess - JSON Representation - Terminologies  de Santé v1.11.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -43,8 +43,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"7.27"}
-    h3,h4,h5,h6{--heading-prefix:"7.27"}</style>
+    <style type="text/css">h2{--heading-prefix:"7.40"}
+    h3,h4,h5,h6{--heading-prefix:"7.40"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -58,7 +58,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Terminologies  de Santé</span>
             <br/>
-            <span style="display:inline-block;">1.9.3 - final-text
+            <span style="display:inline-block;">1.11.0 - final-text
 
 
 
@@ -169,7 +169,7 @@
         <div class="row">
           <div class="inner-wrapper">
 <div style="counter-reset: section 8" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">Terminologies  de Santé - version de développement local (intégration continue v1.9.3) construite par les outils de publication FHIR (HL7® FHIR® Standard). Voir le <a href='https://interop.esante.gouv.fr/terminologies/history.html'>répertoire des versions publiées</a></p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">Terminologies  de Santé - version de développement local (intégration continue v1.11.0) construite par les outils de publication FHIR (HL7® FHIR® Standard). Voir le <a href='https://interop.esante.gouv.fr/terminologies/history.html'>répertoire des versions publiées</a></p><!--EndReleaseHeader-->
 
 
 
@@ -330,17 +330,32 @@
     ]
   },
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion">expansion</a>" : {
-    "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.identifier">identifier</a>" : "urn:uuid:ae8f235d-9b1d-4071-85e9-e4d42d137b0a",
-    "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.timestamp">timestamp</a>" : "2026-06-03T15:05:25+02:00",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.extension">extension</a>" : [
+      {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "code",
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCode</a>" : "status"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "uri",
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueUri</a>" : "http://hl7.org/fhir/concept-properties#status"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.property"
+      }
+    ],
+    "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.identifier">identifier</a>" : "urn:uuid:ac4d95b6-9494-47dd-9ace-07b227beb96b",
+    "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.timestamp">timestamp</a>" : "2026-06-30T11:05:55+02:00",
     "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.total">total</a>" : 34,
     "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter">parameter</a>" : [
       {
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.name">name</a>" : "used-codesystem",
-        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.value_x_">valueUri</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee|20260601120000"
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.value_x_">valueUri</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee|20260629120000"
       },
       {
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.name">name</a>" : "version",
-        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.value_x_">valueUri</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee|20260601120000"
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.value_x_">valueUri</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee|20260629120000"
       }
     ],
     "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>" : [
@@ -355,68 +370,24 @@
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Analyses Médicales Biologiques"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "0420",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Anesthésiologie et Réveil"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "0660",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Autres Disciplines"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "0360",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Autres Traitements Spécialisés à Domicile"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "0410",
@@ -428,34 +399,12 @@
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Chimiothérapie"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "0220",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Chirurgie"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "0310",
@@ -467,51 +416,18 @@
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "disciplines de cures thermales"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "0640",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Enseignement et Recherche"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "0450",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Exploration Fonctionnelle"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "0230",
@@ -523,17 +439,6 @@
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Hospitalisation de Jour en Gynéco-Obstétrique"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "0430",
@@ -550,34 +455,12 @@
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Lutte contre les Toxicomanies"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "0210",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Médecine"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "0240",
@@ -594,119 +477,42 @@
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Prévention, Prophylaxie, Conseil"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "0280",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Psychiatrie Adulte"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "0290",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Psychiatrie Infanto-juvénile"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "0440",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Radiothérapie"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "0530",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "SAMU - SMUR"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "0610",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Services Extérieurs"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "0270",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Soins de Longue Durée"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "0260",
@@ -723,17 +529,6 @@
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "structures de psychiatrie hors carte sanitaire"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "0460",
@@ -745,34 +540,12 @@
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Transport des Malades"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "0510",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Urgence"
       },
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#ValueSet.expansion.contains.extension">extension</a>" : [
-          {
-            "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
-              {
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
-                "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueBoolean</a>" : true
-              }
-            ],
-            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
         "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "0520",
@@ -826,7 +599,7 @@
 
 <div class="inner-wrapper">
   <p>
-    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.9.3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jun 3, 2026 13:06+0000">2026-06-03</span>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.11.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Jun 30, 2026 09:06+0000">2026-06-30</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

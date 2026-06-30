@@ -69,8 +69,8 @@
     }]
   },
   "expansion" : {
-    "identifier" : "urn:uuid:e50722d1-2602-4120-b257-55e508e40511",
-    "timestamp" : "2026-06-03T15:05:48+02:00",
+    "identifier" : "urn:uuid:9aaa4474-5ed5-4ebb-9dab-389204f6317e",
+    "timestamp" : "2026-06-30T11:06:05+02:00",
     "total" : 12,
     "parameter" : [{
       "name" : "used-codesystem",
@@ -95,10 +95,6 @@
     {
       "name" : "version",
       "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation|20260505120000"
-    },
-    {
-      "name" : "warning-draft",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j408-orientation-ms|20260601120000"
     },
     {
       "name" : "warning-draft",

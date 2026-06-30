@@ -47,8 +47,8 @@
     }]
   },
   "expansion" : {
-    "identifier" : "urn:uuid:1239efaa-18af-4d68-b0ae-672bbe7e33c1",
-    "timestamp" : "2026-06-03T15:05:50+02:00",
+    "identifier" : "urn:uuid:ab48d192-fefa-4d3e-8315-896b87b2dafe",
+    "timestamp" : "2026-06-30T11:06:33+02:00",
     "total" : 5,
     "parameter" : [{
       "name" : "used-codesystem",
@@ -57,10 +57,6 @@
     {
       "name" : "version",
       "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r413-categorie-permis-conduire|20260601120000"
-    },
-    {
-      "name" : "warning-draft",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j410-categorie-permis-conduire-ms|20260601120000"
     },
     {
       "name" : "warning-draft",

@@ -51,8 +51,16 @@
     </include>
   </compose>
   <expansion>
-    <identifier value="urn:uuid:78ee563c-610b-461c-b0ae-1cc9d4ceaf34"/>
-    <timestamp value="2026-06-03T15:05:44+02:00"/>
+    <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.property">
+      <extension url="code">
+        <valueCode value="status"/>
+      </extension>
+      <extension url="uri">
+        <valueUri value="http://hl7.org/fhir/concept-properties#status"/>
+      </extension>
+    </extension>
+    <identifier value="urn:uuid:37b4bc48-662c-46fa-bd2f-165401011226"/>
+    <timestamp value="2026-06-30T11:06:44+02:00"/>
     <total value="134"/>
     <parameter>
       <name value="used-codesystem"/>
@@ -68,11 +76,6 @@
       <display value="Acc. dans l'acquisition de l'autonomie et la scolarisation"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"/>
       <inactive value="true"/>
       <code value="838"/>
@@ -84,11 +87,6 @@
       <display value="Accompagnement enseignement supérieur"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"/>
       <inactive value="true"/>
       <code value="510"/>
@@ -100,11 +98,6 @@
       <display value="Accompagnement précoce de jeunes enfants"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"/>
       <inactive value="true"/>
       <code value="509"/>
@@ -116,33 +109,18 @@
       <display value="Accueil au titre de la protection de l'enfance"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"/>
       <inactive value="true"/>
       <code value="911"/>
       <display value="Accueil collectif occasionnel d'enfants d'âge préscolaire"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"/>
       <inactive value="true"/>
       <code value="915"/>
       <display value="Accueil collectif polyvalent regulier et occasionnel"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"/>
       <inactive value="true"/>
       <code value="910"/>
@@ -154,22 +132,12 @@
       <display value="Accueil d'urgence protection de l'enfance"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"/>
       <inactive value="true"/>
       <code value="936"/>
       <display value="Accueil en Foyer de Vie pour Adultes Handicapés"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"/>
       <inactive value="true"/>
       <code value="250"/>
@@ -191,33 +159,18 @@
       <display value="Accueil et accompagnement spécialisé personnes handicapés"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"/>
       <inactive value="true"/>
       <code value="919"/>
       <display value="Accueil familial occasionnel d'enfants d'âge préscolaire"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"/>
       <inactive value="true"/>
       <code value="918"/>
       <display value="Accueil familial régulier d'enfants d'âge préscolaire"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"/>
       <inactive value="true"/>
       <code value="939"/>
@@ -234,11 +187,6 @@
       <display value="Accueil pour Personnes Âgées"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"/>
       <inactive value="true"/>
       <code value="917"/>
@@ -255,33 +203,18 @@
       <display value="Accueil Temporaire d'Urgence Pr Adultes &amp; Familles"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"/>
       <inactive value="true"/>
       <code value="650"/>
       <display value="Accueil temporaire enfants handicapés"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"/>
       <inactive value="true"/>
       <code value="659"/>
       <display value="Accueil temporaire pour adultes handicapés"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"/>
       <inactive value="true"/>
       <code value="658"/>
@@ -298,11 +231,6 @@
       <display value="Accueil temporaire saisonnier ou week-end protection de l'enfance"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"/>
       <inactive value="true"/>
       <code value="839"/>
@@ -324,22 +252,12 @@
       <display value="Activité C.M.P.P."/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"/>
       <inactive value="true"/>
       <code value="355"/>
       <display value="Activité des Centres de Jour pour Personnes Âgées"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"/>
       <inactive value="true"/>
       <code value="383"/>
@@ -351,11 +269,6 @@
       <display value="Activité soins d'accompagnement et de réhabilitation"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"/>
       <inactive value="true"/>
       <code value="933"/>
@@ -367,11 +280,6 @@
       <display value="Activités des Établissements Expérimentaux"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"/>
       <inactive value="true"/>
       <code value="934"/>
@@ -383,11 +291,6 @@
       <display value="Adaptation à la vie active"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"/>
       <inactive value="true"/>
       <code value="356"/>
@@ -429,11 +332,6 @@
       <display value="Animation de la Vie Sociale"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"/>
       <inactive value="true"/>
       <code value="695"/>
@@ -455,11 +353,6 @@
       <display value="Centre de ressources territorial"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"/>
       <inactive value="true"/>
       <code value="569"/>
@@ -471,33 +364,18 @@
       <display value="Consultation d'Orientation Pour Mineurs Justice"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"/>
       <inactive value="true"/>
       <code value="319"/>
       <display value="Education Spécialisée et Soins à domicile Enfants Handicapés"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"/>
       <inactive value="true"/>
       <code value="904"/>
       <display value="Enseignement Général Spécialisé"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"/>
       <inactive value="true"/>
       <code value="905"/>
@@ -519,11 +397,6 @@
       <display value="Evaluat réentraînem orientat soc. et socioprof cérébro-lésés"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"/>
       <inactive value="true"/>
       <code value="837"/>
@@ -535,11 +408,6 @@
       <display value="Evaluation des situations des personnes"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"/>
       <inactive value="true"/>
       <code value="656"/>
@@ -581,11 +449,6 @@
       <display value="Hébergement en centre parental"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"/>
       <inactive value="true"/>
       <code value="938"/>
@@ -602,11 +465,6 @@
       <display value="Hébergement Ouvert en Ets Pr Adultes &amp; Familles"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"/>
       <inactive value="true"/>
       <code value="897"/>
@@ -633,11 +491,6 @@
       <display value="Hébergement résidence autonomie personnes âgées seules F1"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"/>
       <inactive value="true"/>
       <code value="654"/>
@@ -704,33 +557,18 @@
       <display value="Permanence des Assistants de Service Social"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"/>
       <inactive value="true"/>
       <code value="325"/>
       <display value="Placement Familial pour Enfants Handicapés"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"/>
       <inactive value="true"/>
       <code value="262"/>
       <display value="Placement Familial Social"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"/>
       <inactive value="true"/>
       <code value="398"/>
@@ -752,11 +590,6 @@
       <display value="Préorientation pour Adultes handicapés"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"/>
       <inactive value="true"/>
       <code value="400"/>
@@ -768,11 +601,6 @@
       <display value="Préparation à la vie professionnelle"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"/>
       <inactive value="true"/>
       <code value="836"/>
@@ -794,11 +622,6 @@
       <display value="Recherche dans Domaine Social"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"/>
       <inactive value="true"/>
       <code value="999"/>
@@ -855,11 +678,6 @@
       <display value="Section Cure Médicale (dont)"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"/>
       <inactive value="true"/>
       <code value="691"/>
@@ -916,11 +734,6 @@
       <display value="Tutelle curatelle mandat spécial sauvegarde justice pers maj"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"/>
       <inactive value="true"/>
       <code value="589"/>
@@ -942,55 +755,30 @@
       <display value="Veille sociale"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"/>
       <inactive value="true"/>
       <code value="903"/>
       <display value="Éduc.Générale.Profession.&amp; Soins Spécial.Enfants Handicapés"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"/>
       <inactive value="true"/>
       <code value="901"/>
       <display value="Éducation Générale et Soins Spécialisés Enfants Handicapés"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"/>
       <inactive value="true"/>
       <code value="991"/>
       <display value="Éducation Générale Soins Spéc. Enfants Hand.Troubles Assoc."/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"/>
       <inactive value="true"/>
       <code value="992"/>
       <display value="Éducation Prof. Soins Spéc. Enfants Hand. Troubles Associés"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"/>
       <inactive value="true"/>
       <code value="902"/>

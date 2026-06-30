@@ -46,8 +46,8 @@
     </include>
   </compose>
   <expansion>
-    <identifier value="urn:uuid:1239efaa-18af-4d68-b0ae-672bbe7e33c1"/>
-    <timestamp value="2026-06-03T15:05:50+02:00"/>
+    <identifier value="urn:uuid:ab48d192-fefa-4d3e-8315-896b87b2dafe"/>
+    <timestamp value="2026-06-30T11:06:33+02:00"/>
     <total value="5"/>
     <parameter>
       <name value="used-codesystem"/>
@@ -56,10 +56,6 @@
     <parameter>
       <name value="version"/>
       <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r413-categorie-permis-conduire|20260601120000"/>
-    </parameter>
-    <parameter>
-      <name value="warning-draft"/>
-      <valueUri value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j410-categorie-permis-conduire-ms|20260601120000"/>
     </parameter>
     <parameter>
       <name value="warning-draft"/>

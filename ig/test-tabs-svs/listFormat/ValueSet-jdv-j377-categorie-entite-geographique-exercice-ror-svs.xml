@@ -91,12 +91,12 @@
          <Concept code="269"
                   codeSystem="1.2.250.1.213.1.6.1.378"
                   displayName="Centre de Médecine Universitaire"/>
-         <Concept code="SA05"
-                  codeSystem="1.2.250.1.71.4.2.4"
-                  displayName="Centre de santé"/>
          <Concept code="124"
                   codeSystem="1.2.250.1.213.1.6.1.378"
                   displayName="Centre de Santé"/>
+         <Concept code="SA05"
+                  codeSystem="1.2.250.1.71.4.2.4"
+                  displayName="Centre de santé"/>
          <Concept code="649"
                   codeSystem="1.2.250.1.213.1.6.1.378"
                   displayName="Centre de santé et de médiation en santé sexuelle"/>

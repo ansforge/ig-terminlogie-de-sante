@@ -46,16 +46,16 @@
     </include>
   </compose>
   <expansion>
-    <identifier value="urn:uuid:be8e2627-0f74-43a6-b445-bd290dbf3e51"/>
-    <timestamp value="2026-06-03T15:06:02+02:00"/>
+    <identifier value="urn:uuid:c7c03fb5-3b3f-4ba3-a7e7-ff8e6d8c18fb"/>
+    <timestamp value="2026-06-30T11:06:34+02:00"/>
     <total value="8"/>
     <parameter>
       <name value="used-codesystem"/>
-      <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee|20260223120000"/>
+      <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee|20260629120000"/>
     </parameter>
     <parameter>
       <name value="version"/>
-      <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee|20260223120000"/>
+      <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee|20260629120000"/>
     </parameter>
     <contains>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"/>

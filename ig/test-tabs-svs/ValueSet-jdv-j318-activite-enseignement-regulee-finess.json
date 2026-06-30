@@ -52,8 +52,19 @@
     }]
   },
   "expansion" : {
-    "identifier" : "urn:uuid:40300736-283e-44c2-ba10-ac0c67c5aa16",
-    "timestamp" : "2026-06-03T15:05:35+02:00",
+    "extension" : [{
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "status"
+      },
+      {
+        "url" : "uri",
+        "valueUri" : "http://hl7.org/fhir/concept-properties#status"
+      }],
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.property"
+    }],
+    "identifier" : "urn:uuid:fe175b9e-89be-4940-b12f-da2626836067",
+    "timestamp" : "2026-06-30T11:05:36+02:00",
     "total" : 55,
     "parameter" : [{
       "name" : "used-codesystem",
@@ -149,13 +160,6 @@
       "display" : "Formation Cadre de santé (technicien LABM)"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
       "inactive" : true,
       "code" : "429",
@@ -332,13 +336,6 @@
       "display" : "Formation Personnels Admin.Santé Secteur Social"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
       "inactive" : true,
       "code" : "427",

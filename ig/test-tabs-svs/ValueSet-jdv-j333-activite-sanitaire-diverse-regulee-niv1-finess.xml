@@ -46,23 +46,26 @@
     </include>
   </compose>
   <expansion>
-    <identifier value="urn:uuid:4f78e381-9843-44ac-b75f-5eda4a8bdb28"/>
-    <timestamp value="2026-06-03T15:06:08+02:00"/>
+    <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.property">
+      <extension url="code">
+        <valueCode value="status"/>
+      </extension>
+      <extension url="uri">
+        <valueUri value="http://hl7.org/fhir/concept-properties#status"/>
+      </extension>
+    </extension>
+    <identifier value="urn:uuid:55075edc-508e-4dc4-b315-5a79e1dc30e0"/>
+    <timestamp value="2026-06-30T11:06:32+02:00"/>
     <total value="6"/>
     <parameter>
       <name value="used-codesystem"/>
-      <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee|20260601120000"/>
+      <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee|20260629120000"/>
     </parameter>
     <parameter>
       <name value="version"/>
-      <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee|20260601120000"/>
+      <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee|20260629120000"/>
     </parameter>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="0500"/>
@@ -84,11 +87,6 @@
       <display value="Disciplines Spécifiques"/>
     </contains>
     <contains>
-      <extension url="http://ontoserver.csiro.au/profiles/expansion">
-        <extension url="inactive">
-          <valueBoolean value="true"/>
-        </extension>
-      </extension>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       <inactive value="true"/>
       <code value="0200"/>

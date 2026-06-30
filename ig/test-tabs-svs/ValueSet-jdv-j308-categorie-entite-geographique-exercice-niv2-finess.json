@@ -47,8 +47,19 @@
     }]
   },
   "expansion" : {
-    "identifier" : "urn:uuid:2ae08ad0-e24a-411c-a610-8cd09e8ad926",
-    "timestamp" : "2026-06-03T15:05:49+02:00",
+    "extension" : [{
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "status"
+      },
+      {
+        "url" : "uri",
+        "valueUri" : "http://hl7.org/fhir/concept-properties#status"
+      }],
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.property"
+    }],
+    "identifier" : "urn:uuid:ee6f3072-b35d-484f-b020-4627d75c284d",
+    "timestamp" : "2026-06-30T11:06:23+02:00",
     "total" : 18,
     "parameter" : [{
       "name" : "used-codesystem",
@@ -99,13 +110,6 @@
       "display" : "Etab.et Serv.Sociaux Concourant à la Protection de l'Enfance"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
       "inactive" : true,
       "code" : "0110",
@@ -147,13 +151,6 @@
       "display" : "Etablissements Hospitaliers"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
       "inactive" : true,
       "code" : "4200",

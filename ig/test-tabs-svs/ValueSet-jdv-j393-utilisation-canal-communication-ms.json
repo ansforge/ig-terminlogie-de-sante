@@ -47,8 +47,8 @@
     }]
   },
   "expansion" : {
-    "identifier" : "urn:uuid:3658ac8a-c8b3-4b20-ac97-ddc229be132d",
-    "timestamp" : "2026-06-03T15:04:53+02:00",
+    "identifier" : "urn:uuid:39409a1c-5df9-44e0-9cea-9d5f7c00a2d8",
+    "timestamp" : "2026-06-30T11:05:44+02:00",
     "total" : 2,
     "parameter" : [{
       "name" : "used-codesystem",
@@ -57,10 +57,6 @@
     {
       "name" : "version",
       "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r415-utilisation-canal-communication|20260505120000"
-    },
-    {
-      "name" : "warning-draft",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j393-utilisation-canal-communication-ms|20260505120000"
     },
     {
       "name" : "warning-draft",

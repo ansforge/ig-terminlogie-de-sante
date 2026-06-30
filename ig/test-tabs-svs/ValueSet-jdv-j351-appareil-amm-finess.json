@@ -47,16 +47,16 @@
     }]
   },
   "expansion" : {
-    "identifier" : "urn:uuid:f92c8d04-ac24-42d9-bec3-4406bed29b58",
-    "timestamp" : "2026-06-03T15:05:11+02:00",
+    "identifier" : "urn:uuid:abe989df-b9df-4c93-a548-0ac47d508d47",
+    "timestamp" : "2026-06-30T11:05:54+02:00",
     "total" : 6,
     "parameter" : [{
       "name" : "used-codesystem",
-      "valueUri" : "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement|20260601120000"
+      "valueUri" : "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement|20260629120000"
     },
     {
       "name" : "version",
-      "valueUri" : "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement|20260601120000"
+      "valueUri" : "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement|20260629120000"
     }],
     "contains" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement",

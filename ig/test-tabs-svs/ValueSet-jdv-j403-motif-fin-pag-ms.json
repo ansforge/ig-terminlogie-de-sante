@@ -47,8 +47,8 @@
     }]
   },
   "expansion" : {
-    "identifier" : "urn:uuid:6ccd1154-62b0-4439-bfa1-ba17e3fc0dd4",
-    "timestamp" : "2026-06-03T15:05:27+02:00",
+    "identifier" : "urn:uuid:9728786c-027a-43da-9fae-a1396965b5fb",
+    "timestamp" : "2026-06-30T11:06:11+02:00",
     "total" : 9,
     "parameter" : [{
       "name" : "used-codesystem",
@@ -61,10 +61,6 @@
     {
       "name" : "warning-draft",
       "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag|20260505120000"
-    },
-    {
-      "name" : "warning-draft",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j403-motif-fin-pag-ms|20260505120000"
     }],
     "contains" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag",

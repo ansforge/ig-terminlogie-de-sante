@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Jdv J408 Orientation Ms - TTL Representation - Terminologies  de Santé v1.9.3</title>
+    <title>Jdv J408 Orientation Ms - TTL Representation - Terminologies  de Santé v1.11.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -43,8 +43,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"7.70"}
-    h3,h4,h5,h6{--heading-prefix:"7.70"}</style>
+    <style type="text/css">h2{--heading-prefix:"7.95"}
+    h3,h4,h5,h6{--heading-prefix:"7.95"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -58,7 +58,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Terminologies  de Santé</span>
             <br/>
-            <span style="display:inline-block;">1.9.3 - final-text
+            <span style="display:inline-block;">1.11.0 - final-text
 
 
 
@@ -169,7 +169,7 @@
         <div class="row">
           <div class="inner-wrapper">
 <div style="counter-reset: section 9" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">Terminologies  de Santé - version de développement local (intégration continue v1.9.3) construite par les outils de publication FHIR (HL7® FHIR® Standard). Voir le <a href='https://interop.esante.gouv.fr/terminologies/history.html'>répertoire des versions publiées</a></p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">Terminologies  de Santé - version de développement local (intégration continue v1.11.0) construite par les outils de publication FHIR (HL7® FHIR® Standard). Voir le <a href='https://interop.esante.gouv.fr/terminologies/history.html'>répertoire des versions publiées</a></p><!--EndReleaseHeader-->
 
 
 
@@ -270,207 +270,206 @@
   <pre class="rdf" data-fhir="generated" style="white-space: pre; overflow: hidden"><code class="language-turtle">
 @prefix fhir: &lt;http://hl7.org/fhir/&gt; .
 @prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
-@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
 @prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
 @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
 
 # - resource -------------------------------------------------------------------
 
- a fhir:ValueSet ;
+&lt;http://hl7.org/fhir/ValueSet/jdv-j408-orientation-ms&gt; a fhir:ValueSet ;
   <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
-  <a href="http://hl7.org/fhir/R4/resource.html#ValueSet.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;jdv-j408-orientation-ms&quot;] ; # 
-  <a href="http://hl7.org/fhir/R4/resource.html#ValueSet.meta">fhir:meta</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.versionId">fhir:versionId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> &quot;1&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.lastUpdated">fhir:lastUpdated</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#instant">fhir:v</a> &quot;2026-05-27T15:47:16.414+02:00&quot;^^xsd:dateTime ] ;
-    ( <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:profile</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;http://hl7.org/fhir/StructureDefinition/shareablevalueset&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:l</a> &lt;http://hl7.org/fhir/StructureDefinition/shareablevalueset&gt;     ] )
-  ] ; # 
-  <a href="http://hl7.org/fhir/R4/resource.html#ValueSet.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr-FR&quot;] ; # 
-  <a href="http://hl7.org/fhir/R4/domainresource.html#ValueSet.text">fhir:text</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R4/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xml:lang=\&quot;fr-FR\&quot; xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; lang=\&quot;fr-FR\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Narratif généré : EnsembleValeurs jdv-j408-orientation-ms&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;jdv-j408-orientation-ms\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcjdv-j408-orientation-ms\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;version : 1; Dernière mise à jour : 2026-05-27 15:47:16+0200; Langue : fr-FR&lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;http://hl7.org/fhir/R4/shareablevalueset.html\&quot;&gt;Shareable ValueSet&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;div style=\&quot;border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\&quot;&gt;&lt;p&gt;Expansion basée sur :&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=\&quot;CodeSystem-TRE-R278-FinessConvention.html\&quot;&gt;codesystem TRE_R278_FinessConvention v20250131120000 (CodeSystem)&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;CodeSystem-tre-r408-type-enseignement-specialise.html\&quot;&gt;codesystem Tre R408 Type Enseignement Specialise v20260202120000 (CodeSystem)&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;CodeSystem-tre-r426-orientation.html\&quot;&gt;codesystem Tre R426 Orientation v20260505120000 (CodeSystem)&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;Ce jeu de valeur (ValueSet) contient 12 concepts&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Système&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Version&lt;/b&gt;&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Affichage (fr-FR)&lt;/b&gt; - French (France) (fr)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;jdv-j408-orientation-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise-9\&quot;&gt; &lt;/a&gt;&lt;code&gt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise&lt;/code&gt;&lt;/td&gt;&lt;td&gt;20260202120000&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;  &lt;a href=\&quot;CodeSystem-tre-r408-type-enseignement-specialise.html#tre-r408-type-enseignement-specialise-9\&quot;&gt;9&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Scolarisation en SEGPA (sections d’enseignement général et professionnel adapté)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;jdv-j408-orientation-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise-10\&quot;&gt; &lt;/a&gt;&lt;code&gt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise&lt;/code&gt;&lt;/td&gt;&lt;td&gt;20260202120000&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;  &lt;a href=\&quot;CodeSystem-tre-r408-type-enseignement-specialise.html#tre-r408-type-enseignement-specialise-10\&quot;&gt;10&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Scolarisation en EREA (établissements régionaux d’enseignement adapté)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;jdv-j408-orientation-ms-https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention-UEA\&quot;&gt; &lt;/a&gt;&lt;code&gt;https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention&lt;/code&gt;&lt;/td&gt;&lt;td&gt;20250131120000&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;  &lt;a href=\&quot;CodeSystem-TRE-R278-FinessConvention.html#TRE-R278-FinessConvention-UEA\&quot;&gt;UEA&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Unité d'enseignement élémentaire autisme&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;jdv-j408-orientation-ms-https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention-UEM\&quot;&gt; &lt;/a&gt;&lt;code&gt;https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention&lt;/code&gt;&lt;/td&gt;&lt;td&gt;20250131120000&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;  &lt;a href=\&quot;CodeSystem-TRE-R278-FinessConvention.html#TRE-R278-FinessConvention-UEM\&quot;&gt;UEM&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Unité d'enseignement en maternelle plan autisme&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;jdv-j408-orientation-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation-7\&quot;&gt; &lt;/a&gt;&lt;code&gt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation&lt;/code&gt;&lt;/td&gt;&lt;td&gt;20260505120000&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;  &lt;a href=\&quot;CodeSystem-tre-r426-orientation.html#tre-r426-orientation-7\&quot;&gt;7&lt;/a&gt;&lt;/td&gt;&lt;td&gt;SAFEP déficience auditive&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;jdv-j408-orientation-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation-8\&quot;&gt; &lt;/a&gt;&lt;code&gt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation&lt;/code&gt;&lt;/td&gt;&lt;td&gt;20260505120000&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;  &lt;a href=\&quot;CodeSystem-tre-r426-orientation.html#tre-r426-orientation-8\&quot;&gt;8&lt;/a&gt;&lt;/td&gt;&lt;td&gt;SAFEP déficience visuelle&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;jdv-j408-orientation-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation-1\&quot;&gt; &lt;/a&gt;&lt;code&gt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation&lt;/code&gt;&lt;/td&gt;&lt;td&gt;20260505120000&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;  &lt;a href=\&quot;CodeSystem-tre-r426-orientation.html#tre-r426-orientation-1\&quot;&gt;1&lt;/a&gt;&lt;/td&gt;&lt;td&gt;SESSAD polyvalent&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;jdv-j408-orientation-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation-2\&quot;&gt; &lt;/a&gt;&lt;code&gt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation&lt;/code&gt;&lt;/td&gt;&lt;td&gt;20260505120000&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;  &lt;a href=\&quot;CodeSystem-tre-r426-orientation.html#tre-r426-orientation-2\&quot;&gt;2&lt;/a&gt;&lt;/td&gt;&lt;td&gt;SESSAD pour déficience intellectuelle&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;jdv-j408-orientation-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation-3\&quot;&gt; &lt;/a&gt;&lt;code&gt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation&lt;/code&gt;&lt;/td&gt;&lt;td&gt;20260505120000&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;  &lt;a href=\&quot;CodeSystem-tre-r426-orientation.html#tre-r426-orientation-3\&quot;&gt;3&lt;/a&gt;&lt;/td&gt;&lt;td&gt;SESSAD pour déficience motrice&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;jdv-j408-orientation-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation-4\&quot;&gt; &lt;/a&gt;&lt;code&gt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation&lt;/code&gt;&lt;/td&gt;&lt;td&gt;20260505120000&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;  &lt;a href=\&quot;CodeSystem-tre-r426-orientation.html#tre-r426-orientation-4\&quot;&gt;4&lt;/a&gt;&lt;/td&gt;&lt;td&gt;SESSAD pour trouble du comportement&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;jdv-j408-orientation-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation-5\&quot;&gt; &lt;/a&gt;&lt;code&gt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation&lt;/code&gt;&lt;/td&gt;&lt;td&gt;20260505120000&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;  &lt;a href=\&quot;CodeSystem-tre-r426-orientation.html#tre-r426-orientation-5\&quot;&gt;5&lt;/a&gt;&lt;/td&gt;&lt;td&gt;SESSAD pour troubles autistiques et du neurodéveloppement&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;jdv-j408-orientation-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation-6\&quot;&gt; &lt;/a&gt;&lt;code&gt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation&lt;/code&gt;&lt;/td&gt;&lt;td&gt;20260505120000&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;  &lt;a href=\&quot;CodeSystem-tre-r426-orientation.html#tre-r426-orientation-6\&quot;&gt;6&lt;/a&gt;&lt;/td&gt;&lt;td&gt;SESSAD pour troubles du langage et des apprentissages&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
-  ] ; # 
-  <a href="http://hl7.org/fhir/R4/domainresource.html#ValueSet.extension">fhir:extension</a> ( [
-<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod&gt;     ] ;
-<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Period">a</a> fhir:Period ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Period#Period.start">fhir:start</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2026-06-01T12:00:00+01:00&quot;^^xsd:dateTime ]     ]
-  ] ) ; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.url">fhir:url</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j408-orientation-ms&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j408-orientation-ms&gt;
-  ] ; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.identifier">fhir:identifier</a> ( [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;urn:ietf:rfc:3986&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;urn:ietf:rfc:3986&gt;     ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;urn:oid:1.2.250.1.213.3.4.248&quot; ]
-  ] ) ; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.version">fhir:version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;20260601120000&quot;] ; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;JdvJ408OrientationMs&quot;] ; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Jdv J408 Orientation Ms&quot;] ; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;draft&quot;] ; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.experimental">fhir:experimental</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:v</a> false] ; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2026-06-01T12:00:00.000+00:00&quot;^^xsd:dateTime] ; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.publisher">fhir:publisher</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris&quot;] ; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:v</a> &quot;Ensemble des orientations vers un Service d'éducation spéciale et de soins à domicile (SESSAD), un Service d'accompagnement familial et d'éducation précoce (SAFEP), un enseignement adapté (SEGPA/EREA) ou une unité d'enseignement.&quot;] ; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.jurisdiction">fhir:jurisdiction</a> ( [
-    ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;urn:iso:std:iso:3166&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;urn:iso:std:iso:3166&gt;       ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;FRA&quot; ]     ] )
-  ] ) ; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose">fhir:compose</a> [
-    ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include">fhir:include</a> [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation&gt;       ] ;
-      ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.filter">fhir:filter</a> [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.filter.property">fhir:property</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.filter.op">fhir:op</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;=&quot; ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.filter.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;active&quot; ]       ] )     ] [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise&gt;       ] ;
-      ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">fhir:concept</a> [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;9&quot; ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Scolarisation en SEGPA (sections d’enseignement général et professionnel adapté)&quot; ]       ] [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;10&quot; ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Scolarisation en EREA (établissements régionaux d’enseignement adapté)&quot; ]       ] )     ] [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention&gt;       ] ;
-      ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">fhir:concept</a> [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;UEA&quot; ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Unité d'enseignement élémentaire autisme&quot; ]       ] [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;UEM&quot; ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Unité d'enseignement en maternelle plan autisme&quot; ]       ] )     ] )
-  ] ; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion">fhir:expansion</a> [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.identifier">fhir:identifier</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;urn:uuid:e50722d1-2602-4120-b257-55e508e40511&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;urn:uuid:e50722d1-2602-4120-b257-55e508e40511&gt;     ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.timestamp">fhir:timestamp</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2026-06-03T15:05:48+02:00&quot;^^xsd:dateTime ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.total">fhir:total</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#integer">fhir:v</a> 12 ] ;
-    ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter">fhir:parameter</a> [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;used-codesystem&quot; ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.value_x_">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">a</a> fhir:Uri ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise|20260202120000&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise?version=20260202120000&gt;       ]     ] [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;version&quot; ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.value_x_">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">a</a> fhir:Uri ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise|20260202120000&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise?version=20260202120000&gt;       ]     ] [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;used-codesystem&quot; ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.value_x_">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">a</a> fhir:Uri ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention|20250131120000&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention?version=20250131120000&gt;       ]     ] [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;version&quot; ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.value_x_">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">a</a> fhir:Uri ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention|20250131120000&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention?version=20250131120000&gt;       ]     ] [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;used-codesystem&quot; ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.value_x_">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">a</a> fhir:Uri ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation|20260505120000&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation?version=20260505120000&gt;       ]     ] [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;version&quot; ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.value_x_">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">a</a> fhir:Uri ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation|20260505120000&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation?version=20260505120000&gt;       ]     ] [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;warning-draft&quot; ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.value_x_">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">a</a> fhir:Uri ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j408-orientation-ms|20260601120000&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j408-orientation-ms?version=20260601120000&gt;       ]     ] [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;warning-draft&quot; ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.value_x_">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">a</a> fhir:Uri ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation|20260505120000&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation?version=20260505120000&gt;       ]     ] ) ;
-    ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">fhir:contains</a> [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise&gt;       ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">fhir:version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;20260202120000&quot; ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;9&quot; ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Scolarisation en SEGPA (sections d’enseignement général et professionnel adapté)&quot; ]     ] [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise&gt;       ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">fhir:version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;20260202120000&quot; ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;10&quot; ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Scolarisation en EREA (établissements régionaux d’enseignement adapté)&quot; ]     ] [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention&gt;       ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">fhir:version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;20250131120000&quot; ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;UEA&quot; ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Unité d'enseignement élémentaire autisme&quot; ]     ] [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention&gt;       ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">fhir:version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;20250131120000&quot; ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;UEM&quot; ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Unité d'enseignement en maternelle plan autisme&quot; ]     ] [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation&gt;       ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">fhir:version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;20260505120000&quot; ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;7&quot; ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;SAFEP déficience auditive&quot; ]     ] [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation&gt;       ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">fhir:version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;20260505120000&quot; ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;8&quot; ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;SAFEP déficience visuelle&quot; ]     ] [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation&gt;       ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">fhir:version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;20260505120000&quot; ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;1&quot; ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;SESSAD polyvalent&quot; ]     ] [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation&gt;       ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">fhir:version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;20260505120000&quot; ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;2&quot; ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;SESSAD pour déficience intellectuelle&quot; ]     ] [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation&gt;       ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">fhir:version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;20260505120000&quot; ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;3&quot; ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;SESSAD pour déficience motrice&quot; ]     ] [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation&gt;       ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">fhir:version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;20260505120000&quot; ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;4&quot; ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;SESSAD pour trouble du comportement&quot; ]     ] [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation&gt;       ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">fhir:version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;20260505120000&quot; ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;5&quot; ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;SESSAD pour troubles autistiques et du neurodéveloppement&quot; ]     ] [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation&gt;       ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">fhir:version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;20260505120000&quot; ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;6&quot; ] ;
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;SESSAD pour troubles du langage et des apprentissages&quot; ]     ] )
-  ] . # 
+  <a href="http://hl7.org/fhir/R4/resource.html#ValueSet.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;jdv-j408-orientation-ms&quot;] ;
+  <a href="http://hl7.org/fhir/R4/resource.html#ValueSet.meta">fhir:Resource.meta</a> [
+     <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.versionId">fhir:Meta.versionId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:value</a> &quot;1&quot; ] ;
+     <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.lastUpdated">fhir:Meta.lastUpdated</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#instant">fhir:value</a> &quot;2026-05-27T15:47:16.414+02:00&quot;^^xsd:dateTime ] ;
+     <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:Meta.profile</a> [
+       <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:value</a> &quot;http://hl7.org/fhir/StructureDefinition/shareablevalueset&quot; ;
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+       <a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/StructureDefinition/shareablevalueset&gt;
+     ]
+  ] ;
+  <a href="http://hl7.org/fhir/R4/resource.html#ValueSet.language">fhir:Resource.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr-FR&quot;] ;
+  <a href="http://hl7.org/fhir/R4/domainresource.html#ValueSet.text">fhir:DomainResource.text</a> [
+     <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;generated&quot; ] ;
+     fhir:Narrative.div &quot;&lt;div xml:lang=\&quot;fr-FR\&quot; xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; lang=\&quot;fr-FR\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Narratif généré : EnsembleValeurs jdv-j408-orientation-ms&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;jdv-j408-orientation-ms\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcjdv-j408-orientation-ms\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;version : 1; Dernière mise à jour : 2026-05-27 15:47:16+0200; Langue : fr-FR&lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;http://hl7.org/fhir/R4/shareablevalueset.html\&quot;&gt;Shareable ValueSet&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;div style=\&quot;border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\&quot;&gt;&lt;p&gt;Expansion basée sur :&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=\&quot;CodeSystem-TRE-R278-FinessConvention.html\&quot;&gt;codesystem TRE_R278_FinessConvention v20250131120000 (CodeSystem)&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;CodeSystem-tre-r408-type-enseignement-specialise.html\&quot;&gt;codesystem Tre R408 Type Enseignement Specialise v20260202120000 (CodeSystem)&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;CodeSystem-tre-r426-orientation.html\&quot;&gt;codesystem Tre R426 Orientation v20260505120000 (CodeSystem)&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;Ce jeu de valeur (ValueSet) contient 12 concepts&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Système&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Version&lt;/b&gt;&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Affichage (fr-FR)&lt;/b&gt; - French (France) (fr)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;jdv-j408-orientation-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise-9\&quot;&gt; &lt;/a&gt;&lt;code&gt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise&lt;/code&gt;&lt;/td&gt;&lt;td&gt;20260202120000&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;  &lt;a href=\&quot;CodeSystem-tre-r408-type-enseignement-specialise.html#tre-r408-type-enseignement-specialise-9\&quot;&gt;9&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Scolarisation en SEGPA (sections d’enseignement général et professionnel adapté)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;jdv-j408-orientation-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise-10\&quot;&gt; &lt;/a&gt;&lt;code&gt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise&lt;/code&gt;&lt;/td&gt;&lt;td&gt;20260202120000&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;  &lt;a href=\&quot;CodeSystem-tre-r408-type-enseignement-specialise.html#tre-r408-type-enseignement-specialise-10\&quot;&gt;10&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Scolarisation en EREA (établissements régionaux d’enseignement adapté)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;jdv-j408-orientation-ms-https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention-UEA\&quot;&gt; &lt;/a&gt;&lt;code&gt;https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention&lt;/code&gt;&lt;/td&gt;&lt;td&gt;20250131120000&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;  &lt;a href=\&quot;CodeSystem-TRE-R278-FinessConvention.html#TRE-R278-FinessConvention-UEA\&quot;&gt;UEA&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Unité d'enseignement élémentaire autisme&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;jdv-j408-orientation-ms-https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention-UEM\&quot;&gt; &lt;/a&gt;&lt;code&gt;https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention&lt;/code&gt;&lt;/td&gt;&lt;td&gt;20250131120000&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;  &lt;a href=\&quot;CodeSystem-TRE-R278-FinessConvention.html#TRE-R278-FinessConvention-UEM\&quot;&gt;UEM&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Unité d'enseignement en maternelle plan autisme&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;jdv-j408-orientation-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation-7\&quot;&gt; &lt;/a&gt;&lt;code&gt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation&lt;/code&gt;&lt;/td&gt;&lt;td&gt;20260505120000&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;  &lt;a href=\&quot;CodeSystem-tre-r426-orientation.html#tre-r426-orientation-7\&quot;&gt;7&lt;/a&gt;&lt;/td&gt;&lt;td&gt;SAFEP déficience auditive&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;jdv-j408-orientation-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation-8\&quot;&gt; &lt;/a&gt;&lt;code&gt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation&lt;/code&gt;&lt;/td&gt;&lt;td&gt;20260505120000&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;  &lt;a href=\&quot;CodeSystem-tre-r426-orientation.html#tre-r426-orientation-8\&quot;&gt;8&lt;/a&gt;&lt;/td&gt;&lt;td&gt;SAFEP déficience visuelle&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;jdv-j408-orientation-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation-1\&quot;&gt; &lt;/a&gt;&lt;code&gt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation&lt;/code&gt;&lt;/td&gt;&lt;td&gt;20260505120000&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;  &lt;a href=\&quot;CodeSystem-tre-r426-orientation.html#tre-r426-orientation-1\&quot;&gt;1&lt;/a&gt;&lt;/td&gt;&lt;td&gt;SESSAD polyvalent&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;jdv-j408-orientation-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation-2\&quot;&gt; &lt;/a&gt;&lt;code&gt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation&lt;/code&gt;&lt;/td&gt;&lt;td&gt;20260505120000&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;  &lt;a href=\&quot;CodeSystem-tre-r426-orientation.html#tre-r426-orientation-2\&quot;&gt;2&lt;/a&gt;&lt;/td&gt;&lt;td&gt;SESSAD pour déficience intellectuelle&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;jdv-j408-orientation-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation-3\&quot;&gt; &lt;/a&gt;&lt;code&gt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation&lt;/code&gt;&lt;/td&gt;&lt;td&gt;20260505120000&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;  &lt;a href=\&quot;CodeSystem-tre-r426-orientation.html#tre-r426-orientation-3\&quot;&gt;3&lt;/a&gt;&lt;/td&gt;&lt;td&gt;SESSAD pour déficience motrice&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;jdv-j408-orientation-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation-4\&quot;&gt; &lt;/a&gt;&lt;code&gt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation&lt;/code&gt;&lt;/td&gt;&lt;td&gt;20260505120000&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;  &lt;a href=\&quot;CodeSystem-tre-r426-orientation.html#tre-r426-orientation-4\&quot;&gt;4&lt;/a&gt;&lt;/td&gt;&lt;td&gt;SESSAD pour trouble du comportement&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;jdv-j408-orientation-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation-5\&quot;&gt; &lt;/a&gt;&lt;code&gt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation&lt;/code&gt;&lt;/td&gt;&lt;td&gt;20260505120000&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;  &lt;a href=\&quot;CodeSystem-tre-r426-orientation.html#tre-r426-orientation-5\&quot;&gt;5&lt;/a&gt;&lt;/td&gt;&lt;td&gt;SESSAD pour troubles autistiques et du neurodéveloppement&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;jdv-j408-orientation-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation-6\&quot;&gt; &lt;/a&gt;&lt;code&gt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation&lt;/code&gt;&lt;/td&gt;&lt;td&gt;20260505120000&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;  &lt;a href=\&quot;CodeSystem-tre-r426-orientation.html#tre-r426-orientation-6\&quot;&gt;6&lt;/a&gt;&lt;/td&gt;&lt;td&gt;SESSAD pour troubles du langage et des apprentissages&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;
+  ] ;
+  <a href="http://hl7.org/fhir/R4/domainresource.html#ValueSet.extension">fhir:DomainResource.extension</a> [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+     <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod&quot; ] ;
+     <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">fhir:Extension.valuePeriod</a> [
+       <a href="http://hl7.org/fhir/R4/datatypes.html#Period#Period.start">fhir:Period.start</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;2026-06-01T12:00:00+01:00&quot;^^xsd:dateTime ]
+     ]
+  ] ;
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.url">fhir:ValueSet.url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j408-orientation-ms&quot;] ;
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.identifier">fhir:ValueSet.identifier</a> [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+     <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:Identifier.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;urn:ietf:rfc:3986&quot; ] ;
+     <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:Identifier.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;urn:oid:1.2.250.1.213.3.4.248&quot; ]
+  ] ;
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.version">fhir:ValueSet.version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;20260601120000&quot;] ;
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.name">fhir:ValueSet.name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;JdvJ408OrientationMs&quot;] ;
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.title">fhir:ValueSet.title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Jdv J408 Orientation Ms&quot;] ;
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.status">fhir:ValueSet.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;draft&quot;] ;
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.experimental">fhir:ValueSet.experimental</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:value</a> &quot;false&quot;^^xsd:boolean] ;
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.date">fhir:ValueSet.date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;2026-06-01T12:00:00.000+00:00&quot;^^xsd:dateTime] ;
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.publisher">fhir:ValueSet.publisher</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris&quot;] ;
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.description">fhir:ValueSet.description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:value</a> &quot;Ensemble des orientations vers un Service d'éducation spéciale et de soins à domicile (SESSAD), un Service d'accompagnement familial et d'éducation précoce (SAFEP), un enseignement adapté (SEGPA/EREA) ou une unité d'enseignement.&quot;] ;
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.jurisdiction">fhir:ValueSet.jurisdiction</a> [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+     <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+       <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;urn:iso:std:iso:3166&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;FRA&quot; ]
+     ]
+  ] ;
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose">fhir:ValueSet.compose</a> [
+     <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include">fhir:ValueSet.compose.include</a> [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.system">fhir:ValueSet.compose.include.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.filter">fhir:ValueSet.compose.include.filter</a> [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.filter.property">fhir:ValueSet.compose.include.filter.property</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.filter.op">fhir:ValueSet.compose.include.filter.op</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;=&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.filter.value">fhir:ValueSet.compose.include.filter.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;active&quot; ]
+       ]
+     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1 ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.system">fhir:ValueSet.compose.include.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">fhir:ValueSet.compose.include.concept</a> [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;9&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Scolarisation en SEGPA (sections d’enseignement général et professionnel adapté)&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;10&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Scolarisation en EREA (établissements régionaux d’enseignement adapté)&quot; ]
+       ]
+     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2 ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.system">fhir:ValueSet.compose.include.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">fhir:ValueSet.compose.include.concept</a> [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;UEA&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Unité d'enseignement élémentaire autisme&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1 ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:ValueSet.compose.include.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;UEM&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:ValueSet.compose.include.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Unité d'enseignement en maternelle plan autisme&quot; ]
+       ]
+     ]
+  ] ;
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion">fhir:ValueSet.expansion</a> [
+     <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.identifier">fhir:ValueSet.expansion.identifier</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;urn:uuid:9aaa4474-5ed5-4ebb-9dab-389204f6317e&quot; ] ;
+     <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.timestamp">fhir:ValueSet.expansion.timestamp</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;2026-06-30T11:06:05+02:00&quot;^^xsd:dateTime ] ;
+     <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.total">fhir:ValueSet.expansion.total</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#integer">fhir:value</a> &quot;12&quot;^^xsd:integer ] ;
+     <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter">fhir:ValueSet.expansion.parameter</a> [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.name">fhir:ValueSet.expansion.parameter.name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;used-codesystem&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.value_x_">fhir:ValueSet.expansion.parameter.valueUri</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise|20260202120000&quot; ]
+     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1 ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.name">fhir:ValueSet.expansion.parameter.name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;version&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.value_x_">fhir:ValueSet.expansion.parameter.valueUri</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise|20260202120000&quot; ]
+     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2 ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.name">fhir:ValueSet.expansion.parameter.name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;used-codesystem&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.value_x_">fhir:ValueSet.expansion.parameter.valueUri</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention|20250131120000&quot; ]
+     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 3 ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.name">fhir:ValueSet.expansion.parameter.name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;version&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.value_x_">fhir:ValueSet.expansion.parameter.valueUri</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention|20250131120000&quot; ]
+     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 4 ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.name">fhir:ValueSet.expansion.parameter.name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;used-codesystem&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.value_x_">fhir:ValueSet.expansion.parameter.valueUri</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation|20260505120000&quot; ]
+     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 5 ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.name">fhir:ValueSet.expansion.parameter.name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;version&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.value_x_">fhir:ValueSet.expansion.parameter.valueUri</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation|20260505120000&quot; ]
+     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 6 ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.name">fhir:ValueSet.expansion.parameter.name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;warning-draft&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.parameter.value_x_">fhir:ValueSet.expansion.parameter.valueUri</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation|20260505120000&quot; ]
+     ] ;
+     <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">fhir:ValueSet.expansion.contains</a> [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">fhir:ValueSet.expansion.contains.version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;20260202120000&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;9&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Scolarisation en SEGPA (sections d’enseignement général et professionnel adapté)&quot; ]
+     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1 ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">fhir:ValueSet.expansion.contains.version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;20260202120000&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;10&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Scolarisation en EREA (établissements régionaux d’enseignement adapté)&quot; ]
+     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2 ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">fhir:ValueSet.expansion.contains.version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;20250131120000&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;UEA&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Unité d'enseignement élémentaire autisme&quot; ]
+     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 3 ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://mos.esante.gouv.fr/NOS/TRE_R278-FinessConvention/FHIR/TRE-R278-FinessConvention&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">fhir:ValueSet.expansion.contains.version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;20250131120000&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;UEM&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Unité d'enseignement en maternelle plan autisme&quot; ]
+     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 4 ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">fhir:ValueSet.expansion.contains.version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;20260505120000&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;7&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;SAFEP déficience auditive&quot; ]
+     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 5 ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">fhir:ValueSet.expansion.contains.version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;20260505120000&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;8&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;SAFEP déficience visuelle&quot; ]
+     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 6 ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">fhir:ValueSet.expansion.contains.version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;20260505120000&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;1&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;SESSAD polyvalent&quot; ]
+     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 7 ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">fhir:ValueSet.expansion.contains.version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;20260505120000&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;2&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;SESSAD pour déficience intellectuelle&quot; ]
+     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 8 ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">fhir:ValueSet.expansion.contains.version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;20260505120000&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;3&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;SESSAD pour déficience motrice&quot; ]
+     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 9 ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">fhir:ValueSet.expansion.contains.version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;20260505120000&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;4&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;SESSAD pour trouble du comportement&quot; ]
+     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 10 ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">fhir:ValueSet.expansion.contains.version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;20260505120000&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;5&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;SESSAD pour troubles autistiques et du neurodéveloppement&quot; ]
+     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 11 ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r426-orientation&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">fhir:ValueSet.expansion.contains.version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;20260505120000&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;6&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;SESSAD pour troubles du langage et des apprentissages&quot; ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+&lt;http://hl7.org/fhir/ValueSet/jdv-j408-orientation-ms.ttl&gt; a owl:Ontology ;
+  owl:imports fhir:fhir.ttl ;
+  owl:versionIRI &lt;http://build.fhir.org/ValueSet/jdv-j408-orientation-ms.ttl&gt; .
 
 </code></pre>
 
@@ -519,7 +518,7 @@
 
 <div class="inner-wrapper">
   <p>
-    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.9.3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jun 3, 2026 13:06+0000">2026-06-03</span>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.11.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Jun 30, 2026 09:06+0000">2026-06-30</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

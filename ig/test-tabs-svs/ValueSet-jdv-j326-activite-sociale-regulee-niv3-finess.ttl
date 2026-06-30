@@ -1,6 +1,5 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -8,260 +7,202 @@
 
 <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j326-activite-sociale-regulee-niv3-finess> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "jdv-j326-activite-sociale-regulee-niv3-finess"] ; # 
-  fhir:meta [
-     fhir:versionId [ fhir:v "3" ] ;
-     fhir:lastUpdated [ fhir:v "2026-05-05T19:02:15.402+02:00"^^xsd:dateTime ] ;
-     fhir:profile ( [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablevalueset?version=4.0.1>
-     ] )
-  ] ; # 
-  fhir:language [ fhir:v "fr-FR"] ; # 
-  fhir:text [
-     fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet jdv-j326-activite-sociale-regulee-niv3-finess</b></p><a name=\"jdv-j326-activite-sociale-regulee-niv3-finess\"> </a><a name=\"hcjdv-j326-activite-sociale-regulee-niv3-finess\"> </a><a name=\"jdv-j326-activite-sociale-regulee-niv3-finess-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 2; Last updated: 2026-02-23 18:17:31+0100; Language: fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSetversion: null4.0.1)</a></p></div><ul><li>Include codes provenant de<a href=\"CodeSystem-tre-r401-activite-sociale-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee</code></a> où niveau  = 3 et finess  = true</li></ul></div>"^^rdf:XMLLiteral ]
-  ] ; # 
-  fhir:extension ( [
-     fhir:url [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod>
-     ] ;
-     fhir:value [
-       a fhir:Period ;
-       fhir:start [ fhir:v "2026-02-23T12:00:00.000+00:00"^^xsd:dateTime ]
+  fhir:Resource.id [ fhir:value "jdv-j326-activite-sociale-regulee-niv3-finess"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "3" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2026-05-05T19:02:15.402+02:00"^^xsd:dateTime ] ;
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1" ;
+       fhir:index 0 ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1>
      ]
-  ] ) ; # 
-  fhir:url [
-     fhir:v "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j326-activite-sociale-regulee-niv3-finess"^^xsd:anyURI ;
-     fhir:l <https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j326-activite-sociale-regulee-niv3-finess>
-  ] ; # 
-  fhir:identifier ( [
-     fhir:system [
-       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
-       fhir:l <urn:ietf:rfc:3986>
-     ] ;
-     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.334" ]
-  ] ) ; # 
-  fhir:version [ fhir:v "20260223120000"] ; # 
-  fhir:name [ fhir:v "JdvJ326ActiviteSocialeReguleeNiv3Finess"] ; # 
-  fhir:title [ fhir:v "Jdv J326 Activite Sociale Regulee Niv3 Finess"] ; # 
-  fhir:status [ fhir:v "active"] ; # 
-  fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-23T12:00:00.000+00:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
-  fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 3"] ; # 
-  fhir:jurisdiction ( [
-     fhir:coding ( [
-       fhir:system [
-         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
-         fhir:l <urn:iso:std:iso:3166>
-       ] ;
-       fhir:code [ fhir:v "FRA" ]
-     ] )
-  ] ) ; # 
-  fhir:compose [
-     fhir:include ( [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee>
-       ] ;
-       fhir:filter ( [
-         fhir:property [ fhir:v "niveau" ] ;
-         fhir:op [ fhir:v "=" ] ;
-         fhir:value [ fhir:v "3" ]
-       ] [
-         fhir:property [ fhir:v "finess" ] ;
-         fhir:op [ fhir:v "=" ] ;
-         fhir:value [ fhir:v "true" ]
-       ] )
-     ] )
-  ] ; # 
-  fhir:expansion [
-     fhir:identifier [
-       fhir:v "urn:uuid:75ec4310-3d1e-45e3-9fc7-30576ba834db"^^xsd:anyURI ;
-       fhir:l <urn:uuid:75ec4310-3d1e-45e3-9fc7-30576ba834db>
-     ] ;
-     fhir:timestamp [ fhir:v "2026-06-03T15:05:50+02:00"^^xsd:dateTime ] ;
-     fhir:total [ fhir:v 23 ] ;
-     fhir:parameter ( [
-       fhir:name [ fhir:v "used-codesystem" ] ;
-       fhir:value [
-         a fhir:Uri ;
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee|20260601120000"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee?version=20260601120000>
+  ] ;
+  fhir:Resource.language [ fhir:value "fr-FR"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet jdv-j326-activite-sociale-regulee-niv3-finess</b></p><a name=\"jdv-j326-activite-sociale-regulee-niv3-finess\"> </a><a name=\"hcjdv-j326-activite-sociale-regulee-niv3-finess\"> </a><a name=\"jdv-j326-activite-sociale-regulee-niv3-finess-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 2; Last updated: 2026-02-23 18:17:31+0100; Language: fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSetversion: null4.0.1)</a></p></div><ul><li>Include codes provenant de<a href=\"CodeSystem-tre-r401-activite-sociale-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee</code></a> où niveau  = 3 et finess  = true</li></ul></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod" ] ;
+     fhir:Extension.valuePeriod [
+       fhir:Period.start [ fhir:value "2026-02-23T12:00:00.000+00:00"^^xsd:dateTime ]
+     ]
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j326-activite-sociale-regulee-niv3-finess"] ;
+  fhir:ValueSet.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:1.2.250.1.213.1.6.1.334" ]
+  ] ;
+  fhir:ValueSet.version [ fhir:value "20260223120000"] ;
+  fhir:ValueSet.name [ fhir:value "JdvJ326ActiviteSocialeReguleeNiv3Finess"] ;
+  fhir:ValueSet.title [ fhir:value "Jdv J326 Activite Sociale Regulee Niv3 Finess"] ;
+  fhir:ValueSet.status [ fhir:value "active"] ;
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:ValueSet.date [ fhir:value "2026-02-23T12:00:00.000+00:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
+  fhir:ValueSet.description [ fhir:value "Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 3"] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee" ] ;
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "niveau" ] ;
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "=" ] ;
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "3" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "finess" ] ;
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "=" ] ;
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "true" ]
        ]
-     ] [
-       fhir:name [ fhir:v "version" ] ;
-       fhir:value [
-         a fhir:Uri ;
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee|20260601120000"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee?version=20260601120000>
-       ]
-     ] ) ;
-     fhir:contains ( [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee>
-       ] ;
-       fhir:code [ fhir:v "4510" ] ;
-       fhir:display [ fhir:v "Accueil au titre de la protection de l'enfance" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee>
-       ] ;
-       fhir:code [ fhir:v "4330" ] ;
-       fhir:display [ fhir:v "Accueil et accompagnement pour personnes handicapées" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee>
-       ] ;
-       fhir:code [ fhir:v "4940" ] ;
-       fhir:display [ fhir:v "Activité des centres de ressources" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee>
-       ] ;
-       fhir:code [ fhir:v "4930" ] ;
-       fhir:display [ fhir:v "Activité expérimentale dans établissements sociaux" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee>
-       ] ;
-       fhir:code [ fhir:v "4740" ] ;
-       fhir:display [ fhir:v "Education adaptée et accompagnement social et médico-social" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee>
-       ] ;
-       fhir:code [ fhir:v "4720" ] ;
-       fhir:display [ fhir:v "Education spéciale enfance handicapée" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee>
-       ] ;
-       fhir:code [ fhir:v "4810" ] ;
-       fhir:display [ fhir:v "Garde des enfants" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee>
-       ] ;
-       fhir:code [ fhir:v "4620" ] ;
-       fhir:display [ fhir:v "Hébergement des adultes en difficulté" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee>
-       ] ;
-       fhir:code [ fhir:v "4320" ] ;
-       fhir:display [ fhir:v "Hébergement des adultes handicapés" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee>
-       ] ;
-       fhir:code [ fhir:v "4630" ] ;
-       fhir:display [ fhir:v "Hébergement des autres adultes" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee>
-       ] ;
-       fhir:code [ fhir:v "4730" ] ;
-       fhir:display [ fhir:v "Hébergement enfance handicapée" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee>
-       ] ;
-       fhir:code [ fhir:v "4420" ] ;
-       fhir:display [ fhir:v "Hébergement personnes âgées" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee>
-       ] ;
-       fhir:code [ fhir:v "4310" ] ;
-       fhir:display [ fhir:v "Insertion professionnelle et sociale des adultes handicapés" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee>
-       ] ;
-       fhir:code [ fhir:v "4650" ] ;
-       fhir:display [ fhir:v "Mesures de protection des majeurs" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee>
-       ] ;
-       fhir:code [ fhir:v "4520" ] ;
-       fhir:display [ fhir:v "Observation orientation mineurs en difficulté" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee>
-       ] ;
-       fhir:code [ fhir:v "4640" ] ;
-       fhir:display [ fhir:v "Prise en charge des personnes en difficultés spécifiques" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee>
-       ] ;
-       fhir:code [ fhir:v "4920" ] ;
-       fhir:display [ fhir:v "Recherche et administration domaine social" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee>
-       ] ;
-       fhir:code [ fhir:v "4610" ] ;
-       fhir:display [ fhir:v "Réinsertion professionnelle et sociale adultes en difficulté" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee>
-       ] ;
-       fhir:code [ fhir:v "4910" ] ;
-       fhir:display [ fhir:v "Services medico-sociaux à domicile" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee>
-       ] ;
-       fhir:code [ fhir:v "4820" ] ;
-       fhir:display [ fhir:v "Services à la famille" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee>
-       ] ;
-       fhir:code [ fhir:v "4410" ] ;
-       fhir:display [ fhir:v "Soins médico sociaux aux personnes âgées" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee>
-       ] ;
-       fhir:code [ fhir:v "4710" ] ;
-       fhir:display [ fhir:v "Soins médico-sociaux enfance handicapée" ]
-     ] [
-       fhir:system [
-         fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"^^xsd:anyURI ;
-         fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee>
-       ] ;
-       fhir:code [ fhir:v "4530" ] ;
-       fhir:display [ fhir:v "Soutien personnalisé enfants et ado en difficulté sociale" ]
-     ] )
-  ] . # 
+     ]
+  ] ;
+  fhir:ValueSet.expansion [
+     fhir:ValueSet.expansion.identifier [ fhir:value "urn:uuid:92f45a16-d5ae-4be2-8885-c19a84e7e8a3" ] ;
+     fhir:ValueSet.expansion.timestamp [ fhir:value "2026-06-30T11:05:32+02:00"^^xsd:dateTime ] ;
+     fhir:ValueSet.expansion.total [ fhir:value "23"^^xsd:integer ] ;
+     fhir:ValueSet.expansion.parameter [
+       fhir:index 0 ;
+       fhir:ValueSet.expansion.parameter.name [ fhir:value "used-codesystem" ] ;
+       fhir:ValueSet.expansion.parameter.valueUri [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee|20260601120000" ]
+     ], [
+       fhir:index 1 ;
+       fhir:ValueSet.expansion.parameter.name [ fhir:value "version" ] ;
+       fhir:ValueSet.expansion.parameter.valueUri [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee|20260601120000" ]
+     ] ;
+     fhir:ValueSet.expansion.contains [
+       fhir:index 0 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "4510" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Accueil au titre de la protection de l'enfance" ]
+     ], [
+       fhir:index 1 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "4330" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Accueil et accompagnement pour personnes handicapées" ]
+     ], [
+       fhir:index 2 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "4940" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Activité des centres de ressources" ]
+     ], [
+       fhir:index 3 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "4930" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Activité expérimentale dans établissements sociaux" ]
+     ], [
+       fhir:index 4 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "4740" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Education adaptée et accompagnement social et médico-social" ]
+     ], [
+       fhir:index 5 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "4720" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Education spéciale enfance handicapée" ]
+     ], [
+       fhir:index 6 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "4810" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Garde des enfants" ]
+     ], [
+       fhir:index 7 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "4620" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Hébergement des adultes en difficulté" ]
+     ], [
+       fhir:index 8 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "4320" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Hébergement des adultes handicapés" ]
+     ], [
+       fhir:index 9 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "4630" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Hébergement des autres adultes" ]
+     ], [
+       fhir:index 10 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "4730" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Hébergement enfance handicapée" ]
+     ], [
+       fhir:index 11 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "4420" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Hébergement personnes âgées" ]
+     ], [
+       fhir:index 12 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "4310" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Insertion professionnelle et sociale des adultes handicapés" ]
+     ], [
+       fhir:index 13 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "4650" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Mesures de protection des majeurs" ]
+     ], [
+       fhir:index 14 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "4520" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Observation orientation mineurs en difficulté" ]
+     ], [
+       fhir:index 15 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "4640" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Prise en charge des personnes en difficultés spécifiques" ]
+     ], [
+       fhir:index 16 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "4920" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Recherche et administration domaine social" ]
+     ], [
+       fhir:index 17 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "4610" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Réinsertion professionnelle et sociale adultes en difficulté" ]
+     ], [
+       fhir:index 18 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "4910" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Services medico-sociaux à domicile" ]
+     ], [
+       fhir:index 19 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "4820" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Services à la famille" ]
+     ], [
+       fhir:index 20 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "4410" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Soins médico sociaux aux personnes âgées" ]
+     ], [
+       fhir:index 21 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "4710" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Soins médico-sociaux enfance handicapée" ]
+     ], [
+       fhir:index 22 ;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee" ] ;
+       fhir:ValueSet.expansion.contains.code [ fhir:value "4530" ] ;
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Soutien personnalisé enfants et ado en difficulté sociale" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j326-activite-sociale-regulee-niv3-finess.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

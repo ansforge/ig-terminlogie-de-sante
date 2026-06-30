@@ -46,8 +46,8 @@
     </include>
   </compose>
   <expansion>
-    <identifier value="urn:uuid:dcee9862-89ba-45dd-b2ed-30a2f28df2a0"/>
-    <timestamp value="2026-06-03T15:04:58+02:00"/>
+    <identifier value="urn:uuid:3d42670e-b1c8-4fa3-86a4-bf37814ce1d8"/>
+    <timestamp value="2026-06-30T11:06:43+02:00"/>
     <total value="14"/>
     <parameter>
       <name value="used-codesystem"/>
@@ -60,10 +60,6 @@
     <parameter>
       <name value="warning-draft"/>
       <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation|20260505120000"/>
-    </parameter>
-    <parameter>
-      <name value="warning-draft"/>
-      <valueUri value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j401-categorie-droit-prestation-ms|20260505120000"/>
     </parameter>
     <contains>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation"/>

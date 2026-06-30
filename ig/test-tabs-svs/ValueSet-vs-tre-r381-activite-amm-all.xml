@@ -37,8 +37,8 @@
     </include>
   </compose>
   <expansion>
-    <identifier value="urn:uuid:71ae65c2-4de4-4851-bdfc-ccd4a2d6857c"/>
-    <timestamp value="2026-06-03T15:05:09+02:00"/>
+    <identifier value="urn:uuid:ed48a912-2395-4f5c-ba57-51b9c5a6622d"/>
+    <timestamp value="2026-06-30T11:06:08+02:00"/>
     <total value="25"/>
     <parameter>
       <name value="used-codesystem"/>

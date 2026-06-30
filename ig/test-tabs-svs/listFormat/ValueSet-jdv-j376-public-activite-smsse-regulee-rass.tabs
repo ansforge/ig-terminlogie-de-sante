@@ -3,6 +3,7 @@
 <OID>;<Code>;<Libellé>
 1.2.250.1.213.1.6.1.382;828;Accompagnants (ou aidants)
 1.2.250.1.213.1.6.1.382;802;Adolescents ASE (7-17 ans)
+1.2.250.1.213.1.6.1.382;842;Adultes (sans autre indication)
 1.2.250.1.213.1.6.1.382;441;Adultes autistes relevant des cas complexes
 1.2.250.1.213.1.6.1.382;861;Adultes avec difficultés budgétaires
 1.2.250.1.213.1.6.1.382;810;Adultes en Difficulté d'Insertion Sociale (SAI)
@@ -24,6 +25,7 @@
 1.2.250.1.213.1.6.1.382;324;Déficience visuelle grave
 1.2.250.1.213.1.6.1.382;801;Enfants ASE (0-6 ans)
 1.2.250.1.213.1.6.1.382;808;Enfants d'Age Préscolaire
+1.2.250.1.213.1.6.1.382;843;Enfants et adolescents (sans autre indication)
 1.2.250.1.213.1.6.1.382;807;Enfants et Adolescents avec difficultés sociales
 1.2.250.1.213.1.6.1.382;800;Enfants, adolescents et jeunes majeurs ASE
 1.2.250.1.213.1.6.1.382;804;Enfants, adolescents et jeunes majeurs PJJ
@@ -47,6 +49,7 @@
 1.2.250.1.213.1.6.1.382;860;Majeurs Protégés
 1.2.250.1.213.1.6.1.382;440;MND autres que Maladie Alzheimer et Maladies Apparentées
 1.2.250.1.213.1.6.1.382;835;Parents en difficulté avec enfant
+1.2.250.1.213.1.6.1.382;844;Patients de soins sans consentement
 1.2.250.1.213.1.6.1.382;834;Patients et accompagnants (ou aidants)
 1.2.250.1.213.1.6.1.382;833;Pers.agée, Pers.handicapée, Etudiant, Jeune travailleur
 1.2.250.1.213.1.6.1.382;700;Personnes Agées (Sans Autre Indication)
@@ -71,6 +74,7 @@
 1.2.250.1.213.1.6.1.382;836;Personnes victimes de la Traite des Etres Humains (T.E.H.)
 1.2.250.1.213.1.6.1.382;500;Polyhandicap
 1.2.250.1.213.1.6.1.382;816;Prostituées avec ou sans Enfant
+1.2.250.1.213.1.6.1.382;841;Périnatalité
 1.2.250.1.213.1.6.1.382;815;Sortants d'Etablissement Hospitalier ou médico-social yc psy
 1.2.250.1.213.1.6.1.382;511;Surdi-Cécité avec ou sans troubles associés
 1.2.250.1.213.1.6.1.382;899;Tous publics en difficulté

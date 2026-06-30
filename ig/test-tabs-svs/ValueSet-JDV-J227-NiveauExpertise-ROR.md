@@ -1,4 +1,4 @@
-# JDV_J227_NiveauExpertise_ROR - Terminologies de Santé v1.9.3
+# JDV_J227_NiveauExpertise_ROR - Terminologies de Santé v1.11.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J227-NiveauExpertise-ROR/FHIR/JDV-J227-NiveauExpertise-ROR | *Version*:20251222120000 | |
-| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J227_NiveauExpertise_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J227-NiveauExpertise-ROR/FHIR/JDV-J227-NiveauExpertise-ROR | *Version*:20260629120000 | |
+| Active as of 2026-06-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J227_NiveauExpertise_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.59 | | |
 
  
@@ -46,7 +46,20 @@ Requête sur le SMT
 | Definition | An explanation of the meaning of the concept |
 | Comments | Additional notes about how to use the code |
 
+| | | |
+| :--- | :--- | :--- |
+|  [<prev](ValueSet-JDV-J226-ModaliteAccueil-ROR.demande.md) | [top](#top) |  [next>](ValueSet-JDV-J227-NiveauExpertise-ROR-testing.md) |
 
+IG © 2020+
+[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.0 based on
+[FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
+2026-06-30
+
+Liens:
+[Table des matières ](toc.md)|
+[QA ](qa.md)|
+[Historique des versions ](https://interop.esante.gouv.fr/terminologies/history.html)|
+[New Issue](https://github.com/ansforge/IG-terminologie-de-sante/issues/new/choose?title=)
 
 ## Resource Content
 
@@ -55,8 +68,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J227-NiveauExpertise-ROR",
   "meta" : {
-    "versionId" : "13",
-    "lastUpdated" : "2025-12-18T16:47:47.299+01:00",
+    "versionId" : "14",
+    "lastUpdated" : "2026-06-29T11:18:43.020+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -71,11 +84,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.59"
   }],
-  "version" : "20251222120000",
+  "version" : "20260629120000",
   "name" : "JDV_J227_NiveauExpertise_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-22T12:00:00+01:00",
+  "date" : "2026-06-29T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Niveau de ressources humaines et matérielles utiles pour la réalisation de l'offre",
   "jurisdiction" : [{
@@ -256,11 +269,27 @@ Requête sur le SMT
       },
       {
         "code" : "47",
-        "display" : "Centre expert Parkinson"
+        "display" : "Centre expert maladie de Parkinson"
       },
       {
         "code" : "48",
         "display" : "Centre de ressources et de compétences sclérose en plaques (SEP)"
+      },
+      {
+        "code" : "49",
+        "display" : "Agrément Fédération Européenne des Services d'Urgence de la Main (FESUM) - SOS mains"
+      },
+      {
+        "code" : "50",
+        "display" : "Centre de Traitement des Brûlés (CTB)"
+      },
+      {
+        "code" : "51",
+        "display" : "Réseau France Santé"
+      },
+      {
+        "code" : "52",
+        "display" : "Autorisation par l’ARS pour la sous-traitance de préparation pharmaceutique"
       }]
     }]
   }

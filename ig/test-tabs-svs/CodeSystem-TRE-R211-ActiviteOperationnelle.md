@@ -1,4 +1,4 @@
-# TRE_R211_ActiviteOperationnelle - Terminologies de Santé v1.9.3
+# TRE_R211_ActiviteOperationnelle - Terminologies de Santé v1.11.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle | *Version*:20260601120000 | |
-| Active as of 2026-06-01 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R211_ActiviteOperationnelle |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle | *Version*:20260629120000 | |
+| Active as of 2026-06-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R211_ActiviteOperationnelle |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.12 | | |
 
  
@@ -29,8 +29,8 @@ Activite Operationnelle
   "resourceType" : "CodeSystem",
   "id" : "TRE-R211-ActiviteOperationnelle",
   "meta" : {
-    "versionId" : "29",
-    "lastUpdated" : "2026-06-01T20:12:09.761+02:00",
+    "versionId" : "30",
+    "lastUpdated" : "2026-06-29T11:13:39.581+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -45,11 +45,11 @@ Activite Operationnelle
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.12"
   }],
-  "version" : "20260601120000",
+  "version" : "20260629120000",
   "name" : "TRE_R211_ActiviteOperationnelle",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-01T12:00:00+01:00",
+  "date" : "2026-06-29T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Activite Operationnelle",
   "jurisdiction" : [{
@@ -60,7 +60,7 @@ Activite Operationnelle
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 617,
+  "count" : 629,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -2807,12 +2807,20 @@ Activite Operationnelle
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
     },
     {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
       "code" : "dateMaj",
-      "valueDateTime" : "2018-01-26T12:00:00+01:00"
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -6261,15 +6269,23 @@ Activite Operationnelle
   },
   {
     "code" : "334",
-    "display" : "Activité de prévention",
+    "display" : "Activité de dépistage et de prévention",
     "definition" : "Ensemble des activités et techniques visant à éviter ou réduire le nombre et la gravité des maladies, des accidents et des handicaps.",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Activité de prévention"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-01-26T12:00:00+01:00"
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -6841,14 +6857,14 @@ Activite Operationnelle
   },
   {
     "code" : "369",
-    "display" : "Soins intensifs spécialisés néonatalogique",
+    "display" : "Soins intensifs spécialisés néonatalogie",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2019-03-29T12:00:00+01:00"
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -6857,14 +6873,14 @@ Activite Operationnelle
   },
   {
     "code" : "370",
-    "display" : "Soins intensifs spécialisés pédiatrique",
+    "display" : "Soins intensifs spécialisés pédiatrie",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2019-03-29T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2019-03-29T12:00:00+01:00"
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -11171,6 +11187,222 @@ Activite Operationnelle
     {
       "code" : "dateMaj",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "618",
+    "display" : "Collecte de don de lait maternel cru",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "619",
+    "display" : "Distribution de lait maternel pasteurisé",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "620",
+    "display" : "Bilan psychomoteur",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "621",
+    "display" : "Soin psychomoteur",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "622",
+    "display" : "Education psychomotrice (pédagogie du développement psychomoteur)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "623",
+    "display" : "Stimulation psychomotrice (stimulation du fonctionnement psychomoteur à visée préventive)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Stimulation psychomotrice (fonctionnement psychomoteur à visée préventive)"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "624",
+    "display" : "Rééducation de la graphomotricité et de l’écriture (dysgraphie)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "625",
+    "display" : "Orthoptie : orientation troubles neuro-visuels (pathologies neurologiques, maladies neurodégénératives)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Orthoptie : orientation troubles neuro-visuels"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "626",
+    "display" : "Orthoptie orientation basse vision",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "627",
+    "display" : "Orthoptie orientation pédiatrique",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "628",
+    "display" : "Dispensation de médicaments et autres produits de santé appartenant au monopole pharmaceutique",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Dispense de médicaments et autres produits de santé du monopole pharma"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "629",
+    "display" : "Conseil et accompagnement dans la gestion des traitements",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-06-29T12:00:00+01:00"
     },
     {
       "code" : "status",

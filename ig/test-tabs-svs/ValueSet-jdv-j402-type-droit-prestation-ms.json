@@ -47,8 +47,8 @@
     }]
   },
   "expansion" : {
-    "identifier" : "urn:uuid:4ee2a6a5-abc3-495e-a656-50c85fc557cf",
-    "timestamp" : "2026-06-03T15:04:54+02:00",
+    "identifier" : "urn:uuid:a28cb966-1f89-4e8f-b222-13db4cf01b3f",
+    "timestamp" : "2026-06-30T11:06:26+02:00",
     "total" : 62,
     "parameter" : [{
       "name" : "used-codesystem",
@@ -61,10 +61,6 @@
     {
       "name" : "warning-draft",
       "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation|20260505120000"
-    },
-    {
-      "name" : "warning-draft",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j402-type-droit-prestation-ms|20260505120000"
     }],
     "contains" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r420-droit-prestation",

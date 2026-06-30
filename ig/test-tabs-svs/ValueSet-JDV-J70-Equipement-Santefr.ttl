@@ -1,6 +1,5 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -8,459 +7,585 @@
 
 <https://interop.esante.gouv.fr/terminologies/ValueSet/JDV-J70-Equipement-Santefr> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "JDV-J70-Equipement-Santefr"] ; # 
-  fhir:meta [
-     fhir:versionId [ fhir:v "5" ] ;
-     fhir:lastUpdated [ fhir:v "2025-01-06T12:43:15.591+00:00"^^xsd:dateTime ] ;
-     fhir:profile ( [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
-     ] )
-  ] ; # 
-  fhir:text [
-     fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>JDV_J70_Equipement_Santefr</h2><tt>https://mos.esante.gouv.fr/NOS/JDV_J70-Equipement-Santefr/FHIR/JDV-J70-Equipement-Santefr</tt><p>Equipements Santé.fr</p></div>"^^rdf:XMLLiteral ]
-  ] ; # 
-  fhir:extension ( [
-     fhir:url [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod>
-     ] ;
-     fhir:value [
-       a fhir:Period ;
-       fhir:start [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+  fhir:Resource.id [ fhir:value "JDV-J70-Equipement-Santefr"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "5" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2025-01-06T12:43:15.591+00:00"^^xsd:dateTime ] ;
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/shareablevalueset" ;
+       fhir:index 0 ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
      ]
-  ] ) ; # 
-  fhir:url [
-     fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J70-Equipement-Santefr/FHIR/JDV-J70-Equipement-Santefr"^^xsd:anyURI ;
-     fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J70-Equipement-Santefr/FHIR/JDV-J70-Equipement-Santefr>
-  ] ; # 
-  fhir:identifier ( [
-     fhir:system [
-       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
-       fhir:l <urn:ietf:rfc:3986>
-     ] ;
-     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.69" ]
-  ] ) ; # 
-  fhir:version [ fhir:v "20240426120000"] ; # 
-  fhir:name [ fhir:v "JDV_J70_Equipement_Santefr"] ; # 
-  fhir:title [ fhir:v "JDV J70 Equipement Santefr"] ; # 
-  fhir:status [ fhir:v "retired"] ; # 
-  fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2024-04-26T12:00:00+01:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
-  fhir:description [ fhir:v "Equipements Santé.fr"] ; # 
-  fhir:jurisdiction ( [
-     fhir:coding ( [
-       fhir:system [
-         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
-         fhir:l <urn:iso:std:iso:3166>
-       ] ;
-       fhir:code [ fhir:v "FRA" ]
-     ] )
-  ] ) ; # 
-  fhir:compose [
-     fhir:include ( [
-       fhir:system [
-         fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement"^^xsd:anyURI ;
-         fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement>
-       ] ;
-       fhir:concept ( [
-         fhir:code [ fhir:v "003" ] ;
-         fhir:display [ fhir:v "Angioscope" ]
-       ] [
-         fhir:code [ fhir:v "005" ] ;
-         fhir:display [ fhir:v "Autotransfuseur" ]
-       ] [
-         fhir:code [ fhir:v "009" ] ;
-         fhir:display [ fhir:v "Chambre à pression négative" ]
-       ] [
-         fhir:code [ fhir:v "010" ] ;
-         fhir:display [ fhir:v "Chambre à pression positive (chambre stérile)" ]
-       ] [
-         fhir:code [ fhir:v "017" ] ;
-         fhir:display [ fhir:v "Coronaroscanner" ]
-       ] [
-         fhir:code [ fhir:v "021" ] ;
-         fhir:display [ fhir:v "Echographe transportable" ]
-       ] [
-         fhir:code [ fhir:v "030" ] ;
-         fhir:display [ fhir:v "Echographe 3D" ]
-       ] [
-         fhir:code [ fhir:v "040" ] ;
-         fhir:display [ fhir:v "Equipement pour réentraînement (cycloergomètre, tapis roulant)" ]
-       ] [
-         fhir:code [ fhir:v "041" ] ;
-         fhir:display [ fhir:v "Ergorameur" ]
-       ] [
-         fhir:code [ fhir:v "047" ] ;
-         fhir:display [ fhir:v "Holter tensionnel" ]
-       ] [
-         fhir:code [ fhir:v "051" ] ;
-         fhir:display [ fhir:v "Impédance masse graisseuse" ]
-       ] [
-         fhir:code [ fhir:v "052" ] ;
-         fhir:display [ fhir:v "IRM obésité diamètre de 70 cm - bariatrique" ]
-       ] [
-         fhir:code [ fhir:v "054" ] ;
-         fhir:display [ fhir:v "IRM corps entier" ]
-       ] [
-         fhir:code [ fhir:v "056" ] ;
-         fhir:display [ fhir:v "Laboratoire du sommeil (polysomnographe)" ]
-       ] [
-         fhir:code [ fhir:v "064" ] ;
-         fhir:display [ fhir:v "Planche à massage cardiaque automatique" ]
-       ] [
-         fhir:code [ fhir:v "065" ] ;
-         fhir:display [ fhir:v "Polysomnographe portatif" ]
-       ] [
-         fhir:code [ fhir:v "068" ] ;
-         fhir:display [ fhir:v "Réaction en chaîne par polymérase (PCR)" ]
-       ] [
-         fhir:code [ fhir:v "069" ] ;
-         fhir:display [ fhir:v "Robot opératoire pour chirurgie robot assistée" ]
-       ] [
-         fhir:code [ fhir:v "071" ] ;
-         fhir:display [ fhir:v "Spectromètre de masse" ]
-       ] [
-         fhir:code [ fhir:v "072" ] ;
-         fhir:display [ fhir:v "Table de bloc opératoire obésité (poids supérieur à 250 kg) - bariatrique" ]
-       ] [
-         fhir:code [ fhir:v "083" ] ;
-         fhir:display [ fhir:v "Table de radiologie obésité (poids entre 150 et 250 kg) - bariatrique" ]
-       ] [
-         fhir:code [ fhir:v "084" ] ;
-         fhir:display [ fhir:v "Table de radiologie obésité (poids supérieur à 250 kg) - bariatrique" ]
-       ] [
-         fhir:code [ fhir:v "085" ] ;
-         fhir:display [ fhir:v "Scanner (TDM) obésité diamètre de 80 cm - bariatrique" ]
-       ] [
-         fhir:code [ fhir:v "086" ] ;
-         fhir:display [ fhir:v "Scanner (TDM) obésité champ ouvert - bariatrique" ]
-       ] [
-         fhir:code [ fhir:v "087" ] ;
-         fhir:display [ fhir:v "IRM à champ ouvert" ]
-       ] [
-         fhir:code [ fhir:v "088" ] ;
-         fhir:display [ fhir:v "Table de bloc opératoire obésité (poids entre 150 et 250 kg) - bariatrique" ]
-       ] [
-         fhir:code [ fhir:v "089" ] ;
-         fhir:display [ fhir:v "Lit d'hospitalisation obésité (poids entre 250 et 350 kg) - bariatrique" ]
-       ] [
-         fhir:code [ fhir:v "090" ] ;
-         fhir:display [ fhir:v "Lit d'hospitalisation obésité (poids entre 350 et 450 kg) - bariatrique" ]
-       ] [
-         fhir:code [ fhir:v "091" ] ;
-         fhir:display [ fhir:v "Brancard obésité (poids entre 180 et 250 kg) - bariatrique" ]
-       ] [
-         fhir:code [ fhir:v "092" ] ;
-         fhir:display [ fhir:v "Brancard obésité (poids entre 250 et 350 kg) - bariatrique" ]
-       ] [
-         fhir:code [ fhir:v "093" ] ;
-         fhir:display [ fhir:v "ECMO transportable" ]
-       ] [
-         fhir:code [ fhir:v "094" ] ;
-         fhir:display [ fhir:v "Mammographe" ]
-       ] [
-         fhir:code [ fhir:v "095" ] ;
-         fhir:display [ fhir:v "Laboratoire microbiologie P3" ]
-       ] [
-         fhir:code [ fhir:v "096" ] ;
-         fhir:display [ fhir:v "Laboratoire microbiologie P4" ]
-       ] [
-         fhir:code [ fhir:v "097" ] ;
-         fhir:display [ fhir:v "Chambre d'isolement et de contention" ]
-       ] [
-         fhir:code [ fhir:v "098" ] ;
-         fhir:display [ fhir:v "Bassin thérapeutique pour balnéothérapie (<25m2)" ]
-       ] [
-         fhir:code [ fhir:v "099" ] ;
-         fhir:display [ fhir:v "Bassin thérapeutique pour balnéothérapie (>=25m2)" ]
-       ] [
-         fhir:code [ fhir:v "100" ] ;
-         fhir:display [ fhir:v "Salle aménagée pour la thérapie systémique" ]
-       ] [
-         fhir:code [ fhir:v "101" ] ;
-         fhir:display [ fhir:v "Salle de stimulation multi-sensorielle" ]
-       ] [
-         fhir:code [ fhir:v "102" ] ;
-         fhir:display [ fhir:v "Appareil d'isocinétisme" ]
-       ] [
-         fhir:code [ fhir:v "103" ] ;
-         fhir:display [ fhir:v "Assistant robotisé à la marche" ]
-       ] [
-         fhir:code [ fhir:v "104" ] ;
-         fhir:display [ fhir:v "Assistant robotisé des membres supérieurs et de la préhension" ]
-       ] [
-         fhir:code [ fhir:v "106" ] ;
-         fhir:display [ fhir:v "Laboratoire d'analyse tridimensionnelle du mouvement, de la marche" ]
-       ] [
-         fhir:code [ fhir:v "107" ] ;
-         fhir:display [ fhir:v "Salle de réanimation avec scopes, défibrillateur, matériel d'intubation et de ventilation assistée" ]
-       ] [
-         fhir:code [ fhir:v "108" ] ;
-         fhir:display [ fhir:v "Hotte à flux laminaire" ]
-       ] [
-         fhir:code [ fhir:v "109" ] ;
-         fhir:display [ fhir:v "Equipement de rééducation pour obésité massive" ]
-       ] [
-         fhir:code [ fhir:v "110" ] ;
-         fhir:display [ fhir:v "Studio pré-greffe et post-greffe" ]
-       ] [
-         fhir:code [ fhir:v "111" ] ;
-         fhir:display [ fhir:v "Douche filiforme pour brûlés" ]
-       ] [
-         fhir:code [ fhir:v "112" ] ;
-         fhir:display [ fhir:v "Equipement pour monitorage par télémétrie" ]
-       ] [
-         fhir:code [ fhir:v "113" ] ;
-         fhir:display [ fhir:v "Prises d'oxygène en salle de rééducation" ]
-       ] [
-         fhir:code [ fhir:v "114" ] ;
-         fhir:display [ fhir:v "Locaux adaptés à la désorientation temporo-spatiale" ]
-       ] [
-         fhir:code [ fhir:v "115" ] ;
-         fhir:display [ fhir:v "Prises d'oxygène dans les chambres" ]
-       ] [
-         fhir:code [ fhir:v "116" ] ;
-         fhir:display [ fhir:v "Appartement pour mise en situation d'autonomie" ]
-       ] [
-         fhir:code [ fhir:v "118" ] ;
-         fhir:display [ fhir:v "Monitoring cardiaque portatif" ]
-       ] [
-         fhir:code [ fhir:v "119" ] ;
-         fhir:display [ fhir:v "Plateau technique neuropsycho cognitif" ]
-       ] [
-         fhir:code [ fhir:v "120" ] ;
-         fhir:display [ fhir:v "Plateau de simulation de conduite automobile" ]
-       ] [
-         fhir:code [ fhir:v "121" ] ;
-         fhir:display [ fhir:v "Véhicules adaptés à la conduite en situation de handicap" ]
-       ] [
-         fhir:code [ fhir:v "122" ] ;
-         fhir:display [ fhir:v "Mur d'escalade" ]
-       ] [
-         fhir:code [ fhir:v "123" ] ;
-         fhir:display [ fhir:v "Chambre domotisée" ]
-       ] [
-         fhir:code [ fhir:v "124" ] ;
-         fhir:display [ fhir:v "Atelier de confection de prothèses" ]
-       ] [
-         fhir:code [ fhir:v "125" ] ;
-         fhir:display [ fhir:v "Gymnase" ]
-       ] [
-         fhir:code [ fhir:v "126" ] ;
-         fhir:display [ fhir:v "Cuisine thérapeutique et éducative" ]
-       ] [
-         fhir:code [ fhir:v "127" ] ;
-         fhir:display [ fhir:v "Système de traction halo-crânienne" ]
-       ] [
-         fhir:code [ fhir:v "128" ] ;
-         fhir:display [ fhir:v "Plateforme multitest équilibre" ]
-       ] [
-         fhir:code [ fhir:v "129" ] ;
-         fhir:display [ fhir:v "Plateau d'analyse informatisée du rachis" ]
-       ] [
-         fhir:code [ fhir:v "130" ] ;
-         fhir:display [ fhir:v "Chambre et locaux sécurisés permettant la prise en charge des personnes à risque suicidaire" ]
-       ] [
-         fhir:code [ fhir:v "131" ] ;
-         fhir:display [ fhir:v "Module fixe de décontamination" ]
-       ] [
-         fhir:code [ fhir:v "132" ] ;
-         fhir:display [ fhir:v "Module transportable de décontamination" ]
-       ] [
-         fhir:code [ fhir:v "134" ] ;
-         fhir:display [ fhir:v "Appareil de biologie délocalisé" ]
-       ] [
-         fhir:code [ fhir:v "135" ] ;
-         fhir:display [ fhir:v "Incubateur de transport" ]
-       ] [
-         fhir:code [ fhir:v "136" ] ;
-         fhir:display [ fhir:v "Respirateur néonatal et pédiatrique de transport" ]
-       ] [
-         fhir:code [ fhir:v "137" ] ;
-         fhir:display [ fhir:v "Chambre carcérale" ]
-       ] [
-         fhir:code [ fhir:v "138" ] ;
-         fhir:display [ fhir:v "PSM1 (Poste Sanitaire Mobile niveau 1)" ]
-       ] [
-         fhir:code [ fhir:v "139" ] ;
-         fhir:display [ fhir:v "PSM2 (Poste Sanitaire Mobile niveau 2)" ]
-       ] [
-         fhir:code [ fhir:v "140" ] ;
-         fhir:display [ fhir:v "PSM3 (Poste Sanitaire Mobile niveau 3)" ]
-       ] [
-         fhir:code [ fhir:v "141" ] ;
-         fhir:display [ fhir:v "Poste médical avancé (PMA)" ]
-       ] [
-         fhir:code [ fhir:v "142" ] ;
-         fhir:display [ fhir:v "Appareil de mesure de la glycémie capillaire" ]
-       ] [
-         fhir:code [ fhir:v "144" ] ;
-         fhir:display [ fhir:v "Système EOS" ]
-       ] [
-         fhir:code [ fhir:v "145" ] ;
-         fhir:display [ fhir:v "Salle physiologique (salle nature accouchement)" ]
-       ] [
-         fhir:code [ fhir:v "146" ] ;
-         fhir:display [ fhir:v "Cabine d'audiologie" ]
-       ] [
-         fhir:code [ fhir:v "147" ] ;
-         fhir:display [ fhir:v "Espace de calme-retrait, d'apaisement" ]
-       ] [
-         fhir:code [ fhir:v "148" ] ;
-         fhir:display [ fhir:v "Jardin pédagogique et-ou thérapeutique" ]
-       ] [
-         fhir:code [ fhir:v "149" ] ;
-         fhir:display [ fhir:v "Ferme pédagogique et-ou thérapeutique" ]
-       ] [
-         fhir:code [ fhir:v "150" ] ;
-         fhir:display [ fhir:v "Plateau ou salle de rééducation" ]
-       ] [
-         fhir:code [ fhir:v "152" ] ;
-         fhir:display [ fhir:v "Equipement de géolocalisation des personnes vulnérables" ]
-       ] [
-         fhir:code [ fhir:v "153" ] ;
-         fhir:display [ fhir:v "Equipement de télémédecine (chariot, cabine, équipement mobile…)" ]
-       ] [
-         fhir:code [ fhir:v "154" ] ;
-         fhir:display [ fhir:v "Chambre à double flux" ]
-       ] [
-         fhir:code [ fhir:v "155" ] ;
-         fhir:display [ fhir:v "Rails de transfert" ]
-       ] [
-         fhir:code [ fhir:v "156" ] ;
-         fhir:display [ fhir:v "Moniteur multiparamétrique" ]
-       ] [
-         fhir:code [ fhir:v "157" ] ;
-         fhir:display [ fhir:v "Systèmes corporels d'alerte sans fil" ]
-       ] [
-         fhir:code [ fhir:v "158" ] ;
-         fhir:display [ fhir:v "Fauteuil rotatoire" ]
-       ] [
-         fhir:code [ fhir:v "159" ] ;
-         fhir:display [ fhir:v "Plateforme verticale subjective" ]
-       ] [
-         fhir:code [ fhir:v "160" ] ;
-         fhir:display [ fhir:v "Appartement domotisé pour mise en situation d'autonomie" ]
-       ] [
-         fhir:code [ fhir:v "161" ] ;
-         fhir:display [ fhir:v "Caisson hyperbare occupation simple" ]
-       ] [
-         fhir:code [ fhir:v "162" ] ;
-         fhir:display [ fhir:v "Caisson hyperbare occupation multiple patient intubé" ]
-       ] [
-         fhir:code [ fhir:v "163" ] ;
-         fhir:display [ fhir:v "Caisson hyperbare occupation multiple patient non intubé" ]
-       ] [
-         fhir:code [ fhir:v "164" ] ;
-         fhir:display [ fhir:v "Cabine de cryothérapie" ]
-       ] [
-         fhir:code [ fhir:v "165" ] ;
-         fhir:display [ fhir:v "PCA ou autre injecteur automatique d'antalgiques" ]
-       ] [
-         fhir:code [ fhir:v "166" ] ;
-         fhir:display [ fhir:v "PCR multiplex (Film array)" ]
-       ] [
-         fhir:code [ fhir:v "167" ] ;
-         fhir:display [ fhir:v "Séquenceurs haut débit (NGS)" ]
-       ] [
-         fhir:code [ fhir:v "168" ] ;
-         fhir:display [ fhir:v "Cytomètre de flux" ]
-       ] [
-         fhir:code [ fhir:v "169" ] ;
-         fhir:display [ fhir:v "Atelier de confection d'orthèse" ]
-       ] [
-         fhir:code [ fhir:v "170" ] ;
-         fhir:display [ fhir:v "Atelier de confection aide technique" ]
-       ] [
-         fhir:code [ fhir:v "173" ] ;
-         fhir:display [ fhir:v "SNP Array" ]
-       ] [
-         fhir:code [ fhir:v "174" ] ;
-         fhir:display [ fhir:v "CGH Array" ]
-       ] [
-         fhir:code [ fhir:v "175" ] ;
-         fhir:display [ fhir:v "Spectromètre de masse haute résolution" ]
-       ] [
-         fhir:code [ fhir:v "176" ] ;
-         fhir:display [ fhir:v "Chromatographe haute performance en phase liquide" ]
-       ] [
-         fhir:code [ fhir:v "177" ] ;
-         fhir:display [ fhir:v "Chromatographe en phase gazeuse" ]
-       ] [
-         fhir:code [ fhir:v "178" ] ;
-         fhir:display [ fhir:v "Agrégomètre optique" ]
-       ] [
-         fhir:code [ fhir:v "179" ] ;
-         fhir:display [ fhir:v "Véhicules adaptés au transport de personnes à mobilité réduite" ]
-       ] [
-         fhir:code [ fhir:v "180" ] ;
-         fhir:display [ fhir:v "Pupillomètre" ]
-       ] [
-         fhir:code [ fhir:v "181" ] ;
-         fhir:display [ fhir:v "Accélérateur réchauffeur de sang" ]
-       ] [
-         fhir:code [ fhir:v "182" ] ;
-         fhir:display [ fhir:v "Défibrillateur automatisé externe (DAE)" ]
-       ] [
-         fhir:code [ fhir:v "183" ] ;
-         fhir:display [ fhir:v "Equipement d'oxygénothérapie de déambulation" ]
-       ] [
-         fhir:code [ fhir:v "184" ] ;
-         fhir:display [ fhir:v "Dispositif de réadaptation à la marche par allègement du poids du corps (anti-gravité)" ]
-       ] [
-         fhir:code [ fhir:v "185" ] ;
-         fhir:display [ fhir:v "PSM pédiatriques (Poste Sanitaire Mobile)" ]
-       ] [
-         fhir:code [ fhir:v "186" ] ;
-         fhir:display [ fhir:v "Lit fluidisé" ]
-       ] [
-         fhir:code [ fhir:v "199" ] ;
-         fhir:display [ fhir:v "Appareil d'imagerie volumétrique par faisceau conique (CBCT)" ]
-       ] [
-         fhir:code [ fhir:v "200" ] ;
-         fhir:display [ fhir:v "Fauteuil dentaire adapté au handicap moteur" ]
-       ] [
-         fhir:code [ fhir:v "201" ] ;
-         fhir:display [ fhir:v "Laser rétinien" ]
-       ] [
-         fhir:code [ fhir:v "202" ] ;
-         fhir:display [ fhir:v "Laser Yag ophtalmologique" ]
-       ] [
-         fhir:code [ fhir:v "203" ] ;
-         fhir:display [ fhir:v "Atelier intégré d'appareillage" ]
-       ] [
-         fhir:code [ fhir:v "204" ] ;
-         fhir:display [ fhir:v "Imagerie par fluorescence" ]
-       ] [
-         fhir:code [ fhir:v "205" ] ;
-         fhir:display [ fhir:v "Ultrason de haute intensité (HIFU)" ]
-       ] [
-         fhir:code [ fhir:v "206" ] ;
-         fhir:display [ fhir:v "Dispositif mobile de traitement d'air" ]
-       ] [
-         fhir:code [ fhir:v "207" ] ;
-         fhir:display [ fhir:v "Défibrillateur semi-automatique" ]
-       ] [
-         fhir:code [ fhir:v "208" ] ;
-         fhir:display [ fhir:v "Equipement de téléradiographie" ]
-       ] [
-         fhir:code [ fhir:v "209" ] ;
-         fhir:display [ fhir:v "Arthromoteurs membres inférieurs (genoux)" ]
-       ] [
-         fhir:code [ fhir:v "210" ] ;
-         fhir:display [ fhir:v "Arthromoteurs membres supérieurs (épaules, coudes)" ]
-       ] [
-         fhir:code [ fhir:v "211" ] ;
-         fhir:display [ fhir:v "Salle hybride" ]
-       ] [
-         fhir:code [ fhir:v "212" ] ;
-         fhir:display [ fhir:v "Vidéo assistance" ]
-       ] )
-     ] )
-  ] . # 
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>JDV_J70_Equipement_Santefr</h2><tt>https://mos.esante.gouv.fr/NOS/JDV_J70-Equipement-Santefr/FHIR/JDV-J70-Equipement-Santefr</tt><p>Equipements Santé.fr</p></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod" ] ;
+     fhir:Extension.valuePeriod [
+       fhir:Period.start [ fhir:value "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://mos.esante.gouv.fr/NOS/JDV_J70-Equipement-Santefr/FHIR/JDV-J70-Equipement-Santefr"] ;
+  fhir:ValueSet.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
+     fhir:Identifier.value [ fhir:value "urn:oid:1.2.250.1.213.3.3.69" ]
+  ] ;
+  fhir:ValueSet.version [ fhir:value "20240426120000"] ;
+  fhir:ValueSet.name [ fhir:value "JDV_J70_Equipement_Santefr"] ;
+  fhir:ValueSet.title [ fhir:value "JDV J70 Equipement Santefr"] ;
+  fhir:ValueSet.status [ fhir:value "retired"] ;
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:ValueSet.date [ fhir:value "2024-04-26T12:00:00+01:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
+  fhir:ValueSet.description [ fhir:value "Equipements Santé.fr"] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FRA" ]
+     ]
+  ] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "003" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Angioscope" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "005" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Autotransfuseur" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "009" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chambre à pression négative" ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "010" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chambre à pression positive (chambre stérile)" ]
+       ], [
+         fhir:index 4 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "017" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Coronaroscanner" ]
+       ], [
+         fhir:index 5 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "021" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Echographe transportable" ]
+       ], [
+         fhir:index 6 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "030" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Echographe 3D" ]
+       ], [
+         fhir:index 7 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "040" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Equipement pour réentraînement (cycloergomètre, tapis roulant)" ]
+       ], [
+         fhir:index 8 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "041" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ergorameur" ]
+       ], [
+         fhir:index 9 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "047" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Holter tensionnel" ]
+       ], [
+         fhir:index 10 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "051" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Impédance masse graisseuse" ]
+       ], [
+         fhir:index 11 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "052" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "IRM obésité diamètre de 70 cm - bariatrique" ]
+       ], [
+         fhir:index 12 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "054" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "IRM corps entier" ]
+       ], [
+         fhir:index 13 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "056" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Laboratoire du sommeil (polysomnographe)" ]
+       ], [
+         fhir:index 14 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "064" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Planche à massage cardiaque automatique" ]
+       ], [
+         fhir:index 15 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "065" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Polysomnographe portatif" ]
+       ], [
+         fhir:index 16 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "068" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Réaction en chaîne par polymérase (PCR)" ]
+       ], [
+         fhir:index 17 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "069" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Robot opératoire pour chirurgie robot assistée" ]
+       ], [
+         fhir:index 18 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "071" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectromètre de masse" ]
+       ], [
+         fhir:index 19 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "072" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Table de bloc opératoire obésité (poids supérieur à 250 kg) - bariatrique" ]
+       ], [
+         fhir:index 20 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "083" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Table de radiologie obésité (poids entre 150 et 250 kg) - bariatrique" ]
+       ], [
+         fhir:index 21 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "084" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Table de radiologie obésité (poids supérieur à 250 kg) - bariatrique" ]
+       ], [
+         fhir:index 22 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "085" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Scanner (TDM) obésité diamètre de 80 cm - bariatrique" ]
+       ], [
+         fhir:index 23 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "086" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Scanner (TDM) obésité champ ouvert - bariatrique" ]
+       ], [
+         fhir:index 24 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "087" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "IRM à champ ouvert" ]
+       ], [
+         fhir:index 25 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "088" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Table de bloc opératoire obésité (poids entre 150 et 250 kg) - bariatrique" ]
+       ], [
+         fhir:index 26 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "089" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lit d'hospitalisation obésité (poids entre 250 et 350 kg) - bariatrique" ]
+       ], [
+         fhir:index 27 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "090" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lit d'hospitalisation obésité (poids entre 350 et 450 kg) - bariatrique" ]
+       ], [
+         fhir:index 28 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "091" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Brancard obésité (poids entre 180 et 250 kg) - bariatrique" ]
+       ], [
+         fhir:index 29 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "092" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Brancard obésité (poids entre 250 et 350 kg) - bariatrique" ]
+       ], [
+         fhir:index 30 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "093" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "ECMO transportable" ]
+       ], [
+         fhir:index 31 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "094" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Mammographe" ]
+       ], [
+         fhir:index 32 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "095" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Laboratoire microbiologie P3" ]
+       ], [
+         fhir:index 33 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "096" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Laboratoire microbiologie P4" ]
+       ], [
+         fhir:index 34 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "097" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chambre d'isolement et de contention" ]
+       ], [
+         fhir:index 35 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "098" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bassin thérapeutique pour balnéothérapie (<25m2)" ]
+       ], [
+         fhir:index 36 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "099" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bassin thérapeutique pour balnéothérapie (>=25m2)" ]
+       ], [
+         fhir:index 37 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "100" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Salle aménagée pour la thérapie systémique" ]
+       ], [
+         fhir:index 38 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "101" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Salle de stimulation multi-sensorielle" ]
+       ], [
+         fhir:index 39 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "102" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Appareil d'isocinétisme" ]
+       ], [
+         fhir:index 40 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "103" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Assistant robotisé à la marche" ]
+       ], [
+         fhir:index 41 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "104" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Assistant robotisé des membres supérieurs et de la préhension" ]
+       ], [
+         fhir:index 42 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "106" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Laboratoire d'analyse tridimensionnelle du mouvement, de la marche" ]
+       ], [
+         fhir:index 43 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "107" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Salle de réanimation avec scopes, défibrillateur, matériel d'intubation et de ventilation assistée" ]
+       ], [
+         fhir:index 44 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "108" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hotte à flux laminaire" ]
+       ], [
+         fhir:index 45 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "109" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Equipement de rééducation pour obésité massive" ]
+       ], [
+         fhir:index 46 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "110" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Studio pré-greffe et post-greffe" ]
+       ], [
+         fhir:index 47 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "111" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Douche filiforme pour brûlés" ]
+       ], [
+         fhir:index 48 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "112" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Equipement pour monitorage par télémétrie" ]
+       ], [
+         fhir:index 49 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "113" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Prises d'oxygène en salle de rééducation" ]
+       ], [
+         fhir:index 50 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "114" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Locaux adaptés à la désorientation temporo-spatiale" ]
+       ], [
+         fhir:index 51 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "115" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Prises d'oxygène dans les chambres" ]
+       ], [
+         fhir:index 52 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "116" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Appartement pour mise en situation d'autonomie" ]
+       ], [
+         fhir:index 53 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "118" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Monitoring cardiaque portatif" ]
+       ], [
+         fhir:index 54 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "119" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Plateau technique neuropsycho cognitif" ]
+       ], [
+         fhir:index 55 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "120" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Plateau de simulation de conduite automobile" ]
+       ], [
+         fhir:index 56 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "121" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Véhicules adaptés à la conduite en situation de handicap" ]
+       ], [
+         fhir:index 57 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "122" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Mur d'escalade" ]
+       ], [
+         fhir:index 58 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "123" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chambre domotisée" ]
+       ], [
+         fhir:index 59 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "124" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Atelier de confection de prothèses" ]
+       ], [
+         fhir:index 60 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "125" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Gymnase" ]
+       ], [
+         fhir:index 61 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "126" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cuisine thérapeutique et éducative" ]
+       ], [
+         fhir:index 62 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "127" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Système de traction halo-crânienne" ]
+       ], [
+         fhir:index 63 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "128" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Plateforme multitest équilibre" ]
+       ], [
+         fhir:index 64 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "129" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Plateau d'analyse informatisée du rachis" ]
+       ], [
+         fhir:index 65 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "130" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chambre et locaux sécurisés permettant la prise en charge des personnes à risque suicidaire" ]
+       ], [
+         fhir:index 66 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "131" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Module fixe de décontamination" ]
+       ], [
+         fhir:index 67 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "132" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Module transportable de décontamination" ]
+       ], [
+         fhir:index 68 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "134" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Appareil de biologie délocalisé" ]
+       ], [
+         fhir:index 69 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "135" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Incubateur de transport" ]
+       ], [
+         fhir:index 70 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "136" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Respirateur néonatal et pédiatrique de transport" ]
+       ], [
+         fhir:index 71 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "137" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chambre carcérale" ]
+       ], [
+         fhir:index 72 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "138" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PSM1 (Poste Sanitaire Mobile niveau 1)" ]
+       ], [
+         fhir:index 73 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "139" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PSM2 (Poste Sanitaire Mobile niveau 2)" ]
+       ], [
+         fhir:index 74 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "140" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PSM3 (Poste Sanitaire Mobile niveau 3)" ]
+       ], [
+         fhir:index 75 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "141" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Poste médical avancé (PMA)" ]
+       ], [
+         fhir:index 76 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "142" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Appareil de mesure de la glycémie capillaire" ]
+       ], [
+         fhir:index 77 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "144" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Système EOS" ]
+       ], [
+         fhir:index 78 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "145" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Salle physiologique (salle nature accouchement)" ]
+       ], [
+         fhir:index 79 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "146" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cabine d'audiologie" ]
+       ], [
+         fhir:index 80 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "147" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Espace de calme-retrait, d'apaisement" ]
+       ], [
+         fhir:index 81 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "148" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Jardin pédagogique et-ou thérapeutique" ]
+       ], [
+         fhir:index 82 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "149" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ferme pédagogique et-ou thérapeutique" ]
+       ], [
+         fhir:index 83 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "150" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Plateau ou salle de rééducation" ]
+       ], [
+         fhir:index 84 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "152" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Equipement de géolocalisation des personnes vulnérables" ]
+       ], [
+         fhir:index 85 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "153" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Equipement de télémédecine (chariot, cabine, équipement mobile…)" ]
+       ], [
+         fhir:index 86 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "154" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chambre à double flux" ]
+       ], [
+         fhir:index 87 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "155" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Rails de transfert" ]
+       ], [
+         fhir:index 88 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "156" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Moniteur multiparamétrique" ]
+       ], [
+         fhir:index 89 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "157" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Systèmes corporels d'alerte sans fil" ]
+       ], [
+         fhir:index 90 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "158" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Fauteuil rotatoire" ]
+       ], [
+         fhir:index 91 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "159" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Plateforme verticale subjective" ]
+       ], [
+         fhir:index 92 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "160" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Appartement domotisé pour mise en situation d'autonomie" ]
+       ], [
+         fhir:index 93 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "161" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Caisson hyperbare occupation simple" ]
+       ], [
+         fhir:index 94 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "162" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Caisson hyperbare occupation multiple patient intubé" ]
+       ], [
+         fhir:index 95 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "163" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Caisson hyperbare occupation multiple patient non intubé" ]
+       ], [
+         fhir:index 96 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "164" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cabine de cryothérapie" ]
+       ], [
+         fhir:index 97 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "165" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PCA ou autre injecteur automatique d'antalgiques" ]
+       ], [
+         fhir:index 98 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "166" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PCR multiplex (Film array)" ]
+       ], [
+         fhir:index 99 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "167" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Séquenceurs haut débit (NGS)" ]
+       ], [
+         fhir:index 100 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "168" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cytomètre de flux" ]
+       ], [
+         fhir:index 101 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "169" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Atelier de confection d'orthèse" ]
+       ], [
+         fhir:index 102 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "170" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Atelier de confection aide technique" ]
+       ], [
+         fhir:index 103 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "173" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "SNP Array" ]
+       ], [
+         fhir:index 104 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "174" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "CGH Array" ]
+       ], [
+         fhir:index 105 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "175" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Spectromètre de masse haute résolution" ]
+       ], [
+         fhir:index 106 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "176" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chromatographe haute performance en phase liquide" ]
+       ], [
+         fhir:index 107 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "177" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Chromatographe en phase gazeuse" ]
+       ], [
+         fhir:index 108 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "178" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Agrégomètre optique" ]
+       ], [
+         fhir:index 109 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "179" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Véhicules adaptés au transport de personnes à mobilité réduite" ]
+       ], [
+         fhir:index 110 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "180" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pupillomètre" ]
+       ], [
+         fhir:index 111 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "181" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Accélérateur réchauffeur de sang" ]
+       ], [
+         fhir:index 112 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "182" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Défibrillateur automatisé externe (DAE)" ]
+       ], [
+         fhir:index 113 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "183" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Equipement d'oxygénothérapie de déambulation" ]
+       ], [
+         fhir:index 114 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "184" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dispositif de réadaptation à la marche par allègement du poids du corps (anti-gravité)" ]
+       ], [
+         fhir:index 115 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "185" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "PSM pédiatriques (Poste Sanitaire Mobile)" ]
+       ], [
+         fhir:index 116 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "186" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lit fluidisé" ]
+       ], [
+         fhir:index 117 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "199" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Appareil d'imagerie volumétrique par faisceau conique (CBCT)" ]
+       ], [
+         fhir:index 118 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "200" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Fauteuil dentaire adapté au handicap moteur" ]
+       ], [
+         fhir:index 119 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "201" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Laser rétinien" ]
+       ], [
+         fhir:index 120 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "202" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Laser Yag ophtalmologique" ]
+       ], [
+         fhir:index 121 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "203" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Atelier intégré d'appareillage" ]
+       ], [
+         fhir:index 122 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "204" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Imagerie par fluorescence" ]
+       ], [
+         fhir:index 123 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "205" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ultrason de haute intensité (HIFU)" ]
+       ], [
+         fhir:index 124 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "206" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Dispositif mobile de traitement d'air" ]
+       ], [
+         fhir:index 125 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "207" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Défibrillateur semi-automatique" ]
+       ], [
+         fhir:index 126 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "208" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Equipement de téléradiographie" ]
+       ], [
+         fhir:index 127 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "209" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Arthromoteurs membres inférieurs (genoux)" ]
+       ], [
+         fhir:index 128 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "210" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Arthromoteurs membres supérieurs (épaules, coudes)" ]
+       ], [
+         fhir:index 129 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "211" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Salle hybride" ]
+       ], [
+         fhir:index 130 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "212" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Vidéo assistance" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/JDV-J70-Equipement-Santefr.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

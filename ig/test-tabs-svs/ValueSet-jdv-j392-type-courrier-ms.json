@@ -47,8 +47,8 @@
     }]
   },
   "expansion" : {
-    "identifier" : "urn:uuid:b2611117-341b-4849-bea3-42fdc9e63c98",
-    "timestamp" : "2026-06-03T15:04:55+02:00",
+    "identifier" : "urn:uuid:1e457d51-f805-4e3c-9f50-79d5f0487572",
+    "timestamp" : "2026-06-30T11:06:45+02:00",
     "total" : 4,
     "parameter" : [{
       "name" : "used-codesystem",
@@ -57,10 +57,6 @@
     {
       "name" : "version",
       "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r416-type-courrier|20260505120000"
-    },
-    {
-      "name" : "warning-draft",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j392-type-courrier-ms|20260505120000"
     },
     {
       "name" : "warning-draft",

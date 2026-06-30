@@ -46,16 +46,16 @@
     </include>
   </compose>
   <expansion>
-    <identifier value="urn:uuid:f6367b66-d9ce-4f14-b8e7-ebf37d0aad31"/>
-    <timestamp value="2026-06-03T15:05:32+02:00"/>
-    <total value="4"/>
+    <identifier value="urn:uuid:46eaca7c-664e-46d6-aef1-85291780d59e"/>
+    <timestamp value="2026-06-30T11:06:28+02:00"/>
+    <total value="8"/>
     <parameter>
       <name value="used-codesystem"/>
-      <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite|20260330120000"/>
+      <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite|20260629120000"/>
     </parameter>
     <parameter>
       <name value="version"/>
-      <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite|20260330120000"/>
+      <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite|20260629120000"/>
     </parameter>
     <contains>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"/>
@@ -66,6 +66,26 @@
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"/>
       <code value="01"/>
       <display value="Conseil de l'Ordre"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"/>
+      <code value="06"/>
+      <display value="Conseil départemental"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"/>
+      <code value="07"/>
+      <display value="Direction Départementale de l'Emploi, du Travail et des Solidarités"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"/>
+      <code value="05"/>
+      <display value="Direction régionale et interdépartementale de l'Hébergement et du Logement"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"/>
+      <code value="04"/>
+      <display value="Directions régionales de l'économie de l'emploi du travail et des solidarités"/>
     </contains>
     <contains>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"/>

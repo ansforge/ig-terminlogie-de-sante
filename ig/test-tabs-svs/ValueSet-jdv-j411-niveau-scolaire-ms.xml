@@ -46,8 +46,8 @@
     </include>
   </compose>
   <expansion>
-    <identifier value="urn:uuid:6a880527-c62e-4b4c-9748-134bbbb6cdae"/>
-    <timestamp value="2026-06-03T15:05:41+02:00"/>
+    <identifier value="urn:uuid:c0bce38b-3d2c-49f0-b390-3fe3d1a865b8"/>
+    <timestamp value="2026-06-30T11:06:21+02:00"/>
     <total value="16"/>
     <parameter>
       <name value="used-codesystem"/>
@@ -60,10 +60,6 @@
     <parameter>
       <name value="warning-draft"/>
       <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r414-niveau-scolaire|20260601120000"/>
-    </parameter>
-    <parameter>
-      <name value="warning-draft"/>
-      <valueUri value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j411-niveau-scolaire-ms|20260601120000"/>
     </parameter>
     <contains>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r414-niveau-scolaire"/>

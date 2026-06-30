@@ -46,8 +46,8 @@
     </include>
   </compose>
   <expansion>
-    <identifier value="urn:uuid:8c60fa68-6a9c-4240-b41e-9e15ee9c5123"/>
-    <timestamp value="2026-06-03T15:05:17+02:00"/>
+    <identifier value="urn:uuid:afa48f61-90c3-4a31-8e99-a7581caec038"/>
+    <timestamp value="2026-06-30T11:06:23+02:00"/>
     <total value="19"/>
     <parameter>
       <name value="used-codesystem"/>
@@ -56,10 +56,6 @@
     <parameter>
       <name value="version"/>
       <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r417-type-demande-compensation|20260505120000"/>
-    </parameter>
-    <parameter>
-      <name value="warning-draft"/>
-      <valueUri value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j394-type-demande-compensation-ms|20260505120000"/>
     </parameter>
     <parameter>
       <name value="warning-draft"/>

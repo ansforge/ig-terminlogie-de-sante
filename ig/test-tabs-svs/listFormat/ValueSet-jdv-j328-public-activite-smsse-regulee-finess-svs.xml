@@ -16,6 +16,9 @@
          <Concept code="802"
                   codeSystem="1.2.250.1.213.1.6.1.382"
                   displayName="Adolescents ASE (7-17 ans)"/>
+         <Concept code="842"
+                  codeSystem="1.2.250.1.213.1.6.1.382"
+                  displayName="Adultes (sans autre indication)"/>
          <Concept code="441"
                   codeSystem="1.2.250.1.213.1.6.1.382"
                   displayName="Adultes autistes relevant des cas complexes"/>
@@ -133,6 +136,9 @@
          <Concept code="808"
                   codeSystem="1.2.250.1.213.1.6.1.382"
                   displayName="Enfants d'Age Préscolaire"/>
+         <Concept code="843"
+                  codeSystem="1.2.250.1.213.1.6.1.382"
+                  displayName="Enfants et adolescents (sans autre indication)"/>
          <Concept code="807"
                   codeSystem="1.2.250.1.213.1.6.1.382"
                   displayName="Enfants et Adolescents avec difficultés sociales"/>
@@ -217,6 +223,9 @@
          <Concept code="835"
                   codeSystem="1.2.250.1.213.1.6.1.382"
                   displayName="Parents en difficulté avec enfant"/>
+         <Concept code="844"
+                  codeSystem="1.2.250.1.213.1.6.1.382"
+                  displayName="Patients de soins sans consentement"/>
          <Concept code="834"
                   codeSystem="1.2.250.1.213.1.6.1.382"
                   displayName="Patients et accompagnants (ou aidants)"/>
@@ -313,6 +322,9 @@
          <Concept code="816"
                   codeSystem="1.2.250.1.213.1.6.1.382"
                   displayName="Prostituées avec ou sans Enfant"/>
+         <Concept code="841"
+                  codeSystem="1.2.250.1.213.1.6.1.382"
+                  displayName="Périnatalité"/>
          <Concept code="999"
                   codeSystem="1.2.250.1.213.1.6.1.382"
                   displayName="Regroupement calculs (annexe xxiv)"/>

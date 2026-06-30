@@ -47,8 +47,8 @@
     }]
   },
   "expansion" : {
-    "identifier" : "urn:uuid:0e9789e9-4406-45c7-96bf-d158f002b4d0",
-    "timestamp" : "2026-06-03T15:05:37+02:00",
+    "identifier" : "urn:uuid:4971f6ea-9963-498c-a3ce-a0617612965b",
+    "timestamp" : "2026-06-30T11:06:04+02:00",
     "total" : 22,
     "parameter" : [{
       "name" : "used-codesystem",

@@ -47,8 +47,19 @@
     }]
   },
   "expansion" : {
-    "identifier" : "urn:uuid:0378c010-9ce4-4812-b2ee-5bafaed727f6",
-    "timestamp" : "2026-06-03T15:06:07+02:00",
+    "extension" : [{
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "status"
+      },
+      {
+        "url" : "uri",
+        "valueUri" : "http://hl7.org/fhir/concept-properties#status"
+      }],
+      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.property"
+    }],
+    "identifier" : "urn:uuid:c9aab86f-0f7c-433a-841a-1a44e6088e7a",
+    "timestamp" : "2026-06-30T11:06:09+02:00",
     "total" : 7,
     "parameter" : [{
       "name" : "used-codesystem",
@@ -79,13 +90,6 @@
       "display" : "Etab.Serv.Soc.d'Accueil Hébergement Assistance Réadaptation"
     },
     {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      }],
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
       "inactive" : true,
       "code" : "0100",

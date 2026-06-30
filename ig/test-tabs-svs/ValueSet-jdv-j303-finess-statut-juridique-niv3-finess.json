@@ -55,16 +55,16 @@
     }]
   },
   "expansion" : {
-    "identifier" : "urn:uuid:5b999b2e-adb8-42f6-b935-9ed4d69a93dc",
-    "timestamp" : "2026-06-03T15:05:31+02:00",
+    "identifier" : "urn:uuid:0f04b204-3755-41c4-8a50-4fb51f07d9ab",
+    "timestamp" : "2026-06-30T11:06:18+02:00",
     "total" : 22,
     "parameter" : [{
       "name" : "used-codesystem",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique|20260223120000"
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique|20260629120000"
     },
     {
       "name" : "version",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique|20260223120000"
+      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique|20260629120000"
     }],
     "contains" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",

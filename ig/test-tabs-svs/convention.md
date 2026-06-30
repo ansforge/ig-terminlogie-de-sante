@@ -1,10 +1,10 @@
-# Conventtion de nommage - Terminologies de Santé v1.9.3
+# Convention de nommage - Terminologies de Santé v1.11.0
 
 * [**Table of Contents**](toc.md)
 * [**Autres Ressources**](autres_ressources.md)
-* **Conventtion de nommage**
+* **Convention de nommage**
 
-## Conventtion de nommage
+## Convention de nommage
 
 ### Source
 

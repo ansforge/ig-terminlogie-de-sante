@@ -7,11 +7,11 @@
 </div></div>
   </text>
   <url value="https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies"/>
-  <version value="1.9.3"/>
+  <version value="1.11.0"/>
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2026-06-03T13:06:48+00:00"/>
+  <date value="2026-06-30T09:06:55+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -36,7 +36,7 @@
     </extension>
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="7.1.0"/>
+    <version value="7.2.0"/>
   </dependsOn>
   <dependsOn id="hl7_fhir_uv_ips">
     <uri value="http://hl7.org/fhir/uv/ips/ImplementationGuide/hl7.fhir.uv.ips"/>
@@ -19134,7 +19134,7 @@
         <reference value="ConceptMap/ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS"/>
       </reference>
       <name value="ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS"/>
-      <description value="Pour le document CDA, la métadonnée XDS 'formatCode' est calculé à partir de l'élement CDA 'templateId'. La correspondance entre templateId et formatCode est assurée par cette table d'association."/>
+      <description value="Lorsque le corps du CDA est structuré, la métadonnée 'formatCode' provient de l'élément 'templateId' (modèle du document CDA). La correspondance entre templateId et formatCode est assurée par cette table d'association"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -19472,6 +19472,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-j287-type-autorite-regulation-finess"/>
+      </reference>
+      <name value="Jdv J287 Type Autorite Regulation Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les types d'autorité de régulation pour Finess"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-j289-type-groupe-gco-finess"/>
       </reference>
       <name value="Jdv J289 Type Groupe Gco Finess"/>
@@ -19483,10 +19494,87 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-j293-type-engagement-finess"/>
+      </reference>
+      <name value="Jdv J293 Type Engagement Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les grands types d'engagement pouvant être associés dans FINESS+ à des structures ou des activités."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j294-document-justificatif-finess"/>
+      </reference>
+      <name value="Jdv J294 Document Justificatif Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les types de documents justificatifs pouvant être associés à une entité FINESS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j295-document-informatif-finess"/>
+      </reference>
+      <name value="Jdv J295 Document Informatif Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les types de documents informatifs pouvant être associés à une entité FINESS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-j296-type-role-entite-groupe-finess"/>
       </reference>
       <name value="Jdv J296 Type Role Entite Groupe Finess"/>
       <description value="Jeu de valeurs FINESS contenant les types de rôles que peuvent exercer des entités participants à des groupements"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j297-type-evenement-administratif-finess"/>
+      </reference>
+      <name value="Jdv J297 Type Evenement Administratif Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les événements affectant le cycle de vie des entités et activités enrgeistrées dans FINESS+"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j298-macro-etat-objet-administratif-finess"/>
+      </reference>
+      <name value="Jdv J298 Macro Etat Objet Administratif Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les macro-etat des structures FINESS qui dérivent de l'état de l'objet. Permet de distinguer les structures actives de celles inactives."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j299-systeme-information-finess"/>
+      </reference>
+      <name value="Jdv J299 Systeme Information Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les systemes d'information en relation avec FINESS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j300-type-objet-finess"/>
+      </reference>
+      <name value="Jdv J300 Type Objet Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les types d'objet enregistrés et manipulés dans FINESS+."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -19604,6 +19692,28 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-j313-usage-adresse-finess"/>
+      </reference>
+      <name value="Jdv J313 Usage Adresse Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les usages des adresses associées aux entités enregistrés dans FINESS+"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j314-engagement-finess"/>
+      </reference>
+      <name value="Jdv J314 Engagement Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les engagements, de tous les types d'engagement confondus, pouvant être associés dans FINESS+ à des structures ou des activités."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-j318-activite-enseignement-regulee-finess"/>
       </reference>
       <name value="Jdv J318 Activite Enseignement Regulee Finess"/>
@@ -19641,6 +19751,17 @@
       </reference>
       <name value="Jdv J321 Activite Enseignement Regulee Niv3 Finess"/>
       <description value="Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 3"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j322-type-act-enseignement-regulee-finess"/>
+      </reference>
+      <name value="Jdv J322 Type Act Enseignement Regulee Finess"/>
+      <description value="Jeu de valeurs FINESS reprenant les types d'activité d'enseignement régulée"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -19725,6 +19846,28 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-j331-type-act-sociale-regulee-finess"/>
+      </reference>
+      <name value="Jdv J331 Type Act Sociale Regulee Finess"/>
+      <description value="Jeu de valeurs FINESS reprenant les types d'activité sociale régulée"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j332-type-act-medico-sociale-regulee-finess"/>
+      </reference>
+      <name value="Jdv J332 Type Act Medico Sociale Regulee Finess"/>
+      <description value="Jeu de valeurs FINESS reprenant les types d'activité médico sociale régulée"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess"/>
       </reference>
       <name value="Jdv J333 Activite Sanitaire Diverse Regulee Niv Finess"/>
@@ -19751,6 +19894,72 @@
       </reference>
       <name value="Jdv J335 Activite Sanitaire Diverse Regulee Niv3 Finess"/>
       <description value="Jeu de valeurs Finess contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 3"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j336-type-act-sanitaire-diverse-regulee-finess"/>
+      </reference>
+      <name value="Jdv J336 Type Act Sanitaire Diverse Regulee Finess"/>
+      <description value="Jeu de valeurs FINESS reprenant les types d'activité sanitaire régulée"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j340-type-act-de-soin-amf-finess"/>
+      </reference>
+      <name value="Jdv J340 Type Act De Soin Amf Finess"/>
+      <description value="Jeu de valeurs FINESS reprenant les types d'activité de soin AMF"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j341-type-act-autre-acte-soin-finess"/>
+      </reference>
+      <name value="Jdv J341 Type Act Autre Acte Soin Finess"/>
+      <description value="Jeu de valeurs FINESS reprenant les types d'activité pour les autres actes de soin"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j342-type-act-soumise-a-reconnaissance-finess"/>
+      </reference>
+      <name value="Jdv J342 Type Act Soumise A Reconnaissance Finess"/>
+      <description value="Jeu de valeurs FINESS reprenant les types d'activité soumise à reconnaissance"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j344-type-act-equipement-materiel-lourd-finess"/>
+      </reference>
+      <name value="Jdv J344 Type Act Equipement Materiel Lourd Finess"/>
+      <description value="Jeu de valeurs FINESS reprenant les types d'activité associés aux équipements matériel lourds"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j350-type-act-de-soin-amm-finess"/>
+      </reference>
+      <name value="Jdv J350 Type Act De Soin Amm Finess"/>
+      <description value="Jeu de valeurs FINESS reprenant les types d'activité de soin AMM"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -19806,6 +20015,39 @@
       </reference>
       <name value="Jdv J357 Genre Capacite Finess"/>
       <description value="Jeu de valeurs FINESS contenant les genres de capacités utilisés par FINESS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j358-type-autorite-enregistrement-finess"/>
+      </reference>
+      <name value="Jdv J358 Type Autorite Enregistrement Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les types d'autorité d'enregistrement pour Finess"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j359-autorite-enregistrement-finess"/>
+      </reference>
+      <name value="Jdv J359 Autorite Enregistrement Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les autorité d'enregistrement pour Finess"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j360-autorite-regulation-finess"/>
+      </reference>
+      <name value="Jdv J360 Autorite Regulation Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les autorités de régulation pour Finess"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -19872,6 +20114,17 @@
       </reference>
       <name value="Jdv J370 Type Contrat Sejour Ms"/>
       <description value="Type de contrat conclu entre l’établissement/service et la personne/son représentant légal."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j371-etat-objet-administratif-finess"/>
+      </reference>
+      <name value="Jdv J371 Etat Objet Administratif Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les états élémentaires que peuvent porter les entités et activités FINESS+"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -20015,6 +20268,28 @@
       </reference>
       <name value="Jdv J387 Role Participant Ms"/>
       <description value="Rôle du participant vis à vis de l'événement (mandataire judiciaire, structure en charge de l'événement)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j389-sexe-insee"/>
+      </reference>
+      <name value="Jdv J389 Sexe Insee"/>
+      <description value="Liste de valeurs du code Sexe issues de l'INSEE pour le RPPS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j390-origine-interruption-exercice-rpps"/>
+      </reference>
+      <name value="Jdv J390 Origine Interruption Exercice Rpps"/>
+      <description value="Jeu de valeurs à destination du RPPS : L’origine d’une interruption d’exercice correspond à l’autorité juridique ou administrative ayant prononcé la mesure. Cette information permet d’identifier le cadre dans lequel la décision a été prise et d’en comprendre le contexte. Elle facilite son interprétation, notamment pour apprécier les modalités d’application de la mesure (portée, exécution, éventuels recours)."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -20223,7 +20498,7 @@
         <reference value="ValueSet/jdv-j409-type-adresse-ms"/>
       </reference>
       <name value="Jdv J409 Type Adresse Ms"/>
-      <description value="Type d'adresse postale."/>
+      <description value="Type d'adresse postale tel que &quot;Adresse du domicile&quot;, &quot;Adresse de livraison&quot; pour une personne physique."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -23322,6 +23597,39 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/tre-r364-type-document-administratif"/>
+      </reference>
+      <name value="Tre R364 Type Document Administratif"/>
+      <description value="Nomenclature des types de documents administratif ( exemple : agrément, convention...) Remarque : Cette nomenclature est initialisée avec les types de documents informatifs et justificatifs pouvant être associés à une entité FINESS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r365-etat-objet"/>
+      </reference>
+      <name value="Tre R365 Etat Objet"/>
+      <description value="Nomenclature des états élémentaires d'un objet du MOS organisés en etat actifs et en etats inactifs. Remarque : Cette nomenclature est initialisée avec les états que peuvent porter les entités et activités FINESS+"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r366-type-objet"/>
+      </reference>
+      <name value="Tre R366 Type Objet"/>
+      <description value="Nomenclature des types d’objets du MOS. &#xA;Remarque : Cette nomenclature est juste initialisée avec les types d’objet FINESS+"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/tre-r370-role-relation-ege"/>
       </reference>
       <name value="Tre R370 Role Relation Ege"/>
@@ -23388,6 +23696,50 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/tre-r376-type-evenement-administratif"/>
+      </reference>
+      <name value="Tre R376 Type Evenement Administratif"/>
+      <description value="Nomenclature des événements administratifs pertinents pour un cycle de vie d'un Objet de Santé (du MOS) Remarque : Cette nomenclature est initialisée avec les évenements affectant le cycle de vie des entités et activités enregistrées dans FINESS+"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r377-usage-adresse"/>
+      </reference>
+      <name value="Tre R377 Usage Adresse"/>
+      <description value="Nomenclature des types des adresses&#xA;Remarque : Cette TRE est juste intialisée avec les codes FINESS."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r378-motif-arrete"/>
+      </reference>
+      <name value="Tre R378 Motif Arrete"/>
+      <description value="Nomenclature des motifs des arrêtés&#xA;Remarque : Cette TRE est juste initialisée avec les codes FINESS+"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r379-systeme-information"/>
+      </reference>
+      <name value="Tre R379 Systeme Information"/>
+      <description value="Nomenclature des systemes d’information généralement déclarés pour définir les caractéristiques des identifiants ou des événements&#xA;Remarque : Cette TRE est initialisée avec les codes FINESS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/tre-r381-activite-amm"/>
       </reference>
       <name value="Tre R381 Activite Amm"/>
@@ -23443,6 +23795,17 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/tre-r386-macro-etat-objet-administratif"/>
+      </reference>
+      <name value="Tre R386 Macro Etat Objet Administratif"/>
+      <description value="Nomenclature des macro-etat des structures FINESS qui dérivent de l'état de l'objet. Permet de distinguer les structures actives de celles inactives."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/tre-r387-type-groupement"/>
       </reference>
       <name value="Tre R387 Type Groupement"/>
@@ -23487,6 +23850,16 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/tre-r392-type-act-smsse-regulee"/>
+      </reference>
+      <name value="Tre R392 Type Act Smsse Regulee"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/tre-r393-type-contrat-sejour"/>
       </reference>
       <name value="Tre R393 Type Contrat Sejour"/>
@@ -23509,10 +23882,21 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/tre-r395-engagement"/>
+      </reference>
+      <name value="Tre R395 Engagement"/>
+      <description value="Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités. Cette TRE remplace la TRE-R278-Convention"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/tre-r396-autorite"/>
       </reference>
       <name value="Tre R396 Autorite"/>
-      <description value="liste des autorités structurée en plusieurs types d'autorités : Ordres, ARS, ..."/>
+      <description value="liste des autorités (autorités Ordres, autorités ARS, ...)"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -23577,8 +23961,8 @@
       <reference>
         <reference value="CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"/>
       </reference>
-      <name value="Tre R404 Mode Fonctionnemet Activite Smsse Regulee"/>
-      <description value="Mode de fonctinonemment des activités ssmsse régulées, remplace la TRE_R209-TypeActivite"/>
+      <name value="Tre R404 Mode Fonctionnement Activite Smsse Regulee"/>
+      <description value="Mode de fonctinonemment des activités ssmsse régulées.&#xA;Cette TRE remplace la TRE_R209-TypeActivite"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -23623,6 +24007,39 @@
       </reference>
       <name value="Tre R408 Type Enseignement Specialise"/>
       <description value="Type d'enseignement spécialisé."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r409-type-duree-interruption-exercice"/>
+      </reference>
+      <name value="Tre R409 Type Duree Interruption Exercice"/>
+      <description value=" Le type de durée d’une interruption d’exercice décrit le caractère temporel de la mesure appliquée au professionnel. Il permet de distinguer si l’interruption s’inscrit dans une durée limitée ou si elle s’applique sans limite de durée. Cette information précise le cadre temporel de la mesure et facilite son interprétation. Elle constitue un élément structurant pour l’analyse de la capacité d’exercice du professionnel et pour la gestion de ses effets dans les systèmes d’information, notamment en matière de publication des données et de gestion des accès."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r410-perimetre-interruption-exercice"/>
+      </reference>
+      <name value="Tre R410 Perimetre Interruption Exercice"/>
+      <description value=" Le périmètre d’une interruption d’exercice décrit l’étendue de la restriction appliquée à l’activité du professionnel. Cette information permet d’apprécier concrètement les possibilités d’exercice du professionnel et contribue à la gestion des droits associés, notamment en matière d’accès aux services numériques en santé."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r411-sexe-insee"/>
+      </reference>
+      <name value="Tre R411 Sexe Insee"/>
+      <description value="Liste de valeurs du code Sexe pour l'INSEE - En attente de faire directement référence aux Terminologies INSEE"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -23798,7 +24215,18 @@
         <reference value="CodeSystem/tre-r427-type-adresse"/>
       </reference>
       <name value="Tre R427 Type Adresse"/>
-      <description value="Type d'adresse postale."/>
+      <description value="Type d'adresse postale tel que &quot;Adresse du domicile&quot;, &quot;Adresse de livraison&quot; pour une personne physique."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r436-origine-interruption-exercice"/>
+      </reference>
+      <name value="Tre R436 Origine Interruption Exercice"/>
+      <description value="L’origine d’une interruption d’exercice correspond à l’autorité juridique ou administrative ayant prononcé la mesure. Cette information permet d’identifier le cadre dans lequel la décision a été prise et d’en comprendre le contexte. Elle facilite son interprétation, notamment pour apprécier les modalités d’application de la mesure (portée, exécution, éventuels recours)."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -26652,6 +27080,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/vs-tre-r378-motif-arrete-all"/>
+      </reference>
+      <name value="Vs Tre R378 Motif Arrete All"/>
+      <description value="Jeu de valeurs ALL contenant les motifs des arrêtés enregsitrées dans FINESS+"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/vs-tre-r381-activite-amm-all"/>
       </reference>
       <name value="Vs Tre R381 Activite Amm All"/>
@@ -26711,6 +27150,17 @@
       </reference>
       <name value="Vs Tre R388 Type Logement All"/>
       <description value="Jeu de valeurs ALL contenant les types de logement associés aux capacités des structures FINESS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-tre-r392-type-act-smsse-regulee-all"/>
+      </reference>
+      <name value="Vs Tre R392 Type Act Smsse Regulee All"/>
+      <description value="Jeu de valeurs ALL contenant l'ensemble des codes pour les types d'activitées SMSSE régulées"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -26958,7 +27408,7 @@
             <valueUrl value="convention.html"/>
           </extension>
           <nameUrl value="convention.html"/>
-          <title value="Conventtion de nommage"/>
+          <title value="Convention de nommage"/>
           <generation value="markdown"/>
         </page>
         <page>

@@ -51,16 +51,16 @@
     </include>
   </compose>
   <expansion>
-    <identifier value="urn:uuid:70ea584f-79ed-455d-8a4a-1a3b80a046b3"/>
-    <timestamp value="2026-06-03T15:05:16+02:00"/>
-    <total value="81"/>
+    <identifier value="urn:uuid:e1b4608f-fcba-44b3-a4e1-ea118a8c51da"/>
+    <timestamp value="2026-06-30T11:06:38+02:00"/>
+    <total value="85"/>
     <parameter>
       <name value="used-codesystem"/>
-      <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee|20260223120000"/>
+      <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee|20260629120000"/>
     </parameter>
     <parameter>
       <name value="version"/>
-      <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee|20260223120000"/>
+      <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee|20260629120000"/>
     </parameter>
     <contains>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"/>
@@ -71,6 +71,11 @@
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"/>
       <code value="802"/>
       <display value="Adolescents ASE (7-17 ans)"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"/>
+      <code value="842"/>
+      <display value="Adultes (sans autre indication)"/>
     </contains>
     <contains>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"/>
@@ -176,6 +181,11 @@
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"/>
       <code value="808"/>
       <display value="Enfants d'Age Préscolaire"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"/>
+      <code value="843"/>
+      <display value="Enfants et adolescents (sans autre indication)"/>
     </contains>
     <contains>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"/>
@@ -291,6 +301,11 @@
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"/>
       <code value="835"/>
       <display value="Parents en difficulté avec enfant"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"/>
+      <code value="844"/>
+      <display value="Patients de soins sans consentement"/>
     </contains>
     <contains>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"/>
@@ -411,6 +426,11 @@
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"/>
       <code value="816"/>
       <display value="Prostituées avec ou sans Enfant"/>
+    </contains>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"/>
+      <code value="841"/>
+      <display value="Périnatalité"/>
     </contains>
     <contains>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"/>

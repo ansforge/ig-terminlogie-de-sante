@@ -47,8 +47,8 @@
     }]
   },
   "expansion" : {
-    "identifier" : "urn:uuid:b38898a5-73f5-4c78-9e63-75892c611b68",
-    "timestamp" : "2026-06-03T15:05:56+02:00",
+    "identifier" : "urn:uuid:066502e6-6d75-4e94-9888-0ac01682ca28",
+    "timestamp" : "2026-06-30T11:06:28+02:00",
     "total" : 352,
     "parameter" : [{
       "name" : "used-codesystem",
@@ -61,10 +61,6 @@
     {
       "name" : "warning-draft",
       "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r419-motivation|20260601120000"
-    },
-    {
-      "name" : "warning-draft",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j399-motivation-ms|20260601120000"
     }],
     "contains" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r419-motivation",

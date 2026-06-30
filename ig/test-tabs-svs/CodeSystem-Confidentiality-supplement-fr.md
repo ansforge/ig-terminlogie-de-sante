@@ -1,4 +1,4 @@
-# Confidentiality SupplementFr - Terminologies de Santé v1.9.3
+# Confidentiality SupplementFr - Terminologies de Santé v1.11.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

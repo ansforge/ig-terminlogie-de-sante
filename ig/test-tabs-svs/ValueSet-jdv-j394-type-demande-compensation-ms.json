@@ -47,8 +47,8 @@
     }]
   },
   "expansion" : {
-    "identifier" : "urn:uuid:8c60fa68-6a9c-4240-b41e-9e15ee9c5123",
-    "timestamp" : "2026-06-03T15:05:17+02:00",
+    "identifier" : "urn:uuid:afa48f61-90c3-4a31-8e99-a7581caec038",
+    "timestamp" : "2026-06-30T11:06:23+02:00",
     "total" : 19,
     "parameter" : [{
       "name" : "used-codesystem",
@@ -57,10 +57,6 @@
     {
       "name" : "version",
       "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r417-type-demande-compensation|20260505120000"
-    },
-    {
-      "name" : "warning-draft",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j394-type-demande-compensation-ms|20260505120000"
     },
     {
       "name" : "warning-draft",
