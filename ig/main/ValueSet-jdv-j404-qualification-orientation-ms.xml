@@ -50,8 +50,8 @@ L'orientation cible est aussi appelée &quot;orientation hors contrainte de l’
     </include>
   </compose>
   <expansion>
-    <identifier value="urn:uuid:e9a7fb0e-7dc0-4fb4-ace8-7cc278bf6904"/>
-    <timestamp value="2026-06-29T15:27:16+02:00"/>
+    <identifier value="urn:uuid:be3ee945-fd66-493c-a931-59b91bbd0885"/>
+    <timestamp value="2026-06-30T09:46:42+02:00"/>
     <total value="2"/>
     <parameter>
       <name value="used-codesystem"/>

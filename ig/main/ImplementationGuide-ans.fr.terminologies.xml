@@ -11,7 +11,7 @@
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2026-06-29T13:28:30+00:00"/>
+  <date value="2026-06-30T07:47:59+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -19465,6 +19465,17 @@
       </reference>
       <name value="Jdv J240 Activite Sanitaire Diverse Regulee Finess"/>
       <description value="Jeu de valeurs FINESS contenant les activités sanitaires, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j287-type-autorite-regulation-finess"/>
+      </reference>
+      <name value="Jdv J287 Type Autorite Regulation Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les types d'autorité de régulation pour Finess"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

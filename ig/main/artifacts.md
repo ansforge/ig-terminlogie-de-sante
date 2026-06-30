@@ -275,6 +275,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [JDV_J98_StatutHospitalier_RASS](ValueSet-JDV-J98-StatutHospitalier-RASS.md) | Statut des professionnels intervenant dans un hôpital dans le RASS |
 | [JDV_J99_InseeNAFrav2Niveau5_RASS](ValueSet-JDV-J99-InseeNAFrav2Niveau5-RASS.md) | Sous-classes de la Nomenclature Activités Française (INSEE) des prof du RASS |
 | [Jdv J240 Activite Sanitaire Diverse Regulee Finess](ValueSet-jdv-j240-activite-sanitaire-diverse-regulee-finess.md) | Jeu de valeurs FINESS contenant les activités sanitaires, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR) |
+| [Jdv J287 Type Autorite Regulation Finess](ValueSet-jdv-j287-type-autorite-regulation-finess.md) | Jeu de valeurs FINESS contenant les types d’autorité de régulation pour Finess |
 | [Jdv J289 Type Groupe Gco Finess](ValueSet-jdv-j289-type-groupe-gco-finess.md) | Jeu de valeurs Finess contenant les types de Groupement de Coopération Organique (GCO). |
 | [Jdv J293 Type Engagement Finess](ValueSet-jdv-j293-type-engagement-finess.md) | Jeu de valeurs FINESS contenant les grands types d’engagement pouvant être associés dans FINESS+ à des structures ou des activités. |
 | [Jdv J294 Document Justificatif Finess](ValueSet-jdv-j294-document-justificatif-finess.md) | Jeu de valeurs FINESS contenant les types de documents justificatifs pouvant être associés à une entité FINESS |

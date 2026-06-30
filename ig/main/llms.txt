@@ -634,6 +634,7 @@
 * [JDV_J99_InseeNAFrav2Niveau5_RASS](ValueSet-JDV-J99-InseeNAFrav2Niveau5-RASS.md)
 * [JDV-MediaTypeCorpsCDANonStructure](ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.md)
 * [Jdv J240 Activite Sanitaire Diverse Regulee Finess](ValueSet-jdv-j240-activite-sanitaire-diverse-regulee-finess.md)
+* [Jdv J287 Type Autorite Regulation Finess](ValueSet-jdv-j287-type-autorite-regulation-finess.md)
 * [Jdv J289 Type Groupe Gco Finess](ValueSet-jdv-j289-type-groupe-gco-finess.md)
 * [Jdv J293 Type Engagement Finess](ValueSet-jdv-j293-type-engagement-finess.md)
 * [Jdv J294 Document Justificatif Finess](ValueSet-jdv-j294-document-justificatif-finess.md)

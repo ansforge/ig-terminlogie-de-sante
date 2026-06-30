@@ -12,6 +12,7 @@ Vous touverez ici la liste des JDV du NOS.
 | :--- | :--- | :--- | :--- |
 | Name | Description | date_maj | Status |
 | [JdvJ240ActiviteSanitaireDiverseReguleeFiness](ValueSet-jdv-j240-activite-sanitaire-diverse-regulee-finess.md) | Jeu de valeurs FINESS contenant les activités sanitaires, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR) | 05/05/2026 | active |
+| [JdvJ287TypeAutoriteRegulationFiness](ValueSet-jdv-j287-type-autorite-regulation-finess.md) | Jeu de valeurs FINESS contenant les types d'autorité de régulation pour Finess | 29/06/2026 | active |
 | [JdvJ289TypeGroupeGcoFiness](ValueSet-jdv-j289-type-groupe-gco-finess.md) | Jeu de valeurs Finess contenant les types de Groupement de Coopération Organique (GCO). | 30/03/2026 | active |
 | [JdvJ293TypeEngagementFiness](ValueSet-jdv-j293-type-engagement-finess.md) | Jeu de valeurs FINESS contenant les grands types d'engagement pouvant être associés dans FINESS+ à des structures ou des activités. | 29/06/2026 | active |
 | [JdvJ294DocumentJustificatifFiness](ValueSet-jdv-j294-document-justificatif-finess.md) | Jeu de valeurs FINESS contenant les types de documents justificatifs pouvant être associés à une entité FINESS | 29/06/2026 | active |

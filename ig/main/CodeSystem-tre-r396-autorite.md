@@ -17,6 +17,7 @@ liste des autorités (autorités Ordres, autorités ARS, …)
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
+* [JdvJ287TypeAutoriteRegulationFiness](ValueSet-jdv-j287-type-autorite-regulation-finess.md)
 * [JdvJ358TypeAutoriteEnregistrementFiness](ValueSet-jdv-j358-type-autorite-enregistrement-finess.md)
 * [JdvJ359AutoriteEnregistrementFiness](ValueSet-jdv-j359-autorite-enregistrement-finess.md)
 * [JdvJ360AutoriteRegulationFiness](ValueSet-jdv-j360-autorite-regulation-finess.md)

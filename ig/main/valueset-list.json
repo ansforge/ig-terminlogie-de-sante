@@ -3236,6 +3236,17 @@
     "sources" : ["1.2.250.1.213.1.6.1.250"]
   },
   {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j287-type-autorite-regulation-finess",
+    "version" : "20260629120000",
+    "status" : "active",
+    "name" : "JdvJ287TypeAutoriteRegulationFiness",
+    "title" : "Jdv J287 Type Autorite Regulation Finess",
+    "description" : "Jeu de valeurs FINESS contenant les types d'autorité de régulation pour Finess",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"],
+    "oids" : ["1.2.250.1.213.1.6.1.249"],
+    "sources" : ["1.2.250.1.213.1.6.1.249"]
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j289-type-groupe-gco-finess",
     "version" : "20260330120000",
     "status" : "active",

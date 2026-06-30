@@ -5109,6 +5109,14 @@
   "oids" : ["1.2.250.1.213.1.6.1.250"]
 },
 {
+  "id" : "jdv-j287-type-autorite-regulation-finess",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j287-type-autorite-regulation-finess",
+  "version" : "20260629120000",
+  "name" : "JdvJ287TypeAutoriteRegulationFiness",
+  "oids" : ["1.2.250.1.213.1.6.1.249"]
+},
+{
   "id" : "jdv-j289-type-groupe-gco-finess",
   "type" : "ValueSet",
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j289-type-groupe-gco-finess",
