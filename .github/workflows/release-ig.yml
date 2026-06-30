@@ -157,7 +157,7 @@ jobs:
 
       # Builds the HTML page for the IG.
       - name: 🏃‍♂️ Generate package registry
-        run : java -Dfile.encoding=UTF-8 -jar publisher.jar -generate-package-registry ./IG-terminology-website-release
+        run : java -Xmx6g -Dfile.encoding=UTF-8 -jar publisher.jar -generate-package-registry ./IG-terminology-website-release
         
       - name: 🏃‍♂️ Run  Publisher to release
         run :   java -Xmx6g   -Dfile.encoding=UTF-8 -jar publisher.jar   -go-publish  -authorise-non-conformant-tx-servers -source igSource  -web  ./IG-terminology-website-release/www/ -registry ./IG-terminology-website-release/ig-registry/fhir-ig-list.json -history ./IG-terminology-website-release/fhir-ig-history-template -templates ./IG-terminology-website-release/templates    -temp      /home/runner/work/publication/temp 
