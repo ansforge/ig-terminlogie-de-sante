@@ -82,8 +82,8 @@
        ] ;
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.property" ]
      ] ;
-     fhir:ValueSet.expansion.identifier [ fhir:value "urn:uuid:501c1ea2-bb09-4263-924f-48271f95d36d" ] ;
-     fhir:ValueSet.expansion.timestamp [ fhir:value "2026-06-30T11:47:59+02:00"^^xsd:dateTime ] ;
+     fhir:ValueSet.expansion.identifier [ fhir:value "urn:uuid:f94d8ca0-4816-4d98-b8a4-3df1b9b4ac3c" ] ;
+     fhir:ValueSet.expansion.timestamp [ fhir:value "2026-06-30T13:55:38+02:00"^^xsd:dateTime ] ;
      fhir:ValueSet.expansion.total [ fhir:value "134"^^xsd:integer ] ;
      fhir:ValueSet.expansion.parameter [
        fhir:index 0 ;

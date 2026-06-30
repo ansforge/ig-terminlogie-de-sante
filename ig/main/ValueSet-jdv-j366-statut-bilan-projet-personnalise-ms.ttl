@@ -64,8 +64,8 @@
      ]
   ] ;
   fhir:ValueSet.expansion [
-     fhir:ValueSet.expansion.identifier [ fhir:value "urn:uuid:937fc83d-2495-408f-8b36-3eb957882889" ] ;
-     fhir:ValueSet.expansion.timestamp [ fhir:value "2026-06-30T11:47:38+02:00"^^xsd:dateTime ] ;
+     fhir:ValueSet.expansion.identifier [ fhir:value "urn:uuid:a970a7a6-db67-4946-99ae-20137825eca8" ] ;
+     fhir:ValueSet.expansion.timestamp [ fhir:value "2026-06-30T13:55:16+02:00"^^xsd:dateTime ] ;
      fhir:ValueSet.expansion.total [ fhir:value "3"^^xsd:integer ] ;
      fhir:ValueSet.expansion.parameter [
        fhir:index 0 ;
