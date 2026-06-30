@@ -7,12 +7,12 @@ Usage: #definition
 * extension[=].valueBoolean = false
 * url = "https://mos.esante.gouv.fr/NOS/ASS_A28-TypeDiplome-Diplome-Profession-EPARS/FHIR/ASS-A28-TypeDiplome-Diplome-Profession-EPARS"
 * identifier.value = "urn:oid:1.2.250.1.213.1.6.1.241"
-* version = "20240726120000"
+* version = "20260601120000"
 * name = "ASS_A28_TypeDiplome_Diplome_Profession_EPARS"
 * title = "ASS_A28_TypeDiplome_Diplome_Profession_EPARS"
 * experimental = false
 * status = #active
-* date = "2024-07-26T12:00:00+01:00"
+* date = "2026-06-01T12:00:00+01:00"
 * description = "Table d'association entre les types de diplômes, les diplômes et les professions de santé, médico-sociales ou sociales"
 * targetUri = "https://mos.esante.gouv.fr/NOS/JDV_J183-Diplome-EPARS/FHIR/JDV-J183-Diplome-EPARS"
 * group[0].source = "https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome"
@@ -52,23 +52,16 @@ Usage: #definition
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[=].target.dependsOn.property = "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"
 * group[=].element[=].target.dependsOn.value = "86"
-
-
 * group[=].element[+].code = #DU
 * group[=].element[=].target.code = #DIP411
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[=].target.dependsOn.property = "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"
 * group[=].element[=].target.dependsOn.value = "86"
-
-
-
 * group[=].element[+].code = #DU
 * group[=].element[=].target.code = #DIP416
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[=].target.dependsOn.property = "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"
 * group[=].element[=].target.dependsOn.value = "95"
-
-
 * group[=].element[+].code = #DU
 * group[=].element[=].target.code = #DIP320
 * group[=].element[=].target.equivalence = #equivalent
@@ -80,8 +73,6 @@ Usage: #definition
 * group[=].element[=].target.dependsOn.property = "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"
 * group[=].element[=].target.dependsOn.value = "86"
 * group[=].element[+].code = #ATT
-
-
 * group[+].source  = "https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome"
 * group[=].target  = "https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome"
 * group[=].element[0].code = #AU
@@ -89,7 +80,6 @@ Usage: #definition
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[=].target.dependsOn.property = "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"
 * group[=].element[=].target.dependsOn.value = "26"
-
 * group[=].element[+].code = #AU
 * group[=].element[=].target.code = #DIP332
 * group[=].element[=].target.equivalence = #equivalent
@@ -271,7 +261,22 @@ Usage: #definition
 * group[=].element[=].target.dependsOn.property = "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"
 * group[=].element[=].target.dependsOn.value = "93"
 * group[=].element[+].code = #AU
+* group[=].element[=].target.code = #DIP356
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[=].target.dependsOn.property = "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"
+* group[=].element[=].target.dependsOn.value = "72"
+* group[=].element[+].code = #AU
 * group[=].element[=].target.code = #DIP357
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[=].target.dependsOn.property = "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"
+* group[=].element[=].target.dependsOn.value = "93"
+* group[=].element[+].code = #AU
+* group[=].element[=].target.code = #DIP357
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[=].target.dependsOn.property = "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"
+* group[=].element[=].target.dependsOn.value = "72"
+* group[=].element[+].code = #AU
+* group[=].element[=].target.code = #DIP358
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[=].target.dependsOn.property = "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"
 * group[=].element[=].target.dependsOn.value = "93"
@@ -279,7 +284,7 @@ Usage: #definition
 * group[=].element[=].target.code = #DIP358
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[=].target.dependsOn.property = "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"
-* group[=].element[=].target.dependsOn.value = "93"
+* group[=].element[=].target.dependsOn.value = "72"
 * group[=].element[+].code = #AU
 * group[=].element[=].target.code = #DIP359
 * group[=].element[=].target.equivalence = #equivalent
@@ -335,7 +340,6 @@ Usage: #definition
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[=].target.dependsOn.property = "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"
 * group[=].element[=].target.dependsOn.value = "86"
-
 * group[+].source  = "https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome"
 * group[=].target  = "https://mos.esante.gouv.fr/NOS/TRE_R56-Attestation/FHIR/TRE-R56-Attestation"
 * group[=].element[+].code = #ATT
@@ -352,10 +356,6 @@ Usage: #definition
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[=].target.dependsOn.property = "https://mos.esante.gouv.fr/NOS/JDV_J166-Profession-EPARS/FHIR/JDV-J166-Profession-EPARS"
 * group[=].element[=].target.dependsOn.value = "96"
-
-
-
-
 * group[+].source  = "https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome"
 * group[=].target  = "https://mos.esante.gouv.fr/NOS/TRE_R54-DiplomeUniversiteInterUniversitaire/FHIR/TRE-R54-DiplomeUniversiteInterUniversitaire"
 * group[=].element[+].code = #DU

@@ -3,13 +3,13 @@
 id: ans.fr.terminologies
 canonical: https://interop.esante.gouv.fr/terminologies
 name: Terminologies
-title: Terminologies  de Santé 
+title: Terminologies  de Santé
 publisher:
   name: ANS
   url: https://esante.gouv.fr
 status: active
 description: Les nomenclatures des objets de Santé sont mises à disposition du secteur santé-social par l’agence du numérique en santé
-version: 1.9.3
+version: 1.11.0
 
 #date: 2023-03
 fhirVersion: 4.0.1
@@ -1252,7 +1252,7 @@ pages:
     autres_ressources.md:
         title: Autres Ressources     
         convention.md : 
-          title : Conventtion de nommage        
+          title : Convention de nommage        
         telechargementNos.md:
             title :   téléchargement (NOS)           
         securite.md:

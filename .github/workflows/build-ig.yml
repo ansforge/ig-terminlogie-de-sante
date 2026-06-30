@@ -139,6 +139,9 @@ jobs:
               zip -FSrj ./output/listFormat/NOS-Jeux_de_Valeurs_CI-SIS.zip ./output/listFormat/*CISIS*.tabs               
        
 
+      - name:  Suppression des fichiers trop volumineux
+        run : |
+              rm -f ./igSource/output/qa-ipreview.html
 
       - name: Get branch names
         id: branch-name
