@@ -50,7 +50,7 @@ Expansions are not generated for retired value sets
 
 | | | |
 | :--- | :--- | :--- |
-|  [<prev](artifacts.md) | [top](#top) |  [next>](ValueSet-JDV-J12-CiviliteTitre-CISIS-testing.md) |
+|  [<prev](ValueSet-jdv-issue-grossesse-cisis.demande.md) | [top](#top) |  [next>](ValueSet-JDV-J12-CiviliteTitre-CISIS-testing.md) |
 
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.0 based on
@@ -74,6 +74,7 @@ Liens:
     "lastUpdated" : "2025-01-06T12:44:43.391+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
+  "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {

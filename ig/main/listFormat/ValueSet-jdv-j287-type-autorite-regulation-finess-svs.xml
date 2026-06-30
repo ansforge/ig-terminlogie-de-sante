@@ -9,19 +9,6 @@
              id="1.2.250.1.213.1.6.1.249"
              typeFichier="JDV"
              urlFichier="">
-      <ConceptList>
-         <Concept code="02"
-                  codeSystem="1.2.250.1.213.1.6.1.377"
-                  displayName="Agence Régional de Santé"/>
-         <Concept code="06"
-                  codeSystem="1.2.250.1.213.1.6.1.377"
-                  displayName="Conseil départemental"/>
-         <Concept code="07"
-                  codeSystem="1.2.250.1.213.1.6.1.377"
-                  displayName="Direction Départementale de l'Emploi, du Travail et des Solidarités"/>
-         <Concept code="04"
-                  codeSystem="1.2.250.1.213.1.6.1.377"
-                  displayName="Directions régionales de l'économie de l'emploi du travail et des solidarités"/>
-      </ConceptList>
+      <ConceptList/>
    </ValueSet>
 </RetrieveValueSetResponse>

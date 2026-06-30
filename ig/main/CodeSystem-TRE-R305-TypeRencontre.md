@@ -18,6 +18,8 @@ Type de rencontre
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J142_TypeRencontre_CISIS](ValueSet-JDV-J142-TypeRencontre-CISIS.md)
+* [JdvEncompassingEncounterCodeCisis](ValueSet-jdv-encompassing-encounter-code-cisis.md)
+* [JdvTypeRencontreCisis](ValueSet-jdv-type-rencontre-cisis.md)
 
 
 

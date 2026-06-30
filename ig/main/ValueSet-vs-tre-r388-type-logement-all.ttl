@@ -20,7 +20,7 @@
   fhir:Resource.language [ fhir:value "fr-FR"] ;
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ] ;
-     fhir:Narrative.div "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs vs-tre-r388-type-logement-all</b></p><a name=\"vs-tre-r388-type-logement-all\"> </a><a name=\"hcvs-tre-r388-type-logement-all\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 1; Dernière mise à jour : 2026-03-27 11:18:14+0100; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion basée sur <a href=\"CodeSystem-tre-r388-type-logement.html\">codesystem Tre R388 Type Logement v20260330120000 (CodeSystem)</a></p><p>Ce jeu de valeur (ValueSet) contient 6 concepts</p><table class=\"codes\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage (fr-FR)</b> - French (France) (fr)</td></tr><tr><td><a name=\"vs-tre-r388-type-logement-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement-01\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r388-type-logement.html#tre-r388-type-logement-01\">01</a></td><td>Chambres</td></tr><tr><td><a name=\"vs-tre-r388-type-logement-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement-06\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r388-type-logement.html#tre-r388-type-logement-06\">06</a></td><td>Type &gt; II</td></tr><tr><td><a name=\"vs-tre-r388-type-logement-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement-02\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r388-type-logement.html#tre-r388-type-logement-02\">02</a></td><td>Type I</td></tr><tr><td><a name=\"vs-tre-r388-type-logement-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement-03\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r388-type-logement.html#tre-r388-type-logement-03\">03</a></td><td>Type I'</td></tr><tr><td><a name=\"vs-tre-r388-type-logement-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement-04\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r388-type-logement.html#tre-r388-type-logement-04\">04</a></td><td>Type Ibis</td></tr><tr><td><a name=\"vs-tre-r388-type-logement-all-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement-05\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r388-type-logement.html#tre-r388-type-logement-05\">05</a></td><td>Type II</td></tr></table></div>"
+     fhir:Narrative.div "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs vs-tre-r388-type-logement-all</b></p><a name=\"vs-tre-r388-type-logement-all\"> </a><a name=\"hcvs-tre-r388-type-logement-all\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 1; Dernière mise à jour : 2026-03-27 11:18:14+0100; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include tous les codes définis dans <a href=\"CodeSystem-tre-r388-type-logement.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement</code></a><span title=\"La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\"> version ?20260330120000</span></li></ul></div>"
   ] ;
   fhir:DomainResource.extension [
      fhir:index 0 ;
@@ -50,51 +50,6 @@
      fhir:ValueSet.compose.include [
        fhir:index 0 ;
        fhir:ValueSet.compose.include.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement" ]
-     ]
-  ] ;
-  fhir:ValueSet.expansion [
-     fhir:ValueSet.expansion.identifier [ fhir:value "urn:uuid:38bf0477-4d80-4737-a829-2518d5422966" ] ;
-     fhir:ValueSet.expansion.timestamp [ fhir:value "2026-06-30T15:48:34+02:00"^^xsd:dateTime ] ;
-     fhir:ValueSet.expansion.total [ fhir:value "6"^^xsd:integer ] ;
-     fhir:ValueSet.expansion.parameter [
-       fhir:index 0 ;
-       fhir:ValueSet.expansion.parameter.name [ fhir:value "used-codesystem" ] ;
-       fhir:ValueSet.expansion.parameter.valueUri [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement|20260330120000" ]
-     ], [
-       fhir:index 1 ;
-       fhir:ValueSet.expansion.parameter.name [ fhir:value "version" ] ;
-       fhir:ValueSet.expansion.parameter.valueUri [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement|20260330120000" ]
-     ] ;
-     fhir:ValueSet.expansion.contains [
-       fhir:index 0 ;
-       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement" ] ;
-       fhir:ValueSet.expansion.contains.code [ fhir:value "01" ] ;
-       fhir:ValueSet.expansion.contains.display [ fhir:value "Chambres" ]
-     ], [
-       fhir:index 1 ;
-       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement" ] ;
-       fhir:ValueSet.expansion.contains.code [ fhir:value "06" ] ;
-       fhir:ValueSet.expansion.contains.display [ fhir:value "Type > II" ]
-     ], [
-       fhir:index 2 ;
-       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement" ] ;
-       fhir:ValueSet.expansion.contains.code [ fhir:value "02" ] ;
-       fhir:ValueSet.expansion.contains.display [ fhir:value "Type I" ]
-     ], [
-       fhir:index 3 ;
-       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement" ] ;
-       fhir:ValueSet.expansion.contains.code [ fhir:value "03" ] ;
-       fhir:ValueSet.expansion.contains.display [ fhir:value "Type I'" ]
-     ], [
-       fhir:index 4 ;
-       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement" ] ;
-       fhir:ValueSet.expansion.contains.code [ fhir:value "04" ] ;
-       fhir:ValueSet.expansion.contains.display [ fhir:value "Type Ibis" ]
-     ], [
-       fhir:index 5 ;
-       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement" ] ;
-       fhir:ValueSet.expansion.contains.code [ fhir:value "05" ] ;
-       fhir:ValueSet.expansion.contains.display [ fhir:value "Type II" ]
      ]
   ] .
 

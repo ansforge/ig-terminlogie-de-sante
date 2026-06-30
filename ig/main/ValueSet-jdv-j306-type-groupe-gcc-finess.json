@@ -9,7 +9,7 @@
   "language" : "fr-FR",
   "text" : {
     "status" : "generated",
-    "div" : "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet jdv-j306-type-groupe-gcc-finess</b></p><a name=\"jdv-j306-type-groupe-gcc-finess\"> </a><a name=\"hcjdv-j306-type-groupe-gcc-finess\"> </a><a name=\"jdv-j306-type-groupe-gcc-finess-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Last updated: 2026-03-27 11:18:09+0100; Language: fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include codes provenant de<a href=\"CodeSystem-tre-r371-type-groupe-gcc.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r371-type-groupe-gcc</code></a> où finess  = true</li></ul></div>"
+    "div" : "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j306-type-groupe-gcc-finess</b></p><a name=\"jdv-j306-type-groupe-gcc-finess\"> </a><a name=\"hcjdv-j306-type-groupe-gcc-finess\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 2; Dernière mise à jour : 2026-05-05 19:02:09+0200; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include codes provenant de<a href=\"CodeSystem-tre-r371-type-groupe-gcc.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r371-type-groupe-gcc</code></a><span title=\"La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\"> version &#x1F4E6;20260330120000</span> où finess  = true</li></ul></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -44,29 +44,6 @@
         "op" : "=",
         "value" : "true"
       }]
-    }]
-  },
-  "expansion" : {
-    "identifier" : "urn:uuid:5ff17dd4-62d5-4422-8ea1-d493d613c728",
-    "timestamp" : "2026-06-30T15:49:24+02:00",
-    "total" : 2,
-    "parameter" : [{
-      "name" : "used-codesystem",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r371-type-groupe-gcc|20260330120000"
-    },
-    {
-      "name" : "version",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r371-type-groupe-gcc|20260330120000"
-    }],
-    "contains" : [{
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r371-type-groupe-gcc",
-      "code" : "001",
-      "display" : "Groupement hospitalier de territoire - Généraliste"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r371-type-groupe-gcc",
-      "code" : "002",
-      "display" : "Groupement hospitalier de territoire - Psychiatrie"
     }]
   }
 }

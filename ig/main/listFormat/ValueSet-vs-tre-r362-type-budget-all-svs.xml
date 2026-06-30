@@ -9,13 +9,6 @@
              id=""
              typeFichier="JDV"
              urlFichier="">
-      <ConceptList>
-         <Concept code="02"
-                  codeSystem="1.2.250.1.213.1.6.1.256"
-                  displayName="Budget annexe"/>
-         <Concept code="01"
-                  codeSystem="1.2.250.1.213.1.6.1.256"
-                  displayName="Budget général"/>
-      </ConceptList>
+      <ConceptList/>
    </ValueSet>
 </RetrieveValueSetResponse>

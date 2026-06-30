@@ -9,7 +9,7 @@
   "language" : "fr-FR",
   "text" : {
     "status" : "generated",
-    "div" : "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet jdv-j325-activite-sociale-regulee-niv2-finess</b></p><a name=\"jdv-j325-activite-sociale-regulee-niv2-finess\"> </a><a name=\"hcjdv-j325-activite-sociale-regulee-niv2-finess\"> </a><a name=\"jdv-j325-activite-sociale-regulee-niv2-finess-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 2; Last updated: 2026-02-23 18:17:31+0100; Language: fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSetversion: null4.0.1)</a></p></div><ul><li>Include codes provenant de<a href=\"CodeSystem-tre-r401-activite-sociale-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee</code></a> où niveau  = 2 et finess  = true</li></ul></div>"
+    "div" : "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j325-activite-sociale-regulee-niv2-finess</b></p><a name=\"jdv-j325-activite-sociale-regulee-niv2-finess\"> </a><a name=\"hcjdv-j325-activite-sociale-regulee-niv2-finess\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 3; Dernière mise à jour : 2026-05-05 19:02:14+0200; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a> version : 4.0.1</p></div><ul><li>Include codes provenant de<a href=\"CodeSystem-tre-r401-activite-sociale-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee</code></a><span title=\"La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\"> version &#x1F4E6;20260601120000</span> où niveau  = 2 et finess  = true</li></ul></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -49,54 +49,6 @@
         "op" : "=",
         "value" : "true"
       }]
-    }]
-  },
-  "expansion" : {
-    "identifier" : "urn:uuid:64f0645c-c3ba-462f-8f43-39bccebf75c6",
-    "timestamp" : "2026-06-30T15:48:58+02:00",
-    "total" : 7,
-    "parameter" : [{
-      "name" : "used-codesystem",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee|20260601120000"
-    },
-    {
-      "name" : "version",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee|20260601120000"
-    }],
-    "contains" : [{
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-      "code" : "4600",
-      "display" : "Action sociale autres adultes"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-      "code" : "4300",
-      "display" : "Adultes handicapés"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-      "code" : "4800",
-      "display" : "Aide à la famille"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-      "code" : "4900",
-      "display" : "Autres services du domaine social"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-      "code" : "4700",
-      "display" : "Enfance handicapée"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-      "code" : "4400",
-      "display" : "Personnes âgées"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-      "code" : "4500",
-      "display" : "Protection de l'enfance"
     }]
   }
 }

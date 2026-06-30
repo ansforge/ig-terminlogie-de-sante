@@ -47,7 +47,7 @@ Requête sur le SMT
 
 | | | |
 | :--- | :--- | :--- |
-|  [<prev](ValueSet-JDV-J70-Equipement-Santefr.demande.md) | [top](#top) |  [next>](ValueSet-jdv-modele-document-cda-testing.md) |
+|  [<prev](ValueSet-jdv-mode-sortie-obp-snm-cisis.demande.md) | [top](#top) |  [next>](ValueSet-jdv-modele-document-cda-testing.md) |
 
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.0 based on
@@ -81,7 +81,7 @@ Liens:
   "title" : "Jdv Modele Document Cda",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-30T13:49:57+00:00",
+  "date" : "2026-06-30T15:08:49+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",

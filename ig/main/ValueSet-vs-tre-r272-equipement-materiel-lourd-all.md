@@ -47,7 +47,7 @@ Requête sur le SMT
 
 | | | |
 | :--- | :--- | :--- |
-|  [<prev](ValueSet-JDV-J99-InseeNAFrav2Niveau5-RASS.demande.md) | [top](#top) |  [next>](ValueSet-vs-tre-r272-equipement-materiel-lourd-all-testing.md) |
+|  [<prev](ValueSet-vs-sms-all.demande.md) | [top](#top) |  [next>](ValueSet-vs-tre-r272-equipement-materiel-lourd-all-testing.md) |
 
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.0 based on

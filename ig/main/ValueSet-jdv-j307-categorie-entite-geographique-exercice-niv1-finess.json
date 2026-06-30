@@ -9,7 +9,7 @@
   "language" : "fr-FR",
   "text" : {
     "status" : "generated",
-    "div" : "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet jdv-j307-categorie-entite-geographique-exercice-niv1-finess</b></p><a name=\"jdv-j307-categorie-entite-geographique-exercice-niv1-finess\"> </a><a name=\"hcjdv-j307-categorie-entite-geographique-exercice-niv1-finess\"> </a><a name=\"jdv-j307-categorie-entite-geographique-exercice-niv1-finess-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 2; Last updated: 2026-02-23 18:17:29+0100; Language: fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSetversion: null4.0.1)</a></p></div><ul><li>Include codes provenant de<a href=\"CodeSystem-tre-r397-categorie-entite-geographique-exercice.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice</code></a> où niveau  = 1</li></ul></div>"
+    "div" : "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j307-categorie-entite-geographique-exercice-niv1-finess</b></p><a name=\"jdv-j307-categorie-entite-geographique-exercice-niv1-finess\"> </a><a name=\"hcjdv-j307-categorie-entite-geographique-exercice-niv1-finess\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 3; Dernière mise à jour : 2026-05-05 19:02:10+0200; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a> version : 4.0.1</p></div><ul><li>Include codes provenant de<a href=\"CodeSystem-tre-r397-categorie-entite-geographique-exercice.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice</code></a><span title=\"La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\"> version &#x1F4E6;20260601120000</span> où niveau  = 1</li></ul></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -44,84 +44,6 @@
         "op" : "=",
         "value" : "1"
       }]
-    }]
-  },
-  "expansion" : {
-    "extension" : [{
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "status"
-      },
-      {
-        "url" : "uri",
-        "valueUri" : "http://hl7.org/fhir/concept-properties#status"
-      }],
-      "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.property"
-    }],
-    "identifier" : "urn:uuid:c5081d06-0440-4c1d-a3c2-a257f8e4f989",
-    "timestamp" : "2026-06-30T15:48:59+02:00",
-    "total" : 7,
-    "parameter" : [{
-      "name" : "used-codesystem",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice|20260601120000"
-    },
-    {
-      "name" : "version",
-      "valueUri" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice|20260601120000"
-    }],
-    "contains" : [{
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
-      "code" : "2000",
-      "display" : "Autres Etablissements de Soins et Prévention"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
-      "code" : "3000",
-      "display" : "Autres Etablissements à Caractère Sanitaire"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
-      "code" : "6000",
-      "display" : "Etab.de Formation des Personnels Sanitaires et Sociaux"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
-      "code" : "4000",
-      "display" : "Etab.Serv.Soc.d'Accueil Hébergement Assistance Réadaptation"
-    },
-    {
-      "extension" : [{
-        "extension" : [{
-          "url" : "inactive",
-          "valueBoolean" : true
-        }],
-        "url" : "http://ontoserver.csiro.au/profiles/expansion"
-      },
-      {
-        "extension" : [{
-          "url" : "code",
-          "valueCode" : "status"
-        },
-        {
-          "url" : "value",
-          "valueCode" : "deprecated"
-        }],
-        "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.property"
-      }],
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
-      "inactive" : true,
-      "code" : "0100",
-      "display" : "Etablissements d'administration"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
-      "code" : "5000",
-      "display" : "Etablissements et Services Sociaux d'Aide à la Famille"
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
-      "code" : "1000",
-      "display" : "Etablissements Relevant de la Loi Hospitalière"
     }]
   }
 }

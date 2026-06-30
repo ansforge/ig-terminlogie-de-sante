@@ -20,7 +20,7 @@
   fhir:Resource.language [ fhir:value "fr-FR"] ;
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ] ;
-     fhir:Narrative.div "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j366-statut-bilan-projet-personnalise-ms</b></p><a name=\"jdv-j366-statut-bilan-projet-personnalise-ms\"> </a><a name=\"hcjdv-j366-statut-bilan-projet-personnalise-ms\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 2; Dernière mise à jour : 2025-07-01 13:32:18+0000; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion basée sur <a href=\"CodeSystem-tre-r389-statut-bilan-projet-personnalise.html\">codesystem Tre R389 Statut Bilan Projet Personnalise v20250418120000 (CodeSystem)</a></p><p>Ce jeu de valeur (ValueSet) contient 3 concepts</p><table class=\"codes\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage (fr-FR)</b> - French (France) (fr)</td></tr><tr><td><a name=\"jdv-j366-statut-bilan-projet-personnalise-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise-FINAL\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r389-statut-bilan-projet-personnalise.html#tre-r389-statut-bilan-projet-personnalise-FINAL\">FINAL</a></td><td>Final</td></tr><tr><td><a name=\"jdv-j366-statut-bilan-projet-personnalise-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise-INTERMEDIAIRE\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r389-statut-bilan-projet-personnalise.html#tre-r389-statut-bilan-projet-personnalise-INTERMEDIAIRE\">INTERMEDIAIRE</a></td><td>Intermédiaire</td></tr><tr><td><a name=\"jdv-j366-statut-bilan-projet-personnalise-ms-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise-PARTIEL\"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise</code></td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-tre-r389-statut-bilan-projet-personnalise.html#tre-r389-statut-bilan-projet-personnalise-PARTIEL\">PARTIEL</a></td><td>Partiel</td></tr></table></div>"
+     fhir:Narrative.div "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j366-statut-bilan-projet-personnalise-ms</b></p><a name=\"jdv-j366-statut-bilan-projet-personnalise-ms\"> </a><a name=\"hcjdv-j366-statut-bilan-projet-personnalise-ms\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 2; Dernière mise à jour : 2025-07-01 13:32:18+0000; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include codes provenant de<a href=\"CodeSystem-tre-r389-statut-bilan-projet-personnalise.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise</code></a><span title=\"La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\"> version ?20250418120000</span> où status  = active</li></ul></div>"
   ] ;
   fhir:DomainResource.extension [
      fhir:index 0 ;
@@ -61,36 +61,6 @@
          fhir:ValueSet.compose.include.filter.op [ fhir:value "=" ] ;
          fhir:ValueSet.compose.include.filter.value [ fhir:value "active" ]
        ]
-     ]
-  ] ;
-  fhir:ValueSet.expansion [
-     fhir:ValueSet.expansion.identifier [ fhir:value "urn:uuid:431c26ca-3ee3-4ecd-a337-698503974161" ] ;
-     fhir:ValueSet.expansion.timestamp [ fhir:value "2026-06-30T15:49:17+02:00"^^xsd:dateTime ] ;
-     fhir:ValueSet.expansion.total [ fhir:value "3"^^xsd:integer ] ;
-     fhir:ValueSet.expansion.parameter [
-       fhir:index 0 ;
-       fhir:ValueSet.expansion.parameter.name [ fhir:value "used-codesystem" ] ;
-       fhir:ValueSet.expansion.parameter.valueUri [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise|20250418120000" ]
-     ], [
-       fhir:index 1 ;
-       fhir:ValueSet.expansion.parameter.name [ fhir:value "version" ] ;
-       fhir:ValueSet.expansion.parameter.valueUri [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise|20250418120000" ]
-     ] ;
-     fhir:ValueSet.expansion.contains [
-       fhir:index 0 ;
-       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise" ] ;
-       fhir:ValueSet.expansion.contains.code [ fhir:value "FINAL" ] ;
-       fhir:ValueSet.expansion.contains.display [ fhir:value "Final" ]
-     ], [
-       fhir:index 1 ;
-       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise" ] ;
-       fhir:ValueSet.expansion.contains.code [ fhir:value "INTERMEDIAIRE" ] ;
-       fhir:ValueSet.expansion.contains.display [ fhir:value "Intermédiaire" ]
-     ], [
-       fhir:index 2 ;
-       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise" ] ;
-       fhir:ValueSet.expansion.contains.code [ fhir:value "PARTIEL" ] ;
-       fhir:ValueSet.expansion.contains.display [ fhir:value "Partiel" ]
      ]
   ] .
 

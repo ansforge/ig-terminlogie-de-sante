@@ -9,7 +9,7 @@
   </meta>
   <language value="fr-FR"/>
   <text>
-    <status value="generated"/><div xml:lang="fr-FR" xmlns="http://www.w3.org/1999/xhtml" lang="fr-FR"><p class="res-header-id"><b>Narratif généré : EnsembleValeurs jdv-j358-type-autorite-enregistrement-finess</b></p><a name="jdv-j358-type-autorite-enregistrement-finess"> </a><a name="hcjdv-j358-type-autorite-enregistrement-finess"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version : 1; Dernière mise à jour : 2026-06-29 15:18:26+0200; Langue : fr-FR</p><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSet</a></p></div><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion basée sur <a href="CodeSystem-tre-r396-autorite.html">codesystem Tre R396 Autorite v20260629120000 (CodeSystem)</a></p><p>Ce jeu de valeur (ValueSet) contient 4 concepts</p><table class="codes"><tr><td><b>Système</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Affichage (fr-FR)</b> - French (France) (fr)</td></tr><tr><td><a name="jdv-j358-type-autorite-enregistrement-finess-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite-02"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite</code></td><td style="white-space:nowrap">  <a href="CodeSystem-tre-r396-autorite.html#tre-r396-autorite-02">02</a></td><td>Agence Régional de Santé</td></tr><tr><td><a name="jdv-j358-type-autorite-enregistrement-finess-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite-06"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite</code></td><td style="white-space:nowrap">  <a href="CodeSystem-tre-r396-autorite.html#tre-r396-autorite-06">06</a></td><td>Conseil départemental</td></tr><tr><td><a name="jdv-j358-type-autorite-enregistrement-finess-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite-05"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite</code></td><td style="white-space:nowrap">  <a href="CodeSystem-tre-r396-autorite.html#tre-r396-autorite-05">05</a></td><td>Direction régionale et interdépartementale de l'Hébergement et du Logement</td></tr><tr><td><a name="jdv-j358-type-autorite-enregistrement-finess-https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite-04"> </a><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite</code></td><td style="white-space:nowrap">  <a href="CodeSystem-tre-r396-autorite.html#tre-r396-autorite-04">04</a></td><td>Directions régionales de l'économie de l'emploi du travail et des solidarités</td></tr></table></div>
+    <status value="generated"/><div xml:lang="fr-FR" xmlns="http://www.w3.org/1999/xhtml" lang="fr-FR"><p class="res-header-id"><b>Narratif généré : EnsembleValeurs jdv-j358-type-autorite-enregistrement-finess</b></p><a name="jdv-j358-type-autorite-enregistrement-finess"> </a><a name="hcjdv-j358-type-autorite-enregistrement-finess"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version : 1; Dernière mise à jour : 2026-06-29 15:18:26+0200; Langue : fr-FR</p><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSet</a></p></div><ul><li>Include codes provenant de<a href="CodeSystem-tre-r396-autorite.html"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite</code></a><span title="La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification"> version &#x1F4E6;20260629120000</span> où autoriteEnregistrementFiness  = true et niveau  = 1</li></ul></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
     <valuePeriod>
@@ -50,37 +50,4 @@
       </filter>
     </include>
   </compose>
-  <expansion>
-    <identifier value="urn:uuid:4cf68b3b-61c1-4d87-8c81-59e043f13802"/>
-    <timestamp value="2026-06-30T15:48:35+02:00"/>
-    <total value="4"/>
-    <parameter>
-      <name value="used-codesystem"/>
-      <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite|20260629120000"/>
-    </parameter>
-    <parameter>
-      <name value="version"/>
-      <valueUri value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite|20260629120000"/>
-    </parameter>
-    <contains>
-      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"/>
-      <code value="02"/>
-      <display value="Agence Régional de Santé"/>
-    </contains>
-    <contains>
-      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"/>
-      <code value="06"/>
-      <display value="Conseil départemental"/>
-    </contains>
-    <contains>
-      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"/>
-      <code value="05"/>
-      <display value="Direction régionale et interdépartementale de l'Hébergement et du Logement"/>
-    </contains>
-    <contains>
-      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"/>
-      <code value="04"/>
-      <display value="Directions régionales de l'économie de l'emploi du travail et des solidarités"/>
-    </contains>
-  </expansion>
 </ValueSet>

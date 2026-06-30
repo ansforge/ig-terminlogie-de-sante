@@ -20,7 +20,7 @@
   fhir:Resource.language [ fhir:value "fr-FR"] ;
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ] ;
-     fhir:Narrative.div "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j322-type-act-enseignement-regulee-finess</b></p><a name=\"jdv-j322-type-act-enseignement-regulee-finess\"> </a><a name=\"hcjdv-j322-type-act-enseignement-regulee-finess\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 1; Dernière mise à jour : 2026-06-29 11:18:49+0200; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion basée sur <a href=\"CodeSystem-tre-r392-type-act-smsse-regulee.html\">codesystem Tre R392 Type Act Smsse Regulee v20260629120000 (CodeSystem)</a></p><p>Ce jeu de valeur (ValueSet) contient 0 concepts</p><table class=\"codes\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage (fr-FR)</b> - French (France) (fr)</td></tr></table></div>"
+     fhir:Narrative.div "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j322-type-act-enseignement-regulee-finess</b></p><a name=\"jdv-j322-type-act-enseignement-regulee-finess\"> </a><a name=\"hcjdv-j322-type-act-enseignement-regulee-finess\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 1; Dernière mise à jour : 2026-06-29 11:18:49+0200; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include codes provenant de<a href=\"CodeSystem-tre-r392-type-act-smsse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee</code></a><span title=\"La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\"> version ?20260629120000</span> où natureActivite  = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee#AER</li></ul></div>"
   ] ;
   fhir:DomainResource.extension [
      fhir:index 0 ;
@@ -61,20 +61,6 @@
          fhir:ValueSet.compose.include.filter.op [ fhir:value "=" ] ;
          fhir:ValueSet.compose.include.filter.value [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee#AER" ]
        ]
-     ]
-  ] ;
-  fhir:ValueSet.expansion [
-     fhir:ValueSet.expansion.identifier [ fhir:value "urn:uuid:5453ba05-71a2-4bcd-86a4-542fe3e72d11" ] ;
-     fhir:ValueSet.expansion.timestamp [ fhir:value "2026-06-30T15:48:33+02:00"^^xsd:dateTime ] ;
-     fhir:ValueSet.expansion.total [ fhir:value "0"^^xsd:integer ] ;
-     fhir:ValueSet.expansion.parameter [
-       fhir:index 0 ;
-       fhir:ValueSet.expansion.parameter.name [ fhir:value "used-codesystem" ] ;
-       fhir:ValueSet.expansion.parameter.valueUri [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee|20260629120000" ]
-     ], [
-       fhir:index 1 ;
-       fhir:ValueSet.expansion.parameter.name [ fhir:value "version" ] ;
-       fhir:ValueSet.expansion.parameter.valueUri [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee|20260629120000" ]
      ]
   ] .
 

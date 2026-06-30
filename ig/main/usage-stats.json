@@ -6,11 +6,8 @@
   "extensions": [],
   "profiles": {},
   "usage": {
-    "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.property": [
-      "ValueSet.expansion.contains"
-    ],
-    "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.property": [
-      "ValueSet.expansion"
+    "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url": [
+      "NamingSystem"
     ],
     "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type": [
       "CodeSystem"
@@ -22,6 +19,12 @@
       "CodeSystem",
       "ConceptMap",
       "ValueSet"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm": [
+      "CodeSystem"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg": [
+      "CodeSystem"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/expansion-parameters": [
       "ImplementationGuide.definition"
@@ -43,8 +46,11 @@
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
     ],
-    "http://ontoserver.csiro.au/profiles/expansion": [
-      "ValueSet.expansion.contains"
+    "http://ontoserver.csiro.au/profiles/cs-provenance": [
+      "CodeSystem"
+    ],
+    "http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-relationshipKind": [
+      "CodeSystem.property"
     ]
   }
 }

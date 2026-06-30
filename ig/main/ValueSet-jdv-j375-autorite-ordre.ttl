@@ -20,7 +20,7 @@
   fhir:Resource.language [ fhir:value "fr-FR"] ;
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ] ;
-     fhir:Narrative.div "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet jdv-j375-autorite-ordre</b></p><a name=\"jdv-j375-autorite-ordre\"> </a><a name=\"hcjdv-j375-autorite-ordre\"> </a><a name=\"jdv-j375-autorite-ordre-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Last updated: 2026-03-27 11:18:11+0100; Language: fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include codes provenant de<a href=\"CodeSystem-tre-r396-autorite.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite</code></a> où parent  = <a href=\"CodeSystem-tre-r396-autorite.html#tre-r396-autorite-01\">01</a></li></ul></div>"
+     fhir:Narrative.div "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j375-autorite-ordre</b></p><a name=\"jdv-j375-autorite-ordre\"> </a><a name=\"hcjdv-j375-autorite-ordre\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 2; Dernière mise à jour : 2026-05-05 19:02:22+0200; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include codes provenant de<a href=\"CodeSystem-tre-r396-autorite.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite</code></a><span title=\"La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\"> version ?20260629120000</span> où parent  = <a href=\"CodeSystem-tre-r396-autorite.html#tre-r396-autorite-01\">01</a></li></ul></div>"
   ] ;
   fhir:DomainResource.extension [
      fhir:index 0 ;
@@ -61,56 +61,6 @@
          fhir:ValueSet.compose.include.filter.op [ fhir:value "=" ] ;
          fhir:ValueSet.compose.include.filter.value [ fhir:value "01" ]
        ]
-     ]
-  ] ;
-  fhir:ValueSet.expansion [
-     fhir:ValueSet.expansion.identifier [ fhir:value "urn:uuid:570a241a-1680-427e-a6d4-a8b78da4fbf1" ] ;
-     fhir:ValueSet.expansion.timestamp [ fhir:value "2026-06-30T15:49:25+02:00"^^xsd:dateTime ] ;
-     fhir:ValueSet.expansion.total [ fhir:value "7"^^xsd:integer ] ;
-     fhir:ValueSet.expansion.parameter [
-       fhir:index 0 ;
-       fhir:ValueSet.expansion.parameter.name [ fhir:value "used-codesystem" ] ;
-       fhir:ValueSet.expansion.parameter.valueUri [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite|20260629120000" ]
-     ], [
-       fhir:index 1 ;
-       fhir:ValueSet.expansion.parameter.name [ fhir:value "version" ] ;
-       fhir:ValueSet.expansion.parameter.valueUri [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite|20260629120000" ]
-     ] ;
-     fhir:ValueSet.expansion.contains [
-       fhir:index 0 ;
-       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
-       fhir:ValueSet.expansion.contains.code [ fhir:value "ONCD" ] ;
-       fhir:ValueSet.expansion.contains.display [ fhir:value "Ordre des chirurgiens-dentistes" ]
-     ], [
-       fhir:index 1 ;
-       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
-       fhir:ValueSet.expansion.contains.code [ fhir:value "ONI" ] ;
-       fhir:ValueSet.expansion.contains.display [ fhir:value "Ordre des infirmiers" ]
-     ], [
-       fhir:index 2 ;
-       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
-       fhir:ValueSet.expansion.contains.code [ fhir:value "CNOMK" ] ;
-       fhir:ValueSet.expansion.contains.display [ fhir:value "Ordre des masseurs-kinésithérapeutes" ]
-     ], [
-       fhir:index 3 ;
-       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
-       fhir:ValueSet.expansion.contains.code [ fhir:value "CNOM" ] ;
-       fhir:ValueSet.expansion.contains.display [ fhir:value "Ordre des médecins" ]
-     ], [
-       fhir:index 4 ;
-       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
-       fhir:ValueSet.expansion.contains.code [ fhir:value "CNOP" ] ;
-       fhir:ValueSet.expansion.contains.display [ fhir:value "Ordre des pharmaciens" ]
-     ], [
-       fhir:index 5 ;
-       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
-       fhir:ValueSet.expansion.contains.code [ fhir:value "CNOPP" ] ;
-       fhir:ValueSet.expansion.contains.display [ fhir:value "Ordre des pédicures-podologues" ]
-     ], [
-       fhir:index 6 ;
-       fhir:ValueSet.expansion.contains.system [ fhir:value "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite" ] ;
-       fhir:ValueSet.expansion.contains.code [ fhir:value "CNOSF" ] ;
-       fhir:ValueSet.expansion.contains.display [ fhir:value "Ordre des sages-femmes" ]
      ]
   ] .
 

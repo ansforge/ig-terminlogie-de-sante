@@ -29,6 +29,7 @@ Rôle dans la prise en charge des patients ou des usagers
 * [JDV_J65_SubjectRole_DMP](ValueSet-JDV-J65-SubjectRole-DMP.md)
 * [JDV_J71_ProfessionFonction_MSSante](ValueSet-JDV-J71-ProfessionFonction-MSSante.md)
 * [JdvJ387RoleParticipantMs](ValueSet-jdv-j387-role-participant-ms.md)
+* [JdvProfessionPersonnelActiviteCisis](ValueSet-jdv-profession-personnel-activite-cisis.md)
 
 
 

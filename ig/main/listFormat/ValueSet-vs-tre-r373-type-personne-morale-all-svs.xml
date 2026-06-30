@@ -9,10 +9,6 @@
              id=""
              typeFichier="JDV"
              urlFichier="">
-      <ConceptList>
-         <Concept code="01"
-                  codeSystem="1.2.250.1.213.1.6.1.253"
-                  displayName="Personne morale d'exercice (Exercice)"/>
-      </ConceptList>
+      <ConceptList/>
    </ValueSet>
 </RetrieveValueSetResponse>

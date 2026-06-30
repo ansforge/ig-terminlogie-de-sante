@@ -9,7 +9,7 @@
   "language" : "fr-FR",
   "text" : {
     "status" : "generated",
-    "div" : "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet jdv-j352-nature-capacite-finess</b></p><a name=\"jdv-j352-nature-capacite-finess\"> </a><a name=\"hcjdv-j352-nature-capacite-finess\"> </a><a name=\"jdv-j352-nature-capacite-finess-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Last updated: 2026-05-05 09:32:56+0200; Language: fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include codes provenant de<a href=\"CodeSystem-TRE-R329-NatureCapacite.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R329-NatureCapacite/FHIR/TRE-R329-NatureCapacite</code></a> où finess  = true</li></ul></div>"
+    "div" : "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j352-nature-capacite-finess</b></p><a name=\"jdv-j352-nature-capacite-finess\"> </a><a name=\"hcjdv-j352-nature-capacite-finess\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 2; Dernière mise à jour : 2026-05-05 19:02:18+0200; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include codes provenant de<a href=\"CodeSystem-TRE-R329-NatureCapacite.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R329-NatureCapacite/FHIR/TRE-R329-NatureCapacite</code></a><span title=\"La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\"> version &#x1F4E6;20260505120000</span> où finess  = true</li></ul></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -44,29 +44,6 @@
         "op" : "=",
         "value" : "true"
       }]
-    }]
-  },
-  "expansion" : {
-    "identifier" : "urn:uuid:2a339983-a825-498e-be60-1428f26f1316",
-    "timestamp" : "2026-06-30T15:49:33+02:00",
-    "total" : 2,
-    "parameter" : [{
-      "name" : "used-codesystem",
-      "valueUri" : "https://mos.esante.gouv.fr/NOS/TRE_R329-NatureCapacite/FHIR/TRE-R329-NatureCapacite|20260505120000"
-    },
-    {
-      "name" : "version",
-      "valueUri" : "https://mos.esante.gouv.fr/NOS/TRE_R329-NatureCapacite/FHIR/TRE-R329-NatureCapacite|20260505120000"
-    }],
-    "contains" : [{
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R329-NatureCapacite/FHIR/TRE-R329-NatureCapacite",
-      "code" : "03",
-      "display" : "Logement"
-    },
-    {
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R329-NatureCapacite/FHIR/TRE-R329-NatureCapacite",
-      "code" : "02",
-      "display" : "Place"
     }]
   }
 }

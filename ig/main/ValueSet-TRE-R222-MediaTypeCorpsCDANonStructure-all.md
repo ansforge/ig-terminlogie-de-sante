@@ -47,7 +47,7 @@ Requête sur le SMT
 
 | | | |
 | :--- | :--- | :--- |
-|  [<prev](ValueSet-jdv-tre-r221-modele-document-cda-non-structure-all.demande.md) | [top](#top) |  [next>](ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all-testing.md) |
+|  [<prev](ValueSet-jdv-voie-abord-cisis.demande.md) | [top](#top) |  [next>](ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all-testing.md) |
 
 IG © 2020+
 [ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.0 based on
@@ -81,7 +81,7 @@ Liens:
   "title" : "JDV-MediaTypeCorpsCDANonStructure",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-30T13:49:57+00:00",
+  "date" : "2026-06-30T15:08:49+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
